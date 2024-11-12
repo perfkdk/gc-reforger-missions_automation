@@ -1,0 +1,219 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 2168.983 53.296 2654.726
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2153.431 51.941 2649.539
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeatehr 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{62D8B35DF3E9ADE2}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 12
+    }
+   }
+  }
+ }
+ coords 2147.629 51.472 2630.997
+ {
+  SCR_FactionManager "62D9045C6BF85483" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     UIInfo SCR_FactionUIInfo "{528C961236B7DCD3}" {
+      Name "Red Team"
+      m_sNameUpper "RED TEAM"
+     }
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     UIInfo SCR_FactionUIInfo "{5977478D568C0938}" {
+      Name "Red Team"
+      m_sNameUpper "RED TEAM"
+     }
+     m_bIsPlayable 1
+     m_CallsignInfo SCR_FactionCallsignInfo "{5977478D568C093C}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{5977478D568C092E}" {
+        m_sCallsign "6"
+       }
+       SCR_CallsignInfo "{5977478D568C092D}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{5977478D568D935E}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{5977478D568D935F}" {
+        m_sCallsign "3"
+       }
+      }
+      m_sCallsignGroupFormat "RED %2-%3"
+      m_sCallsignCharacterFormat "RED %2-%3: %4"
+     }
+    }
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     UIInfo SCR_FactionUIInfo "{5CC8B5EDA0CDBD62}" {
+      Name "Blue Team"
+      m_sNameUpper "BLUE TEAM"
+     }
+     m_bIsPlayable 1
+     m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE6E998D}" {
+        m_sCallsign "1"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign "6"
+       }
+       SCR_CallsignInfo "{55CCB792D13759D8}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+        m_sCallsign "3"
+       }
+      }
+      m_sCallsignGroupFormat "BLUE %2-%3"
+      m_sCallsignCharacterFormat "BLUE %2-%3: %4"
+     }
+    }
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ coords 2736.207 108.358 2854.532
+ Points {
+  ShapePoint "{62D9045A084F7739}" {
+   Position 459.347 0 6.965
+  }
+  ShapePoint "{62D9045A0A88E8B8}" {
+   Position -337.586 0 430.659
+  }
+  ShapePoint "{62D9045A1BD03C84}" {
+   Position -589.029 0 -221.007
+  }
+  ShapePoint "{62D9045A14958EB2}" {
+   Position 117.284 0 -608.827
+  }
+ }
+}
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+ BLU_CAP {
+  coords 2617.795 102.7 2617.066
+  m_queryRadius 25
+  m_captureIterations 18
+  m_sendStatusMessages 1
+  m_locationName "Timber Ridge"
+  m_flagName "BLU_CAP"
+  m_playersOnly 1
+  m_ownerFactionKey "RHS_USAF"
+ }
+ RED_CAP {
+  coords 2617.795 102.7 2617.066
+  m_queryRadius 25
+  m_captureIterations 18
+  m_sendStatusMessages 1
+  m_locationName "Timber Ridge"
+  m_flagName "RED_CAP"
+  m_playersOnly 1
+  m_ownerFactionKey "RHS_AFRF"
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 2468.943 0 3358.459
+ m_missionEvents {
+  TILW_MissionEvent "{62D9045B0F0A19C3}" {
+   m_name "RED KIA"
+   m_instructions {
+    TILW_SendMessageInstruction "{62D9045B0317FB69}" {
+     m_messageTitle "BLUE VICTORY"
+     m_messageBody "Red team has been eliminated."
+     m_factionKeys {
+      "RHS_USAF" "RHS_AFRF"
+     }
+    }
+    TILW_EndGameInstruction "{62D9045BE9F33741}" {
+     m_executionDelay 20
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62D90454CE58675A}" {
+    m_flagName "RED_KIA"
+   }
+  }
+  TILW_MissionEvent "{62D9045BF126A5E2}" {
+   m_name "BLUE KIA"
+   m_instructions {
+    TILW_SendMessageInstruction "{62D9045B0317FB69}" {
+     m_messageTitle "RED VICTORY"
+     m_messageBody "Blue team has been eliminated."
+     m_factionKeys {
+      "RHS_USAF" "RHS_AFRF"
+     }
+    }
+    TILW_EndGameInstruction "{62D9045B1130F2BD}" {
+     m_executionDelay 20
+     m_factionKey "RHS_AFRF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62D90454C53ACBC0}" {
+    m_flagName "BLUE_KIA"
+   }
+  }
+  TILW_MissionEvent "{62D90454E3DA22A4}" {
+   m_name "RED CAP"
+   m_instructions {
+    TILW_SendMessageInstruction "{62D9045B0317FB69}" {
+     m_messageTitle "RED VICTORY"
+     m_messageBody "Timber Ridge has been captured."
+     m_factionKeys {
+      "RHS_USAF" "RHS_AFRF"
+     }
+    }
+    TILW_EndGameInstruction "{62D9045B1130F2BD}" {
+     m_executionDelay 20
+     m_factionKey "RHS_AFRF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62D90454C53ACBC0}" {
+    m_flagName "RED_CAP"
+   }
+  }
+  TILW_MissionEvent "{62D90454D3B60D5C}" {
+   m_name "BLUE CAP"
+   m_instructions {
+    TILW_SendMessageInstruction "{62D9045B0317FB69}" {
+     m_messageTitle "BLUE VICTORY"
+     m_messageBody "Timber Ridge has been captured.."
+     m_factionKeys {
+      "RHS_USAF" "RHS_AFRF"
+     }
+    }
+    TILW_EndGameInstruction "{62D9045BE9F33741}" {
+     m_executionDelay 20
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62D90454CE58675A}" {
+    m_flagName "BLUE_CAP"
+   }
+  }
+ }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{62D9045B3EC1497C}" {
+   m_flagName "RED_KIA"
+   m_factionKey "RHS_AFRF"
+  }
+  TILW_FactionPlayersKilledFlag "{62D9045B369469B3}" {
+   m_flagName "BLUE_KIA"
+   m_factionKey "RHS_USAF"
+  }
+ }
+}

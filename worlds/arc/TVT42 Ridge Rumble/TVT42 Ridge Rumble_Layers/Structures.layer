@@ -1,0 +1,95 @@
+GenericEntity : "{02D53C3EA1C76E4D}PrefabsEditable/Auto/Props/Wrecks/E_M151A2_wreck.et" {
+ coords 2647.834 97.953 2663.308
+ angleX 3.554
+ angleY -166.587
+}
+GenericEntity : "{071B55C2A5E0346F}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V2_US.et" {
+ coords 2617.872 102.839 2617.115
+}
+$grp GenericEntity : "{258D0520BA0FC415}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_04.et" {
+ {
+  coords 2632.785 102.562 2626.451
+  angleY 21.937
+ }
+ {
+  coords 2620.051 102.732 2601.425
+  angleY 129.506
+ }
+ {
+  coords 2610.835 102.12 2621.62
+  angleX -0.669
+  angleY -80.937
+  angleZ 2.113
+ }
+}
+GenericEntity : "{9E5EDE35EFBF70B7}PrefabsEditable/Auto/Props/Wrecks/E_M923A1_wreck.et" {
+ coords 2639.099 98.7 2655.298
+ angleY -130.104
+ angleZ -0.694
+}
+$grp GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_US_01.et" {
+ {
+  coords 2634.831 102.188 2608.787
+  angleX -7.553
+  angleY 97.429
+  angleZ -2.851
+  {
+   GenericEntity {
+    ID "5CCCBECA91C25D11"
+    coords -3.775 -0.073 -0.863
+    angleY 79.836
+    angleZ 2.481
+   }
+   GenericEntity {
+    ID "5CCCBECA91C262E2"
+    coords 2.99 -0.142 -0.645
+    angleX -3.14
+    angleY 95.642
+    angleZ -0.276
+   }
+  }
+ }
+ {
+  coords 2618.915 102.144 2634.478
+  angleX -7.901
+  angleY -0.733
+  angleZ -1.068
+  {
+   GenericEntity {
+    ID "5CCCBECA91C25D11"
+    coords -3.726 -0.317 -0.856
+    angleX 8.776
+    angleY 79.836
+   }
+   GenericEntity {
+    ID "5CCCBECA91C262E2"
+    coords 3.001 0 -0.646
+    angleX -2.542
+    angleY 95.647
+    angleZ 2.632
+   }
+  }
+ }
+ {
+  coords 2604.49 103.42 2606.18
+  angleX -3.322
+  angleY -120.42
+  angleZ -2.41
+  {
+   GenericEntity {
+    ID "5CCCBECA91C25D11"
+    coords -3.773 -0.079 -0.868
+    angleX -0.289
+    angleY 79.813
+    angleZ 4.574
+   }
+   GenericEntity {
+    ID "5CCCBECA91C262E2"
+    coords 2.979 -0.321 -0.644
+    angleX -3.14
+    angleY 95.642
+    angleZ 3.744
+   }
+  }
+ }
+}
