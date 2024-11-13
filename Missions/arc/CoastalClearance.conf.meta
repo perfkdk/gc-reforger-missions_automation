@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F1AEED84D5DC8C8C}Missions/CO20_Coastal_Clearance.conf"
+ Name "{F1AEED84D5DC8C8C}Missions/CoastalClearance.conf"
  Configurations {
   CONFResourceClass PC {
   }
