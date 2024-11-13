@@ -110,8 +110,8 @@ TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger
  m_queryRadius 50
  m_captureIterations 18
  m_sendStatusMessages 1
+ m_locationName "Montfort Castle"
  m_flagName "USSR_CAP"
- m_playersOnly 1
  m_ownerFactionKey "USSR"
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
@@ -123,9 +123,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{62DA9C2A006456E7}" {
      m_messageTitle "FIA VICTORY"
      m_messageBody "Soviet forces are retreating due to casualties."
-     m_factionKeys {
-      "FIA" "USSR"
-     }
     }
     TILW_EndGameInstruction "{62DA9C2A10BDF98B}" {
      m_executionDelay 20
@@ -142,9 +139,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{62DA9C2A006456E7}" {
      m_messageTitle "USSR VICTORY"
      m_messageBody "FIA forces have been wiped out."
-     m_factionKeys {
-      "FIA" "USSR"
-     }
     }
     TILW_EndGameInstruction "{62DA9C2A10BDF98B}" {
      m_executionDelay 20
@@ -161,9 +155,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{62DA9C2A006456E7}" {
      m_messageTitle "USSR VICTORY"
      m_messageBody "Montfort Castle has been captured by Soviet forces."
-     m_factionKeys {
-      "FIA" "USSR"
-     }
     }
     TILW_EndGameInstruction "{62DA9C2A10BDF98B}" {
      m_executionDelay 20
@@ -181,9 +172,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 2700
      m_messageTitle "FIA VICTORY"
      m_messageBody "Enough time has passed that FIA forces can escape."
-     m_factionKeys {
-      "FIA" "USSR"
-     }
     }
     TILW_EndGameInstruction "{62DA9C2A10BDF98B}" {
      m_executionDelay 2720
