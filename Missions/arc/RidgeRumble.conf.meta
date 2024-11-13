@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A2A1E906E341615D}Missions/arc/TVT42_Ridge_Rumble.conf"
+ Name "{A2A1E906E341615D}Missions/arc/RidgeRumble.conf"
  Configurations {
   CONFResourceClass PC {
   }
