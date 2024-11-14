@@ -1,0 +1,158 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 4813.209 24.744 12001.562
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4819.255 25.331 11977.294
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 23
+   m_iStartingMinutes 30
+   m_bUsePredefineStartingTimeAndWeatehr 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{62DB6494EB294C94}" {
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 23
+     m_iStartingMinutes 45
+    }
+   }
+  }
+ }
+ coords 4824.647 26.461 11955.485
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE6E998D}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792CE18FB44}" {
+        m_sCallsign "Longbow"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign "6"
+       }
+       SCR_CallsignInfo "{55CCB792D13759D8}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+        m_sCallsign "3"
+       }
+      }
+      m_sCallsignGroupFormat "%2-%3"
+      m_sCallsignCharacterFormat "%2-%3: %4"
+      m_sCallsignCharacterWithRoleFormat "%2-%3: %4"
+     }
+    }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB79282FF010C}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792829053B0}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB79282A19687}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{55CCB792821E9332}" {
+        m_sCallsign "4"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB79287E901BC}" {
+        m_sCallsign "0"
+       }
+       SCR_CallsignInfo "{55CCB79287936EBD}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB79287BAFBD6}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB79287A4D7B6}" {
+        m_sCallsign "3"
+       }
+      }
+      m_sCallsignGroupFormat "%1%2%3"
+      m_sCallsignCharacterFormat "%1%2%3: %4"
+      m_sCallsignCharacterWithRoleFormat "%1%2%3: %4"
+     }
+    }
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 4912.641 -0 12414.665
+ m_missionEvents {
+  TILW_MissionEvent "{62DB649082B55EF4}" {
+   m_name "TIME_LIMIT"
+   m_instructions {
+    TILW_SendMessageInstruction "{62DB64909FBE1522}" {
+     m_executionDelay 2700
+     m_messageTitle "SOVIET VICTORY"
+     m_messageBody "45 minutes have passed, allowing the Spetznaz to escape."
+    }
+    TILW_EndGameInstruction "{62DB64937927E8C8}" {
+     m_executionDelay 2720
+     m_factionKey "USSR"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62DB64935D4B538A}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{62DB649370F91260}" {
+   m_name "US_KIA"
+   m_instructions {
+    TILW_SendMessageInstruction "{62DB64909FBE1522}" {
+     m_messageTitle "SOVIET VICTORY"
+     m_messageBody "The US attack has been wiped out."
+    }
+    TILW_EndGameInstruction "{62DB64937927E8C8}" {
+     m_executionDelay 20
+     m_factionKey "USSR"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62DB64935F17C381}" {
+    m_flagName "US_KIA"
+   }
+  }
+  TILW_MissionEvent "{62DB64934717DF50}" {
+   m_name "USSR_KIA"
+   m_instructions {
+    TILW_SendMessageInstruction "{62DB64909FBE1522}" {
+     m_messageTitle "US VICTORY"
+     m_messageBody "The Spetznaz teams have been wiped out."
+    }
+    TILW_EndGameInstruction "{62DB64937927E8C8}" {
+     m_executionDelay 20
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62DB6493549BAEEE}" {
+    m_flagName "USSR_KIA"
+   }
+  }
+ }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{62DB64908AC2BD36}" {
+   m_flagName "US_KIA"
+   m_factionKey "US"
+  }
+  TILW_FactionPlayersKilledFlag "{62DB649086E20DD3}" {
+   m_flagName "USSR_KIA"
+   m_factionKey "USSR"
+  }
+ }
+}
