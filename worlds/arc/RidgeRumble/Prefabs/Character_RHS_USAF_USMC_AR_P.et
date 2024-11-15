@@ -29,5 +29,23 @@ SCR_ChimeraCharacter : "{66876AB6DB22430B}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106E91310A3D}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+    }
+    ItemsInitConfigurationItem "{6063106E91310A26}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_MC.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_Coy.et"
+    }
+    ItemsInitConfigurationItem "{60CB7C7C044BF348}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+    }
+   }
+  }
  }
 }
