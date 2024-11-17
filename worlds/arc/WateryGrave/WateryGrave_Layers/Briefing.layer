@@ -25,7 +25,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "You have 5 minutes to set up before the attack begins."
   m_aVisibleForFactions {
-   "RHS_AFRF"
+   "CDF"
   }
  }
  {
@@ -36,6 +36,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "CDF forces have been forced to retreat to the west side of the Zherebets river, and have spent time getting entrenched to ensure we don't advance any further."\
   ""\
   "Our unit is tasked with crossing the Zherebets river and securing a bridgehead from entrenched CDF infantry."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
  }
  {
   coords 3361.261 20.387 2224.769

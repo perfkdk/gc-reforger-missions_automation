@@ -17,8 +17,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 2079.721 6.438 1963.339
+ m_iFreezeTime 300000
  {
-  SCR_FactionManager {
+  SCR_FactionManager "62E2FE0584CF76E1" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
@@ -90,13 +91,13 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    Position -492.822 0 456.061
   }
   ShapePoint "{62E2FE01F5F2D64B}" {
-   Position -475.781 -0 -324.543
+   Position -475.781 0 -324.543
   }
   ShapePoint "{62E2FE01C23B8AF2}" {
    Position 1365.923 0 -130.013
   }
   ShapePoint "{62E2FE01DB996A3A}" {
-   Position 1145.358 -0 776.798
+   Position 1145.358 0 776.798
   }
  }
 }
