@@ -1,0 +1,707 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
+     NavmeshFile "{AD5F99CD7C59D5E0}worlds/GameMaster/Navmeshes/GM_Eden.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" {
+     NavmeshFile "{C35ECF3276824654}worlds/GameMaster/Navmeshes/GM_Eden_vehicles.nmn"
+    }
+   }
+  }
+ }
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeatehr 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6262DB89721E4618}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 18
+    }
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ coords 2150 99.469 5300
+ Points {
+  ShapePoint "{6260FDBFCD9062DC}" {
+   Position 0 0 0
+  }
+  ShapePoint "{6260FDBFD078F041}" {
+   Position 0 0 2000
+  }
+  ShapePoint "{6260FDBE226F7D56}" {
+   Position 650 0 2000
+  }
+  ShapePoint "{6260FDBE27FBD637}" {
+   Position 650 0 0
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  PolylineShapeEntity {
+   coords 0 0 750
+   Points {
+    ShapePoint "{6261399412D97B30}" {
+     Position 50 0 0
+    }
+    ShapePoint "{6261399412DA96B3}" {
+     Position 600 0 0
+    }
+   }
+   LineColor 0 0 0 0
+   {
+    PrefabGeneratorEntity : "{6B59CE9ABF067E0A}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_OPFOR.et" {
+     coords 0 0 0
+     Flags 1048579
+     {
+      $grp PS_ManualMarker : "{5F773B024F23FD0F}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_OPFOR.et" {
+       {
+        coords 50 -9.04 0
+        m_sDescription "FLET"
+       }
+       {
+        coords 100 -6.093 0
+        m_sDescription "FLET"
+       }
+       {
+        coords 150 -4.127 0
+        m_sDescription "FLET"
+       }
+       {
+        coords 200 -3.239 0
+        m_sDescription "FLET"
+       }
+       {
+        coords 250 -6.616 0
+        m_sDescription "FLET"
+       }
+       {
+        coords 300 -13.029 0
+        m_sDescription "FLET"
+       }
+       {
+        coords 350 -12.487 0
+        m_sDescription "FLET"
+       }
+       {
+        coords 400 -11.336 0
+        m_sDescription "FLET"
+       }
+       {
+        coords 450 -11.156 0
+        m_sDescription "FLET"
+       }
+       {
+        coords 500 -11.237 0
+        m_sDescription "FLET"
+       }
+       {
+        coords 550 -8.753 0
+        m_sDescription "FLET"
+       }
+       {
+        coords 600 -3.381 0
+        m_sDescription "FLET"
+       }
+      }
+     }
+    }
+   }
+  }
+  PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
+   coords 0 0 0
+   Flags 1048579
+   {
+    $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
+     {
+      coords 0 1.106 0
+      angleY 0
+     }
+     {
+      coords 0 9.798 50
+      angleY 0
+     }
+     {
+      coords 0 12.84 100
+      angleY 0
+     }
+     {
+      coords 0 23.478 150
+      angleY 0
+     }
+     {
+      coords 0 30.314 200
+      angleY 0
+     }
+     {
+      coords 0 34.978 250
+      angleY 0
+     }
+     {
+      coords 0 35.772 300
+      angleY 0
+     }
+     {
+      coords 0 34.81 350
+      angleY 0
+     }
+     {
+      coords 0 30.423 400
+      angleY 0
+     }
+     {
+      coords 0 24.1 450
+      angleY 0
+     }
+     {
+      coords 0 16.709 500
+      angleY 0
+     }
+     {
+      coords 0 9.828 550
+      angleY 0
+     }
+     {
+      coords 0 4.275 600
+      angleY 0
+     }
+     {
+      coords 0 -1.892 650
+      angleY 0
+     }
+     {
+      coords 0 -5.703 700
+      angleY 0
+     }
+     {
+      coords 0 -13.343 750
+      angleY 0
+     }
+     {
+      coords 0 -24.938 800
+      angleY 0
+     }
+     {
+      coords 0 -39.804 850
+      angleY 0
+     }
+     {
+      coords 0 -51.434 900
+      angleY 0
+     }
+     {
+      coords 0 -62.183 950
+      angleY 0
+     }
+     {
+      coords 0 -71.961 1000
+      angleY 0
+     }
+     {
+      coords 0 -85.651 1050
+      angleY 0
+     }
+     {
+      coords 0 -93.073 1100
+      angleY 0
+     }
+     {
+      coords 0 -94.95 1150
+      angleY 0
+     }
+     {
+      coords 0 -96.575 1200
+      angleY 0
+     }
+     {
+      coords 0 -97.213 1250
+      angleY 0
+     }
+     {
+      coords 0 -92.046 1300
+      angleY 0
+     }
+     {
+      coords 0 -88.641 1350
+      angleY 0
+     }
+     {
+      coords 0 -87.892 1400
+      angleY 0
+     }
+     {
+      coords 0 -90.755 1450
+      angleY 0
+     }
+     {
+      coords 0 -93.386 1500
+      angleY 0
+     }
+     {
+      coords 0 -101.114 1550
+      angleY 0
+     }
+     {
+      coords 0 -92.398 1600
+      angleY 0
+     }
+     {
+      coords 0 -86.404 1650
+      angleY 0
+     }
+     {
+      coords 0 -86.685 1700
+      angleY 0
+     }
+     {
+      coords 0 -86.844 1750
+      angleY 0
+     }
+     {
+      coords 0 -88.657 1800
+      angleY 0
+     }
+     {
+      coords 0 -85.777 1850
+      angleY 0
+     }
+     {
+      coords 0 -82.491 1900
+      angleY 0
+     }
+     {
+      coords 0 -79.476 1950
+      angleY 0
+     }
+     {
+      coords 0 -77.244 2000
+      angleY 0
+     }
+     {
+      coords 50 -68.955 2000
+     }
+     {
+      coords 100 -58.746 2000
+     }
+     {
+      coords 150 -51.019 2000
+     }
+     {
+      coords 200 -45.829 2000
+     }
+     {
+      coords 250 -42.336 2000
+     }
+     {
+      coords 300 -42.51 2000
+     }
+     {
+      coords 350 -42.734 2000
+     }
+     {
+      coords 400 -48.314 2000
+     }
+     {
+      coords 450 -53.015 2000
+     }
+     {
+      coords 500 -55.667 2000
+     }
+     {
+      coords 550 -61.697 2000
+     }
+     {
+      coords 600 -72.895 2000
+     }
+     {
+      coords 650 -76.206 2000
+     }
+     {
+      coords 650 -68.861 1950
+      angleY -180
+     }
+     {
+      coords 650 -62.929 1900
+      angleY -180
+     }
+     {
+      coords 650 -60.657 1850
+      angleY -180
+     }
+     {
+      coords 650 -60.942 1800
+      angleY -180
+     }
+     {
+      coords 650 -63.46 1750
+      angleY -180
+     }
+     {
+      coords 650 -64.243 1700
+      angleY -180
+     }
+     {
+      coords 650 -63.411 1650
+      angleY -180
+     }
+     {
+      coords 650 -59.959 1600
+      angleY -180
+     }
+     {
+      coords 650 -55.476 1550
+      angleY -180
+     }
+     {
+      coords 650 -48.833 1500
+      angleY -180
+     }
+     {
+      coords 650 -39.223 1450
+      angleY -180
+     }
+     {
+      coords 650 -31.532 1400
+      angleY -180
+     }
+     {
+      coords 650 -29.714 1350
+      angleY -180
+     }
+     {
+      coords 650 -22.546 1300
+      angleY -180
+     }
+     {
+      coords 650 -20.658 1250
+      angleY -180
+     }
+     {
+      coords 650 -17.649 1200
+      angleY -180
+     }
+     {
+      coords 650 -15.155 1150
+      angleY -180
+     }
+     {
+      coords 650 -13.044 1100
+      angleY -180
+     }
+     {
+      coords 650 -12.09 1050
+      angleY -180
+     }
+     {
+      coords 650 -10.39 1000
+      angleY -180
+     }
+     {
+      coords 650 -6.665 950
+      angleY -180
+     }
+     {
+      coords 650 -4.459 900
+      angleY -180
+     }
+     {
+      coords 650 -2.627 850
+      angleY -180
+     }
+     {
+      coords 650 -1.503 800
+      angleY -180
+     }
+     {
+      coords 650 2.812 750
+      angleY -180
+     }
+     {
+      coords 650 4.272 700
+      angleY -180
+     }
+     {
+      coords 650 7.031 650
+      angleY -180
+     }
+     {
+      coords 650 10.91 600
+      angleY -180
+     }
+     {
+      coords 650 13.48 550
+      angleY -180
+     }
+     {
+      coords 650 15.327 500
+      angleY -180
+     }
+     {
+      coords 650 17.422 450
+      angleY -180
+     }
+     {
+      coords 650 16.93 400
+      angleY -180
+     }
+     {
+      coords 650 19.538 350
+      angleY -180
+     }
+     {
+      coords 650 19.678 300
+      angleY -180
+     }
+     {
+      coords 650 17.758 250
+      angleY -180
+     }
+     {
+      coords 650 15.855 200
+      angleY -180
+     }
+     {
+      coords 650 13.902 150
+      angleY -180
+     }
+     {
+      coords 650 9.794 100
+      angleY -180
+     }
+     {
+      coords 650 9.991 50
+      angleY -180
+     }
+     {
+      coords 650 9.687 0
+      angleY -180
+     }
+     {
+      coords 600 4.212 0
+      angleY -90
+     }
+     {
+      coords 550 -1.435 0
+      angleY -90
+     }
+     {
+      coords 500 -5.163 0
+      angleY -90
+     }
+     {
+      coords 450 -8.319 0
+      angleY -90
+     }
+     {
+      coords 400 -12.382 0
+      angleY -90
+     }
+     {
+      coords 350 -15.251 0
+      angleY -90
+     }
+     {
+      coords 300 -14.854 0
+      angleY -90
+     }
+     {
+      coords 250 -9.846 0
+      angleY -90
+     }
+     {
+      coords 200 -5.33 0
+      angleY -90
+     }
+     {
+      coords 150 -2.036 0
+      angleY -90
+     }
+     {
+      coords 100 0.615 0
+      angleY -90
+     }
+     {
+      coords 50 1.181 0
+      angleY -90
+     }
+     {
+      coords 0 1.106 0
+      angleY -90
+     }
+    }
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ m_missionEvents {
+  TILW_MissionEvent "{626139971209DF48}" {
+   m_name "Major Defeat (PlayersDead)"
+   m_instructions {
+    TILW_SendMessageInstruction "{62613988426CCB98}" {
+     m_messageTitle "Major Defeat"
+     m_messageBody "All US forces were killed."
+    }
+    TILW_EndGameInstruction "{6262A4D596876673}" {
+     m_executionDelay 10
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62613997408E3D49}" {
+    m_flagName "PlayersDead"
+   }
+  }
+  TILW_MissionEvent "{626139974C543D3B}" {
+   m_name "Minor Defeat (HeliDestroyed)"
+   m_instructions {
+    TILW_SendMessageInstruction "{62613988A1A54BE3}" {
+     m_messageTitle "Minor Defeat"
+     m_messageBody "The Huey was destroyed."
+    }
+    TILW_EndGameInstruction "{6262A4D5E65DFB6E}" {
+     m_executionDelay 15
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62613997513C1D3F}" {
+    m_flagName "HeliDestroyed"
+   }
+  }
+  TILW_MissionEvent "{62613986CC8F29C5}" {
+   m_name "Minor Defeat (PilotsDead)"
+   m_instructions {
+    TILW_SendMessageInstruction "{62613988BD56C371}" {
+     m_messageTitle "Minor Defeat"
+     m_messageBody "The pilots were killed in the crossfire."
+    }
+    TILW_EndGameInstruction "{6262A4D5F68EE94B}" {
+     m_executionDelay 15
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{62613987E1EEC945}" {
+    m_operands {
+     TILW_LiteralTerm "{62613987E7CED045}" {
+      m_flagName "Pilot1Dead"
+     }
+     TILW_LiteralTerm "{62613987E4A22DBB}" {
+      m_flagName "Pilot2Dead"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{62613986EFE7C18A}" {
+   m_name "Minor Defeat (TruckDestroyed)"
+   m_instructions {
+    TILW_SendMessageInstruction "{62613988E7862735}" {
+     m_messageTitle "Minor Defeat"
+     m_messageBody "The maintenance truck was destroyed before the Huey could be repaired."
+    }
+    TILW_EndGameInstruction "{6262DB8D8823565B}" {
+     m_executionDelay 15
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{62613987869FC1D4}" {
+    m_operands {
+     TILW_LiteralTerm "{626139879069D592}" {
+      m_flagName "TruckDestroyed"
+     }
+     TILW_LiteralTerm "{6261398784B33E10}" {
+      m_invertTerm 1
+      m_flagName "EngineRepaired"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{62613987261B2827}" {
+   m_name "Minor Victory (PilotDead)"
+   m_instructions {
+    TILW_SendMessageInstruction "{62613988DC37AE4A}" {
+     m_messageTitle "Minor Victory"
+     m_messageBody "The Huey engine was repaired, but one of the pilots died in the crossfire."
+    }
+    TILW_EndGameInstruction "{6262A4D5C5700A2F}" {
+     m_executionDelay 20
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6261398740C1F53E}" {
+    m_operands {
+     TILW_ConjunctionTerm "{6261398749F92919}" {
+      m_operands {
+       TILW_LiteralTerm "{626139874D2BF2D3}" {
+        m_flagName "EngineRepaired"
+       }
+       TILW_MatchjunctionTerm "{62613987A26F9980}" {
+        m_operands {
+         TILW_LiteralTerm "{62613987A1B99B40}" {
+          m_flagName "Pilot1Dead"
+         }
+         TILW_LiteralTerm "{62613987A69D5648}" {
+          m_flagName "Pilot2Dead"
+         }
+        }
+       }
+       TILW_LiteralTerm "{6261398984B60565}" {
+        m_flagName "AreaSecure"
+       }
+      }
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{62613986F753DF36}" {
+   m_name "Major Victory (HeliRepaired)"
+   m_instructions {
+    TILW_SendMessageInstruction "{62613989062EAF7D}" {
+     m_messageTitle "Major Victory"
+     m_messageBody "The Huey engine was repaired, and the pilots are ready for takeoff."
+    }
+    TILW_EndGameInstruction "{6262A4D5DEAB8EED}" {
+     m_executionDelay 20
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6261398719DD9D20}" {
+    m_operands {
+     TILW_LiteralTerm "{626139871FDAD1B5}" {
+      m_flagName "EngineRepaired"
+     }
+     TILW_LiteralTerm "{6261398761E6FEBB}" {
+      m_invertTerm 1
+      m_flagName "Pilot1Dead"
+     }
+     TILW_LiteralTerm "{6261398766A9534D}" {
+      m_invertTerm 1
+      m_flagName "Pilot2Dead"
+     }
+     TILW_LiteralTerm "{626139895F56DC7A}" {
+      m_flagName "AreaSecure"
+     }
+    }
+   }
+  }
+ }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{6261399703C2C14C}" {
+   m_flagName "PlayersDead"
+   m_factionKey "US"
+  }
+ }
+}

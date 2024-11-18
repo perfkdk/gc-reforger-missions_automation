@@ -1,0 +1,20 @@
+SCR_AIGroup : "{107554618BE6FF20}Prefabs/Groups/BLUFOR/Group_US_Team_Suppress_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{60ACCE9D7DCCA93C}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 2
+  }
+ }
+ coords 1661.612 18.479 3366.042
+ angleY -85
+ m_aUnitPrefabSlots {
+  "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et" "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et"
+ }
+ m_sCustomNameSet "MG Crew"
+}
+SCR_AIGroup : "{43DE722B3E3F4C24}Prefabs/Groups/BLUFOR/US/Army_1980_Rifles/P/Group_US_Army_1980_RifleSquad_P.et" {
+ coords 1655.864 18.781 3366.636
+ angleY -85
+ m_sCustomNameSet "Rifle Squad"
+}

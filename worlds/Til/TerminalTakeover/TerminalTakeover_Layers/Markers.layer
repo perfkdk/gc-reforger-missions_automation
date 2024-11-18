@@ -1,0 +1,551 @@
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "RHS_AFRF"
+    }
+   }
+  }
+  coords 5484.365 32.978 9489.76
+  Points {
+   ShapePoint "{6218E8B81036EA06}" {
+    Position 1300 0 0
+   }
+   ShapePoint "{6218E8B870195479}" {
+    Position 1300 0 550
+   }
+   ShapePoint "{6218E8B81FD44D84}" {
+    Position 0 0 550
+   }
+   ShapePoint "{62192474BCAD8900}" {
+    Position 0 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
+      {
+       coords 1300 -54.823 0
+       angleY 0
+      }
+      {
+       coords 1300 -52.35 50
+       angleY 0
+      }
+      {
+       coords 1300 -41.568 100
+       angleY 0
+      }
+      {
+       coords 1300 -37.703 150
+       angleY 0
+      }
+      {
+       coords 1300 -38.739 200
+       angleY 0
+      }
+      {
+       coords 1300 -42.928 250
+       angleY 0
+      }
+      {
+       coords 1300 -50.103 300
+       angleY 0
+      }
+      {
+       coords 1300 -52.442 350
+       angleY 0
+      }
+      {
+       coords 1300 -57.548 400
+       angleY 0
+      }
+      {
+       coords 1300 -52.765 450
+       angleY 0
+      }
+      {
+       coords 1300 -52.016 500
+       angleY 0
+      }
+      {
+       coords 1300 -52.639 550
+       angleY 0
+      }
+      {
+       coords 1250 -47.164 550
+       angleY -90
+      }
+      {
+       coords 1200 -49.616 550
+       angleY -90
+      }
+      {
+       coords 1150 -42.531 550
+       angleY -90
+      }
+      {
+       coords 1100 -43.608 550
+       angleY -90
+      }
+      {
+       coords 1050 -41.191 550
+       angleY -90
+      }
+      {
+       coords 1000 -39.059 550
+       angleY -90
+      }
+      {
+       coords 950 -39.493 550
+       angleY -90
+      }
+      {
+       coords 900 -37.672 550
+       angleY -90
+      }
+      {
+       coords 850 -35.118 550
+       angleY -90
+      }
+      {
+       coords 800 -35.991 550
+       angleY -90
+      }
+      {
+       coords 750 -35.308 550
+       angleY -90
+      }
+      {
+       coords 700 -36.296 550
+       angleY -90
+      }
+      {
+       coords 650 -36.119 550
+       angleY -90
+      }
+      {
+       coords 600 -33.608 550
+       angleY -90
+      }
+      {
+       coords 550 -30.944 550
+       angleY -90
+      }
+      {
+       coords 500 -25.353 550
+       angleY -90
+      }
+      {
+       coords 450 -17.939 550
+       angleY -90
+      }
+      {
+       coords 400 -12.392 550
+       angleY -90
+      }
+      {
+       coords 350 -10.751 550
+       angleY -90
+      }
+      {
+       coords 300 -11.524 550
+       angleY -90
+      }
+      {
+       coords 250 -11.881 550
+       angleY -90
+      }
+      {
+       coords 200 -11.118 550
+       angleY -90
+      }
+      {
+       coords 150 -10.524 550
+       angleY -90
+      }
+      {
+       coords 100 -10.099 550
+       angleY -90
+      }
+      {
+       coords 50 -11.892 550
+       angleY -90
+      }
+      {
+       coords 0 -13.977 550
+       angleY -90
+      }
+      {
+       coords 0 -13.695 500
+       angleY -180
+      }
+      {
+       coords 0 -9.842 450
+       angleY -180
+      }
+      {
+       coords 0 -8.082 400
+       angleY -180
+      }
+      {
+       coords 0 -7.43 350
+       angleY -180
+      }
+      {
+       coords 0 -8.253 300
+       angleY -180
+      }
+      {
+       coords 0 -9.97 250
+       angleY -180
+      }
+      {
+       coords 0 -10.717 200
+       angleY -180
+      }
+      {
+       coords 0 -9.967 150
+       angleY -180
+      }
+      {
+       coords 0 -10.345 100
+       angleY -180
+      }
+      {
+       coords 0 -4.296 50
+       angleY -180
+      }
+      {
+       coords 0 0 0
+       angleY -180
+      }
+      {
+       coords 50 0.138 0
+      }
+      {
+       coords 100 -1.466 0
+      }
+      {
+       coords 150 -5.845 0
+      }
+      {
+       coords 200 -12.61 0
+      }
+      {
+       coords 250 -22.072 0
+      }
+      {
+       coords 300 -31.947 0
+      }
+      {
+       coords 350 -34.33 0
+      }
+      {
+       coords 400 -35.537 0
+      }
+      {
+       coords 450 -38.099 0
+      }
+      {
+       coords 500 -42.305 0
+      }
+      {
+       coords 550 -49.32 0
+      }
+      {
+       coords 600 -50.384 0
+      }
+      {
+       coords 650 -49.734 0
+      }
+      {
+       coords 700 -49.148 0
+      }
+      {
+       coords 750 -50.013 0
+      }
+      {
+       coords 800 -50.757 0
+      }
+      {
+       coords 850 -48.331 0
+      }
+      {
+       coords 900 -47.625 0
+      }
+      {
+       coords 950 -44.249 0
+      }
+      {
+       coords 1000 -41.057 0
+      }
+      {
+       coords 1050 -36.876 0
+      }
+      {
+       coords 1100 -36.427 0
+      }
+      {
+       coords 1150 -38.282 0
+      }
+      {
+       coords 1200 -38.86 0
+      }
+      {
+       coords 1250 -39.041 0
+      }
+      {
+       coords 1300 -54.823 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "FIA"
+    }
+   }
+  }
+  coords 5705.353 10.373 9656.734
+  Points {
+   ShapePoint "{6218E8B80AC4FFD7}" {
+    Position -14.72 0 -55.411
+   }
+   ShapePoint "{6218E8B81036EA06}" {
+    Position 141.449 0 -104.419
+   }
+   ShapePoint "{6218E8B6BDC01C3C}" {
+    Position 207.009 0 -19.519
+   }
+   ShapePoint "{6218E8B26EAA549D}" {
+    Position 270.381 0 14.147
+   }
+   ShapePoint "{6218E8B2701BF697}" {
+    Position 212.233 0 112.992
+   }
+   ShapePoint "{6218E8B271437D41}" {
+    Position 170.831 0 165.522
+   }
+   ShapePoint "{6218E8B2743E5CD9}" {
+    Position 23.285 0 171.005
+   }
+   ShapePoint "{6218E8B24BF29CAB}" {
+    Position 13.937 0 52.89
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   PrefabGeneratorEntity : "{679F440B0398E383}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_INDFOR.et" {
+    coords 0 0 0
+    Flags 1048579
+    {
+     $grp PS_ManualMarker : "{AA1E33BE997B846D}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_INDFOR.et" {
+      {
+       coords -14.72 3.567 -55.411
+       angleY 107.423
+      }
+      {
+       coords 32.986 -0.961 -70.382
+       angleY 107.423
+      }
+      {
+       coords 80.692 -6.757 -85.353
+       angleY 107.423
+      }
+      {
+       coords 128.398 -9.293 -100.323
+       angleY 107.423
+      }
+      {
+       coords 163.648 -10.695 -75.671
+       angleY 37.675
+      }
+      {
+       coords 194.208 -10.063 -36.097
+       angleY 37.675
+      }
+      {
+       coords 232.668 -10.209 -5.888
+       angleY 62.021
+      }
+      {
+       coords 266.682 -9.576 20.436
+       angleY -30.467
+      }
+      {
+       coords 241.33 -6.359 63.531
+       angleY -30.467
+      }
+      {
+       coords 215.977 -6.176 106.627
+       angleY -30.467
+      }
+      {
+       coords 185.854 -6.204 146.462
+       angleY -38.244
+      }
+      {
+       coords 145.117 -5.967 166.478
+       angleY -87.872
+      }
+      {
+       coords 95.152 -6.19 168.334
+       angleY -87.872
+      }
+      {
+       coords 45.187 -0.184 170.191
+       angleY -87.872
+      }
+      {
+       coords 21.069 0.456 143.009
+       angleY -175.475
+      }
+      {
+       coords 17.125 0.064 93.165
+       angleY -175.475
+      }
+      {
+       coords 11.481 0.598 43.61
+       angleY -165.179
+      }
+      {
+       coords -1.309 0.217 -4.727
+       angleY -165.179
+      }
+      {
+       coords -14.099 3.321 -53.063
+       angleY -165.179
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Marker_Location {
+  coords 5794.385 4.562 9682.443
+  angleY 90
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "AR_icon_point_of_interest_01"
+  m_fWorldSize 30
+  m_sDescription "LNG Tanks"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_Location3 {
+  coords 5753.628 8.844 9787.139
+  angleY 90
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "AR_icon_point_of_interest_01"
+  m_fWorldSize 30
+  m_sDescription "Transformer Station"
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ Marker_Location2 {
+  coords 5803.946 5.132 9794.2
+  angleY 90
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "AR_icon_point_of_interest_01"
+  m_fWorldSize 30
+  m_sDescription "Power Plant"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_Location4 {
+  coords 5872.814 4.612 9720.848
+  angleY 90
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "AR_icon_point_of_interest_01"
+  m_fWorldSize 30
+  m_sDescription "Warehouse"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_FIA {
+  coords 5800.551 7.969 9725.036
+  angleY 90
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "infantry"
+  m_fWorldSize 50
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_RU {
+  coords 6471.504 9.265 9686.475
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "motorized-infantry"
+  m_fWorldSize 95
+  m_sDescription "Motorized Rifle Platoon"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  {
+   PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+    coords -35 0 0
+    angleY 0
+    m_fWorldSize 45
+   }
+  }
+ }
+ Marker_Location5 {
+  coords 5909.7 0 9739.095
+  angleY 90
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "AR_icon_point_of_interest_01"
+  m_fWorldSize 30
+  m_sDescription "Eastern Shed"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_Location6 {
+  coords 5853.952 4.562 9795.622
+  angleY 90
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "AR_icon_point_of_interest_01"
+  m_fWorldSize 30
+  m_sDescription "Northern Shed"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_Location7 {
+  coords 5886.669 3.019 9654.364
+  angleY 90
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "AR_icon_point_of_interest_01"
+  m_fWorldSize 30
+  m_sDescription "Pier"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}

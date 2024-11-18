@@ -1,0 +1,24 @@
+$grp StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+ {
+  coords 1414.245 11 1870.24
+  angleY -81.578
+ }
+ {
+  coords 1428.303 11.026 1867.262
+  angleY -56.478
+ }
+}
+StaticModelEntity : "{3FBCCB3371A2F77B}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Typewriter_USSR_01.et" {
+ coords 1428.854 11.018 1866.832
+ angleY -57.868
+}
+StaticModelEntity : "{862818969D70726C}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_USSR_01.et" {
+ coords 1413.422 11 1870.25
+ angleY 84.286
+ {
+  GameEntity {
+   ID "5702F83ABA23685E"
+   Flags 2098179
+  }
+ }
+}

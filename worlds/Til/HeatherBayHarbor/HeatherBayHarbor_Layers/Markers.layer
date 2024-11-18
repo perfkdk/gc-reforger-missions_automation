@@ -1,0 +1,246 @@
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ coords 1790.479 52.853 3128.644
+ Points {
+  ShapePoint "{6218E8B80AC4FFD7}" {
+   Position -800 0 0
+  }
+  ShapePoint "{6218E8B81036EA06}" {
+   Position 0 0 0
+  }
+  ShapePoint "{6218E8B870195479}" {
+   Position 0 0 350
+  }
+  ShapePoint "{6218E8B81FD44D84}" {
+   Position -800 0 350
+  }
+ }
+ {
+  PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
+   coords 0 0 0
+   {
+    $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
+     {
+      coords -800 -48.615 0
+     }
+     {
+      coords -750 -46.508 0
+     }
+     {
+      coords -700 -36.966 0
+     }
+     {
+      coords -650 -19.556 0
+     }
+     {
+      coords -600 -30.481 0
+     }
+     {
+      coords -550 -30.646 0
+     }
+     {
+      coords -500 -30.495 0
+     }
+     {
+      coords -450 -23.106 0
+     }
+     {
+      coords -400 -17.301 0
+     }
+     {
+      coords -350 -15.767 0
+     }
+     {
+      coords -300 -13.546 0
+     }
+     {
+      coords -250 -8.399 0
+     }
+     {
+      coords -200 -5.595 0
+     }
+     {
+      coords -150 -5.457 0
+     }
+     {
+      coords -100 -4.08 0
+     }
+     {
+      coords -50 -1.602 0
+     }
+     {
+      coords 0 -1.231 0
+     }
+     {
+      coords 0 -4.346 50
+      angleY 0
+     }
+     {
+      coords 0 -5.734 100
+      angleY 0
+     }
+     {
+      coords 0 -7.225 150
+      angleY 0
+     }
+     {
+      coords 0 -2.835 200
+      angleY 0
+     }
+     {
+      coords 0 -23.917 250
+      angleY 0
+     }
+     {
+      coords 0 -36.829 300
+      angleY 0
+     }
+     {
+      coords 0 -42.945 350
+      angleY 0
+     }
+     {
+      coords -50 -43.498 350
+      angleY -90
+     }
+     {
+      coords -100 -45.937 350
+      angleY -90
+     }
+     {
+      coords -150 -49.897 350
+      angleY -90
+     }
+     {
+      coords -200 -51.754 350
+      angleY -90
+     }
+     {
+      coords -250 -50.861 350
+      angleY -90
+     }
+     {
+      coords -300 -44.93 350
+      angleY -90
+     }
+     {
+      coords -350 -29.86 350
+      angleY -90
+     }
+     {
+      coords -400 -30.968 350
+      angleY -90
+     }
+     {
+      coords -450 -43.304 350
+      angleY -90
+     }
+     {
+      coords -500 -35.797 350
+      angleY -90
+     }
+     {
+      coords -550 -31.324 350
+      angleY -90
+     }
+     {
+      coords -600 -31.319 350
+      angleY -90
+     }
+     {
+      coords -650 -43.971 350
+      angleY -90
+     }
+     {
+      coords -700 -51.383 350
+      angleY -90
+     }
+     {
+      coords -750 -50.553 350
+      angleY -90
+     }
+     {
+      coords -800 -45.238 350
+      angleY -90
+     }
+     {
+      coords -800 -51.742 300
+      angleY -180
+     }
+     {
+      coords -800 -55.826 250
+      angleY -180
+     }
+     {
+      coords -800 -57.865 200
+      angleY -180
+     }
+     {
+      coords -800 -58.061 150
+      angleY -180
+     }
+     {
+      coords -800 -58.064 100
+      angleY -180
+     }
+     {
+      coords -800 -53.008 50
+      angleY -180
+     }
+     {
+      coords -800 -48.615 0
+      angleY -180
+     }
+    }
+   }
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Marker_Friendly_US {
+  coords 1659.293 18.946 3365.796
+  angleY 90
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sQuadName "infantry"
+  m_fWorldSize 50
+  m_sDescription "Our Location"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ Marker_Enemy_US {
+  coords 900.341 5.707 3546.211
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sQuadName "infantry"
+  m_fWorldSize 50
+  m_sDescription "QRF"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ Marker_Objective_US {
+  coords 1158.963 1.14 3319.044
+  angleY 90
+  m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 60
+  m_sDescription "OBJ Harbor"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ Marker_Enemy_US2 {
+  coords 1163.794 1.156 3283.761
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sQuadName "infantry"
+  m_fWorldSize 50
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+}

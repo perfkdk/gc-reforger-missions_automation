@@ -1,0 +1,123 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60AB355FA6B30A65}" {
+     NavmeshFile "{D8EF7131FB31AF97}worlds/GameMaster/Navmeshes/GM_Arland.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A299509CF377}" {
+     NavmeshFile "{A0AEEB1E7EF474FA}worlds/GameMaster/Navmeshes/GM_Arland_vehicles.nmn"
+    }
+   }
+  }
+ }
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 20
+   m_iStartingMinutes 30
+   m_bRandomStartingWeather 1
+  }
+ }
+}
+TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+ coords 1491.218 1.181 1845.408
+ m_queryRadius 300
+ m_comparisonMode EQUAL_OR_LESS
+ m_flagName "NO_PLAYERS_NEAR_OBJ"
+ m_ownerFactionKey "RHS_USAF"
+ m_ratioThreshold 0
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ m_missionEvents {
+  TILW_MissionEvent "{61FA84772C3CEE49}" {
+   m_name "Players dead"
+   m_instructions {
+    TILW_SendMessageInstruction "{61FA84779CEAC2FF}" {
+     m_messageTitle "US Defeat!"
+     m_messageBody "All US forces were killed during the raid!"
+    }
+    TILW_EndGameInstruction "{61FA8477E26F26D9}" {
+     m_executionDelay 20
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{61FA84778EFBC1CE}" {
+    m_flagName "PLAYERS_DEAD"
+   }
+  }
+  TILW_MissionEvent "{61FA847735EB0369}" {
+   m_name "Objective completed"
+   m_instructions {
+    TILW_SendMessageInstruction "{61FA8477C8B3D4E3}" {
+     m_messageTitle "US Victory"
+     m_messageBody "US forces successfully raided the installation and exfiltrated!"
+    }
+    TILW_EndGameInstruction "{61FA8477C9802201}" {
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{61FA84743A7B43F9}" {
+    m_operands {
+     TILW_LiteralTerm "{61FA84743B89A18E}" {
+      m_invertTerm 1
+      m_flagName "PLAYERS_DEAD"
+     }
+     TILW_LiteralTerm "{61FA84740502099D}" {
+      m_flagName "NO_PLAYERS_NEAR_OBJ"
+     }
+     TILW_DisjunctionTerm "{61FA847408174DB7}" {
+      m_operands {
+       TILW_LiteralTerm "{61FA84741B16BC93}" {
+        m_flagName "SPG_1_DESTROYED"
+       }
+       TILW_LiteralTerm "{61FA847418F72265}" {
+        m_flagName "SPG_2_DESTROYED"
+       }
+       TILW_LiteralTerm "{61FA847419C553ED}" {
+        m_flagName "SPG_3_DESTROYED"
+       }
+      }
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{61FA847735D4AFFF}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{61FA84770B5E2193}" {
+     m_executionDelay 1500
+     m_messageTitle "5 minutes left"
+     m_messageBody "The time window closes in 5 minutes."
+    }
+    TILW_SendMessageInstruction "{61FA847708E3C810}" {
+     m_executionDelay 1800
+     m_messageTitle "US Defeat"
+     m_messageBody "US Forces were unable to complete their mission in time."
+    }
+    TILW_EndGameInstruction "{61FA847709A2EDE8}" {
+     m_executionDelay 1815
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{61FA84771100BD74}" {
+    m_invertTerm 1
+   }
+  }
+ }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{61FA8477BB09F82C}" {
+   m_flagName "PLAYERS_DEAD"
+   m_factionKey "RHS_USAF"
+  }
+ }
+}

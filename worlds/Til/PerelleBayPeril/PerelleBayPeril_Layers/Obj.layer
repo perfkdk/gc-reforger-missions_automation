@@ -1,0 +1,59 @@
+TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/TILW_PresenceTrigger.et" {
+ coords 9583.341 10.875 5205.909
+ m_queryRadius 5
+ m_prefabFilter {
+  "{ECC4315520263256}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_dark.et"
+ }
+ m_comparisonMode EQUAL_OR_LESS
+ m_flagName "CratesDestroyed"
+ m_drawShapeSurface 0
+ m_countThreshold 0
+}
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+ {
+  coords 9616.998 22.499 5273.05
+  m_queryRadius 100
+  m_comparisonMode EQUAL_OR_LESS
+  m_flagName "NotNearCaches"
+  m_drawShapeSurface 0
+  m_ownerFactionKey "USSR"
+  m_ratioThreshold 0
+ }
+ {
+  coords 9709.092 1.89 5460.198
+  m_queryRadius 50
+  m_flagName "NearCoast"
+  m_drawShapeSurface 0
+  m_ownerFactionKey "USSR"
+ }
+}
+$grp GenericEntity : "{ECC4315520263256}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_dark.et" {
+ {
+  coords 9581.566 10.875 5203.407
+  angleY -5.378
+ }
+ {
+  coords 9581.707 10.875 5204.815
+ }
+ {
+  coords 9581.424 10.875 5207.403
+  angleY -179.401
+ }
+ {
+  coords 9581.558 10.875 5206.173
+  angleY -174.023
+ }
+ {
+  coords 9582.849 10.875 5202.724
+  angleY -179.401
+ }
+}
+SCR_ChimeraCharacter FIA_Leader : "{FE65E8C60C751352}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_PL.et" {
+ components {
+  TILW_Flag_EntityDamage "{6266E13672A57FC3}" {
+   m_flagName "LeaderKilled"
+  }
+ }
+ coords 9335.361 3.696 5083.141
+ angleY 64.159
+}
