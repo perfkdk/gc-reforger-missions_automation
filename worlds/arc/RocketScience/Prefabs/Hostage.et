@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{76EC8248377D0989}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  TILW_Flag_EntityDamage "{62E73B20A5622E54}" {
+   m_flagName "HOSTAGE_KIA"
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    TILW_BaseInteraction "{62E095602F654006}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{62E09560217D9ABF}" {
+      Name "Extract"
+     }
+     ActionTitle "Extract_USSR"
+     VisibilityRange 10
+     Duration 3
+     m_actionName "Extract"
+     m_factionKeys {
+      "USSR"
+     }
+     m_singleUse 0
+     m_flagName "CIV_USSR"
+    }
+    TILW_BaseInteraction "{62E09560294501A6}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{62E09560217D9ABF}" {
+      Name "Extract"
+     }
+     ActionTitle "Extract_UK"
+     VisibilityRange 10
+     Duration 3
+     m_actionName "Extract"
+     m_factionKeys {
+      "UK"
+     }
+     m_singleUse 0
+     m_flagName "CIV_UK"
+    }
+   }
+  }
+ }
+}
