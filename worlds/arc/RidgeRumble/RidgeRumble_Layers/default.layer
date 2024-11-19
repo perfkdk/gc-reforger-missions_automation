@@ -105,13 +105,13 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
  }
 }
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
- BLU_CAP {
+ BLUE_CAP {
   coords 2617.795 102.7 2617.066
   m_queryRadius 25
   m_captureIterations 18
   m_sendStatusMessages 1
   m_locationName "Timber Ridge"
-  m_flagName "BLU_CAP"
+  m_flagName "BLUE_CAP"
   m_playersOnly 1
   m_ownerFactionKey "RHS_USAF"
  }
@@ -135,12 +135,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{62D9045B0317FB69}" {
      m_messageTitle "BLUE VICTORY"
      m_messageBody "Red team has been eliminated."
-     m_factionKeys {
-      "RHS_USAF" "RHS_AFRF"
-     }
     }
     TILW_EndGameInstruction "{62D9045BE9F33741}" {
-     m_executionDelay 20
+     m_executionDelay 15
      m_factionKey "RHS_USAF"
     }
    }
@@ -154,12 +151,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{62D9045B0317FB69}" {
      m_messageTitle "RED VICTORY"
      m_messageBody "Blue team has been eliminated."
-     m_factionKeys {
-      "RHS_USAF" "RHS_AFRF"
-     }
     }
     TILW_EndGameInstruction "{62D9045B1130F2BD}" {
-     m_executionDelay 20
+     m_executionDelay 15
      m_factionKey "RHS_AFRF"
     }
    }
@@ -173,12 +167,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{62D9045B0317FB69}" {
      m_messageTitle "RED VICTORY"
      m_messageBody "Timber Ridge has been captured."
-     m_factionKeys {
-      "RHS_USAF" "RHS_AFRF"
-     }
     }
     TILW_EndGameInstruction "{62D9045B1130F2BD}" {
-     m_executionDelay 20
+     m_executionDelay 15
      m_factionKey "RHS_AFRF"
     }
    }
@@ -192,12 +183,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{62D9045B0317FB69}" {
      m_messageTitle "BLUE VICTORY"
      m_messageBody "Timber Ridge has been captured.."
-     m_factionKeys {
-      "RHS_USAF" "RHS_AFRF"
-     }
     }
     TILW_EndGameInstruction "{62D9045BE9F33741}" {
-     m_executionDelay 20
+     m_executionDelay 15
      m_factionKey "RHS_USAF"
     }
    }
