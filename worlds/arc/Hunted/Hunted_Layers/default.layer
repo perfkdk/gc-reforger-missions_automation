@@ -1,0 +1,171 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{62EA0E68985881B4}" {
+     NavmeshFile "{4C5DC23B33285CBA}NavMesh/Soldiers.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{6957D1DE8462E9A0}NavMesh/BTRlike.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{0C645FF0DA66996D}NavMesh/lowres.nmn"
+    }
+   }
+  }
+ }
+ coords 386.517 52.234 4169.736
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 370.961 52.529 4172.959
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeatehr 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{62EAA4D74FB05835}" {
+     m_sWeatherPresetName "Overcast"
+     m_iStartingHour 10
+    }
+   }
+  }
+ }
+ coords 404.459 52.016 4167.401
+ {
+  SCR_FactionManager "62EAD81BFF8BBA84" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE6E998D}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792CE18FB44}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+        m_sCallsign "4"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign "6"
+       }
+       SCR_CallsignInfo "{55CCB792D13759D8}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+        m_sCallsign "3"
+       }
+      }
+      m_sCallsignGroupFormat "%2-%3"
+      m_sCallsignCharacterFormat "%2-%3: %4"
+     }
+    }
+   }
+  }
+ }
+}
+TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/TILW_PresenceTrigger.et" {
+ coords 3354.785 24.828 3516.499
+ m_queryRadius 50
+ m_prefabFilter {
+  "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{6E061DEBD2B0DF27}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_MG_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et" "{FF19CA397D21C540}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_LAT_P.et" "{0DEAF33C721E6912}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_JTAC_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{532C6BE3D51D3718}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_AR_P.et" "{180EF48320D421A4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_AMG_P.et"
+ }
+ m_flagName "US_EXTRACT"
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ coords 327.772 52.662 4165.353
+ Points {
+  ShapePoint "{62EAA4C5FEF0057D}" {
+   Position 107.019 0 309.759
+  }
+  ShapePoint "{62EAA4C5FF27385B}" {
+   Position -135.509 0 -1369.203
+  }
+  ShapePoint "{62EAA4C5F059BB04}" {
+   Position 2939.682 0 -2065.435
+  }
+  ShapePoint "{62EAA4C5CA343FF5}" {
+   Position 3459.616 0 -202.223
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 364.437 48.9 4119.292
+ m_missionEvents {
+  TILW_MissionEvent "{62EAD81BB0394A8B}" {
+   m_name "US_KIA"
+   m_instructions {
+    TILW_SendMessageInstruction "{62EAD81B8C408BCB}" {
+     m_messageTitle "DEFEAT"
+     m_messageBody "All rangers have been eliminated."
+    }
+    TILW_EndGameInstruction "{62EAD81B8BDA1DD6}" {
+     m_executionDelay 15
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62EAD81B80EDDC53}" {
+    m_flagName "US_KIA"
+   }
+  }
+  TILW_MissionEvent "{62EAD81CAA88CFA3}" {
+   m_name "TIME_LIMIT"
+   m_instructions {
+    TILW_SendMessageInstruction "{62EAD81B8C408BCB}" {
+     m_executionDelay 4505
+     m_messageTitle "DEFEAT"
+     m_messageBody "Time limit reached, extraction no longer possible."
+    }
+    TILW_EndGameInstruction "{62EAD81B8BDA1DD6}" {
+     m_executionDelay 4515
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62EAD81B80EDDC53}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{62EAD81B83A152B4}" {
+   m_name "US_EXTRACT"
+   m_instructions {
+    TILW_SendMessageInstruction "{62EAD81B98D808A5}" {
+     m_messageTitle "VICTORY"
+     m_messageBody "The rangers have made it to the extraction point."
+    }
+    TILW_EndGameInstruction "{62EAD81A6C78E072}" {
+     m_executionDelay 15
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62EAD81A6A9B0371}" {
+    m_flagName "US_EXTRACT"
+   }
+  }
+ }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{62EAD81BBBC73873}" {
+   m_flagName "US_KIA"
+   m_factionKey "RHS_USAF"
+  }
+ }
+}
