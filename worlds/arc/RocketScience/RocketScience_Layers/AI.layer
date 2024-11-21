@@ -18,6 +18,6 @@ SCR_AIGroup HOSTAGE_GROUP : "{EE92725E9B949C3D}Prefabs/Groups/INDFOR/Group_FIA_P
  angleY -12.83
  m_faction "CIV"
  m_aUnitPrefabSlots {
-  "{E024A74F8A4BC644}worlds/arc/RocketScience/Prefabs/Hostage.et"
+  "{1F9BD317E1C5A13D}worlds/arc/RocketScience/Prefabs/Character_CIV_Businessman_RocketScience.et"
  }
 }

@@ -61,14 +61,14 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/TILW_Presence
  {
   coords 2488.908 3.569 3220.142
   m_prefabFilter {
-   "{E024A74F8A4BC644}worlds/arc/RocketScience/Prefabs/Hostage.et"
+   "{1F9BD317E1C5A13D}worlds/arc/RocketScience/Prefabs/HOSTAGE.et"
   }
   m_flagName "USSR_EXTRACTED"
  }
  {
   coords 1408.135 3.301 3547.71
   m_prefabFilter {
-   "{E024A74F8A4BC644}worlds/arc/RocketScience/Prefabs/Hostage.et"
+   "{1F9BD317E1C5A13D}worlds/arc/RocketScience/Prefabs/HOSTAGE.et"
   }
   m_flagName "UK_EXTRACTED"
  }
@@ -102,6 +102,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_waypointNames {
       "USSR_Extract_Wp"
      }
+     m_clearExisting 1
     }
    }
    m_condition TILW_LiteralTerm "{62E095655FAA0DFD}" {
@@ -117,6 +118,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_waypointNames {
       "UK_Extract_Wp"
      }
+     m_clearExisting 1
     }
    }
    m_condition TILW_LiteralTerm "{62E095655FAA0DFD}" {
