@@ -146,19 +146,116 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{62EAD81B83A152B4}" {
-   m_name "US_EXTRACT"
+   m_name "US_EXTRACT_1"
    m_instructions {
     TILW_SendMessageInstruction "{62EAD81B98D808A5}" {
-     m_messageTitle "VICTORY"
-     m_messageBody "The rangers have made it to the extraction point."
+     m_messageTitle "MINOR VICTORY"
+     m_messageBody "The rangers have made it to the extraction point without dealing with any optional objectives."
     }
     TILW_EndGameInstruction "{62EAD81A6C78E072}" {
      m_executionDelay 15
      m_factionKey "RHS_USAF"
     }
    }
-   m_condition TILW_LiteralTerm "{62EAD81A6A9B0371}" {
-    m_flagName "US_EXTRACT"
+   m_condition TILW_ConjunctionTerm "{62EEAE0B6002616D}" {
+    m_operands {
+     TILW_LiteralTerm "{62EEAE0B63A55B6C}" {
+      m_flagName "US_EXTRACT"
+     }
+     TILW_LiteralTerm "{62EEAE0B77303639}" {
+      m_invertTerm 1
+      m_flagName "OPTIONAL_1"
+     }
+     TILW_LiteralTerm "{62EEAE0B4D6F49D7}" {
+      m_invertTerm 1
+      m_flagName "OPTIONAL_2"
+     }
+     TILW_LiteralTerm "{62EEAE0B4EB064D8}" {
+      m_invertTerm 1
+      m_flagName "OPTIONAL_3"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{62EEAE0B461CDCF0}" {
+   m_name "US_EXTRACT_2"
+   m_instructions {
+    TILW_SendMessageInstruction "{62EAD81B98D808A5}" {
+     m_messageTitle "VICTORY"
+     m_messageBody "The rangers have made it to the extraction point and dealt with 1 of 2 optional objectives."
+    }
+    TILW_EndGameInstruction "{62EAD81A6C78E072}" {
+     m_executionDelay 15
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{62EEAE0B6002616D}" {
+    m_operands {
+     TILW_LiteralTerm "{62EEAE0B63A55B6C}" {
+      m_flagName "US_EXTRACT"
+     }
+     TILW_MaxjunctionTerm "{62EEAE0B3024FDB8}" {
+      m_operands {
+       TILW_LiteralTerm "{62EEAE0B0F7503A9}" {
+        m_flagName "OPTIONAL_1"
+       }
+       TILW_LiteralTerm "{62EEAE0B04C5540E}" {
+        m_flagName "OPTIONAL_2"
+       }
+       TILW_LiteralTerm "{62EEAE0B07BFD3F3}" {
+        m_flagName "OPTIONAL_3"
+       }
+      }
+      m_maxTrue 2
+     }
+     TILW_MinjunctionTerm "{62EEAE0A2F63937E}" {
+      m_operands {
+       TILW_LiteralTerm "{62EEAE0BE21528BB}" {
+        m_flagName "OPTIONAL_1"
+       }
+       TILW_LiteralTerm "{62EEAE0BFEAD7347}" {
+        m_flagName "OPTIONAL_2"
+       }
+       TILW_LiteralTerm "{62EEAE0BF98458BB}" {
+        m_flagName "OPTIONAL_3"
+       }
+      }
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{62EEAE0B196E7B35}" {
+   m_name "US_EXTRACT_3"
+   m_instructions {
+    TILW_SendMessageInstruction "{62EAD81B98D808A5}" {
+     m_messageTitle "MAJOR VICTORY"
+     m_messageBody "The rangers have made it to the extraction point and dealt all optional objectives."
+    }
+    TILW_EndGameInstruction "{62EAD81A6C78E072}" {
+     m_executionDelay 15
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{62EEAE0B6002616D}" {
+    m_operands {
+     TILW_LiteralTerm "{62EEAE0B63A55B6C}" {
+      m_flagName "US_EXTRACT"
+     }
+     TILW_MinjunctionTerm "{62EEAE0BE746C23A}" {
+      m_operands {
+       TILW_LiteralTerm "{62EEAE0BE21528BB}" {
+        m_flagName "OPTIONAL_1"
+       }
+       TILW_LiteralTerm "{62EEAE0BFEAD7347}" {
+        m_flagName "OPTIONAL_2"
+       }
+       TILW_LiteralTerm "{62EEAE0BF98458BB}" {
+        m_flagName "OPTIONAL_3"
+       }
+      }
+      m_minTrue 3
+     }
+    }
    }
   }
  }

@@ -12,9 +12,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   coords 614.707 47.88 4258.057
-  m_sTextData "Find a way to cross the Zherebets river and reach the marked extraction point on the east of the AO."
+  m_sTitle "Mission"
+  m_sTextData "Find a way to cross the Zherebets river and reach the marked extraction point on the east of the AO."\
+  ""\
+  "Consider dealing with the following optional objectives if strength and time permits:"\
+  ""\
+  "Eliminate 1x BTR guarding the northern bridge of Zarichne, at the OPFOR motorized marker."\
+  ""\
+  "Destroy 2x Separatist Ural supply trucks at the eastern power plant marked by the OPFOR supply marker."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
+  m_iOrder 1
  }
  {
   coords 602.093 50.022 4195.844
@@ -30,6 +38,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "GMs feel free to override weather and time, US players have NVGs."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
+  m_iOrder 3
+ }
+ {
+  coords 586.828 51.181 4183.742
+  m_sTitle "Service & Support"
+  m_sTextData "Some extra magazines are on top of a crate at our current location, as well as 4x demolition blocks to take if attempting optional objectives."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 2
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
