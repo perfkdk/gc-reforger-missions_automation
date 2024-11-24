@@ -1,0 +1,164 @@
+$grp GenericEntity : "{B53B98CEA2D72735}Prefabs/Props/Military/Compositions/FIA/ArsenalBox_FIA.et" {
+ OBJ1 {
+  components {
+   ActionsManagerComponent "{56F2C6D1431ADB12}" {
+    additionalActions {
+     SCR_OpenStorageAction "{58EE8EA3E900BE40}" {
+      ParentContextList {
+      }
+     }
+     SCR_SaveArsenalLoadout "{58EE8EA3E73F1F6A}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8BA1D1393}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8B8EFB9D4}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8A6B3812D}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8A5C1BB2C}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8A4F18CD6}" {
+      ParentContextList {
+      }
+     }
+     TILW_BaseInteraction "{62EF69D8E554E12D}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{62EF69D9CFE82A12}" {
+       Name "Mark Evidence"
+      }
+      ActionTitle "MARK_EVIDENCE"
+      VisibilityRange 5
+      Duration 5
+      m_actionName "Mark Evidence"
+      m_factionKeys {
+       "RHS_AFRF"
+      }
+      m_flagName "OBJ1MARKED"
+     }
+    }
+   }
+  }
+  coords 811.831 20.656 2705.318
+  angleY 72.846
+ }
+ OBJ2 {
+  components {
+   ActionsManagerComponent "{56F2C6D1431ADB12}" {
+    additionalActions {
+     SCR_OpenStorageAction "{58EE8EA3E900BE40}" {
+      ParentContextList {
+      }
+     }
+     SCR_SaveArsenalLoadout "{58EE8EA3E73F1F6A}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8BA1D1393}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8B8EFB9D4}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8A6B3812D}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8A5C1BB2C}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8A4F18CD6}" {
+      ParentContextList {
+      }
+     }
+     TILW_BaseInteraction "{62EF69D8E554E12D}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{62EF69D9CFE82A12}" {
+       Name "Mark Evidence"
+      }
+      ActionTitle "MARK_EVIDENCE"
+      VisibilityRange 5
+      Duration 5
+      m_actionName "Mark Evidence"
+      m_factionKeys {
+       "RHS_AFRF"
+      }
+      m_flagName "OBJ2MARKED"
+     }
+    }
+   }
+  }
+  coords 695.36 19.885 3047.935
+  angleY -61.546
+ }
+ OBJ3 {
+  components {
+   ActionsManagerComponent "{56F2C6D1431ADB12}" {
+    additionalActions {
+     SCR_OpenStorageAction "{58EE8EA3E900BE40}" {
+      ParentContextList {
+      }
+     }
+     SCR_SaveArsenalLoadout "{58EE8EA3E73F1F6A}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8BA1D1393}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8B8EFB9D4}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8A6B3812D}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8A5C1BB2C}" {
+      ParentContextList {
+      }
+     }
+     SCR_ResupplySelfSupportStationAction "{5E22CEC8A4F18CD6}" {
+      ParentContextList {
+      }
+     }
+     TILW_BaseInteraction "{62EF69D8E554E12D}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo SCR_ActionUIInfo "{62EF69D9CFE82A12}" {
+       Name "Mark Evidence"
+      }
+      ActionTitle "MARK_EVIDENCE"
+      VisibilityRange 5
+      Duration 5
+      m_actionName "Mark Evidence"
+      m_factionKeys {
+       "RHS_AFRF"
+      }
+      m_flagName "OBJ3MARKED"
+     }
+    }
+   }
+  }
+  coords 475.813 22.934 2554.043
+  angleY -8.879
+ }
+}
