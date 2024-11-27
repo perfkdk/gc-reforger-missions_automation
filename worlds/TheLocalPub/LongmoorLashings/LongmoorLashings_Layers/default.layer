@@ -1,0 +1,104 @@
+SCR_AIWorld : "{F98AD67976545756}Prefabs/SCR_AIWorld_Longmoor.et" {
+ coords 1494.757 104.514 508.886
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_iStartingMinutes 45
+   m_bUsePredefineStartingTimeAndWeatehr 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{62F56305E6873A67}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingHour 5
+     m_iStartingMinutes 45
+    }
+   }
+  }
+ }
+ coords 1378.628 112.672 582.441
+ m_bMarkersOnlyOnBriefing 1
+ m_iFreezeTime 300000
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 1400.171 106.908 613.984
+ m_missionEvents {
+  TILW_MissionEvent "{62F518CDA67C880C}" {
+   m_name "EndMissionBLUWIN"
+   m_instructions {
+    TILW_SendMessageInstruction "{62F555E1EDF917B8}" {
+     m_messageTitle "BLUFOR VICTORY!"
+     m_messageBody "The SAPA cell and supplies have been destroyed. "\
+     "Well done BLUFOR!"\
+     ""\
+     "Mission will end shortly..."
+    }
+    TILW_EndGameInstruction "{62F518CD88457617}" {
+     m_executionDelay 20
+     m_factionKey "UK"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{62F555E1FA580DE2}" {
+    m_operands {
+     TILW_LiteralTerm "{62F555E1F96AC09D}" {
+      m_flagName "OPFORDead"
+     }
+     TILW_LiteralTerm "{62F555E1F07E0CFC}" {
+      m_flagName "AmmoDestroyed"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{62F72230C87BD6D9}" {
+   m_name "EndMissionREDWIN"
+   m_instructions {
+    TILW_SendMessageInstruction "{62F7223731EFB197}" {
+     m_messageTitle "OPFOR VICTORY!"
+     m_messageBody "The British troops has been made combat ineffective and thus have withdrawn from the AO."\
+     "Well done OPFOR!"\
+     ""\
+     "Mission will end shortly..."
+    }
+    TILW_EndGameInstruction "{62F7223732C676EB}" {
+     m_executionDelay 20
+     m_factionKey "GC_SEPARATIST"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62F722373805AE73}" {
+    m_flagName "BLUFORDead"
+   }
+  }
+  TILW_MissionEvent "{62F72237C84BDB64}" {
+   m_name "Timelimit"
+   m_instructions {
+    TILW_SendMessageInstruction "{62F72237C6CEB0F7}" {
+     m_executionDelay 1788
+     m_messageTitle "OPFOR VICTORY - Timelimit"
+     m_messageBody "The British troops have withdrawn from the AO as this window of operations have closed."\
+     "Well done OPFOR!"\
+     ""\
+     "Mission will end shortly..."
+    }
+    TILW_EndGameInstruction "{62F72237C18EC691}" {
+     m_executionDelay 1800
+     m_factionKey "GC_SEPARATIST"
+    }
+   }
+   m_condition TILW_LiteralTerm "{62F72237CFF32CF2}" {
+    m_invertTerm 1
+   }
+  }
+ }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{62F555E1029497F4}" {
+   m_flagName "OPFORDead"
+   m_factionKey "GC_SEPARATIST"
+   m_casualtyRatio 0.85
+  }
+  TILW_FactionPlayersKilledFlag "{62F72237A3D24D11}" {
+   m_flagName "BLUFORDead"
+   m_factionKey "UK"
+   m_casualtyRatio 0.8
+  }
+ }
+}
