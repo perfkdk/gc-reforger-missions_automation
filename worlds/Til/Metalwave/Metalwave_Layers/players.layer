@@ -1,0 +1,234 @@
+Vehicle CDF_HMMWV : "{236B534019C84B7E}Prefabs/Vehicles/Wheeled/M998/CDF/M1025_Armed_M2HB_CDF.et" {
+ coords 1846.329 10.204 3695.267
+ angleX 1.192
+ angleY 115.295
+ angleZ -0.427
+}
+$grp Vehicle : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camo1.et" {
+ AFRF_K17_1 {
+  components {
+   RHS_GroupMaterialController "{5E356B92D417DC07}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{5E356B9233E75430}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{5E356B92330F7851}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{5E3574F66AAE4150}" {
+      m_iTextureID 1
+     }
+    }
+   }
+  }
+  coords 2949.776 27.406 4080.793
+  angleY -130.5
+  {
+   SCR_AIGroup AFRF_PHQ : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_PHQ_P.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      DefaultFormation "Column"
+     }
+     PS_GroupCallsignAssigner "{62F6E939DE4F12F2}" {
+      m_iCompanyCallsign 1
+      m_iPlatoonCallsign 1
+     }
+    }
+    coords -7.5 0 7.5
+    angleY 90
+   }
+   SCR_AIGroup AFRF_Squad_1 : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      DefaultFormation "Column"
+     }
+     PS_GroupCallsignAssigner "{62F6E939DCF3355D}" {
+      m_iCompanyCallsign 1
+      m_iPlatoonCallsign 1
+      m_iSquadCallsign 1
+     }
+    }
+    coords -7.5 0 0
+    angleY 90
+   }
+  }
+ }
+ AFRF_K17_2 {
+  components {
+   RHS_GroupMaterialController "{5E356B92D417DC07}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{5E356B9233E75430}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{5E356B92330F7851}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{5E3574F66AAE4150}" {
+      m_iTextureID 2
+     }
+    }
+   }
+  }
+  coords 2961.182 27.312 4090.534
+  angleY -130.5
+  {
+   SCR_AIGroup AFRF_Squad_2 : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      DefaultFormation "Column"
+     }
+     PS_GroupCallsignAssigner "{62F6E93822ED3F87}" {
+      m_iCompanyCallsign 1
+      m_iPlatoonCallsign 1
+      m_iSquadCallsign 2
+     }
+    }
+    coords -7.5 0 0
+    angleY 90
+   }
+  }
+ }
+ AFRF_K17_3 {
+  components {
+   RHS_GroupMaterialController "{5E356B92D417DC07}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{5E356B92CC45C4E7}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{5E356B9233E75430}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{5E356B92330F7851}" {
+      m_iTextureID 3
+     }
+    }
+   }
+  }
+  coords 2972.588 27.205 4100.276
+  angleY -130.5
+  {
+   SCR_AIGroup AFRF_Squad_3 : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
+    components {
+     AIFormationComponent "{507E9DC12F541FE6}" {
+      DefaultFormation "Column"
+     }
+     PS_GroupCallsignAssigner "{62F6E9382033EE9B}" {
+      m_iCompanyCallsign 1
+      m_iPlatoonCallsign 1
+      m_iSquadCallsign 3
+     }
+    }
+    coords -7.5 0 0
+    angleY 90
+   }
+  }
+ }
+}
+SCR_AIGroup CDF_PHQ : "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Modern/P/Group_CDF_Modern_RiflePHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{62F73D957E05F898}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+  }
+ }
+ coords 1812.394 9.943 3673.55
+ angleY 102
+ m_sCustomNameSet "Platoon HQ"
+}
+$grp SCR_AIGroup : "{8C7AC28E449564C9}Prefabs/Groups/BLUFOR/CDF/Modern/P/Group_CDF_Modern_RifleSquad_P.et" {
+ CDF_Squad_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{62F73D957D85EA45}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1813.017 9.953 3676.483
+  angleY 102
+  m_sCustomNameSet "1st Squad"
+ }
+ CDF_Squad_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{62F73D9541C3C9E8}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1813.641 9.969 3679.418
+  angleY 102
+  m_sCustomNameSet "2nd Squad"
+ }
+ CDF_BTRCrew {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{62F73D9571A331AB}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 1814.264 10 3682.353
+  angleY 102
+  m_aUnitPrefabSlots {
+   "{0095D94001744655}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_CrewCommander_P.et" "{AFF45B976FFBF437}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern/P/Character_CDF_Modern_CrewDriver_P.et"
+  }
+  m_sCustomNameSet "BTR Crew"
+ }
+}
+RHS_Tank AFRF_T14 : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
+ components {
+  RHS_GroupMaterialController "{5E36A382F894B29C}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{5E36A382F7F42CD7}" {
+     m_iTextureID 4
+    }
+    RHS_MaterialGroupProperties "{5E36A382F73CB243}" {
+     m_iTextureID 1
+    }
+    RHS_MaterialGroupProperties "{5E36A382E8B446AC}" {
+     m_iTextureID 4
+    }
+   }
+  }
+ }
+ coords 2938.37 27.531 4071.051
+ angleY -130.5
+ {
+  SCR_AIGroup AFRF_TankCrew : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+   components {
+    AIFormationComponent "{507E9DC12F541FE6}" {
+     DefaultFormation "Column"
+    }
+    PS_GroupCallsignAssigner "{62F6E93826DC2E71}" {
+     m_iCompanyCallsign 1
+     m_iPlatoonCallsign 1
+     m_iSquadCallsign 4
+    }
+   }
+   coords -7.5 0 0
+   angleY 90
+   m_aUnitPrefabSlots {
+    "{D6A36ABEBFF38320}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewCommander_P.et" "{2260894A1404A766}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewGunner_P.et" "{F3147744B1840A05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewDriver_P.et"
+   }
+  }
+ }
+}
+Vehicle CDF_BTR70 : "{FCEC036D7F903A66}Prefabs/Vehicles/Wheeled/BTR70/CDF/BTR70_CDF.et" {
+ coords 1848.66 10.194 3701.139
+ angleX 1.131
+ angleY 97.842
+ angleZ -1.651
+}

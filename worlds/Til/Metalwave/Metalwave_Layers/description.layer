@@ -1,0 +1,116 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ D0_Description {
+  m_sTitle "Metalwave"
+  m_sTextData "Russian Mechanized Assault on CDF held power plant"\
+  ""\
+  "2:1 RU:CDF"
+  m_bEmptyFactionVisibility 1
+ }
+ D1_Situation_CDF {
+  coords 0 0 0
+  m_sTitle "Situation"
+  m_sTextData "A. Enemy Forces"\
+  ""\
+  "A Russian motor rifle platoon (mounted in K-17s, with attached T-14) has been spotted near 028 040, preparing to assault the power plant."\
+  ""\
+  "Previously, another Russian squad established a firing position at 023 038."\
+  ""\
+  ""\
+  "B. Friendly Forces"\
+  ""\
+  "One platoon of CDF, currently located at 018 036, tasked with blocking the road towards the power plant."\
+  ""\
+  "There are extensive trench networks to the east of the power plant, both south and north of the approaching road."\
+  ""\
+  "The third squad will remain at the power plant. Another platoon has prepared positions to the south, but will not act as a QRF."
+  m_aVisibleForFactions {
+   "CDF"
+  }
+  m_iOrder 1
+ }
+ D2_Mission_CDF {
+  coords 0 0 0
+  m_sTitle "Mission"
+  m_sTextData "Mission"\
+  ""\
+  "Defend against the Russian assault."\
+  ""\
+  ""\
+  "Service / Support"\
+  ""\
+  "Resupply: There is additional ammunition in the trenches"\
+  "Vehicle Support: One BTR-70 and one armed HMMWV"\
+  ""\
+  ""\
+  "Command / Signal"\
+  ""\
+  "0 - Platoon HQ"\
+  "1 - 1st Squad"\
+  "2 - 2nd Squad"\
+  "3 - BTR Crew"
+  m_aVisibleForFactions {
+   "CDF"
+  }
+  m_iOrder 2
+ }
+ D1_Situation_AFRF {
+  coords 0 0 0
+  m_sTitle "Situation"
+  m_sTextData "A. Enemy Forces"\
+  ""\
+  "One platoon of CDF, defending the power plant to the west (018 036)."\
+  "Mostly infantry, possibly with lightly armored vehicle support, like a BTR or armed HMMWV."\
+  "Another CDF platoon is located to their south, but unlikely to act as a QRF."\
+  "The power plant area is protected by a significant trench network, extending up to 200m east."\
+  ""\
+  ""\
+  "B. Friendly Forces"\
+  ""\
+  "One K-17 based motor rifle platoon with an attached T-14 tank, currrently located at 029 040."\
+  ""\
+  "Another squad previously established a firing position at 023 038."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 1
+ }
+ D2_Mission_AFRF {
+  coords 0 0 0
+  m_sTitle "Mission"
+  m_sTextData "Mission"\
+  ""\
+  "Seize the power plant from the CDF."\
+  ""\
+  ""\
+  "Service / Support"\
+  ""\
+  "Resupply: Vehicle inventories"\
+  "Vehicle Support: 3x K-17 IFV, 1x T-14 Tank "\
+  ""\
+  ""\
+  "Command / Signal"\
+  ""\
+  "HQ - Platoon HQ"\
+  "1 - 1st Squad"\
+  "2 - 2nd Squad"\
+  "3 - 3rd Squad"\
+  "4 - Tank"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 2
+ }
+ D3_Notes {
+  coords 0 0 0
+  m_sTitle "Notes"
+  m_sTextData "- Due to the Russian firing position, the CDF cannot advance past grid column 022."\
+  "- The forest in the south has two small ravines, which are not crossable by vehicles."\
+  ""\
+  "- Setup Timer: 5 minutes"\
+  "- End Conditions:"\
+  "  a) AFRF Victory: AFRF has taken the power plant (2m capture timer)"\
+  "  b) CDF Victory: AFRF has suffered 90% casualties, or the 45m time limit is reached"
+  m_bShowForAnyFaction 1
+  m_iOrder 3
+ }
+}

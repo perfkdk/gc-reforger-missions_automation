@@ -1,0 +1,59 @@
+Vehicle GAZ_TIGR_v2_AGS1 : "{1C41EF46A9A977D0}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_v2_AGS17.et" {
+ coords 4291.432 20.281 2365.112
+ angleY -85.876
+}
+RHS_Tank Tank_T14_camo1 : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
+ coords 4126.656 19.625 2360.617
+ angleY -92
+ {
+  $grp Vehicle : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camo1.et" {
+   APC_K17_Epoch_camo1 {
+    coords 0 0.094 -25
+    {
+     SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_PHQ_P.et" {
+      coords -12.5 0 12.5
+      angleY 90
+     }
+     SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
+      coords -12.5 0 0
+     }
+    }
+   }
+   APC_K17_Epoch_camo2 {
+    coords -0 0.219 -50
+    {
+     SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
+      coords -12.5 0 0
+     }
+    }
+   }
+   APC_K17_Epoch_camo3 {
+    coords 0 0.312 -75
+    {
+     SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
+      coords -12.5 0 0
+     }
+    }
+   }
+  }
+  SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+   coords -12.5 0 0
+   angleY 90
+   m_aUnitPrefabSlots {
+    "{D6A36ABEBFF38320}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewCommander_P.et" "{2260894A1404A766}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewGunner_P.et" "{F3147744B1840A05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewDriver_P.et"
+   }
+  }
+ }
+}
+Vehicle GAZ_TIGR_v2_KORD_Shield2 : "{C759BD01F342125E}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_v2_KORD_Shield.et" {
+ coords 4275.364 20.219 2365.017
+ angleY -89.832
+}
+Vehicle GAZ_TIGR_v2_KORD_SPP_Shield1 : "{D8EDFC684E8E46CD}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_v2_KORD_SPP_Shield.et" {
+ coords 4281.571 20.25 2364.807
+ angleY -89.283
+}
+Vehicle BTR70_CDF1 : "{FCEC036D7F903A66}Prefabs/Vehicles/Wheeled/BTR70/CDF/BTR70_CDF.et" {
+ coords 3385.495 24.956 3472.372
+ angleY 136.823
+}
