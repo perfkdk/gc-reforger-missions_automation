@@ -1,0 +1,41 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ MISSIONOTES {
+  coords 2239.755 0.002 9543.625
+  m_sTitle "Mission notes"
+  m_sTextData "WIN CONDITIONS"\
+  ""\
+  "Blufor:"\
+  "Destroy OPFOR ammo cache and also kill 85% of their troops."\
+  ""\
+  "Opfor:"\
+  "Kill 80% BLUFOR or hold out for 25mins."\
+  ""\
+  "MISC"\
+  ""\
+  "AO LIMIT - Yes | OPFOR"\
+  "Setup Timer: Yes | 5min"\
+  "Respawns - None"\
+  "Timelimt - Yes | 25mins playerable + 5mins for setup - Total 30mins."\
+  ""\
+  "This mission was not designed to be game mastered ."\
+  ""\
+  "Mission made by: TheLocaLPub | @/DM me on Discord with feedback/bugs. - My first Reforger mission."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 7
+ }
+ SUMMARY {
+  coords 2226.888 0 9533.049
+  m_sTitle "Summary"
+  m_sTextData "British 90's light infantry platoon conduct an early morning raid to DESTROY a SAPA cell and their supplies who have stopped to rest during their maneuvers."\
+  ""\
+  "RATIO 4:1"\
+  "5mins setup timer."\
+  "In-game brief compatible."\
+  ""\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 0
+ }
+}
