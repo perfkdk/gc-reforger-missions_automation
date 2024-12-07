@@ -1,4 +1,4 @@
-$grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
+$grp GenericEntity : "{0BF6E667F86CE48E}worlds/TheLocalPub/LamentinLosers/Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_LamentinLosers.et" {
  {
   coords 1855.317 94.376 5703.539
   angleX -1.79
@@ -93,7 +93,7 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   angleZ -7.989
  }
  {
-  coords 1855.463 91.67 5740.399
+  coords 1855.463 91.67 5740.398
   angleX -6.242
   angleZ -7.083
  }
@@ -147,7 +147,7 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   angleZ -8.881
  }
  {
-  coords 1818.791 85.979 5631.919
+  coords 1818.791 85.979 5631.918
   angleX 5.356
   angleZ -3.561
  }
@@ -250,7 +250,7 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   angleZ -6.962
  }
  {
-  coords 1799.362 85.033 5643.317
+  coords 1799.362 85.033 5643.316
   angleX 4.467
   angleZ -6.223
  }
@@ -435,7 +435,7 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   angleZ -1.754
  }
  {
-  coords 1729.986 63.818 5525.315
+  coords 1729.986 63.818 5525.314
   angleX 19.767
   angleZ 5.042
  }
@@ -588,7 +588,7 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   angleZ -8.776
  }
  {
-  coords 1616.671 42.231 5467.336
+  coords 1616.671 42.231 5467.335
   angleX 18.166
   angleZ -8.445
  }
@@ -618,7 +618,7 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   angleZ -8.731
  }
  {
-  coords 1619.485 44.771 5473.899
+  coords 1619.485 44.771 5473.898
   angleX 17.354
   angleZ -7.645
  }
@@ -633,7 +633,7 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   angleZ -12.81
  }
  {
-  coords 1649.82 53.284 5489.839
+  coords 1649.82 53.284 5489.838
   angleX 13.191
   angleZ -6.939
  }
@@ -781,7 +781,7 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   angleZ 0.893
  }
  {
-  coords 1481.861 19.686 5424.814
+  coords 1481.861 19.686 5424.813
   angleX -3.576
   angleZ -5.345
  }

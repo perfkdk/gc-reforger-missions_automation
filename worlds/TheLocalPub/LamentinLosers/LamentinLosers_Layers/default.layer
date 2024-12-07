@@ -33,10 +33,8 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 1144.263 0 4995.062
- m_iReconnectTime 300
- m_iReconnectTimeAfterBriefing 300
+ m_iReconnectTimeAfterBriefing 120000
  m_bMarkersOnlyOnBriefing 1
- m_bShowCutscene 1
 }
 CommentEntity {
  coords 1287.722 101.741 6137.2
@@ -99,6 +97,22 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{62E4AEF47EAF514A}" {
    m_name "Spawn Helo"
    m_instructions {
+    TILW_SendMessageInstruction "{63050610163600F5}" {
+     m_executionDelay 10
+     m_messageTitle "Helicopter spawn"
+     m_messageBody "Your helicopter will spawn in 5mins time."
+     m_factionKeys {
+      "US"
+     }
+    }
+    TILW_SendMessageInstruction "{630506103B117BF8}" {
+     m_executionDelay 300
+     m_messageTitle "AH-1 spawned"
+     m_messageBody "Your helicopter has spawned on the run way."
+     m_factionKeys {
+      "US"
+     }
+    }
     TILW_SpawnVehicleInstruction "{62E4AEF46DE9F19A}" {
      m_executionDelay 300
      m_prefab "{C8C37964483452EA}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Army.et"
@@ -117,6 +131,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnGroupInstruction "{62EAFE53FD3CDBBE}" {
      m_executionDelay 360
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF1"
      m_waypointNames {
       "BLUWP15_1" "BLUWP15_2" "BLUWP15_3" "BLUWP15_4" "BLUWP15_3" "BLUATK15_1" "BLUSD15_1"
@@ -124,6 +139,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE52500BF881}" {
      m_executionDelay 360
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF2"
      m_waypointNames {
       "BLUWP14_1" "BLUWP14_2" "BLUWP14_3" "BLUWP14_4" "BLUATK14_1" "BLUSD14_1"
@@ -131,6 +147,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE512C5DC859}" {
      m_executionDelay 360
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF3"
      m_waypointNames {
       "BLUWP13_1" "BLUWP13_2" "BLUWP13_3" "BLUATK13_1" "BLUSD13_1"
@@ -138,6 +155,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5287FF35AA}" {
      m_executionDelay 360
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF4"
      m_waypointNames {
       "BLUWP12_1" "BLUWP12_2" "BLUWP12_3" "BLUATK12_1" "BLUSD12_1"
@@ -145,6 +163,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE51A9591782}" {
      m_executionDelay 360
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF5"
      m_waypointNames {
       "BLUWP11_1" "BLUWP11_2" "BLUWP11_3" "BLUATK11_1" "BLUSD11_1"
@@ -152,6 +171,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE51D70B8E9D}" {
      m_executionDelay 360
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF6"
      m_waypointNames {
       "BLUWP10_1" "BLUWP10_2" "BLUWP10_3" "BLUWP10_4" "BLUATK10_1" "BLUSD10_1"
@@ -159,6 +179,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE502103F7E7}" {
      m_executionDelay 360
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF7"
      m_waypointNames {
       "BLUWP9_1" "BLUWP9_2" "BLUWP9_3" "BLUWP9_4" "BLUWP9_5" "BLUATK9_1" "BLUSD9_1"
@@ -166,6 +187,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE506E6E78AF}" {
      m_executionDelay 360
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF8"
      m_waypointNames {
       "BLUWP8_1" "BLUWP8_2" "BLUWP8_3" "BLUWP8_4" "BLUWP8_5" "BLUATK8_1" "BLUSD8_1"
@@ -173,6 +195,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5044CFB18F}" {
      m_executionDelay 360
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF9"
      m_waypointNames {
       "BLUWP7_1" "BLUWP7_2" "BLUWP7_3" "BLUWP7_4" "BLUATK7_1" "BLUSD7_1"
@@ -180,6 +203,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE50908EF531}" {
      m_executionDelay 360
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF10"
      m_waypointNames {
       "BLUWP6_1" "BLUWP6_2" "BLUWP6_3" "BLUWP6_4" "BLUATK6_1" "BLUSD6_1"
@@ -187,6 +211,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE50E09CF72C}" {
      m_executionDelay 360
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF11"
      m_waypointNames {
       "BLUWP5_1" "BLUWP5_2" "BLUWP5_3" "BLUWP5_4" "BLUATK5_1" "BLUATK5_2" "BLUSD5_1"
@@ -194,6 +219,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5728A712B4}" {
      m_executionDelay 360
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF12"
      m_waypointNames {
       "BLUWP4_1" "BLUWP4_2" "BLUWP4_3" "BLUWP4_4" "BLUATK4_1" "BLUATK4_2" "BLUSD4_1"
@@ -201,6 +227,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE564149A770}" {
      m_executionDelay 360
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF13"
      m_waypointNames {
       "BLUWP3_1" "BLUWP3_2" "BLUWP3_3" "BLUWP3_4" "BLUATK3_1" "BLUATK3_2" "BLUSD3_1"
@@ -208,6 +235,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE55EF9A317F}" {
      m_executionDelay 360
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF14"
      m_waypointNames {
       "BLUWP2_1" "BLUWP2_2" "BLUWP2_3" "BLUWP2_4" "BLUATK2_1" "BLUSD2_1"
@@ -215,6 +243,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE55C3F6F852}" {
      m_executionDelay 360
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF15"
      m_waypointNames {
       "BLUWP1_1" "BLUWP1_2" "BLUWP1_3" "BLUWP1_4" "BLUWP1_5" "BLUATK1_1" "BLUSD1_1"
@@ -230,6 +259,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnGroupInstruction "{62EAFE53FD3CDBBE}" {
      m_executionDelay 780
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF1"
      m_waypointNames {
       "BLUWP15_1" "BLUWP15_2" "BLUWP15_3" "BLUWP15_4" "BLUWP15_3" "BLUATK15_1" "BLUSD15_1"
@@ -237,6 +267,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE52500BF881}" {
      m_executionDelay 780
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF2"
      m_waypointNames {
       "BLUWP14_1" "BLUWP14_2" "BLUWP14_3" "BLUWP14_4" "BLUATK14_1" "BLUSD14_1"
@@ -244,6 +275,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE512C5DC859}" {
      m_executionDelay 780
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF3"
      m_waypointNames {
       "BLUWP13_1" "BLUWP13_2" "BLUWP13_3" "BLUATK13_1" "BLUSD13_1"
@@ -251,6 +283,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5287FF35AA}" {
      m_executionDelay 780
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF4"
      m_waypointNames {
       "BLUWP12_1" "BLUWP12_2" "BLUWP12_3" "BLUATK12_1" "BLUSD12_1"
@@ -258,6 +291,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE51A9591782}" {
      m_executionDelay 780
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF5"
      m_waypointNames {
       "BLUWP11_1" "BLUWP11_2" "BLUWP11_3" "BLUATK11_1" "BLUSD11_1"
@@ -265,6 +299,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE51D70B8E9D}" {
      m_executionDelay 780
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF6"
      m_waypointNames {
       "BLUWP10_1" "BLUWP10_2" "BLUWP10_3" "BLUWP10_4" "BLUATK10_1" "BLUSD10_1"
@@ -272,6 +307,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE502103F7E7}" {
      m_executionDelay 780
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF7"
      m_waypointNames {
       "BLUWP9_1" "BLUWP9_2" "BLUWP9_3" "BLUWP9_4" "BLUWP9_5" "BLUATK9_1" "BLUSD9_1"
@@ -279,6 +315,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE506E6E78AF}" {
      m_executionDelay 780
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF8"
      m_waypointNames {
       "BLUWP8_1" "BLUWP8_2" "BLUWP8_3" "BLUWP8_4" "BLUWP8_5" "BLUATK8_1" "BLUSD8_1"
@@ -286,6 +323,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5044CFB18F}" {
      m_executionDelay 780
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF9"
      m_waypointNames {
       "BLUWP7_1" "BLUWP7_2" "BLUWP7_3" "BLUWP7_4" "BLUATK7_1" "BLUSD7_1"
@@ -293,6 +331,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE50908EF531}" {
      m_executionDelay 780
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF10"
      m_waypointNames {
       "BLUWP6_1" "BLUWP6_2" "BLUWP6_3" "BLUWP6_4" "BLUATK6_1" "BLUSD6_1"
@@ -300,6 +339,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE50E09CF72C}" {
      m_executionDelay 780
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF11"
      m_waypointNames {
       "BLUWP5_1" "BLUWP5_2" "BLUWP5_3" "BLUWP5_4" "BLUATK5_1" "BLUATK5_2" "BLUSD5_1"
@@ -307,6 +347,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5728A712B4}" {
      m_executionDelay 780
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF12"
      m_waypointNames {
       "BLUWP4_1" "BLUWP4_2" "BLUWP4_3" "BLUWP4_4" "BLUATK4_1" "BLUATK4_2" "BLUSD4_1"
@@ -314,6 +355,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE564149A770}" {
      m_executionDelay 780
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF13"
      m_waypointNames {
       "BLUWP3_1" "BLUWP3_2" "BLUWP3_3" "BLUWP3_4" "BLUATK3_1" "BLUATK3_2" "BLUSD3_1"
@@ -321,6 +363,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE55EF9A317F}" {
      m_executionDelay 780
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF14"
      m_waypointNames {
       "BLUWP2_1" "BLUWP2_2" "BLUWP2_3" "BLUWP2_4" "BLUATK2_1" "BLUSD2_1"
@@ -328,6 +371,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE55C3F6F852}" {
      m_executionDelay 780
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF15"
      m_waypointNames {
       "BLUWP1_1" "BLUWP1_2" "BLUWP1_3" "BLUWP1_4" "BLUWP1_5" "BLUATK1_1" "BLUSD1_1"
@@ -343,6 +387,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnGroupInstruction "{62EAFE53FD3CDBBE}" {
      m_executionDelay 1200
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF1"
      m_waypointNames {
       "BLUWP15_1" "BLUWP15_2" "BLUWP15_3" "BLUWP15_4" "BLUWP15_3" "BLUATK15_1" "BLUSD15_1"
@@ -350,6 +395,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE52500BF881}" {
      m_executionDelay 1200
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF2"
      m_waypointNames {
       "BLUWP14_1" "BLUWP14_2" "BLUWP14_3" "BLUWP14_4" "BLUATK14_1" "BLUSD14_1"
@@ -357,6 +403,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE512C5DC859}" {
      m_executionDelay 1200
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF3"
      m_waypointNames {
       "BLUWP13_1" "BLUWP13_2" "BLUWP13_3" "BLUATK13_1" "BLUSD13_1"
@@ -364,6 +411,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5287FF35AA}" {
      m_executionDelay 1200
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF4"
      m_waypointNames {
       "BLUWP12_1" "BLUWP12_2" "BLUWP12_3" "BLUATK12_1" "BLUSD12_1"
@@ -371,6 +419,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE51A9591782}" {
      m_executionDelay 1200
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF5"
      m_waypointNames {
       "BLUWP11_1" "BLUWP11_2" "BLUWP11_3" "BLUATK11_1" "BLUSD11_1"
@@ -378,6 +427,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE51D70B8E9D}" {
      m_executionDelay 1200
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF6"
      m_waypointNames {
       "BLUWP10_1" "BLUWP10_2" "BLUWP10_3" "BLUWP10_4" "BLUATK10_1" "BLUSD10_1"
@@ -385,6 +435,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE502103F7E7}" {
      m_executionDelay 1200
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF7"
      m_waypointNames {
       "BLUWP9_1" "BLUWP9_2" "BLUWP9_3" "BLUWP9_4" "BLUWP9_5" "BLUATK9_1" "BLUSD9_1"
@@ -392,6 +443,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE506E6E78AF}" {
      m_executionDelay 1200
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF8"
      m_waypointNames {
       "BLUWP8_1" "BLUWP8_2" "BLUWP8_3" "BLUWP8_4" "BLUWP8_5" "BLUATK8_1" "BLUSD8_1"
@@ -399,6 +451,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5044CFB18F}" {
      m_executionDelay 1200
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF9"
      m_waypointNames {
       "BLUWP7_1" "BLUWP7_2" "BLUWP7_3" "BLUWP7_4" "BLUATK7_1" "BLUSD7_1"
@@ -406,6 +459,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE50908EF531}" {
      m_executionDelay 1200
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF10"
      m_waypointNames {
       "BLUWP6_1" "BLUWP6_2" "BLUWP6_3" "BLUWP6_4" "BLUATK6_1" "BLUSD6_1"
@@ -413,6 +467,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE50E09CF72C}" {
      m_executionDelay 1200
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF11"
      m_waypointNames {
       "BLUWP5_1" "BLUWP5_2" "BLUWP5_3" "BLUWP5_4" "BLUATK5_1" "BLUATK5_2" "BLUSD5_1"
@@ -420,6 +475,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5728A712B4}" {
      m_executionDelay 1200
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF12"
      m_waypointNames {
       "BLUWP4_1" "BLUWP4_2" "BLUWP4_3" "BLUWP4_4" "BLUATK4_1" "BLUATK4_2" "BLUSD4_1"
@@ -427,6 +483,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE564149A770}" {
      m_executionDelay 1200
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF13"
      m_waypointNames {
       "BLUWP3_1" "BLUWP3_2" "BLUWP3_3" "BLUWP3_4" "BLUATK3_1" "BLUATK3_2" "BLUSD3_1"
@@ -434,6 +491,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE55EF9A317F}" {
      m_executionDelay 1200
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF14"
      m_waypointNames {
       "BLUWP2_1" "BLUWP2_2" "BLUWP2_3" "BLUWP2_4" "BLUATK2_1" "BLUSD2_1"
@@ -441,6 +499,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE55C3F6F852}" {
      m_executionDelay 1200
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF15"
      m_waypointNames {
       "BLUWP1_1" "BLUWP1_2" "BLUWP1_3" "BLUWP1_4" "BLUWP1_5" "BLUATK1_1" "BLUSD1_1"
@@ -456,6 +515,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnGroupInstruction "{62EAFE53FD3CDBBE}" {
      m_executionDelay 1560
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF1"
      m_waypointNames {
       "BLUWP15_1" "BLUWP15_2" "BLUWP15_3" "BLUWP15_4" "BLUWP15_3" "BLUATK15_1" "BLUSD15_1"
@@ -463,6 +523,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE52500BF881}" {
      m_executionDelay 1560
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF2"
      m_waypointNames {
       "BLUWP14_1" "BLUWP14_2" "BLUWP14_3" "BLUWP14_4" "BLUATK14_1" "BLUSD14_1"
@@ -470,6 +531,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE512C5DC859}" {
      m_executionDelay 1560
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF3"
      m_waypointNames {
       "BLUWP13_1" "BLUWP13_2" "BLUWP13_3" "BLUATK13_1" "BLUSD13_1"
@@ -477,6 +539,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5287FF35AA}" {
      m_executionDelay 1560
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF4"
      m_waypointNames {
       "BLUWP12_1" "BLUWP12_2" "BLUWP12_3" "BLUATK12_1" "BLUSD12_1"
@@ -484,6 +547,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE51A9591782}" {
      m_executionDelay 1560
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF5"
      m_waypointNames {
       "BLUWP11_1" "BLUWP11_2" "BLUWP11_3" "BLUATK11_1" "BLUSD11_1"
@@ -491,6 +555,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE51D70B8E9D}" {
      m_executionDelay 1560
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF6"
      m_waypointNames {
       "BLUWP10_1" "BLUWP10_2" "BLUWP10_3" "BLUWP10_4" "BLUATK10_1" "BLUSD10_1"
@@ -498,6 +563,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE502103F7E7}" {
      m_executionDelay 1560
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF7"
      m_waypointNames {
       "BLUWP9_1" "BLUWP9_2" "BLUWP9_3" "BLUWP9_4" "BLUWP9_5" "BLUATK9_1" "BLUSD9_1"
@@ -505,6 +571,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE506E6E78AF}" {
      m_executionDelay 1560
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF8"
      m_waypointNames {
       "BLUWP8_1" "BLUWP8_2" "BLUWP8_3" "BLUWP8_4" "BLUWP8_5" "BLUATK8_1" "BLUSD8_1"
@@ -512,6 +579,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5044CFB18F}" {
      m_executionDelay 1560
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF9"
      m_waypointNames {
       "BLUWP7_1" "BLUWP7_2" "BLUWP7_3" "BLUWP7_4" "BLUATK7_1" "BLUSD7_1"
@@ -519,6 +587,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE50908EF531}" {
      m_executionDelay 1560
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF10"
      m_waypointNames {
       "BLUWP6_1" "BLUWP6_2" "BLUWP6_3" "BLUWP6_4" "BLUATK6_1" "BLUSD6_1"
@@ -526,6 +595,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE50E09CF72C}" {
      m_executionDelay 1560
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF11"
      m_waypointNames {
       "BLUWP5_1" "BLUWP5_2" "BLUWP5_3" "BLUWP5_4" "BLUATK5_1" "BLUATK5_2" "BLUSD5_1"
@@ -533,6 +603,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE5728A712B4}" {
      m_executionDelay 1560
+     m_prefab "{958039B857396B7B}Prefabs/Groups/BLUFOR/Group_US_MachineGunTeam.et"
      m_locationName "QRF12"
      m_waypointNames {
       "BLUWP4_1" "BLUWP4_2" "BLUWP4_3" "BLUWP4_4" "BLUATK4_1" "BLUATK4_2" "BLUSD4_1"
@@ -540,6 +611,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE564149A770}" {
      m_executionDelay 1560
+     m_prefab "{B7AB5D3F8A7ADAE4}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ.et"
      m_locationName "QRF13"
      m_waypointNames {
       "BLUWP3_1" "BLUWP3_2" "BLUWP3_3" "BLUWP3_4" "BLUATK3_1" "BLUATK3_2" "BLUSD3_1"
@@ -547,6 +619,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE55EF9A317F}" {
      m_executionDelay 1560
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF14"
      m_waypointNames {
       "BLUWP2_1" "BLUWP2_2" "BLUWP2_3" "BLUWP2_4" "BLUATK2_1" "BLUSD2_1"
@@ -554,6 +627,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnGroupInstruction "{62EAFE55C3F6F852}" {
      m_executionDelay 1560
+     m_prefab "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et"
      m_locationName "QRF15"
      m_waypointNames {
       "BLUWP1_1" "BLUWP1_2" "BLUWP1_3" "BLUWP1_4" "BLUWP1_5" "BLUATK1_1" "BLUSD1_1"

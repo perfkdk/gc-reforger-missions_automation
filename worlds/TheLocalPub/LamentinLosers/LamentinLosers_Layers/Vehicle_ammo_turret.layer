@@ -222,7 +222,7 @@ GenericEntity MainCrate : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/Pallet
  angleY 135.702
 }
 Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
- coords 1458.221 68.533 6061.145
+ coords 1456.916 68.236 6058.646
  angleY 113.635
 }
 GenericEntity MedCrate : "{7C93700E1AC4C387}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Medical_USSR.et" {
