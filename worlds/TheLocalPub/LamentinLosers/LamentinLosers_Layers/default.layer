@@ -639,4 +639,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{630F34520B212EB9}" {
+   m_flagName "USSR_DEAD"
+   m_factionKey "USSR"
+   m_casualtyRatio 0.9
+  }
+ }
 }
