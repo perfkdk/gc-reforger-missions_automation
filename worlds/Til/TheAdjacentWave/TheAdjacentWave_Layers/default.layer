@@ -28,7 +28,7 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  m_iFreezeTime 180000
  {
-  SCR_FactionManager {
+  SCR_FactionManager "6310E5E663245945" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
@@ -87,20 +87,19 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    }
   }
  }
- coords 2862.874 17.312 2247.78
- angleY -5
+ coords 2900 17.838 2200
  Points {
   ShapePoint "{6306F668AF670B09}" {
    Position 0 0 0
   }
   ShapePoint "{6306F668AD799EA4}" {
-   Position 0 0 400
+   Position 0 0 450
   }
   ShapePoint "{6306F668BADFBFA5}" {
-   Position 1250 0 400
+   Position 1200 0 550
   }
   ShapePoint "{6306F668978812FB}" {
-   Position 1250 0 0
+   Position 1200 0 100
   }
  }
  LineColor 0 0 0 0
@@ -111,272 +110,268 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    {
     $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
      {
-      coords 0 -2.348 0
-      angleY 5
+      coords 0 -0.682 0
+      angleY 0
      }
      {
-      coords 0 -1.911 50
-      angleY 5
+      coords 0 -0.275 50
+      angleY 0
      }
      {
-      coords 0 -1.232 100
-      angleY 5
+      coords 0 0.35 100
+      angleY 0
      }
      {
-      coords 0 -1.693 150
-      angleY 5
+      coords 0 0.756 150
+      angleY 0
      }
      {
-      coords 0 -4.401 200
-      angleY 5
+      coords 0 0.818 200
+      angleY 0
      }
      {
-      coords 0 -4.013 250
-      angleY 5
+      coords 0 0.256 250
+      angleY 0
      }
      {
-      coords 0 -4.624 300
-      angleY 5
+      coords 0 -0.244 300
+      angleY 0
      }
      {
-      coords 0 -3.794 350
-      angleY 5
+      coords 0 -0.432 350
+      angleY 0
      }
      {
-      coords 0 -3.016 400
-      angleY 5
+      coords 0 -0.15 400
+      angleY 0
      }
      {
-      coords 50 -0.942 400
-      angleY 95
+      coords 0 1.349 450
+      angleY 0
      }
      {
-      coords 100 1.058 400
-      angleY 95
+      coords 49.827 3.159 454.152
+      angleY 85.236
      }
      {
-      coords 150 3.261 400
-      angleY 95
+      coords 99.655 4.709 458.305
+      angleY 85.236
      }
      {
-      coords 200 2.866 400
-      angleY 95
+      coords 149.482 4.6 462.457
+      angleY 85.236
      }
      {
-      coords 250 2.911 400
-      angleY 95
+      coords 199.309 4.609 466.609
+      angleY 85.236
      }
      {
-      coords 300 2.674 400
-      angleY 95
+      coords 249.137 4.518 470.761
+      angleY 85.236
      }
      {
-      coords 350 2.601 400
-      angleY 95
+      coords 298.964 4.317 474.914
+      angleY 85.236
      }
      {
-      coords 400 1.591 400
-      angleY 95
+      coords 348.791 4.205 479.066
+      angleY 85.236
      }
      {
-      coords 450 3.438 400
-      angleY 95
+      coords 398.618 5.249 483.219
+      angleY 85.236
      }
      {
-      coords 500 3.525 400
-      angleY 95
+      coords 448.446 5.068 487.371
+      angleY 85.236
      }
      {
-      coords 550 3.669 400
-      angleY 95
+      coords 498.273 5.259 491.523
+      angleY 85.236
      }
      {
-      coords 600 3.534 400
-      angleY 95
+      coords 548.1 5.256 495.675
+      angleY 85.236
      }
      {
-      coords 650 3.527 400
-      angleY 95
+      coords 597.928 5.287 499.827
+      angleY 85.236
      }
      {
-      coords 700 3.585 400
-      angleY 95
+      coords 647.755 5.412 503.98
+      angleY 85.236
      }
      {
-      coords 750 3.222 400
-      angleY 95
+      coords 697.582 4.922 508.132
+      angleY 85.236
      }
      {
-      coords 800 3.423 400
-      angleY 95
+      coords 747.409 5.264 512.284
+      angleY 85.236
      }
      {
-      coords 850 3.839 400
-      angleY 95
+      coords 797.237 5.616 516.437
+      angleY 85.236
      }
      {
-      coords 900 4.045 400
-      angleY 95
+      coords 847.064 5.436 520.589
+      angleY 85.236
      }
      {
-      coords 950 2.922 400
-      angleY 95
+      coords 896.891 4.597 524.741
+      angleY 85.236
      }
      {
-      coords 1000 2.377 400
-      angleY 95
+      coords 946.718 4.151 528.894
+      angleY 85.236
      }
      {
-      coords 1050 1.97 400
-      angleY 95
+      coords 996.546 3.827 533.046
+      angleY 85.236
      }
      {
-      coords 1100 1.857 400
-      angleY 95
+      coords 1046.373 3.531 537.198
+      angleY 85.236
      }
      {
-      coords 1150 0.8 400
-      angleY 95
+      coords 1096.2 2.336 541.35
+      angleY 85.236
      }
      {
-      coords 1200 0.18 400
-      angleY 95
+      coords 1146.028 2.17 545.503
+      angleY 85.236
      }
      {
-      coords 1250 1.105 400
-      angleY 95
+      coords 1195.855 2.949 549.655
+      angleY 85.236
      }
      {
-      coords 1250 1.308 350
-      angleY -175
+      coords 1200 3.099 504.159
+      angleY -180
      }
      {
-      coords 1250 1.058 300
-      angleY -175
+      coords 1200 2.693 454.159
+      angleY -180
      }
      {
-      coords 1250 0.445 250
-      angleY -175
+      coords 1200 2.287 404.16
+      angleY -180
      }
      {
-      coords 1250 0.606 200
-      angleY -175
+      coords 1200 2.318 354.159
+      angleY -180
      }
      {
-      coords 1250 0.59 150
-      angleY -175
+      coords 1200 2.352 304.159
+      angleY -180
      }
      {
-      coords 1250 0.371 100
-      angleY -175
+      coords 1200 2.099 254.159
+      angleY -180
      }
      {
-      coords 1250 0.277 50
-      angleY -175
+      coords 1200 1.975 204.159
+      angleY -180
      }
      {
-      coords 1250 0.402 0
-      angleY -175
+      coords 1200 1.693 154.159
+      angleY -180
      }
      {
-      coords 1200 0.069 0
-      angleY -85
+      coords 1200 2.011 104.159
+      angleY -180
      }
      {
-      coords 1150 -0.285 0
-      angleY -85
+      coords 1154.318 1.545 96.193
+      angleY -94.764
      }
      {
-      coords 1100 -0.613 0
-      angleY -85
+      coords 1104.49 1.099 92.041
+      angleY -94.764
      }
      {
-      coords 1050 -1.346 0
-      angleY -85
+      coords 1054.663 0.317 87.889
+      angleY -94.764
      }
      {
-      coords 1000 -1.474 0
-      angleY -85
+      coords 1004.836 0.086 83.736
+      angleY -94.764
      }
      {
-      coords 950 -0.248 0
-      angleY -85
+      coords 955.009 1.084 79.584
+      angleY -94.764
      }
      {
-      coords 900 0.027 0
-      angleY -85
+      coords 905.181 1.872 75.432
+      angleY -94.764
      }
      {
-      coords 850 0.687 0
-      angleY -85
+      coords 855.354 2.328 71.28
+      angleY -94.764
      }
      {
-      coords 800 1.371 0
-      angleY -85
+      coords 805.527 2.711 67.127
+      angleY -94.764
      }
      {
-      coords 750 1.496 0
-      angleY -85
+      coords 755.7 2.692 62.975
+      angleY -94.764
      }
      {
-      coords 700 1.154 0
-      angleY -85
+      coords 705.873 2.579 58.823
+      angleY -94.764
      }
      {
-      coords 650 0.862 0
-      angleY -85
+      coords 656.045 2.266 54.67
+      angleY -94.764
      }
      {
-      coords 600 0.621 0
-      angleY -85
+      coords 606.218 2.341 50.518
+      angleY -94.764
      }
      {
-      coords 550 -0.22 0
-      angleY -85
+      coords 556.391 0.52 46.366
+      angleY -94.764
      }
      {
-      coords 500 -2.276 0
-      angleY -85
+      coords 506.563 -0.037 42.214
+      angleY -94.764
      }
      {
-      coords 450 0.573 0
-      angleY -85
+      coords 456.736 2.599 38.061
+      angleY -94.764
      }
      {
-      coords 400 0.71 0
-      angleY -85
+      coords 406.909 2.534 33.909
+      angleY -94.764
      }
      {
-      coords 350 1.121 0
-      angleY -85
+      coords 357.082 2.568 29.757
+      angleY -94.764
      }
      {
-      coords 300 0.964 0
-      angleY -85
+      coords 307.254 2.588 25.604
+      angleY -94.764
      }
      {
-      coords 250 0.723 0
-      angleY -85
+      coords 257.427 2.287 21.452
+      angleY -94.764
      }
      {
-      coords 200 -0.036 0
-      angleY -85
+      coords 207.6 1.665 17.3
+      angleY -94.764
      }
      {
-      coords 150 -0.611 0
-      angleY -85
+      coords 157.772 1.02 13.148
+      angleY -94.764
      }
      {
-      coords 100 -1.311 0
-      angleY -85
+      coords 107.945 0.381 8.995
+      angleY -94.764
      }
      {
-      coords 50 -1.799 0
-      angleY -85
-     }
-     {
-      coords 0 -2.348 0
-      angleY -85
+      coords 58.118 -0.26 4.843
+      angleY -94.764
      }
     }
    }
@@ -394,13 +389,13 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
      Position 0 0 0
     }
     ShapePoint "{6306F668AD799EA4}" {
-     Position 0 0 400
+     Position 0 0 450
     }
     ShapePoint "{6306F668BADFBFA5}" {
-     Position 400 0 400
+     Position 300 0 475
     }
     ShapePoint "{6306F668978812FB}" {
-     Position 400 0 0
+     Position 300 0 25
     }
    }
   }

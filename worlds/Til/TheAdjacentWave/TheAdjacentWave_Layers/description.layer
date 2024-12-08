@@ -20,8 +20,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "One light platoon of CDF, defending the road towards the river."\
   "Your squad is currently located at the farm building (029 023)."\
-  "A second squad, also located at the farm, will largely remain there."\
-  "A third squad has established positions further south (029 021)."\
+  "About a third of the platoon will remain near the barn, the rest has taken positions in the trenches."\
   ""\
   "Reinforcements have been requested, however they won't arrive for another 30 minutes."
   m_aVisibleForFactions {
@@ -44,7 +43,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "A. Enemy Forces"\
   ""\
   "One platoon of CDF light infantry, defending the road towards the river."\
-  "Two squads have been spotted at farm building (029 023) and nearby trenches, a third squad has taken positions further south (029 021)."\
+  "Enemies have been spotted at farm building (029 023) and nearby trenches."\
   ""\
   ""\
   "B. Friendly Forces"\
@@ -72,6 +71,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 0 0 0
   m_sTitle "Notes"
   m_sTextData "- Due to the Russian firing position, the CDF cannot advance past grid column 032."\
+  "- There is some currently unmarked foliage, following an unmarked road that goes west from the construction site."\
   ""\
   "- Setup Timer: 3 minutes"\
   "- End Conditions:"\
