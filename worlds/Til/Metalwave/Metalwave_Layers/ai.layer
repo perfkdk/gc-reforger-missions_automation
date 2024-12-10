@@ -1,0 +1,47 @@
+SCR_AIGroup : "{36AC489E01F17547}Prefabs/Groups/BLUFOR/CDF/Modern/Group_CDF_Modern_RiflePHQ.et" {
+ coords 1960.854 8.432 3295.456
+ m_aStaticWaypoints {
+  "wp_def_5"
+ }
+}
+SCR_AIGroup : "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et" {
+ coords 2366.311 20.023 3873.273
+ m_aUnitPrefabSlots {
+  "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et" "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et" "{F11CCA20FCC74AA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AT_Random.et" "{AFF07941936347BB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AAT_Random.et" "{727CB9BA48D9407A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SR_GL_Random.et" "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et"
+ }
+ m_aStaticWaypoints {
+  "wp_def_3"
+ }
+}
+$grp SCR_AIGroup : "{E8AD93A6D3642785}Prefabs/Groups/BLUFOR/CDF/Modern/Group_CDF_Modern_RifleSquad.et" {
+ {
+  coords 2413.749 15.738 3438.736
+  m_aStaticWaypoints {
+   "wp_def_6"
+  }
+ }
+ {
+  coords 2166.919 14.528 3418.209
+  m_aStaticWaypoints {
+   "wp_def_4"
+  }
+ }
+ {
+  coords 1993.15 9.662 3505.172
+  m_aStaticWaypoints {
+   "wp_def_1"
+  }
+ }
+ {
+  coords 1847.411 8.716 3462.406
+  m_aStaticWaypoints {
+   "wp_def_2"
+  }
+ }
+ {
+  coords 1791.913 9.625 3703.305
+  m_aStaticWaypoints {
+   "wp_def_7"
+  }
+ }
+}

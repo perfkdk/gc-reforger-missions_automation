@@ -1,0 +1,24 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ AFRF_2Coy_3Plt_HQ {
+  coords 3936.092 19.905 2379.549
+  angleY 16.465
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "automobile_plt"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ AFRF_2Coy_3Plt_SQ1 {
+  coords 3319.09 23.855 2623.158
+  angleY -30
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "bp"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}

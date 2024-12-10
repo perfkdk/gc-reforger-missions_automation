@@ -1,0 +1,83 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ D0_Description {
+  m_sTitle "The Adjacent Wave"
+  m_sTextData "Russian light motorized assault on CDF position"\
+  ""\
+  "2:1 RU:CDF"
+  m_bEmptyFactionVisibility 1
+ }
+ D1_Situation_CDF {
+  coords 0 0 0
+  m_sTitle "Situation"
+  m_sTextData "A. Enemy Forces"\
+  ""\
+  "An hour ago, a Russian squad was spotted establishing a supporting position at the four story construction site to the north east (033 026)."\
+  ""\
+  "Now, two light motor rifle squads were seen driving down the road from the east, in Tigr-M vehicles."\
+  ""\
+  ""\
+  "B. Friendly Forces"\
+  ""\
+  "One light platoon of CDF, defending the road towards the river."\
+  "Your squad is currently located at the farm building (029 023)."\
+  "About a third of the platoon will remain near the barn, the rest has taken positions in the trenches."\
+  ""\
+  "Reinforcements have been requested, however they won't arrive for another 30 minutes."
+  m_aVisibleForFactions {
+   "CDF"
+  }
+  m_iOrder 1
+ }
+ D2_Mission_CDF {
+  coords 0 0 0
+  m_sTitle "Mission"
+  m_sTextData "Defend the farm building."
+  m_aVisibleForFactions {
+   "CDF"
+  }
+  m_iOrder 2
+ }
+ D1_Situation_AFRF {
+  coords 0 0 0
+  m_sTitle "Situation"
+  m_sTextData "A. Enemy Forces"\
+  ""\
+  "One platoon of CDF light infantry, defending the road towards the river."\
+  "Enemies have been spotted at farm building (029 023) and nearby trenches."\
+  ""\
+  ""\
+  "B. Friendly Forces"\
+  ""\
+  "Two light motor rifle squads + platoon HQ, equipped with Tigr-Ms."\
+  "While both squads vehicles have Kord machine guns, the first one has a shield and the second one an SPP sight."\
+  "The platoon leaders vehicle is unarmed."\
+  ""\
+  "The third squad previously established a supporting firing position at a four story construction site (033 026)."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 1
+ }
+ D2_Mission_AFRF {
+  coords 0 0 0
+  m_sTitle "Mission"
+  m_sTextData "Assault the CDF platoon, securing the farm and nearby trenches."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 2
+ }
+ D3_Notes {
+  coords 0 0 0
+  m_sTitle "Notes"
+  m_sTextData "- Due to the Russian firing position, the CDF cannot advance past grid column 032."\
+  "- There is some currently unmarked foliage, following an unmarked road that goes west from the construction site."\
+  ""\
+  "- Setup Timer: 3 minutes"\
+  "- End Conditions:"\
+  "  a) AFRF Victory: AFRF has fully taken the location"\
+  "  b) CDF Victory: AFRF has suffered 90% casualties, or the 30m time limit is reached"
+  m_bShowForAnyFaction 1
+  m_iOrder 3
+ }
+}
