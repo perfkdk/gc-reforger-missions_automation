@@ -9,7 +9,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 18
    m_iStartingMinutes 30
-   m_bUsePredefineStartingTimeAndWeatehr 1
+   m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{62D97D0CA28755C1}" {
      m_sWeatherPresetName "Cloudy"
