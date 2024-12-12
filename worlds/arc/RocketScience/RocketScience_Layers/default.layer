@@ -61,14 +61,14 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/TILW_Presence
  {
   coords 2488.908 3.569 3220.142
   m_prefabFilter {
-   "{1F9BD317E1C5A13D}worlds/arc/RocketScience/Prefabs/HOSTAGE.et"
+   "{1F9BD317E1C5A13D}worlds/arc/RocketScience/Prefabs/Hostage.et"
   }
   m_flagName "USSR_EXTRACTED"
  }
  {
   coords 1408.135 3.301 3547.71
   m_prefabFilter {
-   "{1F9BD317E1C5A13D}worlds/arc/RocketScience/Prefabs/HOSTAGE.et"
+   "{1F9BD317E1C5A13D}worlds/arc/RocketScience/Prefabs/Hostage.et"
   }
   m_flagName "UK_EXTRACTED"
  }

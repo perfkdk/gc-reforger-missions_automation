@@ -36,7 +36,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  }
  coords 10077.17 0 4989.003
  {
-  SCR_FactionManager {
+  SCR_FactionManager "631977CB65BD8131" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {

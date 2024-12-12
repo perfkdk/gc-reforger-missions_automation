@@ -21,7 +21,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  }
  coords 4824.647 26.461 11955.485
  {
-  SCR_FactionManager {
+  SCR_FactionManager "631977CB5C56157E" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
@@ -93,7 +93,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
- coords 4912.641 -0 12414.665
+ coords 4912.641 0 12414.665
  m_missionEvents {
   TILW_MissionEvent "{62DB649082B55EF4}" {
    m_name "TIME_LIMIT"
