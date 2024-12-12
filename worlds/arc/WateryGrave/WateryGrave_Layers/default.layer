@@ -156,7 +156,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{62E2BECCAD05666C}" {
      m_executionDelay 15
-     m_factionKey "CDF"
+     m_factionKey "TF_CDF"
     }
    }
    m_condition TILW_LiteralTerm "{62E2BECCA458DB20}" {
@@ -173,7 +173,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{62E2BECCAD05666C}" {
      m_executionDelay 3015
-     m_factionKey "CDF"
+     m_factionKey "TF_CDF"
     }
    }
    m_condition TILW_LiteralTerm "{62E2BECCA458DB20}" {
@@ -184,7 +184,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  m_factionPlayersKilledFlags {
   TILW_FactionPlayersKilledFlag "{62E2BECCFF0B174A}" {
    m_flagName "CDF_KIA"
-   m_factionKey "CDF"
+   m_factionKey "TF_CDF"
   }
   TILW_FactionPlayersKilledFlag "{62E2BECCF893A216}" {
    m_flagName "RU_KIA"

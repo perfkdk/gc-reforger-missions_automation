@@ -24,7 +24,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "The third squad will remain at the power plant. Another platoon has prepared positions to the south, but will not act as a QRF."
   m_aVisibleForFactions {
-   "CDF"
+   "TF_CDF"
   }
   m_iOrder 1
  }
@@ -49,7 +49,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "2 - 2nd Squad"\
   "3 - BTR Crew"
   m_aVisibleForFactions {
-   "CDF"
+   "TF_CDF"
   }
   m_iOrder 2
  }
