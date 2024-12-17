@@ -184,7 +184,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{63234C5FDCB12BDF}" {
-   m_name "HTS_KIA"
+   m_name "TIME_LIMIT"
    m_instructions {
     TILW_SendMessageInstruction "{63234C5F136B07C9}" {
      m_executionDelay 1985
