@@ -1,0 +1,53 @@
+$grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ UAZ469_PKM1 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "HTS"
+   }
+  }
+  coords 4678.073 139.726 6362.689
+  angleY 164.189
+ }
+ UAZ469_PKM2 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "HTS"
+   }
+  }
+  coords 4676.364 139.282 6371.442
+  angleY 171.936
+ }
+}
+Vehicle GAZ_TIGR_v2_AGS1 : "{1C41EF46A9A977D0}Prefabs/Vehicles/Wheeled/TIGR/AGS/GAZ_TIGR_v2_AGS17.et" {
+ coords 5010.373 131.286 5408.777
+ angleY -57.002
+}
+Vehicle BTR70_Base1 : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "HTS"
+  }
+ }
+ coords 4679.755 139.875 6349.628
+ angleY 175.336
+}
+$grp Vehicle : "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et" {
+ Ural4320_transport_CIV_randomized1 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "HTS"
+   }
+  }
+  coords 4676.236 139.029 6382.815
+  angleY 179.944
+ }
+ Ural4320_transport_CIV_randomized2 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "HTS"
+   }
+  }
+  coords 4676.168 138.53 6394.467
+  angleY 179.944
+ }
+}
