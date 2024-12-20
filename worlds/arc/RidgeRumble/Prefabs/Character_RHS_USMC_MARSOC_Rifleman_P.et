@@ -7,6 +7,11 @@ SCR_ChimeraCharacter : "{1FA45046DA1FC409}Prefabs/Characters/Factions/BLUFOR/RHS
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_AFRF"
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -23,6 +28,15 @@ SCR_ChimeraCharacter : "{1FA45046DA1FC409}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     LoadoutSlotInfo Vest {
      Prefab "{86503C80B70FE586}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_MC_6x9.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E884192043D2D2}" {
+     PrefabsToSpawn {
+      "{474BFEF776DEC58F}worlds/arc/RidgeRumble/Prefabs/Radio_ANPRC152A_OLD_Single_RED.et"
+     }
     }
    }
   }
