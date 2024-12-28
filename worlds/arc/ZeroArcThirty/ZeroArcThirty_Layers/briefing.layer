@@ -37,6 +37,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 2761.087 145.671 9160.585
   m_sTitle "Command & Signal"
+  m_sTextData "Ground net: 48.0 Mhz"\
+  "Air net: 50.0 Mhz"
   m_aVisibleForFactions {
    "RHS_USAF"
   }
