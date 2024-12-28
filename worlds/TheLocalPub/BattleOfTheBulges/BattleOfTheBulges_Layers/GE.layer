@@ -1,0 +1,83 @@
+$grp GenericEntity {
+ RedRespawn {
+  coords 3391.411 19.25 2649.521
+ }
+ BlueRespawn {
+  coords 2196.837 1.377 2232.894
+  angleY -14.717
+ }
+}
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+ RedEndTrigger {
+  coords 2343.552 9 2300.599
+  m_queryRadius 30
+  m_captureIterations 12
+  m_sendStatusMessages 1
+  m_locationName "Red's base"
+  m_flagName "RedCaptured"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "USSR"
+  m_ratioThreshold 0.5
+ }
+ BlueEndTrigger {
+  coords 3333.928 25.946 2621.618
+  m_queryRadius 30
+  m_captureIterations 12
+  m_sendStatusMessages 1
+  m_locationName "Blue's base"
+  m_flagName "BlueCaptured"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "US"
+  m_ratioThreshold 0.5
+ }
+ BlueDeductTicketTrigger {
+  coords 3329.728 21.187 2622.349
+  m_queryRadius 150
+  m_queryPeriod 5
+  m_flagName "DeductBlue"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "US"
+  m_ratioThreshold 0.75
+ }
+ RedDeductTicketTrigger2 {
+  coords 2344.124 22.306 2302.054
+  m_queryRadius 150
+  m_queryPeriod 5
+  m_flagName "DeductRed"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "USSR"
+  m_ratioThreshold 0.75
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ BLUSETUP {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_eShape RECTANGLE
+    m_vResolution 4
+   }
+  }
+  coords 3388.361 19.25 2647.584
+  angleY -6.085
+  m_fWarnRadius 230
+  m_fZoneRadius 240
+  m_fZoneTeleportedRadius 260
+ }
+ REDSETUP {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_eShape RECTANGLE
+    m_vResolution 4
+   }
+  }
+  coords 2197.375 1.446 2231.766
+  angleY -15.074
+  m_fWarnRadius 230
+  m_fZoneRadius 240
+  m_fZoneTeleportedRadius 260
+ }
+}

@@ -1,0 +1,72 @@
+GenericEntity CPF_Marker {
+ components {
+  MapDescriptorComponent "{61A0E4EA303AD78B}" {
+   DisplayName "Concrete panel factory"
+   MainType "Construction Site"
+  }
+  SCR_EditableCommentComponent "{61A0E4EA020368FA}" {
+   m_EntityType COMMENT
+   m_UIInfo SCR_EditableCommentUIInfo "{61A0E4EA9D1F5CD3}" {
+    Name "Concrete panel factory"
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 6200
+  }
+ }
+ coords 3335.31 39.893 2616.207
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Bluerespawnmarker {
+  coords 3395.51 19.251 2650.489
+  angleY 90.592
+  m_MarkerColor 0 0.298 0.6 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 25
+  m_sDescription "Blue respawn location"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ Bluebase {
+  coords 3332.968 39.866 2622.453
+  angleY 90.199
+  m_MarkerColor 0 0.298 0.6 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 35
+  m_sDescription "Blue's base"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Redrespawnmarker {
+  coords 2199.507 1.61 2234.279
+  angleY 78.932
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 25
+  m_sDescription "Red starting/repsawn location"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ Redbase {
+  coords 2341.071 23.22 2298.861
+  angleY 91.303
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 35
+  m_sDescription "Red's base"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ covermap {
+  coords 2647.773 19.855 2710.146
+  angleY -101.303
+  m_sImageSet "{3B62608C6AB716B9}worlds/TheLocalPub/BattleOfTheBulges/Covermap/UCAMF_CoverMap.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.298 0.6 1
+  m_sQuadName "10x4"
+  m_fWorldSize 20500
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}
