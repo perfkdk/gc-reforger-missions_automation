@@ -1,0 +1,54 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ MISSIONOTES {
+  coords 2239.755 0.002 9543.625
+  m_sTitle "Mission notes"
+  m_sTextData "WIN CONDITIONS"\
+  ""\
+  "Blufor victory conditions:"\
+  "Capture Red's base (Hold equal or majority for 2mins)"\
+  "or"\
+  "kill 90% (includes respawns - 72 people)"\
+  ""\
+  "Opfor:"\
+  "Capture Blue's base (Hold equal or majority for 2mins)"\
+  "or"\
+  " kill 90% (includes respawns - 72 people)"\
+  ""\
+  "MISC"\
+  ""\
+  "AO LIMIT: Yes | All teams - GM has authorisation to kill anyone outside the AO limit without warning."\
+  "Setup Timer: Yes | All teams 45s"\
+  "Respawns: Yes | All teams"\
+  "- 50x respawns per team, unlimited per player."\
+  "- Respawn where you started."\
+  "- Respawns disabled if enemy are 75% majority within 150 meters of your cap/base/spawn."\
+  "- 16s respawn timer, spawn in waves."\
+  ""\
+  "Timelimit: 40mins"\
+  ""\
+  "This mission was not designed to be game mastered if. This is a work in progress concept mission, and our first LOL mission."\
+  ""\
+  "Mission made by: TheLocaLPub | @/DM me on Discord with feedback/bugs."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 7
+ }
+ SUMMARY {
+  coords 2226.888 0 9533.049
+  m_sTitle "Summary"
+  m_sTextData "In some alternate universe, during the 16th century, a time traveller came to us from the year 1994, bringing with him wonders we've never seen, but also completely fucking up the spacetime continuum."\
+  ""\
+  "Everyone lost their clothes due to large moths that roamed the land, killing off the human race, a true apex predator."\
+  ""\
+  "Now the final few humans also fight each other for the last scrapes of fibrous natural material."\
+  "Today clan Blue comes head to head with clan Red, in a fight that'll become known in the history books as the \"Battle of the bulges\""\
+  ""\
+  "Who'll be the victor?"\
+  ""\
+  ""\
+  "1:1 Ratio"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 0
+ }
+}
