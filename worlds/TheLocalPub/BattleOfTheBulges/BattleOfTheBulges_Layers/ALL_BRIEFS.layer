@@ -2,33 +2,26 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  MISSIONOTES {
   coords 2239.755 0.002 9543.625
   m_sTitle "Mission notes"
-  m_sTextData "WIN CONDITIONS"\
-  ""\
-  "Blufor victory conditions:"\
+  m_sTextData "Blufor victory conditions:"\
   "Capture Red's base (Hold equal or majority for 2mins)"\
   "or"\
-  "kill 90% (includes respawns - 72 people)"\
+  "kill 90% of the current alive team"\
   ""\
-  "Opfor:"\
+  "Opfor victory conditions:"\
   "Capture Blue's base (Hold equal or majority for 2mins)"\
   "or"\
-  " kill 90% (includes respawns - 72 people)"\
-  ""\
-  "MISC"\
+  "kill 90% of the current alive team"\
   ""\
   "AO LIMIT: Yes | All teams - GM has authorisation to kill anyone outside the AO limit without warning."\
-  "Setup Timer: Yes | All teams 45s"\
-  "Respawns: Yes | All teams"\
+  "SETUP TIMER: Yes | All teams 45s"\
+  "TIMELIMIT: 45mins"\
+  "RESPAWNS: Yes | All teams"\
   "- 50x respawns per team, unlimited per player."\
   "- Respawn where you started."\
-  "- Respawns disabled if enemy are 75% majority within 150 meters of your cap/base/spawn."\
+  "- Respawn tickets reduced to 0 if enemy are 75% majority within 150 meters of your base. | Granted 10 team tickets if you regain 75% majority within 150 meters of your base."\
   "- 16s respawn timer, spawn in waves."\
   ""\
-  "Timelimit: 40mins"\
-  ""\
-  "This mission was not designed to be game mastered if. This is a work in progress concept mission, and our first LOL mission."\
-  ""\
-  "Mission made by: TheLocaLPub | @/DM me on Discord with feedback/bugs."
+  "This mission was not designed to be game mastered if. This is a work in progress concept mission, and our first LOLish mission."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 7
@@ -50,5 +43,20 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 0
+ }
+ CHANGELOG {
+  coords 2239.755 0.002 9543.624
+  m_sTitle "Changelog"
+  m_sTextData "THIS RELEASE"\
+  ""\
+  "Fixed:"\
+  "- Capzones being captured by the wrong teams resulting in mission ending very early."\
+  "- Missing no mans land markers in middle of the AO."\
+  ""\
+  "Added:"\
+  "- System to regain 10 tickets by recapping/gaining majority back of the capzone that takes your team's tickets if enemy team has a majority within it."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 8
  }
 }
