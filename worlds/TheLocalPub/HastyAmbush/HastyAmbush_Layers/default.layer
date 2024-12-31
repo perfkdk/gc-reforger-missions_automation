@@ -1,0 +1,214 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
+     NavmeshFile "{98AC6396328F355E}worlds/Navmeshes/Navmesh_Soldier.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" {
+     NavmeshFile "{A5ED1C3881448DC2}worlds/Navmeshes/Navmesh_BTR.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{F435824730998C27}worlds/Navmeshes/Navmesh_Lowres.nmn"
+    }
+   }
+  }
+ }
+ coords -4.404 50.751 5471.329
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2723.65 7.875 3101.445
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 19
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{632EA9AA0EFED87D}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 18
+     m_iStartingMinutes 35
+    }
+   }
+  }
+ }
+ coords 2339.494 119.897 4007.505
+}
+CommentEntity {
+ coords 3750.568 310.636 13278.021
+ angleY -10.611
+ m_Comment "Blufor spawn"
+ m_Size 10
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 2261.779 22.036 3285.38
+ m_missionEvents {
+  TILW_MissionEvent "{633AA2F3C971C34E}" {
+   m_name "OpforWinCasualites"
+   m_instructions {
+    TILW_SendMessageInstruction "{633AA2F3C971C314}" {
+     m_executionDelay 1
+     m_messageTitle "BLUFOR DEFEAT!"
+     m_messageBody "Oh no!"\
+     ""\
+     "Blufor have taken to many casualties and have withdrawn back to friendly forces within the town."\
+     ""\
+     "Better luck next time."\
+     "Mission will end soon.."\
+     ""
+    }
+    TILW_EndGameInstruction "{633AA2F3C971C316}" {
+     m_executionDelay 10
+     m_factionKey "USSR"
+    }
+   }
+   m_condition TILW_LiteralTerm "{633AA2F3C5C8677A}" {
+    m_flagName "USDead"
+   }
+  }
+  TILW_MissionEvent "{633AA2B144FBD57F}" {
+   m_name "OpforWinExtract"
+   m_instructions {
+    TILW_SendMessageInstruction "{633AA2B144FBD51D}" {
+     m_executionDelay 1
+     m_messageTitle "BLUFOR DEFEAT!"
+     m_messageBody "Oh no!"\
+     ""\
+     "The OPFOR forces have managed to bypass our ambush and have reach the town. We've fucked up big time."\
+     ""\
+     "Better luck next time."\
+     "Mission will end soon.."\
+     ""
+    }
+    TILW_EndGameInstruction "{633AA2B144FBD51E}" {
+     m_executionDelay 10
+     m_factionKey "USSR"
+    }
+   }
+   m_condition TILW_LiteralTerm "{633AA2B144FBD513}" {
+    m_flagName "OpforExtract"
+   }
+  }
+  TILW_MissionEvent "{633D37B336FCE8E8}" {
+   m_name "OpforTimelimitWin"
+   m_instructions {
+    TILW_SendMessageInstruction "{633D37B336FCE858}" {
+     m_executionDelay 1790
+     m_messageTitle "BLUFOR DEFEAT!"
+     m_messageBody "Oh no!"\
+     ""\
+     "Our allocated time of 30mins from command to conduct our ambush has closed, we must pull back to the town and fight from there."\
+     ""\
+     "Better luck next time."\
+     "Mission will end soon.."\
+     ""
+    }
+    TILW_EndGameInstruction "{633D37B336FCE85F}" {
+     m_executionDelay 1800
+     m_factionKey "USSR"
+    }
+   }
+   m_condition TILW_LiteralTerm "{633D37B336FCE85D}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{633D37B1FCF1D9C9}" {
+   m_name "BluWinMajor"
+   m_instructions {
+    TILW_SendMessageInstruction "{633D37B066418607}" {
+     m_executionDelay 1
+     m_messageTitle "BLUFOR MAJOR VICTORY!"
+     m_messageBody "Well done troops!"\
+     ""\
+     "We've managed to neutralize the Soviet convoy by destroy all their BTRs and 1/4 of their infantry and extract."\
+     "Good job!"\
+     ""\
+     "Mission will end soon.."\
+     ""
+    }
+    TILW_EndGameInstruction "{633D37B0520FF688}" {
+     m_executionDelay 10
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_MatchjunctionTerm "{633D37B079342118}" {
+    m_operands {
+     TILW_LiteralTerm "{633D37B06A95CA32}" {
+      m_flagName "USExtract"
+     }
+     TILW_LiteralTerm "{633D37B0455DB68B}" {
+      m_flagName "BTR1"
+     }
+     TILW_LiteralTerm "{633D37B0BA5AB795}" {
+      m_flagName "BTR2"
+     }
+     TILW_LiteralTerm "{633D37B0BB711F9C}" {
+      m_flagName "BTR3"
+     }
+     TILW_LiteralTerm "{633D37B0BFEA394C}" {
+      m_flagName "BTR4"
+     }
+     TILW_LiteralTerm "{633D37B0BCE7040B}" {
+      m_flagName "InfDead"
+     }
+    }
+    m_matchTrue 6
+   }
+  }
+  TILW_MissionEvent "{633D37B3A50E7EE0}" {
+   m_name "BluWinMinor"
+   m_instructions {
+    TILW_SendMessageInstruction "{633D37B3A50E7E72}" {
+     m_executionDelay 1
+     m_messageTitle "BLUFOR MINOR VICTORY!"
+     m_messageBody "Not bad troops!"\
+     "We've managed to destroy 4 soviet BTRs and extract, but we didn't kill enough infantry."\
+     ""\
+     "We'll get em next time."\
+     "Mission will end soon.."\
+     ""
+    }
+    TILW_EndGameInstruction "{633D37B3A50E7E71}" {
+     m_executionDelay 10
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_MatchjunctionTerm "{633D37B3A50E7E74}" {
+    m_operands {
+     TILW_LiteralTerm "{633D37B3A50E7E75}" {
+      m_flagName "USExtract"
+     }
+     TILW_LiteralTerm "{633D37B3A50E7E7A}" {
+      m_flagName "BTR1"
+     }
+     TILW_LiteralTerm "{633D37B3A50E7E7B}" {
+      m_flagName "BTR2"
+     }
+     TILW_LiteralTerm "{633D37B3A50E7E78}" {
+      m_flagName "BTR3"
+     }
+     TILW_LiteralTerm "{633D37B3A50E7E79}" {
+      m_flagName "BTR4"
+     }
+    }
+    m_matchTrue 5
+   }
+  }
+ }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{633AA2F359EDE202}" {
+   m_flagName "USDead"
+   m_factionKey "US"
+   m_casualtyRatio 0.9
+  }
+ }
+}
