@@ -49,7 +49,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-$grp TILW_ExfilTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExfilTrigger.et" {
+$grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExfilTrigger.et" {
  {
   coords 1970.096 98.909 5531.115
   m_queryRadius 40
