@@ -1,0 +1,76 @@
+$grp Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ Ural4320_ammo1 {
+  components {
+   TILW_NavmeshRegenComponent "{6444F7C5CB57EAE7}" {
+   }
+  }
+  coords 3139.369 11.806 4266.95
+  angleY -79.396
+ }
+ Ural4320_ammo2 {
+  coords 3151.276 11.806 4267.992
+  angleY -112.383
+ }
+}
+$grp GameEntity : "{979AF6CFF2AAAE26}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_high.et" {
+ {
+  coords 3800.107 19.548 1777.667
+ }
+ {
+  coords 3800.116 19.549 1777.448
+ }
+ {
+  coords 3800.126 19.549 1777.266
+ }
+ {
+  coords 3800.519 19.549 1777.77
+ }
+ {
+  coords 3800.498 19.549 1777.537
+ }
+ {
+  coords 3800.472 19.549 1777.287
+ }
+ {
+  coords 3800.273 19.548 1777.712
+ }
+ {
+  coords 3800.278 19.549 1777.498
+ }
+ {
+  coords 3800.247 19.549 1777.286
+ }
+}
+$grp GameEntity : "{9C42803E49305273}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-1.et" {
+ {
+  coords 3799.422 19.549 1777.259
+ }
+ {
+  coords 3799.414 19.549 1777.434
+ }
+ {
+  coords 3799.671 19.548 1777.256
+ }
+ {
+  coords 3799.401 19.548 1777.653
+ }
+ {
+  coords 3799.705 19.548 1777.684
+ }
+ {
+  coords 3799.687 19.549 1777.424
+ }
+ {
+  coords 3799.887 19.549 1777.688
+ }
+ {
+  coords 3799.906 19.549 1777.453
+ }
+ {
+  coords 3799.887 19.548 1777.254
+ }
+}
+GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ coords 3799.955 18.743 1777.543
+ angleY 90.434
+}
