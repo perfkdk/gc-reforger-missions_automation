@@ -1,0 +1,36 @@
+$grp Vehicle : "{A317D959A4248173}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19.et" {
+ AH6M_GAU1 {
+  coords 8500.66 111.555 6733.753
+  angleY 90.257
+ }
+ AH6M_GAU3 {
+  coords 8501.137 111.555 6706.257
+  angleY 90.257
+ }
+}
+$grp Vehicle : "{DB6D17FE8A567701}Prefabs/Vehicles/Wheeled/M998/US/M2HB/M1151_armed_M2HB_Shield_Tan.et" {
+ M1151_armed_M2HB_Shield_Tan1 {
+  coords 8449.637 112 6779.704
+  angleY 179.158
+ }
+ M1151_armed_M2HB_Shield_Tan2 {
+  coords 8443.849 112 6786.021
+  angleY 179.158
+ }
+ M1151_armed_M2HB_Shield_Tan3 {
+  coords 8449.575 111.562 6810.664
+  angleY 179.158
+ }
+ M1151_armed_M2HB_Shield_Tan4 {
+  coords 8443.275 111.531 6817.17
+  angleY 179.158
+ }
+ M1151_armed_M2HB_Shield_Tan5 {
+  coords 8449.872 111.939 6793.075
+  angleY 179.158
+ }
+ M1151_armed_M2HB_Shield_Tan6 {
+  coords 8442.731 111.844 6799.694
+  angleY 179.158
+ }
+}
