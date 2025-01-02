@@ -169,7 +169,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{644498DFEF646C88}" {
      m_executionDelay 4505
      m_messageTitle "DEFEAT"
-     m_messageBody "US forces have taken significant casualties."
+     m_messageBody "Time limit reached."
     }
     TILW_EndGameInstruction "{644498DFEA034B28}" {
      m_executionDelay 4515
