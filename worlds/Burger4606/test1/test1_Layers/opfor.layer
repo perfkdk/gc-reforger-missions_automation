@@ -1,0 +1,6 @@
+SCR_AIGroup : "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et" {
+ coords 3119.052 72.896 1606.372
+ m_aStaticWaypoints {
+  "M1_1" "M1_2" "C1_1"
+ }
+}

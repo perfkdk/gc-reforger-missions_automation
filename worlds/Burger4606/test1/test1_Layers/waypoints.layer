@@ -1,0 +1,17 @@
+SCR_AIWaypoint p1_1 : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ coords 3261.185 57.767 1593.442
+}
+SCR_DefendWaypoint D1_1 : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+ coords 3075.161 84.342 1580.883
+}
+AIWaypointCycle C1_1 : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ coords 3269.504 52.746 1576.592
+}
+$grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+ M1_1 {
+  coords 3292.22 53.877 1648.601
+ }
+ M1_2 {
+  coords 3299.314 50.747 1582.272
+ }
+}

@@ -1,0 +1,251 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Summary {
+  coords 3559.558 0 800.183
+  m_sTitle "Summary"
+  m_sTextData "time is 1985 asulting a church after helly insurision belived to hold miltery supllies "
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 3518.084 0 716.131
+  m_sTitle "sitaion"
+  m_sTextData "time is 1985 asulting a church after helly insurision belived to hold miltery supllies "
+  m_bShowForAnyFaction 1
+  m_iOrder 1
+ }
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_killTimer 6
+   m_factionKeys {
+    "UK"
+   }
+  }
+ }
+ coords 3463.836 0.766 1303.628
+ Points {
+  ShapePoint "{64455581A277D508}" {
+   Position 23.541 0 73.957
+  }
+  ShapePoint "{64455CC8FC6C1D8B}" {
+   Position 14.988 -0 452.658
+  }
+  ShapePoint "{64455CC8E99757FD}" {
+   Position -819.794 -0 432.902
+  }
+  ShapePoint "{64455CC8E875080F}" {
+   Position -809.733 -0 -7.542
+  }
+ }
+ {
+  PrefabGeneratorEntity : "{FAE55143BCCEA254}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_BLUFOR.et" {
+   coords 0 0 0
+   Flags 1048579
+   OnShapeTransformInternal "death"
+   {
+    $grp PS_ManualMarker : "{376426F6262DC5BA}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_BLUFOR.et" {
+     {
+      coords 23.541 2.563 73.957
+      angleY -1.294
+     }
+     {
+      coords 22.412 8.559 123.944
+      angleY -1.294
+     }
+     {
+      coords 21.283 2.564 173.931
+      angleY -1.294
+     }
+     {
+      coords 20.154 2.332 223.918
+      angleY -1.294
+     }
+     {
+      coords 19.025 2.946 273.906
+      angleY -1.294
+     }
+     {
+      coords 17.896 7.061 323.893
+      angleY -1.294
+     }
+     {
+      coords 16.767 0.58 373.88
+      angleY -1.294
+     }
+     {
+      coords 15.638 4.82 423.867
+      angleY -1.294
+     }
+     {
+      coords -6.208 8.586 452.156
+      angleY -91.356
+     }
+     {
+      coords -56.194 29.104 450.973
+      angleY -91.356
+     }
+     {
+      coords -106.18 43.105 449.79
+      angleY -91.356
+     }
+     {
+      coords -156.166 36.64 448.607
+      angleY -91.356
+     }
+     {
+      coords -206.152 43.188 447.424
+      angleY -91.356
+     }
+     {
+      coords -256.138 46.406 446.241
+      angleY -91.356
+     }
+     {
+      coords -306.124 51.76 445.058
+      angleY -91.356
+     }
+     {
+      coords -356.11 53.736 443.875
+      angleY -91.356
+     }
+     {
+      coords -406.096 57.704 442.692
+      angleY -91.356
+     }
+     {
+      coords -456.082 55.985 441.509
+      angleY -91.356
+     }
+     {
+      coords -506.068 62.256 440.326
+      angleY -91.356
+     }
+     {
+      coords -556.054 67.664 439.143
+      angleY -91.356
+     }
+     {
+      coords -606.04 70.782 437.96
+      angleY -91.356
+     }
+     {
+      coords -656.026 70.443 436.777
+      angleY -91.356
+     }
+     {
+      coords -706.012 71.125 435.594
+      angleY -91.356
+     }
+     {
+      coords -755.998 76.61 434.411
+      angleY -91.356
+     }
+     {
+      coords -805.984 77.308 433.228
+      angleY -91.356
+     }
+     {
+      coords -818.968 74.331 396.725
+      angleY 178.691
+     }
+     {
+      coords -817.826 72.92 346.738
+      angleY 178.691
+     }
+     {
+      coords -816.684 67.332 296.752
+      angleY 178.691
+     }
+     {
+      coords -815.542 59.609 246.765
+      angleY 178.691
+     }
+     {
+      coords -814.4 54.079 196.778
+      angleY 178.691
+     }
+     {
+      coords -813.259 45.54 146.791
+      angleY 178.691
+     }
+     {
+      coords -812.117 47.395 96.804
+      angleY 178.691
+     }
+     {
+      coords -810.975 48.425 46.817
+      angleY 178.691
+     }
+     {
+      coords -809.833 40.14 -3.17
+      angleY 178.691
+     }
+     {
+      coords -764.322 32.739 -3.1
+      angleY 84.414
+     }
+     {
+      coords -714.56 27.14 1.767
+      angleY 84.414
+     }
+     {
+      coords -664.797 28.646 6.634
+      angleY 84.414
+     }
+     {
+      coords -615.035 28.319 11.501
+      angleY 84.414
+     }
+     {
+      coords -565.272 28.738 16.368
+      angleY 84.414
+     }
+     {
+      coords -515.509 32.695 21.235
+      angleY 84.414
+     }
+     {
+      coords -465.747 40.547 26.102
+      angleY 84.414
+     }
+     {
+      coords -415.984 40.67 30.969
+      angleY 84.414
+     }
+     {
+      coords -366.221 34.567 35.836
+      angleY 84.414
+     }
+     {
+      coords -316.459 26.515 40.703
+      angleY 84.414
+     }
+     {
+      coords -266.696 32.464 45.57
+      angleY 84.414
+     }
+     {
+      coords -216.934 32.455 50.437
+      angleY 84.414
+     }
+     {
+      coords -167.171 23.742 55.304
+      angleY 84.414
+     }
+     {
+      coords -117.409 23.296 60.171
+      angleY 84.414
+     }
+     {
+      coords -67.646 9.338 65.038
+      angleY 84.414
+     }
+     {
+      coords -17.884 3.18 69.905
+      angleY 84.414
+     }
+    }
+   }
+  }
+ }
+}

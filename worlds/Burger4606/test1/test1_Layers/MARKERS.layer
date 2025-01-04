@@ -1,0 +1,25 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 3086.594 73.696 1582.051
+  angleY 0
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "destroy-2"
+  m_fWorldSize 50
+  m_sDescription "dicks"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ {
+  coords 3426.859 -4.094 1499.293
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+  m_MarkerColor 0 0.298 0.6 1
+  m_sQuadName "infantry"
+  m_fWorldSize 50
+  m_sDescription "your platoon"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+}
