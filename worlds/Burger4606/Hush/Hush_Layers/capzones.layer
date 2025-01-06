@@ -12,7 +12,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTr
   coords 6890 71.35 8649.347
   m_queryRadius 30
   m_queryPeriod 60
-  m_captureIterations 10
   m_sendStatusMessages 1
   m_locationName "objective Alpha"
   m_flagName "OBJ_A_TAKEN"
@@ -22,7 +21,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTr
  OBJ_B {
   coords 7021.085 102.406 8386.755
   m_queryPeriod 60
-  m_captureIterations 10
   m_sendStatusMessages 1
   m_locationName "objective Bravo"
   m_flagName "OBJ_B_TAKEN"

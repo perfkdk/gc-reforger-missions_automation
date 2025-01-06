@@ -34,11 +34,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  coords 6934.404 0 9369.548
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
- components {
-  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-   m_killTimer 6
-  }
- }
  coords 6171.308 0 8986.698
  Points {
   ShapePoint "{6446C880B4D7E624}" {
@@ -1005,10 +1000,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  m_factionPlayersKilledFlags {
   TILW_FactionPlayersKilledFlag "{6446F3547EF44129}" {
    m_flagName "UK_PLAYERS_KILLED"
-   m_factionKey "UK"
-  }
-  TILW_FactionPlayersKilledFlag "{6446F3558AB26F6D}" {
-   m_flagName "UK_Timer"
    m_factionKey "UK"
   }
  }
