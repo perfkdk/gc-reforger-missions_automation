@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Situation {
   coords 7047.943 0 9805.081
   m_sTitle "Situation"
-  m_sTextData "The date is 15th of March 1989 a UK unit not named to hied there identities has land on a coast in TyroneBay in helicopters and have been given a mission code name Hush. the mission is to attack and capture, 2 USSR facilities containing resources to help the war currently happening on the Scottish iles they will then exfil sending a signal from Scythe lighthouse "
+  m_sTextData "The date is the 15th of March 1989. A UK unit not named to hide their identities has landed on a coast in Tyrone Bay in helicopters and have been given a mission code name Hush. The mission is to attack and capture 2 USSR facilities containing resources to help the war currently happening on the Scottish isles. They will then exfil sending a signal from Scythe lighthouse. "
   m_bShowForAnyFaction 1
   m_iOrder 1
  }
