@@ -981,7 +981,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{6446F35561DE0934}" {
      m_executionDelay 2680
      m_messageTitle "Time limet reached"
-     m_messageBody "45min up game will end soon"
+     m_messageBody "45 minutes up. The game will end soon."
      m_factionKeys {
       "UK"
      }
