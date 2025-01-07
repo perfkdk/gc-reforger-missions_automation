@@ -960,7 +960,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{6446F35488B64E56}" {
      m_messageTitle "UK KIA"
-     m_messageBody "mission cancaled to much death"
+     m_messageBody "Mission failed due to casualties."
      m_factionKeys {
       "UK"
      }
