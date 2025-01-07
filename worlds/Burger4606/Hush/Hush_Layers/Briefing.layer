@@ -15,7 +15,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  overview {
   coords 7105.178 0 9835.679
-  m_sTitle "overview"
+  m_sTitle "Overview"
   m_sTextData "Assault and capture objective Alpha and Bravo then head to exfil "
   m_bShowForAnyFaction 1
  }
