@@ -893,7 +893,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "OBJ_A_TAKEN"
    m_instructions {
     TILW_SendMessageInstruction "{6446C885C6D66464}" {
-     m_messageTitle "objective A Captured"
+     m_messageTitle "Objective A Captured"
      m_messageBody "United kingdom captured objective Alpha move to objective Bravo"
      m_factionKeys {
       "UK"
