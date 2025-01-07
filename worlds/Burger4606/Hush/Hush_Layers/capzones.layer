@@ -1,7 +1,6 @@
 TILW_ExtractionTriggerEntity EXFILL : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExtractionTrigger.et" {
  coords 7388.838 2.204 9560.926
  m_queryRadius 50
- m_queryPeriod 5
  m_locationName "Exfil"
  m_flagName "EXFIL"
  m_stopAfterFirstChange 1
@@ -11,7 +10,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTr
  OBJ_A {
   coords 6890 71.35 8649.347
   m_queryRadius 30
-  m_queryPeriod 60
   m_sendStatusMessages 1
   m_locationName "objective Alpha"
   m_flagName "OBJ_A_TAKEN"
@@ -20,7 +18,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTr
  }
  OBJ_B {
   coords 7021.085 102.406 8386.755
-  m_queryPeriod 60
   m_sendStatusMessages 1
   m_locationName "objective Bravo"
   m_flagName "OBJ_B_TAKEN"
