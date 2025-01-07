@@ -134,7 +134,7 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
    GC_AASCounterattack "{644D2AAAEE211029}" {
     m_factionKey "RHS_USAF"
     m_prefab "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSURGENT_RifleSquad.et"
-    m_locationName "B"
+    m_locationName "F"
     m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
     m_radius 20
    }
@@ -167,7 +167,7 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   TriggerShapeType Sphere
   SphereRadius 20
   DrawShape 0
-  m_sAreaSymbol "#AR-CAH-Area_Symbol_F"
+  m_sAreaSymbol "G"
   m_spawnPoints {
    "US_G"
   }
@@ -187,14 +187,14 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
    GC_AASCounterattack "{644D2AAAE5BE59D3}" {
     m_factionKey "RHS_USAF"
     m_prefab "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSURGENT_RifleSquad.et"
-    m_locationName "B"
+    m_locationName "H"
     m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
     m_radius 20
    }
    GC_AASCounterattack "{644D2AAAE582E205}" {
     m_factionKey "RHS_USAF"
     m_prefab "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSURGENT_RifleSquad.et"
-    m_locationName "B"
+    m_locationName "H"
     m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
     m_radius 20
    }
@@ -206,7 +206,7 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   TriggerShapeType Sphere
   SphereRadius 20
   DrawShape 0
-  m_sAreaSymbol "#AR-CAH-Area_Symbol_F"
+  m_sAreaSymbol "H"
   m_defenderGroups {
    GC_AASDefenderGroup "{644D2AAD1D3A9450}" {
     m_prefab "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSURGENT_RifleSquad.et"
