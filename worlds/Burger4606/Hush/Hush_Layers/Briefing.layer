@@ -22,7 +22,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  missionnotes {
   coords 7124.182 -0 9921.532
   m_sTitle "mission notes"
-  m_sTextData "You have 60mins to complete mission Hush and exfil no respawn's no resupply if evryone dies misson failed"
+  m_sTextData "You have 60mins to complete mission Hush and exfil. No respawns and no resupply. If everyone dies, mission failed"
   m_bShowForAnyFaction 1
   m_iOrder 3
  }
