@@ -8,7 +8,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  mission {
   coords 7155.992 0 9864.901
-  m_sTitle "mission"
+  m_sTitle "Mission"
   m_sTextData "Your mission is to assault and capture objective Alpha then Bravo clear them of enemy hostiles and proceed to exfil "
   m_bShowForAnyFaction 1
   m_iOrder 2
