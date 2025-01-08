@@ -180,10 +180,9 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   }
  }
  H {
-  coords 2336.226 9.113 2300.815
+  coords 2325.606 9.384 2295.75
   TriggerShapeType Sphere
-  SphereRadius 12.5
-  DrawShape 0
+  SphereRadius 25
   m_sAreaSymbol "H"
   m_fTickRate 10
   m_defenderGroups {

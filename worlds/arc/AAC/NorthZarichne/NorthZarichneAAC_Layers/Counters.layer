@@ -23,7 +23,7 @@ $grp GenericEntity {
   angleY 45.593
  }
  GCounterBTR {
-  coords 2430.064 7.5 2089.461
+  coords 2430.064 8.839 2089.461
   angleY 54.746
  }
 }
