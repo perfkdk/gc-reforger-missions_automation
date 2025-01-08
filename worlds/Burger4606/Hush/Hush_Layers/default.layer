@@ -889,30 +889,12 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 7021.017 0 9409.229
  m_missionEvents {
-  TILW_MissionEvent "{6446C885A7146FA9}" {
-   m_name "OBJ_A_TAKEN"
-   m_instructions {
-    TILW_SendMessageInstruction "{6446C885C6D66464}" {
-     m_messageTitle "Objective A Captured"
-     m_messageBody "The UK has captured objective Alpha. Move to objective Bravo."
-     m_factionKeys {
-      "UK"
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{6446C885A10FB89B}" {
-    m_flagName "OBJ_A_TAKEN"
-   }
-  }
   TILW_MissionEvent "{6446C88F4B771C53}" {
-   m_name "OBJ_B"
+   m_name "Both taken"
    m_instructions {
     TILW_SendMessageInstruction "{6446C88F9FBC6497}" {
-     m_messageTitle "Objective B Captured"
-     m_messageBody "The UK has captured objective Bravo. Move to exfil."
-     m_factionKeys {
-      "UK"
-     }
+     m_messageTitle "Both objectives taken"
+     m_messageBody "The UK has captured both objectives, move to exfil."
     }
    }
    m_condition TILW_ConjunctionTerm "{6446E74AE08CE3C3}" {
@@ -932,9 +914,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{6446E74E6E61B156}" {
      m_messageTitle "Exfil reached"
      m_messageBody "Successful exfil. The game will end soon."
-     m_factionKeys {
-      "UK"
-     }
     }
     TILW_EndGameInstruction "{6446E74E674FC9C8}" {
      m_executionDelay 15
@@ -961,9 +940,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{6446F35488B64E56}" {
      m_messageTitle "UK KIA"
      m_messageBody "Mission failed due to casualties."
-     m_factionKeys {
-      "UK"
-     }
     }
     TILW_EndGameInstruction "{6446F354A2FD0C99}" {
      m_executionDelay 20
@@ -976,15 +952,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{6446F35548CE8CED}" {
-   m_name "KIA Timer"
+   m_name "Time limit"
    m_instructions {
     TILW_SendMessageInstruction "{6446F35561DE0934}" {
      m_executionDelay 2680
      m_messageTitle "Time limit reached"
      m_messageBody "45 minutes up. The game will end soon."
-     m_factionKeys {
-      "UK"
-     }
     }
     TILW_EndGameInstruction "{6446F3559C1DEED7}" {
      m_executionDelay 2700
