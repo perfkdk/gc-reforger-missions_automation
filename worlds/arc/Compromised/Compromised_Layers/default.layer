@@ -94,6 +94,24 @@ TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExtractionT
  m_factionKey "UK"
  m_ratioThreshold 0.9
 }
+GenericEntity : "{47B7E8CA1935BB28}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Fuel.et" {
+ components {
+  SCR_FuelSupportStationComponent "{5E1CF311DF6C3CBE}" {
+   m_fRange 50
+  }
+  SCR_RepairSupportStationComponent "{64555C156B0096E4}" {
+   m_eSupportStationPriority HIGH
+   m_fRange 50
+   m_iSupplyCostDamageHealed 0
+   m_iSupplyCostPerFireRateReduction 0
+  }
+  WCS_RearmSupportStationComponent "{64555C1496341DE9}" {
+   m_eSupportStationPriority HIGH
+   m_fRange 50
+  }
+ }
+ coords 7325.599 136.15 4703.39
+}
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 8059.231 0 8079.794
  m_missionEvents {

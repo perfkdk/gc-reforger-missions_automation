@@ -79,7 +79,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7931.845 0 7526.371
   m_sTitle "VI. Service & Support"
-  m_sTextData "2x AH6M Littlebirds armed with rocket and minigun pods for CAS and air recon."\
+  m_sTextData "2x AH6M Littlebirds armed with rocket and minigun pods for CAS and air recon. Repair, refuel and rearm for the Littlebirds is available at the helipads in Levie."\
   ""\
   "6x M1025 Humvees armed with M2 machine guns available for rifle squads."\
   ""\
