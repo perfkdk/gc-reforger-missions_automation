@@ -9,81 +9,6 @@ GenericEntity : "{2F4E74E28B1114AB}Prefabs/Structures/Military/CamoNets/Soviet/C
  angleY 136.187
  angleZ 7.408
 }
-GenericEntity : "{641BE0766BB1874E}PrefabsEditable/Auto/Props/Military/Compositions/UK/E_ArsenalBox_UK.et" {
- components {
-  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-   Enabled 0
-  }
-  SCR_EditableSystemComponent "{5D6477349AB9FA5B}" {
-   Enabled 0
-  }
-  SCR_PreviewEntityComponent "{5D6477349AB699CC}" {
-   Enabled 0
-  }
-  SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
-   Enabled 0
-  }
-  SCR_ResupplySupportStationComponent "{5E2CE1BAE058CADC}" {
-   Enabled 0
-   m_iCharacterVoicePriority 0
-   m_bIsEnabled 0
-  }
-  SCR_ServicePointComponent "{5C7489C20C7B5D4B}" {
-   Enabled 0
-  }
-  SCR_SlotCompositionComponent "{56F2C6D1431AD9A6}" {
-   Enabled 0
-  }
-  SCR_SoundDataComponent "{5C533B76540FC6EE}" {
-   Enabled 0
-  }
-  UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
-   UseVirtualInventoryReplication 0
-   MultiSlots {
-    MultiSlotConfiguration "{6456875BB0A6D936}" {
-     SlotTemplate InventoryStorageSlot Mags {
-      Prefab "{5DB8DBAB68E56D6A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_4B1T.et"
-     }
-     NumSlots 210
-    }
-    MultiSlotConfiguration "{6456875A374F6BAD}" {
-     SlotTemplate InventoryStorageSlot Nades {
-      Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
-     }
-     NumSlots 60
-    }
-    MultiSlotConfiguration "{6456875AFE811908}" {
-     SlotTemplate InventoryStorageSlot Smokes {
-      Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
-     }
-     NumSlots 60
-    }
-    MultiSlotConfiguration "{6456875ACA1CC797}" {
-     SlotTemplate InventoryStorageSlot CG {
-      Prefab "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et"
-     }
-     NumSlots 6
-    }
-    MultiSlotConfiguration "{6456875AB3CDB501}" {
-     SlotTemplate InventoryStorageSlot LAWs {
-      Prefab "{E0CFA3FE78FC5190}Prefabs/Weapons/Launchers/M72/Launcher_LAW66_L1A1.et"
-     }
-     NumSlots 4
-    }
-    MultiSlotConfiguration "{6456875D6CCA9EE0}" {
-     SlotTemplate InventoryStorageSlot GPMG {
-      Prefab "{7729EF36AA916FB9}Prefabs/Weapons/Magazines/Box_762x51_GPMG_200rnd_4Ball_1Tracer.et"
-     }
-     NumSlots 20
-    }
-   }
-  }
-  SCR_ArsenalInventoryStorageManagerComponent "{56F2C6D1431ADBA8}" {
-   Enabled 0
-  }
- }
- coords 4009.182 144.562 4401.531
-}
 $grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
  {
   components {
@@ -128,6 +53,124 @@ GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/C
  angleX 3.642
  angleY 121.765
  angleZ -0.58
+}
+GenericEntity : "{7D39683D0F8EDB59}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_dark.et" {
+ components {
+  SCR_SoundDataComponent "{6457224EA20728B9}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6457224EBD209B06}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_OPEN"
+    }
+    SCR_AudioSourceConfiguration "{6457224EBD35D771}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_CLOSE"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{6457224E8A60AEA6}" {
+   Attributes SCR_ItemAttributeCollection "{6457224DAACE3003}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5916C580F32A682A}" {
+     Name "Box"
+     m_aItemHints {
+      SCR_SupplyAvailableItemHintUIInfo "{5EB297BD39DD2604}" {
+       Name "#AR-Item_SupplyConsumer_Hint1"
+       Icon "{8EB808BFA227C080}UI/Textures/Icons/InventoryHints/InventoryHint_SuppliesStored.edds"
+       m_cColor 1 1 1 1
+       m_bHideInArsenal 1
+      }
+      SCR_SupplyStoredItemHintUIInfo "{5E72C5B9EF5B9709}" {
+       Name "#AR-Item_SupplyStorage_Hint1"
+       Icon "{8EB808BFA227C080}UI/Textures/Icons/InventoryHints/InventoryHint_SuppliesStored.edds"
+       m_cColor 1 1 1 1
+       m_bHideInArsenal 1
+      }
+      SCR_SupplyMoveItemHintUIInfo "{5E72C5B9EEB9E5F6}" {
+       Name "#AR-Item_SupplyStorage_Hint2"
+       Icon "{307100AF2FD9AA65}UI/Textures/Icons/InventoryHints/InventoryHint_SuppliesMove.edds"
+       m_cColor 1 1 1 1
+       m_eShowWithInputDevice KEYBOARD_MOUSE_ONLY
+       m_bHideInArsenal 1
+      }
+     }
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5938C606F80AF9E2}" {
+      CameraOrbitAngles -15 -35 0
+      CameraDistanceToItem 7
+      CameraOffset -1 -0.5 0
+      FOV 60
+      AspectRatio 1
+     }
+    }
+    m_Size SLOT_3x3
+    m_bStackable 0
+   }
+   UseCapacityCoefficient 0
+   UseVirtualInventoryReplication 0
+   MultiSlots {
+    MultiSlotConfiguration "{6457224E9C5542BD}" {
+     SlotTemplate InventoryStorageSlot Mags {
+      Prefab "{5DB8DBAB68E56D6A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_4B1T.et"
+     }
+     NumSlots 210
+    }
+    MultiSlotConfiguration "{6457224E9AA46F4B}" {
+     SlotTemplate InventoryStorageSlot Nades {
+      Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+     }
+     NumSlots 60
+    }
+    MultiSlotConfiguration "{6457224D6F080FC0}" {
+     SlotTemplate InventoryStorageSlot Smokes {
+      Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
+     }
+     NumSlots 60
+    }
+    MultiSlotConfiguration "{6457224D6B77DEA6}" {
+     SlotTemplate InventoryStorageSlot CG {
+      Prefab "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{6457224D67A7404A}" {
+     SlotTemplate InventoryStorageSlot LAWs {
+      Prefab "{E0CFA3FE78FC5190}Prefabs/Weapons/Launchers/M72/Launcher_LAW66_L1A1.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{6457224D626B124E}" {
+     SlotTemplate InventoryStorageSlot GPMG {
+      Prefab "{7729EF36AA916FB9}Prefabs/Weapons/Magazines/Box_762x51_GPMG_200rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 20
+    }
+   }
+   m_fMaxWeight 1000000
+  }
+  ActionsManagerComponent "{6457224EE689FEF8}" {
+   ActionContexts {
+    UserActionContext "{6457224EFDCFC4D7}" {
+     ContextName "default"
+     Position PointInfo "{6457224EC6F3CDDB}" {
+     }
+     Radius 1.5
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{6457224ED82E413C}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6457224EAF053343}" {
+      Name "#AR-Inventory_OpenArsenalStorage"
+     }
+    }
+   }
+  }
+ }
+ coords 4009.457 144.562 4401.643
+ angleY 178.593
 }
 GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
  coords 3180.504 117.236 5202.271
