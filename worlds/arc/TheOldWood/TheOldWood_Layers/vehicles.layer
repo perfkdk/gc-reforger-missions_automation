@@ -1,0 +1,20 @@
+Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et" {
+ coords 4007.367 143.708 4427.264
+ angleX -1.944
+ angleY 3.064
+ angleZ 2.365
+}
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  coords 4006.107 144.256 4408.574
+  angleX -0.614
+  angleY 5.18
+  angleZ 3.121
+ }
+ M923A1_transport_covered2 {
+  coords 4006.845 143.961 4418.758
+  angleX -0.614
+  angleY 5.18
+  angleZ 3.121
+ }
+}

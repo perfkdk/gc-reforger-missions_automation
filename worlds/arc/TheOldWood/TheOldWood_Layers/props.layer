@@ -1,0 +1,266 @@
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 2673.501 94.581 5391.595
+ angleX -3.35
+ angleY -50.643
+}
+GenericEntity : "{2F4E74E28B1114AB}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_ObservationPost_Soviet.et" {
+ coords 2699.017 98.631 5417.068
+ angleX -0.817
+ angleY 136.187
+ angleZ 7.408
+}
+GenericEntity : "{641BE0766BB1874E}PrefabsEditable/Auto/Props/Military/Compositions/UK/E_ArsenalBox_UK.et" {
+ components {
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   Enabled 0
+  }
+  SCR_EditableSystemComponent "{5D6477349AB9FA5B}" {
+   Enabled 0
+  }
+  SCR_PreviewEntityComponent "{5D6477349AB699CC}" {
+   Enabled 0
+  }
+  SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+   Enabled 0
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BAE058CADC}" {
+   Enabled 0
+   m_iCharacterVoicePriority 0
+   m_bIsEnabled 0
+  }
+  SCR_ServicePointComponent "{5C7489C20C7B5D4B}" {
+   Enabled 0
+  }
+  SCR_SlotCompositionComponent "{56F2C6D1431AD9A6}" {
+   Enabled 0
+  }
+  SCR_SoundDataComponent "{5C533B76540FC6EE}" {
+   Enabled 0
+  }
+  UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+   UseVirtualInventoryReplication 0
+   MultiSlots {
+    MultiSlotConfiguration "{6456875BB0A6D936}" {
+     SlotTemplate InventoryStorageSlot Mags {
+      Prefab "{5DB8DBAB68E56D6A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_4B1T.et"
+     }
+     NumSlots 210
+    }
+    MultiSlotConfiguration "{6456875A374F6BAD}" {
+     SlotTemplate InventoryStorageSlot Nades {
+      Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+     }
+     NumSlots 60
+    }
+    MultiSlotConfiguration "{6456875AFE811908}" {
+     SlotTemplate InventoryStorageSlot Smokes {
+      Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
+     }
+     NumSlots 60
+    }
+    MultiSlotConfiguration "{6456875ACA1CC797}" {
+     SlotTemplate InventoryStorageSlot CG {
+      Prefab "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{6456875AB3CDB501}" {
+     SlotTemplate InventoryStorageSlot LAWs {
+      Prefab "{E0CFA3FE78FC5190}Prefabs/Weapons/Launchers/M72/Launcher_LAW66_L1A1.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{6456875D6CCA9EE0}" {
+     SlotTemplate InventoryStorageSlot GPMG {
+      Prefab "{7729EF36AA916FB9}Prefabs/Weapons/Magazines/Box_762x51_GPMG_200rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{56F2C6D1431ADBA8}" {
+   Enabled 0
+  }
+ }
+ coords 4009.182 144.562 4401.531
+}
+$grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{64548919A5885AF0}" {
+   }
+  }
+  coords 2736.961 105.422 5095.294
+  angleX -5.073
+  angleY 97.374
+  {
+   GenericEntity {
+    ID "5CCCBED96B5A2281"
+    coords -3.716 -0.161 -0.719
+    angleX -5.591
+    angleY -104.18
+   }
+   GenericEntity {
+    ID "5CCCBED96B5A22B1"
+    coords 2.933 0.068 -1.215
+    angleX 2.527
+    angleY -70.516
+   }
+  }
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6454891F39C3BF96}" {
+   }
+  }
+  coords 3145.977 119.658 5249.143
+  angleY 46.98
+  {
+   GenericEntity {
+    ID "5CCCBED96B5A22B1"
+    coords 2.93 -0.14 -1.214
+   }
+  }
+ }
+}
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 2690.323 93.629 5338.96
+ angleX 3.642
+ angleY 121.765
+ angleZ -0.58
+}
+GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
+ coords 3180.504 117.236 5202.271
+ angleX -3.09
+ angleY 139.903
+}
+GenericEntity : "{A2D4DAC9EDE8BD6E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_NSV.et" {
+ coords 2700.53 98.1 5415.742
+ angleX -0.913
+ angleY 134.217
+ angleZ 6.745
+}
+GenericEntity : "{AE4206993ACBAE48}Prefabs/Compositions/Misc/FreeRoamBuilding/ACE_DirtCover_01_long_v1.et" {
+ coords 2763.763 106.684 5440.597
+ angleX -0.899
+ angleY 143.168
+ angleZ 7.724
+}
+$grp StaticModelEntity : "{AF8D04AE2FDC3351}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_forest.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6454891E5A96AD4A}" {
+   }
+  }
+  coords 2726.576 -0.487 5087.169
+  angleX 7.397
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6454891E5A96AD4A}" {
+   }
+  }
+  coords 2726.773 -0.481 5107.229
+  angleX 3.177
+  angleY 174.486
+  angleZ 1.872
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6454891E5A96AD4A}" {
+   }
+  }
+  coords 2716.179 -0.315 5095.311
+  angleX -10.716
+  angleY -88.797
+  angleZ 0.022
+ }
+}
+$grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+ {
+  coords 2706.968 99.27 5422.955
+  angleX 0.559
+  angleY -44.832
+  angleZ -5.463
+ }
+ {
+  coords 2693.497 96.958 5409.248
+  angleX -0.629
+  angleY 135.896
+  angleZ 5.455
+ }
+}
+$grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ {
+  coords 2702.925 98.588 5418.86
+  angleY -44.247
+  angleZ -7.141
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6454891B8FE59B37}" {
+   }
+  }
+  coords 2705.192 99.013 5421.171
+  angleY -44.247
+  angleZ -7.141
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6454891B8C4E1628}" {
+   }
+  }
+  coords 2695.308 97.237 5411.067
+  angleY -44.247
+  angleZ -7.141
+ }
+ {
+  coords 2697.575 97.662 5413.376
+  angleY -44.247
+  angleZ -7.141
+ }
+}
+Vehicle Ural4320_transport_covered1 : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ coords 2673.398 94.377 5383.157
+ angleX 4.235
+ angleY 14.571
+ angleZ -2.562
+}
+$grp StaticModelEntity : "{D9BA0985430B7981}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_wood_end_forest.et" {
+ {
+  coords 2731.383 -0.611 5087.316
+  angleX -6.581
+  angleY -179.475
+  angleZ -6.897
+ }
+ {
+  coords 2721.958 -0.615 5087.161
+  angleX 6.809
+  angleY -1.406
+  angleZ -3.839
+ }
+ {
+  coords 2731.37 -0.519 5107.694
+  angleX 2.636
+  angleY 173.069
+  angleZ -1.865
+ }
+ {
+  coords 2722.003 -0.49 5106.632
+  angleX -2.345
+  angleY -5.019
+  angleZ -8.729
+ }
+ {
+  coords 2716.133 -0.35 5090.696
+  angleX -11.298
+  angleY -90.221
+  angleZ -3.371
+ }
+ {
+  coords 2716.228 -0.34 5100.128
+  angleX 11.532
+  angleY 91.736
+  angleZ -6.753
+ }
+}
