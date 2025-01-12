@@ -1,0 +1,79 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ Area1 {
+  coords 736.253 18.203 1110.408
+  {
+   GenericEntity Layer1 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sFactionKey "RHS_USAF"
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{64589BE594CA8F7C}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{64589BE468D25942}" {
+            m_iDelayInSeconds 90
+            m_iDelayInSecondsMax 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{64589BE46662618F}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{64589BE467099B0C}" {
+               m_sLayerBaseName "Layer1"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et"
+       }
+      }
+      coords 0 0 0
+      angleX 1.259
+     }
+    }
+   }
+  }
+ }
+ Area2 {
+  coords 736.721 17.642 1099.687
+  angleY -4.266
+  {
+   GenericEntity Layer2 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sFactionKey "RHS_USAF"
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{64589BE594CA8F7C}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{64589BE468D25942}" {
+            m_iDelayInSeconds 90
+            m_iDelayInSecondsMax 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{64589BE46662618F}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{64589BE467099B0C}" {
+               m_sLayerBaseName "Layer2"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et"
+       }
+      }
+      coords 0 0 0
+      angleX 1.259
+     }
+    }
+   }
+  }
+ }
+}
