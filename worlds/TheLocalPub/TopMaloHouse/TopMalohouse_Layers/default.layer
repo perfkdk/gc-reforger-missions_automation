@@ -1,0 +1,291 @@
+SCR_AIWorld aiworld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 11110.826 -985.511 144.93
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3879.681 0 3722.359
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{644918C3EBBB9630}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingHour 5
+    }
+   }
+   m_bRandomWeatherChanges 1
+  }
+ }
+ coords 3781.905 0 3511.617
+ {
+  SCR_FactionManager "64572C260AFB09D1" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{645706246C860479}" : "{0BE3E7B63E7C70AC}worlds/TheLocalPub/TopMaloHouse/Configs/Factions/Argentina.conf" {
+    }
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_killTimer 6
+   m_factionKeys {
+    "GC_ARG"
+   }
+  }
+ }
+ coords 10023.67 307.377 2609.305
+ Points {
+  ShapePoint "{6457654AC3FBAFE0}" {
+   Position -0.679 -17.94 69.478
+  }
+  ShapePoint "{6457654AC058157D}" {
+   Position 18.595 0.9 -18.906
+  }
+  ShapePoint "{6457654932217C79}" {
+   Position -198.138 -21.468 -73.675
+  }
+  ShapePoint "{6457654930984D06}" {
+   Position -220.591 -31.552 17.006
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  PrefabGeneratorEntity : "{6B59CE9ABF067E0A}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_OPFOR.et" {
+   coords 0 0 0
+   Flags 1048579
+   {
+    $grp PS_ManualMarker : "{5F773B024F23FD0F}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_OPFOR.et" {
+     {
+      coords -0.679 -17.94 69.478
+      angleX 11.765
+      angleY 167.698
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 9.75 -1.703 21.653
+      angleX 11.765
+      angleY 167.698
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords 11.266 1.984 -20.758
+      angleX -5.714
+      angleY -104.182
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -36.97 2.72 -32.947
+      angleX -5.714
+      angleY -104.182
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -85.205 -9.896 -45.136
+      angleX -5.714
+      angleY -104.182
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -133.44 -13.999 -57.326
+      angleX -5.714
+      angleY -104.182
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -181.676 -20.174 -69.515
+      angleX -5.714
+      angleY -104.182
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -206.008 -24.863 -41.889
+      angleX -6.161
+      angleY -13.907
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -217.956 -30.958 6.365
+      angleX -6.161
+      angleY -13.907
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -182.75 -24.825 26.035
+      angleX 3.445
+      angleY 76.58
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -134.203 -18.953 37.619
+      angleX 3.445
+      angleY 76.58
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -85.656 -15.803 49.202
+      angleX 3.445
+      angleY 76.58
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+     {
+      coords -37.109 -23.539 60.786
+      angleX 3.445
+      angleY 76.58
+      m_aVisibleForFactions {
+       "GC_ARG"
+      }
+      m_bVisibleForEmptyFaction 0
+      m_bShowForAnyFaction 0
+     }
+    }
+   }
+  }
+ }
+}
+TILW_FactionTriggerEntity capzone : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+ coords 9927.656 304.913 2602.998
+ m_queryRadius 18
+ m_queryPeriod 60
+ m_sendStatusMessages 1
+ m_locationName "Top Malo"
+ m_flagName "CapZone"
+ m_eventsOnlyDuringGame 1
+ m_stopAfterFirstChange 1
+ m_playersOnly 1
+ m_ownerFactionKey "UK"
+ m_ratioThreshold 0.6
+}
+TILW_MissionFrameworkEntity Framework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3760.915 0 3678.841
+ m_missionEvents {
+  TILW_MissionEvent "{644918C0250F5458}" {
+   m_name "SETUP TIMER"
+   m_instructions {
+    TILW_SendMessageInstruction "{644918C0096560A5}" {
+     m_executionDelay 240
+     m_messageTitle "Teleports available"
+     m_messageBody "The setup timer has ended. You can now use the flag teleports."
+     m_factionKeys {
+      "UK"
+     }
+    }
+    TILW_SetFlagInstruction "{644918C01D613F88}" {
+     m_executionDelay 240
+     m_flagName "SETUP"
+    }
+   }
+   m_condition TILW_LiteralTerm "{644918C01E301579}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{645926DE1AC3E0DB}" {
+   m_name "OPFORWin"
+   m_instructions {
+    TILW_SendMessageInstruction "{645926DE16BD7708}" {
+     m_messageTitle "ARGENTINE VICTORY!"
+     m_messageBody "The Argentine forces have managed to repel the British attack and have forced them to withdraw."\
+     ""\
+     "Well done troops!"\
+     "Mission will end soon.."
+    }
+    TILW_EndGameInstruction "{645926DE4A9C0216}" {
+     m_executionDelay 15
+     m_factionKey "GC_ARG"
+    }
+   }
+   m_condition TILW_LiteralTerm "{645926DE1D714361}" {
+    m_flagName "Bludead"
+   }
+  }
+  TILW_MissionEvent "{645926DE4255EBF4}" {
+   m_name "BLUFORWIN"
+   m_instructions {
+    TILW_SendMessageInstruction "{645926DD6C1DFC32}" {
+     m_messageTitle "BRITISH VICTORY!"
+     m_messageBody "The British forces have managed to secure the lodge and destroy the Argentine OP."\
+     ""\
+     "Well done troops!"\
+     "Mission will end soon.."
+    }
+    TILW_EndGameInstruction "{645926DD0D042F61}" {
+     m_executionDelay 15
+     m_factionKey "UK"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{645926DE466AB72A}" {
+    m_operands {
+     TILW_LiteralTerm "{645926DEB2D1F78D}" {
+      m_flagName "RedDead"
+     }
+     TILW_LiteralTerm "{645926DEAD451E5E}" {
+      m_flagName "CapZone"
+     }
+    }
+   }
+  }
+ }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{645926DFC597E415}" {
+   m_flagName "Bludead"
+   m_factionKey "UK"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{645926DEBA8B1648}" {
+   m_flagName "RedDead"
+   m_factionKey "GC_ARG"
+  }
+ }
+}
