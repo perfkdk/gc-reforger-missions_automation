@@ -127,21 +127,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EditMapItemInstruction "{645C0B32554C5778}" {
      m_itemNames {
-      "CacheLocN"
+      "CacheLocN" "CacheMarkerN2"
      }
      m_factionVisibility {
       TILW_FactionVisibility "{645C0B322E231EC2}" {
-       m_factionKey "GC_SEPARATIST"
-       m_visible 1
-      }
-     }
-    }
-    TILW_EditMapItemInstruction "{646121C49267827C}" {
-     m_itemNames {
-      "CacheMarkerN2"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{646121C56570D83A}" {
        m_factionKey "GC_SEPARATIST"
        m_visible 1
       }
@@ -163,21 +152,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EditMapItemInstruction "{645C0B32554C5778}" {
      m_itemNames {
-      "CacheLocMid"
+      "CacheLocMid" "CacheMarkerMid2"
      }
      m_factionVisibility {
       TILW_FactionVisibility "{645C0B322E231EC2}" {
-       m_factionKey "GC_SEPARATIST"
-       m_visible 1
-      }
-     }
-    }
-    TILW_EditMapItemInstruction "{646121C57DB5F91C}" {
-     m_itemNames {
-      "CacheMarkerMid2"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{646121C56570D83A}" {
        m_factionKey "GC_SEPARATIST"
        m_visible 1
       }
@@ -199,21 +177,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EditMapItemInstruction "{645C0B32554C5778}" {
      m_itemNames {
-      "CacheLocS"
+      "CacheLocS" "CacheMarkerS2"
      }
      m_factionVisibility {
       TILW_FactionVisibility "{645C0B322E231EC2}" {
-       m_factionKey "GC_SEPARATIST"
-       m_visible 1
-      }
-     }
-    }
-    TILW_EditMapItemInstruction "{646121C5746B0785}" {
-     m_itemNames {
-      "CacheMarkerS2"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{646121C56570D83A}" {
        m_factionKey "GC_SEPARATIST"
        m_visible 1
       }
@@ -235,21 +202,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EditMapItemInstruction "{645C0B32554C5778}" {
      m_itemNames {
-      "CacheLocW"
+      "CacheLocW" "CacheMarkerW2"
      }
      m_factionVisibility {
       TILW_FactionVisibility "{645C0B322E231EC2}" {
-       m_factionKey "GC_SEPARATIST"
-       m_visible 1
-      }
-     }
-    }
-    TILW_EditMapItemInstruction "{646121C54CFD8634}" {
-     m_itemNames {
-      "CacheMarkerW2"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{646121C56570D83A}" {
        m_factionKey "GC_SEPARATIST"
        m_visible 1
       }
@@ -266,11 +222,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{645B7CEEEFE174FD}" {
      m_messageTitle "US VICTORY"
-     m_messageBody "The ache has been secured by American forces."
+     m_messageBody "The cache has been secured by American forces."
     }
     TILW_EndGameInstruction "{646121D516084A8C}" {
      m_executionDelay 15
-     m_factionKey "US"
+     m_factionKey "RHS_USAF"
     }
    }
    m_condition TILW_LiteralTerm "{645B7CEEE3A8CCC0}" {
@@ -286,7 +242,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{646121D57FC8F031}" {
      m_executionDelay 15
-     m_factionKey "US"
+     m_factionKey "GC_SEPARATIST"
     }
    }
    m_condition TILW_LiteralTerm "{646121D56DB61F91}" {
@@ -302,7 +258,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{646121D57B48E733}" {
      m_executionDelay 15
-     m_factionKey "GC_SEPARATIST"
+     m_factionKey "RHS_USAF"
     }
    }
    m_condition TILW_LiteralTerm "{646121D54C653A98}" {
