@@ -33,7 +33,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 2863.351 0 7933.696
- m_iFreezeTime 300000
  {
   SCR_FactionManager "645E97DF0EF8A49C" {
    ID "5ED9088735FF2D8B"
@@ -94,154 +93,50 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
- components {
-  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-   m_factionKeys {
-    "GC_SEPARATIST"
-   }
-  }
- }
- coords 3037.477 0 8125.86
- Points {
-  ShapePoint "{645E97C5B7AF5138}" {
-   Position -294.332 145.477 -813.749
-  }
-  ShapePoint "{645E97C5B1EA79A9}" {
-   Position -143.208 137.03 -2523.554
-  }
-  ShapePoint "{645E97C58EC74B70}" {
-   Position 1349.607 199.592 -2438.001
-  }
-  ShapePoint "{645E97C58936F233}" {
-   Position 1310.093 150.386 -687.421
-  }
- }
-}
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 2810.76 0 7901.953
  m_missionEvents {
-  TILW_MissionEvent "{645C0B32251B73B9}" {
-   m_name "CACHE_SPAWN_MID"
-   m_instructions {
-    TILW_SpawnPrefabInstruction "{645C0A2E40B4C55E}" {
-     m_prefab "{9C6718B84174C37A}worlds/arc/BarnBusters/Prefabs/BarnBusters_Cache.et"
-     m_locationName "CacheSpawnMid"
-     m_setEntityName "CACHE"
-    }
-    TILW_EditMapItemInstruction "{645C0B32554C5778}" {
-     m_itemNames {
-      "CacheLocMid" "CacheMarkerMid2"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{645C0B322E231EC2}" {
-       m_factionKey "GC_SEPARATIST"
-       m_visible 1
-      }
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{645C0A2E459EBE13}" {
-    m_flagName "CACHE_MID"
-   }
-   m_pregameEvent 1
-  }
-  TILW_MissionEvent "{645C0B3226D4E627}" {
-   m_name "CACHE_SPAWN_S"
-   m_instructions {
-    TILW_SpawnPrefabInstruction "{645C0A2E40B4C55E}" {
-     m_prefab "{9C6718B84174C37A}worlds/arc/BarnBusters/Prefabs/BarnBusters_Cache.et"
-     m_locationName "CacheSpawnS"
-     m_setEntityName "CACHE"
-    }
-    TILW_EditMapItemInstruction "{645C0B32554C5778}" {
-     m_itemNames {
-      "CacheLocS" "CacheMarkerS2"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{645C0B322E231EC2}" {
-       m_factionKey "GC_SEPARATIST"
-       m_visible 1
-      }
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{645C0A2E459EBE13}" {
-    m_flagName "CACHE_S"
-   }
-   m_pregameEvent 1
-  }
-  TILW_MissionEvent "{645C0B3226811211}" {
-   m_name "CACHE_SPAWN_W"
-   m_instructions {
-    TILW_SpawnPrefabInstruction "{645C0A2E40B4C55E}" {
-     m_prefab "{9C6718B84174C37A}worlds/arc/BarnBusters/Prefabs/BarnBusters_Cache.et"
-     m_locationName "CacheSpawnW"
-     m_setEntityName "CACHE"
-    }
-    TILW_EditMapItemInstruction "{645C0B32554C5778}" {
-     m_itemNames {
-      "CacheLocW" "CacheMarkerW2"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{645C0B322E231EC2}" {
-       m_factionKey "GC_SEPARATIST"
-       m_visible 1
-      }
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{645C0A2E459EBE13}" {
-    m_flagName "CACHE_W"
-   }
-   m_pregameEvent 1
-  }
   TILW_MissionEvent "{645B7CEE137AF690}" {
    m_name "US_CAP"
    m_instructions {
     TILW_SendMessageInstruction "{645B7CEEEFE174FD}" {
-     m_messageTitle "US VICTORY"
-     m_messageBody "The cache has been secured by American forces."
+     m_messageTitle "VICTORY"
+     m_messageBody "All caches have been secured by American forces."
     }
     TILW_EndGameInstruction "{646121D516084A8C}" {
      m_executionDelay 15
      m_factionKey "RHS_USAF"
     }
    }
-   m_condition TILW_LiteralTerm "{645B7CEEE3A8CCC0}" {
-    m_flagName "US_CAP"
+   m_condition TILW_ConjunctionTerm "{646940CDE4E86220}" {
+    m_operands {
+     TILW_LiteralTerm "{646940CDE5C2B952}" {
+      m_flagName "US_CAP_1"
+     }
+     TILW_LiteralTerm "{646940CDE0C5CD0E}" {
+      m_flagName "US_CAP_2"
+     }
+     TILW_LiteralTerm "{646940CDE1C0A8BE}" {
+      m_flagName "US_CAP_3"
+     }
+    }
    }
   }
   TILW_MissionEvent "{646121D4A801353A}" {
    m_name "US_KIA"
    m_instructions {
     TILW_SendMessageInstruction "{646121D568C931D4}" {
-     m_messageTitle "SEPARATIST VICTORY"
+     m_messageTitle "DEFEAT"
      m_messageBody "US forces have taken significant casualties."
     }
     TILW_EndGameInstruction "{646121D57FC8F031}" {
      m_executionDelay 15
-     m_factionKey "GC_SEPARATIST"
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "RHS_USAF"
     }
    }
    m_condition TILW_LiteralTerm "{646121D56DB61F91}" {
     m_flagName "US_KIA"
-   }
-  }
-  TILW_MissionEvent "{646121D4A8148DCD}" {
-   m_name "SEP_KIA"
-   m_instructions {
-    TILW_SendMessageInstruction "{646121D5679F9057}" {
-     m_messageTitle "US VICTORY"
-     m_messageBody "Separatist forces have taken significant casualties."
-    }
-    TILW_EndGameInstruction "{646121D57B48E733}" {
-     m_executionDelay 15
-     m_factionKey "RHS_USAF"
-    }
-   }
-   m_condition TILW_LiteralTerm "{646121D54C653A98}" {
-    m_flagName "SEP_KIA"
    }
   }
   TILW_MissionEvent "{646121D4A6BD48A7}" {
@@ -249,12 +144,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{646121D53DBC034C}" {
      m_executionDelay 4805
-     m_messageTitle "SEPARATIST VICTORY"
+     m_messageTitle "DEFEAT"
      m_messageBody "Time limit reached."
     }
     TILW_EndGameInstruction "{646121D50DD40BEF}" {
      m_executionDelay 4815
-     m_factionKey "GC_SEPARATIST"
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "RHS_USAF"
     }
    }
    m_condition TILW_LiteralTerm "{646121D523DB0D32}" {
@@ -263,10 +159,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
  }
  m_factionPlayersKilledFlags {
-  TILW_FactionPlayersKilledFlag "{645E97DC6DBC9BB5}" {
-   m_flagName "SEP_KIA"
-   m_factionKey "GC_SEPARATIST"
-  }
   TILW_FactionPlayersKilledFlag "{645E97DC6D6E5606}" {
    m_flagName "US_KIA"
    m_factionKey "RHS_USAF"
@@ -280,10 +172,4 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
-}
-SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- coords 4848.602 28.447 11020.415
- m_fWarnRadius 90
- m_fZoneRadius 125
- m_fZoneTeleportedRadius 135
 }
