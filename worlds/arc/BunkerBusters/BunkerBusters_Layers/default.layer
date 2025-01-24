@@ -41,7 +41,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  }
  coords 3156.978 27.596 4476.364
  {
-  SCR_FactionManager {
+  SCR_FactionManager "645B1540E8E17B34" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5CC8DE37E1FF0F7A}" {
@@ -76,16 +76,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
- coords 3146.244 12.165 4269.17
- m_queryRadius 10
- m_captureIterations 6
- m_sendStatusMessages 1
- m_locationName "the nuclear material"
- m_flagName "US_CAP"
- m_stopAfterFirstChange 1
- m_ownerFactionKey "RHS_USAF"
-}
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3162.503 26.406 4477.287
  m_missionEvents {
@@ -110,12 +100,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "TIME_LIMIT"
    m_instructions {
     TILW_SendMessageInstruction "{6444F7C70EFA31CE}" {
-     m_executionDelay 2705
+     m_executionDelay 3605
      m_messageTitle "DEFEAT"
      m_messageBody "Time limit reached. The separatists are now extracting via the service tunnel."
     }
     TILW_EndGameInstruction "{6444F7C7040FAB69}" {
-     m_executionDelay 2715
+     m_executionDelay 3615
      m_gameOverType EDITOR_FACTION_DEFEAT
      m_factionKey "RHS_USAF"
     }
@@ -129,15 +119,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{6444F7C7FD80D63A}" {
      m_messageTitle "VICTORY"
-     m_messageBody "The nuclear material has been secured in the service tunnel."
+     m_messageBody "The nuclear material has been secured."
     }
     TILW_EndGameInstruction "{6444F7C7F578D0BE}" {
      m_executionDelay 15
      m_factionKey "RHS_USAF"
     }
    }
-   m_condition TILW_LiteralTerm "{6444F7C7CDA07939}" {
-    m_flagName "US_CAP"
+   m_condition TILW_ConjunctionTerm "{645B15413C78A1BC}" {
+    m_operands {
+     TILW_LiteralTerm "{645B15413D595FE9}" {
+      m_flagName "US_CAP"
+     }
+    }
    }
   }
  }
