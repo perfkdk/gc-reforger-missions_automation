@@ -24,12 +24,25 @@ Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/
  coords 3110.598 118.662 5214.193
  angleY -33.662
 }
-TILW_FactionTriggerEntity OBJ_Taken : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
- coords 3076.97 111.502 5219.747
- m_queryRadius 75.9
- m_flagName "OBJ_TAKEN"
- m_stopAfterFirstChange 1
- m_ownerFactionKey "FIA"
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+ OBJ_Taken {
+  coords 3076.97 111.502 5219.747
+  m_queryRadius 75.9
+  m_sendStatusMessages 1
+  m_flagName "OBJ_TAKEN"
+  m_stopAfterFirstChange 1
+  m_ownerFactionKey "FIA"
+ }
+ {
+  coords 3073.632 123.025 5221.166
+  m_queryRadius 51.5
+  m_captureIterations 102
+  m_sendStatusMessages 1
+  m_locationName "The Sawmill"
+  m_flagName "Sawmill_Held"
+  m_ownerFactionKey "FIA"
+  m_ratioThreshold 0.1
+ }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3255.504 116.263 5122.817
@@ -39,14 +52,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnGroupInstruction "{6458B09E9750E4B6}" {
      m_prefab "{0D10CCEEC7B3EC34}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ.et"
-     m_locationName "QRF_LOCATION1"
-     m_waypointNames {
-      "AIWP_AttackObj"
-     }
-    }
-    TILW_SpawnGroupInstruction "{6458B09EF0BAB1F1}" {
-     m_executionDelay 10
-     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
      m_locationName "QRF_LOCATION1"
      m_waypointNames {
       "AIWP_AttackObj"
@@ -120,14 +125,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "AIWP_AttackObj"
      }
     }
-    TILW_SpawnGroupInstruction "{6458B0985A8C9FEB}" {
-     m_executionDelay 305
-     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
-     m_locationName "QRF_LOCATION2"
-     m_waypointNames {
-      "AIWP_AttackObj"
-     }
-    }
     TILW_SpawnGroupInstruction "{6458B098583AB43E}" {
      m_executionDelay 310
      m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
@@ -195,7 +192,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "FIA WIN"
    m_instructions {
     TILW_EndGameInstruction "{6458B09AB443866A}" {
-     m_executionDelay 900
+     m_executionDelay 10
      m_factionKey "FIA"
     }
    }
@@ -210,6 +207,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      TILW_LiteralTerm "{6458B09A09BB7B87}" {
       m_flagName "FUEL_TRUCK_DESTROYED"
      }
+     TILW_LiteralTerm "{64715BB17A7173D7}" {
+      m_flagName "Sawmill_Held"
+     }
     }
    }
   }
@@ -220,4 +220,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_factionKey "FIA"
   }
  }
+}
+Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
+ components {
+  TILW_Flag_EntityDamage "{64715BB6178A6631}" {
+   m_flagName "ZUTRUCK"
+  }
+ }
+ coords 3106.498 118.624 5212.205
+ angleY -29.618
 }

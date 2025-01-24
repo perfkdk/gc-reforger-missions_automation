@@ -1,23 +1,25 @@
-$grp SCR_AIGroup : "{22F33D3EC8F281AB}Prefabs/Groups/INDFOR/Group_FIA_MachineGunTeam.et" {
+$grp SCR_AIGroup : "{126BE8C46FA39581}Prefabs/Groups/INDFOR/Group_FIA_FireTeam_P.et" {
  {
   components {
-   PS_GroupCallsignAssigner "{64534347F5C0D692}" {
-    m_iSquadCallsign 2
+   PS_GroupCallsignAssigner "{64715BB3F6E3DBD8}" {
+    m_iSquadCallsign 1
    }
   }
-  coords 4415.099 64.154 4998.818
-  m_sCustomNameSet "MG Team Alpha"
-  m_bSetPlayable 1
+  coords 4413.707 63.802 4991.576
+  m_aUnitPrefabSlots {
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et" "{253AF9EE4FE937BF}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sapper_P.et"
+  }
  }
  {
   components {
-   PS_GroupCallsignAssigner "{6453434709B75240}" {
-    m_iSquadCallsign 4
+   PS_GroupCallsignAssigner "{64715BB30B96EF1A}" {
+    m_iSquadCallsign 3
    }
   }
-  coords 4416.62 64.49 5005.145
-  m_sCustomNameSet "MG Team Bravo"
-  m_bSetPlayable 1
+  coords 4417.662 63.642 4990.402
+  m_aUnitPrefabSlots {
+   "{5E10F18AF4717622}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL_P.et" "{46451B805F2CDE56}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et" "{BF44997B8982C009}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_P.et" "{253AF9EE4FE937BF}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sapper_P.et"
+  }
  }
 }
 $grp Vehicle : "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et" {
@@ -31,37 +33,28 @@ $grp Vehicle : "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport
   coords 4418.947 63.188 4964.369
  }
 }
-$grp SCR_AIGroup : "{5BEA04939D148B1D}Prefabs/Groups/INDFOR/Group_FIA_FireTeam.et" {
+$grp SCR_AIGroup : "{734B886D3D2AB350}Prefabs/Groups/INDFOR/Group_FIA_MachineGunTeam_P.et" {
  {
   components {
-   PS_GroupCallsignAssigner "{64534347FAC7B102}" {
-    m_iSquadCallsign 1
+   PS_GroupCallsignAssigner "{64715BB2750A2B69}" {
+    m_iSquadCallsign 2
    }
   }
-  coords 4416.9 64.172 5000.425
-  m_sCustomNameSet "Fire Team Alpha"
-  m_bSetPlayable 1
+  coords 4416.521 63.704 4992.04
  }
  {
   components {
-   PS_GroupCallsignAssigner "{645343470C410ACF}" {
-    m_iSquadCallsign 3
+   PS_GroupCallsignAssigner "{64715BB3DFBCA7C9}" {
+    m_iSquadCallsign 4
    }
   }
-  coords 4419.556 64.358 5004.4
-  m_sCustomNameSet "Fire Team Bravo"
-  m_bSetPlayable 1
+  coords 4414.355 63.794 4991.951
  }
 }
-SCR_AIGroup : "{EE92725E9B949C3D}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ.et" {
+SCR_AIGroup : "{CA73F9230999408B}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ_P.et" {
  components {
-  PS_GroupCallsignAssigner "{64534347E3B54726}" {
+  PS_GroupCallsignAssigner "{64715BB3A3DC7565}" {
   }
  }
- coords 4417.089 64.07 4998.129
- m_aUnitPrefabSlots {
-  "{FE65E8C60C751352}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_PL.et" "{45A02CA25CBA9443}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic.et"
- }
- m_sCustomNameSet "Platoon"
- m_bSetPlayable 1
+ coords 4413.125 63.86 4992.425
 }
