@@ -98,7 +98,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2746.835 11.595 2435.365
@@ -120,7 +119,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2738.58 12.856 2533.772
@@ -134,7 +132,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2719.992 13.336 2612.063
@@ -148,7 +145,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 3008.308 18.245 2220.386
@@ -162,7 +158,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 3005.172 20.378 2223.072
@@ -176,7 +171,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 3040.729 18.136 2069.629
@@ -190,7 +184,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2557.995 14.789 2298.705
@@ -204,7 +197,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2522.894 9.266 2443.619
@@ -218,7 +210,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2514.581 9.21 2401.563
@@ -232,7 +223,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2405.881 10.048 2343.688
@@ -246,7 +236,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 3081.737 20.997 2387.157
@@ -260,7 +249,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2708.707 11.979 2478.748
@@ -274,7 +262,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2647 15.599 2299.293
@@ -288,7 +275,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2628.439 12.517 2376.538
@@ -302,7 +288,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2564.053 10.615 2485.416
@@ -316,7 +301,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2675.344 15.895 2313.388
@@ -330,7 +314,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2649.137 13.218 2698.664
@@ -344,7 +327,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2458.856 8.935 2476.172
@@ -358,7 +340,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
      "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
     }
     m_noTurretDismount 1
-    m_idleGroup 1
    }
   }
   coords 2930.59 17.192 1868.973
