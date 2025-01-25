@@ -28,9 +28,21 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 2883.528 320.104 7911.924
 }
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{647302E49CCD6BE7}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 7
+     m_iStartingMinutes 30
+    }
+   }
+  }
+ }
  coords 2870.658 321.035 7910.861
  {
-  SCR_FactionManager {
+  SCR_FactionManager "647302E4E48E2F3A" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5CC8DE37E1FF0F7A}" {
