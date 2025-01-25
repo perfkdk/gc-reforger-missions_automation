@@ -1,9 +1,15 @@
 $grp GenericEntity {
  QRF_LOCATION1 {
-  coords 2556.53 92.396 5394.852
+  coords 2551.466 92.038 5379.368
+  angleX 1.456
+  angleY 112.454
+  angleZ 3.502
  }
  QRF_LOCATION2 {
-  coords 2560.373 88.411 5355.587
+  coords 2558.038 88.293 5355.325
+  angleX 3.195
+  angleY 64.053
+  angleZ 0.434
  }
 }
 Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
@@ -135,7 +141,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SpawnGroupInstruction "{6458B09859B2F050}" {
      m_executionDelay 315
      m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
-     m_locationName "QRF_LOCATION2"
+     m_locationName "QRF_LOCATION1"
      m_waypointNames {
       "AIWP_AttackObj"
      }
@@ -143,6 +149,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SpawnGroupInstruction "{6458DC5C71403BA1}" {
      m_executionDelay 325
      m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+     m_locationName "QRF_LOCATION1"
      m_waypointNames {
       "AIWP_AttackObj"
      }
@@ -155,6 +162,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_waypointNames {
       "AIWP_AttackObj"
      }
+     m_idleGroup 1
     }
    }
    m_condition TILW_LiteralTerm "{6458B09BDCC24965}" {
@@ -165,9 +173,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "FIA KIA"
    m_instructions {
     TILW_SendMessageInstruction "{6458B09B6E124F1E}" {
-     m_executionDelay 20
+     m_executionDelay 15
      m_messageTitle "FIA Forces Defeated"
      m_messageBody "Our guerillas have been routed!"
+    }
+    TILW_EndGameInstruction "{647359DA874AA595}" {
+     m_factionKey "USSR"
     }
    }
    m_condition TILW_LiteralTerm "{6458B09A976B5C4D}" {
@@ -217,6 +228,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{6458B09B331E1370}" {
    m_flagName "FIA_Players_Killed"
    m_factionKey "FIA"
+   m_casualtyRatio 0.8
   }
  }
 }
