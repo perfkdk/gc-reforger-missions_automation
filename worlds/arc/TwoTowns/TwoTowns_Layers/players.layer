@@ -24,6 +24,7 @@ $grp SCR_AIGroup : "{50405007E4967EEE}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/
   m_aUnitPrefabSlots {
    "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot_P.et" "{4C0C6E4DC8D5FB1E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliCrew_P.et" "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot_P.et" "{4C0C6E4DC8D5FB1E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliCrew_P.et"
   }
+  m_sCustomNameSet "Aircrew"
  }
 }
 $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/P/Group_USA_2020_RifleSquad_P.et" {
@@ -78,20 +79,6 @@ $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/
   m_sCustomNameSet "Reserves"
  }
 }
-$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
- M923A1_transport_covered1 {
-  coords 2781.807 324.06 7310.436
-  angleY 83.536
- }
- M923A1_transport_covered2 {
-  coords 2769.642 323.63 7305.525
-  angleY 87.926
- }
- M923A1_transport_covered3 {
-  coords 2753.836 323.062 7307.717
-  angleY 87.926
- }
-}
 SCR_AIGroup : "{F6AD06DE653481AC}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/P/Group_USA_2020_WeaponsSquad_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
@@ -103,10 +90,4 @@ SCR_AIGroup : "{F6AD06DE653481AC}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/P/Gro
  }
  coords 2771.552 323.773 7322.719
  angleY 176.798
-}
-Vehicle M1025_armed_M2HB_MDO_USAF2 : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
- coords 2796.182 324.659 7309.38
- angleX 1.171
- angleY 73.464
- angleZ 0.073
 }
