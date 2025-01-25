@@ -1,7 +1,3 @@
-SCR_EntityWaypoint AIWP_AttackObj : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et" {
- coords 3055.763 118.582 5213.862
- CompletionRadius 26.7
-}
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
  d1 {
   coords 3773.685 115.301 4975.468
@@ -27,4 +23,8 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   coords 3057.202 122.462 5218.865
   CompletionRadius 2
  }
+}
+SCR_TimedWaypoint AIWP_AttackObj : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ coords 3085.65 118.085 5214.533
+ CompletionRadius 26
 }

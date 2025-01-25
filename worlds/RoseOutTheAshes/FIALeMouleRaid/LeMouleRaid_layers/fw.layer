@@ -28,18 +28,17 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTr
  OBJ_Taken {
   coords 3076.97 111.502 5219.747
   m_queryRadius 75.9
-  m_sendStatusMessages 1
   m_flagName "OBJ_TAKEN"
   m_stopAfterFirstChange 1
   m_ownerFactionKey "FIA"
  }
- {
+ Sawmill_Taken {
   coords 3073.632 123.025 5221.166
   m_queryRadius 51.5
   m_captureIterations 102
   m_sendStatusMessages 1
-  m_locationName "The Sawmill"
-  m_flagName "Sawmill_Held"
+  m_locationName "the sawmill"
+  m_flagName "Sawmill_Taken"
   m_ownerFactionKey "FIA"
   m_ratioThreshold 0.1
  }
@@ -179,13 +178,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "OBJ HOLD"
    m_instructions {
     TILW_SendMessageInstruction "{6458B095EC9A7F90}" {
-     m_executionDelay 900
+     m_executionDelay 10
      m_messageTitle "Command Post Held"
      m_messageBody "Distracting action successful."
     }
    }
    m_condition TILW_LiteralTerm "{6458B0952F0C8360}" {
-    m_flagName "OBJ_TAKEN"
+    m_flagName "Sawmill_Taken"
    }
   }
   TILW_MissionEvent "{6458B09ABC05D187}" {
