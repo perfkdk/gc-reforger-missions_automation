@@ -49,295 +49,59 @@ PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupF
   }
  }
 }
-PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
- components {
-  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-   m_factionKeys {
-    "UK"
-   }
-  }
- }
- coords 4700 155.89 7400
- Points {
-  ShapePoint "{62D96554A6822E28}" {
-   Position 0 0 0
-  }
-  ShapePoint "{62D96554A708A0C8}" {
-   Position 0 0 800
-  }
-  ShapePoint "{62D96554A78E4A02}" {
-   Position 400 0 800
-  }
-  ShapePoint "{62D96554A5520D1E}" {
-   Position 400 0 0
-  }
- }
- LineColor 0 0 0 0
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  {
-  PolylineShapeEntity {
-   coords 50 0 500
-   Points {
-    ShapePoint "{62D96548D932EED1}" {
-     Position 0 0 0
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "UK"
     }
-    ShapePoint "{62D96548D932AF6C}" {
-     Position 300 0 0
-    }
-   }
-   LineColor 0 0 0 0
-   {
-    PrefabGeneratorEntity : "{6B59CE9ABF067E0A}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_OPFOR.et" {
-     coords 0 0 0
-     Flags 1048579
-     {
-      $grp PS_ManualMarker : "{5F773B024F23FD0F}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_OPFOR.et" {
-       {
-        coords 0 -28.234 0
-       }
-       {
-        coords 50 -29.796 0
-       }
-       {
-        coords 100 -32.702 0
-       }
-       {
-        coords 150 -28.765 0
-       }
-       {
-        coords 200 -27.515 0
-       }
-       {
-        coords 250 -30.484 0
-       }
-       {
-        coords 300 -39.14 0
-       }
-      }
-     }
-    }
+    m_visibility ALL
+    m_useFactionColor 0
    }
   }
-  PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
-   coords 0 0 0
-   Flags 1048579
-   {
-    $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
-     {
-      coords 0 2.069 0
-      angleY 0
-     }
-     {
-      coords 0 -4.229 50
-      angleY 0
-     }
-     {
-      coords 0 -10.452 100
-      angleY 0
-     }
-     {
-      coords 0 -15.336 150
-      angleY 0
-     }
-     {
-      coords 0 -17.516 200
-      angleY 0
-     }
-     {
-      coords 0 -19.937 250
-      angleY 0
-     }
-     {
-      coords 0 -22.934 300
-      angleY 0
-     }
-     {
-      coords 0 -24.867 350
-      angleY 0
-     }
-     {
-      coords 0 -26.858 400
-      angleY 0
-     }
-     {
-      coords 0 -30.028 450
-      angleY 0
-     }
-     {
-      coords 0 -28.373 500
-      angleY 0
-     }
-     {
-      coords 0 -28.853 550
-      angleY 0
-     }
-     {
-      coords 0 -30.861 600
-      angleY 0
-     }
-     {
-      coords 0 -29.004 650
-      angleY 0
-     }
-     {
-      coords 0 -28.826 700
-      angleY 0
-     }
-     {
-      coords 0 -36.689 750
-      angleY 0
-     }
-     {
-      coords 0 -42.338 800
-      angleY 0
-     }
-     {
-      coords 50 -44.56 800
-     }
-     {
-      coords 100 -48.196 800
-     }
-     {
-      coords 150 -52.775 800
-     }
-     {
-      coords 200 -58.308 800
-     }
-     {
-      coords 250 -64.434 800
-     }
-     {
-      coords 300 -69.979 800
-     }
-     {
-      coords 350 -77.555 800
-     }
-     {
-      coords 400 -89.973 800
-     }
-     {
-      coords 400 -88.291 750
-      angleY -180
-     }
-     {
-      coords 400 -80.778 700
-      angleY -180
-     }
-     {
-      coords 400 -73.169 650
-      angleY -180
-     }
-     {
-      coords 400 -66.24 600
-      angleY -180
-     }
-     {
-      coords 400 -58.713 550
-      angleY -180
-     }
-     {
-      coords 400 -50.908 500
-      angleY -180
-     }
-     {
-      coords 400 -41.411 450
-      angleY -180
-     }
-     {
-      coords 400 -30.763 400
-      angleY -180
-     }
-     {
-      coords 400 -22.265 350
-      angleY -180
-     }
-     {
-      coords 400 -22.813 300
-      angleY -180
-     }
-     {
-      coords 400 -23.009 250
-      angleY -180
-     }
-     {
-      coords 400 -19.733 200
-      angleY -180
-     }
-     {
-      coords 400 -16.553 150
-      angleY -180
-     }
-     {
-      coords 400 -12.588 100
-      angleY -180
-     }
-     {
-      coords 400 -8.645 50
-      angleY -180
-     }
-     {
-      coords 400 -4.873 0
-      angleY -180
-     }
-     {
-      coords 350 -4.45 0
-      angleY -90
-     }
-     {
-      coords 300 -2.86 0
-      angleY -90
-     }
-     {
-      coords 250 -0.805 0
-      angleY -90
-     }
-     {
-      coords 200 1.854 0
-      angleY -90
-     }
-     {
-      coords 150 2.641 0
-      angleY -90
-     }
-     {
-      coords 100 3.732 0
-      angleY -90
-     }
-     {
-      coords 50 1.398 0
-      angleY -90
-     }
-     {
-      coords 0 2.069 0
-      angleY -90
-     }
-    }
+  coords 4700 155.89 7400
+  Points {
+   ShapePoint "{62D96554A6822E28}" {
+    Position 0 0 0
+   }
+   ShapePoint "{62D96554A708A0C8}" {
+    Position 0 0 800
+   }
+   ShapePoint "{62D96554A78E4A02}" {
+    Position 400 0 800
+   }
+   ShapePoint "{62D96554A5520D1E}" {
+    Position 400 0 0
    }
   }
-  PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
-   components {
-    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-     m_factionKeys {
-      "USSR"
-     }
+  LineColor 0 0 0 0
+ }
+ {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "USSR"
     }
+    m_visibility ALL
    }
-   coords 0 0 500
-   Points {
-    ShapePoint "{62D96554A6822E28}" {
-     Position 0 0 0
-    }
-    ShapePoint "{62D96554A708A0C8}" {
-     Position 0 0 300
-    }
-    ShapePoint "{62D96554A78E4A02}" {
-     Position 400 0 300
-    }
-    ShapePoint "{62D96554A5520D1E}" {
-     Position 400 0 0
-    }
-   }
-   LineColor 0 0 0 0
   }
+  coords 4700 155.89 7900
+  Points {
+   ShapePoint "{62D96554A6822E28}" {
+    Position 0 0 0
+   }
+   ShapePoint "{62D96554A708A0C8}" {
+    Position 0 0 300
+   }
+   ShapePoint "{62D96554A78E4A02}" {
+    Position 400 0 300
+   }
+   ShapePoint "{62D96554A5520D1E}" {
+    Position 400 0 0
+   }
+  }
+  LineColor 0 0 0 0
  }
 }
 $grp PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Objective_Base.et" {
