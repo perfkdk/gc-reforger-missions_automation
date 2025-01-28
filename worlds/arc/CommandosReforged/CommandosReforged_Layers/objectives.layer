@@ -1,0 +1,109 @@
+$grp GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.et" {
+ OBJ4 {
+  components {
+   ActionsManagerComponent "{6476F693E0538118}" {
+    ActionContexts {
+     UserActionContext "{6476F693E14164C9}" {
+      ContextName "default"
+      Position PointInfo "{6476F693E3267B72}" {
+      }
+      Radius 1
+     }
+    }
+    additionalActions {
+     TILW_BaseInteraction "{6476F693F9A3AEFC}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{6476F693CDE2531E}" {
+       Name "Steal Manifest"
+      }
+      ActionTitle "Steal Manifest"
+      VisibilityRange 1
+      Duration 10
+      m_actionName "Steal Manifest"
+      m_factionKeys {
+       "RHS_USAF"
+      }
+      m_flagName "OBJ_4_DONE"
+     }
+    }
+   }
+  }
+  coords 1366.357 47.895 2961.921
+  angleY -33.363
+ }
+ OBJ3 {
+  components {
+   ActionsManagerComponent "{6476F693E0538118}" {
+    ActionContexts {
+     UserActionContext "{6476F693E14164C9}" {
+      ContextName "default"
+      Position PointInfo "{6476F693E3267B72}" {
+      }
+      Radius 1
+     }
+    }
+    additionalActions {
+     TILW_BaseInteraction "{6476F693F9A3AEFC}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{6476F693CDE2531E}" {
+       Name "Steal Research"
+      }
+      ActionTitle "Steal Research"
+      VisibilityRange 1
+      Duration 10
+      m_actionName "Steal Research"
+      m_factionKeys {
+       "RHS_USAF"
+      }
+      m_flagName "OBJ_3_DONE"
+     }
+    }
+   }
+  }
+  coords 1218.42 38.034 2574.564
+  angleY -33.363
+ }
+}
+Vehicle OBJ2 : "{715469795441056A}worlds/arc/CommandosReforged/Prefabs/OP/Ural4320_command_commandos_OBJ2.et" {
+ coords 1699.531 38.062 3008.994
+ angleY 37.078
+}
+Vehicle OBJ7 : "{7B2E1B3606BD2AAA}worlds/arc/CommandosReforged/Prefabs/OP/K4386_Armed_Commandos_OBJ7.et" {
+ coords 1012.358 38.027 2907.917
+ angleY -102.496
+}
+Vehicle OBJ1 : "{C5534EAA593596B6}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_61.et" {
+ components {
+  TILW_Flag_EntityDamage "{6476F69B680F64D0}" {
+   m_flagName "OBJ_1_KIA"
+  }
+ }
+ coords 1387.139 39.019 2248.839
+ angleY -65.325
+}
+$grp SCR_AIGroup : "{CB03012D8F709807}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VSR/Group_RHS_RF_MSV_VSR_Base.et" {
+ OBJ5 {
+  coords 1369.954 41.108 2355.746
+  m_aUnitPrefabSlots {
+   "{1FFDA82C5CC0BAFF}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_BASECOMMANDER.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "OBJ_5_WP"
+  }
+ }
+ OBJ6 {
+  coords 1251.379 37.469 2936.921
+  m_aUnitPrefabSlots {
+   "{3E3A4751F74A799D}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_SCIENTIST.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "OBJ_6_WP"
+  }
+ }
+}
