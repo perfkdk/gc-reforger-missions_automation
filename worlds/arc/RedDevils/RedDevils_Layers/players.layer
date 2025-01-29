@@ -1,0 +1,149 @@
+$grp SCR_AIGroup : "{6E5FAA403D1014FF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Group_UK_1983_REG_RifleSection_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{64794DC1073470F9}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2548.073 291.509 10691.072
+  angleY 65
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et"
+  }
+  m_sCustomNameSet "1 Plt 1 Section"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{64794DC103D8DAFD}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2550.557 291.289 10685.95
+  angleY 65
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et"
+  }
+  m_sCustomNameSet "1 Plt 2 Section"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{64794DC11E275934}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2553.733 291.101 10680.359
+  angleY 65
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et"
+  }
+  m_sCustomNameSet "1 Plt 3 Section"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{64794DC117BDDFD3}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2560.641 290.523 10665.771
+  angleY 65
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et"
+  }
+  m_sCustomNameSet "2 Plt 1 Section"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{64794DC113B9405D}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2563.106 290.284 10660.433
+  angleY 65
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et"
+  }
+  m_sCustomNameSet "2 Plt 2 Section"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{64794DC1EE0A69FD}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2566.168 290.226 10653.134
+  angleY 65
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{424CA17492F71AE8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et"
+  }
+  m_sCustomNameSet "2 Plt 3 Section"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{64794DC1375448B7}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 4
+   }
+  }
+  coords 3202.889 340.924 11011.458
+  angleY 65
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{F2AD932BE8353D9C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Sniper_P.et" "{D4719380E4AFAC87}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Spotter_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{F2AD932BE8353D9C}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Sniper_P.et" "{D4719380E4AFAC87}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Spotter_P.et"
+  }
+  m_sCustomNameSet "Attached Recce Section"
+ }
+}
+$grp SCR_AIGroup : "{F5284BF958E85D8B}Prefabs/Groups/BLUFOR/British Forces/1983/P/Group_UK_1983_REG_RiflePHQ_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{64794DC13BC1FC4A}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 2542.913 292.004 10702.326
+  angleY 65
+  m_aUnitPrefabSlots {
+   "{697C400DC0440D41}worlds/arc/RedDevils/Prefabs/Character_UK_1983_Regulars_CompanyCommander_P.et" "{8291B1D3382E0A3A}worlds/arc/RedDevils/Prefabs/Character_UK_1983_Regulars_Company2IC_P.et" "{482CFD384D798E2F}worlds/arc/RedDevils/Prefabs/Character_UK_1983_Regulars_CSM_P.et" "{7606DDBD58B74BA7}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_RTO_P.et" "{88ACC9B4B3FB7303}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Medic_P.et" "{88ACC9B4B3FB7303}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Medic_P.et"
+  }
+  m_sCustomNameSet "Company HQ"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{64794DC109A0F00A}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2545.696 291.764 10696.535
+  angleY 65
+  m_aUnitPrefabSlots {
+   "{B3DAF2C13E2E9709}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_PlatoonLeader_P.et" "{76F683600E23035A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Sergeant_P.et" "{7606DDBD58B74BA7}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_RTO_P.et" "{88ACC9B4B3FB7303}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Medic_P.et" "{88ACC9B4B3FB7303}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Medic_P.et"
+  }
+  m_sCustomNameSet "1 Platoon HQ"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{64794DC11AC462EC}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 2557.465 290.757 10672.156
+  angleY 65
+  m_aUnitPrefabSlots {
+   "{B3DAF2C13E2E9709}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_PlatoonLeader_P.et" "{76F683600E23035A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Sergeant_P.et" "{7606DDBD58B74BA7}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_RTO_P.et" "{88ACC9B4B3FB7303}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Medic_P.et" "{88ACC9B4B3FB7303}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Medic_P.et"
+  }
+  m_sCustomNameSet "2 Platoon HQ"
+ }
+}
