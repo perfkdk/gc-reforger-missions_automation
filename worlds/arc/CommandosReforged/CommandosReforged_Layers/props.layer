@@ -1,0 +1,110 @@
+GenericEntity : "{0DC4F830876C6671}Prefabs/Props/Furniture/Chair_02/Chair_02_green.et" {
+ coords 1218.384 37.13 2575.345
+ angleY -166.762
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 1391.372 36.208 2361.342
+ angleY -52.155
+}
+$grp SCR_DestructibleEntity : "{2DEFFC3B4DE1E33A}Prefabs/Structures/Walls/Net/NetFence_02/NetFence_02_2m.et" {
+ {
+  coords 1218.939 0.133 2577.533
+  angleY -13.012
+ }
+ {
+  coords 1220.857 0.133 2578.001
+  angleY -14.13
+ }
+ {
+  coords 1217.636 0.115 2577.211
+  angleY 166.055
+ }
+ {
+  coords 1215.701 0.135 2576.722
+  angleY 166.055
+ }
+}
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
+ coords 3279.651 2 2881.022
+ angleY -29.82
+}
+$grp GenericEntity : "{811C18BEC8B8B245}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_green.et" {
+ {
+  coords 1221.797 37.134 2575.192
+  angleY -13.657
+ }
+ {
+  coords 1221.255 37.134 2575.049
+  angleY -13.657
+ }
+ {
+  coords 1220.729 37.134 2574.912
+  angleY -13.657
+ }
+ {
+  coords 1214.963 37.134 2573.507
+  angleY -13.657
+ }
+ {
+  coords 1215.435 37.134 2573.615
+  angleY -13.657
+ }
+ {
+  coords 1215.907 37.14 2573.729
+  angleY -13.657
+ }
+}
+$grp GenericEntity : "{8554ED3F088BADA6}Prefabs/Items/Core/Wirecutters/wirecutters.et" {
+ {
+  coords 3279.428 2.805 2881.132
+  angleY 61.241
+ }
+ {
+  coords 3279.729 2.806 2881.075
+  angleY 61.241
+ }
+ {
+  coords 3279.578 2.805 2880.795
+  angleY 61.241
+ }
+}
+$grp GenericEntity : "{B9F8987A84B94738}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_03/LampStreet_E_03_addon.et" {
+ {
+  coords 1382.713 3.483 2634.908
+  angleX -21.097
+  angleY 76.118
+ }
+ {
+  coords 1384.202 3.425 2629.155
+  angleX -21.097
+  angleY 76.118
+ }
+ {
+  coords 1385.608 3.417 2623.337
+  angleX -21.097
+  angleY 76.118
+ }
+ {
+  coords 1422.24 3.611 2634.093
+  angleX -21.097
+  angleY 76.118
+ }
+ {
+  coords 1419.346 3.608 2645.663
+  angleX -21.097
+  angleY 76.118
+ }
+ {
+  coords 1420.834 3.572 2639.909
+  angleX -21.097
+  angleY 76.118
+ }
+}
+GenericEntity : "{D0D25CEDF887B717}Prefabs/Structures/BuildingParts/Doors/Door_NetFence_02_Small_RIGHT_EXT_ST_B.et" {
+ coords 1218.948 37.016 2577.541
+ angleY 165.816
+}
+StaticModelEntity : "{E42B34022A2FB4B2}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_08.et" {
+ coords 1218.36 37.134 2574.445
+ angleY -14.142
+}
