@@ -40,7 +40,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Phase 1: Kill the FIA commander."\
   "Phase 2: Locate and destroy the green weapon caches."\
-  "Phase 3: Move to the Exfil Point."\
+  "Phase 3: Move to the Extraction Point."\
   ""\
   ""\
   "B. Maneuver"\
@@ -74,8 +74,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 0 0 0
   m_sTitle "Notes"
   m_sTextData "- End conditions:"\
-  "  Victory: Commander Killed + Caches Destroyed + At Exfil Location"\
-  "  Defeat: All USSR forces killed"\
+  "  Victory: Commander Killed + Caches Destroyed + 75% extracted"\
+  "  Defeat: 90% of USSR forces killed"\
   "- Time: 06:30"\
   "- Weather: Cloudy"\
   "- Mission Maker: Til"\

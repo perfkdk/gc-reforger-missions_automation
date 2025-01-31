@@ -79,324 +79,55 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 3939.475 19.314 2390.095
 }
-PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
- components {
-  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-   m_factionKeys {
-    "RHS_AFRF"
-   }
-  }
- }
- coords 2900 17.838 2200
- Points {
-  ShapePoint "{6306F668AF670B09}" {
-   Position 0 0 0
-  }
-  ShapePoint "{6306F668AD799EA4}" {
-   Position 0 0 450
-  }
-  ShapePoint "{6306F668BADFBFA5}" {
-   Position 1200 0 550
-  }
-  ShapePoint "{6306F668978812FB}" {
-   Position 1200 0 100
-  }
- }
- LineColor 0 0 0 0
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  {
-  PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
-   coords 0 0 0
-   Flags 1048579
-   {
-    $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
-     {
-      coords 0 -0.682 0
-      angleY 0
-     }
-     {
-      coords 0 -0.275 50
-      angleY 0
-     }
-     {
-      coords 0 0.35 100
-      angleY 0
-     }
-     {
-      coords 0 0.756 150
-      angleY 0
-     }
-     {
-      coords 0 0.818 200
-      angleY 0
-     }
-     {
-      coords 0 0.256 250
-      angleY 0
-     }
-     {
-      coords 0 -0.244 300
-      angleY 0
-     }
-     {
-      coords 0 -0.432 350
-      angleY 0
-     }
-     {
-      coords 0 -0.15 400
-      angleY 0
-     }
-     {
-      coords 0 1.349 450
-      angleY 0
-     }
-     {
-      coords 49.827 3.159 454.152
-      angleY 85.236
-     }
-     {
-      coords 99.655 4.709 458.305
-      angleY 85.236
-     }
-     {
-      coords 149.482 4.6 462.457
-      angleY 85.236
-     }
-     {
-      coords 199.309 4.609 466.609
-      angleY 85.236
-     }
-     {
-      coords 249.137 4.518 470.761
-      angleY 85.236
-     }
-     {
-      coords 298.964 4.317 474.914
-      angleY 85.236
-     }
-     {
-      coords 348.791 4.205 479.066
-      angleY 85.236
-     }
-     {
-      coords 398.618 5.249 483.219
-      angleY 85.236
-     }
-     {
-      coords 448.446 5.068 487.371
-      angleY 85.236
-     }
-     {
-      coords 498.273 5.259 491.523
-      angleY 85.236
-     }
-     {
-      coords 548.1 5.256 495.675
-      angleY 85.236
-     }
-     {
-      coords 597.928 5.287 499.827
-      angleY 85.236
-     }
-     {
-      coords 647.755 5.412 503.98
-      angleY 85.236
-     }
-     {
-      coords 697.582 4.922 508.132
-      angleY 85.236
-     }
-     {
-      coords 747.409 5.264 512.284
-      angleY 85.236
-     }
-     {
-      coords 797.237 5.616 516.437
-      angleY 85.236
-     }
-     {
-      coords 847.064 5.436 520.589
-      angleY 85.236
-     }
-     {
-      coords 896.891 4.597 524.741
-      angleY 85.236
-     }
-     {
-      coords 946.718 4.151 528.894
-      angleY 85.236
-     }
-     {
-      coords 996.546 3.827 533.046
-      angleY 85.236
-     }
-     {
-      coords 1046.373 3.531 537.198
-      angleY 85.236
-     }
-     {
-      coords 1096.2 2.336 541.35
-      angleY 85.236
-     }
-     {
-      coords 1146.028 2.17 545.503
-      angleY 85.236
-     }
-     {
-      coords 1195.855 2.949 549.655
-      angleY 85.236
-     }
-     {
-      coords 1200 3.099 504.159
-      angleY -180
-     }
-     {
-      coords 1200 2.693 454.159
-      angleY -180
-     }
-     {
-      coords 1200 2.287 404.16
-      angleY -180
-     }
-     {
-      coords 1200 2.318 354.159
-      angleY -180
-     }
-     {
-      coords 1200 2.352 304.159
-      angleY -180
-     }
-     {
-      coords 1200 2.099 254.159
-      angleY -180
-     }
-     {
-      coords 1200 1.975 204.159
-      angleY -180
-     }
-     {
-      coords 1200 1.693 154.159
-      angleY -180
-     }
-     {
-      coords 1200 2.011 104.159
-      angleY -180
-     }
-     {
-      coords 1154.318 1.545 96.193
-      angleY -94.764
-     }
-     {
-      coords 1104.49 1.099 92.041
-      angleY -94.764
-     }
-     {
-      coords 1054.663 0.317 87.889
-      angleY -94.764
-     }
-     {
-      coords 1004.836 0.086 83.736
-      angleY -94.764
-     }
-     {
-      coords 955.009 1.084 79.584
-      angleY -94.764
-     }
-     {
-      coords 905.181 1.872 75.432
-      angleY -94.764
-     }
-     {
-      coords 855.354 2.328 71.28
-      angleY -94.764
-     }
-     {
-      coords 805.527 2.711 67.127
-      angleY -94.764
-     }
-     {
-      coords 755.7 2.692 62.975
-      angleY -94.764
-     }
-     {
-      coords 705.873 2.579 58.823
-      angleY -94.764
-     }
-     {
-      coords 656.045 2.266 54.67
-      angleY -94.764
-     }
-     {
-      coords 606.218 2.341 50.518
-      angleY -94.764
-     }
-     {
-      coords 556.391 0.52 46.366
-      angleY -94.764
-     }
-     {
-      coords 506.563 -0.037 42.214
-      angleY -94.764
-     }
-     {
-      coords 456.736 2.599 38.061
-      angleY -94.764
-     }
-     {
-      coords 406.909 2.534 33.909
-      angleY -94.764
-     }
-     {
-      coords 357.082 2.568 29.757
-      angleY -94.764
-     }
-     {
-      coords 307.254 2.588 25.604
-      angleY -94.764
-     }
-     {
-      coords 257.427 2.287 21.452
-      angleY -94.764
-     }
-     {
-      coords 207.6 1.665 17.3
-      angleY -94.764
-     }
-     {
-      coords 157.772 1.02 13.148
-      angleY -94.764
-     }
-     {
-      coords 107.945 0.381 8.995
-      angleY -94.764
-     }
-     {
-      coords 58.118 -0.26 4.843
-      angleY -94.764
-     }
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "RHS_AFRF"
     }
+    m_visibility ALL
    }
   }
-  PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
-   components {
-    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-     m_factionKeys {
-      "TF_CDF"
-     }
-    }
+  coords 2900 17.838 2200
+  Points {
+   ShapePoint "{6306F668AF670B09}" {
+    Position 0 0 0
    }
-   Points {
-    ShapePoint "{6306F668AF670B09}" {
-     Position 0 0 0
+   ShapePoint "{6306F668AD799EA4}" {
+    Position 0 0 450
+   }
+   ShapePoint "{6306F668BADFBFA5}" {
+    Position 1200 0 550
+   }
+   ShapePoint "{6306F668978812FB}" {
+    Position 1200 0 100
+   }
+  }
+  LineColor 0 0 0 0
+ }
+ {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "TF_CDF"
     }
-    ShapePoint "{6306F668AD799EA4}" {
-     Position 0 0 450
-    }
-    ShapePoint "{6306F668BADFBFA5}" {
-     Position 300 0 475
-    }
-    ShapePoint "{6306F668978812FB}" {
-     Position 300 0 25
-    }
+    m_visibility ALL
+   }
+  }
+  coords 2900 17.838 2200
+  Points {
+   ShapePoint "{6306F668AF670B09}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6306F668AD799EA4}" {
+    Position 0 0 450
+   }
+   ShapePoint "{6306F668BADFBFA5}" {
+    Position 300 0 475
+   }
+   ShapePoint "{6306F668978812FB}" {
+    Position 300 0 25
    }
   }
  }

@@ -73,7 +73,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Notes"
   m_sTextData "- The mission ends when:"\
   "  a) The harbor area is fully under US control"\
-  "  b) All US forces are dead"\
+  "  b) 90% US casualties"\
   "  c) Time limit is reached after 30m"\
   "- Time: 06:30"\
   "- Weather: Random"\
