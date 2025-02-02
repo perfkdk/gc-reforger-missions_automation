@@ -118,9 +118,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5361.532 72.497 5764.553
   m_sTitle "Mission"
-  m_sTextData "1 Platoon will seize the high ground of EntreDeux 057 070 NLT 0700 hrs in order shape the battle space in order to allow the battalion the begin their attack onto Montignac."\
-  ""\
-  "1 Platoon will seize the high ground of EntreDeux 057 070 NLT 0700 hrs in order shape the battle space in order to allow the battalion the begin their attack onto Montignac."
+  m_sTextData "1 Platoon will seize the high ground of EntreDeux 057 070 NLT 0700 hrs in order shape the battle space in order to allow the battalion the begin their attack onto Montignac."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 3
@@ -128,9 +126,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5369.781 74.084 5760.172
   m_sTitle "Execution"
-  m_aVisibleForFactions {
-   "1 Platoon will use the attached recce section to locate the enemy and wire obstacle positions. The wire obstacles can be avoided or breached with the attached engineer squad. Once breached" "1 platoon with assault and secure EntreDeux."
-  }
+  m_sTextData "1 Platoon will use the attached recce section to locate the enemy and wire obstacle positions. The wire obstacles can be avoided or breached with the attached engineer squad. Once breached 1 platoon will assault and secure EntreDeux."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 4
