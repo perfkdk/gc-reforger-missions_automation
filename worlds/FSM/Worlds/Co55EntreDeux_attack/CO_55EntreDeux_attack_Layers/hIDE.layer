@@ -24,7 +24,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 5
-   m_iStartingMinutes 35
+   m_iStartingMinutes 40
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{6460503045067C9A}" {
@@ -87,7 +87,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Situation"
   m_sTextData "1 Battalion has been assigned to secure Montignac. In order to capture it, Alpha company (Your company) has been assigned with secureing EntreDeux to the east. This will allow the battalion to secure Montignac."\
   ""\
-  "The time is 0535 with first light at 0555"
+  "The time is 0540 with first light at 0555"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
