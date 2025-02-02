@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{9260A54545934625}worlds/FSM/Prefabs/Props/Military/Sandbags/FSM_Sandbag_wall.et"
+ Name "{7A956FEB9CDB3EB7}Prefabs/Props/Military/Sandbags/FSM_Sandbag_Wall_long.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

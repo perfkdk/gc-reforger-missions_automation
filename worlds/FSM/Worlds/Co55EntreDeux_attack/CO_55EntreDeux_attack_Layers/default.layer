@@ -8,7 +8,7 @@ $grp GenericEntity : "{19DA1F395962511D}Prefabs/Vegetation/Cuttings/Pinus_sylves
   angleY 22.378
  }
 }
-$grp GenericEntity : "{2B2567B72352F86A}Prefabs/Compositions/Slotted/SlotFlatSmall/FSM_Bunker_S_US_01.et" {
+$grp GenericEntity : "{2B2567B72352F86A}worlds/FSM/Prefabs/Compositions/Slotted/SlotFlatSmall/FSM_Bunker_S_US_01.et" {
  {
   components {
    TILW_NavmeshRegenComponent "{645B6EB676FF4113}" {
@@ -1070,6 +1070,9 @@ $grp GenericEntity : "{9ED9DC6AF7936C13}Prefabs/Props/Military/Sandbags/Sandbag_
   }
  }
 }
+SCR_ChimeraCharacter : "{A4DD10C77172A21F}worlds/FSM/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/FSM_VSR_AAT.et" {
+ coords 5286.715 57.957 5795.417
+}
 $grp DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
  {
   coords 5648.442 -0.001 6746.751
@@ -1605,7 +1608,7 @@ GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bu
   }
  }
 }
-TracerProjectile : "{CC9A9C56478748FF}Prefabs/Weapons/Ammo/FSM_762x54_Tracer_Green_TRHUST_MEME.et" {
+TracerProjectile : "{CC9A9C56478748FF}worlds/FSM/Prefabs/Weapons/Ammo/FSM_762x54_Tracer_Green_TRHUST_MEME.et" {
  coords 5756.914 143.737 6615.038
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {

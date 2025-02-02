@@ -1,21 +1,17 @@
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
  D1 {
   coords 5795.15 205.465 6959.497
-  AIBehaviorTree "{1E81FF0F3EC49323}AI/BehaviorTrees/Chimera/Soldier/TILW_StaticAI.bt"
-  CompletionRadius 1.3
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D2 {
   coords 5792.223 205.465 6959.348
-  AIBehaviorTree "{1E81FF0F3EC49323}AI/BehaviorTrees/Chimera/Soldier/TILW_StaticAI.bt"
   CompletionRadius 1.3
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D3 {
   coords 5738.547 210.891 7002.026
-  AIBehaviorTree "{1E81FF0F3EC49323}AI/BehaviorTrees/Chimera/Soldier/TILW_StaticAI.bt"
   CompletionRadius 4.7
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D4 {
   coords 5793.09 136.08 6411.577
@@ -23,7 +19,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 12.893
   angleZ -128.506
   CompletionRadius 11.1
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D5 {
   coords 5381.896 79.667 6490.435
@@ -31,85 +27,85 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 12.893
   angleZ -128.506
   CompletionRadius 11.1
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D6 {
   coords 5733.778 144.342 6613.935
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D7 {
   coords 5726.208 144.757 6616.17
   angleY 178.139
   CompletionRadius 1.3
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D8 {
   coords 5743.847 144.615 6617.401
   angleY 178.139
   CompletionRadius 1.3
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D9 {
   coords 5647.189 132.967 6573.436
   angleY 178.139
   CompletionRadius 1.3
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D10 {
   coords 5640.56 132.896 6574.464
   angleY 178.139
   CompletionRadius 1.3
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D11 {
   coords 5638.724 132.748 6576.276
   angleY -83.382
   CompletionRadius 1.3
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D12 {
   coords 5641.268 133.795 6581.376
   angleY -83.382
   CompletionRadius 2.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D13 {
   coords 5652.437 132.966 6575.438
   angleY -83.382
   CompletionRadius 2.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D14 {
   coords 6023.121 155.132 6209.305
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D15 {
   coords 6019.92 155.171 6203.626
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D16 {
   coords 6005.058 155.435 6210.03
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D17 {
   coords 6004.505 156.062 6215.438
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D18 {
   coords 6013.206 155.675 6205.658
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D19 {
   coords 6003.336 155.873 6219.297
@@ -117,7 +113,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 178.022
   angleZ 1.909
   CompletionRadius 24.5
-  m_fPriorityLevel 1200
+  m_fPriorityLevel 420
  }
  D20 {
   coords 6009.39 141.424 6151.949
@@ -125,67 +121,67 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 178.64
   angleZ -2.33
   CompletionRadius 9.8
-  m_fPriorityLevel 1200
+  m_fPriorityLevel 420
  }
  D21 {
   coords 5752.572 126.354 6465.494
   angleY 178.139
   CompletionRadius 9.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D22 {
   coords 5763.691 198.279 6926.057
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D23 {
   coords 5761.872 198.463 6926.609
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D24 {
   coords 5661.004 197.399 6902.265
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D25 {
   coords 5745.715 201.326 6934.345
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D26 {
   coords 5729.042 200.516 6924.11
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D27 {
   coords 5750.825 201.053 6935.187
   angleY 178.139
   CompletionRadius 12.3
-  m_fPriorityLevel 1200
+  m_fPriorityLevel 420
  }
  D28 {
   coords 5530.204 140 6721.607
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D29 {
   coords 5542.518 141.62 6720.975
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D30 {
   coords 5538.101 141.028 6721.246
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D31 {
   coords 5585.81 131.587 6649.114
@@ -193,25 +189,25 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.641
   angleZ 5.548
   CompletionRadius 29.3
-  m_fPriorityLevel 1200
+  m_fPriorityLevel 420
  }
  D32 {
   coords 5517.284 129.843 6671.653
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D33 {
   coords 5517.853 127.546 6657.776
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D34 {
   coords 5505.984 139.626 6741.521
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D35 {
   coords 5516.209 138.484 6719.916
@@ -219,19 +215,19 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D36 {
   coords 5565.294 141.894 6709.059
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D37 {
   coords 5565.08 139.838 6698.101
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D38 {
   coords 5537.854 139.849 6715.302
@@ -239,7 +235,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 176.636
   angleZ 8.476
   CompletionRadius 47.9
-  m_fPriorityLevel 1200
+  m_fPriorityLevel 420
  }
  D39 {
   coords 5660.271 135.052 6598.646
@@ -247,13 +243,13 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.702
   angleZ 2.21
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D40 {
   coords 5633.619 132.711 6593.677
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D41 {
   coords 5606.271 155.126 6742.521
@@ -261,7 +257,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D42 {
   coords 5646.173 158.572 6746.855
@@ -269,7 +265,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D43 {
   coords 5634.899 157.898 6747.452
@@ -277,7 +273,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D44 {
   coords 5619.668 156.488 6746.498
@@ -285,7 +281,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D45 {
   coords 5806.448 165.221 6790.781
@@ -293,7 +289,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D46 {
   coords 5786.942 165.756 6784.671
@@ -301,7 +297,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D47 {
   coords 5812.396 166.04 6798.293
@@ -309,7 +305,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D48 {
   coords 5687.312 161.219 6745.804
@@ -317,7 +313,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D49 {
   coords 5710.928 163.148 6754.33
@@ -325,7 +321,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D50 {
   coords 5735.343 164.011 6759.708
@@ -333,7 +329,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D51 {
   coords 5724.212 163.12 6756.624
@@ -341,7 +337,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D52 {
   coords 5861.877 143.838 6612.389
@@ -349,7 +345,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 15.7
-  m_fPriorityLevel 900
+  m_fPriorityLevel 420
  }
  D53 {
   coords 6277.152 164.228 6466.848
@@ -357,7 +353,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 13
-  m_fPriorityLevel 900
+  m_fPriorityLevel 420
  }
  D54 {
   coords 6188.13 164.608 6387.687
@@ -365,7 +361,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D55 {
   coords 6188.861 164.546 6386.598
@@ -373,7 +369,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.5
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D56 {
   coords 6171.061 165.313 6402.624
@@ -381,7 +377,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D57 {
   coords 6206.808 163.135 6371.541
@@ -389,7 +385,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D58 {
   coords 6197.882 164.436 6389.902
@@ -397,7 +393,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 17.3
-  m_fPriorityLevel 900
+  m_fPriorityLevel 420
  }
  D59 {
   coords 5905.79 163.618 6796.539
@@ -405,7 +401,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D60 {
   coords 5879.646 165.779 6801.325
@@ -413,7 +409,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D61 {
   coords 5882.699 165.918 6801.747
@@ -421,7 +417,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D62 {
   coords 5867.817 161.958 6788.324
@@ -429,7 +425,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D63 {
   coords 5890.846 166.647 6807.082
@@ -437,7 +433,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D64 {
   coords 5861.985 159.311 6778.503
@@ -445,7 +441,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D65 {
   coords 6127.981 167.006 6436.687
@@ -453,7 +449,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D66 {
   coords 6117.896 166.731 6442.484
@@ -461,7 +457,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 157.053
   angleZ -35.332
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D67 {
   coords 6123.777 167.168 6438.663
@@ -469,7 +465,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D68 {
   coords 6050.318 161.668 6450.82
@@ -477,7 +473,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D69 {
   coords 6070.4 163.24 6456.249
@@ -485,7 +481,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D70 {
   coords 6029.124 158.716 6437.75
@@ -493,7 +489,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D71 {
   coords 6006.994 155.739 6421.869
@@ -501,7 +497,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D72 {
   coords 5967.997 149.256 6402.21
@@ -509,7 +505,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 17.7
-  m_fPriorityLevel 800
+  m_fPriorityLevel 420
  }
  D73 {
   coords 5914.104 143.174 6441.096
@@ -517,7 +513,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 23.6
-  m_fPriorityLevel 800
+  m_fPriorityLevel 420
  }
  D74 {
   coords 5706.459 199.005 6911.816
@@ -525,7 +521,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D75 {
   coords 5718.784 199.805 6918.108
@@ -533,7 +529,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D76 {
   coords 5714.449 199.519 6915.633
@@ -541,7 +537,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D77 {
   coords 5671.417 198.121 6905.302
@@ -549,7 +545,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D78 {
   coords 5675.174 198.583 6906.13
@@ -557,7 +553,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D79 {
   coords 5601.487 190.402 6882.708
@@ -565,7 +561,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D80 {
   coords 5606.879 191.029 6882.237
@@ -573,7 +569,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D81 {
   coords 5596.689 189.801 6882.553
@@ -581,7 +577,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D82 {
   coords 5323.095 144.09 6812.445
@@ -589,7 +585,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 176.532
   angleZ 9.262
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D83 {
   coords 5311.142 144.708 6820.05
@@ -597,7 +593,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 176.89
   angleZ 1.742
   CompletionRadius 33.2
-  m_fPriorityLevel 800
+  m_fPriorityLevel 420
  }
  D84 {
   coords 5431.285 170.818 6930.423
@@ -605,7 +601,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 21.1
-  m_fPriorityLevel 800
+  m_fPriorityLevel 420
  }
  D85 {
   coords 5982.699 181.196 6877.383
@@ -613,7 +609,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D86 {
   coords 5975.804 181.746 6881.774
@@ -621,7 +617,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D87 {
   coords 5972.525 182.078 6883.897
@@ -629,7 +625,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D88 {
   coords 5964.44 185.391 6901.751
@@ -637,7 +633,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D89 {
   coords 5954.735 185.293 6899.742
@@ -645,7 +641,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D90 {
   coords 5950.274 185.514 6898.592
@@ -653,7 +649,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D91 {
   coords 5935.837 182.084 6878.437
@@ -661,7 +657,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D92 {
   coords 5925.25 181.404 6875.087
@@ -669,7 +665,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D93 {
   coords 5920.59 181.852 6873.439
@@ -677,7 +673,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D94 {
   coords 6004.436 181.743 6844.729
@@ -685,7 +681,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D95 {
   coords 6003.214 181.766 6844.904
@@ -693,7 +689,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D96 {
   coords 5995.315 170.288 6812.19
@@ -701,7 +697,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D97 {
   coords 5985.528 170.033 6814.967
@@ -709,7 +705,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D98 {
   coords 5989.629 170.052 6814.087
@@ -717,7 +713,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D99 {
   coords 5981.039 170.123 6815.811
@@ -725,7 +721,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D100 {
   coords 6000.326 182.184 6847.693
@@ -733,7 +729,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D101 {
   coords 6008.689 176.09 6827.099
@@ -741,7 +737,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 15.3
-  m_fPriorityLevel 800
+  m_fPriorityLevel 420
  }
  D102 {
   coords 6003.311 182.204 6849.877
@@ -749,7 +745,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 12.7
-  m_fPriorityLevel 800
+  m_fPriorityLevel 420
  }
  D103 {
   coords 5955.041 208.253 7043.14
@@ -757,7 +753,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D104 {
   coords 5948.958 208.168 7041.069
@@ -765,7 +761,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D105 {
   coords 5596.028 198.967 6943.729
@@ -773,7 +769,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D106 {
   coords 5617.735 202.271 6953.376
@@ -781,7 +777,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D107 {
   coords 6129.105 167.221 6490.042
@@ -789,7 +785,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 157.053
   angleZ -35.332
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D108 {
   coords 6120.742 166.816 6483.325
@@ -797,7 +793,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 155.775
   angleZ 2.447
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D109 {
   coords 6168.531 167.475 6518.823
@@ -805,7 +801,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 157.053
   angleZ -35.332
   CompletionRadius 22.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D110 {
   coords 6242.19 165.353 6515.758
@@ -813,7 +809,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 157.053
   angleZ -35.332
   CompletionRadius 27.6
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D111 {
   coords 5638.782 158.065 6746.833
@@ -821,7 +817,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D112 {
   coords 5720.027 163.533 6755.967
@@ -829,7 +825,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D113 {
   coords 6109.42 166.605 6639.152
@@ -837,7 +833,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D114 {
   coords 6120.775 166.929 6646.451
@@ -845,7 +841,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D115 {
   coords 6116.298 166.776 6643.649
@@ -853,7 +849,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D116 {
   coords 6113.092 166.541 6641.43
@@ -861,7 +857,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D117 {
   coords 6191.871 171.867 6702.578
@@ -869,7 +865,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 0.7
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D118 {
   coords 6206.1 172.201 6703.148
@@ -877,7 +873,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D119 {
   coords 6201.11 172.206 6702.917
@@ -885,7 +881,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 0.7
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D120 {
   coords 6196.644 171.862 6702.795
@@ -893,7 +889,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 0.7
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D121 {
   coords 6177.457 175.993 6770.894
@@ -901,7 +897,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 0.7
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D122 {
   coords 6181.933 175.855 6769.645
@@ -909,7 +905,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 0.7
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D123 {
   coords 6174.196 175.858 6771.181
@@ -917,7 +913,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 0.7
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D124 {
   coords 6171.299 176.023 6772.085
@@ -925,7 +921,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 0.7
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D125 {
   coords 6168.778 176.082 6772.501
@@ -933,7 +929,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 0.7
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D126 {
   coords 5862.584 145.986 6680.86
@@ -941,7 +937,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 175.717
   angleZ -1.515
   CompletionRadius 27.7
-  m_fPriorityLevel 500
+  m_fPriorityLevel 420
  }
  D127 {
   coords 5900.976 150.803 6715.026
@@ -949,7 +945,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 175.717
   angleZ -1.515
   CompletionRadius 27.7
-  m_fPriorityLevel 500
+  m_fPriorityLevel 420
  }
  D128 {
   coords 5930.557 153.98 6745.272
@@ -957,7 +953,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 175.717
   angleZ -1.515
   CompletionRadius 27.7
-  m_fPriorityLevel 500
+  m_fPriorityLevel 420
  }
  D129 {
   coords 5677.598 215.32 7033.141
@@ -965,7 +961,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D130 {
   coords 5676.294 215.305 7033.157
@@ -973,7 +969,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D131 {
   coords 5669.473 215.717 7041.155
@@ -981,7 +977,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D132 {
   coords 5660.549 215.447 7041.506
@@ -989,7 +985,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D133 {
   coords 5643.368 213.979 7035.105
@@ -997,7 +993,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D134 {
   coords 5637.62 213.18 7031.95
@@ -1005,7 +1001,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D135 {
   coords 5604.114 208.33 7040.345
@@ -1013,7 +1009,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D136 {
   coords 5630.864 214.248 7062.981
@@ -1021,7 +1017,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY -86.481
   angleZ -2.624
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D137 {
   coords 5613.895 212.85 7082.222
@@ -1029,7 +1025,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D138 {
   coords 5616.924 211.334 7041.284
@@ -1037,7 +1033,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D139 {
   coords 5615.928 211.308 7042.162
@@ -1045,7 +1041,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D140 {
   coords 5676.241 218.749 7058.149
@@ -1053,7 +1049,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D141 {
   coords 5697.285 220.738 7102.549
@@ -1061,7 +1057,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D142 {
   coords 5816.501 216.813 7077.249
@@ -1069,7 +1065,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D143 {
   coords 5718.164 219.039 7061.42
@@ -1077,7 +1073,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D144 {
   coords 5791.483 213.613 7025.07
@@ -1085,7 +1081,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D145 {
   coords 5793.203 217.692 7092.265
@@ -1093,7 +1089,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D146 {
   coords 5860.191 214.862 7051.901
@@ -1101,7 +1097,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 3.6
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D147 {
   coords 5143.408 166.297 6893.213
@@ -1109,7 +1105,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D148 {
   coords 5174.093 169.093 6932.5
@@ -1117,7 +1113,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D149 {
   coords 5045.772 175.091 6949.153
@@ -1125,7 +1121,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D150 {
   coords 4896.674 164.493 6896.706
@@ -1133,7 +1129,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D151 {
   coords 5555.238 159.224 6809.923
@@ -1141,7 +1137,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D152 {
   coords 5425.445 125.798 6713.409
@@ -1149,7 +1145,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D153 {
   coords 5960.042 185.332 6901.01
@@ -1157,7 +1153,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D154 {
   coords 5930.949 181.745 6877.051
@@ -1165,7 +1161,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D155 {
   coords 5979.517 181.448 6879.681
@@ -1173,7 +1169,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D156 {
   coords 5889.089 176.945 6844.29
@@ -1181,13 +1177,13 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 3.6
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D157 {
   coords 5756.039 217.353 7056.123
   angleY -83.382
   CompletionRadius 22.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D158 {
   coords 5716.035 163.499 6755.217
@@ -1195,7 +1191,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D159 {
   coords 5642.432 158.357 6746.922
@@ -1203,7 +1199,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D160 {
   coords 5533.841 140.354 6721.334
@@ -1211,31 +1207,31 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.372
   angleZ 5.664
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D161 {
   coords 5586.483 134.288 6662.413
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D162 {
   coords 5590.647 133.821 6660.133
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D163 {
   coords 5595 133.891 6658.168
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D164 {
   coords 5598.199 133.975 6656.417
   angleY 178.139
   CompletionRadius 1.8
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D165 {
   coords 5281.851 174.489 7051.63
@@ -1243,7 +1239,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 11
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D166 {
   coords 5331.003 175.876 7021.354
@@ -1251,7 +1247,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D167 {
   coords 5328.648 175.339 7015.868
@@ -1259,7 +1255,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D168 {
   coords 5480.754 173.903 6932.602
@@ -1267,7 +1263,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D169 {
   coords 5499.485 176.247 6932.636
@@ -1275,7 +1271,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D170 {
   coords 5767.303 228.037 7304.816
@@ -1283,7 +1279,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D171 {
   coords 5762.469 227.456 7308.562
@@ -1291,7 +1287,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D172 {
   coords 5636.105 217.023 7179.164
@@ -1299,7 +1295,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D173 {
   coords 5640.675 216.969 7179.345
@@ -1307,7 +1303,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D174 {
   coords 6056.444 202.085 6988.178
@@ -1315,7 +1311,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D175 {
   coords 6068.95 201.223 6981.744
@@ -1323,7 +1319,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D176 {
   coords 5980.665 207.201 7025.285
@@ -1331,7 +1327,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D177 {
   coords 5978.439 207.371 7025.858
@@ -1339,7 +1335,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D178 {
   coords 5858.865 199.269 6944.49
@@ -1347,7 +1343,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D179 {
   coords 5861.179 199.436 6945.823
@@ -1355,7 +1351,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D180 {
   coords 6010.173 155.688 6208.798
@@ -1363,7 +1359,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D181 {
   coords 5928.148 220.396 7100.867
@@ -1371,7 +1367,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D182 {
   coords 5929.278 220.379 7101.484
@@ -1379,7 +1375,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D183 {
   coords 5923.926 220.406 7101.462
@@ -1387,7 +1383,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D184 {
   coords 5930.026 221.049 7107.063
@@ -1395,7 +1391,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D185 {
   coords 5866.383 224.516 7146.369
@@ -1403,7 +1399,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D186 {
   coords 5864.939 224.447 7146.217
@@ -1411,7 +1407,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D187 {
   coords 5895.929 160.798 6787.65
@@ -1419,7 +1415,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.223
   angleZ -3.05
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D188 {
   coords 5894.905 160.844 6786.984
@@ -1427,7 +1423,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D189 {
   coords 5890.742 160.497 6787.842
@@ -1435,7 +1431,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D190 {
   coords 5896.623 161.76 6792.352
@@ -1443,7 +1439,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D191 {
   coords 5909.793 172.403 6828.25
@@ -1451,7 +1447,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D192 {
   coords 5916.369 170.453 6821.764
@@ -1459,7 +1455,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D193 {
   coords 5922.992 167.983 6812.578
@@ -1467,7 +1463,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D194 {
   coords 5660.38 196.337 6893.542
@@ -1475,7 +1471,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D195 {
   coords 5666.945 197.776 6903.961
@@ -1483,7 +1479,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D196 {
   coords 5604.23 190.534 6881.869
@@ -1491,7 +1487,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D197 {
   coords 5710.392 199.297 6913.748
@@ -1499,7 +1495,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D198 {
   coords 5640.042 136.264 6578.843
@@ -1507,7 +1503,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D199 {
   coords 5641.922 136.264 6586.28
@@ -1515,7 +1511,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D200 {
   coords 6268.032 167.45 6469.917
@@ -1523,7 +1519,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D201 {
   coords 6281.036 167.495 6465.046
@@ -1531,7 +1527,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D202 {
   coords 5675.314 218.449 7171.333
@@ -1539,7 +1535,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D203 {
   coords 5718.696 220.114 7087.547
@@ -1547,7 +1543,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D204 {
   coords 5742.755 217.876 7043.821
@@ -1555,7 +1551,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D205 {
   coords 5768.302 218.178 7092.367
@@ -1563,7 +1559,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D206 {
   coords 5774.052 218.178 7090.231
@@ -1571,7 +1567,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D207 {
   coords 5776.442 208.819 6986.018
@@ -1579,7 +1575,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
  D208 {
   coords 5752.202 213.326 7018.482
@@ -1587,7 +1583,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY 177.304
   angleZ -0.767
   CompletionRadius 0.4
-  m_fPriorityLevel 1800
+  m_fPriorityLevel 420
  }
 }
 $grp SCR_AIGroup : "{CB03012D8F709807}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VSR/Group_RHS_RF_MSV_VSR_Base.et" {

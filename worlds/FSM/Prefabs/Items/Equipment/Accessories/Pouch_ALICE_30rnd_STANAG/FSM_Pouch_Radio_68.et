@@ -10,20 +10,15 @@ GenericEntity : "{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALI
      StoragePurpose 65
      UseVirtualInventoryReplication 0
      InitialStorageSlots {
-      RHS_MorphedEquipmentStorageSlot GrenadeSlotLeft {
+      SCR_EquipmentStorageSlot GrenadeSlotLeft {
        Offset 0 0 0
        Angles 0 0 0
        MergePhysics 1
-       ChildPivotID "snap_weapon"
        DisablePhysicsInteraction 1
        DeactivatePhysicsOnAtaching 1
        AllowedItemTypes {
         "RADIO"
        }
-       m_aCompatibleItemTypes {
-        "RADIO"
-       }
-       m_sMorphStateName "key"
       }
      }
     }
@@ -34,5 +29,5 @@ GenericEntity : "{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALI
    ItemModel "{BB7ED4FDC5D8C0BE}Assets/Items/Equipment/Radios/Radio_ANPRC68/Radio_ANPRC68_01_Pouch.xob"
   }
  }
- coords 5405.755 80.401 5789.855
+ coords 5334.992 70.129 5774.656
 }
