@@ -34,6 +34,7 @@ StaticModelEntity : "{885E76819956A5CE}Prefabs/Structures/Military/Fortification
 Tank M113_base1 : "{F43F9F04A97FC994}Prefabs/Vehicles/Tracked/M113/M113_base.et" {
  components {
   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   Enabled 1
    m_bIsLocked 1
    m_lockPilot 1
    m_lockTurret 1

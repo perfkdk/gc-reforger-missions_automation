@@ -5,6 +5,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 6379.586 159.257 6453.858
+ m_iFreezeTime 120
 }
 PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {
  coords 5389.688 86.644 6432.526
@@ -43,9 +44,10 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTr
  blufor_trigger {
   coords 5915.989 148.468 6331.972
   m_queryRadius 30
-  m_queryPeriod 60
-  m_captureIterations 5
+  m_queryPeriod 30
+  m_captureIterations 10
   m_sendStatusMessages 1
+  m_locationName "the abandoned vehicle"
   m_flagName "FLAG_BLUFOR_CAPTURED"
   m_playersOnly 1
   m_ownerFactionKey "UK"
@@ -53,9 +55,10 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTr
  opfor_trigger {
   coords 5917.214 148.461 6332.738
   m_queryRadius 30
-  m_queryPeriod 60
-  m_captureIterations 5
+  m_queryPeriod 30
+  m_captureIterations 10
   m_sendStatusMessages 1
+  m_locationName "the abandoned vehicle"
   m_flagName "FLAG_OPFOR_CAPTURED"
   m_playersOnly 1
   m_ownerFactionKey "USSR"
@@ -70,18 +73,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{647D2D14D8D6A854}" {
      m_messageTitle "UK has seized the vehicle!"
      m_messageBody "UK has seized the vehicle!"
-     m_factionKeys {
-      "UK" "USSR"
-     }
     }
     TILW_EndGameInstruction "{647D2D1660DE1C10}" {
      m_executionDelay 20
      m_factionKey "UK"
-    }
-    TILW_EndGameInstruction "{647D2D1679343489}" {
-     m_executionDelay 20
-     m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "USSR"
     }
    }
    m_condition TILW_LiteralTerm "{647D2D1704270D01}" {
@@ -94,18 +89,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{647D2D176E462F00}" {
      m_messageTitle "USSR has seized the vehicle!"
      m_messageBody "USSR has seized the vehicle!"
-     m_factionKeys {
-      "UK" "USSR"
-     }
     }
     TILW_EndGameInstruction "{647D2D16149749FC}" {
      m_executionDelay 20
      m_factionKey "USSR"
-    }
-    TILW_EndGameInstruction "{647D2D1668660E5E}" {
-     m_executionDelay 20
-     m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "UK"
     }
    }
    m_condition TILW_LiteralTerm "{647D2D1716B955B8}" {
@@ -126,11 +113,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 20
      m_factionKey "UK"
     }
-    TILW_EndGameInstruction "{647D2D160FFBE56B}" {
-     m_executionDelay 20
-     m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "USSR"
-    }
    }
    m_condition TILW_LiteralTerm "{647D2D17804875B8}" {
     m_flagName "FLAG_OPFOR_DEAD"
@@ -142,18 +124,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{647D2D17F7891DEC}" {
      m_messageTitle "UK are KIA!"
      m_messageBody "UK are KIA!"
-     m_factionKeys {
-      "UK" "USSR"
-     }
     }
     TILW_EndGameInstruction "{647D2D17CBC2491D}" {
      m_executionDelay 20
      m_factionKey "USSR"
-    }
-    TILW_EndGameInstruction "{647D2D1624E344B9}" {
-     m_executionDelay 20
-     m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "UK"
     }
    }
    m_condition TILW_LiteralTerm "{647D2D17999D5051}" {
@@ -167,19 +141,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 1800
      m_messageTitle "Time limit reached!"
      m_messageBody "Time limit reached!"
-     m_factionKeys {
-      "UK" "USSR"
-     }
     }
     TILW_EndGameInstruction "{647D2D168B9E7571}" {
      m_executionDelay 1820
      m_gameOverType EDITOR_FACTION_NEUTRAL
-     m_factionKey "UK"
-    }
-    TILW_EndGameInstruction "{647D2D169A360326}" {
-     m_executionDelay 1820
-     m_gameOverType EDITOR_FACTION_NEUTRAL
-     m_factionKey "USSR"
     }
    }
    m_condition TILW_LiteralTerm "{647D2D16E5B6D4BA}" {
@@ -196,6 +161,14 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_flagName "FLAG_OPFOR_DEAD"
    m_factionKey "USSR"
   }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ BluforSetupZone {
+  coords 6179.738 97.044 5716.532
+ }
+ OpforSetupZone {
+  coords 5391.213 87.447 6407.583
  }
 }
 PS_ManualMarker MarkerOBJ : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
