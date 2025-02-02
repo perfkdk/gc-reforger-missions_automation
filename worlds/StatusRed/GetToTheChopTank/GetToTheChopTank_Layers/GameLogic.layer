@@ -105,9 +105,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{647D2D17EE2D2CFA}" {
      m_messageTitle "USSR are KIA!"
      m_messageBody "USSR are KIA!"
-     m_factionKeys {
-      "UK" "USSR"
-     }
     }
     TILW_EndGameInstruction "{647D2D1635C54973}" {
      m_executionDelay 20
