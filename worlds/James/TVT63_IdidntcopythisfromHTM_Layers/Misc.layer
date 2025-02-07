@@ -1,0 +1,161 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 5075.074 477.196 15036.324
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5055.979 476.091 15148.161
+ scale 2
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 10
+   m_iStartingMinutes 15
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{648E4773E50DB43F}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingHour 10
+     m_iStartingMinutes 15
+    }
+   }
+   m_iSetDay 17
+   m_iSetMonth 2
+   m_iSetYear 1994
+  }
+ }
+ coords 5103.892 476.286 15062.746
+ {
+  RadioManagerEntity {
+   ID "5ED9088735FF2DEE"
+  }
+  SCR_FactionManager "648E5A614DD6F9A7" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
+      m_sCallsignGroupFormat ""
+      m_sCallsignCharacterFormat ""
+      m_sCallsignCharacterWithRoleFormat ""
+     }
+    }
+    SCR_Faction "{61500924662B6062}" {
+     m_bIsPlayable 1
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D13759D8}" {
+        m_sCallsign "A"
+       }
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+        m_sCallsign "B"
+       }
+      }
+      m_sCallsignGroupFormat ""
+      m_sCallsignCharacterFormat ""
+      m_sCallsignCharacterWithRoleFormat ""
+     }
+    }
+   }
+  }
+  ItemPreviewManagerEntity "648E5A614DD6F9BD" {
+   ID "5ED9088735FF2DD5"
+  }
+  SCR_EditorSettingsEntity {
+   ID "61B4E967E6C20362"
+  }
+ }
+}
+PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {
+ coords 4966.388 474.157 15139.879
+ angleY 0
+}
+$grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
+ {
+  coords 6503.56 465.042 15012.232
+ }
+ {
+  coords 6098.61 392.959 15052.733
+  angleY 90
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_bVisibleForEmptyFaction 0
+  m_bShowForAnyFaction 0
+ }
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ coords 5493.955 479.081 15080.833
+ Points {
+  ShapePoint "{648E5A72F7579999}" {
+   Position -757.191 3.46 277.852
+  }
+  ShapePoint "{648E5A72F8C4F75C}" {
+   Position -794.679 -17.971 -163.522
+  }
+  ShapePoint "{648E5A72F9A07795}" {
+   Position 1078.373 -31.581 -399.675
+  }
+  ShapePoint "{648E5A72FA0A4A71}" {
+   Position 1225.026 -1.742 279.167
+  }
+ }
+}
+TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+ coords 4958.325 487.06 15134.406
+ m_queryRadius 67
+ m_flagName "OBJ_A_TAKEN"
+ m_stopAfterFirstChange 1
+ m_ownerFactionKey "UK"
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 4894.635 476.66 15027.903
+ m_missionEvents {
+  TILW_MissionEvent "{648E5A70281B043F}" {
+   m_name "UK KIA"
+   m_instructions {
+    TILW_EndGameInstruction "{648E5A7002C35C5B}" {
+     m_executionDelay 20
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "UK"
+    }
+    TILW_SendMessageInstruction "{648E5A7017C1BB6A}" {
+     m_executionDelay 1
+     m_messageTitle "UK Killed"
+     m_messageBody "British forces have been killed, USSR forces win."
+    }
+   }
+   m_condition TILW_LiteralTerm "{648E5A739AA0D3AB}" {
+    m_flagName "UK_Killed"
+   }
+  }
+  TILW_MissionEvent "{648E5A73EEAB8417}" {
+   m_name "RU KIA"
+   m_instructions {
+    TILW_EndGameInstruction "{648E5A73FCF48E6D}" {
+     m_executionDelay 20
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "USSR"
+    }
+    TILW_SendMessageInstruction "{648E5A73FD29CF09}" {
+     m_executionDelay 1
+     m_messageTitle "RU Killed"
+     m_messageBody "USSR force have been killed, British forces win."
+    }
+   }
+   m_condition TILW_LiteralTerm "{648E5A73335D0EAC}" {
+    m_flagName "RU_Killed"
+   }
+  }
+ }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{648E5A70A979C16A}" {
+   m_flagName "UK_Killed"
+   m_factionKey "UK"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{648E5A7099B9D567}" {
+   m_flagName "RU_Killed"
+   m_factionKey "USSR"
+   m_casualtyRatio 0.9
+  }
+ }
+}
