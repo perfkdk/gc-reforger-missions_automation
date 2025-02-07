@@ -1,0 +1,53 @@
+GenericEntity : "{19FB1D72047164B5}worlds/FSM/Prefabs/Items/Equipment/Backpacks/FSM_Backpack_ALICE_Medium_assembled_Backup1.et" {
+ coords 2302.294 16.232 3755.68
+}
+GenericEntity : "{2EA9A9666062B1DC}worlds/FSM/Prefabs/Props/Military/Sandbags/FSM_Sandbag_01_single_plastic.et" {
+ coords 2330.148 17.268 3752.653
+}
+GenericEntity : "{3EDECB761DA2C9C5}worlds/FSM/Prefabs/Vegetation/Cuttings/FSM_Placeable_pendula_pendula.et" {
+ coords 2336.574 17.52 3745.925
+}
+GameEntity : "{4B799DDBF2CDF294}Prefabs/Items/Equipment/Patches/Patch_Cat_Blue.et" {
+ coords 3579.957 26.66 3459.71
+}
+$grp GenericEntity : "{8213934ACEDE1EFD}worlds/FSM/Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FSM_Fortifications_Box.et" {
+ {
+  coords 2322.97 16.715 3720.761
+ }
+ {
+  coords 2319.416 16.522 3713.808
+ }
+}
+GenericEntity : "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" {
+ coords 3582.476 26.032 3490.756
+ angleX 1.207
+ angleY 43.668
+ angleZ -2.55
+}
+GenericEntity : "{A1965DC2FA076DBF}worlds/FSM/Prefabs/Vegetation/Cuttings/FSM_Placeable_abies_bush.et" {
+ coords 2327.419 17.086 3746.672
+}
+GenericEntity : "{C531D8E30810BDBB}worlds/FSM/Prefabs/Vegetation/Cuttings/FSM_Placeable_Malus_domestica.et" {
+ coords 2334.009 17.346 3746.125
+}
+GameEntity : "{CAFC3C48F7E009C3}Prefabs/Items/Equipment/Patches/Patch_ION_Black.et" {
+ coords 3579.937 25.696 3459.45
+}
+GenericEntity : "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et" {
+ coords 3592.427 25.75 3458.784
+}
+GenericEntity : "{D3901CE855D0478B}worlds/FSM/Prefabs/Items/Equipment/Accessories/ETool_ALICE/FSM_ETool_ALICE_FreeRoamBuilding_Gadget.et" {
+ coords 2324.84 17.304 3767.791
+}
+GenericEntity : "{D43EB554D378239B}worlds/FSM/Prefabs/Vegetation/Cuttings/FSM_Placeable_Pinus_sylvestris_medium_01.et" {
+ coords 2339.933 17.886 3745.804
+}
+GenericEntity : "{DD17F163A4E2CBA6}worlds/FSM/Prefabs/Vegetation/Cuttings/FSM_Placeable_Juniperus_Communis.et" {
+ coords 2330.669 17.198 3746.679
+}
+GenericEntity : "{FC7991F4FC49FC34}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762_3rd_1rd_tracer.et" {
+ coords 3592.789 25.816 3460.051
+ angleX 2.25
+ angleY 72
+ angleZ 0
+}
