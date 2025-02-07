@@ -6,6 +6,10 @@ $grp SCR_AIGroup : "{870783CDCE09CCD9}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airbo
    }
   }
   coords 5110.717 478.223 15136.58
+  m_aUnitPrefabSlots {
+   "{A8507C7BBAF64A71}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SL_KLMK.et" "{9A12B3F6ABDF70BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AT_KLMK.et" "{E8EF64F8B943A507}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AAT_KLMK.et" "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et" "{862E3B66D0316F0A}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AR_KLMK.et" "{B056E800F6286831}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sharpshooter_KLMK.et"
+  }
+  m_bPlayable 1
   m_sCustomNameSet "111"
   m_bSetPlayable 1
  }
@@ -16,6 +20,10 @@ $grp SCR_AIGroup : "{870783CDCE09CCD9}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airbo
    }
   }
   coords 5116.204 478.634 15097.658
+  m_aUnitPrefabSlots {
+   "{A8507C7BBAF64A71}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SL_KLMK.et" "{9A12B3F6ABDF70BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AT_KLMK.et" "{E8EF64F8B943A507}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AAT_KLMK.et" "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et" "{8A60AEBD529FEB8B}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_MG_KLMK.et" "{F89D79B340033E32}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AMG_KLMK.et"
+  }
+  m_bPlayable 1
   m_sCustomNameSet "112"
   m_bSetPlayable 1
  }
@@ -26,6 +34,10 @@ $grp SCR_AIGroup : "{870783CDCE09CCD9}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airbo
    }
   }
   coords 5120.624 477.987 15073.29
+  m_aUnitPrefabSlots {
+   "{A8507C7BBAF64A71}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SL_KLMK.et" "{9A12B3F6ABDF70BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AT_KLMK.et" "{E8EF64F8B943A507}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AAT_KLMK.et" "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et" "{862E3B66D0316F0A}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AR_KLMK.et" "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et"
+  }
+  m_bPlayable 1
   m_sCustomNameSet "113"
   m_bSetPlayable 1
  }
@@ -36,6 +48,7 @@ SCR_AIGroup : "{E1A0797669362096}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airborne_1
   }
  }
  coords 5089.103 476.374 15108.244
+ m_bPlayable 1
  m_sCustomNameSet "110"
  m_bSetPlayable 1
 }

@@ -3,10 +3,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5112.486 477.758 15085.259
   m_sTitle "Situation"
   m_sTextData "a. Enemy Forces:"\
-  "G2 indicates enemy consists of a VDV recce platoon in a defensive position around the village of Stary Yar. G2 has advised that they are equipped with small-arms such as AK-74s, RPKs, and RPGs. G2 believes they will dig in and put up a strong defence of the village."\
+  "G2 indicates enemy consists of a VDV recce platoon in a defensive position around the village of Stary Yar. G2 has advised that they are equipped with small-arms such as AK-74s, RPKs, RPGs, PKM and SVD. G2 believes they will dig in and put up a strong defence of the village."\
   ""\
   "b. Friendly Forces:"\
-  "Our platoon is located east of Stary Yar. We are reinforced by a GPMG section and a SF recce section. Coy HQ has issued an order to advance through the woods and secure Stary Yar. There are no known friendly forces to the immediate north or south. There are no reinforcements expected."\
+  "Our platoon is located east of Stary Yar. We are reinforced by a GPMG section and a SOF recce section. Coy HQ has issued an order to advance through the woods and secure Stary Yar. There are no known friendly forces to the immediate north or south. There are no reinforcements expected."\
   ""\
   "c. Terrain:"\
   "The terrain between our position and Stary Yar consists of wooded areas and patches of open fields. Elevation is relatively level across the AO. To the south is a rock cliff, and to the north is THE VOID."\
@@ -63,7 +63,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1 Section: Alpha"\
   "2 Section: Bravo"\
   "3 Section: Charlie"\
-  "GPMG SF: Golf"\
+  "GPMG: Golf"\
   "Recce: Romeo"
   m_aVisibleForFactions {
    "UK"
@@ -74,7 +74,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5101.126 474.051 14959.595
   m_sTitle "Situation"
   m_sTextData "a. Enemy Forces:"\
-  "G2 advises that a British platoon is forming up to our east. G2 has advised that they are equipped with small-arms such as L85s, L7s and M72s. G2 expects that they will attack our position at Stary Yar."\
+  "G2 advises that a reinforced British platoon is forming up to our east. They have been attached a GPMG section and a SOF recce element. G2 has advised that they are equipped with small-arms such as L85s, M16s, L7s and M72s. G2 expects that they will attack our position at Stary Yar."\
   ""\
   "b. Friendly Forces:"\
   "Our platoon is located at Stary Yar. Coy HQ has issued an order to defend and hold the village of Stary Yar. There are no known friendly forces to the immediate north or south. There are no reinforcements expected."\
@@ -121,7 +121,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 4
  }
  {
-  coords 5083.712 473.116 14928.626
+  coords 5083.712 473.116 15112.689
   m_sTitle "Notes"
   m_sTextData "Basic attack and defend"\
   ""\
@@ -129,10 +129,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "No time limit"\
   ""\
+  "Setup timer is 10 minutes"\
+  ""\
   "Capture zone activates when blufor controls it with no opfor"\
   ""\
-  "Casualty conditions apply at 90% for both sides"\
-  ""\
+  "Casualty conditions apply at 90% for Blufor"\
   ""\
   "GMs be smart and call it when it starts to suck for people, pls and ty"
   m_bEmptyFactionVisibility 1
