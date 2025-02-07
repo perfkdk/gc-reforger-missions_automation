@@ -97,17 +97,10 @@ PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupF
  coords 6530.514 465.042 15040.234
  m_fWorldSize 75
 }
-$grp SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneBase.et" {
- {
-  coords 5089.159 483.144 15083.956
-  m_fWarnRadius 900
-  m_fZoneRadius 1000
- }
- {
-  coords 6544.755 464.862 15039.933
-  m_fWarnRadius 150
-  m_fZoneRadius 200
- }
+SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneBase.et" {
+ coords 6544.755 464.862 15039.933
+ m_fWarnRadius 150
+ m_fZoneRadius 200
 }
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  {
