@@ -40,6 +40,7 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
    WeaponSlotIndex 0
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
    WeaponSlotIndex 1
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -131,5 +132,5 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 5238.937 59.296 5861.091
+ coords 5359.623 71.423 5801.299
 }

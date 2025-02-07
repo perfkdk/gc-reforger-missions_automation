@@ -43,7 +43,7 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
      Prefab "{6C7FBE440984AB2C}worlds/FSM/Prefabs/Items/Equipment/Backpacks/FSM_Backpack_ALICE_Medium_assembled.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{9A3FE4F1C14FFD3B}worlds/FSM/Prefabs/Characters/Vests/Vest_ALICE/Variants/FSM_Vest_ALICE_AR.et"
+     Prefab "{6189DFF4D1ABA5C6}worlds/FSM/Prefabs/Characters/Vests/Vest_ALICE/Variants/FSM_Vest_ALICE_AR.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
@@ -88,5 +88,5 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 5217.098 57.38 5864.707
+ coords 5363.962 72.394 5800.155
 }

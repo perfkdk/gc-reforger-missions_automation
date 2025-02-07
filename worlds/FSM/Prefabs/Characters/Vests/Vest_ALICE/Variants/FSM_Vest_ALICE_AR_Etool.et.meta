@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{6189DFF4D1ABA5C6}worlds/FSM/Prefabs/Characters/Vests/Vest_ALICE/Variants/FSM_Vest_ALICE_AR_ETOOL.et"
+ Name "{9A3FE4F1C14FFD3B}Prefabs/Characters/Vests/Vest_ALICE/Variants/FSM_Vest_ALICE_AR.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
-  }
-  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
