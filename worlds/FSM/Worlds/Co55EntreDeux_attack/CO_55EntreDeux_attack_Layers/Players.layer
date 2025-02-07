@@ -40,7 +40,7 @@ $grp Vehicle : "{496A03E42F505911}worlds/FSM/Prefabs/Vehicles/Wheeled/M998/FSM_M
   coords 5387.667 77.377 5782.781
  }
  FSM_M1025_armed_M2HB2 {
-  coords 5383.972 76.505 5766.527
+  coords 5388.921 77.113 5763.87
  }
 }
 SCR_AIGroup : "{5EA64CA21BDE1F3E}worlds/FSM/Prefabs/Groups/BLUFOR/FSM_90s_US_ARMY_HQ.et" {

@@ -33,6 +33,7 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
     Offset 0 0 0
     Angles 0 0 0
    }
+   WeaponSlotType "Secondary"
    HolsteredIndex 2
    HolsteredHidden 0
   }
@@ -102,5 +103,5 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 5228.455 58.087 5860.077
+ coords 3572.858 25.697 3449.425
 }

@@ -28,8 +28,6 @@ GenericEntity : "{FD0890CE5C6D26CB}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALIC
    MaxCumulativeVolume 150
    MaxItemSize 5 5 5
   }
-  RHS_ClothNodeStorageComponent "{647D5292EE4713DC}" {
-  }
   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
    Slots {
     LoadoutSlotInfo "{5174C3E96ACD276B}" {
@@ -46,7 +44,7 @@ GenericEntity : "{FD0890CE5C6D26CB}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALIC
     LoadoutSlotInfo MagPouch2 {
      Offset 0.1 0.04 0.1
      Angles -10 38.00014 0
-     Prefab "{97DFAAF9BD9D61B3}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Pouch_ALICE_30rnd_flashlight_Right.et"
+     Prefab "{97DFAAF9BD9D61B3}worlds/FSM/Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Pouch_ALICE_30rnd_flashlight_Right.et"
     }
     LoadoutSlotInfo Etool {
      PivotID "Spine3"
@@ -78,7 +76,7 @@ GenericEntity : "{FD0890CE5C6D26CB}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALIC
      PivotID "Spine3"
      Offset -0.1191 0.2157 0.1714
      Angles -0.4296 -26.6006 -5.0407
-     Prefab "{B337B8F324BEBE03}Prefabs/Items/Equipment/Accessories/Holster_M12/FSM_Holster_M12.et"
+     Prefab "{B337B8F324BEBE03}worlds/FSM/Prefabs/Items/Equipment/Accessories/Holster_M12/FSM_Holster_M12.et"
      EnableDeflatedOffset 1
      DeflatedOffset -0.1191 0.2157 0.1714
      DeflatedAngles -0.4296 -26.6006 -5.0407
@@ -87,7 +85,7 @@ GenericEntity : "{FD0890CE5C6D26CB}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALIC
      PivotID "Spine5"
      Offset -0.0034 -0.03 0.2222
      Angles -90 180 -179.4581
-     Prefab "{534DBE4AECF6B664}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Invisible_m22_Binocular_Holder.et"
+     Prefab "{534DBE4AECF6B664}worlds/FSM/Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Invisible_m22_Binocular_Holder.et"
      EnableDeflatedOffset 1
      DeflatedOffset -0.0034 -0.03 0.2222
      DeflatedAngles -90 180 -179.4581
@@ -96,7 +94,7 @@ GenericEntity : "{FD0890CE5C6D26CB}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALIC
      PivotID "Spine5"
      Offset -0.23 -0.15 0.02
      Angles 0 -72.07529 0
-     Prefab "{53325F7EE8FF96A8}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Pouch_Radio_68.et"
+     Prefab "{53325F7EE8FF96A8}worlds/FSM/Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Pouch_Radio_68.et"
     }
    }
   }

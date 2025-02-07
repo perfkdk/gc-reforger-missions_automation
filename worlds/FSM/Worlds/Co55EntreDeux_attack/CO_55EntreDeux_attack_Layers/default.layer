@@ -1070,9 +1070,6 @@ $grp GenericEntity : "{9ED9DC6AF7936C13}Prefabs/Props/Military/Sandbags/Sandbag_
   }
  }
 }
-SCR_ChimeraCharacter : "{A4DD10C77172A21F}worlds/FSM/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/FSM_VSR_AAT.et" {
- coords 5286.715 57.957 5795.417
-}
 $grp DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
  {
   coords 5648.442 -0.001 6746.751
