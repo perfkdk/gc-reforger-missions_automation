@@ -68,7 +68,7 @@ SCR_AIGroup : "{F57301286FFAA029}Prefabs/Groups/BLUFOR/British Forces/1989/P/Gro
  }
  coords 6535.304 458.398 15028.299
  m_aUnitPrefabSlots {
-  "{3CE5ECA660B55B94}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_SL_P.et" "{9317518D0CAED522}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Medic_P.et" "{542A712F86F0F567}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_RTO_P.et" "{5CB86398A58690AD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_GL_P.et" "{11D4246EE372492F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Sharpshooter_P.et" "{6FAAF2B4A124BA7F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_SL.et"
+  "{3CE5ECA660B55B94}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_SL_P.et" "{9317518D0CAED522}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Medic_P.et" "{0F68127A99BCD429}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Trooper_P.et" "{5CB86398A58690AD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_GL_P.et" "{11D4246EE372492F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Sharpshooter_P.et" "{0F68127A99BCD429}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Trooper_P.et"
  }
  m_bPlayable 1
  m_sCustomNameSet "Recce Team \"Romeo\""
