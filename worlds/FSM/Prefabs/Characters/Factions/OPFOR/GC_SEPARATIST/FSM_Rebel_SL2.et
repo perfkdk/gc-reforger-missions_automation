@@ -52,7 +52,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{F53FB5276DEFF6DD}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Rifleman_FG.et"
     }
     LoadoutSlotInfo HandWear {
-     Prefab "{974EA340B1751B24}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_WolfGrey.et"
+     Prefab "{1E991CD19C6F7659}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Brown.et"
     }
    }
   }
@@ -109,5 +109,5 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
    }
   }
  }
- coords 3586.729 25.719 3457.04
+ coords 2857.742 8.728 319.718
 }

@@ -51,7 +51,8 @@ SCR_ChimeraCharacter : "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_S
     }
     ItemsInitConfigurationItem "{62E8A4CCFB180B82}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
      }
     }
     ItemsInitConfigurationItem "{62E8A4CB60A53210}" {
@@ -81,5 +82,5 @@ SCR_ChimeraCharacter : "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_S
    }
   }
  }
- coords 3583.446 25.719 3456.924
+ coords 2868.219 9.529 284.079
 }
