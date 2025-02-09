@@ -386,6 +386,12 @@ $grp GenericEntity : "{2B2567B72352F86A}worlds/FSM/Prefabs/Compositions/Slotted/
   angleX -6.65
   angleY -178
   angleZ 3.056
+  {
+   GenericEntity {
+    ID "645B6EB66660CDDE"
+    coords 3.981 -1.174 1.746
+   }
+  }
  }
  {
   components {
@@ -563,14 +569,14 @@ $grp GenericEntity : "{2B2567B72352F86A}worlds/FSM/Prefabs/Compositions/Slotted/
       coords 0.103 -0.638 0.03
       angleX 2.186
       angleY -0.314
-      angleZ -8.167
+      angleZ -1.874
      }
      GenericEntity {
       ID "5A532DCF3ECE312F"
       coords 0.126 -0.809 0.012
       angleX -2.736
       angleY 0.393
-      angleZ -8.17
+      angleZ -3.52
      }
      GenericEntity {
       ID "5A532DCF3ECE3109"

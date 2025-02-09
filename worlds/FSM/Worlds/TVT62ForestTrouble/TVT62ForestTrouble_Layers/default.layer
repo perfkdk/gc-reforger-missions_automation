@@ -232,7 +232,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Blufor loses"
    m_instructions {
     TILW_EndGameInstruction "{6460503750C4690D}" {
+     m_executionDelay 120
      m_factionKey "RHS_AFRF"
+    }
+    TILW_SendMessageInstruction "{64927ACC636F2318}" {
+     m_executionDelay 1
+     m_messageTitle "US retreats due to casualties. "
+     m_messageBody "Mission will end in 120 seconds or the GM can end it"
     }
    }
    m_condition TILW_LiteralTerm "{64605037749AD5B6}" {
