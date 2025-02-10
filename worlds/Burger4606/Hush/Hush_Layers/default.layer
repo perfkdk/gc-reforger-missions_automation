@@ -970,7 +970,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_factionPlayersKilledFlags {
+ m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{6446F3547EF44129}" {
    m_flagName "UK_PLAYERS_KILLED"
    m_factionKey "UK"
