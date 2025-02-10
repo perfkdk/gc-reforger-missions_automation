@@ -1,0 +1,39 @@
+GenericEntity : "{20D3FD3EA3C26B57}PrefabLibrary/Vegetation/Debris/T_stump_debris_01.et" {
+ coords 6271.988 107.364 5186.41
+ angleX 6.713
+ angleY -75.245
+ angleZ -0.994
+ scale 0.911
+}
+Tree : "{5CA1D12C1B27CAE2}PrefabLibrary/Vegetation/Trees/t_picea_abies_stump_02.et" {
+ coords 6261.203 0.248 5191.396
+ angleX 0.932
+ angleY 8.295
+ angleZ -0.499
+}
+$grp SCR_TreePartV2 : "{5D9A9FBA5E82ADCD}Prefabs/Vegetation/Tree/Dst/t_picea_abies_2s_dst_top.et" {
+ {
+  coords 6266.592 107.977 5184.631
+  angleX 6.093
+  angleY 0.956
+  angleZ -82.357
+ }
+ {
+  coords 6257.239 109.22 5191.504
+  angleX 5.646
+  angleY -105.63
+  angleZ -88.929
+ }
+ {
+  coords 6271.676 108.08 5189.763
+  angleX 6.093
+  angleY 0.956
+  angleZ -82.357
+ }
+ {
+  coords 6262.185 108.286 5196.75
+  angleX 5.646
+  angleY -105.63
+  angleZ -88.929
+ }
+}

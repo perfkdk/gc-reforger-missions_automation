@@ -1,0 +1,18 @@
+$grp Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
+ BTR70_Base1 {
+  coords 5741.927 63.783 4692.27
+  angleX -1.755
+  angleY -0.247
+  angleZ 8.009
+ }
+ BTR70_Base2 {
+  coords 5745.13 63.693 4709.287
+  angleZ 4.467
+ }
+ BTR70_Base3 {
+  coords 5749.739 63.567 4730.611
+  angleX 1.783
+  angleY 0.112
+  angleZ 3.578
+ }
+}
