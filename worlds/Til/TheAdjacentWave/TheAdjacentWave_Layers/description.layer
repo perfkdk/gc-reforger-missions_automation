@@ -24,7 +24,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Reinforcements have been requested, however they won't arrive for another 30 minutes."
   m_aVisibleForFactions {
-   "TF_CDF"
+   "GC_CDF"
   }
   m_iOrder 1
  }
@@ -33,7 +33,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission"
   m_sTextData "Defend the farm building."
   m_aVisibleForFactions {
-   "TF_CDF"
+   "GC_CDF"
   }
   m_iOrder 2
  }
