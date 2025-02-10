@@ -3,7 +3,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Metalwave"
   m_sTextData "Russian Mechanized Assault on CDF held power plant"\
   ""\
-  "2:1 RU:CDF"
+  "3:2 RU:CDF"\
+  ""\
+  "Vehicles:"\
+  "RU - 3x K-17, 1x T-14"\
+  "CDF - 1x BTR-70, 1x .50cal HMMWV"
   m_bEmptyFactionVisibility 1
  }
  D1_Situation_CDF {
@@ -46,8 +50,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "0 - Platoon HQ"\
   "1 - 1st Squad"\
-  "2 - 2nd Squad"\
-  "3 - BTR Crew"
+  "2 - 2nd Squad"
   m_aVisibleForFactions {
    "GC_CDF"
   }
@@ -103,8 +106,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  D3_Notes {
   coords 0 0 0
   m_sTitle "Notes"
-  m_sTextData "- Due to the Russian firing position, the CDF cannot advance past grid column 022."\
-  "- The forest in the south has two small ravines, which are not crossable by vehicles."\
+  m_sTextData "- The forest in the south has two small ravines, which are not crossable by vehicles."\
   ""\
   "- Setup Timer: 5 minutes"\
   "- End Conditions:"\

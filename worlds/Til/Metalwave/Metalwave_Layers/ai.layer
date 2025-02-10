@@ -1,4 +1,10 @@
-SCR_AIGroup : "{36AC489E01F17547}Prefabs/Groups/BLUFOR/CDF/Modern/Group_CDF_Modern_RiflePHQ.et" {
+SCR_AIGroup CDF_Adj1_2 : "{06EBA3D2678FDB27}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquad_2.et" {
+ coords 2166.919 14.528 3418.209
+ m_aStaticWaypoints {
+  "wp_def_4"
+ }
+}
+SCR_AIGroup CDF_Adj1_0 : "{36AC489E01F17547}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechPHQ.et" {
  coords 1960.854 8.432 3295.456
  m_aStaticWaypoints {
   "wp_def_5"
@@ -13,35 +19,31 @@ SCR_AIGroup : "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/
   "wp_def_3"
  }
 }
-$grp SCR_AIGroup : "{E8AD93A6D3642785}Prefabs/Groups/BLUFOR/CDF/Modern/Group_CDF_Modern_RifleSquad.et" {
+$grp SCR_AIGroup : "{E377EF2B6B6A4C4C}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquad_3.et" {
+ {
+  coords 1791.913 9.625 3703.305
+  m_aStaticWaypoints {
+   "wp_def_7"
+  }
+ }
+ CDF_Adj1_3 {
+  coords 1847.411 8.716 3462.406
+  m_aStaticWaypoints {
+   "wp_def_2"
+  }
+ }
+}
+$grp SCR_AIGroup : "{E8AD93A6D3642785}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquad_1.et" {
  {
   coords 2413.749 15.738 3438.736
   m_aStaticWaypoints {
    "wp_def_6"
   }
  }
- {
-  coords 2166.919 14.528 3418.209
-  m_aStaticWaypoints {
-   "wp_def_4"
-  }
- }
- {
+ CDF_Adj1_1 {
   coords 1993.15 9.662 3505.172
   m_aStaticWaypoints {
    "wp_def_1"
-  }
- }
- {
-  coords 1847.411 8.716 3462.406
-  m_aStaticWaypoints {
-   "wp_def_2"
-  }
- }
- {
-  coords 1791.913 9.625 3703.305
-  m_aStaticWaypoints {
-   "wp_def_7"
   }
  }
 }
