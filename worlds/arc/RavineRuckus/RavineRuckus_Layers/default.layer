@@ -203,5 +203,4 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_casualtyRatio 0.9
   }
  }
- m_suppressGameEnd 1
 }

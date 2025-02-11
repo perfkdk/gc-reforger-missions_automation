@@ -8,6 +8,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
+  m_iOrder 1
  }
  {
   coords 1431.882 0.217 3502.84
@@ -20,6 +21,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
+  m_iOrder 2
  }
  {
   coords 1433.008 0.217 3486.713
@@ -32,6 +34,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
+  m_iOrder 3
  }
  {
   coords 1431.471 0.217 3468.306
@@ -42,5 +45,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
+  m_iOrder 4
  }
 }

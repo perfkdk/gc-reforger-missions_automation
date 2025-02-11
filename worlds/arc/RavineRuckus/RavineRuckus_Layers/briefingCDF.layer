@@ -8,6 +8,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "GC_CDF"
   }
+  m_iOrder 1
  }
  {
   coords 1374.195 0.217 3524.717
@@ -20,6 +21,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "GC_CDF"
   }
+  m_iOrder 2
  }
  {
   coords 1380.868 0.217 3490.377
@@ -32,6 +34,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "GC_CDF"
   }
+  m_iOrder 3
  }
  {
   coords 1385.454 0.217 3472.261
@@ -42,5 +45,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "GC_CDF"
   }
+  m_iOrder 4
  }
 }
