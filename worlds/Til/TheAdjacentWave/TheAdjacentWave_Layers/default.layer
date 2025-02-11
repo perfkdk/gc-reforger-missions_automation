@@ -79,62 +79,61 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 3939.475 19.314 2390.095
 }
-$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
- {
-  components {
-   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-    m_factionKeys {
-     "RHS_AFRF"
-    }
-    m_visibility ALL
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_factionKeys {
+    "RHS_AFRF"
    }
+   m_visibility ALL
   }
-  coords 2900 17.838 2200
-  Points {
-   ShapePoint "{6306F668AF670B09}" {
-    Position 0 0 0
-   }
-   ShapePoint "{6306F668AD799EA4}" {
-    Position 0 0 450
-   }
-   ShapePoint "{6306F668BADFBFA5}" {
-    Position 1200 0 550
-   }
-   ShapePoint "{6306F668978812FB}" {
-    Position 1200 0 100
-   }
-  }
-  LineColor 0 0 0 0
  }
- {
-  components {
-   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-    m_factionKeys {
-     "GC_CDF"
-    }
-    m_visibility ALL
-   }
+ coords 2900 17.838 2100
+ Points {
+  ShapePoint "{6306F668AF670B09}" {
+   Position 0 0 0
   }
-  coords 2900 17.838 2200
-  Points {
-   ShapePoint "{6306F668AF670B09}" {
-    Position 0 0 0
+  ShapePoint "{6306F668AD799EA4}" {
+   Position 0 0 500
+  }
+  ShapePoint "{6306F668BADFBFA5}" {
+   Position 1200 0 700
+  }
+  ShapePoint "{6306F668978812FB}" {
+   Position 1200 0 200
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+   components {
+    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+     m_factionKeys {
+      "GC_CDF"
+     }
+     m_visibility ALL
+    }
    }
-   ShapePoint "{6306F668AD799EA4}" {
-    Position 0 0 450
-   }
-   ShapePoint "{6306F668BADFBFA5}" {
-    Position 300 0 475
-   }
-   ShapePoint "{6306F668978812FB}" {
-    Position 300 0 25
+   Points {
+    ShapePoint "{6306F668AF670B09}" {
+     Position 0 0 0
+    }
+    ShapePoint "{6306F668AD799EA4}" {
+     Position 0 0 500
+    }
+    ShapePoint "{6306F668BADFBFA5}" {
+     Position 300 0 550
+    }
+    ShapePoint "{6306F668978812FB}" {
+     Position 300 0 50
+    }
    }
   }
  }
 }
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
- coords 3003.986 20.687 2404.346
- m_queryRadius 80
+ coords 3001.605 20.678 2403.767
+ m_queryRadius 75
  m_flagName "obj"
  m_drawShapeSurface 0
  m_ownerFactionKey "RHS_AFRF"
@@ -179,7 +178,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{6306F67993F5F3E8}" {
      m_executionDelay 1500
      m_messageTitle "Time Limit"
-     m_messageBody "In 5 minutes, CDF reinforcements will arrive in 5 minutes."
+     m_messageBody "CDF reinforcements will arrive in 5 minutes."
     }
     TILW_SendMessageInstruction "{6306F6794C6EF39A}" {
      m_executionDelay 1800

@@ -26,7 +26,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "There are extensive trench networks to the east of the power plant, both south and north of the approaching road."\
   ""\
-  "The third squad will remain at the power plant. Another platoon has prepared positions to the south, but will not act as a QRF."
+  "The third squad will remain at the power plant, with the exception of its vehicle which is in a fighting position 200m north. Another platoon has prepared positions to the south, but will not act as a QRF."
   m_aVisibleForFactions {
    "GC_CDF"
   }
