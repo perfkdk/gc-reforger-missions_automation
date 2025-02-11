@@ -1,39 +1,111 @@
-GenericEntity : "{20D3FD3EA3C26B57}PrefabLibrary/Vegetation/Debris/T_stump_debris_01.et" {
- coords 6271.988 107.364 5186.41
- angleX 6.713
- angleY -75.245
- angleZ -0.994
- scale 0.911
+Vehicle BTR70_Base4 : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
+ coords 6142.051 114.218 5109.512
+ angleX 1.783
+ angleY 0.112
+ angleZ 3.578
 }
-Tree : "{5CA1D12C1B27CAE2}PrefabLibrary/Vegetation/Trees/t_picea_abies_stump_02.et" {
- coords 6261.203 0.248 5191.396
- angleX 0.932
- angleY 8.295
- angleZ -0.499
+$grp Tree : "{A975A81D02F4862C}Prefabs/Vegetation/Tree/t_picea_abies_2s.et" {
+ {
+  coords 6153.007 -0 5112.456
+ }
+ {
+  coords 6252.762 -0.659 5191.385
+  angleX -88.193
+  angleY -93.438
+  angleZ -111.083
+ }
+ {
+  coords 6266.201 0.524 5183.677
+  angleX -86.874
+  angleY -93.438
+  angleZ -0
+ }
+ {
+  coords 6257.156 -1.36 5195.565
+  angleX -90
+  angleZ 155.479
+ }
+ {
+  coords 6270.597 0.706 5187.855
+  angleX -88.677
+  angleY -93.438
+  angleZ -0
+ }
+ {
+  coords 6259.836 -1.052 5200.025
+  angleX -90
+  angleZ 155.479
+ }
+ {
+  coords 6273.278 0.596 5192.313
+  angleX -88.677
+  angleY -93.438
+  angleZ -0
+ }
+ {
+  coords 6263.144 -1.607 5204.616
+  angleX -90
+  angleZ 155.479
+ }
+ {
+  coords 6276.584 0.485 5196.907
+  angleX -88.677
+  angleY -93.438
+  angleZ -0
+ }
+ {
+  coords 6265.699 -1.759 5208.8
+  angleX -90
+  angleZ 155.479
+ }
+ {
+  coords 6279.139 0.506 5201.091
+  angleX -88.677
+  angleY -93.438
+  angleZ -0
+ }
+ {
+  coords 6268.77 -1.538 5212.234
+  angleX -90
+  angleZ 155.479
+ }
+ {
+  coords 6282.21 0.839 5204.525
+  angleX -88.677
+  angleY -93.438
+  angleZ -0
+ }
+ {
+  coords 6271.293 -1.953 5216.803
+  angleX -90
+  angleZ 155.479
+ }
+ {
+  coords 6284.734 0.852 5209.094
+  angleX -88.677
+  angleY -93.438
+  angleZ -0
+ }
 }
-$grp SCR_TreePartV2 : "{5D9A9FBA5E82ADCD}Prefabs/Vegetation/Tree/Dst/t_picea_abies_2s_dst_top.et" {
+$grp GenericEntity : "{BBA4B6B98BB002A4}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_05.et" {
  {
-  coords 6266.592 107.977 5184.631
-  angleX 6.093
-  angleY 0.956
-  angleZ -82.357
+  coords 6259.484 108.229 5188.389
+  angleY -53.283
  }
  {
-  coords 6257.239 109.22 5191.504
-  angleX 5.646
-  angleY -105.63
-  angleZ -88.929
+  coords 6255.561 108.366 5183.124
+  angleY -53.283
  }
  {
-  coords 6271.676 108.08 5189.763
-  angleX 6.093
-  angleY 0.956
-  angleZ -82.357
+  coords 6256.722 108.41 5184.808
+  angleY -53.283
  }
  {
-  coords 6262.185 108.286 5196.75
-  angleX 5.646
-  angleY -105.63
-  angleZ -88.929
+  coords 6261.022 108.065 5182.526
+  angleY -53.283
+ }
+ {
+  coords 6256.368 108.651 5185.435
+  angleY -53.283
  }
 }

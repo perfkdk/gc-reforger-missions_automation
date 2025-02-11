@@ -6,7 +6,10 @@ SCR_AIGroup : "{6234FDCD27FE4C61}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRifle
    m_iSquadCallsign 1
   }
  }
- coords 5709.348 69.887 4717.618
+ coords 5646.394 76.639 4717.616
+ angleX 2.62
+ angleY 0.41
+ angleZ 8.89
  m_sCustomNameSet "311"
 }
 $grp SCR_AIGroup : "{6234FDCD2B1D95BF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR/P/Group_USSR_MotRifleSquad_P.et" {
@@ -16,7 +19,10 @@ $grp SCR_AIGroup : "{6234FDCD2B1D95BF}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 2
    }
   }
-  coords 5728.779 65.299 4731.784
+  coords 5677.302 72.518 4739.098
+  angleX 1.747
+  angleY 0.273
+  angleZ 8.885
   m_sCustomNameSet "311"
  }
  {
@@ -25,7 +31,10 @@ $grp SCR_AIGroup : "{6234FDCD2B1D95BF}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 3
    }
   }
-  coords 5729.962 65.003 4710.153
+  coords 5685.419 70.419 4718.515
+  angleX 2.619
+  angleY 0.459
+  angleZ 8.017
   m_sCustomNameSet "312"
  }
  {
@@ -34,7 +43,8 @@ $grp SCR_AIGroup : "{6234FDCD2B1D95BF}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 4
    }
   }
-  coords 5730.313 65.125 4693.235
+  coords 5693.076 69.101 4696.319
+  angleZ 6.242
   m_sCustomNameSet "313"
  }
 }

@@ -22,6 +22,7 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  coords 6151.787 100.354 4886.03
+ m_iFreezeTime 180000
  {
   SCR_FactionManager "649528FD5A9CDB87" {
    ID "5ED9088735FF2D8B"
@@ -35,4 +36,237 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    }
   }
  }
+}
+TILW_ExtractionTriggerEntity BLUFOR_EXTRACTION : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExtractionTrigger.et" {
+ coords 6505.136 87.221 5292.806
+ m_queryRadius 24.8
+ m_flagName "BLUFOR_EXTRACTED"
+ m_stopAfterFirstChange 1
+ m_factionKey "US"
+ m_ratioThreshold 0.5
+}
+SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneBase.et" {
+ components {
+  SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+   m_fHeight 9.1
+   m_bFollowTerrain 1
+  }
+ }
+ coords 5673.56 88.854 4702.353
+ m_fWarnRadius 50
+ m_fZoneRadius 120
+ m_fZoneTeleportedRadius 52.4
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_CoverMapComponent "{6473480FCAB7760B}" {
+   Enabled 1
+  }
+ }
+ coords 5893.147 109.327 5146.718
+ Points {
+  ShapePoint "{649528E1DD0F7AD8}" {
+   Position -55.776 0 -468.975
+  }
+  ShapePoint "{649528E1D9BAF037}" {
+   Position 210.799 0 -317.98
+  }
+  ShapePoint "{649528E1D860F3E3}" {
+   Position 535.964 0 -165.911
+  }
+  ShapePoint "{649528E1D435E6CD}" {
+   Position 589.039 0 35.683
+  }
+  ShapePoint "{649528E1D3182F48}" {
+   Position 636.164 0 161.102
+  }
+  ShapePoint "{649528E1D0EF842A}" {
+   Position 340.756 0 387.531
+  }
+  ShapePoint "{649528E1EF14FE43}" {
+   Position 92.77 0 335.113
+  }
+  ShapePoint "{649528E1ED8F08B7}" {
+   Position 30.984 0 132.37
+  }
+  ShapePoint "{649528E1E98F4B32}" {
+   Position -163.009 0 43.213
+  }
+  ShapePoint "{649528E1E7492A7E}" {
+   Position -222.207 0 -4.116
+  }
+  ShapePoint "{649528E1E6CEF592}" {
+   Position -406.82 -14.191 -145.213
+  }
+  ShapePoint "{649528E1E40643CA}" {
+   Position -266.966 -22.498 -534.869
+  }
+ }
+}
+TILW_FactionTriggerEntity Crossroad_Capture : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+ coords 6256.806 108.278 5186.793
+ m_queryRadius 50.5
+ m_captureIterations 30
+ m_sendStatusMessages 1
+ m_locationName "CROSSROAD"
+ m_flagName "USSR_CROSSROAD"
+ m_stopAfterFirstChange 1
+ m_ownerFactionKey "USSR"
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 6194.424 109.726 5084.533
+ m_missionEvents {
+  TILW_MissionEvent "{649528DC63A2DB39}" {
+   m_name "BLUFOR Major Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{649528DC8988F96B}" {
+     m_messageTitle "BLUFOR Major Victory"
+     m_messageBody "OPFOR greater than 80% Casualties "
+    }
+    TILW_EndGameInstruction "{649528DCFD3982A8}" {
+     m_executionDelay 12
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_LiteralTerm "{649528DCCA4253F7}" {
+    m_flagName "OPFOR_Killed"
+   }
+  }
+  TILW_MissionEvent "{649528DEE1592CEA}" {
+   m_name "BLUFOR Major Victory 2"
+   m_instructions {
+    TILW_SendMessageInstruction "{649528D0FBDCB8F4}" {
+     m_messageTitle "BLUFOR Major Victory"
+     m_messageBody "BLUFOR Sucessfuly Delayed & Withdrawed"
+    }
+    TILW_EndGameInstruction "{649528D0F89A8907}" {
+     m_executionDelay 12
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6496BAF38D1E8297}" {
+    m_operands {
+     TILW_LiteralTerm "{6496BAF38A3D9BF9}" {
+      m_flagName "BTR_Destroyed"
+     }
+     TILW_LiteralTerm "{6496BAF38640503C}" {
+      m_flagName "Extract_Available"
+     }
+     TILW_LiteralTerm "{6496BAF426488E48}" {
+      m_flagName "BLUFOR_EXTRACTED"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{649528DF8480A3F7}" {
+   m_name "BLUFOR Minor Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{6496BAF491C884A4}" {
+     m_messageTitle "BLUFOR Minor Victory"
+     m_messageBody "Successful Delaying Action"
+    }
+    TILW_EndGameInstruction "{6496BAF4AE7B0F75}" {
+     m_executionDelay 12
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{649528DFAF911113}" {
+    m_operands {
+     TILW_LiteralTerm "{649528DFA9BA9EA0}" {
+      m_flagName "BLUFOR_EXTRACTED"
+     }
+     TILW_LiteralTerm "{649528DFA801F07A}" {
+      m_flagName "Extract_Available"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{649528D066B7FA67}" {
+   m_name "OPFOR Major Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{6496BAF4F454F4A7}" {
+     m_messageTitle "OPFOR Major Victory"
+     m_messageBody "BLUFOR Forces Destroyed"
+    }
+    TILW_EndGameInstruction "{6496BAF4F149F632}" {
+     m_executionDelay 12
+     m_factionKey "USSR"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6496BAF619934E49}" {
+    m_flagName "BLUFOR_KilledA"
+   }
+  }
+  TILW_MissionEvent "{6496BAF5B8044742}" {
+   m_name "OPFOR Minor Victory"
+   m_instructions {
+    TILW_EndGameInstruction "{6496BAF58A891A9A}" {
+     m_executionDelay 12
+     m_factionKey "USSR"
+    }
+    TILW_SendMessageInstruction "{6496BAF5886F67E4}" {
+     m_messageTitle "OPFOR Minor Victory"
+     m_messageBody "Crossroad Secured"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6496BAF570649987}" {
+    m_flagName "USSR_CROSSROAD"
+   }
+  }
+  TILW_MissionEvent "{649528DFB0407C9D}" {
+   m_name "Game Start"
+   m_instructions {
+    TILW_SetFlagInstruction "{649528DFD2CA8418}" {
+     m_executionDelay 1800
+     m_flagName "Extract_Available"
+    }
+    TILW_SendMessageInstruction "{649528DE012DB434}" {
+     m_executionDelay 1800
+     m_messageTitle "Extract Available"
+     m_factionKeys {
+      "US"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{649528DFC3673254}" {
+    m_invertTerm 1
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{649528DCA9AF831E}" {
+   m_flagName "OPFOR_Killed"
+   m_factionKey "USSR"
+   m_casualtyRatio 0.8
+  }
+  TILW_FactionPlayersKilledFlag "{6496BAF259ED4C90}" {
+   m_flagName "BLUFOR_Killed"
+   m_factionKey "US"
+   m_casualtyRatio 0.8
+  }
+  TILW_FactionPlayersKilledFlag "{6496BAF57ED3E966}" {
+   m_flagName "BLUFOR_KilledA"
+   m_factionKey "US"
+  }
+ }
+ m_metaFlags {
+  TILW_MetaFlag "{6496BAF2BD5ABD94}" {
+   m_flagName "BTR_Destroyed"
+   m_definition TILW_MinjunctionTerm "{6496BAF2B7F8174F}" {
+    m_operands {
+     TILW_LiteralTerm "{6496BAF2E845752F}" {
+      m_flagName "BTR1_DESTROYED"
+     }
+     TILW_LiteralTerm "{6496BAF2E2B0BA36}" {
+      m_flagName "BTR2_DESTROYED"
+     }
+     TILW_LiteralTerm "{6496BAF2E1A970E8}" {
+      m_flagName "BTR3_DESTROYED"
+     }
+    }
+    m_minTrue 2
+   }
+  }
+ }
+ m_suppressGameEnd 1
 }
