@@ -1,0 +1,63 @@
+$grp Vehicle : "{7ACFD8FA081996F6}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_1p29.et" {
+ ru232vic {
+  components {
+   TILW_VehicleCrewComponent "{649A9C0279232B9F}" {
+    m_spawnTurret 1
+    m_customCrew {
+     "{A0CD612B7770C18B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AMG_Random.et"
+    }
+   }
+  }
+  coords 5593.015 158.743 12592.666
+  angleY 91.233
+ }
+ ru233vic {
+  components {
+   TILW_VehicleCrewComponent "{649A9C0279232B9F}" {
+    m_spawnTurret 1
+    m_customCrew {
+     "{A0CD612B7770C18B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AMG_Random.et"
+    }
+   }
+  }
+  coords 5283.253 162.734 12632.346
+  angleX 3.551
+  angleY -83.156
+  angleZ 0.426
+ }
+}
+SCR_AIGroup ru231hq : "{BA8CA45F6B252004}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_PlatoonHQ.et" {
+ coords 5414.623 159.838 12592.298
+ m_aStaticWaypoints {
+  "ru231hqWP"
+ }
+}
+$grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ ru231 {
+  coords 5424.528 164.475 12707.292
+  m_aUnitPrefabSlots {
+   "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et" "{FE21D24A18D4CC93}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_MG_Random.et" "{A0CD612B7770C18B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AMG_Random.et"
+  }
+  m_aStaticWaypoints {
+   "ru231WP"
+  }
+ }
+ ru232 {
+  coords 5600.188 158.661 12586.284
+  m_aUnitPrefabSlots {
+   "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et" "{FE21D24A18D4CC93}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_MG_Random.et" "{727CB9BA48D9407A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SR_GL_Random.et" "{F11CCA20FCC74AA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AT_Random.et" "{AFF07941936347BB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AAT_Random.et"
+  }
+  m_aStaticWaypoints {
+   "ru232WP"
+  }
+ }
+ ru233 {
+  coords 5269.625 163.162 12638.308
+  m_aUnitPrefabSlots {
+   "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et" "{FE21D24A18D4CC93}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_MG_Random.et" "{727CB9BA48D9407A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SR_GL_Random.et" "{F11CCA20FCC74AA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AT_Random.et" "{AFF07941936347BB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AAT_Random.et"
+  }
+  m_aStaticWaypoints {
+   "ru233WP"
+  }
+ }
+}

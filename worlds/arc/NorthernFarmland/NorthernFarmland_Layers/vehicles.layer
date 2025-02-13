@@ -1,0 +1,58 @@
+$grp Vehicle : "{2C9B4D8196812513}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed.et" {
+ GAZ_TIGR_v2_Unarmed2 {
+  coords 5879.296 241.663 11515.599
+  angleX -0.894
+  angleY -3.115
+  angleZ 0.049
+ }
+ GAZ_TIGR_v2_Unarmed3 {
+  coords 5885.858 240.645 11473.292
+  angleX 3.681
+  angleY -17.036
+  angleZ -0.193
+ }
+ GAZ_TIGR_v2_Unarmed4 {
+  coords 5887.028 239.723 11459.825
+  angleX 3.683
+  angleY -11.567
+  angleZ 0.159
+ }
+}
+$grp Vehicle : "{7ACFD8FA081996F6}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_1p29.et" {
+ GAZ_TIGR_v2_PKM_1p1 {
+  coords 5869.561 240.4 11539.821
+  angleX -3.139
+  angleY -20.478
+  angleZ -0.737
+ }
+ GAZ_TIGR_v2_PKM_1p2 {
+  coords 5875.094 240.831 11532.646
+  angleX -2.827
+  angleY -20.523
+  angleZ 0.103
+ }
+ GAZ_TIGR_v2_PKM_1p4 {
+  coords 5881.052 241.245 11482.357
+  angleX 1.983
+  angleY -18.851
+  angleZ 0.269
+ }
+ GAZ_TIGR_v2_PKM_1p7 {
+  coords 5876.661 241.765 11500.974
+  angleX 0.882
+  angleY -9.816
+  angleZ -0.153
+ }
+ GAZ_TIGR_v2_PKM_1p5 {
+  coords 5875.863 241.285 11522.907
+  angleX -3.685
+  angleY -12.495
+  angleZ -0.099
+ }
+ GAZ_TIGR_v2_PKM_1p6 {
+  coords 5879.764 241.641 11492.392
+  angleX 1.916
+  angleY -9.819
+  angleZ 0.576
+ }
+}
