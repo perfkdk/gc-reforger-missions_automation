@@ -55,7 +55,7 @@ SCR_AIGroup CDF_Squad_3 : "{595A0CBCBD6228F4}Prefabs/Groups/BLUFOR/CDF/Mech_Mode
   "{62B1BB8365AB343F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SL_P.et" "{7AE45189CEF69C4B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AT_P.et" "{1E742A04763AD873}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AAT_P.et" "{C734030EB1ED8055}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AR_P.et" "{ADC160CEB508357F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SR_P.et" "{C734030EB1ED8055}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_AR_P.et" "{F220C3998CD88060}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Medic_P.et"
  }
 }
-Vehicle GAZ_TIGR_v2_KORD_Shield1 : "{C759BD01F342125E}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_Shield.et" {
+Vehicle GAZ_TIGR_v2_PKM1 : "{7BC76F92B882889D}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM.et" {
  coords 3925.433 19.977 2385.481
  angleX 0.854
  angleY -72.496
