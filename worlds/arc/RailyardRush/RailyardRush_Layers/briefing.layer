@@ -18,6 +18,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Your BTR company has been recalled from fighting the ChDKZ in the northern region of Novogorsk to combat this new invasion."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
+  m_iOrder 1
  }
  {
   coords 4649.294 204.551 13813.997
@@ -29,6 +30,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Wearing a mixture of multicam and olive, equipped largely with soviet-era weaponry."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
+  m_iOrder 2
  }
  {
   coords 4649.38 205.318 13822.748
@@ -42,6 +44,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
+  m_iOrder 3
  }
  {
   coords 4649.507 205.837 13829.43
@@ -70,6 +73,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
+  m_iOrder 4
  }
  {
   coords 4649.442 206.805 13839.806
@@ -91,6 +95,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Platoon COs should decide if they tune to both Coy & Platoon net or leave one net to their 2IC."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
+  m_iOrder 5
  }
  {
   coords 4649.299 207.337 13845.159
@@ -106,6 +111,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "90% CDF casualties or 75 minutes pass: Defeat"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
+  m_iOrder 6
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
