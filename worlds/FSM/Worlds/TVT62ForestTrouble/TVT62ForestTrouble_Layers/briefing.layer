@@ -122,4 +122,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 6
  }
+ {
+  coords 2098.159 1.336 3117.191
+  m_sTitle "Overview"
+  m_sTextData "US forces assault some Russian trenches"
+  m_bEmptyFactionVisibility 1
+  m_iOrder 0
+ }
 }

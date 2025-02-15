@@ -39,10 +39,20 @@ $grp SCR_AIGroup : "{E563AD543F9A8682}worlds/FSM/Prefabs/Groups/BLUFOR/FSM_90s_U
   m_sCustomNameSet "1st Squad - 1'1"
  }
  {
+  components {
+   PS_GroupCallsignAssigner "{647F2B0B7056C961}" {
+    m_iSquadCallsign 2
+   }
+  }
   coords 3594.146 26.615 3478.752
   m_sCustomNameSet "Second Squad - 1'2 "
  }
  {
+  components {
+   PS_GroupCallsignAssigner "{647F2B0B7056C961}" {
+    m_iSquadCallsign 3
+   }
+  }
   coords 3553.575 25.594 3430.218
   m_sCustomNameSet "Third Squad - 1'3"
  }
