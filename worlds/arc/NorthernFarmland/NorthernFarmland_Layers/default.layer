@@ -46,7 +46,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  coords 7756.774 117.601 12676.748
  m_iFreezeTime 120000
  {
-  SCR_FactionManager {
+  SCR_FactionManager "649F2D1054E4480A" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
@@ -192,6 +192,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{649A9C1ECDEC3B83}" {
      m_messageTitle "RU VICTORY"
      m_messageBody "Both objectives have been captured by the AFRF."
+    }
+    TILW_EndGameInstruction "{649F2D1089B86420}" {
+     m_executionDelay 15
+     m_factionKey "RHS_AFRF"
     }
    }
    m_condition TILW_ConjunctionTerm "{649A9C1EFA581603}" {
