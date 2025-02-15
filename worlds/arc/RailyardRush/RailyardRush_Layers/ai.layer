@@ -204,6 +204,7 @@ $grp Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" 
     m_customCrew {
      "{5C75226D45102461}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Rifleman_Random.et"
     }
+    m_noTurretDismount 1
    }
   }
   coords 3258.496 216.015 13077.21
@@ -216,6 +217,7 @@ $grp Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" 
     m_customCrew {
      "{5C75226D45102461}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Rifleman_Random.et"
     }
+    m_noTurretDismount 1
    }
   }
   coords 3838.501 199.93 13075.87
@@ -230,6 +232,7 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
     m_customCrew {
      "{5C75226D45102461}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Rifleman_Random.et"
     }
+    m_noTurretDismount 1
    }
   }
   coords 3225.668 212.182 13063.914
@@ -242,6 +245,7 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
     m_customCrew {
      "{5C75226D45102461}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Rifleman_Random.et"
     }
+    m_noTurretDismount 1
    }
   }
   coords 3835.188 200.135 13075.914

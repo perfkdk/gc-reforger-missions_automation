@@ -37,7 +37,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  }
  coords 3378.652 331.674 7333.558
  {
-  SCR_FactionManager {
+  SCR_FactionManager "649EF0202E3AA714" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{648D46336748B246}" {
@@ -143,6 +143,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_gameOverType EDITOR_FACTION_DEFEAT
      m_factionKey "GC_CDF"
     }
+   }
+   m_condition TILW_LiteralTerm "{649EF020DFE0A503}" {
+    m_invertTerm 1
    }
   }
   TILW_MissionEvent "{6498C00CE60B0190}" {
