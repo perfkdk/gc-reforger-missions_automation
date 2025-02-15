@@ -52,8 +52,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "B. Friendly Forces"\
   ""\
   "Two light motor rifle squads + platoon HQ, equipped with Tigr-Ms."\
-  "While both squads vehicles have Kord machine guns, the first one has a shield and the second one an SPP sight."\
-  "The platoon leaders vehicle is unarmed."\
+  "The first vehicle has a PKM on top, the second a scoped KORD. The platoon leaders vehicle is unarmed."\
   ""\
   "The third squad previously established a supporting firing position near the construction site at 033 026."
   m_aVisibleForFactions {
