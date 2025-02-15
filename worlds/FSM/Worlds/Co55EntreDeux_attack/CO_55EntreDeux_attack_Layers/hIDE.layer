@@ -23,8 +23,6 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 5
-   m_iStartingMinutes 40
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{6460503045067C9A}" {
@@ -90,6 +88,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "The time is 0540 with first light at 0555"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
+  m_iOrder 1
  }
  {
   coords 5342.836 68.291 5771.978
@@ -103,7 +102,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 1
+  m_iOrder 2
  }
  {
   coords 5354.719 71.031 5768.102
@@ -113,7 +112,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1 Platoon has been attached an engineer squad and a mounted recce section with 2 m2 gun trucks. "
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 2
+  m_iOrder 3
  }
  {
   coords 5361.532 72.497 5764.553
@@ -121,7 +120,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "1 Platoon will seize the high ground of EntreDeux 057 070 NLT 0700 hrs in order shape the battle space in order to allow the battalion the begin their attack onto Montignac."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 3
+  m_iOrder 4
  }
  {
   coords 5369.781 74.084 5760.172
@@ -129,7 +128,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "1 Platoon will use the attached recce section to locate the enemy and wire obstacle positions. The wire obstacles can be avoided or breached with the attached engineer squad. Once breached 1 platoon will assault and secure EntreDeux."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 4
+  m_iOrder 5
  }
  {
   coords 5375.23 75.005 5757.856
@@ -149,7 +148,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Platoon Net - 48.00"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 5
+  m_iOrder 6
  }
  {
   coords 5380.427 75.81 5755.432
@@ -161,7 +160,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "The Recce trucks have extra ammo."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 6
+  m_iOrder 7
  }
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
@@ -234,7 +233,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{646050369C267EA9}" {
    m_name "Blufor loses"
    m_instructions {
+    TILW_SendMessageInstruction "{649F124ADA17D677}" {
+     m_messageTitle "US DEFEAT"
+     m_messageBody "US forces have taken significant casualties."
+    }
     TILW_EndGameInstruction "{6460503750C4690D}" {
+     m_executionDelay 15
      m_gameOverType EDITOR_FACTION_DEFEAT
      m_factionKey "US"
     }
@@ -246,7 +250,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{64605037DD77918D}" {
    m_name "Blufor Wins"
    m_instructions {
+    TILW_SendMessageInstruction "{649F124AC3FB9AE0}" {
+     m_messageTitle "US VICTORY"
+     m_messageBody "US forces have taken OBJ Dog."
+    }
     TILW_EndGameInstruction "{6460503787640958}" {
+     m_executionDelay 15
      m_factionKey "US"
     }
    }
@@ -255,8 +264,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_factionPlayersKilledFlags {
-  TILW_FactionPlayersKilledFlag "{64605036BEE22F95}" {
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{649F124AF41A7D09}" {
    m_flagName "Blufor Killed"
    m_factionKey "US"
    m_casualtyRatio 0.85
