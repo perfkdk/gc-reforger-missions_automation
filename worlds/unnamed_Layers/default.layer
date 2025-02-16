@@ -1,0 +1,7 @@
+SCR_ChimeraCharacter : "{C0F80FAF0D145D9D}Prefabs/Characters/Factions/BLUFOR/UK_Army/Character_UK_Patrol_Gunner.et" {
+ coords 1807.188 13.825 2362.094
+}
+SCR_AIGroup : "{E453147EF831420E}Prefabs/Groups/OPFOR/GC_IRA/GC_IRA_ATSquad.et" {
+ coords 1804.103 12.995 2375.964
+ m_bPlayable 1
+}
