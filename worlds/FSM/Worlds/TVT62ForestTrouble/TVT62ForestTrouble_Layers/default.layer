@@ -72,10 +72,19 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
         m_sCallsign " "
        }
+       SCR_CallsignInfo "{64A03214C6C95339}" {
+       }
+       SCR_CallsignInfo "{64A03214D8DCB681}" {
+       }
       }
      }
     }
     SCR_Faction "{5978B9CE6585BBE8}" {
+     UIInfo SCR_FactionUIInfo "{5977478D568C0938}" {
+      Name "Russian Army"
+      Icon "{B6039E827FFCE3CD}UI/Textures/Editor/EditableEntities/Factions/RHS_Rus_Icon.edds"
+      m_sNameUpper "Russian Army"
+     }
      m_CallsignInfo SCR_FactionCallsignInfo "{5977478D568C093C}" {
       m_bIsAssignedRandomly 0
       m_sCallsignGroupFormat ""

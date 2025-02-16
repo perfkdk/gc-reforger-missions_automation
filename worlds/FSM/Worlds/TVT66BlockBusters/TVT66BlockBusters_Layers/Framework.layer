@@ -1,21 +1,28 @@
-SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  components {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
    NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
-     NavmeshFile "{AD5F99CD7C59D5E0}worlds/GameMaster/Navmeshes/GM_Eden.nmn"
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{64A047F93EEF8A36}" {
+     NavmeshFile "{98AC6396328F355E}worlds/Navmeshes/Navmesh_Soldier.nmn"
     }
    }
   }
   NavmeshWorldComponent "{5584F30EEFEE1223}" {
    NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" {
-     NavmeshFile "{C35ECF3276824654}worlds/GameMaster/Navmeshes/GM_Eden_vehicles.nmn"
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{A5ED1C3881448DC2}worlds/Navmeshes/Navmesh_BTR.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{F435824730998C27}worlds/Navmeshes/Navmesh_Lowres.nmn"
     }
    }
   }
  }
- coords 5154.357 392.54 14714.236
+ coords 3489.323 199.444 12788.671
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 5159.154 393.944 14723.57
@@ -69,6 +76,12 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        }
        SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
         m_sCallsign " "
+       }
+       SCR_CallsignInfo "{64A03B989829CAA4}" {
+       }
+       SCR_CallsignInfo "{64A03B989AFEB5FF}" {
+       }
+       SCR_CallsignInfo "{64A03B989B0AA583}" {
        }
       }
      }
@@ -213,6 +226,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 5
  }
+ {
+  coords 3507.847 199.317 12788.482
+  m_sTitle "Overview"
+  m_sTextData "Canadian Forces assault a Seperatist held position."
+  m_bEmptyFactionVisibility 1
+  m_iOrder 0
+ }
 }
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  {
@@ -350,13 +370,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_factionPlayersKilledFlags {
-  TILW_FactionPlayersKilledFlag "{64605036BEE22F95}" {
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{64A047FD08B987FC}" {
    m_flagName "Blufor Killed"
    m_factionKey "US"
    m_casualtyRatio 0.85
   }
-  TILW_FactionPlayersKilledFlag "{64900917D36096B7}" {
+  TILW_FactionPlayersKilledFlag "{64A047FD09D0EEA1}" {
    m_flagName "OPFOR Killed"
    m_factionKey "GC_SEPARATIST"
    m_casualtyRatio 0.92
