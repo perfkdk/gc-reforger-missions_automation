@@ -93,7 +93,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0 1 0.063 1
   m_sQuadName "objective-marker-2"
   m_fWorldSize 276.7
-  m_sDescription "Assads Mansion"
+  m_sDescription "Extract"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
