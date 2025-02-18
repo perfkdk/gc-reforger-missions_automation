@@ -1,0 +1,652 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6476AAAF3ABCCA31}" {
+     NavmeshFile "{D8EF7131FB31AF97}worlds/GameMaster/Navmeshes/GM_Arland.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{A0AEEB1E7EF474FA}worlds/GameMaster/Navmeshes/GM_Arland_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{804386FFEB7B7EFD}worlds/MP/Navmeshes/LowResArland.nmn"
+    }
+   }
+  }
+ }
+ coords 2525.392 0 3730.633
+ Formations {
+  AIFormationDefinition "{56ACE3951AA8D3EB}" {
+   Offsets {
+    0 0 0 0 0 -2 0 0 -4 0 0 -6 0 0 -8 0 0 -10 0 0 -12 0 0 -14 0 0 -16 0 0 -18 0 0 -20
+   }
+  }
+ }
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2535.508 0 3806.281
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{647776E54F5F3190}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 0
+    }
+   }
+   m_bUseSpecifiedDate 1
+   m_iSetYear 2005
+  }
+ }
+ coords 2576.347 0 3830.569
+ m_iFreezeTime 300000
+ {
+  SCR_FactionManager "64775BA06B584BC9" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5977478D568C093C}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{5977478D568C0922}" {
+        m_sCallsign "1"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{5977478D568C092E}" {
+        m_sCallsign "0"
+       }
+       SCR_CallsignInfo "{5977478D568C092D}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{5977478D568D935E}" {
+        m_sCallsign "2"
+       }
+      }
+      m_sCallsignGroupFormat "%1%2%3"
+      m_sCallsignCharacterFormat "%1%2%3: %4"
+      m_sCallsignCharacterWithRoleFormat "%1%2%3: %4"
+     }
+    }
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign "Alpha"
+       }
+       SCR_CallsignInfo "{55CCB792D13759D8}" {
+        m_sCallsign "Bravo"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
+      m_sCallsignCharacterFormat "%3: %4"
+      m_sCallsignCharacterWithRoleFormat "%3: %4"
+     }
+    }
+   }
+  }
+ }
+}
+$grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExtractionTrigger.et" {
+ {
+  coords 1393.886 0.346 3562.671
+  m_queryRadius 30
+  m_flagName "US_EXTRACTED_N"
+  m_factionKey "RHS_USAF"
+  m_ratioThreshold 0.9
+ }
+ {
+  coords 2410.743 62.633 2776.788
+  m_queryRadius 30
+  m_flagName "US_EXTRACTED_E"
+  m_factionKey "RHS_USAF"
+  m_ratioThreshold 0.9
+ }
+ {
+  coords 1930.01 1.684 1816.114
+  m_queryRadius 30
+  m_flagName "US_EXTRACTED_S"
+  m_factionKey "RHS_USAF"
+  m_ratioThreshold 0.9
+ }
+ {
+  coords 709.361 0.313 2168.686
+  m_queryRadius 30
+  m_flagName "US_EXTRACTED_W"
+  m_factionKey "RHS_USAF"
+  m_ratioThreshold 0.9
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 3262.92 2.186 2866.66
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   Enabled 0
+  }
+  TILW_CoverMapComponent "{6473480FCAB7760B}" {
+   Enabled 1
+   m_ratioWidth 1
+  }
+ }
+ coords 364.31 0 3285.869
+ Points {
+  ShapePoint "{64775BA1FA9CBD95}" {
+   Position 231.709 0 -1866.205
+  }
+  ShapePoint "{64775BA1F66ABBCB}" {
+   Position 18.913 0 -224.473
+  }
+  ShapePoint "{64775BA1CCC5221C}" {
+   Position 2124.415 0 293.876
+  }
+  ShapePoint "{64775BA1CE130FB7}" {
+   Position 2260.779 0 -1156.247
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 2550.572 0 3836.69
+ m_missionEvents {
+  TILW_MissionEvent "{6476F699AF9CF6F5}" {
+   m_name "OBJ_1_ACTIVE"
+   m_instructions {
+    TILW_EditMapItemInstruction "{6476F691A84E90F1}" {
+     m_itemNames {
+      "OBJ_1_MARKER"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+      }
+     }
+     m_visibleForEmpty 1
+    }
+    TILW_EditMapItemInstruction "{6476F69663BF6200}" {
+     m_itemNames {
+      "OBJ_1_MARKER2"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+    TILW_EditMapItemInstruction "{6476F6964EC04C76}" {
+     m_itemNames {
+      "OBJ_1_BRIEF"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F6964B337ACC}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6476F699A4EDAB07}" {
+    m_flagName "OBJ_1_ACTIVE"
+   }
+   m_pregameEvent 1
+  }
+  TILW_MissionEvent "{6476F69622A43C70}" {
+   m_name "OBJ_2_ACTIVE"
+   m_instructions {
+    TILW_EditMapItemInstruction "{6476F691A84E90F1}" {
+     m_itemNames {
+      "OBJ_2_MARKER"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+      }
+     }
+     m_visibleForEmpty 1
+    }
+    TILW_EditMapItemInstruction "{6476F69663BF6200}" {
+     m_itemNames {
+      "OBJ_2_MARKER2"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+    TILW_EditMapItemInstruction "{6476F6964EC04C76}" {
+     m_itemNames {
+      "OBJ_2_BRIEF"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F6964B337ACC}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6476F699A4EDAB07}" {
+    m_flagName "OBJ_2_ACTIVE"
+   }
+   m_pregameEvent 1
+  }
+  TILW_MissionEvent "{6476F69630B71784}" {
+   m_name "OBJ_3_ACTIVE"
+   m_instructions {
+    TILW_EditMapItemInstruction "{6476F691A84E90F1}" {
+     m_itemNames {
+      "OBJ_3_MARKER"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+      }
+     }
+     m_visibleForEmpty 1
+    }
+    TILW_EditMapItemInstruction "{6476F69663BF6200}" {
+     m_itemNames {
+      "OBJ_3_MARKER2"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+    TILW_EditMapItemInstruction "{6476F6964EC04C76}" {
+     m_itemNames {
+      "OBJ_3_BRIEF"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F6964B337ACC}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6476F699A4EDAB07}" {
+    m_flagName "OBJ_3_ACTIVE"
+   }
+   m_pregameEvent 1
+  }
+  TILW_MissionEvent "{6476F6960461CB99}" {
+   m_name "OBJ_4_ACTIVE"
+   m_instructions {
+    TILW_EditMapItemInstruction "{6476F691A84E90F1}" {
+     m_itemNames {
+      "OBJ_4_MARKER"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+      }
+     }
+     m_visibleForEmpty 1
+    }
+    TILW_EditMapItemInstruction "{6476F69663BF6200}" {
+     m_itemNames {
+      "OBJ_4_MARKER2"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+    TILW_EditMapItemInstruction "{6476F6964EC04C76}" {
+     m_itemNames {
+      "OBJ_4_BRIEF"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F6964B337ACC}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6476F699A4EDAB07}" {
+    m_flagName "OBJ_4_ACTIVE"
+   }
+   m_pregameEvent 1
+  }
+  TILW_MissionEvent "{6476F696F599E3CE}" {
+   m_name "OBJ_5_ACTIVE"
+   m_instructions {
+    TILW_EditMapItemInstruction "{6476F691A84E90F1}" {
+     m_itemNames {
+      "OBJ_5_MARKER"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+      }
+     }
+     m_visibleForEmpty 1
+    }
+    TILW_EditMapItemInstruction "{6476F69663BF6200}" {
+     m_itemNames {
+      "OBJ_5_MARKER2"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+    TILW_EditMapItemInstruction "{6476F6964EC04C76}" {
+     m_itemNames {
+      "OBJ_5_BRIEF"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F6964B337ACC}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6476F699A4EDAB07}" {
+    m_flagName "OBJ_5_ACTIVE"
+   }
+   m_pregameEvent 1
+  }
+  TILW_MissionEvent "{6476F696F573BEEB}" {
+   m_name "OBJ_6_ACTIVE"
+   m_instructions {
+    TILW_EditMapItemInstruction "{6476F691A84E90F1}" {
+     m_itemNames {
+      "OBJ_6_MARKER"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+      }
+     }
+     m_visibleForEmpty 1
+    }
+    TILW_EditMapItemInstruction "{6476F69663BF6200}" {
+     m_itemNames {
+      "OBJ_6_MARKER2"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+    TILW_EditMapItemInstruction "{6476F6964EC04C76}" {
+     m_itemNames {
+      "OBJ_6_BRIEF"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F6964B337ACC}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6476F699A4EDAB07}" {
+    m_flagName "OBJ_6_ACTIVE"
+   }
+   m_pregameEvent 1
+  }
+  TILW_MissionEvent "{6476F696F550D7D2}" {
+   m_name "OBJ_7_ACTIVE"
+   m_instructions {
+    TILW_EditMapItemInstruction "{6476F691A84E90F1}" {
+     m_itemNames {
+      "OBJ_7_MARKER"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+      }
+     }
+     m_visibleForEmpty 1
+    }
+    TILW_EditMapItemInstruction "{6476F69663BF6200}" {
+     m_itemNames {
+      "OBJ_7_MARKER2"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F691A41653B8}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+    TILW_EditMapItemInstruction "{6476F6964EC04C76}" {
+     m_itemNames {
+      "OBJ_7_BRIEF"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6476F6964B337ACC}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6476F699A4EDAB07}" {
+    m_flagName "OBJ_7_ACTIVE"
+   }
+   m_pregameEvent 1
+  }
+  TILW_MissionEvent "{6476F696A2164537}" {
+   m_name "OBJECTIVES_COMPLETE"
+   m_instructions {
+    TILW_SetFlagInstruction "{6476F696B15E4477}" {
+     m_flagName "OBJECTIVES_COMPLETE"
+    }
+   }
+   m_condition TILW_MinjunctionTerm "{6476F69689645910}" {
+    m_operands {
+     TILW_ConjunctionTerm "{6476F696878F9A1D}" {
+      m_operands {
+       TILW_LiteralTerm "{6476F69681EE72EF}" {
+        m_flagName "OBJ_1_ACTIVE"
+       }
+       TILW_LiteralTerm "{6476F69682C3018F}" {
+        m_flagName "OBJ_1_KIA"
+       }
+      }
+     }
+     TILW_ConjunctionTerm "{6476F69695D3D2C0}" {
+      m_operands {
+       TILW_LiteralTerm "{6476F69681EE72EF}" {
+        m_flagName "OBJ_2_ACTIVE"
+       }
+       TILW_LiteralTerm "{6476F69682C3018F}" {
+        m_flagName "OBJ_2_KIA"
+       }
+      }
+     }
+     TILW_ConjunctionTerm "{6476F696926B20A7}" {
+      m_operands {
+       TILW_LiteralTerm "{6476F69681EE72EF}" {
+        m_flagName "OBJ_3_ACTIVE"
+       }
+       TILW_LiteralTerm "{6476F69682C3018F}" {
+        m_flagName "OBJ_3_DONE"
+       }
+      }
+     }
+     TILW_ConjunctionTerm "{6476F697680B996E}" {
+      m_operands {
+       TILW_LiteralTerm "{6476F69681EE72EF}" {
+        m_flagName "OBJ_1_ACTIVE"
+       }
+       TILW_LiteralTerm "{6476F69682C3018F}" {
+        m_flagName "OBJ_4_DONE"
+       }
+      }
+     }
+     TILW_ConjunctionTerm "{6476F6975E39ED95}" {
+      m_operands {
+       TILW_LiteralTerm "{6476F69681EE72EF}" {
+        m_flagName "OBJ_5_ACTIVE"
+       }
+       TILW_LiteralTerm "{6476F69682C3018F}" {
+        m_flagName "OBJ_5_KIA"
+       }
+      }
+     }
+     TILW_ConjunctionTerm "{6476F6975B08F049}" {
+      m_operands {
+       TILW_LiteralTerm "{6476F69681EE72EF}" {
+        m_flagName "OBJ_6_ACTIVE"
+       }
+       TILW_LiteralTerm "{6476F69682C3018F}" {
+        m_flagName "OBJ_6_KIA"
+       }
+      }
+     }
+     TILW_ConjunctionTerm "{6476F69751A045B4}" {
+      m_operands {
+       TILW_LiteralTerm "{6476F69681EE72EF}" {
+        m_flagName "OBJ_7_ACTIVE"
+       }
+       TILW_LiteralTerm "{6476F69682C3018F}" {
+        m_flagName "OBJ_7_KIA"
+       }
+      }
+     }
+    }
+    m_minTrue 3
+   }
+  }
+  TILW_MissionEvent "{6476F69703FF9622}" {
+   m_name "US_VICTORY"
+   m_instructions {
+    TILW_SendMessageInstruction "{647748CA7826232F}" {
+     m_messageTitle "AMERICAN VICTORY"
+     m_messageBody "The CIA team completed their objectives and have extracted."
+    }
+    TILW_EndGameInstruction "{647748C58450BA68}" {
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{647748CA665ACDC5}" {
+    m_operands {
+     TILW_ConjunctionTerm "{647748CA2604D009}" {
+      m_operands {
+       TILW_LiteralTerm "{647748CA22C56FAB}" {
+        m_flagName "OBJECTIVES_COMPLETE"
+       }
+       TILW_DisjunctionTerm "{647748CA3DB5B9A9}" {
+        m_operands {
+         TILW_LiteralTerm "{647748CA5545A132}" {
+          m_flagName "US_EXTRACTED_N"
+         }
+         TILW_LiteralTerm "{647748CA2EA3766B}" {
+          m_flagName "US_EXTRACTED_W"
+         }
+         TILW_LiteralTerm "{647748CA282F81D0}" {
+          m_flagName "US_EXTRACTED_S"
+         }
+         TILW_LiteralTerm "{64775BA46CF4FF6D}" {
+          m_flagName "US_EXTRACTED_E"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6476F69711164E84}" {
+   m_name "RU_KIA"
+   m_instructions {
+    TILW_SendMessageInstruction "{6476F6947480C15E}" {
+     m_messageTitle "AMERICAN VICTORY"
+     m_messageBody "The guards have been wiped out by the CIA team, giving them free reign over the base."
+    }
+    TILW_EndGameInstruction "{6476F6944DC06FF7}" {
+     m_executionDelay 15
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6476F6947C7BF9D4}" {
+    m_flagName "RU_KIA"
+   }
+  }
+  TILW_MissionEvent "{6476F69719483951}" {
+   m_name "US_KIA"
+   m_instructions {
+    TILW_SendMessageInstruction "{6476F6947480C15E}" {
+     m_messageTitle "RUSSIAN VICTORY"
+     m_messageBody "The CIA team has taken significant casualties."
+    }
+    TILW_EndGameInstruction "{6476F6944DC06FF7}" {
+     m_executionDelay 15
+     m_factionKey "RHS_AFRF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6476F6947C7BF9D4}" {
+    m_flagName "US_KIA"
+   }
+  }
+  TILW_MissionEvent "{6476F69714718A1B}" {
+   m_name "TIME_LIMIT"
+   m_instructions {
+    TILW_SendMessageInstruction "{6476F69452D41857}" {
+     m_executionDelay 4805
+     m_messageTitle "RUSSIAN VICTORY"
+     m_messageBody "Time limit reached. The window for the CIA team's operation has closed."
+    }
+    TILW_EndGameInstruction "{6476F6940C80F5DC}" {
+     m_executionDelay 4815
+     m_factionKey "RHS_AFRF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6476F6945B0D2475}" {
+    m_invertTerm 1
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6476D650F85F47BD}" {
+   m_flagName "US_KIA"
+   m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{6476D650F4EA8FEE}" {
+   m_flagName "RU_KIA"
+   m_factionKey "RHS_AFRF"
+  }
+ }
+ m_randomFlags {
+  TILW_FlagSampling "{6476F6997CC9E32A}" {
+   m_flagNames {
+    "OBJ_1_ACTIVE" "OBJ_2_ACTIVE" "OBJ_3_ACTIVE" "OBJ_4_ACTIVE" "OBJ_5_ACTIVE" "OBJ_6_ACTIVE" "OBJ_7_ACTIVE"
+   }
+   m_k 3
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 1402.236 44.761 2602.287
+ m_fWarnRadius 575
+ m_fZoneRadius 600
+ m_fZoneTeleportedRadius 650
+}

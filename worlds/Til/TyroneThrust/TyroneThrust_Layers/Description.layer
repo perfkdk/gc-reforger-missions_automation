@@ -67,7 +67,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Notes"
   m_sTextData "- The mission ends when:"\
   "  a) Tyrone is 100% clear of FIA"\
-  "  b) All Russians are dead"\
+  "  b) 90% Russian casualties"\
   "  c) Time limit is reached after 45m"\
   "- Time: 14:30"\
   "- Weather: Clear"\

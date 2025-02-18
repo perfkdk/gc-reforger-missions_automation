@@ -97,6 +97,7 @@ PolylineShapeEntity AOLimit_AFRF : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW
    m_factionKeys {
     "RHS_AFRF"
    }
+   m_visibility ALL
   }
  }
  coords 1639.343 1.653 4062.713
@@ -117,336 +118,13 @@ PolylineShapeEntity AOLimit_AFRF : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW
  }
  LineColor 0 0 0 0
  {
-  PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
-   coords 0 0 0
-   Flags 1048579
-   {
-    $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
-     {
-      coords 0 6.222 -550
-      angleY 98
-     }
-     {
-      coords 50 7.181 -550
-      angleY 98
-     }
-     {
-      coords 100 7.816 -550
-      angleY 98
-     }
-     {
-      coords 150 7.45 -550
-      angleY 98
-     }
-     {
-      coords 200 7.97 -550
-      angleY 98
-     }
-     {
-      coords 250 8.441 -550
-      angleY 98
-     }
-     {
-      coords 300 8.338 -550
-      angleY 98
-     }
-     {
-      coords 350 8.994 -550
-      angleY 98
-     }
-     {
-      coords 400 9.889 -550
-      angleY 98
-     }
-     {
-      coords 450 10.638 -550
-      angleY 98
-     }
-     {
-      coords 500 11.017 -550
-      angleY 98
-     }
-     {
-      coords 550 12.132 -550
-      angleY 98
-     }
-     {
-      coords 600 13.054 -550
-      angleY 98
-     }
-     {
-      coords 650 14.288 -550
-      angleY 98
-     }
-     {
-      coords 700 1.145 -550
-      angleY 98
-     }
-     {
-      coords 750 1.004 -550
-      angleY 98
-     }
-     {
-      coords 800 10.656 -550
-      angleY 98
-     }
-     {
-      coords 850 17.871 -550
-      angleY 98
-     }
-     {
-      coords 900 9.326 -550
-      angleY 98
-     }
-     {
-      coords 950 12.361 -550
-      angleY 98
-     }
-     {
-      coords 1000 18.915 -550
-      angleY 98
-     }
-     {
-      coords 1050 20.433 -550
-      angleY 98
-     }
-     {
-      coords 1100 20.946 -550
-      angleY 98
-     }
-     {
-      coords 1150 20.173 -550
-      angleY 98
-     }
-     {
-      coords 1200 22.122 -550
-      angleY 98
-     }
-     {
-      coords 1250 22.935 -550
-      angleY 98
-     }
-     {
-      coords 1300 23.043 -550
-      angleY 98
-     }
-     {
-      coords 1350 23.747 -550
-      angleY 98
-     }
-     {
-      coords 1400 24.199 -550
-      angleY 98
-     }
-     {
-      coords 1400 24.878 -500
-      angleY 8
-     }
-     {
-      coords 1400 25.403 -450
-      angleY 8
-     }
-     {
-      coords 1400 25.847 -400
-      angleY 8
-     }
-     {
-      coords 1400 26.035 -350
-      angleY 8
-     }
-     {
-      coords 1400 26.097 -300
-      angleY 8
-     }
-     {
-      coords 1400 26.151 -250
-      angleY 8
-     }
-     {
-      coords 1400 25.656 -200
-      angleY 8
-     }
-     {
-      coords 1400 24.753 -150
-      angleY 8
-     }
-     {
-      coords 1400 24.754 -100
-      angleY 8
-     }
-     {
-      coords 1400 24.749 -50
-      angleY 8
-     }
-     {
-      coords 1400 23.992 0
-      angleY 8
-     }
-     {
-      coords 1350 24.753 0
-      angleY -82
-     }
-     {
-      coords 1300 23.753 0
-      angleY -82
-     }
-     {
-      coords 1250 24.066 0
-      angleY -82
-     }
-     {
-      coords 1200 24.441 0
-      angleY -82
-     }
-     {
-      coords 1150 24.585 0
-      angleY -82
-     }
-     {
-      coords 1100 24.606 0
-      angleY -82
-     }
-     {
-      coords 1050 24.746 0
-      angleY -82
-     }
-     {
-      coords 1000 24.753 0
-      angleY -82
-     }
-     {
-      coords 950 24.41 0
-      angleY -82
-     }
-     {
-      coords 900 23.944 0
-      angleY -82
-     }
-     {
-      coords 850 23.441 0
-      angleY -82
-     }
-     {
-      coords 800 22.872 0
-      angleY -82
-     }
-     {
-      coords 750 22.784 0
-      angleY -82
-     }
-     {
-      coords 700 22.11 0
-      angleY -82
-     }
-     {
-      coords 650 21.113 0
-      angleY -82
-     }
-     {
-      coords 600 20.017 0
-      angleY -82
-     }
-     {
-      coords 550 18.767 0
-      angleY -82
-     }
-     {
-      coords 500 17.361 0
-      angleY -82
-     }
-     {
-      coords 450 15.61 0
-      angleY -82
-     }
-     {
-      coords 400 13.674 0
-      angleY -82
-     }
-     {
-      coords 350 12.143 0
-      angleY -82
-     }
-     {
-      coords 300 10.612 0
-      angleY -82
-     }
-     {
-      coords 250 9.174 0
-      angleY -82
-     }
-     {
-      coords 200 8.432 0
-      angleY -82
-     }
-     {
-      coords 150 7.472 0
-      angleY -82
-     }
-     {
-      coords 100 6.601 0
-      angleY -82
-     }
-     {
-      coords 50 5.603 0
-      angleY -82
-     }
-     {
-      coords 0 0 0
-      angleY -82
-     }
-     {
-      coords 0 0.483 -50
-      angleY -172
-     }
-     {
-      coords 0 -0.782 -100
-      angleY -172
-     }
-     {
-      coords 0 -0.062 -150
-      angleY -172
-     }
-     {
-      coords 0 1.429 -200
-      angleY -172
-     }
-     {
-      coords 0 4.354 -250
-      angleY -172
-     }
-     {
-      coords 0 6.186 -300
-      angleY -172
-     }
-     {
-      coords 0 7.099 -350
-      angleY -172
-     }
-     {
-      coords 0 7.442 -400
-      angleY -172
-     }
-     {
-      coords 0 7.568 -450
-      angleY -172
-     }
-     {
-      coords 0 6.299 -500
-      angleY -172
-     }
-     {
-      coords 0 6.222 -550
-      angleY -172
-     }
-    }
-   }
-  }
   PolylineShapeEntity AOLimit_CDF : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
    components {
     TILW_AOLimitComponent "{6217617AC21DEB7B}" {
      m_factionKeys {
-      "TF_CDF"
+      "GC_CDF"
      }
+     m_visibility ALL
     }
    }
    Points {
@@ -505,7 +183,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{62F6E92EAF9F1A6D}" {
      m_executionDelay 20
-     m_factionKey "TF_CDF"
+     m_factionKey "GC_CDF"
     }
    }
    m_condition TILW_LiteralTerm "{62F6E92EA7E93838}" {
@@ -527,7 +205,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{62F6E925EEAE451D}" {
      m_executionDelay 2720
-     m_factionKey "TF_CDF"
+     m_factionKey "GC_CDF"
     }
    }
    m_condition TILW_LiteralTerm "{62F6E925E45258AB}" {
@@ -535,7 +213,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_factionPlayersKilledFlags {
+ m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{62F6E92E43557241}" {
    m_flagName "afrf_killed"
    m_factionKey "RHS_AFRF"

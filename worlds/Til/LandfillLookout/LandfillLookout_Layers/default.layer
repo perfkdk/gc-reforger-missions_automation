@@ -26,7 +26,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  }
  m_iFreezeTime 120
  {
-  SCR_FactionManager {
+  SCR_FactionManager "6476F5B6FB3715A5" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
@@ -62,6 +62,11 @@ $grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/Restri
  }
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_visibility ALL
+  }
+ }
  coords 5198.497 36.054 10040.961
  angleY -10
  Points {
@@ -79,288 +84,6 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   }
  }
  LineColor 0 0 0 0
- {
-  PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
-   coords 0 0 0
-   Flags 1048579
-   {
-    $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
-     {
-      coords 750 -14.678 0
-      angleY 10
-     }
-     {
-      coords 750 -20.632 50
-      angleY 10
-     }
-     {
-      coords 750 -25.538 100
-      angleY 10
-     }
-     {
-      coords 750 -27.82 150
-      angleY 10
-     }
-     {
-      coords 750 -23.089 200.001
-      angleY 10
-     }
-     {
-      coords 750 -13.191 250
-      angleY 10
-     }
-     {
-      coords 750 -8.83 300
-      angleY 10
-     }
-     {
-      coords 750 -6.712 350
-      angleY 10
-     }
-     {
-      coords 750 -13.196 400
-      angleY 10
-     }
-     {
-      coords 750 -19.878 450
-      angleY 10
-     }
-     {
-      coords 750 -32.211 500
-      angleY 10
-     }
-     {
-      coords 750 -35.012 550.001
-      angleY 10
-     }
-     {
-      coords 750 -35.559 600.001
-      angleY 10
-     }
-     {
-      coords 750 -34.992 650
-      angleY 10
-     }
-     {
-      coords 750 -34.781 700
-      angleY 10
-     }
-     {
-      coords 750 -34.774 750
-      angleY 10
-     }
-     {
-      coords 750 -34.49 800
-      angleY 10
-     }
-     {
-      coords 750 -34.068 850
-      angleY 10
-     }
-     {
-      coords 750 -35.21 900.001
-      angleY 10
-     }
-     {
-      coords 750 -35.335 950.001
-      angleY -80
-     }
-     {
-      coords 700 -35.13 950
-      angleY -80
-     }
-     {
-      coords 650 -30.862 950
-      angleY -80
-     }
-     {
-      coords 600 -24.596 950
-      angleY -80
-     }
-     {
-      coords 550 -14.801 950.001
-      angleY -80
-     }
-     {
-      coords 500 -3.992 950
-      angleY -80
-     }
-     {
-      coords 450 1.225 950
-      angleY -80
-     }
-     {
-      coords 399.999 6.125 950
-      angleY -80
-     }
-     {
-      coords 349.999 6.456 950
-      angleY -80
-     }
-     {
-      coords 300 9.61 950
-      angleY -80
-     }
-     {
-      coords 250 13.488 950
-      angleY -80
-     }
-     {
-      coords 200 3.08 950
-      angleY -80
-     }
-     {
-      coords 150 -1.465 950
-      angleY -80
-     }
-     {
-      coords 100 -3.534 950.001
-      angleY -80
-     }
-     {
-      coords 50 -4.822 950.001
-      angleY -80
-     }
-     {
-      coords 0 -3.535 950
-      angleY -170
-     }
-     {
-      coords 0 -5.719 900.001
-      angleY -170
-     }
-     {
-      coords 0 -7.834 850
-      angleY -170
-     }
-     {
-      coords 0 -8.335 800
-      angleY -170
-     }
-     {
-      coords 0 -5.441 750
-      angleY -170
-     }
-     {
-      coords 0 -2.979 700
-      angleY -170
-     }
-     {
-      coords 0 4.914 650
-      angleY -170
-     }
-     {
-      coords 0 4.338 600
-      angleY -170
-     }
-     {
-      coords 0 1.686 550
-      angleY -170
-     }
-     {
-      coords 0 0.299 500
-      angleY -170
-     }
-     {
-      coords 0 3.752 450
-      angleY -170
-     }
-     {
-      coords 0 3.647 400
-      angleY -170
-     }
-     {
-      coords 0 1.713 350
-      angleY -170
-     }
-     {
-      coords 0 -0.616 300
-      angleY -170
-     }
-     {
-      coords 0 -2.736 250
-      angleY -170
-     }
-     {
-      coords 0 -5.494 200
-      angleY -170
-     }
-     {
-      coords 0 -6.981 150
-      angleY -170
-     }
-     {
-      coords 0 -9.194 100
-      angleY -170
-     }
-     {
-      coords 0 -8.961 50
-      angleY -170
-     }
-     {
-      coords 0 -9.616 0
-      angleY 100
-     }
-     {
-      coords 50 -11.904 0
-      angleY 100
-     }
-     {
-      coords 100 -14.656 0
-      angleY 100
-     }
-     {
-      coords 150 -17.972 0
-      angleY 100
-     }
-     {
-      coords 200 -20.228 0
-      angleY 100
-     }
-     {
-      coords 250 -20.65 0
-      angleY 100
-     }
-     {
-      coords 300 -16.852 0.001
-      angleY 100
-     }
-     {
-      coords 350 -14.655 0.001
-      angleY 100
-     }
-     {
-      coords 400 -11.832 -0.001
-      angleY 100
-     }
-     {
-      coords 450 -9.613 -0.001
-      angleY 100
-     }
-     {
-      coords 500 -8.925 0
-      angleY 100
-     }
-     {
-      coords 550 -7.052 0
-      angleY 100
-     }
-     {
-      coords 600 -7.653 -0.001
-      angleY 100
-     }
-     {
-      coords 650 -7.717 0
-      angleY 100
-     }
-     {
-      coords 700 -10.472 0
-      angleY 100
-     }
-    }
-   }
-  }
- }
 }
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
  coords 5344.022 52.281 10917.808
@@ -437,7 +160,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_factionPlayersKilledFlags {
+ m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{61FB3D0FEF879554}" {
    m_flagName "RU_KILLED"
    m_factionKey "RHS_AFRF"

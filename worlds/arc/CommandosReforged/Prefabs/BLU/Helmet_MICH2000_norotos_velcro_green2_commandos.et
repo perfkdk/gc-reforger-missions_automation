@@ -1,0 +1,15 @@
+GameEntity : "{2DC5B750CBAA9337}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_velcro_green2.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{244A6A1121439AAC}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_base.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
+    }
+   }
+  }
+ }
+}
