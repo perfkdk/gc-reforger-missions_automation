@@ -5,7 +5,7 @@ GenericEntity : "{96DFD2E7E63B3386}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N.et" {
    components {
     AttachmentSlotComponent "{51F6738D2EC74BE1}" {
      AttachmentSlot InventoryStorageSlot underbarrel {
-      Prefab "{61CFB0B4F1FCFCD0}worlds/FSM/Prefabs/Weapons/Attachments/Underbarrel/FSM_UGL_GP25.et"
+      Prefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
      }
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
@@ -18,5 +18,5 @@ GenericEntity : "{96DFD2E7E63B3386}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N.et" {
    }
   }
  }
- coords 3617.791 28.378 3472.675
+ coords 2305.028 17.299 3733.243
 }

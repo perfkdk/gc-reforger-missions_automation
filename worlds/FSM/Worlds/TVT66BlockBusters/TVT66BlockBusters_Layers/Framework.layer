@@ -233,6 +233,19 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bEmptyFactionVisibility 1
   m_iOrder 0
  }
+ {
+  coords 2924.336 215.172 13081.195
+  m_sTitle "End Conditions"
+  m_sTextData "End Conditions:"\
+  "Canadians takes 90% casualties, Russian victory. Mission will end in 3 minutes or a GM can end it prior."\
+  "Separatists take 100% Casualties, Canadian Victory. Mission will end instantly."\
+  "Canadians captures the objective, Canadian victory. Mission will end instantly."\
+  ""\
+  "Note for people like BoomerX. If you are the defending team CO and you don't defend the objective, you are going against the mission statement. You don't need to be on the objective but the mission will end instantly the US captures the objective. If a GM or admin sees BoomerX about to do a BoomerX thing and waste an hour of everyones life, please take action within reason."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 8
+ }
 }
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  {
@@ -340,7 +353,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{64900915CFFC9CD1}" {
      m_executionDelay 1
      m_messageTitle "Canadians have taken too many Casualties"
-     m_messageBody "Canadians lose, mission will end in 120 seconds or GMs can end it"
+     m_messageBody "Canadians lose, mission will end in 3 minutes or GMs can end it"
     }
    }
    m_condition TILW_LiteralTerm "{64605037749AD5B6}" {
@@ -374,12 +387,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{64A047FD08B987FC}" {
    m_flagName "Blufor Killed"
    m_factionKey "US"
-   m_casualtyRatio 0.85
+   m_casualtyRatio 0.9
   }
   TILW_FactionPlayersKilledFlag "{64A047FD09D0EEA1}" {
    m_flagName "OPFOR Killed"
    m_factionKey "GC_SEPARATIST"
-   m_casualtyRatio 0.92
   }
  }
 }

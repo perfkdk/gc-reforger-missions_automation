@@ -40,7 +40,15 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
    WeaponSlotIndex 0
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Prefab ""
+   }
    WeaponSlotIndex 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
+    Prefab ""
+   }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -123,7 +131,7 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{647C3233A15F7D04}" {
      TargetStorage "worlds/FSM/Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Invisible_Backpack.et"
      PrefabsToSpawn {
-      "{302005EDB5AAB4D5}worlds/FSM/Prefabs/Weapons/Explosives/DemoBlock_M112/FSM_DemoBlock_M112.et" "{302005EDB5AAB4D5}worlds/FSM/Prefabs/Weapons/Explosives/DemoBlock_M112/FSM_DemoBlock_M112.et" "{302005EDB5AAB4D5}worlds/FSM/Prefabs/Weapons/Explosives/DemoBlock_M112/FSM_DemoBlock_M112.et" "{302005EDB5AAB4D5}worlds/FSM/Prefabs/Weapons/Explosives/DemoBlock_M112/FSM_DemoBlock_M112.et" "{D098CA2A22277571}worlds/FSM/Prefabs/Items/Demining/MineFlags/FSM_MineFlag_US.et" "{D098CA2A22277571}worlds/FSM/Prefabs/Items/Demining/MineFlags/FSM_MineFlag_US.et" "{D098CA2A22277571}worlds/FSM/Prefabs/Items/Demining/MineFlags/FSM_MineFlag_US.et" "{D098CA2A22277571}worlds/FSM/Prefabs/Items/Demining/MineFlags/FSM_MineFlag_US.et" "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{D3901CE855D0478B}worlds/FSM/Prefabs/Items/Equipment/Accessories/ETool_ALICE/FSM_ETool_ALICE_FreeRoamBuilding_Gadget.et" "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et" "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      "{302005EDB5AAB4D5}worlds/FSM/Prefabs/Weapons/Explosives/DemoBlock_M112/FSM_DemoBlock_M112.et" "{302005EDB5AAB4D5}worlds/FSM/Prefabs/Weapons/Explosives/DemoBlock_M112/FSM_DemoBlock_M112.et" "{302005EDB5AAB4D5}worlds/FSM/Prefabs/Weapons/Explosives/DemoBlock_M112/FSM_DemoBlock_M112.et" "{302005EDB5AAB4D5}worlds/FSM/Prefabs/Weapons/Explosives/DemoBlock_M112/FSM_DemoBlock_M112.et" "{D098CA2A22277571}worlds/FSM/Prefabs/Items/Demining/MineFlags/FSM_MineFlag_US.et" "{D098CA2A22277571}worlds/FSM/Prefabs/Items/Demining/MineFlags/FSM_MineFlag_US.et" "{D098CA2A22277571}worlds/FSM/Prefabs/Items/Demining/MineFlags/FSM_MineFlag_US.et" "{D098CA2A22277571}worlds/FSM/Prefabs/Items/Demining/MineFlags/FSM_MineFlag_US.et" "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{D3901CE855D0478B}worlds/FSM/Prefabs/Items/Equipment/Accessories/ETool_ALICE/FSM_ETool_ALICE_FreeRoamBuilding_Gadget.et" "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et" "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et" "{ABE212A038EC771D}Prefabs/Weapons/GMFX/MineDetector/GMFX_Handgun_MineSweeper.et"
      }
     }
     ItemsInitConfigurationItem "{647C3233A15F7D06}" {
@@ -136,5 +144,5 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 5220.388 57.549 5863.297
+ coords 5429.918 80.885 5760.663
 }

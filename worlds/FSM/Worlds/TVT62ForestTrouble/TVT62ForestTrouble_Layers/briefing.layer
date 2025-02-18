@@ -129,4 +129,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bEmptyFactionVisibility 1
   m_iOrder 0
  }
+ {
+  coords 2038.82 18.284 3340.131
+  m_sTitle "End Conditions"
+  m_sTextData "End Conditions:"\
+  "US takes 85% casualties, Russian victory. Mission will end in 3 minutes or a GM can end it prior."\
+  "Russians take 90% Casualties, US Victory. Mission will end instantly."\
+  "US Captures the objective, US victory. Mission will end instantly."\
+  ""\
+  "Note for people like BoomerX. If you are the defending team CO and you don't defend the objective, you are going against the mission statement. You don't need to be on the objective but the mission will end instantly the US captures the objective. If a GM or admin sees BoomerX about to do a BoomerX thing and waste an hour of everyones life, please take action within reason."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 8
+ }
 }
