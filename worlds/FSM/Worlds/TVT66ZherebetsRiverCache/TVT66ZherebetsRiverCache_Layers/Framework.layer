@@ -113,7 +113,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Situation"
   m_sTextData "There has been heavy separatist activity in the area. We have been informed by a reliable source that there is a separatist camp located on the island on the Zherebets river. We have been tasked with doing a dawn raid on the island to destroy any enemy combatants and any cashes on the island. "\
   ""\
-  "The time is 0600"
+  "The time is 0600"\
+  ""\
+  ""\
+  "Note: The island might not currently be visible on the map"
   m_aVisibleForFactions {
    "US"
   }
@@ -190,7 +193,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Situation"
   m_sTextData "The Canadians have been spotted by the locals to our east and are coming towards our camp. We must set up in defensive positions and prepare for the attack. "\
   ""\
-  ""
+  ""\
+  "Note: The island might not currently be visible on the map"
   m_aVisibleForFactions {
    "GC_SEPARATIST"
   }
@@ -352,7 +356,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{64900917B7ABC2C6}" {
    m_name "Blufor Wins"
    m_instructions {
+    TILW_SendMessageInstruction "{64A4F12C9B884DA0}" {
+     m_messageTitle "CA Victory"
+     m_messageBody "The CAF eliminated all separatists."
+    }
     TILW_EndGameInstruction "{6490091469B3C8AF}" {
+     m_executionDelay 15
      m_factionKey "US"
     }
    }
@@ -363,7 +372,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{648D554FA91F1150}" {
    m_name "Blufor Wins"
    m_instructions {
+    TILW_SendMessageInstruction "{64A4F12C87219C06}" {
+     m_messageTitle "CA Victory"
+     m_messageBody "The CAF have destroyed the cache."
+    }
     TILW_EndGameInstruction "{648D554F85E86701}" {
+     m_executionDelay 15
      m_factionKey "US"
     }
    }
