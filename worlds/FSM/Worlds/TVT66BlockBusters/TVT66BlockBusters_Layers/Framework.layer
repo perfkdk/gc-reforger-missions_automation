@@ -41,6 +41,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 5382.312 391.26 14595.277
+ m_iFreezeTime 120000
  {
   SCR_FactionManager "6458A52470B178AA" {
    ID "5ED9088735FF2D8B"
@@ -241,6 +242,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Separatists take 100% Casualties, Canadian Victory. Mission will end instantly."\
   "Canadians captures the objective, Canadian victory. Mission will end instantly."\
   ""\
+  "Setup timer: 2 minutes"\
+  ""\
   "Note for people like BoomerX. If you are the defending team CO and you don't defend the objective, you are going against the mission statement. You don't need to be on the objective but the mission will end instantly the US captures the objective. If a GM or admin sees BoomerX about to do a BoomerX thing and waste an hour of everyones life, please take action within reason."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
@@ -335,7 +338,7 @@ TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger
  m_queryRadius 75
  m_captureIterations 6
  m_sendStatusMessages 1
- m_locationName "The Stronghold"
+ m_locationName "the stronghold"
  m_flagName "The Stronghold"
  m_ownerFactionKey "US"
 }
@@ -363,7 +366,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{64900917B7ABC2C6}" {
    m_name "Blufor Wins"
    m_instructions {
+    TILW_SendMessageInstruction "{64A4F12F2711FB79}" {
+     m_messageTitle "CA VICTORY"
+     m_messageBody "The CAF have eliminated all the separatists."
+    }
     TILW_EndGameInstruction "{6490091469B3C8AF}" {
+     m_executionDelay 15
      m_factionKey "US"
     }
    }
@@ -374,7 +382,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{648D554FA91F1150}" {
    m_name "Blufor Wins"
    m_instructions {
+    TILW_SendMessageInstruction "{64A4F12EFFADDD9A}" {
+     m_messageTitle "CA VICTORY"
+     m_messageBody "The CAF have secured the apartment blocks."
+    }
     TILW_EndGameInstruction "{648D554F85E86701}" {
+     m_executionDelay 15
      m_factionKey "US"
     }
    }
@@ -394,6 +407,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_factionKey "GC_SEPARATIST"
   }
  }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 3460.645 271.411 12057.371
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
