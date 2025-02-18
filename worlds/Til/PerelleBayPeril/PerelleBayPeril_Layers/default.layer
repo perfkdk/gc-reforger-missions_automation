@@ -69,6 +69,11 @@ PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupF
  m_sDescription "Your location"
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_visibility ALL
+  }
+ }
  coords 8931.953 51.602 5204.292
  angleY 55
  Points {
@@ -86,236 +91,6 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   }
  }
  LineColor 0 0 0 0
- {
-  PrefabGeneratorEntity : "{2566B9813575CF40}Prefabs/WEGenerators/Markers/PG_MarkerGenerator_AOLimit_Base.et" {
-   coords 0 0 0
-   Flags 1048579
-   {
-    $grp PS_ManualMarker : "{93C2F8BDFF146CB8}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_Base.et" {
-     {
-      coords 500 -2.069 0
-      angleY -55
-     }
-     {
-      coords 500 -17.326 50
-      angleY -55
-     }
-     {
-      coords 500 -19.532 100
-      angleY -55
-     }
-     {
-      coords 500 -20.161 150
-      angleY -55
-     }
-     {
-      coords 500 -16.79 200
-      angleY -55
-     }
-     {
-      coords 500 -13.667 250
-      angleY -55
-     }
-     {
-      coords 499.999 -12.432 299.999
-      angleY -55
-     }
-     {
-      coords 500 -13.007 349.999
-      angleY -55
-     }
-     {
-      coords 500 -29.032 400
-      angleY -55
-     }
-     {
-      coords 500 -42.817 450
-      angleY -55
-     }
-     {
-      coords 500 -48.029 500
-      angleY -55
-     }
-     {
-      coords 500 -48.021 550
-      angleY -55
-     }
-     {
-      coords 500 -46.231 600
-      angleY -55
-     }
-     {
-      coords 500 -52.079 649.999
-      angleY -55
-     }
-     {
-      coords 500 -54.477 700
-      angleY -55
-     }
-     {
-      coords 500 -54.784 750
-      angleY -55
-     }
-     {
-      coords 500 -58.269 800
-      angleY -55
-     }
-     {
-      coords 500 -61.937 850
-      angleY -145
-     }
-     {
-      coords 450 -59.322 850
-      angleY -145
-     }
-     {
-      coords 400 -55.989 850
-      angleY -145
-     }
-     {
-      coords 350 -58.478 850
-      angleY -145
-     }
-     {
-      coords 300 -56.83 850
-      angleY -145
-     }
-     {
-      coords 250 -60.451 850
-      angleY -145
-     }
-     {
-      coords 200 -62.071 850
-      angleY -145
-     }
-     {
-      coords 150 -60.377 850
-      angleY -145
-     }
-     {
-      coords 100 -60.931 850
-      angleY -145
-     }
-     {
-      coords 50 -63.772 850
-      angleY -145
-     }
-     {
-      coords 0 -64.627 850
-      angleY -145
-     }
-     {
-      coords 0 -62.019 800
-      angleY 125
-     }
-     {
-      coords 0 -71.914 750
-      angleY 125
-     }
-     {
-      coords 0 -77.328 700
-      angleY 125
-     }
-     {
-      coords 0 -66.203 650
-      angleY 125
-     }
-     {
-      coords 0 -62.027 600
-      angleY 125
-     }
-     {
-      coords 0 -58.76 550
-      angleY 125
-     }
-     {
-      coords 0 -57.408 500
-      angleY 125
-     }
-     {
-      coords 0 -56.882 449.999
-      angleY 125
-     }
-     {
-      coords 0 -55.789 400
-      angleY 125
-     }
-     {
-      coords 0 -54.026 350
-      angleY 125
-     }
-     {
-      coords 0 -53.861 299.999
-      angleY 125
-     }
-     {
-      coords 0 -53.812 250
-      angleY 125
-     }
-     {
-      coords 0 -51.458 200
-      angleY 125
-     }
-     {
-      coords 0 -38.016 150
-      angleY 125
-     }
-     {
-      coords 0 -26.086 100
-      angleY 125
-     }
-     {
-      coords 0 -11.099 50
-      angleY 125
-     }
-     {
-      coords 0 -1.761 0
-      angleY 35
-     }
-     {
-      coords 50 10.172 0
-      angleY 35
-     }
-     {
-      coords 100 8.493 0
-      angleY 35
-     }
-     {
-      coords 150 19.588 0
-      angleY 35
-     }
-     {
-      coords 200 1.201 0
-      angleY 35
-     }
-     {
-      coords 250 -8.857 0
-      angleY 35
-     }
-     {
-      coords 300 -18.159 0
-      angleY 35
-     }
-     {
-      coords 350 -15.502 0
-      angleY 35
-     }
-     {
-      coords 400 -13.231 0
-      angleY 35
-     }
-     {
-      coords 450 -1.205 0
-      angleY 35
-     }
-     {
-      coords 500 -2.069 0
-      angleY 35
-     }
-    }
-   }
-  }
- }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  m_missionEvents {
@@ -388,10 +163,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_factionPlayersKilledFlags {
+ m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{62672C5BAD73FB81}" {
    m_flagName "PlayersKilled"
    m_factionKey "USSR"
+   m_casualtyRatio 0.9
   }
  }
 }
@@ -400,5 +176,5 @@ PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Object
  angleY 90
  m_sQuadName "circle"
  m_fWorldSize 120
- m_sDescription "Exfil Point"
+ m_sDescription "Extraction Point"
 }

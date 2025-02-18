@@ -1,0 +1,38 @@
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ2 {
+  coords 1439.162 37.779 2683.552
+  angleX 1.99
+  angleY 69.347
+  angleZ 0.206
+ }
+ UAZ3 {
+  coords 1351.712 36.71 2675.791
+  angleX -1.156
+  angleY -110.917
+  angleZ -0.516
+ }
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  coords 1438.813 37.807 2688.778
+  angleX 1.738
+  angleY 76.163
+  angleZ -0.428
+ }
+ Ural4320_transport_covered2 {
+  coords 1437.407 37.806 2694.744
+  angleX 1.952
+  angleY 76.191
+  angleZ 0.442
+ }
+ Ural4320_transport_covered3 {
+  coords 1353.522 36.687 2664.606
+  angleY -104.095
+ }
+ Ural4320_transport_covered4 {
+  coords 1352.087 36.689 2670.566
+  angleX -0.868
+  angleY -104.095
+  angleZ 0.218
+ }
+}
