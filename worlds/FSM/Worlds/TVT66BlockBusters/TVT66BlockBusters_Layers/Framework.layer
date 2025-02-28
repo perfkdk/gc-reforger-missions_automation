@@ -94,6 +94,15 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
       m_sCallsignCharacterWithRoleFormat ""
      }
     }
+    SCR_Faction "{64AA098AEA5B1498}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{64AA098204A61453}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{64B8ED8EAACA8245}" {
+        m_sCallsign "Delta"
+       }
+      }
+     }
+    }
    }
   }
   ItemPreviewManagerEntity "6458A52470B17885" {
@@ -114,7 +123,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "The time is 1800"
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
  }
  {
@@ -123,7 +132,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "About 100 separatists took part in the initial uprising. About 80 of them will killed or captured. There 20 highly motivated separatists left in the train station and apartment block area. They are low on ammo from the day long engagment. "\
   ""
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iOrder 1
  }
@@ -134,7 +143,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "The platoon has also been given 3 demoblocks and clackers to help with block busting. "
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iOrder 2
  }
@@ -145,7 +154,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "1 Platoon will locate and destroy any separatists in and around the apartment block area in order to liberate Novaya Petrovka of all separatist forces. "
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iOrder 3
  }
@@ -162,7 +171,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Platoon Net - 48.00"
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iOrder 5
  }
@@ -171,7 +180,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Service and Support"
   m_sTextData "There are 3 demo blocks and 3 clackers l packs located on a log on the dirt track to the south. These are to help with block busting if needed. "
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iOrder 6
  }
@@ -340,7 +349,7 @@ TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger
  m_sendStatusMessages 1
  m_locationName "the stronghold"
  m_flagName "The Stronghold"
- m_ownerFactionKey "US"
+ m_ownerFactionKey "GC_CAF"
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 4981.904 265.31 13388.536
@@ -351,7 +360,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_EndGameInstruction "{6460503750C4690D}" {
      m_executionDelay 180
      m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "US"
+     m_factionKey "GC_CAF"
     }
     TILW_SendMessageInstruction "{64900915CFFC9CD1}" {
      m_executionDelay 1
@@ -372,7 +381,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{6490091469B3C8AF}" {
      m_executionDelay 15
-     m_factionKey "US"
+     m_factionKey "GC_CAF"
     }
    }
    m_condition TILW_LiteralTerm "{64900917BC1D884A}" {
@@ -388,7 +397,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{648D554F85E86701}" {
      m_executionDelay 15
-     m_factionKey "US"
+     m_factionKey "GC_CAF"
     }
    }
    m_condition TILW_LiteralTerm "{648D554FB6C85703}" {
@@ -399,7 +408,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{64A047FD08B987FC}" {
    m_flagName "Blufor Killed"
-   m_factionKey "US"
+   m_factionKey "GC_CAF"
    m_casualtyRatio 0.9
   }
   TILW_FactionPlayersKilledFlag "{64A047FD09D0EEA1}" {
@@ -421,7 +430,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 99
   m_sDescription "1 Platoon"
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iZOrder 10
  }
@@ -447,7 +456,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 120
   m_sDescription "Separatist Stronghold"
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iZOrder 10
  }
