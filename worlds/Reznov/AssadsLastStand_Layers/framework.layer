@@ -23,6 +23,49 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   SCR_FactionManager "648F202043DF5669" {
    ID "5ED9088735FF2D8B"
    coords 0 0 0
+   Factions {
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     UIInfo SCR_FactionUIInfo "{5CC8B5EDA0CDBD62}" {
+      Name "USMC"
+      Icon "{ED1038E34084270B}UI/Textures/Editor/EditableEntities/Factions/rhs_faction_us_usmc.edds"
+      m_sNameUpper "USMC"
+     }
+     m_bIsPlayable 1
+     m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792CD021D5C}" {
+        m_sCallsign "A"
+       }
+       SCR_CallsignInfo "{55CCB792CCD598D3}" {
+        m_sCallsign "B"
+       }
+       SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
+        m_sCallsign "C"
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE6E998D}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792CE18FB44}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+        m_sCallsign "4"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{64C2FD78FEB75014}" {
+        m_sCallsign "6"
+       }
+      }
+      m_sCallsignGroupFormat "%1-%2-%3"
+     }
+    }
+   }
   }
   SCR_EditorSettingsEntity {
    ID "61B4E967E6C20362"
@@ -74,14 +117,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{64985468213C602F}" {
    m_name "USMC Lose"
    m_instructions {
-    TILW_EndGameInstruction "{64985468C928871B}" {
-     m_executionDelay 15
-     m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "RHS_USAF"
+    TILW_SendMessageInstruction "{64C2FD7C1216B906}" {
+     m_messageTitle "Too many casualties taken!"
+     m_messageBody "Your platoon has sustained 80% casualties, withdraw immediately."
     }
    }
    m_condition TILW_LiteralTerm "{64985468D2F03F4B}" {
-    m_flagName "USMC Have Lost Too Many!"
+    m_flagName "USMC Killed"
    }
   }
   TILW_MissionEvent "{649940ADFDEFFED9}" {
@@ -231,7 +273,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
    m_condition TILW_LiteralTerm "{649D076567627F34}" {
-    m_flagName "90 Minute Time Limit Reached"
+    m_invertTerm 1
    }
   }
   TILW_MissionEvent "{649D074BD91E1743}" {
@@ -412,15 +454,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{649854684E7668AD}" {
    m_flagName "USMC Killed"
    m_factionKey "RHS_USAF"
-   m_casualtyRatio 0.85
-  }
-  TILW_FactionAIKilledFlag "{64985468FC23D5F0}" {
-  }
- }
- m_metaFlags {
-  TILW_MetaFlag "{649D074A2541B200}" {
-   m_definition TILW_LiteralTerm "{649D074A37942792}" {
-   }
+   m_casualtyRatio 0.8
   }
  }
 }

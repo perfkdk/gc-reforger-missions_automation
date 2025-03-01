@@ -25,7 +25,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7064.015 337.787 3654.513
   m_sTitle "Friendly Forces:"
-  m_sTextData "x4 USMC Platoons."\
+  m_sTextData "1x USMC Platoon."\
+  ""\
   "x4 AH6M Littlebirds."\
   "x2 UH-60 Black Hawk"
   m_bShowForAnyFaction 1
@@ -33,7 +34,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7080.444 339.769 3640.361
   m_sTitle "Assads Last Stand"
-  m_sTextData "USMC is tasked searching two compounds in Syria under the cover of darkness, neutralizing Assad and his two sons. x4 Littlebirds, 2 Black Hawks with HEAVY AA."
+  m_sTextData "A USMC force is tasked with searching two compounds in Syria under the cover of darkness, neutralizing Assad and his two sons. x4 Littlebirds, 2 Black Hawks with HEAVY AA."
   m_bEmptyFactionVisibility 1
  }
  {
