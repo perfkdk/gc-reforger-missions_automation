@@ -37,13 +37,22 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
+BLU_PrefabDeleterEntity {
+ coords 6264.479 112.245 5194.554
+ m_fRadius 15
+}
 TILW_ExtractionTriggerEntity BLUFOR_EXTRACTION : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExtractionTrigger.et" {
  coords 6505.136 87.221 5292.806
  m_queryRadius 24.8
  m_flagName "BLUFOR_EXTRACTED"
  m_stopAfterFirstChange 1
- m_factionKey "US"
+ m_factionKey "GC_CAF"
  m_ratioThreshold 0.5
+}
+PS_MissionDescription PREBRIEF : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 5840.399 73.883 4751.609
+ m_sTitle "Before Brief"
+ m_bEmptyFactionVisibility 1
 }
 SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneBase.et" {
  components {
@@ -125,7 +134,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{649528DCFD3982A8}" {
      m_executionDelay 12
-     m_factionKey "US"
+     m_factionKey "GC_CAF"
     }
    }
    m_condition TILW_LiteralTerm "{649528DCCA4253F7}" {
@@ -141,7 +150,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{649528D0F89A8907}" {
      m_executionDelay 12
-     m_factionKey "US"
+     m_factionKey "GC_CAF"
     }
    }
    m_condition TILW_ConjunctionTerm "{6496BAF38D1E8297}" {
@@ -167,7 +176,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{6496BAF4AE7B0F75}" {
      m_executionDelay 12
-     m_factionKey "US"
+     m_factionKey "GC_CAF"
     }
    }
    m_condition TILW_ConjunctionTerm "{649528DFAF911113}" {
@@ -224,7 +233,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 1800
      m_messageTitle "Extract Available"
      m_factionKeys {
-      "US"
+      "GC_CAF"
      }
     }
    }
@@ -241,12 +250,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
   TILW_FactionPlayersKilledFlag "{6496BAF259ED4C90}" {
    m_flagName "BLUFOR_Killed"
-   m_factionKey "US"
+   m_factionKey "GC_CAF"
    m_casualtyRatio 0.8
   }
   TILW_FactionPlayersKilledFlag "{6496BAF57ED3E966}" {
    m_flagName "BLUFOR_KilledA"
-   m_factionKey "US"
+   m_factionKey "GC_CAF"
   }
  }
  m_metaFlags {
