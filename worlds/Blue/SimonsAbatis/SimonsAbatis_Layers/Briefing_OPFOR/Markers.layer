@@ -41,7 +41,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "mine-field"
   m_fWorldSize 100
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "GC_CAF"
   }
  }
  {
@@ -51,7 +51,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "mine-field"
   m_fWorldSize 100
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "GC_CAF"
   }
  }
  {
@@ -61,7 +61,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "mine-field"
   m_fWorldSize 100
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "GC_CAF"
   }
  }
  {
@@ -71,7 +71,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "mine-field"
   m_fWorldSize 100
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "GC_CAF"
   }
  }
  {
@@ -81,7 +81,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "mine-field"
   m_fWorldSize 100
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "GC_CAF"
   }
  }
  {
@@ -91,7 +91,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "mine-field"
   m_fWorldSize 100
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "GC_CAF"
   }
  }
  {

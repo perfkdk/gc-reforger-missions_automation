@@ -33,6 +33,11 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
       Icon "{8C37AA80F865D794}Assets/Characters/Patches/data/patch_Canada_flag_embroidered_BCR.edds"
      }
     }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+    }
+    SCR_Faction "{64AA098AEA5B1498}" {
+     m_iFactionRadioFrequency 40500
+    }
    }
   }
  }
@@ -51,7 +56,11 @@ TILW_ExtractionTriggerEntity BLUFOR_EXTRACTION : "{192ABD6B9232E064}Prefabs/Logi
 }
 PS_MissionDescription PREBRIEF : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  coords 5840.399 73.883 4751.609
- m_sTitle "Before Brief"
+ m_sTitle "Overview"
+ m_sTextData "The scenario represents a Cold War-era hypothetical engagement between a Soviet Motorized Infantry force and a Canadian Infantry unit executing a delaying action in Simon's Wood, a forested terrain."\
+ "Scenario Overview:"\
+ "Setting: A mixed forest and open terrain area (Simon's Wood), representing Central Europe during a NATO-Warsaw Pact conflict."\
+ "Mission: The Soviet Motorized Infantry force is tasked with attacking and clearing a route for follow on forces. The Canadian Infantry force is conducting a delaying action, engaging Soviet forces to slow their advance before retreating to secondary positions."
  m_bEmptyFactionVisibility 1
 }
 SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneBase.et" {
@@ -65,6 +74,12 @@ SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/Restriction
  m_fWarnRadius 50
  m_fZoneRadius 120
  m_fZoneTeleportedRadius 52.4
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+   coords 0 -19.123 0
+  }
+ }
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
@@ -112,8 +127,12 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   }
  }
 }
-TILW_FactionTriggerEntity Crossroad_Capture : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
- coords 6256.806 108.278 5186.793
+TILW_FactionTriggerEntity Crossroad_Capture2 : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+ components {
+  BLU_ProtectDeleteComponent "{64C4A6E6BB5002A2}" {
+  }
+ }
+ coords 6253.14 109.126 5176.617
  m_queryRadius 50.5
  m_captureIterations 30
  m_sendStatusMessages 1
@@ -277,5 +296,4 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_suppressGameEnd 1
 }

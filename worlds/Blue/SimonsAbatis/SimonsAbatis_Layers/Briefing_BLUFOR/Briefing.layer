@@ -1,7 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  BLUFOR1 {
   coords 6354.197 4.957 4513.8
-  m_sTitle "I. SITUATION"
+  m_sTitle "1. SITUATION"
   m_sTextData "a. Enemy Forces"\
   ""\
   "Enemy mechanized infantry units advancing from the west in company strength. Intelligence indicates they have light armored support and reconnaissance elements moving ahead of the main force. Enemy intent is to seize control of Simon’s Woods and secure key roadways leading east."\
@@ -27,12 +27,19 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 6311.682 123.55 5021.056
   m_sTitle "3. EXECUTION"
   m_sTextData "a. Commander’s Intent"\
+  ""\
   "Delay enemy advance by forcing them into pre-prepared engagement zones, utilizing defensive obstacles and ambushes, and then withdrawing in good order to Phase Line Bravo without excessive casualties."\
+  ""\
   "b. Concept of Operations"\
+  ""\
   "Phase 1: Utilize prepared defensive positions, including mines and abatis, to delay and channel the enemy into pre-designated fire zones."\
+  ""\
   "Phase 2 (Fallback to Simon’s Woods): Conduct a fighting withdrawal for 35 minutes with a focus on destruction of enemy vehicles using bounding overwatch, inflicting maximum damage while maintaining cohesion."\
+  ""\
   "Phase 3 (Extraction): Link up with freindly elements from our COY at the extraction point North East of Simon's Woods."\
+  ""\
   "c. Coordinating Instructions"\
+  ""\
   "Primary withdrawal signal: Green flare."\
   "Engaged units will withdraw by bounding elements under cover of supporting fire."\
   "No unit is to withdraw without direct order from platoon command."

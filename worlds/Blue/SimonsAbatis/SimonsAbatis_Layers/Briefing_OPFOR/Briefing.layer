@@ -15,6 +15,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "They are equipped with battle rifles, machineguns, recoiless rifles."\
   "	"\
   "The enemy is attempting to delay our forward elements movement along parallel routes to disrupt and canalize our advance. We expect the enemy to attempt small unit ambushes and delaying actions along the route, they have already ambushed elements our sister company to our north, knocking out one of their BTRs. We expect enemy obstacles along the dirt tracks and roads."\
+  ""\
+  "Forward elements of our COY have identified several enemy AT minefields with in the forrest and roads their approximate location is marked. "\
   "	"\
   "Confirmed enemy locations:"\
   "	"\
@@ -53,7 +55,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  OPFOR4 {
   coords 5732.257 59.473 4559.619
   m_sTitle "MISSION"
-  m_sTextData "311 is to CLEAR along ASR TOYOTA to the east and sieze OP-101."\
+  m_sTextData "311 is to CLEAR along ASR TOYOTA to the east and sieze OP-101. Vehicles are to remain down ASR Toyota due to high risk of vehicles loss deviating from ASR Toyota accordding to forward elements."\
   "	"\
   "Current location:"\
   ""\
@@ -69,7 +71,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "USSR"
   }
-  m_iOrder 4
+  m_iOrder 5
  }
  OPFOR5 {
   coords 6104.934 29.026 4452.398
@@ -89,6 +91,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Temperature: 15°C Low, 26°C High."\
   "	"\
   "Ground conditions: Wet/Muddy, signifigant risk of vehicle immobilization off road in forested areas and difficult terrain."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 6
+ }
+ OPFOR6 {
+  coords 5686.668 70.615 4660.355
+  m_sTitle "SIGNALS"
+  m_sTextData "311 (You) PLT 42.0"\
+  "312 PLT 43.0"\
+  "313 PLT 44.0"
   m_aVisibleForFactions {
    "USSR"
   }
