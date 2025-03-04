@@ -42,10 +42,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-BLU_PrefabDeleterEntity {
- coords 6264.479 112.245 5194.554
- m_fRadius 15
-}
 TILW_ExtractionTriggerEntity BLUFOR_EXTRACTION : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExtractionTrigger.et" {
  coords 6505.136 87.221 5292.806
  m_queryRadius 24.8
@@ -71,7 +67,7 @@ SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/Restriction
   }
  }
  coords 5673.56 88.854 4702.353
- m_fWarnRadius 50
+ m_fWarnRadius 80
  m_fZoneRadius 120
  m_fZoneTeleportedRadius 52.4
  {
@@ -296,4 +292,5 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
+ m_suppressGameEnd 1
 }
