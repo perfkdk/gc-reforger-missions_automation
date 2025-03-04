@@ -3,6 +3,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 5694.257 68.971 4696.826
   angleY 70.051
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "btr_plt"
   m_fWorldSize 40
@@ -14,6 +15,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  {
   coords 6252 131.008 5177.674
   angleY 0
+  m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "retain"
   m_fWorldSize 60
@@ -26,6 +28,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 6169.229 121.754 5095.384
   angleY 70.051
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
   m_MarkerColor 0 0.125 0.502 1
   m_sQuadName "plt_hq"
   m_fWorldSize 40
@@ -37,6 +40,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  {
   coords 5806.629 138.65 5258.046
   angleY 163.273
+  m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
   m_sQuadName "mine-field"
   m_fWorldSize 100
@@ -47,6 +51,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  {
   coords 6114.089 114.1 4859.228
   angleY 143.717
+  m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
   m_sQuadName "mine-field"
   m_fWorldSize 100
@@ -57,6 +62,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  {
   coords 5429.021 -1126.237 5254.778
   angleY 76.954
+  m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
   m_sQuadName "mine-field"
   m_fWorldSize 100
@@ -67,6 +73,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  {
   coords 5985.173 84.788 4743.353
   angleY 168.001
+  m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
   m_sQuadName "mine-field"
   m_fWorldSize 100
@@ -77,6 +84,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  {
   coords 5888.569 78.702 4782.506
   angleY 175.76
+  m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
   m_sQuadName "mine-field"
   m_fWorldSize 100
@@ -87,6 +95,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  {
   coords 5594.155 86.079 5024.306
   angleY 146.508
+  m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
   m_sQuadName "mine-field"
   m_fWorldSize 100
@@ -97,6 +106,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  {
   coords 6029.612 119.401 5062.91
   angleY 168.001
+  m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
   m_sQuadName "dot"
   m_sDescription "ASR Toyota"
@@ -107,6 +117,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  {
   coords 6080.099 120.007 5151.643
   angleY 168.001
+  m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
   m_sQuadName "dot"
   m_sDescription "ASR Porsche"

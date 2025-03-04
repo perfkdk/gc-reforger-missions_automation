@@ -50,8 +50,6 @@ $grp Tree : "{4A162F808614FA14}Prefabs/Vegetation/Tree/t_picea_abies_stump_02.et
  }
  {
   components {
-   BLU_ProtectDeleteComponent "{64B7361B3AACF9E9}" {
-   }
    PK_EntityProtectorComponent "{64C93D2C7B5D4629}" {
    }
   }
@@ -699,45 +697,40 @@ $grp GenericEntity : "{B63D38376558C9DD}PrefabsEditable/Mines/E_Mine_M15AT.et" {
  {
   coords 6095.849 137.617 5115.836
  }
+ {
+  coords 6253.213 108.281 5180.04
+ }
+ {
+  coords 6255.124 108.281 5179.441
+ }
+ {
+  coords 6257.659 108.281 5178.156
+ }
+ {
+  coords 6260.714 108.088 5177.366
+ }
+ {
+  coords 6252.498 108.384 5182.829
+ }
 }
 $grp GenericEntity : "{BBA4B6B98BB002A4}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_05.et" {
  {
-  components {
-   BLU_ProtectDeleteComponent "{64B73619B751EDC7}" {
-   }
-  }
   coords 6259.484 108.229 5188.389
   angleY -53.283
  }
  {
-  components {
-   BLU_ProtectDeleteComponent "{64B73619CC2C8F95}" {
-   }
-  }
   coords 6255.561 108.366 5183.124
   angleY -53.283
  }
  {
-  components {
-   BLU_ProtectDeleteComponent "{64B73619C71EB210}" {
-   }
-  }
   coords 6256.722 108.41 5184.808
   angleY -53.283
  }
  {
-  components {
-   BLU_ProtectDeleteComponent "{64B73619D9EAE0C1}" {
-   }
-  }
   coords 6261.022 108.065 5182.526
   angleY -53.283
  }
  {
-  components {
-   BLU_ProtectDeleteComponent "{64B73619DC88EC40}" {
-   }
-  }
   coords 6256.368 108.651 5185.435
   angleY -53.283
  }

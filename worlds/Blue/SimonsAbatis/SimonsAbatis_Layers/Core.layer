@@ -21,6 +21,17 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 6175.829 95.122 4862.468
 }
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{64C9644A5A6EF12E}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingHour 13
+    }
+   }
+  }
+ }
  coords 6151.787 100.354 4886.03
  m_iFreezeTime 180000
  {
@@ -34,6 +45,19 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      }
     }
     SCR_Faction "{56DEAC40D3C2E623}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792821E9332}" {
+        m_sCallsign "3"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{64C9644C9895734B}" {
+        m_sCallsign "1 HQ"
+       }
+      }
+      m_sCallsignGroupFormat "%1%2%3"
+     }
     }
     SCR_Faction "{64AA098AEA5B1498}" {
      m_iFactionRadioFrequency 40500
