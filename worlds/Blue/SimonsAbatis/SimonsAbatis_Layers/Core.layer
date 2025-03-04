@@ -124,10 +124,6 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
  }
 }
 TILW_FactionTriggerEntity Crossroad_Capture2 : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
- components {
-  BLU_ProtectDeleteComponent "{64C4A6E6BB5002A2}" {
-  }
- }
  coords 6253.14 109.126 5176.617
  m_queryRadius 50.5
  m_captureIterations 30
@@ -292,5 +288,4 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_suppressGameEnd 1
 }
