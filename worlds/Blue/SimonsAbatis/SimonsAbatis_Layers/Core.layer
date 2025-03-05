@@ -70,7 +70,6 @@ TILW_ExtractionTriggerEntity BLUFOR_EXTRACTION : "{192ABD6B9232E064}Prefabs/Logi
  coords 6505.136 87.221 5292.806
  m_queryRadius 24.8
  m_flagName "BLUFOR_EXTRACTED"
- m_stopAfterFirstChange 1
  m_factionKey "GC_CAF"
  m_ratioThreshold 0.5
 }
@@ -90,10 +89,10 @@ SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/Restriction
    m_bFollowTerrain 1
   }
  }
- coords 5673.56 88.854 4702.353
+ coords 5673.56 71.5 4702.353
  m_fWarnRadius 80
  m_fZoneRadius 120
- m_fZoneTeleportedRadius 52.4
+ m_fZoneTeleportedRadius 140
  {
   GenericEntity {
    ID "59D673B36B893D84"
@@ -221,6 +220,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      }
      TILW_LiteralTerm "{649528DFA801F07A}" {
       m_flagName "Extract_Available"
+     }
+     TILW_LiteralTerm "{64CA05A3A1BD0354}" {
+      m_invertTerm 1
+      m_flagName "BTR_Destroyed"
      }
     }
    }
