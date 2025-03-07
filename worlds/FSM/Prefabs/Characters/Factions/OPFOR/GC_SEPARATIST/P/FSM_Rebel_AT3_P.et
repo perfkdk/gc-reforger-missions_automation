@@ -37,6 +37,8 @@ SCR_ChimeraCharacter : "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_S
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88_Flora_rolledup.et"
+     PrefabsToSpawn +{
+     }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_OD.et"
@@ -52,8 +54,7 @@ SCR_ChimeraCharacter : "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_S
     }
     ItemsInitConfigurationItem "{62E8A4CCFB180B82}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
-     PrefabsToSpawn {
-      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{62E8A4CB60A53210}" {
@@ -83,5 +84,5 @@ SCR_ChimeraCharacter : "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_S
    }
   }
  }
- coords 2892.367 9.383 230.536
+ coords 3304.24 215.424 12530.478
 }
