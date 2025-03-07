@@ -47,7 +47,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 5103.892 476.286 15062.746
- m_iFreezeTime 600000
+ m_iFreezeTime 420000
  {
   RadioManagerEntity {
    ID "5ED9088735FF2DEE"
@@ -57,25 +57,58 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    Factions {
     SCR_Faction "{56DEAC40D3C2E623}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
-      m_sCallsignGroupFormat ""
-      m_sCallsignCharacterFormat ""
-      m_sCallsignCharacterWithRoleFormat ""
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB79282FF010C}" {
+        m_sCallsign "1"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB79287E901BC}" {
+        m_sCallsign "0"
+       }
+       SCR_CallsignInfo "{55CCB79287936EBD}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB79287BAFBD6}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB79287A4D7B6}" {
+        m_sCallsign "3"
+       }
+      }
+      m_sCallsignGroupFormat "%1%2%3"
+      m_sCallsignCharacterFormat "%1%2%3%4"
+      m_sCallsignCharacterWithRoleFormat "%1%2%3 %4"
      }
     }
     SCR_Faction "{61500924662B6062}" {
      m_bIsPlayable 1
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
       m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign "Sunray"
+       }
        SCR_CallsignInfo "{55CCB792D13759D8}" {
         m_sCallsign "A"
        }
        SCR_CallsignInfo "{55CCB792D1218E95}" {
         m_sCallsign "B"
        }
+       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+        m_sCallsign "C"
+       }
+       SCR_CallsignInfo "{64CF6788BA91DC3C}" {
+        m_sCallsign "G"
+       }
       }
-      m_sCallsignGroupFormat ""
-      m_sCallsignCharacterFormat ""
-      m_sCallsignCharacterWithRoleFormat ""
+      m_sCallsignGroupFormat "%1%2 %3"
+      m_sCallsignCharacterFormat "%1%2 %3"
+      m_sCallsignCharacterWithRoleFormat "%1%2 %3 %4"
+      m_aCharacterRoleCallsigns {
+       SCR_PlayerLeaderRoleCallsign "{5D9E9ECA7C7EBEA2}" {
+        m_sRoleName "Sunray"
+       }
+      }
      }
     }
    }
@@ -208,8 +241,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
  }
 }
-PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Objective_Base.et" {
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  coords 4966.106 487.06 15134.406
  angleY 0
- m_fWorldSize 75
+ m_sImageSetGlow ""
+ m_MarkerColor 0 0 0 0.78
+ m_fWorldSize 225
+ m_bVisibleForEmptyFaction 1
+ m_bShowForAnyFaction 1
 }
