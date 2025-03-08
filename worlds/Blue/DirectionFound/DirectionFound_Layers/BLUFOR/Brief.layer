@@ -86,6 +86,3 @@ PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Object
  m_fWorldSize 95
  m_sDescription "Retransmission Site"
 }
-GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
- coords 4365.155 66.711 5016.316
-}

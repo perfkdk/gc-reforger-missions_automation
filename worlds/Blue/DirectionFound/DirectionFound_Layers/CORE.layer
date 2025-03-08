@@ -21,6 +21,13 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 3758.022 128.347 4137.07
 }
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_iStartingMinutes 25
+   m_iSetYear 1981
+  }
+ }
  coords 3734.465 124.228 4139.239
  m_iFreezeTime 120000
  {
@@ -85,7 +92,7 @@ SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/Restriction
  coords 4358.572 65.637 4992.477
  m_fWarnRadius 40
  m_fZoneRadius 50
- m_fZoneTeleportedRadius 60
+ m_fZoneTeleportedRadius 51
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {

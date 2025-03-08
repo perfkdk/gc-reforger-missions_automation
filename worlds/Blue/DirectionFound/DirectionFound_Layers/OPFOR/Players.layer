@@ -42,9 +42,9 @@ SCR_AIGroup : "{C724911C8224C5EF}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airborne_1
   }
  }
  coords 4359.962 66.851 5017.198
- angleX 1.789
- angleY 0.028
- angleZ 0.896
+ angleX -1.803
+ angleY 179.104
+ angleZ -0.867
  m_aUnitPrefabSlots {
   "{530A65EFD09BD7F0}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_PL_VDV_P.et" "{E5F836512D78905B}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Sergeant_VDV_P.et" "{35630BBA3D667C61}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Medic_VDV_P.et" "{FF2A2116553EE2B1}worlds/Blue/DirectionFound/Prefabs/Character_USSR_MG_VDV_P.et" "{D6921446D766BC40}worlds/Blue/DirectionFound/Prefabs/Character_USSR_AMG_VDV_P.et" "{5A5B6CC52B3A662B}worlds/Blue/DirectionFound/Prefabs/Character_USSR_SVD_VDV_P.et" "{1F5A984BBED4E13C}worlds/Blue/DirectionFound/Prefabs/Character_USSR_SVDA_VDV_P.et"
  }

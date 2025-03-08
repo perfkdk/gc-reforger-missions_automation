@@ -27,7 +27,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "USSR"
   }
-  m_iOrder 2
+  m_iOrder 3
  }
  OPFOR4 {
   coords 3789.352 161.169 4335.819
@@ -38,11 +38,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "2 Squad - 2"\
   "3 Squad - 3"\
   ""\
-  "SLs DO NOT HAVE RADIOS, A Crate has been provided at spawn with Smokes, Flares for Signalling"
+  "SLs DO NOT HAVE RADIOS, A Crate has been provided at spawn with Smokes, Flares for Signalling. This crate is intended only for SLs and PL."\
+  ""\
+  "Signals:"\
+  "Red Smoke: Commander's Intent"\
+  "Blue Smoke: Commander's Intent"\
+  "Violet Smoke: Commander's Intent"\
+  "Orange Smoke: Commander's Intent"\
+  ""\
+  "Orange Flare: Commander's Intent"\
+  "Green Flare: Commander's Intent"\
+  "White Flare: Commander's Intent"
   m_aVisibleForFactions {
    "USSR"
   }
-  m_iOrder 2
+  m_iOrder 4
  }
 }
 PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {
