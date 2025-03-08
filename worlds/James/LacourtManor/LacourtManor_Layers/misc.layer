@@ -124,6 +124,7 @@ PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/Ed
  "- Objective end condition applies when USSR controls the cap zone with no British forces inside."\
  "- USSR loses if they take 90% casualties."\
  "- No time limit."\
+ "- There are additional buildings and vegetation not marked on the map"\
  ""\
  ""
  m_bEmptyFactionVisibility 1
@@ -246,9 +247,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "USSR KIA"
    m_instructions {
     TILW_SendMessageInstruction "{64D05DC9E66ED269}" {
-     m_executionDelay 30
+     m_executionDelay 15
      m_messageTitle "USSR DEFEATED"
      m_messageBody "Soviet forces have been reduced by 90%. British forces win."
+    }
+    TILW_EndGameInstruction "{64D1185A5DFF610D}" {
+     m_executionDelay 30
+     m_factionKey "UK"
     }
    }
    m_condition TILW_LiteralTerm "{64D05DC93E07AA31}" {
@@ -262,6 +267,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 15
      m_messageTitle "OBJECTIVE CAPTURED"
      m_messageBody "Soviet forces have captured the objective."
+    }
+    TILW_EndGameInstruction "{64D1185ABBF05736}" {
+     m_executionDelay 30
+     m_factionKey "USSR"
     }
    }
    m_condition TILW_LiteralTerm "{64D05DC953545E36}" {
