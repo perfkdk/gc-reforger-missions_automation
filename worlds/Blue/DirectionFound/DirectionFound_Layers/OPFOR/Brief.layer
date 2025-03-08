@@ -1,11 +1,11 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  OPFOR1 {
   coords 3776.344 155.921 4209.425
-  m_sTitle "SITUATION"
-  m_sTextData "Situation"\
-  "10th of July, 1981. Somewhere in the Fulda Gap..."\
-  "Comrade Lieutenant, our direction finders have just triangulated the location of an American V Corps radio retransmission park. Of course, we could just call in an artillery strike and destroy the entire grid, but they would just switch to an alternate node. Instead, we will send in your platoon to raid the park and capture any crypto equipment you can carry. They are a small unit and lightly defended. We will also jam their signals for about 30 minutes so they cannot call for assistance."\
-  "You will be sent unobserved, into a nearby landing zone by helicopter. From there, you can hike to the objective. Jamming will commence when you are about to make contact so you can complete your mission."
+  m_sTitle "ORIENTATION POINTS"
+  m_sTextData "Assuming South West is Front."\
+  "Distance from Landing Zone."\
+  "Front-Left - 1200m - Road junction near objective (OP-100)"\
+  "Front - 400 m - Road Junction on ASR (OP-101)"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -13,8 +13,18 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  OPFOR2 {
   coords 3754.717 181.556 4321.806
-  m_sTitle "MISSION"
-  m_sTextData "Your mission is to enter the sector and attack any vehicles and personnel who get in your way. Then occupy the communication hub."
+  m_sTitle "ENEMY"
+  m_sTextData "Enemy forces consist of elements of the U.S. Army V Corps. Intelligence reports indicate a small defensive force at the radio retransmission site."\
+  ""\
+  "The enemy force is estimated to be:"\
+  ""\
+  "One mechanized infantry squad"\
+  "One M113 armored personnel carrier"\
+  ""\
+  "They are equipped with:"\
+  "M16 rifles, M60 machine guns, M203 grenade launchers, and possible anti-tank weapons wearing Woodland camouflage uniforms."\
+  ""\
+  "Electronic warfare units will jam enemy communications for approximately 30 minutes, preventing reinforcements."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -22,8 +32,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  OPFOR3 {
   coords 3789.914 161.42 4344.36
-  m_sTitle "MISSION"
-  m_sTextData "Your mission is to enter the sector and attack any vehicles and personnel who get in your way. Then occupy the communication hub."
+  m_sTitle "HIGHER AND ADJACENT UNITS"
+  m_sTextData "Higher command has issued orders to disrupt NATO communication infrastructure."\
+  ""\
+  "Main assault force is focused on neutralizing enemy positions deeper in the sector."\
+  ""\
+  "Additional Soviet forces are engaging enemy units to the West, ensuring no reinforcements arrive."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -31,6 +45,42 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  OPFOR4 {
   coords 3789.352 161.169 4335.819
+  m_sTitle "MISSION"
+  m_sTextData "Our objective is to infiltrate and assault the U.S. radio retransmission site. Sieze the retransmission site."\
+  ""\
+  "This will disrupt NATO’s ability to coordinate operations in the sector."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 4
+ }
+ OPFOR5 {
+  coords 4261.694 65.899 4984.976
+  m_sTitle "ORDER"
+  m_sTextData "I order:"\
+  ""\
+  "Tasks to Subordinate Units"\
+  "Airmobile Assault Platoon will move from the Landing Zone and infiltrate towards the target."\
+  ""\
+  "Tasks to Supporting Units"\
+  "Electronic Warfare Unit will initiate 30 minutes of signal jamming before contact. No artillery support available due to operational limitations."\
+  ""\
+  "Enemy Counteraction"\
+  "Enemy may attempt to reposition and call for reinforcements after jamming ends. Expect light mechanized counterattacks if the mission is delayed."\
+  ""\
+  "Readiness Times"\
+  "Report attack readiness: 10/06, 05:00h"\
+  "Mission commencement: 10/06, 05:20h"\
+  ""\
+  "Weather"\
+  "Dawn, Overcast"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 5
+ }
+ OPFOR6 {
+  coords 4270.214 75.932 4972.353
   m_sTitle "COMMAND AND SIGNAL"
   m_sTextData "Callsgns:"\
   "PL (42.0 Mhz) - 0"\
@@ -52,7 +102,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "USSR"
   }
-  m_iOrder 4
+  m_iOrder 6
  }
 }
 PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {

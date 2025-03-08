@@ -25,6 +25,8 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 5
    m_iStartingMinutes 25
+   m_iSetDay 10
+   m_iSetMonth 6
    m_iSetYear 1981
   }
  }
@@ -77,16 +79,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    }
   }
  }
-}
-PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- coords 3791.916 157.766 4281.104
- m_sTitle "Scenario Overview"
- m_sTextData "Date: 10 July 1981"\
- "Location: Fulda Gap"\
- "Situation"\
- "A remote signal retransmission site is tactically operational but has been triangulated by Soviet forces. A Soviet Airmobile unit has infiltrated the area with the intent to raid the site and obtain cryptographic equipment."
- m_bEmptyFactionVisibility 1
- m_bShowForAnyFaction 1
 }
 SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneBase.et" {
  coords 4358.572 65.637 4992.477
