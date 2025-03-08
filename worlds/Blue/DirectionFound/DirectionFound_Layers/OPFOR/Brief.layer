@@ -36,10 +36,22 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "PL (42.0 Mhz) - 0"\
   "1 Squad - 1"\
   "2 Squad - 2"\
-  "3 Squad - 3"
+  "3 Squad - 3"\
+  ""\
+  "SLs DO NOT HAVE RADIOS, A Crate has been provided at spawn with Smokes, Flares for Signalling"
   m_aVisibleForFactions {
    "USSR"
   }
   m_iOrder 2
  }
+}
+PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {
+ coords 4360.507 74.414 4986.811
+ angleY 0
+ m_sDescription "(Your Position)"
+ m_aVisibleForFactions {
+  "USSR"
+ }
+ m_bVisibleForEmptyFaction 0
+ m_bShowForAnyFaction 0
 }

@@ -73,16 +73,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 5
  }
 }
-PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {
- coords 4360.507 74.414 4986.811
- angleY 0
- m_sDescription "(Your Position)"
- m_aVisibleForFactions {
-  "USSR"
- }
- m_bVisibleForEmptyFaction 0
- m_bShowForAnyFaction 0
-}
 PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
  coords 3801.21 161.647 4344.147
  angleY -90.737
@@ -95,4 +85,7 @@ PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Object
  m_MarkerColor 0 0.125 0.502 1
  m_fWorldSize 95
  m_sDescription "Retransmission Site"
+}
+GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
+ coords 4365.155 66.711 5016.316
 }
