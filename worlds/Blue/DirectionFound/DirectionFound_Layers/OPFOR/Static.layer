@@ -1,53 +1,54 @@
-GenericEntity : "{EDE6EC8B05227E3E}Prefabs/Props/Military/Arsenal/ArsenalBoxes/USSR/ArsenalBox_USSR.et" {
+GenericEntity : "{CD62E36CFDCB8FD8}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Equipment_01_USSR.et" {
  components {
-  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-   m_bArsenalEnabled 0
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
   }
-  UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
    MultiSlots {
-    MultiSlotConfiguration "{64D0C86413D9C2E6}" {
+    MultiSlotConfiguration "{64D0E6A3CF07CD15}" {
      SlotTemplate EquipmentStorageSlot SmokeB {
       Prefab "{BCCE82E567BAF1ED}Prefabs/Weapons/Grenades/RDG-2/Smoke_RDG2_Blue.et"
      }
      NumSlots 20
     }
-    MultiSlotConfiguration "{64D0C86412BEBEEB}" {
+    MultiSlotConfiguration "{64D0E6A3CFE230DB}" {
      SlotTemplate EquipmentStorageSlot SmokeB {
       Prefab "{441BA9CBE7BC73FC}Prefabs/Weapons/Grenades/RDG-2/Smoke_RDG2_Orange.et"
      }
      NumSlots 20
     }
-    MultiSlotConfiguration "{64D0C86411395057}" {
+    MultiSlotConfiguration "{64D0E6A3CFFE1C1E}" {
      SlotTemplate EquipmentStorageSlot SmokeB {
       Prefab "{CC210CB58D27A361}Prefabs/Weapons/Grenades/RDG-2/Smoke_RDG2_Red.et"
      }
      NumSlots 20
     }
-    MultiSlotConfiguration "{64D0C864116DF7A8}" {
+    MultiSlotConfiguration "{64D0E6A3CFDF05A7}" {
      SlotTemplate EquipmentStorageSlot SmokeB {
       Prefab "{5F564E0FA5F27D1E}Prefabs/Weapons/Grenades/RDG-2/Smoke_RDG2_Violet.et"
      }
      NumSlots 20
     }
-    MultiSlotConfiguration "{64D0C8641158F6E7}" {
+    MultiSlotConfiguration "{64D0E6A3CFB53B4D}" {
      SlotTemplate EquipmentStorageSlot SmokeB {
       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
      }
      NumSlots 20
     }
-    MultiSlotConfiguration "{64D0C86410BECAAB}" {
+    MultiSlotConfiguration "{64D0E6A3CF931FB3}" {
      SlotTemplate EquipmentStorageSlot SmokeB {
       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
      }
      NumSlots 20
     }
-    MultiSlotConfiguration "{64D0C86410E0AA48}" {
+    MultiSlotConfiguration "{64D0E6A20A37ADAD}" {
      SlotTemplate EquipmentStorageSlot SmokeB {
       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
      }
      NumSlots 20
     }
-    MultiSlotConfiguration "{64D0C8670E235611}" {
+    MultiSlotConfiguration "{64D0E6A20A170543}" {
      SlotTemplate EquipmentStorageSlot Belt {
       Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
      }
@@ -55,16 +56,12 @@ GenericEntity : "{EDE6EC8B05227E3E}Prefabs/Props/Military/Arsenal/ArsenalBoxes/U
     }
    }
   }
-  SCR_ArsenalInventoryStorageManagerComponent "{56F2C6D1431ADBA8}" {
-   Enabled 0
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{64D0C86FA0D51CBF}" {
-     PrefabsToSpawn {
-      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
-     }
-    }
-   }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
   }
  }
- coords 4351.272 66.323 5003.73
+ coords 4352.659 66.347 5004.386
 }
