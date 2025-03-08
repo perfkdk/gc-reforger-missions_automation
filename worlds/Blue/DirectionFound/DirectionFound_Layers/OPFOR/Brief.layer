@@ -1,0 +1,45 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ OPFOR1 {
+  coords 3776.344 155.921 4209.425
+  m_sTitle "SITUATION"
+  m_sTextData "Situation"\
+  "10th of July, 1981. Somewhere in the Fulda Gap..."\
+  "Comrade Lieutenant, our direction finders have just triangulated the location of an American V Corps radio retransmission park. Of course, we could just call in an artillery strike and destroy the entire grid, but they would just switch to an alternate node. Instead, we will send in your platoon to raid the park and capture any crypto equipment you can carry. They are a small unit and lightly defended. We will also jam their signals for about 30 minutes so they cannot call for assistance."\
+  "You will be sent unobserved, into a nearby landing zone by helicopter. From there, you can hike to the objective. Jamming will commence when you are about to make contact so you can complete your mission."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 1
+ }
+ OPFOR2 {
+  coords 3754.717 181.556 4321.806
+  m_sTitle "MISSION"
+  m_sTextData "Your mission is to enter the sector and attack any vehicles and personnel who get in your way. Then occupy the communication hub."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 2
+ }
+ OPFOR3 {
+  coords 3789.914 161.42 4344.36
+  m_sTitle "MISSION"
+  m_sTextData "Your mission is to enter the sector and attack any vehicles and personnel who get in your way. Then occupy the communication hub."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 2
+ }
+ OPFOR4 {
+  coords 3789.352 161.169 4335.819
+  m_sTitle "COMMAND AND SIGNAL"
+  m_sTextData "Callsgns:"\
+  "PL (42.0 Mhz) - 0"\
+  "1 Squad - 1"\
+  "2 Squad - 2"\
+  "3 Squad - 3"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 2
+ }
+}
