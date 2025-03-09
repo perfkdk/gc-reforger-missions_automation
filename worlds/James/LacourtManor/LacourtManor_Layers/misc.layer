@@ -124,7 +124,7 @@ PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/Ed
  ""\
  "Notes:"\
  "- Ratio 2:1."\
- "- Setup 7 mins."\
+ "- Setup 5 mins."\
  "- Objective end condition applies when USSR controls the cap zone with no British forces inside."\
  "- USSR loses if they take 90% casualties."\
  "- No time limit."\
