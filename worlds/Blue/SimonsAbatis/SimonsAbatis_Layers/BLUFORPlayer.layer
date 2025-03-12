@@ -1,0 +1,16 @@
+SCR_AIGroup : "{0C17A1C879905D5A}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1987/Group_CAF_RifleSection_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{64C4A6A68771BD44}" {
+   m_iSquadCallsign 1
+  }
+ }
+ coords 6162.349 112.624 5087.368
+ m_iGroupRadioFrequency 0
+}
+SCR_AIGroup : "{977831D0F745FF87}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1987/Group_CAF_PlatoonHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{64C4A6A69E46082A}" {
+  }
+ }
+ coords 6171.624 111.707 5094.76
+}
