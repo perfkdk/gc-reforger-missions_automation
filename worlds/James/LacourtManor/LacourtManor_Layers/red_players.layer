@@ -1,0 +1,170 @@
+SCR_AIGroup : "{04FC2603763DCF52}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleMGSquad_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{6158048CF383107C}" {
+   m_iPlatoonCallsign 3
+   m_iSquadCallsign 4
+  }
+ }
+ coords 3960.686 30.877 7433.404
+ m_iGroupRadioFrequency 42000
+ m_sCustomNameSet "MG Squad"
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{60EB306267117495}" {
+      SourceMaterial "BTR_70_base_exterior_Body"
+      AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat"
+     }
+    }
+   }
+   RHS_GroupMaterialController "{609EA3D1CA4AD40C}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43B}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD438}" {
+      m_iTextureID 4
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43F}" {
+      m_iTextureID 4
+      m_bRandomize 0
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Turret {
+      Prefab "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et"
+     }
+    }
+   }
+  }
+  coords 3962.297 31.651 7410.75
+  angleX 5.455
+  angleY 179.197
+  angleZ 7.018
+ }
+ BTR70_AFRF2 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{60EB306267117495}" {
+      SourceMaterial "BTR_70_base_exterior_Body"
+      AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat"
+     }
+    }
+   }
+   RHS_GroupMaterialController "{609EA3D1CA4AD40C}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43B}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD438}" {
+      m_iTextureID 4
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43F}" {
+      m_iTextureID 5
+      m_bRandomize 0
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Turret {
+      Prefab "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et"
+     }
+    }
+   }
+  }
+  coords 3949.315 30.893 7410.414
+  angleX 3.702
+  angleY 178.983
+  angleZ 7.047
+ }
+ BTR70_AFRF3 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{60EB306267117495}" {
+      SourceMaterial "BTR_70_base_exterior_Body"
+      AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat"
+     }
+    }
+   }
+   RHS_GroupMaterialController "{609EA3D1CA4AD40C}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43B}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD438}" {
+      m_iTextureID 4
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43F}" {
+      m_iTextureID 6
+      m_bRandomize 0
+     }
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Turret {
+      Prefab "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et"
+     }
+    }
+   }
+  }
+  coords 3936.196 30.408 7410.077
+  angleX 5.452
+  angleY 179.111
+  angleZ 6.131
+ }
+}
+$grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
+ {
+  coords 3968.724 30.599 7455.771
+  m_iGroupRadioFrequency 42000
+  m_sCustomNameSet "1st Squad + BTR"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{6158048CF383107C}" {
+    m_iSquadCallsign 2
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_VariantData SCR_EditableEntityVariantData "{64D2F7A6E083DB57}" {
+    }
+   }
+  }
+  coords 3942.065 27.966 7459.713
+  m_iGroupRadioFrequency 42000
+  m_sCustomNameSet "2nd Squad + BTR"
+ }
+}
+SCR_AIGroup : "{82927FFD013CC95B}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleSquadSVD_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{6158048CF383107C}" {
+   m_iSquadCallsign 3
+  }
+ }
+ coords 3919.031 26.429 7450.189
+ m_iGroupRadioFrequency 42000
+ m_sCustomNameSet "3rd Squad + BTR"
+}
+SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRiflePHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{64D05DD38995F431}" {
+  }
+ }
+ coords 3938.653 29.685 7428.702
+ m_iGroupRadioFrequency 42000
+ m_sCustomNameSet "Commander"
+}

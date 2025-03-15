@@ -91,7 +91,7 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
      TargetStorage "worlds/FSM/Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Pouch_Radio_68.et"
      TargetPurpose 64
      PrefabsToSpawn {
-      "{7DEB116C515E617C}worlds/FSM/Prefabs/Items/Equipment/Radios/FSM_Radio_ANPRC68_2Nets.et"
+      "{59CA00DA0E8F426B}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Single.et"
      }
     }
     ItemsInitConfigurationItem "{647E681A08DEDB0F}" {
@@ -135,5 +135,5 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 5241.984 59.805 5861.955
+ coords 3552.976 25.719 3494.552
 }
