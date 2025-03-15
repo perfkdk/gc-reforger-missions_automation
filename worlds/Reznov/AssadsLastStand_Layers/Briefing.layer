@@ -48,12 +48,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7124.276 341.943 3626.656
   m_sTitle "End Conditions:"
-  m_sTextData "Win: "\
-  "Kill Assad, his two sons and extract back to the airport."\
-  ""\
-  "Lose: "\
-  "Lose 85% of Friendlies."\
-  "Reached 90 Minute timelimit. "
+  m_sTextData "Victory: Kill all three targets and extract back to the airport."\
+  "Minor Defeat: Extracted after sustaining 75% casualties, or 90m time limit reached"\
+  "Major Defeat: 90% casualties"
   m_bShowForAnyFaction 1
  }
 }

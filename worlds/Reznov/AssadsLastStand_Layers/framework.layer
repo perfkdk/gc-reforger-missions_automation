@@ -73,6 +73,39 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
+$grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExtractionTrigger.et" {
+ Extract {
+  coords 8482.766 111.531 6818.184
+  m_queryRadius 300
+  m_flagName "Extract"
+  m_factionKey "RHS_USAF"
+  m_ratioThreshold 0.75
+ }
+ Stationary_Trigger1 {
+  coords 6858.203 13.144 3537.383
+  m_queryRadius 656.4
+  m_flagName "Stationary_Trigger1"
+  m_factionKey "RHS_USAF"
+  m_ratioThreshold 0.01
+ }
+ Stationary_Trigger2 {
+  coords 5743.774 267.747 970.216
+  angleY 58.286
+  m_queryRadius 434.9
+  m_flagName "Stationary_Trigger2"
+  m_stopAfterFirstChange 1
+  m_factionKey "RHS_USAF"
+  m_ratioThreshold 0.01
+ }
+ Stationary_Trigger3 {
+  coords 8256.115 73.777 5017.662
+  angleY 58.286
+  m_queryRadius 1367.7
+  m_stopAfterFirstChange 1
+  m_factionKey "RHS_USAF"
+  m_ratioThreshold 0.01
+ }
+}
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
@@ -111,23 +144,85 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   }
  }
 }
-TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+ OBJ_A_TAKEN {
+  coords 5827.317 269.81 896.919
+  m_queryRadius 36.2
+  m_flagName "OBJ_A_TAKEN"
+  m_stopAfterFirstChange 1
+  m_ownerFactionKey "RHS_USAF"
+  m_ratioThreshold 0.001
+ }
+ OBJ_B_TAKEN {
+  coords 7106.205 340.112 3586.783
+  m_queryRadius 36.2
+  m_flagName "OBJ_B_TAKEN"
+  m_stopAfterFirstChange 1
+  m_ownerFactionKey "RHS_USAF"
+  m_ratioThreshold 0.001
+ }
+}
+TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 8511.507 111.531 6740.525
  m_missionEvents {
   TILW_MissionEvent "{64985468213C602F}" {
-   m_name "USMC Lose"
+   m_name "Casualty Warning"
    m_instructions {
     TILW_SendMessageInstruction "{64C2FD7C1216B906}" {
      m_messageTitle "Too many casualties taken!"
-     m_messageBody "Your platoon has sustained 80% casualties, withdraw immediately."
+     m_messageBody "Your platoon has sustained 75% casualties, withdraw immediately."
     }
    }
    m_condition TILW_LiteralTerm "{64985468D2F03F4B}" {
     m_flagName "USMC Killed"
    }
   }
+  TILW_MissionEvent "{64DF34973EF694C2}" {
+   m_name "Minor Defeat"
+   m_instructions {
+    TILW_SendMessageInstruction "{64DF34974E04C332}" {
+     m_messageTitle "Minor Defeat"
+     m_messageBody "US forces withdrew after taking too many casualties."
+    }
+    TILW_EndGameInstruction "{64DF3497B10B5732}" {
+     m_executionDelay 15
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{64DF349774280126}" {
+    m_operands {
+     TILW_LiteralTerm "{64DF34977B3BA109}" {
+      m_flagName "USMC Killed"
+     }
+     TILW_LiteralTerm "{64DF3497783AED64}" {
+      m_flagName "Extract"
+     }
+     TILW_LiteralTerm "{64DF34961F0B4E7B}" {
+      m_invertTerm 1
+      m_flagName "USMC Killed 2"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{64DF3497E75B90B5}" {
+   m_name "Major Defeat"
+   m_instructions {
+    TILW_SendMessageInstruction "{64DF3497DD32ACEE}" {
+     m_messageTitle "Major Defeat"
+     m_messageBody "US forces sustained 90% casualties."
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{64DF3497F2A99EB4}" {
+    m_operands {
+     TILW_LiteralTerm "{64DF3497F1017F63}" {
+      m_flagName "USMC Killed 2"
+     }
+    }
+   }
+  }
   TILW_MissionEvent "{649940ADFDEFFED9}" {
-   m_name "QRF"
+   m_name "QRF A"
    m_instructions {
     TILW_SpawnVehicleInstruction "{649D076E94CD9851}" {
      m_executionDelay 4.4
@@ -142,15 +237,31 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      }
      m_waypointDelay 0.1
     }
-   }
-   m_condition TILW_LiteralTerm "{649D076C067F63DC}" {
-    m_flagName "OBJ_A_TAKEN"
-   }
-  }
-  TILW_MissionEvent "{649D07717AC9C38F}" {
-   m_name "QRF"
-   m_instructions {
-    TILW_SpawnVehicleInstruction "{649D07717AC9C230}" {
+    TILW_SpawnVehicleInstruction "{64DF3492C455AD9C}" {
+     m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+     m_locationName "spawntruck4"
+     m_setEntityName "truck"
+     m_customCrew {
+      "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et"
+     }
+     m_waypointNames {
+      "wp10" "wp11" "wp12"
+     }
+     m_waypointDelay 0.1
+    }
+    TILW_SpawnVehicleInstruction "{64DF3492D1F462B1}" {
+     m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+     m_locationName "spawntruck3"
+     m_setEntityName "truck"
+     m_customCrew {
+      "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et"
+     }
+     m_waypointNames {
+      "wp7" "wp8" "wp9"
+     }
+     m_waypointDelay 0.1
+    }
+    TILW_SpawnVehicleInstruction "{64DF34912B86F54E}" {
      m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
      m_locationName "spawntruck"
      m_setEntityName "truck"
@@ -163,12 +274,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_waypointDelay 0.1
     }
    }
-   m_condition TILW_LiteralTerm "{649D07717AC9C23B}" {
+   m_condition TILW_LiteralTerm "{649D076C067F63DC}" {
     m_flagName "OBJ_A_TAKEN"
    }
   }
   TILW_MissionEvent "{64A0FA53DE5B2868}" {
-   m_name "QRF"
+   m_name "QRF B"
    m_instructions {
     TILW_SpawnVehicleInstruction "{64A0FA53DE5B2809}" {
      m_executionDelay 0
@@ -223,46 +334,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "OBJ_B_TAKEN"
    }
   }
-  TILW_MissionEvent "{649D0776AF5522B0}" {
-   m_name "QRF"
-   m_instructions {
-    TILW_SpawnVehicleInstruction "{649D0776AF552154}" {
-     m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
-     m_locationName "spawntruck3"
-     m_setEntityName "truck"
-     m_customCrew {
-      "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et"
-     }
-     m_waypointNames {
-      "wp7" "wp8" "wp9"
-     }
-     m_waypointDelay 0.1
-    }
-   }
-   m_condition TILW_LiteralTerm "{649D0776AF55215E}" {
-    m_flagName "OBJ_A_TAKEN"
-   }
-  }
-  TILW_MissionEvent "{649D0775C3754241}" {
-   m_name "QRF"
-   m_instructions {
-    TILW_SpawnVehicleInstruction "{649D0775C37542E8}" {
-     m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
-     m_locationName "spawntruck4"
-     m_setEntityName "truck"
-     m_customCrew {
-      "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et" "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et"
-     }
-     m_waypointNames {
-      "wp10" "wp11" "wp12"
-     }
-     m_waypointDelay 0.1
-    }
-   }
-   m_condition TILW_LiteralTerm "{649D0775C37542F5}" {
-    m_flagName "OBJ_A_TAKEN"
-   }
-  }
   TILW_MissionEvent "{649D0766AB6C3B39}" {
    m_name "Time Limit"
    m_instructions {
@@ -274,31 +345,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_LiteralTerm "{649D076567627F34}" {
     m_invertTerm 1
-   }
-  }
-  TILW_MissionEvent "{649D074BD91E1743}" {
-   m_name "USMC Wins"
-   m_instructions {
-    TILW_EndGameInstruction "{649E32F3E6EF3049}" {
-     m_executionDelay 15
-     m_factionKey "RHS_USAF"
-    }
-   }
-   m_condition TILW_ConjunctionTerm "{649D074A80C039AB}" {
-    m_operands {
-     TILW_LiteralTerm "{649D074A91E5E934}" {
-      m_flagName "Extract"
-     }
-     TILW_LiteralTerm "{649D07407858C6FD}" {
-      m_flagName "assad"
-     }
-     TILW_LiteralTerm "{649D07407F6E0872}" {
-      m_flagName "son1"
-     }
-     TILW_LiteralTerm "{649D07407DC10773}" {
-      m_flagName "son2"
-     }
-    }
    }
   }
   TILW_MissionEvent "{64A0FA4B8336FDC2}" {
@@ -449,12 +495,125 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "Stationary_Trigger3"
    }
   }
+  TILW_MissionEvent "{649D074BD91E1743}" {
+   m_name "USMC Wins"
+   m_instructions {
+    TILW_SendMessageInstruction "{64DF3490663C4837}" {
+     m_messageTitle "US Victory"
+     m_messageBody "US forces extracted after eliminating all targets."
+    }
+    TILW_EndGameInstruction "{649E32F3E6EF3049}" {
+     m_executionDelay 15
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{649D074A80C039AB}" {
+    m_operands {
+     TILW_LiteralTerm "{649D074A91E5E934}" {
+      m_flagName "Extract"
+     }
+     TILW_LiteralTerm "{64DF3490E01A77B6}" {
+      m_flagName "targets_killed"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{64DF3490164CB61E}" {
+   m_name "Son 1"
+   m_instructions {
+    TILW_SendMessageInstruction "{64DF34905AB9B5FA}" {
+     m_messageTitle "Target eliminated"
+     m_messageBody "One of the targets has been eliminated."
+    }
+   }
+   m_condition TILW_LiteralTerm "{64DF349042A2F887}" {
+    m_flagName "son1"
+   }
+  }
+  TILW_MissionEvent "{64DF3490173DA79E}" {
+   m_name "Son 2"
+   m_instructions {
+    TILW_SendMessageInstruction "{64DF3490588EE1E2}" {
+     m_messageTitle "Target eliminated"
+     m_messageBody "One of the targets has been eliminated."
+    }
+   }
+   m_condition TILW_LiteralTerm "{64DF349043D0ABE5}" {
+    m_flagName "son2"
+   }
+  }
+  TILW_MissionEvent "{64DF3490171BB121}" {
+   m_name "Assad"
+   m_instructions {
+    TILW_SendMessageInstruction "{64DF34905F273B7A}" {
+     m_messageTitle "Target eliminated"
+     m_messageBody "One of the targets has been eliminated."
+    }
+   }
+   m_condition TILW_LiteralTerm "{64DF34904132896F}" {
+    m_flagName "assad"
+   }
+  }
+  TILW_MissionEvent "{64DF3490FBA59375}" {
+   m_name "All"
+   m_instructions {
+    TILW_SendMessageInstruction "{64DF3490CE2F060C}" {
+     m_executionDelay 15
+     m_messageTitle "Targets eliminated"
+     m_messageBody "All targets have been eliminated, extract back to the airfield."
+    }
+   }
+   m_condition TILW_LiteralTerm "{64DF3490FFEF367E}" {
+    m_flagName "targets_killed"
+   }
+  }
+  TILW_MissionEvent "{64DF3496AB6C5D1A}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{64DF3496AD3DC86F}" {
+     m_executionDelay 4500
+     m_messageTitle "15 minutes remaining!"
+     m_messageBody "The time window is closing."
+    }
+    TILW_SendMessageInstruction "{64DF3496B965AC98}" {
+     m_executionDelay 5400
+     m_messageTitle "Minor Defeat"
+     m_messageBody "US forces were unable to complete the mission in the time window."
+    }
+   }
+   m_condition TILW_LiteralTerm "{64DF3496AEB63228}" {
+    m_invertTerm 1
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{649854684E7668AD}" {
    m_flagName "USMC Killed"
    m_factionKey "RHS_USAF"
-   m_casualtyRatio 0.8
+   m_casualtyRatio 0.75
+  }
+  TILW_FactionPlayersKilledFlag "{64DF3497FEDF5C5B}" {
+   m_flagName "USMC Killed 2"
+   m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.9
+  }
+ }
+ m_metaFlags {
+  TILW_MetaFlag "{64DF3490836CC91F}" {
+   m_flagName "targets_killed"
+   m_definition TILW_ConjunctionTerm "{64DF34908FCEE745}" {
+    m_operands {
+     TILW_LiteralTerm "{64DF34908DB285F4}" {
+      m_flagName "son1"
+     }
+     TILW_LiteralTerm "{64DF349093754423}" {
+      m_flagName "son2"
+     }
+     TILW_LiteralTerm "{64DF349090743BD5}" {
+      m_flagName "assad"
+     }
+    }
+   }
   }
  }
 }

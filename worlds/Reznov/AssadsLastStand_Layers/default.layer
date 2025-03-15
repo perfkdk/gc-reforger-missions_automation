@@ -9,118 +9,6 @@ SCR_AIWorld : "{3D0FE80570D5BFCC}Prefabs/AI/SCR_AIWorld_Anizay.et" {
  }
  coords 7117.136 341.059 3613.561
 }
-$grp GenericEntity {
- {
-  components {
-   MeshObject "{648D3CD20B37EFE0}" {
-    Object "{62DF06479316DFA1}source/props/tem_wall_l2_5m.xob"
-   }
-  }
-  coords 6991.349 315.557 3743.032
-  angleY -61.173
-  scale 3.5
- }
- {
-  components {
-   MeshObject "{648D3CD0F284F387}" {
-    Object "{2572F128B0C34344}source/props/tem_sandbags_straight1.xob"
-   }
-  }
-  coords 7135.718 322.622 3422.798
- }
- {
-  components {
-   MeshObject "{648D3CD0F284F387}" {
-    Object "{2572F128B0C34344}source/props/tem_sandbags_straight1.xob"
-   }
-  }
-  coords 7121.023 322.59 3422.648
-  angleY -178.511
- }
- {
-  components {
-   MeshObject "{648D3CD7650D3EEF}" {
-    Object "{55EDC0F0AA022352}source/props/tem_sandbags_curved1.xob"
-   }
-  }
-  coords 7145.225 329.671 3492.605
- }
- {
-  components {
-   MeshObject "{648D3CD7650D3EEF}" {
-    Object "{55EDC0F0AA022352}source/props/tem_sandbags_curved1.xob"
-   }
-  }
-  coords 7133.945 333.2 3506.241
-  angleX 7.741
- }
- {
-  components {
-   MeshObject "{64A0FA46630B77A2}" {
-    Object "{62DF06479316DFA1}source/props/tem_wall_l2_5m.xob"
-   }
-  }
-  coords 7123.376 316.903 3430.185
-  angleX 0.909
-  angleY 91.158
-  angleZ 9.522
- }
- {
-  components {
-   MeshObject "{64A0FA46630B77A2}" {
-    Object "{62DF06479316DFA1}source/props/tem_wall_l2_5m.xob"
-   }
-  }
-  coords 7123.465 317.7 3435.102
-  angleX 0.909
-  angleY 91.158
-  angleZ 9.522
- }
- {
-  components {
-   MeshObject "{64A0FA46630B77A2}" {
-    Object "{62DF06479316DFA1}source/props/tem_wall_l2_5m.xob"
-   }
-  }
-  coords 7120.076 317.13 3430.181
-  angleX 0.664
-  angleY 92.619
-  angleZ 9.542
- }
- {
-  components {
-   MeshObject "{64A0FA46630B77A2}" {
-    Object "{62DF06479316DFA1}source/props/tem_wall_l2_5m.xob"
-   }
-  }
-  coords 7120.293 317.929 3435.093
-  angleX 0.664
-  angleY 92.619
-  angleZ 9.542
- }
- {
-  components {
-   MeshObject "{64A0FA46630B77A2}" {
-    Object "{62DF06479316DFA1}source/props/tem_wall_l2_5m.xob"
-   }
-  }
-  coords 7137.935 317.726 3430.382
-  angleX -3.454
-  angleY 117.553
-  angleZ 8.925
- }
- {
-  components {
-   MeshObject "{64A0FA46630B77A2}" {
-    Object "{62DF06479316DFA1}source/props/tem_wall_l2_5m.xob"
-   }
-  }
-  coords 7139.49 318.508 3434.933
-  angleX -0.279
-  angleY 98.22
-  angleZ 9.561
- }
-}
 Vehicle UAZ469_Camo_uncovered1 : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_uncovered.et" {
  coords 7123.372 339.457 3562.405
  angleY 116.969
@@ -133,6 +21,27 @@ $grp StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Ba
  {
   coords 7128.296 0.116 3419.99
   angleY 179.377
+ }
+}
+$grp GenericEntity : "{2478A05C31B3D966}Prefabs/Models/walls/tem_sandbags_curved1.et" {
+ {
+  coords 7145.225 329.671 3492.605
+  angleY 0
+ }
+ {
+  coords 7133.945 333.2 3506.241
+  angleX 7.741
+  angleY 0
+ }
+}
+$grp GenericEntity : "{32A2D0B084646F02}Prefabs/Models/walls/tem_sandbags_straight1.et" {
+ {
+  coords 7135.717 322.622 3422.798
+  angleY 0
+ }
+ {
+  coords 7121.023 322.59 3422.648
+  angleY -178.511
  }
 }
 SCR_DestructibleBuildingEntity : "{3F91DEEC9C78E473}Prefabs/Structures/Military/Houses/GuardHouse_01/GuardHouse_01.et" {
@@ -630,21 +539,54 @@ GenericEntity : "{C468AE301638D4B6}PrefabLibrary/Props/Military/ObstacleLadder_0
  angleY -88.99
  angleZ -8.153
 }
-GenericEntity : "{ED2A5FC43B8DCBD4}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_01_AGS.et" {
- coords 7127.943 322.695 3424.163
- angleY 176.805
+$grp SCR_DestructibleEntity : "{E2BBCF210CF6EDC7}Prefabs/Models/walls/tem_wall_l2_5m.et" {
  {
-  Turret {
-   ID "62E2AD8189E7595D"
-   components {
-    TILW_VehicleCrewComponent "{64A0FA4509620B23}" {
-     m_customCrew {
-      "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et"
-     }
-     m_noTurretDismount 1
-    }
-   }
-  }
+  coords 7123.465 317.7 3435.102
+  angleX 0.909
+  angleY 91.158
+  angleZ 9.522
+  placement none
+ }
+ {
+  coords 7120.076 317.13 3430.181
+  angleX 0.664
+  angleY 92.619
+  angleZ 9.542
+  placement none
+ }
+ {
+  coords 7120.293 317.929 3435.093
+  angleX 0.664
+  angleY 92.619
+  angleZ 9.542
+  placement none
+ }
+ {
+  coords 7137.935 317.726 3430.382
+  angleX -3.454
+  angleY 117.553
+  angleZ 8.925
+  placement none
+ }
+ {
+  coords 7139.49 318.508 3434.933
+  angleX -0.279
+  angleY 98.22
+  angleZ 9.561
+  placement none
+ }
+ {
+  coords 6991.349 315.557 3743.032
+  angleY -61.173
+  scale 3.5
+  placement none
+ }
+ {
+  coords 7123.375 316.903 3430.185
+  angleX 0.909
+  angleY 91.158
+  angleZ 9.522
+  placement none
  }
 }
 GenericEntity : "{F0EC223F2A1094C0}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap.et" {

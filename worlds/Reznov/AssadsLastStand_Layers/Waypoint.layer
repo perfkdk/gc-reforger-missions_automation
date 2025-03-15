@@ -127,57 +127,6 @@ $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedM
   CompletionRadius 23.7
  }
 }
-TILW_ExtractionTriggerEntity Extract : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExtractionTrigger.et" {
- coords 8489.867 111.531 6720.092
- m_queryRadius 129.8
- m_flagName "Extract"
- m_factionKey "RHS_USAF"
- m_ratioThreshold 0.5
-}
-$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
- OBJ_A_TAKEN {
-  coords 5827.317 269.81 896.919
-  m_queryRadius 36.2
-  m_flagName "OBJ_A_TAKEN"
-  m_stopAfterFirstChange 1
-  m_ownerFactionKey "RHS_USAF"
-  m_ratioThreshold 0.001
- }
- Stationary_Trigger1 {
-  coords 6858.203 13.144 3537.383
-  m_queryRadius 656.4
-  m_flagName "Stationary_Trigger1"
-  m_stopAfterFirstChange 1
-  m_ownerFactionKey "RHS_USAF"
-  m_ratioThreshold 0.001
- }
- Stationary_Trigger2 {
-  coords 5743.775 267.747 970.216
-  angleY 58.286
-  m_queryRadius 434.9
-  m_flagName "Stationary_Trigger2"
-  m_stopAfterFirstChange 1
-  m_ownerFactionKey "RHS_USAF"
-  m_ratioThreshold 0.001
- }
- Stationary_Trigger3 {
-  coords 8256.116 73.777 5017.662
-  angleY 58.286
-  m_queryRadius 1367.7
-  m_flagName "Stationary_Trigger3"
-  m_stopAfterFirstChange 1
-  m_ownerFactionKey "RHS_USAF"
-  m_ratioThreshold 0.001
- }
- OBJ_B_TAKEN {
-  coords 7106.205 340.112 3586.783
-  m_queryRadius 36.2
-  m_flagName "OBJ_B_TAKEN"
-  m_stopAfterFirstChange 1
-  m_ownerFactionKey "RHS_USAF"
-  m_ratioThreshold 0.001
- }
-}
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
  AIWP_Defend_01 {
   coords 7128.196 324.314 3429.283
