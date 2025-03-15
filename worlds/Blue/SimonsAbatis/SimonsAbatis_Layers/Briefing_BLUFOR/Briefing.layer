@@ -62,8 +62,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  BLUFOR2 {
   coords 6092.271 138.534 5043.701
   m_sTitle "4. SUSTAINMENT"
-  m_sTextData "None"\
-  ""
+  m_sTextData "1x Jeep with:"\
+  "10x C4 Explosives"\
+  "2x Clackers (100m Range)"
   m_aVisibleForFactions {
    "GC_CAF"
   }
