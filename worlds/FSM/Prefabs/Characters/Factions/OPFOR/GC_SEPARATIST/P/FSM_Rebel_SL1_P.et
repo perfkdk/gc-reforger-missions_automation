@@ -41,7 +41,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{A18238B56E378F4B}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{C1115AA90C004678}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_MC.et"
+     Prefab "{D97017470DD2AED4}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_OD_SOBR.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{87D44A06008E0A7A}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_OD.et"
@@ -53,7 +53,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{99B347D92F16A6D3}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{95ABA095209B01CC}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_MC_2.et"
+     Prefab "{111A755A111BC52D}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_OD_2.et"
     }
    }
   }
@@ -62,11 +62,11 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
      TargetStorage "Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_OD.et"
      PrefabsToSpawn {
-      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_MC.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_OD.et"
      TargetPurpose 1
      PrefabsToSpawn {
       "{44CFE42B0ACF6451}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Multi_Separatist.et"
@@ -79,37 +79,37 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      }
     }
     ItemsInitConfigurationItem "{649009470BA8CEFD}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_MC.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_OD.et"
      PrefabsToSpawn {
       "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et"
      }
     }
     ItemsInitConfigurationItem "{649009470BA8CEF8}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_MC.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_OD.et"
      PrefabsToSpawn {
       "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et"
      }
     }
     ItemsInitConfigurationItem "{649009470BA8CEF9}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_MC.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_OD.et"
      PrefabsToSpawn {
       "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et"
      }
     }
     ItemsInitConfigurationItem "{649009470BA8D041}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_MC.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_OD.et"
      PrefabsToSpawn {
       "{509AD04F487F3968}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_black_Tracer_green.et" "{509AD04F487F3968}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_black_Tracer_green.et"
      }
     }
     ItemsInitConfigurationItem "{649009470BA8D05C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_MC.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
     ItemsInitConfigurationItem "{649009470BA8D05D}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_MC.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
@@ -117,11 +117,23 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
     ItemsInitConfigurationItem "{649009470BA8D05A}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
      PrefabsToSpawn {
-      "{FC7991F4FC49FC34}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762_3rd_1rd_tracer.et" "{509AD04F487F3968}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_black_Tracer_green.et" "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      "{FC7991F4FC49FC34}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762_3rd_1rd_tracer.et" "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64D945790BFD9F51}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+      "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64DA222E106610D2}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_OD.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
     }
    }
   }
  }
- coords 3423.707 211.348 12600.531
+ coords 4733.126 339.125 9762.784
 }

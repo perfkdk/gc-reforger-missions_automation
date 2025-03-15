@@ -12,13 +12,13 @@ GenericEntity : "{923D948AB0D57A50}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_long_b
       }
      }
      UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
-      m_sFiremodeSingle "firemode-rifle-auto"
-      m_sFiremodeBurst "firemode-rifle-auto"
+      m_sFiremodeSingle "firemode-rifle-single"
+      m_sFiremodeBurst "firemode-rifle-burst3"
      }
      MagazineTemplate "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et"
     }
    }
   }
  }
- coords 3592.191 26.7 3464.683
+ coords 4688.051 339.129 9843.217
 }

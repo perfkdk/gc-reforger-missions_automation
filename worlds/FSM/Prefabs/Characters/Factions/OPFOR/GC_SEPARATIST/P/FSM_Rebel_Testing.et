@@ -59,7 +59,7 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88_VSR_rolledup.et"
      PrefabsToSpawn {
-      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
@@ -69,69 +69,32 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
       "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single_Separatist.et"
      }
     }
-    ItemsInitConfigurationItem "{649009471E444BA5}" {
+    ItemsInitConfigurationItem "{64D609DFAE183047}" {
      TargetStorage "Prefabs/Characters/Uniforms/Pants_VKPO.et"
      PrefabsToSpawn {
       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
     }
-    ItemsInitConfigurationItem "{649009471E444BBA}" {
+    ItemsInitConfigurationItem "{64D609DFAE18305D}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL.et"
      PrefabsToSpawn {
       "{509AD04F487F3968}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_black_Tracer_green.et" "{509AD04F487F3968}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_black_Tracer_green.et" "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et" "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et" "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et" "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
-    ItemsInitConfigurationItem "{649009471E444BB9}" {
+    ItemsInitConfigurationItem "{64D609DFAE183021}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
      PrefabsToSpawn {
       "{FC7991F4FC49FC34}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762_3rd_1rd_tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{649009471E444BB7}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_MC.et"
-     PrefabsToSpawn {
-      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
-     }
-    }
-    ItemsInitConfigurationItem "{649009471E444BB2}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_MC.et"
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{649009471E44AA9B}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_MC.et"
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{649009471E44AA98}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP109_utillmid_MC.et"
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{649009471E44C14B}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP113_DropPouch_MC.et"
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{649009471E44C134}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_MC.et"
-     PrefabsToSpawn {
-     }
-    }
-    ItemsInitConfigurationItem "{649009471E44C135}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_FG.et"
+    ItemsInitConfigurationItem "{64D609DFAE183023}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GrenadeBelt.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
-     }
-    }
-    ItemsInitConfigurationItem "{64DA222ECAFB7DCE}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_VKPO.et"
-     PrefabsToSpawn {
-      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
     }
    }
   }
  }
- coords 4731.551 339.125 9770.181
+ coords 3499.798 219.775 12571.12
 }

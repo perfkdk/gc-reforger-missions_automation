@@ -44,7 +44,7 @@ SCR_ChimeraCharacter : "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_S
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88_VSR_rolledup.et"
      PrefabsToSpawn {
-      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
@@ -73,8 +73,14 @@ SCR_ChimeraCharacter : "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_S
      PrefabsToSpawn {
      }
     }
+    ItemsInitConfigurationItem "{64DA222DF62928A2}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
    }
   }
  }
- coords 3427.435 210.368 12609.861
+ coords 4743.074 339.125 9744.783
 }
