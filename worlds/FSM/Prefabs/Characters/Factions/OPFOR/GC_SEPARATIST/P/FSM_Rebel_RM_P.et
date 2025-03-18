@@ -63,9 +63,10 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
      }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage ""
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_M88_VSR.et"
      TargetPurpose 1
      PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
     }
     ItemsInitConfigurationItem "{6490094730B2C642}" {
@@ -124,5 +125,5 @@ SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA
    }
   }
  }
- coords 3288.663 216.549 12519.771
+ coords 4736.008 339.125 9756.653
 }
