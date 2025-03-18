@@ -51,6 +51,14 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "3"
        }
       }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB79284BA6D27}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB79284A2F6C9}" {
+        m_sCallsign "1"
+       }
+      }
       m_aSquadNames {
        SCR_CallsignInfo "{55CCB79287E901BC}" {
         m_sCallsign "1 HQ"
@@ -65,7 +73,16 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "3"
        }
        SCR_CallsignInfo "{64C9644C9895734B}" {
-        m_sCallsign "1 HQ"
+        m_sCallsign "4 HQ"
+       }
+       SCR_CallsignInfo "{64E2BD27F5D37845}" {
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{64E2BD27F424C640}" {
+        m_sCallsign "5"
+       }
+       SCR_CallsignInfo "{64E2BD29E813E7D1}" {
+        m_sCallsign "6"
        }
       }
       m_sCallsignGroupFormat "%1%2%3"
@@ -137,10 +154,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{649528DC8988F96B}" {
      m_messageTitle "BLUFOR Major Victory"
-     m_messageBody "OPFOR greater than 80% Casualties "
+     m_messageBody "OPFOR greater than 80% Casualties. 2 mins to end firefights."
     }
     TILW_EndGameInstruction "{649528DCFD3982A8}" {
-     m_executionDelay 12
+     m_executionDelay 120
      m_factionKey "GC_CAF"
     }
    }
@@ -153,10 +170,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{649528D0FBDCB8F4}" {
      m_messageTitle "BLUFOR Major Victory"
-     m_messageBody "BLUFOR Sucessfuly Delayed & Withdrawed"
+     m_messageBody "BLUFOR Sucessfuly Delayed & Withdrawed. 2 mins to end firefights."
     }
     TILW_EndGameInstruction "{649528D0F89A8907}" {
-     m_executionDelay 12
+     m_executionDelay 120
      m_factionKey "GC_CAF"
     }
    }
@@ -179,10 +196,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{6496BAF491C884A4}" {
      m_messageTitle "BLUFOR Minor Victory"
-     m_messageBody "Successful Delaying Action"
+     m_messageBody "Successful Delaying Action. 2 mins to end firefights."
     }
     TILW_EndGameInstruction "{6496BAF4AE7B0F75}" {
-     m_executionDelay 12
+     m_executionDelay 15
      m_factionKey "GC_CAF"
     }
    }
@@ -267,6 +284,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{6496BAF57ED3E966}" {
    m_flagName "BLUFOR_KilledA"
    m_factionKey "GC_CAF"
+   m_casualtyRatio 0.9
   }
  }
  m_metaFlags {
@@ -283,11 +301,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      TILW_LiteralTerm "{6496BAF2E1A970E8}" {
       m_flagName "BTR3_DESTROYED"
      }
+     TILW_LiteralTerm "{64E2BD1B7A2B7FF3}" {
+      m_flagName "BTR4_DESTROYED"
+     }
     }
     m_minTrue 2
    }
   }
  }
+ m_suppressGameEnd 1
 }
 Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
  components {
@@ -297,13 +319,19 @@ Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
      SlotTemplate InventoryStorageSlot Explosives {
       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
      }
-     NumSlots 10
+     NumSlots 6
     }
     MultiSlotConfiguration "{64D677C5CE26B779}" {
      SlotTemplate InventoryStorageSlot Clacker {
       Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
      }
      NumSlots 2
+    }
+    MultiSlotConfiguration "{64E2BD18F36348C4}" {
+     SlotTemplate InventoryStorageSlot Vis {
+      Prefab "{769BF01DF9E0D2EE}Prefabs/Items/Demining/MineFlags/MineFlag_UK.et"
+     }
+     NumSlots 3
     }
    }
   }
