@@ -248,6 +248,12 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   scale 0.6
   CompletionRadius 9.9
  }
+ AIWP_Defend_21 {
+  coords 5750.784 269.735 955.217
+  angleY 59.288
+  scale 0.6
+  CompletionRadius 9.9
+ }
 }
 $grp SCR_BoardingWaypoint : "{C40316EE26846CAB}Prefabs/AI/Waypoints/AIWaypoint_GetOut.et" {
  wp2 {
