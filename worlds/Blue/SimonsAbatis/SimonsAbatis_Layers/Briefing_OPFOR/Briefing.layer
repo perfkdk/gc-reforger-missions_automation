@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  OPFOR1 {
   coords 5885.721 75.82 4701.43
   m_sTitle "CURRENT SITUATION"
-  m_sTextData "We heard 320 COY being engaged to our immediate South a few minutes ago, and 330 COY to our North engaging enemy positions in the town of Figari. Our COY 310 are marching along route 'ASR Toyota', with our platoon in the lead."
+  m_sTextData "We heard 320 COY being engaged to our immediate South a few minutes ago, and 330 COY to our North engaging enemy positions in the town of Figari. Our COY 310 are marching along route 'ASR Toyota', earlier today 314 PLT lead two squads have been rendered combat ineffective due to Canadian ambushes and as such 316  SQD from 314 PLT will be attached to our platoon. We are now the lead platoon in the formation."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -55,7 +55,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  OPFOR4 {
   coords 5732.257 59.473 4559.619
   m_sTitle "MISSION"
-  m_sTextData "311 is to CLEAR along ASR TOYOTA to the east and sieze OP-101. Vehicles are to remain down ASR Toyota due to high risk of vehicles loss deviating from ASR Toyota accordding to forward elements."\
+  m_sTextData "311(+) is to CLEAR along ASR TOYOTA to the east and sieze OP-101. Vehicles are to remain down ASR Toyota due to high risk of vehicles loss deviating from ASR Toyota accordding to forward elements."\
   "	"\
   "Current location:"\
   ""\
@@ -100,8 +100,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5686.668 70.615 4660.355
   m_sTitle "SIGNALS"
   m_sTextData "311 (You) PLT 42.0"\
-  "312 PLT 43.0"\
-  "313 PLT 44.0"
+  "314 PLT 43.0"\
+  "317 PLT 44.0"
   m_aVisibleForFactions {
    "USSR"
   }

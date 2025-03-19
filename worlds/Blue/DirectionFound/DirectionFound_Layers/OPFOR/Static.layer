@@ -58,6 +58,13 @@ GenericEntity : "{CD62E36CFDCB8FD8}Prefabs/Props/Military/AmmoBoxes/USSR/Equipme
   }
   ActionsManagerComponent "{5476B36C403D4CC0}" {
    Enabled 1
+   additionalActions {
+    SCR_OpenStorageAction "{5476DE57AA50402F}" {
+     UIInfo UIInfo "{52E6EC759A11C684}" {
+      Name "#AR-Inventory_OpenStorage (SL & PL ONLY)"
+     }
+    }
+   }
   }
   RplComponent "{5476B36C54387F41}" {
    Enabled 1
