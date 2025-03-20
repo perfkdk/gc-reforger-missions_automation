@@ -16,7 +16,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    }
   }
  }
- m_iFreezeTime 300000
+ m_iFreezeTime 120000
  {
   SCR_FactionManager "64E8DEDC9594B827" {
    ID "5ED9088735FF2D8B"
@@ -57,7 +57,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "NOTES"
   m_sTextData "Ratio is 2:1."\
   ""\
-  "BLUFOR has a 5 min spawn timer."\
+  "BLUFOR has a 2 min spawn timer."\
   "OPFOR AO limit is the cliffs after the \"Yuri incident\"."\
   ""\
   "BLUFOR win when they hold the church for 5 mins or kill all the USSR."\
