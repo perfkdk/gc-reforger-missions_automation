@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A740BC62C2953AEA}worlds/Cunnah/Rocky_Start/Rocky_Start_Loading.edds"
+ Name "{A740BC62C2953AEA}Missions/Cunnah/Rocky_Start_Loading.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }
