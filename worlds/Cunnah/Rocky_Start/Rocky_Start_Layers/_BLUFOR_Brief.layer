@@ -32,6 +32,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3473.445 2.793 1946.521
   m_sTitle "Execution"
   m_sTextData "As per CO brief."
+  m_aVisibleForFactions {
+   "UK"
+  }
   m_iOrder 2
  }
  BLUFOR_sustainment {
