@@ -286,6 +286,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
   TILW_MissionEvent "{64F178C15065A962}" {
    m_name "TIME_LIMIT"
+   m_instructions {
+    TILW_SendMessageInstruction "{64F2F7F10C2A6933}" {
+     m_executionDelay 3600
+     m_messageTitle "DEFEAT"
+     m_messageBody "The time limit was reached."
+    }
+    TILW_EndGameInstruction "{64F2F7F163D713A7}" {
+     m_executionDelay 3615
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "UK"
+    }
+   }
    m_condition TILW_LiteralTerm "{64F178C1ECC5489F}" {
     m_invertTerm 1
    }

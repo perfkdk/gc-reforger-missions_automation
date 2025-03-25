@@ -1,10 +1,18 @@
 GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ components {
+  TILW_NavmeshRegenComponent "{64F2F7F1ABBA83BC}" {
+  }
+ }
  coords 1306.337 290.965 11761.532
  angleX -1.782
  angleY 114.836
  angleZ -3.008
 }
 GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
+ components {
+  TILW_NavmeshRegenComponent "{64F2F7F1A1E1EF88}" {
+  }
+ }
  coords 1124.052 306.333 12062.409
  angleX 5.165
  angleY -102.231
