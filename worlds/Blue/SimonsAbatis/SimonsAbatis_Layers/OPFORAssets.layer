@@ -121,6 +121,41 @@ $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" 
   angleY -16.435
   angleZ -0.407
  }
+ BTR70_AFRF4 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{60EB306267117495}" {
+      SourceMaterial "BTR_70_base_exterior_Body"
+      AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat"
+     }
+    }
+   }
+   RHS_GroupMaterialController "{609EA3D1CA4AD40C}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43B}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD438}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43F}" {
+      m_iTextureID 6
+      m_bRandomize 0
+     }
+    }
+   }
+   TILW_Flag_EntityDamage "{64D677D7526035D9}" {
+    m_flagName "BTR4_DESTROYED"
+   }
+  }
+  coords 5671.047 71.83 4683.746
+  angleX 4.537
+  angleY -16.435
+  angleZ -0.407
+ }
 }
 $grp Tree : "{CCAB9CE2D5FD851E}Prefabs/Vegetation/Tree/t_picea_abies_3f_high.et" {
  {

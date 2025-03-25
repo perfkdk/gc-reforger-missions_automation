@@ -127,10 +127,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{64CF77A0B663460D}" {
      m_messageTitle "OPFOR Victory"
-     m_messageBody "BLUFOR have been wiped."
+     m_messageBody "BLUFOR have been wiped. 2 min to end firefights. "
     }
     TILW_EndGameInstruction "{64CF77A0B382B41B}" {
-     m_executionDelay 15
+     m_executionDelay 120
      m_factionKey "USSR"
     }
    }
@@ -143,10 +143,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{64CF77A0B663460D}" {
      m_messageTitle "OPFOR Victory"
-     m_messageBody "Signal Retranmission Site Captured"
+     m_messageBody "Signal Retranmission Site Captured. 2 min to end firefights. "
     }
     TILW_EndGameInstruction "{64CF77A0B382B41B}" {
-     m_executionDelay 15
+     m_executionDelay 120
      m_factionKey "USSR"
     }
    }
@@ -159,10 +159,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{64CF77A0B663460D}" {
      m_messageTitle "BLUFOR Victory"
-     m_messageBody "OPFOR has been destroyed."
+     m_messageBody "OPFOR has been destroyed. 2 min to end firefights. "
     }
     TILW_EndGameInstruction "{64CF77A0B382B41B}" {
-     m_executionDelay 15
+     m_executionDelay 120
      m_factionKey "US"
     }
    }
