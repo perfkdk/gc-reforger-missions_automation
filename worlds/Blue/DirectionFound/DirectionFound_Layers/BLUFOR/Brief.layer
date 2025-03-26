@@ -1,3 +1,6 @@
+GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+ coords 4353.575 66.43 5002.804
+}
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  BLUFOR1 {
   coords 3792.128 160.901 4457.969
@@ -5,7 +8,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "A. Enemy Forces"\
   ""\
   "Composition, Disposition, and Strength:"\
-  "Soviet Airmobile Platoon (unsupported) Inserted via helicopter at a nearby Landing Zone"\
+  "Soviet Airmobile Platoon (unsupported) already Inserted via helicopter at a nearby Landing Zone"\
   ""\
   "Capabilities and Limitations:"\
   "Equipped with small arms and potential explosive devices, Lacks direct armored support."\

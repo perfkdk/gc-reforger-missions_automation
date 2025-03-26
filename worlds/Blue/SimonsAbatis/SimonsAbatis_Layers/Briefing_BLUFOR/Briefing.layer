@@ -41,7 +41,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "c. Coordinating Instructions"\
   ""\
   "Primary withdrawal signal: Green flare."\
-  "Engaged units will withdraw by bounding elements under cover of supporting fire."\
   "No unit is to withdraw without direct order from platoon command."
   m_aVisibleForFactions {
    "GC_CAF"
@@ -62,8 +61,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  BLUFOR2 {
   coords 6092.271 138.534 5043.701
   m_sTitle "4. SUSTAINMENT"
-  m_sTextData "None"\
-  ""
+  m_sTextData "1x M151A1 Jeep with:"\
+  "8x C4 Explosives"\
+  "2x Clackers (100m Range)"
   m_aVisibleForFactions {
    "GC_CAF"
   }

@@ -28,7 +28,7 @@ SCR_ChimeraCharacter : "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{64CE8684497C4484}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
      PrefabsToSpawn {
-      "{F03EAAE51C256CFA}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM.et" "{F03EAAE51C256CFA}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM.et" "{F03EAAE51C256CFA}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM.et"
+      "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
      }
     }
    }

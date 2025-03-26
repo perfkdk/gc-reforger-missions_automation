@@ -51,15 +51,51 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "3"
        }
       }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB79284BA6D27}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB79284A2F6C9}" {
+        m_sCallsign "1"
+       }
+      }
       m_aSquadNames {
-       SCR_CallsignInfo "{64C9644C9895734B}" {
+       SCR_CallsignInfo "{55CCB79287E901BC}" {
         m_sCallsign "1 HQ"
+       }
+       SCR_CallsignInfo "{55CCB79287936EBD}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB79287BAFBD6}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB79287A4D7B6}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{64C9644C9895734B}" {
+        m_sCallsign "4 HQ"
+       }
+       SCR_CallsignInfo "{64E2BD27F5D37845}" {
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{64E2BD27F424C640}" {
+        m_sCallsign "5"
+       }
+       SCR_CallsignInfo "{64E2BD29E813E7D1}" {
+        m_sCallsign "6"
        }
       }
       m_sCallsignGroupFormat "%1%2%3"
      }
     }
     SCR_Faction "{64AA098AEA5B1498}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{64AA098204A61453}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+        m_sCallsign "Whiskey"
+       }
+      }
+     }
      m_iFactionRadioFrequency 40500
     }
    }
@@ -100,52 +136,6 @@ SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/Restriction
   }
  }
 }
-PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
- components {
-  TILW_CoverMapComponent "{6473480FCAB7760B}" {
-   Enabled 1
-  }
- }
- coords 5893.147 109.327 5146.718
- Points {
-  ShapePoint "{649528E1DD0F7AD8}" {
-   Position -55.776 0 -468.975
-  }
-  ShapePoint "{649528E1D9BAF037}" {
-   Position 210.799 0 -317.98
-  }
-  ShapePoint "{649528E1D860F3E3}" {
-   Position 535.964 0 -165.911
-  }
-  ShapePoint "{649528E1D435E6CD}" {
-   Position 589.039 0 35.683
-  }
-  ShapePoint "{649528E1D3182F48}" {
-   Position 636.164 0 161.102
-  }
-  ShapePoint "{649528E1D0EF842A}" {
-   Position 340.756 0 387.531
-  }
-  ShapePoint "{649528E1EF14FE43}" {
-   Position 92.77 0 335.113
-  }
-  ShapePoint "{649528E1ED8F08B7}" {
-   Position 30.984 0 132.37
-  }
-  ShapePoint "{649528E1E98F4B32}" {
-   Position -163.009 0 43.213
-  }
-  ShapePoint "{649528E1E7492A7E}" {
-   Position -222.207 0 -4.116
-  }
-  ShapePoint "{649528E1E6CEF592}" {
-   Position -406.82 -14.191 -145.213
-  }
-  ShapePoint "{649528E1E40643CA}" {
-   Position -266.966 -22.498 -534.869
-  }
- }
-}
 TILW_FactionTriggerEntity Crossroad_Capture2 : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
  coords 6253.14 109.126 5176.617
  m_queryRadius 50.5
@@ -164,10 +154,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{649528DC8988F96B}" {
      m_messageTitle "BLUFOR Major Victory"
-     m_messageBody "OPFOR greater than 80% Casualties "
+     m_messageBody "OPFOR greater than 80% Casualties. 2 mins to end firefights."
     }
     TILW_EndGameInstruction "{649528DCFD3982A8}" {
-     m_executionDelay 12
+     m_executionDelay 120
      m_factionKey "GC_CAF"
     }
    }
@@ -180,10 +170,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{649528D0FBDCB8F4}" {
      m_messageTitle "BLUFOR Major Victory"
-     m_messageBody "BLUFOR Sucessfuly Delayed & Withdrawed"
+     m_messageBody "BLUFOR Sucessfuly Delayed & Withdrawed. 2 mins to end firefights."
     }
     TILW_EndGameInstruction "{649528D0F89A8907}" {
-     m_executionDelay 12
+     m_executionDelay 120
      m_factionKey "GC_CAF"
     }
    }
@@ -206,10 +196,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{6496BAF491C884A4}" {
      m_messageTitle "BLUFOR Minor Victory"
-     m_messageBody "Successful Delaying Action"
+     m_messageBody "Successful Delaying Action. 2 mins to end firefights."
     }
     TILW_EndGameInstruction "{6496BAF4AE7B0F75}" {
-     m_executionDelay 12
+     m_executionDelay 15
      m_factionKey "GC_CAF"
     }
    }
@@ -294,6 +284,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{6496BAF57ED3E966}" {
    m_flagName "BLUFOR_KilledA"
    m_factionKey "GC_CAF"
+   m_casualtyRatio 0.9
   }
  }
  m_metaFlags {
@@ -310,9 +301,39 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      TILW_LiteralTerm "{6496BAF2E1A970E8}" {
       m_flagName "BTR3_DESTROYED"
      }
+     TILW_LiteralTerm "{64E2BD1B7A2B7FF3}" {
+      m_flagName "BTR4_DESTROYED"
+     }
     }
     m_minTrue 2
    }
   }
  }
+}
+Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
+   MultiSlots {
+    MultiSlotConfiguration "{64D677C54F96CD51}" {
+     SlotTemplate InventoryStorageSlot Explosives {
+      Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{64D677C5CE26B779}" {
+     SlotTemplate InventoryStorageSlot Clacker {
+      Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{64E2BD18F36348C4}" {
+     SlotTemplate InventoryStorageSlot Vis {
+      Prefab "{769BF01DF9E0D2EE}Prefabs/Items/Demining/MineFlags/MineFlag_UK.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+ }
+ coords 6150.787 113.398 5097.015
 }
