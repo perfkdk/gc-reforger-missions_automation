@@ -1,0 +1,188 @@
+SCR_TimedWaypoint Move : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait.et" {
+ coords 954.393 21.949 3617.842
+ CompletionRadius 350
+ m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
+  m_holdingTime 30
+ }
+}
+SCR_ChimeraCharacter : "{73A904030BDDB209}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_MG.et" {
+ components {
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    AICharacterMovementComponent "{520EA1D2DB109F01}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 143.851 4.96 3250.955
+ angleY 70.701
+}
+$grp SCR_ChimeraCharacter : "{78EF9F722E522CCF}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Sharpshooter.et" {
+ {
+  coords 576.626 12.817 3160.523
+  angleY 47.148
+  {
+   SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    coords 0 0 0
+    CompletionRadius 5
+   }
+  }
+ }
+ {
+  coords 242.86 23.976 3318.588
+  angleY 47.148
+  {
+   SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    coords 0 0 0
+    CompletionRadius 5
+   }
+  }
+ }
+}
+SCR_ChimeraCharacter : "{7F16C773F44030E6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_TL.et" {
+ coords 144.047 4.96 3245.945
+ angleY 140.708
+}
+$grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_FireTeam.et" {
+ {
+  coords 320.073 15.489 2960.68
+  {
+   SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
+    coords 2.449 0.033 -2.065
+    CompletionRadius 75
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 558.628 12.891 3191.028
+  {
+   SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
+    coords 2.449 0.033 -2.065
+    CompletionRadius 75
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 274.061 5.126 3190.233
+  {
+   SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
+    coords 2.449 0.033 -2.065
+    CompletionRadius 20
+    m_aDefendPresets {
+     SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
+     }
+    }
+   }
+  }
+ }
+}
+SCR_BoardingWaypoint getout : "{C40316EE26846CAB}Prefabs/AI/Waypoints/AIWaypoint_GetOut.et" {
+ coords 927.84 12.349 3595.43
+ CompletionRadius 400
+}
+GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ coords 510.017 36.188 3575.023
+ {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+   Npatrol1 {
+    coords 98.371 -7.355 11.772
+    {
+     GenericEntity SlotAI1 : "{8D43830F02C3F114}Prefabs/ScenarioFramework/Components/SlotAI.et" {
+      components {
+       SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+        m_sFactionKey "GC_SEPARATIST"
+        m_sObjectToSpawn "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et"
+        m_bCanBeGarbageCollected 0
+        m_WaypointSet SCR_ScenarioFrameworkWaypointSet "{64E4F480CEC1A59B}" {
+         m_aLayerName {
+          "Npatrol1wps"
+         }
+        }
+        m_eAIGroupFormation Column
+       }
+      }
+      coords 0 0 -6.33
+     }
+     GenericEntity SlotWaypoint2 : "{EBD91177954E8236}Prefabs/ScenarioFramework/Components/SlotWaypoint.et" {
+      components {
+       SCR_ScenarioFrameworkSlotWaypoint "{5EEEE11FAD8EE85C}" {
+        m_Waypoint SCR_ScenarioFrameworkWaypointCycle "{64E4F481DB989A04}" {
+         m_fCompletionRadius 6.5
+         m_aLayersWithWaypointsToCycle {
+          "Npatrol1wps"
+         }
+         m_bUseRandomOrder 1
+        }
+       }
+      }
+      coords -12.776 -0.686 -11.733
+     }
+    }
+   }
+   Npatrol1wps {
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{EBD91177954E8236}Prefabs/ScenarioFramework/Components/SlotWaypoint.et" {
+      SlotWaypoint1 {
+       components {
+        SCR_ScenarioFrameworkSlotWaypoint "{5EEEE11FAD8EE85C}" {
+         m_Waypoint SCR_ScenarioFrameworkWaypointPatrol "{64E4F4813AAE0C06}" {
+          m_fPriorityLevel 2000
+         }
+        }
+       }
+       coords -226.883 11.141 67.618
+      }
+      SlotWaypoint3 {
+       components {
+        SCR_ScenarioFrameworkSlotWaypoint "{5EEEE11FAD8EE85C}" {
+         m_Waypoint SCR_ScenarioFrameworkWaypointPatrol "{64E4F4813AAE0C06}" {
+          m_fPriorityLevel 2000
+         }
+        }
+       }
+       coords 94.404 -8.743 3.329
+      }
+      SlotWaypoint5 {
+       components {
+        SCR_ScenarioFrameworkSlotWaypoint "{5EEEE11FAD8EE85C}" {
+         m_Waypoint SCR_ScenarioFrameworkWaypointPatrol "{64E4F4813AAE0C06}" {
+          m_fPriorityLevel 2000
+         }
+        }
+       }
+       coords 46.327 -17.183 -205.021
+      }
+     }
+    }
+   }
+  }
+ }
+}
+SCR_AIGroup : "{DEE4F567595DE7AE}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_PHQ.et" {
+ coords 654.544 27.591 3578.041
+ m_aUnitPrefabSlots {
+  "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_SL.et" "{7F16C773F44030E6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_TL.et" "{78EF9F722E522CCF}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Sharpshooter.et"
+ }
+}
+$grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+ defendlake {
+  coords 251.085 4.532 3207.741
+  AIBehaviorTree "{730E239133C66A2A}AI/BehaviorTrees/Waypoints/WP_Attack.bt"
+  CompletionRadius 150
+ }
+ attack_bridge {
+  coords 1161.502 7.313 3246.19
+  AIBehaviorTree "{730E239133C66A2A}AI/BehaviorTrees/Waypoints/WP_Attack.bt"
+  CompletionRadius 150
+ }
+}

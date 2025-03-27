@@ -1,0 +1,83 @@
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ coords 160.861 30.991 3328.292
+ angleY 139.153
+ {
+  GenericEntity {
+   ID "5CCCBEDC9EB800A3"
+   coords 0.982 0.393 -0.04
+   angleX -15.242
+   angleY 46.389
+   angleZ -2.468
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB800B1"
+   coords 1.004 0.255 0.551
+   angleX -9.722
+   angleY -21.721
+   angleZ 10.774
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB80064"
+   coords -0.794 0.616 0.522
+   angleY 169.324
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB80071"
+   coords -1.082 0.694 0.438
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB80099"
+   coords -0.651 0.537 0.735
+   angleY -21.683
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB8023A"
+   {
+    GenericEntity {
+     ID "570C9564D02F5C92"
+     coords 0.019 -0.28 -0.883
+    }
+    Turret {
+     ID "5CC6B4BEF18D0296"
+     components {
+      TILW_VehicleCrewComponent "{64E4DD1DDA09B295}" {
+       m_crewConfig TILW_CrewConfig "{64E4DD1DCF3ABC95}" {
+        m_crewGroups {
+         TILW_CrewGroup "{64E4DD1DF1913BB9}" {
+          m_crewStations {
+           TILW_CrewStation "{64E4DD1DE769943F}" {
+            m_allowPilot 0
+            m_allowCargo 0
+            m_characters {
+             "{917322E3B14A77B7}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Rifleman.et"
+            }
+           }
+          }
+         }
+        }
+        m_noTurretDismount 1
+       }
+      }
+     }
+     coords 0.004 0.376 -0.754
+    }
+   }
+  }
+ }
+}
+$grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ Ural4320_transport_covered_camo1 {
+  coords 110.817 5.506 3245.668
+  angleY -105.738
+ }
+ Ural4320_transport_covered_camo2 {
+  coords 103.922 5.711 3236.661
+ }
+}
+Vehicle S105_rally1 : "{5555DCAFADB8CE2A}Prefabs/Vehicles/Wheeled/S105/S105_rally.et" {
+ coords 132.649 4.646 3244.013
+ angleY 44.394
+}
+Vehicle S105_white1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+ coords 138.129 4.395 3240.342
+}

@@ -1,0 +1,310 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{64E52DFE625B606B}" {
+     NavmeshFile "{4C5DC23B33285CBA}NavMesh/Soldiers.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{6957D1DE8462E9A0}NavMesh/BTRlike.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{0C645FF0DA66996D}NavMesh/lowres.nmn"
+    }
+   }
+  }
+ }
+ coords 1152.286 16.625 2773.001
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1154.511 16.625 2771.178
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  PS_ObjectiveManager "{60846DEA6E152749}" {
+   Enabled 0
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{64E1005C0BE45A39}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 0
+    }
+   }
+   m_bUseSpecifiedDate 1
+   m_iSetDay 31
+   m_iSetMonth 5
+   m_iSetYear 2010
+   m_bOverrideGeocoords 1
+   m_bOverrideTimeZoneInfo 1
+   m_fDSTEnabled 1
+   m_fFogDensity 0
+   m_fFogHeight 0
+   m_fRain 0
+  }
+ }
+ coords 1153.745 16.625 2772.404
+ {
+  SCR_FactionManager "64F1776B23065B4D" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_aFriendlyFactionsIds {
+      "GC_SEPARATIST"
+     }
+    }
+   }
+  }
+  ItemPreviewManagerEntity "64F0DE8A0E0C2693" {
+   ID "5ED9088735FF2DD5"
+   coords -267.815 -0.75 -2353.093
+  }
+ }
+}
+$grp GenericEntity {
+ QRFloc {
+  coords 988.701 26.757 4071.859
+  angleY -108.679
+ }
+ QRFloc2 {
+  coords 881.08 35.406 4290.958
+ }
+ QRFloc3 {
+  coords 950.26 34.436 4267.104
+ }
+ lakeQRFloc {
+  coords 98.214 45.568 3775.671
+ }
+ lakeQRFloc2 {
+  coords 91.124 28.842 2322.806
+ }
+ QRFloc4 {
+  coords 1345.969 2.532 4281.928
+ }
+ QRFloc5 {
+  coords 1280.913 0.032 4293.029
+ }
+ QRFloc6 {
+  coords 1398.497 4.069 4359.511
+ }
+ QRFloc7 {
+  coords 395.799 58.644 4323.369
+ }
+ QRFloc8 {
+  coords 425.678 60.487 4381.513
+ }
+ QRFloc9 {
+  coords 283.629 57.862 4302.429
+ }
+}
+SCR_AIGroup : "{2B6A737E854586F0}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_Ranger_2009_HQ_P.et" {
+ coords 1205.467 7.469 3215.449
+ m_sCustomNameSet "Ranger Platoon HQ"
+}
+SCR_AIGroup : "{36964CCA089D327F}Prefabs/Groups/BLUFOR/US/Delta Force/2010/P/Group_Delta_2010_Support_P.et" {
+ coords 996.981 4.936 3178.508
+ m_sCustomNameSet "CAG Support Troop"
+}
+$grp Vehicle : "{3696BFB0D5D19417}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M134.et" {
+ M1025_armed_M1 {
+  coords 1179.737 7.608 3211.557
+  angleY -18.168
+ }
+ M1025_armed_M2 {
+  coords 1180.765 7.814 3201.924
+  angleY 1.235
+ }
+ M1025_armed_M3 {
+  coords 1180.017 7.906 3191.117
+  angleY 4.61
+ }
+}
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB1 {
+  coords 1182.355 7.413 3218.108
+  angleY -19.4
+ }
+ M1025_armed_M2HB2 {
+  coords 1185.477 7.844 3199.32
+  angleY 1.43
+ }
+ M1025_armed_M2HB3 {
+  coords 1185.196 7.938 3187.454
+  angleY -2.772
+ }
+}
+Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{64F15846ABDD891F}" {
+     SlotTemplate InventoryStorageSlot UGLammo {
+      Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{64F15846D0680230}" {
+     SlotTemplate InventoryStorageSlot UGLammo {
+      Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{64F15846C7B6C90C}" {
+     SlotTemplate InventoryStorageSlot UGLammo {
+      Prefab "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{64F15847677BC682}" {
+     SlotTemplate InventoryStorageSlot schermuly {
+      Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{64F15847AE13F7B7}" {
+     SlotTemplate InventoryStorageSlot schermuly {
+      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+     NumSlots 50
+    }
+   }
+  }
+ }
+ coords 1182.109 8.063 3176.177
+ angleY -9.905
+}
+GenericEntity Computer : "{4CD84AA4DE4D2284}Prefabs/Items/Computer_Device.et" {
+ coords 144.248 8.96 3250.644
+}
+$grp SCR_AIGroup : "{715D5CD2DD77ACBB}Prefabs/Groups/BLUFOR/US/Delta Force/2010/P/Group_Delta_2010_Assault_P.et" {
+ {
+  coords 975.694 4.7 3184.937
+  m_sCustomNameSet "Lead CAG Assault Troop"
+ }
+ {
+  coords 991.269 4.97 3191.809
+  m_sCustomNameSet "CAG Assault Troop"
+ }
+}
+TILW_FactionTriggerEntity atlake : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+ coords 251.638 2.856 3214.398
+ m_queryRadius 175
+ m_flagName "atlake"
+ m_playersOnly 1
+ m_ownerFactionKey "RHS_USAF"
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 179.671 17.411 3072.424
+ m_missionEvents {
+  TILW_MissionEvent "{64F15849FEF1126F}" {
+   m_name "LakeQRF"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{64F15849FEF11290}" {
+     m_prefab "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_RifleSquad_P.et"
+     m_locationName "lakeQRFloc"
+     m_setEntityName "lakeQRFloc"
+     m_waypointNames {
+      "defendlake"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{64F15849FEF112E7}" {
+    m_flagName "atlake"
+   }
+  }
+  TILW_MissionEvent "{64F337D8282A7682}" {
+   m_name "follwbtr"
+   m_instructions {
+    TILW_SpawnVehicleInstruction "{64F337C42BA9BD09}" {
+     m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
+     m_locationName "QRFloc"
+     m_crewConfig TILW_CrewConfig "{64F337C4DF509AEA}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/BTR_AFRF.conf" {
+      m_crewGroups {
+       TILW_CrewGroup "{64F2F8212EF64955}" {
+        m_waypointNames {
+         "Move" "follow1"
+        }
+        m_waypointDelay 10
+        m_entityName "btr1"
+       }
+       TILW_CrewGroup "{64F2F8212D8734E9}" {
+        m_waypointNames {
+         "getout" "attack_bridge"
+        }
+        m_entityName "squad1"
+       }
+      }
+     }
+    }
+    CRX_SpawnPrefabInstructionFollow "{64F337C3CE5F2B1D}" {
+     m_executionDelay 0
+     m_prefab "{7F204CC076A15490}AI/BehaviorTrees/Waypoints/AIWaypoint_FollowVehicle.et"
+     m_locationName "QRFloc"
+     m_setEntityName "follow1"
+     m_setTargetWaypointEntityName "squad1"
+    }
+   }
+   m_condition TILW_LiteralTerm "{64F337D89E52227A}" {
+    m_flagName "atlake"
+   }
+  }
+  TILW_MissionEvent "{64F158485761080F}" {
+   m_name "LakeQRF"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{64F158485761088B}" {
+     m_prefab "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_RifleSquad_P.et"
+     m_locationName "lakeQRFloc2"
+     m_setEntityName "lakeQRFloc2"
+     m_waypointNames {
+      "defendlake"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{64F1584857610884}" {
+    m_flagName "atlake"
+   }
+  }
+  TILW_MissionEvent "{64E510C7769199DC}" {
+   m_instructions {
+    TILW_SendMessageInstruction "{64E510C77E9EE70C}" {
+     m_messageTitle "Intel Report"
+     m_messageBody "GLINT SAR Assets have picked up a Company to Battalion sized force operating north of the Lake has started moving south. SIGINT believes it is russian regular forces."
+    }
+   }
+   m_condition TILW_LiteralTerm "{64E510C50CCFFA2F}" {
+    m_flagName "atlake"
+   }
+  }
+ }
+}
+$grp SCR_AIGroup : "{9FA44AED55972EA9}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_Ranger_2009_Squad_P.et" {
+ {
+  coords 1226.757 7.437 3201.255
+ }
+ {
+  coords 1233.794 7.375 3230.74
+ }
+ {
+  coords 1256.378 7.345 3195.533
+ }
+}
+SCR_AIGroup : "{A11462D28E26DED0}Prefabs/Groups/BLUFOR/US/Delta Force/2010/P/Group_Delta_2010_Recon_P.et" {
+ coords 1001.026 5.888 3194.885
+ m_sCustomNameSet "CAG Recon Troop"
+}
+SCR_AIGroup : "{B0225CB3C0AD2833}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_Ranger_2009_AT_Team_P.et" {
+ coords 1254.77 7.344 3222.758
+ m_aUnitPrefabSlots {
+  "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_ATTL_P.et" "{828A09BDBD765804}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_AT_P.et" "{C440E92966832FF3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_ATAS_P.et"
+ }
+ m_sCustomNameSet "Ranger AT Team"
+}
