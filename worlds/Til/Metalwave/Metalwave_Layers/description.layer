@@ -1,13 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  D0_Description {
   m_sTitle "Metalwave"
-  m_sTextData "Russian Mechanized Assault on CDF held power plant"\
-  ""\
-  "3:2 RU:CDF"\
-  ""\
-  "Vehicles:"\
-  "RU - 3x K-17, 1x T-14"\
-  "CDF - 1x BTR-70, 1x .50cal HMMWV"
+  m_sTextData "Russian mechanized assault on CDF held power plant"
   m_bEmptyFactionVisibility 1
  }
  D1_Situation_CDF {
@@ -18,6 +12,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "A Russian motor rifle platoon (mounted in K-17s, with attached T-14) has been spotted near 028 040, preparing to assault the power plant."\
   ""\
   "Previously, another Russian squad established a firing position at 023 038."\
+  "It is expected that the enemy has a mortar available as fire support."\
   ""\
   ""\
   "B. Friendly Forces"\
@@ -69,7 +64,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "B. Friendly Forces"\
   ""\
-  "One K-17 based motor rifle platoon with an attached T-14 tank, currrently located at 029 040."\
+  "One K-17 based motor rifle platoon with an attached T-14 tank and 2B14 mortar, currrently located at 029 040."\
   ""\
   "Another squad previously established a firing position at 023 038."
   m_aVisibleForFactions {
@@ -88,8 +83,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Service / Support"\
   ""\
   "Resupply: Vehicle inventories"\
-  "Vehicle Support: 3x K-17 IFV, 1x T-14 Tank "\
-  ""\
+  "Vehicle Support: 3x K-17 IFV, 1x T-14 Tank"\
+  "Fire Support: 1x 2B14 Mortar"\
+  "Mortar shells: 1000 supplies - 50 per HE, 10 per Smoke, 5 per Illumination"\
   ""\
   "Command / Signal"\
   ""\
@@ -97,7 +93,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1 - 1st Squad"\
   "2 - 2nd Squad"\
   "3 - 3rd Squad"\
-  "4 - Tank"
+  "4 - Tank"\
+  "5 - Mortar"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
