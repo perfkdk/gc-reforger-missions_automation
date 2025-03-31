@@ -1,4 +1,15 @@
 GenericEntity : "{2351FA1249150AE6}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Mortar_USSR.et" {
+ components {
+  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+   m_aContainers {
+    SCR_ResourceContainer "{64FCDCC5846B62CC}" {
+     m_eResourceRights ALL
+     m_fResourceValueCurrent 1000
+     m_fResourceValueMax 1000
+    }
+   }
+  }
+ }
  coords 2989.374 26.806 4132.403
  angleY 147.888
 }
@@ -7,16 +18,26 @@ $grp Vehicle : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_cam
   components {
    RHS_GroupMaterialController "{5E356B92D417DC07}" {
     m_aGroups {
+     RHS_MaterialGroupProperties "{5E356B92CC45C4E7}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
      RHS_MaterialGroupProperties "{5E356B9233E75430}" {
-      m_iTextureID 3
+      m_iTextureID 2
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{5E356B92330F7851}" {
       m_iTextureID 1
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{5E3574F66AAE4150}" {
-      m_iTextureID 1
+      m_iTextureID 9
+      m_bRandomize 0
      }
     }
+   }
+   RigidBody "{51DAA09FECF52BBF}" {
+    Active Active
    }
   }
   coords 2949.776 27.406 4080.793
@@ -58,16 +79,26 @@ $grp Vehicle : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_cam
   components {
    RHS_GroupMaterialController "{5E356B92D417DC07}" {
     m_aGroups {
+     RHS_MaterialGroupProperties "{5E356B92CC45C4E7}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
      RHS_MaterialGroupProperties "{5E356B9233E75430}" {
-      m_iTextureID 3
+      m_iTextureID 2
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{5E356B92330F7851}" {
-      m_iTextureID 1
+      m_iTextureID 2
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{5E3574F66AAE4150}" {
-      m_iTextureID 2
+      m_iTextureID 9
+      m_bRandomize 0
      }
     }
+   }
+   RigidBody "{51DAA09FECF52BBF}" {
+    Active Active
    }
   }
   coords 2961.182 27.312 4090.534
@@ -96,19 +127,31 @@ $grp Vehicle : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_cam
    RHS_GroupMaterialController "{5E356B92D417DC07}" {
     m_aGroups {
      RHS_MaterialGroupProperties "{5E356B92CC45C4E7}" {
-      m_iTextureID 3
+      m_iTextureID 2
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{5E356B9233E75430}" {
-      m_iTextureID 1
+      m_iTextureID 2
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{5E356B92330F7851}" {
       m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{5E3574F66AAE4150}" {
+      m_iTextureID 9
+      m_bRandomize 0
      }
     }
    }
+   RigidBody "{51DAA09FECF52BBF}" {
+    Active Active
+   }
   }
   coords 2972.588 27.205 4100.276
-  angleY -130.5
+  angleX 1.262
+  angleY -130.498
+  angleZ 0.099
   m_sAttachmentGroupName "AFRF_Squad_3"
   {
    SCR_AIGroup AFRF_Squad_3 : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
@@ -150,11 +193,6 @@ SCR_AIGroup CDF_Squad_1 : "{8C7AC28E449564C9}Prefabs/Groups/BLUFOR/CDF/Mech_Mode
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
   }
-  PS_GroupCallsignAssigner "{62F73D957D85EA45}" {
-   m_iCompanyCallsign 1
-   m_iPlatoonCallsign 1
-   m_iSquadCallsign 1
-  }
  }
  coords 1781.767 9.664 3662.463
  angleY 102
@@ -163,16 +201,26 @@ RHS_Tank AFRF_T14 : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_cam
  components {
   RHS_GroupMaterialController "{5E36A382F894B29C}" {
    m_aGroups {
+    RHS_MaterialGroupProperties "{5E36A382F7BC44DE}" {
+     m_iTextureID 2
+     m_bRandomize 0
+    }
     RHS_MaterialGroupProperties "{5E36A382F7F42CD7}" {
      m_iTextureID 4
+     m_bRandomize 0
     }
     RHS_MaterialGroupProperties "{5E36A382F73CB243}" {
      m_iTextureID 1
+     m_bRandomize 0
     }
     RHS_MaterialGroupProperties "{5E36A382E8B446AC}" {
-     m_iTextureID 4
+     m_iTextureID 9
+     m_bRandomize 0
     }
    }
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Active Active
   }
  }
  coords 2938.37 27.531 4071.051
