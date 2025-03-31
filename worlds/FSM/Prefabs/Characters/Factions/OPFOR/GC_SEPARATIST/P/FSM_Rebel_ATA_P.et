@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_S
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Assistant Grenadier"
+   m_sName "Grenadier Assistant"
    m_bIsPlayable 1
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -42,13 +42,13 @@ SCR_ChimeraCharacter : "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_S
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Smock_Combat_84Pat_DPM_01.et"
+     TargetStorage "Pants/Pants_US_BDU.et"
      PrefabsToSpawn {
       "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
     }
     ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et"
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
      PrefabsToSpawn {
       "{509AD04F487F3968}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_black_Tracer_green.et" "{509AD04F487F3968}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_black_Tracer_green.et" "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et" "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et" "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et"
      }
@@ -58,22 +58,22 @@ SCR_ChimeraCharacter : "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_S
      }
     }
     ItemsInitConfigurationItem "{62E8A4CCFB180B82}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
     }
     ItemsInitConfigurationItem "{62E8A4CB60A53210}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/GrenadePouch/Vest_SovietHarness_GrenadePouch.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
     ItemsInitConfigurationItem "{62E8B32B69209EBA}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_GrenadePouch.et"
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
      PrefabsToSpawn {
       "{D0EFA6DB5F7B7127}worlds/FSM/Prefabs/Weapons/Magazines/FSM_545_30rd_Plastic_Black_Reload_tracer.et"
      }
     }
     ItemsInitConfigurationItem "{64DA222CB5396D46}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+     TargetStorage "Jacket/Smock_Combat_84Pat_DPM_01.et"
      PrefabsToSpawn {
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
@@ -81,5 +81,5 @@ SCR_ChimeraCharacter : "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_S
    }
   }
  }
- coords 4755.8 339.129 9725.505
+ coords 4790.306 339.125 9658.896
 }
