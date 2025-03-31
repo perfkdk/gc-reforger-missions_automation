@@ -19,7 +19,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{64FCD3F7710274D2}" {
    m_sFactionKey "GC_CDF"
-   m_iCount 3
+   m_iCount 5
   }
  }
  {
@@ -91,7 +91,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleZ 1.69
   m_prefab "{FCEC036D7F903A66}Prefabs/Vehicles/Wheeled/BTR70/CDF/BTR70_CDF.et"
   m_spawnTimings {
-   915
+   1515
   }
   m_crewConfig TILW_CrewConfig "{64FCD3F661F15CB0}" : "{A48A101CB478559D}Configs/Crews/GC_CDF/BTR70/BTR70_CDF_Crew_AI.conf" {
    m_crewGroups {
@@ -110,7 +110,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleZ 1.69
   m_prefab "{F005DCAB1810AAE2}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquadNoCrew_1.et"
   m_spawnTimings {
-   900
+   1500
   }
   m_waypointNames {
    "wp_qrf_1" "wp_def_8"
@@ -123,7 +123,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleZ 1.69
   m_prefab "{9C51E84BA4D425CC}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquadNoCrew_2.et"
   m_spawnTimings {
-   1200
+   900
   }
   m_waypointNames {
    "wp_qrf_3" "wp_qrf_4" "wp_def_9"
@@ -134,7 +134,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY 47.993
   m_prefab "{FCEC036D7F903A66}Prefabs/Vehicles/Wheeled/BTR70/CDF/BTR70_CDF.et"
   m_spawnTimings {
-   1215
+   915
   }
   m_crewConfig TILW_CrewConfig "{64FCD3F661F15CB0}" : "{A48A101CB478559D}Configs/Crews/GC_CDF/BTR70/BTR70_CDF_Crew_AI.conf" {
    m_crewGroups {
