@@ -14,6 +14,13 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
     }
    }
   }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{7ABCCBD9DD9D2051}worlds/Navmeshes/Chernarus_Lowres.nmn"
+    }
+   }
+  }
  }
  coords 4965.444 339.127 9759.546
 }
@@ -22,7 +29,6 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  coords 4977.306 339.124 9764.938
- m_bAutoPlayerRespawn 1
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{64EEF3DD366C9026}" {
    m_sFactionKey "GC_CDF"
@@ -30,7 +36,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  {
-  SCR_FactionManager {
+  SCR_FactionManager "650323EE29560177" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
@@ -106,14 +112,77 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 6698.171 309.058 7888.925
+ m_missionEvents {
+  TILW_MissionEvent "{650323ECCBF9581A}" {
+   m_name "CDF VICTORY"
+   m_instructions {
+    TILW_SendMessageInstruction "{650323ED15E04756}" {
+     m_messageTitle "CDF VICTORY"
+     m_messageBody "The Russians took 90% casualties."
+    }
+    TILW_EndGameInstruction "{650323ED64AC37B7}" {
+     m_executionDelay 20
+     m_factionKey "GC_CDF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{650323ED1023842F}" {
+    m_flagName "RU_KIA"
+   }
+  }
+  TILW_MissionEvent "{650323ED7165163A}" {
+   m_name "RU VICTORY"
+   m_instructions {
+    TILW_SendMessageInstruction "{650323EDB0CBF0C2}" {
+     m_messageTitle "RU VICTORY"
+     m_messageBody "The Russians have taken control of both towns."\
+     ""\
+     "The mission will end once CDF have taken 90% casualties."
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{650323ED78724DA3}" {
+    m_operands {
+     TILW_LiteralTerm "{650323ED5740BBF4}" {
+      m_flagName "Stary_Sobor_Taken"
+     }
+     TILW_LiteralTerm "{650323ED54C70F5E}" {
+      m_flagName "Novy_Sobor_Taken"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{650323EDC1E0AF35}" {
+   m_name "END"
+   m_instructions {
+    TILW_EndGameInstruction "{650323EDDB4BC8D4}" {
+     m_executionDelay 20
+     m_factionKey "RHS_AFRF"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{650323EA292D498C}" {
+    m_operands {
+     TILW_LiteralTerm "{650323ED5740BBF4}" {
+      m_flagName "Stary_Sobor_Taken"
+     }
+     TILW_LiteralTerm "{650323ED54C70F5E}" {
+      m_flagName "Novy_Sobor_Taken"
+     }
+     TILW_LiteralTerm "{650323EA2DC3F1C7}" {
+      m_flagName "CDF_KIA"
+     }
+    }
+   }
+  }
+ }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{64EEF3CC7A21E652}" {
    m_flagName "RU_KIA"
    m_factionKey "RHS_AFRF"
+   m_casualtyRatio 0.9
   }
   TILW_FactionPlayersKilledFlag "{64EEF3CC273A3D71}" {
    m_flagName "CDF_KIA"
    m_factionKey "GC_CDF"
+   m_casualtyRatio 0.9
   }
  }
 }

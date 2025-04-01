@@ -12,19 +12,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   coords 6665.29 305.976 7826.47
-  m_sTitle "Mission Notes:"
+  m_sTitle "Mission Notes"
   m_sTextData "Objectives must be captured in order! "\
   ""\
-  "End conditions:"\
-  "100% Casualties either side, So end it early if theres no good fights left."\
-  ""\
   "RU Victory:"\
-  "Stary Sobor and Novy Sobor are captured. "\
-  "(NO CDF in cap zone)"\
+  "Both Stary Sobor and Novy Sobor were at least 90% captured"\
+  "However, the mission will not end before 90% CDF casualties"\
   ""\
   "CDF Victory:"\
-  "Time limit (60 minutes) reached"\
-  ""\
+  "90% Russian casualties, or 60 minutes have passed"\
   ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1

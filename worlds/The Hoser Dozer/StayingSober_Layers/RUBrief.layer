@@ -11,7 +11,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "1. Situation and Mission"
   m_sTextData "Russian forces have launched a limited operation into Chernarus to sieze a key airfield and the surrounding area. After a successful air assault onto the the airfield, the russian forces are now securing the routes around the airfield to slow and prevent counter attack from CDF forces."\
   ""\
-  "Mission: Sieze Stary then Novy Sobor. (Must be in order)"
+  "Mission: Seize Stary then Novy Sobor. (Must be in order)"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
