@@ -1,9 +1,12 @@
-SCR_ChimeraCharacter : "{078548B7EBF489A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/P/Character_RHS_USA_AAT_P.et" {
- coords 235.097 33.055 3356.662
+SCR_AIGroup : "{14257149B86DA1AA}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/Group_USA_2020_WeaponsSquad.et" {
+ coords 1178.108 9.078 3269.956
+}
+SCR_AIGroup : "{2B6A737E854586F0}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_Ranger_2009_HQ_P.et" {
+ coords 291.299 32.997 3359.697
 }
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  {
-  coords 1391.915 6.908 3176.929
+  coords 1391.915 6.907 3176.929
   m_sTitle "Situation"
   m_sTextData "a. Enemy Forces:"\
   "G2 indicates enemy consists of a Seperatist platoon in a defensive position around the Villa at Lake Krolyk. G2 has advised that they are equipped with small-arms such as AK-74s, RPKs, RPGs, PKM and SVD. G2 believes they will dig in and put up a strong defence of the villa."\
@@ -25,7 +28,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
  }
  {
-  coords 1415.701 7.67 3149.016
+  coords 1415.701 6.474 3149.016
   m_sTitle "Mission"
   m_sTextData "Delta Force:"\
   "Mission is to Attack Lake Krolyk and retrieve the sensitive hardware and extract back to the east bank of the river and hand over to an awating extraction force."\
@@ -40,7 +43,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 1
  }
  {
-  coords 1396.712 6.808 3074.226
+  coords 1396.712 7.507 3074.226
   m_sTitle "Execution"
   m_sTextData "Delta Must Take the lake alone, Rangers must provide a blocking force for Bridge 894. Rangers are not allowed around the sensitive meterial being retrieved by delta force personel."\
   ""\
@@ -51,7 +54,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 2
  }
  {
-  coords 1388.646 2.63 3040.607
+  coords 1388.646 9.891 3040.607
   m_sTitle "Sustainment"
   m_sTextData "G4 has told us that we have no additional resupply, forces are to attack with what they have on themselves and in friendly vehicles."\
   ""
@@ -61,7 +64,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 3
  }
  {
-  coords 1340.326 4.592 3056.308
+  coords 1340.326 11.737 3056.308
   m_sTitle "Command and Signal"
   m_sTextData "a. Command:"\
   "Listen to the CO. "\
@@ -91,7 +94,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 4
  }
  {
-  coords 1363.642 2.265 3203.285
+  coords 1363.642 6.932 3203.285
   m_sTitle "Notes"
   m_sTextData "Basic attack and defend all in one. Dont make this more complicated than it is, trying to be clever wont make this more fun."\
   ""\
@@ -126,7 +129,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
 }
 $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  M1025_armed_M2HB4 {
-  coords 2103.12 14.218 3321.373
+  coords 2103.12 14.22 3321.373
   angleY 154.8
  }
  M1025_armed_M2HB5 {
@@ -142,7 +145,7 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleY 154.8
  }
  M1025_armed_M2HB8 {
-  coords 2119.718 14.745 3284.33
+  coords 2119.718 14.746 3284.33
   angleY 154.8
  }
  M1025_armed_M2HB9 {
@@ -150,7 +153,7 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleY 154.8
  }
  M1025_armed_M2HB10 {
-  coords 2130.788 15.118 3258.822
+  coords 2130.788 15.119 3258.822
   angleY 154.8
  }
  M1025_armed_M2HB11 {
@@ -158,24 +161,23 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleY 154.8
  }
 }
-SCR_AIGroup : "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et" {
- coords 841.614 35.781 4352.074
-}
-SCR_ChimeraAIAgent : "{554305428A86D827}AI/AIAgents/CRX_SCR_ChimeraAIAgentFull.et" {
- coords 991.072 26.381 4058.138
-}
-SCR_ChimeraCharacter : "{748E3A8A3B2BF77D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_AAT.et" {
- coords 270.8 34.16 3369.336
-}
-SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
- coords 895.364 35.797 4373.752
-}
 Vehicle M998_covered_long1 : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
- coords 2093.774 13.662 3343.427
+ coords 2093.774 13.661 3343.427
+}
+$grp SCR_AIGroup : "{AB04A789F8A96B11}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/Group_USA_2020_RifleSquad.et" {
+ {
+  coords 1204.449 8.888 3294.976
+ }
+ {
+  coords 1131.959 8.33 3259.551
+ }
+ {
+  coords 1099.751 11.432 3290.429
+ }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
-  coords 1254.01 10.191 3184.324
+  coords 1254.01 7.349 3184.324
   angleY 62.431
   m_sImageSetGlow ""
   m_MarkerColor 0 0.125 0.502 1
@@ -189,7 +191,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 1065.29 6.906 3191.555
+  coords 1065.29 5.013 3191.555
   angleY 71.122
   m_sImageSetGlow ""
   m_MarkerColor 0 0.125 0.502 1
@@ -218,7 +220,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 935.261 35.156 4397.971
+  coords 935.261 35.157 4397.971
   angleY -170.437
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
@@ -260,6 +262,34 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_iZOrder 5
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 950.765 7.521 3199.37
+  angleY 62.431
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 30
+  m_sDescription "2 plt"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 1200.108 5.603 3260.156
+  angleY 62.431
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 30
+  m_sDescription "2 plt"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
 }

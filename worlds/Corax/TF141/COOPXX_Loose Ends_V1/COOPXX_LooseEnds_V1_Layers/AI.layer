@@ -1,52 +1,507 @@
+$grp TILW_PrefabSpawnerEntity {
+ {
+  coords 1077.278 15.664 4213.005
+  angleY -169.128
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   600
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
+  }
+ }
+ {
+  coords 1423.352 5.25 4149.246
+  angleY -169.128
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   600
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
+  }
+ }
+ {
+  coords 1377.158 4.594 4050.59
+  angleY -169.128
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   600
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
+  }
+ }
+ {
+  coords 938.08 35.214 4392.291
+  angleY -169.128
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   30
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
+  }
+ }
+ {
+  coords 956.734 35.165 4449.826
+  angleY -169.128
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   30
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
+  }
+ }
+ {
+  coords 1061.708 17.854 4187.397
+  angleY -169.128
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   600
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
+  }
+ }
+ {
+  coords 946.865 35.031 4422.026
+  angleY -169.128
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   30
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
+  }
+ }
+ {
+  coords 1079.214 15.361 4187.888
+  angleY -169.128
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   600
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
+  }
+ }
+ {
+  coords 1397.872 4.875 4095.187
+  angleY -169.128
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   600
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
+  }
+ }
+ {
+  coords 1008.375 33.964 4556.282
+  angleY -151.997
+  m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   900
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+  }
+ }
+ {
+  coords 1024.771 32.917 4589.296
+  angleY -151.997
+  m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   900
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+  }
+ }
+ {
+  coords 990.269 34.918 4523.243
+  angleY -151.997
+  m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   900
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{C5BCB9F87D4BEDD6}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Split_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64FAF9FF54D13031}" {
+     m_waypointNames {
+      "Move" "attack_bridge"
+     }
+    }
+    TILW_CrewGroup "{64FAF9FF54D1301D}" {
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1541.486 6.75 4392.706
+  angleY -155.195
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   900
+  }
+  m_waypointNames {
+   "attack_bridge"
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crewed/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "flankmove" "flankgetout" "flankbridge"
+     }
+     m_waypointDelay 1
+    }
+   }
+  }
+ }
+ lakeqrf1 {
+  coords 97.401 45.508 3781.5
+  angleY -169.128
+  m_prefab "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_RifleSquad_P.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   30
+  }
+  m_waypointNames {
+   "defendlake"
+  }
+ }
+ lakeqrf2 {
+  coords 72.561 30.533 2322.926
+  angleY -169.128
+  m_prefab "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_RifleSquad_P.et"
+  m_conditionFlag "atlake"
+  m_spawnTimings {
+   30
+  }
+  m_waypointNames {
+   "defendlake"
+  }
+ }
+}
+SCR_AIWaypoint flankmove : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ coords 1356.191 5.206 3367.346
+}
+SCR_DefendWaypoint flankbridge : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+ coords 1383.405 4.465 3331.824
+}
 SCR_TimedWaypoint Move : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait.et" {
- coords 954.393 21.949 3617.842
+ coords 1055.208 11.502 3423.934
  CompletionRadius 350
  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
   m_holdingTime 30
  }
 }
-SCR_ChimeraCharacter : "{73A904030BDDB209}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_MG.et" {
- components {
-  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
-   components {
-    AICharacterMovementComponent "{520EA1D2DB109F01}" {
-     Enabled 0
-    }
-   }
-  }
- }
- coords 143.851 4.96 3250.955
- angleY 70.701
-}
-$grp SCR_ChimeraCharacter : "{78EF9F722E522CCF}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Sharpshooter.et" {
+$grp SCR_AIGroup : "{B4AF342EA30A9192}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_Sharpshooter.et" {
  {
-  coords 576.626 12.817 3160.523
-  angleY 47.148
+  coords 241.879 23.71 3320.089
+  m_aUnitPrefabSlots +{
+  }
   {
    SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
-    coords 0 0 0
+    coords 1.625 0.039 -1.217
+    angleY 47.148
     CompletionRadius 5
    }
   }
  }
  {
-  coords 242.86 23.976 3318.588
-  angleY 47.148
+  coords 576.976 12.822 3159.616
+  m_bSnapToTerrain 0
   {
    SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
-    coords 0 0 0
+    coords -0.938 0.007 -0.694
+    angleY 47.148
     CompletionRadius 5
    }
   }
  }
 }
-SCR_ChimeraCharacter : "{7F16C773F44030E6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_TL.et" {
- coords 144.047 4.96 3245.945
- angleY 140.708
+SCR_ChimeraCharacter : "{B889387E9A33D667}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_BaseLoadout.et" {
+ coords 2089.646 13.551 3349.36
 }
 $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_FireTeam.et" {
  {
-  coords 320.073 15.489 2960.68
+  coords 320.073 15.49 2960.68
   {
    SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
     coords 2.449 0.033 -2.065
@@ -59,7 +514,7 @@ $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
   }
  }
  {
-  coords 558.628 12.891 3191.028
+  coords 171.851 6.912 3213.868
   {
    SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
     coords 2.449 0.033 -2.065
@@ -72,7 +527,7 @@ $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
   }
  }
  {
-  coords 274.061 5.126 3190.233
+  coords 274.061 4.514 3190.233
   {
    SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
     coords 2.449 0.033 -2.065
@@ -85,18 +540,23 @@ $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
   }
  }
 }
-SCR_BoardingWaypoint getout : "{C40316EE26846CAB}Prefabs/AI/Waypoints/AIWaypoint_GetOut.et" {
- coords 927.84 12.349 3595.43
- CompletionRadius 400
+$grp SCR_BoardingWaypoint : "{C40316EE26846CAB}Prefabs/AI/Waypoints/AIWaypoint_GetOut.et" {
+ getout {
+  coords 1035.888 11.655 3406.301
+  CompletionRadius 400
+ }
+ flankgetout {
+  coords 1357.11 5.453 3366.59
+ }
 }
-GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
  coords 510.017 36.188 3575.023
  {
-  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
    Npatrol1 {
     coords 98.371 -7.355 11.772
     {
-     GenericEntity SlotAI1 : "{8D43830F02C3F114}Prefabs/ScenarioFramework/Components/SlotAI.et" {
+     GenericEntity SlotAI1 : "{8D43830F02C3F114}Prefabs/Systems/ScenarioFramework/Components/SlotAI.et" {
       components {
        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
         m_sFactionKey "GC_SEPARATIST"
@@ -112,7 +572,7 @@ GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Ar
       }
       coords 0 0 -6.33
      }
-     GenericEntity SlotWaypoint2 : "{EBD91177954E8236}Prefabs/ScenarioFramework/Components/SlotWaypoint.et" {
+     GenericEntity SlotWaypoint2 : "{EBD91177954E8236}Prefabs/Systems/ScenarioFramework/Components/SlotWaypoint.et" {
       components {
        SCR_ScenarioFrameworkSlotWaypoint "{5EEEE11FAD8EE85C}" {
         m_Waypoint SCR_ScenarioFrameworkWaypointCycle "{64E4F481DB989A04}" {
@@ -131,7 +591,7 @@ GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Ar
    Npatrol1wps {
     coords 0 0 0
     {
-     $grp GenericEntity : "{EBD91177954E8236}Prefabs/ScenarioFramework/Components/SlotWaypoint.et" {
+     $grp GenericEntity : "{EBD91177954E8236}Prefabs/Systems/ScenarioFramework/Components/SlotWaypoint.et" {
       SlotWaypoint1 {
        components {
         SCR_ScenarioFrameworkSlotWaypoint "{5EEEE11FAD8EE85C}" {
@@ -168,21 +628,35 @@ GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Ar
   }
  }
 }
-SCR_AIGroup : "{DEE4F567595DE7AE}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_PHQ.et" {
- coords 654.544 27.591 3578.041
- m_aUnitPrefabSlots {
-  "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_SL.et" "{7F16C773F44030E6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_TL.et" "{78EF9F722E522CCF}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Sharpshooter.et"
+TILW_ExtractionTriggerEntity : "{DC730943EA971A4B}Prefabs/Logic/Triggers/TILW_ItemExtractionTrigger.et" {
+ coords 1217.483 9.619 3099.833
+}
+$grp SCR_AIGroup : "{DEE4F567595DE7AE}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_PHQ.et" {
+ {
+  coords 222.569 4.538 3302.587
+  m_aUnitPrefabSlots {
+   "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_SL.et" "{7F16C773F44030E6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_TL.et" "{78EF9F722E522CCF}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Sharpshooter.et"
+  }
+ }
+ {
+  coords 133.337 4.714 3237.453
+  {
+   SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    coords 10.635 0.032 10.668
+    CompletionRadius 3
+   }
+  }
  }
 }
 $grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
  defendlake {
-  coords 251.085 4.532 3207.741
+  coords 251.085 2.856 3207.741
   AIBehaviorTree "{730E239133C66A2A}AI/BehaviorTrees/Waypoints/WP_Attack.bt"
   CompletionRadius 150
  }
  attack_bridge {
-  coords 1161.502 7.313 3246.19
+  coords 1171.692 7.856 3231.623
   AIBehaviorTree "{730E239133C66A2A}AI/BehaviorTrees/Waypoints/WP_Attack.bt"
-  CompletionRadius 150
+  CompletionRadius 70
  }
 }
