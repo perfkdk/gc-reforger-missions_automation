@@ -40,7 +40,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  All_Notes {
   coords 4539.902 134.875 5764.674
   m_sTitle "Notes"
-  m_sTextData "Blufor Victory = 100% Opfor Eliminated, or Time limit reached."\
+  m_sTextData "Blufor Victory = 90% Opfor Eliminated, or Time limit reached."\
   "Opfor Victory = 100% Blufor Eliminated."\
   ""\
   "There is no setup timer."\

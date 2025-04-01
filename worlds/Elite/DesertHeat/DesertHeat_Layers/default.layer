@@ -42,16 +42,16 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   coords 4534.077 134.875 5759.728
   Points {
    ShapePoint "{64FF3086BC20C6CB}" {
-    Position -169.466 -0 1836.699
+    Position -169.466 0 1836.699
    }
    ShapePoint "{64FF3086BEC9DBA2}" {
-    Position -1286.262 -0 1769.027
+    Position -1286.262 0 1769.027
    }
    ShapePoint "{64FF3086B7D3A705}" {
-    Position -897.027 -0 -716.695
+    Position -897.027 0 -716.695
    }
    ShapePoint "{64FF3086A9F9AC34}" {
-    Position 1270.537 -0 -354.417
+    Position 1270.537 0 -354.417
    }
   }
  }
@@ -90,6 +90,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 5400
      m_factionKey "US"
     }
+    TILW_SendMessageInstruction "{6502FCD8B9C6F623}" {
+     m_executionDelay 4800
+     m_messageTitle "Time Limit"
+     m_messageBody "10 Minutes until US Victory."
+    }
    }
    m_condition TILW_LiteralTerm "{64FF308DF5AC177E}" {
     m_invertTerm 1
@@ -100,6 +105,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{64FF308ED1DD4BB0}" {
    m_flagName "Opfor_Killed"
    m_factionKey "GC_INSURGENT"
+   m_casualtyRatio 0.9
   }
   TILW_FactionPlayersKilledFlag "{64FF308EC8F5CC1E}" {
    m_flagName "Blufor_Killed"
