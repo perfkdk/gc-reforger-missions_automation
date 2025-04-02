@@ -4,6 +4,9 @@ SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 1154.511 16.625 2771.178
 }
+SCR_CampaignFactionManager CampaignFactionManager_RHS1 : "{08D7B29AEC960674}Prefabs/MP/Campaign/CampaignFactionManager_RHS.et" {
+ coords 1187.024 8.072 3177.399
+}
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
@@ -51,6 +54,12 @@ $grp Vehicle : "{0FD3226BD0578D4D}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M134/JLTV_O
       }
       NumSlots 50
      }
+     MultiSlotConfiguration "{6504F3382B53C006}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+      }
+      NumSlots 50
+     }
     }
    }
   }
@@ -64,6 +73,12 @@ $grp Vehicle : "{0FD3226BD0578D4D}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M134/JLTV_O
      MultiSlotConfiguration "{65025EFE7376F235}" {
       SlotTemplate InventoryStorageSlot "{65025EFE713F48E7}" {
        Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6504F3382B53C006}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
       }
       NumSlots 50
      }
@@ -82,29 +97,17 @@ $grp Vehicle : "{0FD3226BD0578D4D}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M134/JLTV_O
       }
       NumSlots 50
      }
+     MultiSlotConfiguration "{6504F3382B53C006}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+      }
+      NumSlots 50
+     }
     }
    }
   }
   coords 1182.986 8.115 3172.648
   angleY -12.44
- }
-}
-SCR_AIGroup : "{2B6A737E854586F0}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_Ranger_2009_HQ_P.et" {
- coords 1205.467 7.469 3215.449
- m_sCustomNameSet "Ranger Platoon HQ"
-}
-SCR_AIGroup : "{36964CCA089D327F}Prefabs/Groups/BLUFOR/US/Delta Force/2010/P/Group_Delta_2010_Support_P.et" {
- coords 996.981 4.936 3178.508
- m_sCustomNameSet "CAG Support Troop"
-}
-$grp SCR_AIGroup : "{715D5CD2DD77ACBB}Prefabs/Groups/BLUFOR/US/Delta Force/2010/P/Group_Delta_2010_Assault_P.et" {
- {
-  coords 975.694 4.7 3184.937
-  m_sCustomNameSet "Lead CAG Assault Troop"
- }
- {
-  coords 991.269 4.97 3191.809
-  m_sCustomNameSet "CAG Assault Troop"
  }
 }
 TILW_FactionTriggerEntity atlake : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
@@ -155,30 +158,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{6502C7C58D9E2C1B}" {
    m_flagName "CasualtyLimit"
    m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.9
   }
  }
-}
-$grp SCR_AIGroup : "{9FA44AED55972EA9}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_Ranger_2009_Squad_P.et" {
- {
-  coords 1226.757 7.438 3201.255
- }
- {
-  coords 1233.794 7.375 3230.74
- }
- {
-  coords 1256.378 7.345 3195.533
- }
-}
-SCR_AIGroup : "{A11462D28E26DED0}Prefabs/Groups/BLUFOR/US/Delta Force/2010/P/Group_Delta_2010_Recon_P.et" {
- coords 1001.026 5.888 3194.885
- m_sCustomNameSet "CAG Recon Troop"
-}
-SCR_AIGroup : "{B0225CB3C0AD2833}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_Ranger_2009_AT_Team_P.et" {
- coords 1254.77 7.344 3222.758
- m_aUnitPrefabSlots {
-  "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_ATTL_P.et" "{828A09BDBD765804}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_AT_P.et" "{C440E92966832FF3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_ATAS_P.et"
- }
- m_sCustomNameSet "Ranger AT Team"
 }
 $grp Vehicle : "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK.et" {
  JLTV_OGPK1 {
@@ -188,6 +170,12 @@ $grp Vehicle : "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_O
      MultiSlotConfiguration "{65025EFE4C0DD260}" {
       SlotTemplate InventoryStorageSlot "{65025EFE4A9A413B}" {
        Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6504F3387C083B96}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
       }
       NumSlots 50
      }
@@ -207,6 +195,12 @@ $grp Vehicle : "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_O
       }
       NumSlots 50
      }
+     MultiSlotConfiguration "{6504F3387C083B96}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+      }
+      NumSlots 50
+     }
     }
    }
   }
@@ -220,6 +214,12 @@ $grp Vehicle : "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_O
      MultiSlotConfiguration "{65025EFE4C0DD260}" {
       SlotTemplate InventoryStorageSlot "{65025EFE4A9A413B}" {
        Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6504F3387C083B96}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
       }
       NumSlots 50
      }
@@ -239,6 +239,24 @@ Vehicle JLTV_Unarmed1 : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed
       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
      }
      NumSlots 50
+    }
+    MultiSlotConfiguration "{6504F3386A2F9D55}" {
+     SlotTemplate InventoryStorageSlot pmags {
+      Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+     NumSlots 300
+    }
+    MultiSlotConfiguration "{6504F33889DFA275}" {
+     SlotTemplate InventoryStorageSlot m249 {
+      Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{6504F3390EF96FFB}" {
+     SlotTemplate InventoryStorageSlot m240 {
+      Prefab "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
+     }
+     NumSlots 40
     }
    }
   }

@@ -5,13 +5,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "a. Enemy Forces:"\
   "G2 indicates enemy consists of a Seperatist platoon in a defensive position around the Villa at Lake Krolyk. G2 has advised that they are equipped with small-arms such as AK-74s, RPKs, RPGs, PKM and SVD. G2 believes they will dig in and put up a strong defence of the villa."\
   ""\
-  "Russian and Seperatist Forces are operating to the north on the west bank of the river in various concentrations and could take actions to reinforce the villa or cut off corces at the bridge."\
+  "Russian and Seperatist Forces are operating to the north on the west bank of the river in various concentrations and could take actions to reinforce the villa or cut off forces at the bridge."\
   ""\
   "b. Friendly Forces:"\
-  "4 Delta troops are located West of Bridge 894 in the river,A Ranger platoon is location on the south side of Bridge 894 in position and has been given an Anti tank team from the Anti Tank platoon. "\
+  "4 Delta troops are located West of Bridge 894 in the river, 1 Ranger platoon is location on the south side of Bridge 894 in position and has been given an Anti tank team from the Anti Tank platoon. "\
   ""\
   "c. Terrain:"\
-  "Wide Deep river to our east with various crossing points. Dense urban to our immiate south thinning out to the west. direct west is a wooded river leaking to Lake krolyk. East is open fields interspersed with small woods."\
+  "Wide Deep river to our east with various crossing points. Dense urban to our immiate south thinning out to the west. Direct west is a wooded river leading to Lake krolyk. East is open fields interspersed with small woods."\
   ""\
   "d. Weather:"\
   "Weather is clear and with a full moon. Winds mild. Ground is soft and muddy but should not impede movement."\
@@ -25,7 +25,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 1415.701 6.474 3149.016
   m_sTitle "Mission"
   m_sTextData "Delta Force:"\
-  "Mission is to Attack Lake Krolyk and retrieve the sensitive hardware and extract back to the east bank of the river and hand over to an awating extraction force."\
+  "Mission is to Attack Lake Krolyk and retrieve the sensitive hardware (Computer Device) and extract back to the east bank of the river and hand over to an awating extraction force."\
   ""\
   "Rangers:"\
   "Mission is to block the enemy at Bridge 894 to prevent enemy forces from approaching from the North and cutting off Delta's extraction route."\
@@ -34,12 +34,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    ""
   }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
   m_iOrder 1
  }
  {
   coords 1396.712 7.507 3074.226
   m_sTitle "Execution"
-  m_sTextData "Delta Must Take the lake alone, Rangers must provide a blocking force for Bridge 894. Rangers are not allowed around the sensitive meterial being retrieved by delta force personel."\
+  m_sTextData "Delta Must Take the lake alone, Rangers must provide a blocking force for Bridge 894. Rangers are not allowed around the sensitive material being retrieved by delta force personel."\
+  ""\
+  "LOA for rangers is no more than 100 meters north of bridge 894."\
   ""\
   "How you achieve this is up to the CO within the above guidelines."
   m_aVisibleForFactions {
@@ -90,7 +94,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 1363.642 6.932 3203.285
   m_sTitle "Notes"
-  m_sTextData "Basic attack and defend all in one. Dont make this more complicated than it is, trying to be clever wont make this more fun."\
+  m_sTextData "Basic raid and defend all in one. Dont make this more complicated than it is, trying to be clever wont make this more fun."\
   ""\
   "No time limit"\
   ""\
@@ -112,9 +116,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 1342.694 6.969 3153.389
   m_sTitle "Service And Support"
   m_sTextData "Ranger Vehicles:"\
-  "3x HMMWV with M134"\
-  "3x HMMWV with M2"\
-  "1x HMMWV"
+  "3x MATV (JLTV) with M134"\
+  "3x MATV (JLTV) with M2"\
+  "1x MATV (JLTV)"\
+  ""\
+  "Each contains 50 Paraflares for illumination."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -258,7 +264,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 2091.241 11.94 3346.29
+  coords 2091.591 11.94 3344.188
   angleY 70.279
   m_sImageSetGlow ""
   m_MarkerColor 0 0.125 0.502 1
@@ -285,6 +291,19 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_iZOrder 5
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 475.445 14.429 2680.195
+  m_sImageSet "{B044199ADB2E7A7C}Missions/Corax/Loose Ends/Computer.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 200
+  m_sDescription "Computer device "
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
 }

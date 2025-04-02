@@ -484,8 +484,14 @@ SCR_TimedWaypoint Move : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait
   m_holdingTime 30
  }
 }
-SCR_ChimeraCharacter : "{828A09BDBD765804}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_AT_P.et" {
- coords 1255.345 7.344 3224.876
+SCR_AIGroup : "{7A43006F3F254FB2}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_SentryTeam.et" {
+ components {
+  SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+   Enabled 0
+  }
+ }
+ coords 2090.205 13.562 3347.617
+ angleY -25.426
 }
 GenericEntity : "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et" {
  coords 138.271 13.392 3212.474
@@ -517,9 +523,6 @@ $grp SCR_AIGroup : "{B4AF342EA30A9192}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
    }
   }
  }
-}
-SCR_ChimeraCharacter : "{B889387E9A33D667}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_BaseLoadout.et" {
- coords 2089.646 13.551 3349.36
 }
 $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_FireTeam.et" {
  {
