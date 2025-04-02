@@ -155,6 +155,46 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleY 154.8
  }
 }
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_defaultColor 0.502 0 0 1
+  }
+  TILW_CoverMapComponent "{6473480FCAB7760B}" {
+   Enabled 1
+  }
+ }
+ coords 2088.221 11.963 3660.183
+ Points {
+  ShapePoint "{6504F31323425185}" {
+   Position 46.447 0.053 32.698
+  }
+  ShapePoint "{6504F313215A2E0D}" {
+   Position 19.647 7.77 924.608
+  }
+  ShapePoint "{6504F3132979A7C7}" {
+   Position -2055.165 79.683 879.865
+  }
+  ShapePoint "{6504F3135A345A6C}" {
+   Position -2060.729 0 -1412.252
+  }
+  ShapePoint "{6504F3134776E6F4}" {
+   Position -1415.875 0 -1161.769
+  }
+  ShapePoint "{6504F31344EE98A2}" {
+   Position -1078.267 -0 -845.896
+  }
+  ShapePoint "{6504F3134E2DE085}" {
+   Position 115.17 -0.003 -405.248
+  }
+  ShapePoint "{6504F3134DC41390}" {
+   Position 92.51 -0.012 -300.681
+  }
+  ShapePoint "{6504F3134B08D3BC}" {
+   Position 74.1 0.073 -94.844
+  }
+ }
+}
 Vehicle M998_covered_long1 : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
  coords 2093.774 13.661 3343.427
 }
