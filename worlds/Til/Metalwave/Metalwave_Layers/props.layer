@@ -1592,26 +1592,13 @@ $grp Projectile : "{12AFA740BE9ED3CD}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_TBG
   angleY 123.259
  }
 }
-$grp GenericEntity : "{160E4E4110803F26}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_FIA.et" {
- {
-  components {
-   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
-    m_sDefaultMaterial "{B7A02313829700F9}Assets/Props/Fabric/Flags/Data/Flag_1_2_Green.emat"
-   }
+GenericEntity : "{160E4E4110803F26}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_FIA.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{B7A02313829700F9}Assets/Props/Fabric/Flags/Data/Flag_1_2_Green.emat"
   }
-  coords 1964.899 11.173 3754.667
  }
- {
-  components {
-   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
-    m_sDefaultMaterial "{B7A02313829700F9}Assets/Props/Fabric/Flags/Data/Flag_1_2_Green.emat"
-   }
-  }
-  coords 1759.642 53.089 3687.642
-  angleX 90
-  angleY 90
-  angleZ -90
- }
+ coords 1964.899 11.173 3754.667
 }
 $grp StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Long.et" {
  {
