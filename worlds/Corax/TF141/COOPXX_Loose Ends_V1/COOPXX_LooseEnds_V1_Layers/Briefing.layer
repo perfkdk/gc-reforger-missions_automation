@@ -1,9 +1,3 @@
-SCR_AIGroup : "{14257149B86DA1AA}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/Group_USA_2020_WeaponsSquad.et" {
- coords 1178.108 9.078 3269.956
-}
-SCR_AIGroup : "{2B6A737E854586F0}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_Ranger_2009_HQ_P.et" {
- coords 291.299 32.997 3359.697
-}
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  {
   coords 1391.915 6.907 3176.929
@@ -164,20 +158,9 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
 Vehicle M998_covered_long1 : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
  coords 2093.774 13.661 3343.427
 }
-$grp SCR_AIGroup : "{AB04A789F8A96B11}Prefabs/Groups/BLUFOR/US/Army_2020_Rifles/Group_USA_2020_RifleSquad.et" {
- {
-  coords 1204.449 8.888 3294.976
- }
- {
-  coords 1131.959 8.33 3259.551
- }
- {
-  coords 1099.751 11.432 3290.429
- }
-}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
-  coords 1254.01 7.349 3184.324
+  coords 1230.061 7.349 3208.526
   angleY 62.431
   m_sImageSetGlow ""
   m_MarkerColor 0 0.125 0.502 1
@@ -235,7 +218,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 2079.815 11.94 3379.853
+  coords 2091.241 11.94 3346.29
   angleY 70.279
   m_sImageSetGlow ""
   m_MarkerColor 0 0.125 0.502 1
@@ -262,34 +245,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_iZOrder 5
-  m_bShowForAnyFaction 1
- }
- {
-  coords 950.765 7.521 3199.37
-  angleY 62.431
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.125 0.502 1
-  m_sQuadName "flag-2"
-  m_fWorldSize 30
-  m_sDescription "2 plt"
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- {
-  coords 1200.108 5.603 3260.156
-  angleY 62.431
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.125 0.502 1
-  m_sQuadName "flag-2"
-  m_fWorldSize 30
-  m_sDescription "2 plt"
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
-  m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
 }

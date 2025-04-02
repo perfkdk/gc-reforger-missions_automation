@@ -24,10 +24,6 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_fFogDensity 0.04
    m_fFogHeight 1.4
    m_fRain 0
-   m_fFogDensityOveride 1
-   m_fFogHeightOveride 1
-   m_fRainOveride 1
-   m_fWindOveride 1
   }
  }
  coords 1155.337 7.664 3284.516
@@ -101,9 +97,6 @@ SCR_AIGroup : "{36964CCA089D327F}Prefabs/Groups/BLUFOR/US/Delta Force/2010/P/Gro
  coords 996.981 4.936 3178.508
  m_sCustomNameSet "CAG Support Troop"
 }
-GenericEntity Computer : "{4CD84AA4DE4D2284}Prefabs/Items/Computer_Device.et" {
- coords 144.248 8.96 3250.644
-}
 $grp SCR_AIGroup : "{715D5CD2DD77ACBB}Prefabs/Groups/BLUFOR/US/Delta Force/2010/P/Group_Delta_2010_Assault_P.et" {
  {
   coords 975.694 4.7 3184.937
@@ -135,9 +128,33 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "atlake"
    }
   }
+  TILW_MissionEvent "{6502C7C5AF37E057}" {
+   m_instructions {
+    TILW_EndGameInstruction "{6502C7C5D5130639}" {
+     m_executionDelay 15
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6502C7C5D22EB0DC}" {
+    m_flagName "Handover"
+   }
+  }
+  TILW_MissionEvent "{6502C7DB642C3980}" {
+   m_instructions {
+    TILW_EndGameInstruction "{6502C7DB60CFF08C}" {
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6502C7DB6248FEFE}" {
+    m_flagName "CasualtyLimit"
+   }
+  }
  }
- m_casualtyFlags {
-  TILW_FactionAIKilledFlag "{65025ECA4F619DFE}" {
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{6502C7C58D9E2C1B}" {
+   m_flagName "CasualtyLimit"
+   m_factionKey "RHS_USAF"
   }
  }
 }

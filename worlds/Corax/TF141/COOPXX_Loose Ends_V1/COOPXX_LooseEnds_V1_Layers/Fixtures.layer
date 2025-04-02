@@ -229,6 +229,17 @@ Vehicle S105_rally1 : "{5555DCAFADB8CE2A}Prefabs/Vehicles/Wheeled/S105/S105_rall
  coords 132.649 4.647 3244.013
  angleY 44.394
 }
+SCR_DestructibleBuildingEntity : "{5CADC96916FF1CC4}Prefabs/Structures/Houses/Villa/Villa_E_2I01/Villa_E_2I01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5DA867F4FAB3ABC4}" {
+   Enabled 0
+  }
+  TILW_NavmeshRegenComponent "{6502C7D9B5EF984B}" {
+  }
+ }
+ coords 136.054 0.861 3212.299
+ angleY 29.341
+}
 Vehicle S105_white1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
  coords 138.129 4.395 3240.342
 }
