@@ -82,13 +82,12 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/TILW_PresenceTrigger.et" {
+TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
  coords 3354.785 24.828 3516.499
  m_queryRadius 50
- m_prefabFilter {
-  "{F6A9D36E015B8372}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_SL_P.et" "{242FE368982C2770}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_TL_P.et" "{6E061DEBD2B0DF27}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_MG_P.et" "{E86143831DEE4795}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_Medic_P.et" "{FF19CA397D21C540}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_LAT_P.et" "{0DEAF33C721E6912}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_JTAC_P.et" "{89161035699FD156}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_GL_P.et" "{532C6BE3D51D3718}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_AR_P.et" "{180EF48320D421A4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/Character_RHS_RANGER_AMG_P.et"
- }
  m_flagName "US_EXTRACT"
+ m_factionKey "RHS_USAF"
+ m_ratioThreshold 0.9
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  coords 327.772 52.662 4165.353

@@ -1,0 +1,843 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1279.831 151.258 6274.486
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1284.564 154.309 6291.461
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1288.822 154.359 6284.022
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.282 154.317 6279.212
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1290.345 154.274 6279.968
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1276.975 154.991 6274.651
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1289.563 154.971 6278.127
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1287.007 154.66 6288.861
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.573 151.304 6288.106
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.554 151.969 6288.1
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.569 151.641 6288.105
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1280.206 154.359 6289.824
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1280.182 151.649 6289.833
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1280.188 155.024 6289.817
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1280.203 154.696 6289.823
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1280.185 151.312 6289.833
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1280.167 151.977 6289.829
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.605 154.349 6288.093
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1282.024 151.286 6275.3
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1282.005 151.951 6275.294
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1282.021 151.623 6275.299
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1279.828 151.595 6274.485
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.588 155.014 6288.087
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.603 154.686 6288.092
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1279.813 151.923 6274.48
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1287.001 154.988 6288.875
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1285.215 155.003 6276.493
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1285.231 154.675 6276.498
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1285.234 154.338 6276.499
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1288.815 155.024 6284.034
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1280.898 154.645 6274.872
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1280.901 154.308 6274.873
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1276.981 154.663 6274.638
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1276.982 154.326 6274.639
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1287.095 151.99 6288.559
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1287.101 151.662 6288.546
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.239 151.971 6279.285
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1287.102 151.325 6288.547
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.246 151.306 6279.272
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.245 151.643 6279.271
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1288.757 151.317 6284.131
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1288.756 151.654 6284.13
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1288.75 151.982 6284.143
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1273.663 151.999 6283.506
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1273.669 151.671 6283.493
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.281 154.654 6279.211
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1273.67 151.334 6283.494
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1275.275 154.982 6279.225
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1284.555 154.64 6291.454
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1284.54 154.968 6291.449
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1287.008 154.323 6288.862
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1273.667 155.017 6283.472
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1273.673 154.689 6283.458
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1273.674 154.352 6283.46
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1290.344 154.611 6279.967
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1288.821 154.696 6284.021
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1290.338 154.939 6279.98
+  angleX -0.123
+  angleY 159.214
+  angleZ -89.553
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1289.579 154.643 6278.132
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1280.883 154.973 6274.867
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+ {
+  components {
+   MeshObject "{650415C65476A634}" {
+    Object "{F5604298CE6503D6}Assets/Structures/Infrastructure/Naval/Pier/Pier02/Pier02_Plankbridge.xob"
+   }
+  }
+  coords 1289.588 154.312 6278.139
+  angleX 0.447
+  angleY 69.111
+  angleZ -89.878
+  scale 0.2
+ }
+}
+$grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ {
+  coords 1167.864 150.627 6238.251
+  angleY 85.414
+ }
+ {
+  coords 1284.842 149.946 6278.201
+  angleY 31.615
+ }
+ {
+  coords 1283.545 153.07 6281.43
+  angleY -168.311
+ }
+}
+$grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+ {
+  coords 1284.835 155.248 6286.25
+  angleY -20.847
+ }
+ {
+  coords 1284.502 151.705 6286.787
+  angleY -20.847
+ }
+ {
+  coords 1285.4 151.66 6287.121
+  angleY -20.847
+ }
+ {
+  coords 1285.733 155.203 6286.583
+  angleY -20.847
+ }
+ {
+  coords 1277.945 155.162 6282.131
+  angleY 69.848
+ }
+ {
+  coords 1278.268 155.117 6281.229
+  angleY 69.848
+ }
+ {
+  coords 1280.183 155.149 6279.542
+  angleY -31.403
+ }
+ {
+  coords 1279.362 155.194 6279.049
+  angleY -31.403
+ }
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  coords 1285.296 153.124 6286.363
+  angleY -20.603
+ }
+ {
+  coords 1284.963 149.581 6286.897
+  angleY -20.603
+ }
+ {
+  coords 1149.636 151.077 6212.965
+ }
+ {
+  coords 1279.794 153.07 6279.245
+  angleY -31.159
+ }
+}
+$grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ {
+  coords 1280.369 153.07 6287.024
+  angleY 53.417
+ }
+ {
+  coords 1276.376 149.943 6285.276
+  angleY 53.417
+ }
+}
+$grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ {
+  coords 1169.831 151.065 6228.929
+  angleY 88.766
+ }
+ {
+  coords 1248.815 148.243 6282.839
+  angleY 69.317
+ }
+ {
+  coords 1227.033 148.237 6279.683
+  angleY 69.317
+ }
+ {
+  coords 1210.352 148.236 6265.403
+  angleY 65.016
+ }
+ {
+  coords 1188.042 148.253 6259.976
+  angleY 61.856
+ }
+}
+$grp StaticModelEntity : "{C2ACB740ED1CEB46}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation_camonet.et" {
+ {
+  coords 1162.942 150.388 6207.669
+  angleY 169.983
+ }
+ {
+  coords 1289.588 149.425 6275.444
+  angleY 155.051
+ }
+}
+$grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
+ {
+  coords 1288.972 150.317 6316.368
+  angleY 72.344
+ }
+ {
+  coords 1279.099 149.961 6279.965
+  angleY 68.015
+ }
+ {
+  coords 1278.076 153.07 6281.772
+  angleY 70.176
+ }
+}
