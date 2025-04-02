@@ -1,0 +1,106 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ All_Notes {
+  coords 1498.35 20.656 2444.341
+  m_sTitle "Notes"
+  m_sTextData "Blufor Victory = 90% Opfor Eliminated, or TIme limit reached."\
+  "Opfor Victory = 100% Blufor Players + 80% Blufor AI Eliminated."\
+  ""\
+  "There is no setup timer."\
+  ""\
+  "Time limit is 90 minutes."\
+  ""\
+  "@Elite on Discord for any issues."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 4
+ }
+ All_Summary {
+  coords 1492.069 20.656 2440.062
+  m_sTitle "Summary"
+  m_sTextData "Russian Moto-Rifle Platoon + attached SSO elements face off against UK Royal Marines and CDF."
+  m_bEmptyFactionVisibility 1
+ }
+ Blufor_Situation {
+  coords 1487.508 20.656 2437.053
+  m_sTitle "Situation"
+  m_sTextData "Fighting has intensified in the area over the past few weeks, leading to much of Zarichne falling to the enemy. We are a UK Royal Marine troop embedded with local CDF forces, we must assist them in holding the city."
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ Blufor_Mission {
+  coords 1485.237 20.656 2435.605
+  m_sTitle "Mission"
+  m_sTextData "Our mission is to hold Zarichne city centre and prevent its capture by the enemy forces in the area."
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_iOrder 1
+ }
+ Blufor_ServiceSupport {
+  coords 1482.089 20.656 2434.15
+  m_sTitle "Service & Support"
+  m_sTextData "We have 3x M72A3 LAWs next to a nearby building."\
+  ""\
+  "We have no other supplies."
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_iOrder 2
+ }
+ Blufor_Comsig {
+  coords 1484.765 20.656 2430.515
+  m_sTitle "Command & Signals"
+  m_sTextData "1st Squad (Command - 11A"\
+  "2nd Squad - 11C"
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_iOrder 3
+ }
+ Opfor_Comsig {
+  coords 1499.402 20.656 2439.957
+  m_sTitle "Command & Signals"
+  m_sTextData "Platoon Leader - 1'6"\
+  "1st Squad - 1'1"\
+  "2nd Squad - 1'2"\
+  "3rd Squad - 1'3"\
+  "4th Squad - 1'4"\
+  "SSO Group 1 - 2'1"\
+  "SSO Group 2 - 2'2"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 3
+ }
+ Opfor_Mission {
+  coords 1496.101 20.656 2437.99
+  m_sTitle "Mission"
+  m_sTextData "Our mission is to launch an urban assault into Zarichne proper. We are tasked with clearing out the local CDF forces and any attached foreign troops."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 1
+ }
+ Opfor_Situation {
+  coords 1493.389 20.656 2436.485
+  m_sTitle "Situation"
+  m_sTextData "Recent weeks of fighting have lead to our continued success in Zarichne, only one enemy stronghold remains. Our fighting will take us into the heart of Zarichne proper."\
+  ""\
+  "To assist in the task our platoon has been assigned 2x SSO groups. Our platoon leader has been given overall command of the operation."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ Opfor_ServiceSupport {
+  coords 1490.668 20.656 2434.862
+  m_sTitle "Service & Support"
+  m_sTextData "There are additional supplies in each vehicle."\
+  ""\
+  "We have no other supplies."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 2
+ }
+}
