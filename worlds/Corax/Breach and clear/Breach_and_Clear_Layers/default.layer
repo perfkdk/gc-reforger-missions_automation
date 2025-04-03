@@ -242,3 +242,88 @@ $grp Vehicle : "{36EA87CEC1BE77E0}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_O
   angleY -29.054
  }
 }
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ bluforAO {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 10
+    m_factionKeys {
+     "RHS_USAF"
+    }
+    m_visibility FACTION
+    m_defaultColor 0 0.502 0.125 1
+    m_useFactionColor 0
+   }
+  }
+  coords 1485.72 20.375 2178.775
+  Points {
+   ShapePoint "{650693637AA66378}" {
+    Position -4.011 0 14.627
+   }
+   ShapePoint "{6506936367AD73D4}" {
+    Position -70.201 0 140.552
+   }
+   ShapePoint "{6506936364BD722A}" {
+    Position -34.129 0 160.696
+   }
+   ShapePoint "{65069363616E1C0C}" {
+    Position 35.57 0 36.634
+   }
+   ShapePoint "{650693636E69E7B3}" {
+    Position 120.809 0 33.438
+   }
+   ShapePoint "{6506936368C99F66}" {
+    Position 171.411 0 -85.897
+   }
+   ShapePoint "{65069363963E383F}" {
+    Position 58.499 0 -115.294
+   }
+   ShapePoint "{65069363921D6250}" {
+    Position -14.551 0 -4.316
+   }
+   ShapePoint "{6506936392E7BB0E}" {
+    Position -19.983 0 7.478
+   }
+  }
+  LineColor 0 0.502 0.1255 1
+ }
+ opforAO {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 5
+    m_factionKeys {
+     "RHS_AFRF"
+    }
+    m_visibility FACTION
+    m_defaultColor 0.502 0 0 1
+    m_useFactionColor 0
+   }
+  }
+  coords 1485.679 20.375 2179.459
+  Points {
+   ShapePoint "{650693637AA66378}" {
+    Position -4.011 0 14.627
+   }
+   ShapePoint "{6506936367AD73D4}" {
+    Position -70.201 0 140.552
+   }
+   ShapePoint "{6506936364BD722A}" {
+    Position -34.129 0 160.696
+   }
+   ShapePoint "{65069363616E1C0C}" {
+    Position 35.57 0 36.634
+   }
+  }
+  LineColor 0.502 0 0 1
+ }
+}
+$grp GenericEntity : "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et" {
+ {
+  coords 1141.432 16.625 2776.742
+  angleY 68.887
+ }
+ {
+  coords 1162.29 15.094 2844.741
+  angleY 68.887
+ }
+}

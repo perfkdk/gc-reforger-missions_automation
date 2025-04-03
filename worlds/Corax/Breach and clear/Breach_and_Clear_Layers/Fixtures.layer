@@ -161,6 +161,14 @@ $grp GenericEntity : "{3BAF6AA8C20D924E}Prefabs/Compositions/Misc/SubComposition
   coords 1526.583 20.437 2215.533
   angleY -32.787
  }
+ {
+  coords 1479.678 20.431 2198.701
+  angleY -32.787
+ }
+ {
+  coords 1467.613 20.56 2192.992
+  angleY -32.787
+ }
 }
 $grp GenericEntity : "{479481B171F52B35}PrefabsEditable/Auto/Structures/Infrastructure/Lamps/LampStreet_E_01/E_LampStreet_E_01_6m.et" {
  {
@@ -311,7 +319,7 @@ $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/
   angleY -26.912
  }
  {
-  coords 1487.295 -0 2266.68
+  coords 1487.295 0 2266.68
   angleY -26.912
  }
  {
@@ -339,7 +347,7 @@ $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/
   angleY -26.912
  }
  {
-  coords 1469.899 -0 2222.829
+  coords 1469.899 0 2222.829
   angleY -26.912
  }
  {
@@ -355,7 +363,7 @@ $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/
   angleY -26.912
  }
  {
-  coords 1448.441 -0 2264.518
+  coords 1448.441 0 2264.518
   angleY -26.912
  }
  {
@@ -375,7 +383,7 @@ $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/
   angleY -26.912
  }
  {
-  coords 1457.995 -0 2321.487
+  coords 1457.995 0 2321.487
   angleY -26.912
  }
  {
@@ -392,6 +400,34 @@ $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/
  }
  {
   coords 1528.254 0 2216.258
+  angleY -110.782
+ }
+ {
+  coords 1471.372 0 2194.593
+  angleY -110.782
+ }
+ {
+  coords 1473.96 -0 2195.551
+  angleY -110.782
+ }
+ {
+  coords 1476.72 -0 2197.136
+  angleY -110.782
+ }
+ {
+  coords 1464.991 -0 2191.355
+  angleY -110.782
+ }
+ {
+  coords 1467.975 0.121 2192.994
+  angleY -110.782
+ }
+ {
+  coords 1479.977 0.117 2198.28
+  angleY -110.782
+ }
+ {
+  coords 1481.903 0.231 2198.696
   angleY -110.782
  }
 }
@@ -657,7 +693,7 @@ $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastr
   angleY 152.747
  }
  {
-  coords 1554.097 -0 2235.628
+  coords 1554.097 0 2235.628
   angleY 151.399
  }
  {
