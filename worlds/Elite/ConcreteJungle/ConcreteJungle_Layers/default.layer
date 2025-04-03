@@ -43,6 +43,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{650379FFE107D123}" {
    m_name "Blufor_Victory"
    m_instructions {
+    TILW_SendMessageInstruction "{6506DE0C0280B284}" {
+     m_messageTitle "UK/CDF VICTORY"
+     m_messageBody "The Russians suffered high casualties."
+    }
     TILW_EndGameInstruction "{650379FF00899D25}" {
      m_executionDelay 15
      m_factionKey "UK"
@@ -55,6 +59,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{650379FFE75FDD24}" {
    m_name "Opfor_Victory"
    m_instructions {
+    TILW_SendMessageInstruction "{6506DE0C19839EDD}" {
+     m_messageTitle "RU VICTORY"
+     m_messageBody "The Russians cleared out most of the town."
+    }
     TILW_EndGameInstruction "{650379FF0799FD93}" {
      m_executionDelay 15
      m_factionKey "RHS_AFRF"
@@ -74,14 +82,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{650379FFDB404E66}" {
    m_name "Time_Limit"
    m_instructions {
-    TILW_EndGameInstruction "{650379FF7E5D2976}" {
-     m_executionDelay 5400
-     m_factionKey "UK"
-    }
     TILW_SendMessageInstruction "{650379FF6F16842D}" {
      m_executionDelay 4800
      m_messageTitle "Time Limit"
      m_messageBody "10 Minutes until Blufor Victory."
+    }
+    TILW_SendMessageInstruction "{6506DE0CB70E6703}" {
+     m_executionDelay 5400
+     m_messageTitle "UK/CDF VICTORY"
+     m_messageBody "The Russians failed to clear the town in time."
+    }
+    TILW_EndGameInstruction "{650379FF7E5D2976}" {
+     m_executionDelay 5410
+     m_factionKey "UK"
     }
    }
    m_condition TILW_LiteralTerm "{650379FF77C0DEB7}" {

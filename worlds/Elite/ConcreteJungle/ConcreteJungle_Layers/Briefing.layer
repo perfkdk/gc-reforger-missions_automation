@@ -17,7 +17,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  All_Summary {
   coords 1492.069 20.656 2440.062
   m_sTitle "Summary"
-  m_sTextData "Russian Moto-Rifle Platoon + attached SSO elements face off against UK Royal Marines and CDF."
+  m_sTextData "Russian Motor-Rifle Platoon + attached SSO elements face off against UK Royal Marines and CDF."
   m_bEmptyFactionVisibility 1
  }
  Blufor_Situation {
