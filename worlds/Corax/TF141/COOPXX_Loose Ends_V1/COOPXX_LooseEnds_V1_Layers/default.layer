@@ -6,6 +6,22 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
+  SCR_GameOverScreenManagerComponent "{56DEC646298AD219}" {
+   m_GameOverScreenConfig SCR_GameOverScreenConfig "{56DEC6462FFDD82D}" {
+    m_aGameOverScreens {
+     SCR_FactionVictoryGameOverScreenInfo "{568EB6DFEF507060}" {
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{568EB6DFF87D9C84}" {
+       m_sSubtitle "Delta Force successfully secured and handed over the sensitive hardware"
+      }
+     }
+     SCR_EditorFactionGameOverScreenInfo "{56EED1ED0A9954E6}" {
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{56EED1ED10CDB164}" {
+       m_sSubtitle "Task force casaulties are too high we must retreat"
+      }
+     }
+    }
+   }
+  }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 5
    m_iStartingMinutes 45

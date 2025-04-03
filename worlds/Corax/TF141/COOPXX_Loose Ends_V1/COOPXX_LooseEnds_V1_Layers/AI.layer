@@ -7,9 +7,6 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    600
   }
-  m_waypointNames {
-   "attack_bridge"
-  }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
@@ -44,9 +41,6 @@ $grp TILW_PrefabSpawnerEntity {
   m_conditionFlag "atlake"
   m_spawnTimings {
    600
-  }
-  m_waypointNames {
-   "attack_bridge"
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -83,9 +77,6 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    600
   }
-  m_waypointNames {
-   "attack_bridge"
-  }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
@@ -120,9 +111,6 @@ $grp TILW_PrefabSpawnerEntity {
   m_conditionFlag "atlake"
   m_spawnTimings {
    30
-  }
-  m_waypointNames {
-   "attack_bridge"
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -159,9 +147,6 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    30
   }
-  m_waypointNames {
-   "attack_bridge"
-  }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
@@ -196,9 +181,6 @@ $grp TILW_PrefabSpawnerEntity {
   m_conditionFlag "atlake"
   m_spawnTimings {
    600
-  }
-  m_waypointNames {
-   "attack_bridge"
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -235,9 +217,6 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    30
   }
-  m_waypointNames {
-   "attack_bridge"
-  }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
@@ -272,9 +251,6 @@ $grp TILW_PrefabSpawnerEntity {
   m_conditionFlag "atlake"
   m_spawnTimings {
    600
-  }
-  m_waypointNames {
-   "attack_bridge"
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -311,9 +287,6 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    600
   }
-  m_waypointNames {
-   "attack_bridge"
-  }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
@@ -349,10 +322,34 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    900
   }
-  m_waypointNames {
-   "attack_bridge"
-  }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_waypointNames {
+      "Move" "attack_bridge"
+     }
+    }
+    TILW_CrewGroup "{64F92A3CB8DD3402}" {
+    }
+    TILW_CrewGroup "{64FAF9FF54D13031}" {
+     m_crewStations {
+      TILW_CrewStation "{64FAF9FF54D13009}" {
+      }
+     }
+     m_waypointNames {
+      "Move" "attack_bridge"
+     }
+    }
+    TILW_CrewGroup "{64FAF9FF54D1301D}" {
+     m_crewStations {
+      TILW_CrewStation "{64FAF9FF54D1301C}" {
+      }
+     }
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+    }
+   }
   }
  }
  {
@@ -363,10 +360,32 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    900
   }
-  m_waypointNames {
-   "attack_bridge"
-  }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_waypointNames {
+      "Move" "attack_bridge"
+     }
+    }
+    TILW_CrewGroup "{64FAF9FF54D13031}" {
+     m_crewStations {
+      TILW_CrewStation "{64FAF9FF54D13009}" {
+      }
+     }
+     m_waypointNames {
+      "Move" "attack_bridge"
+     }
+    }
+    TILW_CrewGroup "{64FAF9FF54D1301D}" {
+     m_crewStations {
+      TILW_CrewStation "{64FAF9FF54D1301C}" {
+      }
+     }
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+    }
+   }
   }
  }
  {
@@ -376,9 +395,6 @@ $grp TILW_PrefabSpawnerEntity {
   m_conditionFlag "atlake"
   m_spawnTimings {
    900
-  }
-  m_waypointNames {
-   "attack_bridge"
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{C5BCB9F87D4BEDD6}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Split_Flora.conf" {
    m_crewGroups {
@@ -402,9 +418,6 @@ $grp TILW_PrefabSpawnerEntity {
   m_conditionFlag "atlake"
   m_spawnTimings {
    900
-  }
-  m_waypointNames {
-   "attack_bridge"
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -588,80 +601,22 @@ $grp SCR_BoardingWaypoint : "{C40316EE26846CAB}Prefabs/AI/Waypoints/AIWaypoint_G
   coords 1357.11 5.453 3366.59
  }
 }
-GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
- coords 510.017 36.188 3575.023
+SCR_AIGroup : "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et" {
+ coords 609.999 27.467 3585.851
  {
-  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
-   Npatrol1 {
-    coords 98.371 -7.355 11.772
-    {
-     GenericEntity SlotAI1 : "{8D43830F02C3F114}Prefabs/Systems/ScenarioFramework/Components/SlotAI.et" {
-      components {
-       SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-        m_sFactionKey "GC_SEPARATIST"
-        m_sObjectToSpawn "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et"
-        m_bCanBeGarbageCollected 0
-        m_WaypointSet SCR_ScenarioFrameworkWaypointSet "{64E4F480CEC1A59B}" {
-         m_aLayerName {
-          "Npatrol1wps"
-         }
-        }
-        m_eAIGroupFormation Column
-       }
-      }
-      coords 0 0 -6.33
+  SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+   coords -6.464 -0.033 -8.579
+   {
+    $grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+     {
+      coords -319.773 19.903 66.28
      }
-     GenericEntity SlotWaypoint2 : "{EBD91177954E8236}Prefabs/Systems/ScenarioFramework/Components/SlotWaypoint.et" {
-      components {
-       SCR_ScenarioFrameworkSlotWaypoint "{5EEEE11FAD8EE85C}" {
-        m_Waypoint SCR_ScenarioFrameworkWaypointCycle "{64E4F481DB989A04}" {
-         m_fCompletionRadius 6.5
-         m_aLayersWithWaypointsToCycle {
-          "Npatrol1wps"
-         }
-         m_bUseRandomOrder 1
-        }
-       }
-      }
-      coords -12.776 -0.686 -11.733
+     {
+      coords -46.583 -8.423 -207.398
      }
     }
-   }
-   Npatrol1wps {
-    coords 0 0 0
-    {
-     $grp GenericEntity : "{EBD91177954E8236}Prefabs/Systems/ScenarioFramework/Components/SlotWaypoint.et" {
-      SlotWaypoint1 {
-       components {
-        SCR_ScenarioFrameworkSlotWaypoint "{5EEEE11FAD8EE85C}" {
-         m_Waypoint SCR_ScenarioFrameworkWaypointPatrol "{64E4F4813AAE0C06}" {
-          m_fPriorityLevel 2000
-         }
-        }
-       }
-       coords -226.883 11.141 67.618
-      }
-      SlotWaypoint3 {
-       components {
-        SCR_ScenarioFrameworkSlotWaypoint "{5EEEE11FAD8EE85C}" {
-         m_Waypoint SCR_ScenarioFrameworkWaypointPatrol "{64E4F4813AAE0C06}" {
-          m_fPriorityLevel 2000
-         }
-        }
-       }
-       coords 94.404 -8.743 3.329
-      }
-      SlotWaypoint5 {
-       components {
-        SCR_ScenarioFrameworkSlotWaypoint "{5EEEE11FAD8EE85C}" {
-         m_Waypoint SCR_ScenarioFrameworkWaypointPatrol "{64E4F4813AAE0C06}" {
-          m_fPriorityLevel 2000
-         }
-        }
-       }
-       coords 46.327 -17.183 -205.021
-      }
-     }
+    AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+     coords -6.437 0.663 -3.015
     }
    }
   }

@@ -1,0 +1,58 @@
+SCR_AIGroup : "{2B6A737E854586F0}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_Ranger_2009_HQ_P.et" {
+ coords 1209.312 7.438 3211.919
+ m_sCustomNameSet "Ranger HQ (2'6)"
+}
+SCR_AIGroup : "{36964CCA089D327F}Prefabs/Groups/BLUFOR/US/Delta Force/2010/P/Group_Delta_2010_Support_P.et" {
+ coords 1077.566 8.108 3196.323
+}
+$grp SCR_AIGroup : "{715D5CD2DD77ACBB}Prefabs/Groups/BLUFOR/US/Delta Force/2010/P/Group_Delta_2010_Assault_P.et" {
+ {
+  coords 1054.4 5.24 3190.493
+  angleY -64.463
+ }
+ {
+  coords 1069.579 5.436 3172.953
+  angleY 178.495
+ }
+}
+$grp SCR_AIGroup : "{9FA44AED55972EA9}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_Ranger_2009_Squad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1224.91 9.287 3221.187
+  angleY -32.53
+  m_sCustomNameSet "Ranger Squad (2'1)"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1230.424 7.437 3192.782
+  angleY -121.866
+  m_sCustomNameSet "Ranger Squad (2'2)"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1251.902 7.377 3211.129
+  angleY 51.022
+  m_sCustomNameSet "Ranger Squad (2'3)"
+ }
+}
+SCR_AIGroup : "{A11462D28E26DED0}Prefabs/Groups/BLUFOR/US/Delta Force/2010/P/Group_Delta_2010_Recon_P.et" {
+ coords 1039.37 4.838 3171.597
+ angleY -102.208
+}
+SCR_AIGroup : "{B0225CB3C0AD2833}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_Ranger_2009_AT_Team_P.et" {
+ coords 1246.843 7.407 3193.984
+ angleY 138.308
+ m_sCustomNameSet "Ranger AT Team (2'8)"
+}
