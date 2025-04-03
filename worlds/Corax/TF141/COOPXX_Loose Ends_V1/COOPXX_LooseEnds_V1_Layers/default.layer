@@ -4,9 +4,6 @@ SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 1154.511 16.625 2771.178
 }
-SCR_CampaignFactionManager CampaignFactionManager_RHS1 : "{08D7B29AEC960674}Prefabs/MP/Campaign/CampaignFactionManager_RHS.et" {
- coords 1187.024 8.072 3177.399
-}
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
@@ -154,8 +151,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_factionPlayersKilledFlags {
-  TILW_FactionPlayersKilledFlag "{6502C7C58D9E2C1B}" {
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6506F491B804F45C}" {
    m_flagName "CasualtyLimit"
    m_factionKey "RHS_USAF"
    m_casualtyRatio 0.9
