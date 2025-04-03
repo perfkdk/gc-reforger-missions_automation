@@ -317,13 +317,3 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   LineColor 0.502 0 0 1
  }
 }
-$grp GenericEntity : "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et" {
- {
-  coords 1141.432 16.625 2776.742
-  angleY 68.887
- }
- {
-  coords 1162.29 15.094 2844.741
-  angleY 68.887
- }
-}
