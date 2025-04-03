@@ -1,0 +1,69 @@
+GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6506DED06CD82A8A}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{6506DED06A300615}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et"
+     }
+     NumSlots 50
+    }
+   }
+  }
+ }
+ coords 8912.587 95.715 2748.781
+ angleY -134.556
+}
+$grp SCR_AIGroup : "{43DE722B3E3F4C24}Prefabs/Groups/BLUFOR/US/Army_1980_Rifles/P/Group_US_Army_1980_RifleSquad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 9118.755 76.376 2281.14
+  angleY 156.885
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 9206.495 90.464 2338.212
+  angleY 178.399
+  m_aUnitPrefabSlots {
+   "{283A06EF2B6E7E24}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_SL_P.et" "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_GL_P.et" "{8DBFBE62FF28CA4E}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_AR_P.et" "{78BABD210E701B0A}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_LAT_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8912.831 97.702 2749.985
+  angleY 149.799
+  m_aUnitPrefabSlots {
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_Rifleman_P.et" "{56A6BAA7CFC08E5C}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_RTO_P.et"
+  }
+ }
+}
+Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ coords 8911.409 95.728 2747.44
+ angleY 146.387
+}
+Vehicle M923A1_transport_covered4 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ coords 8913.688 95.195 2763.73
+ angleY 53.914
+}
+Vehicle M151A2 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ coords 9200.068 90.232 2345.213
+ angleY -63.326
+}

@@ -1,0 +1,30 @@
+$grp GenericEntity {
+ dave_spawn {
+  coords 9221.81 61.827 2088.019
+  angleY -80.988
+ }
+ ralph_spawn {
+  coords 9703.485 22.539 1717.073
+  angleY -70.486
+ }
+ boss_spawn {
+  coords 9828.963 31.656 1162.921
+  angleY -23.541
+ }
+}
+SCR_AIWaypoint civ_flee : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ coords 7915.906 202.373 4346.873
+ CompletionRadius 50
+}
+SCR_AIGroup bob : "{84E5BBAB25EA23E5}Prefabs/Groups/BLUFOR/Group_US_FireTeam.et" {
+ coords 8805.854 95.359 2722.428
+ angleY 54.162
+ m_faction "CIV"
+ m_aUnitPrefabSlots {
+  "{8A97F7055F1A003A}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_6.et"
+ }
+}
+SCR_BoardingTimedWaypoint bob_get_in : "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et" {
+ coords 8825.611 94.869 2722.367
+ CompletionRadius 5
+}
