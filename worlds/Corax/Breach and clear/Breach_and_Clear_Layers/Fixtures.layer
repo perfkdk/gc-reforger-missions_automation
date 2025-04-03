@@ -407,15 +407,15 @@ $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/
   angleY -110.782
  }
  {
-  coords 1473.96 -0 2195.551
+  coords 1473.96 0 2195.551
   angleY -110.782
  }
  {
-  coords 1476.72 -0 2197.136
+  coords 1476.72 0 2197.136
   angleY -110.782
  }
  {
-  coords 1464.991 -0 2191.355
+  coords 1464.991 0 2191.355
   angleY -110.782
  }
  {
@@ -689,7 +689,7 @@ $grp GenericEntity : "{F4EC6F567BBB6D70}PrefabsEditable/Auto/Structures/Infrastr
   angleY -121.021
  }
  {
-  coords 1455.359 0.197 2180.362
+  coords 1454.247 0.116 2182.521
   angleY 152.747
  }
  {
