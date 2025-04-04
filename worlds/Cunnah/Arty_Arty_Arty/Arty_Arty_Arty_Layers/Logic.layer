@@ -1,4 +1,4 @@
-TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
+TILW_ExtractionTriggerEntity OPFOR_EXTRACTION_ZONE : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
  coords 8193.854 193.222 3914.187
  m_queryRadius 100
  m_factionKey "USSR"
@@ -436,4 +436,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
   }
  }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 10023.383 2.124 1566.416
 }

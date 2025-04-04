@@ -90,6 +90,30 @@ Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
 }
 $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
  M923A1_transport_covered4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6508972BAD23D5A6}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6508972B8F9A897A}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{6508972B9F457DC3}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
   coords 8913.688 95.195 2763.73
   angleY 53.914
  }
@@ -108,6 +132,12 @@ $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
        Prefab "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et"
       }
       NumSlots 5
+     }
+     MultiSlotConfiguration "{6508972B4BA6B3EF}" {
+      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 2
      }
     }
    }

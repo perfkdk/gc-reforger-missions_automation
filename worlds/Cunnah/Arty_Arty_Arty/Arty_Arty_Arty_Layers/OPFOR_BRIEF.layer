@@ -1,0 +1,14 @@
+PS_MissionDescription SITUATION_OPFOR : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 10006.349 2.068 1532.832
+ m_sTitle "SITUATION"
+ m_sTextData "a. Enemy Forces:"\
+ "A US platoon is currently defending VERNON. They are armed with light AT, Anti-Tank Mines, and are supported by a Mortar Team."\
+ ""\
+ "b. Friendly Forces:"\
+ "We are 1 Platoon with attached BRDM Recon element situated at ST PIERRE. Company is currently deploying from the sea and are unable to support us."\
+ ""\
+ "c. Terrain is a narrow valley with steep sides and forests on the slopes. There is one road out of the valley."
+ m_aVisibleForFactions {
+  "USSR"
+ }
+}

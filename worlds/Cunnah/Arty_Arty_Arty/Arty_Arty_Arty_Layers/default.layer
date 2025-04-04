@@ -36,6 +36,31 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  coords 9151.881 68.377 2142.521
  m_iFreezeTime 300000
 }
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ Description {
+  coords 8805.923 95.987 2780.748
+  m_sTitle "COTVT 60 Arty Arty Arty"
+  m_sTextData "US forces attempt to delay the Russian invasion of Eden."\
+  ""\
+  "2:1 Ratio."\
+  ""\
+  "Mortar, BTR, and Anti Tank Mine fun to be had! "
+  m_bEmptyFactionVisibility 1
+ }
+ NOTES {
+  coords 8805.923 95.987 2780.748
+  m_sTitle "NOTES"
+  m_sTextData "5 Minute setup timer."\
+  ""\
+  "OPFOR win either by extracting 90% of surviving forces or destroying all BLUFOR forces."\
+  ""\
+  "BLUFOR win either delaying OPFOR for 45 mins (1400 LT) or by destroying 60% of OPFOR. "
+  m_aVisibleForFactions {
+   "US" "USSR"
+  }
+  m_iOrder 10
+ }
+}
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 9154.384 68.147 2136.308
  m_missionEvents {
