@@ -19,7 +19,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_iSetYear 2009
    m_bOverrideGeocoords 1
    m_fLatitude 49.019
-   m_fLongitude 49.019
+   m_fLongitude 37.921
    m_bOverrideTimeZoneInfo 1
    m_fDSTEnabled 1
    m_fWind 5
