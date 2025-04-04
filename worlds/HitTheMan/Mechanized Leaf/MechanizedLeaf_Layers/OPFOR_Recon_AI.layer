@@ -17,7 +17,6 @@ $grp Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
         "WP_Counterattack3"
        }
        m_waypointDelay 2100
-       m_entityName "BRDM3"
       }
      }
      m_noTurretDismount 1
@@ -47,7 +46,6 @@ $grp Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
         "WP_Counterattack2"
        }
        m_waypointDelay 2100
-       m_entityName "BRDM1"
       }
      }
      m_noTurretDismount 1
@@ -77,7 +75,6 @@ $grp Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
         "WP_Counterattack4"
        }
        m_waypointDelay 2100
-       m_entityName "BRDM2"
       }
      }
      m_noTurretDismount 1
