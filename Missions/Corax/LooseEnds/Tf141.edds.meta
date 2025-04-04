@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{456464E13863697D}Missions/Corax/Loose Ends/Tf141.edds"
+ Name "{456464E13863697D}Missions/Corax/LooseEnds/Tf141.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }
