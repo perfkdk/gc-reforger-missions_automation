@@ -333,6 +333,24 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "CAF_CAS"
    }
   }
+  TILW_MissionEvent "{650801D2F9223BF6}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{650801D2F01726C2}" {
+     m_executionDelay 3300
+     m_messageTitle "Time Limit"
+     m_messageBody "Mission ends in 5min"
+    }
+    TILW_SendMessageInstruction "{650801D2980B1F38}" {
+     m_executionDelay 3600
+     m_messageTitle "USSR Victory"
+     m_messageBody "USSR has held the dam against CAF, time limit exceeded... GM Discretion when to end the mission"
+    }
+   }
+   m_condition TILW_LiteralTerm "{650801D2FC2C93F9}" {
+    m_invertTerm 1
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{65054463D7B23051}" {

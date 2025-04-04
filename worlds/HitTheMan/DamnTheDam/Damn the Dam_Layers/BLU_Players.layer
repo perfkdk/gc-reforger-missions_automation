@@ -1,3 +1,33 @@
+$grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ LAV25_RHS3 {
+  coords 425.707 137.48 4627.931
+  angleX -6.842
+  angleY 129.685
+  angleZ 1.266
+  m_sAttachmentGroupName "CAFRifle_2"
+ }
+ LAV25_RHS2 {
+  coords 416.149 138.792 4635.052
+  angleX -5.393
+  angleY 121.99
+  angleZ 1.89
+  m_sAttachmentGroupName "CAFWeapon"
+ }
+ LAV25_RHS4 {
+  coords 434.15 136.174 4620.348
+  angleX -5.631
+  angleY 131.542
+  angleZ 0.971
+  m_sAttachmentGroupName "CAFRifle_1"
+ }
+ LAV25_RHS1 {
+  coords 407.263 139.465 4639.643
+  angleX -3.134
+  angleY 115.024
+  angleZ 2.482
+  m_sAttachmentGroupName "CAFPL_HQ"
+ }
+}
 $grp SCR_AIGroup : "{8F1076E35B70385E}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1992/Group_CAF_RifleSection_P_2_2.et" {
  CAFRifle_1 {
   components {
@@ -54,28 +84,6 @@ SCR_AIGroup CAFWeapon : "{AE97EE67B3502C07}Prefabs/Groups/BLUFOR/GC_Canada/Canad
  coords 406.317 130.3 4589.433
  m_aUnitPrefabSlots + {
   "{795355CA2CE824F1}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MAT_CW_2.et" "{DB48D7AF59D7FA3A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MAT2_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
- }
-}
-$grp Vehicle : "{B7A8BAA37CB0AC2B}Prefabs/Vehicles/Wheeled/LAV25/LAV25_MERDC.et" {
- LAV25_MERDC1 {
-  coords 434.209 136.075 4619.924
-  angleY 133.298
-  m_sAttachmentGroupName "CAFRifle_1"
- }
- LAV25_MERDC2 {
-  coords 425.578 137.42 4627.784
-  angleY 132.833
-  m_sAttachmentGroupName "CAFRifle_2"
- }
- LAV25_MERDC3 {
-  coords 405.94 139.659 4639.928
-  angleY 112.547
-  m_sAttachmentGroupName "CAFPL_HQ"
- }
- LAV25_MERDC4 {
-  coords 415.613 138.842 4635.268
-  angleY 121.617
-  m_sAttachmentGroupName "CAFWeapon"
  }
 }
 SCR_AIGroup CAFPL_HQ : "{BE92CECA4FFF7CE5}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1992/Group_CAF_PlatoonHQ_P_2_2.et" {
