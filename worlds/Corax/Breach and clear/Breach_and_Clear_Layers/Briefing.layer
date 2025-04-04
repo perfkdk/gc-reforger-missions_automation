@@ -131,11 +131,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Notes"
   m_sTextData "Basic attack and defend of an residential block."\
   ""\
-  "3:1 ratio"\
+  "3-4:1 ratio"\
   ""\
   "No time limit"\
   ""\
-  "Setup timer is 10 minutes"\
+  "Setup timer is 7 minutes"\
   ""\
   "Casualty conditions apply at 90% for Blufor 100% for Opfor"\
   ""\
