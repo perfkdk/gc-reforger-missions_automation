@@ -30,7 +30,7 @@ $grp SCR_AIGroup : "{870783CDCE09CCD9}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airbo
   components {
    PS_GroupCallsignAssigner "{6508890DEEFFC1DF}" {
     m_iCompanyCallsign 4
-    m_iSquadCallsign 7
+    m_iSquadCallsign 5
    }
   }
   coords 1354.555 167.375 5030.593
@@ -44,7 +44,7 @@ $grp SCR_AIGroup : "{870783CDCE09CCD9}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airbo
   components {
    PS_GroupCallsignAssigner "{6508890DEEFFC1DF}" {
     m_iCompanyCallsign 4
-    m_iSquadCallsign 8
+    m_iSquadCallsign 7
    }
   }
   coords 1363.031 167.5 5040.58
@@ -58,7 +58,7 @@ $grp SCR_AIGroup : "{870783CDCE09CCD9}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airbo
   components {
    PS_GroupCallsignAssigner "{6508890DEEFFC1DF}" {
     m_iCompanyCallsign 4
-    m_iSquadCallsign 9
+    m_iSquadCallsign 8
    }
   }
   coords 1371.523 167.625 5051.067
@@ -72,7 +72,7 @@ $grp SCR_AIGroup : "{870783CDCE09CCD9}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airbo
   components {
    PS_GroupCallsignAssigner "{6508890DEEFFC1DF}" {
     m_iCompanyCallsign 4
-    m_iSquadCallsign 11
+    m_iSquadCallsign 10
    }
   }
   coords 1380.139 167.762 5061.222
@@ -92,7 +92,7 @@ SCR_AIGroup coyhq : "{8E4BE6AA99B15919}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airb
  coords 1293.256 165.095 4955.03
  angleY -52.114
  m_aUnitPrefabSlots {
-  "{0AD7706D172DF05E}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_CoyL_VDV_P.et" "{BCB03489754E8E38}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_CoyXO_VDV_P.et" "{E5F836512D78905B}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Sergeant_VDV_P.et" "{DC963F3BA0B5DE9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_RTO_VDV_P.et"
+  "{0AD7706D172DF05E}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_CoyL_VDV_P.et" "{BCB03489754E8E38}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_CoyXO_VDV_P.et" "{BCB03489754E8E38}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_CoyXO_VDV_P.et" "{DC963F3BA0B5DE9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_RTO_VDV_P.et"
  }
 }
 $grp SCR_AIGroup : "{953055A03391C1B2}Prefabs/Groups/OPFOR/USSR/SovietArmy_Airborne_1983/P/Group_USSR_VDV_Squad_P.et" {
