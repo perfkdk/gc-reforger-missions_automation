@@ -28,3 +28,10 @@ SCR_BoardingTimedWaypoint bob_get_in : "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/A
  coords 8825.611 94.869 2722.367
  CompletionRadius 5
 }
+SCR_AIGroup civ_fleeing : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
+ coords 9269.041 65.689 2130.144
+ m_faction "CIV"
+ m_aUnitPrefabSlots {
+  "{22E43956740A6794}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized.et" "{22E43956740A6794}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized.et" "{22E43956740A6794}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized.et" "{22E43956740A6794}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized.et" "{22E43956740A6794}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized.et"
+ }
+}

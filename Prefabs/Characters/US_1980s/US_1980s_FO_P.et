@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{283A06EF2B6E7E24}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_SL_P.et" {
+ ID "51FA90A59C87A851"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "FO"
+   }
+  }
+ }
+ coords 9197.688 88.502 2339.892
+ angleY 150
+}

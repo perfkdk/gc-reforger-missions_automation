@@ -48,16 +48,16 @@ Vehicle S105_yellow1 : "{A6B0D2923262E755}Prefabs/Vehicles/Wheeled/S105/S105_yel
 }
 $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
  {
-  coords 8913.314 95.742 2746.511
+  coords 8913.315 95.701 2746.511
   angleX 2.672
   angleY 103.136
   angleZ 1.136
  }
  {
-  coords 8911.302 95.776 2745.171
+  coords 8911.302 95.742 2745.169
   angleX 4.141
   angleY -171.929
-  angleZ 3.221
+  angleZ 0.084
  }
 }
 Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {

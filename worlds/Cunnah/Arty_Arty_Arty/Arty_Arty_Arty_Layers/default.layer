@@ -34,6 +34,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 9151.881 68.377 2142.521
+ m_iFreezeTime 300000
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 9154.384 68.147 2136.308
@@ -221,6 +222,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_AssignWaypointsInstruction "{65070C1DC0F5690A}" {
      m_groupName "boss"
+     m_waypointNames {
+      "civ_flee"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{65072041FC5F1458}" {
+     m_executionDelay 300
+     m_groupName "civ_fleeing"
      m_waypointNames {
       "civ_flee"
      }
