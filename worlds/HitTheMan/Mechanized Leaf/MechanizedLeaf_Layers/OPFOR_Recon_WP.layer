@@ -1,9 +1,11 @@
 $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
  wp_fallback_2 {
   coords 6898.623 303.823 8053.465
+  m_fPriorityLevel 25
  }
  wp_fallback_3 {
   coords 7576.603 366.737 8052.912
+  m_fPriorityLevel 25
  }
 }
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
@@ -55,8 +57,10 @@ $grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWa
 $grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
  wp_fallbackdef_2 {
   coords 6950.486 296.94 7726.849
+  m_fPriorityLevel 30
  }
  wp_fallbackdef_3 {
   coords 7193.851 294.155 7694.59
+  m_fPriorityLevel 30
  }
 }
