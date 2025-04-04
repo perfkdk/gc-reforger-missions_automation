@@ -242,6 +242,45 @@ $grp Vehicle : "{36EA87CEC1BE77E0}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_O
   angleY -29.054
  }
 }
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ {
+  coords 1593.103 19.166 2123.712
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -42.932 0 -23.656
+   }
+   ShapePoint "{6508CB9C64A3C116}" {
+    Position -35.439 0 -48.58
+   }
+   ShapePoint "{6508CB9C63E2377C}" {
+    Position 55.847 0 -23.563
+   }
+   ShapePoint "{6508CB9C62955CE5}" {
+    Position 23.835 0 51.751
+   }
+   ShapePoint "{6508CB9C61D5A2B2}" {
+    Position -48.728 0 -5.956
+   }
+  }
+ }
+ {
+  coords 1564.102 20.6 2242.976
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -45.028 0 -26.711
+   }
+   ShapePoint "{6508CB9C99FB9C73}" {
+    Position -112.678 0 95.624
+   }
+   ShapePoint "{6508CB9C83EFB034}" {
+    Position -145.275 0 76.106
+   }
+   ShapePoint "{6508CB9C8E53FF53}" {
+    Position -81.033 -0 -44.574
+   }
+  }
+ }
+}
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  bluforAO {
   components {
