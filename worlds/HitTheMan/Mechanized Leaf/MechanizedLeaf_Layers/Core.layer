@@ -247,7 +247,7 @@ GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/A
    m_eSupplyCostType GADGET_ARSENAL
   }
  }
- coords 5767.56 274.344 10216.871
+ coords 5771.437 274.365 10217.533
  angleX 0.302
  angleY 80.303
  angleZ 1.764
@@ -297,7 +297,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Recon Fallback"
    m_instructions {
     TILW_AssignWaypointsInstruction "{65072D9C6580667A}" {
-     m_executionDelay 1800
+     m_executionDelay 2100
      m_groupName "Recon_GRP_2"
      m_waypointNames {
       "wp_fallback_2" "wp_fallbackdef_2"
@@ -305,7 +305,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_clearExisting 1
     }
     TILW_AssignWaypointsInstruction "{65072D98FD522D0D}" {
-     m_executionDelay 1800
+     m_executionDelay 2100
      m_groupName "Recon_GRP_3"
      m_waypointNames {
       "wp_fallback_2" "wp_fallbackdef_2"
@@ -313,7 +313,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_clearExisting 1
     }
     TILW_AssignWaypointsInstruction "{65072D98E0747FDA}" {
-     m_executionDelay 1800
+     m_executionDelay 2100
      m_groupName "Recon_GRP_5"
      m_waypointNames {
       "wp_fallback_2" "wp_fallbackdef_2"
@@ -321,7 +321,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_clearExisting 1
     }
     TILW_AssignWaypointsInstruction "{65072D989E3F618A}" {
-     m_executionDelay 1800
+     m_executionDelay 2100
      m_groupName "Recon_GRP_1"
      m_waypointNames {
       "wp_fallback_3" "wp_fallbackdef_3"
@@ -329,7 +329,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_clearExisting 1
     }
     TILW_AssignWaypointsInstruction "{65072D98BAF4E97B}" {
-     m_executionDelay 1800
+     m_executionDelay 2100
      m_groupName "Recon_GRP_4"
      m_waypointNames {
       "wp_fallback_3" "wp_fallbackdef_3"
@@ -337,7 +337,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_clearExisting 1
     }
     TILW_AssignWaypointsInstruction "{65072D98B3FCAFEB}" {
-     m_executionDelay 1800
+     m_executionDelay 2100
      m_groupName "Recon_GRP_6"
      m_waypointNames {
       "wp_fallback_3" "wp_fallbackdef_3"

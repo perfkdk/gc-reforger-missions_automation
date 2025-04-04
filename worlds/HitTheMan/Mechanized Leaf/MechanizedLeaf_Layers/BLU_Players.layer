@@ -1,3 +1,48 @@
+$grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ LAV25_RHS1 {
+  coords 5801.643 274.949 10163.282
+  angleX 0.441
+  angleY 119.52
+  angleZ -0.779
+  m_sAttachmentGroupName "CAFRifle_11"
+ }
+ LAV25_RHS2 {
+  coords 5795.538 274.863 10172.755
+  angleX 0.565
+  angleY 129.164
+  angleZ -0.694
+  m_sAttachmentGroupName "CAFRifle_12"
+ }
+ LAV25_RHS3 {
+  coords 5784.625 274.73 10177.231
+  angleX 0.653
+  angleY 136.811
+  angleZ -0.613
+  m_sAttachmentGroupName "CAFPL_HQ_1"
+ }
+ LAV25_RHS4 {
+  coords 5780.945 274.656 10189.247
+  angleY 151.019
+  m_sAttachmentGroupName "CAFRifle_21"
+ }
+ LAV25_RHS5 {
+  coords 5772.457 274.623 10196.928
+  angleY 155.859
+  m_sAttachmentGroupName "CAFRifle_22"
+ }
+ LAV25_RHS6 {
+  coords 5772.592 274.446 10209.245
+  angleX 0.178
+  angleY 168.542
+  angleZ 0.877
+  m_sAttachmentGroupName "CAFPL_HQ_2"
+ }
+ LAV25_RHS7 {
+  coords 5767.156 274.375 10219.284
+  angleY 175.308
+  m_sAttachmentGroupName "CAF_COYHQ"
+ }
+}
 SCR_AIGroup CAF_COYHQ : "{8B6D913C01A899DB}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1992/Group_CAF_CompanyHQ_P_2_2.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
@@ -133,57 +178,6 @@ $grp SCR_AIGroup : "{AE97EE67B3502C07}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_A
    "{58EA7492CFF225F0}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_Alt_CW_2.et" "{15D734A8A6154954}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG_Alt_CW_2.et" "{C9B632F24EEC7492}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG2_Alt_CW_2.et" "{795355CA2CE824F1}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MAT_CW_2.et"
   }
   m_sCustomNameSet "Weapons Detachment"
- }
-}
-$grp Vehicle : "{B7A8BAA37CB0AC2B}Prefabs/Vehicles/Wheeled/LAV25/LAV25_MERDC.et" {
- LAV25_MERDC1 {
-  coords 5803.562 274.938 10166.705
-  angleX 0.156
-  angleY 121.037
-  angleZ -1.995
-  m_sAttachmentGroupName "CAFRifle_11"
- }
- LAV25_MERDC2 {
-  coords 5792.826 274.857 10169.474
-  angleX 0.476
-  angleY 130.31
-  angleZ -1.943
-  m_sAttachmentGroupName "CAFRifle_12"
- }
- LAV25_MERDC3 {
-  coords 5787.696 274.719 10180.047
-  angleX -1.257
-  angleY 135.219
-  angleZ -2.535
-  m_sAttachmentGroupName "CAFPL_HQ_1"
- }
- LAV25_MERDC9 {
-  coords 5771.196 274.375 10222.594
-  angleX -1.866
-  angleY 179.012
-  angleZ -4.433
-  m_sAttachmentGroupName "CAF_COYHQ"
- }
- LAV25_MERDC5 {
-  coords 5776.539 274.659 10188.559
-  angleX -0.399
-  angleY 153.459
-  angleZ -2.8
-  m_sAttachmentGroupName "CAFRifle_21"
- }
- LAV25_MERDC6 {
-  coords 5768.472 274.426 10210.647
-  angleX -1.03
-  angleY 170.497
-  angleZ -0.735
-  m_sAttachmentGroupName "CAFPL_HQ_2"
- }
- LAV25_MERDC8 {
-  coords 5775.877 274.623 10199.311
-  angleX 2.233
-  angleY 155.668
-  angleZ -5.898
-  m_sAttachmentGroupName "CAFRifle_22"
  }
 }
 $grp SCR_AIGroup : "{BE92CECA4FFF7CE5}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1992/Group_CAF_PlatoonHQ_P_2_2.et" {
