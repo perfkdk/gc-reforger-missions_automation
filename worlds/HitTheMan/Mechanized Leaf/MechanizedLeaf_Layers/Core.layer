@@ -267,7 +267,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "USSR Victory Casualties"
    m_instructions {
     TILW_SendMessageInstruction "{6504157888C9AF5E}" {
-     m_messageTitle "Sovet Forces Victory"
+     m_messageTitle "Soviet Forces Victory"
      m_messageBody "CAF Sustained too many casualties.. GM Discretion when to end the mission"
     }
    }
@@ -370,5 +370,4 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_casualtyRatio 0.85
   }
  }
- m_suppressGameEnd 1
 }

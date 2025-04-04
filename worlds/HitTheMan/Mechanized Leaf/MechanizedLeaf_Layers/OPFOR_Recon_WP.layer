@@ -6,20 +6,6 @@ $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedM
   coords 7576.603 366.737 8052.912
  }
 }
-$grp SCR_EntityWaypoint : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et" {
- WP_Counterattack2 {
-  coords 7126.13 289.382 7609.679
-  CompletionRadius 10
- }
- WP_Counterattack3 {
-  coords 7221.112 293.66 7671.772
-  CompletionRadius 10
- }
- WP_Counterattack4 {
-  coords 7107.714 294.406 7696.932
-  CompletionRadius 10
- }
-}
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
  wp_def_1 {
   coords 6776.636 379.028 8764.296
@@ -50,6 +36,20 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  wp_def_6 {
   coords 7610.804 405.795 9222.438
   CompletionRadius 50
+ }
+}
+$grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ WP_Counterattack2 {
+  coords 7126.13 289.382 7609.679
+  CompletionRadius 10
+ }
+ WP_Counterattack3 {
+  coords 7221.112 293.66 7671.772
+  CompletionRadius 10
+ }
+ WP_Counterattack4 {
+  coords 7107.714 294.406 7696.932
+  CompletionRadius 10
  }
 }
 $grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
