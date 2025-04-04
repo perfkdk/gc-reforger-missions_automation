@@ -1,0 +1,18 @@
+Vehicle Ural4320_transport_tan1 : "{0075D36080C56819}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_tan.et" {
+ coords 1843.402 9.625 3619.241
+ angleY -170.7
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  coords 1840.445 9.726 3593.9
+  angleY -174.871
+ }
+ BTR70_AFRF2 {
+  coords 1838.672 9.656 3607.311
+  angleY -172.195
+ }
+ BTR70_AFRF3 {
+  coords 1845.858 9.656 3606.474
+  angleY -175.71
+ }
+}

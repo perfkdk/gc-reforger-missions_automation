@@ -353,16 +353,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
  }
  m_casualtyFlags {
-  TILW_BaseCasualtyFlag "{65041578CE77291A}" {
+  TILW_FactionPlayersKilledFlag "{65054463D7B23051}" {
    m_flagName "USSR_CAS"
    m_factionKey "USSR"
    m_casualtyRatio 0.9
   }
-  TILW_BaseCasualtyFlag "{65041578FCBD4698}" {
+  TILW_FactionPlayersKilledFlag "{65054463D503B6D8}" {
    m_flagName "CAF_CAS"
    m_factionKey "GC_CAF"
    m_casualtyRatio 0.85
   }
  }
- m_suppressGameEnd 1
 }
