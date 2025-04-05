@@ -153,7 +153,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  }
  {
   components {
-   TILW_CoverMapComponent "{6473480FCAB7760B}" {
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
    }
   }
