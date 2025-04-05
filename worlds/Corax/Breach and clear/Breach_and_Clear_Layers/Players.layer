@@ -82,6 +82,9 @@ SCR_AIGroup : "{C9426F8783461162}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/Flora/P/Group
 }
 SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/Flora/P/Group_RHS_RF_MSV_Flora_RifleSquad_P.et" {
  components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
   PS_GroupCallsignAssigner "{65074006D4144831}" {
    m_iCompanyCallsign 3
    m_iPlatoonCallsign 3
