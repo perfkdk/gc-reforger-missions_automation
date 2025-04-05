@@ -113,8 +113,10 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_CoverMapComponent "{6473480FCAB7760B}" {
-   Enabled 1
    m_ratioWidth 1.1
+  }
+  TILW_MapShapeComponent "{6508F54F9B461198}" {
+   Enabled 1
   }
  }
  coords 5757.737 317.631 9261.052
