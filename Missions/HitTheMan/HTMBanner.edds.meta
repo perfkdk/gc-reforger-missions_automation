@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{35FD57E51D2F5EEA}Missions/HitTheMan/fr63ah5ady311.edds"
+ Name "{35FD57E51D2F5EEA}Missions/HitTheMan/HTMBanner.edds"
  Configurations {
   JPGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }

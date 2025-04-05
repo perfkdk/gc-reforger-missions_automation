@@ -1,0 +1,321 @@
+SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
+ coords 1588.308 20.219 2167.352
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1566.645 20.219 2162.125
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Rainy"
+   m_iSetWeatherConstant 1
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_iStartingMinutes 36
+   m_bUseSpecifiedDate 1
+   m_iSetDay 9
+   m_iSetMonth 4
+   m_iSetYear 2009
+   m_bOverrideGeocoords 1
+   m_fLatitude 49.019
+   m_fLongitude 37.921
+   m_bOverrideTimeZoneInfo 1
+   m_fDSTEnabled 1
+   m_fWind 5
+  }
+ }
+ coords 1601.722 20.219 2178.804
+ m_iFreezeTime 420000
+}
+$grp Vehicle : "{36EA87CEC1BE77E0}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK_Olive.et" {
+ JLTV_OGPK_Olive1 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+    m_lockPilot 1
+    m_lockTurret 1
+    m_lockCargo 1
+    m_factionLock {
+     "RHS_AFRF" "RHS_USAF"
+    }
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+   TILW_VehicleCrewComponent "{6506934298944AE7}" {
+    m_crewConfig TILW_CrewConfig "{6506934286C9A15E}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6506934285F46A31}" {
+       m_crewStations {
+        TILW_CrewStation "{650693428286CD36}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{6F0CB047D289E8CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_RF.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+     m_useIdleGroups 0
+    }
+   }
+  }
+  coords 1481.288 20.312 2184.421
+  angleY -29.054
+ }
+ JLTV_OGPK_Olive2 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+    m_lockPilot 1
+    m_lockTurret 1
+    m_lockCargo 1
+    m_factionLock {
+     "RHS_AFRF" "RHS_USAF"
+    }
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+   TILW_VehicleCrewComponent "{6506934298944AE7}" {
+    m_crewConfig TILW_CrewConfig "{6506934286C9A15E}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6506934285F46A31}" {
+       m_crewStations {
+        TILW_CrewStation "{650693428286CD36}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{6F0CB047D289E8CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_RF.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+    }
+   }
+  }
+  coords 1527.733 20.312 2210.092
+  angleY -29.054
+ }
+ JLTV_OGPK_Olive3 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+    m_lockPilot 1
+    m_lockTurret 1
+    m_lockCargo 1
+    m_factionLock {
+     "RHS_AFRF" "RHS_USAF"
+    }
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+   TILW_VehicleCrewComponent "{6506934298944AE7}" {
+    m_crewConfig TILW_CrewConfig "{6506934286C9A15E}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6506934285F46A31}" {
+       m_crewStations {
+        TILW_CrewStation "{650693428286CD36}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{6F0CB047D289E8CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_RF.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+    }
+   }
+  }
+  coords 1533.337 20.442 2213.118
+  angleY -29.054
+ }
+ JLTV_OGPK_Olive4 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+    m_lockPilot 1
+    m_lockTurret 1
+    m_lockCargo 1
+    m_factionLock {
+     "RHS_AFRF" "RHS_USAF"
+    }
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+   TILW_VehicleCrewComponent "{6506934298944AE7}" {
+    m_crewConfig TILW_CrewConfig "{6506934286C9A15E}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6506934285F46A31}" {
+       m_crewStations {
+        TILW_CrewStation "{650693428286CD36}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{6F0CB047D289E8CE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/Character_RHS_RANGER_09_RF.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+    }
+   }
+  }
+  coords 1476.914 20.312 2181.927
+  angleY -29.054
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 1593.733 19.178 2124.212
+}
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ bluforAO {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 10
+    m_factionKeys {
+     "RHS_USAF"
+    }
+    m_visibility FACTION
+    m_defaultColor 0 0.502 0.125 1
+    m_useFactionColor 0
+   }
+  }
+  coords 1485.72 20.375 2178.775
+  Points {
+   ShapePoint "{650693637AA66378}" {
+    Position -4.011 0 14.627
+   }
+   ShapePoint "{6506936367AD73D4}" {
+    Position -70.201 0 140.552
+   }
+   ShapePoint "{6506936364BD722A}" {
+    Position -34.129 0 160.696
+   }
+   ShapePoint "{65069363616E1C0C}" {
+    Position 35.57 0 36.634
+   }
+   ShapePoint "{650693636E69E7B3}" {
+    Position 120.809 0 33.438
+   }
+   ShapePoint "{6506936368C99F66}" {
+    Position 171.411 0 -85.897
+   }
+   ShapePoint "{65069363963E383F}" {
+    Position 58.499 0 -115.294
+   }
+   ShapePoint "{65069363921D6250}" {
+    Position -14.551 0 -4.316
+   }
+   ShapePoint "{6506936392E7BB0E}" {
+    Position -19.983 0 7.478
+   }
+  }
+  LineColor 0 0.502 0.1255 1
+ }
+ opforAO {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 5
+    m_factionKeys {
+     "RHS_AFRF"
+    }
+    m_visibility FACTION
+    m_defaultColor 0.502 0 0 1
+    m_useFactionColor 0
+   }
+  }
+  coords 1485.679 20.375 2179.459
+  Points {
+   ShapePoint "{650693637AA66378}" {
+    Position -4.011 0 14.627
+   }
+   ShapePoint "{6506936367AD73D4}" {
+    Position -70.201 0 140.552
+   }
+   ShapePoint "{6506936364BD722A}" {
+    Position -34.129 0 160.696
+   }
+   ShapePoint "{65069363616E1C0C}" {
+    Position 35.57 0 36.634
+   }
+  }
+  LineColor 0.502 0 0 1
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 1581.825 20.219 2163.665
+ m_missionEvents {
+  TILW_MissionEvent "{6508D983AB223731}" {
+   m_instructions {
+    TILW_EndGameInstruction "{65069348739519D9}" {
+     m_executionDelay 10
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{650693486309A08D}" {
+    m_flagName "ruloss"
+   }
+  }
+  TILW_MissionEvent "{6508D983AB010064}" {
+   m_instructions {
+    TILW_EndGameInstruction "{65069348969E23B6}" {
+     m_executionDelay 10
+     m_factionKey "RHS_AFRF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65069348934167CA}" {
+    m_flagName "usloss"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6508D983B68DAC36}" {
+   m_flagName "ruloss"
+   m_factionKey "RHS_AFRF"
+  }
+  TILW_FactionAIKilledFlag "{6508D983B978509E}" {
+   m_flagName "usloss"
+   m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.9
+  }
+ }
+}
