@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{CF305EE842BBA3E4}Prefabs/Characters/Factions/OPFOR/RHS_
    DefaultWeaponIndex 0
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Senior Rifleman"
+   m_sName "Senior Rifleman"
    m_bIsPlayable 1
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -81,5 +81,5 @@ SCR_ChimeraCharacter : "{CF305EE842BBA3E4}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 2307.939 16.466 3742.849
+ coords 2332.134 17.203 3742.606
 }

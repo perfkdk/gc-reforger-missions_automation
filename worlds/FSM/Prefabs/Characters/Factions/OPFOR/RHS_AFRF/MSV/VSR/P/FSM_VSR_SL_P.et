@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{CF305EE842BBA3E4}Prefabs/Characters/Factions/OPFOR/RHS_
    DefaultWeaponIndex 0
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Section Leader"
+   m_sName "Section Leader"
    m_bIsPlayable 1
   }
   SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
@@ -90,5 +90,5 @@ SCR_ChimeraCharacter : "{CF305EE842BBA3E4}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 3582.214 26.037 3511.988
+ coords 2315.708 16.709 3741.47
 }

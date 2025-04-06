@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{CF305EE842BBA3E4}Prefabs/Characters/Factions/OPFOR/RHS_
    DefaultWeaponIndex 0
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Rifleman"
+   m_sName "Rifleman"
    m_bIsPlayable 1
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -73,5 +73,5 @@ SCR_ChimeraCharacter : "{CF305EE842BBA3E4}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 3588.251 26.018 3501.61
+ coords 2320.158 16.817 3739.5
 }
