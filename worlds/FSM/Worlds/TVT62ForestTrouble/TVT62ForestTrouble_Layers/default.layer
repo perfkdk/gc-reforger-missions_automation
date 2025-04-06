@@ -41,7 +41,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 2550.791 136.704 4299.898
- m_iFreezeTime 420000
+ m_iFreezeTime 360000
  {
   SCR_FactionManager "6458A52470B178AA" {
    ID "5ED9088735FF2D8B"
@@ -56,23 +56,28 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
       }
       m_aPlatoonNames {
        SCR_CallsignInfo "{55CCB792CE6E998D}" {
-        m_sCallsign " "
+       }
+       SCR_CallsignInfo "{55CCB792CE18FB44}" {
+       }
+       SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+       }
+       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+       }
+       SCR_CallsignInfo "{64E2F8969162FA65}" {
        }
       }
       m_aSquadNames {
        SCR_CallsignInfo "{55CCB792D10AD8F4}" {
-        m_sCallsign " "
        }
        SCR_CallsignInfo "{55CCB792D13759D8}" {
-        m_sCallsign " "
        }
        SCR_CallsignInfo "{55CCB792D1218E95}" {
-        m_sCallsign " "
        }
        SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
-        m_sCallsign " "
+        m_sCallsign " 3"
        }
        SCR_CallsignInfo "{64A03214C6C95339}" {
+        m_sCallsign "6"
        }
        SCR_CallsignInfo "{64A03214D8DCB681}" {
        }
@@ -87,7 +92,23 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      }
      m_CallsignInfo SCR_FactionCallsignInfo "{5977478D568C093C}" {
       m_bIsAssignedRandomly 0
-      m_sCallsignGroupFormat ""
+      m_aCompanyNames {
+       SCR_CallsignInfo "{5977478D568C0922}" {
+        m_sCallsign "Buran"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{5977478D568C092E}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{5977478D568C092D}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{5977478D568D935E}" {
+        m_sCallsign "3"
+       }
+      }
+      m_sCallsignGroupFormat "%1 %2%3"
       m_sCallsignCharacterFormat ""
      }
     }
@@ -233,7 +254,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   }
  }
 }
-TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 2161.977 11.485 3456.719
  m_queryRadius 100
  m_captureIterations 18
@@ -251,7 +272,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{64927ACC636F2318}" {
      m_executionDelay 1
      m_messageTitle "US retreats due to casualties. "
-     m_messageBody "Mission will end in 120 seconds or the GM can end it"
+     m_messageBody "Mission will end in 180 seconds or the GM can end it"
     }
     TILW_EndGameInstruction "{6460503750C4690D}" {
      m_executionDelay 120

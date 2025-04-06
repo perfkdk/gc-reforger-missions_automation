@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{CF305EE842BBA3E4}Prefabs/Characters/Factions/OPFOR/RHS_
    DefaultWeaponIndex 0
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Medic"
+   m_sName "Medic"
    m_bIsPlayable 1
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -82,5 +82,5 @@ SCR_ChimeraCharacter : "{CF305EE842BBA3E4}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 3588.381 26.279 3480.334
+ coords 2329.741 17.096 3740.634
 }

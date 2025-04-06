@@ -30,7 +30,6 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 6
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{6460503045067C9A}" {
@@ -90,9 +89,35 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     }
     SCR_Faction "{62EB308733CA83DD}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
-      m_sCallsignGroupFormat ""
+      m_aSquadNames {
+       SCR_CallsignInfo "{58B2B630FDD64B6D}" {
+        m_sCallsign "Sparta"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B53}" {
+        m_sCallsign "Somalia"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B51}" {
+        m_sCallsign "Strelkov"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
       m_sCallsignCharacterFormat ""
       m_sCallsignCharacterWithRoleFormat ""
+     }
+    }
+    SCR_Faction "{64AA098AEA5B1498}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{64AA098204A61453}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign ""
+       }
+       SCR_CallsignInfo "{61677618371B4C91}" {
+        m_sCallsign "Delta"
+       }
+       SCR_CallsignInfo "{650C2501D1BDE0D5}" {
+        m_sCallsign "Whiskey"
+       }
+      }
      }
     }
    }
@@ -118,7 +143,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Note: The island might not currently be visible on the map"
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
  }
  {
@@ -129,7 +154,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "There are a few shallow points that can be used to get on the island without swimming. Recce the crossing. "\
   ""
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iOrder 1
  }
@@ -138,7 +163,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Situation Friendly"
   m_sTextData "1 Platoon is at full strength with an detachment rifle section from 2 platoon and a weapons section detachment. The platoon has also been given 8 demoblocks and clackers to destroy any caches on the island. They are located on a log on the dirt track. "
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iOrder 2
  }
@@ -149,7 +174,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "1 Platoon will locate and destroy any separatists or caches located on the Zherebets Island in order to stop all separatist activity in the area. "
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iOrder 3
  }
@@ -166,7 +191,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Platoon Net - 48.00"
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iOrder 5
  }
@@ -175,7 +200,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Service and Support"
   m_sTextData "There are 8 demo blocks, 8 clackers and 4 small packs located on a log on the dirt track. These are to destroy any caches that are found on the island. "
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iOrder 6
  }
@@ -341,7 +366,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_EndGameInstruction "{6460503750C4690D}" {
      m_executionDelay 180
      m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "US"
+     m_factionKey "GC_CAF"
     }
     TILW_SendMessageInstruction "{64900915CFFC9CD1}" {
      m_executionDelay 1
@@ -362,7 +387,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{6490091469B3C8AF}" {
      m_executionDelay 15
-     m_factionKey "US"
+     m_factionKey "GC_CAF"
     }
    }
    m_condition TILW_LiteralTerm "{64900917BC1D884A}" {
@@ -378,7 +403,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_EndGameInstruction "{648D554F85E86701}" {
      m_executionDelay 15
-     m_factionKey "US"
+     m_factionKey "GC_CAF"
     }
    }
    m_condition TILW_LiteralTerm "{648D554FB6C85703}" {
@@ -389,7 +414,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{64A047FE5DE1CD51}" {
    m_flagName "Blufor Killed"
-   m_factionKey "US"
+   m_factionKey "GC_CAF"
    m_casualtyRatio 0.9
   }
   TILW_FactionPlayersKilledFlag "{64A047FE52FADD9F}" {
@@ -409,7 +434,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 99
   m_sDescription "1 Platoon"
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iZOrder 10
  }
@@ -435,7 +460,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 169
   m_sDescription "Separatist Camp"
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iZOrder 10
  }
