@@ -12,9 +12,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 5
-   m_iStartingMinutes 36
-   m_fDayTimeAcceleration 0.1
-   m_fNightTimeAcceleration 0.1
+   m_iStartingMinutes 30
    m_bUseSpecifiedDate 1
    m_iSetDay 9
    m_iSetMonth 4
