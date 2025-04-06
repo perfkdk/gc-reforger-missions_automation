@@ -1,0 +1,285 @@
+SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
+ coords 1354.943 1.803 3959.665
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1154.511 16.625 2771.178
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_GameOverScreenManagerComponent "{56DEC646298AD219}" {
+   m_GameOverScreenConfig SCR_GameOverScreenConfig "{56DEC6462FFDD82D}" {
+    m_aGameOverScreens {
+     SCR_FactionVictoryGameOverScreenInfo "{568EB6DFEF507060}" {
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{568EB6DFF87D9C84}" {
+       m_sSubtitle "Delta Force successfully secured and handed over the sensitive hardware"
+      }
+     }
+     SCR_EditorFactionGameOverScreenInfo "{56EED1ED0A9954E6}" {
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{56EED1ED10CDB164}" {
+       m_sSubtitle "Task force casaulties are too high we must retreat"
+      }
+     }
+    }
+   }
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_iStartingMinutes 45
+   m_iRangeHoursStart 0
+   m_iRangeHoursEnd 0
+   m_bUseSpecifiedDate 1
+   m_iSetDay 24
+   m_iSetMonth 11
+   m_iSetYear 2010
+   m_bOverrideGeocoords 1
+   m_fLatitude 49.019
+   m_fLongitude 37.921
+   m_bOverrideTimeZoneInfo 1
+   m_fDSTEnabled 1
+   m_bOverrideEnvironment 1
+   m_fFogDensity 0.04
+   m_fFogHeight 1.4
+   m_fRain 0
+  }
+ }
+ coords 1155.337 7.664 3284.516
+ {
+  SCR_FactionManager "64FE1D3B1AB446BE" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_aFriendlyFactionsIds {
+      "GC_SEPARATIST"
+     }
+    }
+   }
+  }
+ }
+}
+$grp Vehicle : "{0FD3226BD0578D4D}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M134/JLTV_OGPK_M134.et" {
+ JLTV_OGPK_M1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65025EFE7376F235}" {
+      SlotTemplate InventoryStorageSlot "{65025EFE713F48E7}" {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6504F3382B53C006}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 1178.29 7.471 3215.058
+  angleY -20.749
+ }
+ JLTV_OGPK_M2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65025EFE7376F235}" {
+      SlotTemplate InventoryStorageSlot "{65025EFE713F48E7}" {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6504F3382B53C006}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 1180.031 7.897 3192.605
+ }
+ JLTV_OGPK_M3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65025EFE7376F235}" {
+      SlotTemplate InventoryStorageSlot "{65025EFE713F48E7}" {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6504F3382B53C006}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 1182.986 8.115 3172.648
+  angleY -12.44
+ }
+}
+TILW_FactionTriggerEntity atlake : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 251.638 2.856 3214.398
+ m_queryRadius 175
+ m_flagName "atlake"
+ m_playersOnly 1
+ m_ownerFactionKey "RHS_USAF"
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 179.671 17.411 3072.424
+ m_missionEvents {
+  TILW_MissionEvent "{64E510C7769199DC}" {
+   m_instructions {
+    TILW_SendMessageInstruction "{64E510C77E9EE70C}" {
+     m_messageTitle "Intel Report"
+     m_messageBody "GLINT SAR Assets have picked up a Company to Battalion sized force operating north of the Lake has started moving south. SIGINT believes it is russian regular forces."
+    }
+   }
+   m_condition TILW_LiteralTerm "{64E510C50CCFFA2F}" {
+    m_flagName "atlake"
+   }
+  }
+  TILW_MissionEvent "{6502C7C5AF37E057}" {
+   m_instructions {
+    TILW_EndGameInstruction "{6502C7C5D5130639}" {
+     m_executionDelay 15
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6502C7C5D22EB0DC}" {
+    m_flagName "Handover"
+   }
+  }
+  TILW_MissionEvent "{6502C7DB642C3980}" {
+   m_instructions {
+    TILW_EndGameInstruction "{6502C7DB60CFF08C}" {
+     m_gameOverType EDITOR_FACTION_DEFEAT
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6502C7DB6248FEFE}" {
+    m_flagName "CasualtyLimit"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6506F491B804F45C}" {
+   m_flagName "CasualtyLimit"
+   m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.9
+  }
+ }
+}
+$grp Vehicle : "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK.et" {
+ JLTV_OGPK1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65025EFE4C0DD260}" {
+      SlotTemplate InventoryStorageSlot "{65025EFE4A9A413B}" {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6504F3387C083B96}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 1185.477 7.771 3204.668
+  angleY -8.138
+ }
+ JLTV_OGPK2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65025EFE4C0DD260}" {
+      SlotTemplate InventoryStorageSlot "{65025EFE4A9A413B}" {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6504F3387C083B96}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 1185.52 7.991 3183.295
+  angleY -10.853
+ }
+ JLTV_OGPK3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65025EFE4C0DD260}" {
+      SlotTemplate InventoryStorageSlot "{65025EFE4A9A413B}" {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6504F3387C083B96}" {
+      SlotTemplate InventoryStorageSlot pmags {
+       Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 1190.211 8.258 3163.491
+  angleY -18.677
+ }
+}
+Vehicle JLTV_Unarmed1 : "{E62EEF185EC31C54}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65025EEC2B8C9A0F}" {
+     SlotTemplate InventoryStorageSlot flares {
+      Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{6504F3386A2F9D55}" {
+     SlotTemplate InventoryStorageSlot pmags {
+      Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+     NumSlots 300
+    }
+    MultiSlotConfiguration "{6504F33889DFA275}" {
+     SlotTemplate InventoryStorageSlot m249 {
+      Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{6504F3390EF96FFB}" {
+     SlotTemplate InventoryStorageSlot m240 {
+      Prefab "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
+     }
+     NumSlots 40
+    }
+   }
+  }
+  SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65025EEC01846A85}" {
+    }
+   }
+  }
+ }
+ coords 1178.355 8.134 3157.933
+ angleY 40.463
+}
