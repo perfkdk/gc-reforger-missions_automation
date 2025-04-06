@@ -72,7 +72,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Mission:"
   m_sTextData "Our Platoon with attachments has been ordered to clear the forest to the sawmill and capture it intact for future operations and logistical needs, becoming a new supply hub once we push the front forward, and denying its usage to USSR."\
   ""\
-  "We've also ordered to also try to minimize any infastructure damage if possible, especially the two objectives we are to capture INTACT. Anything outside of those two are free-reign."
+  "We've also been ordered to try to minimize any infastructure damage if possible, especially the two objective buildings we are to capture INTACT, anything outside of those two are free-reign like the forests."
   m_aVisibleForFactions {
    "GC_CAF"
   }
@@ -115,6 +115,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "IV. Vehicles:"\
   "Platoon is equiped with;"\
   "1x LAVIIs"\
+  "(60x AP, 150x HE, 200x5 Coax)"\
   ""\
   "No Replacement is provided or accounted for if losses are sustained."
   m_aVisibleForFactions {
@@ -148,15 +149,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5811.692 272.468 10245.123
   m_sTitle "V. Command & Signals:"
   m_sTextData "I. Chain of Command:"\
-  "29, 29A, 21, 22"\
+  "21, 21 Alpha, 21 Bravo, etc"\
   ""\
   "II. Callsigns:"\
   "Platoon Leader 	- 21 Sunray"\
   "Platoon Warrant 	- 21 Sunray Minor "\
+  ""\
   "1st Section 		- 21 Alpha"\
   "2nd Section 		- 21 Bravo"\
   "3rd Section		- 21 Charlie"\
   "Weapons Detachment	- 21 Whisky"\
+  ""\
   "4th Section Attachment	- 21 Echo"\
   "Mortar Attachment 	- 25"\
   ""\
