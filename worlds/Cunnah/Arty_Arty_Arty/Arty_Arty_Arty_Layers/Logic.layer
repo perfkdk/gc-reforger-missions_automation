@@ -7,7 +7,7 @@ TILW_ExtractionTriggerEntity OPFOR_EXTRACTION_ZONE : "{192ABD6B9232E064}Prefabs/
  m_ratioThreshold 0.9
 }
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
- AO_LIMIT {
+ BLUFOR_AO {
   components {
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
     m_factionKeys {
@@ -168,11 +168,11 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
   }
  }
- BLUFOR_AO {
+ OPFOR_AO {
   components {
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
     m_factionKeys {
-     "US" "USSR"
+     "USSR"
     }
     m_defaultColor 0.561 0.071 0.071 1
     m_useFactionColor 0
