@@ -52,9 +52,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "NOTES"
   m_sTextData "5 Minute setup timer."\
   ""\
-  "OPFOR win either by extracting 90% of surviving forces or destroying all BLUFOR forces."\
+  "OPFOR win by extracting 90% of surviving forces at northern end of GREEN VALLEY."\
   ""\
-  "BLUFOR win either delaying OPFOR for 45 mins (1400 LT) or by destroying 60% of OPFOR. "
+  "BLUFOR win either delaying OPFOR for 45 mins (1400 LT) or by destroying 80% of OPFOR. "
   m_aVisibleForFactions {
    "US" "USSR"
   }
@@ -317,6 +317,72 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_LiteralTerm "{650C9D2E5F70760B}" {
     m_invertTerm 1
    }
+  }
+  TILW_MissionEvent "{650CCC37B7DB79B9}" {
+   m_name "Timer"
+   m_instructions {
+    TILW_SendMessageInstruction "{650CCC37BC2DADB0}" {
+     m_executionDelay 2400
+     m_messageTitle "Extraction"
+     m_messageBody "10 minutes Remaining!"
+    }
+    TILW_SendMessageInstruction "{650CCC361329DA05}" {
+     m_executionDelay 2700
+     m_messageTitle "Extraction"
+     m_messageBody "5 minutes Remaining!"
+    }
+    TILW_SendMessageInstruction "{650CCC353F062910}" {
+     m_executionDelay 3000
+     m_messageTitle "US VICTORY!"
+     m_messageBody "Russian forces have been delayed."
+    }
+    TILW_EndGameInstruction "{650CCC362216C4DB}" {
+     m_executionDelay 3005
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_LiteralTerm "{650CCC365BC1E660}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{650CCC36A43886A2}" {
+   m_name "OPFOR Destroyed"
+   m_instructions {
+    TILW_SendMessageInstruction "{650CCC36FE108E21}" {
+     m_executionDelay 0
+     m_messageTitle "US VICTORY!"
+     m_messageBody "Russian forces are combat ineffective."
+    }
+    TILW_EndGameInstruction "{650CCC36CA4B3B57}" {
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_LiteralTerm "{650CCC36F5A8EAB7}" {
+    m_flagName "OPFOR_DESTROYED"
+   }
+  }
+  TILW_MissionEvent "{650CCC3512D0408A}" {
+   m_name "OPFOR Breakthrough"
+   m_instructions {
+    TILW_SendMessageInstruction "{650CCC354D448AD3}" {
+     m_executionDelay 0
+     m_messageTitle "USSR Victory!"
+     m_messageBody "Russian forces have broken through!"
+    }
+    TILW_EndGameInstruction "{650CCC35A7CF764C}" {
+     m_factionKey "USSR"
+    }
+   }
+   m_condition TILW_LiteralTerm "{650CCC3541B3AA61}" {
+    m_flagName "OPFOR_EXTRACTED"
+   }
+  }
+ }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{650CCC36ADFB9015}" {
+   m_flagName "OPFOR_DESTROYED"
+   m_factionKey "USSR"
+   m_casualtyRatio 0.8
   }
  }
 }

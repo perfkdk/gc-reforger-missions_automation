@@ -1,6 +1,8 @@
 TILW_ExtractionTriggerEntity OPFOR_EXTRACTION_ZONE : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
  coords 8193.854 193.222 3914.187
  m_queryRadius 100
+ m_flagName "OPFOR_EXTRACTED"
+ m_stopAfterFirstChange 1
  m_factionKey "USSR"
  m_ratioThreshold 0.9
 }
