@@ -218,6 +218,12 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_defaultColor 0 0.502 0.125 1
     m_useFactionColor 0
    }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "RHS_USAF"
+    }
+   }
   }
   coords 1485.72 20.375 2178.775
   Points {
@@ -261,6 +267,13 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_visibility FACTION
     m_defaultColor 0.502 0 0 1
     m_useFactionColor 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "RHS_AFRF"
+    }
+    m_visibleForEmptyFaction 0
    }
   }
   coords 1485.679 20.375 2179.459
