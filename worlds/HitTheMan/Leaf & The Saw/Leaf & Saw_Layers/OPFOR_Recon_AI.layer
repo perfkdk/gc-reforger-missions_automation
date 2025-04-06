@@ -66,7 +66,7 @@ $grp SCR_AIGroup : "{B9ED353080EA41AB}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   coords 1035.779 174.04 7206.385
   angleY 46.909
   m_aUnitPrefabSlots {
-   "{6C1FFF78CD4E4ADA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_SL_S.et" "{A16C1DE30B6957D9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_Sapper_S.et" "{029FF8F84148012E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_Medic_S.et" "{4D20F57C29B6EC1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_S.et"
+   "{6C1FFF78CD4E4ADA}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_SL_S.et" "{A16C1DE30B6957D9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_Sapper_S.et" "{CF43078FA4830404}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_GL_S.et" "{5EFF3963153BE048}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_Sharpshooter_S.et" "{029FF8F84148012E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_Medic_S.et" "{4D20F57C29B6EC1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_S.et"
   }
   m_aStaticWaypoints {
    "wp_rec_loiter_3"

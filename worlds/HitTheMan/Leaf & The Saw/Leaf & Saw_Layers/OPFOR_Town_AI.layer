@@ -34,6 +34,13 @@ $grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loi
   angleZ -0.909
   CompletionRadius 95
  }
+ wp_rec_loiter_9 {
+  coords 729.561 211.501 7892.863
+  angleX 2.679
+  angleY -0.324
+  angleZ -0.909
+  CompletionRadius 130
+ }
 }
 $grp SCR_AIGroup : "{B9ED353080EA41AB}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR/Group_USSR_MotRifleSquad.et" {
  AISquad_5 {
@@ -79,6 +86,15 @@ $grp SCR_AIGroup : "{B9ED353080EA41AB}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   }
   m_aStaticWaypoints {
    "wp_rec_loiter_8"
+  }
+ }
+ AISquad_7 {
+  coords 734.549 210.43 7891.4
+  m_aUnitPrefabSlots {
+   "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et" "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "wp_rec_loiter_9"
   }
  }
 }
