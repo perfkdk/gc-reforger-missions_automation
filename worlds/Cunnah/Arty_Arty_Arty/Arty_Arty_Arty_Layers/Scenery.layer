@@ -5,14 +5,34 @@ SCR_DestructibleEntity : "{0C4C448FBAA1AFFE}Prefabs/Models/cars/tem_tractor_open
  angleZ -5.647
 }
 Vehicle S1203_transport_randomized1 : "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_lockPilot 1
+   m_lockTurret 1
+   m_lockCargo 1
+   m_factionLock {
+    "CIV"
+   }
+  }
+ }
  coords 9262.491 56.963 2060.849
  angleY -70.315
 }
 Vehicle S105_beige1 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
+  }
+ }
  coords 9281.589 54.631 2035.195
  angleY -30.588
 }
 Vehicle S105_white1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
+  }
+ }
  coords 8829.404 95.125 2771.959
  angleY -104.578
 }
@@ -35,6 +55,11 @@ $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
  }
 }
 Vehicle S105_red1 : "{85F0BD6AF0F42D6D}Prefabs/Vehicles/Wheeled/S105/S105_red.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
+  }
+ }
  coords 8830.229 95.125 2767.949
  angleY 76.013
 }
@@ -43,6 +68,11 @@ Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_d
  angleY -20.362
 }
 Vehicle S105_yellow1 : "{A6B0D2923262E755}Prefabs/Vehicles/Wheeled/S105/S105_yellow.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
+  }
+ }
  coords 9280.503 56.271 2060.797
  angleY 143.39
 }

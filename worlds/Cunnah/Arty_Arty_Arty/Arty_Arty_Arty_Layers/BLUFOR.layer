@@ -7,13 +7,13 @@ GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equipment
      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
       Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
      }
-     NumSlots 50
+     NumSlots 200
     }
     MultiSlotConfiguration "{6506DED06A300615}" {
      SlotTemplate InventoryStorageSlot InventoryStorageSlot {
       Prefab "{F7807293E94D3C88}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_M819.et"
      }
-     NumSlots 50
+     NumSlots 100
     }
    }
   }

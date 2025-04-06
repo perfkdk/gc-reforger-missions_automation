@@ -9,7 +9,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "2 Platoon A Company is deployed at VERNON in order to delay enemy movement into the valley. 2'1 (us) is currently at the initial fallback position located at the farmstead and bridge crossing. We have an attached MG team, FiST (Forward Observer), and 1x Mortar team deployed at DURRAS."\
   ""\
   "c. Terrain:"\
-  "GREEN VALLEY is a long narrow valley wit steap sides and Trees. There is one road out of the valley."\
+  "GREEN VALLEY is a long narrow valley with steap sides and dense forests. There is one road out of the valley."\
   ""\
   "d. Civilian:"\
   "Civilians have mostly evacuated the area but there are still some evacuating. Beware of road vehicles and civillians fleeing on foot."
@@ -52,8 +52,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "20x Anti Tank Mines (split between both trucks backpacks are also included)."\
   ""\
   "(Mortar Shells located in box next to Mortar)"\
-  "50x HE Shells."\
-  "50x Smoke Shells."\
+  "200x HE Shells."\
+  "100x Smoke Shells."\
   ""\
   "Extra AT can be found in each Truck."
   m_aVisibleForFactions {

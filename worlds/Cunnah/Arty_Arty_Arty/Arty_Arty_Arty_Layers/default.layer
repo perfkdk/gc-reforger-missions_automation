@@ -65,6 +65,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  coords 9154.384 68.147 2136.308
  m_missionEvents {
   TILW_MissionEvent "{650557F14E0728B7}" {
+   m_name "Opening Cinematics"
    m_instructions {
     TILW_SpawnPrefabInstruction "{650557F155000933}" {
      m_executionDelay 305
@@ -163,7 +164,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnVehicleInstruction "{65070C1E55E9ECC9}" {
      m_executionDelay 0
-     m_prefab "{C75DAB159B434B77}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CIV_grey.et"
+     m_prefab "{E5F73B9D4CEB94E4}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_white.et"
      m_locationName "dave_spawn"
      m_crewConfig TILW_CrewConfig "{65070C1E5B608186}" {
       m_crewGroups {
@@ -245,6 +246,27 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       }
      }
     }
+    TILW_SpawnVehicleInstruction "{650C9D2F947BA01D}" {
+     m_executionDelay 0
+     m_prefab "{4C79EB5FADB89B7A}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_yellow.et"
+     m_locationName "town_folk_spawn"
+     m_crewConfig TILW_CrewConfig "{650C9D2FE329417A}" {
+      m_crewGroups {
+       TILW_CrewGroup "{650C9D2FE2FEEE0A}" {
+        m_crewStations {
+         TILW_CrewStation "{650C9D2FEE6A4624}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{11D3F19EB64AFA8A}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_4.et"
+          }
+         }
+        }
+        m_entityName "town_folk"
+       }
+      }
+     }
+    }
     TILW_AssignWaypointsInstruction "{65070C1DC0F5690A}" {
      m_groupName "boss"
      m_waypointNames {
@@ -258,8 +280,41 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "civ_flee"
      }
     }
+    TILW_AssignWaypointsInstruction "{650C9D2DBCBCE337}" {
+     m_executionDelay 30
+     m_groupName "dock_workers"
+     m_waypointNames {
+      "dock_worker_get_in" "civ_flee"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{650C9D2FD5580185}" {
+     m_groupName "town_folk"
+     m_waypointNames {
+      "civ_flee"
+     }
+    }
    }
    m_condition TILW_LiteralTerm "{650557F1FF91B2D0}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{650C9D2E77BBA3D8}" {
+   m_name "BLUFOR AI"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{650C9D2E7CE4C040}" {
+     m_groupName "defenders_1"
+     m_waypointNames {
+      "defend_1"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{650C9D2E781F8546}" {
+     m_groupName "defenders_2"
+     m_waypointNames {
+      "defend_2"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{650C9D2E5F70760B}" {
     m_invertTerm 1
    }
   }
