@@ -115,7 +115,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "Delta"
        }
        SCR_CallsignInfo "{650C2501D1BDE0D5}" {
-        m_sCallsign "Whiskey"
+        m_sCallsign "Whisky"
        }
       }
      }
