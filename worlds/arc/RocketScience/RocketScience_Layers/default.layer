@@ -57,20 +57,20 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-$grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/TILW_PresenceTrigger.et" {
+$grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
  {
   coords 2488.908 3.569 3220.142
-  m_prefabFilter {
-   "{1F9BD317E1C5A13D}worlds/arc/RocketScience/Prefabs/Hostage.et"
-  }
   m_flagName "USSR_EXTRACTED"
+  m_entityNames {
+   "rs_hostage"
+  }
  }
  {
   coords 1408.135 3.301 3547.71
-  m_prefabFilter {
-   "{1F9BD317E1C5A13D}worlds/arc/RocketScience/Prefabs/Hostage.et"
-  }
   m_flagName "UK_EXTRACTED"
+  m_entityNames {
+   "rs_hostage"
+  }
  }
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
@@ -221,7 +221,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_factionPlayersKilledFlags {
+ m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{62E73B2031B27C7A}" {
    m_flagName "USSR_KIA"
    m_factionKey "USSR"

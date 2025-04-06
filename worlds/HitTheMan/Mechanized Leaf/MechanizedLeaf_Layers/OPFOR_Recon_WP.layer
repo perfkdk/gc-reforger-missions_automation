@@ -1,0 +1,66 @@
+$grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ wp_fallback_2 {
+  coords 6898.623 303.823 8053.465
+  m_fPriorityLevel 25
+ }
+ wp_fallback_3 {
+  coords 7576.603 366.737 8052.912
+  m_fPriorityLevel 25
+ }
+}
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ wp_def_1 {
+  coords 6776.636 379.028 8764.296
+  angleX 1.788
+  angleY 0.056
+  angleZ 1.791
+  CompletionRadius 75
+ }
+ wp_def_2 {
+  coords 6620.284 381.711 8634.206
+  CompletionRadius 50
+ }
+ wp_def_3 {
+  coords 7306.364 379.031 9007.768
+  angleX -5.293
+  angleY 0.581
+  angleZ -6.269
+  CompletionRadius 50
+ }
+ wp_def_4 {
+  coords 7669.911 422.758 9468.952
+  CompletionRadius 20
+ }
+ wp_def_5 {
+  coords 7255.999 372.517 8688.309
+  CompletionRadius 50
+ }
+ wp_def_6 {
+  coords 7610.804 405.795 9222.438
+  CompletionRadius 50
+ }
+}
+$grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ WP_Counterattack2 {
+  coords 7126.13 289.382 7609.679
+  CompletionRadius 10
+ }
+ WP_Counterattack3 {
+  coords 7221.112 293.66 7671.772
+  CompletionRadius 10
+ }
+ WP_Counterattack4 {
+  coords 7107.714 294.406 7696.932
+  CompletionRadius 10
+ }
+}
+$grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+ wp_fallbackdef_2 {
+  coords 6950.486 296.94 7726.849
+  m_fPriorityLevel 30
+ }
+ wp_fallbackdef_3 {
+  coords 7193.851 294.155 7694.59
+  m_fPriorityLevel 30
+ }
+}
