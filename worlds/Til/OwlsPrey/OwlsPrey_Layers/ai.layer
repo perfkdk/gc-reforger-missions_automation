@@ -1,15 +1,7 @@
-$grp SCR_AIGroup : "{0ACD74AD27EEEE7D}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_FireGroup.et" {
- {
-  coords 291.629 40.468 407.766
-  m_aStaticWaypoints {
-   "wp_def_2"
-  }
- }
- {
-  coords 320.763 40.48 368.071
-  m_aStaticWaypoints {
-   "wp_def_1"
-  }
+SCR_AIGroup : "{0ACD74AD27EEEE7D}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_FireGroup.et" {
+ coords 320.763 40.48 368.071
+ m_aStaticWaypoints {
+  "wp_def_1"
  }
 }
 SCR_AIGroup : "{1A00EE432E398461}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_MedicalSection.et" {
@@ -26,28 +18,25 @@ $grp SCR_AIGroup : "{56FD583BBC989204}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   }
  }
  {
-  coords 618.561 9.875 592.742
-  m_aStaticWaypoints {
-   "wp_def_9"
-  }
- }
- {
   coords 642.655 9.858 565.01
   m_aStaticWaypoints {
    "wp_def_8"
   }
  }
+ {
+  coords 432.905 2.02 570.939
+  m_aStaticWaypoints {
+   "wp_def_11"
+  }
+ }
+ {
+  coords 291.629 40.468 407.766
+  m_aStaticWaypoints {
+   "wp_def_2"
+  }
+ }
 }
 $grp SCR_ChimeraCharacter : "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.et" {
- {
-  components {
-   ChimeraAIControlComponent "{520EA1D2DB109F34}" {
-    OverrideAIBehaviorData "{1E81FF0F3EC49323}AI/BehaviorTrees/Chimera/Soldier/TILW_StaticAI.bt"
-    EnableAI 1
-   }
-  }
-  coords 546.636 10.799 534.42
- }
  {
   components {
    ChimeraAIControlComponent "{520EA1D2DB109F34}" {
@@ -77,16 +66,6 @@ $grp SCR_ChimeraCharacter : "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR
   }
   coords 644.308 10.191 595.517
   angleY -80.665
- }
- {
-  components {
-   ChimeraAIControlComponent "{520EA1D2DB109F34}" {
-    OverrideAIBehaviorData "{1E81FF0F3EC49323}AI/BehaviorTrees/Chimera/Soldier/TILW_StaticAI.bt"
-    EnableAI 1
-   }
-  }
-  coords 650.934 9.835 584.74
-  angleY 18.472
  }
  {
   components {
@@ -177,12 +156,6 @@ SCR_AIGroup : "{A906B4565ED3BAFC}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
  coords 262.086 16.1 167.751
  m_aStaticWaypoints {
   "wp_def_3"
- }
-}
-SCR_AIGroup : "{BE031B9F579DA1FC}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_AmmoTeam.et" {
- coords 433.93 1.999 572.298
- m_aStaticWaypoints {
-  "wp_def_11"
  }
 }
 SCR_AIGroup : "{F40CDA3D5A7B1CDF}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_LightFireTeam.et" {

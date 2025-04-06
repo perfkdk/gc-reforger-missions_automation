@@ -378,8 +378,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_factionPlayersKilledFlags {
-  TILW_FactionPlayersKilledFlag "{650CCC36ADFB9015}" {
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{650D07465B3A1373}" {
    m_flagName "OPFOR_DESTROYED"
    m_factionKey "USSR"
    m_casualtyRatio 0.8
