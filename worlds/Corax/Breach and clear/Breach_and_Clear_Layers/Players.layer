@@ -24,7 +24,7 @@ SCR_AIGroup : "{707D43629B9C7BFA}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Group_R
  coords 1583.729 20.73 2133.021
  angleY -58.973
  m_aUnitPrefabSlots {
-  "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_SL_P.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{AA3790BBEF97F183}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_MG_P.et" "{66EFFAE3C5754A7A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_MGAS_P.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{AA3790BBEF97F183}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_MG_P.et" "{66EFFAE3C5754A7A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_MGAS_P.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{AA3790BBEF97F183}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_MG_P.et" "{66EFFAE3C5754A7A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_MGAS_P.et"
+  "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_SL_P.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{AA3790BBEF97F183}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_MG_P.et" "{66EFFAE3C5754A7A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_MGAS_P.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{AA3790BBEF97F183}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_MG_P.et" "{66EFFAE3C5754A7A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_MGAS_P.et" "{474B263A266F57EF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_ATTL_P.et" "{828A09BDBD765804}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_AT_P.et" "{C440E92966832FF3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_ATAS_P.et"
  }
  m_sCustomNameSet "Ranger Weapons Squad"
 }
@@ -41,6 +41,9 @@ $grp SCR_AIGroup : "{9FA44AED55972EA9}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Gr
   }
   coords 1583.42 17.851 2109.604
   angleY -123.085
+  m_aUnitPrefabSlots {
+   "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_SL_P.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{2A10FBA1AE4CA314}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_GR_P.et" "{3F5A5B3AC26D441A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_AR_P.et" "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_RF_P.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{2A10FBA1AE4CA314}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_GR_P.et" "{3F5A5B3AC26D441A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_AR_P.et" "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_RF_P.et"
+  }
  }
  {
   components {
@@ -54,6 +57,9 @@ $grp SCR_AIGroup : "{9FA44AED55972EA9}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Gr
   }
   coords 1601.049 19.368 2130.175
   angleY 54.287
+  m_aUnitPrefabSlots {
+   "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_SL_P.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{2A10FBA1AE4CA314}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_GR_P.et" "{3F5A5B3AC26D441A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_AR_P.et" "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_RF_P.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{2A10FBA1AE4CA314}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_GR_P.et" "{3F5A5B3AC26D441A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_AR_P.et" "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_RF_P.et"
+  }
  }
  {
   components {
@@ -67,18 +73,27 @@ $grp SCR_AIGroup : "{9FA44AED55972EA9}Prefabs/Groups/BLUFOR/US/Rangers 2009/P/Gr
   }
   coords 1602.524 17.892 2108.026
   angleY 136.567
+  m_aUnitPrefabSlots {
+   "{25FECB70EBFE3EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_SL_P.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{2A10FBA1AE4CA314}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_GR_P.et" "{3F5A5B3AC26D441A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_AR_P.et" "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_RF_P.et" "{4859D3B18F5C5472}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_TL_P.et" "{2A10FBA1AE4CA314}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_GR_P.et" "{3F5A5B3AC26D441A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_AR_P.et" "{D9936548CBBAA1CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2009/P/Character_RHS_RANGER_09_RF_P.et"
+  }
  }
 }
 SCR_AIGroup : "{C9426F8783461162}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/Flora/P/Group_RHS_RF_MSV_Flora_LightFireTeam_P.et" {
  components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
   PS_GroupCallsignAssigner "{65074006DC7DA618}" {
    m_iCompanyCallsign 3
    m_iPlatoonCallsign 3
    m_iSquadCallsign 3
   }
  }
- coords 1479.476 20.656 2249.415
- angleY 152.459
+ coords 1479.834 20.656 2248.427
+ angleY -123.949
+ m_aUnitPrefabSlots {
+  "{3A523970F07B0F3B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_SR_P_2.et" "{2D0B5350E6734CE9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_Rifleman_P_2.et" "{2D0B5350E6734CE9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_Rifleman_P_2.et" "{2D0B5350E6734CE9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_Rifleman_P_2.et"
+ }
 }
 SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/Flora/P/Group_RHS_RF_MSV_Flora_RifleSquad_P.et" {
  components {
@@ -93,4 +108,7 @@ SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/Flora/P/Group
  }
  coords 1452.969 20.656 2288.413
  angleY 59.883
+ m_aUnitPrefabSlots {
+  "{8075CDB9BC6C1814}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_SL_P_2.et" "{6EE5828193F15137}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_AR_P_2.et" "{2D0B5350E6734CE9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_Rifleman_P_2.et" "{49BBE6BC855F0094}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_AT_P_2.et" "{3A523970F07B0F3B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_SR_P_2.et" "{2D0B5350E6734CE9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_Rifleman_P_2.et"
+ }
 }
