@@ -73,40 +73,40 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
      }
     }
     ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
-     TargetStorage "worlds/FSM/Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Pouch_ALICE_30rnd_flashlight_Right.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_officer.et/MagPouch2/FSM_Pouch_ALICE_30rnd_flashlight_Right.et"
      TargetPurpose 64
      PrefabsToSpawn + {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{64623D0E69C2FA98}" {
-     TargetStorage "worlds/FSM/Prefabs/Items/Equipment/Accessories/Holster_M12/FSM_Holster_M12.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_officer.et/PistolHolster/FSM_Holster_M12.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{175096A121264B85}worlds/FSM/Prefabs/Weapons/Handguns/M9/FSM_Handgun_M9.et"
      }
     }
     ItemsInitConfigurationItem "{64623D0E69C2FA9B}" {
-     TargetStorage "worlds/FSM/Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Pouch_Radio_68.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_officer.et/Radio/FSM_Pouch_Radio_68.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{A021FEE1947E7603}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Multi.et"
      }
     }
     ItemsInitConfigurationItem "{64623D0E69C2FA9D}" {
-     TargetStorage "worlds/FSM/Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Pouch_ALICE_30rnd_flashlight_Right.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_officer.et/MagPouch2/FSM_Pouch_ALICE_30rnd_flashlight_Right.et"
      PrefabsToSpawn {
       "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{64623D0E69C2FA9C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_officer.et/Buttpack/Vest_ALICE_buttpack.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{647D5292231E6043}" {
-     TargetStorage "worlds/FSM/Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Invisible_m22_Binocular_Holder.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_officer.et/m22_holder/FSM_Invisible_m22_Binocular_Holder.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
@@ -115,7 +115,7 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{647E4B38A7DAAEB4}" {
     }
     ItemsInitConfigurationItem "{647E6811B28C1596}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Holster_M12/Holster_M12_magpouch.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_officer.et/MagPouch/Holster_M12_magpouch.et"
      PrefabsToSpawn {
       "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
      }
@@ -123,5 +123,5 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 3557.455 25.719 3492.781
+ coords 3586.494 26.135 3510.825
 }
