@@ -1,0 +1,337 @@
+$grp SCR_AIGroup : "{6E5FAA403D1014FF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Group_UK_1983_REG_RifleSection_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 2268.092 7.687 2315.378
+  angleY 67.158
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 2273.072 7.75 2301.962
+  angleY 62.23
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 2277.313 7.805 2292.468
+  angleY 70.757
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{D79E3E64C9A960FA}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_MAW_No1_P.et" "{897617277624EEF5}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Maw_No2_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 2299.833 8.093 2252.893
+  angleY 35.564
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 2286.408 7.976 2273.621
+  angleY 58.324
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 2293.858 8.038 2261.403
+  angleY 59.501
+  m_aUnitPrefabSlots {
+   "{903E677BA3B52579}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_SectionCommander_P.et" "{D79E3E64C9A960FA}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_MAW_No1_P.et" "{897617277624EEF5}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Maw_No2_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et" "{10144914070523F9}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Section2IC_P.et" "{DE23BF9F714B333A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_GPMG_No1_P.et" "{5056B51ED3DB3AB8}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_AMG_P.et" "{5A02F29455E6E720}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Regulars/Character_UK_1983_Regulars_Rifleman_LAT_P.et"
+  }
+ }
+}
+SCR_AIGroup : "{82816321F3142CDB}Prefabs/Groups/BLUFOR/British Forces/1983/P/Group_UK_1983_REG_RifleCoyHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#BritishForces-Group-Name-Regulars-Infantry-Logistics-Team"
+    m_Image "{2A0A049EB83FCD2D}UI/PreviewImages/Groups/BLUFOR/BritishForces/Group_UK_1983_Regulars_AmmoTeam.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels +{
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{62D9655ED398ABCF}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{62D9655ED398ABD3}" {
+      m_BudgetType AI_SERVER
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{62D9655ED398ABD7}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{62D9655ED398ABD8}" {
+     m_Identity BLUFOR
+     m_Dimension LAND
+     m_Icons SUPPLY
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{62D9655ED398ABDF}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{62D9655ED398ABE2}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{62D9655ED398ABE4}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{62D9655ED398ABE7}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{62D9655ED398ABE6}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 2281.706 7.844 2282.207
+ angleY 64.026
+}
+$grp SCR_AIGroup : "{F5284BF958E85D8B}Prefabs/Groups/BLUFOR/British Forces/1983/P/Group_UK_1983_REG_RiflePHQ_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#BritishForces-Group-Name-Regulars-Infantry-Logistics-Team"
+     m_Image "{2A0A049EB83FCD2D}UI/PreviewImages/Groups/BLUFOR/BritishForces/Group_UK_1983_Regulars_AmmoTeam.edds"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityBudgetCost {
+      SCR_EntityBudgetValue "{62D9655ED398ABCF}" {
+       m_BudgetType CAMPAIGN
+       m_Value 1
+      }
+      SCR_EntityBudgetValue "{62D9655ED398ABD3}" {
+       m_BudgetType AI_SERVER
+       m_Value 2
+      }
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{62D9655ED398ABD7}" {
+       m_BudgetType AI
+       m_Value 4
+      }
+     }
+     m_bUseUIInfoName 1
+     m_MilitarySymbol SCR_MilitarySymbol "{62D9655ED398ABD8}" {
+      m_Identity BLUFOR
+      m_Dimension LAND
+      m_Icons SUPPLY
+      m_Amplifier TEAM
+     }
+    }
+   }
+   SCR_PreviewEntityComponent "{62D9655ED398ABDF}" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{62D9655ED398ABE2}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{62D9655ED398ABE4}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{62D9655ED398ABE7}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{62D9655ED398ABE6}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 2272.327 7.778 2306.39
+  angleY 59.67
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#BritishForces-Group-Name-Regulars-Infantry-Logistics-Team"
+     m_Image "{2A0A049EB83FCD2D}UI/PreviewImages/Groups/BLUFOR/BritishForces/Group_UK_1983_Regulars_AmmoTeam.edds"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityBudgetCost {
+      SCR_EntityBudgetValue "{62D9655ED398ABCF}" {
+       m_BudgetType CAMPAIGN
+       m_Value 1
+      }
+      SCR_EntityBudgetValue "{62D9655ED398ABD3}" {
+       m_BudgetType AI_SERVER
+       m_Value 2
+      }
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{62D9655ED398ABD7}" {
+       m_BudgetType AI
+       m_Value 4
+      }
+     }
+     m_bUseUIInfoName 1
+     m_MilitarySymbol SCR_MilitarySymbol "{62D9655ED398ABD8}" {
+      m_Identity BLUFOR
+      m_Dimension LAND
+      m_Icons SUPPLY
+      m_Amplifier TEAM
+     }
+    }
+   }
+   SCR_PreviewEntityComponent "{62D9655ED398ABDF}" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{62D9655ED398ABE2}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{62D9655ED398ABE4}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{62D9655ED398ABE7}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{62D9655ED398ABE6}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 2292.393 8.037 2265.468
+  angleY 59.929
+ }
+}
