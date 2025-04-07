@@ -67,35 +67,35 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
      }
     }
     ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
-     TargetStorage "worlds/FSM/Prefabs/Characters/Vests/Vest_ALICE/FSM_Vest_ALICE_suspenders_Flashlight_right.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_MG.et/5174C3E96ACD276B/FSM_Vest_ALICE_suspenders_Flashlight_right.et"
     }
     ItemsInitConfigurationItem "{64623D139B903A2D}" {
-     TargetStorage "worlds/FSM/Prefabs/Items/Equipment/Accessories/Holster_M12/FSM_Holster_M12_Higher.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_MG.et/M9_holster/FSM_Holster_M12_Higher.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{175096A121264B85}worlds/FSM/Prefabs/Weapons/Handguns/M9/FSM_Handgun_M9.et"
      }
     }
     ItemsInitConfigurationItem "{64623D139B903A3A}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_MG.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
      PrefabsToSpawn {
       "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{64623D139B903A03}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_MG.et/MagPouch2/Pouch_ALICE_200rnd_M249.et"
      PrefabsToSpawn {
       "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{64623D139B903A02}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.et"
+     TargetStorage "Vest/FSM_Vest_ALICE_MG.et/Buttpack/Vest_ALICE_buttpack.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{647E540E49AFD998}" {
-     TargetStorage "worlds/FSM/Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/FSM_Invisible_Backpack.et"
+     TargetStorage "Back/FSM_Backpack_ALICE_Medium_assembled.et/InvisibleBackpack/FSM_Invisible_Backpack.et"
      PrefabsToSpawn {
       "{991C1DC59168675B}worlds/FSM/Prefabs/Weapons/Magazines/FSM_Box_762x51_M240_100rnd_2Ball_1Tracer.et" "{2EA9A9666062B1DC}worlds/FSM/Prefabs/Props/Military/Sandbags/FSM_Sandbag_01_single_plastic.et" "{2EA9A9666062B1DC}worlds/FSM/Prefabs/Props/Military/Sandbags/FSM_Sandbag_01_single_plastic.et" "{2EA9A9666062B1DC}worlds/FSM/Prefabs/Props/Military/Sandbags/FSM_Sandbag_01_single_plastic.et" "{2EA9A9666062B1DC}worlds/FSM/Prefabs/Props/Military/Sandbags/FSM_Sandbag_01_single_plastic.et" "{2EA9A9666062B1DC}worlds/FSM/Prefabs/Props/Military/Sandbags/FSM_Sandbag_01_single_plastic.et"
      }
@@ -103,5 +103,5 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 3562.143 25.719 3493.626
+ coords 3591.995 26.317 3510.295
 }
