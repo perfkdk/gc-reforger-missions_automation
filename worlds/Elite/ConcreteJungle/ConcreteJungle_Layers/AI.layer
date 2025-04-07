@@ -37,6 +37,9 @@ $grp SCR_AIGroup : "{9C51E84BA4D425CC}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Grou
    "AIWP_Defend_05"
   }
  }
+ {
+  coords 1135.883 13.469 2159.565
+ }
 }
 $grp SCR_AIGroup : "{F005DCAB1810AAE2}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Group_CDF_Modern_MechSquadNoCrew_1.et" {
  {
@@ -56,5 +59,9 @@ $grp SCR_AIGroup : "{F005DCAB1810AAE2}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/Grou
   m_aStaticWaypoints {
    "AIWP_Defend_03"
   }
+ }
+ {
+  coords 1264.356 20.656 2446.605
+  angleY -10.622
  }
 }
