@@ -92,7 +92,7 @@ SCR_AIGroup : "{C9426F8783461162}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/Flora/P/Group
  coords 1479.834 20.656 2248.427
  angleY -123.949
  m_aUnitPrefabSlots {
-  "{3A523970F07B0F3B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_SR_P_2.et" "{2D0B5350E6734CE9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_Rifleman_P_2.et" "{2D0B5350E6734CE9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_Rifleman_P_2.et" "{2D0B5350E6734CE9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_Rifleman_P_2.et"
+  "{10FC237FEBFC9F6D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/No ETool/Character_RHS_RF_MSV_Flora_SR_NoETool_P.et" "{D182B7EC96F6D5EE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/No ETool/Character_RHS_RF_MSV_Flora_Rifleman_NoETool_P.et" "{D182B7EC96F6D5EE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/No ETool/Character_RHS_RF_MSV_Flora_Rifleman_NoETool_P.et" "{D182B7EC96F6D5EE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/No ETool/Character_RHS_RF_MSV_Flora_Rifleman_NoETool_P.et"
  }
 }
 SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/Flora/P/Group_RHS_RF_MSV_Flora_RifleSquad_P.et" {
@@ -109,6 +109,6 @@ SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/Flora/P/Group
  coords 1452.969 20.656 2288.413
  angleY 59.883
  m_aUnitPrefabSlots {
-  "{8075CDB9BC6C1814}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_SL_P_2.et" "{6EE5828193F15137}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_AR_P_2.et" "{2D0B5350E6734CE9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_Rifleman_P_2.et" "{49BBE6BC855F0094}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_AT_P_2.et" "{3A523970F07B0F3B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_SR_P_2.et" "{2D0B5350E6734CE9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/reduced gear/Character_RHS_RF_MSV_Flora_Rifleman_P_2.et"
+  "{FD3F68631205B9FE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/No ETool/Character_RHS_RF_MSV_Flora_SL_NoETool_P.et" "{6533882FC7F234D1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/No ETool/Character_RHS_RF_MSV_Flora_AR_NoETool_P.et" "{D182B7EC96F6D5EE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/No ETool/Character_RHS_RF_MSV_Flora_Rifleman_NoETool_P.et" "{925CC07038CC788F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/No ETool/Character_RHS_RF_MSV_Flora_AT_NoETool_P.et" "{10FC237FEBFC9F6D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/No ETool/Character_RHS_RF_MSV_Flora_SR_NoETool_P.et" "{D182B7EC96F6D5EE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/No ETool/Character_RHS_RF_MSV_Flora_Rifleman_NoETool_P.et"
  }
 }
