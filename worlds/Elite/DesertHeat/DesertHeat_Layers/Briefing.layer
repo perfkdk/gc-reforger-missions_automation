@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Blufor_Situation {
   coords 4533.677 134.875 5764.193
   m_sTitle "Situation"
-  m_sTextData "We have intel that insurgents in the area are massing for an attack."
+  m_sTextData "We have intel that insurgents in the area are massing for an attack. We are likely to face a force that is 2x our current strength."
   m_aVisibleForFactions {
    "US"
   }
@@ -63,7 +63,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Opfor_Situation {
   coords 4546.991 134.875 5757.639
   m_sTitle "Situation"
-  m_sTextData "US troops have established a presence in the area, we must drive them from the area and liberate our country."
+  m_sTextData "US troops have established a presence at FOB Nauzad, the local warlord has tasked us with eliminating them."
   m_aVisibleForFactions {
    "GC_INSURGENT"
   }
@@ -80,11 +80,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Opfor_Comsig {
   coords 4551.032 134.875 5757.599
   m_sTitle "Command & Signals"
-  m_sTextData "Platoon Leader - 1'6"\
-  "1st Squad - 1'1"\
-  "2nd Squad - 1'2"\
-  "3rd Squad - 1'3"\
-  "4th Squad - 1'4"
+  m_sTextData "Platoon Leader - Racek-11"\
+  "1st Squad - Racek-12"\
+  "2nd Squad - Racek-13"\
+  "3rd Squad - Racek-14"\
+  "4th Squad - Racek-15"\
+  ""\
+  "Alternative callsigns may be assigned by the platoon leader."
   m_aVisibleForFactions {
    "GC_INSURGENT"
   }
@@ -97,9 +99,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "1x Ural, 4x Vans (S1203), 1x UAZ"\
   ""\
-  "We also have a mortar, though we only have smoke rounds available. The rounds are located in the nearby UAZ."\
+  "We also have a mortar with the following rounds available."\
   ""\
-  "12x Smoke"
+  "12x Smoke, 1x HE"
   m_aVisibleForFactions {
    "GC_INSURGENT"
   }
