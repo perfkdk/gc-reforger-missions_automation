@@ -51,16 +51,28 @@ $grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loi
 }
 $grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
  {
+  components {
+   TILW_NavmeshRegenComponent "{6510F6B61E061E8C}" {
+   }
+  }
   coords 702.133 209.113 8770.18
   angleX 1.814
   angleY -179.22
   angleZ -1.765
  }
  {
+  components {
+   TILW_NavmeshRegenComponent "{6510F6B61D1FCF93}" {
+   }
+  }
   coords 651.251 196.684 8729.091
   angleY 144.368
  }
  {
+  components {
+   TILW_NavmeshRegenComponent "{6510F6B660A2483A}" {
+   }
+  }
   coords 1179.028 211.273 9284.149
   angleX -1.458
   angleY -139.441
