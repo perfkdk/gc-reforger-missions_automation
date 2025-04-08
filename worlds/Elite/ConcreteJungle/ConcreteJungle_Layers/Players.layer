@@ -5,10 +5,10 @@ SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/
   }
  }
  coords 1849.854 10.154 3657.706
- m_sCustomNameSet "1'6"
 }
 SCR_AIGroup : "{3B60E273E42F1C3B}Prefabs/Groups/BLUFOR/British Forces/2024/Royal Marines Commandos/Group_UK_2024_RM_CdoTHQ_P.et" {
  coords 1479.52 20.656 2470.425
+ angleY -30.807
 }
 $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
  {
@@ -18,7 +18,6 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2
    }
   }
   coords 1849.813 10.153 3653.84
-  m_sCustomNameSet "1'1"
  }
  {
   components {
@@ -27,7 +26,6 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2
    }
   }
   coords 1849.807 10.15 3650.445
-  m_sCustomNameSet "1'2"
  }
  {
   components {
@@ -36,7 +34,6 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2
    }
   }
   coords 1849.75 10.121 3647.532
-  m_sCustomNameSet "1'3"
  }
  {
   components {
@@ -48,11 +45,11 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2
   m_aUnitPrefabSlots {
    "{32429C48531DF8D3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SL_P.et" "{97C724C5875B4CB9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AR_P.et" "{2A177642F84050A7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AT_P.et" "{516B9BD8BA7B90B3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AAT_P.et" "{72DD9A563F52FA91}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SR_GL_P.et" "{2F5E3906F00D4B17}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman_P.et"
   }
-  m_sCustomNameSet "1'4"
  }
 }
 SCR_AIGroup : "{6CD5B930239CDD3B}Prefabs/Groups/BLUFOR/British Forces/2024/Royal Marines Commandos/Group_UK_2024_RM_CdoSection_P.et" {
  coords 1481.834 20.656 2470.046
+ angleY -31.074
 }
 $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/RF/SSO/P/AFRF_SSO_2020_Squad_P.et" {
  {
@@ -66,7 +63,6 @@ $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/RF/SSO/P/AFRF_SSO_202
   m_aUnitPrefabSlots {
    "{805EA9F7914FE2A6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_SL_P.et" "{980B43FD3A124AD2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_AT_P.et" "{94028B0D77A57269}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_AAT_P.et" "{52D899F1083846A4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_TL_P.et" "{9CAF339C40045D82}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_Rifleman_P.et" "{FFE16AACF98BB082}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_GL_P.et"
   }
-  m_sCustomNameSet "2'1"
  }
  {
   components {
@@ -79,6 +75,5 @@ $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/RF/SSO/P/AFRF_SSO_202
   m_aUnitPrefabSlots {
    "{805EA9F7914FE2A6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_SL_P.et" "{980B43FD3A124AD2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_AT_P.et" "{94028B0D77A57269}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_AAT_P.et" "{52D899F1083846A4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_TL_P.et" "{9CAF339C40045D82}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_Rifleman_P.et" "{FFE16AACF98BB082}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_GL_P.et"
   }
-  m_sCustomNameSet "2'2"
  }
 }

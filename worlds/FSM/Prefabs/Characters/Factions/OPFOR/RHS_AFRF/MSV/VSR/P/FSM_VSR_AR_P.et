@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{CF305EE842BBA3E4}Prefabs/Characters/Factions/OPFOR/RHS_
    DefaultWeaponIndex 0
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Automatic Rifleman"
+   m_sName "Automatic Rifleman"
    m_bIsPlayable 1
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -80,5 +80,5 @@ SCR_ChimeraCharacter : "{CF305EE842BBA3E4}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 3589.857 25.748 3461.112
+ coords 2332.867 17.309 3747.183
 }

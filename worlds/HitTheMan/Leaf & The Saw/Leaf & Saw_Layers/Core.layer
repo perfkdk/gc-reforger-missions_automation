@@ -40,14 +40,14 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     SCR_Faction "{56DEAC40D3C2E623}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
       m_aSquadNames {
-       SCR_CallsignInfo "{64E2F896E5466F70}" {
-        m_sCallsign "4v"
-       }
        SCR_CallsignInfo "{64E2F896E232A50B}" {
         m_sCallsign "5"
        }
        SCR_CallsignInfo "{64E2F896FFC45153}" {
         m_sCallsign "6"
+       }
+       SCR_CallsignInfo "{64E2F896E5466F70}" {
+        m_sCallsign "4v"
        }
       }
      }
@@ -314,7 +314,6 @@ GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/A
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  {
   coords 984.641 193.204 7624.295
-  m_captureIterations 5
   m_sendStatusMessages 1
   m_locationName "the Sawmill Office"
   m_flagName "Sawmill Office"
@@ -324,10 +323,10 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
  }
  {
   coords 962.599 188.548 7577.847
-  m_captureIterations 5
   m_sendStatusMessages 1
   m_locationName "the Saw Mill"
   m_flagName "Saw Mill"
+  m_stopAfterFirstChange 1
   m_playersOnly 1
   m_ownerFactionKey "GC_CAF"
   m_ratioThreshold 0.9
@@ -369,81 +368,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageTitle "USSR Victory"
      m_messageBody "USSR Forces held the town long enough forcing the CAF to fall back... GM Discretion when to end the mission"
     }
+    TILW_EndGameInstruction "{650CE1979D068E00}" {
+     m_executionDelay 4210
+     m_factionKey "USSR"
+    }
    }
    m_condition TILW_LiteralTerm "{6506E40BFBED4D76}" {
     m_invertTerm 1
-   }
-  }
-  TILW_MissionEvent "{6506E40BE9571C99}" {
-   m_name "AI Fallback"
-   m_instructions {
-    TILW_AssignWaypointsInstruction "{65072D9C6580667A}" {
-     m_executionDelay 0
-     m_groupName "AIReconForce_1"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{65072D98FD522D0D}" {
-     m_executionDelay 0
-     m_groupName "AIReconForce_2"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{65072D98E0747FDA}" {
-     m_executionDelay 0
-     m_groupName "AISquad_1"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{65072D989E3F618A}" {
-     m_executionDelay 0
-     m_groupName "AISquad_2"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{65072D98BAF4E97B}" {
-     m_executionDelay 0
-     m_groupName "AISquad_3"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{65072D98B3FCAFEB}" {
-     m_executionDelay 0
-     m_groupName "AISquad_4"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{650AE140B6EABB64}" {
-     m_executionDelay 0
-     m_groupName "AISquad_5"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{650AE1433057C9EC}" {
-     m_executionDelay 0
-     m_groupName "AISquad_6"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-   }
-   m_condition TILW_LiteralTerm "{65072D99995620E6}" {
-    m_flagName "SAWMILL_AREA"
    }
   }
   TILW_MissionEvent "{650750E2E1A73F1D}" {
@@ -452,7 +383,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{6507662C26CDA08C}" {
      m_executionDelay 900
      m_messageTitle "Canadian Forces Victory"
-     m_messageBody "CAF has managed to secure and held the Sawmill... GM Discretion when to end the mission"
+     m_messageBody "CAF has managed to secure and held the Sawmill... OPFOR Has 5min to counter attack to regain the buildings... "\
+     "GM Discretion when to end the mission"
     }
    }
    m_condition TILW_ConjunctionTerm "{650AE15E5BA69298}" {
@@ -464,6 +396,94 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       m_flagName "Sawmill Office"
      }
     }
+   }
+  }
+  TILW_MissionEvent "{650CE1964D967B9C}" {
+   m_name "USSR Counter Attack"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{650CE1967A6B4CCB}" {
+     m_executionDelay 10
+     m_groupName "AIReconForce_1"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE1961204413B}" {
+     m_executionDelay 10
+     m_groupName "AIReconForce_2"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE196158D292B}" {
+     m_executionDelay 10
+     m_groupName "AIReconForce_3"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE1960EB508DA}" {
+     m_executionDelay 10
+     m_groupName "AISquad_1"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE19600B7E9BC}" {
+     m_executionDelay 10
+     m_groupName "AISquad_2"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE196012759B1}" {
+     m_executionDelay 10
+     m_groupName "AISquad_3"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE19601AB3041}" {
+     m_executionDelay 10
+     m_groupName "AISquad_4"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE19601D286D3}" {
+     m_executionDelay 10
+     m_groupName "AISquad_5"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE1960250C07C}" {
+     m_executionDelay 10
+     m_groupName "AISquad_6"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE1960329CB98}" {
+     m_executionDelay 10
+     m_groupName "AISquad_7"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{650CE19641F61B04}" {
+    m_flagName "SAWMILL_AREA"
    }
   }
  }

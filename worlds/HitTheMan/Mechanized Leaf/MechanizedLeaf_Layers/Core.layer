@@ -40,14 +40,14 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     SCR_Faction "{56DEAC40D3C2E623}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
       m_aSquadNames {
-       SCR_CallsignInfo "{64E2F896E5466F70}" {
-        m_sCallsign "4v"
-       }
        SCR_CallsignInfo "{64E2F896E232A50B}" {
         m_sCallsign "5"
        }
        SCR_CallsignInfo "{64E2F896FFC45153}" {
         m_sCallsign "6"
+       }
+       SCR_CallsignInfo "{64E2F896E5466F70}" {
+        m_sCallsign "4v"
        }
       }
      }
@@ -341,6 +341,14 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_AssignWaypointsInstruction "{65072D98B3FCAFEB}" {
      m_executionDelay 2100
      m_groupName "Recon_GRP_6"
+     m_waypointNames {
+      "wp_fallback_3" "wp_fallbackdef_3"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CFBE5C5CABDD9}" {
+     m_executionDelay 2100
+     m_groupName "Recon_GRP_7"
      m_waypointNames {
       "wp_fallback_3" "wp_fallbackdef_3"
      }
