@@ -329,7 +329,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_locationName "the Factory Office"
   m_flagName "FactoryOffice"
   m_stopAfterFirstChange 1
-  m_playersOnly 1
   m_ownerFactionKey "GC_CAF"
   m_ratioThreshold 0.9
  }
@@ -340,7 +339,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_locationName "the Vybor Command Center"
   m_flagName "VyborCMD"
   m_stopAfterFirstChange 1
-  m_playersOnly 1
   m_ownerFactionKey "GC_CAF"
   m_ratioThreshold 0.9
  }
@@ -396,7 +394,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "CAF Victory"
    m_instructions {
     TILW_SendMessageInstruction "{6507662C26CDA08C}" {
-     m_executionDelay 900
+     m_executionDelay 10
      m_messageTitle "Canadian Forces Victory"
      m_messageBody "CAF has managed to secure both rail bridges... "\
      "GM Discretion when to end the mission"
