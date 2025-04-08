@@ -314,7 +314,6 @@ GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/A
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  {
   coords 984.641 193.204 7624.295
-  m_captureIterations 5
   m_sendStatusMessages 1
   m_locationName "the Sawmill Office"
   m_flagName "Sawmill Office"
@@ -324,10 +323,10 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
  }
  {
   coords 962.599 188.548 7577.847
-  m_captureIterations 5
   m_sendStatusMessages 1
   m_locationName "the Saw Mill"
   m_flagName "Saw Mill"
+  m_stopAfterFirstChange 1
   m_playersOnly 1
   m_ownerFactionKey "GC_CAF"
   m_ratioThreshold 0.9
