@@ -52,9 +52,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 1479.754 14.239 2061.747
   m_sTitle "Sustainment"
   m_sTextData "G4 has told us that we have no additional resupply, forces are to attack with what they have on themselves."\
+  ""\
+  "We have 1x supply MATV with 30 WP smoke grenades and 8 Assault ladders"\
   "(Unless the GMs magic stuff)"
   m_aVisibleForFactions {
-   "UK"
+   "RHS_USAF"
   }
   m_iOrder 3
  }
@@ -76,7 +78,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "3 Squad: 1'3"\
   "Weapons Squad: 1'4"
   m_aVisibleForFactions {
-   "RHS_USRF"
+   "RHS_USAF"
   }
   m_iOrder 4
  }
@@ -131,11 +133,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Notes"
   m_sTextData "Basic attack and defend of an residential block."\
   ""\
-  "3-4:1 ratio"\
+  "4:1 ratio"\
   ""\
   "No time limit"\
   ""\
-  "Setup timer is 7 minutes"\
+  "Setup timer is 1 minute"\
   ""\
   "Casualty conditions apply at 90% for Blufor 100% for Opfor"\
   ""\
