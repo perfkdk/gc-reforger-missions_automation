@@ -7,7 +7,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Cloudy with a light fog"\
   ""\
   "Situation:"\
-  "CAF has taken a foothold in Pustoshka while USSR forces are holding Vybor where their COY HQ is located, recon elements have recently clashed during the late hours day before, resulting in canadian recon units being forced to fall back."
+  "CAF has taken a foothold in Pustoshka while USSR forces are holding Vybor where their COY HQ is located, recon elements from both sides have recently clashed during the late hours day before, resulting in canadian recon units being forced to fall back."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 1
