@@ -22,7 +22,6 @@ $grp Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
   angleX -1.786
   angleY -93.579
   angleZ 0.112
-  m_sAttachmentGroupName "USSR_BRDM"
  }
  BRDM3 {
   components {
@@ -47,7 +46,6 @@ $grp Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
   angleX -5.54
   angleY 172.621
   angleZ -1.081
-  m_sAttachmentGroupName "USSR_BRDM"
  }
 }
 Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" {

@@ -4,24 +4,28 @@ $grp Tank : "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et" {
   angleX -5.352
   angleY 2.261
   angleZ -0.211
+  m_sAttachmentGroupName "CAFRifle_13"
  }
  M113A2_APC3 {
   coords 2994.729 316.5 7791.341
   angleX -2.669
   angleY 6.08
   angleZ -0.284
+  m_sAttachmentGroupName "CAFRifle_11"
  }
  M113A2_APC4 {
   coords 2997.136 316.006 7802.244
   angleX -1.997
   angleY 22.978
   angleZ 0.125
+  m_sAttachmentGroupName "CAFPL_HQ_1"
  }
  M113A2_APC2 {
   coords 2994.448 317.319 7779.933
   angleX -5.354
   angleY 1.45
   angleZ -0.135
+  m_sAttachmentGroupName "CAFRifle_12"
  }
 }
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
@@ -37,7 +41,7 @@ $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
   angleX -7.167
   angleY 26.302
   angleZ 0.43
-  m_sAttachmentGroupName "CAFRifle_22"
+  m_sAttachmentGroupName "CAFRifle_23"
  }
 }
 $grp GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_01_round_base.et" {
@@ -88,7 +92,7 @@ $grp Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
   angleZ 1.22
  }
 }
-$grp SCR_AIGroup : "{8F1076E35B70385E}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1992/Group_CAF_RifleSection_P_2_2.et" {
+$grp SCR_AIGroup : "{8F1076E35B70385E}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_RifleSection_P_2_2.et" {
  CAFRifle_11 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -100,7 +104,7 @@ $grp SCR_AIGroup : "{8F1076E35B70385E}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_A
     m_iSquadCallsign 2
    }
   }
-  coords 2992.237 314.652 7796.378
+  coords 2992.237 316.27 7796.377
   angleX -1.996
   angleY 94.391
   angleZ -1.556
@@ -209,7 +213,7 @@ $grp SCR_AIGroup : "{8F1076E35B70385E}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_A
   m_sCustomNameSet "4th Section Attachment"
  }
 }
-SCR_AIGroup CAFWeap_14 : "{AE97EE67B3502C07}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1992/Group_CAF_WeaponsSection_Alt_P_2.et" {
+SCR_AIGroup CAFWeap_14 : "{AE97EE67B3502C07}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_WeaponsSection_Alt_P_2.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
@@ -220,14 +224,14 @@ SCR_AIGroup CAFWeap_14 : "{AE97EE67B3502C07}Prefabs/Groups/BLUFOR/GC_Canada/Cana
    m_iSquadCallsign 5
   }
  }
- coords 2993.588 315.852 7801.658
+ coords 2993.588 316.08 7801.658
  angleY 99.168
  m_aUnitPrefabSlots {
   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E97D6D7741701408}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG_CW_2.et" "{65B7F7FD2C34F218}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG2_CW_2.et" "{795355CA2CE824F1}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MAT_CW_2.et"
  }
  m_sCustomNameSet "Weapons Detachment"
 }
-SCR_AIGroup CAFPL_HQ_1 : "{BE92CECA4FFF7CE5}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1992/Group_CAF_PlatoonHQ_P_2_2.et" {
+SCR_AIGroup CAFPL_HQ_1 : "{BE92CECA4FFF7CE5}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_PlatoonHQ_P_2_2.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
@@ -238,7 +242,7 @@ SCR_AIGroup CAFPL_HQ_1 : "{BE92CECA4FFF7CE5}Prefabs/Groups/BLUFOR/GC_Canada/Cana
    m_iSquadCallsign 1
   }
  }
- coords 2996.177 316.106 7808.339
+ coords 2996.177 315.83 7808.338
  angleX -1.903
  angleY 112.41
  angleZ -0.614
@@ -250,13 +254,7 @@ $grp GenericEntity : "{E1FD1ACDA98123AE}Prefabs/Props/Military/Arsenal/AmmoBoxes
  {
   components {
    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-    m_aContainers {
-     SCR_ResourceContainer "{650AE14752E308D4}" {
-      m_eResourceRights ALL
-      m_fResourceValueCurrent 100000000
-      m_fResourceValueMax 100000000
-     }
-    }
+    Enabled 0
    }
   }
   coords 2949.617 320.144 7794.514
@@ -267,13 +265,7 @@ $grp GenericEntity : "{E1FD1ACDA98123AE}Prefabs/Props/Military/Arsenal/AmmoBoxes
  {
   components {
    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-    m_aContainers {
-     SCR_ResourceContainer "{650AE14752E308D4}" {
-      m_eResourceRights ALL
-      m_fResourceValueCurrent 100000000
-      m_fResourceValueMax 100000000
-     }
-    }
+    Enabled 0
    }
   }
   coords 2952.728 320.179 7791.441

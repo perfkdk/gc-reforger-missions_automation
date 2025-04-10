@@ -307,20 +307,6 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   }
  }
 }
-GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_US.et" {
- components {
-  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
-   m_eSupplyCostType GADGET_ARSENAL
-  }
-  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
-   m_eSupplyCostType GADGET_ARSENAL
-  }
- }
- coords 1242.398 155.469 6034.044
- angleX 0.302
- angleY 80.303
- angleZ 1.764
-}
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  {
   coords 4171.403 330.84 8920.389
