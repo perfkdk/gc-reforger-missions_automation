@@ -12,6 +12,7 @@ SCR_AIGroup us_inf_hq : "{07C9F3D72826CAB5}Prefabs/Groups/BLUFOR/US/Marines_1990
  m_aUnitPrefabSlots {
   "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
  }
+ m_sCustomNameSet "Marine Rifle Plt. | HQ"
 }
 $grp Vehicle : "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et" {
  M1025_MERDC1 {
@@ -60,6 +61,7 @@ SCR_AIGroup us_inf_sq : "{547A69AC528EE2CB}Prefabs/Groups/BLUFOR/US/Marines_1990
  }
  coords 1813.586 261.937 11506.226
  angleY 39.772
+ m_sCustomNameSet "Marine Rifle Plt. | 3rd Squad"
 }
 SCR_AIGroup us_lar_a2 : "{69C23009E7B7075B}Prefabs/Groups/BLUFOR/US/Marines_1995_LAR/Group_US_MC_LAR_1990_A2_P.et" {
  components {

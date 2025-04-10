@@ -81,14 +81,14 @@ $grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_G
   coords 1180.355 344.538 9998.396
   angleY 90
   m_sQuadName "mortar"
-  m_fWorldSize 84.375
+  m_fWorldSize 67.5
   m_iZOrder 0
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
-    coords -32.5 0 0
+    coords -26 0 0
     angleY 0
     m_sQuadName "1"
-    m_fWorldSize 48
+    m_fWorldSize 32
    }
   }
  }

@@ -75,21 +75,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_drawShapeSurface 0
   m_ownerFactionKey "USSR"
   {
-   PS_ManualMarker marker_us_inf_2 : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
-    coords -100 11.844 100
-    angleY 90
-    m_sQuadName "motorized-infantry"
-    m_fWorldSize 67.5
-    m_iZOrder 0
-    {
-     PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
-      coords -26 0 0
-      angleY 0
-      m_sQuadName "2"
-      m_fWorldSize 32
-     }
-    }
-   }
    PS_ManualMarker marker_obj2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
     coords 0 0 0
     angleY 0
@@ -100,6 +85,23 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
     m_iZOrder 1
     m_bShowForAnyFaction 1
     m_bringToFront 0
+    {
+     PS_ManualMarker marker_us_inf_2 : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
+      coords -100 11.844 100
+      angleY 90
+      m_sQuadName "motorized-infantry"
+      m_fWorldSize 67.5
+      m_iZOrder 0
+      {
+       PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+        coords -26 0 0
+        angleY 0
+        m_sQuadName "2"
+        m_fWorldSize 32
+       }
+      }
+     }
+    }
    }
   }
  }
@@ -114,21 +116,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_drawShapeSurface 0
   m_ownerFactionKey "USSR"
   {
-   PS_ManualMarker marker_us_inf_1 : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
-    coords -100 0 100
-    angleY 90
-    m_sQuadName "motorized-infantry"
-    m_fWorldSize 67.5
-    m_iZOrder 0
-    {
-     PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
-      coords -26 0 0
-      angleY 0
-      m_sQuadName "2"
-      m_fWorldSize 32
-     }
-    }
-   }
    PS_ManualMarker marker_obj1 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
     coords 0 0 0
     angleY 0
@@ -139,6 +126,23 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
     m_iZOrder 1
     m_bShowForAnyFaction 1
     m_bringToFront 0
+    {
+     PS_ManualMarker marker_us_inf_1 : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
+      coords -100 0 100
+      angleY 90
+      m_sQuadName "motorized-infantry"
+      m_fWorldSize 67.5
+      m_iZOrder 0
+      {
+       PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+        coords -26 0 0
+        angleY 0
+        m_sQuadName "2"
+        m_fWorldSize 32
+       }
+      }
+     }
+    }
    }
   }
  }
