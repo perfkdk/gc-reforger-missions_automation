@@ -1,0 +1,65 @@
+StaticModelEntity : "{178B066B70D7BE99}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_04.et" {
+ coords 1814.265 261.937 11516.322
+ angleY 109.433
+}
+GenericEntity : "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/Radio_ANPRC68.et" {
+ components {
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    TILW_BaseInteraction "{650ACC92AC78F966}" {
+     ParentContextList {
+      "knob_channel"
+     }
+     ActionTitle "QRF NW"
+     Duration 1
+     m_actionName "Request QRF: NW"
+     m_factionKeys {
+      "US"
+     }
+     m_flagName "qrf_nw"
+    }
+    TILW_BaseInteraction "{650ACC9D2C492B78}" {
+     ParentContextList {
+      "knob_channel"
+     }
+     ActionTitle "QRF SE"
+     Duration 1
+     m_actionName "Request QRF: SE"
+     m_factionKeys {
+      "US"
+     }
+     m_flagName "qrf_se"
+    }
+   }
+  }
+ }
+ coords 1814.241 262.837 11515.874
+ angleY -24.065
+}
+TILW_PrefabSpawnerEntity Spawner_QRF1 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ coords 1393.999 302.151 10944.314
+ angleY 12.636
+ m_prefab "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et"
+ m_conditionFlag "qrf1"
+ m_crewConfig TILW_CrewConfig "{650ACC914D0C3F71}" {
+  m_crewGroups {
+   TILW_CrewGroup "{650ACC91530B3A14}" {
+    m_crewStations {
+     TILW_CrewStation "{650ACC915877D9FD}" {
+      m_allowCargo 0
+      m_characters {
+       "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+      }
+     }
+     TILW_CrewStation "{650ACC91B22BA868}" {
+      m_allowPilot 0
+      m_allowTurret 0
+      m_characters {
+       "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+      }
+     }
+    }
+   }
+  }
+ }
+}

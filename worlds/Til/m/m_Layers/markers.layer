@@ -1,0 +1,111 @@
+$grp PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {
+ marker_ussr_plt {
+  coords 2950 223.902 12450
+  angleY 90
+  m_sQuadName "recon-motorized"
+  m_fWorldSize 85
+  m_sDescription "Reconnaissance Platoon"
+  {
+   PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+    coords -31 0 0
+    angleY 0
+    m_fWorldSize 40
+   }
+  }
+ }
+ marker_ussr_coy {
+  coords 3450 192.812 13050
+  angleY 90
+  m_sQuadName "recon-motorized"
+  m_fWorldSize 127.5
+  m_sDescription "Reconnaissance Company"
+  {
+   PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+    coords -46.5 0 0
+    angleY 0
+    m_sQuadName "4"
+    m_fWorldSize 60
+   }
+  }
+ }
+}
+$grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
+ marker_us_lar_1 {
+  coords 1750 264.093 11450
+  angleY 90
+  m_sQuadName "recon-motorized"
+  m_fWorldSize 67.5
+  m_sDescription "LAR Plt | Alpha Section"
+  m_iZOrder 1
+  {
+   PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+    coords -26 0 0
+    angleY 0
+    m_sQuadName "2"
+    m_fWorldSize 32
+   }
+  }
+ }
+ marker_us_inf_3 {
+  coords 1850 260.718 11550
+  angleY 90
+  m_sQuadName "motorized-infantry"
+  m_fWorldSize 67.5
+  m_sDescription "3rd Squad"
+  m_iZOrder 1
+  {
+   PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+    coords -26 0 0
+    angleY 0
+    m_sQuadName "2"
+    m_fWorldSize 32
+   }
+  }
+ }
+ marker_us_inf_4 {
+  coords 950 309.031 10450
+  angleY 90
+  m_sQuadName "motorized-infantry"
+  m_fWorldSize 84.375
+  m_sDescription "3rd Plt"
+  m_iZOrder 1
+  {
+   PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+    coords -32.5 0 0
+    angleY 0
+    m_fWorldSize 48
+   }
+  }
+ }
+ marker_us_mtr {
+  coords 1180.355 344.538 9998.396
+  angleY 90
+  m_sQuadName "mortar"
+  m_fWorldSize 84.375
+  m_iZOrder 0
+  {
+   PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+    coords -32.5 0 0
+    angleY 0
+    m_sQuadName "1"
+    m_fWorldSize 48
+   }
+  }
+ }
+ marker_us_lar_2 {
+  coords 2850 286.125 11450
+  angleY 90
+  m_sQuadName "recon-motorized"
+  m_fWorldSize 67.5
+  m_sDescription "LAR Plt | Bravo Section"
+  m_iZOrder 1
+  {
+   PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+    coords -26 0 0
+    angleY 0
+    m_sQuadName "2"
+    m_fWorldSize 32
+   }
+  }
+ }
+}

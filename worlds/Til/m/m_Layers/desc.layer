@@ -1,0 +1,116 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ D1_US_Situation {
+  coords 1837.339 260.178 11476.941
+  m_sTitle "I. Situation"
+  m_sTextData "a. Enemy Forces"\
+  ""\
+  "a day ago, lav plt pulled back sw after observing a soviet recon company at the larger town."\
+  "earlier, scouts of the lav plt bravo section observed a brdm plt moving into the town."\
+  ""\
+  "b. Friendly Forces"\
+  ""\
+  "marine rifle platoon, 1 squad at each town and another (player unit) in reserve until now."\
+  ""\
+  "lar platoon, bravo section is ahead while alpha section (player unit) is currently further south west."\
+  ""\
+  "lav coy mission is to screen the divisions north-eastern flank."
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ D1_USSR_Situation {
+  coords 1837.339 260.178 11476.941
+  m_sTitle "I. Situation"
+  m_sTextData "a. Enemy Forces"\
+  ""\
+  ""\
+  "b. Friendly Forces"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ D0_GL_Overview {
+  coords 1837.339 260.178 11476.941
+  m_sTitle "Overview"
+  m_sTextData "Early 1990s - a Soviet reconnaissance company assaults through one of two villages defended by a Marine Rifle platoon, while a LAR platoon screens its approach."\
+  ""\
+  "LAR and Rifle platoon have slightly different missions, and are commanded by separate players. LAR may coordinate with the infantry PL, but is not under his command (and vice versa)."\
+  ""\
+  "Note: This Soviet reconnaissance company consists of a BRDM platoon, a BTR-70 Motor Rifle Plt, and a Motor Rifle Coy HQ ."\
+  "This is not perfectly accurate, as the BTR Plt would have had BMPs, and the Coy HQ a BRM-1 (a specialized recon vehicle based on the BMP)."\
+  "However, BTRs are close enough for the purpose of this mission."
+  m_bEmptyFactionVisibility 1
+ }
+ D6_GL_Notes {
+  coords 1837.339 260.178 11476.941
+  m_sTitle "Notes"
+  m_sTextData "Setup Timer: 5 minutes"
+  m_bShowForAnyFaction 1
+ }
+ D2_US_Mission {
+  coords 1837.339 260.178 11476.941
+  m_sTitle "II. Mission"
+  m_sTextData "Marine rifle squad and LAR platoon have distinct missions and separate leaders."\
+  ""\
+  "Marine squad:"\
+  ""\
+  "Support the defense of Sinystok and Vavilovo, allocating forces from the reserve squad as required."\
+  "When needed, the platoon leader may call in one sister platoon as QRF to a specific town."\
+  ""\
+  "Light Armored Reconnaissance:"\
+  ""\
+  "Continue to screen this sector of the divisions north-eastern flank, with focus on the reconnaissance company at the town."\
+  "Support the defense of the towns by aquiring and sharing intelligence about enemy movements."
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ D5_US_Command {
+  coords 1837.339 260.178 11476.941
+  m_sTitle "V. Command/Signal"
+  m_sTextData "Platoon net (shared): 42.0 mHz"\
+  ""\
+  "Marine Rifles:"\
+  ""\
+  "1'6 - Platoon HQ"\
+  "1'3 - 3rd Squad"\
+  ""\
+  "Light Armored Reconnaissance:"\
+  ""\
+  "Alpha-1 - 1st LAV"\
+  "Alpha-2 - 2nd LAV"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ D4_US_Admin {
+  coords 1837.339 260.178 11476.941
+  m_sTitle "II. Administration/Logistics"
+  m_sTextData "Resupply:"\
+  ""\
+  "Apart from vehicle inventories, none"\
+  ""\
+  ""\
+  "Fire support:"\
+  ""\
+  "One mortar, unlimited shells"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ D5_USSR_Command {
+  coords 1837.339 260.178 11476.941
+  m_sTitle "V. Command/Signal"
+  m_sTextData "Company HQ:"\
+  "510"\
+  ""\
+  "1st Plt (BTR-70):"\
+  "511 HQ, 511, 512, 513"\
+  ""\
+  "2nd Plt (BRDM-2):"\
+  "514, 515, 516, 517"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+}

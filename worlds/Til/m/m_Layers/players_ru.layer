@@ -1,0 +1,32 @@
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  coords 3465.128 192.951 13000.778
+  angleX 0.762
+  angleY -121.615
+  angleZ -0.469
+ }
+ BTR3 {
+  coords 3492.444 192.493 13012.474
+  angleX 0.762
+  angleY -121.647
+  angleZ -0.47
+ }
+ BTR2 {
+  coords 3443.002 193.527 12985.309
+  angleX 1.262
+  angleY -130.367
+  angleZ 0.102
+ }
+ BTR4 {
+  coords 3471.815 192.812 13031.357
+  angleY 151.403
+ }
+ BTR5 {
+  coords 3467.52 192.812 13048.306
+  angleY -176.995
+ }
+ BTR6 {
+  coords 3468.991 192.812 13065.742
+  angleY -175.209
+ }
+}
