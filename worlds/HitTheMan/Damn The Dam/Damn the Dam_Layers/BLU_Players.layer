@@ -21,7 +21,7 @@ $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
   m_sAttachmentGroupName "CAFPL_HQ"
  }
 }
-$grp SCR_AIGroup : "{8F1076E35B70385E}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1992/Group_CAF_RifleSection_P_2_2.et" {
+$grp SCR_AIGroup : "{8F1076E35B70385E}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_RifleSection_P_2_2.et" {
  CAFRifle_1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -38,7 +38,7 @@ $grp SCR_AIGroup : "{8F1076E35B70385E}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_A
   angleY 0.097
   angleZ 6.243
   m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{11086644D079F962}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_RF_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
+   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
   }
   m_sCustomNameSet "1st Section"
  }
@@ -58,12 +58,12 @@ $grp SCR_AIGroup : "{8F1076E35B70385E}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_A
   angleY 0.097
   angleZ 6.243
   m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{11086644D079F962}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_RF_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
+   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
   }
   m_sCustomNameSet "2nd Section"
  }
 }
-SCR_AIGroup CAFWeapon : "{AE97EE67B3502C07}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1992/Group_CAF_WeaponsSection_Alt_P_2.et" {
+SCR_AIGroup CAFWeapon : "{AE97EE67B3502C07}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_WeaponsSection_Alt_P_2.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
@@ -79,7 +79,7 @@ SCR_AIGroup CAFWeapon : "{AE97EE67B3502C07}Prefabs/Groups/BLUFOR/GC_Canada/Canad
   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E97D6D7741701408}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG_CW_2.et" "{65B7F7FD2C34F218}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG2_CW_2.et" "{795355CA2CE824F1}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MAT_CW_2.et"
  }
 }
-SCR_AIGroup CAFPL_HQ : "{BE92CECA4FFF7CE5}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1992/Group_CAF_PlatoonHQ_P_2_2.et" {
+SCR_AIGroup CAFPL_HQ : "{BE92CECA4FFF7CE5}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_PlatoonHQ_P_2_2.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
