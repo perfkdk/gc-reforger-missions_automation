@@ -61,12 +61,50 @@ $grp SCR_AIGroup : "{07918DB9D5BAD40C}Prefabs/Groups/BLUFOR/US/Marines_1990_Rifl
 }
 $grp Vehicle : "{B7A8BAA37CB0AC2B}Prefabs/Vehicles/Wheeled/LAV25/LAV25_MERDC.et" {
  LAV25_MERDC1 {
+  components {
+   TILW_VehicleCrewComponent "{6516D5412E8C1CFF}" {
+    m_crewConfig TILW_CrewConfig "{6516D541C1FDCA84}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6516D541C754727D}" {
+       m_crewStations {
+        TILW_CrewStation "{6516D541CA90F28E}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
   coords 2788.525 300.862 11283.474
   angleX -5.328
   angleY 5.868
   angleZ -0.547
  }
  LAV25_MERDC2 {
+  components {
+   TILW_VehicleCrewComponent "{6516D54133E39394}" {
+    m_crewConfig TILW_CrewConfig "{6516D541D18A0270}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6516D541C754727D}" {
+       m_crewStations {
+        TILW_CrewStation "{6516D541CA90F28E}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
   coords 2736.422 280.631 11586.065
   angleX -6.452
   angleY -22.139

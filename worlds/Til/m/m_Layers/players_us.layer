@@ -3,14 +3,11 @@ SCR_AIGroup us_inf_hq : "{07C9F3D72826CAB5}Prefabs/Groups/BLUFOR/US/Marines_1990
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
   }
-  PS_GroupCallsignAssigner "{65136701971EC67A}" {
-   m_iPlatoonCallsign 1
-  }
  }
  coords 1816.661 261.937 11503.665
  angleY 39.772
  m_aUnitPrefabSlots {
-  "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
+  "{D0725F1D7828E507}worlds/Til/m/Prefabs/Character_US_PL_P_QRFRadio.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
  }
  m_sCustomNameSet "Marine Rifle Plt. | HQ"
 }
@@ -30,20 +27,20 @@ $grp Vehicle : "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et" 
   m_sAttachmentGroupName "us_inf_hq"
  }
 }
-SCR_AIGroup us_mtr : "{2E20F404E398F622}Prefabs/Groups/BLUFOR/US/Marines_1990_Rifles/Group_US_Marines_1990_MortarCrew_P.et" {
+SCR_AIGroup us_inf_mtr : "{2E20F404E398F622}Prefabs/Groups/BLUFOR/US/Marines_1990_Rifles/Group_US_Marines_1990_MortarCrew_P.et" {
  components {
   PS_GroupCallsignAssigner "{651367042C5F047E}" {
-   m_iPlatoonCallsign 1
    m_iSquadCallsign 2
   }
  }
  coords 1150.975 344.5 9990.322
  angleY 70.189
+ m_sCustomNameSet "Marine Rifle Coy. | Mortar"
 }
 SCR_AIGroup us_lar_a1 : "{37744AC8AFE74FAC}Prefabs/Groups/BLUFOR/US/Marines_1995_LAR/Group_US_MC_LAR_1990_A1_P.et" {
  components {
   PS_GroupCallsignAssigner "{650ACCA00E4EC327}" {
-   m_iPlatoonCallsign 2
+   m_iSquadCallsign 3
   }
  }
  coords 1774.009 264.26 11437.111
@@ -55,7 +52,6 @@ SCR_AIGroup us_inf_sq : "{547A69AC528EE2CB}Prefabs/Groups/BLUFOR/US/Marines_1990
    DefaultFormation "Column"
   }
   PS_GroupCallsignAssigner "{650ACCA066DD9B15}" {
-   m_iPlatoonCallsign 1
    m_iSquadCallsign 1
   }
  }
@@ -66,7 +62,7 @@ SCR_AIGroup us_inf_sq : "{547A69AC528EE2CB}Prefabs/Groups/BLUFOR/US/Marines_1990
 SCR_AIGroup us_lar_a2 : "{69C23009E7B7075B}Prefabs/Groups/BLUFOR/US/Marines_1995_LAR/Group_US_MC_LAR_1990_A2_P.et" {
  components {
   PS_GroupCallsignAssigner "{650ACCA00E4EC327}" {
-   m_iPlatoonCallsign 2
+   m_iSquadCallsign 4
   }
  }
  coords 1771.083 264.335 11440.119
