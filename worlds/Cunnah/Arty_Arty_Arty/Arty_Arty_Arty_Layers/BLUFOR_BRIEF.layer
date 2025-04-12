@@ -37,7 +37,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Intent is to establish multiple fallback positions using smoke to pull back and HE in killzones."\
   ""\
-  "You also have AT mines and backpacks USE THEM!"
+  "You also have AT mines and backpacks USE THEM!"\
+  ""\
+  "Civilians are retreating by road transport so be aware when placeing mines!"
   m_aVisibleForFactions {
    "US"
   }
