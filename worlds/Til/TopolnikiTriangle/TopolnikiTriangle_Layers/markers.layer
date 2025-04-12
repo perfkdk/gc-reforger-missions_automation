@@ -117,17 +117,27 @@ $grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_G
   angleY 90
   m_sQuadName "motorized-infantry"
   m_fWorldSize 84.375
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bVisibleForEmptyFaction 0
   m_iZOrder 0
+  m_bShowForAnyFaction 0
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -32.5 0 0
     angleY 0
     m_fWorldSize 48
+    m_aVisibleForFactions {
+     "US"
+    }
+    m_bVisibleForEmptyFaction 0
+    m_bShowForAnyFaction 0
    }
   }
  }
  marker_us_mtr_us {
-  coords 1180.355 344.538 9998.396
+  coords 1181.796 344.564 9998.003
   angleY 90
   m_sQuadName "mortar"
   m_fWorldSize 47.25
@@ -224,13 +234,52 @@ $grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_G
   }
  }
 }
-PS_ManualMarker marker_us_inf_4_arrow : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- coords 1034.939 305.531 10565.062
- angleY 45
- m_sImageSetGlow ""
- m_MarkerColor 0.02 0.246 0.733 1
- m_sQuadName "arrow-large-3"
- m_fWorldSize 84.375
- m_bVisibleForEmptyFaction 1
- m_bShowForAnyFaction 1
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ marker_us_inf_4_arrow {
+  coords 1034.939 305.531 10565.062
+  angleY 45
+  m_sImageSetGlow ""
+  m_MarkerColor 0.02 0.246 0.733 1
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 84.375
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ marker_us_trp1 {
+  coords 1750 251.81 12150
+  angleY 90
+  m_sImageSetGlow ""
+  m_MarkerColor 0.753 0 0 1
+  m_sQuadName "target-reference-point-2"
+  m_fWorldSize 70
+  m_sDescription "TRP1 - 3r, 270mills, 950mills, 26s"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ marker_us_trp2 {
+  coords 2050 251.81 11450
+  angleY 90
+  m_sImageSetGlow ""
+  m_MarkerColor 0.753 0 0 1
+  m_sQuadName "target-reference-point-2"
+  m_fWorldSize 70
+  m_sDescription "TRP2 - 3r, 545mills, 1185mills, 29s"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ marker_us_trp3 {
+  coords 2650 312.219 11050
+  angleY 90
+  m_sImageSetGlow ""
+  m_MarkerColor 0.753 0 0 1
+  m_sQuadName "target-reference-point-2"
+  m_fWorldSize 70
+  m_sDescription "TRP3 - 3r, 960mills, 1135mills, 28s"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
 }
