@@ -25,22 +25,6 @@ $grp GenericEntity {
   coords 1465.086 38 2945.726
  }
 }
-$grp PK_EntityDeleter {
- {
-  coords 1392.751 39.022 2945.63
-  angleY -5.132
-  m_fRadius 2
- }
- {
-  coords 1112.848 36.655 2966.034
-  scale 0.29
-  m_fRadius 6
- }
- {
-  coords 1434.013 38.364 2979.284
-  angleY -5.132
- }
-}
 $grp SplineShapeEntity {
  {
   coords 1401.636 38 2910.936
@@ -94,8 +78,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{D63D8B5722138227}Prefabs/WEGenerators/Walls/Pipe/WG_PipeRailing_03_V2.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp SCR_DestructibleEntity : "{2DE76023637B4782}Prefabs/Structures/Walls/Pipe/PipeRailing_03/PipeRailing_03_V2_6m_A.et" {
       {
@@ -734,8 +718,8 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{D63D8B5722138227}Prefabs/WEGenerators/Walls/Pipe/WG_PipeRailing_03_V2.et" {
-    coords 0 0 0
     Flags 1048579
+    coords 0 0 0
     {
      $grp SCR_DestructibleEntity : "{2DE76023637B4782}Prefabs/Structures/Walls/Pipe/PipeRailing_03/PipeRailing_03_V2_6m_A.et" {
       {
