@@ -1,0 +1,180 @@
+$grp LightEntity {
+ {
+  coords 1374.282 43.157 2348.321
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.55
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1374.213 43.208 2344.939
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.55
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1370.184 43.208 2346.748
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.31
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1370.327 43.205 2351.085
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.33
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1370.523 43.208 2355.957
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.16
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1370.327 39.976 2351.085
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.33
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1370.327 39.976 2346.314
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.33
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1370.327 39.976 2355.897
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.33
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1372.283 39.679 2358.006
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.01
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1398.433 39.722 2412.033
+  angleY -125.584
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.01
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1401.043 39.722 2413.9
+  angleY -125.584
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.01
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1403.799 39.722 2415.872
+  angleY -125.584
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.01
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1399.686 39.315 2407.235
+  angleY -125.584
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.01
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ {
+  coords 1397.301 39.315 2405.529
+  angleY -125.584
+  Color 0.8745 0.8196 0.6549 1
+  LV 3.57
+  Radius 25
+  NearPlane 0.01
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+}
+$grp GenericEntity : "{34F74A7DBAD46974}Prefabs/Props/Furniture/LightWall_01.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{651AD4A0256133E1}" {
+      SourceMaterial "LightWall_01_Glass"
+      AssignedMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
+     }
+    }
+   }
+  }
+  coords 1374.219 43.645 2344.96
+  angleX -70.784
+  scale 1.1
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{651AD4A0256133E1}" {
+      SourceMaterial "LightWall_01_Glass"
+      AssignedMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
+     }
+    }
+   }
+  }
+  coords 1374.306 43.645 2348.313
+  angleX -70.784
+  scale 1.1
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{651AD4A01B362961}" {
+      SourceMaterial "LightWall_01_Glass"
+      AssignedMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
+     }
+    }
+   }
+  }
+  coords 1372.082 39.751 2358.021
+  angleY 90
+  scale 1.1
+ }
+}

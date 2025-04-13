@@ -1,0 +1,325 @@
+$grp TILW_PrefabSpawnerEntity {
+ {
+  coords 1458.565 36.008 2260.452
+  angleY 7.783
+  m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+  m_pregameSpawn 1
+  m_crewConfig TILW_CrewConfig "{651AD4A2BFCB877B}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651AD4A2BAF7488A}" {
+     m_crewStations {
+      TILW_CrewStation "{651AD4A287A84884}" {
+       m_characters {
+        "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et" "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+       }
+      }
+     }
+     m_entityName "Convoy_01"
+    }
+   }
+  }
+ }
+ {
+  coords 1458.494 35.972 2246.168
+  angleY 0.566
+  m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+  m_pregameSpawn 1
+  m_crewConfig TILW_CrewConfig "{651AD4A2BFCB877B}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651AD4A2BAF7488A}" {
+     m_crewStations {
+      TILW_CrewStation "{651AD4A287A84884}" {
+       m_characters {
+        "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et" "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+       }
+      }
+     }
+     m_entityName "Convoy_01"
+    }
+   }
+  }
+ }
+ {
+  coords 1900.076 53.882 1141.301
+  angleY -127.467
+  m_prefab "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et"
+  m_pregameSpawn 1
+  m_crewConfig TILW_CrewConfig "{651AD4BA2ACCD828}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651AD4BA29E2DB88}" {
+     m_crewStations {
+      TILW_CrewStation "{651AD4BA31EDD778}" {
+       m_characters {
+        "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et" "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et" "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et" "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+       }
+      }
+     }
+     m_entityName "Training_Squad"
+    }
+   }
+  }
+ }
+}
+$grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ WP_Base_Patrol_1 {
+  coords 1299.809 37.392 2404.831
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4B01308689C}" {
+    m_eFormation Line
+   }
+   SCR_AICharacterStanceSetting "{651AD4B06533527D}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+ WP_Base_Patrol_2 {
+  coords 1382.687 36.697 2459.277
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4B01308689C}" {
+    m_eFormation Line
+   }
+   SCR_AICharacterStanceSetting "{651AD4B06533527D}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+ WP_Base_Patrol_3 {
+  coords 1431.505 36.67 2456.911
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4B01308689C}" {
+    m_eFormation Line
+   }
+   SCR_AICharacterStanceSetting "{651AD4B06533527D}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+ WP_Base_Patrol_4 {
+  coords 1429.961 36.6 2325.848
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4B01308689C}" {
+    m_eFormation Line
+   }
+   SCR_AICharacterStanceSetting "{651AD4B06533527D}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+ WP_Base_Patrol_5 {
+  coords 1350.616 36.95 2328.506
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4B01308689C}" {
+    m_eFormation Line
+   }
+   SCR_AICharacterStanceSetting "{651AD4B06533527D}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+ WP_Base_Patrol_6 {
+  coords 1391.129 36.187 2326.954
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4B01308689C}" {
+    m_eFormation Line
+   }
+   SCR_AICharacterStanceSetting "{651AD4B06533527D}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+}
+$grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ Training_Patrol_Cycle {
+  coords 1618.598 -185.043 1123.121
+  CompletionType Any
+  CycleWaypoints {
+   "Training_Patrol_1" "Training_Patrol_2" "Training_Patrol_3" "Training_Patrol_4"
+  }
+ }
+ WP_Base_Patrol_Cycle {
+  coords 1302.279 37.292 2398.216
+  CompletionType Any
+  CycleWaypoints {
+   "WP_Base_Patrol_1" "WP_Base_Patrol_2" "WP_Base_Patrol_3" "WP_Base_Patrol_4" "WP_Base_Patrol_3" "WP_Base_Patrol_2" "WP_Base_Patrol_1" "WP_Base_Patrol_5" "WP_Base_Patrol_6" "WP_Base_Patrol_5"
+  }
+ }
+}
+$grp Vehicle : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+ M151A2_transport1 {
+  coords 2527.653 143.932 2266.015
+  angleY -177.223
+ }
+ M151A2_transport2 {
+  coords 1380.012 36.264 2346.853
+  angleY -88.409
+ }
+}
+SCR_ChimeraCharacter : "{6F5A71376479B353}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_1.et" {
+ coords 2506.011 147.563 2270.9
+ angleY -126.641
+}
+Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ coords 958.429 39.323 2753.378
+ angleY 57.633
+}
+$grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+ Convoy_Target {
+  coords 1673.377 18.47 3380.637
+  CompletionType Leader
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4A5AD3283B0}" {
+    m_eFormation Column
+   }
+  }
+ }
+ Convoy_Target2 {
+  coords 3155.207 11.562 2808.267
+  CompletionType Leader
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4A5AD3283B0}" {
+    m_eFormation Column
+   }
+  }
+ }
+}
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  coords 1347.828 37.071 2397.348
+  angleY 144.313
+ }
+ M923A1_transport_covered2 {
+  coords 1351.889 37.071 2400.265
+  angleY 144.313
+ }
+ M923A1_transport_covered3 {
+  coords 1356.356 37.071 2403.473
+  angleY 144.313
+ }
+}
+$grp SCR_AIGroup : "{84E5BBAB25EA23E5}Prefabs/Groups/BLUFOR/Group_US_FireTeam.et" {
+ Base_Patrol_1 {
+  coords 1323.874 37.131 2354.884
+  angleY -126.937
+  m_aUnitPrefabSlots {
+   "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL.et" "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "WP_Base_Patrol_Cycle"
+  }
+ }
+ Base_Look_Out {
+  coords 1417.253 43.487 2386.603
+  angleY 90.626
+  m_aUnitPrefabSlots {
+   "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "WP_Base_Look_Out"
+  }
+ }
+}
+Vehicle S105_red1 : "{85F0BD6AF0F42D6D}Prefabs/Vehicles/Wheeled/S105/S105_red.et" {
+ coords 2795.918 73.856 1637.377
+ angleY 63.258
+}
+SCR_SmartActionWaypoint WP_Base_Look_Out : "{97FB527ECC7CA49E}Prefabs/AI/Waypoints/AIWaypoint_ObservationPost.et" {
+ coords 1417.19 43.468 2386.489
+}
+Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+ coords 2748.111 77.357 1652.183
+ angleY -130.978
+}
+Vehicle S105_yellow1 : "{A6B0D2923262E755}Prefabs/Vehicles/Wheeled/S105/S105_yellow.et" {
+ coords 2814.4 73.177 1646.189
+ angleY -112.307
+}
+SCR_BoardingWaypoint Training_Get_Out : "{C40316EE26846CAB}Prefabs/AI/Waypoints/AIWaypoint_GetOut.et" {
+ coords 1859.366 66.365 1118.199
+}
+$grp Vehicle : "{C75DAB159B434B77}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CIV_grey.et" {
+ UAZ452_cargo_CIV_grey1 {
+  coords 2507.943 147.624 2279.884
+  angleY -155.549
+ }
+ UAZ452_cargo_CIV_grey2 {
+  coords 2768.323 77.621 1659.1
+  angleY -131.106
+ }
+}
+Vehicle Ural4320_transport_covered_CIV_blue1 : "{F66EAD0D2016B6BA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_blue.et" {
+ coords 3078.981 37.214 2036.805
+ angleY 99.014
+}
+$grp Vehicle : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+ M151A2_M2HB1 {
+  coords 1406.976 35.922 2375.003
+  angleY -90.51
+ }
+ M151A2_M2HB2 {
+  coords 1406.945 35.922 2378.503
+  angleY -90.51
+ }
+}
+$grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+ Training_Patrol_1 {
+  coords 1434.276 29.749 1144.231
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4A7D0BE435A}" {
+    m_eFormation StaggeredColumn
+   }
+   SCR_AICharacterStanceSetting "{651AD4B823D6E41B}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+ Training_Patrol_2 {
+  coords 1442.425 3.395 955.525
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4A7D0BE435A}" {
+    m_eFormation StaggeredColumn
+   }
+   SCR_AICharacterStanceSetting "{651AD4B823D6E41B}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+ Training_Patrol_3 {
+  coords 1658.993 9.623 944.042
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4A7D0BE435A}" {
+    m_eFormation StaggeredColumn
+   }
+   SCR_AICharacterStanceSetting "{651AD4B823D6E41B}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+ Training_Patrol_4 {
+  coords 1771.769 44.999 1124.203
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{651AD4A7D0BE435A}" {
+    m_eFormation StaggeredColumn
+   }
+   SCR_AICharacterStanceSetting "{651AD4B823D6E41B}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+}

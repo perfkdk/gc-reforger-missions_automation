@@ -1,0 +1,70 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A2995A7E8BC2}" {
+     NavmeshFile "{D8EF7131FB31AF97}worlds/GameMaster/Navmeshes/GM_Arland.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A299509CF377}" {
+     NavmeshFile "{A0AEEB1E7EF474FA}worlds/GameMaster/Navmeshes/GM_Arland_vehicles.nmn"
+    }
+   }
+  }
+ }
+ coords 2551.019 135.739 2225.647
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2539.948 139.331 2236.468
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{651AD4AB899AB1E1}" {
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 1
+    }
+   }
+   m_bUseSpecifiedDate 1
+  }
+ }
+ coords 2553.585 135.074 2224.218
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 2554.808 134.726 2223.348
+ m_missionEvents {
+  TILW_MissionEvent "{651AD4A391DF9859}" {
+   m_name "Convoy"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{651AD4A398E2AECA}" {
+     m_groupName "Convoy_01"
+     m_waypointNames {
+      "Convoy_Target" "Convoy_Target2"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{651AD4A39B9D09B7}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{651AD4B85A32FB99}" {
+   m_name "Training Patrol"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{651AD4B8A3259A90}" {
+     m_groupName "Training_Squad"
+     m_waypointNames {
+      "Training_Get_In" "Training_Get_Out" "Training_Patrol_Cycle"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{651AD4B8EBFC1B31}" {
+    m_invertTerm 1
+   }
+  }
+ }
+}
