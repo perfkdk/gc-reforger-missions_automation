@@ -63,25 +63,47 @@ $grp TILW_PrefabSpawnerEntity {
 }
 $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
  WP_BRDM_Ambush_Move {
-  coords 4820.13 165.468 3653.131
+  coords 4804.473 165.624 3635.248
  }
  WP_FIA_Tech_Move_2 {
-  coords 4732.337 165.344 3658.557
+  coords 4752.813 165.376 3639.284
  }
 }
 SCR_SearchAndDestroyWaypoint WP_Assault : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
- coords 4778.284 164.688 3583.415
+ coords 4793.978 169.765 3569.152
  scale 1.27
- CompletionRadius 60
+ CompletionRadius 10
+ CompletionYPrecision 1
+ m_aSettings {
+  SCR_AICharacterStanceSetting "{651D4075DECA3021}" {
+   m_eCause DANGER_HIGH
+   m_eStance STAND
+  }
+  SCR_AICharacterMovementSpeedSetting "{651D4074214086D8}" {
+   m_eCause DANGER_HIGH
+   m_eSpeed SPRINT
+  }
+ }
  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60DAE2484F999078}" {
   m_holdingTime -1
  }
 }
-SCR_AIGroup FIA_Assault_Sqd_1 : "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et" {
- coords 4652.044 188.17 3675.488
+$grp SCR_AIGroup : "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et" {
+ FIA_Assault_Sqd_1 {
+  coords 4652.044 186.567 3675.488
+ }
+ FIA_Assault_Sqd_2 {
+  coords 4638.732 183.732 3676.529
+ }
+ FIA_Assault_Sqd_3 {
+  coords 4635.626 182.001 3678.342
+ }
+ FIA_Assault_Sqd_4 {
+  coords 4633.442 181.962 3681.205
+ }
 }
 SCR_SuppressWaypoint WP_BRDM_Ambush_Suppress : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_Suppress.et" {
- coords 4779.535 165.281 3609.797
+ coords 4785.435 164.681 3581.982
  CompletionRadius 20
  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
   m_holdingTime 60

@@ -81,6 +81,25 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "WP_Assault"
      }
     }
+    TILW_AssignWaypointsInstruction "{651D407383852B63}" {
+     m_executionDelay 0
+     m_groupName "FIA_Assault_Sqd_2"
+     m_waypointNames {
+      "WP_Assault"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{651D4077297D6357}" {
+     m_groupName "FIA_Assault_Sqd_3"
+     m_waypointNames {
+      "WP_Assault"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{651D4077286CADCA}" {
+     m_groupName "FIA_Assault_Sqd_4"
+     m_waypointNames {
+      "WP_Assault"
+     }
+    }
    }
    m_condition TILW_LiteralTerm "{651D113C326A7BCF}" {
     m_flagName "Bomber_Det"

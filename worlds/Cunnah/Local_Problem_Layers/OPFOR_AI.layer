@@ -9,7 +9,38 @@ $grp SCR_AIGroup : "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2
   }
  }
  {
-  coords 4786.529 164.868 3591.782
-  angleY -22.392
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 4788.578 170.039 3576.472
+  angleY -52.377
+  m_aUnitPrefabSlots {
+   "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et" "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et" "{F11CCA20FCC74AA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AT_Random.et" "{AFF07941936347BB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AAT_Random.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "WP_Defend"
+  }
  }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 4790.872 166.307 3581.447
+  angleY -52.377
+  m_aUnitPrefabSlots {
+   "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et" "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et" "{F11CCA20FCC74AA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AT_Random.et" "{AFF07941936347BB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AAT_Random.et"
+  }
+  m_aStaticWaypoints {
+   "WP_Defend"
+  }
+ }
+}
+SCR_DefendWaypoint WP_Defend : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ coords 4789.034 169.327 3576.413
+ CompletionRadius 10
 }
