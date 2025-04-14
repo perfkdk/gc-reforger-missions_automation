@@ -1,0 +1,89 @@
+$grp TILW_PrefabSpawnerEntity {
+ INDFOR_BRDM_SPAWN {
+  coords 4822.335 164.692 3726.351
+  angleY 144.967
+  m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+  m_pregameSpawn 1
+  m_crewConfig TILW_CrewConfig "{651D113EE19F157D}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651D113EE06B77EC}" {
+     m_crewStations {
+      TILW_CrewStation "{651D113EECA0AB17}" {
+       m_characters {
+        "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+       }
+      }
+     }
+     m_entityName "INDFOR_BRDM_Crew"
+    }
+   }
+  }
+ }
+ {
+  coords 4780.07 165.429 3617.576
+  angleY 42.794
+  m_prefab "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et"
+  m_setEntityNames {
+   "Bomber_Target_Vic"
+  }
+  m_crewConfig TILW_CrewConfig "{651D113230F55246}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651D11323EAE55E8}" {
+     m_crewStations {
+      TILW_CrewStation "{651D11323B6CFE24}" {
+       m_allowCargo 0
+       m_characters {
+        "{2F5E3906F00D4B17}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman_P.et" "{2F5E3906F00D4B17}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman_P.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4700.908 165.43 3655.25
+  angleY 35.776
+  m_prefab "{22B327C6752EC4D4}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_FIA.et"
+  m_crewConfig TILW_CrewConfig "{651D113B90572AD1}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651D113B9FAF8136}" {
+     m_crewStations {
+      TILW_CrewStation "{651D113A60FD0BB0}" {
+       m_characters {
+        "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+       }
+      }
+     }
+     m_entityName "FIA_Ambush_Tech_2"
+    }
+   }
+  }
+ }
+}
+$grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ WP_BRDM_Ambush_Move {
+  coords 4820.13 165.468 3653.131
+ }
+ WP_FIA_Tech_Move_2 {
+  coords 4732.337 165.344 3658.557
+ }
+}
+SCR_SearchAndDestroyWaypoint WP_Assault : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ coords 4778.284 164.688 3583.415
+ scale 1.27
+ CompletionRadius 60
+ m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60DAE2484F999078}" {
+  m_holdingTime -1
+ }
+}
+SCR_AIGroup FIA_Assault_Sqd_1 : "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et" {
+ coords 4652.044 188.17 3675.488
+}
+SCR_SuppressWaypoint WP_BRDM_Ambush_Suppress : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_Suppress.et" {
+ coords 4779.535 165.281 3609.797
+ CompletionRadius 20
+ m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
+  m_holdingTime 60
+ }
+}
