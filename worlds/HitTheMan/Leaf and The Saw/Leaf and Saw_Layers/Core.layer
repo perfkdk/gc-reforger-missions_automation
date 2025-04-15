@@ -296,6 +296,40 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
   }
  }
+ {
+  components {
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+   }
+  }
+  coords 1252.971 173.515 5846.504
+  Points {
+   ShapePoint "{651F0AA851EE18E3}" {
+    Position -6.809 -2.334 96.6
+   }
+   ShapePoint "{651F0AA8510CB32A}" {
+    Position 52.33 3.118 83.417
+   }
+   ShapePoint "{651F0AA850BD11AC}" {
+    Position 68.977 7.231 30.983
+   }
+   ShapePoint "{651F0AA85006528A}" {
+    Position 57.829 5.927 -20.342
+   }
+   ShapePoint "{651F0AA857ED7207}" {
+    Position -7.296 0.741 -44.729
+   }
+   ShapePoint "{651F0AA857771343}" {
+    Position -59.926 -3.113 -30.845
+   }
+   ShapePoint "{651F0AA856E06850}" {
+    Position -46.716 -1.014 40.629
+   }
+   ShapePoint "{651F0AA855E3FDC4}" {
+    Position -14.761 -2.265 81.845
+   }
+  }
+ }
 }
 GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_US.et" {
  components {
@@ -317,6 +351,7 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_sendStatusMessages 1
   m_locationName "the Sawmill Office"
   m_flagName "Sawmill Office"
+  m_stopAfterFirstChange 1
   m_playersOnly 1
   m_ownerFactionKey "GC_CAF"
   m_ratioThreshold 0.9
@@ -476,6 +511,22 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_AssignWaypointsInstruction "{650CE1960329CB98}" {
      m_executionDelay 10
      m_groupName "AISquad_7"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{651F0AAA6B9C630C}" {
+     m_executionDelay 10
+     m_groupName "AIReconForce_4"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{651F0AAA6F38C486}" {
+     m_executionDelay 10
+     m_groupName "AIReconForce_5"
      m_waypointNames {
       "WP_Fallback_1"
      }
