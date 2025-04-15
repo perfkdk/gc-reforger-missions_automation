@@ -72,9 +72,8 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     }
     m_visibility FACTION
    }
-   TILW_CoverMapComponent "{6473480FCAB7760B}" {
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
-    m_ratioWidth 1
    }
   }
   coords 2493.471 15.061 2602.365

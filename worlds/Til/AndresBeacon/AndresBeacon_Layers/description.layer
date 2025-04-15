@@ -72,7 +72,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  D3_Notes {
   coords 0 0 0
   m_sTitle "Notes"
-  m_sTextData "Setup Timer: 5 minutes"\
+  m_sTextData "Setup Timer: 4 minutes"\
   "End Conditions:"\
   "- US has captured both marked positions "\
   "- 100% USSR casualties"\
