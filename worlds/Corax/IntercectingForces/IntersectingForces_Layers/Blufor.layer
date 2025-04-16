@@ -1,0 +1,216 @@
+$grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf/P/Group_US_Army_1985_MechSquad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 270.467 154.478 4859.558
+  angleY 121.572
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 264.616 155.344 4850.875
+  angleY 119.801
+  m_sCustomNameSet "Mechanised squad"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 258.83 156.202 4841.288
+  angleY 118.983
+  m_sCustomNameSet "Mechanised squad"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 248.455 158.477 4823.19
+  angleY 121.743
+  m_sCustomNameSet "Mechanised squad"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 243.05 159.32 4814.327
+  angleY 118.539
+  m_sCustomNameSet "Mechanised squad"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 237.861 160.158 4804.816
+  angleY 117.632
+  m_sCustomNameSet "Mechanised squad"
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{4D7315B25A803917}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf/P/Group_US_Army_1985_MechPHQ_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 277.751 154.156 4870.057
+  angleY 124.724
+  m_aUnitPrefabSlots {
+   "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 251.979 157.572 4829.357
+  angleY 119.258
+  m_aUnitPrefabSlots {
+   "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et"
+  }
+  m_sCustomNameSet "Platoon HQ"
+  m_bSetPlayable 1
+ }
+}
+$grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et" {
+ M113A2_APC_MERDC4 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Turret {
+      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
+     }
+    }
+   }
+  }
+  coords 260.894 156.4 4837.512
+  angleX -4.95
+  angleY 28.572
+  angleZ -0.288
+ }
+ M113A2_APC_MERDC1 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Turret {
+      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
+     }
+    }
+   }
+  }
+  coords 275.948 154.204 4861.515
+  angleX -2.413
+  angleY 32.394
+  angleZ -0.522
+ }
+ M113A2_APC_MERDC3 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Turret {
+      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
+     }
+    }
+   }
+  }
+  coords 265.758 155.565 4845.47
+  angleX -5.936
+  angleY 32.426
+  angleZ -0.525
+ }
+ M113A2_APC_MERDC2 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Turret {
+      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
+     }
+    }
+   }
+  }
+  coords 271.137 154.729 4853.941
+  angleX -3.151
+  angleY 32.4
+  angleZ -0.523
+ }
+ M113A2_APC_MERDC7 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Turret {
+      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
+     }
+    }
+   }
+  }
+  coords 245.562 159.517 4809.974
+  angleX -5.678
+  angleY 28.575
+  angleZ -0.288
+ }
+ M113A2_APC_MERDC6 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Turret {
+      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
+     }
+    }
+   }
+  }
+  coords 254.223 157.78 4825.876
+  angleX -5.017
+  angleY 28.572
+  angleZ -0.288
+ }
+ M113A2_APC_MERDC5 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Turret {
+      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
+     }
+    }
+   }
+  }
+  coords 249.419 158.798 4817.056
+  angleX -5.678
+  angleY 28.575
+  angleZ -0.288
+ }
+ M113A2_APC_MERDC8 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Turret {
+      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
+     }
+    }
+   }
+  }
+  coords 240.922 160.432 4801.454
+  angleX -5.678
+  angleY 28.575
+  angleZ -0.288
+ }
+}
