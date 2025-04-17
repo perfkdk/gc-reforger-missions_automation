@@ -14,8 +14,8 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    }
   }
   coords 3980.959 137.406 7152.262
-  m_aUnitPrefabSlots + {
-   "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
+  m_aUnitPrefabSlots {
+   "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et" "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et" "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et" "{FACE11650F1C8827}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_GL_P.et" "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et" "{B599A1329E64DBF0}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_MG_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
   }
  }
  {
@@ -25,8 +25,8 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    }
   }
   coords 3980.983 137.406 7147.871
-  m_aUnitPrefabSlots + {
-   "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
+  m_aUnitPrefabSlots {
+   "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et" "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et" "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et" "{FACE11650F1C8827}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_GL_P.et" "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et" "{B599A1329E64DBF0}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_MG_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
   }
  }
  {
@@ -36,8 +36,8 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    }
   }
   coords 3981.026 137.406 7143.164
-  m_aUnitPrefabSlots + {
-   "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
+  m_aUnitPrefabSlots {
+   "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et" "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et" "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et" "{FACE11650F1C8827}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_GL_P.et" "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et" "{B599A1329E64DBF0}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_MG_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
   }
  }
  {
@@ -47,8 +47,8 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    }
   }
   coords 3980.91 137.406 7139.271
-  m_aUnitPrefabSlots + {
-   "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
+  m_aUnitPrefabSlots {
+   "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et" "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et" "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et" "{FACE11650F1C8827}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_GL_P.et" "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et" "{B599A1329E64DBF0}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_MG_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et" "{27218EAB079881EA}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Rifleman_P.et"
   }
  }
 }
