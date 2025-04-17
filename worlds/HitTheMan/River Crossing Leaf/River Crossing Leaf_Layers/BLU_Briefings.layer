@@ -52,7 +52,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1x Mechanized Platoon (++)"\
   ""\
   "Strength:"\
-  "Mechanized Platoon (++) at 64x man strength"\
+  "Mechanized Platoon (++) at 62x man strength"\
   "4x M113A2s"\
   "2x LAVIIs"\
   "2x M252 Mortars"\
@@ -163,7 +163,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1st Section 		- 21 Alpha"\
   "2nd Section 		- 21 Bravo"\
   "3rd Section		- 21 Charlie"\
-  "Weapons Detachment	- 21 Whisky"\
   ""\
   "4th Section Attachment	- 22 Alpha"\
   "5th Section Attachment 	- 22 Bravo"\
