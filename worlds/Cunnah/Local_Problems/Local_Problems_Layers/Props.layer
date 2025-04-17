@@ -1,6 +1,6 @@
 $grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_01_long_plastic.et" {
  {
-  coords 4781.325 165.531 3615.879
+  coords 4780.582 165.531 3616.617
   angleY -44.441
  }
  {
@@ -12,7 +12,7 @@ $grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY -166.437
  }
  {
-  coords 4783.576 165.531 3618.087
+  coords 4782.833 165.531 3618.825
   angleY -44.441
  }
 }
