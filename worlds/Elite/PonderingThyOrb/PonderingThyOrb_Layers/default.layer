@@ -126,7 +126,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_EndGameInstruction "{65212B0E6652391D}" {
      m_executionDelay 5410
      m_gameOverType EDITOR_FACTION_DRAW
-     m_factionKey "GC_Canada"
+     m_factionKey "GC_CAF"
     }
     TILW_SendMessageInstruction "{65212B0E58919053}" {
      m_executionDelay 4800
