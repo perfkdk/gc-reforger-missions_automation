@@ -5,6 +5,11 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 4535.053 134.875 5781.828
 }
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bRandomStartingWeather 1
+  }
+ }
  coords 4534.299 134.875 5769.41
 }
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
@@ -34,11 +39,6 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   }
  }
  TILW_AOLimit_2_Opfor {
-  components {
-   TILW_MapShapeComponent "{6508F54F9B461198}" {
-    Enabled 1
-   }
-  }
   coords 4534.077 134.875 5759.728
   Points {
    ShapePoint "{64FF3086BC20C6CB}" {
