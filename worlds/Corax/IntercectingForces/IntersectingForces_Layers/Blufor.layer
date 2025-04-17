@@ -1,10 +1,5 @@
 $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf/P/Group_US_Army_1985_MechSquad_P.et" {
  {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-  }
   coords 270.467 154.478 4859.558
   angleY 121.572
  }
@@ -16,6 +11,8 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   }
   coords 264.616 155.344 4850.875
   angleY 119.801
+  m_aUnitPrefabSlots +{
+  }
   m_sCustomNameSet "Mechanised squad"
   m_bSetPlayable 1
  }
@@ -27,6 +24,8 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   }
   coords 258.83 156.202 4841.288
   angleY 118.983
+  m_aUnitPrefabSlots +{
+  }
   m_sCustomNameSet "Mechanised squad"
   m_bSetPlayable 1
  }
@@ -38,6 +37,8 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   }
   coords 248.455 158.477 4823.19
   angleY 121.743
+  m_aUnitPrefabSlots +{
+  }
   m_sCustomNameSet "Mechanised squad"
   m_bSetPlayable 1
  }
@@ -49,6 +50,8 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   }
   coords 243.05 159.32 4814.327
   angleY 118.539
+  m_aUnitPrefabSlots +{
+  }
   m_sCustomNameSet "Mechanised squad"
   m_bSetPlayable 1
  }
@@ -60,6 +63,8 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   }
   coords 237.861 160.158 4804.816
   angleY 117.632
+  m_aUnitPrefabSlots +{
+  }
   m_sCustomNameSet "Mechanised squad"
   m_bSetPlayable 1
  }
@@ -74,7 +79,7 @@ $grp SCR_AIGroup : "{4D7315B25A803917}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   coords 277.751 154.156 4870.057
   angleY 124.724
   m_aUnitPrefabSlots {
-   "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et"
+   "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{55E175F0CFD7EDB5}Prefabs/Characters/Factions/BLUFOR/US_Army/1985_Mechanised_Infantry/Character_US_1985_CrewGunner_P.et" "{84958BFE6A5740D6}Prefabs/Characters/Factions/BLUFOR/US_Army/1985_Mechanised_Infantry/Character_US_1985_CrewDriver_P.et"
   }
  }
  {
@@ -86,7 +91,7 @@ $grp SCR_AIGroup : "{4D7315B25A803917}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   coords 251.979 157.572 4829.357
   angleY 119.258
   m_aUnitPrefabSlots {
-   "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et"
+   "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{55E175F0CFD7EDB5}Prefabs/Characters/Factions/BLUFOR/US_Army/1985_Mechanised_Infantry/Character_US_1985_CrewGunner_P.et" "{84958BFE6A5740D6}Prefabs/Characters/Factions/BLUFOR/US_Army/1985_Mechanised_Infantry/Character_US_1985_CrewDriver_P.et"
   }
   m_sCustomNameSet "Platoon HQ"
   m_bSetPlayable 1
@@ -118,7 +123,7 @@ $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et
     }
    }
   }
-  coords 275.948 154.204 4861.515
+  coords 277.499 154.082 4863.958
   angleX -2.413
   angleY 32.394
   angleZ -0.522
@@ -133,7 +138,7 @@ $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et
     }
    }
   }
-  coords 265.758 155.565 4845.47
+  coords 266.341 155.452 4846.388
   angleX -5.936
   angleY 32.426
   angleZ -0.525
@@ -148,7 +153,7 @@ $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et
     }
    }
   }
-  coords 271.137 154.729 4853.941
+  coords 271.968 154.644 4855.25
   angleX -3.151
   angleY 32.4
   angleZ -0.523
@@ -163,7 +168,7 @@ $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et
     }
    }
   }
-  coords 245.562 159.517 4809.974
+  coords 244.865 159.662 4808.694
   angleX -5.678
   angleY 28.575
   angleZ -0.288
@@ -208,7 +213,7 @@ $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et
     }
    }
   }
-  coords 240.922 160.432 4801.454
+  coords 240.192 160.584 4800.113
   angleX -5.678
   angleY 28.575
   angleZ -0.288

@@ -22,3 +22,12 @@ PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupF
  m_sQuadName "combined"
  m_sDescription "A Coy"
 }
+GenericEntity : "{B45F724442487DEE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_Scoped_S_USSR_01.et" {
+ coords 908.122 138.017 4392.415
+ {
+  StaticModelEntity {
+   ID "605ECD8CFCE8B965"
+   Flags 3145728
+  }
+ }
+}

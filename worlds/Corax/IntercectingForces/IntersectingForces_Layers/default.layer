@@ -86,6 +86,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  {
   components {
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
     m_useFactionColor 0
     m_lineWidth 5
    }

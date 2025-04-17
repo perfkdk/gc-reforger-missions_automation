@@ -2,6 +2,10 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
  minefield3 {
   components {
    TILW_AOLimitComponent "{6520BB416E5D3066}" {
+    m_factionKeys {
+     "UK"
+    }
+    m_useFactionColor 0
    }
    TILW_MapShapeComponent "{6508F5526836BC09}" {
     Enabled 0
@@ -30,6 +34,9 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
  minefield {
   components {
    TILW_AOLimitComponent "{6520BB417327292E}" {
+    m_factionKeys {
+     "UK"
+    }
     m_useFactionColor 0
     m_lineWidth 4
    }
@@ -60,6 +67,9 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
  minefield4 {
   components {
    TILW_AOLimitComponent "{6520BB416994820C}" {
+    m_factionKeys {
+     "UK"
+    }
     m_useFactionColor 0
     m_lineWidth 4
    }
@@ -101,6 +111,10 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
  minefield2 {
   components {
    TILW_AOLimitComponent "{6520BB4163D16340}" {
+    m_factionKeys {
+     "UK"
+    }
+    m_useFactionColor 0
    }
    TILW_MapShapeComponent "{6508F5526836BC09}" {
     Enabled 0
