@@ -15,6 +15,7 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army_2019_Rangers
   m_aUnitPrefabSlots + {
    "{D51584919FA355D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleGunner_P.et" "{04617A9F3A23F8BB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleDriver_P.et"
   }
+  m_sCustomNameSet "1st Squad"
  }
  RGRSqd2 {
   components {
@@ -32,6 +33,7 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army_2019_Rangers
   m_aUnitPrefabSlots + {
    "{D51584919FA355D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleGunner_P.et" "{04617A9F3A23F8BB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleDriver_P.et"
   }
+  m_sCustomNameSet "2nd Squad"
  }
  RGRSqd3 {
   components {
@@ -49,6 +51,7 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army_2019_Rangers
   m_aUnitPrefabSlots + {
    "{D51584919FA355D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleGunner_P.et" "{04617A9F3A23F8BB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleDriver_P.et"
   }
+  m_sCustomNameSet "3rd Squad"
  }
 }
 SCR_AIGroup RGRHQ : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army_2019_Rangers/P/Group_Rangers_2019_PHQ_P.et" {

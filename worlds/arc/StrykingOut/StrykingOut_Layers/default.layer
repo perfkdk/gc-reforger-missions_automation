@@ -24,19 +24,22 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
  {
   coords 4532.703 316.835 8299.755
   m_queryRadius 65
-  m_locationName "the first objective"
+  m_sendStatusMessages 1
+  m_locationName "the FOB"
   m_flagName "OBJ_1_CAP"
   m_stopAfterFirstChange 1
   m_ownerFactionKey "RHS_USAF"
-  m_ratioThreshold 0.8
+  m_ratioThreshold 0.9
  }
  {
   coords 5331.947 334.25 8659.833
   m_queryRadius 65
-  m_locationName "the first objective"
+  m_sendStatusMessages 1
+  m_locationName "Kabanino"
   m_flagName "OBJ_2_CAP"
   m_stopAfterFirstChange 1
   m_ownerFactionKey "RHS_USAF"
+  m_ratioThreshold 0.9
  }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
@@ -125,27 +128,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_DisjunctionTerm "{651F6BA3DE4E4808}" {
     m_operands {
-     TILW_ConjunctionTerm "{651F6BA3A6D5CA56}" {
-      m_operands {
-       TILW_LiteralTerm "{651F6BA3A75BE142}" {
-        m_flagName "OBJ_1_CAP"
-       }
-       TILW_LiteralTerm "{651F6BA3A2439A74}" {
-        m_invertTerm 1
-        m_flagName "OBJ_2_CAP"
-       }
-      }
+     TILW_LiteralTerm "{6522F33785FF291B}" {
+      m_flagName "OBJ_1_CAP"
      }
-     TILW_ConjunctionTerm "{651F6BA3B784D274}" {
-      m_operands {
-       TILW_LiteralTerm "{651F6BA3B1FC25A2}" {
-        m_invertTerm 1
-        m_flagName "OBJ_1_CAP"
-       }
-       TILW_LiteralTerm "{651F6BA38CCD4B8F}" {
-        m_flagName "OBJ_2_CAP"
-       }
-      }
+     TILW_LiteralTerm "{6522F3378AE4ED75}" {
+      m_flagName "OBJ_2_CAP"
      }
     }
    }

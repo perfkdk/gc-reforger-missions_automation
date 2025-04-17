@@ -330,7 +330,7 @@ $grp SCR_AIGroup : "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
    "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_SL.et" "{73A904030BDDB209}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_MG.et" "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_AT.et" "{188CB21C57F5411C}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_GL.et" "{7F16C773F44030E6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_TL.et" "{73A904030BDDB209}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_MG.et" "{917322E3B14A77B7}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Rifleman.et" "{917322E3B14A77B7}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Rifleman.et"
   }
   m_aStaticWaypoints {
-   "VyborSqdWp1"
+   "VyborSqd1Wp"
   }
  }
  VyborSqd2 {
@@ -339,13 +339,13 @@ $grp SCR_AIGroup : "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
    "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_SL.et" "{73A904030BDDB209}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_MG.et" "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_AT.et" "{188CB21C57F5411C}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_GL.et" "{7F16C773F44030E6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_TL.et" "{73A904030BDDB209}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_MG.et" "{917322E3B14A77B7}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Rifleman.et" "{917322E3B14A77B7}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Rifleman.et"
   }
   m_aStaticWaypoints {
-   "VyborSqdWp2"
+   "VyborSqd2Wp"
   }
  }
  VyborSqd3 {
   coords 4692.59 326.88 8721.998
   m_aStaticWaypoints {
-   "VyborSqdWp3"
+   "VyborSqd3Wp"
   }
  }
 }
