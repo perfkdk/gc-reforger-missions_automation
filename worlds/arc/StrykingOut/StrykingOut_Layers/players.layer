@@ -1,0 +1,72 @@
+$grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army_2019_Rangers/P/Group_Rangers_2019_Squad_P.et" {
+ RGRSqd1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{651ECD9641E5836B}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4549.725 288.268 6932.271
+  angleX 4.196
+  angleY -108.969
+  angleZ -2.908
+  m_aUnitPrefabSlots + {
+   "{D51584919FA355D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleGunner_P.et" "{04617A9F3A23F8BB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleDriver_P.et"
+  }
+  m_sCustomNameSet "1st Squad"
+ }
+ RGRSqd2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{651ECD965C7F7A13}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4553.912 287.394 6919.232
+  angleX 2.53
+  angleY -104.082
+  angleZ -4.296
+  m_aUnitPrefabSlots + {
+   "{D51584919FA355D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleGunner_P.et" "{04617A9F3A23F8BB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleDriver_P.et"
+  }
+  m_sCustomNameSet "2nd Squad"
+ }
+ RGRSqd3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{651ECD965F10AEE4}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4557.418 287.02 6907.77
+  angleX 1.373
+  angleY -98.636
+  angleZ -5.258
+  m_aUnitPrefabSlots + {
+   "{D51584919FA355D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleGunner_P.et" "{04617A9F3A23F8BB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleDriver_P.et"
+  }
+  m_sCustomNameSet "3rd Squad"
+ }
+}
+SCR_AIGroup RGRHQ : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army_2019_Rangers/P/Group_Rangers_2019_PHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{651ECD9645613893}" {
+  }
+ }
+ coords 4560.882 285.903 6897.815
+ angleX 0.479
+ angleY -104.417
+ angleZ -10.478
+ m_aUnitPrefabSlots + {
+  "{9B3E4FD23DC67B95}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_HAT_P.et" "{9771B5628C3F80A7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_AHAT_P.et" "{D51584919FA355D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleGunner_P.et" "{04617A9F3A23F8BB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_VehicleDriver_P.et"
+ }
+}

@@ -74,7 +74,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 1213.754 148.086 6516.259
   m_sTitle "II. Mission:"
-  m_sTextData "Our Platoon & BRDM has been tasked with defending the Dam from CAF to continue to with hold power from supplying the southern regions while we subjucate the local population."
+  m_sTextData "Our Platoon & BRDM has been tasked with defending the Dam from CAF to continue to with hold power from supplying the southern regions while we subjucate the local population."\
+  ""\
+  "The 2 story building has been fortified by us and turned into a fortress, might be a good idea to utilize it as a fallback or last stand with a squad"
   m_aVisibleForFactions {
    "USSR"
   }
