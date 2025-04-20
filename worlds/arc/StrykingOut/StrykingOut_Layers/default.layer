@@ -19,6 +19,27 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 5006.215 267.464 6842.422
+ {
+  SCR_FactionManager "6528D20F5C4BE4DA" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792CCD598D3}" {
+        m_sCallsign "Assassin"
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE18FB44}" {
+        m_sCallsign "6"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  {
@@ -126,12 +147,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_flagName "QRF_SPAWN"
     }
    }
-   m_condition TILW_DisjunctionTerm "{651F6BA3DE4E4808}" {
+   m_condition TILW_DisjunctionTerm "{6528D20B0F8F80DF}" {
     m_operands {
-     TILW_LiteralTerm "{6522F33785FF291B}" {
+     TILW_LiteralTerm "{6528D20B084CB423}" {
       m_flagName "OBJ_1_CAP"
      }
-     TILW_LiteralTerm "{6522F3378AE4ED75}" {
+     TILW_LiteralTerm "{6528D20B0B8DC96F}" {
       m_flagName "OBJ_2_CAP"
      }
     }
