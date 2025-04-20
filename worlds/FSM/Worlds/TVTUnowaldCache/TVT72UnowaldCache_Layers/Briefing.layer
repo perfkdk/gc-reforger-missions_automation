@@ -104,6 +104,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Separatists take 85% Casualties, CDF Victory. Mission will end in 3 minutes or a GM can end it prior."\
   "CDF destory the cache, mission will end instantly."\
   ""\
+  "Setup Timer: 4 minutes"\
   ""\
   "Note for people like BoomerX. If you are the defending team CO and you don't defend the objective, you are going against the mission statement. You don't need to be on the objective but the mission will end instantly if the CDF destroys the cache. If a GM or admin sees BoomerX about to do a BoomerX thing and waste an hour of everyones life, please take action within reason."
   m_bEmptyFactionVisibility 1
