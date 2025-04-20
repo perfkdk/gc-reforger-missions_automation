@@ -29,7 +29,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    }
   }
  }
- m_iFreezeTime 300000
+ m_iFreezeTime 240000
  {
   SCR_FactionManager "62DA1A61C48DC6B5" {
    ID "5ED9088735FF2D8B"
@@ -88,17 +88,20 @@ PolylineShapeEntity TILW_AOLimit_US : "{85222A2744768C81}Prefabs/Logic/AOLimit/T
    }
    m_visibility ALL
   }
+  TILW_MapShapeComponent "{6508F54F9B461198}" {
+   Enabled 1
+  }
  }
- coords 6600 150 7725
+ coords 6600 150 7700
  Points {
   ShapePoint "{62BAE4EB100CB415}" {
    Position 0 0 0
   }
   ShapePoint "{62BAE4EB16F4F9AF}" {
-   Position 0 0 1000
+   Position 0 0 1100
   }
   ShapePoint "{62BAE4EB169A459B}" {
-   Position 500 0 1000
+   Position 500 0 1100
   }
   ShapePoint "{62BAE4EB17A853FA}" {
    Position 500 0 0
@@ -115,16 +118,16 @@ PolylineShapeEntity TILW_AOLimit_US : "{85222A2744768C81}Prefabs/Logic/AOLimit/T
      m_visibility ALL
     }
    }
-   coords 0 0 450
+   coords 0 0 475
    Points {
     ShapePoint "{62BAE4EB100CB415}" {
      Position 0 0 0
     }
     ShapePoint "{62BAE4EB16F4F9AF}" {
-     Position 0 0 550
+     Position 0 0 625
     }
     ShapePoint "{62BAE4EB169A459B}" {
-     Position 500 0 550
+     Position 500 0 625
     }
     ShapePoint "{62BAE4EB17A853FA}" {
      Position 500 0 0
