@@ -6,6 +6,24 @@ GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
  coords 1081.703 141.824 4377.977
  angleY 6.146
 }
+$grp GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BDC4D70CE}" {
+   }
+  }
+  coords 751.159 136.911 4135.856
+  angleY 19.7
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BD14F0649}" {
+   }
+  }
+  coords 927.731 137.344 4213.92
+  angleY -26
+ }
+}
 Tree : "{0D0A8FDAA4C367BB}Prefabs/Vegetation/Bushes/b_corylus_avellana_1l_fd_fd.et" {
  coords 1013.127 -0.061 4647.409
  angleX -13.618
@@ -175,6 +193,37 @@ $grp GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSma
  {
   angleY -49.287
  }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BD66E2363}" {
+   }
+  }
+  coords 1129.476 143.797 4362.641
+  angleY -14
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BA82D5563}" {
+   }
+  }
+  coords 1118.023 136.588 4253.725
+  angleY -49
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BADCBC1FF}" {
+   }
+  }
+  coords 801.285 139.534 4003.858
+  angleY 126.4
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BA2CF50FD}" {
+   }
+  }
+  coords 991.286 141.242 4622.462
+ }
 }
 GenericEntity : "{3B2D8CB93F906062}Prefabs/Compositions/Misc/SubCompositions/Sandbag_round_Cluttered_USSR_01.et" {
  coords 1015.641 143.585 4647.957
@@ -263,32 +312,6 @@ $grp Tree : "{407A7B6D0444D05B}PrefabLibrary/Vegetation/Plants/b_urtica_dioica_0
 GenericEntity : "{4093AE33DCEFAD67}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyStorage_S_USSR_01.et" {
  coords 1083.307 140.664 4163.082
 }
-$grp StaticModelEntity : "{45F3D1DFFF2164F1}Prefabs/Compositions/Misc/SubCompositions/Fortifications/CRX_Sandbag_Bunker_Camouflaged_USSR_01.et" {
- {
-  coords 976.46 138.524 4225.963
-  angleY -37
- }
- {
-  coords 1119.027 139.064 4211.532
-  angleY -18.5
- }
- {
-  components {
-   TILW_NavmeshRegenComponent "{6520BB5A5817E69A}" {
-   }
-  }
-  coords 969.578 139.55 4638.722
-  angleY -73.201
- }
- {
-  components {
-   TILW_NavmeshRegenComponent "{6520BB5DDFD3F8E2}" {
-   }
-  }
-  coords 747.833 137.824 4017.641
-  angleY -171.877
- }
-}
 $grp GenericEntity : "{4A09EF1D855AF2C4}Prefabs/Vegetation/Cuttings/Rosa_canina_small_01.et" {
  {
   coords 1017.2 143.402 4648.39
@@ -297,117 +320,6 @@ $grp GenericEntity : "{4A09EF1D855AF2C4}Prefabs/Vegetation/Cuttings/Rosa_canina_
  }
  {
   coords 887.839 141.275 4104.379
- }
-}
-$grp GenericEntity : "{4CD4DFB503796DEE}Prefabs/Compositions/Slotted/SlotFlatSmall/CRX_MachineGunNest_S_USSR_01.et" {
- {
-  coords 1084.712 137.389 4247.309
-  {
-   GenericEntity {
-    ID "651F07DBF7CE832A"
-    {
-     Turret {
-      ID "5CC6B4BEF18D0296"
-      components {
-       TILW_VehicleCrewComponent "{6520BB5417FD0D09}" {
-        m_crewConfig TILW_CrewConfig "{6520BB541509A582}" {
-         m_crewGroups {
-          TILW_CrewGroup "{6520BB55A3AFE4C7}" {
-           m_crewStations {
-            TILW_CrewStation "{6520BB55A2DD42C2}" {
-             m_allowPilot 0
-             m_allowCargo 0
-             m_characters {
-              "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et"
-             }
-            }
-           }
-          }
-         }
-         m_noTurretDismount 1
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   TILW_NavmeshRegenComponent "{6520BB5DC67F6383}" {
-   }
-  }
-  coords 655.353 138.84 4023.127
-  angleY 169.083
-  {
-   GenericEntity {
-    ID "651F07DBF7CE832A"
-    {
-     Turret {
-      ID "5CC6B4BEF18D0296"
-      components {
-       TILW_VehicleCrewComponent "{6520BB541165A66D}" {
-        m_crewConfig TILW_CrewConfig "{6520BB54105F2E61}" {
-         m_crewGroups {
-          TILW_CrewGroup "{6520BB55A3AFE4C7}" {
-           m_crewStations {
-            TILW_CrewStation "{6520BB55A2DD42C2}" {
-             m_allowPilot 0
-             m_allowCargo 0
-             m_characters {
-              "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et"
-             }
-            }
-           }
-          }
-         }
-         m_noTurretDismount 1
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   TILW_NavmeshRegenComponent "{6520BB5DD950F443}" {
-   }
-  }
-  coords 1022.273 141.947 4125.021
-  angleY -132.825
-  {
-   GenericEntity {
-    ID "651F07DBF7CE832A"
-    {
-     Turret {
-      ID "5CC6B4BEF18D0296"
-      components {
-       TILW_VehicleCrewComponent "{6520BB541D0B9219}" {
-        m_crewConfig TILW_CrewConfig "{6520BB541C4C6C77}" {
-         m_crewGroups {
-          TILW_CrewGroup "{6520BB55A3AFE4C7}" {
-           m_crewStations {
-            TILW_CrewStation "{6520BB55A2DD42C2}" {
-             m_allowPilot 0
-             m_allowCargo 0
-             m_characters {
-              "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et"
-             }
-            }
-           }
-          }
-         }
-         m_noTurretDismount 1
-        }
-       }
-      }
-     }
-    }
-   }
-  }
  }
 }
 $grp GenericEntity : "{4E0314D8A6DACB04}Prefabs/Vegetation/Tree/Debris/dst_debris_con_02.et" {
@@ -471,106 +383,46 @@ GenericEntity : "{57D197AC8D11E283}Prefabs/Compositions/Misc/SubCompositions/Ten
   }
  }
 }
-$grp GenericEntity : "{597EFDAF881CA994}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/CRX_E_MachineGunNest_Scoped_S_USSR_01.et" {
- {
-  components {
-   TILW_NavmeshRegenComponent "{651F07C3DED5A366}" {
-   }
-  }
-  coords 751.159 136.911 4135.857
-  angleY 19.77
-  {
-   GenericEntity {
-    ID "605ECD8CFCE822A1"
-    {
-     Turret {
-      ID "605ECD8C01B355D2"
-      components {
-       SCR_PreviewEntityComponent "{5ECC91C02782BF7F}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
-        m_aEntries {
-         SCR_BasePreviewEntry "{5ECC91C032B149EB}" {
-         }
-         SCR_BasePreviewEntry "{5ECC91C03431B1D4}" {
-          m_Mesh "{1C372CC3C2897372}Assets/Weapons/HeavyWeapons/NSV/NSV_body.xob"
-          m_Shape MESH
-         }
-        }
-       }
-       TILW_VehicleCrewComponent "{6520BB53F7EBF17B}" {
-        m_crewConfig TILW_CrewConfig "{6520BB53F2B5E12E}" {
-         m_crewGroups {
-          TILW_CrewGroup "{6520BB55A3AFE4C7}" {
-           m_crewStations {
-            TILW_CrewStation "{6520BB55A2DD42C2}" {
-             m_allowPilot 0
-             m_allowCargo 0
-             m_characters {
-              "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et"
-             }
-            }
-           }
-          }
-         }
-         m_noTurretDismount 1
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
- {
-  coords 927.731 137.344 4213.92
-  angleY -26.059
-  {
-   GenericEntity {
-    ID "605ECD8CFCE822A1"
-    {
-     Turret {
-      ID "605ECD8C01B355D2"
-      components {
-       SCR_PreviewEntityComponent "{5ECC91C02782BF7F}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
-        m_aEntries {
-         SCR_BasePreviewEntry "{5ECC91C032B149EB}" {
-         }
-         SCR_BasePreviewEntry "{5ECC91C03431B1D4}" {
-          m_Mesh "{1C372CC3C2897372}Assets/Weapons/HeavyWeapons/NSV/NSV_body.xob"
-          m_Shape MESH
-         }
-        }
-       }
-       TILW_VehicleCrewComponent "{6520BB55A68B363D}" {
-        m_crewConfig TILW_CrewConfig "{6520BB55A46B0A90}" {
-         m_crewGroups {
-          TILW_CrewGroup "{6520BB55A3AFE4C7}" {
-           m_crewStations {
-            TILW_CrewStation "{6520BB55A2DD42C2}" {
-             m_allowPilot 0
-             m_allowCargo 0
-             m_characters {
-              "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et"
-             }
-            }
-           }
-          }
-         }
-         m_noTurretDismount 1
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
-}
 $grp GenericEntity : "{5AF4E84CA11058F4}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadSmall/E_Checkpoint_S_USSR_01.et" {
  {
   coords 1108.945 143.073 4315.998
  }
  {
   coords 1051.187 142.938 4259.903
+ }
+}
+$grp StaticModelEntity : "{605A7848CB4D361A}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_USSR_01.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BCFC48103}" {
+   }
+  }
+  coords 976.46 138.524 4225.963
+  angleY -37
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BC1A8E5BA}" {
+   }
+  }
+  coords 1119.027 139.064 4211.532
+  angleY -18.5
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BC3689A0C}" {
+   }
+  }
+  coords 969.578 139.55 4638.722
+  angleY -73.2
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BC68FA7F3}" {
+   }
+  }
+  coords 747.833 137.824 4017.641
+  angleY -172
  }
 }
 GenericEntity : "{60AA21344D68BACE}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Medium_Top_Soviet.et" {
@@ -757,6 +609,13 @@ GenericEntity : "{74843BB0BF08A845}Prefabs/Vegetation/Cuttings/Corylus_avellana_
  coords 888.313 140.332 4105.867
 }
 GenericEntity : "{7492BAA88AFCEDCD}Prefabs/Compositions/Slotted/SlotFlatSmall/CRX_Bunker_S_USSR_01.et" {
+ angleY -28.5
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6524FA3BD32FB3CC}" {
+  }
+ }
  coords 1082.254 145.172 4514.366
  angleY -28.5
 }
@@ -767,6 +626,31 @@ GenericEntity : "{777E1B31B83D74E4}PrefabsEditable/Auto/Compositions/Misc/SubCom
 GenericEntity : "{77FE89E3B2B9C193}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_CommandPost_USSR_01.et" {
  coords 1062.449 137.731 4192.362
  angleY 29.298
+}
+$grp GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BCC9CDE0A}" {
+   }
+  }
+  coords 1084.712 137.389 4247.309
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BD83F944B}" {
+   }
+  }
+  coords 655.353 138.84 4023.127
+  angleY 169
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BDFF8C520}" {
+   }
+  }
+  coords 1022.273 141.947 4125.021
+  angleY -132.8
+ }
 }
 Tree : "{7BEC4D46FABA042E}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_branch_01.et" {
  coords 1050.101 0 4308.702
@@ -1200,29 +1084,10 @@ $grp GenericEntity : "{C18F7D0B8D78785A}PrefabsEditable/Auto/Compositions/Misc/S
   coords 1010.197 0 4129.477
  }
 }
-$grp GenericEntity : "{C81422463184E45C}Prefabs/Compositions/Slotted/SlotFlatSmall/CRX_SandbagPosition_S_USSR_04.et" {
- {
-  coords 1129.476 143.797 4362.641
-  angleY -14
- }
- {
-  coords 1118.023 136.588 4253.725
-  angleY -49
- }
- {
-  components {
-   TILW_NavmeshRegenComponent "{6520BB5DDB0664FC}" {
-   }
+GenericEntity : "{C81422463184E45C}Prefabs/Compositions/Slotted/SlotFlatSmall/CRX_SandbagPosition_S_USSR_04.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6520BB5A4E84203B}" {
   }
-  coords 801.285 139.534 4003.858
-  angleY 126.408
- }
- {
-  components {
-   TILW_NavmeshRegenComponent "{6520BB5A4E84203B}" {
-   }
-  }
-  coords 991.286 141.242 4622.462
  }
 }
 GenericEntity : "{D16F58EC1C0027D7}Prefabs/Vegetation/Cuttings/Salix_cinerea_medium_01.et" {

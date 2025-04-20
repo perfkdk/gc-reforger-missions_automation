@@ -1,3 +1,9 @@
+GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
+ coords 784.546 135.969 4172.245
+}
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 761.835 135.894 4211.091
+}
 $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf/P/Group_US_Army_1985_MechSquad_P.et" {
  {
   coords 270.467 154.478 4859.558
@@ -69,6 +75,9 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   m_bSetPlayable 1
  }
 }
+GenericEntity : "{4CD4DFB503796DEE}Prefabs/Compositions/Slotted/SlotFlatSmall/CRX_MachineGunNest_S_USSR_01.et" {
+ coords 748.274 135.602 4197.157
+}
 $grp SCR_AIGroup : "{4D7315B25A803917}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf/P/Group_US_Army_1985_MechPHQ_P.et" {
  {
   components {
@@ -96,6 +105,15 @@ $grp SCR_AIGroup : "{4D7315B25A803917}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   m_sCustomNameSet "Platoon HQ"
   m_bSetPlayable 1
  }
+}
+StaticModelEntity : "{605A7848CB4D361A}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_USSR_01.et" {
+ coords 784.268 136.011 4198.117
+}
+GenericEntity : "{7492BAA88AFCEDCD}Prefabs/Compositions/Slotted/SlotFlatSmall/CRX_Bunker_S_USSR_01.et" {
+ coords 765.298 135.875 4176.663
+}
+GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
+ coords 766.317 135.946 4194.958
 }
 $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et" {
  M113A2_APC_MERDC4 {
