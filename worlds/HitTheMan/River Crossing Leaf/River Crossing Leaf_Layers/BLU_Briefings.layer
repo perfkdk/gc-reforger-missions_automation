@@ -128,7 +128,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3007.276 303.099 7985.916
   m_sTitle "VI. Mission Notes:"
-  m_sTextData "You must be within 10m of the building(s) to be counted as capturing it or defending it."\
+  m_sTextData "This is both a COOP and COTVT, I.E COTVT is optional if we got the numbers OR it's of interests. Max size for COOP is 60 while for COTVT its 70"\
+  ""\
+  "You must be within 10m of the building(s) to be counted as capturing it or defending it."\
   ""\
   "Timelimit: 90m"\
   ""\
@@ -164,8 +166,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "2nd Section 		- 21 Bravo"\
   "3rd Section		- 21 Charlie"\
   ""\
-  "4th Section Attachment	- 22 Alpha"\
-  "5th Section Attachment 	- 22 Bravo"\
+  "4th Section Attachment	- 22 Echo"\
+  "5th Section Attachment 	- 22 Foxtrot"\
   "Mortar Attachment 	- 25"\
   ""\
   "- - - Vehicle Callsigns when Inf dismounted:"\

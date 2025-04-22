@@ -52,18 +52,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Battalion has been ordered to secure this area, suppress the local population and prepare to fortify our defences against the CDF and CAF."\
   ""\
   "Composition:"\
-  "1x Rifle Squad Remnants"\
-  "1x Recon BRDM Attachment"\
+  "1x Motor Rifle Squad Remnants"\
   ""\
   "Strength:"\
   "Squad (-) at 9x man strength"\
-  "1x Recon BRDM"\
+  "1x BTR-70"\
   ""\
   "Supporting Fires:"\
   "None."\
   ""\
   "Attachments/Detachments:"\
-  "1x Recon BRDM Attachment"
+  "None."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -72,7 +71,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3001.841 303.449 7981.286
   m_sTitle "II. Mission:"
-  m_sTextData "Our squad has been given a BRDM to utilize as we deem fit, with the permission from PLT HQ to find a position in the surrounding town or forest to support the company as a whole in the defence of the town and COY HQ."
+  m_sTextData "With the permission from PLT HQ to find a position in the surrounding town to support the company as a whole in the defence of the town and COY HQ."\
+  ""\
+  "Strongly encouraged to stay together at a minimum of a 2 man buddy team"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -82,11 +83,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3002.119 303.431 7981.251
   m_sTitle "III. Execution:"
   m_sTextData "Intent:"\
-  "Hold the COY HQ building in Vybor, and if possible the office building in the factory district, to defend the town of Vybor itself."\
+  "Hold the COY HQ building in Vybor  to defend the town of Vybor itself."\
   ""\
   "1. Concept of the Operation:"\
   "Squad Commander's Discretion."\
-  "It is advised to spread our forces out and utilize the BRDM Recon capabilities to locate the likely route the enemy may take, or wait for our recon platoon to locate them for us."\
+  "It is advised to spread our forces out and utilize the BTR capabilities to locate the likely route the enemy may take, or wait for our recon platoon to locate them for us."\
   ""\
   "2. Maneuver:"\
   "Squad Commander's Discretion."\

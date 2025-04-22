@@ -277,92 +277,113 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   }
   coords 679.396 195.014 8873.071
   Points {
-   ShapePoint "{650F6173BD2DC5D2}" {
-    Position 650.045 94.005 -33.662
+   ShapePoint "{652B5C02905EB66D}" {
+    Position -190.278 5.675 -408.794
    }
-   ShapePoint "{650F6173A4E04210}" {
-    Position 631.671 95.712 -166.93
+   ShapePoint "{652B5C0296723EDA}" {
+    Position -192.264 24.51 -202.587
    }
-   ShapePoint "{650F61745BA097AF}" {
-    Position 473.128 84.548 -181.901
+   ShapePoint "{652B5C0295845745}" {
+    Position -160.63 27.807 -120.984
    }
-   ShapePoint "{650F6174589C60E8}" {
-    Position 335.383 76.478 -251.7
+   ShapePoint "{652B5C029504F4DA}" {
+    Position -190.728 34.349 -46.686
    }
-   ShapePoint "{650F61745F982AC8}" {
-    Position 269.565 53.323 -294.637
+   ShapePoint "{652B5C0294126161}" {
+    Position -192.103 35.824 57.315
    }
-   ShapePoint "{650F61745DD5A7FC}" {
-    Position 134.204 -1.111 -368.286
+   ShapePoint "{652B5C0288D79C35}" {
+    Position -185.994 39.861 101.55
    }
-   ShapePoint "{650F61745C17CB71}" {
-    Position 10.038 28.421 -445.559
+   ShapePoint "{652B5C0288BF83D9}" {
+    Position -141.609 38.622 178.004
    }
-   ShapePoint "{650F6174504F2889}" {
-    Position -124.869 63.513 -496.513
+   ShapePoint "{652B5C028FA02787}" {
+    Position -103.573 39.371 295.402
    }
-   ShapePoint "{650F617455509D52}" {
-    Position -225.493 25.649 -447.978
+   ShapePoint "{652B5C028F0AA153}" {
+    Position 2.417 48.097 387.85
    }
-   ShapePoint "{650F61745467F7AA}" {
-    Position -269.922 52.802 -377.257
+   ShapePoint "{652B5C028D9C5EB3}" {
+    Position 197.94 72.237 477.093
    }
-   ShapePoint "{650F61744A7576C4}" {
-    Position -299.296 72.614 -305.874
+   ShapePoint "{652B5C028CA25D11}" {
+    Position 268.467 79.697 495.771
    }
-   ShapePoint "{650F617449B95B92}" {
-    Position -324.384 75.521 -187.182
+   ShapePoint "{652B5C028C06D5DB}" {
+    Position 330.592 80.591 516.201
    }
-   ShapePoint "{650F617448B5AA25}" {
-    Position -318.792 76.15 -56.987
+   ShapePoint "{652B5C02816C5A65}" {
+    Position 405.819 73.613 595.028
    }
-   ShapePoint "{650F61744FE618A7}" {
-    Position -316.202 74.452 85.889
+   ShapePoint "{652B5C0280EFF066}" {
+    Position 457.126 72.759 676.545
    }
-   ShapePoint "{650F61744F07A803}" {
-    Position -286.089 77.912 256.256
+   ShapePoint "{652B5C0287313437}" {
+    Position 502.071 73.366 706.513
    }
-   ShapePoint "{650F61744E0C80EF}" {
-    Position -239.867 80.042 385.269
+   ShapePoint "{652B5C0286831940}" {
+    Position 541.405 72.065 699.271
    }
-   ShapePoint "{650F61744D625C95}" {
-    Position -140.962 76.472 452.028
+   ShapePoint "{652B5C02863B3FDE}" {
+    Position 592.129 50.106 649.252
    }
-   ShapePoint "{650F61744CB3804B}" {
-    Position -25.464 83.371 501.289
+   ShapePoint "{652B5C028576D858}" {
+    Position 626.901 17.309 534.754
    }
-   ShapePoint "{650F617442AE4E69}" {
-    Position 117.378 83.039 494.142
+   ShapePoint "{652B5C02841C0E49}" {
+    Position 575.09 16.3 473.29
    }
-   ShapePoint "{650F617441ACFD45}" {
-    Position 237.127 79.907 500.495
+   ShapePoint "{652B5C02BB99A1B4}" {
+    Position 575.508 17.775 404.251
    }
-   ShapePoint "{650F6174408C84E8}" {
-    Position 329.064 83.995 541.912
+   ShapePoint "{652B5C02BA91C6B0}" {
+    Position 589.426 22.936 299.535
    }
-   ShapePoint "{650F617446D5211F}" {
-    Position 450.834 83.421 709.328
+   ShapePoint "{652B5C02BD653BB7}" {
+    Position 459.348 8.383 249.072
    }
-   ShapePoint "{650F6174457EB8FF}" {
-    Position 549.871 75.536 721.63
+   ShapePoint "{652B5C02BC8A6BF5}" {
+    Position 368.213 7.761 227.524
    }
-   ShapePoint "{650F61744489EF78}" {
-    Position 599.426 59.4 665.006
+   ShapePoint "{652B5C02BC3B17C4}" {
+    Position 277.416 4.338 204.959
    }
-   ShapePoint "{650F61747BF086A7}" {
-    Position 647.691 17.016 552.148
+   ShapePoint "{652B5C02B311E1C4}" {
+    Position 177.93 1.051 197.579
    }
-   ShapePoint "{650F61747A448307}" {
-    Position 592.251 19.299 469.853
+   ShapePoint "{652B5C02B2EF7B04}" {
+    Position 86.408 1.365 129.721
    }
-   ShapePoint "{650F61747981BBD8}" {
-    Position 595.75 30.679 338.676
+   ShapePoint "{652B5C02B1C759C1}" {
+    Position 65.15 -3.63 57.171
    }
-   ShapePoint "{650F61747886F0B7}" {
-    Position 634.42 47.268 238.351
+   ShapePoint "{652B5C02B1A2772A}" {
+    Position 92.823 3.94 -34.684
    }
-   ShapePoint "{650F6174781D575A}" {
-    Position 659.16 68.675 146.859
+   ShapePoint "{652B5C02B7C23BF6}" {
+    Position 99.616 15.662 -105.513
+   }
+   ShapePoint "{652B5C02B5182DB2}" {
+    Position 109.754 35.074 -164.178
+   }
+   ShapePoint "{652B5C02AA6F5235}" {
+    Position 121.677 30.04 -240.39
+   }
+   ShapePoint "{652B5C02A81659D0}" {
+    Position 119.963 -0.802 -348.833
+   }
+   ShapePoint "{652B5C02AE5536C8}" {
+    Position 64.257 -0.919 -410.985
+   }
+   ShapePoint "{652B5C02AD7CF2C7}" {
+    Position 4.485 28.305 -452.188
+   }
+   ShapePoint "{652B5C02ACC5C6AE}" {
+    Position -44.047 22.463 -409.182
+   }
+   ShapePoint "{652B5C02ACAA620A}" {
+    Position -102.457 13.693 -404.521
    }
   }
  }
@@ -422,6 +443,16 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Time Limit"
    m_instructions {
     TILW_SendMessageInstruction "{6506E408307D3B9A}" {
+     m_executionDelay 1800
+     m_messageTitle "Time Limit"
+     m_messageBody "The Mission will end in 40 minutes"
+    }
+    TILW_SendMessageInstruction "{652B5C071C7136D8}" {
+     m_executionDelay 3000
+     m_messageTitle "Time Limit"
+     m_messageBody "The Mission will end in 20 minutes"
+    }
+    TILW_SendMessageInstruction "{652B5C00B3DDA714}" {
      m_executionDelay 3900
      m_messageTitle "Time Limit"
      m_messageBody "The Mission will end in 5 minutes"
