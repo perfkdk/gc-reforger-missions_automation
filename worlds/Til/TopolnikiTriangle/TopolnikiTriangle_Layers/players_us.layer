@@ -7,7 +7,7 @@ SCR_AIGroup us_inf_hq : "{07C9F3D72826CAB5}Prefabs/Groups/BLUFOR/US/Marines_1990
  coords 1816.661 261.937 11503.665
  angleY 39.772
  m_aUnitPrefabSlots {
-  "{D0725F1D7828E507}worlds/Til/m/Prefabs/Character_US_PL_P_QRFRadio.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
+  "{D0725F1D7828E507}worlds/Til/TopolnikiTriangle/Prefabs/Character_US_PL_P_QRFRadio.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
  }
  m_sCustomNameSet "Marine Rifle Plt. | HQ"
 }
