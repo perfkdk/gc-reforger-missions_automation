@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  OPFOR1 {
   coords 5885.721 75.82 4701.43
   m_sTitle "CURRENT SITUATION"
-  m_sTextData "We heard 320 COY being engaged to our immediate South a few minutes ago, and 330 COY to our North engaging enemy positions in the town of Figari. Our COY 310 are marching along route 'ASR Toyota', earlier today 314 PLT lead two squads have been rendered combat ineffective due to Canadian ambushes and as such 316  SQD from 314 PLT will be attached to our platoon. We are now the lead platoon in the formation."
+  m_sTextData "We heard 320 COY being engaged to our immediate South a few minutes ago, and 330 COY to our North engaging enemy positions in the town of Figari. Our COY 310 have been proving the route and intend to now march along route 'ASR Toyota'. Earlier today 314 PLT's lead two squads have been rendered combat ineffective due to Canadian ambushes and as such 315  SQD from 314 PLT will be attached to our platoon. We are now the lead platoon in the formation."
   m_aVisibleForFactions {
    "USSR"
   }

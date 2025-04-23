@@ -1,4 +1,4 @@
-SCR_AIGroup : "{0C17A1C879905D5A}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1987/Group_CAF_RifleSection_P.et" {
+SCR_AIGroup : "{0C17A1C879905D5A}Prefabs/Groups/BLUFOR/GC_CAF/1987 Canadian Army/Group_CAF_RifleSection_P.et" {
  components {
   PS_GroupCallsignAssigner "{64C4A6A68771BD44}" {
    m_iSquadCallsign 1
@@ -22,7 +22,7 @@ PolylineShapeEntity BLUFOR_AO : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AO
  coords 5918.579 91.546 5160.938
  Points {
   ShapePoint "{64D677DC5119962B}" {
-   Position -50.19 -0 -348.67
+   Position -50.19 0 -348.67
   }
   ShapePoint "{649528E1DD0F7AD8}" {
    Position 17.309 0 -389.782
@@ -61,20 +61,20 @@ PolylineShapeEntity BLUFOR_AO : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AO
    Position -181.498 -16.189 -248.986
   }
   ShapePoint "{64D677DC5B7AB029}" {
-   Position -137.746 -0 -243.749
+   Position -137.746 0 -243.749
   }
   ShapePoint "{64D677DC57EC387C}" {
    Position -126.818 16.202 -369.672
   }
  }
 }
-SCR_AIGroup : "{977831D0F745FF87}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1987/Group_CAF_PlatoonHQ_P.et" {
+SCR_AIGroup : "{977831D0F745FF87}Prefabs/Groups/BLUFOR/GC_CAF/1987 Canadian Army/Group_CAF_PlatoonHQ_P.et" {
  components {
   PS_GroupCallsignAssigner "{64C4A6A69E46082A}" {
   }
  }
  coords 6171.624 111.707 5094.76
 }
-SCR_AIGroup : "{AE97EE67B3502C07}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_1992/Group_CAF_WeaponsSection_Alt_P_2.et" {
- coords 6177.695 111.153 5081.313
+SCR_AIGroup : "{A39EEA59984DF6DE}Prefabs/Groups/BLUFOR/GC_CAF/1987 Canadian Army/Group_CAF_WeaponsSection_Alt_P.et" {
+ coords 6188.291 110.254 5080.023
 }
