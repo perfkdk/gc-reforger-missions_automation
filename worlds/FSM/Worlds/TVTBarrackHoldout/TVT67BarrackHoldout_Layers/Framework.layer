@@ -89,7 +89,27 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     }
     SCR_Faction "{62EB308733CA83DD}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
-      m_sCallsignGroupFormat ""
+      m_aSquadNames {
+       SCR_CallsignInfo "{58B2B630FDD64B6D}" {
+        m_sCallsign "Sparta"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B53}" {
+        m_sCallsign "Somalia"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B51}" {
+        m_sCallsign "Strelkov"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B50}" {
+        m_sCallsign "Motorola"
+       }
+       SCR_CallsignInfo "{61C8F1ACA9FDB12D}" {
+        m_sCallsign "Zelenegorsk"
+       }
+       SCR_CallsignInfo "{653267EBF9B94F5E}" {
+        m_sCallsign "Givi"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
       m_sCallsignCharacterFormat ""
       m_sCallsignCharacterWithRoleFormat ""
      }
@@ -216,9 +236,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2924.336 215.172 13081.195
   m_sTitle "End Conditions"
   m_sTextData "End Conditions:"\
-  "Separatists take 90% casualties, Separatists victory. Mission will end in 3 minutes or a GM can end it prior."\
-  "CDFs take 100% Casualties, CDF Victory. Mission will end instantly."\
-  "Separatists captures the objective, Canadian victory. Mission will end instantly."\
+  "Separatists take 85% casualties, CF victory. Mission will end in 3 minutes or a GM can end it prior."\
+  "CDFs take 90% Casualties, Separatist Victory. Mission will end in 3 minutes or a GM can end it prior. "\
+  "Separatists captures the objective, Separatist victory. Mission will end instantly."\
   ""\
   "There is no overall CO for the Separatists. Sparta is in charge of the Sparta Platoon and Motorola is in charge of the Motorola platoon. However, both platoon leaders can work together."\
   ""\
@@ -340,10 +360,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{64A4F12F2711FB79}" {
      m_messageTitle "Separatist VICTORY"
-     m_messageBody "The Separatist have eliminated all the CDF."
+     m_messageBody "The Separatists have killed most of the CDF. Mission will end in 3 minutes or the GM can end it prior. "
     }
     TILW_EndGameInstruction "{6490091469B3C8AF}" {
-     m_executionDelay 15
+     m_executionDelay 180
      m_factionKey "GC_SEPARATIST"
     }
    }
@@ -372,11 +392,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{64A047FD08B987FC}" {
    m_flagName "Attackers Win"
    m_factionKey "GC_CDF"
+   m_casualtyRatio 0.9
   }
   TILW_FactionPlayersKilledFlag "{64A047FD09D0EEA1}" {
    m_flagName "Attackers Lose"
    m_factionKey "GC_SEPARATIST"
-   m_casualtyRatio 0.9
+   m_casualtyRatio 0.85
   }
  }
 }

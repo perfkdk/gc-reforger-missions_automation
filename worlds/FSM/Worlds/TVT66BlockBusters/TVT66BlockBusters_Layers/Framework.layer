@@ -89,7 +89,18 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     }
     SCR_Faction "{62EB308733CA83DD}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
-      m_sCallsignGroupFormat ""
+      m_aSquadNames {
+       SCR_CallsignInfo "{58B2B630FDD64B6D}" {
+        m_sCallsign "Sparta"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B53}" {
+        m_sCallsign "Somalia"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B51}" {
+        m_sCallsign "Strelkov"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
       m_sCallsignCharacterFormat ""
       m_sCallsignCharacterWithRoleFormat ""
      }
@@ -97,8 +108,14 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     SCR_Faction "{64AA098AEA5B1498}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{64AA098204A61453}" {
       m_aSquadNames {
-       SCR_CallsignInfo "{64B8ED8EAACA8245}" {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign ""
+       }
+       SCR_CallsignInfo "{61677618371B4C91}" {
         m_sCallsign "Delta"
+       }
+       SCR_CallsignInfo "{64B8ED8EAACA8245}" {
+        m_sCallsign "Whisky"
        }
       }
      }
@@ -247,8 +264,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2924.336 215.172 13081.195
   m_sTitle "End Conditions"
   m_sTextData "End Conditions:"\
-  "Canadians takes 90% casualties, Russian victory. Mission will end in 3 minutes or a GM can end it prior."\
-  "Separatists take 100% Casualties, Canadian Victory. Mission will end instantly."\
+  "Canadians takes 85% casualties, Separatist victory. Mission will end in 3 minutes or a GM can end it prior."\
+  "Separatists take 90% Casualties, Canadian Victory. Mission will end instantly."\
   "Canadians captures the objective, Canadian victory. Mission will end instantly."\
   ""\
   "Setup timer: 2 minutes"\
@@ -377,10 +394,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{64A4F12F2711FB79}" {
      m_messageTitle "CA VICTORY"
-     m_messageBody "The CAF have eliminated all the separatists."
+     m_messageBody "The CAF have eliminated most of the separatists. The Mission will end in 3 minutes or the GM can end it. "
     }
     TILW_EndGameInstruction "{6490091469B3C8AF}" {
-     m_executionDelay 15
+     m_executionDelay 180
      m_factionKey "GC_CAF"
     }
    }
@@ -409,11 +426,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{64A047FD08B987FC}" {
    m_flagName "Blufor Killed"
    m_factionKey "GC_CAF"
-   m_casualtyRatio 0.9
+   m_casualtyRatio 0.85
   }
   TILW_FactionPlayersKilledFlag "{64A047FD09D0EEA1}" {
    m_flagName "OPFOR Killed"
    m_factionKey "GC_SEPARATIST"
+   m_casualtyRatio 0.9
   }
  }
 }
