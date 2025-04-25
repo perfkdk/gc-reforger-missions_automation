@@ -65,7 +65,7 @@ Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ur
 }
 SCR_AIGroup sov_0 : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleCoyHQ_P.et" {
  components {
-  PS_GroupCallsignAssigner "{651086D3C93788C7}" {
+  PS_GroupCallsignAssigner "{65136701CA021D8F}" {
    m_iCompanyCallsign 2
    m_iPlatoonCallsign 2
   }
@@ -80,10 +80,9 @@ SCR_AIGroup sov_0 : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/USSR/SovietArmy_Moto
 $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
  sov_1 {
   components {
-   PS_GroupCallsignAssigner "{6158048CF383107C}" {
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 2
-    m_iSquadCallsign 2
    }
   }
   coords 2757.747 243.733 325.206
@@ -97,7 +96,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
  }
  sov_2 {
   components {
-   PS_GroupCallsignAssigner "{6158048CF383107C}" {
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 2
     m_iSquadCallsign 3
@@ -114,7 +113,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
  }
  sov_3 {
   components {
-   PS_GroupCallsignAssigner "{6158048CF383107C}" {
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 2
     m_iSquadCallsign 4
@@ -131,7 +130,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
  }
  sov_4 {
   components {
-   PS_GroupCallsignAssigner "{6158048CF383107C}" {
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 2
     m_iSquadCallsign 6
@@ -148,7 +147,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
  }
  sov_5 {
   components {
-   PS_GroupCallsignAssigner "{6158048CF383107C}" {
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 2
     m_iSquadCallsign 7
@@ -165,7 +164,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
  }
  sov_6 {
   components {
-   PS_GroupCallsignAssigner "{6158048CF383107C}" {
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 2
     m_iSquadCallsign 8
@@ -184,7 +183,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
 $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRiflePHQ_P.et" {
  {
   components {
-   PS_GroupCallsignAssigner "{651086D3C4642388}" {
+   PS_GroupCallsignAssigner "{65136701CA021D8F}" {
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 2
     m_iSquadCallsign 1
@@ -201,7 +200,7 @@ $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
  }
  {
   components {
-   PS_GroupCallsignAssigner "{651086D3C4642388}" {
+   PS_GroupCallsignAssigner "{65136701CA021D8F}" {
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 2
     m_iSquadCallsign 5
