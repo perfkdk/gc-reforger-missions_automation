@@ -36,7 +36,13 @@ $grp GenericEntity : "{2323F9E4C524F047}Prefabs/Compositions/Slotted/SlotFlatSma
       ID "6186D3A8CE3D2672"
       components {
        SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-        Enabled 0
+        m_aContainers {
+         SCR_ResourceContainer "{6534AED54219CC57}" {
+          m_eResourceRights FACTION
+          m_fResourceValueCurrent 900000
+          m_fResourceValueMax 900000
+         }
+        }
        }
       }
      }
@@ -55,7 +61,19 @@ $grp GenericEntity : "{2323F9E4C524F047}Prefabs/Compositions/Slotted/SlotFlatSma
       ID "6186D3A8CE3D2672"
       components {
        SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-        Enabled 0
+        m_aContainers {
+         SCR_ResourceContainer "{6534AED571F28D83}" {
+          m_eResourceRights FACTION
+          m_fResourceValueCurrent 900000
+          m_fResourceValueMax 900000
+          m_fResourceGain 0
+          m_fResourceGainTickrate 0
+          m_fResourceGainTimeout 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
        }
       }
      }
