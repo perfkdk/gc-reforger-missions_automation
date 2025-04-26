@@ -8,15 +8,15 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 6
-   m_iStartingMinutes 20
+   m_iStartingMinutes 40
    m_fDayTimeAcceleration 0.1
    m_fNightTimeAcceleration 0.1
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{650415CBAFAE6875}" {
-     m_sWeatherPresetName "Rainy"
+     m_sWeatherPresetName "Heavy Thunderstorm"
      m_iStartingHour 6
-     m_iStartingMinutes 20
+     m_iStartingMinutes 40
     }
    }
    m_bUseSpecifiedDate 1
