@@ -54,12 +54,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Composition:"\
   "1x Rifle Squad Remnants"\
-  "1x Recon BRDM Attachment"\
   "1x BTR Attchment"\
   ""\
   "Strength:"\
-  "Squad (+) at 10x man strength"\
-  "1x Recon BRDM"\
+  "Squad (+) at 8x man strength"\
   "1x BTR-70"\
   ""\
   "Supporting Fires:"\
@@ -76,9 +74,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 1213.754 148.086 6516.259
   m_sTitle "II. Mission:"
-  m_sTextData "Platoon has ordered us to maneuver and patrol the area as we see fit, with a BTR attached to us for transport and recon BRDM to support. Seeing as we're remnants from the platoon that were assaulted at the sawmil, best we do what we can to support our new platoon."\
+  m_sTextData "Platoon has ordered us to maneuver and patrol the area as we see fit, with a BTR attached to us for transport. Seeing as we're remnants from the platoon that were assaulted at the sawmil, best we do what we can to support our new platoon."\
   ""\
-  "We got a recon Platoon patroling the south side in the forest."
+  "We got a recon Platoon patroling the south side in the forest."\
+  ""\
+  "Also been ordered to try to stay together to minimize potential friendly fire incidents as its very dark outside."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -92,7 +92,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "1. Concept of the Operation:"\
   "Squad Commander's Discretion."\
-  "It is advised to spread our forces out and utilize the BRDM Recon capabilities to locate the likely route the enemy may take, or wait for our recon platoon to locate them for us."\
+  "It is advised to spread our forces out and utilize the BTR70 capabilities to locate the likely route the enemy may take, or wait for our recon platoon to locate them for us."\
   ""\
   "2. Maneuver:"\
   "Squad Commander's Discretion."\
@@ -116,7 +116,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "IV. Vehicles:"\
   "Rifle squad is equiped with;"\
-  "1x Recon BRDM attachment"\
+  "1x BTR70"\
   ""\
   "No Replacement is provided or accounted for if losses are sustained."
   m_aVisibleForFactions {

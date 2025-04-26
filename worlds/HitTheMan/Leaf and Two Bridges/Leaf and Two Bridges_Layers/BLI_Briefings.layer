@@ -130,7 +130,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Canadian Victory is achieved once both buildings are secured."\
   ""\
-  "USSR Victory is achived by causing 85% casualties to CAF, before or after the buildings have been secured or recaptured."\
+  "USSR Victory is achived by causing 83% casualties to CAF (39.84 / 48), before or after the buildings have been secured or recaptured."\
   ""\
   "Mortars have unlimited supplies, but are REQUIRED to be called in via Radio for fires. Not always observed but they must be called in to conduct a firemission. No random firing."\
   ""
