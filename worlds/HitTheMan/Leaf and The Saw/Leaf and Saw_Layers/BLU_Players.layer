@@ -34,7 +34,13 @@ $grp GenericEntity : "{2323F9E4C524F047}Prefabs/Compositions/Slotted/SlotFlatSma
       ID "6186D3A8CE3D2672"
       components {
        SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-        Enabled 0
+        m_aContainers {
+         SCR_ResourceContainer "{6534AED35AC48377}" {
+          m_eResourceRights ALL
+          m_fResourceValueCurrent 900000
+          m_fResourceValueMax 900000
+         }
+        }
        }
       }
      }
