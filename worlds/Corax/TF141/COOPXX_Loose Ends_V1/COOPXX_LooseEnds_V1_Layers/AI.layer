@@ -449,7 +449,7 @@ $grp TILW_PrefabSpawnerEntity {
  lakeqrf1 {
   coords 342.092 45.508 3640.078
   angleY -169.128
-  m_prefab "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_RifleSquad_P.et"
+  m_prefab "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et"
   m_conditionFlag "atlake"
   m_spawnTimings {
    0
@@ -461,7 +461,7 @@ $grp TILW_PrefabSpawnerEntity {
  lakeqrf2 {
   coords 394.486 18.543 2558.317
   angleY -169.128
-  m_prefab "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_RifleSquad_P.et"
+  m_prefab "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et"
   m_conditionFlag "atlake"
   m_spawnTimings {
    0
