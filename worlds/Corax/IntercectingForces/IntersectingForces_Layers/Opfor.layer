@@ -1,3 +1,11 @@
+$grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ ptrl {
+  coords 1070.559 143.374 4605.764
+ }
+ ptrl2 {
+  coords 1223.192 159.853 4874.093
+ }
+}
 $grp SCR_DefendWaypoint : "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et" {
  defhq {
   coords 1065.568 138.147 4208.685
@@ -59,6 +67,13 @@ $grp SCR_DefendWaypoint : "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_Def
   coords 1087.646 137.24 4252.482
   CompletionRadius 100
  }
+ OP1 {
+  coords 1239.122 180.39 4742.951
+  CompletionRadius 10
+ }
+}
+AIWaypointCycle cycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ coords 1228.222 159.216 4864.938
 }
 $grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
  loiter {
@@ -235,6 +250,20 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_conditionFlag "reinforce"
   m_waypointNames {
    "defbridge"
+  }
+ }
+ {
+  coords 1241.737 180.765 4740.458
+  m_prefab "{4C44B4D8F2820F25}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_SentryTeam.et"
+  m_waypointNames {
+   "OP1"
+  }
+ }
+ {
+  coords 1221.434 159.578 4869.82
+  m_prefab "{4C44B4D8F2820F25}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_SentryTeam.et"
+  m_waypointNames {
+   "ptrl" "ptrl" "cycle"
   }
  }
 }

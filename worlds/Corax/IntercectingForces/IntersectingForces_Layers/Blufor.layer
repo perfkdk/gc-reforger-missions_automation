@@ -1,9 +1,3 @@
-GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
- coords 784.546 135.969 4172.245
-}
-GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
- coords 761.835 135.894 4211.091
-}
 $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf/P/Group_US_Army_1985_MechSquad_P.et" {
  {
   coords 270.467 154.478 4859.558
@@ -75,9 +69,6 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   m_bSetPlayable 1
  }
 }
-GenericEntity : "{4CD4DFB503796DEE}Prefabs/Compositions/Slotted/SlotFlatSmall/CRX_MachineGunNest_S_USSR_01.et" {
- coords 748.274 135.602 4197.157
-}
 $grp SCR_AIGroup : "{4D7315B25A803917}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf/P/Group_US_Army_1985_MechPHQ_P.et" {
  {
   components {
@@ -106,22 +97,58 @@ $grp SCR_AIGroup : "{4D7315B25A803917}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   m_bSetPlayable 1
  }
 }
-StaticModelEntity : "{605A7848CB4D361A}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_USSR_01.et" {
- coords 784.268 136.011 4198.117
-}
-GenericEntity : "{7492BAA88AFCEDCD}Prefabs/Compositions/Slotted/SlotFlatSmall/CRX_Bunker_S_USSR_01.et" {
- coords 765.298 135.875 4176.663
-}
-GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
- coords 766.317 135.946 4194.958
-}
 $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et" {
  M113A2_APC_MERDC4 {
   components {
+   SCR_UniversalInventoryStorageComponent "{5E78B2EECD014A90}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6536AA4C41D3F904}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6536AA4C92D9301B}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C99BBEB42}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C8E4C0FDD}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6536AA4CA046B9E6}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CF774AD19}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CE7D2BE4D}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
      RegisteringComponentSlotInfo Turret {
-      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
      }
     }
    }
@@ -133,10 +160,85 @@ $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et
  }
  M113A2_APC_MERDC1 {
   components {
+   SCR_UniversalInventoryStorageComponent "{5E78B2EECD014A90}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6536AA4C41D3F904}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6536AA4C92D9301B}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C99BBEB42}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C8E4C0FDD}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6536AA4CA046B9E6}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CF774AD19}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CE7D2BE4D}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4D006C839D}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6536AA4D57F8C370}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6536AA4D59882E83}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{6536AA4D4A300AA9}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6536AA4D68E12DEF}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
      RegisteringComponentSlotInfo Turret {
-      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
      }
     }
    }
@@ -148,10 +250,55 @@ $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et
  }
  M113A2_APC_MERDC3 {
   components {
+   SCR_UniversalInventoryStorageComponent "{5E78B2EECD014A90}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6536AA4C41D3F904}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6536AA4C92D9301B}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C99BBEB42}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C8E4C0FDD}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6536AA4CA046B9E6}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CF774AD19}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CE7D2BE4D}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
      RegisteringComponentSlotInfo Turret {
-      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
      }
     }
    }
@@ -163,10 +310,55 @@ $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et
  }
  M113A2_APC_MERDC2 {
   components {
+   SCR_UniversalInventoryStorageComponent "{5E78B2EECD014A90}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6536AA4C41D3F904}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6536AA4C92D9301B}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C99BBEB42}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C8E4C0FDD}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6536AA4CA046B9E6}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CF774AD19}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CE7D2BE4D}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
      RegisteringComponentSlotInfo Turret {
-      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
      }
     }
    }
@@ -178,10 +370,55 @@ $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et
  }
  M113A2_APC_MERDC7 {
   components {
+   SCR_UniversalInventoryStorageComponent "{5E78B2EECD014A90}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6536AA4C41D3F904}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6536AA4C92D9301B}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C99BBEB42}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C8E4C0FDD}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6536AA4CA046B9E6}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CF774AD19}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CE7D2BE4D}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
      RegisteringComponentSlotInfo Turret {
-      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
      }
     }
    }
@@ -193,25 +430,145 @@ $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et
  }
  M113A2_APC_MERDC6 {
   components {
+   SCR_UniversalInventoryStorageComponent "{5E78B2EECD014A90}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6536AA4C41D3F904}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6536AA4C92D9301B}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C99BBEB42}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C8E4C0FDD}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6536AA4CA046B9E6}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CF774AD19}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CE7D2BE4D}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4D006C839D}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6536AA4D57F8C370}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6536AA4D59882E83}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{6536AA4D4A300AA9}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6536AA4D68E12DEF}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
      RegisteringComponentSlotInfo Turret {
-      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
      }
     }
    }
   }
-  coords 254.223 157.78 4825.876
+  coords 254.223 157.78 4825.875
   angleX -5.017
   angleY 28.572
   angleZ -0.288
  }
  M113A2_APC_MERDC5 {
   components {
+   SCR_UniversalInventoryStorageComponent "{5E78B2EECD014A90}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6536AA4C41D3F904}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6536AA4C92D9301B}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C99BBEB42}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C8E4C0FDD}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6536AA4CA046B9E6}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CF774AD19}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CE7D2BE4D}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
      RegisteringComponentSlotInfo Turret {
-      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
      }
     }
    }
@@ -223,10 +580,55 @@ $grp Tank : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A2_APC_MERDC.et
  }
  M113A2_APC_MERDC8 {
   components {
+   SCR_UniversalInventoryStorageComponent "{5E78B2EECD014A90}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6536AA4C41D3F904}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{6536AA4C92D9301B}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C99BBEB42}" {
+      SlotTemplate InventoryStorageSlot paraflarewhite {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{6536AA4C8E4C0FDD}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{6536AA4CA046B9E6}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CF774AD19}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6536AA4CE7D2BE4D}" {
+      SlotTemplate InventoryStorageSlot stanags {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
      RegisteringComponentSlotInfo Turret {
-      Prefab "{48C7B9CA13738EED}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
      }
     }
    }

@@ -30,11 +30,15 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_bRandomStartingWeather 1
    m_aStartingWeatherAndTime {
-    SCR_TimeAndWeatherState "{651D3DD1F614B3E2}" {
-     m_sWeatherPresetName "Rainy"
+    SCR_TimeAndWeatherState "{6536AA5A2F86C321}" {
+     m_sWeatherPresetName "Heavy Thunderstorm"
+     m_iStartingHour 6
     }
    }
+   m_bRandomWeatherChanges 1
    m_bUseSpecifiedDate 1
    m_iSetDay 12
    m_iSetMonth 4
@@ -179,5 +183,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_definition TILW_BaseTerm "{6520BB572CF3E852}" {
    }
   }
+ }
+}
+$grp GenericEntity : "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et" {
+ {
+  coords 812.006 134.905 4452.108
+ }
+ {
+  coords 859.256 137.883 4376.219
  }
 }

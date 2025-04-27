@@ -1,3 +1,83 @@
+$grp GenericEntity {
+ {
+  angleY -28.5
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6520BB5A4E84203B}" {
+   }
+  }
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{651F07C23289A429}" {
+   }
+  }
+  coords 1056.784 143.156 4238.715
+  angleY -132.841
+  {
+   $grp GenericEntity {
+    {
+     coords 6.661 0 -0.13
+     {
+      $grp GenericEntity {
+       {
+        coords -0.747 0.407 0.319
+       }
+       {
+        coords -0.051 0.715 0.008
+       }
+       {
+        coords 0.004 0.353 -0.001
+       }
+      }
+     }
+    }
+    {
+     coords 6.465 0.382 1.693
+    }
+    {
+     coords 6.291 0 -1.858
+    }
+    {
+     {
+      Turret {
+       components {
+        TILW_VehicleCrewComponent "{6520BB55CAC5BA93}" {
+         m_crewConfig TILW_CrewConfig "{6520BB55C9C36F64}" {
+          m_crewGroups {
+           TILW_CrewGroup "{6520BB55C8E57458}" {
+            m_crewStations {
+             TILW_CrewStation "{6520BB55F30B5588}" {
+             }
+            }
+           }
+           TILW_CrewGroup "{6520BB55A3AFE4C7}" {
+            m_crewStations {
+             TILW_CrewStation "{6520BB55A2DD42C2}" {
+              m_allowPilot 0
+              m_allowCargo 0
+              m_characters {
+               "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et"
+              }
+             }
+            }
+           }
+          }
+          m_noTurretDismount 1
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+   StaticModelEntity {
+    coords 6.251 0 1.346
+   }
+  }
+ }
+}
 GenericEntity : "{051A6522307D9476}Prefabs/Compositions/Misc/FreeRoamBuilding/ACE_TrenchHalf_01_long.et" {
  coords 757.318 137.375 4095.759
  angleY -98.769
@@ -223,6 +303,14 @@ $grp GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSma
    }
   }
   coords 991.286 141.242 4622.462
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6524FA3BD66E2363}" {
+   }
+  }
+  coords 1238.859 180.087 4743.253
+  angleY -79.099
  }
 }
 GenericEntity : "{3B2D8CB93F906062}Prefabs/Compositions/Misc/SubCompositions/Sandbag_round_Cluttered_USSR_01.et" {
@@ -607,9 +695,6 @@ $grp Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
 }
 GenericEntity : "{74843BB0BF08A845}Prefabs/Vegetation/Cuttings/Corylus_avellana_small_01.et" {
  coords 888.313 140.332 4105.867
-}
-GenericEntity : "{7492BAA88AFCEDCD}Prefabs/Compositions/Slotted/SlotFlatSmall/CRX_Bunker_S_USSR_01.et" {
- angleY -28.5
 }
 GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
  components {
@@ -1084,12 +1169,6 @@ $grp GenericEntity : "{C18F7D0B8D78785A}PrefabsEditable/Auto/Compositions/Misc/S
   coords 1010.197 0 4129.477
  }
 }
-GenericEntity : "{C81422463184E45C}Prefabs/Compositions/Slotted/SlotFlatSmall/CRX_SandbagPosition_S_USSR_04.et" {
- components {
-  TILW_NavmeshRegenComponent "{6520BB5A4E84203B}" {
-  }
- }
-}
 GenericEntity : "{D16F58EC1C0027D7}Prefabs/Vegetation/Cuttings/Salix_cinerea_medium_01.et" {
  coords 889.196 139.896 4108.854
 }
@@ -1129,80 +1208,6 @@ $grp GenericEntity : "{D8C2B968F3C757C0}PrefabsEditable/Auto/Props/Military/Sand
  {
   coords 758.229 137.375 4098.078
   angleY 30.595
- }
-}
-GenericEntity : "{DAF6DE2422B512D5}Prefabs/Compositions/Slotted/SlotRoadLarge/CRX_Checkpoint_L_USSR_01.et" {
- components {
-  TILW_NavmeshRegenComponent "{651F07C23289A429}" {
-  }
- }
- coords 1056.784 143.156 4238.715
- angleY -132.841
- {
-  GenericEntity {
-   ID "651F07DA037AE466"
-   coords 6.661 0 -0.13
-   {
-    GenericEntity {
-     ID "5CB0D997E5503E18"
-     coords -0.747 0.407 0.319
-    }
-    GenericEntity {
-     ID "5216C470CA8AD60B"
-     coords -0.051 0.715 0.008
-    }
-    GenericEntity {
-     ID "5216C470CA8AD618"
-     coords 0.004 0.353 -0.001
-    }
-   }
-  }
-  GenericEntity {
-   ID "651F07DA037AE46B"
-   coords 6.465 0.382 1.693
-  }
-  GenericEntity {
-   ID "651F07DA0377B7BA"
-   coords 6.291 0 -1.858
-  }
-  GenericEntity {
-   ID "651F07DA037AC167"
-   {
-    Turret {
-     ID "5CCCBEDD771835C6"
-     components {
-      TILW_VehicleCrewComponent "{6520BB55CAC5BA93}" {
-       m_crewConfig TILW_CrewConfig "{6520BB55C9C36F64}" {
-        m_crewGroups {
-         TILW_CrewGroup "{6520BB55C8E57458}" {
-          m_crewStations {
-           TILW_CrewStation "{6520BB55F30B5588}" {
-           }
-          }
-         }
-         TILW_CrewGroup "{6520BB55A3AFE4C7}" {
-          m_crewStations {
-           TILW_CrewStation "{6520BB55A2DD42C2}" {
-            m_allowPilot 0
-            m_allowCargo 0
-            m_characters {
-             "{145DBC42B19FC4D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Rifleman_KLMK.et"
-            }
-           }
-          }
-         }
-        }
-        m_noTurretDismount 1
-       }
-      }
-     }
-    }
-   }
-  }
-  StaticModelEntity {
-   ID "651F07DA037A4E97"
-   coords 6.251 0 1.346
-  }
  }
 }
 GenericEntity : "{E1893BF545D216A2}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Mix_V1.et" {
