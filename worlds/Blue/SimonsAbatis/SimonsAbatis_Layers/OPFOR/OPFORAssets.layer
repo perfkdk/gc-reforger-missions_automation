@@ -1,0 +1,155 @@
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{60EB306267117495}" {
+      SourceMaterial "BTR_70_base_exterior_Body"
+      AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat"
+     }
+    }
+   }
+   RHS_GroupMaterialController "{609EA3D1CA4AD40C}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43B}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD438}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43F}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60EB3061E5B6F277}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F275}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F274}" {
+      NumSlots 0
+     }
+    }
+   }
+   TILW_Flag_EntityDamage "{64D677D7475FF8FD}" {
+    m_flagName "BTR1_DESTROYED"
+   }
+  }
+  coords 5653.743 76.846 4740.607
+  angleX 6.223
+  angleY -18.587
+  angleZ 7.261
+ }
+ BTR70_AFRF2 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{60EB306267117495}" {
+      SourceMaterial "BTR_70_base_exterior_Body"
+      AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat"
+     }
+    }
+   }
+   RHS_GroupMaterialController "{609EA3D1CA4AD40C}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43B}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD438}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43F}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+    }
+   }
+   TILW_Flag_EntityDamage "{64D677D759BBD6C5}" {
+    m_flagName "BTR2_DESTROYED"
+   }
+  }
+  coords 5660.209 74.571 4718.492
+  angleX 6.053
+  angleY -17.256
+  angleZ 7.404
+ }
+ BTR70_AFRF3 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{60EB306267117495}" {
+      SourceMaterial "BTR_70_base_exterior_Body"
+      AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat"
+     }
+    }
+   }
+   RHS_GroupMaterialController "{609EA3D1CA4AD40C}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43B}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD438}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43F}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+    }
+   }
+   TILW_Flag_EntityDamage "{64D677D7526035D9}" {
+    m_flagName "BTR3_DESTROYED"
+   }
+  }
+  coords 5666.664 72.861 4699.152
+  angleX 4.537
+  angleY -16.435
+  angleZ -0.407
+ }
+ BTR70_AFRF4 {
+  components {
+   MeshObject "{51DAA09FEFBFC0E7}" {
+    Materials {
+     MaterialAssignClass "{60EB306267117495}" {
+      SourceMaterial "BTR_70_base_exterior_Body"
+      AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat"
+     }
+    }
+   }
+   RHS_GroupMaterialController "{609EA3D1CA4AD40C}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43B}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD438}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{609EA3D1CA4AD43F}" {
+      m_iTextureID 6
+      m_bRandomize 0
+     }
+    }
+   }
+   TILW_Flag_EntityDamage "{64D677D7526035D9}" {
+    m_flagName "BTR4_DESTROYED"
+   }
+  }
+  coords 5671.047 71.83 4683.746
+  angleX 4.537
+  angleY -16.435
+  angleZ -0.407
+ }
+}
