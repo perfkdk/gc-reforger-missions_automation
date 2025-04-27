@@ -266,4 +266,70 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    "ptrl" "ptrl" "cycle"
   }
  }
+ {
+  coords 805.095 140.49 3988.684
+  m_prefab "{239D26E5BCFA8A47}worlds/Corax/IntercectingForces/EffectModule_Zoned_MortarBarrage_Larger.et"
+  m_conditionFlag "mortar4"
+  m_spawnTimings {
+   60
+  }
+ }
+ {
+  coords 727.316 135.308 4252.449
+  m_prefab "{239D26E5BCFA8A47}worlds/Corax/IntercectingForces/EffectModule_Zoned_MortarBarrage_Larger.et"
+  m_conditionFlag "mortar3"
+  m_spawnTimings {
+   60
+  }
+ }
+ {
+  coords 848.531 137.188 4494.096
+  m_prefab "{239D26E5BCFA8A47}worlds/Corax/IntercectingForces/EffectModule_Zoned_MortarBarrage_Larger.et"
+  m_conditionFlag "mortar2"
+  m_spawnTimings {
+   60
+  }
+ }
+ {
+  coords 1215.648 175.186 4665.878
+  m_prefab "{239D26E5BCFA8A47}worlds/Corax/IntercectingForces/EffectModule_Zoned_MortarBarrage_Larger.et"
+  m_conditionFlag "mortar1"
+  m_spawnTimings {
+   60
+  }
+ }
+}
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ {
+  coords 852.82 137.214 4491.13
+  m_queryRadius 150
+  m_flagName "mortar2"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "US"
+ }
+ {
+  coords 744.976 134.459 4259.275
+  m_queryRadius 150
+  m_flagName "mortar3"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "US"
+ }
+ {
+  coords 1249.581 178.137 4654.916
+  m_queryRadius 150
+  m_flagName "mortar1"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "US"
+ }
+ {
+  coords 831.363 141.796 4002.245
+  m_queryRadius 150
+  m_flagName "mortar4"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "US"
+ }
 }

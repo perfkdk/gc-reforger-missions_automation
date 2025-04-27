@@ -199,6 +199,23 @@ $grp Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" 
   angleY -90.15
  }
 }
+$grp GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck.et" {
+ {
+  coords 717.844 143.344 3753.334
+  angleY 32.198
+ }
+ {
+  coords 724.709 143.344 3769.094
+ }
+ {
+  coords 730.497 143.469 3751.068
+  angleY 69.989
+ }
+ {
+  coords 736.916 143.435 3765.87
+  angleY 29.475
+ }
+}
 $grp StaticModelEntity : "{2D303C505CC6576A}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_camonet_foundation.et" {
  {
   coords 1072.678 137.69 4195.985
