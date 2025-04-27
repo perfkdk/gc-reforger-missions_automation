@@ -8,125 +8,6 @@ SCR_AIGroup : "{04FC2603763DCF52}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRifle
  m_iGroupRadioFrequency 42000
  m_sCustomNameSet "MG Squad"
 }
-$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
- BTR70_AFRF1 {
-  components {
-   MeshObject "{51DAA09FEFBFC0E7}" {
-    Materials {
-     MaterialAssignClass "{60EB306267117495}" {
-      SourceMaterial "BTR_70_base_exterior_Body"
-      AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat"
-     }
-    }
-   }
-   RHS_GroupMaterialController "{609EA3D1CA4AD40C}" {
-    m_aGroups {
-     RHS_MaterialGroupProperties "{609EA3D1CA4AD43B}" {
-      m_iTextureID 2
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{609EA3D1CA4AD438}" {
-      m_iTextureID 4
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{609EA3D1CA4AD43F}" {
-      m_iTextureID 4
-      m_bRandomize 0
-     }
-    }
-   }
-   SlotManagerComponent "{55BCE45E438E4CFF}" {
-    Slots {
-     RegisteringComponentSlotInfo Turret {
-      Prefab "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et"
-     }
-    }
-   }
-  }
-  coords 3962.297 31.651 7410.75
-  angleX 5.455
-  angleY 179.197
-  angleZ 7.018
- }
- BTR70_AFRF2 {
-  components {
-   MeshObject "{51DAA09FEFBFC0E7}" {
-    Materials {
-     MaterialAssignClass "{60EB306267117495}" {
-      SourceMaterial "BTR_70_base_exterior_Body"
-      AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat"
-     }
-    }
-   }
-   RHS_GroupMaterialController "{609EA3D1CA4AD40C}" {
-    m_aGroups {
-     RHS_MaterialGroupProperties "{609EA3D1CA4AD43B}" {
-      m_iTextureID 2
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{609EA3D1CA4AD438}" {
-      m_iTextureID 4
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{609EA3D1CA4AD43F}" {
-      m_iTextureID 5
-      m_bRandomize 0
-     }
-    }
-   }
-   SlotManagerComponent "{55BCE45E438E4CFF}" {
-    Slots {
-     RegisteringComponentSlotInfo Turret {
-      Prefab "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et"
-     }
-    }
-   }
-  }
-  coords 3949.315 30.893 7410.414
-  angleX 3.702
-  angleY 178.983
-  angleZ 7.047
- }
- BTR70_AFRF3 {
-  components {
-   MeshObject "{51DAA09FEFBFC0E7}" {
-    Materials {
-     MaterialAssignClass "{60EB306267117495}" {
-      SourceMaterial "BTR_70_base_exterior_Body"
-      AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body.emat"
-     }
-    }
-   }
-   RHS_GroupMaterialController "{609EA3D1CA4AD40C}" {
-    m_aGroups {
-     RHS_MaterialGroupProperties "{609EA3D1CA4AD43B}" {
-      m_iTextureID 2
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{609EA3D1CA4AD438}" {
-      m_iTextureID 4
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{609EA3D1CA4AD43F}" {
-      m_iTextureID 6
-      m_bRandomize 0
-     }
-    }
-   }
-   SlotManagerComponent "{55BCE45E438E4CFF}" {
-    Slots {
-     RegisteringComponentSlotInfo Turret {
-      Prefab "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et"
-     }
-    }
-   }
-  }
-  coords 3936.196 30.408 7410.077
-  angleX 5.452
-  angleY 179.111
-  angleZ 6.131
- }
-}
 $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
  {
   components {
@@ -164,4 +45,78 @@ SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRifle
  coords 3938.653 29.685 7428.702
  m_iGroupRadioFrequency 42000
  m_sCustomNameSet "Commander"
+}
+$grp Vehicle : "{A635AE062BC44714}worlds/James/LacourtManor/Vehicles/BTR70_AFRF_LCM.et" {
+ BTR70_AFRF_LCM1 {
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 4
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 4
+      m_bRandomize 0
+     }
+    }
+   }
+  }
+  coords 3961.772 31.842 7404.618
+  angleX 1.963
+  angleY 177.185
+  angleZ 3.482
+ }
+ BTR70_AFRF_LCM2 {
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 4
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 5
+      m_bRandomize 0
+     }
+    }
+   }
+  }
+  coords 3951.389 31.302 7403.621
+  angleX 2.81
+  angleY 177.223
+  angleZ 2.548
+ }
+ BTR70_AFRF_LCM3 {
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 4
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 6
+      m_bRandomize 0
+     }
+    }
+   }
+  }
+  coords 3941.844 30.889 7403.548
+  angleX 2.81
+  angleY 177.223
+  angleZ 2.548
+ }
 }
