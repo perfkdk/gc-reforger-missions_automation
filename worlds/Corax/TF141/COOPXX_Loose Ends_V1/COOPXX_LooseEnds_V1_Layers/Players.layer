@@ -27,7 +27,6 @@ SCR_AIGroup : "{2B6A737E854586F0}Prefabs/Groups/BLUFOR/US/Army_2009_Rangers/P/Gr
   }
   PS_GroupCallsignAssigner "{6508C3582F634926}" {
    m_iPlatoonCallsign 1
-   m_iSquadCallsign 6
   }
  }
  coords 1806.55 15.094 2276.004
