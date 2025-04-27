@@ -267,7 +267,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  {
-  coords 805.095 140.49 3988.684
+  coords 829.94 142.021 3999.665
   m_prefab "{239D26E5BCFA8A47}worlds/Corax/IntercectingForces/EffectModule_Zoned_MortarBarrage_Larger.et"
   m_conditionFlag "mortar4"
   m_spawnTimings {
@@ -275,7 +275,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  {
-  coords 727.316 135.308 4252.449
+  coords 747.826 135.308 4251.362
   m_prefab "{239D26E5BCFA8A47}worlds/Corax/IntercectingForces/EffectModule_Zoned_MortarBarrage_Larger.et"
   m_conditionFlag "mortar3"
   m_spawnTimings {
@@ -291,7 +291,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  {
-  coords 1215.648 175.186 4665.878
+  coords 1247.831 175.186 4654.723
   m_prefab "{239D26E5BCFA8A47}worlds/Corax/IntercectingForces/EffectModule_Zoned_MortarBarrage_Larger.et"
   m_conditionFlag "mortar1"
   m_spawnTimings {
