@@ -1,3 +1,33 @@
+$grp SCR_AIGroup : "{228CF7E5A62E5A33}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Weap_Detach_P.et" {
+ CAFWeap_23 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 5
+   }
+  }
+  coords 5776.384 274.536 10205.735
+  angleY -103.599
+  m_aUnitPrefabSlots {
+   "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et" "{A78C57340C03477B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG_1_P.et" "{2B8A1EEAC7320722}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG2_1_P.et" "{0B622A37C302BFD9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MAT_1_P.et"
+  }
+ }
+ CAFWeap_13 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 5
+   }
+  }
+  coords 5792.127 274.776 10179.328
+  angleY -132.864
+  m_aUnitPrefabSlots {
+   "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et" "{A78C57340C03477B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG_1_P.et" "{2B8A1EEAC7320722}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG2_1_P.et" "{0B622A37C302BFD9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MAT_1_P.et"
+  }
+ }
+}
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
  LAV25_RHS1 {
   coords 5801.643 274.949 10163.282
@@ -43,180 +73,109 @@ $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
   m_sAttachmentGroupName "CAF_COYHQ"
  }
 }
-SCR_AIGroup CAF_COYHQ : "{8B6D913C01A899DB}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_CompanyHQ_P_2_2.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
+$grp SCR_AIGroup : "{446A6B53FBC8673B}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_PLT_HQ_P.et" {
+ CAFPL_HQ_2 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
   }
-  PS_GroupCallsignAssigner "{65055DBDD976B809}" {
+  coords 5775.454 274.473 10209.639
+  angleY -99.475
+  m_aUnitPrefabSlots {
+   "{373B40FAB9F262CA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_PLT_Commander_1_P.et" "{E1B0E0478D68E303}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_PLT_Warrant_1_P.et" "{B4C4A4C1E9C987B6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_Signaller_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
+  }
+  m_sCustomNameSet "2nd Platoon HQ"
+ }
+ CAFPL_HQ_1 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5789.41 274.715 10182.279
+  angleY -128.74
+  m_aUnitPrefabSlots {
+   "{373B40FAB9F262CA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_PLT_Commander_1_P.et" "{E1B0E0478D68E303}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_PLT_Warrant_1_P.et" "{B4C4A4C1E9C987B6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_Signaller_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
+  }
+  m_sCustomNameSet "1st Platoon HQ"
+ }
+}
+SCR_AIGroup CAF_COYHQ : "{4AA6802501A77D09}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_COY_HQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{651F086F466146B6}" {
    m_iCompanyCallsign 1
   }
  }
- coords 5775.191 274.374 10225.223
- angleX -5.45
- angleY 86.669
- angleZ -1.469
- m_aUnitPrefabSlots {
-  "{C6C0FD290450897D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_CompanyCommander_CW_2.et" "{587B993059A77981}worlds/HitTheMan/Mechanized Leaf/Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Company2iC_CW_2.et" "{469A2E1F2C8E0A03}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Signaller_CW_2.et" "{21D1F4A071703255}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Medic_CW_2.et" "{21D1F4A071703255}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Medic_CW_2.et" "{21D1F4A071703255}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Medic_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
+ coords 5774.202 274.375 10215.994
+ angleY -94.313
+ m_aUnitPrefabSlots + {
+  "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_Medic_1_P.et" "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_Medic_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
  }
 }
-$grp SCR_AIGroup : "{8F1076E35B70385E}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_RifleSection_P_2_2.et" {
- CAFRifle_11 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{65041559A4E080DB}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 2
-   }
-  }
-  coords 5802.852 274.909 10171.768
-  angleX -2.434
-  angleY 29.103
-  angleZ 0.693
-  m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
-  }
-  m_sCustomNameSet "1st Section"
- }
- CAFRifle_12 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{650415564B7837CE}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 3
-   }
-  }
-  coords 5795.513 274.814 10177.855
-  angleX -2.523
-  angleY 40.641
-  angleZ 0.192
-  m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
-  }
-  m_sCustomNameSet "2nd Section"
- }
+$grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Rifle_Sect_P.et" {
  CAFRifle_21 {
   components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{65041559A4E080DB}" {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 2
     m_iSquadCallsign 2
    }
   }
-  coords 5782.262 274.652 10194.296
-  angleX -2.955
-  angleY 55.687
-  angleZ 2.014
+  coords 5785.659 274.688 10187.045
+  angleY -120.162
   m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
+   "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
   m_sCustomNameSet "1st Section"
  }
  CAFRifle_22 {
   components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{650415564B7837CE}" {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 2
     m_iSquadCallsign 3
    }
   }
-  coords 5778.756 274.589 10203.085
-  angleX 0.322
-  angleY 68.947
-  angleZ 0.836
+  coords 5780.334 274.625 10196.52
+  angleY -113.164
   m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
+   "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
   m_sCustomNameSet "2nd Section"
  }
-}
-$grp SCR_AIGroup : "{AE97EE67B3502C07}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_WeaponsSection_Alt_P_2.et" {
- CAFWeap_13 {
+ CAFRifle_12 {
   components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{650821C51C63FE90}" {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 5
+    m_iSquadCallsign 3
    }
   }
-  coords 5792.572 274.759 10180.729
-  angleY 44.07
+  coords 5800.406 274.881 10172.374
+  angleY -139.921
   m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E97D6D7741701408}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG_CW_2.et" "{65B7F7FD2C34F218}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG2_CW_2.et" "{795355CA2CE824F1}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MAT_CW_2.et"
+   "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
-  m_sCustomNameSet "Weapons Detachment"
+  m_sCustomNameSet "2nd Section"
  }
- CAFWeap_23 {
+ CAFRifle_11 {
   components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{650821C51C63FE90}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 5
-   }
-  }
-  coords 5777.469 274.515 10206.986
-  angleY 73.419
-  m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E97D6D7741701408}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG_CW_2.et" "{65B7F7FD2C34F218}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG2_CW_2.et" "{795355CA2CE824F1}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MAT_CW_2.et"
-  }
-  m_sCustomNameSet "Weapons Detachment"
- }
-}
-$grp SCR_AIGroup : "{BE92CECA4FFF7CE5}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_PlatoonHQ_P_2_2.et" {
- CAFPL_HQ_1 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{65041556519F0E02}" {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
+    m_iSquadCallsign 2
    }
   }
-  coords 5789.215 274.706 10184.649
-  angleX -1.954
-  angleY 51.096
-  angleZ 0.427
+  coords 5809.245 274.922 10167.212
+  angleY -150.644
   m_aUnitPrefabSlots {
-   "{0A2AFCFD21908414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_PlatoonCommander_CW_2.et" "{A269B950EDE05284}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_PlatoonWarrant_CW_2.et" "{469A2E1F2C8E0A03}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Signaller_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
+   "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
- }
- CAFPL_HQ_2 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{65041556519F0E02}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 1
-   }
-  }
-  coords 5776.258 274.438 10212.298
-  angleX -0.576
-  angleY 80.156
-  angleZ 1.917
-  m_aUnitPrefabSlots {
-   "{0A2AFCFD21908414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_PlatoonCommander_CW_2.et" "{A269B950EDE05284}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_PlatoonWarrant_CW_2.et" "{469A2E1F2C8E0A03}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Signaller_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
-  }
+  m_sCustomNameSet "1st Section"
  }
 }

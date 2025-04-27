@@ -1,6 +1,5 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  D1_US_Situation {
-  coords 1837.339 260.178 11476.941
   m_sTitle "I. Situation"
   m_sTextData "Early 1990s. A light armored reconnaissance company is screening the divisions north-eastern flank."\
   "Earlier today, Bravo section of 1st LAR platoon spotted BRDMs moving into the town of Topolniki. Combined with previous intelligence, this suggests a Soviet reconnaissance company is advancing south west from Novaya Petrovka, towards the main force."\
@@ -25,7 +24,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 1
  }
  D1_USSR_Situation {
-  coords 1837.339 260.178 11476.941
   m_sTitle "I. Situation"
   m_sTextData "Early 1990s. You are a Soviet reconnaissance company tasked with locating a US Marine Division, which is known to be somewhere to the south west."\
   "Earlier today, the BRDM platoon briefly spotted a US HMMWV to the south west - factoring in previous intelligence, this suggests the towns of Sinystok and Vavilovo are being defended by at least a platoon."\
@@ -50,20 +48,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 1
  }
  D0_GL_Overview {
-  coords 1837.339 260.178 11476.941
   m_sTitle "Overview"
   m_sTextData "Early 1990s - a Soviet reconnaissance company attempts to break through one of two villages defended by a Marine Rifle platoon, while a LAR platoon screens its approach."\
   ""\
   ""\
   "US Rifle PL must be slotted as he has a special item."\
+  "US RTO must be slotted if the mortar is slotted."\
   ""\
   "US LAR and Rifle platoon have slightly different missions, and are commanded by separate players. LAR may coordinate with the infantry PL, but is not under his command (and vice versa)."
   m_bEmptyFactionVisibility 1
  }
  D6_GL_Notes {
-  coords 1837.339 260.178 11476.941
   m_sTitle "Notes"
   m_sTextData "Setup Timer: 5 minutes (USSR)"\
+  ""\
+  "LAVs have a radio backpack in the trunk in lieu of vehicle radios."\
   ""\
   "End conditions:"\
   "US Victory: 80% USSR casualties OR time limit (60 minutes) reached"\
@@ -73,7 +72,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 6
  }
  D2_US_Mission {
-  coords 1837.339 260.178 11476.941
   m_sTitle "II. Mission"
   m_sTextData "Rifle and LAR platoon have distinct missions (and commanders)."\
   ""\
@@ -94,7 +92,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 2
  }
  D5_US_Command {
-  coords 1837.339 260.178 11476.941
   m_sTitle "V. Command/Signal"
   m_sTextData "a. Signal"\
   ""\
@@ -120,7 +117,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 5
  }
  D4_US_Admin {
-  coords 1837.339 260.178 11476.941
   m_sTitle "IV. Administration/Logistics"
   m_sTextData "No resupply outside of what the vehicles carry"\
   ""\
@@ -135,7 +131,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 4
  }
  D5_USSR_Command {
-  coords 1837.339 260.178 11476.941
   m_sTitle "V. Command/Signal"
   m_sTextData "Company HQ (1x BTR-70):"\
   "510"\
@@ -156,7 +151,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 5
  }
  D2_USSR_Mission {
-  coords 1837.339 260.178 11476.941
   m_sTitle "II. Mission"
   m_sTextData "Assault and gain control of either Sinystok or Vavilovo, then proceed south west."
   m_aVisibleForFactions {
@@ -165,7 +159,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 2
  }
  D4_USSR_Service {
-  coords 1837.339 260.178 11476.941
   m_sTitle "IV. Administration/Logistics"
   m_sTextData "No resupply outside of what the vehicles carry"\
   ""\
@@ -176,7 +169,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 4
  }
  D3_USSR_Execution {
-  coords 1837.339 260.178 11476.941
   m_sTitle "III. Execution"
   m_sTextData "a. Commander's Intent"\
   ""\
@@ -193,7 +185,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 3
  }
  D3_US_Execution {
-  coords 1837.339 260.178 11476.941
   m_sTitle "III. Execution"
   m_sTextData "a. Commander's Intent"\
   ""\

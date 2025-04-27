@@ -1,4 +1,4 @@
-SCR_AIGroup : "{3328392DDCAB9973}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_RHS/Group_RHSCAF_PlatoonHQ_P.et" {
+SCR_AIGroup : "{3328392DDCAB9973}Prefabs/Groups/BLUFOR/GC_CAF/RHS Canadian Army/Group_RHSCAF_PlatoonHQ_P.et" {
  components {
   PS_GroupCallsignAssigner "{650C25018F5A4184}" {
   }
@@ -9,7 +9,7 @@ SCR_AIGroup : "{3328392DDCAB9973}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_R
  }
  m_sCustomNameSet "Platoon Headquarters - 11"
 }
-$grp SCR_AIGroup : "{4A75FE2125C6F2CE}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_Army_RHS/Group_RHSCAF_RifleSection_P.et" {
+$grp SCR_AIGroup : "{4A75FE2125C6F2CE}Prefabs/Groups/BLUFOR/GC_CAF/RHS Canadian Army/Group_RHSCAF_RifleSection_P.et" {
  {
   components {
    PS_GroupCallsignAssigner "{650C25019142AC8F}" {
@@ -17,7 +17,7 @@ $grp SCR_AIGroup : "{4A75FE2125C6F2CE}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_A
    }
   }
   coords 3787.409 15.052 627.321
-  m_sCustomNameSet "1st Section - 11A"
+  m_sCustomNameSet "1 Section - 11A"
  }
  {
   components {
@@ -26,7 +26,7 @@ $grp SCR_AIGroup : "{4A75FE2125C6F2CE}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_A
    }
   }
   coords 3829.719 17.047 596.588
-  m_sCustomNameSet "Second Section - 11B"
+  m_sCustomNameSet "2 Section - 11B"
  }
  {
   components {
@@ -35,7 +35,7 @@ $grp SCR_AIGroup : "{4A75FE2125C6F2CE}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_A
    }
   }
   coords 3841.84 14.844 631.802
-  m_sCustomNameSet "Third Section - 11C"
+  m_sCustomNameSet "3 Section - 11C"
  }
  {
   components {
@@ -44,7 +44,7 @@ $grp SCR_AIGroup : "{4A75FE2125C6F2CE}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_A
    }
   }
   coords 3856.969 15.187 614.833
-  m_sCustomNameSet "Fourth Section - 11D"
+  m_sCustomNameSet "4 Section - 11D"
  }
  {
   components {
@@ -56,7 +56,7 @@ $grp SCR_AIGroup : "{4A75FE2125C6F2CE}Prefabs/Groups/BLUFOR/GC_Canada/Canadian_A
   m_aUnitPrefabSlots {
    "{58EA7492CFF225F1}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_1IC_CW.et" "{10A074DDE11AF991}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG_CW.et" "{282D3AEC0BCB0357}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG2_CW.et" "{10A074DDE11AF991}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG_CW.et" "{282D3AEC0BCB0357}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG2_CW.et" "{2402540EFD5A2BDE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_2IC_CW.et" "{10A074DDE11AF991}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG_CW.et" "{282D3AEC0BCB0357}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG2_CW.et"
   }
-  m_sCustomNameSet "Weapon Detachment - 11W"
+  m_sCustomNameSet "Weapons Detachment - 11W"
  }
 }
 SCR_AIGroup : "{BB49EA4063459740}worlds/FSM/Prefabs/Groups/OPFOR/Seperatists/P/FSM_Playable_Seperatists_HQ.et" {

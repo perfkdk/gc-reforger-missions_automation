@@ -10,7 +10,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Blufor_Mission {
   coords 4535.088 134.875 5764.593
   m_sTitle "Mission"
-  m_sTextData "Our mission is to defend our FOB from enemy attacks and hold out until reinforcements arrive."
+  m_sTextData "Our mission is to defend our FOB from enemy attacks and hold out until reinforcements arrive."\
+  ""\
+  "We are limited to the blue AO as marked on our map."
   m_aVisibleForFactions {
    "US"
   }
@@ -97,11 +99,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Service & Support"
   m_sTextData "To assist in our assault we have several vehicles at our disposal."\
   ""\
-  "1x Ural, 4x Vans (S1203), 1x UAZ"\
-  ""\
-  "We also have a mortar with the following rounds available."\
-  ""\
-  "12x Smoke, 1x HE"
+  "1x Ural, 8x Vans (S1203), 1x UAZ"
   m_aVisibleForFactions {
    "GC_INSURGENT"
   }

@@ -102,7 +102,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-TILW_ExtractionTriggerEntity BLUFOR_EXTRACTION : "{192ABD6B9232E064}Prefabs/Logic/TILW_ExtractionTrigger.et" {
+TILW_ExtractionTriggerEntity BLUFOR_EXTRACTION : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
  coords 6505.136 87.221 5292.806
  m_queryRadius 24.8
  m_flagName "BLUFOR_EXTRACTED"
@@ -136,7 +136,7 @@ SCR_EditorRestrictionZoneEntity : "{7846A93EA395CFBA}PrefabsEditable/Restriction
   }
  }
 }
-TILW_FactionTriggerEntity Crossroad_Capture2 : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+TILW_FactionTriggerEntity Crossroad_Capture2 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 6253.14 109.126 5176.617
  m_queryRadius 50.5
  m_captureIterations 30
@@ -309,31 +309,4 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
-}
-Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
-   MultiSlots {
-    MultiSlotConfiguration "{64D677C54F96CD51}" {
-     SlotTemplate InventoryStorageSlot Explosives {
-      Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
-     }
-     NumSlots 6
-    }
-    MultiSlotConfiguration "{64D677C5CE26B779}" {
-     SlotTemplate InventoryStorageSlot Clacker {
-      Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
-     }
-     NumSlots 2
-    }
-    MultiSlotConfiguration "{64E2BD18F36348C4}" {
-     SlotTemplate InventoryStorageSlot Vis {
-      Prefab "{769BF01DF9E0D2EE}Prefabs/Items/Demining/MineFlags/MineFlag_UK.et"
-     }
-     NumSlots 3
-    }
-   }
-  }
- }
- coords 6150.787 113.398 5097.015
 }

@@ -244,65 +244,80 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   }
   coords 3783.905 320.065 8842.357
   Points {
-   ShapePoint "{651028F4948AC3A4}" {
-    Position 273.866 20.132 449.914
+   ShapePoint "{652B5C13AC33D2F3}" {
+    Position -53.65 -3.696 231.307
    }
-   ShapePoint "{651028F48BF02B18}" {
-    Position 387.422 14.497 366.388
+   ShapePoint "{652B5C13A1FAC59A}" {
+    Position -107.115 -7.672 196.941
    }
-   ShapePoint "{651028F48957547F}" {
-    Position 484.69 9.25 270.295
+   ShapePoint "{652B5C13A126EAEA}" {
+    Position -158.693 -8.999 148.29
    }
-   ShapePoint "{651028F488E0BB87}" {
-    Position 607.635 9.178 181.946
+   ShapePoint "{652B5C13A73C8433}" {
+    Position -178.115 -10.814 118.51
    }
-   ShapePoint "{651028F4BE5DFDEB}" {
-    Position 566.817 4.057 2.07
+   ShapePoint "{652B5C13A634FB5B}" {
+    Position -170.202 -12.518 71.623
    }
-   ShapePoint "{651028F4BCCFF475}" {
-    Position 424.617 -4.057 -186.516
+   ShapePoint "{652B5C13A40F04B6}" {
+    Position -99.43 -12.083 11.585
    }
-   ShapePoint "{651028F4B0CCF5A8}" {
-    Position 273.63 -11.325 -335.224
+   ShapePoint "{652B5C125202F0A8}" {
+    Position -74.447 -15.583 -56.577
    }
-   ShapePoint "{651028F4B0379C4C}" {
-    Position 126.303 -17.03 -425.458
+   ShapePoint "{652B5C1251ADE6B1}" {
+    Position -45.014 -15.446 -104.904
    }
-   ShapePoint "{651028F4B7A123BA}" {
-    Position -6.723 -21.162 -412.597
+   ShapePoint "{652B5C125122CC03}" {
+    Position 5.907 -15.347 -135.835
    }
-   ShapePoint "{651028F4B6CC22F5}" {
-    Position -212.738 -23.821 -286.121
+   ShapePoint "{652B5C1257922729}" {
+    Position 66.625 -12.715 -126.964
    }
-   ShapePoint "{651028F4B66839ED}" {
-    Position -283.984 -26.192 -189.165
+   ShapePoint "{652B5C1257022C92}" {
+    Position 93.908 -9.284 -84.907
    }
-   ShapePoint "{651028F4B556562F}" {
-    Position -332.726 -23.938 3.729
+   ShapePoint "{652B5C1256B9ECA8}" {
+    Position 171.211 -8.913 -114.067
    }
-   ShapePoint "{651028F4ABC5CB2A}" {
-    Position -389.455 -23.187 180.959
+   ShapePoint "{652B5C125571D6D6}" {
+    Position 202.365 -8.251 -94.264
    }
-   ShapePoint "{651028F4AB46D7C8}" {
-    Position -419.197 -16.64 345.118
+   ShapePoint "{652B5C1241971533}" {
+    Position 228.184 -6.824 -71.998
    }
-   ShapePoint "{651028F4AAB94075}" {
-    Position -406.81 -13.595 454.132
+   ShapePoint "{652B5C124085F9A1}" {
+    Position 240.649 -4.523 -34.292
    }
-   ShapePoint "{651028F4A9DE588A}" {
-    Position -346.156 -16.398 668.404
+   ShapePoint "{652B5C1218487D1F}" {
+    Position 223.989 -3.243 -11.865
    }
-   ShapePoint "{651028F546A4B39E}" {
-    Position -254.67 -11.268 728.259
+   ShapePoint "{652B5C121F9E5927}" {
+    Position 186.123 -5.109 8.686
    }
-   ShapePoint "{651028F545BECE2B}" {
-    Position -147.653 -5.699 691.732
+   ShapePoint "{652B5C121F3BA223}" {
+    Position 184.156 -0.254 61.643
    }
-   ShapePoint "{651028F4A4A8B8BC}" {
-    Position -31.282 3.601 542.255
+   ShapePoint "{652B5C121D45ABD0}" {
+    Position 183.897 0.657 97.654
    }
-   ShapePoint "{651028F55BFA788B}" {
-    Position 94.039 7.664 466.07
+   ShapePoint "{652B5C121D32E56F}" {
+    Position 166.515 0.421 150.756
+   }
+   ShapePoint "{652B5C12116E036A}" {
+    Position 126.467 -3.639 225.533
+   }
+   ShapePoint "{652B5C1210FF4876}" {
+    Position 97.936 -5.698 251.077
+   }
+   ShapePoint "{652B5C1217B26D31}" {
+    Position 42.036 -4.716 278.806
+   }
+   ShapePoint "{652B5C12176F0D26}" {
+    Position 8.065 -3.863 266.789
+   }
+   ShapePoint "{652B5C1216BD0FAD}" {
+    Position -16.646 -4.311 250.266
    }
   }
  }
@@ -358,6 +373,16 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Time Limit"
    m_instructions {
     TILW_SendMessageInstruction "{6506E408307D3B9A}" {
+     m_executionDelay 2700
+     m_messageTitle "Time Limit"
+     m_messageBody "The Mission will end in 45 minutes"
+    }
+    TILW_SendMessageInstruction "{652B5C0308C9D2FB}" {
+     m_executionDelay 3900
+     m_messageTitle "Time Limit"
+     m_messageBody "The Mission will end in 25 minutes"
+    }
+    TILW_SendMessageInstruction "{652B5C03483C0957}" {
      m_executionDelay 5100
      m_messageTitle "Time Limit"
      m_messageBody "The Mission will end in 5 minutes"
@@ -368,7 +393,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageBody "USSR Forces held the town long enough forcing the CAF to fall back... GM Discretion when to end the mission"
     }
     TILW_EndGameInstruction "{650CE1979D068E00}" {
-     m_executionDelay 5420
+     m_executionDelay 5410
      m_factionKey "USSR"
     }
    }
