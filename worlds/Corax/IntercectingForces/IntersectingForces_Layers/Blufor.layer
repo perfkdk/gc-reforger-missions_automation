@@ -3,14 +3,12 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   components {
    PS_GroupCallsignAssigner "{6536AA46991A53DA}" {
     m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
     m_iSquadCallsign 1
    }
   }
   coords 270.467 154.478 4859.558
   angleY 121.572
-  m_aStaticVehicles {
-   "plt11"
-  }
  }
  b12 {
   components {
@@ -19,6 +17,7 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
    }
    PS_GroupCallsignAssigner "{6536AA46A49A6242}" {
     m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
     m_iSquadCallsign 2
    }
   }
@@ -39,15 +38,13 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
    }
    PS_GroupCallsignAssigner "{6536AA46AB2CA533}" {
     m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
     m_iSquadCallsign 3
    }
   }
   coords 258.83 156.202 4841.288
   angleY 118.983
   m_aUnitPrefabSlots +{
-  }
-  m_aStaticVehicles {
-   "plt13"
   }
   m_sCustomNameSet "Mechanised squad"
   m_bSetPlayable 1
@@ -67,9 +64,6 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   angleY 121.743
   m_aUnitPrefabSlots +{
   }
-  m_aStaticVehicles {
-   "plt21"
-  }
   m_sCustomNameSet "Mechanised squad"
   m_bSetPlayable 1
  }
@@ -87,9 +81,6 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   coords 243.05 159.32 4814.327
   angleY 118.539
   m_aUnitPrefabSlots +{
-  }
-  m_aStaticVehicles {
-   "plt22"
   }
   m_sCustomNameSet "Mechanised squad"
   m_bSetPlayable 1
@@ -109,9 +100,6 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   angleY 117.632
   m_aUnitPrefabSlots +{
   }
-  m_aStaticVehicles {
-   "plt23"
-  }
   m_sCustomNameSet "Mechanised squad"
   m_bSetPlayable 1
  }
@@ -124,15 +112,13 @@ $grp SCR_AIGroup : "{4D7315B25A803917}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
    }
    PS_GroupCallsignAssigner "{6536AA46B2FBE9F5}" {
     m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
    }
   }
   coords 277.751 154.156 4870.057
   angleY 124.724
   m_aUnitPrefabSlots {
    "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{55E175F0CFD7EDB5}Prefabs/Characters/Factions/BLUFOR/US_Army/1985_Mechanised_Infantry/Character_US_1985_CrewGunner_P.et" "{84958BFE6A5740D6}Prefabs/Characters/Factions/BLUFOR/US_Army/1985_Mechanised_Infantry/Character_US_1985_CrewDriver_P.et"
-  }
-  m_aStaticVehicles {
-   "plt16"
   }
  }
  b26 {
@@ -150,10 +136,24 @@ $grp SCR_AIGroup : "{4D7315B25A803917}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
   m_aUnitPrefabSlots {
    "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{501777EB151D644B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sergeant_P.et" "{EC7EDB04B4C7B73A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{55E175F0CFD7EDB5}Prefabs/Characters/Factions/BLUFOR/US_Army/1985_Mechanised_Infantry/Character_US_1985_CrewGunner_P.et" "{84958BFE6A5740D6}Prefabs/Characters/Factions/BLUFOR/US_Army/1985_Mechanised_Infantry/Character_US_1985_CrewDriver_P.et"
   }
-  m_aStaticVehicles {
-   "plt26"
-  }
   m_sCustomNameSet "Platoon HQ"
+  m_bSetPlayable 1
+ }
+ BCOY {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{6538AED130BCB0B8}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 279.631 153.935 4873.09
+  angleY 124.389
+  m_aUnitPrefabSlots {
+   "{151F7A1DC98C481A}Prefabs/Characters/Factions/BLUFOR/US_Army/1985_Mechanised_Infantry/Character_US_1985_COY_L_P.et"
+  }
+  m_sCustomNameSet "Company HQ"
   m_bSetPlayable 1
  }
 }
