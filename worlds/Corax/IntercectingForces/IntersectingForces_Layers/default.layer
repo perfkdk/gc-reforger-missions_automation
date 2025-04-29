@@ -53,6 +53,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     SCR_Faction "{56DEAC40D2DBC8B1}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
       m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE6E998D}" {
+        m_sCallsign "  "
+       }
        SCR_CallsignInfo "{653B089713AD9E55}" {
         m_sCallsign " "
        }
