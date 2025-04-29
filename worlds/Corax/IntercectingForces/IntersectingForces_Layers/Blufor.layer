@@ -56,7 +56,7 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
    }
    PS_GroupCallsignAssigner "{6536AA46D3DF62A0}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iPlatoonCallsign 2
     m_iSquadCallsign 1
    }
   }
@@ -74,7 +74,7 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
    }
    PS_GroupCallsignAssigner "{6536AA46DB9E9488}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iPlatoonCallsign 2
     m_iSquadCallsign 2
    }
   }
@@ -92,7 +92,7 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
    }
    PS_GroupCallsignAssigner "{6536AA46C66FA701}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iPlatoonCallsign 2
     m_iSquadCallsign 3
    }
   }
@@ -128,7 +128,7 @@ $grp SCR_AIGroup : "{4D7315B25A803917}Prefabs/Groups/BLUFOR/US/Army_1985_MechInf
    }
    PS_GroupCallsignAssigner "{6536AA46BBCAA470}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iPlatoonCallsign 2
    }
   }
   coords 251.979 157.572 4829.357
