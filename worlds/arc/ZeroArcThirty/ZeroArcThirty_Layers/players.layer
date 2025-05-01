@@ -62,7 +62,7 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army_2019_Rangers
   }
   coords 8406.349 111.531 7104.529
   m_aUnitPrefabSlots {
-   "{0FD2C9F23AABB847}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_PL_P.et" "{C56483028A620D0C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_JTAC_P.et"
+   "{0FD2C9F23AABB847}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_PL_P.et" "{C56483028A620D0C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_JTAC_P.et" "{3BAAEC73133A6BA6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_Spotter_P.et" "{0F5D5571EA5FF983}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_RANGER/2020/P/Character_RHS_RANGER_Sniper_P.et"
   }
  }
  {
@@ -73,7 +73,7 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army_2019_Rangers
   }
   coords 8386.095 111.531 7106.642
   m_aUnitPrefabSlots {
-   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot_P.et" "{4C0C6E4DC8D5FB1E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliCrew_P.et" "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot_P.et" "{4C0C6E4DC8D5FB1E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliCrew_P.et"
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot_P.et" "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot_P.et"
   }
   m_sCustomNameSet "Air"
  }

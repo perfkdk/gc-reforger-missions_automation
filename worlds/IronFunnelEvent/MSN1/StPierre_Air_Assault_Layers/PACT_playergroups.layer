@@ -1,0 +1,93 @@
+$grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 0
+   }
+  }
+  coords 7564.211 166.156 4252.261
+  angleY -159.494
+  m_aUnitPrefabSlots {
+   "{EC8251757BEFDD38}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Squad_Leader_P.et" "{17F4CC328D68064E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Grenadier_P.et" "{19078709686FA4EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Grenadier_Asst_P.et" "{BE5D896BD045CCC9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_AutoRifleman_P.et" "{D0DB8C0310777771}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_SeniorRifleman_P.et" "{DB9A3209066AB8B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Rifleman_P.et" "{DB9A3209066AB8B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Rifleman_P.et" "{F818395904C3AE6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewGunner_P.et" "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
+  }
+  m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 3
+   }
+  }
+  coords 7572.221 166.156 4250.298
+  angleY -159.494
+  m_aUnitPrefabSlots {
+   "{EC8251757BEFDD38}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Squad_Leader_P.et" "{17F4CC328D68064E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Grenadier_P.et" "{19078709686FA4EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Grenadier_Asst_P.et" "{BE5D896BD045CCC9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_AutoRifleman_P.et" "{D0DB8C0310777771}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_SeniorRifleman_P.et" "{DB9A3209066AB8B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Rifleman_P.et" "{DB9A3209066AB8B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Rifleman_P.et" "{F818395904C3AE6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewGunner_P.et" "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
+  }
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 4
+   }
+  }
+  coords 7579.079 166.156 4248.65
+  angleY -159.494
+  m_aUnitPrefabSlots {
+   "{EC8251757BEFDD38}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Squad_Leader_P.et" "{17F4CC328D68064E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Grenadier_P.et" "{19078709686FA4EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Grenadier_Asst_P.et" "{BE5D896BD045CCC9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_AutoRifleman_P.et" "{D0DB8C0310777771}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_SeniorRifleman_P.et" "{DB9A3209066AB8B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Rifleman_P.et" "{DB9A3209066AB8B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Rifleman_P.et" "{F818395904C3AE6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewGunner_P.et" "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
+  }
+  m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 6
+    m_iSquadCallsign 4
+   }
+  }
+  coords 9686.312 21.157 1633.395
+  m_aUnitPrefabSlots {
+   "{F676F60776483178}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Platoon_Leader_P.et" "{89D3EB58B70D16BD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Chef_P.et" "{89D3EB58B70D16BD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Chef_P.et" "{06401C9475537901}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Mechanic_P.et" "{06401C9475537901}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Mechanic_P.et"
+  }
+  m_sCustomNameSet "Service & Support Squad"
+  m_bSetPlayable 1
+ }
+}
+SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRiflePHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{65136701CA021D8F}" {
+   m_iCompanyCallsign 2
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 7558.915 166.188 4258.018
+ angleY -161.979
+ m_aUnitPrefabSlots {
+  "{F676F60776483178}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Platoon_Leader_P.et" "{B020544DEECD7ECB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Signaller_P.et" "{493DF9E6FEE3E58A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Medic_P.et"
+ }
+ m_sCustomNameSet "PLT HQ"
+ m_bSetPlayable 1
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  coords 7557.371 166.301 4248.264
+  angleY -74.235
+ }
+ BTR2 {
+  coords 7572.784 166.156 4243.931
+  angleY -74.235
+ }
+ BTR3 {
+  coords 7589.731 166.156 4239.432
+  angleY -74.235
+ }
+}
