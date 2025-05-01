@@ -37,7 +37,7 @@ $grp SCR_AIGroup : "{37744AC8AFE74FAC}Prefabs/Groups/BLUFOR/US/Marines_1995_LAR/
   coords 5070.981 155.375 7364.7
   angleY -70.026
   m_aUnitPrefabSlots {
-   "{1FB5BC9692B07B0A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewCommander_PL_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
+   "{D2E029040526207A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewCommander_COYCO_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et"
   }
  }
  XOLav0 {
@@ -49,7 +49,7 @@ $grp SCR_AIGroup : "{37744AC8AFE74FAC}Prefabs/Groups/BLUFOR/US/Marines_1995_LAR/
   coords 5074.409 154.946 7372.31
   angleY -70.026
   m_aUnitPrefabSlots {
-   "{1FB5BC9692B07B0A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewCommander_PL_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et"
+   "{8D6FFB2403B14FC5}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewCommander_COYXO_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et"
   }
  }
 }

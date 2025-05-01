@@ -47,6 +47,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_sFactionFlag "{735251A0A38409AD}UI/Textures/Editor/ContentBrowser/RHS_USAF_USMC_LAR_Icon.edds"
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
       m_aCompanyNames {
        SCR_CallsignInfo "{55CCB792CD021D5C}" {
@@ -93,9 +94,17 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "5"
        }
       }
+      m_sCallsignGroupFormat "%1 %2 %3"
      }
+    }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     m_sFactionFlag "{67B63329190D4C8E}worlds/IronFunnelEvent/Extras/876th Marines.edds"
     }
    }
   }
  }
+}
+PK_EntityDeleter {
+ coords 6015.369 86.364 5561.659
+ m_fRadius 35
 }

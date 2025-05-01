@@ -35,6 +35,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   m_aUnitPrefabSlots {
    "{9595E5B959993309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewCommanderPL_P.et" "{F818395904C3AE6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewGunner_P.et" "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
   }
+  m_sCustomNameSet "1st BRDM"
  }
  MTR362 {
   components {
@@ -48,6 +49,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   m_aUnitPrefabSlots {
    "{B4A947AA09E9F15E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewCommander_P.et" "{F818395904C3AE6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewGunner_P.et" "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
   }
+  m_sCustomNameSet "2nd BRDM"
  }
  MTR363 {
   components {
@@ -61,6 +63,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   m_aUnitPrefabSlots {
    "{B4A947AA09E9F15E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewCommander_P.et" "{F818395904C3AE6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewGunner_P.et" "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
   }
+  m_sCustomNameSet "3rd BRDM"
  }
 }
 SCR_AIGroup MTR321 : "{82927FFD013CC95B}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleSquadSVD_P.et" {
