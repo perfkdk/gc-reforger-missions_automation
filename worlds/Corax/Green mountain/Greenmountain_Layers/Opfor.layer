@@ -11,7 +11,7 @@ $grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.
   coords 2772.12 262.577 5984.892
  }
  ptrl2 {
-  coords 2914.795 314.231 6279.529
+  coords 2914.795 324.675 6279.529
  }
  ptrl3 {
   coords 3199.276 327.742 6269.373
@@ -26,8 +26,25 @@ $grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.
   coords 3057.42 362.135 6580.06
  }
 }
-AIWaypointCycle rpt : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
- coords 2763.165 259.214 5947.323
+$grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ rpt {
+  coords 2769.021 259.214 5968.484
+  CycleWaypoints {
+   "ptrl1" "ptrl2"
+  }
+ }
+ rpt2 {
+  coords 3215.951 324.626 6264.46
+  CycleWaypoints {
+   "ptrl3" "ptrl4"
+  }
+ }
+ rpt3 {
+  coords 2961.069 369.353 6455.129
+  CycleWaypoints {
+   "ptrl5" "ptrl6"
+  }
+ }
 }
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  {
@@ -95,14 +112,14 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  {
-  coords 2999.281 340.522 6307.441
+  coords 2999.281 340.523 6307.441
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_waypointNames {
    "defgreenmountain6"
   }
  }
  {
-  coords 2962.294 346.535 6262.362
+  coords 2962.294 344.472 6262.362
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_waypointNames {
    "defgreenmountain6"
@@ -133,21 +150,21 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   coords 2851.445 272.696 5960.683
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_waypointNames {
-   "ptrl1" "ptrl2" "rpt"
+   "rpt"
   }
  }
  {
   coords 3242.14 321.212 6258.577
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_waypointNames {
-   "ptrl3" "ptrl4" "rpt"
+   "rpt2"
   }
  }
  {
   coords 3141.638 359.645 6477.817
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_waypointNames {
-   "ptrl5" "ptrl6" "rpt"
+   "rpt3"
   }
  }
  {

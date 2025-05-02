@@ -80,7 +80,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 5
  }
  {
-  coords 2287.973 356.935 6727.508
+  coords 2287.973 358.643 6727.508
   m_sTitle "Notes"
   m_sTextData "US 7tth ID company assaults NVA forces to secure a key hill."\
   ""\
@@ -88,7 +88,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "No Setup timer"\
   ""\
-  "Casualty conditions apply at 80% for Blufor. "\
+  "Casualty conditions apply at 80% for Blufor. 95% for Opfor"\
   "Mission has soft end conditions."\
   ""\
   "GMs be smart and call it when it starts to suck for people."

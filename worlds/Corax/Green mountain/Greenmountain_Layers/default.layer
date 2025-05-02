@@ -105,13 +105,6 @@ PS_ManuaMarkerRender : "{88D799C5DED9EC70}PrefabsEditable/Markers/EditableMarker
  m_sDescription "Green Mountain"
  m_bVisibleForEmptyFaction 1
 }
-TILW_FactionTriggerEntity blutrigger6 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 3711.053 402.158 5899.294
- m_queryRadius 400
- m_flagName "redkill"
- m_ownerFactionKey "NVA"
- m_ratioThreshold 0.95
-}
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3748.637 403.223 5983.417
  m_missionEvents {
@@ -143,6 +136,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_flagName "blukill"
    m_factionKey "US"
    m_casualtyRatio 0.8
+  }
+  TILW_FactionAIKilledFlag "{654516EBDEDD02FA}" {
+   m_flagName "redkill"
+   m_factionKey "GC_NVA"
+   m_casualtyRatio 0.95
   }
  }
 }
