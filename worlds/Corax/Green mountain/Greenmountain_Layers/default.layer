@@ -126,8 +126,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageBody "Blufor has taken gReen mountain and the NVA are retreating. GM's can end the mission when appropriate. "
     }
    }
-   m_condition TILW_LiteralTerm "{65431425E5850458}" {
-    m_flagName "redkill"
+   m_condition TILW_ConjunctionTerm "{6545210AF0217DDD}" {
+    m_operands {
+     TILW_LiteralTerm "{6545210AF115FCCB}" {
+      m_flagName "blu5"
+     }
+     TILW_LiteralTerm "{6545210AF60B54D5}" {
+      m_flagName "redkill"
+     }
+    }
    }
   }
  }
