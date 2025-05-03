@@ -1,0 +1,10 @@
+$grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubCompositions/Foundation_Mortar_USSR.et" {
+ {
+  coords 7477.448 164.57 4304.352
+  angleY 12.141
+ }
+ {
+  coords 7455.429 164.585 4310.255
+  angleY 16.745
+ }
+}

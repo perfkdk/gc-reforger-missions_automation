@@ -1,0 +1,14 @@
+$grp GenericEntity : "{B8BADFA9530C38F4}Prefabs/Compositions/Misc/SubCompositions/Foundation_Mortar_US.et" {
+ {
+  coords 6167.013 112.432 5088.821
+  angleY 35.01
+ }
+ {
+  coords 6191.761 110.148 5075.037
+  angleY 32.556
+ }
+ {
+  coords 6141.035 114.511 5102.056
+  angleY 39.495
+ }
+}

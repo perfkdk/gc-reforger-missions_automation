@@ -2,12 +2,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  OPFOR1 {
   coords 6299.185 64.995 4669.115
   m_sTitle "CURRENT SITUATION"
-  m_sTextData "Early this morning US Marines conducted a raid onto our backline depots and in turn our sister platoon has been delayed from its task of reinforcing us. We are currently located at Simon's Wood's and digging in. Our Engineers have setup a minefield to force the enemy into our Enagement Area. Further, 7 bunkers and HMG positions have been setup (Makred on Map)"\
+  m_sTextData "We are 321 a Motorized BTR PLT with an attached BRDM PLT located south of Simon's Wood. "\
+  ""\
+  "Early this morning US Marines conducted a raid onto our backline depots and in turn our sister COY has been delayed from its task of reinforcing us. We are currently located at Simon's Wood's and digging in. Our Engineers have setup a minefield to force the enemy into our Enagement Area. Further, 7 bunkers and HMG positions have been setup (Makred on Map)."\
   ""
   m_aVisibleForFactions {
    "USSR"
   }
-  m_iOrder 1
+  m_iOrder 2
  }
  OPFOR2 {
   coords 6361.396 84.777 4686.647
@@ -20,7 +22,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "USSR"
   }
-  m_iOrder 2
+  m_iOrder 3
  }
  OPFOR3 {
   coords 6145.719 48.648 4527.303
@@ -36,7 +38,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "USSR"
   }
-  m_iOrder 3
+  m_iOrder 4
  }
  OPFOR5 {
   coords 6518.397 18.201 4420.083
@@ -58,7 +60,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "USSR"
   }
-  m_iOrder 5
+  m_iOrder 6
  }
  OPFOR4 {
   coords 6100.131 59.79 4628.04
@@ -68,7 +70,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "USSR"
   }
-  m_iOrder 4
+  m_iOrder 5
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
