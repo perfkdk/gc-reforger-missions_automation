@@ -1,0 +1,402 @@
+SCR_AIWorld : "{DED05ECEF37B333A}Prefabs/AI/SCR_AIWorld_Chernarus.et" {
+ coords 1323.302 170.417 6049.37
+}
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{651D113D9DCDBD45}" {
+     NavmeshFile "{7FADC4D5123F81EA}NavMesh/Bad_Orb_soldiers.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{551533FBA5E01BC6}NavMesh/Bad_Orb_btrlike.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{FF19B45E169B591F}NavMesh/Bad_Orb_lowres.nmn"
+    }
+   }
+  }
+ }
+ coords 4761.65 165.156 3605.658
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1314.23 169.992 6030.26
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 6
+   m_iStartingMinutes 20
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{650415CBAFAE6875}" {
+     m_sWeatherPresetName "Dry Thunder (Damp Fog)"
+     m_iStartingHour 6
+     m_iStartingMinutes 20
+    }
+   }
+   m_bUseSpecifiedDate 1
+   m_iSetDay 21
+   m_iSetMonth 7
+   m_iSetYear 1983
+   m_bOverrideEnvironment 1
+   m_fFogHeight 150
+   m_fRain 0
+   m_fWind 4
+  }
+ }
+ coords 97.017 0 -501.573
+ {
+  RadioManagerEntity {
+   ID "5ED9088735FF2DEE"
+   coords -26.889 23.04 -2.478
+  }
+  SCR_FactionManager "650415CC01AFC059" {
+   ID "5ED9088735FF2D8B"
+   coords 0 0 0
+   Factions {
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{64E2F896E232A50B}" {
+        m_sCallsign "5"
+       }
+       SCR_CallsignInfo "{64E2F896FFC45153}" {
+        m_sCallsign "6"
+       }
+       SCR_CallsignInfo "{64E2F896E5466F70}" {
+        m_sCallsign "4v"
+       }
+      }
+     }
+    }
+    SCR_Faction "{64AA098AEA5B1498}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{64AA098204A61453}" {
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{64AA098204A6145D}" {
+        m_sCallsign "9"
+       }
+       SCR_CallsignInfo "{64AA098204A61443}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{64AA098204A61441}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{64AA098204A61446}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{650AE15C940BA34B}" {
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{650AE15C8B7A1EC2}" {
+        m_sCallsign "5"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign ""
+       }
+       SCR_CallsignInfo "{55CCB792D13759D8}" {
+        m_sCallsign "Sunray"
+       }
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+        m_sCallsign "Alpha"
+       }
+       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+        m_sCallsign "Bravo"
+       }
+       SCR_CallsignInfo "{61677618371B4C91}" {
+        m_sCallsign "Charlie"
+       }
+       SCR_CallsignInfo "{65055DBDAC6F7853}" {
+        m_sCallsign "Whiskey"
+       }
+       SCR_CallsignInfo "{65055DB6CE3F5934}" {
+        m_sCallsign "Echo"
+       }
+       SCR_CallsignInfo "{650AE1494DA67E1D}" {
+        m_sCallsign "Foxtrot"
+       }
+      }
+     }
+     m_iFactionRadioFrequency 50000
+    }
+   }
+  }
+  ScriptedChatEntity {
+   ID "5ED9088735FF2DC2"
+   coords -318.966 137.025 1.838
+  }
+  ItemPreviewManagerEntity "6506E4095D53BA70" {
+   ID "5ED9088735FF2DD5"
+   coords -12.245 -3.267 -7.529
+  }
+  SCR_EditorSettingsEntity {
+   ID "61B4E967E6C20362"
+   coords 0 0 0
+  }
+ }
+}
+SCR_AIGroup : "{4CBA83E57E261C26}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_AI_RifleAT_Sect.et" {
+ coords 4855.442 168.604 3770.995
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   Enabled 0
+  }
+  TILW_CoverMapComponent "{6473480FCAB7760B}" {
+   Enabled 1
+  }
+  TILW_MapShapeComponent "{6508F54F9B461198}" {
+   Enabled 1
+  }
+ }
+ coords 4347.826 215.058 2818.183
+ Points {
+  ShapePoint "{654F51E207A004E8}" {
+   Position 770.339 -46.719 599.781
+  }
+  ShapePoint "{654F51E23FDD9E84}" {
+   Position 771.073 90.658 2069.731
+  }
+  ShapePoint "{654F51E236B2A525}" {
+   Position -1521.418 2.049 2091.75
+  }
+  ShapePoint "{654F51E2C294627E}" {
+   Position -1526.72 143.16 -2091.859
+  }
+  ShapePoint "{654F51E2C5BDC971}" {
+   Position 596.053 213.142 -2068.273
+  }
+  ShapePoint "{654F51E2F3FFC29B}" {
+   Position 771.508 207.643 -2071.431
+  }
+ }
+}
+GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_US.et" {
+ components {
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   m_eSupplyCostType GADGET_ARSENAL
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+   m_eSupplyCostType GADGET_ARSENAL
+  }
+ }
+ coords 1242.398 155.469 6034.044
+ angleX 0.302
+ angleY 80.303
+ angleZ 1.764
+}
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ {
+  coords 984.641 193.204 7624.295
+  m_sendStatusMessages 1
+  m_locationName "the Sawmill Office"
+  m_flagName "Sawmill Office"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "GC_CAF"
+  m_ratioThreshold 0.9
+ }
+ {
+  coords 962.599 188.548 7577.847
+  m_sendStatusMessages 1
+  m_locationName "the Saw Mill"
+  m_flagName "Saw Mill"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "GC_CAF"
+  m_ratioThreshold 0.9
+ }
+ {
+  coords 936.84 181.476 7620.989
+  m_queryRadius 130
+  m_flagName "SAWMILL_AREA"
+  m_playersOnly 1
+  m_ownerFactionKey "GC_CAF"
+  m_ratioThreshold 0.1
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 1302.611 168.262 6019.94
+ m_missionEvents {
+  TILW_MissionEvent "{65041578E772535B}" {
+   m_name "USSR Victory Casualties"
+   m_instructions {
+    TILW_SendMessageInstruction "{6504157888C9AF5E}" {
+     m_messageTitle "Soviet Forces Victory"
+     m_messageBody "CAF Sustained too many casualties.. GM Discretion when to end the mission"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6504157885FC5C39}" {
+    m_flagName "CAF_CAS"
+   }
+  }
+  TILW_MissionEvent "{6506E408139E95AC}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{6506E408307D3B9A}" {
+     m_executionDelay 3900
+     m_messageTitle "Time Limit"
+     m_messageBody "The Mission will end in 5 minutes"
+    }
+    TILW_SendMessageInstruction "{6506E4089FDE5CA5}" {
+     m_executionDelay 4200
+     m_messageTitle "USSR Victory"
+     m_messageBody "USSR Forces held the town long enough forcing the CAF to fall back... GM Discretion when to end the mission"
+    }
+    TILW_EndGameInstruction "{650CE1979D068E00}" {
+     m_executionDelay 4210
+     m_factionKey "USSR"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6506E40BFBED4D76}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{650750E2E1A73F1D}" {
+   m_name "CAF Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{6507662C26CDA08C}" {
+     m_executionDelay 900
+     m_messageTitle "Canadian Forces Victory"
+     m_messageBody "CAF has managed to secure and held the Sawmill... OPFOR Has 5min to counter attack to regain the buildings... "\
+     "GM Discretion when to end the mission"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{650AE15E5BA69298}" {
+    m_operands {
+     TILW_LiteralTerm "{650AE15E59E990F8}" {
+      m_flagName "Saw Mill"
+     }
+     TILW_LiteralTerm "{650AE15E58E959FC}" {
+      m_flagName "Sawmill Office"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{650CE1964D967B9C}" {
+   m_name "USSR Counter Attack"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{650CE1967A6B4CCB}" {
+     m_executionDelay 10
+     m_groupName "AIReconForce_1"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE1961204413B}" {
+     m_executionDelay 10
+     m_groupName "AIReconForce_2"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE196158D292B}" {
+     m_executionDelay 10
+     m_groupName "AIReconForce_3"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE1960EB508DA}" {
+     m_executionDelay 10
+     m_groupName "AISquad_1"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE19600B7E9BC}" {
+     m_executionDelay 10
+     m_groupName "AISquad_2"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE196012759B1}" {
+     m_executionDelay 10
+     m_groupName "AISquad_3"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE19601AB3041}" {
+     m_executionDelay 10
+     m_groupName "AISquad_4"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE19601D286D3}" {
+     m_executionDelay 10
+     m_groupName "AISquad_5"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE1960250C07C}" {
+     m_executionDelay 10
+     m_groupName "AISquad_6"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{650CE1960329CB98}" {
+     m_executionDelay 10
+     m_groupName "AISquad_7"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{651F0AAA6B9C630C}" {
+     m_executionDelay 10
+     m_groupName "AIReconForce_4"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{651F0AAA6F38C486}" {
+     m_executionDelay 10
+     m_groupName "AIReconForce_5"
+     m_waypointNames {
+      "WP_Fallback_1"
+     }
+     m_clearExisting 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{650CE19641F61B04}" {
+    m_flagName "SAWMILL_AREA"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6506E4081586428B}" {
+   m_flagName "CAF_CAS"
+   m_factionKey "GC_CAF"
+   m_casualtyRatio 0.85
+  }
+ }
+}
+SCR_AIGroup : "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_AI_Rifle_Sect.et" {
+ coords 4853.944 168.4 3767.015
+}

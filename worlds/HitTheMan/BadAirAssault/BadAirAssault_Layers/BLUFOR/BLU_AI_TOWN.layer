@@ -1,0 +1,43 @@
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ def_wp_CAF_1 {
+  coords 4791.396 177.283 3456.597
+  angleY -66.498
+  CompletionRadius 8
+ }
+ def_wp_CAF_2 {
+  coords 4774.914 176.97 3462.297
+  angleY 113.746
+  CompletionRadius 8
+ }
+ def_wp_CAF_3 {
+  coords 4733.152 178.579 3464.202
+  angleY -162.388
+  CompletionRadius 10
+ }
+}
+$grp SCR_AIGroup : "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_AI_Rifle_Sect.et" {
+ {
+  coords 4792.801 173.367 3450.877
+  angleY -68.025
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "def_wp_CAF_1"
+  }
+ }
+ {
+  coords 4773.533 173.054 3468.023
+  angleY 112.219
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "def_wp_CAF_1"
+  }
+ }
+ {
+  coords 4735.088 174.292 3461.084
+  angleY -157.831
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "def_wp_CAF_1"
+  }
+ }
+}
