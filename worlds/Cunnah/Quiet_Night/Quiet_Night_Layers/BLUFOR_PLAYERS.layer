@@ -1,6 +1,0 @@
-SCR_AIGroup Guard_Post_A : "{43DE722B3E3F4C24}Prefabs/Groups/BLUFOR/US/Army_1980_Rifles/P/Group_US_Army_1980_RifleSquad_P.et" {
- coords 2534.111 143.905 2274.847
- m_aUnitPrefabSlots {
-  "{283A06EF2B6E7E24}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_SL_P.et" "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_Rifleman_P.et" "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_Rifleman_P.et" "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_US_80_Rifleman_P.et"
- }
-}
