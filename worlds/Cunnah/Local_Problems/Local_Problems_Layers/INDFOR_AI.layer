@@ -106,8 +106,8 @@ $grp TILW_PrefabSpawnerEntity {
   }
  }
  BRDM_2 {
-  coords 4457.273 166.503 4013.366
-  angleY -69.436
+  coords 4436.705 165.522 4003.505
+  angleY -110.187
   m_prefab "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et"
   m_crewConfig TILW_CrewConfig "{651F2CCC1C9A47F0}" {
    m_crewGroups {
@@ -158,6 +158,99 @@ $grp TILW_PrefabSpawnerEntity {
    "WP_Ambush_Defend_2"
   }
  }
+ Tech_Spawn_3 {
+  coords 4420.086 189.182 4250.814
+  angleY 123.539
+  m_prefab "{22B327C6752EC4D4}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_FIA.et"
+  m_conditionFlag "Extract_Ambush"
+  m_crewConfig TILW_CrewConfig "{651D113B90572AD1}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651D113B9FAF8136}" {
+     m_crewStations {
+      TILW_CrewStation "{651D113A60FD0BB0}" {
+       m_characters {
+        "{972EEF8AAC363A48}worlds/Cunnah/Prefabs/Characters/Factions/INDFOR/Militia/Character_Milita_SL.et" "{B64AFD690DBA23AD}worlds/Cunnah/Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et" "{CB736B0656039AD6}worlds/Cunnah/Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman_2.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "Ambush_Vic_Middle"
+     }
+     m_waypointDelay 5
+     m_entityName "Tech_3"
+    }
+   }
+  }
+ }
+ Ambush_Spawner_3 {
+  coords 3981.398 247.294 3675.048
+  angleY 33.85
+  m_prefab "{E86B8D95400DA31C}worlds/Cunnah/Prefabs/Groups/INDFOR/Militia/Militia_Rifle_Squad.et"
+  m_conditionFlag "Extract_Ambush"
+  m_waypointNames {
+   "WP_Ambush_Defend_3"
+  }
+ }
+ Tech_Spawn_4 {
+  coords 3625.864 207.225 3863.827
+  angleY 42.464
+  m_prefab "{22B327C6752EC4D4}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_FIA.et"
+  m_conditionFlag "Extract_Ambush"
+  m_crewConfig TILW_CrewConfig "{651D113B90572AD1}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651D113B9FAF8136}" {
+     m_crewStations {
+      TILW_CrewStation "{651D113A60FD0BB0}" {
+       m_characters {
+        "{972EEF8AAC363A48}worlds/Cunnah/Prefabs/Characters/Factions/INDFOR/Militia/Character_Milita_SL.et" "{B64AFD690DBA23AD}worlds/Cunnah/Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et" "{CB736B0656039AD6}worlds/Cunnah/Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman_2.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "WP_Vic_Move_Road"
+     }
+     m_waypointDelay 5
+     m_entityName "Tech_4"
+    }
+   }
+  }
+ }
+ Ambush_Spawner_4 {
+  coords 3568.238 214.461 3909.19
+  angleY 33.85
+  m_prefab "{E86B8D95400DA31C}worlds/Cunnah/Prefabs/Groups/INDFOR/Militia/Militia_Rifle_Squad.et"
+  m_conditionFlag "Extract_Ambush"
+  m_waypointNames {
+   "WP_Ambush_Defend_4"
+  }
+ }
+ Ambush_Spawner_5 {
+  coords 3309.787 214.304 4025.822
+  angleY 33.85
+  m_prefab "{E86B8D95400DA31C}worlds/Cunnah/Prefabs/Groups/INDFOR/Militia/Militia_Rifle_Squad.et"
+  m_conditionFlag "Extract_Ambush"
+  m_waypointNames {
+   "WP_Ambush_Defend_5"
+  }
+ }
+ Ambush_Spawner_6 {
+  coords 3552.527 225.944 3937.769
+  angleY 33.85
+  m_prefab "{6B10747A3401270A}worlds/Cunnah/Prefabs/Groups/INDFOR/Militia/Militia_AT_Team.et"
+  m_conditionFlag "Extract_Ambush"
+  m_waypointNames {
+   "WP_Ambush_Defend_4"
+  }
+ }
+ Ambush_Spawner_7 {
+  coords 3297.985 229.12 4040.69
+  angleY 33.85
+  m_prefab "{6B10747A3401270A}worlds/Cunnah/Prefabs/Groups/INDFOR/Militia/Militia_AT_Team.et"
+  m_conditionFlag "Extract_Ambush"
+  m_waypointNames {
+   "WP_Ambush_Defend_5"
+  }
+ }
 }
 $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
  WP_Tech_Move_2 {
@@ -183,23 +276,29 @@ $grp SCR_AIGroup : "{6B10747A3401270A}worlds/Cunnah/Prefabs/Groups/INDFOR/Militi
   angleY 0
   m_faction "MILITIA"
  }
+ {
+  coords 4526.918 182.88 3610.382
+  angleY -77.455
+ }
+ {
+  coords 4543.534 169.553 3982.542
+  angleY 0
+ }
 }
 SCR_AIGroup Delay_MG : "{7B626931CD41BC3F}worlds/Cunnah/Prefabs/Groups/INDFOR/Militia/Militia_MG_Team.et" {
  coords 4425.173 175.914 3740.652
  m_faction "MILITIA"
  m_aStaticWaypoints {
-  "WP_Delay_3"
+  "WP_Delay_1"
  }
 }
-TILW_PresenceTriggerEntity Extraction_In_Town : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
- coords 4782.464 164.758 3588.221
- m_queryRadius 200
+TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 4791.923 170.612 3576.914
+ m_queryRadius 14
+ m_comparisonMode EQUAL_OR_LESS
  m_flagName "OPFOR_In_Town"
- m_stopAfterFirstChange 1
- m_entityNames {
-  "BTR1" "BTR2" "BTR3"
- }
- m_ratioThreshold 0.3
+ m_ownerFactionKey "GARRISON"
+ m_ratioThreshold 0
 }
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
  WP_Secure {
@@ -222,6 +321,28 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  WP_Ambush_Defend_2 {
   coords 4748.603 165.271 3895.474
   CompletionRadius 100
+ }
+ North_Farm_Defend {
+  coords 4580.526 176.011 3505.037
+  CompletionRadius 40
+ }
+ WP_Defend_Forest_1 {
+  coords 4344.726 186.427 4149.332
+ }
+ WP_Ambush_Defend_3 {
+  coords 4042.338 193.608 3761.476
+  CompletionRadius 40
+ }
+ WP_Delay_4 {
+  coords 4622.757 170.995 3891.838
+ }
+ WP_Ambush_Defend_4 {
+  coords 3612.058 193.031 3966.666
+  CompletionRadius 40
+ }
+ WP_Ambush_Defend_5 {
+  coords 3391.239 207.747 4109.923
+  CompletionRadius 40
  }
 }
 SCR_SearchAndDestroyWaypoint WP_Assault : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
@@ -247,7 +368,7 @@ $grp SCR_AIGroup : "{E86B8D95400DA31C}worlds/Cunnah/Prefabs/Groups/INDFOR/Militi
  Delay_South {
   coords 4314.743 198.926 3613.708
   m_aStaticWaypoints {
-   "WP_Delay_1"
+   "WP_Delay_3"
   }
  }
  Delay_Town {
@@ -256,11 +377,49 @@ $grp SCR_AIGroup : "{E86B8D95400DA31C}worlds/Cunnah/Prefabs/Groups/INDFOR/Militi
    "WP_Delay_2"
   }
  }
+ {
+  coords 4575.898 176.322 3506.958
+  m_aStaticWaypoints {
+   "North_Farm_Defend"
+  }
+ }
+ {
+  coords 4242.411 209.643 3623.809
+  angleY -29.116
+ }
+ {
+  coords 4060.819 197.909 3745.746
+  angleY -18.815
+ }
+ {
+  coords 4358.417 188.736 4161.838
+  angleY -174.457
+  m_aStaticWaypoints {
+   "WP_Defend_Forest_1"
+  }
+ }
+ {
+  coords 4617.639 163.661 3878.179
+  m_aStaticWaypoints {
+   "WP_Delay_4"
+  }
+ }
+ {
+  coords 4635.359 197.63 3686.123
+ }
 }
 SCR_SuppressWaypoint WP_Tech_Ambush : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_Suppress.et" {
  coords 4785.435 164.681 3581.982
  CompletionRadius 20
  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
   m_holdingTime 60
+ }
+}
+$grp SCR_AIAnimationWaypoint : "{F6487A024AB9FFD1}Prefabs/AI/Waypoints/AIWaypoint_Animation_FastMove.et" {
+ Ambush_Vic_Middle {
+  coords 3666.129 160.162 4163.721
+ }
+ WP_Vic_Move_Road {
+  coords 3735.6 169.413 3992.963
  }
 }
