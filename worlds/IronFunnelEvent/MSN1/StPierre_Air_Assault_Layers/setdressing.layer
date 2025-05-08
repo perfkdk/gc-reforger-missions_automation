@@ -1,0 +1,26 @@
+$grp StaticModelEntity : "{CF1FFB7BAA1A0769}Prefabs/Structures/Military/Camps/HelipadImprovised_01/HelipadImprovised_US_01.et" {
+ {
+  coords 7611.84 0.084 8136.132
+  angleY -48.49
+ }
+ {
+  coords 7626.375 0.042 8152.082
+  angleY -48.49
+ }
+ {
+  coords 7640.307 0.249 8167.734
+  angleY -48.49
+ }
+ {
+  coords 7594.333 0.306 8152.066
+  angleY -48.49
+ }
+ {
+  coords 7622.799 0.571 8183.668
+  angleY -48.49
+ }
+ {
+  coords 7608.869 -0.106 8168.017
+  angleY -48.49
+ }
+}

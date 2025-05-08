@@ -1,3 +1,17 @@
+SCR_AIGroup CAFMortarTeam : "{047DC6ADED8DE5E2}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Mortar_Crew_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{651CBACE746AAEF0}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 5
+  }
+ }
+ coords 2943.031 319.971 7795.842
+ angleY 43.661
+ m_aUnitPrefabSlots + {
+  "{13B654D4F47B142E}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Mortar_Crew_1_P.et" "{13B654D4F47B142E}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Mortar_Crew_1_P.et"
+ }
+ m_sCustomNameSet "Mortar Attachment"
+}
 $grp Tank : "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et" {
  M113A2_APC1 {
   coords 2994.302 318.299 7769.475
@@ -28,8 +42,103 @@ $grp Tank : "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et" {
   m_sAttachmentGroupName "CAFRifle_12"
  }
 }
+$grp GenericEntity : "{2323F9E4C524F047}Prefabs/Compositions/Slotted/SlotFlatSmall/MortarPlacement_S_US_01.et" {
+ {
+  coords 2954.836 320.219 7787.513
+  angleY 48.628
+  {
+   GenericEntity {
+    ID "6186DB2F33FB321E"
+    {
+     GenericEntity {
+      ID "6186D3A8CE3D2672"
+      components {
+       SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+        m_aContainers {
+         SCR_ResourceContainer "{652B5C1FEE41C8F8}" {
+          m_eResourceRights ALL
+          m_fResourceValueCurrent 900000
+          m_fResourceValueMax 900000
+          m_fResourceGain 0
+          m_fResourceGainTickrate 0
+          m_fResourceGainTimeout 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+       }
+      }
+      coords 1.84 0.001 2.144
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2938.156 319.96 7804.856
+  angleY 48.628
+  {
+   GenericEntity {
+    ID "6186DB2F33FB321E"
+    {
+     GenericEntity {
+      ID "6186D3A8CE3D2672"
+      components {
+       SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+        m_aContainers {
+         SCR_ResourceContainer "{652B5C1E2E56EC16}" {
+          m_eResourceRights ALL
+          m_fResourceValueCurrent 900000
+          m_fResourceValueMax 900000
+          m_fResourceGain 0
+          m_fResourceGainTickrate 0
+          m_fResourceGainTimeout 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
  LAV25_RHS7 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EC8473EB55CFBE}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{62EC8473DA7ACB18}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{62C2BB5FC38BCCF2}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{62C2BB5FC3172633}" {
+      SlotTemplate InventoryStorageSlot smoke {
+       Prefab ""
+      }
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62C2BB5FC4AFFD6E}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{62C2BB5FC4E44E4D}" {
+      SlotTemplate InventoryStorageSlot m249 {
+       Prefab ""
+      }
+      NumSlots 0
+     }
+    }
+   }
+  }
   coords 2992.457 319.419 7758.688
   angleX -6.486
   angleY 14.01
@@ -37,6 +146,35 @@ $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
   m_sAttachmentGroupName "CAFRifle_22"
  }
  LAV25_RHS2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62EC8473EB55CFBE}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{62EC8473DA7ACB18}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{62C2BB5FC38BCCF2}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{62C2BB5FC3172633}" {
+      SlotTemplate InventoryStorageSlot smoke {
+       Prefab ""
+      }
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62C2BB5FC4AFFD6E}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{62C2BB5FC4E44E4D}" {
+      SlotTemplate InventoryStorageSlot m249 {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
   coords 2988.217 320.62 7748.94
   angleX -7.167
   angleY 26.302
@@ -44,233 +182,104 @@ $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
   m_sAttachmentGroupName "CAFRifle_23"
  }
 }
-$grp GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_01_round_base.et" {
- {
-  coords 2949.751 320.148 7795.891
-  angleX -0.085
-  angleY -2.729
-  angleZ -1.788
- }
- {
-  coords 2956.604 320.064 7789.258
-  angleX -3.387
-  angleY 84.456
-  angleZ 2.123
- }
-}
-$grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_01_long_plastic.et" {
- {
-  coords 2953.652 320.195 7792.832
-  angleX 1.265
-  angleY 47.027
-  angleZ 0.045
- }
- {
-  coords 2954.04 320.115 7786.603
-  angleX 0.416
-  angleY 154.198
-  angleZ -1.196
- }
- {
-  coords 2946.944 320.092 7793.276
-  angleX 1.627
-  angleY 114.648
-  angleZ 0.746
- }
-}
-$grp Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
- {
-  coords 2950.048 320.157 7792.124
-  angleX 0.61
-  angleY 42.94
-  angleZ -0.655
- }
- {
-  coords 2953.161 320.126 7789.051
-  angleX 1.31
-  angleY 42.975
-  angleZ 1.22
- }
-}
-$grp SCR_AIGroup : "{8F1076E35B70385E}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_RifleSection_P_2_2.et" {
- CAFRifle_11 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{65041559A4E080DB}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 2
-   }
-  }
-  coords 2992.237 316.27 7796.377
-  angleX -1.996
-  angleY 94.391
-  angleZ -1.556
-  m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
-  }
-  m_sCustomNameSet "1st Section"
- }
- CAFRifle_12 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{650415564B7837CE}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 3
-   }
-  }
-  coords 2991.494 317.642 7784.866
-  angleX -2.066
-  angleY 91.735
-  angleZ -1.461
-  m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
-  }
-  m_sCustomNameSet "2nd Section"
- }
- CAFRifle_13 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{650415564B7837CE}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 4
-   }
-  }
-  coords 2991.021 317.848 7774.294
-  angleX -2.041
-  angleY 92.681
-  angleZ -1.495
-  m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
-  }
-  m_sCustomNameSet "3rd Section"
- }
- CAFRifle_22 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{650415564B7837CE}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 6
-   }
-  }
-  coords 2990.448 318.923 7763.464
-  angleX -1.671
-  angleY 105.111
-  angleZ -1.899
-  m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{933FB27571411260}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleCommander_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
-  }
-  m_sCustomNameSet "4th Section Attachment"
- }
- CAFMortarTeam {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{65041559A4E080DB}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 5
-   }
-  }
-  coords 2948.536 319.983 7790.708
-  angleX -2.051
-  angleY 45.305
-  angleZ 1.483
-  m_aUnitPrefabSlots {
-   "{E9008EA4301415F7}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MortarCommander_CW_2.et" "{416CD5E8C2210B4A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MortarCrew_CW_2.et" "{416CD5E8C2210B4A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MortarCrew_CW_2.et" "{416CD5E8C2210B4A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MortarCrew_CW_2.et" "{416CD5E8C2210B4A}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MortarCrew_CW_2.et"
-  }
-  m_sCustomNameSet "Mortar Attachment"
- }
- CAFRifle_23 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{650415564B7837CE}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 7
-   }
-  }
-  coords 2987.471 320.148 7753.731
-  angleX -1.225
-  angleY 117.498
-  angleZ -2.214
-  m_aUnitPrefabSlots {
-   "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{9174C6EEEBB6A414}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_2IC_CW_2.et" "{E533F8ACC3DE9089}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_AR_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{A11F17F219EBEB65}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_LAT_CW_2.et" "{933FB27571411260}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleCommander_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
-  }
-  m_sCustomNameSet "4th Section Attachment"
- }
-}
-SCR_AIGroup CAFWeap_14 : "{AE97EE67B3502C07}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_WeaponsSection_Alt_P_2.et" {
+SCR_AIGroup CAFPL_HQ_1 : "{446A6B53FBC8673B}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_PLT_HQ_P.et" {
  components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
-  }
-  PS_GroupCallsignAssigner "{650821C51C63FE90}" {
-   m_iCompanyCallsign 1
-   m_iPlatoonCallsign 1
-   m_iSquadCallsign 5
-  }
- }
- coords 2993.588 316.08 7801.658
- angleY 99.168
- m_aUnitPrefabSlots {
-  "{BB50E14D1D58C23B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_1IC_CW_2.et" "{E97D6D7741701408}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG_CW_2.et" "{65B7F7FD2C34F218}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MG2_CW_2.et" "{795355CA2CE824F1}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_MAT_CW_2.et"
- }
- m_sCustomNameSet "Weapons Detachment"
-}
-SCR_AIGroup CAFPL_HQ_1 : "{BE92CECA4FFF7CE5}Prefabs/Groups/BLUFOR/GC_CAF/Canadian_Army_1992/Group_CAF_PlatoonHQ_P_2_2.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
-  }
-  PS_GroupCallsignAssigner "{65041556519F0E02}" {
+  PS_GroupCallsignAssigner "{651CBACE0198E140}" {
    m_iCompanyCallsign 1
    m_iPlatoonCallsign 1
    m_iSquadCallsign 1
   }
  }
- coords 2996.177 315.83 7808.338
- angleX -1.903
- angleY 112.41
- angleZ -0.614
- m_aUnitPrefabSlots + {
-  "{21D1F4A071703255}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_Medic_CW_2.et" "{E6B239290A5A17E6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleGunner_CW_2.et" "{19AA7A0B398DF57D}Prefabs/Characters/Factions/BLUFOR/GC_Canada/Canadian_Army_1992/Character_CAF_VehicleDriver_CW_2.et"
+ coords 2996.243 315.83 7808.333
+ angleY 111.5
+ m_aUnitPrefabSlots {
+  "{373B40FAB9F262CA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_PLT_Commander_1_P.et" "{E1B0E0478D68E303}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_PLT_Warrant_1_P.et" "{B4C4A4C1E9C987B6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_Signaller_1_P.et" "{2EED0650EF1E9B88}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_FO_1_P.et" "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_Medic_1_P.et" "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_Medic_1_P.et" "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters Characters/Character_1993_CAF_Medic_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
  }
 }
-$grp GenericEntity : "{E1FD1ACDA98123AE}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Mortar_US.et" {
- {
+$grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Rifle_Sect_P.et" {
+ CAFRifle_11 {
   components {
-   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-    Enabled 0
+   PS_GroupCallsignAssigner "{651CBACDB1382F58}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
    }
   }
-  coords 2949.617 320.144 7794.514
-  angleX -1.695
-  angleY -108.763
-  angleZ 0.576
+  coords 2991.228 316.308 7796.216
+  angleX -0.616
+  angleY 95.863
+  angleZ -2.761
+  m_aUnitPrefabSlots + {
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
+  }
+  m_sCustomNameSet "1st Section"
  }
- {
+ CAFRifle_12 {
   components {
-   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-    Enabled 0
+   PS_GroupCallsignAssigner "{651CBACDB1382F58}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
    }
   }
-  coords 2952.728 320.179 7791.441
-  angleX -0.288
-  angleY -108.742
-  angleZ -0.848
+  coords 2990.385 316.943 7784.907
+  angleX -0.837
+  angleY 91.227
+  angleZ -2.702
+  m_aUnitPrefabSlots + {
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
+  }
+  m_sCustomNameSet "2nd Section"
+ }
+ CAFRifle_13 {
+  components {
+   PS_GroupCallsignAssigner "{651CBACDB1382F58}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 2990.161 317.838 7774.396
+  angleX -0.741
+  angleY 93.253
+  angleZ -2.73
+  m_aUnitPrefabSlots + {
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
+  }
+  m_sCustomNameSet "3rd Section"
+ }
+ CAFRifle_22 {
+  components {
+   PS_GroupCallsignAssigner "{651CBAEE29AF367B}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 6
+   }
+  }
+  coords 2989.562 318.954 7763.619
+  angleX 0.775
+  angleY 105.164
+  angleZ -6.257
+  m_aUnitPrefabSlots {
+   "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
+  }
+  m_sCustomNameSet "4th Section Attachment"
+ }
+ CAFRifle_23 {
+  components {
+   PS_GroupCallsignAssigner "{651CBAEE29AF367B}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 7
+   }
+  }
+  coords 2986.585 320.164 7754.17
+  angleX 2.072
+  angleY 117.24
+  angleZ -5.956
+  m_aUnitPrefabSlots {
+   "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et" "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et" "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et" "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et" "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
+  }
+  m_sCustomNameSet "5th Section Attachment"
  }
 }

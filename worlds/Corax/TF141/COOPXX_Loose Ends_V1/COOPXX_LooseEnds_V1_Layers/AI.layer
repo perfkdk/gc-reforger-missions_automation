@@ -3,7 +3,7 @@ $grp TILW_PrefabSpawnerEntity {
   coords 1077.278 15.664 4213.005
   angleY -169.128
   m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
    600
   }
@@ -38,7 +38,7 @@ $grp TILW_PrefabSpawnerEntity {
   coords 1423.352 5.25 4149.246
   angleY -169.128
   m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
    600
   }
@@ -73,7 +73,7 @@ $grp TILW_PrefabSpawnerEntity {
   coords 1377.158 4.594 4050.59
   angleY -169.128
   m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
    600
   }
@@ -108,9 +108,9 @@ $grp TILW_PrefabSpawnerEntity {
   coords 938.08 35.214 4392.291
   angleY -169.128
   m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
-   30
+   30 300
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -143,9 +143,9 @@ $grp TILW_PrefabSpawnerEntity {
   coords 956.734 35.165 4449.826
   angleY -169.128
   m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
-   30
+   30 300
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -178,7 +178,7 @@ $grp TILW_PrefabSpawnerEntity {
   coords 1061.708 17.854 4187.397
   angleY -169.128
   m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
    600
   }
@@ -213,9 +213,9 @@ $grp TILW_PrefabSpawnerEntity {
   coords 946.865 35.031 4422.026
   angleY -169.128
   m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
-   30
+   30 300
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -248,7 +248,7 @@ $grp TILW_PrefabSpawnerEntity {
   coords 1079.214 15.361 4187.888
   angleY -169.128
   m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
    600
   }
@@ -283,9 +283,9 @@ $grp TILW_PrefabSpawnerEntity {
   coords 1397.872 4.875 4095.187
   angleY -169.128
   m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
-   600
+   300
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -318,9 +318,9 @@ $grp TILW_PrefabSpawnerEntity {
   coords 1008.375 33.964 4556.282
   angleY -151.997
   m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
-   900
+   600 660
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -356,9 +356,9 @@ $grp TILW_PrefabSpawnerEntity {
   coords 1024.771 32.917 4589.296
   angleY -151.997
   m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
-   900
+   600 660
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -392,9 +392,9 @@ $grp TILW_PrefabSpawnerEntity {
   coords 990.269 34.918 4523.243
   angleY -151.997
   m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
-   900
+   600 660
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{C5BCB9F87D4BEDD6}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Split_Flora.conf" {
    m_crewGroups {
@@ -415,9 +415,9 @@ $grp TILW_PrefabSpawnerEntity {
   coords 1541.486 6.75 4392.706
   angleY -155.195
   m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
-  m_conditionFlag "atlake"
+  m_conditionFlag "bridgesecure"
   m_spawnTimings {
-   900
+   300
   }
   m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
    m_crewGroups {
@@ -447,27 +447,165 @@ $grp TILW_PrefabSpawnerEntity {
   }
  }
  lakeqrf1 {
-  coords 97.401 45.508 3781.5
+  coords 342.092 45.508 3640.078
   angleY -169.128
-  m_prefab "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_RifleSquad_P.et"
+  m_prefab "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et"
   m_conditionFlag "atlake"
   m_spawnTimings {
-   30
+   0
   }
   m_waypointNames {
    "defendlake"
   }
  }
  lakeqrf2 {
-  coords 72.561 30.533 2322.926
+  coords 394.486 18.543 2558.317
   angleY -169.128
-  m_prefab "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_RifleSquad_P.et"
+  m_prefab "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et"
   m_conditionFlag "atlake"
   m_spawnTimings {
-   30
+   0
   }
   m_waypointNames {
    "defendlake"
+  }
+ }
+ {
+  coords 1125.64 8.947 3387.554
+  angleY -169.128
+  m_prefab "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et"
+  m_spawnTimings {
+   0
+  }
+  m_waypointNames {
+   "defbridge"
+  }
+ }
+ {
+  coords 1157.019 9.135 3376.476
+  angleY -169.128
+  m_prefab "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et"
+  m_spawnTimings {
+   0
+  }
+  m_waypointNames {
+   "defbridge"
+  }
+ }
+ {
+  coords 1106.279 9.525 3387.542
+  angleY -169.128
+  m_prefab "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et"
+  m_spawnTimings {
+   0
+  }
+  m_waypointNames {
+   "defbridge"
+  }
+ }
+ {
+  coords 1331.175 5.364 4171.77
+  angleY -163.343
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "bridgesecure"
+  m_spawnTimings {
+   300
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
+  }
+ }
+ {
+  coords 1360.351 5.913 4223.702
+  angleY -163.343
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "bridgesecure"
+  m_spawnTimings {
+   300
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
+  }
+ }
+ {
+  coords 1307.895 4.932 4128.846
+  angleY -163.343
+  m_prefab "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green.et"
+  m_conditionFlag "bridgesecure"
+  m_spawnTimings {
+   300
+  }
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+   m_crewGroups {
+    TILW_CrewGroup "{64F2F8212EF64955}" {
+     m_crewStations {
+      TILW_CrewStation "{64F2F8217DD33B67}" {
+       m_allowPilot 0
+       m_allowTurret 0
+       m_characters {
+        "" ""
+       }
+      }
+      TILW_CrewStation "{64FAF9F5899BF37B}" {
+       m_allowPilot 1
+       m_allowTurret 1
+       m_characters + {
+        "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "getout" "attack_bridge"
+     }
+     m_waypointDelay 5
+    }
+   }
   }
  }
 }
@@ -478,7 +616,7 @@ SCR_DefendWaypoint flankbridge : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypo
  coords 1383.405 4.465 3331.824
 }
 GenericEntity Computer : "{4CD84AA4DE4D2284}Prefabs/Items/Computer_Device.et" {
- coords 139.021 14.031 3213.478
+ coords 133.36 14.125 3217.092
 }
 SCR_TimedWaypoint Move : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait.et" {
  coords 1055.208 11.502 3423.934
@@ -496,7 +634,7 @@ SCR_AIGroup : "{7A43006F3F254FB2}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/
  coords 2090.205 13.562 3347.617
  angleY -25.426
 }
-TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
+TILW_PresenceTriggerEntity computertrigger : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
  coords 2090.234 13.512 3346.793
  m_queryRadius 5
  m_queryPeriod 5
@@ -505,6 +643,22 @@ TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_Pres
  m_entityNames {
   "Computer"
  }
+}
+TILW_FactionTriggerEntity bridgesecure : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 1134.181 7.864 3288.677
+ m_queryRadius 150
+ m_comparisonMode EQUAL_OR_LESS
+ m_flagName "bridgesecure"
+ m_playersOnly 1
+ m_ownerFactionKey "GC_SEPARATIST"
+ m_ratioThreshold 0
+}
+SCR_DefendWaypoint defbridge : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ coords 1144.932 7.889 3279.381
+ CompletionRadius 70
+}
+GenericEntity : "{95A8C3D0FF935870}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint_LeanRight.et" {
+ coords 104.602 5.647 3240.736
 }
 GenericEntity : "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et" {
  coords 138.271 13.392 3212.474
@@ -517,6 +671,7 @@ $grp SCR_AIGroup : "{B4AF342EA30A9192}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
   coords 241.879 23.71 3320.089
   m_aUnitPrefabSlots +{
   }
+  m_bDeleteIfNoPlayer 0
   {
    SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
     coords 1.625 0.039 -1.217
@@ -528,6 +683,7 @@ $grp SCR_AIGroup : "{B4AF342EA30A9192}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
  {
   coords 576.976 12.822 3159.616
   m_bSnapToTerrain 0
+  m_bDeleteIfNoPlayer 0
   {
    SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
     coords -0.938 0.007 -0.694
@@ -540,6 +696,7 @@ $grp SCR_AIGroup : "{B4AF342EA30A9192}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
 $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_FireTeam.et" {
  {
   coords 320.073 15.49 2960.68
+  m_bDeleteIfNoPlayer 0
   {
    SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
     coords 2.449 0.033 -2.065
@@ -552,11 +709,17 @@ $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
   }
  }
  {
-  coords 171.851 6.912 3213.868
+  coords 171.851 6.545 3213.868
+  m_bDeleteIfNoPlayer 0
   {
    SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
-    coords 2.449 0.033 -2.065
+    coords 2.449 -1.653 -2.065
     CompletionRadius 75
+    m_aSettings {
+     SCR_AICharacterSettingWithCause "{6528DD9BDFF8DCAA}" {
+      m_eCause DANGER_HIGH
+     }
+    }
     m_aDefendPresets {
      SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
      }
@@ -566,6 +729,7 @@ $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
  }
  {
   coords 274.061 4.514 3190.233
+  m_bDeleteIfNoPlayer 0
   {
    SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
     coords 2.449 0.033 -2.065
@@ -578,11 +742,12 @@ $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
   }
  }
  {
-  coords 134.929 9.57 3216.447
+  coords 134.929 5.523 3216.447
   m_bSnapToTerrain 0
+  m_bDeleteIfNoPlayer 0
   {
    SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
-    coords 1.427 0.033 -2.802
+    coords 1.427 0.055 -2.802
     CompletionRadius 6
     m_aDefendPresets {
      SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
@@ -603,6 +768,7 @@ $grp SCR_BoardingWaypoint : "{C40316EE26846CAB}Prefabs/AI/Waypoints/AIWaypoint_G
 }
 SCR_AIGroup : "{D57725689E9E8EDA}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPARATIST_RifleSquad.et" {
  coords 609.999 27.467 3585.851
+ m_bDeleteIfNoPlayer 0
  {
   SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
    coords -6.464 -0.033 -8.579
@@ -628,26 +794,49 @@ $grp SCR_AIGroup : "{DEE4F567595DE7AE}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
   m_aUnitPrefabSlots {
    "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_SL.et" "{7F16C773F44030E6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_TL.et" "{78EF9F722E522CCF}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Sharpshooter.et"
   }
+  m_bDeleteIfNoPlayer 0
  }
  {
   coords 133.337 4.714 3237.453
+  m_bDeleteIfNoPlayer 0
   {
    SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
     coords 10.635 0.032 10.668
     CompletionRadius 3
+    m_aSettings {
+     SCR_AICharacterSettingWithCause "{6528DD9B9B7D8299}" {
+      m_eCause DANGER_HIGH
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 401.084 17.625 3285.34
+  m_aUnitPrefabSlots {
+   "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_SL.et" "{7F16C773F44030E6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_TL.et" "{78EF9F722E522CCF}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Sharpshooter.et"
+  }
+  m_bDeleteIfNoPlayer 0
+  {
+   SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    coords 1.391 -0.008 -0.952
    }
   }
  }
 }
+GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+ coords 145.653 4.979 3251.833
+ angleY 0
+}
 $grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
  defendlake {
   coords 251.085 2.856 3207.741
-  AIBehaviorTree "{730E239133C66A2A}AI/BehaviorTrees/Waypoints/WP_Attack.bt"
+  AIBehaviorTree "{573614D962C311BB}AI/BehaviorTrees/Waypoints/WP_SearchAndDestroy.bt"
   CompletionRadius 150
  }
  attack_bridge {
   coords 1171.692 7.856 3231.623
-  AIBehaviorTree "{730E239133C66A2A}AI/BehaviorTrees/Waypoints/WP_Attack.bt"
-  CompletionRadius 70
+  AIBehaviorTree "{573614D962C311BB}AI/BehaviorTrees/Waypoints/WP_SearchAndDestroy.bt"
+  CompletionRadius 100
  }
 }

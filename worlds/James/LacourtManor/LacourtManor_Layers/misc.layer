@@ -114,7 +114,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-<<<<<<< Updated upstream
 PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  coords 3958.25 34.425 7332.052
  m_sTitle "Notes"
@@ -141,18 +140,6 @@ PS_ManualMarker : "{60226647F08EF462}PrefabsEditable/Markers/Group/Marker_GroupF
  m_fWorldSize 175
  m_aVisibleForFactions {
   "USSR"
-=======
-$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- {
-  coords 3958.25 34.425 7332.052
-  m_sTitle "Scenario"
-  m_sTextData "The remnants of a British rifle platoon have fallen back to the Lacourt manor after beign defeated at Gravette. "\
-  ""\
-  "A Soviet motor rifle platoon in BTRs has been tasked with eliminating the British remants, and seizing the manor and immediate surrounding area."
-  m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
-  m_iOrder 0
->>>>>>> Stashed changes
  }
  {
   coords 3972.665 35.429 7330.6

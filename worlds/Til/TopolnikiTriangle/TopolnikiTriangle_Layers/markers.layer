@@ -253,7 +253,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.753 0 0 1
   m_sQuadName "target-reference-point-2"
   m_fWorldSize 70
-  m_sDescription "TRP1 - 3r, 270mills, 950mills, 26s"
+  m_sDescription "TRP1 - 3r, 0270mills, 0950mills, 26s"
   m_aVisibleForFactions {
    "US"
   }
@@ -265,7 +265,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.753 0 0 1
   m_sQuadName "target-reference-point-2"
   m_fWorldSize 70
-  m_sDescription "TRP2 - 3r, 545mills, 1185mills, 29s"
+  m_sDescription "TRP2 - 3r, 0545mills, 1185mills, 29s"
   m_aVisibleForFactions {
    "US"
   }
@@ -277,7 +277,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.753 0 0 1
   m_sQuadName "target-reference-point-2"
   m_fWorldSize 70
-  m_sDescription "TRP3 - 3r, 960mills, 1135mills, 28s"
+  m_sDescription "TRP3 - 3r, 0960mills, 1135mills, 28s"
   m_aVisibleForFactions {
    "US"
   }

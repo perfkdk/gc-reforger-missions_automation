@@ -3,15 +3,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 1391.915 6.907 3176.929
   m_sTitle "Situation"
   m_sTextData "a. Enemy Forces:"\
-  "G2 indicates enemy consists of a Seperatist platoon in a defensive position around the Villa at Lake Krolyk. G2 has advised that they are equipped with small-arms such as AK-74s, RPKs, RPGs, PKM and SVD. G2 believes they will dig in and put up a strong defence of the villa."\
+  "G2 indicates enemy consists of a Seperatist platoon in a defensive position around the Villa at Lake Krolyk And one platoon defending the area around bridge 894. G2 has advised that they are equipped with small-arms such as AK-74s, RPKs, RPGs, PKM and SVD. G2 believes they will dig in and put up a strong defence of the villa."\
   ""\
   "Russian and Seperatist Forces are operating to the north on the west bank of the river in various concentrations and could take actions to reinforce the villa or cut off forces at the bridge."\
   ""\
   "b. Friendly Forces:"\
-  "4 Delta troops are located West of Bridge 894 in the river, 1 Ranger platoon is location on the south side of Bridge 894 in position and has been given an Anti tank team from the Anti Tank platoon. "\
+  "4 Delta troops are located East of Bridge 894 on the opising river side, 2nd Ranger platoon is located to the south side of Bridge 894 in position to assault from Zarichne and has been given an Anti tank team from the Anti Tank platoon. "\
   ""\
   "c. Terrain:"\
-  "Wide Deep river to our east with various crossing points. Dense urban to our immiate south thinning out to the west. Direct west is a wooded river leading to Lake krolyk. East is open fields interspersed with small woods."\
+  "Wide Deep river to our east with various crossing points. Dense urban to the south thinning out to the west. Direct west is a wooded river leading to Lake krolyk. North is open fields interspersed with small woods. East if the river and the awaiting extraction force pickup."\
   ""\
   "d. Weather:"\
   "Weather is clear and with a full moon. Winds mild. Ground is soft and muddy but should not impede movement."\
@@ -25,10 +25,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 1415.701 6.474 3149.016
   m_sTitle "Mission"
   m_sTextData "Delta Force:"\
-  "Mission is to Attack Lake Krolyk and retrieve the sensitive hardware (Computer Device) and extract back to the east bank of the river and hand over to an awating extraction force."\
+  "Mission is to Wait for Rangers to secure the ingress route by capturing bridge 894 and then to Attack Lake Krolyk and retrieve the sensitive hardware (Computer Device) and extract back to the east bank of the river and hand over to an awating extraction force at grid 020 033."\
   ""\
   "Rangers:"\
-  "Mission is to block the enemy at Bridge 894 to prevent enemy forces from approaching from the North and cutting off Delta's extraction route."\
+  "Mission is to Capture Bridge 894 to secure the Delta squadrons ingress route and then Block the enemy at Bridge 894 to prevent enemy forces from approaching from the North and cutting off Delta's extraction route."\
   ""\
   " "
   m_aVisibleForFactions {
@@ -36,7 +36,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 1
+  m_iOrder 2
  }
  {
   coords 1396.712 7.507 3074.226
@@ -49,7 +49,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_USAF"
   }
-  m_iOrder 2
+  m_iOrder 3
  }
  {
   coords 1388.646 9.891 3040.607
@@ -71,7 +71,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "b. Signal:"\
   "Delta Net: 49MHz"\
-  "Ranger Platoon Net: 48MHz"\
+  "Ranger 2nd Platoon Net: 48MHz"\
   ""\
   "Callsigns:"\
   "Platoon Commander: 2'6"\
@@ -89,12 +89,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_USAF"
   }
-  m_iOrder 4
+  m_iOrder 5
  }
  {
   coords 1363.642 6.932 3203.285
   m_sTitle "Notes"
-  m_sTextData "Basic raid and defend all in one. Dont make this more complicated than it is, trying to be clever wont make this more fun."\
+  m_sTextData "Basic raid and surcure/defend all in one. Dont make this more complicated than it is, trying to be clever wont make this more fun."\
   ""\
   "No time limit"\
   ""\
@@ -110,55 +110,51 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 6
+  m_iOrder 7
  }
  {
   coords 1342.694 6.969 3153.389
   m_sTitle "Service And Support"
   m_sTextData "Ranger Vehicles:"\
-  "3x MATV (JLTV) with M134"\
-  "3x MATV (JLTV) with M2"\
+  "1x MATV (JLTV) with M134"\
+  "5x MATV (JLTV) with M2"\
   "1x MATV (JLTV)"\
   ""\
   "Each contains 50 Paraflares for illumination."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
-  m_iOrder 5
+  m_iOrder 6
+ }
+ {
+  coords 1393.644 6.881 3188.972
+  m_sTitle "Terrain and Weather"
+  m_sTextData "c. Terrain:"\
+  "Wide Deep river to our east with various crossing points. Dense urban to the south thinning out to the west. Direct west is a wooded river leading to Lake krolyk. North is open fields interspersed with small woods. East if the river and the awaiting extraction force pickup."\
+  ""\
+  "d. Weather:"\
+  "Weather is clear and with a full moon. Winds mild. Ground is soft and muddy but should not impede movement."\
+  ""\
+  ""
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 1
  }
 }
-$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
- M1025_armed_M2HB4 {
-  coords 2103.12 14.22 3321.373
-  angleY 154.8
+$grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
+ {
+  coords 1759.257 15.094 2280.443
+  m_MarkerColor 0 0.125 0.502 1
+  m_fWorldSize 80
+  m_sDescription "2nd platoon Rangers"
  }
- M1025_armed_M2HB5 {
-  coords 2107.539 14.423 3312.208
-  angleY 154.8
- }
- M1025_armed_M2HB6 {
-  coords 2111.979 14.5 3303.751
-  angleY 154.8
- }
- M1025_armed_M2HB7 {
-  coords 2114.809 14.588 3294.987
-  angleY 154.8
- }
- M1025_armed_M2HB8 {
-  coords 2119.718 14.746 3284.33
-  angleY 154.8
- }
- M1025_armed_M2HB9 {
-  coords 2125.885 14.995 3271.57
-  angleY 154.8
- }
- M1025_armed_M2HB10 {
-  coords 2130.788 15.119 3258.822
-  angleY 154.8
- }
- M1025_armed_M2HB11 {
-  coords 2098.133 13.921 3333.537
-  angleY 154.8
+ {
+  coords 1666.878 7.813 3556.597
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "recon"
+  m_fWorldSize 80
+  m_sDescription "Delta"
  }
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
@@ -190,6 +186,27 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   ShapePoint "{6504F31344EE98A2}" {
    Position -1078.267 0 -845.896
   }
+  ShapePoint "{6528DD891ED19A9B}" {
+   Position -825.931 0 -772.533
+  }
+  ShapePoint "{6528DD88E6584516}" {
+   Position -436.638 0 -1422.979
+  }
+  ShapePoint "{6528DD88E57AC72F}" {
+   Position -267.786 0 -1421.014
+  }
+  ShapePoint "{6528DD8900E01639}" {
+   Position -272.331 0 -1333.964
+  }
+  ShapePoint "{6528DD890D32D93F}" {
+   Position -377.465 0 -1293.977
+  }
+  ShapePoint "{6528DD88E21221C4}" {
+   Position -670.812 0 -749.791
+  }
+  ShapePoint "{6528DD88E87F8723}" {
+   Position -703.087 -0 -553.671
+  }
   ShapePoint "{6504F3134E2DE085}" {
    Position 115.17 -0.003 -405.248
   }
@@ -201,39 +218,7 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   }
  }
 }
-Vehicle M998_covered_long1 : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
- coords 2093.774 13.661 3343.427
-}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- {
-  coords 1230.061 7.349 3208.526
-  angleY 62.431
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.125 0.502 1
-  m_sQuadName "flag-2"
-  m_fWorldSize 30
-  m_sDescription "2 plt"
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- {
-  coords 1065.29 5.013 3191.555
-  angleY 71.122
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.125 0.502 1
-  m_sQuadName "flag-2"
-  m_fWorldSize 30
-  m_sDescription "Delta"
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_iZOrder 1
-  m_bShowForAnyFaction 1
- }
  {
   coords 248.429 2.856 3209.374
   angleY 0
