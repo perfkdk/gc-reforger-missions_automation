@@ -251,6 +251,33 @@ $grp TILW_PrefabSpawnerEntity {
    "WP_Ambush_Defend_5"
   }
  }
+ Ambush_Spawner_8 {
+  coords 3766.612 186.221 3864.104
+  angleY 33.85
+  m_prefab "{6B10747A3401270A}worlds/Cunnah/Prefabs/Groups/INDFOR/Militia/Militia_AT_Team.et"
+  m_conditionFlag "Extract_Ambush"
+  m_waypointNames {
+   "WP_Ambush_Defend_7"
+  }
+ }
+ Ambush_Spawner_9 {
+  coords 3751.987 185.593 3865.182
+  angleY 33.85
+  m_prefab "{7B626931CD41BC3F}worlds/Cunnah/Prefabs/Groups/INDFOR/Militia/Militia_MG_Team.et"
+  m_conditionFlag "Extract_Ambush"
+  m_waypointNames {
+   "WP_Ambush_Defend_6"
+  }
+ }
+ Ambush_Spawner_10 {
+  coords 3780.14 186.194 3856.267
+  angleY 33.85
+  m_prefab "{6B10747A3401270A}worlds/Cunnah/Prefabs/Groups/INDFOR/Militia/Militia_AT_Team.et"
+  m_conditionFlag "Extract_Ambush"
+  m_waypointNames {
+   "WP_Ambush_Defend_8"
+  }
+ }
 }
 $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
  WP_Tech_Move_2 {
@@ -291,6 +318,12 @@ SCR_AIGroup Delay_MG : "{7B626931CD41BC3F}worlds/Cunnah/Prefabs/Groups/INDFOR/Mi
  m_aStaticWaypoints {
   "WP_Delay_1"
  }
+}
+TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ coords 3813.448 170.914 3940.897
+ angleY 29.789
+ m_prefab "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et"
+ m_conditionFlag "Extract_Ambush"
 }
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 4791.923 170.612 3576.914
@@ -343,6 +376,18 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  WP_Ambush_Defend_5 {
   coords 3391.239 207.747 4109.923
   CompletionRadius 40
+ }
+ WP_Ambush_Defend_6 {
+  coords 3847.714 164.282 3997.249
+  CompletionRadius 10
+ }
+ WP_Ambush_Defend_7 {
+  coords 3822.91 167.132 3960.46
+  CompletionRadius 10
+ }
+ WP_Ambush_Defend_8 {
+  coords 3815.732 174.921 3904.014
+  CompletionRadius 20
  }
 }
 SCR_SearchAndDestroyWaypoint WP_Assault : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
