@@ -4,12 +4,6 @@ SCR_AIGroup : "{0ACD74AD27EEEE7D}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
   "wp_def_1"
  }
 }
-SCR_AIGroup : "{1A00EE432E398461}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_MedicalSection.et" {
- coords 414.12 31.184 383.775
- m_aStaticWaypoints {
-  "wp_def_4"
- }
-}
 $grp SCR_AIGroup : "{56FD583BBC989204}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_SentryTeam.et" {
  {
   coords 442.021 18.693 528.231
@@ -84,28 +78,8 @@ $grp SCR_ChimeraCharacter : "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR
     EnableAI 1
    }
   }
-  coords 615.859 10.522 551.478
-  angleY 163.76
- }
- {
-  components {
-   ChimeraAIControlComponent "{520EA1D2DB109F34}" {
-    OverrideAIBehaviorData "{1E81FF0F3EC49323}AI/BehaviorTrees/Chimera/Soldier/TILW_StaticAI.bt"
-    EnableAI 1
-   }
-  }
   coords 271.556 40.46 385.998
   angleY 87.236
- }
- {
-  components {
-   ChimeraAIControlComponent "{520EA1D2DB109F34}" {
-    OverrideAIBehaviorData "{1E81FF0F3EC49323}AI/BehaviorTrees/Chimera/Soldier/TILW_StaticAI.bt"
-    EnableAI 1
-   }
-  }
-  coords 281.936 40.756 394.973
-  angleY -1.173
  }
  {
   components {
