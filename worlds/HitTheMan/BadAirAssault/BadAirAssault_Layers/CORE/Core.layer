@@ -1,6 +1,3 @@
-SCR_AIWorld : "{DED05ECEF37B333A}Prefabs/AI/SCR_AIWorld_Chernarus.et" {
- coords 1323.302 170.417 6049.37
-}
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  components {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
@@ -28,7 +25,7 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  coords 4761.65 165.156 3605.658
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 1314.23 169.992 6030.26
+ coords 3727.142 525.044 1643.412
 }
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  components {
@@ -53,7 +50,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    m_fWind 4
   }
  }
- coords 97.017 0 -501.573
+ coords 3697.287 353.796 1652.506
  {
   RadioManagerEntity {
    ID "5ED9088735FF2DEE"
@@ -145,9 +142,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-SCR_AIGroup : "{4CBA83E57E261C26}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_AI_RifleAT_Sect.et" {
- coords 4855.442 168.604 3770.995
-}
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
@@ -169,7 +163,34 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    Position 771.073 90.658 2069.731
   }
   ShapePoint "{654F51E236B2A525}" {
-   Position -1521.418 2.049 2091.75
+   Position -4.459 33.481 2044.027
+  }
+  ShapePoint "{655288DC2B5B97B9}" {
+   Position -371.356 24.801 1977.121
+  }
+  ShapePoint "{655288DC2AAB5B82}" {
+   Position -516.102 -17.974 1763.505
+  }
+  ShapePoint "{655288DC29B85FD4}" {
+   Position -590.421 -55.183 1395.784
+  }
+  ShapePoint "{655288DC2C9E20BD}" {
+   Position -778.099 -20.132 1166.299
+  }
+  ShapePoint "{655288DC23D986A3}" {
+   Position -1016.418 31.33 1040.507
+  }
+  ShapePoint "{655288DC22D28CC7}" {
+   Position -1204.028 31.812 922.167
+  }
+  ShapePoint "{655288DC20757AFD}" {
+   Position -1468.347 -7.597 743.917
+  }
+  ShapePoint "{655288DC27F6D9D3}" {
+   Position -1538.94 39.933 442.232
+  }
+  ShapePoint "{655288DC2740459B}" {
+   Position -1506.916 63.713 197.324
   }
   ShapePoint "{654F51E2C294627E}" {
    Position -1526.72 143.16 -2091.859
@@ -182,81 +203,93 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   }
  }
 }
-GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_US.et" {
- components {
-  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
-   m_eSupplyCostType GADGET_ARSENAL
-  }
-  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
-   m_eSupplyCostType GADGET_ARSENAL
-  }
- }
- coords 1242.398 155.469 6034.044
- angleX 0.302
- angleY 80.303
- angleZ 1.764
-}
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- {
-  coords 984.641 193.204 7624.295
+ Trigger_COYHQ {
+  coords 4867.432 169.799 3763.577
   m_sendStatusMessages 1
-  m_locationName "the Sawmill Office"
-  m_flagName "Sawmill Office"
+  m_locationName "the Company HQ"
+  m_flagName "COYHQ"
   m_stopAfterFirstChange 1
   m_playersOnly 1
-  m_ownerFactionKey "GC_CAF"
+  m_ownerFactionKey "USSR"
   m_ratioThreshold 0.9
  }
- {
-  coords 962.599 188.548 7577.847
+ Trigger_TownHall {
+  coords 4790.311 177.341 3575.503
+  m_queryRadius 17
   m_sendStatusMessages 1
-  m_locationName "the Saw Mill"
-  m_flagName "Saw Mill"
+  m_locationName "the Town Hall"
+  m_flagName "TownHall"
   m_stopAfterFirstChange 1
   m_playersOnly 1
-  m_ownerFactionKey "GC_CAF"
+  m_ownerFactionKey "USSR"
   m_ratioThreshold 0.9
  }
- {
-  coords 936.84 181.476 7620.989
-  m_queryRadius 130
-  m_flagName "SAWMILL_AREA"
+ Trigger_FireStation {
+  coords 4941.955 174.459 3437.3
+  m_queryRadius 12
+  m_sendStatusMessages 1
+  m_locationName "the Firestation"
+  m_flagName "Firestation"
+  m_stopAfterFirstChange 1
   m_playersOnly 1
-  m_ownerFactionKey "GC_CAF"
-  m_ratioThreshold 0.1
+  m_ownerFactionKey "USSR"
+  m_ratioThreshold 0.9
+ }
+ Trigger_PowerStation {
+  coords 4488.568 174.746 3834.078
+  m_queryRadius 13
+  m_sendStatusMessages 1
+  m_locationName "the Powerstation"
+  m_flagName "Powerstation"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "USSR"
+  m_ratioThreshold 0.9
  }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
- coords 1302.611 168.262 6019.94
+ coords 3720.089 354.787 1640.119
+ angleZ -3.576
  m_missionEvents {
   TILW_MissionEvent "{65041578E772535B}" {
-   m_name "USSR Victory Casualties"
+   m_name "CAF Victory Casualties"
    m_instructions {
     TILW_SendMessageInstruction "{6504157888C9AF5E}" {
-     m_messageTitle "Soviet Forces Victory"
-     m_messageBody "CAF Sustained too many casualties.. GM Discretion when to end the mission"
+     m_messageTitle "Canadian Armed Forces Victory"
+     m_messageBody "USSR Sustained too many casualties.. GM Discretion when to end the mission"
     }
    }
    m_condition TILW_LiteralTerm "{6504157885FC5C39}" {
-    m_flagName "CAF_CAS"
+    m_flagName "USSR_CAS"
    }
   }
   TILW_MissionEvent "{6506E408139E95AC}" {
    m_name "Time Limit"
    m_instructions {
     TILW_SendMessageInstruction "{6506E408307D3B9A}" {
-     m_executionDelay 3900
+     m_executionDelay 2700
      m_messageTitle "Time Limit"
-     m_messageBody "The Mission will end in 5 minutes"
+     m_messageBody "The Mission will end in 45 minutes"
+    }
+    TILW_SendMessageInstruction "{6550E36F53005626}" {
+     m_executionDelay 4200
+     m_messageTitle "Time Limit"
+     m_messageBody "The Mission will end in 20 minutes"
+    }
+    TILW_SendMessageInstruction "{6550E36F43F2544F}" {
+     m_executionDelay 4800
+     m_messageTitle "Time Limit"
+     m_messageBody "The Mission will end in 10 minutes"
     }
     TILW_SendMessageInstruction "{6506E4089FDE5CA5}" {
-     m_executionDelay 4200
-     m_messageTitle "USSR Victory"
-     m_messageBody "USSR Forces held the town long enough forcing the CAF to fall back... GM Discretion when to end the mission"
+     m_executionDelay 5400
+     m_messageTitle "Canadian Armed Forces Victory"
+     m_messageBody "CAF held the town long enough forcing the USSR to fall back... GM Discretion when to end the mission"
     }
     TILW_EndGameInstruction "{650CE1979D068E00}" {
-     m_executionDelay 4210
-     m_factionKey "USSR"
+     m_executionDelay 5410
+     m_factionKey "GC_CAF"
     }
    }
    m_condition TILW_LiteralTerm "{6506E40BFBED4D76}" {
@@ -264,22 +297,33 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{650750E2E1A73F1D}" {
-   m_name "CAF Victory"
+   m_name "USSR Victory"
    m_instructions {
     TILW_SendMessageInstruction "{6507662C26CDA08C}" {
+     m_executionDelay 20
+     m_messageTitle "Battalion Report"
+     m_messageBody "Town of Bad Orb has been secured, hold it for 15 Minutes.."
+    }
+    TILW_SendMessageInstruction "{6550E36ED08C418C}" {
      m_executionDelay 900
-     m_messageTitle "Canadian Forces Victory"
-     m_messageBody "CAF has managed to secure and held the Sawmill... OPFOR Has 5min to counter attack to regain the buildings... "\
+     m_messageTitle "USSR Victory"
+     m_messageBody "USSR has managed to secure & hold the town of Bad Orb... "\
      "GM Discretion when to end the mission"
     }
    }
    m_condition TILW_ConjunctionTerm "{650AE15E5BA69298}" {
     m_operands {
      TILW_LiteralTerm "{650AE15E59E990F8}" {
-      m_flagName "Saw Mill"
+      m_flagName "TownHall"
+     }
+     TILW_LiteralTerm "{6550E36E8D8441B3}" {
+      m_flagName "Firestation"
+     }
+     TILW_LiteralTerm "{6550E36E8EA64081}" {
+      m_flagName "Powerstation"
      }
      TILW_LiteralTerm "{650AE15E58E959FC}" {
-      m_flagName "Sawmill Office"
+      m_flagName "COYHQ"
      }
     }
    }
@@ -289,114 +333,52 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_AssignWaypointsInstruction "{650CE1967A6B4CCB}" {
      m_executionDelay 10
-     m_groupName "AIReconForce_1"
+     m_groupName "Frwd_AI_Rifle_1"
      m_waypointNames {
-      "WP_Fallback_1"
+      "RecaptureBadOrb"
      }
      m_clearExisting 1
     }
     TILW_AssignWaypointsInstruction "{650CE1961204413B}" {
      m_executionDelay 10
-     m_groupName "AIReconForce_2"
+     m_groupName "Frwd_AI_Rifle_2"
      m_waypointNames {
-      "WP_Fallback_1"
+      "RecaptureBadOrb"
      }
      m_clearExisting 1
     }
-    TILW_AssignWaypointsInstruction "{650CE196158D292B}" {
+    TILW_AssignWaypointsInstruction "{6550E3611D89FAA1}" {
      m_executionDelay 10
-     m_groupName "AIReconForce_3"
+     m_groupName "Frwd_AI_Rifle_3"
      m_waypointNames {
-      "WP_Fallback_1"
+      "RecaptureBadOrb"
      }
      m_clearExisting 1
     }
-    TILW_AssignWaypointsInstruction "{650CE1960EB508DA}" {
+    TILW_AssignWaypointsInstruction "{6550E36112F14A73}" {
      m_executionDelay 10
-     m_groupName "AISquad_1"
+     m_groupName "Frwd_AI_Rifle_4"
      m_waypointNames {
-      "WP_Fallback_1"
+      "RecaptureBadOrb"
      }
      m_clearExisting 1
     }
-    TILW_AssignWaypointsInstruction "{650CE19600B7E9BC}" {
-     m_executionDelay 10
-     m_groupName "AISquad_2"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{650CE196012759B1}" {
-     m_executionDelay 10
-     m_groupName "AISquad_3"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{650CE19601AB3041}" {
-     m_executionDelay 10
-     m_groupName "AISquad_4"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{650CE19601D286D3}" {
-     m_executionDelay 10
-     m_groupName "AISquad_5"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{650CE1960250C07C}" {
-     m_executionDelay 10
-     m_groupName "AISquad_6"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{650CE1960329CB98}" {
-     m_executionDelay 10
-     m_groupName "AISquad_7"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{651F0AAA6B9C630C}" {
-     m_executionDelay 10
-     m_groupName "AIReconForce_4"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
-    }
-    TILW_AssignWaypointsInstruction "{651F0AAA6F38C486}" {
-     m_executionDelay 10
-     m_groupName "AIReconForce_5"
-     m_waypointNames {
-      "WP_Fallback_1"
-     }
-     m_clearExisting 1
+    TILW_SendMessageInstruction "{6550E3610BC8F6E2}" {
+     m_executionDelay 2
+     m_messageTitle "Battalion Report:"
+     m_messageBody "Intelligence & Reconnaissance has spotted a Quick Reaction Force moving in towards Bad Orb from the West"
     }
    }
    m_condition TILW_LiteralTerm "{650CE19641F61B04}" {
-    m_flagName "SAWMILL_AREA"
+    m_flagName "COYHQ"
    }
   }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{6506E4081586428B}" {
-   m_flagName "CAF_CAS"
-   m_factionKey "GC_CAF"
+   m_flagName "USSR_CAS"
+   m_factionKey "USSR"
    m_casualtyRatio 0.85
   }
  }
-}
-SCR_AIGroup : "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_AI_Rifle_Sect.et" {
- coords 4853.944 168.4 3767.015
 }
