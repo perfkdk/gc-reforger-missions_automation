@@ -169,8 +169,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_flagName "Extract_Ambush"
     }
    }
-   m_condition TILW_LiteralTerm "{6520F2B390860850}" {
-    m_flagName "OPFOR_In_Town"
+   m_condition TILW_ConjunctionTerm "{6550F9C54C2CE8E9}" {
+    m_operands {
+     TILW_LiteralTerm "{6550F9C5AFB86399}" {
+      m_flagName "OPFOR_In_Town"
+     }
+     TILW_LiteralTerm "{6550F9C59CDE6D84}" {
+      m_flagName "OPFOR_In_Town_Timer_Expired"
+     }
+    }
    }
   }
   TILW_MissionEvent "{6522D4E577D82230}" {
@@ -207,6 +214,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_LiteralTerm "{6522D4E59E3D6BBE}" {
     m_flagName "Garrison_Dead"
+   }
+  }
+  TILW_MissionEvent "{6550F9C5B63F6729}" {
+   m_name "Timer"
+   m_instructions {
+    TILW_SetFlagInstruction "{6550F9C5BB392D68}" {
+     m_executionDelay 15
+     m_flagName "OPFOR_In_Town_Timer_Expired"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6550F9C58252AEDB}" {
+    m_invertTerm 1
    }
   }
  }
