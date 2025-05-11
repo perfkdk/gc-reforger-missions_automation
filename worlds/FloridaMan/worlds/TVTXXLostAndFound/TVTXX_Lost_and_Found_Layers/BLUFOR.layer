@@ -658,8 +658,8 @@ $grp SCR_AIGroup : "{DBE022E6794D05B9}worlds/FloridaMan/Prefabs/Groups/BLUFOR/US
     DefaultFormation "Line"
    }
   }
-  coords 1642.367 38.073 2153.293
-  angleY -90.427
+  coords 1627.351 37.627 2158.433
+  angleY -0.427
   m_sCustomNameSet "Team \"LION\""
  }
  {
@@ -671,7 +671,7 @@ $grp SCR_AIGroup : "{DBE022E6794D05B9}worlds/FloridaMan/Prefabs/Groups/BLUFOR/US
     m_iSquadCallsign 3
    }
   }
-  coords 1653.673 39.586 2167.03
+  coords 1646.859 38.699 2158.427
   angleY 0
   m_sCustomNameSet "Team \"BEAR\""
  }
@@ -684,10 +684,10 @@ $grp SCR_AIGroup : "{DBE022E6794D05B9}worlds/FloridaMan/Prefabs/Groups/BLUFOR/US
     m_iSquadCallsign 2
    }
   }
-  coords 1666.665 38.893 2156.306
-  angleX -0.887
-  angleY 89.917
-  angleZ 5.357
+  coords 1667.042 39.093 2158.51
+  angleX 5.356
+  angleY 0
+  angleZ 0.891
   m_sCustomNameSet "Team \"TIGER\""
  }
 }

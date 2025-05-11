@@ -70,8 +70,8 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SE
     m_iSquadCallsign 3
    }
   }
-  coords 2967.524 61.41 1774.628
-  angleY -27.096
+  coords 2964.221 61.575 1772.919
+  angleY -11.062
  }
  {
   components {

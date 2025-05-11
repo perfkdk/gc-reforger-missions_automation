@@ -9,6 +9,7 @@ $grp GenericEntity {
      }
      RigidBody "{6554E00F75D8D851}" {
       ModelGeometry 1
+      Static 1
      }
     }
     coords 0.648 -0.178 -1.859
@@ -80,6 +81,7 @@ $grp GenericEntity {
      }
      RigidBody "{6554E00F6B009901}" {
       ModelGeometry 1
+      Static 1
      }
     }
     coords 0.648 -0.178 -1.859
@@ -153,6 +155,7 @@ $grp GenericEntity {
      }
      RigidBody "{6554E00F6022857C}" {
       ModelGeometry 1
+      Static 1
      }
     }
     coords 0.648 -0.178 -1.859
@@ -226,6 +229,7 @@ $grp GenericEntity {
      }
      RigidBody "{6554E00F6341666B}" {
       ModelGeometry 1
+      Static 1
      }
     }
     coords 0.648 -0.178 -1.859
@@ -299,6 +303,7 @@ $grp GenericEntity {
      }
      RigidBody "{6554E00F66D36D5B}" {
       ModelGeometry 1
+      Static 1
      }
     }
     coords 0.648 -0.178 -1.859

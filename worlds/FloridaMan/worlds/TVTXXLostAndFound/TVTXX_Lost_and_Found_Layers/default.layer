@@ -92,12 +92,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{6554E01094C0A2FF}" {
    m_name "Debug - Blackbox recovered"
    m_instructions {
-    TILW_DeleteEntitiesInstruction "{6554E010818E221A}" {
-     m_executionDelay 0
-     m_entityNames {
-      "radio_blackbox"
-     }
-    }
     TILW_SendMessageInstruction "{6554E01062C0FF04}" {
      m_executionDelay 1
      m_messageTitle "Blackbox recovered"

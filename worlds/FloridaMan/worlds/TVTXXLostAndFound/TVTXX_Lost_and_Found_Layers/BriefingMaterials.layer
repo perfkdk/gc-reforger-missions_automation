@@ -64,7 +64,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 9999
  }
  {
-  coords 1655.605 38.53 2151.75
+  coords 1647.765 38.251 2151.186
   m_sTitle "Mission Notes"
   m_sTextData "Mission by FloridaMan"\
   ""\
@@ -81,7 +81,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 10
  }
  {
-  coords 1655.47 38.307 2149.024
+  coords 1647.63 38.075 2148.459
   m_sTitle "I. Situation"
   m_sTextData "A U.S. Apache helicopter has been shot down by separatist forces on the island of Arland. Command has received confirmation of the pilot's survival through their NGSR equipment. U.S. Air Force Pararescue teams have been dispatched to the island."\
   ""\
@@ -111,7 +111,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 1
  }
  {
-  coords 1656.749 38.373 2149.651
+  coords 1648.909 38.16 2149.087
   m_sTitle "III. Service & Support"
   m_sTextData "A. Service"\
   "The use of enemy weapons, equipment, and vehicles are allowed. Remember, picking up enemy equipment (and radios) provides a distinct advantage if things go sideways."\
@@ -134,7 +134,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 2
  }
  {
-  coords 1653.444 38.689 2154.649
+  coords 1645.604 38.325 2154.084
   m_sTitle "I. Situation"
   m_sTextData "You survived a helicopter crash by jumping out with your standard issue non-navigable parachute. You have landed somewhere within the area marked on your map. Both Air Force pararescue and separatists are looking for you. You believe the separatists are coming from the east and north while Pararescue may be coming from the west."\
   ""\
@@ -202,7 +202,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  BLU_INSERTMARKER {
-  coords 1655.972 38.769 2154.648
+  coords 1648.132 38.45 2154.083
+  angleY 90
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
   m_sQuadName "recon"
