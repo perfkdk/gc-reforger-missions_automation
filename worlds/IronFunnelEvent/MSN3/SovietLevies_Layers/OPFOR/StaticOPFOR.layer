@@ -1,10 +1,8 @@
-$grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubCompositions/Foundation_Mortar_USSR.et" {
- {
-  coords 7477.448 164.57 4304.352
-  angleY 12.141
- }
- {
-  coords 7455.429 164.585 4310.255
-  angleY 16.745
- }
+PK_EntityDeleter {
+ coords 7603.367 170.363 4476.789
+ m_fRadius 40
+}
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 7548.19 161.562 4475.537
+ angleY 36.689
 }
