@@ -1,0 +1,8 @@
+PK_EntityDeleter {
+ coords 7603.367 170.363 4476.789
+ m_fRadius 40
+}
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 7548.19 161.562 4475.537
+ angleY 36.689
+}

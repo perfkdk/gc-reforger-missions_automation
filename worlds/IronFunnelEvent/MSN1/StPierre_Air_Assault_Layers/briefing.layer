@@ -1,3 +1,11 @@
+PS_MissionDescription PREBRIEF : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 8959.743 97.473 2638.451
+ m_sTitle "Overview"
+ m_sTextData "BARBARIC Company (FORECON) under the 22nd MAU conduct a raid on rear line and logistical troops under the 876th Independent Naval (Air Landing) Infantry Battalion."\
+ ""\
+ "First mission of the IRON FUNNEL series."
+ m_bEmptyFactionVisibility 1
+}
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  {
   components {
