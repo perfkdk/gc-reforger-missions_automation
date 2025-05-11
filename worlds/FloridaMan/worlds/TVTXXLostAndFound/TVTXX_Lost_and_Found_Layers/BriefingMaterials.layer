@@ -56,9 +56,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Overview"
   m_sTextData "Russian-backed separatists have shot down an American Apache helicopter. U.S. Air Force pararescue have been sent to rescue the pilots and recover the blackbox."\
   ""\
-  "Slot both pilots."\
+  "<b>Slot both pilots.</b>"\
   ""\
-  "For each two squads of separatists, fill one squad of pararescue."
+  "<b>GM NOTICE:</b> Due to the random spawn nature of the missing pilots, please make sure they are not spawned in rocks or other locations where they would immediately die (fields do not qualify, this was intentional). Ideally, this check happens during the brief so they aren't delayed when game starts."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 9999
@@ -68,7 +68,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission Notes"
   m_sTextData "Mission by FloridaMan"\
   ""\
-  "No setup timers."\
+  "No faction has setup timers."\
+  ""\
+  "The indicated AO Limit is just the area where the pilots may spawn, IT IS NOT A HARD LIMIT ON BLUFOR."\
   ""\
   "Mission End Conditions:"\
   "BLUFOR Major Victory - Pilots and blackbox extracted"\
@@ -84,7 +86,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "A U.S. Apache helicopter has been shot down by separatist forces on the island of Arland. Command has received confirmation of the pilot's survival through their NGSR equipment. U.S. Air Force Pararescue teams have been dispatched to the island."\
   ""\
   "A. Hostile Forces"\
-  "This island is a training island for the area's russian-backed separatists. ISR indicates that they have around 60 men on the island doing various types of trainings. When the helicopter crash landed, their movements went to one of two locations; we assume these are assembly points before they begin their search. They also have a Mi-8 in use that will probably be used for the search as well."\
+  "This island is a training island for the area's russian-backed separatists. ISR indicates that they have around 60 men on the island doing various types of trainings. When the helicopter crashed, their movements went to one of two locations; we assume these are assembly points before they begin their search. They also have a Mi-8 in use that will probably be used for the search as well. They are equipped with a mix of civilian and russian equipment, weapons, and RPGs."\
   ""\
   "B. Friendly Forces"\
   "Both pilots reported that they were alive and unharmed during the crash. When they bailed from the helicopter, they drifted in their parachutes to land somewhere in the indicated zone. The pilots have two violet smoke grenades and two orange flares (per person)."\
@@ -99,7 +101,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Mission"
   m_sTextData "U.S. Air Force Pararescue are to find and extract the two missing pilots. "\
   ""\
-  "U.S. Air Force Pararescue are to assist the pilots with the recovery of the Apache's black box from the wreckage."\
+  "U.S. Air Force Pararescue are to assist the pilots with the recovery of the Apache's black box from the wreckage (marked on the map with a red X, will reduce to one X when mission starts)."\
   ""\
   "Each team can operate either collectively or independantly as the mission requires."\
   ""
@@ -112,7 +114,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 1656.749 38.373 2149.651
   m_sTitle "III. Service & Support"
   m_sTextData "A. Service"\
-  "The use of enemy weapons, equipment, and vehicles are allowed."\
+  "The use of enemy weapons, equipment, and vehicles are allowed. Remember, picking up enemy equipment (and radios) provides a distinct advantage if things go sideways."\
   ""\
   "B. Support"\
   "No additional support is available for this mission."\
@@ -121,9 +123,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Team 1 - Lion"\
   "Team 2 - Tiger"\
   "Team 3 - Bear"\
+  "Challenge - Black"\
+  "Response - Pepper"\
   ""\
   "D. Radio Frequencies"\
-  "Teams to coordinate frequencies. Pilots most likely have a different encoding for their communication devices."
+  "Teams to coordinate frequencies. Pilots likely have a different encoding for their communication devices."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -132,11 +136,18 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 1653.444 38.689 2154.649
   m_sTitle "I. Situation"
-  m_sTextData "You survived a helicopter crash by jumping out with your standard issue non-navigable parachute. You have landed somewhere within the area marked on your map. Both Air Force pararescue and separatists are looking for you."\
+  m_sTextData "You survived a helicopter crash by jumping out with your standard issue non-navigable parachute. You have landed somewhere within the area marked on your map. Both Air Force pararescue and separatists are looking for you. You believe the separatists are coming from the east and north while Pararescue may be coming from the west."\
   ""\
   "Pararescue has information on the extract location and helicopter crash site. You need to recover the blackbox from the helicopter before extracting."\
   ""\
-  "Good luck."
+  "As a part of your standard issue bug-out bag, each pilot has an MP5 with two magazines, M9 pistol with three magazines, two purple smokes and two orange flares. Use them wisely."\
+  ""\
+  "You believe this group would rather capture you and execute you on camera than outright shoot you, but don't push your luck."\
+  ""\
+  "Challenge - Black"\
+  "Response - Pepper"\
+  ""\
+  "Fight dirty to survive - good luck."
   m_aVisibleForFactions {
    "US"
   }
@@ -152,7 +163,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "B. Friendly Forces"\
   "You have two platoons of men; one at group 1 meetup and one at group 2 meetup. You also have a transport Mi-8 to help you with your search."
   m_aVisibleForFactions {
-   "GC_SEPARATISTS"
+   "GC_SEPARATIST"
   }
  }
  {
@@ -166,7 +177,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "The two platoons can coordinate or operate independently. "
   m_aVisibleForFactions {
-   "GC_SEPARATISTS"
+   "GC_SEPARATIST"
   }
   m_iOrder 1
  }
@@ -174,14 +185,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2204.274 73.562 2444.17
   m_sTitle "III. Service & Support"
   m_sTextData "A. Service"\
-  "You have flares and medical items in the trucks. No spare ammo was supplied when we moved to the meetup."\
+  "You have flares and medical items in the trucks. You also have flexcuffs in the UAZs. No spare ammo was supplied when we moved to the meetup."\
   ""\
   "B. Support"\
   "No additional support is available for this mission."\
   ""\
+  "C. Callsigns"\
+  "Due to the speed of events, these groups have not coordinated enough to establish this before now. Group leaders are free to establish their own callsigns and frequencies."\
+  ""\
   ""
   m_aVisibleForFactions {
-   "GC_SEPARATISTS"
+   "GC_SEPARATIST"
   }
   m_iOrder 2
  }

@@ -551,6 +551,12 @@ $grp Vehicle : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et"
       }
       NumSlots 20
      }
+     MultiSlotConfiguration "{6556DCC570BFF627}" {
+      SlotTemplate InventoryStorageSlot FlexCuffs {
+       Prefab "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et"
+      }
+      NumSlots 5
+     }
     }
    }
   }
@@ -580,6 +586,12 @@ $grp Vehicle : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et"
        Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
       }
       NumSlots 20
+     }
+     MultiSlotConfiguration "{6556DCC570BFF627}" {
+      SlotTemplate InventoryStorageSlot FlexCuffs {
+       Prefab "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et"
+      }
+      NumSlots 5
      }
     }
    }

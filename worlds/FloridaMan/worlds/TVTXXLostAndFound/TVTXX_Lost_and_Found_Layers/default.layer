@@ -84,6 +84,7 @@ TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_Facti
  m_queryRadius 5.5
  m_flagName "USInPropagandaArea"
  m_ownerFactionKey "US"
+ m_ratioThreshold 0.4
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 2404.873 102.699 2430.208
@@ -296,7 +297,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "End Mission Notice - Pilots extracted and blackbox recovered"
    m_instructions {
     TILW_SendMessageInstruction "{6554E035FE005720}" {
-     m_messageTitle "BLUEFOR MAJOR VICTORY"
+     m_messageTitle "BLUFOR MAJOR VICTORY"
      m_messageBody "Pararescue has successfully extracted the pilots and blackbox. Mission Complete."
     }
    }
@@ -315,8 +316,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "End Mission Notice - Pilots killed and blackbox recovered"
    m_instructions {
     TILW_SendMessageInstruction "{6554E035A1FDA2E4}" {
-     m_messageTitle "BLUEFOR MAJOR VICTORY"
-     m_messageBody "Pararescue has successfully extracted the pilots and blackbox. Mission Complete."
+     m_messageTitle "BLUEFOR MINOR VICTORY"
+     m_messageBody "Pararescue has successfully extracted the blackbox but the pilots were killed. Mission Complete."
     }
    }
    m_condition TILW_ConjunctionTerm "{6554E035A1FDA298}" {
@@ -328,6 +329,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       m_flagName "PilotsKilled"
      }
     }
+   }
+  }
+  TILW_MissionEvent "{6556DCC74F74620A}" {
+   m_name "End Mission Notice - REDFOR Dead"
+   m_instructions {
+    TILW_SendMessageInstruction "{6556DCC7390AC597}" {
+     m_messageTitle "BLUFOR MAJOR VICTORY???"
+     m_messageBody "BLUFOR somehow managed to kill 95% of the REDFOR force... causing the island to be secure from enemy forces. You need to touch grass. Mission Complete"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6556DCC70009B91E}" {
+    m_flagName "SeparatistsKilled"
    }
   }
  }
@@ -343,7 +356,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{6554E034292AB4C4}" {
    m_flagName "SeparatistsKilled"
    m_factionKey "GC_SEPARATIST"
-   m_casualtyRatio 0.9
+   m_casualtyRatio 0.95
   }
  }
  m_randomFlags {

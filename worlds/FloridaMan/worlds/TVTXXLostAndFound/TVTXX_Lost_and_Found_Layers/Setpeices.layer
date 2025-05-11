@@ -8,6 +8,7 @@ $grp GenericEntity {
       Object "{3B3E7B5EA7C98AA0}Assets/Vehicles/Helicopters/AH64D/AH64D_Wreck.xob"
      }
      RigidBody "{6554E00F75D8D851}" {
+      ModelGeometry 1
      }
     }
     coords 0.648 -0.178 -1.859
@@ -78,6 +79,7 @@ $grp GenericEntity {
       Object "{3B3E7B5EA7C98AA0}Assets/Vehicles/Helicopters/AH64D/AH64D_Wreck.xob"
      }
      RigidBody "{6554E00F6B009901}" {
+      ModelGeometry 1
      }
     }
     coords 0.648 -0.178 -1.859
@@ -150,6 +152,7 @@ $grp GenericEntity {
       Object "{3B3E7B5EA7C98AA0}Assets/Vehicles/Helicopters/AH64D/AH64D_Wreck.xob"
      }
      RigidBody "{6554E00F6022857C}" {
+      ModelGeometry 1
      }
     }
     coords 0.648 -0.178 -1.859
@@ -222,6 +225,7 @@ $grp GenericEntity {
       Object "{3B3E7B5EA7C98AA0}Assets/Vehicles/Helicopters/AH64D/AH64D_Wreck.xob"
      }
      RigidBody "{6554E00F6341666B}" {
+      ModelGeometry 1
      }
     }
     coords 0.648 -0.178 -1.859
@@ -294,6 +298,7 @@ $grp GenericEntity {
       Object "{3B3E7B5EA7C98AA0}Assets/Vehicles/Helicopters/AH64D/AH64D_Wreck.xob"
      }
      RigidBody "{6554E00F66D36D5B}" {
+      ModelGeometry 1
      }
     }
     coords 0.648 -0.178 -1.859

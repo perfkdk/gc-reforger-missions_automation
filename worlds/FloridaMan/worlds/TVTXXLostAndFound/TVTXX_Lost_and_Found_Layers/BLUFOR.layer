@@ -9,7 +9,7 @@ PolylineShapeEntity {
  coords 2434.128 74.436 1751.101
  Points {
   ShapePoint "{6554E01E70213D94}" {
-   Position 0 -0 0
+   Position 0 0 0
   }
   ShapePoint "{6554E01E70261778}" {
    Position 42.743 4.486 24.36
@@ -625,6 +625,12 @@ PolylineShapeEntity {
   }
  }
 }
+Vehicle Ural4320_FIA_transport1 : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport.et" {
+ coords 1629.298 39.108 2174.349
+ angleX 2.678
+ angleY -0.126
+ angleZ -2.687
+}
 $grp Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport.et" {
  UAZ452_transport1 {
   coords 1638.732 39.471 2173.139
@@ -635,9 +641,6 @@ $grp Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transpo
 }
 Vehicle S105_beige1 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
  coords 1665.637 40.283 2172.818
-}
-Vehicle UAZ469_covered_CIV_teal1 : "{870EB660433857D3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_teal.et" {
- coords 1654.669 40.009 2172.652
 }
 Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
  coords 1660.688 40.236 2172.888
@@ -657,7 +660,7 @@ $grp SCR_AIGroup : "{DBE022E6794D05B9}worlds/FloridaMan/Prefabs/Groups/BLUFOR/US
   }
   coords 1642.367 38.073 2153.293
   angleY -90.427
-  m_sCustomNameSet ""
+  m_sCustomNameSet "Team \"LION\""
  }
  {
   components {
@@ -670,7 +673,7 @@ $grp SCR_AIGroup : "{DBE022E6794D05B9}worlds/FloridaMan/Prefabs/Groups/BLUFOR/US
   }
   coords 1653.673 39.586 2167.03
   angleY 0
-  m_sCustomNameSet ""
+  m_sCustomNameSet "Team \"BEAR\""
  }
  {
   components {
@@ -685,6 +688,12 @@ $grp SCR_AIGroup : "{DBE022E6794D05B9}worlds/FloridaMan/Prefabs/Groups/BLUFOR/US
   angleX -0.887
   angleY 89.917
   angleZ 5.357
-  m_sCustomNameSet ""
+  m_sCustomNameSet "Team \"TIGER\""
  }
+}
+Vehicle UAZ469_FIA3 : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et" {
+ coords 1654.934 40.098 2173.51
+ angleX 6.218
+ angleY -0.39
+ angleZ -3.598
 }
