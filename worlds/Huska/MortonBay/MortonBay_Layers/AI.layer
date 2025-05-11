@@ -14,10 +14,7 @@ $grp SCR_AIGroup : "{1BB20A4B3A53D0F5}Prefabs/Groups/INDFOR/Group_FIA_LightFireT
 }
 $grp SCR_AIGroup : "{22F33D3EC8F281AB}Prefabs/Groups/INDFOR/Group_FIA_MachineGunTeam.et" {
  {
-  coords 5795.993 6.062 3486.629
-  m_aStaticWaypoints {
-   "AIWP_OP_01"
-  }
+  coords 5794.291 6.523 3485.479
  }
  {
   coords 5586.07 5.094 3707.293

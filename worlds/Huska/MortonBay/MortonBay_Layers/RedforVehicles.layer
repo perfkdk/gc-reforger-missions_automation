@@ -13,49 +13,12 @@ Vehicle Ural4320_ammo_FIA1 : "{3F5D19AC3C7E20DC}Prefabs/Vehicles/Wheeled/Ural432
 }
 $grp Vehicle : "{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et" {
  BRDM01 {
-  components {
-   BaseLightManagerComponent "{51E210F17D2534F7}" {
-    Enabled 0
-   }
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{58F8DC78283E1F75}" {
-      m_fInitialFuelTankState 0
-     }
-    }
-   }
-   TILW_SetNameComponent "{65455E2DABC8391D}" {
-    m_setName "BRDM01"
-   }
-  }
-  coords 5591.034 20.809 3812.166
-  angleX -5.956
-  angleY 164.85
-  angleZ 5.285
-  {
-   EnvironmentProbeEntity {
-    ID "6314FA8E4B757A52"
-    coords 0 1.255 0.932
-   }
-  }
+  coords 5590.616 20.994 3811.194
+  angleY 159.1
  }
  BRDM02 {
-  coords 5645.389 43.285 4266.725
-  angleX -3.961
-  angleY 80.72
-  angleZ -2.067
-  {
-   EnvironmentProbeEntity {
-    ID "6314FA8E4B757A52"
-    coords -15.98 194.518 -2.597
-    angleX -0.894
-    angleY 0.175
-    angleZ -5.18
-   }
-  }
+  coords 5644.593 43.28 4267.915
+  angleY 138.5
  }
 }
 $grp Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
@@ -64,25 +27,10 @@ $grp Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
   angleY 90.8
  }
  BTR02 {
-  components {
-   BaseLightManagerComponent "{51E210F17D2534F7}" {
-    Enabled 0
-   }
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{5628CA8E08F1AAF4}" {
-      m_fInitialFuelTankState 0
-     }
-    }
-   }
-  }
-  coords 5226.864 17.881 4021.933
-  angleX 3.751
-  angleY 53.537
-  angleZ 0.563
+  coords 5227.176 17.938 4022.428
+  angleX 4.467
+  angleY 52.457
+  angleZ -0.052
  }
 }
 Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {

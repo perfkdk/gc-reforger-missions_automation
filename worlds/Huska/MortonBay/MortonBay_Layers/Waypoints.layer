@@ -49,6 +49,10 @@ $grp SCR_BoardingEntityWaypoint : "{712F4795CF8B91C7}Prefabs/AI/Waypoints/AIWayp
   coords 5591.067 22.496 3810.055
   Title "AIWP_GetIn_01"
   m_fPriorityLevel 50
+  m_BoardingParameters SCR_AIBoardingWaypointParameters "{60D10A783DE1D8F4}" {
+   m_bIsDriverAllowed 0
+   m_bIsCargoAllowed 0
+  }
   m_EntityWaypointParameters SCR_AIEntityWaypointParameters "{60D10A783D086D37}" {
    m_sEntityName "BRDM01"
   }
@@ -109,9 +113,6 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  AIWP_Defend_14 {
   coords 5004.56 2.665 3846.421
  }
-}
-SCR_SmartActionWaypoint AIWP_OP_01 : "{97FB527ECC7CA49E}Prefabs/AI/Waypoints/AIWaypoint_ObservationPost.et" {
- coords 5808.354 6.742 3467.76
 }
 SCR_BoardingTimedWaypoint AIWP_GetInNear_01 : "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et" {
  coords 4912.141 14.002 3981.412
