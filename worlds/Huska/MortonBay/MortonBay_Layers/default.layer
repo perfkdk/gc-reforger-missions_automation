@@ -96,19 +96,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{6546EA4350FD8073}" {
-   m_name "OBJ B Taken US Victory"
+   m_name "OBJ B Taken"
    m_instructions {
     TILW_SendMessageInstruction "{6546EA4348092AB2}" {
      m_messageTitle "OBJ Mike Secured"
-     m_messageBody "Victory!"\
-     ""\
-     "OBJ Mike has been secured by the United States."\
-     ""\
-     "The mission will end in 60 seconds if both objectives have been secured."
-    }
-    TILW_EndGameInstruction "{6548D8346C8F78DD}" {
-     m_executionDelay 60
-     m_factionKey "US"
+     m_messageBody "OBJ Mike has been secured by the United States."
     }
    }
    m_condition TILW_LiteralTerm "{6546EA4373F99175}" {
@@ -133,6 +125,32 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_LiteralTerm "{6546EA4018285CA5}" {
     m_flagName "US_Players_Killed"
+   }
+  }
+  TILW_MissionEvent "{655700EFA96E7818}" {
+   m_name "US Win"
+   m_instructions {
+    TILW_SendMessageInstruction "{655700EFB5034585}" {
+     m_executionDelay 15
+     m_messageTitle "Victory!"
+     m_messageBody "Both Objectives have been taken!"\
+     "Mission will end in 60 seconds!"\
+     ""
+    }
+    TILW_EndGameInstruction "{655700EFE79607A2}" {
+     m_executionDelay 75
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{655700EFA00C7330}" {
+    m_operands {
+     TILW_LiteralTerm "{655700EFA19A0B58}" {
+      m_flagName "OBJ_A_Taken"
+     }
+     TILW_LiteralTerm "{655700EFA3157321}" {
+      m_flagName "OBJ_B_Taken"
+     }
+    }
    }
   }
  }
