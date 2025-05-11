@@ -93,31 +93,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
 }
 PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {
  coords 9204.611 235.686 6621.553
- angleY 0
  m_sQuadName "motorized-infantry"
  m_fWorldSize 150
+ m_sDescription "Soviet Start"
+ m_aHideOnGameModeStates {
+  5 1
+ }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- {
-  coords 9216.286 235.824 6474.892
-  angleY 87.248
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.561 0.071 0.071 1
-  m_sQuadName "btr_plt"
-  m_fWorldSize 200
-  m_sDescription "1st PLT (You)"
-  m_aVisibleForFactions {
-   "USSR"
-  }
- }
  {
   coords 9212.965 235.43 6609.058
   angleY 87.248
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.561 0.071 0.071 1
-  m_sQuadName "coy_hq"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "btr_coy"
   m_fWorldSize 200
   m_sDescription "COY HQ (You)"
   m_aVisibleForFactions {
@@ -125,25 +115,12 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  {
-  coords 9180.071 232.452 6722.678
-  angleY 87.248
+  coords 9418.812 300.58 6438.43
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.561 0.071 0.071 1
-  m_sQuadName "btr_plt"
-  m_fWorldSize 200
-  m_aVisibleForFactions {
-   "USSR"
-  }
- }
- {
-  coords 9358.978 294.089 6466.851
-  angleY 62.396
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.561 0.071 0.071 1
-  m_sQuadName "loc_plt"
-  m_fWorldSize 200
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 125
   m_aVisibleForFactions {
    "USSR"
   }
@@ -153,7 +130,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY 56.318
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.561 0.071 0.071 1
+  m_MarkerColor 0.502 0 0 1
   m_sQuadName "loc_plt"
   m_fWorldSize 200
   m_aVisibleForFactions {
@@ -165,7 +142,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY -126.034
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.561 0.071 0.071 1
+  m_MarkerColor 0.502 0 0 1
   m_sQuadName "loc_plt"
   m_fWorldSize 200
   m_aVisibleForFactions {
@@ -177,9 +154,32 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY 121.637
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.561 0.071 0.071 1
+  m_MarkerColor 0.502 0 0 1
   m_sQuadName "loc_plt"
   m_fWorldSize 200
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ {
+  coords 9457.607 292.942 6454.968
+  angleY 167.23
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "bp"
+  m_fWorldSize 200
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ {
+  coords 5779.839 109.312 11388.358
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "helicopter_atk"
+  m_fWorldSize 250
   m_aVisibleForFactions {
    "USSR"
   }
