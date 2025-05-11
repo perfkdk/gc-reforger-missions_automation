@@ -1,22 +1,6 @@
 $grp GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
  {
   components {
-   TILW_NavmeshRegenComponent "{6554F3C7B9AFDCBC}" {
-   }
-  }
-  coords 10506.56 290.765 6424.421
-  angleY -85.945
- }
- {
-  components {
-   TILW_NavmeshRegenComponent "{6554F3C78CB30E00}" {
-   }
-  }
-  coords 10508.533 290.747 6429.116
-  angleY -68.78
- }
- {
-  components {
    TILW_NavmeshRegenComponent "{6554F3C20E33C1B0}" {
    }
   }
@@ -76,6 +60,58 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  DEF13 {
   coords 10379.102 284.676 6558.964
   CompletionRadius 4
+ }
+}
+$grp GenericEntity : "{9751583B234C4202}Prefabs/Compositions/Misc/SubCompositions/Sandbag_MG_USSR_02_PKM.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6556D4D188A048C3}" {
+   }
+  }
+  coords 10506.157 290.746 6427.422
+  angleY -42.237
+  {
+   $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+    {
+     coords -5.321 0 -3.873
+     angleY 114.464
+    }
+    {
+     coords -6.047 0.001 -6.813
+     angleY 95.121
+    }
+   }
+   $grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+    {
+     coords 0.496 0.001 -5.985
+     angleY 4.87
+    }
+    {
+     coords -2.371 0.001 -7.357
+     angleY 94.757
+    }
+   }
+  }
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6556D4D18AED0252}" {
+   }
+  }
+  coords 10504.301 290.746 6423.29
+  angleY -79.126
+  {
+   $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+    {
+     coords 2.323 0 -0.552
+     angleY 10.415
+    }
+    {
+     coords 6.075 0 -2.866
+     angleY 43.419
+    }
+   }
+  }
  }
 }
 $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
@@ -165,5 +201,13 @@ $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
   m_aStaticWaypoints {
    "DEF13"
   }
+ }
+ {
+  coords 11107.216 321.899 6345.098
+  angleY -84.731
+ }
+ {
+  coords 11048.274 334.155 6551.602
+  angleY -143.288
  }
 }
