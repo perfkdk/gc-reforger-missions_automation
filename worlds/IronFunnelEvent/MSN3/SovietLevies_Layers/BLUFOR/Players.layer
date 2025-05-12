@@ -5,10 +5,10 @@ SCR_AIGroup K : "{2E20F404E398F622}Prefabs/Groups/BLUFOR/US/Marines_1990_Rifles/
    m_iSquadCallsign 6
   }
  }
- coords 6608.8 87.57 5398.363
- angleX -2.655
- angleY -15.011
- angleZ -2.989
+ coords 6050.802 98.715 5351.01
+ angleX -5.681
+ angleY -14.798
+ angleZ -4.023
  m_aUnitPrefabSlots + {
   "{651736CE43CBD2A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MortarCrew_P.et" "{651736CE43CBD2A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MortarCrew_P.et" "{651736CE43CBD2A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MortarCrew_P.et" ""
  }
