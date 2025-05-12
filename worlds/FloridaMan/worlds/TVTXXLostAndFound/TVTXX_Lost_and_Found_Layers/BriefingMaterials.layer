@@ -200,6 +200,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 2
  }
 }
+PS_ManualMarker : "{376426F6262DC5BA}PrefabsEditable/Markers/AOLimit/Marker_AOLimit_BLUFOR.et" {
+ coords 2584.146 83.258 1793.296
+ angleY 0
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  BLU_INSERTMARKER {
   coords 1648.132 38.45 2154.083
