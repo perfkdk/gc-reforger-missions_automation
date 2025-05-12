@@ -25,7 +25,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 6725.587 120.639 5484.902
   m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
   m_sImageSetGlow ""
-  m_sQuadName "recon"
+  m_sQuadName "inf"
   m_fWorldSize 200
   m_aVisibleForFactions {
    "USSR"

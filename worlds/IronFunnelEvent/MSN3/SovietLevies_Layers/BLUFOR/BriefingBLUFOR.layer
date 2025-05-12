@@ -95,25 +95,43 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  BLUFOROBJMARKER {
-  coords 6350.365 96.1 5056.602
-  angleY 90.862
+  coords 7451.065 160.27 4563.826
+  angleX 1.862
+  angleY 90.659
+  angleZ -6.218
   m_sImageSetGlow ""
-  m_MarkerColor 0 0.125 0.502 1
-  m_sQuadName "recon-outpost-2"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "objective-marker-2"
   m_fWorldSize 200
-  m_sDescription "OP EAGLE"
+  m_sDescription "OBJ SHOGUN"
   m_aVisibleForFactions {
    "US"
   }
  }
  BLUFORLOC2 {
-  coords 5046.585 173.02 7353.917
-  angleY -90
+  coords 6755.173 93.414 5539.338
+  angleX -4.429
+  angleY -90.615
+  angleZ 3.613
   m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
   m_sImageSetGlow ""
-  m_sQuadName "recon"
+  m_sQuadName "inf"
   m_fWorldSize 200
-  m_sDescription "DOG COY (You)"
+  m_sDescription "ATTACK COY (You)"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ BLUFORLOC3 {
+  coords 6044.438 95.819 5389.154
+  angleX -4.429
+  angleY -90.615
+  angleZ 3.613
+  m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "mortar"
+  m_fWorldSize 80
+  m_sDescription "PUNISHER"
   m_aVisibleForFactions {
    "US"
   }
