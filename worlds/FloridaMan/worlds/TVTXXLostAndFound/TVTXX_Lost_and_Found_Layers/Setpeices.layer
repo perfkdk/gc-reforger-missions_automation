@@ -11,6 +11,8 @@ $grp GenericEntity {
       ModelGeometry 1
       Static 1
      }
+     Hierarchy "{655912D85E10E4F1}" {
+     }
     }
     coords 0.648 -0.178 -1.859
     angleX -11.019
@@ -18,6 +20,10 @@ $grp GenericEntity {
     angleZ 49.797
    }
    GenericEntity RadioBlackbox_1 : "{7183F1A80BC18B7C}Prefabs/Props/Military/Compositions/US/RadioStation_US.et" {
+    components {
+     Hierarchy "{655912D85CC2AABB}" {
+     }
+    }
     coords -1.59 0.078 -0.497
     angleY 0
     angleZ -14.183
@@ -83,6 +89,8 @@ $grp GenericEntity {
       ModelGeometry 1
       Static 1
      }
+     Hierarchy "{655912D854947BE6}" {
+     }
     }
     coords 0.648 -0.178 -1.859
     angleX -11.019
@@ -90,6 +98,10 @@ $grp GenericEntity {
     angleZ 49.797
    }
    GenericEntity RadioBlackbox_2 : "{7183F1A80BC18B7C}Prefabs/Props/Military/Compositions/US/RadioStation_US.et" {
+    components {
+     Hierarchy "{655912D85B542D58}" {
+     }
+    }
     coords -1.59 0.078 -0.497
     angleY 0
     angleZ -14.183
@@ -157,6 +169,8 @@ $grp GenericEntity {
       ModelGeometry 1
       Static 1
      }
+     Hierarchy "{655912D84DF459CD}" {
+     }
     }
     coords 0.648 -0.178 -1.859
     angleX -11.019
@@ -164,6 +178,10 @@ $grp GenericEntity {
     angleZ 49.797
    }
    GenericEntity RadioBlackbox_3 : "{7183F1A80BC18B7C}Prefabs/Props/Military/Compositions/US/RadioStation_US.et" {
+    components {
+     Hierarchy "{655912D85067831B}" {
+     }
+    }
     coords -1.59 0.078 -0.497
     angleY 0
     angleZ -14.183
@@ -231,6 +249,8 @@ $grp GenericEntity {
       ModelGeometry 1
       Static 1
      }
+     Hierarchy "{655912D84ED96B66}" {
+     }
     }
     coords 0.648 -0.178 -1.859
     angleX -11.019
@@ -238,6 +258,10 @@ $grp GenericEntity {
     angleZ 49.797
    }
    GenericEntity RadioBlackbox_4 : "{7183F1A80BC18B7C}Prefabs/Props/Military/Compositions/US/RadioStation_US.et" {
+    components {
+     Hierarchy "{655912D848C08900}" {
+     }
+    }
     coords -1.59 0.078 -0.497
     angleY 0
     angleZ -14.183
@@ -305,6 +329,8 @@ $grp GenericEntity {
       ModelGeometry 1
       Static 1
      }
+     Hierarchy "{655912D87723BB3B}" {
+     }
     }
     coords 0.648 -0.178 -1.859
     angleX -11.019
@@ -312,6 +338,10 @@ $grp GenericEntity {
     angleZ 49.797
    }
    GenericEntity RadioBlackbox_5 : "{7183F1A80BC18B7C}Prefabs/Props/Military/Compositions/US/RadioStation_US.et" {
+    components {
+     Hierarchy "{655912D84431810C}" {
+     }
+    }
     coords -1.59 0.078 -0.497
     angleY 0
     angleZ -14.183
