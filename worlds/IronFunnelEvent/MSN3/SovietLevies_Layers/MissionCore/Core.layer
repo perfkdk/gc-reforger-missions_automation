@@ -23,11 +23,11 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 10
+   m_iStartingHours 16
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{652D51DEACE8935D}" {
      m_sWeatherPresetName "Cloudy"
-     m_iStartingHour 10
+     m_iStartingHour 16
     }
    }
    m_bUseSpecifiedDate 1
@@ -122,8 +122,4 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    }
   }
  }
-}
-PK_EntityDeleter {
- coords 7447.973 164.595 4326.763
- m_fRadius 5
 }
