@@ -15,7 +15,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et"
   m_conditionFlag "COYHQ"
   m_spawnTimings {
-   5 520
+   5 520 900
   }
   m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
    m_crewGroups {
@@ -43,7 +43,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et"
   m_conditionFlag "COYHQ"
   m_spawnTimings {
-   35 780
+   35 340 780 900 1200
   }
   m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
    m_crewGroups {
@@ -71,7 +71,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et"
   m_conditionFlag "COYHQ"
   m_spawnTimings {
-   5 520
+   5 520 900
   }
   m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
    m_crewGroups {
@@ -99,7 +99,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et"
   m_conditionFlag "COYHQ"
   m_spawnTimings {
-   35 780
+   35 340 780 900 1200
   }
   m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
    m_crewGroups {
@@ -122,39 +122,53 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  CAFInf_Counter_Spawn_1 {
-  coords 3943.006 179.238 4380.546
-  angleY 122.202
+  coords 4308.436 187.344 4329.715
+  angleY 74.431
   m_prefab "{4CBA83E57E261C26}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_AI_RifleAT_Sect.et"
   m_conditionFlag "COYHQ"
   m_spawnTimings {
    20 80 180 240 380 480 580
+  }
+  m_waypointNames {
+   "N_Move_1" "RecaptureBadOrb"
   }
  }
  CAFInf_Counter_Spawn_2 {
-  coords 4550.581 231.998 4570.9
-  angleY 144.659
+  coords 4811.693 280.745 4433.943
+  angleX 10.385
+  angleY 142.689
+  angleZ -10.801
   m_prefab "{4CBA83E57E261C26}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_AI_RifleAT_Sect.et"
   m_conditionFlag "COYHQ"
   m_spawnTimings {
    20 80 180 240 380 480 580
   }
+  m_waypointNames {
+   "RecaptureBadOrb"
+  }
  }
  CAFInf_Counter_Spawn_3 {
-  coords 3750.053 160.738 4112.111
+  coords 3929.364 159.877 4088.056
   angleY 122.202
   m_prefab "{4CBA83E57E261C26}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_AI_RifleAT_Sect.et"
   m_conditionFlag "COYHQ"
   m_spawnTimings {
    20 80 180 240 380 480 580
   }
+  m_waypointNames {
+   "N_Move_2" "RecaptureBadOrb2"
+  }
  }
  CAFInf_Counter_Spawn_4 {
-  coords 3643.287 252.721 3612.818
-  angleY 62.12
+  coords 4014.823 246.685 3534.947
+  angleY 40.015
   m_prefab "{4CBA83E57E261C26}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_AI_RifleAT_Sect.et"
   m_conditionFlag "COYHQ"
   m_spawnTimings {
    20 80 180 240 380 480 580
+  }
+  m_waypointNames {
+   "RecaptureBadOrb2"
   }
  }
 }
