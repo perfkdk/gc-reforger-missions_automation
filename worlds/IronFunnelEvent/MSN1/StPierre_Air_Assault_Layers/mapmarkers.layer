@@ -1,0 +1,113 @@
+PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {
+ coords 7515.104 143.433 4650.025
+ angleX -1.708
+ angleY -2.58
+ angleZ 1.868
+ m_fWorldSize 200
+ m_bShowForAnyFaction 0
+}
+$grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
+ {
+  coords 5752.685 219.243 7104.78
+  angleY 90.044
+  m_fWorldSize 200
+  m_bShowForAnyFaction 0
+ }
+ {
+  coords 7450.664 11.76 6738.28
+  m_fWorldSize 150
+  m_sDescription "BARBARIC COY"
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bVisibleForEmptyFaction 0
+  m_bShowForAnyFaction 0
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 10146.402 2.531 1522.848
+  angleY 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "circle"
+  m_fWorldSize 80
+  m_sDescription "ARTY"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ {
+  coords 9827.113 7.827 1585.96
+  angleY 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "circle"
+  m_fWorldSize 80
+  m_sDescription "FUEL"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ {
+  coords 9833.752 4.938 1360.39
+  angleY 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "circle"
+  m_fWorldSize 80
+  m_sDescription "AMMO"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ {
+  coords 9554.738 13.268 1705.287
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "btn_hq"
+  m_fWorldSize 300
+  m_sDescription "BTN HQ"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ {
+  coords 7623.077 191.752 4294.648
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 300
+  m_sDescription "311"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ {
+  coords 7433.128 112.528 4763.707
+  angleY 95.193
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "coy_hq"
+  m_fWorldSize 300
+  m_sDescription "330"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ {
+  coords 6220.081 107.866 5087.771
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "coy_hq"
+  m_fWorldSize 300
+  m_sDescription "320"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+}
