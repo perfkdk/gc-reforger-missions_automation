@@ -110,7 +110,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{6554E002E0089E7A}" {
      m_executionDelay 0
-     m_prefab "{1AADA401D8A79F14}worlds/FloridaMan/Prefabs/Systems/Extract_BLUFOR_Prefab.et"
+     m_prefab "{1C8F5832B79C6644}worlds/FloridaMan/Prefabs/Systems/pilot_extract.et"
      m_locationName "extract1"
     }
    }
@@ -124,7 +124,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{6554E002AB6ED486}" {
      m_executionDelay 0
-     m_prefab "{1AADA401D8A79F14}worlds/FloridaMan/Prefabs/Systems/Extract_BLUFOR_Prefab.et"
+     m_prefab "{1C8F5832B79C6644}worlds/FloridaMan/Prefabs/Systems/pilot_extract.et"
      m_locationName "extract2"
     }
    }
@@ -138,7 +138,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{6554E002ABB66793}" {
      m_executionDelay 0
-     m_prefab "{1AADA401D8A79F14}worlds/FloridaMan/Prefabs/Systems/Extract_BLUFOR_Prefab.et"
+     m_prefab "{1C8F5832B79C6644}worlds/FloridaMan/Prefabs/Systems/pilot_extract.et"
      m_locationName "extract3"
     }
    }
@@ -152,7 +152,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{6554E002AC1321C3}" {
      m_executionDelay 0
-     m_prefab "{1AADA401D8A79F14}worlds/FloridaMan/Prefabs/Systems/Extract_BLUFOR_Prefab.et"
+     m_prefab "{1C8F5832B79C6644}worlds/FloridaMan/Prefabs/Systems/pilot_extract.et"
      m_locationName "extract4"
     }
    }
@@ -166,7 +166,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{6554E002AD21AE99}" {
      m_executionDelay 0
-     m_prefab "{1AADA401D8A79F14}worlds/FloridaMan/Prefabs/Systems/Extract_BLUFOR_Prefab.et"
+     m_prefab "{1C8F5832B79C6644}worlds/FloridaMan/Prefabs/Systems/pilot_extract.et"
      m_locationName "extract5"
     }
    }
@@ -188,7 +188,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_LiteralTerm "{6554E000652CF8AB}" {
     m_flagName "helispawn1"
    }
-   m_pregameEvent 1
   }
   TILW_MissionEvent "{6554E00043053B58}" {
    m_name "Delete Crash - Keep 2"
@@ -203,7 +202,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_LiteralTerm "{6554E00043053B3A}" {
     m_flagName "helispawn2"
    }
-   m_pregameEvent 1
   }
   TILW_MissionEvent "{6554E00042BD9D4F}" {
    m_name "Delete Crash - Keep 3"
@@ -218,7 +216,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_LiteralTerm "{6554E00042BD9D2D}" {
     m_flagName "helispawn3"
    }
-   m_pregameEvent 1
   }
   TILW_MissionEvent "{6554E0004232E330}" {
    m_name "Delete Crash - Keep 4"
@@ -233,7 +230,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_LiteralTerm "{6554E0004232E39F}" {
     m_flagName "helispawn4"
    }
-   m_pregameEvent 1
   }
   TILW_MissionEvent "{6554E00041F3120C}" {
    m_name "Delete Crash - Keep 5"
@@ -248,14 +244,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_LiteralTerm "{6554E00041F312EF}" {
     m_flagName "helispawn5"
    }
-   m_pregameEvent 1
   }
   TILW_MissionEvent "{6554E034B5C3A2B5}" {
    m_name "End Mission Notice - Pilots Killed in Propaganda"
    m_instructions {
     TILW_SendMessageInstruction "{6554E0349A6E7BBA}" {
-     m_messageTitle "REDFOR MAJOR VICTORY (NOT MISSION END)"
-     m_messageBody "The separatists have successfully killed the pilots on live TV."
+     m_messageTitle "REDFOR MAJOR VICTORY"
+     m_messageBody "The separatists have successfully killed the pilots on live TV. Mission Complate."
     }
    }
    m_condition TILW_ConjunctionTerm "{6554E0347CE6C015}" {
@@ -273,8 +268,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "End Mission Notice - Pilots & Pararescue Killed"
    m_instructions {
     TILW_SendMessageInstruction "{6554E034612D4F5C}" {
-     m_messageTitle "REDFOR MINOR VICTORY (NOT MISSION END)"
-     m_messageBody "The separatists have killed the pilots and pararescue."
+     m_messageTitle "REDFOR MINOR VICTORY"
+     m_messageBody "The separatists have killed the pilots and pararescue. Mission Complate."
     }
    }
    m_condition TILW_ConjunctionTerm "{6554E034612D4F67}" {
@@ -293,7 +288,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{6554E035FE005747}" {
-   m_name "End Mission Notice - BLUFOR Full Extract"
+   m_name "End Mission Notice - Pilots extracted and blackbox recovered"
    m_instructions {
     TILW_SendMessageInstruction "{6554E035FE005720}" {
      m_messageTitle "BLUFOR MAJOR VICTORY"
@@ -306,39 +301,25 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       m_flagName "BlackboxRecovered"
      }
      TILW_LiteralTerm "{6554E035FE00F3B5}" {
-      m_flagName "PilotExtract"
-     }
-     TILW_LiteralTerm "{65596A81E447194F}" {
-      m_flagName "PararescueExtract"
-     }
-     TILW_LiteralTerm "{65596A81D5C91A13}" {
-      m_invertTerm 1
-      m_flagName "PilotsKilled"
+      m_flagName "PilotExtracted"
      }
     }
    }
   }
-  TILW_MissionEvent "{65596A8197F56BFF}" {
-   m_name "End Mission Notice - BLUFOR Partial Extract"
+  TILW_MissionEvent "{6554E035A1FDA502}" {
+   m_name "End Mission Notice - Pilots killed and blackbox recovered"
    m_instructions {
-    TILW_SendMessageInstruction "{65596A8197F56474}" {
-     m_messageTitle "BLUFOR MINOR VICTORY"
-     m_messageBody "Pararescue has successfully extracted but the pilots died. Mission Complete."
+    TILW_SendMessageInstruction "{6554E035A1FDA2E4}" {
+     m_messageTitle "BLUEFOR MINOR VICTORY"
+     m_messageBody "Pararescue has successfully extracted the blackbox but the pilots were killed. Mission Complete."
     }
    }
-   m_condition TILW_ConjunctionTerm "{65596A8197F56409}" {
+   m_condition TILW_ConjunctionTerm "{6554E035A1FDA298}" {
     m_operands {
-     TILW_LiteralTerm "{65596A8197F5640B}" {
+     TILW_LiteralTerm "{6554E035A1FDA29D}" {
       m_flagName "BlackboxRecovered"
      }
-     TILW_LiteralTerm "{65596A8197F5640C}" {
-      m_invertTerm 1
-      m_flagName "PilotExtract"
-     }
-     TILW_LiteralTerm "{65596A8197F5640D}" {
-      m_flagName "PararescueExtract"
-     }
-     TILW_LiteralTerm "{65596A8197F5640E}" {
+     TILW_LiteralTerm "{6554E035A1FDA292}" {
       m_flagName "PilotsKilled"
      }
     }
