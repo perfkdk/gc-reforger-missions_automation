@@ -79,12 +79,12 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 2750.822 77.377 1651.334
+TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
+ coords 2750.99 77.397 1651.592
  m_queryRadius 5.5
  m_flagName "USInPropagandaArea"
- m_ownerFactionKey "US"
- m_ratioThreshold 0.4
+ m_stopAfterFirstChange 1
+ m_factionKey "US"
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 2404.873 102.699 2430.208
