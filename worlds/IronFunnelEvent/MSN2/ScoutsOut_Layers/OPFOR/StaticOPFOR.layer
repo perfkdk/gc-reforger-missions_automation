@@ -150,4 +150,226 @@ $grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSma
    }
   }
  }
+ BUNKER8 {
+  coords 6366.734 133.911 6203.377
+  angleX 7.077
+  angleY 2.615
+  angleZ 1.212
+  {
+   $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et" {
+    {
+     coords 1.346 -2.183 7.181
+     angleY -96.379
+    }
+    {
+     coords -1.923 -2.266 7.216
+     angleY -96.379
+    }
+   }
+  }
+ }
+ BUNKER9 {
+  coords 6344.132 136.188 6207.761
+  angleX 3.334
+  angleY 1.928
+  angleZ 7.227
+  {
+   $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et" {
+    {
+     coords 1.346 -2.183 7.181
+     angleY -96.379
+    }
+    {
+     coords -1.923 -2.266 7.216
+     angleY -96.379
+    }
+   }
+  }
+ }
+ BUNKER10 {
+  coords 6228.246 146.062 6210.57
+  angleX 5.675
+  angleY -71.24
+  angleZ -5.584
+  {
+   $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et" {
+    {
+     coords 1.346 -2.183 7.181
+     angleY -96.379
+    }
+    {
+     coords -1.923 -2.266 7.216
+     angleY -96.379
+    }
+   }
+  }
+ }
+ BUNKER11 {
+  coords 6212.731 140.767 6175.95
+  angleX 7.957
+  angleY -65.523
+  angleZ -10.87
+  {
+   $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et" {
+    {
+     coords 1.346 -2.183 7.181
+     angleY -96.379
+    }
+    {
+     coords -1.923 -2.266 7.216
+     angleY -96.379
+    }
+   }
+  }
+ }
+ BUNKER12 {
+  coords 6373.581 86.499 5507.662
+  angleX -5.119
+  angleY 27.698
+  angleZ -3.686
+  {
+   $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et" {
+    {
+     coords 1.346 -2.183 7.181
+     angleY -96.379
+    }
+    {
+     coords -1.923 -2.266 7.216
+     angleY -96.379
+    }
+   }
+  }
+ }
+ BUNKER13 {
+  coords 6429.633 86.23 5471.031
+  angleX -7.885
+  angleY 9.998
+  angleZ -1.385
+  {
+   $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et" {
+    {
+     coords 1.346 -2.183 7.181
+     angleY -96.379
+    }
+    {
+     coords -1.923 -2.266 7.216
+     angleY -96.379
+    }
+   }
+  }
+ }
+}
+$grp Tree : "{DE7FC095F656695C}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abies_3s.et" {
+ {
+  Flags 3
+  coords 6277.191 147.652 6252.729
+  angleX -30.674
+  angleY -142.195
+  angleZ 80.883
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6253.498 148.524 6248.125
+  angleX 58.512
+  angleY -61.828
+  angleZ 85.962
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6254.745 148.237 6238.273
+  angleX 58.512
+  angleY -61.828
+  angleZ 85.962
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6278.437 147.364 6242.875
+  angleX -30.674
+  angleY -142.195
+  angleZ 80.883
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6258.119 147.005 6229.867
+  angleX 58.512
+  angleY -61.828
+  angleZ 85.962
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6281.812 146.133 6234.471
+  angleX -30.674
+  angleY -142.195
+  angleZ 80.883
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6259.634 144.818 6217.49
+  angleX 58.512
+  angleY -61.828
+  angleZ 85.962
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6283.327 143.945 6222.094
+  angleX -30.674
+  angleY -142.195
+  angleZ 80.883
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6260.09 144.297 6209.498
+  angleX 58.512
+  angleY -61.828
+  angleZ 85.962
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6283.783 143.425 6214.102
+  angleX -30.674
+  angleY -142.195
+  angleZ 80.883
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6260.854 142.771 6201.02
+  angleX 58.512
+  angleY -61.828
+  angleZ 85.962
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6284.547 141.899 6205.625
+  angleX -30.674
+  angleY -142.195
+  angleZ 80.883
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6258.294 145.546 6221.778
+  angleX 58.512
+  angleY -61.828
+  angleZ 85.962
+  scale 0.999
+ }
+ {
+  Flags 3
+  coords 6281.988 144.673 6226.381
+  angleX -30.674
+  angleY -142.195
+  angleZ 80.883
+  scale 0.999
+ }
 }
