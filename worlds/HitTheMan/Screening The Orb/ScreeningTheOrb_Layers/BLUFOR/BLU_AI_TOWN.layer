@@ -1,5 +1,5 @@
 $grp Vehicle : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
- LAV25_RHS3 {
+ LAV25_RHS1 {
   components {
    SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
     FuelNodes {
@@ -25,8 +25,10 @@ $grp Vehicle : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
     }
    }
   }
-  coords 4497.523 181.469 3691.275
-  angleY -102.752
+  coords 4860.979 204.377 4059.012
+  angleX -9.575
+  angleY -130.163
+  angleZ -5.798
  }
  LAV25_RHS2 {
   components {
@@ -54,41 +56,10 @@ $grp Vehicle : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
     }
    }
   }
-  coords 4762.517 178.981 3422.865
+  coords 4761.776 178.974 3421.85
   angleX 2.014
   angleY -153.89
   angleZ -1.147
- }
- LAV25_RHS1 {
-  components {
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      m_fInitialFuelTankState 0
-     }
-    }
-   }
-   TILW_VehicleCrewComponent "{6558A3388748D7C8}" {
-    m_crewConfig TILW_CrewConfig "{6558A33885E37E65}" {
-     m_crewGroups {
-      TILW_CrewGroup "{651028E34B0E58D9}" {
-       m_crewStations {
-        TILW_CrewStation "{651028E349419D3E}" {
-         m_allowCargo 0
-         m_characters {
-          "{E4A00726AA8914F4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_Vehicle_Driver_1_AI.et" "{661FC333B3EE3AF3}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_Vehicle_Gunner_1_AI.et"
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
-  coords 4861.049 204.383 4059.023
-  angleX -9.575
-  angleY -130.163
-  angleZ -5.798
  }
  LAV25_RHS4 {
   components {
@@ -116,7 +87,7 @@ $grp Vehicle : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
     }
    }
   }
-  coords 4834.406 165.376 3668.145
+  coords 4834.5 165.375 3668.085
   angleY -134.164
  }
  LAV25_RHS5 {
@@ -145,7 +116,7 @@ $grp Vehicle : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
     }
    }
   }
-  coords 4769.261 165.781 3532.352
+  coords 4769.229 165.781 3532.342
   angleY -114.603
  }
  LAV25_RHS6 {
@@ -174,10 +145,41 @@ $grp Vehicle : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
     }
    }
   }
-  coords 4900.013 205.795 4043.921
+  coords 4900.044 205.786 4043.866
   angleX -15.937
   angleY -162.396
   angleZ 4.033
+ }
+ LAV25_RHS7 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   TILW_VehicleCrewComponent "{6558A3388748D7C8}" {
+    m_crewConfig TILW_CrewConfig "{6558A33885E37E65}" {
+     m_crewGroups {
+      TILW_CrewGroup "{651028E34B0E58D9}" {
+       m_crewStations {
+        TILW_CrewStation "{651028E349419D3E}" {
+         m_allowCargo 0
+         m_characters {
+          "{E4A00726AA8914F4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_Vehicle_Driver_1_AI.et" "{661FC333B3EE3AF3}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_Vehicle_Gunner_1_AI.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 4496.906 181.469 3691.598
+  angleX -0.279
+  angleY -103.865
+  angleZ 0.005
  }
 }
 $grp GenericEntity : "{2323F9E4C524F047}Prefabs/Compositions/Slotted/SlotFlatSmall/MortarPlacement_S_US_01.et" {
@@ -1028,7 +1030,7 @@ $grp SCR_AIGroup : "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
   coords 4963.565 175.625 3725.704
   angleY -68.025
   m_aUnitPrefabSlots {
-   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/BadAirAssault/Character_1993_CAF_Stinger_1_AI.et" "{EDA5D8BB3D90CFF3}worlds/HitTheMan/BadAirAssault/Character_1993_CAF_Stinger_1_AI.et"
+   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/Screening The Orb/Character_1993_CAF_Stinger_1_AI.et" "{EDA5D8BB3D90CFF3}worlds/HitTheMan/Screening The Orb/Character_1993_CAF_Stinger_1_AI.et"
   }
   m_bSnapToTerrain 0
   m_aStaticWaypoints {
@@ -1039,7 +1041,7 @@ $grp SCR_AIGroup : "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
   coords 4311.779 189.772 4378.602
   angleY -68.025
   m_aUnitPrefabSlots {
-   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/BadAirAssault/Character_1993_CAF_Stinger_1_AI.et" "{EDA5D8BB3D90CFF3}worlds/HitTheMan/BadAirAssault/Character_1993_CAF_Stinger_1_AI.et"
+   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/Screening The Orb/Character_1993_CAF_Stinger_1_AI.et" "{EDA5D8BB3D90CFF3}worlds/HitTheMan/Screening The Orb/Character_1993_CAF_Stinger_1_AI.et"
   }
   m_bSnapToTerrain 0
   m_aStaticWaypoints {
@@ -1050,7 +1052,7 @@ $grp SCR_AIGroup : "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
   coords 4629.496 163.402 3851.88
   angleY -68.025
   m_aUnitPrefabSlots {
-   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/BadAirAssault/Character_1993_CAF_Stinger_1_AI.et"
+   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/Screening The Orb/Character_1993_CAF_Stinger_1_AI.et"
   }
   m_bSnapToTerrain 0
   m_aStaticWaypoints {
@@ -1061,7 +1063,7 @@ $grp SCR_AIGroup : "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
   coords 4887.832 167.674 3476.48
   angleY -68.025
   m_aUnitPrefabSlots {
-   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/BadAirAssault/Character_1993_CAF_Stinger_1_AI.et"
+   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/Screening The Orb/Character_1993_CAF_Stinger_1_AI.et"
   }
   m_bSnapToTerrain 0
   m_aStaticWaypoints {
@@ -1072,7 +1074,7 @@ $grp SCR_AIGroup : "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
   coords 4637.958 175.906 3450.676
   angleY -68.025
   m_aUnitPrefabSlots {
-   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/BadAirAssault/Character_1993_CAF_Stinger_1_AI.et"
+   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/Screening The Orb/Character_1993_CAF_Stinger_1_AI.et"
   }
   m_bSnapToTerrain 0
   m_aStaticWaypoints {

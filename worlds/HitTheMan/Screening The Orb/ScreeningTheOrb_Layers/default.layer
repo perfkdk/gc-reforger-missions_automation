@@ -64,10 +64,10 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     SCR_Faction "{56DEAC40D3C2E623}" {
      UIInfo SCR_FactionUIInfo "{528C96127F8B6B08}" {
       Name "Soviet Air Force"
-      Icon "{B522FE456D7F091A}worlds/HitTheMan/BadAirAssault/330px-Flag_of_the_Soviet_Air_Force.svg.edds"
+      Icon "{B522FE456D7F091A}worlds/HitTheMan/Screening The Orb/330px-Flag_of_the_Soviet_Air_Force.svg.edds"
      }
      m_iOrder 1
-     m_sFactionFlag "{B522FE456D7F091A}worlds/HitTheMan/BadAirAssault/330px-Flag_of_the_Soviet_Air_Force.svg.edds"
+     m_sFactionFlag "{B522FE456D7F091A}worlds/HitTheMan/Screening The Orb/330px-Flag_of_the_Soviet_Air_Force.svg.edds"
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
       m_aCompanyNames {
        SCR_CallsignInfo "{55CCB79282FF010C}" {
