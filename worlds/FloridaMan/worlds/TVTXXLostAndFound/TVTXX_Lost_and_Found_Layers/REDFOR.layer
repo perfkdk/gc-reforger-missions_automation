@@ -1,6 +1,3 @@
-Vehicle Mi8MTT_A_Black1 : "{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et" {
- coords 3059.059 58.697 1772.484
-}
 $grp SCR_AIGroup : "{4ED44E08226F3FB3}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_PHQ_P.et" {
  {
   components {
@@ -35,6 +32,9 @@ $grp SCR_AIGroup : "{4ED44E08226F3FB3}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SE
    "UAZ469_FIA1"
   }
  }
+}
+Vehicle Mi8MT_unarmed_civ_red1 : "{8175FCADFA2FB904}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_civ_red.et" {
+ coords 3068.763 58.999 1779.155
 }
 $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_RifleSquad_P.et" {
  {

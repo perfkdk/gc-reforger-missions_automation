@@ -1,21 +1,3 @@
-$grp GenericEntity {
- extract1 {
-  coords 3253.505 2 2916.829
-  angleY -0.696
- }
- extract2 {
-  coords 1486.602 1.125 1851.122
- }
- extract3 {
-  coords 3475.843 1.065 1774.739
- }
- extract4 {
-  coords 3162.161 3.948 1177.613
- }
- extract5 {
-  coords 1901.218 1.678 1549.235
- }
-}
 $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
  {
   coords 2749.855 77.437 1647.066

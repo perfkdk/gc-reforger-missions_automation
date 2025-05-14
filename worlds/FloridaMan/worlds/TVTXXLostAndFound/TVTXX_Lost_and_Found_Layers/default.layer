@@ -23,7 +23,7 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 3
+   m_iStartingHours 10
    m_bUseSpecifiedDate 1
    m_iSetDay 14
    m_iSetMonth 6
@@ -90,7 +90,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  coords 2404.873 102.699 2430.208
  m_missionEvents {
   TILW_MissionEvent "{6554E01094C0A2FF}" {
-   m_name "Debug - Blackbox recovered"
+   m_name "Blackbox recovered"
    m_instructions {
     TILW_SendMessageInstruction "{6554E01062C0FF04}" {
      m_executionDelay 1
@@ -102,7 +102,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
    m_condition TILW_LiteralTerm "{6554E0107674B5C9}" {
-    m_flagName "BlackboxRecovered"
+    m_flagName "BlackboxRemoved"
    }
   }
   TILW_MissionEvent "{6554E0044F99BDDF}" {
@@ -110,7 +110,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{6554E002E0089E7A}" {
      m_executionDelay 0
-     m_prefab "{1C8F5832B79C6644}worlds/FloridaMan/Prefabs/Systems/pilot_extract.et"
+     m_prefab "{B9CFA890D70B27DE}worlds/FloridaMan/Prefabs/Setpeice/BLUFOR_Extract_Point.et"
      m_locationName "extract1"
     }
    }
@@ -124,7 +124,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{6554E002AB6ED486}" {
      m_executionDelay 0
-     m_prefab "{1C8F5832B79C6644}worlds/FloridaMan/Prefabs/Systems/pilot_extract.et"
+     m_prefab "{B9CFA890D70B27DE}worlds/FloridaMan/Prefabs/Setpeice/BLUFOR_Extract_Point.et"
      m_locationName "extract2"
     }
    }
@@ -138,7 +138,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{6554E002ABB66793}" {
      m_executionDelay 0
-     m_prefab "{1C8F5832B79C6644}worlds/FloridaMan/Prefabs/Systems/pilot_extract.et"
+     m_prefab "{B9CFA890D70B27DE}worlds/FloridaMan/Prefabs/Setpeice/BLUFOR_Extract_Point.et"
      m_locationName "extract3"
     }
    }
@@ -152,7 +152,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{6554E002AC1321C3}" {
      m_executionDelay 0
-     m_prefab "{1C8F5832B79C6644}worlds/FloridaMan/Prefabs/Systems/pilot_extract.et"
+     m_prefab "{B9CFA890D70B27DE}worlds/FloridaMan/Prefabs/Setpeice/BLUFOR_Extract_Point.et"
      m_locationName "extract4"
     }
    }
@@ -166,7 +166,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{6554E002AD21AE99}" {
      m_executionDelay 0
-     m_prefab "{1C8F5832B79C6644}worlds/FloridaMan/Prefabs/Systems/pilot_extract.et"
+     m_prefab "{B9CFA890D70B27DE}worlds/FloridaMan/Prefabs/Setpeice/BLUFOR_Extract_Point.et"
      m_locationName "extract5"
     }
    }
@@ -181,76 +181,81 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_DeleteEntitiesInstruction "{6554E00060937FEA}" {
      m_executionDelay 0
      m_entityNames {
-      "HelicopterCrash_2" "HelicopterCrash_3" "HelicopterCrash_4" "HelicopterCrash_5"
+      "Wreck2" "Wreck3" "Wreck4" "Wreck5"
      }
     }
    }
    m_condition TILW_LiteralTerm "{6554E000652CF8AB}" {
     m_flagName "helispawn1"
    }
+   m_pregameEvent 1
   }
-  TILW_MissionEvent "{6554E00043053B58}" {
+  TILW_MissionEvent "{655B660B52AA51F0}" {
    m_name "Delete Crash - Keep 2"
    m_instructions {
-    TILW_DeleteEntitiesInstruction "{6554E00043053B3E}" {
+    TILW_DeleteEntitiesInstruction "{655B660B52AA5E2C}" {
      m_executionDelay 0
      m_entityNames {
-      "HelicopterCrash_1" "HelicopterCrash_3" "HelicopterCrash_4" "HelicopterCrash_5"
+      "Wreck1" "Wreck3" "Wreck4" "Wreck5"
      }
     }
    }
-   m_condition TILW_LiteralTerm "{6554E00043053B3A}" {
+   m_condition TILW_LiteralTerm "{655B660B52AA5E50}" {
     m_flagName "helispawn2"
    }
+   m_pregameEvent 1
   }
-  TILW_MissionEvent "{6554E00042BD9D4F}" {
+  TILW_MissionEvent "{655B660B538052BF}" {
    m_name "Delete Crash - Keep 3"
    m_instructions {
-    TILW_DeleteEntitiesInstruction "{6554E00042BD9D23}" {
+    TILW_DeleteEntitiesInstruction "{655B660B53805315}" {
      m_executionDelay 0
      m_entityNames {
-      "HelicopterCrash_2" "HelicopterCrash_1" "HelicopterCrash_4" "HelicopterCrash_5"
+      "Wreck2" "Wreck1" "Wreck4" "Wreck5"
      }
     }
    }
-   m_condition TILW_LiteralTerm "{6554E00042BD9D2D}" {
+   m_condition TILW_LiteralTerm "{655B660B53805318}" {
     m_flagName "helispawn3"
    }
+   m_pregameEvent 1
   }
-  TILW_MissionEvent "{6554E0004232E330}" {
+  TILW_MissionEvent "{655B660B54F4265A}" {
    m_name "Delete Crash - Keep 4"
    m_instructions {
-    TILW_DeleteEntitiesInstruction "{6554E0004232E392}" {
+    TILW_DeleteEntitiesInstruction "{655B660B54F4268E}" {
      m_executionDelay 0
      m_entityNames {
-      "HelicopterCrash_2" "HelicopterCrash_3" "HelicopterCrash_1" "HelicopterCrash_5"
+      "Wreck2" "Wreck3" "Wreck1" "Wreck5"
      }
     }
    }
-   m_condition TILW_LiteralTerm "{6554E0004232E39F}" {
+   m_condition TILW_LiteralTerm "{655B660B54F426B2}" {
     m_flagName "helispawn4"
    }
+   m_pregameEvent 1
   }
-  TILW_MissionEvent "{6554E00041F3120C}" {
+  TILW_MissionEvent "{655B660B5537A95E}" {
    m_name "Delete Crash - Keep 5"
    m_instructions {
-    TILW_DeleteEntitiesInstruction "{6554E00041F312E3}" {
+    TILW_DeleteEntitiesInstruction "{655B660B5537A9B9}" {
      m_executionDelay 0
      m_entityNames {
-      "HelicopterCrash_2" "HelicopterCrash_3" "HelicopterCrash_4" "HelicopterCrash_1"
+      "Wreck2" "Wreck3" "Wreck4" "Wreck1"
      }
     }
    }
-   m_condition TILW_LiteralTerm "{6554E00041F312EF}" {
+   m_condition TILW_LiteralTerm "{655B660B5537A9BD}" {
     m_flagName "helispawn5"
    }
+   m_pregameEvent 1
   }
   TILW_MissionEvent "{6554E034B5C3A2B5}" {
    m_name "End Mission Notice - Pilots Killed in Propaganda"
    m_instructions {
     TILW_SendMessageInstruction "{6554E0349A6E7BBA}" {
-     m_messageTitle "REDFOR MAJOR VICTORY"
-     m_messageBody "The separatists have successfully killed the pilots on live TV. Mission Complate."
+     m_messageTitle "REDFOR MAJOR VICTORY (NOT MISSION END)"
+     m_messageBody "The separatists have successfully killed the pilots on live TV. You still have to kill the rescuers."
     }
    }
    m_condition TILW_ConjunctionTerm "{6554E0347CE6C015}" {
@@ -268,7 +273,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "End Mission Notice - Pilots & Pararescue Killed"
    m_instructions {
     TILW_SendMessageInstruction "{6554E034612D4F5C}" {
-     m_messageTitle "REDFOR MINOR VICTORY"
+     m_messageTitle "REDFOR MAJOR VICTORY"
      m_messageBody "The separatists have killed the pilots and pararescue. Mission Complate."
     }
    }
@@ -298,10 +303,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_ConjunctionTerm "{6554E035FE00572C}" {
     m_operands {
      TILW_LiteralTerm "{6554E035FE005728}" {
-      m_flagName "BlackboxRecovered"
+      m_flagName "BlackboxRemoved"
      }
      TILW_LiteralTerm "{6554E035FE00F3B5}" {
-      m_flagName "PilotExtracted"
+      m_flagName "US_Extracted"
+     }
+     TILW_LiteralTerm "{655B66098DF3AD7F}" {
+      m_flagName "USAF_Extracted"
      }
     }
    }
@@ -317,10 +325,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_ConjunctionTerm "{6554E035A1FDA298}" {
     m_operands {
      TILW_LiteralTerm "{6554E035A1FDA29D}" {
-      m_flagName "BlackboxRecovered"
+      m_flagName "BlackboxRemoved"
      }
      TILW_LiteralTerm "{6554E035A1FDA292}" {
       m_flagName "PilotsKilled"
+     }
+     TILW_LiteralTerm "{655B660973CD5380}" {
+      m_flagName "USAF_Extracted"
      }
     }
    }
