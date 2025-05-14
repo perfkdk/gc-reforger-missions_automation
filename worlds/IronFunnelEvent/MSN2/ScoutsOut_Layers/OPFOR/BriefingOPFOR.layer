@@ -204,4 +204,82 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "USSR"
   }
  }
+ OPFORBUNKER8 {
+  coords 6370.448 137.366 6211.165
+  angleY 90.862
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "bunker_reinforced"
+  m_fWorldSize 35
+  m_sDescription "BUNKER8"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ OPFORBUNKER12 {
+  coords 6377.869 85.786 5513.771
+  angleY 90.862
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "bunker_reinforced"
+  m_fWorldSize 35
+  m_sDescription "BUNKER12"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ OPFORBUNKER9 {
+  coords 6345.67 137.421 6213.717
+  angleY 90.862
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "bunker_reinforced"
+  m_fWorldSize 35
+  m_sDescription "BUNKER9"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ OPFORBUNKER13 {
+  coords 6430.786 85.833 5478.01
+  angleY 90.862
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "bunker_reinforced"
+  m_fWorldSize 35
+  m_sDescription "BUNKER13"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ OPFORBUNKER10 {
+  coords 6223.212 148.209 6215.527
+  angleY 90.862
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "bunker_reinforced"
+  m_fWorldSize 35
+  m_sDescription "BUNKER10"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ OPFORBUNKER11 {
+  coords 6205.264 141.834 6179.91
+  angleY 90.862
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "bunker_reinforced"
+  m_fWorldSize 35
+  m_sDescription "BUNKER11"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
 }
