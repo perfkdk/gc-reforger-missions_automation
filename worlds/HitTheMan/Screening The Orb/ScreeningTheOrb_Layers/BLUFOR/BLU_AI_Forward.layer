@@ -1,0 +1,70 @@
+$grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
+ Loit_wp_CAF_1 {
+  coords 4216.021 257.756 3099.881
+ }
+ Loit_wp_CAF_2 {
+  coords 4827.703 253.547 2953.217
+ }
+ Loit_wp_CAF_3 {
+  coords 4021.276 209.043 3723.376
+  CompletionRadius 80
+ }
+ Loit_wp_CAF_4 {
+  coords 4298.888 256.82 3440.706
+  CompletionRadius 150
+ }
+}
+$grp SCR_AIGroup : "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_AI_Rifle_Sect.et" {
+ Frwd_AI_Rifle_1 {
+  coords 4303.899 223.477 3169.121
+  angleX 14.095
+  angleY -117.029
+  angleZ -3.216
+  m_aUnitPrefabSlots {
+   "{9FB82322D0798CEE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_1IC_1_AI.et" "{646FAFEE922316F5}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_AR_1_AI.et" "{F1AFDEA32E60A294}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG_1_AI.et" "{6CD86521FAE527A4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG2_1_AI.et" "{907A4F6D1D74CAF9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_RF_1_AI.et" "{907A4F6D1D74CAF9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_RF_1_AI.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "Loit_wp_CAF_1"
+  }
+ }
+ Frwd_AI_Rifle_2 {
+  coords 4822.528 259.134 2933.188
+  angleX 7.662
+  angleY -117.983
+  angleZ -11.922
+  m_aUnitPrefabSlots {
+   "{9FB82322D0798CEE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_1IC_1_AI.et" "{646FAFEE922316F5}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_AR_1_AI.et" "{F1AFDEA32E60A294}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG_1_AI.et" "{6CD86521FAE527A4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG2_1_AI.et" "{907A4F6D1D74CAF9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_RF_1_AI.et" "{907A4F6D1D74CAF9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_RF_1_AI.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "Loit_wp_CAF_2"
+  }
+ }
+ Frwd_AI_Rifle_3 {
+  coords 4079.815 199.089 3723.567
+  angleX -0.816
+  angleY -116.2
+  angleZ 2.395
+  m_aUnitPrefabSlots {
+   "{9FB82322D0798CEE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_1IC_1_AI.et" "{646FAFEE922316F5}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_AR_1_AI.et" "{F1AFDEA32E60A294}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG_1_AI.et" "{6CD86521FAE527A4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG2_1_AI.et" "{907A4F6D1D74CAF9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_RF_1_AI.et" "{907A4F6D1D74CAF9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_RF_1_AI.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "Loit_wp_CAF_3"
+  }
+ }
+ Frwd_AI_Rifle_4 {
+  coords 4293.714 257.099 3420.676
+  angleX 7.662
+  angleY -117.983
+  angleZ -11.922
+  m_aUnitPrefabSlots {
+   "{9FB82322D0798CEE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_1IC_1_AI.et" "{646FAFEE922316F5}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_AR_1_AI.et" "{F1AFDEA32E60A294}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG_1_AI.et" "{6CD86521FAE527A4}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_MG2_1_AI.et" "{907A4F6D1D74CAF9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_RF_1_AI.et" "{907A4F6D1D74CAF9}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Character_1993_CAF_RF_1_AI.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "Loit_wp_CAF_4"
+  }
+ }
+}

@@ -1,0 +1,417 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Obj_marker_2 {
+  coords 4790.275 177.155 3574.901
+  angleY -45
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 50
+  m_sDescription "Town Hall"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ Mortar_marker_1 {
+  coords 4854.849 168.71 3771.041
+  angleY -46.968
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "mortar"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ Obj_marker_3 {
+  coords 4869.511 169.359 3757.482
+  angleY -45
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 80
+  m_sDescription "Coy HQ"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_iZOrder 0
+  m_bringToFront 0
+ }
+ Obj_marker_4 {
+  coords 4487.97 174.746 3833.097
+  angleY -45
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 50
+  m_sDescription "Power Station"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ Coy_marker_1 {
+  coords 4869.454 169.348 3757.4
+  angleY 90
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "coy_hq"
+  m_fWorldSize 100
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 55555
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Mortar_marker_2 {
+  coords 4856.403 168.712 3784.668
+  angleY -46.968
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "mortar"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ Flav_Coy_marker_1 {
+  coords 1955.061 269.447 2966.035
+  angleY 90
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "coy_hq"
+  m_fWorldSize 400
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Motor_marker_3 {
+  coords 1511.96 180.269 69.686
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "helicopter-attack"
+  m_fWorldSize 250
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Flav_Coy_marker_2 {
+  coords 1710.654 287.21 3342.315
+  angleY 59.736
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "atk_plt"
+  m_fWorldSize 350
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Flav_Coy_marker_4 {
+  coords 1170.543 315.402 2898.62
+  angleY 49.222
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "atk_plt"
+  m_fWorldSize 350
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Flav_CafCoy_marker_1 {
+  coords 1352.464 147.058 4178.129
+  angleY 90
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "coy_hq"
+  m_fWorldSize 400
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Flav_CafCoy_marker_2 {
+  coords 1820.102 159.218 4071.713
+  angleY 90
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 350
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Flav_CafCoy_marker_3 {
+  coords 1259.057 225.404 3810.711
+  angleY 90
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 350
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Flav_CafCoy_marker_4 {
+  coords 766.198 173.467 3595.014
+  angleY 90
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 350
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ NVA_Coy_marker_1 {
+  coords 3509.542 315.552 2781.645
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "coy_hq"
+  m_fWorldSize 200
+  m_sDescription "230"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Flav_CafCoy_marker_5 {
+  coords 2046.829 171.971 4139.201
+  angleY -135.341
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "fp"
+  m_fWorldSize 500
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Flav_CafCoy_marker_6 {
+  coords 1032.642 252.068 3595.811
+  angleY -104.907
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "fp"
+  m_fWorldSize 500
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Flav_CafCoy_marker_7 {
+  coords 523.846 137.271 3412.889
+  angleY -71.297
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "fp"
+  m_fWorldSize 500
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Flav_CafCoy_marker_8 {
+  coords 1598.342 188.212 3821.184
+  angleY -111.762
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "fp"
+  m_fWorldSize 500
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ NVA_Coy_marker_2 {
+  coords 3510.18 310.261 2875.729
+  angleY 90.823
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "btr_atk"
+  m_fWorldSize 150
+  m_sDescription "231"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_2 {
+  coords 4677.841 172.557 3468.07
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 100
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_3 {
+  coords 4497.093 161.878 3895.871
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 100
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_4 {
+  coords 4769.722 164.573 3718.191
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 100
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_8 {
+  coords 4746.556 182.827 3348.277
+  angleY -92.722
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "fp"
+  m_fWorldSize 200
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_5 {
+  coords 4545.497 178.113 3467.412
+  angleY -19.626
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "fp"
+  m_fWorldSize 200
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_6 {
+  coords 4426.917 170.437 3782.451
+  angleY -39.525
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "fp"
+  m_fWorldSize 200
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_7 {
+  coords 4370.137 161.621 3962.294
+  angleY 17.617
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "fp"
+  m_fWorldSize 200
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_9 {
+  coords 4529.692 181.977 3675.069
+  angleY -24.726
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "fp"
+  m_fWorldSize 200
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_10 {
+  coords 4924.629 168.901 3380.508
+  angleY -118.007
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "fp"
+  m_fWorldSize 200
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ NVA_Coy_marker_3 {
+  coords 3515.101 324.187 2685.097
+  angleY 78.722
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "automobile"
+  m_fWorldSize 150
+  m_sDescription "234"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Flav_Coy_marker_3 {
+  coords 2294.528 178.158 3668.13
+  angleY 57.783
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "atk_plt"
+  m_fWorldSize 350
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_11 {
+  coords 4205.415 270.3 3339.542
+  angleY 90
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "op"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_12 {
+  coords 3933.641 238.889 3654.105
+  angleY 90
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "op"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Coy_marker_13 {
+  coords 4712.566 295.27 2750.579
+  angleY 90
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "op"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+}
