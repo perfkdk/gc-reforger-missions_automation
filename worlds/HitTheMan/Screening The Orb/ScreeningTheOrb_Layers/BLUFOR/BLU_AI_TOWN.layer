@@ -488,6 +488,16 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY -66.498
   CompletionRadius 50
  }
+ def_wp_CAF_56 {
+  coords 4257.896 201.262 4504.286
+  angleY -66.498
+  CompletionRadius 50
+ }
+ def_wp_CAF_55 {
+  coords 4985.484 278.107 4341.505
+  angleY -66.498
+  CompletionRadius 50
+ }
 }
 $grp SCR_AIGroup : "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/Group_CAF_1993_AI_Rifle_Sect.et" {
  AI_Rifle_1 {
@@ -1072,6 +1082,28 @@ $grp SCR_AIGroup : "{CCF5BB1B99D150E4}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
  }
  AI_Rifle_54 {
   coords 4637.958 175.906 3450.676
+  angleY -68.025
+  m_aUnitPrefabSlots {
+   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/Screening The Orb/Character_1993_CAF_Stinger_1_AI.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "def_wp_CAF_54"
+  }
+ }
+ AI_Rifle_56 {
+  coords 4260.879 201.263 4502.768
+  angleY -68.025
+  m_aUnitPrefabSlots {
+   "{EDA5D8BB3D90CFF3}worlds/HitTheMan/Screening The Orb/Character_1993_CAF_Stinger_1_AI.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "def_wp_CAF_54"
+  }
+ }
+ AI_Rifle_55 {
+  coords 4988.467 278.108 4339.987
   angleY -68.025
   m_aUnitPrefabSlots {
    "{EDA5D8BB3D90CFF3}worlds/HitTheMan/Screening The Orb/Character_1993_CAF_Stinger_1_AI.et"

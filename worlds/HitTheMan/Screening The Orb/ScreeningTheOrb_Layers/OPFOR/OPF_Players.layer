@@ -14,7 +14,7 @@ $grp SCR_AIGroup : "{04FC2603763DCF52}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   angleY 5.936
   angleZ -1.643
   m_aUnitPrefabSlots {
-   "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et" "{FFE45AFCB29CD015}worlds/HitTheMan/BadAirAssault/Character_USSR_HeliGunner_P.et"
+   "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et" "{FFE45AFCB29CD015}worlds/HitTheMan/Screening The Orb/Character_USSR_HeliGunner_P.et"
   }
   m_sCustomNameSet "Mi-24 Hind | Berkut 1"
  }
@@ -33,9 +33,232 @@ $grp SCR_AIGroup : "{04FC2603763DCF52}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   angleY 5.936
   angleZ -1.643
   m_aUnitPrefabSlots {
-   "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et" "{FFE45AFCB29CD015}worlds/HitTheMan/BadAirAssault/Character_USSR_HeliGunner_P.et"
+   "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et" "{FFE45AFCB29CD015}worlds/HitTheMan/Screening The Orb/Character_USSR_HeliGunner_P.et"
   }
   m_sCustomNameSet "Mi-24 Hind | Berkut 2"
+ }
+}
+$grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.et" {
+ BTR70_NVA1 {
+  components {
+   RHS_GroupMaterialController "{655D33B314E7008B}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{655D33B314E7008F}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 1
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{62F4F2818CA898CA}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{62F4F2818CE23F3F}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{62F4F2818C20CD3C}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{62F4F2818C64C19D}" {
+      SlotTemplate InventoryStorageSlot gp25ammo {
+       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{62F4F2818DA621D6}" {
+      SlotTemplate InventoryStorageSlot vog25flares {
+       Prefab ""
+      }
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3511.381 308.045 2909.062
+  angleX -5.443
+  angleY 3.051
+  angleZ 1.495
+  m_sAttachmentGroupName "RifleSquad_1"
+ }
+ BTR70_NVA2 {
+  components {
+   RHS_GroupMaterialController "{655D33B314E7008B}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{655D33B314E7008F}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 2
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{62F4F2818CA898CA}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{62F4F2818CE23F3F}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{62F4F2818C20CD3C}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{62F4F2818C64C19D}" {
+      SlotTemplate InventoryStorageSlot gp25ammo {
+       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{62F4F2818DA621D6}" {
+      SlotTemplate InventoryStorageSlot vog25flares {
+       Prefab ""
+      }
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3509.807 310.491 2876.148
+  angleX -3.576
+  angleY 1.064
+  angleZ -0.066
+  m_sAttachmentGroupName "RifleSquad_2"
+ }
+ BTR70_NVA3 {
+  components {
+   RHS_GroupMaterialController "{655D33B314E7008B}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{655D33B314E7008F}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 3
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{62F4F2818CA898CA}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{62F4F2818CE23F3F}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{62F4F2818C20CD3C}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{62F4F2818C64C19D}" {
+      SlotTemplate InventoryStorageSlot gp25ammo {
+       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{62F4F2818DA621D6}" {
+      SlotTemplate InventoryStorageSlot vog25flares {
+       Prefab ""
+      }
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3509.408 312.389 2843.768
+  angleX -3.576
+  angleY 1.064
+  angleZ -0.066
+  m_sAttachmentGroupName "RifleSquad_3"
+ }
+ BTR70_NVA4 {
+  components {
+   RHS_GroupMaterialController "{655D33B314E7008B}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{655D33B314E7008F}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 3
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{62F4F2818CA898CA}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{62F4F2818CE23F3F}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{62F4F2818C20CD3C}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{62F4F2818C64C19D}" {
+      SlotTemplate InventoryStorageSlot gp25ammo {
+       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{62F4F2818DA621D6}" {
+      SlotTemplate InventoryStorageSlot vog25flares {
+       Prefab ""
+      }
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3509.302 315.953 2785.503
+  angleX -5.355
+  angleY 0.728
+  angleZ -0.068
+  m_sAttachmentGroupName "CoyHQ"
  }
 }
 Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
@@ -87,7 +310,7 @@ SCR_AIGroup CoyHQ : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/USSR/SovietArmy_Moto
  angleY -87.376
  m_faction "GC_NVA"
  m_aUnitPrefabSlots {
-  "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et" "{C503AFF96F792C9F}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanySergeantMajor_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et" "{8263A33EFE862797}worlds/HitTheMan/BadAirAssault/Character_GC_NVA_FAC_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
+  "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et" "{C503AFF96F792C9F}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanySergeantMajor_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et" "{8263A33EFE862797}worlds/HitTheMan/Screening The Orb/Character_GC_NVA_FAC_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
  }
  m_sCustomNameSet "Company Headquarters"
 }
@@ -327,8 +550,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iPlatoonCallsign 2
    }
   }
-  coords 3514.001 308.135 2904.651
-  angleY -86.623
+  coords 3514.001 308.408 2904.651
+  angleX -0.314
+  angleY -86.652
+  angleZ 5.347
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
@@ -351,8 +576,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 3
    }
   }
-  coords 3511.859 309.52 2872.52
+  coords 3511.859 310.686 2872.52
+  angleX 0.007
   angleY -90.115
+  angleZ 3.576
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
@@ -374,8 +601,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 4
    }
   }
-  coords 3511.809 311.383 2844.733
-  angleY -90.735
+  coords 3511.83 312.636 2839.633
+  angleX 0.023
+  angleY -90.734
+  angleZ 1.79
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
@@ -398,8 +627,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 6
    }
   }
-  coords 3506.399 318.72 2736.885
-  angleY 88.797
+  coords 3506.399 320.323 2736.885
+  angleX -0.112
+  angleY 88.808
+  angleZ -5.355
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
@@ -422,8 +653,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 7
    }
   }
-  coords 3511.778 323.886 2689.739
-  angleY 78.503
+  coords 3511.778 323.891 2689.739
+  angleX -0.711
+  angleY 78.547
+  angleZ -3.505
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
@@ -446,8 +679,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 8
    }
   }
-  coords 3530.944 326.962 2644.132
-  angleY -117.356
+  coords 3530.944 326.927 2644.132
+  angleX 0.055
+  angleY -117.352
+  angleZ 3.997
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
@@ -488,8 +723,10 @@ $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 1
    }
   }
-  coords 3505.489 309.066 2878.449
-  angleY 92.151
+  coords 3505.489 310.363 2878.449
+  angleX -1.648
+  angleY 92.256
+  angleZ -3.642
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et"
@@ -506,311 +743,14 @@ $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 5
    }
   }
-  coords 3520.145 324.835 2673.132
-  angleY -99.099
+  coords 3520.145 324.804 2673.132
+  angleX 0.564
+  angleY -99.064
+  angleZ 3.532
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et"
   }
   m_sCustomNameSet "2nd Platoon HQ"
- }
-}
-$grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/1980 Mot Rifle/BTR70_MSV80.et" {
- BTR70_MSV1 {
-  components {
-   RHS_GroupMaterialController "{65151D74DAFD4445}" {
-    m_aGroups {
-     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
-      m_iTextureID 2
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
-      m_iTextureID 3
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B724A768}" {
-      m_iTextureID 1
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B44285C1}" {
-      m_bRandomize 0
-     }
-    }
-   }
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{62F4F2818B194CED}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-     }
-     MultiSlotConfiguration "{62F4F2818CA898CA}" {
-      SlotTemplate InventoryStorageSlot rpk74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 12
-     }
-     MultiSlotConfiguration "{62F4F2818CE23F3F}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{62F4F2818C20CD3C}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{62F4F2818C64C19D}" {
-      SlotTemplate InventoryStorageSlot gp25ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 12
-     }
-     MultiSlotConfiguration "{62F4F2818DA621D6}" {
-      SlotTemplate InventoryStorageSlot vog25flares {
-       Prefab ""
-      }
-      NumSlots 0
-     }
-    }
-   }
-  }
-  coords 3511.437 308.115 2908.258
-  angleY 2.834
-  m_sAttachmentGroupName "RifleSquad_1"
-  {
-   EnvironmentProbeEntity {
-    ID "6314FA8E09CB49D7"
-    coords -0.001 -0.572 1.156
-   }
-  }
- }
- BTR70_MSV2 {
-  components {
-   RHS_GroupMaterialController "{65151D74DAFD4445}" {
-    m_aGroups {
-     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
-      m_iTextureID 2
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
-      m_iTextureID 3
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B724A768}" {
-      m_iTextureID 2
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B44285C1}" {
-      m_bRandomize 0
-     }
-    }
-   }
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{62F4F2818B194CED}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-     }
-     MultiSlotConfiguration "{62F4F2818CA898CA}" {
-      SlotTemplate InventoryStorageSlot rpk74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 12
-     }
-     MultiSlotConfiguration "{62F4F2818CE23F3F}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{62F4F2818C20CD3C}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{62F4F2818C64C19D}" {
-      SlotTemplate InventoryStorageSlot gp25ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 12
-     }
-     MultiSlotConfiguration "{62F4F2818DA621D6}" {
-      SlotTemplate InventoryStorageSlot vog25flares {
-       Prefab ""
-      }
-      NumSlots 0
-     }
-    }
-   }
-  }
-  coords 3509.404 309.674 2876.095
-  angleY 0.363
-  m_sAttachmentGroupName "RifleSquad_2"
-  {
-   EnvironmentProbeEntity {
-    ID "6314FA8E09CB49D7"
-    coords 0 -0.558 1.156
-   }
-  }
- }
- BTR70_MSV3 {
-  components {
-   RHS_GroupMaterialController "{65151D74DAFD4445}" {
-    m_aGroups {
-     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
-      m_iTextureID 2
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
-      m_iTextureID 3
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B724A768}" {
-      m_iTextureID 3
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B44285C1}" {
-      m_bRandomize 0
-     }
-    }
-   }
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{62F4F2818B194CED}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-     }
-     MultiSlotConfiguration "{62F4F2818CA898CA}" {
-      SlotTemplate InventoryStorageSlot rpk74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 12
-     }
-     MultiSlotConfiguration "{62F4F2818CE23F3F}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{62F4F2818C20CD3C}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{62F4F2818C64C19D}" {
-      SlotTemplate InventoryStorageSlot gp25ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 12
-     }
-     MultiSlotConfiguration "{62F4F2818DA621D6}" {
-      SlotTemplate InventoryStorageSlot vog25flares {
-       Prefab ""
-      }
-      NumSlots 0
-     }
-    }
-   }
-  }
-  coords 3509.208 311.51 2847.907
-  angleY 0.747
-  m_sAttachmentGroupName "RifleSquad_3"
-  {
-   EnvironmentProbeEntity {
-    ID "6314FA8E09CB49D7"
-    coords 0 -0.576 1.157
-   }
-  }
- }
- BTR70_MSV4 {
-  components {
-   RHS_GroupMaterialController "{65151D74DAFD4445}" {
-    m_aGroups {
-     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
-      m_iTextureID 2
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
-      m_iTextureID 3
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B724A768}" {
-      m_bRandomize 0
-     }
-     RHS_MaterialGroupProperties "{65151D74B44285C1}" {
-      m_bRandomize 0
-     }
-    }
-   }
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{62F4F2818B194CED}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-     }
-     MultiSlotConfiguration "{62F4F2818CA898CA}" {
-      SlotTemplate InventoryStorageSlot rpk74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 12
-     }
-     MultiSlotConfiguration "{62F4F2818CE23F3F}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{62F4F2818C20CD3C}" {
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{62F4F2818C64C19D}" {
-      SlotTemplate InventoryStorageSlot gp25ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 12
-     }
-     MultiSlotConfiguration "{62F4F2818DA621D6}" {
-      SlotTemplate InventoryStorageSlot vog25flares {
-       Prefab ""
-      }
-      NumSlots 0
-     }
-    }
-   }
-  }
-  coords 3509.448 315.763 2787.869
-  angleX -3.575
-  angleY 1.436
-  angleZ -0.09
-  m_sAttachmentGroupName "CoyHQ"
-  {
-   EnvironmentProbeEntity {
-    ID "6314FA8E09CB49D7"
-    coords 0 -0.543 1.157
-   }
-  }
  }
 }
