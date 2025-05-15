@@ -274,7 +274,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{6554E034612D4F5C}" {
      m_messageTitle "REDFOR MAJOR VICTORY"
-     m_messageBody "The separatists have killed the pilots and pararescue. Mission Complate."
+     m_messageBody "The separatists have killed the pilots and pararescue. Mission Complete."
     }
    }
    m_condition TILW_ConjunctionTerm "{6554E034612D4F67}" {
@@ -318,7 +318,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "End Mission Notice - Pilots killed and blackbox recovered"
    m_instructions {
     TILW_SendMessageInstruction "{6554E035A1FDA2E4}" {
-     m_messageTitle "BLUEFOR MINOR VICTORY"
+     m_messageTitle "BLUFOR MINOR VICTORY"
      m_messageBody "Pararescue has successfully extracted the blackbox but the pilots were killed. Mission Complete."
     }
    }
