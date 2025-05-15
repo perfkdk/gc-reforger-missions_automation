@@ -2,24 +2,20 @@ GenericEntity {
  ID "655B660A2687BA1E"
  coords 2421.852 91.233 2028.717
  {
-  $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+  $grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
    {
-    ID "655B660A2687BA04"
-    coords 0 0 0
-    m_queryRadius 30
-    m_flagName "US_Extracted"
-    m_setShapeColor 0 0.125 0.502 1
-    m_playersOnly 1
-    m_ownerFactionKey "US"
-   }
-   {
-    ID "655B660A2687BA05"
+    ID "655D776892487608"
     coords 0 0 0
     m_queryRadius 30
     m_flagName "USAF_Extracted"
-    m_drawShapeSurface 0
-    m_playersOnly 1
-    m_ownerFactionKey "RHS_USAF"
+    m_factionKey "RHS_USAF"
+   }
+   {
+    ID "655D7768A45A2093"
+    coords 0 0 0
+    m_queryRadius 30
+    m_flagName "US_Extracted"
+    m_factionKey "US"
    }
   }
   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
