@@ -6,9 +6,10 @@ GenericEntity {
    {
     ID "655D776892487608"
     coords 0 0 0
-    m_queryRadius 30
+    m_queryRadius 80
     m_flagName "USAF_Extracted"
     m_factionKey "RHS_USAF"
+    m_ratioThreshold 0.9
    }
    {
     ID "655D7768A45A2093"
