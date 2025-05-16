@@ -74,7 +74,7 @@ $grp RHS_Tank : "{52B13341B4A2F012}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green.e
     m_continuous 1
    }
   }
-  coords 10145.836 2.532 1517.523
+  coords 10145.836 2.531 1517.523
   angleY 14.886
  }
  Tank_2S1_Green3 {
@@ -85,7 +85,9 @@ $grp RHS_Tank : "{52B13341B4A2F012}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green.e
    }
   }
   coords 10144.543 2.498 1507.891
-  angleY 4.146
+  angleX 0.893
+  angleY 4.147
+  angleZ 0.065
  }
  Tank_2S1_Green4 {
   components {
@@ -94,7 +96,7 @@ $grp RHS_Tank : "{52B13341B4A2F012}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green.e
     m_continuous 1
    }
   }
-  coords 10155.434 2.532 1527.123
+  coords 10155.436 2.531 1527.123
   angleY 4.146
  }
  Tank_2S1_Green5 {
@@ -104,7 +106,7 @@ $grp RHS_Tank : "{52B13341B4A2F012}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green.e
     m_continuous 1
    }
   }
-  coords 10153.491 2.583 1515.947
+  coords 10153.491 2.531 1515.947
   angleY 14.886
  }
  Tank_2S1_Green6 {
@@ -114,7 +116,9 @@ $grp RHS_Tank : "{52B13341B4A2F012}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green.e
     m_continuous 1
    }
   }
-  coords 10152.197 2.566 1506.315
-  angleY 4.146
+  coords 10152.195 2.505 1506.315
+  angleX 0.893
+  angleY 4.147
+  angleZ 0.065
  }
 }

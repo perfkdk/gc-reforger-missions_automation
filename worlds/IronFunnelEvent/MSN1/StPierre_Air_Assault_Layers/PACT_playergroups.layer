@@ -1,5 +1,24 @@
+Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ coords 9674.027 21.126 1639.203
+ angleY -45.411
+}
+Vehicle UAZ469_uncovered1 : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et" {
+ coords 9678.392 21.156 1634.218
+ angleY -39.615
+}
+GenericEntity : "{5D4A25C9B60B581E}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_06.et" {
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_bOrientChildrenToTerrain 0
+  }
+  TILW_NavmeshRegenComponent "{655CE79EBDB38852}" {
+  }
+ }
+ coords 9661.438 20.948 1656.73
+ angleY -164.384
+}
 $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
- {
+ ussr_1sq {
   components {
    PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
     m_iCompanyCallsign 2
@@ -14,7 +33,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   m_sCustomNameSet "1st Squad"
   m_bSetPlayable 1
  }
- {
+ ussr_2sq {
   components {
    PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
     m_iCompanyCallsign 2
@@ -29,7 +48,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   }
   m_bSetPlayable 1
  }
- {
+ ussr_3sq {
   components {
    PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
     m_iCompanyCallsign 2
@@ -77,17 +96,97 @@ SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRifle
  m_sCustomNameSet "PLT HQ"
  m_bSetPlayable 1
 }
-$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+$grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/1980 Mot Rifle/BTR70_MSV80.et" {
  BTR1 {
-  coords 7557.371 166.301 4248.264
-  angleY -74.235
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B44285C1}" {
+      m_iTextureID 12
+      m_bRandomize 0
+     }
+    }
+   }
+  }
+  coords 7555.572 166.292 4243.713
+  angleY -73.756
+  m_sAttachmentGroupName "ussr_1sq"
  }
  BTR2 {
-  coords 7572.784 166.156 4243.931
-  angleY -74.235
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B44285C1}" {
+      m_iTextureID 12
+      m_bRandomize 0
+     }
+    }
+   }
+  }
+  coords 7572.894 166.156 4238.702
+  angleY -73.756
+  m_sAttachmentGroupName "ussr_2sq"
  }
  BTR3 {
-  coords 7589.731 166.156 4239.432
-  angleY -74.235
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{65151D74B44285C1}" {
+      m_iTextureID 12
+      m_bRandomize 0
+     }
+    }
+   }
+  }
+  coords 7591.109 166.156 4233.423
+  angleY -73.756
+  m_sAttachmentGroupName "ussr_3sq"
  }
+}
+GenericEntity : "{D4825DD0062A405B}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_04.et" {
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_bOrientChildrenToTerrain 0
+  }
+  TILW_NavmeshRegenComponent "{655CE79EB10BF863}" {
+  }
+ }
+ coords 9652.491 21.438 1659.492
+ angleY -27.575
 }
