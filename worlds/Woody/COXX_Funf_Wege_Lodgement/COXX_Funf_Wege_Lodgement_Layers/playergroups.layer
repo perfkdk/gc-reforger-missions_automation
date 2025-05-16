@@ -18,7 +18,152 @@ $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
   angleY 172.623
  }
 }
-$grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA_MotShutzen_P.et" {
+$grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.et" {
+ BTR70_NVA1 {
+  components {
+   RHS_GroupMaterialController "{655D33B314E7008B}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{655D33B314E7008F}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 1
+     }
+    }
+   }
+  }
+  coords 3010.23 205.03 4776.718
+  angleX 2.86
+  angleY 85.689
+  angleZ 13.855
+  m_sAttachmentGroupName "chq"
+ }
+ BTR70_NVA2 {
+  components {
+   RHS_GroupMaterialController "{655D33B314E7008B}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{655D33B314E7008F}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 1
+     }
+    }
+   }
+  }
+  coords 3062.481 205.281 4779.031
+  angleY 91.851
+  m_sAttachmentGroupName "plt1sq1"
+ }
+ BTR70_NVA3 {
+  components {
+   RHS_GroupMaterialController "{655D33B314E7008B}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{655D33B314E7008F}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 2
+     }
+    }
+   }
+  }
+  coords 3047.109 205.281 4777.817
+  angleY 81.826
+  m_sAttachmentGroupName "plt1sq2"
+ }
+ BTR70_NVA4 {
+  components {
+   RHS_GroupMaterialController "{655D33B314E7008B}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{655D33B314E7008F}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 3
+     }
+    }
+   }
+  }
+  coords 3030.414 205.125 4775.97
+  angleY 82.606
+  m_sAttachmentGroupName "plt1sq3"
+ }
+ BTR70_NVA5 {
+  components {
+   RHS_GroupMaterialController "{655D33B314E7008B}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{655D33B314E7008F}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 6
+     }
+    }
+   }
+  }
+  coords 2964.25 204.493 4768.825
+  angleX -1.782
+  angleY 95.349
+  angleZ -0.167
+  m_sAttachmentGroupName "plt2sq3"
+ }
+ BTR70_NVA6 {
+  components {
+   RHS_GroupMaterialController "{655D33B314E7008B}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{655D33B314E7008F}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 4
+     }
+    }
+   }
+  }
+  coords 2997.183 204.656 4770.927
+  angleX 1.783
+  angleY 85.063
+  angleZ -0.154
+  m_sAttachmentGroupName "plt2sq1"
+ }
+ BTR70_NVA7 {
+  components {
+   RHS_GroupMaterialController "{655D33B314E7008B}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{655D33B314E7008F}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 5
+     }
+    }
+   }
+  }
+  coords 2981.028 204.5 4769.635
+  angleY 85.379
+  m_sAttachmentGroupName "plt2sq2"
+ }
+}
+$grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA_MotRifles_P.et" {
  plt1sq1 {
   components {
    PS_GroupCallsignAssigner "{652F7D613E820AE4}" {
@@ -72,255 +217,6 @@ $grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
   }
   coords 3052.788 208.343 4802.033
   angleY 173.667
- }
-}
-$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
- BTR3 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{62F4F2818B194CED}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{62F4F2818CA898CA}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{62F4F2818C64C19D}" {
-      SlotTemplate InventoryStorageSlot gp25ammo {
-       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
-      }
-      NumSlots 24
-     }
-     MultiSlotConfiguration "{62F4F2818DA621D6}" {
-      SlotTemplate InventoryStorageSlot vog25flares {
-       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
-      }
-      NumSlots 12
-     }
-    }
-   }
-  }
-  coords 3050.114 205.312 4777.996
-  angleY 81.858
-  m_sAttachmentGroupName "plt1sq2"
- }
- BTR1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{62F4F2818B194CED}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{62F4F2818CA898CA}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{62F4F2818C64C19D}" {
-      SlotTemplate InventoryStorageSlot gp25ammo {
-       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
-      }
-      NumSlots 24
-     }
-     MultiSlotConfiguration "{62F4F2818DA621D6}" {
-      SlotTemplate InventoryStorageSlot vog25flares {
-       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
-      }
-      NumSlots 12
-     }
-    }
-   }
-  }
-  coords 3010.05 204.969 4776.497
-  angleX 3.64
-  angleY 82.498
-  angleZ 13.674
-  m_sAttachmentGroupName "chq"
- }
- BTR4 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{62F4F2818B194CED}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{62F4F2818CA898CA}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{62F4F2818C64C19D}" {
-      SlotTemplate InventoryStorageSlot gp25ammo {
-       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
-      }
-      NumSlots 24
-     }
-     MultiSlotConfiguration "{62F4F2818DA621D6}" {
-      SlotTemplate InventoryStorageSlot vog25flares {
-       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
-      }
-      NumSlots 12
-     }
-    }
-   }
-  }
-  coords 3038.007 205.219 4776.721
-  angleY 81.858
-  m_sAttachmentGroupName "plt1sq3"
- }
- BTR6 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{62F4F2818B194CED}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{62F4F2818CA898CA}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{62F4F2818C64C19D}" {
-      SlotTemplate InventoryStorageSlot gp25ammo {
-       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
-      }
-      NumSlots 24
-     }
-     MultiSlotConfiguration "{62F4F2818DA621D6}" {
-      SlotTemplate InventoryStorageSlot vog25flares {
-       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
-      }
-      NumSlots 12
-     }
-    }
-   }
-  }
-  coords 2978.682 204.469 4769.637
-  angleY 88.153
-  m_sAttachmentGroupName "plt2sq2"
- }
- BTR7 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{62F4F2818B194CED}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{62F4F2818CA898CA}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{62F4F2818C64C19D}" {
-      SlotTemplate InventoryStorageSlot gp25ammo {
-       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
-      }
-      NumSlots 24
-     }
-     MultiSlotConfiguration "{62F4F2818DA621D6}" {
-      SlotTemplate InventoryStorageSlot vog25flares {
-       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
-      }
-      NumSlots 12
-     }
-    }
-   }
-  }
-  coords 2965.446 204.469 4769.182
-  angleY 93.547
-  m_sAttachmentGroupName "plt2sq3"
- }
- BTR5 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{62F4F2818B194CED}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{62F4F2818CA898CA}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{62F4F2818C64C19D}" {
-      SlotTemplate InventoryStorageSlot gp25ammo {
-       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
-      }
-      NumSlots 24
-     }
-     MultiSlotConfiguration "{62F4F2818DA621D6}" {
-      SlotTemplate InventoryStorageSlot vog25flares {
-       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
-      }
-      NumSlots 12
-     }
-    }
-   }
-  }
-  coords 2991.159 204.594 4770.415
-  angleY 85.886
-  m_sAttachmentGroupName "plt2sq1"
- }
- BTR2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{62F4F2818B194CED}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{62F4F2818CA898CA}" {
-      SlotTemplate InventoryStorageSlot ak74ammo {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
-      }
-      NumSlots 25
-     }
-     MultiSlotConfiguration "{62F4F2818C64C19D}" {
-      SlotTemplate InventoryStorageSlot gp25ammo {
-       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
-      }
-      NumSlots 24
-     }
-     MultiSlotConfiguration "{62F4F2818DA621D6}" {
-      SlotTemplate InventoryStorageSlot vog25flares {
-       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
-      }
-      NumSlots 12
-     }
-    }
-   }
-  }
-  coords 3062.591 205.281 4778.774
-  angleY 90.108
-  m_sAttachmentGroupName "plt1sq1"
  }
 }
 SCR_AIGroup chq : "{EF9B0C908458D07E}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA_CHQ_P.et" {
