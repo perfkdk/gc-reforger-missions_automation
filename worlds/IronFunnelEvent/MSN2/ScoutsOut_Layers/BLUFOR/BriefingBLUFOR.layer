@@ -83,7 +83,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "WHITE PLT - 4x LAVs (No Dismounts)"\
   "BLUE PLT - 3x Rifle Squads + HQ  (Trucks provided for Transport)"
   m_aVisibleForFactions {
-   "USSR"
+   "US"
   }
   m_iOrder 1
  }

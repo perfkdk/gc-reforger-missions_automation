@@ -3,6 +3,10 @@ $grp GenericEntity : "{B8BADFA9530C38F4}Prefabs/Compositions/Misc/SubComposition
   coords 6046.763 96.791 5383.267
   angleY 161.691
   {
+   GenericEntity {
+    ID "6186D3A8CE3D2672"
+    Flags 2098179
+   }
    GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
     components {
      SCR_SoundDataComponent "{5C53391603B5CF41}" {
@@ -52,6 +56,10 @@ $grp GenericEntity : "{B8BADFA9530C38F4}Prefabs/Compositions/Misc/SubComposition
   coords 6020.947 95.769 5371.606
   angleY 159.29
   {
+   GenericEntity {
+    ID "6186D3A8CE3D2672"
+    Flags 2098179
+   }
    GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
     components {
      SCR_SoundDataComponent "{5C53391603B5CF41}" {
@@ -101,6 +109,10 @@ $grp GenericEntity : "{B8BADFA9530C38F4}Prefabs/Compositions/Misc/SubComposition
   coords 6072.69 96.915 5396.693
   angleY 138.765
   {
+   GenericEntity {
+    ID "6186D3A8CE3D2672"
+    Flags 2098179
+   }
    GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
     components {
      SCR_SoundDataComponent "{5C53391603B5CF41}" {
