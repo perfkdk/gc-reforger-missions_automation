@@ -74,7 +74,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   }
   coords 9686.312 21.157 1633.395
   m_aUnitPrefabSlots {
-   "{F676F60776483178}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Platoon_Leader_P.et" "{89D3EB58B70D16BD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Chef_P.et" "{89D3EB58B70D16BD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Chef_P.et" "{06401C9475537901}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Mechanic_P.et" "{06401C9475537901}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Mechanic_P.et"
+   "{531B7E0E084DD371}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_SupplyLeader_P.et" "{89D3EB58B70D16BD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Chef_P.et" "{89D3EB58B70D16BD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Chef_P.et" "{06401C9475537901}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Mechanic_P.et" "{06401C9475537901}Prefabs/Characters/Factions/OPFOR/USSR_Army/Specific Units/876th independent Naval Infantry Battalion - 1986/Character_876_Mechanic_P.et"
   }
   m_sCustomNameSet "Service & Support Squad"
   m_bSetPlayable 1
@@ -96,7 +96,7 @@ SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRifle
  m_sCustomNameSet "PLT HQ"
  m_bSetPlayable 1
 }
-$grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/1980 Mot Rifle/BTR70_MSV80.et" {
+$grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_MSV80.et" {
  BTR1 {
   components {
    RHS_GroupMaterialController "{65151D74DAFD4445}" {

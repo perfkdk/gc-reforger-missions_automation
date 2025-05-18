@@ -13,12 +13,15 @@ $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" 
     m_aGroups {
      RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
       m_iTextureID 3
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
       m_iTextureID 2
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B724A768}" {
       m_iTextureID 1
+      m_bRandomize 0
      }
     }
    }
@@ -42,12 +45,15 @@ $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" 
     m_aGroups {
      RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
       m_iTextureID 3
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
       m_iTextureID 2
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B724A768}" {
       m_iTextureID 2
+      m_bRandomize 0
      }
     }
    }
@@ -71,12 +77,15 @@ $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" 
     m_aGroups {
      RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
       m_iTextureID 3
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
       m_iTextureID 2
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B724A768}" {
       m_iTextureID 3
+      m_bRandomize 0
      }
     }
    }
@@ -94,12 +103,15 @@ $grp Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" 
     m_aGroups {
      RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
       m_iTextureID 3
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
       m_iTextureID 6
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B724A768}" {
       m_iTextureID 1
+      m_bRandomize 0
      }
     }
    }
@@ -113,12 +125,15 @@ $grp Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" 
     m_aGroups {
      RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
       m_iTextureID 3
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
       m_iTextureID 6
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B724A768}" {
       m_iTextureID 2
+      m_bRandomize 0
      }
     }
    }
@@ -132,12 +147,15 @@ $grp Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" 
     m_aGroups {
      RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
       m_iTextureID 3
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
       m_iTextureID 6
+      m_bRandomize 0
      }
      RHS_MaterialGroupProperties "{65151D74B724A768}" {
       m_iTextureID 3
+      m_bRandomize 0
      }
     }
    }

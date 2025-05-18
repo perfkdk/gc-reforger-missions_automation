@@ -41,8 +41,8 @@ $grp SCR_AIGroup : "{43DE722B3E3F4C24}Prefabs/Groups/BLUFOR/US/Army_1980_Rifles/
  E {
   components {
    PS_GroupCallsignAssigner "{65454946D0A1346F}" {
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 4
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 3
    }
   }
   coords 6672.823 86.188 5567.087
@@ -68,8 +68,8 @@ $grp SCR_AIGroup : "{43DE722B3E3F4C24}Prefabs/Groups/BLUFOR/US/Army_1980_Rifles/
  H {
   components {
    PS_GroupCallsignAssigner "{6545494685A6D776}" {
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 3
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
    }
   }
   coords 6665.384 89.481 5447.67

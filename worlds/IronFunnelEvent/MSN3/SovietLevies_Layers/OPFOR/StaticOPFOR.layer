@@ -1,7 +1,3 @@
-PK_EntityDeleter {
- coords 7603.367 170.363 4476.789
- m_fRadius 40
-}
 GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
  coords 7548.19 161.562 4475.537
  angleY 36.689
@@ -11,6 +7,10 @@ $grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubComposition
   coords 8497.405 156.52 3671.913
   angleY -57.021
   {
+   GenericEntity {
+    ID "60B8D36A59BEEA13"
+    Flags 2098179
+   }
    GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
     components {
      SCR_SoundDataComponent "{5C53391603B5CF41}" {
@@ -60,6 +60,10 @@ $grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubComposition
   coords 8515.077 160.179 3696.181
   angleY -52.417
   {
+   GenericEntity {
+    ID "60B8D36A59BEEA13"
+    Flags 2098179
+   }
    GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Ammunition_01_USSR.et" {
     components {
      SCR_SoundDataComponent "{5C53391603B5CF41}" {
