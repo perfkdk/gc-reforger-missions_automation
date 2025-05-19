@@ -42,7 +42,7 @@ $grp SCR_AIGroup : "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSUR
   }
  }
  Ins_Ex_Defenders_8 {
-  coords 3910.638 68.178 10596.039
+  coords 3983.862 66.345 10683.234
   angleX 0.69
   angleY -111.436
   angleZ -0.576
@@ -51,12 +51,30 @@ $grp SCR_AIGroup : "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSUR
   }
  }
  Ins_Ex_Defenders_7 {
-  coords 4040.168 77.366 10537.391
-  angleX 1.131
-  angleY -105.882
-  angleZ 0.86
+  coords 4081.55 73.117 10629.095
+  angleX 1.421
+  angleY -142.788
+  angleZ 0.009
   m_aStaticWaypoints {
    "Ins_ex_defend_7"
+  }
+ }
+ Ins_Ex_Defenders_9 {
+  coords 4121.636 64.09 10773.291
+  angleX 0.69
+  angleY -111.436
+  angleZ -0.576
+  m_aStaticWaypoints {
+   "Ins_ex_defend_9"
+  }
+ }
+ Ins_Ex_Defenders_10 {
+  coords 4021.494 76.702 10557.3
+  angleX 0.69
+  angleY -111.436
+  angleZ -0.576
+  m_aStaticWaypoints {
+   "Ins_ex_defend_10"
   }
  }
 }
@@ -84,17 +102,31 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   CompletionRadius 50
  }
  Ins_ex_defend_8 {
-  coords 3908.29 68.231 10591.683
+  coords 3981.514 67.518 10678.878
   angleX -0.568
   angleY -0.017
   angleZ 1.705
   CompletionRadius 50
  }
  Ins_ex_defend_7 {
-  coords 4037.41 77.482 10533.28
-  angleX -0.903
-  angleY 5.522
-  angleZ 0.484
+  coords 4081.812 73.138 10624.15
+  angleX -0.216
+  angleY -31.37
+  angleZ 1.064
   CompletionRadius 50
+ }
+ Ins_ex_defend_9 {
+  coords 4119.288 65.263 10768.935
+  angleX -0.568
+  angleY -0.017
+  angleZ 1.705
+  CompletionRadius 50
+ }
+ Ins_ex_defend_10 {
+  coords 4025.583 77.568 10558.725
+  angleX -0.568
+  angleY -0.017
+  angleZ 1.705
+  CompletionRadius 12
  }
 }

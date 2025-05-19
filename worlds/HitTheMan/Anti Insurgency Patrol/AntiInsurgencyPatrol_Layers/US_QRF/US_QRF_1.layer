@@ -8,10 +8,10 @@ $grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.
 }
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  M2A3_Counter_Spawn_12_1 {
-  coords 2525.625 274.177 10683.136
-  angleX -14.924
-  angleY 134.761
-  angleZ 0.449
+  coords 2905.995 161.654 10365.722
+  angleX -14.858
+  angleY 142.294
+  angleZ -1.489
   m_prefab "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et"
   m_conditionFlag "Compound"
   m_spawnTimings {
@@ -37,10 +37,10 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  M2A3_Counter_Spawn_11_1 {
-  coords 2578.488 268.709 10739.456
-  angleX -13.969
-  angleY 137.95
-  angleZ -11.867
+  coords 2940.023 159.889 10395.763
+  angleX -5.245
+  angleY 138.02
+  angleZ 0.525
   m_prefab "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et"
   m_conditionFlag "Compound"
   m_spawnTimings {
@@ -66,10 +66,10 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  M2A3_Counter_Spawn_11_2 {
-  coords 2552.558 272.536 10709.74
-  angleX -15.375
-  angleY 136.331
-  angleZ -5.184
+  coords 2920.49 159.779 10377.163
+  angleX -9.087
+  angleY 135.934
+  angleZ -4.899
   m_prefab "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et"
   m_conditionFlag "Compound"
   m_spawnTimings {
@@ -95,10 +95,10 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  M2A3_Counter_Spawn_12_2 {
-  coords 2504.933 272.058 10659.66
-  angleX -15.743
-  angleY 133.499
-  angleZ 4.846
+  coords 2892.642 163.688 10357.695
+  angleX -12.879
+  angleY 157.225
+  angleZ -9.573
   m_prefab "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et"
   m_conditionFlag "Compound"
   m_spawnTimings {
