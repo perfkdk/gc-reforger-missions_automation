@@ -11,7 +11,7 @@ PS_MissionDescription Briefing_Notes : "{3136BE42592F3B1B}PrefabsEditable/Missio
  "Mujahideen Win:"\
  "90% Soviet casualties inflicted."\
  ""\
- "There is a 5 minute setup timer for the separatists to prepare."
+ "There are a couple of AI Mujahideen on each objective because you defender players are all useless and brainless."
  m_bEmptyFactionVisibility 1
  m_bShowForAnyFaction 1
  m_iOrder 2

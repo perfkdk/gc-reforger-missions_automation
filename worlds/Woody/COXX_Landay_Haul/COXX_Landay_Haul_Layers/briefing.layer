@@ -24,21 +24,22 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 4171.041 375.671 237.905
   m_sTitle "Briefing: Mission."
   m_sTextData "II. Mission:"\
-  "Our company has 2x objectives."\
-  "1. Seize the forstfarhzeug-wartungshof North of Funf Wege."\
-  "2. Seize Funf Wege."\
+  "Our company must clear the two marked villages."\
   ""\
   "III. Execution:"\
   "As Per CO's intent."\
   ""\
   "IV. Command/Signals:"\
-  "Company HQ: 110"\
+  "Company HQ: 320"\
   ""\
-  "1st Platoon (Mot. Rifle) HQ: 111 HQ"\
-  "1st Platoon Callsigns: 111/112/113"\
+  "1st Platoon (Mot. Rifle) HQ: 321 HQ"\
+  "1st Platoon Callsigns: 321/322/323"\
   ""\
-  "2nd Platoon (Mot. Rifle) HQ: 114 HQ"\
-  "2nd Platoon Callsigns: 114/115/116"\
+  "2nd Platoon (Mot. Rifle) HQ: 324 HQ"\
+  "2nd Platoon Callsigns: 324/325/326"\
+  ""\
+  "3rd Platoon (Mot. Rifle) HQ: 327 HQ"\
+  "3rd Platoon Callsigns: 327/328/329"\
   ""\
   "V. Service/Support:"\
   "No Fire Support."\
