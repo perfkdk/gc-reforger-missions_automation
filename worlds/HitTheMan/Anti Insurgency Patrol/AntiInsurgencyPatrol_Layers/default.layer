@@ -259,6 +259,9 @@ TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_Facti
  m_locationName "the Compound"
  m_flagName "Compound"
  m_stopAfterFirstChange 1
+ m_ignoredFactions {
+  "US"
+ }
  m_ownerFactionKey "GC_TKA"
  m_ratioThreshold 0.5
 }
@@ -274,7 +277,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
    m_condition TILW_LiteralTerm "{6504157885FC5C39}" {
-    m_flagName "GC_TKA"
+    m_flagName "TKA_CAS"
    }
   }
   TILW_MissionEvent "{6506E408139E95AC}" {
