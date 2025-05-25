@@ -173,19 +173,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
   m_bringToFront 0
  }
- Flav_Coy_marker_Bunker_2 {
-  coords 3057.517 20.454 2290.231
-  angleY 90
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.071 0.192 0.561 1
-  m_sQuadName "bunker"
-  m_fWorldSize 50
-  m_sDescription "Bunker"
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
-  m_bringToFront 0
- }
  Obj_marker_3 {
   coords 2944.825 17.56 2204.569
   angleY -45
