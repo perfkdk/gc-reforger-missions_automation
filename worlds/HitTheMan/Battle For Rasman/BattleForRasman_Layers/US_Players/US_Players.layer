@@ -6,7 +6,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    }
    PS_GroupCallsignAssigner "{6568DE60D4D11520}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iPlatoonCallsign 2
     m_iSquadCallsign 1
    }
   }
@@ -29,7 +29,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    }
    PS_GroupCallsignAssigner "{6568DE60D752F3C1}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iPlatoonCallsign 2
     m_iSquadCallsign 2
    }
   }
@@ -52,7 +52,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    }
    PS_GroupCallsignAssigner "{6568DE60D287DFCE}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iPlatoonCallsign 2
     m_iSquadCallsign 3
    }
   }
@@ -75,7 +75,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    }
    PS_GroupCallsignAssigner "{6568DE60DE63AA9C}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iPlatoonCallsign 2
     m_iSquadCallsign 4
    }
   }
@@ -98,7 +98,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    }
    PS_GroupCallsignAssigner "{6568DE60CFE18379}" {
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 2
+    m_iPlatoonCallsign 3
     m_iSquadCallsign 1
    }
   }
@@ -107,7 +107,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
   angleY -96.662
   angleZ 0.187
   m_aUnitPrefabSlots {
-   "{6FD27881621A2747}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewCommander_PSG_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et"
+   "{FB3ECBB227CBEC38}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewCommander_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et"
   }
   m_sCustomNameSet "Bradley 3'1"
   m_aUnitPrefabColorTeams {
@@ -121,7 +121,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
    }
    PS_GroupCallsignAssigner "{6568DE60C9DF004E}" {
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 2
+    m_iPlatoonCallsign 3
     m_iSquadCallsign 2
    }
   }
@@ -130,7 +130,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_
   angleY -40.032
   angleZ -0.451
   m_aUnitPrefabSlots {
-   "{6FD27881621A2747}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewCommander_PSG_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et"
+   "{FB3ECBB227CBEC38}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewCommander_P.et" "{B94C515ED8EA024E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewGunner_P.et" "{6838AF507D6AAF2D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CrewDriver_P.et"
   }
   m_sCustomNameSet "Bradley 3'2"
   m_aUnitPrefabColorTeams {
@@ -162,12 +162,13 @@ $grp Tank : "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et" {
       SlotTemplate InventoryStorageSlot UGLammo {
        Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
       }
-      NumSlots 2
+      NumSlots 4
      }
      MultiSlotConfiguration "{6568DE6461C9F77D}" {
       SlotTemplate InventoryStorageSlot UGLammo {
        Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
       }
+      NumSlots 24
      }
     }
    }
@@ -198,12 +199,13 @@ $grp Tank : "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et" {
       SlotTemplate InventoryStorageSlot UGLammo {
        Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
       }
-      NumSlots 2
+      NumSlots 4
      }
      MultiSlotConfiguration "{6568DE6408B4FDCE}" {
       SlotTemplate InventoryStorageSlot UGLammo {
        Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
       }
+      NumSlots 24
      }
     }
    }
@@ -222,7 +224,7 @@ SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army_1990_Rifles_Deser
   }
   PS_GroupCallsignAssigner "{6568DE60CC33B86C}" {
    m_iCompanyCallsign 1
-   m_iPlatoonCallsign 1
+   m_iPlatoonCallsign 2
   }
  }
  coords 5987.847 92.079 10330.896
