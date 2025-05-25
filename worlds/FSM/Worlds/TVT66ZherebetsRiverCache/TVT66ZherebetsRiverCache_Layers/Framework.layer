@@ -30,7 +30,6 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 6
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{6460503045067C9A}" {
@@ -56,12 +55,11 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
       m_aCompanyNames {
        SCR_CallsignInfo "{55CCB792CD021D5C}" {
-        m_sCallsign " "
+        m_sCallsign "1"
        }
       }
       m_aPlatoonNames {
        SCR_CallsignInfo "{55CCB792CE6E998D}" {
-        m_sCallsign " "
        }
       }
       m_aSquadNames {
@@ -90,7 +88,18 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     }
     SCR_Faction "{62EB308733CA83DD}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
-      m_sCallsignGroupFormat ""
+      m_aSquadNames {
+       SCR_CallsignInfo "{58B2B630FDD64B6D}" {
+        m_sCallsign "Sparta"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B53}" {
+        m_sCallsign "Somalia"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B51}" {
+        m_sCallsign "Strelkov"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
       m_sCallsignCharacterFormat ""
       m_sCallsignCharacterWithRoleFormat ""
      }
@@ -98,8 +107,19 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     SCR_Faction "{64AA098AEA5B1498}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{64AA098204A61453}" {
       m_aSquadNames {
-       SCR_CallsignInfo "{64B8ED8E0CB37F28}" {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign ""
+       }
+       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+       }
+       SCR_CallsignInfo "{61677618371B4C91}" {
         m_sCallsign "Delta"
+       }
+       SCR_CallsignInfo "{650C2501D1BDE0D5}" {
+        m_sCallsign "Whisky"
+       }
+       SCR_CallsignInfo "{653261C6A8B773E7}" {
+        m_sCallsign "Whisky"
        }
       }
      }
@@ -399,7 +419,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{64A047FE5DE1CD51}" {
    m_flagName "Blufor Killed"
    m_factionKey "GC_CAF"
-   m_casualtyRatio 0.9
+   m_casualtyRatio 0.85
   }
   TILW_FactionPlayersKilledFlag "{64A047FE52FADD9F}" {
    m_flagName "OPFOR Killed"
@@ -418,7 +438,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 99
   m_sDescription "1 Platoon"
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iZOrder 10
  }
@@ -444,7 +464,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 169
   m_sDescription "Separatist Camp"
   m_aVisibleForFactions {
-   "US"
+   "GC_CAF"
   }
   m_iZOrder 10
  }

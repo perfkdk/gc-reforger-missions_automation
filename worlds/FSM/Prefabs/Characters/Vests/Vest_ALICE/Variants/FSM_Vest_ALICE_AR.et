@@ -29,9 +29,6 @@ GenericEntity : "{FD0890CE5C6D26CB}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALIC
   }
   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
    Slots {
-    LoadoutSlotInfo "{5174C3E96ACD276B}" {
-     Prefab "{B95BD66EA8F863C8}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2.et"
-    }
     LoadoutSlotInfo MagPouch {
      Offset -0.12 -0.1 0.115
      Angles -10 -38 0
@@ -65,8 +62,11 @@ GenericEntity : "{FD0890CE5C6D26CB}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALIC
      Angles 0.8 37.3 -1.9
      Prefab "{EE7FBAD35CA9D0F2}Prefabs/Items/Equipment/Accessories/Scabbard_Bayonet_M9/Scabbard_Bayonet_M9.et"
     }
+    LoadoutSlotInfo "{5174C3E96ACD276B}" {
+     Prefab ""
+    }
    }
   }
  }
- coords 5363.031 72.219 5798.441
+ coords 3601.939 26.592 3511.65
 }

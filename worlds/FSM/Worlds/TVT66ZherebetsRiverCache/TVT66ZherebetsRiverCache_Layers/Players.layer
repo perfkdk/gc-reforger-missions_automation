@@ -1,33 +1,62 @@
-SCR_AIGroup : "{3328392DDCAB9973}Prefabs/Groups/BLUFOR/Canadian_Army_RHS/Group_RHSCAF_PlatoonHQ_P.et" {
+SCR_AIGroup : "{3328392DDCAB9973}Prefabs/Groups/BLUFOR/GC_CAF/RHS Canadian Army/Group_RHSCAF_PlatoonHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{650C25018F5A4184}" {
+  }
+ }
  coords 3804.78 19.155 588.719
  m_aUnitPrefabSlots {
-  "{7E4D56AE455431C2}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_Platoon_Commander_CW.et" "{350935F7D7537ADF}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_Platoon_Warrant_CW.et" "{7043F1353E10A8B8}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_Medic_CW.et" "{7043F1353E10A8B8}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_Medic_CW.et"
+  "{7E4D56AE455431C2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Platoon_Commander_CW.et" "{350935F7D7537ADF}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Platoon_Warrant_CW.et" "{7043F1353E10A8B8}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Medic_CW.et" "{7043F1353E10A8B8}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_Medic_CW.et"
  }
  m_sCustomNameSet "Platoon Headquarters - 11"
 }
-$grp SCR_AIGroup : "{4A75FE2125C6F2CE}Prefabs/Groups/BLUFOR/Canadian_Army_RHS/Group_RHSCAF_RifleSection_P.et" {
+$grp SCR_AIGroup : "{4A75FE2125C6F2CE}Prefabs/Groups/BLUFOR/GC_CAF/RHS Canadian Army/Group_RHSCAF_RifleSection_P.et" {
  {
+  components {
+   PS_GroupCallsignAssigner "{650C25019142AC8F}" {
+    m_iSquadCallsign 1
+   }
+  }
   coords 3787.409 15.052 627.321
-  m_sCustomNameSet "1st Section - 11A"
+  m_sCustomNameSet "1 Section - 11A"
  }
  {
+  components {
+   PS_GroupCallsignAssigner "{650C25019BE23329}" {
+    m_iSquadCallsign 2
+   }
+  }
   coords 3829.719 17.047 596.588
-  m_sCustomNameSet "Second Section - 11B"
+  m_sCustomNameSet "2 Section - 11B"
  }
  {
+  components {
+   PS_GroupCallsignAssigner "{650C2501098643C6}" {
+    m_iSquadCallsign 3
+   }
+  }
   coords 3841.84 14.844 631.802
-  m_sCustomNameSet "Third Section - 11C"
+  m_sCustomNameSet "3 Section - 11C"
  }
  {
+  components {
+   PS_GroupCallsignAssigner "{650C25019D35B11C}" {
+    m_iSquadCallsign 4
+   }
+  }
   coords 3856.969 15.187 614.833
-  m_sCustomNameSet "Fourth Section - 11D"
+  m_sCustomNameSet "4 Section - 11D"
  }
  {
+  components {
+   PS_GroupCallsignAssigner "{650C250065D98F5D}" {
+    m_iSquadCallsign 5
+   }
+  }
   coords 3880.104 15.944 595.292
   m_aUnitPrefabSlots {
-   "{58EA7492CFF225F1}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_1IC_CW.et" "{10A074DDE11AF991}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_MG_CW.et" "{282D3AEC0BCB0357}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_MG2_CW.et" "{10A074DDE11AF991}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_MG_CW.et" "{282D3AEC0BCB0357}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_MG2_CW.et" "{2402540EFD5A2BDE}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_2IC_CW.et" "{10A074DDE11AF991}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_MG_CW.et" "{282D3AEC0BCB0357}Prefabs/Characters/Factions/BLUFOR/RHS_Canada/Character_CAF_MG2_CW.et"
+   "{58EA7492CFF225F1}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_1IC_CW.et" "{10A074DDE11AF991}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG_CW.et" "{282D3AEC0BCB0357}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG2_CW.et" "{10A074DDE11AF991}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG_CW.et" "{282D3AEC0BCB0357}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG2_CW.et" "{2402540EFD5A2BDE}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_2IC_CW.et" "{10A074DDE11AF991}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG_CW.et" "{282D3AEC0BCB0357}Prefabs/Characters/Factions/BLUFOR/GC_Canada/RHS_Canada/Character_CAF_MG2_CW.et"
   }
-  m_sCustomNameSet "Weapon Detachment - 11W"
+  m_sCustomNameSet "Weapons Detachment - 11W"
  }
 }
 SCR_AIGroup : "{BB49EA4063459740}worlds/FSM/Prefabs/Groups/OPFOR/Seperatists/P/FSM_Playable_Seperatists_HQ.et" {
