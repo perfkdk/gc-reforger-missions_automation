@@ -1,0 +1,118 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ ambushedplatoon {
+  coords 2055.631 20.46 3648.167
+  {
+   GenericEntity SlotMarker1 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7FE1C848ECB}" {
+       m_sMapMarkerText "4th Platoon Convoy"
+       m_eMapMarkerType1Modifier SUPPLY
+      }
+      m_bCanBeRemovedByOwner 1
+     }
+    }
+    coords -0.053 0 0.31
+   }
+  }
+ }
+ Area1 {
+  coords 1746.913 20.22 3847.128
+  {
+   GenericEntity SlotMarker2 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7FE1C848ECB}" {
+       m_eMapMarkerFactionIcon OPFOR
+      }
+      m_bCanBeRemovedByOwner 1
+     }
+    }
+    coords 228.706 2.629 129.546
+   }
+  }
+ }
+ Area2 {
+  coords 2098.34 22.821 3886.6
+  {
+   GenericEntity SlotMarker6 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7FE1C848ECB}" {
+       m_eMapMarkerFactionIcon OPFOR
+      }
+      m_bCanBeRemovedByOwner 1
+     }
+    }
+    coords 63.958 7.568 -776.088
+   }
+  }
+ }
+ Area3 {
+  coords 1871.458 119.142 3348.995
+  {
+   GenericEntity SlotMarker5 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7FE1C848ECB}" {
+       m_eMapMarkerFactionIcon OPFOR
+      }
+      m_bCanBeRemovedByOwner 1
+     }
+    }
+    coords -354.322 13.407 200.746
+   }
+  }
+ }
+ Area4 {
+  coords 2272.963 25.067 3658.93
+  {
+   GenericEntity SlotMarker4 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7FE1C848ECB}" {
+       m_eMapMarkerFactionIcon OPFOR
+      }
+      m_bCanBeRemovedByOwner 1
+     }
+    }
+    coords -29.265 -0.253 -15.271
+   }
+  }
+ }
+ Area5 {
+  coords 2652.767 8.031 3059.541
+  {
+   GenericEntity SlotMarker3 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7FE1C848ECB}" {
+       m_sMapMarkerText "QRF Platoon"
+       m_eMapMarkerType1Modifier MOTORIZED
+      }
+      m_bCanBeRemovedByOwner 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ FOBMichigan_1 {
+  coords 2717.665 8.001 3055.158
+  {
+   GenericEntity SlotMarker8 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{652ED7FE1C848ECB}" {
+       m_sMapMarkerText "FOB Michigan"
+       m_eMapMarkerDimension INSTALLATION
+       m_eMapMarkerType1Modifier MOTORIZED
+      }
+      m_bCanBeRemovedByOwner 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}
