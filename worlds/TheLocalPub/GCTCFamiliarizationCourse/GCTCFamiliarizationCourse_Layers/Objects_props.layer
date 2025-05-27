@@ -106,7 +106,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -148,6 +148,10 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
      }
     }
    }
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+    EnableDamage 0
+   }
   }
   coords 1473.281 36.053 2953.025
   angleY 165.829
@@ -167,7 +171,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -213,7 +217,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -254,6 +258,10 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
      }
     }
    }
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+    EnableDamage 0
+   }
   }
   coords 1478.404 36.053 2954.369
   angleY 165.829
@@ -273,7 +281,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -318,7 +326,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -363,7 +371,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -409,7 +417,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -455,7 +463,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -503,7 +511,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -551,7 +559,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -597,7 +605,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -639,6 +647,10 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
      }
     }
    }
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+    EnableDamage 0
+   }
   }
   coords 1490.499 36.053 2949.872
   angleY -104.642
@@ -653,6 +665,9 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
       AssignedMaterial "{1F497800720225A6}worlds/TheLocalPub/GCTCFamiliarizationCourse/Assets/Structures/Signs/Large/Data/Keybind1.emat"
      }
     }
+   }
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
    }
   }
   coords 1489.122 36.053 2955.141
@@ -669,6 +684,9 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
      }
     }
    }
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+   }
   }
   coords 1487.792 36.053 2960.233
   angleY -104.642
@@ -683,6 +701,9 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
       AssignedMaterial "{B5A916DBC052C3DD}worlds/TheLocalPub/GCTCFamiliarizationCourse/Assets/Structures/Signs/Large/Data/Keybind3.emat"
      }
     }
+   }
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
    }
   }
   coords 1486.442 36.053 2965.397
@@ -699,6 +720,9 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
      }
     }
    }
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+   }
   }
   coords 1480.407 36.053 2966.463
   angleY 165.358
@@ -713,6 +737,9 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
       AssignedMaterial "{0879445CBF49DFC3}worlds/TheLocalPub/GCTCFamiliarizationCourse/Assets/Structures/Signs/Large/Data/Keybind5.emat"
      }
     }
+   }
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
    }
   }
   coords 1475.183 36.053 2965.098
@@ -729,6 +756,9 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
      }
     }
    }
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+   }
   }
   coords 1469.938 36.053 2963.728
   angleY 165.358
@@ -743,6 +773,9 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
       AssignedMaterial "{F7549CEBFAAE7EE3}worlds/TheLocalPub/GCTCFamiliarizationCourse/Assets/Structures/Signs/Large/Data/RHSRadialMenu.emat"
      }
     }
+   }
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
    }
   }
   coords 1464.76 36.053 2962.375
@@ -782,7 +815,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -810,7 +843,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     }
    }
   }
-  coords 1435.821 38.988 2952.55
+  coords 1438.026 38.512 2953.04
   angleY -12.51
   scale 1.42
  }
@@ -828,7 +861,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -891,7 +924,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -939,7 +972,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
     ResponseIndex "SmallDestructible"
    }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
-    Enabled 1
+    Enabled 0
     m_fBaseHealth 1500
     m_DestroySpawnObjects {
      SCR_DebrisSpawnable "{64C752A1C7E430E3}" {
@@ -1006,6 +1039,48 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
  M1025_armed_M2HB3 {
   coords 1414.672 38 2915.782
   angleY -58.664
+ }
+}
+$grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco barrier Five v2.et" {
+ {
+  coords 1110.188 -0.051 2892.759
+  angleY 44.989
+ }
+ {
+  coords 1104.961 -0.063 2887.564
+  angleY 44.989
+ }
+ {
+  coords 1099.889 -0.061 2882.461
+  angleY 44.989
+ }
+ {
+  coords 1093.911 -0.03 2879.028
+  angleY 75.852
+ }
+ {
+  coords 1086.577 -0.013 2877.199
+  angleY 75.852
+ }
+ {
+  coords 1079.361 -0.032 2875.351
+  angleY 75.852
+ }
+ {
+  coords 1039.859 0 2872.856
+  angleY 155.73
+ }
+ {
+  coords 1036.928 -0.012 2879.256
+  angleY 155.73
+ }
+ {
+  coords 1034.501 0 2886.224
+  angleY 166.505
+ }
+ {
+  coords 1033.103 0 2893.455
+  angleY 172.716
  }
 }
 StaticModelEntity : "{410BC3D746AB53AE}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_13x18.et" {
@@ -1322,10 +1397,10 @@ $grp GenericEntity : "{500D32CE09A605EC}Prefabs/Structures/Signs/Tourist/TrackSi
   scale 21.043
  }
  {
-  coords 1282.078 37.875 2944.734
+  coords 1282.628 37.799 2945.666
   angleX 88.482
   angleY -145.289
-  angleZ 135.731
+  angleZ 45.731
   scale 21.043
  }
  {
@@ -1441,6 +1516,20 @@ $grp GenericEntity : "{500D32CE09A605EC}Prefabs/Structures/Signs/Tourist/TrackSi
   angleX 88.787
   angleY -177.533
   angleZ 143.184
+  scale 21.043
+ }
+ {
+  coords 1275.696 36.299 2974.149
+  angleX 87.481
+  angleY 4.465
+  angleZ -74.585
+  scale 21.043
+ }
+ {
+  coords 1284.399 37.548 2928.271
+  angleX 87.481
+  angleY 4.465
+  angleZ -74.585
   scale 21.043
  }
 }
@@ -1559,7 +1648,7 @@ $grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_
    PK_EntityProtectorComponent "{64E3588AAF9119B5}" {
    }
   }
-  coords 1436.422 40.504 2948.279
+  coords 1436.789 40.256 2947.021
   angleY -13.462
  }
  {
@@ -1567,7 +1656,7 @@ $grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_
    PK_EntityProtectorComponent "{64E3588AAC470C5D}" {
    }
   }
-  coords 1433.417 40.504 2947.56
+  coords 1433.784 40.256 2946.302
   angleY -13.462
  }
  {
@@ -1575,7 +1664,7 @@ $grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_
    PK_EntityProtectorComponent "{64E3588AA2C6E525}" {
    }
   }
-  coords 1430.339 40.504 2946.822
+  coords 1430.706 40.256 2945.564
   angleY -13.462
  }
  {
@@ -1583,7 +1672,31 @@ $grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_
    PK_EntityProtectorComponent "{64E3588AA0A3B215}" {
    }
   }
-  coords 1427.161 40.504 2946.062
+  coords 1427.528 40.256 2944.804
+  angleY -13.462
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{64E3588AA0A3B215}" {
+   }
+  }
+  coords 1424.363 40.256 2944.046
+  angleY -13.462
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{64E3588AA0A3B215}" {
+   }
+  }
+  coords 1424.363 40.813 2944.046
+  angleY -13.462
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{64E3588AA0A3B215}" {
+   }
+  }
+  coords 1427.499 40.813 2944.797
   angleY -13.462
  }
 }
@@ -1772,7 +1885,7 @@ $grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concre
   angleZ -2.775
  }
 }
-$grp Tree : "{8B3736CD82DEFF16}Prefabs/Vegetation/Tree/t_picea_abies_3d_fallen.et" {
+$grp Tree : "{8B3736CD82DEFF16}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abies_3d_fallen.et" {
  {
   coords 1166.994 0 2923.025
   angleY 63.978
@@ -2515,7 +2628,7 @@ $grp GenericEntity : "{8D9D32DB3A70FD7A}worlds/TheLocalPub/BebbleIslandRaid/Pref
     Enabled 0
    }
   }
-  coords 1450.709 40.503 2952.191
+  coords 1438.164 40.297 2952.076
   angleY -12.712
  }
 }
@@ -2523,18 +2636,6 @@ GenericEntity : "{90299A76FC1AE10F}Prefabs/Props/Wrecks/T62_wreck_turret.et" {
  coords 1386.044 38.951 2935.916
  angleX -4.073
  angleY 74.753
-}
-$grp GenericEntity : "{992CFDD38CE77221}Prefabs/Structures/Sandbox/flag_blue.et" {
- {
-  coords 1028.391 38.037 2929.685
-  angleY 86.507
-  scale 4.502
- }
- {
-  coords 1037.43 38.295 2938.044
-  angleY 13.951
-  scale 4.502
- }
 }
 Vehicle M923A1 : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
  coords 1444.25 38 2875.165
@@ -2550,13 +2651,13 @@ Vehicle UAZ469_covered_CIV_red1 : "{A4D16A62B432451A}Prefabs/Vehicles/Wheeled/UA
 Vehicle S105_green1 : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
  coords 1466.133 39 2779.456
 }
-$grp GenericEntity : "{AE73676ABA995907}Prefabs/Structures/BuildingParts/Entry/Entry_Block_Platform_01_3x12.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{AE73676ABA995907}Prefabs/Structures/BuildingParts/Entry/Entry_Block_Platform_01_3x12.et" {
  {
   components {
-   PK_EntityProtectorComponent "{64E3588A4457E321}" {
+   PK_EntityProtectorComponent "{64E3588ABA276B0E}" {
    }
   }
-  coords 1433.411 40.504 2948.979
+  coords 1446.027 40.298 2953.09
   angleY -13.081
  }
  {
@@ -2564,31 +2665,39 @@ $grp GenericEntity : "{AE73676ABA995907}Prefabs/Structures/BuildingParts/Entry/E
    PK_EntityProtectorComponent "{64E3588ABA276B0E}" {
    }
   }
-  coords 1445.172 40.504 2951.712
+  coords 1435.095 40.298 2947.507
   angleY -13.081
  }
  {
   components {
-   PK_EntityProtectorComponent "{64E3588AB98EA83F}" {
+   PK_EntityProtectorComponent "{64E3588ABA276B0E}" {
    }
   }
-  coords 1431.418 40.504 2948.516
+  coords 1434.286 40.298 2950.362
   angleY -13.081
  }
  {
   components {
-   PK_EntityProtectorComponent "{64E3588A46F46627}" {
+   PK_EntityProtectorComponent "{64E3588ABA276B0E}" {
    }
   }
-  coords 1431.159 40.504 2950.013
+  coords 1427.615 40.298 2948.812
   angleY -13.081
  }
  {
   components {
-   PK_EntityProtectorComponent "{64E3588A42B64035}" {
+   PK_EntityProtectorComponent "{64E3588ABA276B0E}" {
    }
   }
-  coords 1433.152 40.504 2950.476
+  coords 1428.424 40.298 2945.957
+  angleY -13.081
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{64E3588ABA276B0E}" {
+   }
+  }
+  coords 1446.836 40.298 2950.235
   angleY -13.081
  }
 }
@@ -2787,15 +2896,15 @@ $grp GenericEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/C
    PK_EntityProtectorComponent "{64E3588AB6192981}" {
    }
   }
-  coords 1440.482 40.497 2952.718
-  angleY 78.353
+  coords 1441.353 40.3 2954.458
+  angleY 77.499
  }
  {
   components {
    PK_EntityProtectorComponent "{64E3588AB6192981}" {
    }
   }
-  coords 1453.06 40.497 2952.216
+  coords 1453.479 40.294 2953.507
   angleY 167.466
   scale 1.5
  }
@@ -2906,7 +3015,7 @@ $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concre
   angleY -103.841
  }
  {
-  coords 1454.789 0.433 2955.067
+  coords 1454.907 0.433 2954.587
   angleY -103.841
  }
  {
@@ -2916,14 +3025,6 @@ $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concre
   }
   coords 1455.073 0.569 2962.337
   angleY -103.841
- }
- {
-  components {
-   PK_EntityProtectorComponent "{64C94A83340DADF0}" {
-   }
-  }
-  coords 1452.211 0.436 2956.262
-  angleY 166.773
  }
  {
   coords 1407.257 0.629 2949.094
@@ -3000,14 +3101,6 @@ $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concre
   }
   coords 1414.237 0.638 2977.675
   angleY -103.951
- }
- {
-  components {
-   PK_EntityProtectorComponent "{64C94A83340DADF0}" {
-   }
-  }
-  coords 1449.869 0.661 2951.13
-  angleY 166.877
  }
  {
   components {
@@ -3198,64 +3291,8 @@ $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concre
    PK_EntityProtectorComponent "{64C94A8304EC6FA3}" {
    }
   }
-  coords 1421.582 0.716 2947.303
+  coords 1421.672 0.716 2946.931
   angleY -103.558
- }
- {
-  components {
-   PK_EntityProtectorComponent "{64C94A83340DADF0}" {
-   }
-  }
-  coords 1446.479 0.661 2950.339
-  angleY 166.877
- }
- {
-  components {
-   PK_EntityProtectorComponent "{64C94A83340DADF0}" {
-   }
-  }
-  coords 1442.644 0.661 2949.444
-  angleY 166.877
- }
- {
-  components {
-   PK_EntityProtectorComponent "{64C94A83340DADF0}" {
-   }
-  }
-  coords 1438.842 0.661 2948.561
-  angleY 166.877
- }
- {
-  components {
-   PK_EntityProtectorComponent "{64C94A83340DADF0}" {
-   }
-  }
-  coords 1434.954 0.661 2947.653
-  angleY 166.877
- }
- {
-  components {
-   PK_EntityProtectorComponent "{64C94A83340DADF0}" {
-   }
-  }
-  coords 1431.157 0.661 2946.768
-  angleY 166.877
- }
- {
-  components {
-   PK_EntityProtectorComponent "{64C94A83340DADF0}" {
-   }
-  }
-  coords 1427.274 0.661 2945.864
-  angleY 166.877
- }
- {
-  components {
-   PK_EntityProtectorComponent "{64C94A83340DADF0}" {
-   }
-  }
-  coords 1423.086 0.697 2949.417
-  angleY 166.773
  }
  {
   coords 1416.916 0.694 2911.613
@@ -4003,22 +4040,6 @@ $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concre
  }
  {
   components {
-   PK_EntityProtectorComponent "{64C94A83340DADF0}" {
-   }
-  }
-  coords 1451.076 0.66 2953.734
-  angleY 76.773
- }
- {
-  components {
-   PK_EntityProtectorComponent "{64C94A83340DADF0}" {
-   }
-  }
-  coords 1425.267 0.698 2947.698
-  angleY -103.227
- }
- {
-  components {
    PK_EntityProtectorComponent "{64C94A8304EC6FA3}" {
    }
   }
@@ -4115,92 +4136,92 @@ $grp GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubComposition
 }
 $grp SCR_DestructibleEntity : "{DEF98342630E1591}Prefabs/Structures/Walls/Net/NetFence_04/NetFence_04_8m.et" {
  {
+  Flags 3
   coords 1130.554 36.667 2957.897
   angleY -56.613
-  Flags 3
  }
  {
+  Flags 3
   coords 1126.089 36.667 2951.124
   angleY -56.613
-  Flags 3
  }
  {
+  Flags 3
   coords 1132.591 39.216 2946.636
   angleY -145.708
-  Flags 3
  }
  {
+  Flags 3
   coords 1133.332 38.454 2938.585
   angleX -0.009
   angleY -94.994
   angleZ 2.507
-  Flags 3
   placement none
  }
  {
+  Flags 3
   coords 1161.357 33.862 2990.213
   angleY -138.119
-  Flags 3
  }
  {
+  Flags 3
   coords 1167.241 33.862 2984.937
   angleY -138.119
-  Flags 3
  }
  {
+  Flags 3
   coords 1173.205 33.862 2979.589
   angleY -138.119
-  Flags 3
  }
  {
+  Flags 3
   coords 1179.178 33.862 2974.234
   angleY -138.119
-  Flags 3
  }
  {
   components {
    PK_EntityProtectorComponent "{64D329C276BDC951}" {
    }
   }
+  Flags 3
   coords 1126.035 39.216 2951.108
   angleY -137.592
-  Flags 3
  }
  {
   components {
    PK_EntityProtectorComponent "{64D329C277CE7BD8}" {
    }
   }
+  Flags 3
   coords 1123.069 36.667 2953.857
   angleY -56.613
-  Flags 3
  }
  {
   components {
    PK_EntityProtectorComponent "{64D329C27401E868}" {
    }
   }
+  Flags 3
   coords 1127.499 36.667 2960.579
   angleY -56.613
-  Flags 3
  }
  {
   components {
    PK_EntityProtectorComponent "{64D329C27C7B53D5}" {
    }
   }
+  Flags 3
   coords 1120.222 36.667 2956.325
   angleY -56.613
-  Flags 3
  }
  {
   components {
    PK_EntityProtectorComponent "{64D329C2720288D9}" {
    }
   }
+  Flags 3
   coords 1124.631 36.667 2963.017
   angleY -56.613
-  Flags 3
  }
 }
 Vehicle M997_maxi_ambulance_MERDC2_Tutorial1 : "{EB581271433CE0E9}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_MERDC2_Tutorial.et" {
@@ -4212,7 +4233,7 @@ Vehicle M923A1_ammo_MERDC1 : "{EC657C9B3C73E192}Prefabs/Vehicles/Wheeled/M923A1/
 }
 $grp GenericEntity : "{EFFA90623A05EB25}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2_US.et" {
  {
-  coords 1464.122 38 2940.646
+  coords 1465.008 38 2940.52
  }
  {
   components {
@@ -4469,21 +4490,4 @@ GenericEntity : "{FA9066DE33E8E67D}Prefabs/Structures/Military/Camps/Canvas_Cove
  }
  coords 1423.261 38.216 2967.611
  angleY 75.978
-}
-$grp GenericEntity : "{FF04FB2EA7EC6959}Prefabs/Models/walls/tem_sandbarrier_long.et" {
- {
-  coords 1085.336 38.146 2885.759
-  angleY -38.854
-  angleZ 1.777
- }
- {
-  coords 1097.412 38.131 2895.444
-  angleY 141.145
-  angleZ 1.094
- }
- {
-  coords 1111.136 38.798 2903.268
-  angleY 154.67
-  angleZ 6.106
- }
 }
