@@ -33,6 +33,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "BMP Platoon located south in positions to support & delay the incoming american movement."\
   ""\
+  "INF Platoon located south to delay the enemy while we prep our defences"\
+  ""\
   "We used up our RPGs from earlier engagement, only have AT Mines at our disposal & BMP Platoon to deal with the Bradleys"\
   ""\
   "Higher Units Mission:"\
@@ -57,7 +59,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5810.876 272.451 10244.802
   m_sTitle "II. Mission:"
-  m_sTextData "Defend the town of Rasman from the American forces, by utilizing what Urban denseness there is, AT Mine placements and our Platoon of BMPs positioned south (Marked on map)"
+  m_sTextData "Defend the town of Rasman from the American forces, by utilizing what Urban denseness there is, AT Mine placements and our Platoon of BMPs positioned south (Marked on map) and a Inf PLT south as well delaying the enemy"\
+  ""\
+  "Beware UAZs will detonate the mines when the wheel makes contact with the mine (A squad from another PLT learned the hard way)"
   m_aVisibleForFactions {
    "GC_TKA"
   }
@@ -87,13 +91,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "None."\
   ""\
   "II. Logistical Support:"\
-  "30x AT Mines in the Ural near PLT HQ"\
+  "60x AT Mines in the UAZs combined near PLT HQ"\
+  "(20x In Each Vehicle)"\
+  "2x Alice Backpacks in each UAZ"\
   ""\
   "III. Medical:"\
   "None."\
   ""\
   "IV. Vehicles:"\
-  "1x Ural"
+  "2x UAZs"\
+  "1x UAZ UK59 Gun"
   m_aVisibleForFactions {
    "GC_TKA"
   }

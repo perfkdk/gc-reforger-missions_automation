@@ -66,7 +66,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  M2A3_Counter_Spawn_11_2 {
-  coords 2920.49 159.779 10377.163
+  coords 2921.465 159.706 10378.541
   angleX -9.087
   angleY 135.934
   angleZ -4.899
@@ -131,7 +131,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{91766A63132EE378}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles_Desert/Group_US_Army_1985_Desert_RifleSquad.et"
   m_conditionFlag "Compound"
   m_spawnTimings {
-   35 40
+   35 40 80
   }
   m_waypointNames {
    "Counter_1"
@@ -145,7 +145,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{5E24277419088E09}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Group_GC_TKA_RifleSquad.et"
   m_conditionFlag "Compound"
   m_spawnTimings {
-   35 40
+   35
   }
   m_waypointNames {
    "AI_Def"
@@ -157,7 +157,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{5E24277419088E09}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Group_GC_TKA_RifleSquad.et"
   m_conditionFlag "Compound"
   m_spawnTimings {
-   35 40
+   35
   }
   m_waypointNames {
    "AI_Def2"
@@ -171,7 +171,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{91766A63132EE378}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles_Desert/Group_US_Army_1985_Desert_RifleSquad.et"
   m_conditionFlag "Compound"
   m_spawnTimings {
-   35 40
+   35 40 80
   }
   m_waypointNames {
    "Counter_1"
@@ -185,7 +185,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{91766A63132EE378}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles_Desert/Group_US_Army_1985_Desert_RifleSquad.et"
   m_conditionFlag "Compound"
   m_spawnTimings {
-   35 40
+   35 40 80
   }
   m_waypointNames {
    "Counter_1"
@@ -220,15 +220,15 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    m_useIdleGroups 0
   }
  }
- BTR_Defender_2 {
-  coords 3175.149 100.48 9837.321
-  angleX -7.489
-  angleY -52.961
-  angleZ 0.518
-  m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+ M2A3_Counter_Spawn_12_3 {
+  coords 2373.515 330.343 10070.347
+  angleX -21.437
+  angleY 102.321
+  angleZ 1.654
+  m_prefab "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et"
   m_conditionFlag "Compound"
   m_spawnTimings {
-   20
+   40
   }
   m_crewConfig TILW_CrewConfig "{650750E623EAB3F8}" {
    m_crewGroups {
@@ -237,12 +237,99 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       TILW_CrewStation "{650750E6CB308FEE}" {
        m_allowCargo 0
        m_characters {
-        "{63DCA5C445717DA8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Vic_GUNR_P.et" "{71FB3985EBCE5161}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Vic_DRVR_P.et"
+        "{DAE6916CDAC4F33D}Prefabs/Characters/Factions/BLUFOR/US_Army/DBDU/Character_US_DBDU_Rifleman.et" "{DAE6916CDAC4F33D}Prefabs/Characters/Factions/BLUFOR/US_Army/DBDU/Character_US_DBDU_Rifleman.et"
        }
       }
      }
      m_waypointNames {
-      "AI_Def3"
+      "Suppress_1" "Suppress_2" "Suppress_3" "Suppress_4" "Suppress_5" "Suppress_6" "Suppress_7" "Suppress_8" "Suppress_9" "Suppress_10" "Suppress_11" "Suppress_12" "Suppress_13" "Cycle_2"
+     }
+    }
+   }
+   m_useIdleGroups 0
+  }
+ }
+ M2A3_Counter_Spawn_11_3 {
+  coords 2383.68 321.709 10133.617
+  angleX -26.315
+  angleY 93.226
+  angleZ -10.991
+  m_prefab "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et"
+  m_conditionFlag "Compound"
+  m_spawnTimings {
+   40
+  }
+  m_crewConfig TILW_CrewConfig "{650750E623EAB3F8}" {
+   m_crewGroups {
+    TILW_CrewGroup "{650750E6206061FD}" {
+     m_crewStations {
+      TILW_CrewStation "{650750E6CB308FEE}" {
+       m_allowCargo 0
+       m_characters {
+        "{DAE6916CDAC4F33D}Prefabs/Characters/Factions/BLUFOR/US_Army/DBDU/Character_US_DBDU_Rifleman.et" "{DAE6916CDAC4F33D}Prefabs/Characters/Factions/BLUFOR/US_Army/DBDU/Character_US_DBDU_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "Suppress_1" "Suppress_2" "Suppress_3" "Suppress_4" "Suppress_5" "Suppress_6" "Suppress_7" "Suppress_8" "Suppress_9" "Suppress_10" "Suppress_11" "Suppress_12" "Suppress_13" "Cycle_2"
+     }
+    }
+   }
+   m_useIdleGroups 0
+  }
+ }
+ M2A3_Counter_Spawn_11_4 {
+  coords 2381.519 325.041 10110.96
+  angleX -27.026
+  angleY 96.058
+  angleZ -6.553
+  m_prefab "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et"
+  m_conditionFlag "Compound"
+  m_spawnTimings {
+   40
+  }
+  m_crewConfig TILW_CrewConfig "{650750E623EAB3F8}" {
+   m_crewGroups {
+    TILW_CrewGroup "{650750E6206061FD}" {
+     m_crewStations {
+      TILW_CrewStation "{650750E6CB308FEE}" {
+       m_allowCargo 0
+       m_characters {
+        "{DAE6916CDAC4F33D}Prefabs/Characters/Factions/BLUFOR/US_Army/DBDU/Character_US_DBDU_Rifleman.et" "{DAE6916CDAC4F33D}Prefabs/Characters/Factions/BLUFOR/US_Army/DBDU/Character_US_DBDU_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "Suppress_1" "Suppress_2" "Suppress_3" "Suppress_4" "Suppress_5" "Suppress_6" "Suppress_7" "Suppress_8" "Suppress_9" "Suppress_10" "Suppress_11" "Suppress_12" "Suppress_13" "Cycle_2"
+     }
+    }
+   }
+   m_useIdleGroups 0
+  }
+ }
+ M2A3_Counter_Spawn_12_4 {
+  coords 2378.078 328.05 10090.299
+  angleX -25.21
+  angleY 100.483
+  angleZ -6.578
+  m_prefab "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et"
+  m_conditionFlag "Compound"
+  m_spawnTimings {
+   40
+  }
+  m_crewConfig TILW_CrewConfig "{650750E623EAB3F8}" {
+   m_crewGroups {
+    TILW_CrewGroup "{650750E6206061FD}" {
+     m_crewStations {
+      TILW_CrewStation "{650750E6CB308FEE}" {
+       m_allowCargo 0
+       m_characters {
+        "{DAE6916CDAC4F33D}Prefabs/Characters/Factions/BLUFOR/US_Army/DBDU/Character_US_DBDU_Rifleman.et" "{DAE6916CDAC4F33D}Prefabs/Characters/Factions/BLUFOR/US_Army/DBDU/Character_US_DBDU_Rifleman.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "Suppress_1" "Suppress_2" "Suppress_3" "Suppress_4" "Suppress_5" "Suppress_6" "Suppress_7" "Suppress_8" "Suppress_9" "Suppress_10" "Suppress_11" "Suppress_12" "Suppress_13" "Cycle_2"
      }
     }
    }

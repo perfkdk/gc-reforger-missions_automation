@@ -1,3 +1,6 @@
+SCR_AIWaypoint Civ_Move : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ coords 6796.715 68.75 11975.985
+}
 $grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
  Civ_loiter_1 {
   coords 6260.361 86.604 11256.935
