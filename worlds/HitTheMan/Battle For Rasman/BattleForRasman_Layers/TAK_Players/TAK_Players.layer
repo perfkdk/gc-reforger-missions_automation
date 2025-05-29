@@ -72,23 +72,6 @@ $grp SCR_AIGroup : "{7CBC157AA0058745}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army
   }
  }
 }
-Vehicle Ural4320_FIA_transport_covered1 : "{B70E6D12A8EC2410}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport_covered.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-   MultiSlots {
-    MultiSlotConfiguration "{6568DE6255F0683A}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-     }
-     NumSlots 20
-    }
-   }
-  }
- }
- coords 6340.339 86.821 11404.886
- angleY 120.392
- m_sAttachmentGroupName "TAK_PLTHQ_1"
-}
 SCR_AIGroup TAK_PLTHQ_1 : "{CA68C1FA21DF9212}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Group_GC_TKA_PHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
@@ -109,4 +92,72 @@ SCR_AIGroup TAK_PLTHQ_1 : "{CA68C1FA21DF9212}Prefabs/Groups/INDFOR/GC_TKA/Takist
  m_aUnitPrefabColorTeams {
   "Yellow" "Yellow" "Red" "Red"
  }
+}
+$grp Vehicle : "{E28501E93F8EFDC0}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA_uncovered.et" {
+ UAZ469_FIA_uncovered1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65717A59BD8053D9}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{65717A5D9C2C4B78}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 6338.774 86.824 11405.541
+  angleY 117.083
+ }
+ UAZ469_FIA_uncovered2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65717A59B7E871A9}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{65717A5D9C2C4B78}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 6345.751 86.811 11401.867
+  angleY 117.083
+ }
+}
+Vehicle UAZ469_UK59_FIA1 : "{E72D78E7F45532EC}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_UK59_FIA.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65717A59AB1270FF}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{65717A5DBF370941}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+     NumSlots 12
+    }
+   }
+  }
+ }
+ coords 6352.694 86.813 11398.086
+ angleY 117.091
 }

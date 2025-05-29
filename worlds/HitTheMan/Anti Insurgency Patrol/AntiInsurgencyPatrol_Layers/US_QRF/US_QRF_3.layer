@@ -248,7 +248,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
 }
 $grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
  Counter_SD_31 {
-  coords 3489.834 80.934 10222.92
+  coords 3107.004 88.237 10049.326
   angleX 15.733
   angleY 59.383
   angleZ 80.883
@@ -256,7 +256,7 @@ $grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWa
   m_fPriorityLevel 5
  }
  Counter_SD_32 {
-  coords 3639.88 91.585 10097.279
+  coords 3141.293 89.078 9900.091
   angleX -6.218
   angleY 0.248
   angleZ -2.286

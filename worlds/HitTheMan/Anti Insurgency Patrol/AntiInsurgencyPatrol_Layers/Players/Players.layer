@@ -36,6 +36,9 @@ $grp SCR_AIGroup : "{7CBC157AA0058745}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army
   }
   coords 3169.667 86.848 9944.862
   angleY 149.011
+  m_aUnitPrefabSlots {
+   "{8B7DCC6F99CD3638}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SL_P.et" "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{A4BF8FA1672A836F}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SrRifleman_P.et" "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
+  }
   m_sCustomNameSet "1st Squad"
   m_aUnitPrefabColorTeams {
    "Yellow" "Blue" "Blue" "Yellow" "Blue" "Yellow"
@@ -57,6 +60,9 @@ $grp SCR_AIGroup : "{7CBC157AA0058745}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army
   }
   coords 3162.973 86.814 9940.866
   angleY 149.011
+  m_aUnitPrefabSlots {
+   "{8B7DCC6F99CD3638}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SL_P.et" "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{A4BF8FA1672A836F}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SrRifleman_P.et" "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
+  }
   m_sCustomNameSet "2nd Squad"
   m_aUnitPrefabColorTeams {
    "Yellow" "Blue" "Blue" "Yellow" "Blue" "Yellow"
@@ -78,6 +84,9 @@ $grp SCR_AIGroup : "{7CBC157AA0058745}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army
   }
   coords 3155.667 86.747 9936.438
   angleY 149.011
+  m_aUnitPrefabSlots {
+   "{8B7DCC6F99CD3638}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SL_P.et" "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{A4BF8FA1672A836F}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SrRifleman_P.et" "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
+  }
   m_sCustomNameSet "3rdSquad"
   m_aUnitPrefabColorTeams {
    "Yellow" "Blue" "Blue" "Yellow" "Blue" "Yellow"
@@ -99,6 +108,9 @@ $grp SCR_AIGroup : "{7CBC157AA0058745}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army
   }
   coords 3168.366 86.695 9987.36
   angleY 56.739
+  m_aUnitPrefabSlots {
+   "{8B7DCC6F99CD3638}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SL_P.et" "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{A4BF8FA1672A836F}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SrRifleman_P.et" "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
+  }
   m_sCustomNameSet "1st Squad"
   m_aUnitPrefabColorTeams {
    "Yellow" "Blue" "Blue" "Yellow" "Blue" "Yellow"
@@ -120,6 +132,9 @@ $grp SCR_AIGroup : "{7CBC157AA0058745}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army
   }
   coords 3159.391 86.64 10001.016
   angleY 56.739
+  m_aUnitPrefabSlots {
+   "{8B7DCC6F99CD3638}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SL_P.et" "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{A4BF8FA1672A836F}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SrRifleman_P.et" "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
+  }
   m_sCustomNameSet "2nd Squad"
   m_aUnitPrefabColorTeams {
    "Yellow" "Blue" "Blue" "Yellow" "Blue" "Yellow"
@@ -141,6 +156,9 @@ $grp SCR_AIGroup : "{7CBC157AA0058745}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army
   }
   coords 3163.649 86.604 9994.488
   angleY 56.739
+  m_aUnitPrefabSlots {
+   "{8B7DCC6F99CD3638}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SL_P.et" "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et" "{A4BF8FA1672A836F}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_SrRifleman_P.et" "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
+  }
   m_sCustomNameSet "3rd Squad"
   m_aUnitPrefabColorTeams {
    "Yellow" "Blue" "Blue" "Yellow" "Blue" "Yellow"

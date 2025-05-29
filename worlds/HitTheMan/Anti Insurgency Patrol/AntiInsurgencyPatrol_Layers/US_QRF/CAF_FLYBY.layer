@@ -134,4 +134,22 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    34
   }
  }
+ Cas_test13 {
+  coords 3325.726 118.468 10002.746
+  angleY -138.501
+  m_prefab "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et"
+  m_conditionFlag "Compound"
+  m_spawnTimings {
+   14
+  }
+ }
+ Cas_test14 {
+  coords 3325.568 118.425 10002.879
+  angleY -138.501
+  m_prefab "{30263B4F1FB2A0F2}Prefabs/Systems/Artillery/ArtilleryWrapper_WTF.et"
+  m_conditionFlag "Compound"
+  m_spawnTimings {
+   28
+  }
+ }
 }
