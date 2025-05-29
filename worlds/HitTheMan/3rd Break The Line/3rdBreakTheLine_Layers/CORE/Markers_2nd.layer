@@ -69,7 +69,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.561 0.071 0.071 1
   m_sQuadName "coy_hq"
   m_fWorldSize 200
-  m_sDescription "230"
+  m_sDescription "220"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
   m_bringToFront 0
@@ -94,7 +94,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.561 0.071 0.071 1
   m_sQuadName "btr_atk"
   m_fWorldSize 150
-  m_sDescription "231"
+  m_sDescription "221"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
   m_bringToFront 0
@@ -227,7 +227,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.561 0.071 0.071 1
   m_sQuadName "bmp_atk"
   m_fWorldSize 150
-  m_sDescription "237"
+  m_sDescription "281"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
   m_bringToFront 0
@@ -240,7 +240,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.561 0.071 0.071 1
   m_sQuadName "btr_atk"
   m_fWorldSize 150
-  m_sDescription "234"
+  m_sDescription "224"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
   m_bringToFront 0
