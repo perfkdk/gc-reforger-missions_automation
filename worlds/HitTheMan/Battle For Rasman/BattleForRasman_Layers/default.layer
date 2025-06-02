@@ -330,59 +330,32 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    ShapePoint "{6566F0B8A0029610}" {
     Position -121.342 2.104 112.101
    }
-   ShapePoint "{6566F0B8A7E016D4}" {
-    Position -274.758 5.806 104.614
+   ShapePoint "{65717A5314A7CA48}" {
+    Position -215.579 4.545 105.522
    }
-   ShapePoint "{6566F0B958E72BDF}" {
-    Position -371.176 9.922 117.856
+   ShapePoint "{65717A531426CBF7}" {
+    Position -229.485 1.762 53.348
    }
-   ShapePoint "{6568DE5351D01A5D}" {
-    Position -485.161 19.951 29.382
+   ShapePoint "{65717A530B8C15A7}" {
+    Position -215.825 6.631 1.659
    }
-   ShapePoint "{6568DE7F9C4BDAEB}" {
-    Position -485.92 20.088 -18.271
+   ShapePoint "{65717A530A8BC813}" {
+    Position -191.027 7.032 -33.541
    }
-   ShapePoint "{6568DE7F93912BB2}" {
-    Position -464.802 11.258 -84.52
+   ShapePoint "{65717A530A0FBE6F}" {
+    Position -149.893 7.004 -80.372
    }
-   ShapePoint "{6568DE7F92DCBEAA}" {
-    Position -404.231 6.412 -149.177
+   ShapePoint "{65717A5309986111}" {
+    Position -155.627 7.032 -151.195
    }
-   ShapePoint "{6568DE7F918C9A64}" {
-    Position -380.903 7.032 -204.719
+   ShapePoint "{65717A530FBF6304}" {
+    Position -151.148 7.032 -213.623
    }
-   ShapePoint "{6568DE7F95F70DC1}" {
-    Position -371.282 7.031 -295.685
+   ShapePoint "{65717A530EE48977}" {
+    Position -111.893 7.032 -257.32
    }
-   ShapePoint "{6568DE7F952B71C2}" {
-    Position -377.847 7.032 -346.062
-   }
-   ShapePoint "{6568DE7F8BF1ACE1}" {
-    Position -369.828 7 -391.483
-   }
-   ShapePoint "{6568DE7F8F1A1DC1}" {
-    Position -311.771 7.032 -449.134
-   }
-   ShapePoint "{6568DE7F8E840DFA}" {
-    Position -241.917 4.485 -481.369
-   }
-   ShapePoint "{6568DE7F8DED90D2}" {
-    Position -219.917 6.425 -489.205
-   }
-   ShapePoint "{6566F0B96BB279D6}" {
-    Position -168.828 7.712 -458.613
-   }
-   ShapePoint "{6566F0B96A93B0DF}" {
-    Position -131.197 7.213 -429.351
-   }
-   ShapePoint "{6566F0B96A29200F}" {
-    Position -66.303 4.291 -376.98
-   }
-   ShapePoint "{6566F0B968E59515}" {
-    Position -17.057 3.946 -343.373
-   }
-   ShapePoint "{6566F0B963F70534}" {
-    Position -0.185 3.954 -323.842
+   ShapePoint "{65717A530D4C9D8B}" {
+    Position -46.796 3.548 -282.408
    }
    ShapePoint "{6566F0B9631F8DF2}" {
     Position 14.515 2.618 -284.997
@@ -522,6 +495,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{6568DE655C51C38C}" {
+   m_name "US Obj Victory"
    m_instructions {
     TILW_SendMessageInstruction "{6568DE6524F79094}" {
      m_executionDelay 10
@@ -546,17 +520,76 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
+  TILW_MissionEvent "{65717A518D8C24A1}" {
+   m_name "Civis Move"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{65717A51B9C76722}" {
+     m_executionDelay 1
+     m_groupName "Civ_1"
+     m_waypointNames {
+      "Civ_Move"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{65717A504E7A4197}" {
+     m_executionDelay 1
+     m_groupName "Civ_2"
+     m_waypointNames {
+      "Civ_Move"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{65717A5041BC0BFF}" {
+     m_executionDelay 1
+     m_groupName "Civ_3"
+     m_waypointNames {
+      "Civ_Move"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{65717A5046214614}" {
+     m_executionDelay 1
+     m_groupName "Civ_4"
+     m_waypointNames {
+      "Civ_Move"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{65717A507B40270B}" {
+     m_executionDelay 1
+     m_groupName "Civ_5"
+     m_waypointNames {
+      "Civ_Move"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{65717A5078F1C225}" {
+     m_executionDelay 1
+     m_groupName "Civ_6"
+     m_waypointNames {
+      "Civ_Move"
+     }
+     m_clearExisting 1
+    }
+    TILW_SendMessageInstruction "{65717A5F42561067}" {
+     m_messageTitle "test message ladida"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65717A51A3DE4390}" {
+    m_flagName "SWCompound"
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{6506E4081586428B}" {
    m_flagName "TKA_CAS"
    m_factionKey "GC_TKA"
-   m_casualtyRatio 0.9
+   m_casualtyRatio 0.95
   }
   TILW_FactionPlayersKilledFlag "{6568DE7681798812}" {
    m_flagName "US_CAS"
    m_factionKey "US"
-   m_casualtyRatio 0.9
+   m_casualtyRatio 0.8
   }
  }
 }
