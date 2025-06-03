@@ -1,6 +1,6 @@
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  Cas_test13 {
-  coords 1139.539 11.899 2155.252
+  coords 1282.45 22.581 2182.444
   angleY 83.249
   m_prefab "{30263B4F1FB2A0F2}Prefabs/Systems/Artillery/ArtilleryWrapper_WTF.et"
   m_conditionFlag "Compound"
@@ -27,7 +27,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  Cas_test14 {
-  coords 1139.824 13.469 2155.045
+  coords 1282.735 28.42 2182.237
   angleY 83.249
   m_prefab "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et"
   m_conditionFlag "Compound"
@@ -87,6 +87,24 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_conditionFlag "Compound"
   m_spawnTimings {
    37
+  }
+ }
+ Cas_test24 {
+  coords 1408.727 20.656 2373.263
+  angleY 78.181
+  m_prefab "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et"
+  m_conditionFlag "Compound"
+  m_spawnTimings {
+   25
+  }
+ }
+ Cas_test23 {
+  coords 1408.43 20.67 2373.45
+  angleY 78.181
+  m_prefab "{30263B4F1FB2A0F2}Prefabs/Systems/Artillery/ArtilleryWrapper_WTF.et"
+  m_conditionFlag "Compound"
+  m_spawnTimings {
+   39
   }
  }
 }

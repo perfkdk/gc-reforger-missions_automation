@@ -3,11 +3,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5810.46 272.434 10245.144
   m_sTitle "I. Situation:"
   m_sTextData "Time & Weather:"\
-  "First Light at 04:45"\
-  "Cloudy, Dawn with a light fog"\
+  "Time: 02:10"\
+  "First Light at 02:00"\
+  "Cloudy, very light fog"\
   ""\
   "Situation:"\
-  "US Army is sending a Rifle Platoon (+) with Bradley support to clear out the town of Rasman, while the Takistan Army is tasked with defending the town with a Light Rifle Platoon and a BMP-1 Platoon"
+  "US Army is sending a Rifle Platoon (+) with Bradley support to clear out the town of Zarichne, while the East German Units are tasked with defending the town with a Light Rifle Platoon and a T-72A Section"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 1
@@ -15,12 +16,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5811.579 272.478 10244.603
   m_sTitle "VI. Mission Notes:"
-  m_sTextData "Timelimit: 60m"\
+  m_sTextData "Timelimit: 90m"\
   "Setup Timer: 5min (To allow Defenders to get to Positions)"\
   ""\
-  "Takistan Victory by killing 85% of US or timelimit is reached"\
+  "East German Victory by killing 87% of US or timelimit is reached"\
   ""\
-  "US Victory by killing 90% TKA or by securing all 4 Compounds (GM Descretion)"
+  "US Victory by killing 90% NVA or by securing all 6 Sectors (GM Descretion)"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 8

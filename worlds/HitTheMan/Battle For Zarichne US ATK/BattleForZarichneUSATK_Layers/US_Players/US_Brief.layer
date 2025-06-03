@@ -14,12 +14,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "12x Smoke Grenades"\
   "36x Stanags"\
   "6x M249 Belts"\
-  "2x Clacker"\
-  "8x Demo Charges"\
+  "4x Clacker"\
+  "16x Demo Charges"\
   "2x LAWs"\
   ""\
   "III. Medical:"\
-  "Ambulance for the COY Medics"\
+  "Ambulance for the PLT Medics"\
   ""\
   "IV. Vehicles:"\
   "2x Bradleys"
@@ -41,11 +41,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "3rd Squad		- 2'3"\
   "4th Squad		- 2'4"\
   ""\
-  "1st Bradley		- 3'1v"\
-  "2nd Bradley		- 3'2v"\
+  "1st Bradley		- 3'1"\
+  "2nd Bradley		- 3'2"\
   ""\
   "III. Frequencies:"\
-  "Platoon Nets		- 48.00"
+  "Platoon Net		- 48.00 MHz"\
+  "Armour Net		- 49.00 MHz"
   m_aVisibleForFactions {
    "US"
   }
@@ -55,7 +56,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5770.494 101.256 10124.764
   m_sTitle "III. Execution:"
   m_sTextData "Intent:"\
-  "Sweep and secure the town of Rasman"\
+  "Sweep and secure the town of Zarichne"\
   ""\
   "1. Concept of the Operation:"\
   "Company Commander's Discretion."\
@@ -72,15 +73,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5769.267 101.215 10124.983
   m_sTitle "A. Enemy Forces:"
   m_sTextData "Equipment:"\
-  "Takistans are equipped with a mismatch of WARSAW Pact & NATO weaponry, AK series, M4s, RPKs. etc"\
-  "Wearing green coloured uniform & helmets."\
+  "NVA are equipped with their standard WARSAW Pact weaponry, AK series, RPKs, etc"\
+  "Wearing tan coloured uniform & green/tan helmets."\
   ""\
   "Known Strength:"\
   "1x Light Infantry Platoon"\
-  "1x BMP-1 Platoon"\
+  "1x T-72A Section"\
   ""\
   "Location: "\
-  "In & Around Rasman itself"\
+  "In & Around Zarichne itself"\
   ""\
   "MLCOA:"\
   "Entrench themselves in the surrounding area to brace for our attack, fight in the urban and setup AT Mine Fields"\
@@ -99,19 +100,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5769.826 101.231 10124.987
   m_sTitle "B. Friendly Forces:"
   m_sTextData "Disposition:"\
-  "Battalion is located south conducting similar operations in the area."\
-  ""\
-  "Friendly squad north of us setting up security after clearing the compound to allow us to push forward to conduct our operaiton"\
+  "Battalion is located west conducting another operations in the area."\
   ""\
   "Higher Units Mission:"\
-  "Our unit is assigned to fight the Takistan Army in this region to liberate it from their iron claws."\
+  "Our unit is assigned to fight the East German Army in this region to liberate it from their iron claws."\
   ""\
   "Composition:"\
   "1x Rifle Platoon (+)"\
   "1x Bradley Section"\
   ""\
   "Strength:"\
-  "52x man strong Company (-)"\
+  "49x man strong Company (-)"\
   ""\
   "Supporting Fires:"\
   "None."\
@@ -126,9 +125,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5770.217 101.246 10124.798
   m_sTitle "II. Mission:"
-  m_sTextData "Secure the town of Rasman from the Takistan Army to liberate the local populace and destroy the BMP & Infantry Platoons."\
+  m_sTextData "Secure the town of Zarichne from the NVA Forces fortified there, destroying the T-72A Section and establish your own defences there facing North."\
   ""\
-  "Beware there are civilians in the area."
+  "We've located one AT Minefield (Marked on map), however there may be more, utilize democharges as needed to clear the path for the Bradleys if needed"\
+  ""\
+  "No Civilians in the area"
   m_aVisibleForFactions {
    "US"
   }

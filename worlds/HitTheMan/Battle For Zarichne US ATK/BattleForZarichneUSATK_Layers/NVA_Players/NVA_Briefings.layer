@@ -3,14 +3,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5809.926 272.42 10244.987
   m_sTitle "A. Enemy Forces:"
   m_sTextData "Equipment:"\
-  "US Army are equipped with their standard NATO weaponry, M4 series, LAWs, M249s, M240s. etc"\
-  "Wearing desert coloured camo uniforms & helmets."\
+  "US Army are equipped with their standard NATO weaponry, M16A1s series, LAWs/M67s, M249s, M60s. etc"\
+  "Wearing woodland coloured camo uniforms & helmets."\
   ""\
   "Known Strength:"\
   "Platoon (+)"\
   ""\
   "Location: "\
-  "South of Rasman"\
+  "South of Zarichne"\
   ""\
   "MLCOA:"\
   "Push down the MSR with the Bradley, clearing each section & compound one by one"\
@@ -33,16 +33,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "BMP Platoon located south in positions to support & delay the incoming american movement."\
   ""\
-  "We used up our RPGs from earlier engagement, only have AT Mines at our disposal & BMP Platoon to deal with the Bradleys"\
+  "We used up our RPGs from earlier engagement, only have AT Mines at our disposal & a T-72A Section to try and deal with the Bradleys"\
   ""\
   "Higher Units Mission:"\
-  "Our unit is assigned to defend the town of Rasman and delay the American advance northwards"\
+  "Our unit is assigned to defend the town of Zarichne and delay the American advance northwards"\
   ""\
   "Composition:"\
   "1x Light Infantry Platoon"\
   ""\
   "Strength:"\
-  "25x man strong Company (-)"\
+  "22x man strong Company (-)"\
   ""\
   "Supporting Fires:"\
   "None."\
@@ -57,7 +57,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5810.876 272.451 10244.802
   m_sTitle "II. Mission:"
-  m_sTextData "Defend the town of Rasman from the American forces, by utilizing what Urban denseness there is, AT Mine placements and our Platoon of BMPs positioned south (Marked on map)"
+  m_sTextData "Defend the town of Zarichne from the American forces, by utilizing what Urban denseness there is, AT Mine placements and our Section of T-72As (Marked on map)"
   m_aVisibleForFactions {
    "GC_TKA"
   }
@@ -87,13 +87,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "None."\
   ""\
   "II. Logistical Support:"\
-  "30x AT Mines in the Ural near PLT HQ"\
+  "18x AT Mines in the UAZ Vans (6x In Each)"\
+  "- Not in the Medic Van"\
   ""\
   "III. Medical:"\
   "None."\
   ""\
   "IV. Vehicles:"\
-  "1x Ural"
+  "3x UAZ452 Vans"\
+  "1x UAZ452 Ambulance"
   m_aVisibleForFactions {
    "GC_TKA"
   }
