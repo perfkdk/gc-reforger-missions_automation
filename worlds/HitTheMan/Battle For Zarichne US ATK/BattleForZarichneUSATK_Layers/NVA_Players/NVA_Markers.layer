@@ -13,34 +13,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bringToFront 0
  }
- NVA_Coy_marker_4 {
-  coords 1338.707 21.993 2451.459
-  angleY -118.534
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.561 0.071 0.071 1
-  m_sQuadName "bmp"
-  m_fWorldSize 25
-  m_sDescription "T-72A (AI)"
-  m_aVisibleForFactions {
-   "GC_NVA"
-  }
-  m_bringToFront 0
- }
- NVA_Coy_marker_2 {
-  coords 1427.29 22.004 2533.802
-  angleY -113.908
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.561 0.071 0.071 1
-  m_sQuadName "bmp"
-  m_fWorldSize 25
-  m_sDescription "T-72A (AI)"
-  m_aVisibleForFactions {
-   "GC_NVA"
-  }
-  m_bringToFront 0
- }
  Flav_CafCoy_marker_fp_1 {
   coords 1400.223 34.741 2104.855
   angleY -94.993
@@ -117,6 +89,47 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "bmp"
   m_fWorldSize 25
   m_sDescription "Bradley"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ NVA_Coy_marker_7 {
+  coords 1508.387 31.107 2222.332
+  angleY 90
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "bunker_reinforced"
+  m_sDescription "Fortified House"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ NVA_Coy_marker_2 {
+  coords 1494.386 21.966 2212.156
+  angleY -101.056
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "afv"
+  m_fWorldSize 25
+  m_sDescription "T-72A (AI)"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ NVA_Coy_marker_4 {
+  coords 1748.824 16.449 2176.766
+  angleY -93.631
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "afv"
+  m_fWorldSize 25
+  m_sDescription "T-72A (AI)"
   m_aVisibleForFactions {
    "GC_NVA"
   }

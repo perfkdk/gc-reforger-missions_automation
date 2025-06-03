@@ -232,8 +232,8 @@ $grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
     }
    }
   }
-  coords 1427.362 20.656 2533.408
-  angleY 155.463
+  coords 1494.447 20.609 2211.47
+  angleY 168.182
  }
  T72A_base2 {
   components {
@@ -261,7 +261,7 @@ $grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
     }
    }
   }
-  coords 1338.927 20.656 2451.111
-  angleY 152.318
+  coords 1748.799 15.094 2175.717
+  angleY 176.907
  }
 }
