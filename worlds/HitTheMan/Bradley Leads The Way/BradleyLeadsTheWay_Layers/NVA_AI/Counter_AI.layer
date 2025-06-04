@@ -1,0 +1,219 @@
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ T72A_Counter_Spawn_2 {
+  coords 43.312 19.625 2810.516
+  angleY 88.675
+  m_prefab "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et"
+  m_conditionFlag "Counter_AI"
+  m_spawnTimings {
+   60 200
+  }
+  m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651028E34B0E58D9}" {
+     m_crewStations {
+      TILW_CrewStation "{651028E349419D3E}" {
+       m_allowCargo 0
+       m_characters {
+        "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "wp_counter_attack_1"
+     }
+    }
+   }
+   m_noTurretDismount 0
+   m_useIdleGroups 0
+  }
+ }
+ T72A_Counter_Spawn_1 {
+  coords 51.858 20.346 2503.286
+  angleY 88.675
+  m_prefab "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et"
+  m_conditionFlag "Counter_AI"
+  m_spawnTimings {
+   60 200
+  }
+  m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651028E34B0E58D9}" {
+     m_crewStations {
+      TILW_CrewStation "{651028E349419D3E}" {
+       m_allowCargo 0
+       m_characters {
+        "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "wp_counter_attack_2"
+     }
+    }
+   }
+   m_noTurretDismount 0
+   m_useIdleGroups 0
+  }
+ }
+ BMP1P_Counter_Spawn_1 {
+  coords 1367.678 19.571 2138.184
+  angleY 0.221
+  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
+  m_conditionFlag "Counter_AI"
+  m_spawnTimings {
+   60 150 380
+  }
+  m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651028E34B0E58D9}" {
+     m_crewStations {
+      TILW_CrewStation "{651028E349419D3E}" {
+       m_allowCargo 0
+       m_characters {
+        "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "wp_counter_attack_1"
+     }
+    }
+   }
+   m_noTurretDismount 0
+   m_useIdleGroups 0
+  }
+ }
+ BMP1P_Counter_Spawn_2 {
+  coords 1604.896 19.036 2381.913
+  angleX -6.582
+  angleY 24.606
+  angleZ 5.776
+  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
+  m_conditionFlag "Counter_AI"
+  m_spawnTimings {
+   60 150 380
+  }
+  m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
+   m_crewGroups {
+    TILW_CrewGroup "{651028E34B0E58D9}" {
+     m_crewStations {
+      TILW_CrewStation "{651028E349419D3E}" {
+       m_allowCargo 0
+       m_characters {
+        "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "wp_counter_attack_1"
+     }
+    }
+   }
+   m_noTurretDismount 0
+   m_useIdleGroups 0
+  }
+ }
+ Inf_Counter_Attack_Spawner_1 {
+  coords 1147.864 19.245 2371.228
+  angleY -9.635
+  m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
+  m_conditionFlag "Counter_AI"
+  m_spawnTimings {
+   80 160 240 400 500
+  }
+  m_waypointNames {
+   "wp_counter_attack_1"
+  }
+ }
+ Inf_Counter_Attack_Spawner_2 {
+  coords 1261.97 20.656 2511.03
+  angleY -33.071
+  m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
+  m_conditionFlag "Counter_AI"
+  m_spawnTimings {
+   80 160 240 400 500
+  }
+  m_waypointNames {
+   "wp_counter_attack_1"
+  }
+ }
+ Inf_Counter_Attack_Spawner_3 {
+  coords 1375.297 20.656 2576.877
+  angleY -38.904
+  m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
+  m_conditionFlag "Counter_AI"
+  m_spawnTimings {
+   80 160 240 400 500
+  }
+  m_waypointNames {
+   "wp_counter_attack_1"
+  }
+ }
+ Inf_Counter_Attack_Spawner_4 {
+  coords 1564.943 14.86 2662.245
+  angleY -9.635
+  m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
+  m_conditionFlag "Counter_AI"
+  m_spawnTimings {
+   80 160 240 400 500
+  }
+  m_waypointNames {
+   "wp_counter_attack_1"
+  }
+ }
+ Inf_Counter_Attack_Spawner_5 {
+  coords 376.079 17.219 2621.349
+  angleY 90.087
+  m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
+  m_conditionFlag "Counter_AI"
+  m_spawnTimings {
+   80 160 240 400 500
+  }
+  m_waypointNames {
+   "wp_counter_attack_1"
+  }
+ }
+ Inf_Counter_Attack_Spawner_6 {
+  coords 372.33 16.874 2868.112
+  angleY 90.087
+  m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
+  m_conditionFlag "Counter_AI"
+  m_spawnTimings {
+   80 160 240 400 500
+  }
+  m_waypointNames {
+   "wp_counter_attack_2"
+  }
+ }
+ Inf_Counter_Attack_Spawner_7 {
+  coords 495.93 12.844 3084.995
+  angleY 96.642
+  m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
+  m_conditionFlag "Counter_AI"
+  m_spawnTimings {
+   80 160 240 400 500
+  }
+  m_waypointNames {
+   "wp_counter_attack_2"
+  }
+ }
+}
+TILW_FactionTriggerEntity Counter_Attack : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 1436.038 23.101 2483.151
+ m_queryRadius 450
+ m_locationName "lalafuckthis"
+ m_flagName "Counter_AI"
+ m_stopAfterFirstChange 1
+ m_ownerFactionKey "US"
+ m_ratioThreshold 0.01
+}
+$grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ wp_counter_attack_1 {
+  coords 1214.881 15.062 2942.157
+  CompletionRadius 90
+ }
+ wp_counter_attack_2 {
+  coords 1261.974 24.665 2832.81
+  CompletionRadius 100
+ }
+}
