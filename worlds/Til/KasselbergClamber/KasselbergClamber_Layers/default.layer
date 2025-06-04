@@ -40,7 +40,7 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    Position -524.783 -48.619 922.426
   }
   ShapePoint "{6588ED3E806C752F}" {
-   Position -1610.828 -119.928 1440.44
+   Position -1650.093 -118.036 1427.637
   }
   ShapePoint "{64E908D541428EF4}" {
    Position -1917.468 -206.982 2189.85
@@ -61,9 +61,6 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    Position -41.106 -90.644 1246.44
   }
  }
-}
-SCR_ChimeraCharacter : "{945EE8F65FF4E94C}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Commander.et" {
- coords 2983.16 226.729 4096.99
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 1843.376 154.492 4163.088
