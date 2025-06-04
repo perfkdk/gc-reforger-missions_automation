@@ -1,3 +1,49 @@
+$grp Vehicle : "{01F65EFB8D767A91}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo.et" {
+ UAZ452_cargo2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65876AE6FF802F06}" {
+      SlotTemplate InventoryStorageSlot FieldDressing {
+       Prefab "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{65876AE6B923DECE}" {
+      SlotTemplate InventoryStorageSlot FieldDressing {
+       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      }
+      NumSlots 24
+     }
+    }
+   }
+  }
+  coords 1571.594 16.188 1577.536
+  angleY -93.004
+ }
+ UAZ452_cargo1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65876AE6FF802F06}" {
+      SlotTemplate InventoryStorageSlot FieldDressing {
+       Prefab "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{65876AE6B923DECE}" {
+      SlotTemplate InventoryStorageSlot FieldDressing {
+       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      }
+      NumSlots 24
+     }
+    }
+   }
+  }
+  coords 1650.638 15.625 1553.979
+  angleY -93.004
+ }
+}
 Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
  components {
   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {

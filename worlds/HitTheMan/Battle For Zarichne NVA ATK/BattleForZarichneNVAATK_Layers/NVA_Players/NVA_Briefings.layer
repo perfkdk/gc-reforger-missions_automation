@@ -89,24 +89,18 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "None."\
   ""\
   "II. Logistical Support:"\
-  "In each BTR:"\
-  "10x Bandages"\
-  "10x Tourniquets"\
-  "10x Morphine"\
-  "40x AK Mags"\
-  "16x RPK Mags"\
-  "12x HE Grenades"\
-  "8x Smoke Grenades"\
-  "2x HE VOGs"\
-  "8x Flare VOGs"\
+  "In each UAZ452:"\
+  "2x Bandages"\
+  "4x KMP 3U1 Blasting Machine"\
+  "18x TSh 400g TnT Demo Blocks"\
   ""\
   "III. Medical:"\
   "None."\
   ""\
   "IV. Vehicles:"\
-  "4x BTR-70s"\
   "2x T-72As"\
-  "1x UAZ Ambulance"
+  "2x UAZ452s"\
+  "1x UAZ452 Ambulance"
   m_aVisibleForFactions {
    "GC_TKA"
   }
