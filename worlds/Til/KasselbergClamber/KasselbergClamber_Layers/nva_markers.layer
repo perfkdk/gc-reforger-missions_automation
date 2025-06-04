@@ -1,0 +1,28 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Marker_BRDM_1 {
+  coords 3232.992 254.618 3094.083
+  angleY 104.543
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 0.75
+  m_sQuadName "automobile_plt"
+  m_fWorldSize 80
+  m_sDescription "Reconaissance Plt"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+ }
+ Marker_Mortar {
+  coords 3482.27 312.368 2833.497
+  angleY 90
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 0.75
+  m_sQuadName "mortar"
+  m_fWorldSize 50
+  m_sDescription "Mortar"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+ }
+}
