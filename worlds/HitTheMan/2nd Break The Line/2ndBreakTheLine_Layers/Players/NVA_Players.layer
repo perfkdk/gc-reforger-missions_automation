@@ -4,12 +4,15 @@ $grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.e
    RHS_GroupMaterialController "{655D33B314E7008B}" {
     m_aGroups {
      RHS_MaterialGroupProperties "{655D33B314E7008F}" {
-      m_iTextureID 2
+      m_iTextureID 3
      }
      RHS_MaterialGroupProperties "{655D33B314E70091}" {
       m_iTextureID 2
      }
      RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658746C36E8C5692}" {
       m_iTextureID 1
      }
     }
@@ -66,12 +69,15 @@ $grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.e
    RHS_GroupMaterialController "{655D33B314E7008B}" {
     m_aGroups {
      RHS_MaterialGroupProperties "{655D33B314E7008F}" {
-      m_iTextureID 2
+      m_iTextureID 3
      }
      RHS_MaterialGroupProperties "{655D33B314E70091}" {
       m_iTextureID 2
      }
      RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658746C36E8C5692}" {
       m_iTextureID 2
      }
     }
@@ -128,12 +134,15 @@ $grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.e
    RHS_GroupMaterialController "{655D33B314E7008B}" {
     m_aGroups {
      RHS_MaterialGroupProperties "{655D33B314E7008F}" {
-      m_iTextureID 2
+      m_iTextureID 3
      }
      RHS_MaterialGroupProperties "{655D33B314E70091}" {
       m_iTextureID 2
      }
      RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658746C36E8C5692}" {
       m_iTextureID 3
      }
     }
@@ -190,9 +199,12 @@ $grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.e
    RHS_GroupMaterialController "{655D33B314E7008B}" {
     m_aGroups {
      RHS_MaterialGroupProperties "{655D33B314E7008F}" {
-      m_iTextureID 2
+      m_iTextureID 3
      }
      RHS_MaterialGroupProperties "{655D33B314E70091}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{655D33B314E70090}" {
       m_iTextureID 2
      }
     }
@@ -243,12 +255,15 @@ $grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.e
    RHS_GroupMaterialController "{655D33B314E7008B}" {
     m_aGroups {
      RHS_MaterialGroupProperties "{655D33B314E7008F}" {
-      m_iTextureID 2
+      m_iTextureID 3
      }
      RHS_MaterialGroupProperties "{655D33B314E70091}" {
       m_iTextureID 2
      }
      RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658746C36E8C5692}" {
       m_iTextureID 4
      }
     }
@@ -305,12 +320,15 @@ $grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.e
    RHS_GroupMaterialController "{655D33B314E7008B}" {
     m_aGroups {
      RHS_MaterialGroupProperties "{655D33B314E7008F}" {
-      m_iTextureID 2
+      m_iTextureID 3
      }
      RHS_MaterialGroupProperties "{655D33B314E70091}" {
       m_iTextureID 2
      }
      RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658746C36E8C5692}" {
       m_iTextureID 5
      }
     }
@@ -367,12 +385,15 @@ $grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.e
    RHS_GroupMaterialController "{655D33B314E7008B}" {
     m_aGroups {
      RHS_MaterialGroupProperties "{655D33B314E7008F}" {
-      m_iTextureID 2
+      m_iTextureID 3
      }
      RHS_MaterialGroupProperties "{655D33B314E70091}" {
       m_iTextureID 2
      }
      RHS_MaterialGroupProperties "{655D33B314E70090}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658746C36E8C5692}" {
       m_iTextureID 6
      }
     }
@@ -478,7 +499,7 @@ SCR_AIGroup CoyHQ : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/USSR/SovietArmy_Moto
  angleZ 1.756
  m_faction "GC_NVA"
  m_aUnitPrefabSlots {
-  "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et" "{C503AFF96F792C9F}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanySergeantMajor_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
+  "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et" "{C503AFF96F792C9F}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanySergeantMajor_P.et" "{B4409AB875E9134B}worlds/HitTheMan/2nd Break The Line/Character_GC_NVA_FO_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
  }
  m_sCustomNameSet "Company Headquarters"
  m_aUnitPrefabColorTeams {
