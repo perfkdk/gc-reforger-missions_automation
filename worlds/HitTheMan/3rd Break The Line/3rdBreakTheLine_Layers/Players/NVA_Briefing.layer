@@ -54,7 +54,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- 1x T-72 Platoon"\
   ""\
   "Strength:"\
-  "Rifle Platoon (+) at 80x man strength"\
+  "Rifle Platoon (+) at 78x man strength"\
   "7x BTR-70s"\
   "4x T-72s"\
   "1x Ambulance Van"\
@@ -71,7 +71,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5810.876 272.451 10244.802
   m_sTitle "II. Mission:"
-  m_sTextData "Our Motorrifle Company has been tasked with securing out sector, pushing the US back across the river and digging in before conducting a river crossing assault into Zarichne."\
+  m_sTextData "Our Motor Rifle Company has been tasked with securing out sector, pushing the US back across the river and digging in before conducting a river crossing assault into Zarichne."\
   ""\
   "We are to Secure 4 key points before reaching the river."
   m_bEmptyFactionVisibility 1
@@ -82,7 +82,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5811.153 272.461 10244.768
   m_sTitle "III. Execution:"
   m_sTextData "Intent:"\
-  "Company is to push west towards the river, dislocating the US army, securing our side of the river and dig in."\
+  "Company is to push west towards the river, dislocating the enemy Company (+), securing our side of the river and dig in."\
   ""\
   "1. Concept of the Operation:"\
   "Platoon Commander's Discretion."\
@@ -144,7 +144,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "This mission is not designed for game mastering and should only be manipulated for technical, administrative or diagnostic purposes."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 9
+  m_iOrder 10
  }
  {
   coords 5811.692 272.468 10245.123
@@ -180,5 +180,27 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 7
+ }
+ {
+  coords 5812.509 269.587 10246.963
+  m_sTitle "VII. Mission Notes For FO:"
+  m_sTextData "Radio Frequency: 49.00 MHz"\
+  "Keybind: Open Radio (G) + Double Tap C key"\
+  ""\
+  "What you have Available:"\
+  "- 240x 82mm Smoke"\
+  "- 3x Guns Firing per Firemission (can call in multiple firemissions)"\
+  "- 60x Sec Delay"\
+  ""\
+  "Recommend you fire 3 Firemission one after another in a Grid line to simulate a Line Barrage, to conduct this, you can for an example do this grid for a North-South smokescreen with a 50m Dispersion"\
+  ""\
+  "04300230"\
+  "04300225"\
+  "04300220"\
+  ""\
+  "Dispersion is measured in meters."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 9
  }
 }

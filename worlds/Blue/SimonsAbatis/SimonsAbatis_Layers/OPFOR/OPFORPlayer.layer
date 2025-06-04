@@ -53,6 +53,22 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   }
   m_sCustomNameSet "2nd PLT 2nd Squad"
  }
+ TANK {
+  components {
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 4
+    m_iPlatoonCallsign 3
+   }
+  }
+  coords 5645.725 75.664 4665.781
+  angleX -0.007
+  angleY 0.053
+  angleZ 8.005
+  m_aUnitPrefabSlots {
+   "{B4A947AA09E9F15E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewCommander_P.et" "{F818395904C3AE6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewGunner_P.et" "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
+  }
+  m_sCustomNameSet "T72A"
+ }
 }
 PolylineShapeEntity OPFOR_AO : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
