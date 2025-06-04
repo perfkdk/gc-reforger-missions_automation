@@ -283,33 +283,6 @@ $grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
   angleX -5.528
   angleY -27.269
   angleZ 4.839
-  {
-   PS_ManualMarker Marker_Tank_2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-    coords 0 0 0
-    m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-    m_sImageSetGlow ""
-    m_MarkerColor 1 0 0 0.75
-    m_sQuadName "afv"
-    m_fWorldSize 50
-    m_aVisibleForFactions {
-     "GC_NVA"
-    }
-    {
-     PS_ManualMarker Marker_FP2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-      coords -15 0 0
-      angleY 0
-      m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-      m_sImageSetGlow ""
-      m_MarkerColor 1 0 0 0.75
-      m_sQuadName "fp"
-      m_fWorldSize 50
-      m_aVisibleForFactions {
-       "GC_NVA"
-      }
-     }
-    }
-   }
-  }
  }
  T72A_base1 {
   components {
@@ -322,33 +295,6 @@ $grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
   angleX -3.958
   angleY -55.417
   angleZ -0.557
-  {
-   PS_ManualMarker Marker_Tank_1 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-    coords 0 0 0
-    m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-    m_sImageSetGlow ""
-    m_MarkerColor 1 0 0 0.75
-    m_sQuadName "afv"
-    m_fWorldSize 50
-    m_aVisibleForFactions {
-     "GC_NVA"
-    }
-    {
-     PS_ManualMarker Marker_FP : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-      coords -15 0 0
-      angleY 0
-      m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-      m_sImageSetGlow ""
-      m_MarkerColor 1 0 0 0.75
-      m_sQuadName "fp"
-      m_fWorldSize 50
-      m_aVisibleForFactions {
-       "GC_NVA"
-      }
-     }
-    }
-   }
-  }
  }
  T72A_base3 {
   components {
@@ -361,33 +307,6 @@ $grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
   angleX -5.323
   angleY -6.351
   angleZ 0.592
-  {
-   PS_ManualMarker Marker_Tank_3 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-    coords 0 0 0
-    m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-    m_sImageSetGlow ""
-    m_MarkerColor 1 0 0 0.75
-    m_sQuadName "afv"
-    m_fWorldSize 50
-    m_aVisibleForFactions {
-     "GC_NVA"
-    }
-    {
-     PS_ManualMarker Marker_FP3 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-      coords -15 0 0
-      angleY 0
-      m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-      m_sImageSetGlow ""
-      m_MarkerColor 1 0 0 0.75
-      m_sQuadName "fp"
-      m_fWorldSize 50
-      m_aVisibleForFactions {
-       "GC_NVA"
-      }
-     }
-    }
-   }
-  }
  }
  T72A_base4 {
   components {
@@ -400,37 +319,23 @@ $grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
   angleX -6.56
   angleY 12.778
   angleZ -3.305
-  {
-   PS_ManualMarker Marker_Tank_4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-    coords 0 0 0
-    m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-    m_sImageSetGlow ""
-    m_MarkerColor 1 0 0 0.75
-    m_sQuadName "afv"
-    m_fWorldSize 50
-    m_aVisibleForFactions {
-     "GC_NVA"
-    }
-    {
-     PS_ManualMarker Marker_FP4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-      coords -15 0 0
-      angleY 0
-      m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-      m_sImageSetGlow ""
-      m_MarkerColor 1 0 0 0.75
-      m_sQuadName "fp"
-      m_fWorldSize 50
-      m_aVisibleForFactions {
-       "GC_NVA"
-      }
-     }
-    }
-   }
-  }
  }
 }
 Vehicle BRDM2_NVA3 : "{EC4811AC7C17DC7E}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_NVA.et" {
  components {
+  RHS_GroupMaterialController "{6584F7946A30454E}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{6584F7946ECC1310}" {
+     m_iTextureID 2
+    }
+    RHS_MaterialGroupProperties "{6584F7946F67236B}" {
+     m_iTextureID 2
+    }
+    RHS_MaterialGroupProperties "{6584F7946F344A1E}" {
+     m_iTextureID 3
+    }
+   }
+  }
   TILW_VehicleCrewComponent "{658530CB8B6FB5E0}" {
    m_crewConfig TILW_CrewConfig "{658530CB88940658}" : "{012709863EB73BED}Configs/Crews/GC_NVA/Crew_NVA_AI.conf" {
    }
@@ -438,31 +343,4 @@ Vehicle BRDM2_NVA3 : "{EC4811AC7C17DC7E}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_NVA
  }
  coords 3089.152 249.188 3893.754
  angleY -76.125
- {
-  PS_ManualMarker Marker_BRDM_3 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-   coords 0 0 0
-   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-   m_sImageSetGlow ""
-   m_MarkerColor 1 0 0 0.75
-   m_sQuadName "automobile_recon"
-   m_fWorldSize 40
-   m_aVisibleForFactions {
-    "GC_NVA"
-   }
-   {
-    PS_ManualMarker Marker_FP5 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-     coords -12 0 0
-     angleY 0
-     m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-     m_sImageSetGlow ""
-     m_MarkerColor 1 0 0 0.75
-     m_sQuadName "fp"
-     m_fWorldSize 40
-     m_aVisibleForFactions {
-      "GC_NVA"
-     }
-    }
-   }
-  }
- }
 }

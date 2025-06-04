@@ -26,6 +26,18 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
 }
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6589720C9E7F061D}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 7
+    }
+   }
+  }
+ }
+ m_iReconnectTime 180000
  m_iFreezeTime 120000
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
@@ -37,28 +49,28 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
  coords 4000 383.789 1500
  Points {
   ShapePoint "{64E908D5127F9144}" {
-   Position -524.783 -48.619 922.426
+   Position -500 -54.008 800
   }
   ShapePoint "{6588ED3E806C752F}" {
-   Position -1650.093 -118.036 1427.637
+   Position -1700 -128.258 1500
   }
   ShapePoint "{64E908D541428EF4}" {
-   Position -1917.468 -206.982 2189.85
+   Position -1900 -207.164 2200
   }
   ShapePoint "{64E908DE9EA220F9}" {
-   Position -2250 -189.171 2250
+   Position -2300 -202.195 2300
   }
   ShapePoint "{64E908DE0F430D5D}" {
-   Position -2250 -232.189 2750
+   Position -2300 -234.164 2800
   }
   ShapePoint "{64E908D5328E47FE}" {
-   Position -250 -185.379 2400
+   Position -300 -193.539 2400
   }
   ShapePoint "{64E908DAC50385F2}" {
-   Position 179.129 -122.348 1928.132
+   Position 200 -118.414 1900
   }
   ShapePoint "{64E908DACED1483A}" {
-   Position -41.106 -90.644 1246.44
+   Position 0 -98.133 1200
   }
  }
 }

@@ -158,9 +158,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_EndGameInstruction "{658530FD1E02E3A9}" {
      m_factionKey "US"
     }
+    TILW_DeactivateEventsInstruction "{6589720F24AD078F}" {
+     m_executionDelay 0
+     m_eventNames {
+      "US Minor Victory"
+     }
+    }
    }
    m_condition TILW_ConjunctionTerm "{658530FA8F9E195A}" {
     m_operands {
+     TILW_LiteralTerm "{658966E8DAF8D214}" {
+      m_flagName "objs"
+     }
      TILW_LiteralTerm "{658530FD3935DD34}" {
       m_invertTerm 1
       m_flagName "time"

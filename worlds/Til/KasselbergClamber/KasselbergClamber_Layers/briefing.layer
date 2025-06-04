@@ -28,13 +28,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Prevent the enemy from reaching Kasselberg, or alternatively delay him by at least 40 minutes."\
   "The enemy will likely attempt to secure Wasserberg or Allenburg in the process."\
   ""\
+  ""\
   "III. Execution"\
   ""\
-  "The SPW-40 platoon will screen, delay and attempt to locate the enemy so that the mortar element can effectively engage him."\
+  "The reconnaissance platoon will screen, delay and attempt to locate the enemy so that it can be effectively engaged by the mortar element."\
+  ""\
   ""\
   "IV. Service/Support"\
   ""\
   "Fire support: 2B14 mortar (unlimited rounds)"\
+  ""\
   ""\
   "V. Command/Signal"\
   ""\
@@ -57,7 +60,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "b. Friendly Forces"\
   ""\
   "One mechanized infantry company"\
-  "2nd platoon (YOU) staging for attack near Hof Lomelsberg"\
+  "2nd platoon (YOU) staging for attack near Hof Lomelsberg (018 041)"\
   "1st platoon previously established a guard 1km south east, and will remain in position"\
   "3rd platoon is currently in reserve, preparing to exploit a success at Kasselberg"
   m_aVisibleForFactions {
@@ -73,7 +76,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  D3_Notes {
   coords 0 0 0
   m_sTitle "Notes"
-  m_sTextData "- 2m setup timer (US)"\
+  m_sTextData "- 3m setup timer (US)"\
   ""\
   "End conditions:"\
   "- Major US Victory: US has secured Kasselberg and either Wasserberg or Allenburg within 40m"\
