@@ -23,10 +23,10 @@ Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/U
    }
   }
  }
- coords 1659.079 11.525 1381.924
- angleX 4.461
- angleY -3.034
- angleZ -0.236
+ coords 1585.22 16.848 1492.378
+ angleX 4.457
+ angleY -3.884
+ angleZ -0.302
  m_sAttachmentGroupName "CoyHQ"
  {
   GenericEntity {
@@ -46,10 +46,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iPlatoonCallsign 2
    }
   }
-  coords 1622.826 13.131 1395.438
-  angleX -0.157
-  angleY -93.354
-  angleZ -2.679
+  coords 1575.784 16.188 1581.463
+  angleX 2.683
+  angleY -1.5
+  angleZ -0.07
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
@@ -69,13 +69,13 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 3
    }
   }
-  coords 1616.388 13.211 1394.551
-  angleX -0.166
-  angleY -91.765
-  angleZ -5.353
+  coords 1567.59 16.189 1581.396
+  angleX 5.356
+  angleY -0.227
+  angleZ -0.022
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
-   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
   }
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue" "Blue"
@@ -91,13 +91,13 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 4
    }
   }
-  coords 1612.7 11.385 1361.36
-  angleX -0.079
-  angleY -92.523
-  angleZ -1.788
+  coords 1584.173 16.156 1581.556
+  angleX 1.789
+  angleY -1.517
+  angleZ -0.048
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
-   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
   }
   m_sCustomNameSet "3rd Squad"
   m_aUnitPrefabColorTeams {
@@ -114,13 +114,13 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 6
    }
   }
-  coords 1617.47 11.196 1361.657
-  angleY -93.29
+  coords 1653.676 15.593 1558.342
+  angleY -1.354
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
   }
-  m_sCustomNameSet "4th Squad"
+  m_sCustomNameSet "1st Squad"
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue" "Blue"
   }
@@ -135,8 +135,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iSquadCallsign 3
    }
   }
-  coords 1663.841 9.969 1295.707
-  angleY -91.269
+  coords 1656.824 16.545 1483.119
+  angleY -102.404
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{FD0ADED0B51AF9AB}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_VehCommander_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
@@ -155,8 +155,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
     m_iPlatoonCallsign 6
    }
   }
-  coords 1663.52 9.969 1314.735
-  angleY -90.129
+  coords 1644.706 16.542 1510.722
+  angleY -128.816
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{FD0ADED0B51AF9AB}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_VehCommander_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
@@ -166,42 +166,109 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
    "Yellow" "Yellow" "Yellow"
   }
  }
+ RifleSquad_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 7
+   }
+  }
+  coords 1664.374 15.526 1558.438
+  angleY -3.183
+  m_faction "GC_NVA"
+  m_aUnitPrefabSlots {
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+  }
+  m_aUnitPrefabColorTeams {
+   "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue" "Blue"
+  }
+ }
 }
-SCR_AIGroup MotorPLT_1 : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRiflePHQ_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
+$grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRiflePHQ_P.et" {
+ MotorPLT_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{65136701CA021D8F}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
   }
-  PS_GroupCallsignAssigner "{65136701CA021D8F}" {
-   m_iPlatoonCallsign 2
-   m_iSquadCallsign 1
+  coords 1560.246 16.188 1580.508
+  angleX 4.48
+  angleY -0.841
+  angleZ 0.827
+  m_faction "GC_NVA"
+  m_aUnitPrefabSlots {
+   "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et"
+  }
+  m_sCustomNameSet "1st Platoon HQ"
+  m_aUnitPrefabColorTeams {
+   "Yellow" "Yellow" "Yellow" "Red"
   }
  }
- coords 1603.292 13.24 1388.425
- angleX -0.696
- angleY 87.46
- angleZ 4.502
- m_faction "GC_NVA"
- m_aUnitPrefabSlots {
-  "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et"
+ MotorPLT_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{65136701CA021D8F}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 5
+   }
+  }
+  coords 1645.835 15.63 1557.848
+  angleX 4.538
+  angleY -6.36
+  angleZ 0.393
+  m_faction "GC_NVA"
+  m_aUnitPrefabSlots {
+   "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et"
+  }
+  m_sCustomNameSet "2nd Platoon HQ"
+  m_aUnitPrefabColorTeams {
+   "Yellow" "Yellow" "Yellow" "Red"
+  }
  }
- m_sCustomNameSet "1st Platoon HQ"
- m_aUnitPrefabColorTeams {
-  "Yellow" "Yellow" "Yellow" "Red"
+ CoyHQ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{65136701CA021D8F}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 1576.944 16.86 1486.396
+  angleX 4.538
+  angleY -6.36
+  angleZ 0.393
+  m_faction "GC_NVA"
+  m_aUnitPrefabSlots {
+   "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et" "{C503AFF96F792C9F}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanySergeantMajor_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et"
+  }
+  m_sCustomNameSet "Company HQ"
+  m_aUnitPrefabColorTeams {
+   "Yellow" "Yellow" "Red" "Red"
+  }
  }
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- coords 1660.04 10.357 1363.607
+ coords 1609.141 16.457 1535.837
 }
 $grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
  T72A_base2 {
-  coords 1660.121 9.969 1297.312
-  angleY -1.776
+  coords 1652.864 16.66 1483.975
+  angleY -12.911
   m_sAttachmentGroupName "T72_Crew_2"
  }
  T72A_base1 {
-  coords 1659.484 9.969 1316.915
-  angleY -0.636
+  coords 1640.193 16.656 1509.901
+  angleY -39.323
   m_sAttachmentGroupName "T72_Crew_1"
  }
 }

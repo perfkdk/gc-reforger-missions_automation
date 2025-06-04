@@ -35,7 +35,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Our unit is assigned to secure the town of Zarichne and push the US army out"\
   ""\
   "Composition:"\
-  "1x Light Infantry Platoon"\
+  "1x Light Infantry Company (-)"\
   ""\
   "Strength:"\
   "49x man strong Unit."\
@@ -119,18 +119,22 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "231 HQ, 231, 232, etc"\
   ""\
   "II. Callsigns:"\
+  "Company HQ		- 230"\
+  ""\
   "Platoon Leader 	- 231 HQ"\
   "1st Squad 		- 231"\
   "2nd Squad 		- 232"\
   "3rd Squad		- 233"\
-  "4th Squad		- 233"\
+  ""\
+  "2nd Platon		- 234 HQ"\
+  "1st Squad		- 234"\
+  "2nd Squad		- 235"\
   ""\
   "1st Tank		- 271"\
   "2nd Tank		- 272"\
   ""\
   "III. Frequencies:"\
-  "1st Platoon Net 	- 42.00"\
-  "Armour Net 		- 43.00"
+  "Company Net 		- 42.00"
   m_aVisibleForFactions {
    "GC_TKA"
   }

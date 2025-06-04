@@ -52,35 +52,35 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bringToFront 0
  }
- NVA_Coy_marker_3 {
-  coords 1659.272 13.509 1380.715
+ NVA_Coy_marker_5 {
+  coords 1569.851 18.266 1578.385
   angleY 90
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
-  m_sQuadName "btr_plt"
-  m_fWorldSize 35
-  m_sDescription "231 (HQ)"
+  m_sQuadName "plt_hq"
+  m_fWorldSize 80
+  m_sDescription "231"
   m_aVisibleForFactions {
    "GC_NVA"
   }
   m_bringToFront 0
  }
- NVA_Coy_marker_5 {
-  coords 1275.322 20.656 2553.053
-  angleY -113.745
+ NVA_Coy_marker_3 {
+  coords 1268.198 16.728 2142.275
+  angleY -97.73
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.071 0.192 0.561 1
   m_sQuadName "bmp"
-  m_fWorldSize 25
-  m_sDescription "Bradley"
+  m_fWorldSize 30
+  m_sDescription "Bradley (Last Known)"
   m_aVisibleForFactions {
    "GC_NVA"
   }
   m_bringToFront 0
  }
- NVA_Coy_marker_6 {
+ NVA_Coy_marker_4 {
   coords 1488.3 19.513 1373.151
   angleY 88.481
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
@@ -95,36 +95,22 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  NVA_Coy_marker_9 {
-  coords 1659.583 9.969 1333.86
+  coords 1578.19 16.897 1491.382
   angleY 90
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
-  m_sQuadName "btr"
-  m_fWorldSize 35
-  m_sDescription "234 (BTR)"
-  m_aVisibleForFactions {
-   "GC_NVA"
-  }
-  m_bringToFront 0
- }
- NVA_Coy_marker_11 {
-  coords 1657.772 13.761 1408.501
-  angleY 90
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "btr"
-  m_fWorldSize 35
-  m_sDescription "232 (BTR)"
+  m_sQuadName "coy_hq"
+  m_fWorldSize 80
+  m_sDescription "230"
   m_aVisibleForFactions {
    "GC_NVA"
   }
   m_bringToFront 0
  }
  NVA_Coy_marker_7 {
-  coords 1660.097 9.969 1308.124
-  angleY 90
+  coords 1640.131 16.699 1509.98
+  angleY 51.393
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
@@ -137,8 +123,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  NVA_Coy_marker_8 {
-  coords 1661.293 9.969 1277.176
-  angleY 90
+  coords 1652.962 16.681 1484.127
+  angleY 77.229
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
@@ -150,71 +136,31 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bringToFront 0
  }
- NVA_Coy_marker_12 {
-  coords 1656.823 14.979 1432.681
-  angleY 90
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "btr"
-  m_fWorldSize 35
-  m_sDescription "231 (BTR)"
-  m_aVisibleForFactions {
-   "GC_NVA"
-  }
-  m_bringToFront 0
- }
- NVA_Coy_marker_10 {
-  coords 1659.042 10.146 1357.685
-  angleY 90
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "btr"
-  m_fWorldSize 35
-  m_sDescription "233 (BTR)"
-  m_aVisibleForFactions {
-   "GC_NVA"
-  }
-  m_bringToFront 0
- }
  NVA_Coy_marker_2 {
-  coords 1255.199 20.656 2600.708
-  angleY -113.745
+  coords 1658.775 16.12 2315.649
+  angleY -117.742
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.071 0.192 0.561 1
   m_sQuadName "bmp"
-  m_fWorldSize 25
-  m_sDescription "Bradley"
+  m_fWorldSize 30
+  m_sDescription "Bradley (Last Known)"
   m_aVisibleForFactions {
    "GC_NVA"
   }
   m_bringToFront 0
  }
- Blu_Mark_8 {
-  coords 1357.136 20.625 2402.404
+ NVA_Coy_marker_6 {
+  coords 1656.289 15.594 1555.756
   angleY 90
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.071 0.192 0.561 1
-  m_sQuadName "combined"
-  m_sDescription "Bradley"
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 80
+  m_sDescription "234"
   m_aVisibleForFactions {
-   "US"
-  }
-  m_bringToFront 0
- }
- Blu_Mark_9 {
-  coords 1438.653 20.757 2394.791
-  angleY 90
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.071 0.192 0.561 1
-  m_sQuadName "combined"
-  m_sDescription "Bradley"
-  m_aVisibleForFactions {
-   "US"
+   "GC_NVA"
   }
   m_bringToFront 0
  }

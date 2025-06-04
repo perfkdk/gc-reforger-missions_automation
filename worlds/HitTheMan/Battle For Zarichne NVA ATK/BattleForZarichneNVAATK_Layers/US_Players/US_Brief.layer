@@ -65,7 +65,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Wearing tan coloured uniform & green/tan helmets."\
   ""\
   "Known Strength:"\
-  "1x Light Infantry Platoon (+)"\
+  "1x Light Infantry Company (-)"\
   "1x T-72A Section"\
   ""\
   "Location: "\
@@ -75,7 +75,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Move towards Zarichne, secure a foothold and clear each compound/sector one by one"\
   ""\
   "MDCOA:"\
-  "Utilize their T-72s and BTRs to lock down roads, and have infantry sweep the buildings slowly but steadily"\
+  "Utilize their T-72s to lock down roads, and have infantry sweep the buildings slowly but steadily"\
   ""\
   "CBRN Threat:"\
   "No known threat at this time."
