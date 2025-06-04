@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B14E735FC509FA2D}Missions/HitTheMan/rsz_1da-st-86-00224_three_m2_bradley_advance_through_a_wooded_area_during_exercise_reforger_85.edds"
+ Name "{B14E735FC509FA2D}Missions/HitTheMan/Bradley.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }
