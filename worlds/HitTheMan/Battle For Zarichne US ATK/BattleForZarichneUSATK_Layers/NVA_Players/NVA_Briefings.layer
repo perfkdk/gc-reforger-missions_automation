@@ -8,6 +8,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Known Strength:"\
   "Platoon (+)"\
+  "2x Bradleys"\
   ""\
   "Location: "\
   "South of Zarichne"\
@@ -21,7 +22,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "CBRN Threat:"\
   "No known threat at this time."
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 2
  }
@@ -31,7 +32,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Disposition:"\
   "Battalion is located North conducting similar operations in the area."\
   ""\
-  "BMP Platoon located south in positions to support & delay the incoming american movement."\
+  "T-72A Section located south in positions to support & delay the incoming american movement."\
   ""\
   "We used up our RPGs from earlier engagement, only have AT Mines at our disposal & a T-72A Section to try and deal with the Bradleys"\
   ""\
@@ -50,7 +51,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Attachments/Detachments:"\
   "None."
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 3
  }
@@ -59,7 +60,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Mission:"
   m_sTextData "Defend the town of Zarichne from the American forces, by utilizing what Urban denseness there is, AT Mine placements and our Section of T-72As (Marked on map)"
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 4
  }
@@ -76,7 +77,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Company Commander's Discretion."\
   ""
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 5
  }
@@ -97,7 +98,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "3x UAZ452 Vans"\
   "1x UAZ452 Ambulance"
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 6
  }
@@ -116,7 +117,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "III. Frequencies:"\
   "1st Platoon Net 	- 42.00"
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 7
  }

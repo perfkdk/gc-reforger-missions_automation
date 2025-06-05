@@ -104,7 +104,7 @@ Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/U
   }
  }
 }
-$grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
+$grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
  RifleSquad_1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -182,7 +182,85 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   }
  }
 }
-SCR_AIGroup MotorPLT_1 : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRiflePHQ_P.et" {
+$grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
+ T72A_NVA1 {
+  components {
+   RHS_GroupMaterialController "{658AB6326777B95D}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{658AB632658732AD}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{658AB63265A8D549}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658AB6326548B8DA}" {
+      m_iTextureID 6
+     }
+     RHS_MaterialGroupProperties "{658AB632656B9B60}" {
+      m_iTextureID 1
+     }
+    }
+   }
+   TILW_VehicleCrewComponent "{658AD3A559842CA3}" {
+    m_crewConfig TILW_CrewConfig "{658AD3A558A8D84D}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6586B448BA299FFD}" {
+       m_crewStations {
+        TILW_CrewStation "{6586B448B2255DBB}" {
+         m_characters {
+          "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+    }
+   }
+  }
+  coords 1493.208 20.624 2212.111
+  angleY 162.513
+ }
+ T72A_NVA2 {
+  components {
+   RHS_GroupMaterialController "{658AB6326777B95D}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{658AB632658732AD}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{658AB63265A8D549}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658AB6326548B8DA}" {
+      m_iTextureID 6
+     }
+     RHS_MaterialGroupProperties "{658AB632656B9B60}" {
+      m_iTextureID 2
+     }
+    }
+   }
+   TILW_VehicleCrewComponent "{658AD3A559842CA3}" {
+    m_crewConfig TILW_CrewConfig "{658AD3A558A8D84D}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6586B448BA299FFD}" {
+       m_crewStations {
+        TILW_CrewStation "{6586B448B2255DBB}" {
+         m_characters {
+          "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+    }
+   }
+  }
+  coords 1748.833 15.094 2175.361
+  angleY 172.784
+ }
+}
+SCR_AIGroup MotorPLT_1 : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRiflePHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
@@ -203,65 +281,5 @@ SCR_AIGroup MotorPLT_1 : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy
  m_sCustomNameSet "1st Platoon HQ"
  m_aUnitPrefabColorTeams {
   "Yellow" "Yellow" "Yellow" "Red"
- }
-}
-$grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
- T72A_base1 {
-  components {
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      m_fInitialFuelTankState 0
-     }
-    }
-   }
-   TILW_VehicleCrewComponent "{6586B448808CFA18}" {
-    m_crewConfig TILW_CrewConfig "{6586B448BAF31B8B}" {
-     m_crewGroups {
-      TILW_CrewGroup "{6586B448BA299FFD}" {
-       m_crewStations {
-        TILW_CrewStation "{6586B448B2255DBB}" {
-         m_characters {
-          "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et"
-         }
-        }
-       }
-      }
-     }
-     m_noTurretDismount 1
-    }
-   }
-  }
-  coords 1494.447 20.609 2211.47
-  angleY 168.182
- }
- T72A_base2 {
-  components {
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      m_fInitialFuelTankState 0
-     }
-    }
-   }
-   TILW_VehicleCrewComponent "{6586B44884A5CF49}" {
-    m_crewConfig TILW_CrewConfig "{6586B448A2322BDF}" {
-     m_crewGroups {
-      TILW_CrewGroup "{6586B448BA299FFD}" {
-       m_crewStations {
-        TILW_CrewStation "{6586B448B2255DBB}" {
-         m_characters {
-          "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et"
-         }
-        }
-       }
-      }
-     }
-     m_noTurretDismount 1
-    }
-   }
-  }
-  coords 1748.799 15.094 2175.717
-  angleY 176.907
  }
 }
