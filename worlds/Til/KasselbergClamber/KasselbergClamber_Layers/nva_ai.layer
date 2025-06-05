@@ -45,6 +45,9 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
  gr_nva_33 {
   coords 3688.382 320.57 2678.616
   angleY -9.594
+  m_aStaticWaypoints {
+   "wp_nva_def9"
+  }
  }
 }
 $grp SCR_AIGroup : "{F357F0DCAC2F8A5B}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_PHQ.et" {

@@ -29,4 +29,8 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   coords 3481.102 311.969 2855.524
   CompletionRadius 12.5
  }
+ wp_nva_def9 {
+  coords 3696.52 319.873 2671.091
+  CompletionRadius 17.5
+ }
 }

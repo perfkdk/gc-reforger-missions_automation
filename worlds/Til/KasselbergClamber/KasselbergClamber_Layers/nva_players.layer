@@ -67,6 +67,7 @@ $grp Vehicle : "{EC4811AC7C17DC7E}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_NVA.et" {
   angleX -3.942
   angleY -17.042
   angleZ -0.661
+  m_sAttachmentGroupName "gr_nva_brdm1"
  }
  BRDM2_2 {
   components {
@@ -88,5 +89,6 @@ $grp Vehicle : "{EC4811AC7C17DC7E}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_NVA.et" {
   angleX -3.991
   angleY 29.784
   angleZ -0.224
+  m_sAttachmentGroupName "gr_nva_brdm2"
  }
 }
