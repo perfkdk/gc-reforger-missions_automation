@@ -518,6 +518,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      }
      m_clearExisting 1
     }
+    TILW_AssignWaypointsInstruction "{658AD8D30DBD62BF}" {
+     m_groupName "T72_NVA2"
+     m_waypointNames {
+      "wp_counter_attack_2"
+     }
+     m_clearExisting 1
+    }
     TILW_SendMessageInstruction "{65893EE10DED7162}" {
      m_executionDelay 8
      m_messageTitle "Battalion Radio Report:"

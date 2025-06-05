@@ -172,6 +172,98 @@ $grp GenericEntity : "{5821AF9613353C80}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY -23.58
  }
 }
+$grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
+ T72A_NVA2 {
+  components {
+   RHS_GroupMaterialController "{658AB6326777B95D}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{658AB632658732AD}" {
+      m_iTextureID 4
+     }
+     RHS_MaterialGroupProperties "{658AB63265A8D549}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658AB6326548B8DA}" {
+      m_iTextureID 8
+     }
+     RHS_MaterialGroupProperties "{658AB632656B9B60}" {
+      m_iTextureID 1
+     }
+    }
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 500
+     }
+    }
+   }
+   TILW_VehicleCrewComponent "{658AD8D344784514}" {
+    m_crewConfig TILW_CrewConfig "{658AD8D37AB0928C}" {
+     m_crewGroups {
+      TILW_CrewGroup "{651028E34B0E58D9}" {
+       m_crewStations {
+        TILW_CrewStation "{651028E349419D3E}" {
+         m_allowCargo 0
+         m_characters {
+          "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 667.086 12.766 3044.996
+  angleY -38.506
+ }
+ T72A_NVA1 {
+  components {
+   RHS_GroupMaterialController "{658AB6326777B95D}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{658AB632658732AD}" {
+      m_iTextureID 4
+     }
+     RHS_MaterialGroupProperties "{658AB63265A8D549}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658AB6326548B8DA}" {
+      m_iTextureID 8
+     }
+     RHS_MaterialGroupProperties "{658AB632656B9B60}" {
+      m_iTextureID 1
+     }
+    }
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   TILW_VehicleCrewComponent "{658AD8D344784514}" {
+    m_crewConfig TILW_CrewConfig "{658AD8D37AB0928C}" {
+     m_crewGroups {
+      TILW_CrewGroup "{651028E34B0E58D9}" {
+       m_crewStations {
+        TILW_CrewStation "{651028E349419D3E}" {
+         m_allowCargo 0
+         m_characters {
+          "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 1154.948 7.231 3247.798
+  angleY -28.826
+ }
+}
 $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et" {
  NVA_AI_1 {
   components {
@@ -494,66 +586,6 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   coords 571.329 4.353 3160.379
   angleY -66.498
   CompletionRadius 20
- }
-}
-$grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
- T72A_base1 {
-  components {
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      m_fInitialFuelTankState 0
-     }
-    }
-   }
-   TILW_VehicleCrewComponent "{65891D1F20779DD6}" {
-    m_crewConfig TILW_CrewConfig "{65891D1F272E59F9}" {
-     m_crewGroups {
-      TILW_CrewGroup "{651028E34B0E58D9}" {
-       m_crewStations {
-        TILW_CrewStation "{651028E349419D3E}" {
-         m_allowCargo 0
-         m_characters {
-          "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
-  coords 1154.86 7.274 3247.652
-  angleY -29.931
- }
- T72A_base2 {
-  components {
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      m_fInitialFuelTankState 0
-     }
-    }
-   }
-   TILW_VehicleCrewComponent "{65891D1F20779DD6}" {
-    m_crewConfig TILW_CrewConfig "{65891D1F272E59F9}" {
-     m_crewGroups {
-      TILW_CrewGroup "{651028E34B0E58D9}" {
-       m_crewStations {
-        TILW_CrewStation "{651028E349419D3E}" {
-         m_allowCargo 0
-         m_characters {
-          "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
-  coords 667.895 12.777 3044.259
-  angleY -37.568
  }
 }
 GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {

@@ -2,7 +2,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  T72A_Counter_Spawn_2 {
   coords 43.312 19.625 2810.516
   angleY 88.675
-  m_prefab "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et"
+  m_prefab "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
    60 200
@@ -30,7 +30,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  T72A_Counter_Spawn_1 {
   coords 51.858 20.346 2503.286
   angleY 88.675
-  m_prefab "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et"
+  m_prefab "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
    60 200
