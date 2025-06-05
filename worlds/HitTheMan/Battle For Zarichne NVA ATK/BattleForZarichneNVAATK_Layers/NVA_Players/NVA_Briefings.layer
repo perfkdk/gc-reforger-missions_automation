@@ -21,7 +21,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "CBRN Threat:"\
   "No known threat at this time."
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 2
  }
@@ -46,7 +46,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Attachments/Detachments:"\
   "2x T-72As"
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 3
  }
@@ -61,7 +61,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "No Civilians in the area"
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 4
  }
@@ -78,7 +78,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Company Commander's Discretion."\
   ""
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 5
  }
@@ -102,7 +102,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "2x UAZ452s"\
   "1x UAZ452 Ambulance"
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 6
  }
@@ -130,7 +130,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "III. Frequencies:"\
   "Company Net 		- 42.00"
   m_aVisibleForFactions {
-   "GC_TKA"
+   "GC_NVA"
   }
   m_iOrder 7
  }
