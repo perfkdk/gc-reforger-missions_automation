@@ -57,7 +57,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Secure the town of Zarichne from the US Army fortified there, destroying the Bradley Section and establish your own defences there facing North."\
   ""\
-  "We've located one AT Minefield (Marked on map), however there may be more, utilize democharges as needed to clear the path for the T-72As and BTRs as needed"\
+  "We've located one AT Minefield (Marked on map), however there may be more, utilize democharges as needed to clear the path for the T-72As as needed"\
   ""\
   "No Civilians in the area"
   m_aVisibleForFactions {
