@@ -13,7 +13,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    m_iSetYear 2022
   }
  }
- m_iFreezeTime 240000
+ m_iFreezeTime 120000
 }
 TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
  coords 368 0 368
