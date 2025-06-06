@@ -13,8 +13,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Reconnaissance platoon (SPW-40P2), currently near Allenburg. One vehicle has established an OP ahead of Wasserberg."\
   "Company of Motor Rifle troops (SPW-70), its platoons have established defensive positions at Wasserberg, Allenburg and Kasselberg. Its tank platoons T-72s are in firing positions further back."\
-  "Mortar element at Kasselberg, ready to respond in case the reconnaissance platoon locates an enemy force."\
-  "Battalion level support elements further south east near Sonnenberg, preparing for withdrawal while the company defends/delays."
+  "Mortar element at Kasselberg, ready to respond in case the reconnaissance platoon locates an enemy force."
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -25,7 +24,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission"
   m_sTextData "II. Mission"\
   ""\
-  "Prevent the enemy from reaching Kasselberg, or alternatively delay him by at least 40 minutes."\
+  "Prevent the enemy from reaching Kasselberg, or if not possible, delay him by at least 40 minutes."\
   "The enemy will likely attempt to secure Wasserberg or Allenburg in the process."\
   ""\
   ""\
@@ -54,7 +53,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "a. Enemy forces"\
   ""\
-  "One East German motorized rifle company to the south west, defending the approach to Sonnenberg, where aerial reconnaissance previously spotted battalion level support elements."\
+  "One East German motorized rifle company to the south west, defending the approach to Sonnenberg."\
   "The enemy has established strongpoints at Wasserberg, Allenburg and Kasselberg."\
   ""\
   "b. Friendly Forces"\
