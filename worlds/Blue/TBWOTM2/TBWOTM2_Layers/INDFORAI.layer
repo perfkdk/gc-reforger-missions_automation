@@ -1,0 +1,12 @@
+TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ coords 1393.945 69.562 3239.759
+ m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
+ m_pregameSpawn 1
+ m_waypointNames {
+  "DEF1"
+ }
+}
+SCR_DefendWaypoint DEF1 : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ coords 1389.028 69.562 3274.562
+ CompletionRadius 5
+}
