@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{3604F255669A4346}Prefabs/Groups/BLUFOR/US/Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Group_US_1986_BDU_Brad_PLT_HQ_P.et" {
+$grp SCR_AIGroup : "{3604F255669A4346}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_Brad_PLT_HQ_P.et" {
  US_BradCrew_1 {
   components {
    PS_GroupCallsignAssigner "{6582D12528A64B04}" {
@@ -9,8 +9,9 @@ $grp SCR_AIGroup : "{3604F255669A4346}Prefabs/Groups/BLUFOR/US/Army/1986/Woodlan
   }
   coords 1581.925 15.219 1444.839
   m_aUnitPrefabSlots {
-   "{C01756C6A3458385}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_CO_P.et" "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_Gunner_P.et" "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_Driver_P.et"
+   "{C01756C6A3458385}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_CO_P.et" "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Gunner_P.et" "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
   }
+  m_sCustomNameSet "1st Bradley"
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow"
   }
@@ -25,8 +26,9 @@ $grp SCR_AIGroup : "{3604F255669A4346}Prefabs/Groups/BLUFOR/US/Army/1986/Woodlan
   }
   coords 1576.976 15.313 1422.165
   m_aUnitPrefabSlots {
-   "{C01756C6A3458385}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_CO_P.et" "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_Gunner_P.et" "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/2AD Bradley Mech/P/Character_US_1986_BDU_Brad_Driver_P.et"
+   "{C01756C6A3458385}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_CO_P.et" "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Gunner_P.et" "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
   }
+  m_sCustomNameSet "2nd Bradley"
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow"
   }
@@ -111,7 +113,7 @@ SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/Restriction
  angleY -16.316
  angleZ 0.011
 }
-SCR_AIGroup US_PLTHQ : "{7E53E193D3894D09}Prefabs/Groups/BLUFOR/US/Army/1986/Woodland (BDU)/P/Group_US_1986_BDU_PLT_HQ_P.et" {
+SCR_AIGroup US_PLTHQ : "{7E53E193D3894D09}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_PLT_HQ_P.et" {
  components {
   PS_GroupCallsignAssigner "{6582D1205FA38942}" {
    m_iCompanyCallsign 3
@@ -120,13 +122,13 @@ SCR_AIGroup US_PLTHQ : "{7E53E193D3894D09}Prefabs/Groups/BLUFOR/US/Army/1986/Woo
  }
  coords 1600.789 15.377 1457.655
  m_aUnitPrefabSlots {
-  "{B84BD723E682B978}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_PL_CO_P.et" "{81D3F65CC7054E96}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_PSG_P.et" "{A1AFC251AE26C34E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_RTO_P.et" "{E1FEFB8E5AF7B890}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_MAT_P.et" "{4BE9B73C3AE3846B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_MATAss_P.et" "{F841D41888F73D00}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_Medic_P.et" "{F841D41888F73D00}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Woodland (BDU)/P/Character_US_1986_BDU_Medic_P.et"
+  "{B84BD723E682B978}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_PL_CO_P.et" "{81D3F65CC7054E96}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_PSG_P.et" "{A1AFC251AE26C34E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_RTO_P.et" "{E1FEFB8E5AF7B890}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_MAT_P.et" "{4BE9B73C3AE3846B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_MATAss_P.et" "{F841D41888F73D00}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_Medic_P.et" "{F841D41888F73D00}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_Medic_P.et"
  }
  m_aUnitPrefabColorTeams {
   "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Red" "Red"
  }
 }
-$grp SCR_AIGroup : "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Woodland (BDU)/P/Group_US_1986_BDU_RifleSquad_M249_P.et" {
+$grp SCR_AIGroup : "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et" {
  US_RifleSquad_1 {
   components {
    PS_GroupCallsignAssigner "{6582D1205FA50E6F}" {
