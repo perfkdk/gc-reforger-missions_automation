@@ -1,0 +1,285 @@
+$grp Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport.et" {
+ UAZ452_transport1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6586BE0A73207041}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{6586BE096BC47170}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+      }
+      NumSlots 12
+     }
+    }
+   }
+  }
+  coords 1350.032 20.656 2550.871
+  angleY 62.245
+ }
+ UAZ452_transport2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6586BE0A62884571}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{6586BE0962890AED}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+      }
+      NumSlots 12
+     }
+    }
+   }
+  }
+  coords 1342.317 20.656 2546.026
+  angleY 62.245
+ }
+ UAZ452_transport3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6586BE0A6696475C}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{6586BE09667550DF}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+      }
+      NumSlots 12
+     }
+    }
+   }
+  }
+  coords 1335.114 20.656 2542.786
+  angleY 62.245
+ }
+}
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 56
+    }
+   }
+  }
+  SCR_ResourceComponent "{5D83561B5E01449A}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D83561B5DCF4DE6}" {
+    }
+   }
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{5DAD42B3CC9612DF}" {
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{5DDCCC77DBBCDA33}" {
+       m_fResourceValueCurrent 2000
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1357.369 20.656 2555.112
+ angleX 1.18
+ angleY 62.698
+ angleZ -1.615
+ m_sAttachmentGroupName "CoyHQ"
+ {
+  GenericEntity {
+   ID "5E2E7C60E0F9B3F4"
+   coords 0 0 0
+   angleY -90
+  }
+ }
+}
+$grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
+ RifleSquad_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 1354.3 22.408 2548.433
+  angleX 1.794
+  angleY 150.921
+  angleZ -0.793
+  m_faction "GC_NVA"
+  m_aUnitPrefabSlots {
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+  }
+  m_sCustomNameSet "1st Squad"
+  m_aUnitPrefabColorTeams {
+   "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue"
+  }
+  m_aUnitPrefabOverrideIcons {
+   "" "" "" "Team Leader" "Machine Guner" "Man"
+  }
+ }
+ RifleSquad_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 1346.322 22.484 2543.277
+  angleX 1.719
+  angleY 149.982
+  angleZ 0.148
+  m_faction "GC_NVA"
+  m_aUnitPrefabSlots {
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+  }
+  m_aUnitPrefabColorTeams {
+   "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue"
+  }
+  m_aUnitPrefabOverrideIcons {
+   "" "" "" "Team Leader" "Machine Guner" "Man"
+  }
+ }
+ RifleSquad_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 4
+   }
+  }
+  coords 1339.461 22.085 2538.714
+  angleX 1.73
+  angleY 146.631
+  angleZ 1.002
+  m_faction "GC_NVA"
+  m_aUnitPrefabSlots {
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+  }
+  m_sCustomNameSet "3rd Squad"
+  m_aUnitPrefabColorTeams {
+   "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue"
+  }
+  m_aUnitPrefabOverrideIcons {
+   "" "" "" "Team Leader" "Machine Guner" "Man"
+  }
+ }
+}
+$grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
+ T72A_NVA1 {
+  components {
+   RHS_GroupMaterialController "{658AB6326777B95D}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{658AB632658732AD}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{658AB63265A8D549}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658AB6326548B8DA}" {
+      m_iTextureID 6
+     }
+     RHS_MaterialGroupProperties "{658AB632656B9B60}" {
+      m_iTextureID 1
+     }
+    }
+   }
+   TILW_VehicleCrewComponent "{658AD3A559842CA3}" {
+    m_crewConfig TILW_CrewConfig "{658AD3A558A8D84D}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6586B448BA299FFD}" {
+       m_crewStations {
+        TILW_CrewStation "{6586B448B2255DBB}" {
+         m_characters {
+          "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+    }
+   }
+  }
+  coords 1493.208 20.624 2212.111
+  angleY 162.513
+ }
+ T72A_NVA2 {
+  components {
+   RHS_GroupMaterialController "{658AB6326777B95D}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{658AB632658732AD}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{658AB63265A8D549}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658AB6326548B8DA}" {
+      m_iTextureID 6
+     }
+     RHS_MaterialGroupProperties "{658AB632656B9B60}" {
+      m_iTextureID 2
+     }
+    }
+   }
+   TILW_VehicleCrewComponent "{658AD3A559842CA3}" {
+    m_crewConfig TILW_CrewConfig "{658AD3A558A8D84D}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6586B448BA299FFD}" {
+       m_crewStations {
+        TILW_CrewStation "{6586B448B2255DBB}" {
+         m_characters {
+          "{72BF67D118BC5930}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Driver.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et" "{9594C031304B509D}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_Gunner.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+    }
+   }
+  }
+  coords 1748.833 15.094 2175.361
+  angleY 172.784
+ }
+}
+SCR_AIGroup MotorPLT_1 : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRiflePHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{65136701CA021D8F}" {
+   m_iPlatoonCallsign 2
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1360.417 22.488 2551.567
+ angleX 0.868
+ angleY 151.01
+ angleZ 0.459
+ m_faction "GC_NVA"
+ m_aUnitPrefabSlots {
+  "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et" "{69E1927251152E5D}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Radioman_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et"
+ }
+ m_sCustomNameSet "1st Platoon HQ"
+ m_aUnitPrefabColorTeams {
+  "Yellow" "Yellow" "Yellow" "Red"
+ }
+}
