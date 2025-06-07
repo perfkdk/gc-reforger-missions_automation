@@ -443,6 +443,6 @@ SCR_AIGroup COYHQ : "{809D5896510B70C2}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf
  coords 803.825 35.374 4216.613
  angleY 2.24
  m_aUnitPrefabSlots + {
-  "{F841D41888F73D00}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_Medic_P.et" "{FA51D39A01EEBAC3}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/Character_US_1986_BDU_Brad_Master_Gunner_AI.et" "{1FB2FCFCD1CE8252}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/Character_US_1986_BDU_Brad_Driver_AI.et"
+  "{F841D41888F73D00}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_Medic_P.et" "{210E86F1B72C72CA}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Master_Gunner_P.et" "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
  }
 }
