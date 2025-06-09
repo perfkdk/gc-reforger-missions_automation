@@ -7,4 +7,9 @@
 </p>
 
 # gc-reforger-missions
+
 [GC Missions](https://reforger.armaplatform.com/workshop/62D55563549DA97A-GlobalConflictsMissions) is a repository of Arma Reforger missions created by and for the Global Conflicts community.
+
+## Contributing
+
+Information on how to contribute can be found in the [GC Missions Wiki](https://github.com/Global-Conflicts-ArmA/gc-reforger-missions/wiki).
