@@ -83,6 +83,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "2:1 ratio."\
   "Time Limit - 75 mins."\
+  "Setup - 5 mins."\
   ""\
   "Radios:"\
   "	Only the CO, RTOs and MFC have radios on UK side."\
