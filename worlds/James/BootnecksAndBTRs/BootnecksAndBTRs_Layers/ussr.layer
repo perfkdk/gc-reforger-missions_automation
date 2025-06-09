@@ -55,10 +55,40 @@ SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rif
 }
 $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR.et" {
  BTR70_USSR1 {
-  coords 5346.883 20.605 9926.191
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 1
+     }
+    }
+   }
+  }
+  coords 5346.883 20.605 9926.19
   angleY 16.932
  }
  BTR70_USSR2 {
+  components {
+   RHS_GroupMaterialController "{65151D74DAFD4445}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{65151D74A863B0CF}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{65151D74B7FFFDEA}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{65151D74B724A768}" {
+      m_iTextureID 2
+     }
+    }
+   }
+  }
   coords 5342.497 20.605 9911.783
   angleY 16.932
  }
