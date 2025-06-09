@@ -1,0 +1,130 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 5797.6 1.377 10684.709
+  m_sTitle "SITUATION"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "a. Enemy Forces."\
+  "	(1) Elms 875th Mne bn ident area northern Everon."\
+  "	(2) Pl sized adv elm ident area crossroads at Etoupe."\
+  "	(3) Coy (-) setting up def posns ident area Tyrone."\
+  "	(4) No known en fires or air threat."\
+  "	(5) MLCOA en pl spreads elms to cover approach to Etoupe."\
+  ""\
+  "b. Friendly Forces."\
+  "	(1) Bde Concept. Bde to seize Everon with 40 cdo north and 42 cdo south. 45 in reserve. 40 to land and seize north peninsula to enable use of airfield for follow on elms. "\
+  "	(2) Cdo Concept. Cdo to seize north peninsula. A Coy main effort on airfield with B Coy in sp. C Coy to move south and estb blocking posn south."\
+  ""\
+  "c. Atts and Dets. See Task Org."\
+  ""
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_iOrder 3
+ }
+ {
+  coords 5797.6 1.377 10684.709
+  m_sTitle "MISSION"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "C Coy is to attack south of airfield, estb blocking posns in area near Tyrone in order to deny reinforcements to airfield."
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_iOrder 4
+ }
+ {
+  coords 5797.6 1.377 10684.709
+  m_sTitle "EXECUTION"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "a. Concept of Ops. C Coy will estb blocking posns south of airfield by deploying 2 Tp fwd to seize crossroads at Etoupe to block MSR. 1 and 3 Tps will then conduct fwd passage of lines and attack Tyrone. Once secured C Coy will regroup and estb blocking posns south of Tyrone, likely with 2 and 3 Tps fwd and 1 Tp in Tyrone proper."\
+  ""\
+  "b. 1 Tp Msn. Attack through 2 Tp to Tyrone. "\
+  "	(1) Once 2 Tp has secured crossroads conduct fwd passage of lines."\
+  "	(2) Secure Tyrone with sp of 3 Tp."\
+  ""\
+  "c. 2 Tp (YOU) Msn. Secure the crossroads at Etoupe."\
+  "	(1) Eliminate adv elms of Mne coy to our south."\
+  "	(2) Estb defensive posns and asst fwd passage of lines of 1 and 3 Tps. "\
+  ""\
+  "d. 3 Tp Msn.  Sp attack through to Tyrone."\
+  "	(1) Once 2 Tp has secured crossroads conduct fwd passage of lines."\
+  "	(2) Sp 1 Tps attack through to Tyrone."\
+  ""\
+  "f. Fires."\
+  "	(1) To sp close battle, pri to 1 and 3 Tps attack on Tryone."\
+  "	(2) 1 tube tasked to 2 Tp."\
+  ""\
+  "g. Coord Instrs."\
+  "	(1) Timings. "\
+  "		(a) H Hour 2 Tp - 120620. (Five mins from start)"\
+  "		(b) H Hour 1 and 3 Tps - Not before 120730."\
+  "		(c) Crossroads secure by 120730."\
+  "		(c) Tyrone secure by 1209000."\
+  "		(d) Blocking posns estb by 120930."\
+  ""\
+  "	(2) Fire Plan. 1 mortar to sp 2 Tp, remaining mortar Tp to sp 1 and 3 Tps ME."\
+  ""
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_iOrder 5
+ }
+ {
+  coords 5797.6 1.377 10684.709
+  m_sTitle "SERVICE SUPPORT"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "a. Resup available after Tyrone secured. "\
+  ""
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_iOrder 6
+ }
+ {
+  coords 5797.6 1.377 10684.709
+  m_sTitle "COMMAND AND SIGNAL"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "a. Locs."\
+  "	(1) Main HQ C Coy. Co-loc with 1 and 3 Tps for ME."\
+  "	(2) Rear HQ C Coy. At trail of coy. Will locate with 2 Tp once Etoupe secure."\
+  ""\
+  "b. Signal."\
+  "	(1) SOI in effect. See slot screen for c/s."\
+  "	Addl - MFC c/s is 51B."\
+  "	(2) Freqs. "\
+  "		46 MHz for Coy Main. "\
+  "		45 MHz - Coy Alt."\
+  "		44 MHz - MFC"\
+  ""
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_iOrder 7
+ }
+ {
+  coords 5797.6 1.377 10684.709
+  m_sTitle "TASK ORG"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "a. See slot screen."\
+  ""
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_iOrder 2
+ }
+ {
+  coords 5797.6 1.377 10684.709
+  m_sTitle "PRELIMS"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "a. Current time 0615."\
+  ""\
+  "b. C Coy adv elms (YOU) loc grid (057,107). En OBJ loc grid (053,099)."\
+  ""\
+  "c. Weather - Overcast with heavy rain. Fog reducing visiblity."\
+  ""\
+  "d. First light 0545."
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_iOrder 1
+ }
+}
