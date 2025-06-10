@@ -21,9 +21,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "Artillery fires of the bn are occupied with the contact to the SE and the Airfield north."\
   ""\
-  "1st Mne Coy (1.MPR / 875 OBMP) is to def airfield and St Phillipe against attack from NE."\
+  "1st Marine Coy (1.MPR / 875 OBMP) is to def airfield and St Phillipe against attack from NE."\
   ""\
-  "2nd Mne Coy (2.MPR / 875 OBMP) is to estb def posns south of airfield and keep MSR open. "\
+  "2nd Marine Coy (YOU) (2.MPR / 875 OBMP) is to estb def posns south of airfield and keep MSR open. "\
   ""\
   "3rd Mne Coy (3.MPR / 875 OBMP) is to def posns area ident Andres Beacon."\
   ""\
@@ -39,9 +39,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5396.547 19.104 9938.464
   m_sTitle "MISSION"
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
-  m_sTextData "2nd Mne Coy defends area around Tyrone, with task to repel enemy attack forward of Tyrone, and to keep the road open to the airfield for reinforcement."\
-  ""\
-  ""
+  m_sTextData "2nd Marine Coy defends area around Tyrone, with task to repel enemy attack forward of Tyrone, and to keep the road open to the airfield for reinforcement."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -52,14 +50,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "ORDER"
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "a) Tasks to sub-units."\
-  "	The 1st Pl (YOU) is to defend the crossroads at Etoupe against enemy attack and delay the enemy so that the rest of the coy can form def of Tyrone."\
+  "	The 1st Pl (YOU) is to defend the crossroads at Etoupe against enemy attack and delay the enemy so that the rest of the coy can form defence at Tyrone."\
   ""\
-  "	The 2nd Pl is to establish posns ahead of Tyrone in area of line between Hedgehog Hill and Lacans Head with support of coy MG squad."\
-  ""\
-  "	The 3rd Pl is to establish strongpoint at Tyrone proper with HQ elms."\
+  "	The rest of coy will establish defensive positions to the south of 1st Pl near Tyrone."\
   ""\
   "b. Readiness Times."\
   "	Attack is expected to commence 12/03, 06.20 h. (Five mins from start)"\
+  "	Rest of coy established defence vicinity Tyrone 12/03 07.30. (Your time limit)"\
   ""\
   "c. Signals"\
   "	46MHz."\
@@ -67,10 +64,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "	2nd BTR - 222"\
   ""\
   "5. Loc of CO."\
-  "	My location is with 3 Pl at Tyrone, coordinating strongpoint def."\
-  "	My deputy is with 2 Pl at Hedgehog Hill."\
+  "	Coy HQ location is with rest of coy near Tyrone, coordinating main defence."\
+  ""\
   "6. Succession"\
-  "	My successor: Deputy/2 Pl CO."\
+  "	Coy CO successor: Deputy/2 Pl CO."\
   ""
   m_aVisibleForFactions {
    "USSR"
