@@ -1,16 +1,18 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  D0_Overview {
   m_sTitle "Overview"
-  m_sTextData "NVA reconnaissance company attempts to penetrate a LAR platoons screen."
+  m_sTextData "NVA reconnaissance company moves through a forest while a USMC LAR platoon is screening."
   m_bEmptyFactionVisibility 1
  }
  D3_Notes {
   coords 0 0 0
   m_sTitle "Notes"
-  m_sTextData "Setup Timer: 3 minutes (NVA)"\
+  m_sTextData "Setup Timer: 5 minutes (NVA)"\
+  "Time: Early morning"\
+  "Weather: Heavy wet fog"\
   ""\
   "Note for the NVA commander: If the US allocates their forces well, a Shift+W column has a high chance of ending in disaster. It's also not the most fun way to play the mission."\
-  "Also, you should not deliberately split up your force into elements smaller than platoon size."\
+  "Also, you should not deliberately split up your company into elements smaller than platoon size."\
   ""\
   "End conditions:"\
   "Major NVA Victory: The NVA has completed the movement with 5-7 vehicles remaining."\
@@ -48,7 +50,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  D1_Briefing_US {
   coords 0 0 0
   m_sTitle "Briefing"
-  m_sTextData "I-. Situation"\
+  m_sTextData "I. Situation"\
   ""\
   "a. Enemy Forces"\
   "Unknown. If there are any, they will be approaching from the east."\
@@ -58,12 +60,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "One LAR company, screening its eastern flank."\
   "Your platoon is located in the forest east of Kassel, the other platoons are screening to the north and south."\
   ""\
-  ""\
   "II. Mission"\
   ""\
   "Screen this sector of the divisions flank, providing warning about larger advancing formations as part of the company, but also preventing enemy reconnaissance units from moving through the forest and reconnoitring the division."\
   ""\
-  "The platoon should not abandon its general position unless there is a large force advancing. Otherwise, the platoon is not to fall back past 000, even if a small reconnaissance unit should manage to penetrate the screen."\
+  "The platoon should not abandon its general position unless there is a large force advancing. Otherwise, the platoon is not to fall back past 016, even if a small reconnaissance unit should manage to penetrate the screen."\
   ""\
   "Due to the terrain, it is advisable to deploy scouts ahead of the their vehicles, to prevent enemy reconnaissance from making a sudden breakthrough that cannot be responded to."
   m_aVisibleForFactions {
