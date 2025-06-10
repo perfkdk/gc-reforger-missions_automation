@@ -1,4 +1,94 @@
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ m_missionEvents {
+  TILW_MissionEvent "{659370B0AF440442}" {
+   m_name "US Major"
+   m_instructions {
+    TILW_SendMessageInstruction "{659370B090CC9596}" {
+     m_messageTitle "MAJOR US VICTORY"
+     m_messageBody "The NVA company suffered extreme casualties."
+    }
+    TILW_EndGameInstruction "{659370B097FCA304}" {
+     m_executionDelay 15
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_DisjunctionTerm "{659370AC76040F7E}" {
+    m_operands {
+     TILW_LiteralTerm "{659370AC78655126}" {
+      m_flagName "nva_cas"
+     }
+     TILW_ConjunctionTerm "{659370AC4449AA62}" {
+      m_operands {
+       TILW_LiteralTerm "{659370AC4B494D04}" {
+        m_flagName "extr_players"
+       }
+       TILW_LiteralTerm "{659370AC4855EC79}" {
+        m_invertTerm 1
+        m_flagName "extr_low"
+       }
+      }
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{659370A2CD478268}" {
+   m_name "US Minor"
+   m_instructions {
+    TILW_SendMessageInstruction "{659370A2D7DD7557}" {
+     m_executionDelay 2700
+     m_messageTitle "MINOR US VICTORY"
+     m_messageBody "Reinforcements arrive, forcing the remaining NVA troops to withdraw."
+    }
+    TILW_EndGameInstruction "{659370A361024006}" {
+     m_executionDelay 2730
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_LiteralTerm "{659370A2D0B804A0}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{659370A2C37135BB}" {
+   m_name "NVA Major"
+   m_instructions {
+    TILW_SendMessageInstruction "{659370AC0D12801B}" {
+     m_messageTitle "MAJOR NVA VICTORY"
+     m_messageBody "The NVA reconnaissance company completed its movement without suffering high losses."
+    }
+    TILW_EndGameInstruction "{659370ACE60CD79F}" {
+     m_executionDelay 15
+     m_factionKey "GC_NVA"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{659370A37496A9F1}" {
+    m_operands {
+     TILW_LiteralTerm "{659370A37B9CE3E2}" {
+      m_flagName "extr_high"
+     }
+     TILW_LiteralTerm "{659370ACF6276C20}" {
+      m_flagName "extr_players"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{659370A2C046CDF7}" {
+   m_name "NVA Minor"
+   m_condition TILW_ConjunctionTerm "{659370ACC32694FF}" {
+    m_operands {
+     TILW_LiteralTerm "{659370ACC15579B7}" {
+      m_flagName "extr_low"
+     }
+     TILW_LiteralTerm "{659370ACC6BA82E1}" {
+      m_invertTerm 1
+      m_flagName "extr_high"
+     }
+     TILW_LiteralTerm "{659370ACD206B60C}" {
+      m_flagName "extr_players"
+     }
+    }
+   }
+  }
+ }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{658AC02A759E6C88}" {
    m_flagName "nva_cas"

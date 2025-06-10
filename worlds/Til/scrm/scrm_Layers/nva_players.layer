@@ -1,19 +1,86 @@
 $grp SCR_AIGroup : "{B8BFDDDEEFB02E28}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA_VehicleCrew_P.et" {
  BRDMCrew1 {
+  components {
+   PS_GroupCallsignAssigner "{65894BA656D8CD87}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
   coords 4165.396 396.366 1010.825
   angleY 173.413
+  m_sCustomNameSet "1st Plt | 1st SPW-40P2"
  }
  BRDMCrew3 {
+  components {
+   PS_GroupCallsignAssigner "{65894BA656D8CD87}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 3
+   }
+  }
   coords 4188.626 397.358 1016.184
   angleY 169.244
+  m_sCustomNameSet "1st Plt | 3rd SPW-40P2"
  }
  BRDMCrew2 {
+  components {
+   PS_GroupCallsignAssigner "{65894BA656D8CD87}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 2
+   }
+  }
   coords 4176.363 396.806 1013.474
   angleY 169.244
+  m_sCustomNameSet "1st Plt | 2nd SPW-40P2"
  }
  BRDMCrew0 {
+  components {
+   PS_GroupCallsignAssigner "{65894BA656D8CD87}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+   }
+  }
   coords 4204.301 398.371 1020.234
   angleY 164.343
+  m_sCustomNameSet "Company HQ"
+ }
+ BRDMCrew4 {
+  components {
+   PS_GroupCallsignAssigner "{65894BA656D8CD87}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 4
+   }
+  }
+  coords 4222.51 400.743 1026.145
+  angleY 162.655
+  m_sCustomNameSet "2nd Plt | 1st SPW-40P2"
+ }
+ BRDMCrew5 {
+  components {
+   PS_GroupCallsignAssigner "{65894BA656D8CD87}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 5
+   }
+  }
+  coords 4233.654 402.511 1029.401
+  angleY 162.655
+  m_sCustomNameSet "2nd Plt | 2nd SPW-40P2"
+ }
+ BRDMCrew6 {
+  components {
+   PS_GroupCallsignAssigner "{65894BA656D8CD87}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 6
+   }
+  }
+  coords 4247.645 401.898 1032.912
+  angleY 165.648
+  m_sCustomNameSet "2nd Plt | 3rd SPW-40P2"
  }
 }
 $grp Vehicle : "{EC4811AC7C17DC7E}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_NVA.et" {
