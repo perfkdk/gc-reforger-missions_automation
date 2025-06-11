@@ -18,6 +18,7 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   coords 656.519 38.255 3237.012
   TriggerShapeType Sphere
   SphereRadius 10
+  DrawShape 0
   m_spawnPoints {
    "US_A"
   }
@@ -41,6 +42,7 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   coords 883.869 39.758 3200.168
   TriggerShapeType Sphere
   SphereRadius 10
+  DrawShape 0
   m_sAreaSymbol "#AR-CAH-Area_Symbol_B"
   m_spawnPoints {
    "US_B"
@@ -73,6 +75,7 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   coords 1225.039 35.057 3364.506
   TriggerShapeType Sphere
   SphereRadius 10
+  DrawShape 0
   m_sAreaSymbol "#AR-CAH-Area_Symbol_C"
   m_spawnPoints {
    "US_C"
@@ -89,6 +92,7 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   coords 1399.17 69.562 3192.071
   TriggerShapeType Sphere
   SphereRadius 10
+  DrawShape 0
   m_sAreaSymbol "#AR-CAH-Area_Symbol_D"
   m_spawnPoints {
    "US_D"
@@ -105,6 +109,7 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   coords 1649.547 25.789 3621.574
   TriggerShapeType Sphere
   SphereRadius 10
+  DrawShape 0
   m_sAreaSymbol "#AR-CAH-Area_Symbol_E"
   m_spawnPoints {
    "US_E"
@@ -137,6 +142,7 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   coords 1919.404 15.744 3824.026
   TriggerShapeType Sphere
   SphereRadius 10
+  DrawShape 0
   m_sAreaSymbol "#AR-CAH-Area_Symbol_F"
   m_spawnPoints {
    "US_F"
@@ -169,6 +175,7 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   coords 2288.445 30 3814.68
   TriggerShapeType Sphere
   SphereRadius 10
+  DrawShape 0
   m_sAreaSymbol "G"
   m_defenderGroups {
    GC_AASDefenderGroup "{65976A3F66C465AE}" {
