@@ -117,7 +117,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 1204.992 141.524 4284.376
   m_sTitle "End Conditions"
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
-  m_sTextData "OBJ Taken: The water treatment plant is secured by players with no remaining AI."\
+  m_sTextData "OBJ Taken: The water treatment plant is secured by players with no remaining AI in vicinity."\
   ""\
   "Players Killed: 100% player casualities."\
   ""\

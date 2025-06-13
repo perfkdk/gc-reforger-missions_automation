@@ -30,8 +30,6 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 9
-   m_iStartingMinutes 30
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{6596298794DA4BF6}" {
@@ -48,7 +46,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  }
  coords 1205.963 141.353 4282.429
  {
-  SCR_FactionManager {
+  SCR_FactionManager "659B791C8F769631" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{652F615735715119}" {
@@ -67,9 +65,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-   m_factionKeys {
-    "GC_NVA"
-   }
    m_useFactionColor 0
    m_lineWidth 5
   }
@@ -231,7 +226,6 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 3386.608 156.563 4403.62
  m_queryRadius 115
- m_captureTime 300
  m_flagName "OBJ_TAKEN"
  m_ownerFactionKey "GC_NVA"
 }
@@ -331,21 +325,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_gameOverType EDITOR_FACTION_DEFEAT
      m_factionKey "GC_NVA"
     }
-   }
-   m_condition TILW_LiteralTerm "{6596803A6D8228C2}" {
-    m_invertTerm 1
-   }
-  }
-  TILW_MissionEvent "{6596803A507B1D3A}" {
-   m_name "Time Limit Approaching"
-   m_instructions {
-    TILW_SendMessageInstruction "{6596803A59AC8CAF}" {
+    TILW_SendMessageInstruction "{659B791D85F59AE7}" {
      m_executionDelay 4500
      m_messageTitle "Time Limit Approaching"
-     m_messageBody "You have 15 minutes remaining to complete the OBJ."
+     m_messageBody "You have 15 minutes to capture the OBJ."
     }
    }
-   m_condition TILW_LiteralTerm "{6596803A5A00267A}" {
+   m_condition TILW_LiteralTerm "{6596803A6D8228C2}" {
     m_invertTerm 1
    }
   }
