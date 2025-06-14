@@ -1,0 +1,181 @@
+$grp GenericEntity : "{1CAF77AF5C82019A}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Barrel_Filled_01.et" {
+ {
+  components {
+   SCR_FireplaceComponent "{655C8C1C4368294F}" {
+    m_vParticleOffset 0 1.15 0
+   }
+  }
+  coords 2059.305 20.476 3650.883
+  angleY 98.556
+ }
+ {
+  components {
+   SCR_FireplaceComponent "{655C8C1C4368294F}" {
+    m_vParticleOffset 0 1.15 0
+   }
+  }
+  coords 2041.722 18.437 3706.31
+  angleY 98.556
+ }
+ {
+  components {
+   SCR_FireplaceComponent "{655C8C1C4368294F}" {
+    m_vParticleOffset 0 1.15 0
+   }
+  }
+  coords 1992.658 16.835 3763.455
+  angleY 98.556
+ }
+}
+$grp GenericEntity : "{1D0B32AA80873228}Prefabs/Props/Wrecks/LAV25_wreck.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{655E8E4B6F4A36F1}" {
+   }
+  }
+  coords 2017.76 17.158 3721.135
+  angleY -30.343
+  {
+   ParticleEffectEntity {
+    coords -0.244 1.138 -0.572
+    angleY 121.87
+    EffectPath "{79DD3A5F1F3069CD}Particles/Vehicle/Vehicle_fire_engine_small.ptc"
+   }
+   DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_02.et" {
+    coords -0.646 0.288 -2.555
+    angleX -89.972
+    angleY 172.859
+    angleZ -36.848
+    scale 10
+   }
+  }
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{655E8E4B6F4A36F1}" {
+   }
+  }
+  coords 2075.426 20.834 3627.78
+  angleX -0.666
+  angleY -41.97
+  angleZ 0.599
+  {
+   ParticleEffectEntity {
+    coords -0.244 1.138 -0.572
+    angleY 121.87
+    EffectPath "{79DD3A5F1F3069CD}Particles/Vehicle/Vehicle_fire_engine_small.ptc"
+   }
+   DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_02.et" {
+    coords -0.646 0.288 -2.555
+    angleX -89.972
+    angleY 172.859
+    angleZ -36.848
+    scale 10
+   }
+  }
+ }
+}
+$grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
+ {
+  coords 2062.688 0 3635.284
+  angleX -90
+  angleY -81.444
+  angleZ 180
+  scale 1.5
+ }
+ {
+  coords 2045.846 0 3664.6
+  angleX -90
+  angleY -180
+  angleZ -180
+  scale 1.5
+ }
+ {
+  coords 2035.577 0 3678.921
+  angleX -90
+  angleY -180
+  angleZ -180
+  scale 1.5
+ }
+ {
+  coords 2023.823 0 3706.138
+  angleX -90
+  angleY -180
+  angleZ -180
+  scale 1.5
+ }
+ {
+  coords 2066.731 0 3638.974
+  angleX -90
+  angleY -81.444
+  angleZ 180
+  scale 1.5
+ }
+ {
+  coords 2060.855 0.004 3640.342
+  angleX -90
+  angleY -81.444
+  angleZ 180
+  scale 1.5
+ }
+}
+GenericEntity : "{AE300E34EA8FF40C}Prefabs/Props/Wrecks/Ural4320_wreck_static.et" {
+ coords 2041.462 18.151 3708.164
+ angleX 0.228
+ angleY 104.784
+ angleZ -0.865
+}
+GenericEntity : "{B67A4797AED7B3BC}Prefabs/Structures/Wreck/ikarus.et" {
+ coords 1996.198 16.878 3764.024
+ angleY 43.02
+}
+$grp DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.et" {
+ {
+  coords 2062.734 0.119 3642.557
+  angleX -90
+  angleY -180
+  angleZ -180
+  scale 0.8
+ }
+ {
+  coords 2047.44 0.125 3649.001
+  angleX -90
+  angleY -180
+  angleZ -180
+  scale 0.8
+ }
+ {
+  coords 2037.153 0.231 3692.458
+  angleX -90
+  angleY -180
+  angleZ -180
+  scale 0.8
+ }
+ {
+  coords 2027.597 0.213 3709.08
+  angleX -90
+  angleY -180
+  angleZ -180
+  scale 0.8
+ }
+}
+$grp GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ {
+  components {
+   SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 2066.551 28.192 3618.115
+  angleY 98.556
+ }
+ {
+  components {
+   SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 2044.001 29.924 3645.815
+  angleY 98.556
+ }
+}

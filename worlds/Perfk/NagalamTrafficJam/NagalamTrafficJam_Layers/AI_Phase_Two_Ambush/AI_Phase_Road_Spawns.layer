@@ -1,0 +1,75 @@
+$grp GenericEntity {
+ Spawn_Mine_2 {
+  coords 2274.569 13.929 3379.165
+  angleY 55.944
+ }
+ Spawn_Mine_1 {
+  coords 2277.06 13.921 3380.788
+  angleY 55.944
+ }
+ Road_spawn_1 {
+  coords 2325.82 17.925 3363.12
+ }
+ Road_spawn_2 {
+  coords 2241.527 17.946 3380.844
+ }
+ Road_spawn_3 {
+  coords 2248.03 17.942 3372.051
+ }
+ Road_spawn_4 {
+  coords 2272.104 13.535 3364.744
+ }
+ Road_spawn_5 {
+  coords 2278.002 12.865 3323.565
+ }
+ spawn_Runaway {
+  coords 2270.15 14.927 3418.076
+ }
+}
+SCR_AIWaypoint wp_Runaway : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ coords 2234.419 13.959 3366.708
+}
+$grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
+ PresenceTrigger_QRF {
+  coords 2061.071 20.34 3654.28
+  m_queryRadius 100
+  m_flagName "QRF_Arrived"
+  m_drawShapeOutline 0
+  m_entityNames {
+   "LAV25_GulfWar1" "LAV25_GulfWar2" "M1025_armed_M2HB_GulfWar1" "M1025_armed_M2HB_GulfWar2" "M923A1_repair_GulfWar1" "M923A1_transport_covered_GulfWar1" "M997_maxi_ambulance_GulfWar1" "M923A1_transport_covered_GulfWar2"
+  }
+  m_ratioThreshold 0.1
+ }
+ PresenceTrigger_Runaway {
+  coords 2420.894 14.257 3218.062
+  m_queryRadius 40
+  m_flagName "Runaway_flag"
+  m_drawShapeOutline 0
+  m_entityNames {
+   "LAV25_GulfWar1" "LAV25_GulfWar2" "M1025_armed_M2HB_GulfWar1" "M1025_armed_M2HB_GulfWar2" "M923A1_repair_GulfWar1" "M923A1_transport_covered_GulfWar1" "M997_maxi_ambulance_GulfWar1" "M923A1_transport_covered_GulfWar2"
+  }
+  m_ratioThreshold 0.1
+ }
+}
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ WP_Defend_Road_1 {
+  coords 2129.597 21.614 3616.278
+  CompletionRadius 5
+ }
+ WP_Defend_Road_2 {
+  coords 2245.405 17.892 3375.913
+  CompletionRadius 10
+ }
+ WP_Defend_Road_3 {
+  coords 2266.719 16.694 3358.303
+  CompletionRadius 5
+ }
+ WP_Defend_Road_4 {
+  coords 2284.611 18.62 3336.065
+  CompletionRadius 5
+ }
+ WP_Defend_Road_5 {
+  coords 2320.404 17.949 3364.944
+  CompletionRadius 5
+ }
+}
