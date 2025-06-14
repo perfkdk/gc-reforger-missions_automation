@@ -24,10 +24,15 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    }
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 5
-   m_iStartingMinutes 30
+   m_iStartingHours 0
    m_iRangeHoursStart 0
    m_iRangeHoursEnd 0
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{65772E30D9ECF331}" {
+     m_sWeatherPresetName "Heavy Wet Fog"
+    }
+   }
    m_bUseSpecifiedDate 1
    m_iSetDay 24
    m_iSetMonth 11
@@ -37,7 +42,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    m_fLongitude 37.921
    m_bOverrideTimeZoneInfo 1
    m_fDSTEnabled 1
-   m_bOverrideEnvironment 1
    m_fFogDensity 0.04
    m_fFogHeight 1.4
    m_fRain 0
