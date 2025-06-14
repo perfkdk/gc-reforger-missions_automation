@@ -36,3 +36,22 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleZ 0.218
  }
 }
+Vehicle Mi8MT_unarmed_transport1 : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 1130
+    }
+    SCR_FuelNode "{5A7CE769E7A9C416}" {
+     m_fInitialFuelTankState 415
+    }
+    SCR_FuelNode "{5A7CE769E7A9C414}" {
+     m_fInitialFuelTankState 1040
+    }
+   }
+  }
+ }
+ coords 1368.312 39 2760.391
+ angleY -104.927
+}

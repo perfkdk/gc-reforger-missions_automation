@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_PHQ_P.et" {
+$grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_PHQ_P.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -29,7 +29,7 @@ $grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2
   }
  }
 }
-$grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
+$grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {

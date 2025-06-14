@@ -1,0 +1,9 @@
+PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ ID "5EE5412841301198"
+ coords 1413.443 36.869 2766.848
+ m_sTitle "You are a tratior!"
+ m_sTextData "Fucking sabotage everything"
+ m_bEmptyFactionVisibility 1
+ m_bShowForAnyFaction 1
+ m_iOrder -10
+}
