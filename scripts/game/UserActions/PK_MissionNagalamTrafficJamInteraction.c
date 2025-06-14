@@ -1,3 +1,4 @@
+// THIS SCRIPT DOES NOT WORK PROPERLY, DO NOT USE IT AS INSPIRATION
 class PK_MissionNagalamTrafficJamInteraction : ScriptedUserAction
 {
 	[Attribute("0", UIWidgets.Auto, "If false, prevent dead or destroyed entities from being counted.", category: "Trigger Filter")]
