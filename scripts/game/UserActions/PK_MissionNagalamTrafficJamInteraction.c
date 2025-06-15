@@ -4,7 +4,7 @@ class PK_MissionNagalamTrafficJamInteraction : ScriptedUserAction
 	[Attribute("0", UIWidgets.Auto, "If false, prevent dead or destroyed entities from being counted.", category: "Trigger Filter")]
 	protected bool m_allowDestroyed;
 	
-	string m_specialCount_start = "10";
+	/*string m_specialCount_start = "10";
 	string m_specialCount;
 	string m_rescueStatus;
 	
@@ -37,18 +37,45 @@ class PK_MissionNagalamTrafficJamInteraction : ScriptedUserAction
 		"rescueUnit_5",
 		"rescueUnit_6"
 	};
+*/
 
-	int m_iObjectiveVehicleCount = 0;
-	int m_iObjectiveRescueCount = 0;
+	// Array of variable names
+	protected ref array<string> m_aObjectiveVehicleEntities = {
+	    "pk_sVehicle_01_returned",
+	    "pk_sVehicle_02_returned",
+	    "pk_sVehicle_03_returned",
+	    "pk_sVehicle_04_returned",
+	    "pk_sVehicle_05_returned",
+	    "pk_sVehicle_06_returned",
+		"pk_sVehicle_07_returned"
+	};
+	
+	// Array of variable names
+	protected ref array<string> m_aObjectiveRescueEntities = {
+	    "pk_sWounded_01_returned",
+	    "pk_sWounded_02_returned",
+	    "pk_sWounded_03_returned",
+	    "pk_sWounded_04_returned",
+	    "pk_sWounded_05_returned",
+	    "pk_sWounded_06_returned"
+	};
+	
+	
+
 		
 	int m_iObjectiveVehicleInitCount = m_aObjectiveVehicleEntities.Count();
 	int m_iObjectiveRescueInitCount = m_aObjectiveRescueEntities.Count();
+	
+	
 	
 	//------------------------------------------------------------------------------------------------
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
 		
-		IEntity m_BaseFlag = GetGame().GetWorld().FindEntityByName("BaseFlag");
+		int m_iObjectiveVehicleCount = 0;
+		int m_iObjectiveRescueCount = 0; 
+		
+		/*IEntity m_BaseFlag = GetGame().GetWorld().FindEntityByName("BaseFlag");
 
 		
 		TILW_MissionFrameworkEntity mfe = TILW_MissionFrameworkEntity.GetInstance();
@@ -56,48 +83,83 @@ class PK_MissionNagalamTrafficJamInteraction : ScriptedUserAction
 		
 		float m_TotalDeathsUS = (mfe.m_maxAliveFactionPlayers.Get(m_factionKeyUS) - mfe.m_curAliveFactionPlayers.Get(m_factionKeyUS));
 		float m_TotalDeathsAiUS = mfe.m_factionAIDeaths.Get(m_factionKeyUS);
-		float m_TotalDeathsAiGC_INS = mfe.m_factionAIDeaths.Get(m_factionKeyGCINS);
+		float m_TotalDeathsAiGC_INS = mfe.m_factionAIDeaths.Get(m_factionKeyGCINS); */
 		
 
-
+		/*
+		SCR_ScenarioFrameworkSystem scenarioFrameworkSystem = SCR_ScenarioFrameworkSystem.GetInstance();
+		if (!scenarioFrameworkSystem)
+			return;
+		
+		string pk_sWounded_01_returned;
+		string pk_sWounded_02_returned;
+		string pk_sWounded_03_returned;
+		string pk_sWounded_04_returned;
+		string pk_sWounded_05_returned;
+		string pk_sWounded_06_returned;
+		
+		scenarioFrameworkSystem.GetVariable("pk_sWounded_01_returned", pk_sWounded_01_returned);
+		scenarioFrameworkSystem.GetVariable("pk_sWounded_02_returned", pk_sWounded_02_returned);
+		scenarioFrameworkSystem.GetVariable("pk_sWounded_03_returned", pk_sWounded_03_returned);
+		scenarioFrameworkSystem.GetVariable("pk_sWounded_04_returned", pk_sWounded_04_returned);
+		scenarioFrameworkSystem.GetVariable("pk_sWounded_05_returned", pk_sWounded_05_returned);
+		scenarioFrameworkSystem.GetVariable("pk_sWounded_06_returned", pk_sWounded_06_returned);
+		
+		
+		if(pk_sWounded_01_returned == "true") 
+			m_iObjectiveRescueCount++;
+		
+		if(pk_sWounded_02_returned == "true") 
+			m_iObjectiveRescueCount++;
+		
+		if(pk_sWounded_03_returned == "true") 
+			m_iObjectiveRescueCount++;
+		
+		if(pk_sWounded_04_returned == "true") 
+			m_iObjectiveRescueCount++;
+		
+		if(pk_sWounded_05_returned == "true") 
+			m_iObjectiveRescueCount++;
+		
+		if(pk_sWounded_06_returned == "true") 
+			m_iObjectiveRescueCount++;
+		
+		Print("PK Value : " + m_iObjectiveRescueCount );
+		*/
+		
+		
+		SCR_ScenarioFrameworkSystem scenarioFrameworkSystem = SCR_ScenarioFrameworkSystem.GetInstance();
+		if (!scenarioFrameworkSystem)
+			return;
 		
 		
 		
-		foreach (string name : m_aObjectiveVehicleEntities)
+		foreach (string varName : m_aObjectiveVehicleEntities)
 		{
-			IEntity e = GetGame().GetWorld().FindEntityByName(name);
-			if (!e)
-				continue;
-			float distance = vector.Distance(m_BaseFlag.GetOrigin(), e.GetOrigin());
-			if (distance > m_queryRadius)
-				continue;
-			if (!m_allowDestroyed && IsEntityDestroyed(e))
-				continue;
-			
-			m_iObjectiveVehicleCount += 1;
-
+			string value;
+		    scenarioFrameworkSystem.GetVariable(varName, value);
+		    if (value == "true")
+		        m_iObjectiveVehicleCount++;
 		}
+		
+		
 
-		string m_sObjectiveVehicleString = "Returned: " + m_iObjectiveVehicleCount + "/" +  m_iObjectiveVehicleInitCount;
-		
-		
-		
-		
-		foreach (string name : m_aObjectiveRescueEntities)
+		foreach (string varName : m_aObjectiveRescueEntities)
 		{
-			IEntity e = GetGame().GetWorld().FindEntityByName(name);
-			if (!e)
-				continue;
-			float distance = vector.Distance(m_BaseFlag.GetOrigin(), e.GetOrigin());
-			if (distance > m_queryRadius)
-				continue;
-			if (!m_allowDestroyed && IsEntityDestroyed(e))
-				continue;
-			
-			m_iObjectiveVehicleCount += 1;
+			string value;
+		    scenarioFrameworkSystem.GetVariable(varName, value);
+		    if (value == "true")
+		        m_iObjectiveRescueCount++;
+		}
+		
+		
 
-		}	
-
+		
+		Print("PK Value : " + m_iObjectiveVehicleCount);
+		Print("PK Value : " + m_iObjectiveRescueCount);
+		
+		
+		string m_sObjectiveVehicleString = "Returned: " + m_iObjectiveVehicleCount + "/" +  m_iObjectiveVehicleInitCount;
 		string m_sObjectiveRescueString = "Returned: " + m_iObjectiveRescueCount + "/" +  m_iObjectiveRescueInitCount;
 		
 
@@ -115,8 +177,10 @@ class PK_MissionNagalamTrafficJamInteraction : ScriptedUserAction
 		// Show a custom hint
 		// Parameters: (string bodyText, string title, float durationInSeconds)
 
-		hintComponent.ShowCustomHint("Rescue operation status \n " + m_sObjectiveRescueString + "\n\n Vehicle operation status \n "  + m_sObjectiveVehicleString + "\n\n US Casualty: " + m_TotalDeathsUS + "\n\n US AI Casualty: " + m_TotalDeathsAiUS + "\n\n Insurgent Casualty: " + m_TotalDeathsAiGC_INS, m_overallMissionStatus, 10, false);
-
+		hintComponent.ShowCustomHint("Rescue operation status \n " + m_sObjectiveRescueString + "\n\n Vehicle operation status \n "  + m_sObjectiveVehicleString, m_overallMissionStatus, 10, false);
+		
+		//hintComponent.ShowCustomHint("Rescue operation status \n " + m_sObjectiveRescueString + "\n\n Vehicle operation status \n "  + m_sObjectiveVehicleString + "\n\n US Casualty: " + m_TotalDeathsUS + "\n\n US AI Casualty: " + m_TotalDeathsAiUS + "\n\n Insurgent Casualty: " + m_TotalDeathsAiGC_INS, m_overallMissionStatus, 10, false);
+		
 	}
 	
 	
