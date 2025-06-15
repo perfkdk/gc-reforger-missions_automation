@@ -73,7 +73,7 @@ TILW_MissionFrameworkEntity MissionFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TIL
      }
     }
     TILW_SetFlagInstruction "{6572FC08F9A97460}" {
-     m_executionDelay 300
+     m_executionDelay 240
      m_flagName "Mission_Started"
     }
    }

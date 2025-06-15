@@ -99,7 +99,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   coords 2065.206 20.907 3663.144
   angleY -126.921
   m_aUnitPrefabSlots {
-   "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_SL_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et"
+   "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_SL_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et"
   }
   m_iGroupRadioFrequency 0
   m_sCustomNameSet "Ambushed Convoy PLT - Brief in seperate VON channel"
@@ -120,7 +120,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   coords 2059.261 20.938 3671.968
   angleY -123.391
   m_aUnitPrefabSlots {
-   "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_SL_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et"
+   "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_SL_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et" "{780F788FE375A572}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_Variant_1_DCU_1998_P.et"
   }
   m_iGroupRadioFrequency 0
   m_sCustomNameSet "Ambushed Convoy PLT - Brief in seperate VON channel"
@@ -143,6 +143,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   m_aStaticVehicles {
    "LAV25_GulfWar1" "M1025_armed_M2HB_GulfWar1"
   }
+  m_sCustomNameSet "Rifle Squard"
   m_aUnitPrefabColorTeams {
    "" "Red" "Red" "Red" "Red" "Blue" "Blue" "Blue" "Blue"
   }
@@ -167,6 +168,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   m_aUnitPrefabSlots {
    "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_SL_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et"
   }
+  m_sCustomNameSet "Rifle Squard"
   m_aUnitPrefabColorTeams {
    "" "Red" "Red" "Red" "Red" "Blue" "Blue" "Blue" "Blue"
   }
@@ -174,26 +176,27 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
    "" "Team Lead" "" "" "" "Team Lead" "" "" ""
   }
  }
- Rifle13 {
+ Rifle31Engineering {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
    PS_GroupCallsignAssigner "{655D17D93DA148F0}" {
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 3
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 1
    }
   }
-  coords 2666.159 8 3051.559
+  coords 2668.31 8 3054.934
   angleY -57.484
   m_aUnitPrefabSlots {
-   "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_SL_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et"
+   "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_SL_DCU_1998_P.et" "{780F788FE375A572}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_Variant_1_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et"
   }
+  m_sCustomNameSet "Att: Engineering Section"
   m_aUnitPrefabColorTeams {
-   "" "Red" "Red" "Red" "Red" "Blue" "Blue" "Blue" "Blue"
+   "Red" "Red" "Red" "Blue" "Blue" "Blue"
   }
   m_aUnitPrefabOverrideIcons {
-   "" "Team Lead" "" "" "" "Team Lead" "" "" ""
+   "" "Engineer" "Engineer" "Team Lead" "Engineer" "Engineer"
   }
  }
  Rifle14 {
@@ -211,6 +214,30 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   m_aUnitPrefabSlots {
    "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_SL_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et"
   }
+  m_sCustomNameSet "Att: Rifle Squad"
+  m_aUnitPrefabColorTeams {
+   "" "Red" "Red" "Red" "Red" "Blue" "Blue" "Blue" "Blue"
+  }
+  m_aUnitPrefabOverrideIcons {
+   "" "Team Lead" "" "" "" "Team Lead" "" "" ""
+  }
+ }
+ Rifle13 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{655D17D93DA148F0}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2677.707 8 3070.231
+  angleY -57.484
+  m_aUnitPrefabSlots {
+   "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_SL_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{76C72A41D4243FC3}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_GL_DCU_1998_P.et" "{86848FC95353D596}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AR_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et"
+  }
+  m_sCustomNameSet "Rifle Squard"
   m_aUnitPrefabColorTeams {
    "" "Red" "Red" "Red" "Red" "Blue" "Blue" "Blue" "Blue"
   }
@@ -229,6 +256,11 @@ $grp Vehicle : "{15A15F5EF6FFE4A5}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   coords 2706.027 9.906 3140.167
   angleY -147.883
   m_sAttachmentGroupName "Rifle14"
+ }
+ M923A1_transport_covered_GulfWar3 {
+  coords 2651.51 8.031 3060.273
+  angleY 168.81
+  m_sAttachmentGroupName "Rifle31Engineering"
  }
 }
 $grp Vehicle : "{1B64051DEE7B6065}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_GulfWar.et" {
@@ -270,7 +302,7 @@ $grp Vehicle : "{1B64051DEE7B6065}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
 Vehicle M923A1_repair_GulfWar_unlimited_supply1 : "{38282D4B7BD8324A}worlds/Perfk/Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair_GulfWar_unlimited_supply.et" {
  coords 2656.959 8 3068.561
  angleY -177
- m_sAttachmentGroupName "Rifle16"
+ m_sAttachmentGroupName "Rifle31Engineering"
 }
 Vehicle M997_maxi_ambulance_GulfWar1 : "{6EBA88F9481F5E06}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_GulfWar.et" {
  components {
@@ -318,6 +350,13 @@ Vehicle M997_maxi_ambulance_GulfWar1 : "{6EBA88F9481F5E06}Prefabs/Vehicles/Wheel
  angleZ 0.523
  m_sAttachmentGroupName "Rifle16"
 }
+Vehicle M998_covered_long_GulfWar1 : "{6EE51963CB5742CB}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_GulfWar.et" {
+ coords 2648.41 8.1 3046.153
+ angleX 0.758
+ angleY 122.187
+ angleZ 0.477
+ m_sAttachmentGroupName "Rifle16"
+}
 $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RiflePHQ_P.et" {
  RifleConvoy03 {
   components {
@@ -357,6 +396,7 @@ $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   m_aUnitPrefabSlots {
    "{24A4AD4C57301A31}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewCommander_DCU_1998_P.et" "{B9A2BB17A2EDA031}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewGunner_DCU_1998_P.et" "{152488484C3EF010}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewDriver_DCU_1998_P.et"
   }
+  m_sCustomNameSet "LAV 25 Crew"
  }
  LAV_02_Group {
   components {
@@ -376,6 +416,7 @@ $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   m_aUnitPrefabSlots {
    "{24A4AD4C57301A31}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewCommander_DCU_1998_P.et" "{B9A2BB17A2EDA031}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewGunner_DCU_1998_P.et" "{152488484C3EF010}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewDriver_DCU_1998_P.et"
   }
+  m_sCustomNameSet "LAV 25 Crew"
  }
  Rifle16 {
   components {
@@ -386,12 +427,13 @@ $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
     m_iPlatoonCallsign 1
    }
   }
-  coords 2638.708 9.81 3051.991
+  coords 2638.105 9.906 3051.788
   angleX -1.788
   angleY 71.374
   angleZ 2.699
   m_aUnitPrefabSlots {
    "{0CA99063388D5B0E}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_PL_DCU_1998_P.et" "{2B3FDB0EA9112C3A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Sergeant_DCU_1998_P.et" "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et" "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et" "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et"
   }
+  m_sCustomNameSet "Headquarters"
  }
 }
