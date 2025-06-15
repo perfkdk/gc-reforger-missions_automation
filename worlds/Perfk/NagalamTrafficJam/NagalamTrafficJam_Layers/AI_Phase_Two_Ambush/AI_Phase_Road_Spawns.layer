@@ -36,7 +36,7 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
   m_flagName "QRF_Arrived"
   m_drawShapeOutline 0
   m_entityNames {
-   "LAV25_GulfWar1" "LAV25_GulfWar2" "M1025_armed_M2HB_GulfWar1" "M1025_armed_M2HB_GulfWar2" "M923A1_repair_GulfWar1" "M923A1_transport_covered_GulfWar1" "M997_maxi_ambulance_GulfWar1" "M923A1_transport_covered_GulfWar2"
+   "LAV25_GulfWar1" "LAV25_GulfWar2" "M1025_armed_M2HB_GulfWar1" "M1025_armed_M2HB_GulfWar2" "M923A1_repair_GulfWar1" "M923A1_transport_covered_GulfWar1" "M997_maxi_ambulance_GulfWar1" "M923A1_transport_covered_GulfWar2" "M998_covered_long_GulfWar1" "M923A1_transport_covered_GulfWar3"
   }
   m_ratioThreshold 0.1
  }
@@ -46,7 +46,7 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
   m_flagName "Runaway_flag"
   m_drawShapeOutline 0
   m_entityNames {
-   "LAV25_GulfWar1" "LAV25_GulfWar2" "M1025_armed_M2HB_GulfWar1" "M1025_armed_M2HB_GulfWar2" "M923A1_repair_GulfWar1" "M923A1_transport_covered_GulfWar1" "M997_maxi_ambulance_GulfWar1" "M923A1_transport_covered_GulfWar2"
+   "LAV25_GulfWar1" "LAV25_GulfWar2" "M1025_armed_M2HB_GulfWar1" "M1025_armed_M2HB_GulfWar2" "M923A1_repair_GulfWar1" "M923A1_transport_covered_GulfWar1" "M997_maxi_ambulance_GulfWar1" "M923A1_transport_covered_GulfWar2" "M998_covered_long_GulfWar1" "M923A1_transport_covered_GulfWar3"
   }
   m_ratioThreshold 0.1
  }
