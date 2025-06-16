@@ -55,7 +55,7 @@ Tank M2A2_MERDC2 : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et
  angleY 31.803
  angleZ -4.161
 }
-$grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/Group_US_Army_1985_RifleSquad.et.et" {
+$grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Deprecated/Army_1985_Rifles/Group_US_Army_1985_RifleSquad.et" {
  AI_Rifle_2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -65,26 +65,10 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   coords 2738.765 11.107 2429.075
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_2"
-  }
- }
- AI_Rifle_3 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-  }
-  coords 2704.345 10.898 2531.645
-  angleY 172.688
-  DangerEventRange 500
-  m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
-  }
-  m_aStaticWaypoints {
-   "def_wp_CAF_3"
   }
  }
  AI_Rifle_4 {
@@ -97,7 +81,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_4"
@@ -109,10 +93,10 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
     DefaultFormation "line"
    }
   }
-  coords 2725.488 11.62 2603.965
+  coords 2730.53 11.578 2599.021
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_5"
@@ -124,11 +108,13 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
     DefaultFormation "line"
    }
   }
-  coords 2685.414 10.886 2629.808
+  coords 2674.558 11.021 2630.775
+  angleY -51.43
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
+  m_bSnapToTerrain 0
   m_aStaticWaypoints {
    "def_wp_CAF_6"
   }
@@ -143,26 +129,10 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY -94.677
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_7"
-  }
- }
- AI_Rifle_8 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-  }
-  coords 2729.521 8.743 2593.042
-  angleY -33.951
-  DangerEventRange 500
-  m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
-  }
-  m_aStaticWaypoints {
-   "def_wp_CAF_8"
   }
  }
  AI_Rifle_9 {
@@ -175,7 +145,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 34.27
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_9"
@@ -187,11 +157,11 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
     DefaultFormation "line"
    }
   }
-  coords 2733.492 9.907 2562.717
+  coords 2727.475 8.721 2566.396
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_10"
@@ -207,7 +177,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 95.081
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_11"
@@ -223,7 +193,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_12"
@@ -239,26 +209,10 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_13"
-  }
- }
- AI_Rifle_14 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-  }
-  coords 2704.876 8.653 2420.987
-  angleY 85.535
-  DangerEventRange 500
-  m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
-  }
-  m_aStaticWaypoints {
-   "def_wp_CAF_14"
   }
  }
  AI_Rifle_15 {
@@ -271,7 +225,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_15"
@@ -287,7 +241,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_16"
@@ -303,26 +257,10 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_17"
-  }
- }
- AI_Rifle_18 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-  }
-  coords 2628.254 8.859 2623.696
-  angleY 41.852
-  DangerEventRange 500
-  m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
-  }
-  m_aStaticWaypoints {
-   "def_wp_CAF_18"
   }
  }
  AI_Rifle_19 {
@@ -335,7 +273,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 40.549
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_19"
@@ -351,7 +289,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_20"
@@ -367,7 +305,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 34.124
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_21"
@@ -383,26 +321,10 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_22"
-  }
- }
- AI_Rifle_23 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-  }
-  coords 2555.486 12.898 2791.673
-  angleY 106.637
-  DangerEventRange 500
-  m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
-  }
-  m_aStaticWaypoints {
-   "def_wp_CAF_23"
   }
  }
  AI_Rifle_24 {
@@ -415,7 +337,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_24"
@@ -431,7 +353,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 40.216
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_25"
@@ -447,7 +369,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_26"
@@ -463,7 +385,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_27"
@@ -479,7 +401,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY -21.651
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_28"
@@ -495,7 +417,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 58.035
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_29"
@@ -511,26 +433,10 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 68.057
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_30"
-  }
- }
- AI_Rifle_31 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-  }
-  coords 2551.712 5.758 2678.054
-  angleY 46.033
-  DangerEventRange 500
-  m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
-  }
-  m_aStaticWaypoints {
-   "def_wp_CAF_31"
   }
  }
  AI_Rifle_32 {
@@ -543,7 +449,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 18.479
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_32"
@@ -559,7 +465,7 @@ $grp SCR_AIGroup : "{7A0813F1B65EA589}Prefabs/Groups/BLUFOR/US/Army_1985_Rifles/
   angleY 85.535
   DangerEventRange 500
   m_aUnitPrefabSlots {
-   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+   "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_SL.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
   }
   m_aStaticWaypoints {
    "def_wp_CAF_33"
@@ -588,28 +494,6 @@ $grp Turret : "{887DB60486A18575}Prefabs/Weapons/Tripods/Tripod_M122_MG_M60.et" 
   }
   coords 2738.11 13.47 2561.291
   angleY 62.963
- }
- {
-  components {
-   TILW_VehicleCrewComponent "{6570BC20E2610340}" {
-    m_crewConfig TILW_CrewConfig "{6570BC20E0A628D2}" {
-     m_crewGroups {
-      TILW_CrewGroup "{6570BC1238AB7F22}" {
-       m_crewStations {
-        TILW_CrewStation "{6570BC1233DCD055}" {
-         m_characters {
-          "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
-         }
-        }
-       }
-      }
-     }
-     m_noTurretDismount 1
-    }
-   }
-  }
-  coords 2732.175 13.149 2599.496
-  angleY 54.568
  }
  {
   components {
@@ -904,35 +788,25 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY -66.498
   CompletionRadius 10
  }
- def_wp_CAF_3 {
-  coords 2698.687 12.402 2535.899
-  angleY -66.498
-  CompletionRadius 10
- }
  def_wp_CAF_4 {
   coords 2725.983 13.418 2541.335
   angleY -66.498
   CompletionRadius 10
  }
  def_wp_CAF_5 {
-  coords 2718.217 13.234 2602.214
+  coords 2729.535 13.27 2600.059
   angleY -66.498
   CompletionRadius 10
  }
  def_wp_CAF_6 {
-  coords 2683.074 10.985 2631.39
+  coords 2680.16 11.14 2633.492
   angleY -66.498
-  CompletionRadius 10
+  CompletionRadius 15
  }
  def_wp_CAF_7 {
   coords 2684.146 13.619 2487.391
   angleY -66.498
   CompletionRadius 8
- }
- def_wp_CAF_8 {
-  coords 2728.836 11.97 2589.252
-  angleY -66.498
-  CompletionRadius 10
  }
  def_wp_CAF_9 {
   coords 2700.056 12.181 2616.077
@@ -940,7 +814,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   CompletionRadius 10
  }
  def_wp_CAF_10 {
-  coords 2731.338 11.672 2563.907
+  coords 2725.321 11.626 2567.586
   angleY -66.498
   CompletionRadius 10
  }
@@ -959,11 +833,6 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY -66.498
   CompletionRadius 10
  }
- def_wp_CAF_14 {
-  coords 2701.544 11.16 2419.679
-  angleY -66.498
-  CompletionRadius 10
- }
  def_wp_CAF_15 {
   coords 2682.815 10.153 2556.704
   angleY -66.498
@@ -976,11 +845,6 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  }
  def_wp_CAF_17 {
   coords 2639.915 11.282 2617.458
-  angleY -66.498
-  CompletionRadius 10
- }
- def_wp_CAF_18 {
-  coords 2628.883 10.881 2623.028
   angleY -66.498
   CompletionRadius 10
  }
@@ -1001,11 +865,6 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  }
  def_wp_CAF_22 {
   coords 2543.041 12.519 2766.987
-  angleY -66.498
-  CompletionRadius 10
- }
- def_wp_CAF_23 {
-  coords 2554.128 14.887 2794.742
   angleY -66.498
   CompletionRadius 10
  }
@@ -1041,11 +900,6 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  }
  def_wp_CAF_30 {
   coords 2515.281 7.207 2694.522
-  angleY -66.498
-  CompletionRadius 10
- }
- def_wp_CAF_31 {
-  coords 2550.81 7.552 2678.28
   angleY -66.498
   CompletionRadius 10
  }

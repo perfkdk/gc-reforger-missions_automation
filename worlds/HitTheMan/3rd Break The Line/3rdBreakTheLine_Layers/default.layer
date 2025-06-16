@@ -761,7 +761,7 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_ratioThreshold 0.9
  }
  STrenchline_Trigger {
-  coords 2673.573 11.02 2533.626
+  coords 2673.573 444.172 2533.626
   m_queryRadius 100
   m_sendStatusMessages 1
   m_locationName "the Southern Trenchline"
@@ -781,7 +781,7 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_ratioThreshold 0.9
  }
  NTrenchline_Trigger {
-  coords 2515.855 16.514 2797.924
+  coords 2515.855 449.666 2797.924
   m_queryRadius 75
   m_sendStatusMessages 1
   m_locationName "the Northern Trenchline"
