@@ -484,7 +484,7 @@ Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/U
   }
  }
 }
-SCR_AIGroup CoyHQ : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleCoyHQ_P.et" {
+SCR_AIGroup CoyHQ : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleCoyHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
@@ -506,7 +506,7 @@ SCR_AIGroup CoyHQ : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/USSR/SovietArmy_Moto
   "Yellow" "Yellow" "Yellow" "Red" "Red" "Red" "Green" "Green"
  }
 }
-$grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
+$grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
  RifleSquad_1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -744,7 +744,109 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   }
  }
 }
-$grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRiflePHQ_P.et" {
+$grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
+ T72A_NVA2 {
+  components {
+   RHS_GroupMaterialController "{658AB6326777B95D}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{658AB632658732AD}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{658AB63265A8D549}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658AB6326548B8DA}" {
+      m_iTextureID 6
+     }
+     RHS_MaterialGroupProperties "{658AB632656B9B60}" {
+      m_iTextureID 2
+     }
+    }
+   }
+  }
+  coords 4091.495 18.524 1769.754
+  angleX -0.86
+  angleY -106.077
+  angleZ 0.248
+  m_sAttachmentGroupName "Tank_Crew_2"
+ }
+ T72A_NVA1 {
+  components {
+   RHS_GroupMaterialController "{658AB6326777B95D}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{658AB632658732AD}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{658AB63265A8D549}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658AB6326548B8DA}" {
+      m_iTextureID 6
+     }
+     RHS_MaterialGroupProperties "{658AB632656B9B60}" {
+      m_iTextureID 1
+     }
+    }
+   }
+  }
+  coords 4073.572 18.382 1832.99
+  angleX -0.86
+  angleY -106.077
+  angleZ 0.248
+  m_sAttachmentGroupName "Tank_Crew_1"
+ }
+ T72A_NVA3 {
+  components {
+   RHS_GroupMaterialController "{658AB6326777B95D}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{658AB632658732AD}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{658AB63265A8D549}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658AB6326548B8DA}" {
+      m_iTextureID 6
+     }
+     RHS_MaterialGroupProperties "{658AB632656B9B60}" {
+      m_iTextureID 3
+     }
+    }
+   }
+  }
+  coords 4040.083 18.25 1886.946
+  angleX -0.86
+  angleY -106.077
+  angleZ 0.248
+  m_sAttachmentGroupName "Tank_Crew_3"
+ }
+ T72A_NVA4 {
+  components {
+   RHS_GroupMaterialController "{658AB6326777B95D}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{658AB632658732AD}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{658AB63265A8D549}" {
+      m_iTextureID 2
+     }
+     RHS_MaterialGroupProperties "{658AB6326548B8DA}" {
+      m_iTextureID 6
+     }
+     RHS_MaterialGroupProperties "{658AB632656B9B60}" {
+      m_iTextureID 4
+     }
+    }
+   }
+  }
+  coords 4019.065 18.097 1933.662
+  angleX -0.86
+  angleY -106.077
+  angleZ 0.248
+  m_sAttachmentGroupName "Tank_Crew_4"
+ }
+}
+$grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRiflePHQ_P.et" {
  MotorPLT_1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -790,25 +892,5 @@ $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow"
   }
- }
-}
-$grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
- T72A_base1 {
-  coords 4091.254 18.526 1769.996
-  angleX 0.052
-  angleY -106.223
-  angleZ -0.063
- }
- T72A_base2 {
-  coords 4073.588 18.351 1832.83
-  angleY -110.068
- }
- T72A_base3 {
-  coords 4040.179 18.227 1886.587
-  angleY -110.068
- }
- T72A_base4 {
-  coords 4019.043 17.769 1933.546
-  angleY -110.068
  }
 }

@@ -1,0 +1,67 @@
+$grp GenericEntity {
+ Spawn_1 {
+  coords 1910.742 14.985 3613.046
+ }
+ Spawn_3 {
+  coords 2006.088 16.993 3832.995
+ }
+ Spawn_4 {
+  coords 2105.495 22.71 3860.468
+ }
+ Spawn_5 {
+  coords 2178.031 22.642 3761.918
+ }
+ Spawn_6 {
+  coords 2205.954 21.82 3706.307
+ }
+ Spawn_7 {
+  coords 2161.465 16.17 3486.199
+ }
+ Spawn_8 {
+  coords 1990.33 41.031 3441.743
+ }
+ Spawn_2 {
+  coords 1883.814 30.357 3766.07
+ }
+ Spawn_9 {
+  coords 1871.868 71.592 3418.47
+ }
+}
+$grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
+ PresenceTrigger_Group_1 {
+  coords 2048.164 20.152 3660.893
+  m_queryRadius 250
+  m_comparisonMode EQUAL_OR_LESS
+  m_flagName "Group_1_is_not_present"
+  m_drawShapeOutline 0
+  m_entityNames {
+   "Group_1"
+  }
+  m_ratioThreshold 0
+ }
+ PresenceTrigger_Group_2 {
+  coords 2048.164 20.152 3660.893
+  m_queryRadius 250
+  m_comparisonMode EQUAL_OR_LESS
+  m_flagName "Group_2_is_not_present"
+  m_drawShapeOutline 0
+  m_entityNames {
+   "Group_2"
+  }
+  m_ratioThreshold 0
+ }
+ PresenceTrigger_Group_3 {
+  coords 2048.164 20.152 3660.893
+  m_queryRadius 250
+  m_comparisonMode EQUAL_OR_LESS
+  m_flagName "Group_3_is_not_present"
+  m_drawShapeOutline 0
+  m_entityNames {
+   "Group_3"
+  }
+  m_ratioThreshold 0
+ }
+}
+SCR_SearchAndDestroyWaypoint WP_SD_Convoy_Center : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ coords 2058.26 20.49 3647.997
+}

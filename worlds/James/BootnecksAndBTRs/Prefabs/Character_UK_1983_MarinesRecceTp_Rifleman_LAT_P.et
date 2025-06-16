@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{92031FB6A058EE05}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Royal Marines/Character_UK_1983_Marines_Rifleman_LAT_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{CA55D15F8CC57E0F}Prefabs/Weapons/Rifles/AR15_604/Rifle_AR15_604_30rnd.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC3129E7848BC}" {
+     PrefabsToSpawn {
+      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
+     PrefabsToSpawn {
+      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC31278A75ED6}" {
+     PrefabsToSpawn {
+      "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65393C837AF5919E}" {
+     PrefabsToSpawn {
+      "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et" "{D4353D5E87AC4FB0}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_4B1T.et"
+     }
+    }
+   }
+  }
+ }
+}

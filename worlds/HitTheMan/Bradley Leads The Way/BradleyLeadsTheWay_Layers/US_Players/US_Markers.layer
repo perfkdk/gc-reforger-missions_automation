@@ -1,0 +1,146 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Obj_marker_1 {
+  coords 1172.537 7.345 3232.158
+  angleY -45
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 50
+  m_sDescription "Eastern Bridge"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Obj_marker_7 {
+  coords 784.32 23.661 2720.218
+  angleY -45
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 50
+  m_sDescription "Farmstead"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Obj_marker_6 {
+  coords 574.591 12.778 3159.842
+  angleY -45
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 50
+  m_sDescription "Western Bridge"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Obj_marker_9 {
+  coords 1271.323 16.67 2799.885
+  angleY -45
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 50
+  m_sDescription "Southern Sector"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Obj_marker_8 {
+  coords 1204.627 14.887 2987.404
+  angleY -45
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 50
+  m_sDescription "Northern Sector"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_1 {
+  coords 1241.114 15.093 2892.736
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "infantry"
+  m_fWorldSize 100
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_2 {
+  coords 1024.367 16.876 2778.413
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "armored"
+  m_fWorldSize 100
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_3 {
+  coords 1424.788 20.656 2330.835
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "combined"
+  m_fWorldSize 300
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_4 {
+  coords 1133.789 25.662 2134.76
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "signal"
+  m_fWorldSize 200
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_5 {
+  coords 1950.813 16.647 1199.801
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "artillery"
+  m_fWorldSize 200
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_6 {
+  coords 818.755 35.375 4218.439
+  angleY 90
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "combined"
+  m_fWorldSize 200
+  m_sDescription "Bradley Company (-)"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_7 {
+  coords 767.869 11.525 3133.197
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "infantry"
+  m_fWorldSize 100
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Marker_8 {
+  coords 920.573 24.294 3474.954
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "recon"
+  m_fWorldSize 50
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}
