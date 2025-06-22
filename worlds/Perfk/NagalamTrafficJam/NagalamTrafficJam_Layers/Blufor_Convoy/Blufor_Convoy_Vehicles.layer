@@ -1,0 +1,176 @@
+$grp Vehicle : "{07C2E883601A812F}Prefabs/Vehicles/Wheeled/LAV25/LAV25_GulfWar.et" {
+ LAV25_GulfWar5 {
+  coords 2907.587 10.084 2989.246
+  angleY 110.779
+  m_sAttachmentGroupName "RifleConvoy03"
+ }
+ LAV25_GulfWar6 {
+  coords 2908.564 10.084 2992.696
+  angleY 110.779
+  m_sAttachmentGroupName "RifleConvoy03"
+ }
+}
+$grp Vehicle : "{0B2763663404AD2E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo_GulfWar.et" {
+ Ural4320_ammo_tan2 {
+  components {
+   PK_EntityModifierComponent "{659EC44E5881E5AC}" {
+    m_bLightEnabled 1
+    m_aLightsData {
+     PK_LightData "{659EC44E5A56560F}" {
+     }
+    }
+   }
+  }
+  coords 2049.091 20.333 3650.36
+  angleX -1.082
+  angleY -52.812
+  angleZ 1.426
+ }
+ Ural4320_ammo_tan1 {
+  components {
+   PK_EntityModifierComponent "{659EC44E5881E5AC}" {
+    m_bLightEnabled 1
+    m_aLightsData {
+     PK_LightData "{659EC44E5A56560F}" {
+     }
+     PK_LightData "{659EC44E3F82E7E4}" {
+      m_eLightType HiBeam
+     }
+    }
+   }
+  }
+  coords 2039.345 19.01 3692.67
+  angleX -2.764
+  angleY 6.188
+  angleZ 0.6
+ }
+}
+Vehicle M998_covered_long_USAF_D1 : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF_D.et" {
+ components {
+  PK_EntityModifierComponent "{65792A88F412AB9B}" {
+   m_bDamageManagerEnabled 1
+   m_aHitzonesData {
+    PK_HitzoneData "{65792A88CA31A69A}" {
+     m_sTargetZone "Wheel"
+     m_iIndexId 1
+     m_fHealthPercentage 0
+    }
+    PK_HitzoneData "{65792A88C0FB959B}" {
+     m_sTargetZone "Wheel"
+     m_iIndexId 3
+     m_fHealthPercentage 0
+    }
+   }
+   m_bEngineEnabled 1
+   m_bLightEnabled 1
+   m_aLightsData {
+    PK_LightData "{65792A88DF97D81A}" {
+    }
+    PK_LightData "{65792A88D83B8431}" {
+     m_eLightType Hazard
+    }
+   }
+  }
+ }
+ coords 2062.375 20.688 3641.47
+ angleX -1.256
+ angleY -37.89
+ angleZ -0.157
+ m_sAttachmentGroupName "RifleConvoy03"
+}
+Vehicle Ural4320_tanker_tan1 : "{9E0B1495CBE91D3A}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker_GulfWar.et" {
+ components {
+  PK_EntityModifierComponent "{659EC44F9FF42422}" {
+   m_bLightEnabled 1
+   m_aLightsData {
+    PK_LightData "{659EC44F91032ACA}" {
+    }
+    PK_LightData "{659EC44E6D11474D}" {
+     m_eLightType HiBeam
+    }
+   }
+  }
+ }
+ coords 2048.035 20.059 3664.108
+ angleX -1.758
+ angleY -10.777
+ angleZ 0.335
+}
+Vehicle Ural4320_transport_tan1 : "{A53CDB2CCE892DEA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_GulfWar.et" {
+ components {
+  PK_EntityModifierComponent "{659EC44FD1B39F1F}" {
+   m_bLightEnabled 1
+   m_aLightsData {
+    PK_LightData "{659EC44FAD6015E2}" {
+    }
+    PK_LightData "{659EC44FABC77CD9}" {
+     m_eLightType HiBeam
+    }
+   }
+  }
+ }
+ coords 2034.515 19.635 3674.917
+ angleY -49.261
+}
+$grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
+ M1025_armed_M2HB_USAF_D2 {
+  components {
+   PK_EntityModifierComponent "{65792A888E845DF6}" {
+    m_bDamageManagerEnabled 1
+    m_aHitzonesData {
+     PK_HitzoneData "{65792A8880911B24}" {
+      m_sTargetZone "Wheel"
+      m_iIndexId 0
+      m_fHealthPercentage 0
+     }
+     PK_HitzoneData "{65792A889B34BB90}" {
+      m_sTargetZone "Engine_01"
+      m_iIndexId 0
+      m_fHealthPercentage 0
+     }
+    }
+    m_bLightEnabled 1
+    m_aLightsData {
+     PK_LightData "{65792A88888F05C1}" {
+     }
+     PK_LightData "{65792A8885FCBC7C}" {
+      m_eLightType Hazard
+     }
+    }
+   }
+  }
+  coords 2025.106 18.057 3707.029
+  angleX -3.224
+  angleY -32.768
+  angleZ -0.052
+  m_sAttachmentGroupName "RifleConvoy02"
+ }
+ M1025_armed_M2HB_USAF_D1 {
+  components {
+   PK_EntityModifierComponent "{6578CCC122532DEF}" {
+    m_bDamageManagerEnabled 1
+    m_aHitzonesData {
+     PK_HitzoneData "{6578CCCE6E008DB8}" {
+      m_sTargetZone "Engine_01"
+      m_fHealthPercentage 23
+     }
+     PK_HitzoneData "{6578CCCE6AAC8667}" {
+      m_sTargetZone "Wheel"
+      m_iIndexId 0
+      m_fHealthPercentage 0
+     }
+     PK_HitzoneData "{6578CCCE6612E7E9}" {
+      m_sTargetZone "Wheel"
+      m_iIndexId 2
+      m_fHealthPercentage 0
+     }
+    }
+   }
+  }
+  coords 2065.532 20.796 3637.735
+  angleX -1.262
+  angleY -40.344
+  angleZ -0.103
+  m_sAttachmentGroupName "RifleConvoy01"
+ }
+}

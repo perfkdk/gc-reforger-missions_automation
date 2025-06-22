@@ -17,7 +17,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  BLUFOR2 {
   coords 6311.682 123.55 5021.056
   m_sTitle "2. MISSION"
-  m_sTextData "The Canadian Platoon will conduct a delay and retreat operation in the vicinity of Simon’s Woods to impede enemy advance, disrupt their movement, and force them into engagement under unfavorable conditions. COMMAND have requested that enemy vehicles to be priortized and destroyed."
+  m_sTextData "The Canadian Platoon will conduct a delay and retreat operation in the vicinity of Simon’s Woods to impede enemy advance, disrupt their movement, and force them into engagement under unfavorable conditions. COMMAND have requested that enemy vehicles to be destroyed specifically, specially MBTs."
   m_aVisibleForFactions {
    "GC_CAF"
   }

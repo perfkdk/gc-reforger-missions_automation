@@ -7,7 +7,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    600
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -42,7 +42,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    600
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -77,7 +77,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    600
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -112,7 +112,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    30 300
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -147,7 +147,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    30 300
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -182,7 +182,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    600
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -217,7 +217,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    30 300
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -252,7 +252,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    600
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -287,7 +287,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    300
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -320,9 +320,9 @@ $grp TILW_PrefabSpawnerEntity {
   m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
   m_conditionFlag "bridgesecure"
   m_spawnTimings {
-   600 660
+   600 660 720
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_waypointNames {
@@ -358,9 +358,9 @@ $grp TILW_PrefabSpawnerEntity {
   m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
   m_conditionFlag "bridgesecure"
   m_spawnTimings {
-   600 660
+   600 660 720
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_waypointNames {
@@ -394,9 +394,9 @@ $grp TILW_PrefabSpawnerEntity {
   m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
   m_conditionFlag "bridgesecure"
   m_spawnTimings {
-   600 660
+   600 660 720
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{C5BCB9F87D4BEDD6}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Split_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{C5BCB9F87D4BEDD6}Configs/Crews/AFRF/BTR_AFRF_Crew_Split_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64FAF9FF54D13031}" {
      m_waypointNames {
@@ -419,7 +419,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    300
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -511,7 +511,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    300
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -546,7 +546,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    300
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -581,7 +581,7 @@ $grp TILW_PrefabSpawnerEntity {
   m_spawnTimings {
    300
   }
-  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Prefabs/Vehicles/Wheeled/BTR70/Flora Crew configs/BTR_AFRF_Crew_Flora.conf" {
+  m_crewConfig TILW_CrewConfig "{64FAF9F57CD1713F}" : "{47ABFE35CED7D5AA}Configs/Crews/AFRF/BTR_AFRF_Crew_Flora_AI.conf" {
    m_crewGroups {
     TILW_CrewGroup "{64F2F8212EF64955}" {
      m_crewStations {
@@ -606,6 +606,32 @@ $grp TILW_PrefabSpawnerEntity {
      m_waypointDelay 5
     }
    }
+  }
+ }
+ {
+  coords 1008.272 33.695 4567.219
+  angleY -151.997
+  m_prefab "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et"
+  m_conditionFlag "bridgesecure"
+  m_spawnTimings {
+   660
+  }
+  m_crewConfig TILW_CrewConfig "{65772E3298E44535}" {
+   m_crewGroups {
+    TILW_CrewGroup "{65772E328610499D}" {
+     m_crewStations {
+      TILW_CrewStation "{65772E3284BAB538}" {
+       m_characters {
+        "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et" "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et" "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "Move" "attack_bridge"
+     }
+    }
+   }
+   m_noTurretDismount 1
   }
  }
 }
@@ -647,9 +673,9 @@ TILW_PresenceTriggerEntity computertrigger : "{826E6F2246328952}Prefabs/Logic/Tr
 TILW_FactionTriggerEntity bridgesecure : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 1134.181 7.864 3288.677
  m_queryRadius 150
+ m_skipFirstQuery 1
  m_comparisonMode EQUAL_OR_LESS
  m_flagName "bridgesecure"
- m_playersOnly 1
  m_ownerFactionKey "GC_SEPARATIST"
  m_ratioThreshold 0
 }
@@ -822,6 +848,16 @@ $grp SCR_AIGroup : "{DEE4F567595DE7AE}Prefabs/Groups/OPFOR/GC_SEPARATIST/GC_SEPA
     coords 1.391 -0.008 -0.952
    }
   }
+ }
+ {
+  coords 1126.782 8.533 3305.053
+  m_aUnitPrefabSlots {
+   "{4C362B06571604F9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_SL.et" "{7F16C773F44030E6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_TL.et" "{78EF9F722E522CCF}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/Character_GC_SEPARATIST_Sharpshooter.et"
+  }
+  m_aStaticWaypoints {
+   "defbridge"
+  }
+  m_bDeleteIfNoPlayer 0
  }
 }
 GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {

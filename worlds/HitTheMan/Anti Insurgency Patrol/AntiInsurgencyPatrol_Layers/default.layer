@@ -254,8 +254,8 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
  }
 }
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 4106.98 65.183 10718.634
- m_queryRadius 120
+ coords 4098.165 65.183 10726.068
+ m_queryRadius 170
  m_locationName "the Compound"
  m_flagName "Compound"
  m_stopAfterFirstChange 1
@@ -263,7 +263,7 @@ TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_Facti
   "US"
  }
  m_ownerFactionKey "GC_TKA"
- m_ratioThreshold 0.5
+ m_ratioThreshold 0.3
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 4512.436 102.467 11792.496
@@ -318,7 +318,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{6550E3610BC8F6E2}" {
      m_executionDelay 22
      m_messageTitle "Battalion Radio Report:"
-     m_messageBody "The US has invaded Takistan, mechanized forces are crossing the border with the aid of their airforce.. Report says there's a Mechanized Company inbound on your location.. Hold your ground or fall back to Nagara or flee to the South.. NEW OBJECTIVE: Survive || AO Limit Removed."
+     m_messageBody "The US has invaded Takistan, mechanized forces are crossing the border with the aid of their airforce.. Report says there's a Mechanized Company inbound on your location.. Fall back to Nagara and aid in its defence"
     }
     TILW_SendMessageInstruction "{6564F314EC0C2D6F}" {
      m_executionDelay 900
