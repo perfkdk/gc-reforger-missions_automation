@@ -1,0 +1,29 @@
+ImageSetClass {
+ RefSize 1132 508
+ Textures {
+  ImageSetTextureClass {
+   screenSize FHD
+   size 1132 508
+   path "{1AD38D6F11D7432A}worlds/Perfk/Images/pk_Factions_icons_mapMarkersUI-100_atlas.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass image {
+   Name "image"
+   Pos 2 2
+   Size 1126 501
+   Flags 0
+  }
+  ImageSetDefClass teas {
+   Name "teas"
+   Pos 73 4
+   Size 200 500
+   Flags 0
+  }
+ }
+ Groups {
+  ImageSetGroupClass All {
+   Name "All"
+  }
+ }
+}

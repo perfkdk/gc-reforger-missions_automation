@@ -1,0 +1,235 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ BRIEF_09_Vehicle_assignment2 {
+  coords 2701.502 10 3312.431
+  m_sTitle "APPENDIX A: Vehicle assignment"
+  m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
+  m_sTextData "Vehicle appear in order ready to move out the gate"\
+  ""\
+  "/ LAV-25:"\
+  "- 2'1 (LAV crew)"\
+  "- 1'1 (SL, Alpha)."\
+  "Seats: 3 Crew, 6 Passenger"\
+  ""\
+  "/ M2 M1025:"\
+  "- 1'1 (Bravo)."\
+  "Seats: 4 Seats, 1 gunner"\
+  ""\
+  "/ M997 Ambulance:"\
+  "- 1'6 Medics"\
+  "Seats: 1 Driver, 1 Passenger, 1 Back seat, 2 Patients"\
+  ""\
+  "/ M923A1 Transport Truck:"\
+  "- 1'3 (SL, Alpha, Bravo)"\
+  "Seats: 1 driver, 14 Passenger"\
+  ""\
+  "/ M923A1 Repair Truck:"\
+  "- Assign driver"\
+  "Seats: 1 Driver, 2 Passenger"\
+  ""\
+  "/ M2 M1025:"\
+  "- 2'2 - (Bravo Fireteam)"\
+  "Seat: 1 Driver, 3 Passenger, 1 Gunner"\
+  ""\
+  "/ LAV-25:"\
+  "- 2'2 (LAV crew)"\
+  "- 1'2 (SL, Alpha)."\
+  "Seats: 3 Crew, 6 Passenger"\
+  ""\
+  "/ M923A1 Transport Truck:"\
+  "- 1'4 (SL, Alpha, Bravo, Charlie)"\
+  "Seats: 1 driver, 14 Passenger"\
+  ""
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 9
+ }
+ BRIEF_02_METREP2 {
+  coords 2633.464 9.999 3198.011
+  m_sTitle "METREP:"
+  m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
+  m_sTextData "/ Ground:"\
+  "Mountainous Terrain "\
+  ""\
+  "Multiple Civilian buildings, all civilians have fleed the area"\
+  ""\
+  "/ Light:"\
+  "- First Light: 0540h"\
+  "- Last Light: 1950h"\
+  "- Time Now: 0600h"\
+  ""\
+  "/ Weather:"\
+  "Clear and sunny with a light haze"\
+  ""\
+  "/ Forecast:"\
+  "Weather is not expected to change"\
+  ""\
+  "/ Moonstate:"\
+  "Full"\
+  ""\
+  "/ Visibility:"\
+  "Good with light haze around 2000 meters"\
+  ""
+  m_aVisibleForFactions {
+   "GC_TKA"
+  }
+  m_iOrder 2
+ }
+ BRIEF_03_Situation2 {
+  coords 2637.852 10 3206.405
+  m_sTitle "I. Situation:"
+  m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
+  m_sTextData "Your convoy has been ambushed at Grid 020 036 and is currently pinned down under heavy enemy fire. You are taking cover inside the 3 story house at grid 0206 0366. There are 6 wounded soldiers and multiple dead out near the convoys. Move wounded to a secure place and start treatment. DO NOT GIVE SALINE or SMELLING SALT)"\
+  ""\
+  "You primary objective is to stay alive and keep any wounded soldiers alive (Read mission notes for treatment details)."\
+  ""\
+  "In approximately 3 minutes, enemy Insurgents will begin moving toward your position."\
+  ""\
+  "Do not leave the convoy area until friendly QRF forces arrive to assist you."\
+  ""\
+  "Once the QRF arrives, 1’6 will assume overall command of the mission."\
+  ""\
+  "Stay alert, use cover, and be ready for extraction."\
+  ""
+  m_aVisibleForFactions {
+   "GC_TKA"
+  }
+  m_iOrder 3
+ }
+ BRIEF_04_Mission2 {
+  coords 2645.01 9.999 3219.313
+  m_sTitle "II. Mission:"
+  m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
+  m_sTextData "1st Platoon, with support from 2nd LAV Platoon, acts as the Quick Reaction Force out of FOB Michigan (Grid 026 030) NLT 10 min after start, and will rapidly move to the convoy’s last known position (Grid 020 036)  in order to secure the area, recover personnel and equipment, provide medical aid*, and return all friendly forces and assets to FOB Michigan."\
+  ""\
+  "(* Medical Aid, Please read the mission notes for treatment details)"\
+  ""
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 4
+ }
+ BRIEF_05_Execution2 {
+  coords 2657.315 10 3239.213
+  m_sTitle "III. Execution:"
+  m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
+  m_sTextData "/ A. Commander’s Intent"\
+  ""\
+  "// 1. Center of Gravity: Rapid deployment and concentration of combat power at the convoy’s location to ensure swift recovery and security."\
+  ""\
+  "// 2. Critical Vulnerability: The convoy and recovery force are vulnerable to ambush and IEDs along the MSR, especially in restricted terrain and poor weather."\
+  ""\
+  "// 3. Exploitation Plan: Utilize speed, overwhelming force, and coordinated movement to secure the convoy, minimize exposure, and quickly exfiltrate."\
+  ""\
+  "// 4. Desired Endstate: All friendly personnel and as much convoy equipment as possible are recovered and returned safely to FOB Michigan, with no friendly casualties and minimal loss of equipment."\
+  ""\
+  "/ B. Concept of the Operations"\
+  "// 1. Scheme of Maneuver:"\
+  "1st Platoon, supported by 2nd LAV Platoon, will mount at FOB Michigan and move rapidly along the MSR to the convoy’s last known position (Grid 020 036). Upon arrival, establish a secure perimeter, conduct casualty treatment and vehicle recovery, and prepare for immediate return movement to FOB Michigan. All movement will remain on or near the MSR due to unsuitable ground conditions for heavy vehicles caused by recent heavy rain."\
+  ""\
+  "// 2. Fire Support Plan:"\
+  "No indirect fire assets are available for this operation. All fire support will be organic, utilizing platoon weapons and LAV armament. Immediate suppression of enemy positions will be conducted as required to ensure force protection and mission success."\
+  ""\
+  "/ C. Tasks"\
+  "// 1st Platoon:"\
+  "Lead QRF movement and establish security at the convoy site."\
+  ""\
+  "Conduct initial assessment and coordinate recovery operations."\
+  ""\
+  "Provide security for medics and maintenance teams."\
+  ""\
+  "// 2nd LAV Platoon:"\
+  "Provide armored support and overwatch during movement and at the objective."\
+  ""\
+  "// Medics:"\
+  "Treat and stabilize casualties for evacuation."\
+  ""\
+  "// All Personnel:"\
+  "Remain prepared to conduct vehicle repairs as required."\
+  ""\
+  "Maintain situational awareness and adhere to movement restrictions."\
+  ""\
+  "// D. Coordinating Instructions"\
+  "Rules of Engagement (ROE) remain in effect; positive identification required before engagement."\
+  ""
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 5
+ }
+ BRIEF_06_Sustainment2 {
+  coords 2676.189 10 3265.73
+  m_sTitle "IV. Sustainment:"
+  m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
+  m_sTextData "/ A. Administration"\
+  "// 1. Enemy Prisoners of War (EPW):"\
+  "Any EPWs will be searched, secured, and reported to higher headquarters. Temporary holding will be conducted at the convoy site until transport back to FOB Michigan is available."\
+  ""\
+  "// 2. Casualty Evacuation (CASEVAC):"\
+  "Medics will provide immediate care at the site. Casualties will be stabilized and evacuated using available vehicles, with priority for LAV-25s or designated CASEVAC vehicles."\
+  ""\
+  "/ B. Logistics"\
+  "// 1. Supply (Beans, Bullets, & Batteries):"\
+  "All personnel are issued a standard combat load and Individual IFAK."\
+  ""\
+  "Additional ammunition and medical supplies are available from vehicles."\
+  ""\
+  "Only medics may draw extra morphine injectors, saline solutions, epinephrine, and ammonium carbonate."\
+  ""\
+  "// 2. Transportation & Maintenance:"\
+  "2nd LAV Platoon provides primary armored transportation (LAV-25s)."\
+  ""\
+  "A dedicated repair truck is attached to the platoon to support vehicle recovery and maintenance operations."\
+  ""\
+  "Refer to vehicle assignment roster for specific transportation details."\
+  ""\
+  "// 3. Communications & Pyrotechnics:"\
+  "All units will maintain radio contact with higher headquarters and internal elements."\
+  ""\
+  "Signal flares and other pyrotechnics are issued as per SOP."\
+  ""
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 6
+ }
+ BRIEF_07_Command2 {
+  coords 2687.574 10 3291.49
+  m_sTitle "V. Command & Control:"
+  m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
+  m_sTextData "/ A. Signal"\
+  "// 1. Radios:"\
+  "All Squad Leaders (SL), Platoon Sergeant (PSG), Platoon Leader (PL), and LAV-25 crew members (Driver, Gunner, Commander) are equipped with AN/PRC-68 radios."\
+  ""\
+  "// 2. Radio Nets"\
+  "/// PRR Nets:"\
+  "- A 1’6 - 40.0 MHz"\
+  "- A 1’1 - 41.0 MHz"\
+  "- A 1’2 - 39.0 MHz"\
+  "- A 1’3 - 39.5 MHz"\
+  "- B 2’1 - 42.0 MHz"\
+  "- B 2’2 - 40.5 MHz"\
+  ""\
+  "/// LRR Net:"\
+  "- 48.0 MHz"\
+  ""\
+  "// 4. Recognition Signals"\
+  "Green Smoke: Location of friendly forces"\
+  ""\
+  "Red Smoke: Location of enemy forces"\
+  ""\
+  "Yellow Smoke: Wounded or requesting aid"\
+  ""\
+  "White Smoke: Concealment"\
+  ""\
+  "// 5. Challenge and Password"\
+  "Challenge: HAN"\
+  ""\
+  "Password: SOLO"\
+  ""
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 7
+ }
+}
