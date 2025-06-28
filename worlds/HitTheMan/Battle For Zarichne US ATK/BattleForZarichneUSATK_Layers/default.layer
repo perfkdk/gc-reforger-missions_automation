@@ -258,19 +258,16 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position -133.518 -0.566 -287.281
    }
    ShapePoint "{6584FEF1BCC4F189}" {
-    Position -106.505 2.524 -259.153
+    Position -92.284 1.965 -285.245
    }
    ShapePoint "{6584FEF1BC4C29D4}" {
-    Position -109.758 3.136 -224.907
+    Position -53.488 3.097 -272.461
    }
    ShapePoint "{6584FEF1B38A98BA}" {
-    Position -115.193 2.958 -189.337
-   }
-   ShapePoint "{6584FEF7A4676E31}" {
-    Position -96.871 2.433 -153.709
+    Position -61.909 3.003 -190.258
    }
    ShapePoint "{6584FEF65B90BECA}" {
-    Position -99.384 1.897 -119.431
+    Position -71.352 2.387 -150.823
    }
    ShapePoint "{6584FEF6591FC376}" {
     Position -82.879 1.751 -110.1
@@ -284,80 +281,23 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    ShapePoint "{6584FEF65EA06ED9}" {
     Position -104.336 0.111 -5.097
    }
-   ShapePoint "{6584FEF65DE88178}" {
-    Position -107.242 -0.378 26.186
+   ShapePoint "{65B95BE2BA476CA4}" {
+    Position -100.246 -0.27 19.302
    }
-   ShapePoint "{6584FEF65D78EDE4}" {
-    Position -111.072 -0.829 55.042
+   ShapePoint "{65B95BE2B9B7C7D9}" {
+    Position -72.573 -0.404 27.85
    }
-   ShapePoint "{6584FEF65C5FE281}" {
-    Position -123.532 -1.263 82.841
-   }
-   ShapePoint "{6584FEF652C66D13}" {
-    Position -133.125 -1.658 108.145
-   }
-   ShapePoint "{6584FEF65278895A}" {
-    Position -127.539 -1.866 121.473
-   }
-   ShapePoint "{6584FEF1A884275D}" {
-    Position -114.16 -2.013 130.825
-   }
-   ShapePoint "{6584FEF1AFF6585D}" {
-    Position -79.35 -2.322 150.671
-   }
-   ShapePoint "{6584FEF1AF0FD135}" {
-    Position -39.601 -2.669 172.877
-   }
-   ShapePoint "{6584FEF1A176B02E}" {
-    Position -28.672 -2.681 173.585
-   }
-   ShapePoint "{6584FEF1A09C7C5E}" {
-    Position -11.736 -2.549 165.181
-   }
-   ShapePoint "{6584FEF1A7110D38}" {
-    Position -0.842 -2.282 148.047
-   }
-   ShapePoint "{6584FEF1A69FEEC0}" {
-    Position 8.098 -2.005 130.361
-   }
-   ShapePoint "{6584FEF1A590AB97}" {
-    Position 21.448 -1.653 107.847
+   ShapePoint "{65B95BE2BEC3DFA4}" {
+    Position 28.841 -1.242 81.497
    }
    ShapePoint "{6584FEF1A4D69974}" {
     Position 37.997 -1.17 76.898
    }
    ShapePoint "{6584FEF1A43244B2}" {
-    Position 46.73 -0.911 60.309
+    Position 166.871 2.179 -159.642
    }
    ShapePoint "{6584FEF05A90E001}" {
-    Position 66.876 -0.401 27.66
-   }
-   ShapePoint "{6584FEF055E061E1}" {
-    Position 93.554 -0.27 18.434
-   }
-   ShapePoint "{6584FEF055164F0A}" {
-    Position 128.353 0.018 4.82
-   }
-   ShapePoint "{6584FEF0541B6F1D}" {
-    Position 148.315 -0.05 3.202
-   }
-   ShapePoint "{6584FEF04B8DF2C4}" {
-    Position 170.58 0.098 -0.26
-   }
-   ShapePoint "{6584FEF04A7E3153}" {
-    Position 192.96 -2.138 -20.089
-   }
-   ShapePoint "{6584FEF048FE9CF2}" {
-    Position 232.736 -3.111 -48.88
-   }
-   ShapePoint "{6584FEF04FA9C916}" {
-    Position 251.34 -3.319 -84.191
-   }
-   ShapePoint "{6584FEF04E4E1C99}" {
-    Position 260.282 -3.135 -102.678
-   }
-   ShapePoint "{6584FEF04D6DDE66}" {
-    Position 274.432 -3.386 -120.671
+    Position 249.225 -2.936 -121.348
    }
    ShapePoint "{6584FEF04CCFA2B6}" {
     Position 284.099 -3.349 -135.156
@@ -392,16 +332,13 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   angleX 0.895
   Points {
    ShapePoint "{6584FEF1BC4C29D4}" {
-    Position -109.758 3.136 -224.907
+    Position -53.794 3.087 -272.114
    }
    ShapePoint "{6584FEF64A5E9BFB}" {
-    Position -115.145 2.955 -189.164
-   }
-   ShapePoint "{6584FEF648EF558B}" {
-    Position -96.912 2.431 -153.639
+    Position -60.467 3.012 -190.775
    }
    ShapePoint "{6584FEF64F97EB5A}" {
-    Position -99.3 1.896 -119.378
+    Position -70.672 2.387 -150.799
    }
    ShapePoint "{6584FEF64E7969C7}" {
     Position -82.816 1.749 -109.962
@@ -415,44 +352,17 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    ShapePoint "{6584FEF642954220}" {
     Position -104.371 0.112 -5.194
    }
-   ShapePoint "{6584FEF641798DE4}" {
-    Position -107.28 -0.378 26.184
-   }
-   ShapePoint "{6584FEF64098EEE4}" {
-    Position -111.263 -0.832 55.245
-   }
-   ShapePoint "{6584FEF6451D4FBC}" {
-    Position -123.478 -1.264 82.909
-   }
-   ShapePoint "{6584FEF67BD212A8}" {
-    Position -133.101 -1.658 108.169
-   }
-   ShapePoint "{6584FEF67B20DA50}" {
-    Position -127.525 -1.867 121.514
-   }
-   ShapePoint "{6584FEF1A884275D}" {
-    Position -114.16 -2.013 130.825
-   }
-   ShapePoint "{6584FEF1AFF6585D}" {
-    Position -79.35 -2.322 150.671
-   }
-   ShapePoint "{6584FEF1AF0FD135}" {
-    Position -39.601 -2.669 172.877
-   }
-   ShapePoint "{6584FEF1A176B02E}" {
-    Position -28.672 -2.681 173.585
-   }
-   ShapePoint "{6584FEF1A09C7C5E}" {
-    Position -11.736 -2.549 165.181
-   }
-   ShapePoint "{6584FEF1A7110D38}" {
-    Position -0.842 -2.282 148.047
-   }
-   ShapePoint "{6584FEF1A69FEEC0}" {
-    Position 8.098 -2.005 130.361
-   }
    ShapePoint "{6584FEF1A590AB97}" {
-    Position 21.448 -1.653 107.847
+    Position -100.08 -0.28 19.942
+   }
+   ShapePoint "{65B95BE283EF11E7}" {
+    Position -72.379 -0.4 27.599
+   }
+   ShapePoint "{65B95BE281F52D7D}" {
+    Position 2.093 -1.022 67.434
+   }
+   ShapePoint "{65B95BE288970A97}" {
+    Position 28.485 -1.242 81.48
    }
    ShapePoint "{6584FEF1A4D69974}" {
     Position 37.997 -1.17 76.898
@@ -460,41 +370,8 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    ShapePoint "{6584FEF1A43244B2}" {
     Position 46.73 -0.911 60.309
    }
-   ShapePoint "{6584FEF05A90E001}" {
-    Position 66.876 -0.401 27.66
-   }
-   ShapePoint "{6584FEF055E061E1}" {
-    Position 93.554 -0.27 18.434
-   }
-   ShapePoint "{6584FEF097E9E5A5}" {
-    Position 118.564 0.345 -16.105
-   }
-   ShapePoint "{6584FEF09688A2AB}" {
-    Position 152.437 0.136 -2.702
-   }
-   ShapePoint "{6584FEF0F4CECBE3}" {
-    Position 169.779 0.225 -8.414
-   }
-   ShapePoint "{6584FEF0EBDF818F}" {
-    Position 197.769 1.007 -58.459
-   }
-   ShapePoint "{6584FEF0E9FC8488}" {
-    Position 204.044 0.695 -74.931
-   }
-   ShapePoint "{6584FEF0E97FF1FD}" {
-    Position 221.261 0.216 -88.337
-   }
-   ShapePoint "{6584FEF0E8CCF157}" {
-    Position 222.608 1.51 -110.158
-   }
-   ShapePoint "{6584FEF0E845C639}" {
-    Position 196.693 1.86 -125.068
-   }
-   ShapePoint "{6584FEF0EED7C5B3}" {
-    Position 179.94 1.712 -132.704
-   }
    ShapePoint "{6584FEF0EE77D43E}" {
-    Position 160.96 2.054 -145.49
+    Position 160.576 2.092 -147.937
    }
    ShapePoint "{6584FEF0ECD451C2}" {
     Position 162.074 2.225 -159.844
@@ -506,47 +383,12 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position 100.332 2.936 -201.947
    }
    ShapePoint "{6584FEF0DFA08DF0}" {
-    Position 46.264 3.244 -229.675
-   }
-   ShapePoint "{6584FEF0DE831689}" {
-    Position -43.881 3.254 -274.864
-   }
-   ShapePoint "{6584FEF0F8816986}" {
-    Position -78.348 2.686 -275.632
-   }
-   ShapePoint "{6584FEF0F8234E1E}" {
-    Position -81.548 2.988 -261.978
-   }
-   ShapePoint "{6584FEF0FE488F2D}" {
-    Position -107.806 2.951 -242.071
+    Position -48.181 3.225 -277.307
    }
   }
  }
 }
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- Sector6_Trigger {
-  coords 1365.274 20.655 2505.367
-  angleX -2.385
-  angleY -75.89
-  angleZ -1.521
-  m_queryRadius 60
-  m_sendStatusMessages 1
-  m_locationName "Sector 6"
-  m_flagName "Sector6"
-  m_stopAfterFirstChange 1
-  m_ownerFactionKey "US"
-  m_ratioThreshold 0.9
- }
- Sector3_Trigger {
-  coords 1581.557 20.728 2338.802
-  m_queryRadius 60
-  m_sendStatusMessages 1
-  m_locationName "Sector 3"
-  m_flagName "Sector3"
-  m_stopAfterFirstChange 1
-  m_ownerFactionKey "US"
-  m_ratioThreshold 0.9
- }
  Sector1_Trigger {
   coords 1408.491 26.391 2206.469
   m_queryRadius 50
@@ -737,30 +579,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "flag-3"
   m_fWorldSize 30
   m_sDescription "Sector 5"
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
-  m_bringToFront 0
- }
- Obj_Mark_6 {
-  coords 1365.231 20.656 2505.335
-  angleY 90
-  m_sImageSetGlow ""
-  m_MarkerColor 0.624 0.157 0.157 1
-  m_sQuadName "flag-3"
-  m_fWorldSize 30
-  m_sDescription "Sector 6"
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
-  m_bringToFront 0
- }
- Obj_Mark_3 {
-  coords 1581.582 20.719 2338.931
-  angleY 90
-  m_sImageSetGlow ""
-  m_MarkerColor 0.624 0.157 0.157 1
-  m_sQuadName "flag-3"
-  m_fWorldSize 30
-  m_sDescription "Sector 3"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
   m_bringToFront 0

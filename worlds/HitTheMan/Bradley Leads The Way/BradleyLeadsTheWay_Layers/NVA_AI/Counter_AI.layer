@@ -5,7 +5,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
-   60 200
+   60 200 400 600
   }
   m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
    m_crewGroups {
@@ -33,7 +33,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
-   60 200
+   60 200 400 600
   }
   m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
    m_crewGroups {
@@ -61,7 +61,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
-   60 150 380
+   60 350 500
   }
   m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
    m_crewGroups {
@@ -91,7 +91,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
-   60 150 380
+   60 350 500
   }
   m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
    m_crewGroups {
@@ -114,48 +114,48 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  Inf_Counter_Attack_Spawner_1 {
-  coords 1147.864 19.245 2371.228
+  coords 1035.563 17.642 2466.129
   angleY -9.635
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
-   80 160 240 400 500
+   80 160 240 400 500 600 700
   }
   m_waypointNames {
    "wp_counter_attack_1"
   }
  }
  Inf_Counter_Attack_Spawner_2 {
-  coords 1261.97 20.656 2511.03
+  coords 1234.463 20.656 2494.261
   angleY -33.071
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
-   80 160 240 400 500
+   80 160 240 400 500 600 700
   }
   m_waypointNames {
    "wp_counter_attack_1"
   }
  }
  Inf_Counter_Attack_Spawner_3 {
-  coords 1375.297 20.656 2576.877
-  angleY -38.904
+  coords 1289.533 20.738 2631.739
+  angleY 167.276
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
-   80 160 240 400 500
+   80 160 240 400 500 600 700
   }
   m_waypointNames {
    "wp_counter_attack_1"
   }
  }
  Inf_Counter_Attack_Spawner_4 {
-  coords 1564.943 14.86 2662.245
+  coords 1571.649 12.805 2727.234
   angleY -9.635
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
-   80 160 240 400 500
+   80 160 240 400 500 600 700
   }
   m_waypointNames {
    "wp_counter_attack_1"
@@ -167,7 +167,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
-   80 160 240 400 500
+   80 160 240 400 500 600 700
   }
   m_waypointNames {
    "wp_counter_attack_1"
@@ -179,7 +179,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
-   80 160 240 400 500
+   80 160 240 400 500 600 700
   }
   m_waypointNames {
    "wp_counter_attack_2"
@@ -191,29 +191,20 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
   m_conditionFlag "Counter_AI"
   m_spawnTimings {
-   80 160 240 400 500
+   80 160 240 400 500 600 700
   }
   m_waypointNames {
    "wp_counter_attack_2"
   }
  }
 }
-TILW_FactionTriggerEntity Counter_Attack : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 1436.038 23.101 2483.151
- m_queryRadius 450
- m_locationName "lalafuckthis"
- m_flagName "Counter_AI"
- m_stopAfterFirstChange 1
- m_ownerFactionKey "US"
- m_ratioThreshold 0.01
-}
 $grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
  wp_counter_attack_1 {
-  coords 1214.881 15.062 2942.157
+  coords 1191.579 15.116 2975.608
   CompletionRadius 90
  }
  wp_counter_attack_2 {
-  coords 1261.974 24.665 2832.81
+  coords 1244.223 24.463 2827.85
   CompletionRadius 100
  }
 }
