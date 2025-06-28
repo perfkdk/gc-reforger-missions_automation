@@ -75,7 +75,7 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
  coords 1314.159 138.948 4296.578
  Points {
   ShapePoint "{659629873CDA1029}" {
-   Position -373.142 43.325 -583.125
+   Position -340.001 45.431 -537.762
   }
   ShapePoint "{659629873F0F24BE}" {
    Position -239.102 47.434 -399.653
@@ -218,8 +218,11 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   ShapePoint "{65962986379FC4C7}" {
    Position -528.932 -3.614 -221.962
   }
+  ShapePoint "{65ACE305EFDB664B}" {
+   Position -506.504 1.959 -315.037
+  }
   ShapePoint "{659629863B28A077}" {
-   Position -646.716 -3.652 -428.962
+   Position -557.904 0.072 -372.022
   }
  }
 }
@@ -256,7 +259,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "mortar2"
    }
   }
-  TILW_MissionEvent "{6596803B884BFB08}" {
+  TILW_MissionEvent "{65ACE31450FF9113}" {
    m_name "Mortar Barrage 3"
    m_instructions {
     TILW_SendMessageInstruction "{6596803BE227BE66}" {
@@ -264,7 +267,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageBody "Counter battery radar detects incomng IDF."
     }
    }
-   m_condition TILW_LiteralTerm "{6596803BE41C5D89}" {
+   m_condition TILW_LiteralTerm "{6596803BC2E3EA47}" {
     m_flagName "mortar3"
    }
   }
@@ -278,18 +281,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_LiteralTerm "{6596803BE41C5D89}" {
     m_flagName "mortar4"
-   }
-  }
-  TILW_MissionEvent "{6596803B89CD88B1}" {
-   m_name "Mortar Barrage 5"
-   m_instructions {
-    TILW_SendMessageInstruction "{6596803BE227BE66}" {
-     m_messageTitle "BN HQ"
-     m_messageBody "Counter battery radar detects incomng IDF."
-    }
-   }
-   m_condition TILW_LiteralTerm "{6596803BE41C5D89}" {
-    m_flagName "mortar5"
    }
   }
   TILW_MissionEvent "{6596803B1643BCB6}" {

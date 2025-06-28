@@ -79,7 +79,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "The 24th Mot. Schutzen Regiment attacks in the direction of Bad Orb."\
   ""\
-  "Order of march on the A 66: 3rd Coy, 2nd Coy, HQ, 1st Coy."\
+  "Order of march on the A 66: 3rd Coy (YOU) is at the front of the formation, ahead of the regiment."\
   ""\
   "Point of Departure: Along the A 66 south of intersection near Buckewald."\
   ""
@@ -106,9 +106,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "d) Signals"\
   "Company Net 42MHz."\
-  ""\
-  "e) Logistics"\
-  "Extra ammo available within Coy HQ trucks."
+  ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 5
@@ -127,5 +125,41 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 6
+ }
+ {
+  coords 1204.992 141.524 4284.376
+  m_sTitle "A note on Warsaw Pact motor rifle companies"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "The vehicle tactical numbers act as the callsigns. (0-9)"\
+  ""\
+  "There is one company net, for which all forces listen in to. The only people typically speaking on the net should be the CO and platoon leadership, others are to listen and only respond when called for."\
+  ""\
+  "The PL takes the c/s of the BTR he is riding in, typically the first of his platoon. The Deputy will ride with another. "\
+  "SLs typically do not/have limited dismounted radios, and BTRs are expected to monitor comms for the squad when mounted. "\
+  ""\
+  "Upon dismounting the PL will lead the dismounts and communicate for them. SLs may have radios but will only speak up if the comms between company and the PL have degraded. The dismounted squads should be not be so far from each other that they cannot communicate locally. The deputy PL may dismount, or lead the seperate armoured group ('Bronegruppa' in Russian)."\
+  ""\
+  "During a typical platoon attack, forces would stay mounted as long as possible, and would see the infantry dismount at most only a few hundred metres from an OBJ. "\
+  "They would be on line, with a frontage of no wider than 250m. (A company attack would have a frontage of no wider than 750m for a full sized company.) "\
+  "The infantry would be 50m ahead of their vehicles, advancing to contact. "\
+  ""\
+  "The company sergeant's duties are to manage the HQ group (ie the medics.) while the CO commands his forces. If there is a political officer role he acts as the XO."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 6
+ }
+}
+$grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
+ T72A_NVA1 {
+  coords 794.409 140.037 3976.774
+  angleY -136
+ }
+ T72A_NVA2 {
+  coords 777.135 139.314 3958.937
+  angleY -136
+ }
+ T72A_NVA3 {
+  coords 759.279 138.501 3939.793
+  angleY -138
  }
 }
