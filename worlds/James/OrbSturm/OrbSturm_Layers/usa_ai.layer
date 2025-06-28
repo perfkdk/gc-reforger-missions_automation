@@ -15,6 +15,71 @@ $grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.
 AIWaypointCycle ptrlcycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
  coords 3420.603 242.969 4014.837
 }
+$grp SCR_AIGroup : "{713BC51B09528AE1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/Group_US_1986_BDU_PLT_HQ_AI.et" {
+ {
+  coords 2302.032 223.146 3985.396
+  m_aUnitPrefabSlots {
+   "{A61656C82DEE507F}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_PL_CO_AI.et"
+  }
+ }
+ {
+  coords 2301.411 221.234 3976.365
+  m_aUnitPrefabSlots {
+   "{BCC4FC1FAC2D0940}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_PSG_AI.et"
+  }
+ }
+ {
+  coords 2302.505 219.334 3985.212
+  m_aUnitPrefabSlots {
+   "{A3EC22B986D89B22}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_FO_AI.et"
+  }
+ }
+ {
+  coords 2573.378 179.931 4322.212
+  m_aUnitPrefabSlots {
+   "{A03A0A66CFA1ACB8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_AR_AI.et"
+  }
+ }
+ {
+  coords 2927.578 228.473 4030.293
+  m_aUnitPrefabSlots {
+   "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
+  }
+ }
+ {
+  coords 2935.585 228.473 4031.388
+  m_aUnitPrefabSlots {
+   "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
+  }
+ }
+ {
+  coords 2961.406 229.032 4029.287
+  m_aUnitPrefabSlots {
+   "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
+  }
+ }
+ {
+  coords 3471.65 156.842 4455.169
+  angleY -155
+  m_aUnitPrefabSlots {
+   "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
+  }
+ }
+ {
+  coords 3427.336 156.971 4423.369
+  angleY -63
+  m_aUnitPrefabSlots {
+   "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
+  }
+ }
+ {
+  coords 3445.052 157.281 4418.724
+  angleY -148
+  m_aUnitPrefabSlots {
+   "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
+  }
+ }
+}
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  {
   coords 3375.642 156.562 4408.491
@@ -25,7 +90,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  }
  {
   coords 3444.469 156.688 4446.415
-  m_prefab "{4440E1746F2FDEAB}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/Group_US_1986_BDU_RifleSquad_M249_AI.et"
+  m_prefab "{AEF98599B6C95420}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/Group_US_1986_BDU_Brad_RifleSquad_M67_AI.et"
   m_waypointNames {
    "defwater2"
   }
@@ -67,7 +132,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  }
  {
   coords 2760.555 214.269 4153.711
-  m_prefab "{4440E1746F2FDEAB}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/Group_US_1986_BDU_RifleSquad_M249_AI.et"
+  m_prefab "{88F48844D5C43BF2}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/Group_US_1986_BDU_Brad_RifleSquad_M60_AI.et"
   m_waypointNames {
    "defsouth"
   }
@@ -102,7 +167,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  }
  {
   coords 3436.98 207.772 4025.595
-  m_prefab "{4440E1746F2FDEAB}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/Group_US_1986_BDU_RifleSquad_M249_AI.et"
+  m_prefab "{88F48844D5C43BF2}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/Group_US_1986_BDU_Brad_RifleSquad_M60_AI.et"
   m_waypointNames {
    "ptrl1" "ptrl2" "ptrl3" "ptrl4" "ptrlcycle"
   }
@@ -137,14 +202,14 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  }
  {
   coords 3365.791 155.326 4340.753
-  m_prefab "{4440E1746F2FDEAB}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/Group_US_1986_BDU_RifleSquad_M249_AI.et"
+  m_prefab "{88F48844D5C43BF2}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/Group_US_1986_BDU_Brad_RifleSquad_M60_AI.et"
   m_waypointNames {
    "defwater5"
   }
  }
  {
   coords 3454.566 156.165 4287.844
-  m_prefab "{4440E1746F2FDEAB}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/Group_US_1986_BDU_RifleSquad_M249_AI.et"
+  m_prefab "{AEF98599B6C95420}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/Group_US_1986_BDU_Brad_RifleSquad_M67_AI.et"
   m_waypointNames {
    "defwater6"
   }
@@ -159,73 +224,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  {
   coords 2821.102 189.824 4694.93
   m_prefab "{7E53E193D3894D0A}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/Group_US_1986_BDU_Brad_PLT_HQ_AI.et"
-  m_waypointNames {
-   "defnorth6"
-  }
- }
- {
-  coords 2301.443 223.145 3985.929
-  m_prefab "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
-  m_waypointNames {
-   "defnorth6"
-  }
- }
- {
-  coords 2301.544 221.234 3976.17
-  m_prefab "{A61656C82DEE507F}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_PL_CO_AI.et"
-  m_waypointNames {
-   "defnorth6"
-  }
- }
- {
-  coords 2300.06 219.334 3984.266
-  m_prefab "{0C8A0089AE63DA9E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RTO_AI.et"
-  m_waypointNames {
-   "defnorth6"
-  }
- }
- {
-  coords 3471.852 156.842 4456.927
-  angleY 157.945
-  m_prefab "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
-  m_waypointNames {
-   "defnorth6"
-  }
- }
- {
-  coords 3427.506 156.971 4422.93
-  angleY -36.796
-  m_prefab "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
-  m_waypointNames {
-   "defnorth6"
-  }
- }
- {
-  coords 2571.55 179.93 4322.099
-  angleY -59.206
-  m_prefab "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
-  m_waypointNames {
-   "defnorth6"
-  }
- }
- {
-  coords 2575.006 179.931 4329.758
-  m_prefab "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
-  m_waypointNames {
-   "defnorth6"
-  }
- }
- {
-  coords 2928.135 228.473 4027.59
-  angleY -178.542
-  m_prefab "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
-  m_waypointNames {
-   "defnorth6"
-  }
- }
- {
-  coords 2938.378 228.473 4031.963
-  m_prefab "{B89FFE1A51691C07}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_RF_AI.et"
   m_waypointNames {
    "defnorth6"
   }
