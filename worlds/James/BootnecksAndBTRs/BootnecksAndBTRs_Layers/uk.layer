@@ -1,6 +1,25 @@
 GenericEntity : "{1D0A5A904F161A31}Prefabs/Compositions/Misc/SubCompositions/Foundation_Mortar_UK.et" {
  coords 5779.948 1.59 10754.457
  angleY -162.301
+ {
+  GenericEntity {
+   ID "646D3320E37D75EC"
+   components {
+    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+     "faction affiliation" "UK"
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     m_aContainers {
+      SCR_ResourceContainer "{65996093E7126401}" {
+       m_eResourceRights ALL
+       m_fResourceValueCurrent 6000
+       m_fResourceValueMax 6000
+      }
+     }
+    }
+   }
+  }
+ }
 }
 SCR_AIGroup : "{2E5865A2B9E8BA9F}Prefabs/Groups/BLUFOR/British Forces/1983/P/Royal Marines/Group_UK_1983_REG_MarinePHQ_P.et" {
  components {
@@ -86,7 +105,7 @@ $grp SCR_AIGroup : "{B4357BFD2B92ABA8}Prefabs/Groups/BLUFOR/British Forces/1983/
   coords 5787.87 1.02 10752.896
   angleY -33.213
   m_aUnitPrefabSlots {
-   "{A13DA5EA93283F9F}worlds/James/BootnecksAndBTRs/Prefabs/Character_UK_1983_Marines_MortarCommander_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/Character_UK_1983_Regulars_Mortarman_Sterling_P.et"
+   "{A13DA5EA93283F9F}worlds/James/BootnecksAndBTRs/Prefabs/Character_UK_1983_Marines_MortarCommander_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et"
   }
   m_bPlayable 1
   m_sCustomNameSet "Mortar Det"

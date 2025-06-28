@@ -39,7 +39,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  }
  m_iFreezeTime 300000
  {
-  SCR_FactionManager {
+  SCR_FactionManager "659AD60438A7B89C" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
@@ -101,7 +101,7 @@ PolylineShapeEntity AOLimit_NVA : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_
         m_drawArea 0
         m_drawLine 1
         m_lineColor 0.016 0.552 0.905 1
-        m_lineWidth 5
+        m_lineWidth 15
        }
       }
       coords 0 0 -100
@@ -155,7 +155,7 @@ PolylineShapeEntity AOLimit_NVA : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_
         m_drawArea 0
         m_drawLine 1
         m_lineColor 0.016 0.552 0.905 1
-        m_lineWidth 5
+        m_lineWidth 15
        }
       }
       coords 0 0 -100

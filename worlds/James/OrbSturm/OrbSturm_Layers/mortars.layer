@@ -1,0 +1,83 @@
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ {
+  coords 1572.46 160.015 4073.07
+  m_prefab "{9A011A8BAA2E8351}worlds/James/OrbSturm/EffectModule_Zoned_MortarBarrage_Larger.et"
+  m_conditionFlag "mortar1"
+  m_spawnTimings {
+   60
+  }
+ }
+ {
+  coords 2066.423 152.194 4592.57
+  m_prefab "{9A011A8BAA2E8351}worlds/James/OrbSturm/EffectModule_Zoned_MortarBarrage_Larger.et"
+  m_conditionFlag "mortar2"
+  m_spawnTimings {
+   60
+  }
+ }
+ {
+  coords 2367.059 146.037 4546.997
+  m_prefab "{9A011A8BAA2E8351}worlds/James/OrbSturm/EffectModule_Zoned_MortarBarrage_Larger.et"
+  m_conditionFlag "mortar5"
+  m_spawnTimings {
+   60
+  }
+ }
+ {
+  coords 2596.949 229.385 4026.235
+  m_prefab "{9A011A8BAA2E8351}worlds/James/OrbSturm/EffectModule_Zoned_MortarBarrage_Larger.et"
+  m_conditionFlag "mortar4"
+  m_spawnTimings {
+   60
+  }
+ }
+ {
+  coords 2106.731 199.651 3896.781
+  m_prefab "{9A011A8BAA2E8351}worlds/James/OrbSturm/EffectModule_Zoned_MortarBarrage_Larger.et"
+  m_conditionFlag "mortar3"
+  m_spawnTimings {
+   60
+  }
+ }
+}
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ {
+  coords 3007.41 241.108 4073.34
+  m_queryRadius 115
+  m_flagName "mortar4"
+  m_stopAfterFirstChange 1
+  m_ownerFactionKey "GC_NVA"
+  m_ratioThreshold 0.75
+ }
+ {
+  coords 2141.28 172.336 4588.815
+  m_queryRadius 200
+  m_flagName "mortar2"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "GC_NVA"
+ }
+ {
+  coords 2285.998 217.502 3983.653
+  m_queryRadius 50
+  m_flagName "mortar3"
+  m_stopAfterFirstChange 1
+  m_ownerFactionKey "GC_NVA"
+ }
+ {
+  coords 1769.459 162.496 4128.548
+  m_queryRadius 200
+  m_flagName "mortar1"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "GC_NVA"
+ }
+ {
+  coords 2737.027 202.718 4730.547
+  m_queryRadius 115
+  m_flagName "mortar5"
+  m_stopAfterFirstChange 1
+  m_ownerFactionKey "GC_NVA"
+  m_ratioThreshold 0.75
+ }
+}
