@@ -10,8 +10,6 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 	
 	[Attribute(defvalue: "", UIWidgets.Object)]
 	protected ref array<ref GC_CommandosObj> m_objectives;
-	
-	protected ref array<ref GC_CommandosObj> m_activeObjectives = {};
 
 	int m_traitorPlayerId;
 
@@ -20,29 +18,33 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 		return GC_CommandosManager.Cast(GetGame().GetGameMode().FindComponent(GC_CommandosManager));
 	}
 	
-	GC_CommandosObj GetObjective(typename type)
+	GC_CommandosObj GetObjective(string name)
 	{
-		foreach(GC_CommandosObj objective : m_activeObjectives)
-		{
-			if (objective.IsInherited(type))
-				return objective;
-		}
-
 		foreach(GC_CommandosObj objective : m_objectives)
 		{
-			if (objective.IsInherited(type))
+			if (objective.GetName() == name)
 				return objective;
 		}
 		
 		return null;
 	}
 	
+	void CheckEndConditions()
+	{
+		int count = 0;
+		foreach(GC_CommandosObj objective : m_objectives)
+		{
+			if(objective.IsActive())
+				count++;
+		}
+		
+		if(count <= 0)
+			SendHintAll("US Victory!", "All objectives completed!")
+	}
+	
 	void OnObjectiveCompleted(GC_CommandosObj objective)
 	{
-		m_activeObjectives.RemoveItem(objective);
-		
-		if(m_activeObjectives.Count() <= 0)
-			SendHintAll("US Victory!", "All objectives completed!")
+		CheckEndConditions();
 	}
 	
 	override void OnPlayerConnected(int playerId)
@@ -64,21 +66,23 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 		if(!GetGame().InPlayMode())
 			return;
 		
+		array<ref GC_CommandosObj> objectivePool = {};
 		foreach(GC_CommandosObj objective : m_objectives)
 		{
 			objective.Setup();
+			objectivePool.Insert(objective)
 		}
 		
-		while(!m_objectives.IsEmpty() && m_activeObjectives.Count() < m_minObjectiveCount)
+		int objCount = 0;
+		while(!objectivePool.IsEmpty() && objCount < m_minObjectiveCount)
 		{
-			ref GC_CommandosObj objective = m_objectives.GetRandomElement();
+			ref GC_CommandosObj objective = objectivePool.GetRandomElement();
 			if(!objective.IsPickable())
 				continue;
 			
-			m_objectives.RemoveItem(objective);
-			m_activeObjectives.Insert(objective);
-
 			objective.Activate();
+			objectivePool.RemoveItem(objective);
+			objCount++;
 		}
 	}
 	
@@ -103,11 +107,11 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 	{
 		Print("GRAY.BriefingStart");
 		
-		foreach(GC_CommandosObj objective : m_activeObjectives)
+		foreach(GC_CommandosObj objective : m_objectives)
 		{
 			objective.OnBriefing();
 		}
-
+		/*
 		PlayerManager pm = GetGame().GetPlayerManager();
 		PS_PlayableManager playableManager = PS_PlayableManager.GetInstance();
 		
@@ -126,6 +130,7 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 			SetupTraitor(playerId);
 			break;
 		}
+		*/
 	}
 	
 	void SetupTraitor(int playerId)
@@ -139,10 +144,10 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 	
 	void GameStart()
 	{
-		SCR_PlayerController pc = SCR_PlayerController.Cast(GetGame().GetPlayerManager().GetPlayerController(m_traitorPlayerId));
-		pc.TILW_SendHintToPlayer("You are a Traitor!", "Sabotage everything! No spawn killing.", 120);
+		//SCR_PlayerController pc = SCR_PlayerController.Cast(GetGame().GetPlayerManager().GetPlayerController(m_traitorPlayerId));
+		//pc.TILW_SendHintToPlayer("You are a Traitor!", "Sabotage everything! No spawn killing.", 120);
 		
-		foreach(GC_CommandosObj objective : m_activeObjectives)
+		foreach(GC_CommandosObj objective : m_objectives)
 		{
 			objective.OnGameStart();
 		}
@@ -166,51 +171,68 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 [BaseContainerProps()]
 class GC_CommandosObj
 {
-	protected string name;
-	protected string completedString = "The %1 has been neutralized!";
-	protected IEntity objective;
-	protected PS_ManualMarker marker;
-	protected bool isActive = false;
+	[Attribute(defvalue: "", UIWidgets.Auto)]
+	protected string m_name;
+
+	[Attribute(defvalue: "The %1 has been neutralized!", UIWidgets.EditBoxMultiline)]
+	protected string m_objectiveCompletedMsg;
 	
-	protected string markerPrefab = "{2E08E7B7914EB585}worlds/arc/CommandosReforged/Prefabs/Objective_Marker.et";
+	[Attribute(defvalue: "Destroy the objective using C4", UIWidgets.EditBoxMultiline)]
+	protected string m_briefingDescription;
+	
+	[Attribute(defvalue: "{2E08E7B7914EB585}worlds/arc/CommandosReforged/Prefabs/Objective_Marker.et", UIWidgets.ResourceNamePicker)]
+	protected ResourceName m_markerPrefab;
+	
+	//[RplProp]
+	protected bool m_isActive;
+	
+	protected IEntity m_objective;
+	protected PS_ManualMarker m_marker;
 
 	void Setup()
 	{
-		if(objective)
+		m_isActive = false;
+		
+		if(m_objective)
 		{
 			EntitySpawnParams params = new EntitySpawnParams();
-			params.Transform[3] = objective.GetOrigin();
-			marker = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(markerPrefab), GetGame().GetWorld(), params));
-			marker.SetDescription(name);
-			marker.SetVisibleForEmptyFaction(true);
+			params.Transform[3] = m_objective.GetOrigin();
+			m_marker = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
+			m_marker.SetDescription(m_name);
+			m_marker.SetVisibleForEmptyFaction(true);
 			
 			SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
 			Faction faction = fm.GetFactionByKey("RHS_AFRF");
-			marker.SetVisibleForFaction(faction, true);
+			m_marker.SetVisibleForFaction(faction, true);
 		}
 	}
 	
-	bool IsPickable(){return true;}
+	bool IsPickable()
+	{
+		if(m_isActive)
+			return false;
+		
+		return true;
+	}
 	
 	void Activate()
 	{
-		IEntity child = objective.GetChildren();
-
-		if(objective)
+		if(m_objective)
 		{
 			SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
 			Faction faction = fm.GetFactionByKey("RHS_USAF");
-			marker.SetVisibleForFaction(faction, false);
+			m_marker.SetVisibleForFaction(faction, false);
 			
 			EntitySpawnParams params = new EntitySpawnParams();
-			params.Transform[3] = objective.GetOrigin();
+			params.Transform[3] = m_objective.GetOrigin();
 			
-			PS_ManualMarker marker2 = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(markerPrefab), GetGame().GetWorld(), params));
-			marker2.SetDescription(name);
+			PS_ManualMarker marker2 = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
+			marker2.SetDescription(m_name);
 			marker2.SetColor(Color.Red);
 		}
 		
-		isActive = true;
+		m_isActive = true;
+		//Replication.BumpMe();
 	}
 	
 	void OnBriefing();
@@ -222,80 +244,44 @@ class GC_CommandosObj
 		if(!Replication.IsServer())
 			return;
 		
-		if(!isActive)
+		if(!m_isActive)
 			return;
 
 		GC_CommandosManager cm = GC_CommandosManager.GetInstance();
 		
-		string description = string.Format(completedString, name);
+		string description = string.Format(m_objectiveCompletedMsg, m_name);
 		GetGame().GetCallqueue().CallLater(cm.SendHintAll,100,false,"Objective Completed", description);
 		
 		cm.OnObjectiveCompleted(this);
-		isActive = false;
+		
+		m_isActive = false;
+		//Replication.BumpMe();
 	}
 
 	string GetName()
 	{
-		return name;
+		return m_name;
 	}
 
 	bool IsActive()
 	{
-		return isActive;
+		return m_isActive;
 	}
 	
 	void SetObjective(IEntity entity)
 	{
-		objective = entity;
+		m_objective = entity;
 	}
 	
 	void RegisterObjective(IEntity entity);
 }
 
 [BaseContainerProps()]
-class GC_CommandosPS : GC_CommandosObj
-{
-	override void Setup()
-	{
-		name = "Power Station";
-		super.Setup();
-	}
-}
-
-[BaseContainerProps()]
-class GC_CommandosEV : GC_CommandosDestroyed
-{
-	override void Setup()
-	{
-		name = "Experimental Vehicle";
-		super.Setup();
-	}
-}
-
-[BaseContainerProps()]
-class GC_CommandosBH : GC_CommandosDestroyed
-{
-	override void Setup()
-	{
-		name = "Black Hawk";
-		super.Setup();
-	}
-}
-
-[BaseContainerProps()]
-class GC_CommandosMi24 : GC_CommandosDestroyed
-{
-	override void Setup()
-	{
-		name = "Mi-24s";
-		completedString = "The %1 have been neutralized!";
-		super.Setup();
-	}
-}
-
-[BaseContainerProps()]
 class GC_CommandosDestroyed : GC_CommandosObj
 {
+	[Attribute(defvalue: "", UIWidgets.Auto)]
+	protected bool m_destroyAll;
+	
 	protected int objCount = 0;
 	protected ref array<IEntity> entities = {};
 	
@@ -324,8 +310,15 @@ class GC_CommandosDestroyed : GC_CommandosObj
 			objCount--;
 		}
 		
-		if(objCount <= 0)
+		if(m_destroyAll)
+		{
+			if(objCount <= 0)
+				Complete();
+		}
+		else
+		{
 			Complete();
+		}
 	}
 	
 	override void RegisterObjective(IEntity entity)
@@ -339,13 +332,12 @@ class GC_CommandosInteraction : ScriptedUserAction
 	[Attribute(uiwidget: UIWidgets.Auto, desc: "The name of the objective class to complete.")]
 	protected string m_objectiveName;
 	
-	[Attribute(uiwidget: UIWidgets.Auto, desc: "Allowed user faction keys. If empty, any.")]
+	[Attribute(uiwidget: UIWidgets.Auto, desc: "Allowed user faction keys.")]
 	protected ref array<string> m_factionKeys;
 	
 	[Attribute(uiwidget: UIWidgets.Auto, desc: "Allow the defector to complete.")]
 	protected bool m_defectorObjective;
 	
-	protected bool m_completed = false;
 	protected GC_CommandosManager cm;
 	
 	override void Init(IEntity pOwnerEntity, GenericComponent pManagerComponent)
@@ -355,11 +347,9 @@ class GC_CommandosInteraction : ScriptedUserAction
 	
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
-		GC_CommandosObj objective = GC_CommandosManager.GetInstance().GetObjective(m_objectiveName.ToType());
+		GC_CommandosObj objective = cm.GetObjective(m_objectiveName);
 		if(objective)
 			objective.Complete();
-		
-		m_completed = true;
 	}
 	
 	override bool CanBePerformedScript(IEntity user)
@@ -374,23 +364,18 @@ class GC_CommandosInteraction : ScriptedUserAction
 	
 	bool IsAvailable(IEntity user)
 	{
-		if(m_completed)
+		if(!cm.GetObjective(m_objectiveName).IsActive())
 			return false;
 		
 		if(m_defectorObjective)
 		{
 			if(cm.m_traitorPlayerId)
 				return true;
-			
-			return false;
 		}
 		
-		if (!m_factionKeys.IsEmpty())
-		{
-			SCR_ChimeraCharacter cc = SCR_ChimeraCharacter.Cast(user);
-			if (!cc || !m_factionKeys.Contains(cc.GetFactionKey()))
-				return false;
-		}
+		SCR_ChimeraCharacter cc = SCR_ChimeraCharacter.Cast(user);
+		if (!cc || !m_factionKeys.Contains(cc.GetFactionKey()))
+			return false;
 		
 		return true;
 	}
@@ -421,7 +406,7 @@ class GC_CommandosObjRegister : ScriptComponent
 	
 	override protected void OnPostInit(IEntity owner)
 	{
-		GC_CommandosObj objective = GC_CommandosManager.GetInstance().GetObjective(m_objectiveName.ToType());
+		GC_CommandosObj objective = GC_CommandosManager.GetInstance().GetObjective(m_objectiveName);
 		if(!objective)
 			return;
 		

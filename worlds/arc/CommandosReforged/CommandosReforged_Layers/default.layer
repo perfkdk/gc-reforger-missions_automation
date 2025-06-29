@@ -38,13 +38,25 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  components {
   GC_CommandosManager "{659C5DFB11CD048A}" {
    m_objectives {
-    GC_CommandosMi24 "{65A71A5F6FD9A195}" {
+    GC_CommandosObj "{65BB1908ED43E40C}" {
+     m_name "Power Station"
+     m_objectiveCompletedMsg "The %1 has been sabotaged!"
+     m_briefingDescription "Sabotage the power station (Interaction)"
     }
-    GC_CommandosBH "{65B65CC82886E178}" {
+    GC_CommandosObj "{65BB19096B1C7DAC}" {
+     m_name "Prototype Tank"
+     m_objectiveCompletedMsg "Photograph the Prototype Tank"
+     m_briefingDescription "Photograph the Prototype Tank (Interaction)"
     }
-    GC_CommandosEV "{65B65CC8FF4F4C5F}" {
+    GC_CommandosDestroyed "{65BB2B77B9ECE3C8}" {
+     m_name "Black Hawk"
+     m_objectiveCompletedMsg "The %1 has been destroyed!"
+     m_briefingDescription "Destroy the Blackhawk with explosives"
     }
-    GC_CommandosPS "{65B68C23C58FB67B}" {
+    GC_CommandosDestroyed "{65BB2B77DAD50836}" {
+     m_name "Mi-24s"
+     m_objectiveCompletedMsg "The %1 have been destroyed!"
+     m_briefingDescription "Destroy ONE of the Mi-24s with explosives"
     }
    }
   }

@@ -68,11 +68,166 @@ $grp GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.
   angleY -33.363
  }
 }
+$grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+ {
+  components {
+   ActionsManagerComponent "{65B68C203251DD48}" {
+    additionalActions {
+     GC_CommandosInteraction "{65B68C203251DD71}" {
+      m_objectiveName "Power Station"
+     }
+    }
+   }
+  }
+  coords 1689.837 40.397 3025.353
+ }
+ {
+  components {
+   GC_CommandosObjRegister "{65BB190EA884F58D}" {
+    m_objectiveName "Power Station"
+    m_setMainObjective 1
+   }
+   ActionsManagerComponent "{65B68C203251DD48}" {
+    additionalActions {
+     GC_CommandosInteraction "{65B68C203251DD71}" {
+      m_objectiveName "Power Station"
+     }
+    }
+   }
+  }
+  coords 1691.065 40.397 3020.878
+ }
+ {
+  components {
+   ActionsManagerComponent "{65B68C203251DD48}" {
+    additionalActions {
+     GC_CommandosInteraction "{65B68C203251DD71}" {
+      m_objectiveName "Power Station"
+     }
+    }
+   }
+  }
+  coords 1691.932 39.291 3015.838
+ }
+ {
+  components {
+   ActionsManagerComponent "{65B68C203251DD48}" {
+    additionalActions {
+     GC_CommandosInteraction "{65B68C203251DD71}" {
+      m_objectiveName "Power Station"
+     }
+    }
+   }
+  }
+  coords 1690.449 39.213 3015.43
+ }
+ {
+  components {
+   ActionsManagerComponent "{65B68C203251DD48}" {
+    additionalActions {
+     GC_CommandosInteraction "{65B68C203251DD71}" {
+      m_objectiveName "Power Station"
+     }
+    }
+   }
+  }
+  coords 1686.71 39.21 3014.223
+ }
+}
+RHS_Tank Tank_T2 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
+ components {
+  GC_CommandosObjRegister "{65BB1909E64F3EC8}" {
+   m_objectiveName "Prototype Tank"
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 1071.371 39.151 2958.776
+ angleY 164.196
+ {
+  $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        UIInfo UIInfo "{65B68C203251DD70}" {
+         Name "Photograph"
+        }
+        m_objectiveName "Power Station"
+       }
+      }
+     }
+    }
+    coords -0.023 1.145 4.641
+    angleY -164.196
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        UIInfo UIInfo "{65B68C203251DD70}" {
+         Name "Photograph"
+        }
+        m_objectiveName "Power Station"
+       }
+      }
+     }
+    }
+    coords -2.311 1.375 0.263
+    angleY -164.196
+   }
+   {
+    components {
+     GC_CommandosObjRegister "{65BB2B7700D3C693}" {
+      m_objectiveName "Prototype Tank"
+      m_setMainObjective 1
+     }
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        UIInfo UIInfo "{65B68C203251DD70}" {
+         Name "Photograph"
+        }
+        m_objectiveName "Prototype Tank"
+       }
+      }
+     }
+    }
+    coords -0.002 1.447 -4.452
+    angleY -164.196
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        UIInfo UIInfo "{65B68C203251DD70}" {
+         Name "Photograph"
+        }
+        m_objectiveName "Power Station"
+       }
+      }
+     }
+    }
+    coords 2.328 1.328 0.466
+    angleY -164.196
+   }
+  }
+ }
+}
 $grp Vehicle : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S8.et" {
  Mi24V_armed_S4 {
   components {
    GC_CommandosObjRegister "{65B65CD146588A7D}" {
-    m_objectiveName "GC_CommandosMi24"
+    m_objectiveName "Mi-24s"
    }
    SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
     FuelNodes {
@@ -97,7 +252,7 @@ $grp Vehicle : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_
  Mi24V_armed_S2 {
   components {
    GC_CommandosObjRegister "{65B65CD146588A7D}" {
-    m_objectiveName "GC_CommandosMi24"
+    m_objectiveName "Mi-24s"
    }
    SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
     FuelNodes {
@@ -122,7 +277,7 @@ $grp Vehicle : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_
  Mi24V_armed_S3 {
   components {
    GC_CommandosObjRegister "{65B65CD146588A7D}" {
-    m_objectiveName "GC_CommandosMi24"
+    m_objectiveName "Mi-24s"
     m_setMainObjective 1
    }
    SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
@@ -145,12 +300,95 @@ $grp Vehicle : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_
   coords 719.613 39 2688.182
   angleY -33.747
  }
+ Mi24V_armed_S5 {
+  components {
+   GC_CommandosObjRegister "{65B65CD146588A7D}" {
+    m_objectiveName "Mi-24s"
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15681}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15683}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 908.629 39.033 2823.873
+  angleY 55.502
+ }
+ Mi24V_armed_S6 {
+  components {
+   GC_CommandosObjRegister "{65B65CD146588A7D}" {
+    m_objectiveName "Mi-24s"
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15681}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15683}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 932.256 38.969 2787.458
+  angleY 55.502
+ }
+ Mi24V_armed_S7 {
+  components {
+   GC_CommandosObjRegister "{65B65CD146588A7D}" {
+    m_objectiveName "Mi-24s"
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15681}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15683}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 956.816 39.344 2753.071
+  angleY 55.502
+ }
 }
 Vehicle "65B68C211364C532" : "{C5534EAA593596B6}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_61.et" {
  components {
   GC_CommandosObjRegister "{65B65CC97738F9B9}" {
-   m_objectiveName "GC_CommandosBH"
+   m_objectiveName "Black Hawk"
    m_setMainObjective 1
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
   }
  }
  coords 1387.139 39.019 2248.839
@@ -177,13 +415,4 @@ $grp SCR_AIGroup : "{CB03012D8F709807}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VSR/Grou
    "OBJ_6_WP"
   }
  }
-}
-Vehicle K4386_Armed_Tan1 : "{E836092AB606CE4A}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Tan.et" {
- components {
-  GC_CommandosObjRegister "{65B65CC8D22DDFEC}" {
-   m_objectiveName "GC_CommandosEV"
-   m_setMainObjective 1
-  }
- }
- coords 1011.544 38.159 2907.571
 }
