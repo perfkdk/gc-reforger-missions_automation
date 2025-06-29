@@ -1,3 +1,111 @@
+$grp GenericEntity {
+ {
+  components {
+   ActionsManagerComponent "{65B68C203251DD48}" {
+    ActionContexts {
+     UserActionContext "{65B68C20977D9764}" {
+      ContextName "default"
+      Position PointInfo "{65B68C20BAAA88F4}" {
+      }
+      Radius 1
+     }
+    }
+    additionalActions {
+     GC_CommandosInteraction "{65B68C203251DD71}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{65B68C203251DD70}" {
+       Name "Sabotage"
+      }
+      Duration 5
+      m_objectiveName "GC_CommandosPS"
+      m_factionKeys {
+       "RHS_USAF"
+      }
+     }
+    }
+   }
+   RplComponent "{65B68C203251DD55}" {
+    Enabled 1
+   }
+  }
+  Flags 1027
+  coords 1691.911 39.201 3015.828
+ }
+ {
+  components {
+   ActionsManagerComponent "{65B68C203251DD48}" {
+    ActionContexts {
+     UserActionContext "{65B68C20977D9764}" {
+      ContextName "default"
+      Position PointInfo "{65B68C20BAAA88F4}" {
+      }
+      Radius 1
+     }
+    }
+    additionalActions {
+     GC_CommandosInteraction "{65B68C203251DD71}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{65B68C203251DD70}" {
+       Name "Sabotage"
+      }
+      Duration 5
+      m_objectiveName "GC_CommandosPS"
+      m_factionKeys {
+       "RHS_USAF"
+      }
+     }
+    }
+   }
+   RplComponent "{65B68C203251DD55}" {
+    Enabled 1
+   }
+  }
+  Flags 1027
+  coords 1689.845 40.398 3025.323
+ }
+ {
+  components {
+   GC_CommandosObjRegister "{65B68C2392632133}" {
+    m_objectiveName "GC_CommandosPS"
+    m_setMainObjective 1
+   }
+   ActionsManagerComponent "{65B68C203251DD48}" {
+    ActionContexts {
+     UserActionContext "{65B68C20977D9764}" {
+      ContextName "default"
+      Position PointInfo "{65B68C20BAAA88F4}" {
+      }
+      Radius 1
+     }
+    }
+    additionalActions {
+     GC_CommandosInteraction "{65B68C203251DD71}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{65B68C203251DD70}" {
+       Name "Sabotage"
+      }
+      Duration 5
+      m_objectiveName "GC_CommandosPS"
+      m_factionKeys {
+       "RHS_USAF"
+      }
+     }
+    }
+   }
+   RplComponent "{65B68C203251DD55}" {
+    Enabled 1
+   }
+  }
+  Flags 1027
+  coords 1691.063 40.389 3020.884
+ }
+}
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  {
   coords 666.164 0 3336.67
@@ -37,140 +145,25 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 10
  }
 }
-$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- {
-  coords 1394.973 37.579 2679.646
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
-  m_sQuadName "motorized-infantry"
-  m_fWorldSize 60
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- OBJ_1_MARKER {
-  coords 1388.341 39.02 2247.662
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Black Hawk"
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF"
+GenericEntity : "{818571DF82B787FF}PrefabsEditable/Auto/Props/Civilian/E_RadioSmall_01_black.et" {
+ components {
+  ActionsManagerComponent "{52E71719F5BE5EBB}" {
+   additionalActions {
+    GC_CommandosInteraction "{65B61BCA0327CEF9}" {
+     ParentContextList {
+      "SCR_TurnOnAction"
+     }
+     UIInfo UIInfo "{65B61BCA8B85E67D}" {
+      Name "Sabotage"
+     }
+     Duration 1
+     m_objectiveName "GC_CommandosRadio"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+    }
+   }
   }
-  m_bVisibleForEmptyFaction 1
  }
- OBJ_2_MARKER {
-  coords 1696.959 38.062 3013.515
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Signal Truck"
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF"
-  }
-  m_bVisibleForEmptyFaction 1
- }
- OBJ_3_MARKER {
-  coords 1216.176 37.132 2583.1
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Research Notes"
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF"
-  }
-  m_bVisibleForEmptyFaction 1
- }
- OBJ_4_MARKER {
-  coords 1364.459 50.56 2963.707
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Flight Manifest"
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF"
-  }
-  m_bVisibleForEmptyFaction 1
- }
- OBJ_5_MARKER {
-  coords 1372.291 43.981 2350.909
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Base Commander"
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF"
-  }
-  m_bVisibleForEmptyFaction 1
- }
- OBJ_6_MARKER {
-  coords 1250.32 43.661 2935.376
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Researcher"
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF"
-  }
-  m_bVisibleForEmptyFaction 1
- }
- OBJ_7_MARKER {
-  coords 1016.765 38.152 2909.865
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Experimental Vehicle"
-  m_aVisibleForFactions {
-   "RHS_AFRF" "RHS_USAF"
-  }
-  m_bVisibleForEmptyFaction 1
- }
- OBJ_1_MARKER2 {
-  coords 1388.318 39.02 2247.746
-  m_MarkerColor 0.965 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Black Hawk"
- }
- OBJ_2_MARKER2 {
-  coords 1697.019 38.063 3013.443
-  m_MarkerColor 1 0 0.001 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Signal Truck"
- }
- OBJ_3_MARKER2 {
-  coords 1216.208 37.132 2583.032
-  m_MarkerColor 1 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Research Notes"
- }
- OBJ_4_MARKER2 {
-  coords 1364.392 50.56 2963.651
-  m_MarkerColor 1 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Flight Manifest"
- }
- OBJ_5_MARKER2 {
-  coords 1372.395 43.981 2351.021
-  m_MarkerColor 1 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Base Commander"
- }
- OBJ_6_MARKER2 {
-  coords 1250.411 43.665 2935.245
-  m_MarkerColor 1 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Researcher"
- }
- OBJ_7_MARKER2 {
-  coords 1017.053 38.632 2909.023
-  m_MarkerColor 1 0 0 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 60
-  m_sDescription "Experimental Vehicle"
- }
+ coords 3274.041 2.063 2878.111
 }

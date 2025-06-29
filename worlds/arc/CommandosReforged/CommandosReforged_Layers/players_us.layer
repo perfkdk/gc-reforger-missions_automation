@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Rangers_2019/P/Group_Rangers_2019_Squad_P.et" {
+$grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Group_Rangers_2020_Squad_P.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {

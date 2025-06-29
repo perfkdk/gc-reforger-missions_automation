@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7B2E1B3606BD2AAA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Commandos_OBJ7.et"
+ Name "{2E08E7B7914EB585}worlds/arc/CommandosReforged/Prefabs/Objective_Marker.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

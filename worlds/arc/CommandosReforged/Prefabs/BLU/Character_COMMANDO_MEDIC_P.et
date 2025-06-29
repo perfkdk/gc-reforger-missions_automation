@@ -33,10 +33,8 @@ SCR_ChimeraCharacter : "{F56BC64B3EE41F3F}worlds/arc/CommandosReforged/Prefabs/B
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{49C8C96043852020}Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_black_dots.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{922F62F22B253571}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_M81.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"

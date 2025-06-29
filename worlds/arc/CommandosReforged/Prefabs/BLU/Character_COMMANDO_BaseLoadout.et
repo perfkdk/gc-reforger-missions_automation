@@ -7,13 +7,13 @@ SCR_ChimeraCharacter : "{B889387E9A33D667}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{C7B733852D47DA71}worlds/arc/CommandosReforged/Prefabs/BLU/Helmet_MICH2000_norotos_velcro_green2_commandos.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{59671155DDBAD871}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_M81.et"
+     Prefab "{5ACBDC39EB467B51}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_M81_wear.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{40B76B99C3F0503D}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_M81.et"
+     Prefab "{922F62F22B253571}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_M81.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{7C828AB80ED1D9B0}Prefabs/Characters/Footwear/Boots_Faradey_906/Footware_Faradey_906.et"

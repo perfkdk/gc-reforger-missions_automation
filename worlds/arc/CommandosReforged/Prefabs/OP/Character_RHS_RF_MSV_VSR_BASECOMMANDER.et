@@ -1,6 +1,11 @@
 SCR_ChimeraCharacter : "{CC3E84140343D82E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Officer.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Base Commander"
+   }
+  }
   TILW_Flag_EntityDamage "{6476D65DBEC04167}" {
    m_flagName "OBJ_5_KIA"
   }
@@ -9,6 +14,12 @@ SCR_ChimeraCharacter : "{CC3E84140343D82E}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+    }
+   }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {

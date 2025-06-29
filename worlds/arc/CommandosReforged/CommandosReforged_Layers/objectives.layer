@@ -68,18 +68,89 @@ $grp GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.
   angleY -33.363
  }
 }
-Vehicle OBJ2 : "{715469795441056A}worlds/arc/CommandosReforged/Prefabs/OP/Ural4320_command_commandos_OBJ2.et" {
- coords 1699.531 38.062 3008.994
- angleY 37.078
+$grp Vehicle : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S8.et" {
+ Mi24V_armed_S4 {
+  components {
+   GC_CommandosObjRegister "{65B65CD146588A7D}" {
+    m_objectiveName "GC_CommandosMi24"
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15681}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15683}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 666.684 39.011 2652.507
+  angleY -33.747
+ }
+ Mi24V_armed_S2 {
+  components {
+   GC_CommandosObjRegister "{65B65CD146588A7D}" {
+    m_objectiveName "GC_CommandosMi24"
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15681}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15683}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 775.646 39 2726.796
+  angleY -33.747
+ }
+ Mi24V_armed_S3 {
+  components {
+   GC_CommandosObjRegister "{65B65CD146588A7D}" {
+    m_objectiveName "GC_CommandosMi24"
+    m_setMainObjective 1
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15681}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{628933A358A15683}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 719.613 39 2688.182
+  angleY -33.747
+ }
 }
-Vehicle OBJ7 : "{7B2E1B3606BD2AAA}worlds/arc/CommandosReforged/Prefabs/OP/K4386_Armed_Commandos_OBJ7.et" {
- coords 1012.358 38.027 2907.917
- angleY -102.496
-}
-Vehicle OBJ1 : "{C5534EAA593596B6}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_61.et" {
+Vehicle "65B68C211364C532" : "{C5534EAA593596B6}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_61.et" {
  components {
-  TILW_Flag_EntityDamage "{6476F69B680F64D0}" {
-   m_flagName "OBJ_1_KIA"
+  GC_CommandosObjRegister "{65B65CC97738F9B9}" {
+   m_objectiveName "GC_CommandosBH"
+   m_setMainObjective 1
   }
  }
  coords 1387.139 39.019 2248.839
@@ -106,4 +177,13 @@ $grp SCR_AIGroup : "{CB03012D8F709807}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VSR/Grou
    "OBJ_6_WP"
   }
  }
+}
+Vehicle K4386_Armed_Tan1 : "{E836092AB606CE4A}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Tan.et" {
+ components {
+  GC_CommandosObjRegister "{65B65CC8D22DDFEC}" {
+   m_objectiveName "GC_CommandosEV"
+   m_setMainObjective 1
+  }
+ }
+ coords 1011.544 38.159 2907.571
 }

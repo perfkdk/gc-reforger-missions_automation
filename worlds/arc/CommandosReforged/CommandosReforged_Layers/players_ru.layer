@@ -5,10 +5,26 @@ $grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{647748C814633C7B}" {
+    m_iSquadCallsign 1
    }
   }
   coords 1381.527 37.297 2635.338
   angleY -12.499
+  m_aUnitPrefabSlots {
+   "{3E46FBB2F34946BD}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_PL_P.et" "{8BBE195B0C5EC623}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Sergeant_P.et" "{A983C4729628AF5F}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Sharpshooter_P.et" "{BABFED845E1D066F}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Medic_P.et" ""
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{647748C8173AB8B2}" {
+    m_iSquadCallsign 4
+   }
+  }
+  coords 1418.092 37.634 2645.642
+  angleY -15.667
   m_aUnitPrefabSlots {
    "{3E46FBB2F34946BD}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_PL_P.et" "{8BBE195B0C5EC623}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Sergeant_P.et" "{A983C4729628AF5F}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Sharpshooter_P.et" "{BABFED845E1D066F}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Medic_P.et"
   }
@@ -18,14 +34,13 @@ $grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
-   PS_GroupCallsignAssigner "{647748C8173AB8B2}" {
-    m_iPlatoonCallsign 1
+   PS_GroupCallsignAssigner "{647748C814633C7B}" {
    }
   }
-  coords 1418.092 37.634 2645.642
-  angleY -15.667
+  coords 1394.016 36.754 2667.723
+  angleY -12.499
   m_aUnitPrefabSlots {
-   "{3E46FBB2F34946BD}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_PL_P.et" "{8BBE195B0C5EC623}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Sergeant_P.et" "{A983C4729628AF5F}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Sharpshooter_P.et" "{BABFED845E1D066F}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Medic_P.et"
+   "{1FFDA82C5CC0BAFF}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_BASECOMMANDER.et" "{9FC55C3B39994A93}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Pilot_P.et"
   }
  }
 }
@@ -36,7 +51,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{647748C8123A7705}" {
-    m_iSquadCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 1383.483 37.297 2635.819
@@ -51,7 +66,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{647748C8EE7FF3D5}" {
-    m_iSquadCallsign 2
+    m_iSquadCallsign 3
    }
   }
   coords 1386.256 37.347 2636.387
@@ -66,8 +81,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{647748C8EA99C73C}" {
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
+    m_iSquadCallsign 5
    }
   }
   coords 1420.737 37.528 2646.298
@@ -82,8 +96,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{647748C8E6D12D69}" {
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 2
+    m_iSquadCallsign 6
    }
   }
   coords 1423.237 37.514 2647.105

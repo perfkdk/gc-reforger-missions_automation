@@ -20,6 +20,14 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleZ -0.428
  }
  Ural4320_transport_covered2 {
+  components {
+   SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{65B65CCE6D852B5C}" {
+     }
+    }
+   }
+  }
   coords 1437.407 37.806 2694.744
   angleX 1.952
   angleY 76.191
@@ -52,6 +60,6 @@ Vehicle Mi8MT_unarmed_transport1 : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopte
    }
   }
  }
- coords 1368.312 39 2760.391
+ coords 1390.003 36.768 2678.336
  angleY -104.927
 }
