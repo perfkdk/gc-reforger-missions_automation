@@ -1,6 +1,6 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  NVA_Coy_marker_1 {
-  coords 1336.928 20.65 2546.476
+  coords 1404.195 33.15 2367.651
   angleY 90
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""

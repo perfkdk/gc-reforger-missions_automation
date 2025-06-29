@@ -3,6 +3,9 @@ $grp Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transpo
   components {
    SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
     MultiSlots {
+     MultiSlotConfiguration "{5D7EA3CA68FB9515}" {
+      NumSlots 6
+     }
      MultiSlotConfiguration "{6586BE0A73207041}" {
       SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
        Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
@@ -11,20 +14,36 @@ $grp Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transpo
      }
      MultiSlotConfiguration "{6586BE096BC47170}" {
       SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+       Prefab "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
       }
-      NumSlots 12
+      NumSlots 16
+     }
+     MultiSlotConfiguration "{65B95BEC21067BBE}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{50083D7DF1F318CA}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Last_5Tracer.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{65B95BE39A5046B7}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+      }
+      NumSlots 2
      }
     }
    }
   }
-  coords 1350.032 20.656 2550.871
+  coords 1434.419 20.656 2334.083
   angleY 62.245
+  m_sAttachmentGroupName "RifleSquad_1"
  }
  UAZ452_transport2 {
   components {
    SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
     MultiSlots {
+     MultiSlotConfiguration "{5D7EA3CA68FB9515}" {
+      NumSlots 6
+     }
      MultiSlotConfiguration "{6586BE0A62884571}" {
       SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
        Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
@@ -33,20 +52,36 @@ $grp Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transpo
      }
      MultiSlotConfiguration "{6586BE0962890AED}" {
       SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+       Prefab "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
       }
-      NumSlots 12
+      NumSlots 16
+     }
+     MultiSlotConfiguration "{65B95BEC2DF32C58}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{50083D7DF1F318CA}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Last_5Tracer.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{65B95BE3FCDD27AF}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+      }
+      NumSlots 2
      }
     }
    }
   }
-  coords 1342.317 20.656 2546.026
+  coords 1425.641 20.656 2329.781
   angleY 62.245
+  m_sAttachmentGroupName "RifleSquad_2"
  }
  UAZ452_transport3 {
   components {
    SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
     MultiSlots {
+     MultiSlotConfiguration "{5D7EA3CA68FB9515}" {
+      NumSlots 6
+     }
      MultiSlotConfiguration "{6586BE0A6696475C}" {
       SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
        Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
@@ -55,53 +90,66 @@ $grp Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transpo
      }
      MultiSlotConfiguration "{6586BE09667550DF}" {
       SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
-       Prefab "{B9E3B9B143A43A79}Prefabs/Weapons/Attachments/Magazines/AKM/Magazine_AK_762x39_AK55_30rnd.et"
+       Prefab "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
       }
-      NumSlots 12
+      NumSlots 16
+     }
+     MultiSlotConfiguration "{65B95BEC3CF7F9BF}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{50083D7DF1F318CA}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Last_5Tracer.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{65B95BE3E7277714}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+      }
+      NumSlots 2
      }
     }
    }
   }
-  coords 1335.114 20.656 2542.786
+  coords 1418.949 20.656 2325.995
   angleY 62.245
+  m_sAttachmentGroupName "RifleSquad_3"
  }
-}
-Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
- components {
-  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-   FuelNodes {
-    SCR_FuelNode "{5622A70CD4036C5A}" {
-     m_fInitialFuelTankState 56
-    }
-   }
-  }
-  SCR_ResourceComponent "{5D83561B5E01449A}" {
-   m_aContainers {
-    SCR_ResourceContainer "{5D83561B5DCF4DE6}" {
-    }
-   }
-   m_aEncapsulators {
-    SCR_ResourceEncapsulator "{5DAD42B3CC9612DF}" {
-     m_aActions {
-      SCR_ResourceEncapsulatorActionChangeResourceValue "{5DDCCC77DBBCDA33}" {
-       m_fResourceValueCurrent 2000
+ UAZ452_transport4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5D7EA3CA68FB9515}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{6586BE0A73207041}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
       }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{6586BE096BC47170}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 16
+     }
+     MultiSlotConfiguration "{65B95BEC21067BBE}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{50083D7DF1F318CA}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Last_5Tracer.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{65B95BE39A5046B7}" {
+      SlotTemplate InventoryStorageSlot "{6586BE0A76B1D71C}" {
+       Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+      }
+      NumSlots 2
      }
     }
    }
   }
- }
- coords 1357.369 20.656 2555.112
- angleX 1.18
- angleY 62.698
- angleZ -1.615
- m_sAttachmentGroupName "CoyHQ"
- {
-  GenericEntity {
-   ID "5E2E7C60E0F9B3F4"
-   coords 0 0 0
-   angleY -90
-  }
+  coords 1441.487 20.656 2337.818
+  angleY 62.245
+  m_sAttachmentGroupName "CoyHQ"
  }
 }
 $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
@@ -114,7 +162,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iPlatoonCallsign 2
    }
   }
-  coords 1354.3 22.408 2548.433
+  coords 1437.419 20.651 2333.375
   angleX 1.794
   angleY 150.921
   angleZ -0.793
@@ -140,7 +188,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 3
    }
   }
-  coords 1346.322 22.484 2543.277
+  coords 1429.074 20.656 2328.861
   angleX 1.719
   angleY 149.982
   angleZ 0.148
@@ -165,7 +213,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 4
    }
   }
-  coords 1339.461 22.085 2538.714
+  coords 1421.914 20.592 2325.28
   angleX 1.73
   angleY 146.631
   angleZ 1.002
@@ -218,8 +266,10 @@ $grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
     }
    }
   }
-  coords 1493.208 20.624 2212.111
-  angleY 162.513
+  coords 1359.448 18.103 2105.94
+  angleX -4.073
+  angleY 171.893
+  angleZ 2.561
  }
  T72A_NVA2 {
   components {
@@ -270,7 +320,7 @@ SCR_AIGroup MotorPLT_1 : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Mo
    m_iSquadCallsign 1
   }
  }
- coords 1360.417 22.488 2551.567
+ coords 1443.536 20.656 2336.509
  angleX 0.868
  angleY 151.01
  angleZ 0.459
@@ -281,5 +331,201 @@ SCR_AIGroup MotorPLT_1 : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Mo
  m_sCustomNameSet "1st Platoon HQ"
  m_aUnitPrefabColorTeams {
   "Yellow" "Yellow" "Yellow" "Red"
+ }
+}
+$grp GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Rect_Row_USSR.et" {
+ NVA_mine_9 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1571.117 20.408 2252.024
+  angleY -116.979
+ }
+ NVA_mine_10 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1468.071 20.474 2206.712
+  angleY -116.979
+ }
+ NVA_mine_11 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1512.153 20.568 2244.653
+  angleY -116.979
+ }
+ NVA_mine_12 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1345.311 20.661 2275.01
+  angleY -99.933
+ }
+ NVA_mine_13 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1361.554 20.63 2405.875
+  angleY -116.979
+ }
+ NVA_mine_14 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1409.207 20.661 2426.542
+  angleY -116.979
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ NVA_Mark_Minefield_9 {
+  coords 1571.261 20.406 2251.828
+  angleY 63.582
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ NVA_Mark_Minefield_10 {
+  coords 1468.215 20.469 2206.516
+  angleY 63.582
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ NVA_Mark_Minefield_11 {
+  coords 1512.297 20.562 2244.457
+  angleY 63.582
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ NVA_Mark_Minefield_12 {
+  coords 1345.392 20.656 2274.78
+  angleY 80.628
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ NVA_Mark_Minefield_13 {
+  coords 1361.698 20.625 2405.679
+  angleY 63.582
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
+ }
+ NVA_Mark_Minefield_14 {
+  coords 1409.351 20.656 2426.347
+  angleY 63.582
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_bringToFront 0
  }
 }

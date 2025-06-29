@@ -44,6 +44,128 @@ $grp Vehicle : "{01F65EFB8D767A91}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo.e
   angleY -93.004
  }
 }
+$grp GenericEntity : "{36108DAFF38E0C07}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Rect_Row_US.et" {
+ US_Mine_6 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1353.216 20.661 2246.655
+  angleY 74.78
+ }
+ US_Mine_10 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1470.659 20.443 2200.945
+  angleY 60.828
+ }
+ US_Mine_11 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1514.554 20.567 2241.066
+  angleY 60.828
+ }
+ US_Mine_12 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1564.33 20.442 2262.538
+  angleY 60.828
+ }
+ US_Mine_13 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1409.742 20.661 2424.462
+  angleY 60.828
+ }
+ US_Mine_14 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+      m_fWidth 12
+      m_fLength 20
+      m_fDistanceSpreadPercentage 0.1
+      m_fMinimalDistanceBetweenPositions 2
+      m_fCenterBias 0
+      m_bSpawnInRow 0
+     }
+     m_iMinProjectilesEachBarrage 15
+     m_iMaxProjectilesEachBarrage 15
+    }
+   }
+  }
+  coords 1361.624 20.63 2405.685
+  angleY 60.828
+ }
+}
 Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
  components {
   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
@@ -353,4 +475,78 @@ $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 1609.141 16.457 1535.837
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ NVA_Mark_Minefield_9 {
+  coords 1353.603 20.656 2246.381
+  angleY 77.534
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bringToFront 0
+ }
+ NVA_Mark_Minefield_10 {
+  coords 1471.101 20.437 2200.772
+  angleY 63.582
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bringToFront 0
+ }
+ NVA_Mark_Minefield_11 {
+  coords 1514.996 20.562 2240.893
+  angleY 63.582
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bringToFront 0
+ }
+ NVA_Mark_Minefield_12 {
+  coords 1564.771 20.437 2262.365
+  angleY 63.582
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bringToFront 0
+ }
+ NVA_Mark_Minefield_13 {
+  coords 1410.184 20.656 2424.289
+  angleY 63.582
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bringToFront 0
+ }
+ NVA_Mark_Minefield_14 {
+  coords 1362.066 20.625 2405.511
+  angleY 63.582
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "mine-field"
+  m_fWorldSize 30
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bringToFront 0
+ }
 }

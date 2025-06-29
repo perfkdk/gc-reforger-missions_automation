@@ -59,10 +59,22 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    "def_spawn_wp_NVA_15"
   }
  }
+ NVA_Town_Def_Spawner_16 {
+  coords 833.971 12.494 3015.244
+  angleY -22.31
+  m_prefab "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_RifleSquad.et"
+  m_conditionFlag "West_Spawner"
+  m_spawnTimings {
+   5
+  }
+  m_waypointNames {
+   "def_spawn_wp_NVA_16"
+  }
+ }
 }
 TILW_FactionTriggerEntity Town_Area_Trigger2 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 663.102 16.312 2849.059
- m_queryRadius 350
+ coords 634.491 16.495 2820.658
+ m_queryRadius 400
  m_locationName "lalafuckthis"
  m_flagName "West_Spawner"
  m_stopAfterFirstChange 1
@@ -92,6 +104,11 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  }
  def_spawn_wp_NVA_15 {
   coords 727.196 20.924 2710.534
+  angleY -169.805
+  CompletionRadius 40
+ }
+ def_spawn_wp_NVA_16 {
+  coords 840.151 16.727 3013.781
   angleY -169.805
   CompletionRadius 40
  }
