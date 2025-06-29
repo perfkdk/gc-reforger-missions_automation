@@ -6,7 +6,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "4:1 RU:FIA"\
   ""\
-  "Only slot FIA when at 20 players or above."
+  "Only slot FIA at 20 players or above."
   m_bEmptyFactionVisibility 1
  }
  Description_Situation_RU {
@@ -41,34 +41,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
    "RHS_AFRF"
   }
  }
- Description_Execution_RU {
-  coords 0 0 0
-  m_sTitle "III. Execution"
-  m_sTextData "-"
-  m_aVisibleForFactions {
-   "RHS_AFRF"
-  }
- }
  Description_ServiceSupply_RU {
   coords 0 0 0
   m_sTitle "IV. Service and Support"
   m_sTextData "There are additional supplies in the BTR-70s."
-  m_aVisibleForFactions {
-   "RHS_AFRF"
-  }
- }
- Description_CommandSignal_RU {
-  coords 0 0 0
-  m_sTitle "V. Command and Signal"
-  m_sTextData "A. Command"\
-  ""\
-  "Succession of command:"\
-  "PSG, 1st SL, 2nd SL..."\
-  ""\
-  ""\
-  "B. Signal"\
-  ""\
-  "See ingame radio wheel"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -102,27 +78,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
    "FIA"
   }
  }
- Description_Execution_FIA {
-  coords 0 0 0
-  m_sTitle "III. Execution"
-  m_sTextData "-"
-  m_aVisibleForFactions {
-   "FIA"
-  }
- }
  Description_ServiceSupply_FIA {
   coords 0 0 0
   m_sTitle "IV. Service and Support"
   m_sTextData "Our UAZ, which has a mounted UK59 machine gun, can transport up to 3 people."\
   "In its trunk are multiple AT mines."
-  m_aVisibleForFactions {
-   "FIA"
-  }
- }
- Description_CommandSignal_FIA {
-  coords 0 0 0
-  m_sTitle "V. Command and Signal"
-  m_sTextData "-"
   m_aVisibleForFactions {
    "FIA"
   }
@@ -135,11 +95,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- The mission ends when:"\
   "  a) Both trucks were destroyed and the landfill is being held by RU"\
   "  b) All Russians are dead"\
-  "  c) Time limit is reached after 45m"\
-  "- Time: 08:30"\
-  "- Weather: Clear"\
-  "- Mission Maker: Til"\
-  "- Framework: TilW Mission Framework"
+  "  c) Time limit is reached after 45m"
   m_aVisibleForFactions {
    "FIA" "RHS_AFRF"
   }
