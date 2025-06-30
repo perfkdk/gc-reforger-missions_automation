@@ -1,140 +1,804 @@
-$grp GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.et" {
- OBJ4 {
-  components {
-   ActionsManagerComponent "{6476F693E0538118}" {
-    ActionContexts {
-     UserActionContext "{6476F693E14164C9}" {
-      ContextName "default"
-      Position PointInfo "{6476F693E3267B72}" {
+$grp GenericEntity {
+ Power_Station_OBJ {
+  coords 1694.637 42.304 3018.682
+  {
+   $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         m_objectiveName "Power Station"
+        }
+       }
       }
-      Radius 1
      }
+     coords -4.8 -1.907 6.671
     }
-    additionalActions {
-     TILW_BaseInteraction "{6476F693F9A3AEFC}" {
-      ParentContextList {
-       "default"
+    {
+     components {
+      GC_CommandosObjRegister "{65BB190EA884F58D}" {
+       m_objectiveName "Power Station"
+       m_setMainObjective 1
       }
-      UIInfo UIInfo "{6476F693CDE2531E}" {
-       Name "Steal Manifest"
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         m_objectiveName "Power Station"
+        }
+       }
       }
-      ActionTitle "Steal Manifest"
-      VisibilityRange 1
-      Duration 10
-      m_actionName "Steal Manifest"
-      m_factionKeys {
-       "RHS_USAF"
-      }
-      m_flagName "OBJ_4_DONE"
      }
+     coords -3.572 -1.907 2.196
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         m_objectiveName "Power Station"
+        }
+       }
+      }
+     }
+     coords -2.705 -3.013 -2.844
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         m_objectiveName "Power Station"
+        }
+       }
+      }
+     }
+     coords -4.188 -3.091 -3.252
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         m_objectiveName "Power Station"
+        }
+       }
+      }
+     }
+     coords -7.927 -3.094 -4.459
     }
    }
   }
+ }
+ Monitoring_System_obj {
+  coords 913.827 38.865 2593.469
+  {
+   $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+    {
+     components {
+      GC_CommandosObjRegister "{65BC2E09F74637A2}" {
+       m_objectiveName "Monitoring System"
+       m_setMainObjective 1
+      }
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+          Name "Install System"
+         }
+         m_objectiveName "Monitoring System"
+        }
+       }
+      }
+     }
+     coords -0.997 0.978 1.524
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+          Name "Install System"
+         }
+         m_objectiveName "Monitoring System"
+        }
+       }
+      }
+     }
+     coords -1.565 0.978 4.258
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+          Name "Install System"
+         }
+         m_objectiveName "Monitoring System"
+        }
+       }
+      }
+     }
+     coords -0.324 0.978 -1.331
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+          Name "Install System"
+         }
+         m_objectiveName "Monitoring System"
+        }
+       }
+      }
+     }
+     coords 0.248 0.975 -3.775
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+          Name "Install System"
+         }
+         m_objectiveName "Monitoring System"
+        }
+       }
+      }
+     }
+     coords 64.655 0.933 14.663
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+          Name "Install System"
+         }
+         m_objectiveName "Monitoring System"
+        }
+       }
+      }
+     }
+     coords 66.776 0.968 16.166
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+          Name "Install System"
+         }
+         m_objectiveName "Monitoring System"
+        }
+       }
+      }
+     }
+     coords 69.168 0.967 18.035
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+          Name "Install System"
+         }
+         m_objectiveName "Monitoring System"
+        }
+       }
+      }
+     }
+     coords 71.421 0.923 19.47
+    }
+   }
+  }
+ }
+ Air_Fuel_Depot_OBJ {
+  coords 1168.647 38.398 2504.614
+  {
+   $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+    {
+     components {
+      GC_CommandosObjRegister "{65BC2E09F74637A2}" {
+       m_objectiveName "Air Fuel Depot"
+       m_setMainObjective 1
+      }
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "Air Fuel Depot"
+        }
+       }
+      }
+     }
+     coords 0.46 0.704 -0.653
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "Air Fuel Depot"
+        }
+       }
+      }
+     }
+     coords 3.014 0.835 -2.277
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "Air Fuel Depot"
+        }
+       }
+      }
+     }
+     coords 0.019 0.846 -3.952
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "Air Fuel Depot"
+        }
+       }
+      }
+     }
+     coords -2.77 1.1 -1.697
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "Air Fuel Depot"
+        }
+       }
+      }
+     }
+     coords -3.042 0.852 1.421
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "Air Fuel Depot"
+        }
+       }
+      }
+     }
+     coords 0.099 0.915 3.142
+    }
+   }
+  }
+ }
+ Ammo_dump_OBJ {
+  coords 1002.758 37.375 2858.713
+  {
+   PK_EntityDeleter {
+    coords 1.654 0 1.736
+    m_prefabFilterList {
+     "{AA1E1DD1D69055EC}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_green.et" "{D042CEA90B8CB14D}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_02.et" "{BC16FA49B7483E63}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_01.et" "{1F83CE19F6915A98}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_NoDecals.et" "{93B2511EFB2B6A51}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_grey.et"
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{4BE4C27399CF3B00}Prefabs/Structures/Military/Bunkers/ShelterMilitary_E_01/ShelterMilitary_E_01.et" {
+    components {
+     GC_CommandosObjRegister "{65BC2E01BA90DECF}" {
+      m_objectiveName "Ammo Dump"
+     }
+     SCR_DestructibleBuildingComponent "{5D7AD08FE834E0C4}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        "Explosive multiplier" 100
+       }
+      }
+     }
+    }
+    coords -1.016 0.003 8.026
+    angleY -127
+   }
+   SCR_DestructibleBuildingEntity : "{DAC148D18C3835B9}Prefabs/Structures/Military/Bunkers/ShelterMilitary_E_01/ShelterMilitary_E_01_long.et" {
+    components {
+     GC_CommandosObjRegister "{65BC2E01AED0BDF3}" {
+      m_objectiveName "Ammo Dump"
+      m_setMainObjective 1
+     }
+     SCR_DestructibleBuildingComponent "{5D7AD08FE834E0C4}" {
+      "Additional hit zones" {
+       SCR_HitZone Default {
+        "Explosive multiplier" 100
+       }
+      }
+     }
+    }
+    coords 9.771 0 -2.372
+    angleY -126.566
+   }
+  }
+ }
+ Stool_OBJ {
+  coords 1287.55 36.214 2422.33
+  {
+   $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+    {
+     components {
+      GC_CommandosObjRegister "{65BC2E0729DA924D}" {
+       m_objectiveName "Stool Sample"
+       m_setMainObjective 1
+      }
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+          Name "Collect Stinky Poo"
+         }
+         m_objectiveName "Stool Sample"
+        }
+       }
+      }
+     }
+     coords -7.605 0.351 8.357
+     angleY -164.196
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+          Name "Collect Stinky Poo"
+         }
+         m_objectiveName "Stool Sample"
+        }
+       }
+      }
+     }
+     coords 7.207 0.402 -8.426
+     angleY -164.196
+    }
+   }
+  }
+ }
+}
+PK_EntityDeleter Radar_OBJ {
+ coords 1428.263 42.111 2094.145
+ m_fRadius 10
+ m_prefabFilterList {
+  "{A528F04F41F2A2D0}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_on.et"
+ }
+ {
+  GenericEntity : "{A528F04F41F2A2D0}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_on.et" {
+   components {
+    GC_CommandosObjRegister "{65BC2E090FA1C276}" {
+     m_objectiveName "Radar"
+     m_setMainObjective 1
+    }
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     m_fBaseHealth 100
+     m_aDamagePhases {
+      SCR_DamagePhaseData "{5A50E304ED73C0AE}" {
+       m_fPhaseHealth 100
+      }
+     }
+    }
+   }
+   coords 0.273 -0.306 -0.287
+   angleY -36.522
+   {
+    GenericEntity : "{B526FBF1999025E5}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_cables_short.et" {
+     coords 0 -1.087 0
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.et" {
+ Flight_Manifest_OBJ {
   coords 1366.357 47.895 2961.921
   angleY -33.363
- }
- OBJ3 {
-  components {
-   ActionsManagerComponent "{6476F693E0538118}" {
-    ActionContexts {
-     UserActionContext "{6476F693E14164C9}" {
-      ContextName "default"
-      Position PointInfo "{6476F693E3267B72}" {
+  {
+   GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+    components {
+     GC_CommandosObjRegister "{65BB190EA884F58D}" {
+      m_objectiveName "Flight Manifest"
+      m_setMainObjective 1
+     }
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        UIInfo UIInfo "{65B68C203251DD70}" {
+         Name "Steal Manifest"
+        }
+        m_objectiveName "Flight Manifest"
+       }
       }
-      Radius 1
      }
     }
-    additionalActions {
-     TILW_BaseInteraction "{6476F693F9A3AEFC}" {
-      ParentContextList {
-       "default"
-      }
-      UIInfo UIInfo "{6476F693CDE2531E}" {
-       Name "Steal Research"
-      }
-      ActionTitle "Steal Research"
-      VisibilityRange 1
-      Duration 10
-      m_actionName "Steal Research"
-      m_factionKeys {
-       "RHS_USAF"
-      }
-      m_flagName "OBJ_3_DONE"
-     }
-    }
+    coords 0.002 0.043 0.064
+    angleY 33.363
    }
   }
+ }
+ Research_OBJ {
   coords 1218.42 38.034 2574.564
   angleY -33.363
+  {
+   GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+    components {
+     GC_CommandosObjRegister "{65BB190EA884F58D}" {
+      m_objectiveName "Research Documents"
+      m_setMainObjective 1
+     }
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        UIInfo UIInfo "{65B68C203251DD70}" {
+         Name "Steal Research Documents"
+        }
+        m_objectiveName "Research Documents"
+       }
+      }
+     }
+    }
+    coords 0.015 0.047 0.056
+    angleY 33.363
+   }
+  }
  }
 }
-$grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
- {
-  components {
-   ActionsManagerComponent "{65B68C203251DD48}" {
-    additionalActions {
-     GC_CommandosInteraction "{65B68C203251DD71}" {
-      m_objectiveName "Power Station"
-     }
-    }
-   }
-  }
-  coords 1689.837 40.397 3025.353
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ4 {
+  coords 1435.043 37.775 2700.165
+  angleX 1.99
+  angleY 69.347
+  angleZ 0.206
  }
- {
-  components {
-   GC_CommandosObjRegister "{65BB190EA884F58D}" {
-    m_objectiveName "Power Station"
-    m_setMainObjective 1
-   }
-   ActionsManagerComponent "{65B68C203251DD48}" {
-    additionalActions {
-     GC_CommandosInteraction "{65B68C203251DD71}" {
-      m_objectiveName "Power Station"
-     }
-    }
-   }
-  }
-  coords 1691.065 40.397 3020.878
- }
- {
-  components {
-   ActionsManagerComponent "{65B68C203251DD48}" {
-    additionalActions {
-     GC_CommandosInteraction "{65B68C203251DD71}" {
-      m_objectiveName "Power Station"
-     }
-    }
-   }
-  }
-  coords 1691.932 39.291 3015.838
- }
- {
-  components {
-   ActionsManagerComponent "{65B68C203251DD48}" {
-    additionalActions {
-     GC_CommandosInteraction "{65B68C203251DD71}" {
-      m_objectiveName "Power Station"
-     }
-    }
-   }
-  }
-  coords 1690.449 39.213 3015.43
- }
- {
-  components {
-   ActionsManagerComponent "{65B68C203251DD48}" {
-    additionalActions {
-     GC_CommandosInteraction "{65B68C203251DD71}" {
-      m_objectiveName "Power Station"
-     }
-    }
-   }
-  }
-  coords 1686.71 39.21 3014.223
+ UAZ5 {
+  coords 1354.487 36.683 2659.118
+  angleX -1.156
+  angleY -110.917
+  angleZ -0.516
  }
 }
-RHS_Tank Tank_T2 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
+$grp GenericEntity : "{36D684634B3A7EF0}Prefabs/Vehicles/Airplanes/SU57/su57_mesh.et" {
+ {
+  components {
+   RHS_CASSoundComponent "{62D73C5821E908A2}" {
+    Enabled 0
+   }
+   SlotManagerComponent "{62D73C57F4117E6A}" {
+    Enabled 0
+   }
+  }
+  coords 1067.348 39.63 2863.372
+  angleY 163.483
+  {
+   $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 10.707 0.096 0.066
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 4.998 -0.126 4.112
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords -5.088 -0.124 0.837
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords -8.711 -0.145 -0.025
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 3.409 -0.216 -3.804
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 9.589 -0.348 -1.327
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 9.568 -0.322 1.516
+     angleY 32.321
+    }
+   }
+   $grp GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
+    {
+     coords 4.736 -0.882 2.386
+     angleY 90
+     scale 1.5
+    }
+    {
+     coords -5.494 -1.129 0.056
+     angleY 90
+    }
+    {
+     coords 4.736 -0.886 -2.435
+     angleY -90
+     scale 1.5
+    }
+   }
+   $grp SCR_DestructibleEntity : "{DC2033EE8273781C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_grey.et" {
+    {
+     coords 4.724 -0.154 -2.244
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords 4.756 -0.168 2.22
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords -5.505 -0.226 0.22
+     angleY 90
+     scale 0.5
+    }
+   }
+  }
+ }
+ {
+  components {
+   RHS_CASSoundComponent "{62D73C5821E908A2}" {
+    Enabled 0
+   }
+   SlotManagerComponent "{62D73C57F4117E6A}" {
+    Enabled 0
+   }
+  }
+  coords 1128.611 39.637 2912.336
+  angleY -104.094
+  {
+   $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 4.998 -0.126 4.112
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords -5.088 -0.124 0.837
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords -8.711 -0.145 -0.025
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 3.409 -0.216 -3.804
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 9.589 -0.348 -1.327
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 9.568 -0.322 1.516
+     angleY 32.321
+    }
+    {
+     components {
+      GC_CommandosObjRegister "{65BC2E1BAA944FA3}" {
+       m_objectiveName "SU-57s"
+       m_setMainObjective 1
+      }
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 10.707 0.096 0.066
+     angleY 32.321
+    }
+   }
+   $grp GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
+    {
+     coords 4.736 -0.882 2.386
+     angleY 90
+     scale 1.5
+    }
+    {
+     coords -5.494 -1.129 0.056
+     angleY 90
+    }
+    {
+     coords 4.736 -0.886 -2.435
+     angleY -90
+     scale 1.5
+    }
+   }
+   $grp SCR_DestructibleEntity : "{DC2033EE8273781C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_grey.et" {
+    {
+     coords 4.724 -0.154 -2.244
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords 4.756 -0.168 2.22
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords -5.505 -0.226 0.22
+     angleY 90
+     scale 0.5
+    }
+   }
+  }
+ }
+}
+RHS_Tank Tank_OBJ : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
  components {
   GC_CommandosObjRegister "{65BB1909E64F3EC8}" {
    m_objectiveName "Prototype Tank"
@@ -148,8 +812,8 @@ RHS_Tank Tank_T2 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" 
    }
   }
  }
- coords 1071.371 39.151 2958.776
- angleY 164.196
+ coords 1559.987 38.04 2976.025
+ angleY 120.971
  {
   $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
    {
@@ -160,12 +824,12 @@ RHS_Tank Tank_T2 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" 
         UIInfo UIInfo "{65B68C203251DD70}" {
          Name "Photograph"
         }
-        m_objectiveName "Power Station"
+        m_objectiveName "Prototype Tank"
        }
       }
      }
     }
-    coords -0.023 1.145 4.641
+    coords -0.037 1.145 4.811
     angleY -164.196
    }
    {
@@ -176,12 +840,12 @@ RHS_Tank Tank_T2 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" 
         UIInfo UIInfo "{65B68C203251DD70}" {
          Name "Photograph"
         }
-        m_objectiveName "Power Station"
+        m_objectiveName "Prototype Tank"
        }
       }
      }
     }
-    coords -2.311 1.375 0.263
+    coords -2.377 1.375 0.282
     angleY -164.196
    }
    {
@@ -212,7 +876,7 @@ RHS_Tank Tank_T2 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" 
         UIInfo UIInfo "{65B68C203251DD70}" {
          Name "Photograph"
         }
-        m_objectiveName "Power Station"
+        m_objectiveName "Prototype Tank"
        }
       }
      }
@@ -223,160 +887,247 @@ RHS_Tank Tank_T2 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" 
   }
  }
 }
-$grp Vehicle : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S8.et" {
- Mi24V_armed_S4 {
-  components {
-   GC_CommandosObjRegister "{65B65CD146588A7D}" {
-    m_objectiveName "Mi-24s"
-   }
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
+GenericEntity Il_76_OBJ : "{522DEDD6E6C0E6C4}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76_USSR_static.et" {
+ coords 1470.591 38 2906.435
+ angleY -104.387
+ {
+  $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+   {
+    components {
+     GC_CommandosObjRegister "{65BC2E037AA13268}" {
+      m_objectiveName "Il-76"
+      m_setMainObjective 1
      }
-     SCR_FuelNode "{628933A358A15681}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{628933A358A15683}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-    }
-   }
-  }
-  coords 666.684 39.011 2652.507
-  angleY -33.747
- }
- Mi24V_armed_S2 {
-  components {
-   GC_CommandosObjRegister "{65B65CD146588A7D}" {
-    m_objectiveName "Mi-24s"
-   }
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{628933A358A15681}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{628933A358A15683}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        UIInfo UIInfo "{65B68C203251DD70}" {
+        }
+        m_objectiveName "Il-76"
+       }
+      }
      }
     }
+    coords 10.506 3.281 1.492
+    angleY -59.809
    }
-  }
-  coords 775.646 39 2726.796
-  angleY -33.747
- }
- Mi24V_armed_S3 {
-  components {
-   GC_CommandosObjRegister "{65B65CD146588A7D}" {
-    m_objectiveName "Mi-24s"
-    m_setMainObjective 1
-   }
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{628933A358A15681}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{628933A358A15683}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        UIInfo UIInfo "{65B68C203251DD70}" {
+        }
+        m_objectiveName "Il-76"
+       }
+      }
      }
     }
+    coords 6.33 3.505 3.466
+    angleY -59.809
    }
-  }
-  coords 719.613 39 2688.182
-  angleY -33.747
- }
- Mi24V_armed_S5 {
-  components {
-   GC_CommandosObjRegister "{65B65CD146588A7D}" {
-    m_objectiveName "Mi-24s"
-   }
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{628933A358A15681}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{628933A358A15683}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        UIInfo UIInfo "{65B68C203251DD70}" {
+        }
+        m_objectiveName "Il-76"
+       }
+      }
      }
     }
+    coords -6.418 3.527 3.524
+    angleY -59.809
    }
-  }
-  coords 908.629 39.033 2823.873
-  angleY 55.502
- }
- Mi24V_armed_S6 {
-  components {
-   GC_CommandosObjRegister "{65B65CD146588A7D}" {
-    m_objectiveName "Mi-24s"
-   }
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{628933A358A15681}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{628933A358A15683}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        UIInfo UIInfo "{65B68C203251DD70}" {
+        }
+        m_objectiveName "Il-76"
+       }
+      }
      }
     }
+    coords -10.474 3.284 1.547
+    angleY -59.809
    }
-  }
-  coords 932.256 38.969 2787.458
-  angleY 55.502
- }
- Mi24V_armed_S7 {
-  components {
-   GC_CommandosObjRegister "{65B65CD146588A7D}" {
-    m_objectiveName "Mi-24s"
-   }
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{628933A358A15681}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
-     }
-     SCR_FuelNode "{628933A358A15683}" {
-      MaxFuel 0
-      m_fInitialFuelTankState 0
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        UIInfo UIInfo "{65B68C203251DD70}" {
+        }
+        m_objectiveName "Il-76"
+       }
+      }
      }
     }
+    coords 78.997 1.24 81.95
+    angleY -59.809
    }
   }
-  coords 956.816 39.344 2753.071
-  angleY 55.502
  }
 }
-Vehicle "65B68C211364C532" : "{C5534EAA593596B6}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_61.et" {
+Vehicle Mi24V_OBJ : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S8.et" {
+ components {
+  GC_CommandosObjRegister "{65B65CD146588A7D}" {
+   m_objectiveName "Mi-24s"
+   m_setMainObjective 1
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{628933A358A15681}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{628933A358A15683}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 719.613 39 2688.182
+ angleY -33.747
+ {
+  $grp Vehicle : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S8.et" {
+   Mi24V_armed_S4 {
+    components {
+     GC_CommandosObjRegister "{65B65CD146588A7D}" {
+      m_objectiveName "Mi-24s"
+     }
+     SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+      FuelNodes {
+       SCR_FuelNode "{5622A70CD4036C5A}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+       SCR_FuelNode "{628933A358A15681}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+       SCR_FuelNode "{628933A358A15683}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+      }
+     }
+    }
+    coords -63.829 0.011 -0.26
+   }
+   Mi24V_armed_S2 {
+    components {
+     GC_CommandosObjRegister "{65B65CD146588A7D}" {
+      m_objectiveName "Mi-24s"
+     }
+     SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+      FuelNodes {
+       SCR_FuelNode "{5622A70CD4036C5A}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+       SCR_FuelNode "{628933A358A15681}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+       SCR_FuelNode "{628933A358A15683}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+      }
+     }
+    }
+    coords 68.042 0 0.98
+   }
+   Mi24V_armed_S5 {
+    components {
+     GC_CommandosObjRegister "{65B65CD146588A7D}" {
+      m_objectiveName "Mi-24s"
+     }
+     SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+      FuelNodes {
+       SCR_FuelNode "{5622A70CD4036C5A}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+       SCR_FuelNode "{628933A358A15681}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+       SCR_FuelNode "{628933A358A15683}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+      }
+     }
+    }
+    coords 232.547 0.033 7.823
+    angleY 89.249
+   }
+   Mi24V_armed_S6 {
+    components {
+     GC_CommandosObjRegister "{65B65CD146588A7D}" {
+      m_objectiveName "Mi-24s"
+     }
+     SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+      FuelNodes {
+       SCR_FuelNode "{5622A70CD4036C5A}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+       SCR_FuelNode "{628933A358A15681}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+       SCR_FuelNode "{628933A358A15683}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+      }
+     }
+    }
+    coords 231.963 -0.031 -35.581
+    angleY 89.249
+   }
+   Mi24V_armed_S7 {
+    components {
+     GC_CommandosObjRegister "{65B65CD146588A7D}" {
+      m_objectiveName "Mi-24s"
+     }
+     SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+      FuelNodes {
+       SCR_FuelNode "{5622A70CD4036C5A}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+       SCR_FuelNode "{628933A358A15681}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+       SCR_FuelNode "{628933A358A15683}" {
+        MaxFuel 0
+        m_fInitialFuelTankState 0
+       }
+      }
+     }
+    }
+    coords 233.282 0.344 -77.817
+    angleY 89.249
+   }
+  }
+ }
+}
+Vehicle Blackhawk_OBJ : "{C5534EAA593596B6}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_61.et" {
  components {
   GC_CommandosObjRegister "{65B65CC97738F9B9}" {
    m_objectiveName "Black Hawk"

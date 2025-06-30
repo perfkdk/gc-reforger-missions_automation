@@ -37,6 +37,7 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  components {
   GC_CommandosManager "{659C5DFB11CD048A}" {
+   m_minObjectiveCount 15
    m_objectives {
     GC_CommandosObj "{65BB1908ED43E40C}" {
      m_name "Power Station"
@@ -48,6 +49,39 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_objectiveCompletedMsg "Photograph the Prototype Tank"
      m_briefingDescription "Photograph the Prototype Tank (Interaction)"
     }
+    GC_CommandosObj "{65BC1223BA5886E7}" {
+     m_name "Research Documents"
+     m_objectiveCompletedMsg "The %1 have been stolen!"
+     m_briefingDescription "Steal the research documents."
+    }
+    GC_CommandosObj "{65BC1222A9EDDED6}" {
+     m_name "Flight Manifest"
+     m_objectiveCompletedMsg "The %1 has been stolen!"
+    }
+    GC_CommandosObj "{65BC2E081BADC210}" {
+     m_name "Monitoring System"
+     m_objectiveCompletedMsg "The %1 has been installed!"
+     m_briefingDescription "Install the Monitoring System near the runway intersection"
+    }
+    GC_CommandosObj "{65BC2E0D667D8881}" {
+     m_name "Air Fuel Depot"
+     m_objectiveCompletedMsg "The %1 has been sabotaged!"
+     m_briefingDescription "Sabotage the Air Fuel Depot"
+    }
+    GC_CommandosObj "{65BC2E0CF9419532}" {
+     m_name "Il-76"
+     m_briefingDescription "Sabotage the Il-76's Engines"
+    }
+    GC_CommandosObj "{65BC2E00D36D4F71}" {
+     m_name "Stool Sample"
+     m_objectiveCompletedMsg "The %1 has been collected!"
+     m_briefingDescription "Collect the Pilot's Stool Sample from his bunker"
+    }
+    GC_CommandosObj "{65BC2E04BA771F0D}" {
+     m_name "SU-57s"
+     m_objectiveCompletedMsg "The %1 has been sabotaged!"
+     m_briefingDescription "Sabotage the SU-57s"
+    }
     GC_CommandosDestroyed "{65BB2B77B9ECE3C8}" {
      m_name "Black Hawk"
      m_objectiveCompletedMsg "The %1 has been destroyed!"
@@ -57,6 +91,14 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_name "Mi-24s"
      m_objectiveCompletedMsg "The %1 have been destroyed!"
      m_briefingDescription "Destroy ONE of the Mi-24s with explosives"
+    }
+    GC_CommandosDestroyed "{65BC2E0AE820AA97}" {
+     m_name "Radar"
+     m_objectiveCompletedMsg "The %1 has been destroyed!"
+     m_briefingDescription "Destroy the Radar using C4"
+    }
+    GC_CommandosDestroyed "{65BC2E01C4FC7F86}" {
+     m_name "Ammo Dump"
     }
    }
   }
@@ -78,6 +120,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
+     m_aFriendlyFactionsIds + {
+      "RHS_USAF"
+     }
      m_CallsignInfo SCR_FactionCallsignInfo "{5977478D568C093C}" {
       m_aCompanyNames {
        SCR_CallsignInfo "{5977478D568C0922}" {
@@ -151,6 +196,149 @@ $grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TI
   m_flagName "US_EXTRACTED_W"
   m_factionKey "RHS_USAF"
   m_ratioThreshold 0.9
+ }
+}
+$grp GenericEntity : "{36D684634B3A7EF0}Prefabs/Vehicles/Airplanes/SU57/su57_mesh.et" {
+ {
+  components {
+   RHS_CASSoundComponent "{62D73C5821E908A2}" {
+    Enabled 0
+   }
+   SlotManagerComponent "{62D73C57F4117E6A}" {
+    Enabled 0
+   }
+  }
+  coords 1098.028 39.561 2817.638
+  angleY -104.978
+  {
+   $grp GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
+    {
+     coords 4.736 -0.882 2.386
+     angleY 90
+     scale 1.5
+    }
+    {
+     coords -5.494 -1.129 0.056
+     angleY 90
+    }
+    {
+     coords 4.736 -0.886 -2.435
+     angleY -90
+     scale 1.5
+    }
+   }
+   $grp SCR_DestructibleEntity : "{DC2033EE8273781C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_grey.et" {
+    {
+     coords 4.724 -0.154 -2.244
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords 4.756 -0.168 2.22
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords -5.505 -0.226 0.22
+     angleY 90
+     scale 0.5
+    }
+   }
+  }
+ }
+ {
+  components {
+   RHS_CASSoundComponent "{62D73C5821E908A2}" {
+    Enabled 0
+   }
+   SlotManagerComponent "{62D73C57F4117E6A}" {
+    Enabled 0
+   }
+  }
+  coords 1024.337 39.761 2799.844
+  angleY -104.978
+  {
+   $grp GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
+    {
+     coords 4.736 -0.882 2.386
+     angleY 90
+     scale 1.5
+    }
+    {
+     coords -5.494 -1.129 0.056
+     angleY 90
+    }
+    {
+     coords 4.736 -0.886 -2.435
+     angleY -90
+     scale 1.5
+    }
+   }
+   $grp SCR_DestructibleEntity : "{DC2033EE8273781C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_grey.et" {
+    {
+     coords 4.724 -0.154 -2.244
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords 4.756 -0.168 2.22
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords -5.505 -0.226 0.22
+     angleY 90
+     scale 0.5
+    }
+   }
+  }
+ }
+ {
+  components {
+   RHS_CASSoundComponent "{62D73C5821E908A2}" {
+    Enabled 0
+   }
+   SlotManagerComponent "{62D73C57F4117E6A}" {
+    Enabled 0
+   }
+  }
+  coords 1060.225 39.563 2807.925
+  angleY -104.978
+  {
+   $grp GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
+    {
+     coords 4.736 -0.882 2.386
+     angleY 90
+     scale 1.5
+    }
+    {
+     coords -5.494 -1.129 0.056
+     angleY 90
+    }
+    {
+     coords 4.736 -0.886 -2.435
+     angleY -90
+     scale 1.5
+    }
+   }
+   $grp SCR_DestructibleEntity : "{DC2033EE8273781C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_grey.et" {
+    {
+     coords 4.724 -0.154 -2.244
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords 4.756 -0.168 2.22
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords -5.505 -0.226 0.22
+     angleY 90
+     scale 0.5
+    }
+   }
+  }
  }
 }
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
