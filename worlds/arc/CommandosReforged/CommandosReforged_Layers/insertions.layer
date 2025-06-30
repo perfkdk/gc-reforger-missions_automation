@@ -129,8 +129,8 @@ $grp GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  IP_A {
-  coords 1393.969 0.343 3573.028
-  angleY 180
+  coords 1554.902 1.263 3484.733
+  angleY -180
   m_MarkerColor 0 0.255 1 1
   m_sQuadName "join"
   m_fWorldSize 80

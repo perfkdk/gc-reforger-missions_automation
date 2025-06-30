@@ -68,6 +68,784 @@ $grp GenericEntity : "{8554ED3F088BADA6}Prefabs/Items/Core/Wirecutters/wirecutte
   angleY 61.241
  }
 }
+$grp GenericEntity : "{93B2511EFB2B6A51}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_grey.et" {
+ {
+  coords 1423.173 37.969 2954.315
+  angleY -14.432
+ }
+ {
+  coords 1423.444 37.986 2953.368
+  angleY -14.432
+ }
+ {
+  coords 1423.71 38 2952.417
+  angleY -14.432
+ }
+ {
+  coords 1423.978 38 2951.459
+  angleY -14.432
+ }
+ {
+  coords 1424.234 38 2950.498
+  angleY -14.432
+ }
+ {
+  coords 1423.068 38 2950.216
+  angleY -14.432
+ }
+ {
+  coords 1422.006 37.969 2954.033
+  angleY -14.432
+ }
+ {
+  coords 1422.278 37.986 2953.085
+  angleY -14.432
+ }
+ {
+  coords 1422.543 38 2952.134
+  angleY -14.432
+ }
+ {
+  coords 1422.811 38 2951.177
+  angleY -14.432
+ }
+ {
+  coords 1421.85 38 2949.854
+  angleY -14.432
+ }
+ {
+  coords 1420.789 37.969 2953.671
+  angleY -14.432
+ }
+ {
+  coords 1421.061 37.986 2952.724
+  angleY -14.432
+ }
+ {
+  coords 1421.326 38 2951.772
+  angleY -14.432
+ }
+ {
+  coords 1421.594 38 2950.814
+  angleY -14.432
+ }
+ {
+  coords 1423.791 38 2942.718
+  angleY -14.432
+ }
+ {
+  coords 1422.73 37.969 2946.535
+  angleY -14.432
+ }
+ {
+  coords 1423.001 37.986 2945.588
+  angleY -14.432
+ }
+ {
+  coords 1423.267 38 2944.636
+  angleY -14.432
+ }
+ {
+  coords 1423.535 38 2943.679
+  angleY -14.432
+ }
+ {
+  coords 1424.972 38 2942.97
+  angleY -14.432
+ }
+ {
+  coords 1423.911 37.969 2946.788
+  angleY -14.432
+ }
+ {
+  coords 1424.182 37.986 2945.84
+  angleY -14.432
+ }
+ {
+  coords 1424.448 38 2944.889
+  angleY -14.432
+ }
+ {
+  coords 1424.716 38 2943.931
+  angleY -14.432
+ }
+ {
+  coords 1426.217 38 2943.323
+  angleY -14.432
+ }
+ {
+  coords 1425.155 37.969 2947.141
+  angleY -14.432
+ }
+ {
+  coords 1425.427 37.986 2946.193
+  angleY -14.432
+ }
+ {
+  coords 1425.693 38 2945.242
+  angleY -14.432
+ }
+ {
+  coords 1425.961 38 2944.283
+  angleY -14.432
+ }
+ {
+  coords 1445.449 38 2951.655
+  angleY -14.432
+ }
+ {
+  coords 1445.81 37.969 2954.792
+  angleY -14.432
+ }
+ {
+  coords 1446.082 37.986 2953.845
+  angleY -14.432
+ }
+ {
+  coords 1444.232 38 2951.292
+  angleY -14.432
+ }
+ {
+  coords 1443.427 37.969 2954.148
+  angleY -14.432
+ }
+ {
+  coords 1443.964 38 2952.25
+  angleY -14.432
+ }
+ {
+  coords 1443.699 37.986 2953.201
+  angleY -14.432
+ }
+ {
+  coords 1444.488 38 2950.332
+  angleY -14.432
+ }
+ {
+  coords 1446.348 38 2952.895
+  angleY -14.432
+ }
+ {
+  coords 1446.616 38 2951.936
+  angleY -14.432
+ }
+ {
+  coords 1446.872 38 2950.976
+  angleY -14.432
+ }
+ {
+  coords 1445.706 38 2950.693
+  angleY -14.432
+ }
+ {
+  coords 1444.644 37.969 2954.51
+  angleY -14.432
+ }
+ {
+  coords 1444.916 37.986 2953.563
+  angleY -14.432
+ }
+ {
+  coords 1445.181 38 2952.611
+  angleY -14.432
+ }
+}
+$grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ {
+  components {
+   Hierarchy "{54A6A39C75EAFE2C}" {
+    Enabled 1
+   }
+  }
+  coords 1467.551 40.427 2957.627
+  angleY -10.3
+ }
+ {
+  components {
+   Hierarchy "{54A6A39C75EAFE2C}" {
+    Enabled 1
+   }
+  }
+  coords 1477.619 40.408 2955.083
+  angleY -83.108
+ }
+}
+$grp GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
+ {
+  coords 1456.305 38 2949.557
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -110.013
+   }
+  }
+ }
+ {
+  coords 1456.071 38 2950.942
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.121 1.623 -0.406
+    angleY -82.761
+   }
+  }
+ }
+ {
+  coords 1455.811 38 2952.275
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -165.313
+   }
+  }
+ }
+ {
+  coords 1455.53 38 2953.659
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -85.927
+   }
+  }
+ }
+ {
+  coords 1458.073 38 2948.277
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.056 1.623 0.307
+   }
+  }
+ }
+ {
+  coords 1457.344 38 2952.161
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -73.429
+   }
+  }
+ }
+ {
+  coords 1462.089 38 2949.02
+  angleY -102.56
+ }
+ {
+  coords 1461.896 38 2950.767
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.493 1.623 0.024
+    angleY -175.021
+   }
+  }
+ }
+ {
+  coords 1462.594 38 2955.185
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.212 1.623 0.025
+    angleY 0.673
+   }
+  }
+ }
+ {
+  coords 1461.306 38 2954.882
+  angleY -102.56
+ }
+ {
+  coords 1434.842 38 2965.123
+  angleY 72.454
+ }
+ {
+  coords 1436.171 38 2965.429
+  angleY 72.454
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -110.013
+   }
+  }
+ }
+ {
+  coords 1437.544 38 2965.724
+  angleY 72.454
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.121 1.623 -0.406
+    angleY -82.761
+   }
+  }
+ }
+ {
+  coords 1438.864 38 2966.043
+  angleY 72.454
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -165.313
+   }
+  }
+ }
+ {
+  coords 1440.234 38 2966.385
+  angleY 72.454
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -85.927
+   }
+  }
+ }
+ {
+  coords 1434.971 38 2963.605
+  angleY -15.106
+ }
+ {
+  coords 1438.818 38 2964.506
+  angleY -15.106
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -73.429
+   }
+  }
+ }
+ {
+  coords 1435.892 38 2959.627
+  angleY -15.106
+ }
+ {
+  coords 1437.628 38 2959.897
+  angleY -15.106
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.493 1.623 0.024
+    angleY -175.021
+   }
+  }
+ }
+ {
+  coords 1442.073 38 2959.396
+  angleY -15.106
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.212 1.623 0.025
+    angleY 0.673
+   }
+  }
+ }
+ {
+  coords 1441.713 38 2960.669
+  angleY -15.106
+ }
+ {
+  coords 1444.927 37.972 2962.328
+  angleY -15
+ }
+ {
+  coords 1444.68 37.972 2963.669
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -110.013
+   }
+  }
+ }
+ {
+  coords 1444.446 37.972 2965.054
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.121 1.623 -0.406
+    angleY -82.761
+   }
+  }
+ }
+ {
+  coords 1444.186 37.972 2966.387
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -165.313
+   }
+  }
+ }
+ {
+  coords 1443.905 37.972 2967.771
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -85.927
+   }
+  }
+ }
+ {
+  coords 1446.448 37.972 2962.389
+  angleY -102.56
+ }
+ {
+  coords 1445.719 37.972 2966.273
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -73.429
+   }
+  }
+ }
+ {
+  coords 1450.464 37.972 2963.132
+  angleY -102.56
+ }
+ {
+  coords 1450.271 37.972 2964.879
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.493 1.623 0.024
+    angleY -175.021
+   }
+  }
+ }
+ {
+  coords 1450.969 37.972 2969.297
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.212 1.623 0.025
+    angleY 0.673
+   }
+  }
+ }
+ {
+  coords 1449.681 37.972 2968.994
+  angleY -102.56
+ }
+ {
+  coords 1468.013 38 2955.725
+  angleY -15
+ }
+ {
+  coords 1467.766 38 2957.067
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -110.013
+   }
+  }
+ }
+ {
+  coords 1467.532 38 2958.451
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.121 1.623 -0.406
+    angleY -82.761
+   }
+  }
+ }
+ {
+  coords 1467.272 38 2959.784
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords 0.48 1.623 -0.067
+    angleY -177.866
+   }
+  }
+ }
+ {
+  coords 1466.991 38 2961.169
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -85.927
+   }
+  }
+ }
+ {
+  coords 1469.534 38 2955.787
+  angleY -102.56
+ }
+ {
+  coords 1468.805 38 2959.671
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -73.429
+   }
+  }
+ }
+ {
+  coords 1473.395 38 2957.617
+  angleY -102.56
+ }
+ {
+  coords 1473.202 38 2959.365
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.493 1.623 0.024
+    angleY -175.021
+   }
+  }
+ }
+ {
+  coords 1473.776 38 2963.813
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.212 1.623 0.025
+    angleY 0.673
+   }
+  }
+ }
+ {
+  coords 1472.488 38 2963.51
+  angleY -102.56
+ }
+ {
+  coords 1475.288 38 2947.136
+  angleY -108.019
+ }
+ {
+  coords 1473.962 38 2946.819
+  angleY -108.019
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -110.013
+   }
+  }
+ }
+ {
+  coords 1472.591 38 2946.512
+  angleY -108.019
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.121 1.623 -0.406
+    angleY -82.761
+   }
+  }
+ }
+ {
+  coords 1471.274 38 2946.183
+  angleY -108.019
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -165.313
+   }
+  }
+ }
+ {
+  coords 1469.906 38 2945.829
+  angleY -108.019
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -85.927
+   }
+  }
+ }
+ {
+  coords 1475.146 38 2948.652
+  angleY 164.421
+ }
+ {
+  coords 1471.307 38 2947.719
+  angleY 164.421
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.103 1.623 -0.358
+    angleY -87.578
+   }
+  }
+ }
+ {
+  coords 1474.193 38 2952.622
+  angleY 164.421
+ }
+ {
+  coords 1472.459 38 2952.338
+  angleY 164.421
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.493 1.623 0.024
+    angleY -175.021
+   }
+  }
+ }
+ {
+  coords 1468.01 38 2952.803
+  angleY 164.421
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.212 1.623 0.025
+    angleY 0.673
+   }
+  }
+ }
+ {
+  coords 1468.381 38 2951.532
+  angleY 164.421
+ }
+ {
+  coords 1478.165 38 2953.471
+  angleY -15
+ }
+ {
+  coords 1477.918 38 2954.813
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -110.013
+   }
+  }
+ }
+ {
+  coords 1477.684 38 2956.198
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.121 1.623 -0.406
+    angleY -82.761
+   }
+  }
+ }
+ {
+  coords 1477.424 38 2957.53
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -165.313
+   }
+  }
+ }
+ {
+  coords 1477.143 38 2958.915
+  angleY -15
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -85.927
+   }
+  }
+ }
+ {
+  coords 1479.686 38 2953.532
+  angleY -102.56
+ }
+ {
+  coords 1478.957 38 2957.417
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.142 1.623 -0.161
+    angleY -73.429
+   }
+  }
+ }
+ {
+  coords 1483.702 38 2954.276
+  angleY -102.56
+ }
+ {
+  coords 1483.509 38 2956.022
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.493 1.623 0.024
+    angleY -175.021
+   }
+  }
+ }
+ {
+  coords 1484.207 38 2960.441
+  angleY -102.56
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.212 1.623 0.025
+    angleY 0.673
+   }
+  }
+ }
+ {
+  coords 1482.919 38 2960.137
+  angleY -102.56
+ }
+ {
+  coords 1470.952 38 2949.026
+  angleY 164.421
+  {
+   GenericEntity {
+    ID "552AED9AEC288649"
+    coords -0.156 1.623 0.135
+   }
+  }
+ }
+ {
+  coords 1456.552 38 2948.216
+  angleY -15
+ }
+}
 $grp GenericEntity : "{B9F8987A84B94738}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_03/LampStreet_E_03_addon.et" {
  {
   coords 1382.713 3.483 2634.908

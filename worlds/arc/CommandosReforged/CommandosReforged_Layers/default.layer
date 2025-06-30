@@ -102,6 +102,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     }
    }
   }
+  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   Enabled 0
+  }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
@@ -120,7 +123,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
-     m_aFriendlyFactionsIds + {
+     m_aFriendlyFactionsIds {
       "RHS_USAF"
      }
      m_CallsignInfo SCR_FactionCallsignInfo "{5977478D568C093C}" {
@@ -170,7 +173,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
 }
 $grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
  {
-  coords 1393.886 0.346 3562.671
+  coords 1554.819 1.383 3474.376
   m_queryRadius 30
   m_flagName "US_EXTRACTED_N"
   m_factionKey "RHS_USAF"
@@ -196,149 +199,6 @@ $grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TI
   m_flagName "US_EXTRACTED_W"
   m_factionKey "RHS_USAF"
   m_ratioThreshold 0.9
- }
-}
-$grp GenericEntity : "{36D684634B3A7EF0}Prefabs/Vehicles/Airplanes/SU57/su57_mesh.et" {
- {
-  components {
-   RHS_CASSoundComponent "{62D73C5821E908A2}" {
-    Enabled 0
-   }
-   SlotManagerComponent "{62D73C57F4117E6A}" {
-    Enabled 0
-   }
-  }
-  coords 1098.028 39.561 2817.638
-  angleY -104.978
-  {
-   $grp GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
-    {
-     coords 4.736 -0.882 2.386
-     angleY 90
-     scale 1.5
-    }
-    {
-     coords -5.494 -1.129 0.056
-     angleY 90
-    }
-    {
-     coords 4.736 -0.886 -2.435
-     angleY -90
-     scale 1.5
-    }
-   }
-   $grp SCR_DestructibleEntity : "{DC2033EE8273781C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_grey.et" {
-    {
-     coords 4.724 -0.154 -2.244
-     angleY 90
-     scale 0.5
-    }
-    {
-     coords 4.756 -0.168 2.22
-     angleY 90
-     scale 0.5
-    }
-    {
-     coords -5.505 -0.226 0.22
-     angleY 90
-     scale 0.5
-    }
-   }
-  }
- }
- {
-  components {
-   RHS_CASSoundComponent "{62D73C5821E908A2}" {
-    Enabled 0
-   }
-   SlotManagerComponent "{62D73C57F4117E6A}" {
-    Enabled 0
-   }
-  }
-  coords 1024.337 39.761 2799.844
-  angleY -104.978
-  {
-   $grp GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
-    {
-     coords 4.736 -0.882 2.386
-     angleY 90
-     scale 1.5
-    }
-    {
-     coords -5.494 -1.129 0.056
-     angleY 90
-    }
-    {
-     coords 4.736 -0.886 -2.435
-     angleY -90
-     scale 1.5
-    }
-   }
-   $grp SCR_DestructibleEntity : "{DC2033EE8273781C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_grey.et" {
-    {
-     coords 4.724 -0.154 -2.244
-     angleY 90
-     scale 0.5
-    }
-    {
-     coords 4.756 -0.168 2.22
-     angleY 90
-     scale 0.5
-    }
-    {
-     coords -5.505 -0.226 0.22
-     angleY 90
-     scale 0.5
-    }
-   }
-  }
- }
- {
-  components {
-   RHS_CASSoundComponent "{62D73C5821E908A2}" {
-    Enabled 0
-   }
-   SlotManagerComponent "{62D73C57F4117E6A}" {
-    Enabled 0
-   }
-  }
-  coords 1060.225 39.563 2807.925
-  angleY -104.978
-  {
-   $grp GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
-    {
-     coords 4.736 -0.882 2.386
-     angleY 90
-     scale 1.5
-    }
-    {
-     coords -5.494 -1.129 0.056
-     angleY 90
-    }
-    {
-     coords 4.736 -0.886 -2.435
-     angleY -90
-     scale 1.5
-    }
-   }
-   $grp SCR_DestructibleEntity : "{DC2033EE8273781C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_grey.et" {
-    {
-     coords 4.724 -0.154 -2.244
-     angleY 90
-     scale 0.5
-    }
-    {
-     coords 4.756 -0.168 2.22
-     angleY 90
-     scale 0.5
-    }
-    {
-     coords -5.505 -0.226 0.22
-     angleY 90
-     scale 0.5
-    }
-   }
-  }
  }
 }
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
