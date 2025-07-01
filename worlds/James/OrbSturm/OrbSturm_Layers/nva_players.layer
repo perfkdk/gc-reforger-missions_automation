@@ -83,7 +83,7 @@ $grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
   coords 902.249 142.813 4080.34
   angleY 122.647
   m_aUnitPrefabSlots {
-   "{BCC39EBCD14FD378}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P_NoRadio.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et" "{FAA88FDED9B93B93}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Commander_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et" "{FAA88FDED9B93B93}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Commander_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
   }
  }
  {
@@ -134,7 +134,7 @@ $grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
   coords 860.783 143.203 4017.708
   angleY 118.868
   m_aUnitPrefabSlots {
-   "{BCC39EBCD14FD378}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P_NoRadio.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et" "{FAA88FDED9B93B93}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Commander_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et" "{FAA88FDED9B93B93}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Commander_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
   }
  }
  {
@@ -202,6 +202,6 @@ SCR_AIGroup : "{EF9B0C908458D07E}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA_CHQ_
  coords 809.16 143.343 3920.972
  angleY 119.048
  m_aUnitPrefabSlots {
-  "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et" "{4AF10D5EE01C8BE7}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PoliticalOfficer_P.et" "{4F966B58F0A11BFB}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_TechnicalOfficer_P.et" "{C503AFF96F792C9F}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanySergeantMajor_P.et" "{5A8B3EB194EC672E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Clerk_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et"
+  "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et" "{C503AFF96F792C9F}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanySergeantMajor_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et"
  }
 }
