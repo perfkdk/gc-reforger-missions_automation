@@ -274,7 +274,7 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
   coords 1112.641 6.616 3261.12
   angleY -12.651
   m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
+   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
   }
   m_aStaticWaypoints {
    "def_wp_NVA_1"
@@ -289,7 +289,7 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
   coords 1197.106 6.504 3272.529
   angleY -12.651
   m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
+   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
   }
   m_aStaticWaypoints {
    "def_wp_NVA_2"
@@ -304,7 +304,7 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
   coords 1252.504 5.369 3314.125
   angleY -12.651
   m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
+   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
   }
   m_aStaticWaypoints {
    "def_wp_NVA_3"
@@ -316,10 +316,10 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
     DefaultFormation "line"
    }
   }
-  coords 1162.175 4.355 3224.744
+  coords 1166.311 4.357 3225.549
   angleY -12.651
   m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
+   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
   }
   m_aStaticWaypoints {
    "def_wp_NVA_4"
@@ -334,7 +334,7 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
   coords 1051.86 6.302 3224.401
   angleY -12.651
   m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
+   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
   }
   m_aStaticWaypoints {
    "def_wp_NVA_5"
@@ -349,25 +349,10 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
   coords 951.84 11.79 3233.007
   angleY -12.651
   m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
+   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
   }
   m_aStaticWaypoints {
    "def_wp_NVA_6"
-  }
- }
- NVA_AI_7 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-  }
-  coords 835.214 11.542 3231.245
-  angleY -12.651
-  m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
-  }
-  m_aStaticWaypoints {
-   "def_wp_NVA_7"
   }
  }
  NVA_AI_8 {
@@ -379,7 +364,7 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
   coords 775.302 8.812 3211.49
   angleY -12.651
   m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
+   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
   }
   m_aStaticWaypoints {
    "def_wp_NVA_8"
@@ -394,25 +379,10 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
   coords 624.273 6.043 3195.082
   angleY -12.651
   m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
+   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
   }
   m_aStaticWaypoints {
    "def_wp_NVA_9"
-  }
- }
- NVA_AI_10 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-  }
-  coords 528.798 14.573 3262.082
-  angleY -12.651
-  m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
-  }
-  m_aStaticWaypoints {
-   "def_wp_NVA_10"
   }
  }
  NVA_AI_11 {
@@ -424,7 +394,7 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
   coords 514.408 16.534 3325.63
   angleY -12.651
   m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
+   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
   }
   m_aStaticWaypoints {
    "def_wp_NVA_11"
@@ -439,7 +409,7 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
   coords 519.807 10.572 3183.817
   angleY -12.651
   m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
+   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
   }
   m_aStaticWaypoints {
    "def_wp_NVA_12"
@@ -499,7 +469,7 @@ $grp SCR_AIGroup : "{84EEEF18361F752D}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_R
   coords 572.834 6.089 3158.355
   angleY -12.651
   m_aUnitPrefabSlots {
-   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
+   "{4BCF6B26E6A0AFCB}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_SquadLeader.et" "{B68CA75549A1027E}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_DeputySquadLeader.et" "{F1CB21A84852A5B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_MachineGunner.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et" "{23B2DF1E01071F18}Prefabs/Characters/Factions/OPFOR/GC_NVA/Character_GC_NVA_AT1.et"
   }
   m_aStaticWaypoints {
    "def_wp_NVA_16"
@@ -523,9 +493,9 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   CompletionRadius 20
  }
  def_wp_NVA_4 {
-  coords 1160.67 4.353 3226.767
+  coords 1168.741 4.353 3230.306
   angleY -66.498
-  CompletionRadius 20
+  CompletionRadius 10
  }
  def_wp_NVA_5 {
   coords 1050.355 7.649 3226.426
@@ -537,11 +507,6 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   angleY -66.498
   CompletionRadius 20
  }
- def_wp_NVA_7 {
-  coords 833.708 12.889 3233.27
-  angleY -66.498
-  CompletionRadius 20
- }
  def_wp_NVA_8 {
   coords 773.797 10.16 3213.515
   angleY -66.498
@@ -549,11 +514,6 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  }
  def_wp_NVA_9 {
   coords 622.767 7.39 3197.107
-  angleY -66.498
-  CompletionRadius 20
- }
- def_wp_NVA_10 {
-  coords 527.293 15.92 3264.106
   angleY -66.498
   CompletionRadius 20
  }

@@ -7,8 +7,8 @@ PolylineShapeEntity MapShape_Guard : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_M
    m_visibleForEmptyFaction 0
    m_drawArea 0
    m_drawLine 1
-   m_lineColor 0.1 0.7 0.792 1
-   m_lineWidth 7
+   m_lineColor 0.016 0.552 0.905 1
+   m_lineWidth 10
   }
  }
  coords 2297.505 227.84 3790.16
@@ -44,7 +44,7 @@ PolylineShapeEntity MapShape_Guard : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_M
        "US"
       }
       m_visibleForEmptyFaction 0
-      m_color 0.1 0.7 0.792 1
+      m_color 0.016 0.552 0.905 1
      }
     }
     coords 0 0 400
@@ -68,7 +68,7 @@ PolylineShapeEntity MapShape_Guard : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_M
        "US"
       }
       m_visibleForEmptyFaction 0
-      m_color 0.1 0.7 0.792 1
+      m_color 0.016 0.552 0.905 1
      }
     }
     coords 0 0 -400
