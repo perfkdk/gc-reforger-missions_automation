@@ -150,6 +150,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   Enabled 0
    m_killTimer 30
    m_useFactionColor 0
    m_lineWidth 5
@@ -201,7 +202,7 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    Position -763.922 18.565 413.525
   }
   ShapePoint "{65893EE873B3A687}" {
-   Position -723.89 -12.915 324.389
+   Position -695.747 7.535 346.574
   }
   ShapePoint "{65893EE863C28659}" {
    Position -624.022 -9.381 257.111
@@ -216,49 +217,34 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    Position -641.129 11.05 -212.04
   }
   ShapePoint "{65893EE1B455F1C5}" {
-   Position -608.241 14.023 -450.75
+   Position -607.925 17.448 -515.088
   }
   ShapePoint "{65893EE1A974E72A}" {
-   Position -498.01 13.391 -447.054
+   Position -464.522 13.794 -500.345
   }
   ShapePoint "{65893EE1A8A9CF3F}" {
-   Position -363.703 13.162 -435.692
-  }
-  ShapePoint "{65893EE1AF54DB97}" {
-   Position -281.129 13.331 -428.468
+   Position -295.521 13.184 -488.786
   }
   ShapePoint "{65893EE1AE2AAB81}" {
-   Position -175.563 14.239 -420.542
+   Position -94.491 13.643 -457.383
   }
   ShapePoint "{65893EE1AD33F2C7}" {
-   Position -43.227 16.805 -399.284
-  }
-  ShapePoint "{65893EE1AC06C7A0}" {
-   Position -52.781 16.172 -364.246
+   Position 49.91 17.202 -430.163
   }
   ShapePoint "{65893EE1A289BAA6}" {
-   Position 90.803 15.669 -332.079
+   Position 164.723 16.702 -398.21
   }
   ShapePoint "{65893EE1A147D16F}" {
-   Position 171.486 15.415 -315.822
+   Position 263.48 16.224 -367.596
   }
   ShapePoint "{65893EE1A0940BFA}" {
-   Position 227.169 14.976 -289.674
+   Position 420.736 16.19 -332.849
   }
   ShapePoint "{65893EE1A742CBE1}" {
-   Position 407.347 12.138 -184.793
+   Position 523.895 11.613 -291.149
   }
   ShapePoint "{65893EE25DEF6679}" {
-   Position 416.378 11.376 -164.782
-  }
-  ShapePoint "{65893EE25CC3951A}" {
-   Position 436.992 10.47 -151.262
-  }
-  ShapePoint "{65893EE25291FC8C}" {
-   Position 505.444 4.444 -114.753
-  }
-  ShapePoint "{65893EE252233024}" {
-   Position 536.548 -1.134 -72.376
+   Position 688.53 -0.865 -205.517
   }
   ShapePoint "{65893EE250028E64}" {
    Position 481.219 -4.893 33.539
@@ -381,6 +367,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageTitle "United States Army Victory"
      m_messageBody "US Forces has managed to secure their objectives and survived.."\
      "GM Discretion when to end the mission"
+    }
+    TILW_SetFlagInstruction "{65A0C1F7E9879EFF}" {
+     m_executionDelay 22
+     m_flagName "Counter_AI"
     }
    }
    m_condition TILW_ConjunctionTerm "{650AE15E5BA69298}" {

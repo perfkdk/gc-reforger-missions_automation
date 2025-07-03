@@ -1,6 +1,6 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  NVA_Coy_marker_1 {
-  coords 1336.928 20.65 2546.476
+  coords 1430.891 20.65 2334.297
   angleY 90
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
@@ -108,8 +108,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  NVA_Coy_marker_2 {
-  coords 1494.386 21.966 2212.156
-  angleY -101.056
+  coords 1359.33 18.179 2106.982
+  angleX -2.075
+  angleY -91.406
+  angleZ -4.34
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1

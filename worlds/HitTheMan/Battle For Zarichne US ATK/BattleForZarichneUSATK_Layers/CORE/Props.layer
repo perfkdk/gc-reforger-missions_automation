@@ -50,7 +50,7 @@ $grp GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/Effe
     }
    }
   }
-  coords 1438.541 20.5 2263.613
+  coords 1432.651 20.507 2274.439
   angleY -116.979
  }
  NVA_mine_3 {
@@ -90,8 +90,8 @@ $grp GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/Effe
     }
    }
   }
-  coords 1457.105 20.625 2342.853
-  angleY -116.979
+  coords 1470.44 20.594 2318.402
+  angleY -118.061
  }
  NVA_mine_6 {
   components {
@@ -110,7 +110,7 @@ $grp GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/Effe
     }
    }
   }
-  coords 1432.488 20.656 2495.405
+  coords 1476.393 20.687 2415.398
   angleY -116.979
  }
  NVA_mine_7 {
@@ -130,8 +130,8 @@ $grp GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/Effe
     }
    }
   }
-  coords 1314.997 20.656 2443.195
-  angleY -95.483
+  coords 1323.548 20.656 2365.585
+  angleY -96.949
  }
  NVA_mine_5 {
   components {
@@ -217,7 +217,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  NVA_Mark_Minefield_2 {
-  coords 1438.686 20.495 2263.417
+  coords 1432.796 20.499 2274.243
   angleY 63.582
   m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
@@ -241,8 +241,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  NVA_Mark_Minefield_4 {
-  coords 1457.25 20.62 2342.658
-  angleY 63.582
+  coords 1470.588 20.589 2318.21
+  angleY 62.5
   m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
   m_sQuadName "mine-field"
@@ -253,7 +253,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  NVA_Mark_Minefield_6 {
-  coords 1432.632 20.651 2495.21
+  coords 1476.537 20.682 2415.202
   angleY 63.582
   m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
@@ -265,8 +265,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  NVA_Mark_Minefield_7 {
-  coords 1315.06 20.651 2442.96
-  angleY 85.077
+  coords 1323.617 20.651 2365.352
+  angleY 83.611
   m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1
   m_sQuadName "mine-field"
