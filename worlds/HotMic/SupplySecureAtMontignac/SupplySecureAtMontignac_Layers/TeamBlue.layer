@@ -1,0 +1,14 @@
+SCR_AIGroup : "{50405007E4967EEE}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/Group_USA_2020_RiflePHQ_P.et" {
+ coords 5258.975 85.644 6362.415
+}
+$grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/Group_USA_2020_RifleSquad_P.et" {
+ {
+  coords 5240.952 76.543 6357.213
+ }
+ {
+  coords 5287.292 84.273 6364.683
+ }
+ {
+  coords 5264.916 73.655 6348.613
+ }
+}

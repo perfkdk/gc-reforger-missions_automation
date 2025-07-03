@@ -1,0 +1,20 @@
+SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RiflePHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+ }
+ coords 5706.249 339.939 5697.713
+}
+GenericEntity : "{CCDC203B7C0CF916}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_MERDC_engineer_box.et" {
+ coords 5706.379 339.087 5708.874
+}
+GenericEntity : "{F09296B9255F6704}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_CommandPost_US_01.et" {
+ coords 5726.283 337.65 5705.338
+ angleX -5.864
+ angleY -0.701
+ angleZ 6.825
+}
+Vehicle Tutorial_Engineering_Truck1 : "{F54F833E747C1B77}Prefabs/Vehicles/Wheeled/M923A1/Tutorial_Engineering_Truck.et" {
+ coords 5714.938 338.748 5706.879
+}

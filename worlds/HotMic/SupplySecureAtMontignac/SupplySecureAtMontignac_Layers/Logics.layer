@@ -1,0 +1,82 @@
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 5092.349 107.733 6570.749
+ m_missionEvents {
+  TILW_MissionEvent "{65C749517D83AB0A}" {
+   m_name "BLUFOR Casualty Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{65C749515CF229BC}" {
+     m_messageTitle "OPFOR Victory!"
+     m_messageBody "Too much BLUFOR Casualty.     Ending Mission in 2 mins!"
+    }
+    TILW_EndGameInstruction "{65C74951594EB3B5}" {
+     m_executionDelay 120
+     m_factionKey "RHS_AFRF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65C749501327BDC1}" {
+    m_flagName "BLUFOR_Killed"
+   }
+  }
+  TILW_MissionEvent "{65C7495171808F32}" {
+   m_name "OPFOR Casualty Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{65C74950736030DC}" {
+     m_messageTitle "BLUFOR Victory!"
+     m_messageBody "Too much OPFOR Casualty.     Ending Mission in 2 mins!"
+    }
+    TILW_EndGameInstruction "{65C749504F6D3C65}" {
+     m_executionDelay 120
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65C74950B920DCA8}" {
+    m_flagName "OPFOR_KIlled"
+   }
+  }
+  TILW_MissionEvent "{65C7495094574259}" {
+   m_name "Game End Event"
+   m_instructions {
+    TILW_SetFlagInstruction "{65C74950E4A08302}" {
+     m_executionDelay 2700
+     m_flagName "TimeLimit"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65C74950D462D266}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{65C7495B3346BADA}" {
+   m_name "Truck AO Left"
+   m_instructions {
+    TILW_SendMessageInstruction "{65C7495DB06967D0}" {
+     m_executionDelay 0
+     m_messageTitle "All truck has left the AO!"
+     m_messageBody "Get the supplies submitted to the Supply Depot and wait for GM to annouce the winners."
+    }
+   }
+   m_condition TILW_LiteralTerm "{65C7495DF9EBF130}" {
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{65C74952ED8D39D9}" {
+   m_flagName "BLUFOR_Killed"
+   m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{65C74952E8A88D43}" {
+   m_flagName "OPFOR_KIlled"
+   m_factionKey "RHS_AFRF"
+   m_casualtyRatio 0.9
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 5269.436 77.149 6347.88
+  m_fWarnRadius 70
+ }
+ {
+  coords 4562.432 106.725 7951.498
+ }
+}
