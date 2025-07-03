@@ -9,7 +9,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Initial intelligence from both sides classified the crates as military logistics assets; critical to ongoing operations in the region. However, independent sources indicate the supplies may have originally belonged to the local civilian population, leading to growing unrest among residents."\
   ""\
   "End Conditions:"\
-  "- A faction with the highest amount of supplies at its HQ after all trucks left the Montignac + 5 mins buffer: Victory"\
+  "- A faction with the highest amount of supplies at its HQ after all trucks left the Montignac OR TL reached: Victory"\
   "- A faction reduced to near-total losses or combat-ineffective: Defeat"\
   ""\
   "45 minute TL."
@@ -223,8 +223,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  {
   coords 4174.625 135.403 6239.943
   angleY 90
-  m_sImageSet "{0F26CD28BF9EF2E9}Missions/Hot Mic/SupplySecure/SupplySecureLoadingTruck.edds"
-  m_sImageSetGlow "{0F26CD28BF9EF2E9}Missions/Hot Mic/SupplySecure/SupplySecureLoadingTruck.edds"
+  m_sImageSet "{AF6FFC8236409DB3}Missions/Hot Mic/Images/SupplySecureLoadingTruck.edds"
+  m_sImageSetGlow "{AF6FFC8236409DB3}Missions/Hot Mic/Images/SupplySecureLoadingTruck.edds"
   m_sQuadName ""
   m_fWorldSize 900
   m_sDescription "FOOD Truck"
