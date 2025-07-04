@@ -1,0 +1,59 @@
+$grp Vehicle : "{094A1ECBEE1D9AD1}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/Stryker_CROWS_Cage_MERDC.et" {
+ Stryker_CROWS_Cage_MERDC2 {
+  coords 7003.379 62.491 4616.971
+  angleX -0.723
+  angleY -53.815
+  angleZ -0.529
+  m_sAttachmentGroupName "BLU_12"
+ }
+ Stryker_CROWS_Cage_MERDC3 {
+  coords 7018.983 62.578 4605.939
+  angleX 0.723
+  angleY -53.825
+  angleZ 0.528
+  m_sAttachmentGroupName "BLU_13"
+ }
+ Stryker_CROWS_Cage_MERDC1 {
+  coords 6986.507 62.263 4629.18
+  angleX -0.723
+  angleY -53.815
+  angleZ -0.529
+  m_sAttachmentGroupName "BLU_11"
+ }
+ Stryker_CROWS_Cage_MERDC5 {
+  coords 7051.155 62.17 4581.862
+  angleX 0.735
+  angleY -55.217
+  angleZ 0.511
+  m_sAttachmentGroupName "BLU_16"
+ }
+ Stryker_CROWS_Cage_MERDC4 {
+  coords 7034.984 62.37 4593.661
+  angleX 0.735
+  angleY -55.217
+  angleZ 0.511
+  m_sAttachmentGroupName "BLU_14"
+ }
+}
+$grp Tank : "{12C35C0A24EDA6D0}Prefabs/Vehicles/Tracked/BFV/M2A3_BUSK_MERDC.et" {
+ M2A3_BUSK_MERDC4 {
+  coords 7121.318 64.405 4529.363
+  angleY -53.43
+  m_sAttachmentGroupName "BLU_5"
+ }
+ M2A3_BUSK_MERDC3 {
+  coords 7103.668 64.011 4542.922
+  angleY -54.43
+  m_sAttachmentGroupName "BLU_4"
+ }
+ M2A3_BUSK_MERDC2 {
+  coords 7085.335 63.608 4556.994
+  angleY -54.43
+  m_sAttachmentGroupName "BLU_3"
+ }
+ M2A3_BUSK_MERDC1 {
+  coords 7068.755 62.855 4569.345
+  angleY -54.43
+  m_sAttachmentGroupName "BLU_2"
+ }
+}
