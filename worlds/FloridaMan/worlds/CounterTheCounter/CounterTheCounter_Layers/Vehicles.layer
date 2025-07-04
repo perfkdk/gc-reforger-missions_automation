@@ -25,6 +25,13 @@ $grp Vehicle : "{094A1ECBEE1D9AD1}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/S
   angleX 0.735
   angleY -55.217
   angleZ 0.511
+  m_sAttachmentGroupName "BLU_16"
+ }
+ Stryker_CROWS_Cage_MERDC4 {
+  coords 7034.984 62.37 4593.661
+  angleX 0.735
+  angleY -55.217
+  angleZ 0.511
   m_sAttachmentGroupName "BLU_14"
  }
 }
