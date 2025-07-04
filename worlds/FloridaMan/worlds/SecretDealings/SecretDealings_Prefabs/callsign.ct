@@ -1,0 +1,4 @@
+PS_GroupCallsignAssigner {
+ m_iCompanyCallsign 4
+ m_iPlatoonCallsign 2
+}
