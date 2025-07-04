@@ -72,6 +72,7 @@ $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR
   }
   coords 5346.883 20.605 9926.19
   angleY 16.932
+  m_bEnableMoveOnFreeze 1
  }
  BTR70_USSR2 {
   components {
@@ -91,5 +92,6 @@ $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR
   }
   coords 5342.497 20.605 9911.783
   angleY 16.932
+  m_bEnableMoveOnFreeze 1
  }
 }
