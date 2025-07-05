@@ -1,0 +1,91 @@
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ truck_supplies_1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    Attributes SCR_ItemAttributeCollection "{5916C580F04BA310}" {
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Cargo {
+      Prefab "{29401B74A18C3540}worlds/HotMic/Prefabs/M923A1_cargo_canvas_HotMic_300.et"
+     }
+    }
+   }
+  }
+  coords 4809.148 168.448 6911.996
+  angleX 0.027
+  angleY -28.85
+  angleZ 0.393
+ }
+ truck_supplies_2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    Attributes SCR_ItemAttributeCollection "{5916C580F04BA310}" {
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Cargo {
+      Prefab "{29401B74A18C3540}worlds/HotMic/Prefabs/M923A1_cargo_canvas_HotMic_300.et"
+     }
+    }
+   }
+  }
+  coords 4731.436 161.257 7120.854
+  angleY 65.745
+ }
+ truck_supplies_3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    Attributes SCR_ItemAttributeCollection "{5916C580F04BA310}" {
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Cargo {
+      Prefab "{453FEB0F24283DC6}worlds/HotMic/Prefabs/M923A1_cargo_canvas_HotMic_900.et"
+     }
+    }
+   }
+  }
+  coords 4738.932 162.888 6999.103
+  angleX -3.685
+  angleY -102.772
+  angleZ -0.081
+ }
+ truck_supplies_4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    Attributes SCR_ItemAttributeCollection "{5916C580F04BA310}" {
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Cargo {
+      Prefab "{228786A9CC79BD66}worlds/HotMic/Prefabs/M923A1_cargo_canvas_HotMic_600.et"
+     }
+    }
+   }
+  }
+  coords 4555.89 156.252 6891.446
+  angleY -88.456
+ }
+ truck_supplies_5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    Attributes SCR_ItemAttributeCollection "{5916C580F04BA310}" {
+    }
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Cargo {
+      Prefab "{228786A9CC79BD66}worlds/HotMic/Prefabs/M923A1_cargo_canvas_HotMic_600.et"
+     }
+    }
+   }
+  }
+  coords 5166.056 174.198 7110.574
+  angleY -161.412
+ }
+}
