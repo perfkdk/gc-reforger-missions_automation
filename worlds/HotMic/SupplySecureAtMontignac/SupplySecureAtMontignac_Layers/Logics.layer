@@ -1,5 +1,16 @@
+TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
+ coords 4770.761 166.204 7042.411
+ m_queryRadius 650
+ m_comparisonMode EQUAL_OR_LESS
+ m_captureTime 30
+ m_flagName "trucks_left_ao"
+ m_stopAfterFirstChange 1
+ m_entityNames {
+  "truck_supplies_1" "truck_supplies_2" "truck_supplies_3" "truck_supplies_4" "truck_supplies_5"
+ }
+ m_ratioThreshold 0
+}
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
- coords 5092.349 107.733 6570.749
  m_missionEvents {
   TILW_MissionEvent "{65C749517D83AB0A}" {
    m_name "BLUFOR Casualty Limit"
@@ -36,9 +47,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{65C7495094574259}" {
    m_name "Game End Event"
    m_instructions {
-    TILW_SetFlagInstruction "{65C74950E4A08302}" {
+    TILW_SendMessageInstruction "{65CA00658ED5EDD9}" {
      m_executionDelay 2700
-     m_flagName "TimeLimit"
+     m_messageTitle "TIME LIMIT REACHED"
+     m_messageBody "The time limit has been reached, the faction with the most supplies wins."
     }
    }
    m_condition TILW_LiteralTerm "{65C74950D462D266}" {
@@ -55,6 +67,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
    m_condition TILW_LiteralTerm "{65C7495DF9EBF130}" {
+    m_flagName "trucks_left_ao"
    }
   }
  }

@@ -1,5 +1,5 @@
 $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
- M923A1_transport_covered1 {
+ truck_supplies_1 {
   components {
    SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
     Attributes SCR_ItemAttributeCollection "{5916C580F04BA310}" {
@@ -18,7 +18,7 @@ $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   angleY -28.85
   angleZ 0.393
  }
- M923A1_transport_covered2 {
+ truck_supplies_2 {
   components {
    SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
     Attributes SCR_ItemAttributeCollection "{5916C580F04BA310}" {
@@ -35,7 +35,7 @@ $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   coords 4731.436 161.257 7120.854
   angleY 65.745
  }
- M923A1_transport_covered3 {
+ truck_supplies_3 {
   components {
    SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
     Attributes SCR_ItemAttributeCollection "{5916C580F04BA310}" {
@@ -54,7 +54,7 @@ $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   angleY -102.772
   angleZ -0.081
  }
- M923A1_transport_covered4 {
+ truck_supplies_4 {
   components {
    SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
     Attributes SCR_ItemAttributeCollection "{5916C580F04BA310}" {
@@ -71,7 +71,7 @@ $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   coords 4555.89 156.252 6891.446
   angleY -88.456
  }
- M923A1_transport_covered5 {
+ truck_supplies_5 {
   components {
    SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
     Attributes SCR_ItemAttributeCollection "{5916C580F04BA310}" {

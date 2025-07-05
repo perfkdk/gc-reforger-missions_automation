@@ -33,14 +33,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5021.496 157 6889.383
   m_sTitle "Game Mastering"
-  m_sTextData "Automations on casuality limits for player factions."\
-  ""\
-  "GM Manual Intervention is needed to determine the victor:"\
-  "- Each side has a Supply Depot. Only Supplies inside the depot is counted."\
-  "- Any truck that can't be moved on its own is no longer a valid truck."\
-  "- Once all valid trucks left the town, GM must send a global message that all trucks left the AO, count the supplies in the Supply Depot, and annouce the Victors."\
-  ""\
-  ""
+  m_sTextData "GM intervention is needed to determine the victor:"\
+  "- Each side has a supply depot. Only supplies inside the depot are counted."\
+  "- There will be an automated message once all trucks have been delivered."\
+  "- Once all trucks are at their destination, GMs should compare supplies and announce the winner."\
+  "- If any truck is immobilized, it should be ignored."
   m_aVisibleForFactions {
   }
   m_bEmptyFactionVisibility 1
@@ -140,12 +137,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5578.183 104.306 6410.665
   m_sTitle "I. Situation"
-  m_sTextData "Soviet Armed Forces Command:"\
+  m_sTextData "Russian Armed Forces Command:"\
   "Directive: Operation Bastion Freight"\
   ""\
   "Strategic materials have been detected in the central sector of a former resistance-aligned town. The containers, labeled FOOD (Forces-Oriented Operational Distribution), are essential to sustaining long-term efforts in the region and must be reclaimed."\
   ""\
-  "These assets will be reallocated for the betterment of the people under Soviet protection. The West seeks to destabilize us, your mission ensures our strength and unity endure. Act decisively. "\
+  "These assets will be reallocated for the betterment of the people under Russian protection. The West seeks to destabilize us, your mission ensures our strength and unity endure. Act decisively. "\
   ""\
   "Serve with honor."
   m_aVisibleForFactions {
@@ -155,7 +152,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5545.372 104.306 6376.403
   m_sTitle "II. Friendly Forces"
-  m_sTextData "Platoon-strength ASAF."
+  m_sTextData "Platoon-strength Russians."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
