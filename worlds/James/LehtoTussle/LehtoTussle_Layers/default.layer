@@ -4,9 +4,17 @@ SCR_AIWorld : "{A47BA159988C732F}Prefabs/AI/SCR_AIWorld_Ruha.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 7119.408 63.938 5095.001
 }
-PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{65CA0B9D666C0EE8}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingHour 4
+     m_iStartingMinutes 30
+    }
+   }
    m_bUseSpecifiedDate 1
   }
  }
@@ -29,6 +37,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        }
        SCR_CallsignInfo "{64E2F896E232A50B}" {
         m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{64E2F896FFC45153}" {
+        m_sCallsign "3"
        }
       }
      }
@@ -173,6 +184,7 @@ TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_Facti
  coords 6730.156 68.917 3657.377
  m_queryRadius 125
  m_flagName "OBJ_CAP"
+ m_ownerFactionKey "UK"
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 6698.36 64.917 3899.486
