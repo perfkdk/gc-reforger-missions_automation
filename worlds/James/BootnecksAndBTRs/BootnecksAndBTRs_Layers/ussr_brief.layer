@@ -62,6 +62,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "	46MHz."\
   "	1st BTR - 221"\
   "	2nd BTR - 222"\
+  "	(BTRs, the PL, and Deputy have radios. BTR radios are a stand-in for vehicle rack radios and thus no radios should leave the BTRs)"\
   ""\
   "5. Loc of CO."\
   "	Coy HQ location is with rest of coy near Tyrone, coordinating main defence."\
