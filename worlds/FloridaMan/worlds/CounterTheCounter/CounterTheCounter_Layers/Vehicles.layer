@@ -39,23 +39,27 @@ $grp Tank : "{A2FDCCF036B73602}Prefabs/Vehicles/Tracked/BFV/M2A3_MERDC.et" {
  M2A3_MERDC1 {
   coords 7071.947 63.031 4566.928
   angleY -54.557
+  m_sAttachmentGroupName "BLU_2"
  }
  M2A3_MERDC2 {
   coords 7087.07 63.652 4555.278
   angleX -1.248
   angleY -54.562
   angleZ 0.21
+  m_sAttachmentGroupName "BLU_3"
  }
  M2A3_MERDC3 {
   coords 7102.009 63.978 4543.408
   angleX -1.248
   angleY -54.562
   angleZ 0.21
+  m_sAttachmentGroupName "BLU_4"
  }
  M2A3_MERDC4 {
   coords 7122.473 64.45 4527.172
   angleX -1.248
   angleY -54.562
   angleZ 0.21
+  m_sAttachmentGroupName "BLU_5"
  }
 }
