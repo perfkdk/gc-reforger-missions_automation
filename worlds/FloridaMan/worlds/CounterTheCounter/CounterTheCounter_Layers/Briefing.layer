@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7043.089 62.915 4440.819
   m_sTitle "Overview"
-  m_sTextData "U.S. Army Motorized Platoon (Strykers) supported by a M2A3 (Tusk) Bradley platoon counter-attack a russian position to prevent a train bridge from being destroyed."\
+  m_sTextData "U.S. Army Motorized Platoon (Strykers) supported by a M2A3 Bradley platoon counter-attack a russian position to prevent a train bridge from being destroyed."\
   ""\
   "<b>HIGHLY RECOMMEND SLOTTING AT LEAST TWO BRADLEYS</b>"\
   "<b>End Conditions</b>"\
@@ -17,6 +17,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "1. Situation"
   m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
   m_sTextData "<h2>Situation</h2>"\
+  "<b>Time:</b> 0700 local time, sunrise"\
+  "<b>Weather:</b>Light rain to clear in next 45 minutes into fog."\
   "Over the past two days, NATO forces have pushed Russian forces back to the other side of a major railroad. Last night, the Russians have counter-attacked using mechanized forces and have entrenched near the railway bridge designated <b>Objective Thomas</b>. This bridge is a critical junction along the MSR Vulture, supporting rear-echelon logistics across the AO. SIGINT and HUMINT confirm that a reduced Russian Motor Rifle Company, with support from one platoon of T-72 main battle tanks, is holding the area with intent to demolish the bridge if compromised."\
   "US forces are launching a rapid counterattack to prevent bridge destruction and re-establish MSR integrity. Enemy engineers are currently assessing demolition points. Time is limited."\
   "<h2>Enemy Forces</h2>"\
@@ -95,9 +97,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<b>Commander:</b> Blazer Blue 6 Actual"\
   "<b>Succession of Command</b> Blazer Blue 6 > Blazer Blue 1 > Blazer Blue 2 > Blazer Blue 3 > Blazer Blue 4 > Chaos Green 1"\
   "<h2>Signal</h2>"\
-  "<b>Blazer Blue Platoon:</b> 42.0Mhz"\
-  "<b>Chaos Green Platoon:</b> 42.5Mhz"\
-  "<b>Combined Net:</b> 43Mhz"\
+  "<b>Blazer Blue Platoon:</b> 48.0Mhz"\
+  "<b>Chaos Green Platoon:</b> 48.5Mhz"\
+  "<b>Combined Net:</b> 49.0Mhz"\
   ""
   m_aVisibleForFactions {
    "RHS_USAF"

@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{B0B6DAFB68F3E355}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_MG_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterFactionAffiliationComponent "{6062F6587469882D}" {
+   "faction affiliation" "GC_INSURGENT"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4BE4931DF7B1ABCD}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_Eot.et"
+  }
+ }
+ coords 3473.379 82.781 7136.192
+}
