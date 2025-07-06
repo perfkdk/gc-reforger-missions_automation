@@ -71,7 +71,7 @@ $grp PolylineShapeEntity {
     m_flagName "SPAWN_GROUP_B1"
     m_stopAfterFirstChange 1
     m_ownerFactionKey "RHS_AFRF"
-    m_ratioThreshold 0.2
+    m_ratioThreshold 0.4
    }
   }
  }
@@ -123,7 +123,7 @@ $grp PolylineShapeEntity {
     m_flagName "SPAWN_GROUP_C"
     m_stopAfterFirstChange 1
     m_ownerFactionKey "RHS_AFRF"
-    m_ratioThreshold 0.2
+    m_ratioThreshold 0.4
    }
   }
  }
@@ -163,7 +163,7 @@ $grp PolylineShapeEntity {
     m_flagName "SPAWN_GROUP_B2"
     m_stopAfterFirstChange 1
     m_ownerFactionKey "RHS_AFRF"
-    m_ratioThreshold 0.2
+    m_ratioThreshold 0.4
    }
   }
  }
@@ -272,6 +272,9 @@ $grp PolylineShapeEntity {
 $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
  {
   components {
+   TILW_AOLimitComponent "{65CCD0109441EF49}" {
+    m_visibility NONE
+   }
    TILW_MapShapeComponent "{6508F5526836BC09}" {
     m_invert 1
     m_drawLine 1
@@ -283,43 +286,52 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
     Position 138.688 2.617 -284.844
    }
    ShapePoint "{65C703C1162600FF}" {
-    Position -4.782 0 -312.4
+    Position 24.193 -1.621 -333.526
    }
    ShapePoint "{65C703C117ED23C0}" {
-    Position -341.179 -3.602 -149.771
+    Position -339.675 -2.635 -162.796
    }
    ShapePoint "{65C703C108337CDB}" {
-    Position -468.737 -5.794 -154.029
+    Position -474.795 -3.79 -167.292
    }
    ShapePoint "{65C703C109520BB4}" {
     Position -834.294 -4.458 42.869
    }
    ShapePoint "{65C703C10C55982F}" {
-    Position -1184.136 -9.456 305.7
+    Position -1197.142 -6.442 260.528
    }
    ShapePoint "{65C703C10CCABAD5}" {
-    Position -1219.931 -12.719 407.39
+    Position -1266.11 -12.227 368.928
+   }
+   ShapePoint "{65CCD010A1ABC103}" {
+    Position -1224.552 -11.769 410.01
+   }
+   ShapePoint "{65CCD010A2CA8256}" {
+    Position -1194.799 -11.644 436.131
    }
    ShapePoint "{65C703C10D41F224}" {
     Position -1179.814 -11.806 462.059
    }
    ShapePoint "{65C703C10DE5CED3}" {
-    Position -1171.262 -12.837 512.43
+    Position -1178.798 -10.826 506.084
+   }
+   ShapePoint "{65CCD010AB6469BF}" {
+    Position -1190.261 -10.548 560.917
    }
    ShapePoint "{65C703C10E7CBC1F}" {
-    Position -1182.47 -11.147 582.299
+    Position -1177.084 -11.138 603.752
    }
    ShapePoint "{65C703C10ED63D20}" {
-    Position -1136.01 -12.07 616.767
+    Position -1138.726 -10.784 624.281
    }
    ShapePoint "{65C703C10F7CEC9E}" {
-    Position -1105.646 -10.166 684.308
+    Position -1094.725 -11.524 677.73
    }
    ShapePoint "{65C703C10F108596}" {
-    Position -1079.997 -10.705 757.772
+    Position -1074.108 -11.867 766.013
    }
    ShapePoint "{65C703C10F921CD6}" {
-    Position -1062.065 -12.987 847.426
+    Position -1068.457 -11.398 856.125
    }
    ShapePoint "{65C703C103592CA9}" {
     Position -1046.626 -12.419 926.233
@@ -331,28 +343,28 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
     Position -1084.391 -13.164 1015.742
    }
    ShapePoint "{65C703C10542DFC6}" {
-    Position -1004.118 -10.755 1056.875
+    Position -1060.2 -10.261 1111.297
    }
    ShapePoint "{65C703C105971BD6}" {
-    Position -921.665 -6.596 1131.076
+    Position -940.817 -5.702 1202.443
    }
    ShapePoint "{65C703C107478289}" {
-    Position -800.832 -5.295 1171.596
+    Position -818.699 -4.708 1210.765
    }
    ShapePoint "{65C703C107DF7EA3}" {
-    Position -694.228 -4.535 1084.877
+    Position -671.747 -4.244 1115.969
    }
    ShapePoint "{65C703C0F851A434}" {
-    Position -639.488 -4.126 1045.41
+    Position -636.142 -3.918 1060.215
    }
    ShapePoint "{65C703C0F8A5B226}" {
-    Position -555.614 -6.965 964.733
+    Position -535.336 -12.088 973.566
    }
    ShapePoint "{65C703C0FA0CD661}" {
-    Position -521.849 -8.571 820.24
+    Position -535.47 -10.627 852.295
    }
    ShapePoint "{65C703C0FA9F0B9E}" {
-    Position -513.908 -4.972 723.536
+    Position -498.395 -8.055 770.068
    }
    ShapePoint "{65C703C0FC7525BB}" {
     Position -203.284 -1.662 508.926
@@ -361,10 +373,10 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
     Position -3.249 -0.122 334.379
    }
    ShapePoint "{65C703C0FE4B8CFE}" {
-    Position -87.929 -1.733 119.452
+    Position -83.979 -3.715 123.569
    }
    ShapePoint "{65C703C0F0C2B739}" {
-    Position 134.091 2.05 -56.049
+    Position 158.693 0.772 -56.875
    }
   }
  }
