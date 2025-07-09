@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7860D11E15FA185E}worlds/FloridaMan/worlds/SecretDealings/Prefabs_MS/RHS_RF_SSO_SL_P_INSURGENT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
