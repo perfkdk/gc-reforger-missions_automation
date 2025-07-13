@@ -24,11 +24,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Order"
   m_sTextData "Your platoon to defend Lehto against expected British attack."\
   "Your boundary is marked by the red box."\
-  "The deputy PL is to lead the armoured group, while the PL leads the dismounted forces."\
   ""\
   "Signals:"\
   "42MHz"\
-  "(BTRs and the PL have radios, the deputy may borrow a radio from a BTR crewman while leading the mounted force. Otherwise no radios are to leave the BTRs)"
+  "(BTRs and the PLs have radios. The BTR crew radios are acting as vehicle rack radios. No radios are to leave the BTRs)"
   m_aVisibleForFactions {
    "USSR"
   }

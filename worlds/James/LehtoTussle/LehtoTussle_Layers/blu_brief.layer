@@ -12,7 +12,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Friendly:"\
   "Higher intent - advance down highway."\
   "No friendly adjacent units."\
-  "Mortar and MG sections attached."
+  "Mortar section (3x tubes) and MG section attached."
   m_aVisibleForFactions {
    "UK"
   }
@@ -43,7 +43,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Service Support"
   m_sTextData "No POW plan, no higher CASEVAC capability."\
   ""\
-  "1x 84mm MAWs with 2x HEAT rounds (split between 2 packs) located on the table in front of the platoon. No additional resupply."
+  "1x 84mm MAWs with 4x HEAT rounds (split between 2 packs) located on the table in front of the platoon HQ. No additional resupply."
   m_aVisibleForFactions {
    "UK"
   }
