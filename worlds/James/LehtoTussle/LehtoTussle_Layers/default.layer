@@ -245,6 +245,22 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "OBJ_CAP"
    }
   }
+  TILW_MissionEvent "{65D9513A8E1C0871}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_EndGameInstruction "{65D9513A9D80E4ED}" {
+     m_executionDelay 3900
+    }
+    TILW_SendMessageInstruction "{65D9513AC2F4273B}" {
+     m_executionDelay 3000
+     m_messageTitle "Time Limit Approaching"
+     m_messageBody "You have 15 minutes left."
+    }
+   }
+   m_condition TILW_LiteralTerm "{65D9513AE28EB988}" {
+    m_invertTerm 1
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{65C835436F294D60}" {
@@ -279,6 +295,9 @@ PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
    Position 716.929 -1.359 1831.403
   }
  }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 7123.995 63.867 5093.46
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
