@@ -33,28 +33,36 @@ SCR_ChimeraCharacter : "{F56BC64B3EE41F3F}worlds/arc/CommandosReforged/Prefabs/B
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{EC0E9011A76BD495}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_black1.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{922F62F22B253571}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_M81.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{541A06BBBA3C8569}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_rifleman.et"
+     Prefab "{652A691C3404B99C}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_tako3.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6063106CCCB65707}" {
-     TargetStorage "Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_M81.et"
     }
     ItemsInitConfigurationItem "{6063106CCCB65709}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Parka_Night/Night_parka_black1.et"
     }
     ItemsInitConfigurationItem "{6476AAAB5936E6C5}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_OpenTop_M27_1_pouch.et"
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/Pouch1/Pouch_PCGEN3_takoPouch.et"
      PrefabsToSpawn {
-      "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et" "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et" "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et"
+      "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et" "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DCEA555B2D0885}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/pouch2/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et" "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DCEA5553C9F38B}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/pouch3/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et" "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et"
      }
     }
     ItemsInitConfigurationItem "{6476AAAB20F20BC8}" {
