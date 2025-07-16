@@ -22,6 +22,12 @@ SCR_ChimeraCharacter : "{F56BC64B3EE41F3F}worlds/arc/CommandosReforged/Prefabs/B
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_TeamLeader"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_sFaction "US"
+   }
+  }
+  SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
+   m_ExtendedIdentity SCR_ExtendedCharacterIdentity "{5AEEA3C8BF06C593}" {
+    m_sFactionOfOriginKey "US"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

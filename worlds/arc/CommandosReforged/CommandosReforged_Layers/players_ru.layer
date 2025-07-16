@@ -40,7 +40,7 @@ $grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   coords 1394.016 36.754 2667.723
   angleY -12.499
   m_aUnitPrefabSlots {
-   "{1FFDA82C5CC0BAFF}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_BASECOMMANDER.et" "{9FC55C3B39994A93}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Pilot_P.et"
+   "{1FFDA82C5CC0BAFF}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_BASECOMMANDER.et" "{9FC55C3B39994A93}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_Pilot_P.et" "{CDB8EF4A6115A227}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_DOG.et"
   }
  }
 }

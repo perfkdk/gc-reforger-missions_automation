@@ -458,6 +458,11 @@ $grp GenericEntity {
    }
   }
  }
+ {
+  coords 1065.643 0 3320.104
+  angleY 147.875
+  scale 0.6
+ }
 }
 PK_EntityDeleter Radar_OBJ {
  coords 1428.263 42.111 2094.145
@@ -490,6 +495,24 @@ PK_EntityDeleter Radar_OBJ {
    }
   }
  }
+}
+Vehicle Blackhawk_OBJ {
+ components {
+  GC_CommandosObjRegister "{65B65CC97738F9B9}" {
+   m_objectiveName "Black Hawk"
+   m_setMainObjective 1
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 1387.139 39.019 2248.839
+ angleY -65.325
 }
 $grp GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.et" {
  Flight_Manifest_OBJ {
@@ -1458,11 +1481,6 @@ GenericEntity Il_76_OBJ : "{522DEDD6E6C0E6C4}Prefabs/Vehicles/Airplanes/IL76/Pla
   }
  }
 }
-GenericEntity : "{81FCDA335CAD8B63}Prefabs/Vehicles/Naval/Moskva/Cruiser_Moskva.et" {
- coords 1065.643 0 3320.104
- angleY 147.875
- scale 0.6
-}
 Vehicle Mi24V_OBJ : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S8.et" {
  components {
   GC_CommandosObjRegister "{65B65CD146588A7D}" {
@@ -1482,6 +1500,13 @@ Vehicle Mi24V_OBJ : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_a
     SCR_FuelNode "{628933A358A15683}" {
      MaxFuel 0
      m_fInitialFuelTankState 0
+    }
+   }
+  }
+  SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     "Explosive multiplier" 100
     }
    }
   }
@@ -1511,6 +1536,16 @@ Vehicle Mi24V_OBJ : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_a
        }
       }
      }
+     SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+      "Additional hit zones" {
+       SCR_FlammableHitZone Hull {
+        "Explosive multiplier" 100
+       }
+       SCR_FuelHitZone FuelTank_01 {
+        "Explosive multiplier" 100
+       }
+      }
+     }
     }
     coords -63.829 0.011 -0.26
    }
@@ -1535,6 +1570,16 @@ Vehicle Mi24V_OBJ : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_a
        }
       }
      }
+     SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+      "Additional hit zones" {
+       SCR_FlammableHitZone Hull {
+        "Explosive multiplier" 100
+       }
+       SCR_FuelHitZone FuelTank_01 {
+        "Explosive multiplier" 100
+       }
+      }
+     }
     }
     coords 68.042 0 0.98
    }
@@ -1556,6 +1601,16 @@ Vehicle Mi24V_OBJ : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_a
        SCR_FuelNode "{628933A358A15683}" {
         MaxFuel 0
         m_fInitialFuelTankState 0
+       }
+      }
+     }
+     SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+      "Additional hit zones" {
+       SCR_FlammableHitZone Hull {
+        "Explosive multiplier" 100
+       }
+       SCR_FuelHitZone FuelTank_01 {
+        "Explosive multiplier" 100
        }
       }
      }
@@ -1584,6 +1639,16 @@ Vehicle Mi24V_OBJ : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_a
        }
       }
      }
+     SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+      "Additional hit zones" {
+       SCR_FlammableHitZone Hull {
+        "Explosive multiplier" 100
+       }
+       SCR_FuelHitZone FuelTank_01 {
+        "Explosive multiplier" 100
+       }
+      }
+     }
     }
     coords 369.181 -1 -91.841
     angleY -160.949
@@ -1609,56 +1674,22 @@ Vehicle Mi24V_OBJ : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_a
        }
       }
      }
+     SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+      "Additional hit zones" {
+       SCR_FlammableHitZone Hull {
+        "Explosive multiplier" 100
+       }
+       SCR_FuelHitZone FuelTank_01 {
+        "Explosive multiplier" 100
+       }
+      }
+     }
     }
     coords 344.575 -1 -83.017
     angleY -160.949
    }
   }
  }
-}
-$grp StaticModelEntity : "{BF31B7BDF8A7F526}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/Dst/Ruins/ShopHouse_E_2I01t_V2_dst_01_dbr_04_ruins.et" {
- {
-  coords 1072.262 40.876 2953.434
-  angleX 3.233
-  angleY 22.103
-  angleZ -7.905
- }
- {
-  coords 1016.704 40.795 2908.498
-  angleX -6.863
-  angleY -53.307
-  angleZ -15.946
- }
- {
-  coords 1025.766 37.281 2911.049
-  angleX 3.136
-  angleY -50.764
-  angleZ 18.35
- }
- {
-  coords 1076.348 41.191 2950.992
-  angleX -6.863
-  angleY -53.307
-  angleZ -15.946
- }
-}
-Vehicle Blackhawk_OBJ : "{C5534EAA593596B6}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_61.et" {
- components {
-  GC_CommandosObjRegister "{65B65CC97738F9B9}" {
-   m_objectiveName "Black Hawk"
-   m_setMainObjective 1
-  }
-  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-   FuelNodes {
-    SCR_FuelNode "{5622A70CD4036C5A}" {
-     MaxFuel 0
-     m_fInitialFuelTankState 0
-    }
-   }
-  }
- }
- coords 1387.139 39.019 2248.839
- angleY -65.325
 }
 $grp SCR_AIGroup : "{CB03012D8F709807}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VSR/Group_RHS_RF_MSV_VSR_Base.et" {
  OBJ5 {

@@ -102,6 +102,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     }
    }
   }
+  PS_MissionDataManager "{5F2B46885537B66A}" {
+   Enabled 0
+  }
   SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
    Enabled 0
   }
@@ -117,6 +120,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    m_iSetYear 2005
   }
  }
+ PlayerControllerPrefab "{85F3B42282EF19BD}worlds/arc/CommandosReforged/Prefabs/Commandos_PlayerController.et"
  m_iFreezeTime 300000
  {
   SCR_FactionManager "64775BA06B584BC9" {

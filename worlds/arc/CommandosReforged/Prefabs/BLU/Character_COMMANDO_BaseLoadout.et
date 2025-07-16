@@ -1,6 +1,9 @@
-SCR_ChimeraCharacter : "{B889387E9A33D667}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{720A8AEF1DB6795F}worlds/arc/CommandosReforged/Prefabs/Commandos_Character_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  FactionAffiliationComponent "{65CF12B4996BF241}" {
+   "faction affiliation" "RHS_USAF"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
