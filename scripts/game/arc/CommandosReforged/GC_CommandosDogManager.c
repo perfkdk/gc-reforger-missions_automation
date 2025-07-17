@@ -10,7 +10,7 @@ class GC_CommandosDogManager : ScriptComponent
 	
 	protected ref array<GC_CommandosFootPrints> m_footPrints = {};
 	protected bool m_isDog = false;
-
+	
 	static GC_CommandosDogManager Instance()
 	{
 	 	PlayerController playerController = GetGame().GetPlayerController();
@@ -42,6 +42,7 @@ class GC_CommandosDogManager : ScriptComponent
 				component.SetActive();
 			}
 			world.SetCameraHDRBrightness(world.GetCurrentCameraId(), 5.0);
+			GetGame().GetInputManager().AddActionListener("VONDirect", EActionTrigger.DOWN, ActionBark);
 		}
 		else
 		{
@@ -50,6 +51,7 @@ class GC_CommandosDogManager : ScriptComponent
 				component.SetDeactive();
 			}
 			world.SetCameraHDRBrightness(world.GetCurrentCameraId(), -1);
+			GetGame().GetInputManager().RemoveActionListener("VONDirect", EActionTrigger.DOWN, ActionBark);
 		}
 		
 		m_isDog = state;
@@ -60,7 +62,7 @@ class GC_CommandosDogManager : ScriptComponent
 		if(RplSession.Mode() == RplMode.Dedicated)
 			return;
 		
-		SCR_PlayerController playerController = SCR_PlayerController.Cast(owner);
+		SCR_PlayerController playerController = SCR_PlayerController.Cast(GetOwner());
 		playerController.m_OnControlledEntityChanged.Insert(OnControlEntityChange);
 	}
 	
@@ -82,5 +84,29 @@ class GC_CommandosDogManager : ScriptComponent
 			return;
 		}
 		SetActive(true);
+	}
+	
+	void ActionBark()
+	{
+		PlayerController pc = PlayerController.Cast(GetOwner());
+		if(!pc)
+			return;
+		
+		IEntity player = pc.GetControlledEntity();
+		if(!pc)
+			player;
+		
+		RplComponent rpl = SCR_EntityHelper.GetEntityRplComponent(player);
+		if(!rpl)
+			return;
+		
+		Rpc(RPC_AskBark, Replication.FindItemId(player));
+	}
+	
+	[RplRpc(RplChannel.Unreliable, RplRcver.Server)]
+	protected void RPC_AskBark(RplId rplId)
+	{
+		GC_CommandosManager dm = GC_CommandosManager.GetInstance();
+		dm.DoBark(rplId);
 	}
 }

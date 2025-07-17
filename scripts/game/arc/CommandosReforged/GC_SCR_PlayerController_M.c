@@ -17,6 +17,6 @@ modded class SCR_PlayerController
 		GetGame().SpawnEntityPrefabLocal(Resource.Load(briefing));
 		GetGame().GetMenuManager().OpenMenu(ChimeraMenuPreset.BriefingMapMenu);
 		
-		GC_CommandosManager.GetInstance().m_traitorPlayerId = GetGame().GetPlayerController().GetPlayerId();
+		GC_CommandosManager.GetInstance().m_defectorPlayerId = GetGame().GetPlayerController().GetPlayerId();
 	}
 }

@@ -34,10 +34,11 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 2535.508 0 3806.281
 }
-PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   GC_CommandosManager "{659C5DFB11CD048A}" {
    m_minObjectiveCount 15
+   m_maxObjectiveCount 99
    m_objectives {
     GC_CommandosObj "{65BB1908ED43E40C}" {
      m_name "Power Station"
@@ -99,6 +100,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     }
     GC_CommandosDestroyed "{65BC2E01C4FC7F86}" {
      m_name "Ammo Dump"
+    }
+   }
+   m_weightedObjectives {
+    GC_CommandosShootHeli "{65E2F84511304D56}" {
+     m_blacklist {
+      "Dog" "Dog"
+     }
     }
    }
   }
@@ -725,7 +733,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 1402.236 44.761 2602.287
- m_fWarnRadius 575
- m_fZoneRadius 600
- m_fZoneTeleportedRadius 650
+ m_fWarnRadius 900
+ m_fZoneRadius 900
+ m_fZoneTeleportedRadius 900
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+   components {
+    SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+     m_fRadius 900
+    }
+   }
+   coords -147.896 0 -68.69
+  }
+ }
 }

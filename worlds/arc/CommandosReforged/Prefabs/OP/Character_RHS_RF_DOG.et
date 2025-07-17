@@ -1,11 +1,17 @@
 SCR_ChimeraCharacter : "{B692B5F052AA3EF1}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  CharacterSoundComponent "{520EA1D2F659CF84}" {
+   Filenames + {
+    "{8A390301136E2634}worlds/arc/CommandosReforged/Assets/DogBark.acp"
+   }
+  }
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
    components {
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab ""
       }
      }
     }
@@ -20,6 +26,11 @@ SCR_ChimeraCharacter : "{B692B5F052AA3EF1}Prefabs/Characters/Factions/CIV/Dockwo
    m_sName "Dog"
    m_bIsPlayable 1
   }
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   StaminaRegainPerS 0.1
+   StaminaDrainRun -0.001
+   StaminaDrainSprint -0.005
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Scientist"
@@ -27,13 +38,20 @@ SCR_ChimeraCharacter : "{B692B5F052AA3EF1}Prefabs/Characters/Factions/CIV/Dockwo
     m_sFaction "RHS_AFRF"
    }
   }
+  SCR_VoNComponent "{520EA1D2F659C856}" {
+   "Speaking Range" 0
+  }
   TILW_Flag_EntityDamage "{65DF2580DCFE6FAA}" {
    m_flagName "OBJ_6_KIA"
   }
-  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
-   WeaponTemplate "{B8259C4F0C12CB09}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/Weapons/Grenades/Smoke_RDG2_USSR.et"
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{7A0FB5C37F8437B2}worlds/arc/CommandosReforged/Prefabs/Dog_Knife.et"
+  }
+  RHS_ThermalSlotManagerComponent "{60D6F4C7C990A7BB}" {
+   Enabled 0
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Enabled 0
    Slots {
     LoadoutSlotInfo Hat {
     }
