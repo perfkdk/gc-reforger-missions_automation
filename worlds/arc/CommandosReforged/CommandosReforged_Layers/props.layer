@@ -333,6 +333,32 @@ $grp GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_
   angleZ 0.047
  }
 }
+$grp GenericEntity : "{1DA6A23314B7F770}PrefabsEditable/Auto/Props/Military/MilitaryCrates/ShellContainerstack_01/E_ShellContainerstack_01_pile_big.et" {
+ {
+  coords 1011.092 37.671 2825.675
+  angleY -123.47
+ }
+ {
+  coords 992.299 37.438 2847.128
+  angleY 112.854
+ }
+ {
+  coords 1018.274 37.438 2835.996
+  angleY 47.524
+ }
+ {
+  coords 1021.594 37.462 2832.23
+  angleY 39.341
+ }
+ {
+  coords 1010.696 37.406 2843.023
+  angleY -175.846
+ }
+ {
+  coords 1012.778 37.955 2819.673
+  angleY 71.765
+ }
+}
 $grp GenericEntity : "{22E2462FA3AE0849}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long_Pile.et" {
  {
   coords 1414.11 35.656 2354.58
@@ -488,10 +514,20 @@ $grp GenericEntity : "{526D39BE96FE8A08}Prefabs/Props/Industrial/CargoContainers
   angleY 55.414
   angleZ 0.508
  }
+ {
+  coords 1489.07 38 2905.937
+  angleX -0.188
+  angleY -13.931
+  angleZ 0.875
+ }
 }
 GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
  coords 3279.651 2 2881.022
  angleY -29.82
+}
+GenericEntity : "{77D49455528ED5E6}Prefabs/Props/Military/MilitaryCrates/ShellContainerstack_01/ShellContainerstack_01_pile_small.et" {
+ coords 1011.968 37.764 2822.385
+ angleY 81.689
 }
 $grp GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
  {
@@ -598,18 +634,6 @@ $grp GenericEntity : "{84D9030883610D2F}Prefabs/Props/Military/CargoContainers/C
  }
  {
   coords 1472.161 37.991 2917.762
-  angleX -0.718
-  angleY 164.925
-  angleZ -0.24
- }
- {
-  coords 1488.736 38.002 2907.137
-  angleX -0.718
-  angleY 164.937
-  angleZ -0.24
- }
- {
-  coords 1489.593 37.962 2904.059
   angleX -0.718
   angleY 164.925
   angleZ -0.24
@@ -1566,6 +1590,66 @@ $grp GenericEntity : "{93B2511EFB2B6A51}Prefabs/Props/Military/MilitaryCrates/Cr
   coords 1029.902 38.196 2941.015
   angleY -17.983
  }
+ {
+  coords 989.043 37.421 2860.923
+  angleY -33.694
+ }
+ {
+  coords 988.036 37.421 2860.269
+  angleY -33.694
+ }
+ {
+  coords 985.774 37.39 2863.522
+  angleY -33.694
+ }
+ {
+  coords 986.342 37.407 2862.718
+  angleY -33.694
+ }
+ {
+  coords 986.782 37.39 2864.175
+  angleY -33.694
+ }
+ {
+  coords 987.351 37.407 2863.369
+  angleY -33.694
+ }
+ {
+  coords 986.908 37.421 2861.907
+  angleY -33.694
+ }
+ {
+  coords 987.476 37.421 2861.093
+  angleY -33.694
+ }
+ {
+  coords 986.446 37.421 2860.35
+  angleY -33.694
+ }
+ {
+  coords 984.743 37.39 2862.78
+  angleY -33.694
+ }
+ {
+  coords 985.877 37.421 2861.164
+  angleY -33.694
+ }
+ {
+  coords 985.314 37.407 2861.976
+  angleY -33.694
+ }
+ {
+  coords 987.005 37.421 2859.527
+  angleY -33.694
+ }
+ {
+  coords 987.915 37.421 2862.56
+  angleY -33.694
+ }
+ {
+  coords 988.484 37.421 2861.745
+  angleY -33.694
+ }
 }
 $grp GenericEntity : "{962C400354E4BD6C}Prefabs/Weapons/Launchers/9K38_IGLA/Launcher_9K38_IGLA.et" {
  {
@@ -1929,6 +2013,10 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
  }
  {
   components {
+   GC_CommandosObjRegister "{65E31C540D9D3E84}" {
+    m_objectiveName "Mi-8"
+    m_registerMarker 1
+   }
    Hierarchy "{54A6A39C75EAFE2C}" {
     Enabled 1
    }
@@ -1937,6 +2025,42 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
   angleX -0.85
   angleY -87.15
   angleZ -0.938
+ }
+ {
+  components {
+   Hierarchy "{54ECB100570DD17D}" {
+    Enabled 1
+   }
+  }
+  coords 1480.122 38.807 2957.55
+  angleY -13.729
+ }
+ {
+  components {
+   Hierarchy "{54ECB100570C42EC}" {
+    Enabled 1
+   }
+  }
+  coords 1480.122 38 2957.55
+  angleY -14.631
+ }
+ {
+  components {
+   Hierarchy "{54ECB100570C42EC}" {
+    Enabled 1
+   }
+  }
+  coords 1447.599 37.992 2962.555
+  angleY -7.649
+ }
+ {
+  components {
+   Hierarchy "{54ECB100570DD17D}" {
+    Enabled 1
+   }
+  }
+  coords 1447.599 38.799 2962.555
+  angleY -6.747
  }
 }
 $grp GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {

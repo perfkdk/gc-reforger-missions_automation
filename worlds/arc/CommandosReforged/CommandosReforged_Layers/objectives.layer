@@ -495,24 +495,6 @@ PK_EntityDeleter Radar_OBJ {
   }
  }
 }
-Vehicle Blackhawk_OBJ {
- components {
-  GC_CommandosObjRegister "{65B65CC97738F9B9}" {
-   m_objectiveName "Black Hawk"
-   m_registerMarker 1
-  }
-  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-   FuelNodes {
-    SCR_FuelNode "{5622A70CD4036C5A}" {
-     MaxFuel 0
-     m_fInitialFuelTankState 0
-    }
-   }
-  }
- }
- coords 1387.139 39.019 2248.839
- angleY -65.325
-}
 $grp GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.et" {
  Flight_Manifest_OBJ {
   coords 1366.357 47.895 2961.921
@@ -573,6 +555,229 @@ TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_Ex
  m_flagName "US_EXTRACTED_N"
  m_factionKey "RHS_USAF"
  m_ratioThreshold 0.9
+}
+GenericEntity : "{19C337D98667D3E6}worlds/arc/CommandosReforged/Prefabs/Ship.et" {
+ components {
+  GC_CommandosObjRegister "{65E457576C2C33DB}" {
+   m_objectiveName "Ship"
+  }
+ }
+ coords 1008.476 0 3319.993
+ angleY 89.27
+ {
+  $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -83.495 0 -6.304
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -84.161 0 -2.546
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -84.263 0 0.798
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -84.114 0 4.261
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -78.745 0 -8.932
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -72.666 0 -9.84
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -62.109 0 -10.266
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -52.555 0 -11.172
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -83.056 0 7.443
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -72.521 0 9.972
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -65.677 0 10.445
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -79.117 0 9.067
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -67.131 0 -9.225
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -58.723 0 9.538
+    angleY -89.27
+    scale 1.667
+   }
+   {
+    components {
+     ActionsManagerComponent "{65B68C203251DD48}" {
+      additionalActions {
+       GC_CommandosInteraction "{65B68C203251DD71}" {
+        m_objectiveName "Ship"
+       }
+      }
+     }
+    }
+    coords -81.778 -0.073 -7.037
+    angleY -89.27
+    scale 1.667
+   }
+  }
+ }
 }
 $grp GenericEntity : "{36D684634B3A7EF0}Prefabs/Vehicles/Airplanes/SU57/su57_mesh.et" {
  {
@@ -1359,6 +1564,314 @@ $grp GenericEntity : "{36D684634B3A7EF0}Prefabs/Vehicles/Airplanes/SU57/su57_mes
    }
   }
  }
+ {
+  components {
+   RHS_CASSoundComponent "{62D73C5821E908A2}" {
+    Enabled 0
+   }
+   SlotManagerComponent "{62D73C57F4117E6A}" {
+    Enabled 0
+   }
+  }
+  coords 1072.456 40.777 2955.935
+  angleY -100.712
+  {
+   $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 10.707 0.096 0.066
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 4.998 -0.126 4.112
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords -5.088 -0.124 0.837
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords -8.711 -0.145 -0.025
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 3.409 -0.216 -3.804
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 9.589 -0.348 -1.327
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 9.568 -0.322 1.516
+     angleY 32.321
+    }
+   }
+   $grp GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
+    {
+     coords 4.736 -0.882 2.386
+     angleY 90
+     scale 1.5
+    }
+    {
+     coords -5.494 -1.129 0.056
+     angleY 90
+    }
+    {
+     coords 4.736 -0.886 -2.435
+     angleY -90
+     scale 1.5
+    }
+   }
+   $grp SCR_DestructibleEntity : "{DC2033EE8273781C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_grey.et" {
+    {
+     coords 4.724 -0.154 -2.244
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords 4.756 -0.168 2.22
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords -5.505 -0.226 0.22
+     angleY 90
+     scale 0.5
+    }
+   }
+  }
+ }
+ {
+  components {
+   RHS_CASSoundComponent "{62D73C5821E908A2}" {
+    Enabled 0
+   }
+   SlotManagerComponent "{62D73C57F4117E6A}" {
+    Enabled 0
+   }
+  }
+  coords 1017.451 39.731 2909.206
+  angleY 163.483
+  {
+   $grp GenericEntity : "{20A50E5B3DF24B6C}worlds/arc/CommandosReforged/Prefabs/Objective_Interact.et" {
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 10.707 0.096 0.066
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 4.998 -0.126 4.112
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords -5.088 -0.124 0.837
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords -8.711 -0.145 -0.025
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 3.409 -0.216 -3.804
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 9.589 -0.348 -1.327
+     angleY 32.321
+    }
+    {
+     components {
+      ActionsManagerComponent "{65B68C203251DD48}" {
+       additionalActions {
+        GC_CommandosInteraction "{65B68C203251DD71}" {
+         UIInfo UIInfo "{65B68C203251DD70}" {
+         }
+         m_objectiveName "SU-57s"
+        }
+       }
+      }
+     }
+     coords 9.568 -0.322 1.516
+     angleY 32.321
+    }
+   }
+   $grp GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
+    {
+     coords 4.736 -0.882 2.386
+     angleY 90
+     scale 1.5
+    }
+    {
+     coords -5.494 -1.129 0.056
+     angleY 90
+    }
+    {
+     coords 4.736 -0.886 -2.435
+     angleY -90
+     scale 1.5
+    }
+   }
+   $grp SCR_DestructibleEntity : "{DC2033EE8273781C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_grey.et" {
+    {
+     coords 4.724 -0.154 -2.244
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords 4.756 -0.168 2.22
+     angleY 90
+     scale 0.5
+    }
+    {
+     coords -5.505 -0.226 0.22
+     angleY 90
+     scale 0.5
+    }
+   }
+  }
+ }
 }
 RHS_Tank Tank_OBJ : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
  components {
@@ -1464,6 +1977,92 @@ GenericEntity Il_76_OBJ : "{522DEDD6E6C0E6C4}Prefabs/Vehicles/Airplanes/IL76/Pla
    }
   }
  }
+}
+Vehicle AUS_MH60_DAP_Battlehawk1 : "{62E2D368AB3CEE04}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60_DAP_Battlehawk.et" {
+ components {
+  GC_CommandosObjRegister "{65E45BDD50E96404}" {
+   m_objectiveName "Black Hawk"
+   m_registerMarker 1
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5E9AE02488359898}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5E9AE0248D00D20B}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5E9AE0248101059B}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+  SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     "Explosive multiplier" 10
+    }
+    SCR_FuelHitZone FuelTank_01 {
+     "Explosive multiplier" 5
+    }
+    SCR_FuelHitZone FuelTank_02 {
+     "Explosive multiplier" 5
+    }
+    SCR_FuelHitZone FuelTank_03 {
+     "Explosive multiplier" 5
+    }
+    SCR_FuelHitZone FuelTank_04 {
+     "Explosive multiplier" 5
+    }
+    SCR_FuelHitZone FuelTank_05 {
+     "Explosive multiplier" 5
+    }
+   }
+  }
+ }
+ coords 1386.89 39 2247.512
+ angleY 149.339
+}
+GenericEntity : "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et" {
+ components {
+  GC_CommandosObjRegister "{65E45BDC40913C8A}" {
+   m_objectiveName "Intel"
+   m_registerMarker 1
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    SCR_PickUpItemAction "{51EC842E3A187379}" {
+     ParentContextList {
+      ""
+     }
+     VisibilityRange 0.001
+     "Sort Priority" 100
+    }
+    GC_CommandosInteraction "{65E45BDC6CFC2776}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{65E45BDC76ABC531}" {
+      Name "Steal Intel"
+     }
+     Duration 5
+     m_objectiveName "Intel"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+    }
+   }
+  }
+ }
+ coords 1374.887 41.687 2345.931
+ angleY 102.669
 }
 Vehicle Mi24V_OBJ : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S8.et" {
  components {
@@ -1673,28 +2272,6 @@ Vehicle Mi24V_OBJ : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_a
     coords 344.575 -1 -83.017
     angleY -160.949
    }
-  }
- }
-}
-$grp SCR_AIGroup : "{CB03012D8F709807}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VSR/Group_RHS_RF_MSV_VSR_Base.et" {
- OBJ5 {
-  coords 1369.954 41.108 2355.746
-  m_aUnitPrefabSlots {
-   "{1FFDA82C5CC0BAFF}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_MSV_VSR_BASECOMMANDER.et"
-  }
-  m_bSnapToTerrain 0
-  m_aStaticWaypoints {
-   "OBJ_5_WP"
-  }
- }
- OBJ6 {
-  coords 1251.379 37.469 2936.921
-  m_aUnitPrefabSlots {
-   "{3E3A4751F74A799D}worlds/arc/CommandosReforged/Prefabs/OP/Character_RHS_RF_SCIENTIST.et"
-  }
-  m_bSnapToTerrain 0
-  m_aStaticWaypoints {
-   "OBJ_6_WP"
   }
  }
 }

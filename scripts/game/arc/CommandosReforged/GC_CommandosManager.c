@@ -14,12 +14,8 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 	[Attribute(defvalue: "", UIWidgets.Object)]
 	protected ref array<ref GC_CommandosObj> m_objectives;
 
-	[Attribute(defvalue: "", UIWidgets.Object)]
-	protected ref array<ref GC_CommandosObjWeight> m_weightedObjectives;
-	
 	int m_defectorPlayerId;
-	bool m_isDefectorObjSelected = false;
-
+	
 	static GC_CommandosManager GetInstance()
 	{
 		return GC_CommandosManager.Cast(GetGame().GetGameMode().FindComponent(GC_CommandosManager));
@@ -56,8 +52,8 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 	
 	override void OnPlayerConnected(int playerId)
 	{
-		if(playerId == m_defectorPlayerId)
-			SetupTraitor(m_defectorPlayerId);
+		//if(playerId == m_defectorPlayerId)
+		//	SetupTraitor(m_defectorPlayerId);
 	}
 	
 	override protected void OnPostInit(IEntity owner)
@@ -77,6 +73,9 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 		foreach(GC_CommandosObj objective : m_objectives)
 		{
 			objective.Setup();
+			if(GC_CommandosObjWeight.Cast(objective))
+				continue;
+			
 			objectivePool.Insert(objective)
 		}
 		
@@ -85,6 +84,7 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 		{
 			ref GC_CommandosObj objective = objectivePool.GetRandomElement();
 			objectivePool.RemoveItem(objective);
+
 			if(!objective.IsPickable())
 				continue;
 			
@@ -92,33 +92,29 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 			objCount++;
 		}
 		
-		//Weighted Objectives
-		/*
-		array<ref GC_CommandosObj> objPoolWeighted = {};
-		foreach(GC_CommandosObj objective : m_weightedObjectives)
+		//Weighted objectives
+		objectivePool.Clear();
+		foreach(GC_CommandosObj objective : m_objectives)
 		{
-			objective.Setup();
-			objPoolWeighted.Insert(objective)
+			if(GC_CommandosObjWeight.Cast(objective))
+				objectivePool.Insert(objective);
 		}
 		
-		while(!objPoolWeighted.IsEmpty() && objCount <= m_maxObjectiveCount)
+		while(!objectivePool.IsEmpty() && objCount < m_maxObjectiveCount)
 		{
-			ref GC_CommandosObj objective = objPoolWeighted.GetRandomElement();
+			ref GC_CommandosObj objective = objectivePool.GetRandomElement();
 			objectivePool.RemoveItem(objective);
+			
 			if(!objective.IsPickable())
 				continue;
 			
 			objective.Activate();
 			objCount++;
 		}
-		*/
 	}
 	
 	override void OnGameStateChanged(SCR_EGameModeState state)
 	{
-		if(!Replication.IsServer())
-			return;
-		
 		switch(state)
 		{
 			case SCR_EGameModeState.BRIEFING:
@@ -139,70 +135,15 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 		{
 			objective.OnBriefing();
 		}
-		
-		//FindDefector();
-		/*
-		PlayerManager pm = GetGame().GetPlayerManager();
-		PS_PlayableManager playableManager = PS_PlayableManager.GetInstance();
-		
-		array<int> players = {};
-		pm.GetAllPlayers(players);
-		while(!players.IsEmpty())
-		{
-			int playerId = players.GetRandomElement();
-			players.RemoveItem(playerId);
-			
-			playableManager.GetPlayerFactionKey(playerId);
-			string faction = playableManager.GetPlayerFactionKey(playerId);
-			if(faction != "RHS_AFRF")
-				continue;
+	}
 
-			SetupTraitor(playerId);
-			break;
-		}
-		*/
-	}
-	
-	protected int FindDefector(array<string> blacklist)
-	{
-		Print("GRAY.FindDefector");
-		PlayerManager pm = GetGame().GetPlayerManager();
-		PS_PlayableManager playableManager = PS_PlayableManager.GetInstance();
-		
-		array<int> players = {};
-		pm.GetAllPlayers(players);
-		
-		while(!players.IsEmpty())
-		{
-			int playerId = players.GetRandomElement();
-			players.RemoveItem(playerId);
-			
-			playableManager.GetPlayerFactionKey(playerId);
-			string faction = playableManager.GetPlayerFactionKey(playerId);
-			if(faction != "RHS_AFRF")
-				continue;
-			
-			Print("GRAY.FindDefector 2");
-			RplId playableId = playableManager.GetPlayableByPlayer(playerId);
-			Print("GRAY.FindDefector playableId = " + playableId);
-	
-			PS_PlayableContainer pc = playableManager.GetPlayableById(playableId);
-			if(blacklist.Contains(pc.GetName()))
-				continue;
-			Print("GRAY.FindDefector = " + pc.GetName());
-			return playerId;
-		}
-		
-		return null;
-	}
-	
 	protected void SetupTraitor(int playerId)
 	{
-		Print("GRAY.SetupTraitor = " + SCR_PlayerNamesFilterCache.GetInstance().GetPlayerDisplayName(playerId));
-		m_defectorPlayerId = playerId;
+		//Print("GRAY.SetupTraitor = " + SCR_PlayerNamesFilterCache.GetInstance().GetPlayerDisplayName(playerId));
+		//m_defectorPlayerId = playerId;
 
-		SCR_PlayerController pc = SCR_PlayerController.Cast(GetGame().GetPlayerManager().GetPlayerController(playerId));
-		pc.SetupTraitorLocal();
+		//SCR_PlayerController pc = SCR_PlayerController.Cast(GetGame().GetPlayerManager().GetPlayerController(playerId));
+		//pc.SetupTraitorLocal();
 	}
 	
 	protected void GameStart()
@@ -272,10 +213,7 @@ class GC_CommandosObj
 	
 	protected ref array<PS_ManualMarker> m_markers = {};
 
-	void Setup()
-	{
-		
-	}
+	void Setup();
 	
 	bool IsPickable()
 	{
@@ -289,19 +227,24 @@ class GC_CommandosObj
 	{
 		foreach(PS_ManualMarker marker : m_markers)
 		{
-			SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
-			Faction faction = fm.GetFactionByKey("RHS_USAF");
-			marker.SetVisibleForFaction(faction, false);
-			
-			EntitySpawnParams params = new EntitySpawnParams();
-			params.Transform[3] = marker.GetOrigin();
-			
-			PS_ManualMarker marker2 = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
-			marker2.SetDescription(m_name);
-			marker2.SetColor(Color.Red);
+			ActivateMarker(marker);
 		}
 		
 		m_isActive = true;
+	}
+	
+	void ActivateMarker(PS_ManualMarker marker)
+	{
+		SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
+		Faction faction = fm.GetFactionByKey("RHS_USAF");
+		marker.SetVisibleForFaction(faction, false);
+		
+		EntitySpawnParams params = new EntitySpawnParams();
+		params.Transform[3] = marker.GetOrigin();
+		
+		PS_ManualMarker marker2 = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
+		marker2.SetDescription(m_name);
+		marker2.SetColor(Color.Red);
 	}
 	
 	void OnBriefing();
@@ -320,7 +263,7 @@ class GC_CommandosObj
 		
 		string description = string.Format(m_objectiveCompletedMsg, m_name);
 		GetGame().GetCallqueue().CallLater(cm.SendHintAll,100,false,"Objective Completed", description);
-		
+		Print("Gray.Complete = " + this);
 		cm.OnObjectiveCompleted(this);
 		
 		m_isActive = false;
@@ -349,6 +292,9 @@ class GC_CommandosObj
 		marker.SetVisibleForFaction(faction, true);
 		
 		m_markers.Insert(marker);
+		
+		if(m_isActive)
+			ActivateMarker(marker);
 	}
 	
 	void RegisterObjective(IEntity entity);
@@ -357,7 +303,7 @@ class GC_CommandosObj
 [BaseContainerProps()]
 class GC_CommandosObjWeight : GC_CommandosObj
 {
-	[Attribute(defvalue: ".5", UIWidgets.Auto, desc: "0-1 Chance of being selected. 1 = 100%, 0 = 0%")]
+	[Attribute(defvalue: "1", UIWidgets.Auto, desc: "0-1 Chance of being selected. 1 = 100%, 0 = 0%")]
 	protected float m_chance;
 	
 	override bool IsPickable()
@@ -374,12 +320,14 @@ class GC_CommandosObjWeight : GC_CommandosObj
 class GC_CommandosDefector : GC_CommandosObjWeight
 {
 	[Attribute(defvalue: "", UIWidgets.Auto, desc: "Name of slots to not select")]
-	protected array<string> m_blacklist;
+	protected ref array<string> m_blacklist;
+	
+	static int m_defectorId;
+	static GC_CommandosDefector m_defectorObj;
 	
 	override bool IsPickable()
 	{
-		GC_CommandosManager cm = GC_CommandosManager.GetInstance();
-		if(cm.m_isDefectorObjSelected)
+		if(m_defectorObj)
 			return false;
 		
 		return super.IsPickable();
@@ -389,21 +337,182 @@ class GC_CommandosDefector : GC_CommandosObjWeight
 	{
 		super.Activate();
 		
-		GC_CommandosManager cm = GC_CommandosManager.GetInstance();
-		cm.m_isDefectorObjSelected = true;
+		m_defectorObj = this;
 	}
+	
+	override void OnBriefing()
+	{
+		if(!Replication.IsServer())
+			return;
+		
+		if(!m_isActive)
+			return;
+		
+		int id = FindDefector();
+		if(!id)
+			return;
+		
+		m_defectorId = id;
+		
+		GC_CommandosManager cm = GC_CommandosManager.GetInstance();
+		cm.m_defectorPlayerId = m_defectorId;
+		
+		GC_CommandosPlayerController pc = GC_CommandosPlayerController.Cast(GetGame().GetPlayerManager().GetPlayerController(m_defectorId));
+		if(!pc)
+			return;
+		
+		pc.ActivateObjective(m_name);
+	}
+	
+	int FindDefector()
+	{
+		Print("GRAY.FindDefector");
+		PlayerManager pm = GetGame().GetPlayerManager();
+		PS_PlayableManager playableManager = PS_PlayableManager.GetInstance();
+		
+		array<int> players = {};
+		pm.GetAllPlayers(players);
+		
+		while(!players.IsEmpty())
+		{
+			int playerId = players.GetRandomElement();
+			players.RemoveItem(playerId);
+			
+			playableManager.GetPlayerFactionKey(playerId);
+			string faction = playableManager.GetPlayerFactionKey(playerId);
+			if(faction != "RHS_AFRF")
+				continue;
+			
+			RplId playableId = playableManager.GetPlayableByPlayer(playerId);
+			if(!playableId || !playableId.IsValid())
+				continue;
+			
+			PS_PlayableContainer pc = playableManager.GetPlayableById(playableId);
+			if(!pc)
+				continue;
+			
+			Print("GRAY.FindDefector pc = " + pc);
+			Print("GRAY.FindDefector name = " + pc.GetName());
+			Print("GRAY.FindDefector m_blacklist = " + m_blacklist);
+			if(m_blacklist.Contains(pc.GetName()))
+				continue;
+			
+			Print("GRAY.FindDefector2");
+			return playerId;
+		}
+		
+		return null;
+	}
+	
+	void ActivateLocal();
 }
 
 [BaseContainerProps()]
 class GC_CommandosShootHeli : GC_CommandosDefector
 {
+	protected ref array<IEntity> m_objs = {};
+	IEntity m_mi8;
+	
+	override void RegisterObjective(IEntity entity)
+	{
+		if(!Vehicle.Cast(entity))
+			return;
+		
+		m_mi8 = entity;
+	}
+	
+	override void Activate()
+	{
+		super.Activate();
+		
+		SCR_DamageManagerComponent dmc = SCR_DamageManagerComponent.Cast(m_mi8.FindComponent(SCR_DamageManagerComponent));
+		if(!dmc)
+			return;
 
+		SCR_HitZone hz = SCR_HitZone.Cast(dmc.GetDefaultHitZone());
+		hz.GetOnDamageStateChanged().Insert(OnDamageStateChangedHZ);
+	}
+	
+	override void RegisterMarker(IEntity entity)
+	{
+		m_objs.Insert(entity);
+	}
+	
+	override void ActivateLocal()
+	{
+		foreach(IEntity entity : m_objs)
+		{
+			EntitySpawnParams params = new EntitySpawnParams();
+			params.Transform[3] = entity.GetOrigin();
+			PS_ManualMarker marker = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
+			marker.SetDescription("Igla Cache");
+			marker.SetVisibleForEmptyFaction(true);
+			marker.SetColor(Color.Red);
+			
+			SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
+			Faction faction = fm.GetFactionByKey("RHS_AFRF");
+			marker.SetVisibleForFaction(faction, true);
+		}
+		
+		GetGame().GetMenuManager().OpenMenu(ChimeraMenuPreset.BriefingMapMenu);
+	}
+
+	void OnDamageStateChangedHZ(SCR_HitZone hitZone)
+	{
+		EDamageState state = hitZone.GetDamageState();
+		if (state == EDamageState.DESTROYED || state == EDamageState.INTERMEDIARY)
+		{
+			hitZone.GetOnDamageStateChanged().Remove(OnDamageStateChangedHZ);
+			Complete();
+		}
+	}
 }
 
 [BaseContainerProps()]
-class GC_CommandosGatherIntel : GC_CommandosDefector
+class GC_CommandosTracker : GC_CommandosDestroyed
 {
+	protected ref array<ref GC_CommandosTrackerData> m_trackers = {};
+	
+	override void Activate()
+	{
+		super.Activate();
+		
+		foreach(IEntity entity : entities)
+		{
+			RegisterTracker(entity);
+		}
+		
+		GetGame().GetCallqueue().CallLater(UpdateTracker, 120000, true)
+	}
+	
+	override void RegisterObjective(IEntity entity)
+	{
+		super.RegisterObjective(entity);
+		
+		if(m_isActive)
+			RegisterTracker(entity);
+	}
+	
+	void UpdateTracker()
+	{
+		foreach(GC_CommandosTrackerData tracker : m_trackers)
+		{
+			tracker.Update();
+		}
+	}
+	
+	void RegisterTracker(IEntity entity)
+	{
+		EntitySpawnParams params = new EntitySpawnParams();
+		params.Transform[3] = entity.GetOrigin();
+		PS_ManualMarker marker = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
+		
+		marker.SetDescription(m_name);
+		marker.SetColor(Color.Violet);
 
+		GC_CommandosTrackerData tracker = GC_CommandosTrackerData(entity, marker);
+		m_trackers.Insert(tracker);
+	}
 }
 
 [BaseContainerProps()]
@@ -421,14 +530,24 @@ class GC_CommandosDestroyed : GC_CommandosObj
 
 		foreach(IEntity entity : entities)
 		{
-			SCR_DamageManagerComponent dmc = SCR_DamageManagerComponent.Cast(entity.FindComponent(SCR_DamageManagerComponent));
-			if(!dmc)
-				continue;
-			
-			SCR_HitZone hz = SCR_HitZone.Cast(dmc.GetDefaultHitZone());
-			hz.GetOnDamageStateChanged().Insert(OnDamageStateChangedHZ);
-			objCount++;
+			ActivateObjective(entity);
 		}
+	}
+	
+	void ActivateObjective(IEntity entity)
+	{
+		Print("GRAY.ActivateObjective = " + this);
+		
+		SCR_DamageManagerComponent dmc = SCR_DamageManagerComponent.Cast(entity.FindComponent(SCR_DamageManagerComponent));
+		if(!dmc)
+			return;
+		
+		SCR_HitZone hz = SCR_HitZone.Cast(dmc.GetDefaultHitZone());
+		if(!hz)
+			return;
+		
+		hz.GetOnDamageStateChanged().Insert(OnDamageStateChangedHZ);
+		objCount++;
 	}
 	
 	void OnDamageStateChangedHZ(SCR_HitZone hitZone)
@@ -454,6 +573,9 @@ class GC_CommandosDestroyed : GC_CommandosObj
 	override void RegisterObjective(IEntity entity)
 	{
 		entities.Insert(entity);
+		
+		if(m_isActive)
+			ActivateObjective(entity);
 	}
 }
 
@@ -499,7 +621,7 @@ class GC_CommandosInteraction : ScriptedUserAction
 		
 		if(m_defectorObjective)
 		{
-			if(cm.m_defectorPlayerId)
+			if(cm.m_defectorPlayerId == GetGame().GetPlayerController().GetPlayerId())
 				return true;
 		}
 		
@@ -543,7 +665,23 @@ class GC_CommandosObjRegister : ScriptComponent
 		if(m_registerMarker)
 			objective.RegisterMarker(owner);
 		
-		if(GC_CommandosDestroyed.Cast(objective))
-			objective.RegisterObjective(owner);
+		objective.RegisterObjective(owner);
+	}
+}
+
+class GC_CommandosTrackerData
+{
+	IEntity m_entity;
+	PS_ManualMarker m_marker;
+	
+	void GC_CommandosTrackerData(IEntity entity, PS_ManualMarker marker)
+	{
+		m_entity = entity;
+		m_marker = marker;
+	}
+	
+	void Update()
+	{
+		m_marker.SetOrigin(m_entity.GetOrigin());
 	}
 }

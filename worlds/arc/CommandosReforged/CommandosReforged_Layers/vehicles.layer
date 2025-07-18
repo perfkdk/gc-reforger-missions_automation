@@ -100,6 +100,9 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
 }
 Vehicle Mi8MT_unarmed_transport1 : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et" {
  components {
+  GC_CommandosObjRegister "{65E31C50BE133D07}" {
+   m_objectiveName "Mi-8"
+  }
   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
    FuelNodes {
     SCR_FuelNode "{5622A70CD4036C5A}" {
@@ -110,6 +113,16 @@ Vehicle Mi8MT_unarmed_transport1 : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopte
     }
     SCR_FuelNode "{5A7CE769E7A9C414}" {
      m_fInitialFuelTankState 1040
+    }
+   }
+  }
+  SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     "Explosive multiplier" 5
+    }
+    SCR_FuelHitZone FuelTank_01 {
+     "Explosive multiplier" 5
     }
    }
   }
