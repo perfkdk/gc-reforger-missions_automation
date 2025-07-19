@@ -28,9 +28,9 @@ $grp SCR_AIGroup : "{50405007E4967EEE}Prefabs/Groups/BLUFOR/US/Army/2020/Infantr
   coords 7076.402 62.948 4572.448
   angleY -144.456
   m_aUnitPrefabSlots {
-   "{CB56403807CA12AF}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewLeader_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et"
+   "{CB56403807CA12AF}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewLeader_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et"
   }
-  m_sCustomNameSet "Bradley Crew"
+  m_sCustomNameSet "M1A1 Crew"
  }
  BLU_3 {
   components {
@@ -46,45 +46,9 @@ $grp SCR_AIGroup : "{50405007E4967EEE}Prefabs/Groups/BLUFOR/US/Army/2020/Infantr
   coords 7092.367 63.88 4561.84
   angleY -144.456
   m_aUnitPrefabSlots {
-   "{CB56403807CA12AF}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewLeader_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et"
+   "{CB56403807CA12AF}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewLeader_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et"
   }
-  m_sCustomNameSet "Bradley Crew"
- }
- BLU_4 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{65C703CED7ADBF85}" : "{7C1837E4D479D5E9}worlds/FloridaMan/worlds/SecretDealings/SecretDealings_Prefabs/callsign.ct" {
-    m_iCompanyCallsign 2
-    m_iPlatoonCallsign 3
-    m_iSquadCallsign 3
-   }
-  }
-  coords 7108.275 64.747 4551.035
-  angleY -144.456
-  m_aUnitPrefabSlots {
-   "{CB56403807CA12AF}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewLeader_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et"
-  }
-  m_sCustomNameSet "Bradley Crew"
- }
- BLU_5 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
-   }
-   PS_GroupCallsignAssigner "{65C703CED7ADBF85}" : "{7C1837E4D479D5E9}worlds/FloridaMan/worlds/SecretDealings/SecretDealings_Prefabs/callsign.ct" {
-    m_iCompanyCallsign 2
-    m_iPlatoonCallsign 3
-    m_iSquadCallsign 4
-   }
-  }
-  coords 7129.828 64.238 4532.446
-  angleY -144.456
-  m_aUnitPrefabSlots {
-   "{CB56403807CA12AF}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewLeader_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et" "{0C3D771DD3BBB3F0}worlds/FloridaMan/worlds/CounterTheCounter/CounterTheCounter_Prefabs/Character_US_Army_CrewMember_P.et"
-  }
-  m_sCustomNameSet "Bradley Crew"
+  m_sCustomNameSet "M1A1 Crew"
  }
 }
 $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/Group_USA_2020_RifleSquad_P.et" {

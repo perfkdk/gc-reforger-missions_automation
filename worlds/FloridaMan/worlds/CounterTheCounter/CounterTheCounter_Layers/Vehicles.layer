@@ -35,31 +35,17 @@ $grp Vehicle : "{094A1ECBEE1D9AD1}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/S
   m_sAttachmentGroupName "BLU_14"
  }
 }
-$grp Tank : "{A2FDCCF036B73602}Prefabs/Vehicles/Tracked/BFV/M2A3_MERDC.et" {
- M2A3_MERDC1 {
-  coords 7071.947 63.031 4566.928
-  angleY -54.557
+$grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
+ M1A1_MERDC1 {
+  coords 7068.68 62.904 4566.757
+  angleY -53.195
   m_sAttachmentGroupName "BLU_2"
  }
- M2A3_MERDC2 {
-  coords 7087.07 63.652 4555.278
-  angleX -1.248
-  angleY -54.562
-  angleZ 0.21
+ M1A1_MERDC2 {
+  coords 7087.754 63.684 4552.957
+  angleX -0.717
+  angleY -53.188
+  angleZ -0.536
   m_sAttachmentGroupName "BLU_3"
- }
- M2A3_MERDC3 {
-  coords 7102.009 63.978 4543.408
-  angleX -1.248
-  angleY -54.562
-  angleZ 0.21
-  m_sAttachmentGroupName "BLU_4"
- }
- M2A3_MERDC4 {
-  coords 7122.473 64.45 4527.172
-  angleX -1.248
-  angleY -54.562
-  angleZ 0.21
-  m_sAttachmentGroupName "BLU_5"
  }
 }
