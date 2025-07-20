@@ -405,72 +405,115 @@ class GC_CommandosDefector : GC_CommandosObjWeight
 	}
 	
 	void ActivateLocal();
+	
+	override void RegisterMarker(IEntity entity);
+	
 }
 
 [BaseContainerProps()]
-class GC_CommandosShootHeli : GC_CommandosDefector
+class GC_CommandosDefectorDestroy : GC_CommandosDefector
 {
-	protected ref array<IEntity> m_objs = {};
-	IEntity m_mi8;
+	[Attribute(defvalue: "", UIWidgets.Auto)]
+	protected bool m_destroyAll;
 	
-	override void RegisterObjective(IEntity entity)
-	{
-		if(!Vehicle.Cast(entity))
-			return;
-		
-		m_mi8 = entity;
-	}
+	protected int objCount = 0;
+	protected ref array<IEntity> entities = {};
 	
 	override void Activate()
 	{
 		super.Activate();
-		
-		SCR_DamageManagerComponent dmc = SCR_DamageManagerComponent.Cast(m_mi8.FindComponent(SCR_DamageManagerComponent));
+
+		foreach(IEntity entity : entities)
+		{
+			ActivateObjective(entity);
+		}
+	}
+	
+	void ActivateObjective(IEntity entity)
+	{
+		SCR_DamageManagerComponent dmc = SCR_DamageManagerComponent.Cast(entity.FindComponent(SCR_DamageManagerComponent));
 		if(!dmc)
 			return;
-
-		SCR_HitZone hz = SCR_HitZone.Cast(dmc.GetDefaultHitZone());
-		hz.GetOnDamageStateChanged().Insert(OnDamageStateChangedHZ);
-	}
-	
-	override void RegisterMarker(IEntity entity)
-	{
-		m_objs.Insert(entity);
-	}
-	
-	override void ActivateLocal()
-	{
-		foreach(IEntity entity : m_objs)
-		{
-			EntitySpawnParams params = new EntitySpawnParams();
-			params.Transform[3] = entity.GetOrigin();
-			PS_ManualMarker marker = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
-			marker.SetDescription("Igla Cache");
-			marker.SetVisibleForEmptyFaction(true);
-			marker.SetColor(Color.Red);
-			
-			SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
-			Faction faction = fm.GetFactionByKey("RHS_AFRF");
-			marker.SetVisibleForFaction(faction, true);
-		}
 		
-		GetGame().GetMenuManager().OpenMenu(ChimeraMenuPreset.BriefingMapMenu);
+		SCR_HitZone hz = SCR_HitZone.Cast(dmc.GetDefaultHitZone());
+		if(!hz)
+			return;
+		
+		hz.GetOnDamageStateChanged().Insert(OnDamageStateChangedHZ);
+		objCount++;
+		
+		RegisterMarkerLocal(entity);
 	}
-
+	
 	void OnDamageStateChangedHZ(SCR_HitZone hitZone)
 	{
 		EDamageState state = hitZone.GetDamageState();
 		if (state == EDamageState.DESTROYED || state == EDamageState.INTERMEDIARY)
 		{
 			hitZone.GetOnDamageStateChanged().Remove(OnDamageStateChangedHZ);
+			objCount--;
+		}
+		
+		if(m_destroyAll)
+		{
+			if(objCount <= 0)
+				Complete();
+		}
+		else
+		{
 			Complete();
 		}
+	}
+	
+	override void RegisterObjective(IEntity entity)
+	{
+		SCR_DamageManagerComponent dmc = SCR_DamageManagerComponent.Cast(entity.FindComponent(SCR_DamageManagerComponent));
+		if(!dmc)
+			return;
+		
+		entities.Insert(entity);
+		SCR_BaseGameMode gm = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
+		Print("GRAY.RegisterObjective state = " + gm.GetState());
+		
+
+		if(m_isActive)
+			ActivateObjective(entity);
+	}
+	
+	void RegisterMarkerLocal(IEntity entity)
+	{
+		Print("GRAY.RegisterMarkerLocal");
+		GC_CommandosObjRegister objRegister = GC_CommandosObjRegister.Cast(entity.FindComponent(GC_CommandosObjRegister));
+		if(!objRegister || !objRegister.m_registerMarker)
+			return;
+		Print("GRAY.RegisterMarkerLocal2");
+		EntitySpawnParams params = new EntitySpawnParams();
+		params.Transform[3] = entity.GetOrigin();
+		PS_ManualMarker marker = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
+		
+		string name;
+		if(objRegister.m_registerMarker)
+			name = objRegister.m_markerName;
+		
+		if(name.IsEmpty())
+			name = m_name;
+		
+		marker.SetDescription(name);
+		marker.SetColor(Color.Red);
+		
+		SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
+		Faction faction = fm.GetFactionByKey("RHS_AFRF");
+		marker.SetVisibleForFaction(faction, true);
+		Print("GRAY.RegisterMarkerLocal3");
 	}
 }
 
 [BaseContainerProps()]
 class GC_CommandosTracker : GC_CommandosDestroyed
 {
+	[Attribute(defvalue: "120", uiwidget: UIWidgets.Auto, desc: "Seconds to update tracker marker")]
+	protected int m_updateDelay;
+	
 	protected ref array<ref GC_CommandosTrackerData> m_trackers = {};
 	
 	override void Activate()
@@ -482,7 +525,7 @@ class GC_CommandosTracker : GC_CommandosDestroyed
 			RegisterTracker(entity);
 		}
 		
-		GetGame().GetCallqueue().CallLater(UpdateTracker, 120000, true)
+		GetGame().GetCallqueue().CallLater(UpdateTracker, m_updateDelay * 1000, true)
 	}
 	
 	override void RegisterObjective(IEntity entity)
@@ -654,7 +697,10 @@ class GC_CommandosObjRegister : ScriptComponent
 	protected string m_objectiveName;
 	
 	[Attribute(uiwidget: UIWidgets.Auto, desc: "Spawn marker here")]
-	protected bool m_registerMarker;
+	bool m_registerMarker;
+	
+	[Attribute(uiwidget: UIWidgets.Auto, desc: "The name of the marker")]
+	string m_markerName;
 	
 	override protected void OnPostInit(IEntity owner)
 	{

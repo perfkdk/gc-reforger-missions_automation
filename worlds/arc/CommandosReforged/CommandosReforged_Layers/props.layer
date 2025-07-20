@@ -2016,6 +2016,7 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
    GC_CommandosObjRegister "{65E31C540D9D3E84}" {
     m_objectiveName "Mi-8"
     m_registerMarker 1
+    m_markerName "Igla Cache"
    }
    Hierarchy "{54A6A39C75EAFE2C}" {
     Enabled 1

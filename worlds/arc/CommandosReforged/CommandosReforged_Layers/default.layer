@@ -108,15 +108,14 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     GC_CommandosDestroyed "{65BC2E01C4FC7F86}" {
      m_name "Ammo Dump"
     }
-    GC_CommandosShootHeli "{65E31C55ED8E895E}" {
-     m_name "Mi-8"
-     m_objectiveCompletedMsg "The %1 has been destroyed!"
-     m_blacklist {
-      "Dog" "Political Officer"
-     }
-    }
     GC_CommandosTracker "{65E45BD76165E932}" {
      m_name "Base Commander"
+    }
+    GC_CommandosTracker "{65E46E83B3E951D1}" {
+     m_name "Political Officer"
+    }
+    GC_CommandosDefectorDestroy "{65E46E86EAA11372}" {
+     m_name "Mi-8"
     }
    }
   }
@@ -130,11 +129,12 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{647776E54F5F3190}" {
-     m_sWeatherPresetName "Cloudy"
+     m_sWeatherPresetName "Heavy Thunderstorm"
      m_iStartingHour 0
     }
    }
    m_bUseSpecifiedDate 1
+   m_iSetDay 2
    m_iSetYear 2005
   }
  }
