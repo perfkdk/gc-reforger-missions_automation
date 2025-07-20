@@ -2,9 +2,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7043.089 62.915 4440.819
   m_sTitle "Overview"
-  m_sTextData "U.S. Army Motorized Platoon (Strykers) supported by a M2A3 Bradley platoon counter-attack a russian position to prevent a train bridge from being destroyed."\
+  m_sTextData "U.S. Army Motorized Platoon (Strykers) supported by a M1A1 Abrams Section counter-attack a russian position to prevent a train bridge from being destroyed."\
   ""\
-  "<b>HIGHLY RECOMMEND SLOTTING AT LEAST TWO BRADLEYS</b>"\
+  "<b>HIGHLY RECOMMEND SLOTTING AT LEAST ONE M1A1 Abrams</b>"\
   "<b>End Conditions</b>"\
   "Success: Bridge secured and held for five minutes before 60 minutes."\
   "Failure: Bridge not secured before 60 minutes."
@@ -32,7 +32,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<b>Adjacent units:</b> None within immediate support range"\
   "<b>Fire / Air support</b> Denied (conflicted airspace and more immediate matters)"\
   "<h2>Attachments/Detachments</h2>"\
-  "1x Bradley Platoon (M2A3)"\
+  "1x M1A1 Abrams Section (2 Tanks)"\
   "1x Stryker Rifle Platoon"\
   "1x Combat Engineer Team (in reserve for post-securing EOD assessment)"
   m_aVisibleForFactions {
@@ -59,14 +59,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Seize the bridge with speed and precision. Deny enemy time to execute demolition. Hold the area under fire through anticipated counter-counter-attack. Preserve infrastructure. Accept risk to force over loss of mobility corridor."\
   "<h2>Concept of Operations</h2>"\
   "<b>Phase I – Movement to Contact:</b>"\
-  "Both mechanized platoons advance on Objective Thomas using separate approach vectors to divide enemy attention. Strykers use speed and flanking; Bradleys establish overwatch and fire superiority."\
+  "Both mechanized platoons advance on Objective Thomas using separate approach vectors to divide enemy attention. Strykers use speed and flanking; Abrams establish overwatch and fire superiority."\
   "<b>Phase II – Seizure of Objective:</b>"\
   "Suppress, fix, and destroy entrenched defenders. Clear both bridgeheads. "\
   "<b>Phase III – Bridge Hold (5 Minutes):</b>"\
   "Once area is secured, a 5-minute hold begins. Expect organized Russian counterattack. Prepare blocking positions, use terrain for maximum defense."\
   "<h2>Tasks to Subordinate Units</h2>"\
   "<b>Stryker Platoon</b> Main force responsible for clearing out Russian positions."\
-  "<b>Bradley Platoon:</b> Suppress bunkers and anti-armor threats. Support infantry where needed."\
+  "<b>Abrams Platoon:</b> Suppress bunkers and anti-armor threats. Support infantry where needed."\
   "Combat Engineers (not in mission): Stage at LOD. Deploy post-clearance for EOD check."\
   "<h2>Coordinating Instructions</h2>"\
   "Time Limit: 60 minutes until enemy demolition is assumed imminent."\
