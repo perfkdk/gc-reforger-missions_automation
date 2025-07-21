@@ -97,9 +97,6 @@ GenericEntity : "{76167BEC292DCF79}Prefabs/Structures/Signs/Military/SignRectang
   }
  }
 }
-SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- coords 8287.126 322.188 2086.038
-}
 $grp GenericEntity : "{C6B534F64C60C583}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_US_01.et" {
  {
   coords 8292.054 322.187 2023.517
