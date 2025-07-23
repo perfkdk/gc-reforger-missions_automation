@@ -70,6 +70,24 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
    }
   }
  }
+ AO_LimitMarker {
+  coords 1585.05 90.644 3185.788
+  {
+   GenericEntity SlotMarker5 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+    components {
+     SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+      m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{65B6ACFDEB44B8B9}" {
+       m_sMapMarkerText "AO Limit"
+       m_eMapMarkerIcon DOT
+       m_eMapMarkerColor RED
+      }
+      m_bCanBeRemovedByOwner 1
+     }
+    }
+    coords -0.053 0 0.31
+   }
+  }
+ }
 }
 PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  coords 258.884 40.277 2949.256

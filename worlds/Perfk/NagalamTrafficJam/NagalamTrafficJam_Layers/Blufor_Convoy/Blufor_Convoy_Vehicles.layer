@@ -102,7 +102,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   m_aUnitPrefabSlots {
    "{88C592A95588D20A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_SL_DCU_1998_P.et" "{780F788FE375A572}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_Variant_1_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{7F66D7C965CC9C1C}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_TL_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et" "{62DF528A4FF16F25}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Rifleman_DCU_1998_P.et"
   }
-  m_sCustomNameSet "Att: Engineering Section"
+  m_sCustomNameSet "Att: Field Maintenance Team"
   m_aUnitPrefabColorTeams {
    "Red" "Red" "Red" "Blue" "Blue" "Blue"
   }
