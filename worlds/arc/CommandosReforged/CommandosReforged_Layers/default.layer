@@ -136,6 +136,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    m_bUseSpecifiedDate 1
    m_iSetDay 2
    m_iSetYear 2005
+   m_bOverrideEnvironment 1
+   m_fFogHeight 0
+   m_fWind 5
   }
  }
  PlayerControllerPrefab "{85F3B42282EF19BD}worlds/arc/CommandosReforged/Prefabs/Commandos_PlayerController.et"
