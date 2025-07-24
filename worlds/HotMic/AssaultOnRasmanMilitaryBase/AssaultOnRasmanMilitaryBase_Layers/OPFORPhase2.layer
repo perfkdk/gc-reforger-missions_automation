@@ -26,7 +26,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
   m_conditionFlag "Phase 2 Attack Median"
   m_spawnTimings {
-   60 240 420 660 0 0
+   60 240 420 660 840 1020
   }
   m_waypointNames {
    "AIWaypoint_MainAttack"
@@ -48,7 +48,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
   m_conditionFlag "Phase 2 Attack Median"
   m_spawnTimings {
-   120 300 480 720 380 1080
+   120 300 480 720 900 1080
   }
   m_waypointNames {
    "AIWaypoint_MainAttack"
