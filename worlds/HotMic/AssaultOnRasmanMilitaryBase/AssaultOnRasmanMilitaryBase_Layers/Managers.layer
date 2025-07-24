@@ -10,7 +10,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   PS_FactionRespawnCount "{65E365F2E8BB73ED}" {
    m_sFactionKey "US"
    m_iCount 10
-   m_bWaveMode 1
+   m_iTime 0
   }
  }
  {
@@ -288,6 +288,23 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       m_flagName "Spawn Enemies Hard"
      }
     }
+   }
+  }
+  TILW_MissionEvent "{65F0057745E27F92}" {
+   m_name "Phase 2 Done"
+   m_instructions {
+    TILW_SendMessageInstruction "{65F0057780697C16}" {
+     m_executionDelay 1800
+     m_messageTitle "Phase 2 Done"
+     m_messageBody "Congrats, Takistan Army has arrived to wipe the remaining forces."
+    }
+    TILW_EndGameInstruction "{65F00576271FDBE1}" {
+     m_executionDelay 2100
+     m_factionKey "US"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65F0057787684D60}" {
+    m_flagName "Phase 2 Start"
    }
   }
  }

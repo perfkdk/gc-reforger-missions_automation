@@ -1,3 +1,32 @@
+GameEntity WallsForPlatoon {
+ coords 8305.405 319.394 2171.347
+ angleY -30.473
+ {
+  SCR_DestructibleBuildingEntity : "{625C23A0F9BF5D2C}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_Stairs.et" {
+   coords -4.134 3.656 1.596
+   angleY 30.473
+   scale 0.323
+  }
+  $grp SCR_DestructibleBuildingEntity : "{CABFB6EDB5AF6D0A}PrefabLibrary/Walls/Concrete/ConcreteRetainingWall_01_90.et" {
+   {
+    coords -1.208 1.813 4.85
+    angleY 30.473
+   }
+   {
+    coords 4.942 1.813 1.23
+    angleY 120.473
+   }
+   {
+    coords 1.331 1.813 -4.948
+    angleY -149.527
+   }
+   {
+    coords -4.829 1.813 -1.318
+    angleY -59.527
+   }
+  }
+ }
+}
 GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
  coords 8306.424 322.188 2040.96
  angleY -28.999
@@ -61,15 +90,15 @@ GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
  }
 }
 GenericEntity : "{76167BEC292DCF79}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Warzone_US_01.et" {
- coords 8288.688 322.187 2103.119
- angleY -118.218
+ coords 8299.969 325.303 2171.082
+ angleY 88.739
  {
   GenericEntity : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_BaseInteraction.et" {
    components {
     ActionsManagerComponent "{61F4C18E835074FF}" {
      ActionContexts {
       UserActionContext "{61F4C18ECB0A8B85}" {
-       Radius 10
+       Radius 1
       }
      }
      additionalActions {
@@ -92,7 +121,7 @@ GenericEntity : "{76167BEC292DCF79}Prefabs/Structures/Signs/Military/SignRectang
      }
     }
    }
-   coords 0 1.057 0
+   coords 0 1.367 0
    angleY 95.431
   }
  }

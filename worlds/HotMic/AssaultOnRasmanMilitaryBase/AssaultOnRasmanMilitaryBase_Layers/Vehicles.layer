@@ -1,15 +1,30 @@
-Vehicle M923A1_engineer_MERDC1 : "{37A9871AD4CC9610}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer_MERDC.et" {
- components {
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo EngineerBox {
-     Prefab "{808A34E26203B82D}worlds/HotMic/Prefabs/truck_engineer_box_wo_commandPost_HotMic.et"
+$grp Vehicle : "{37A9871AD4CC9610}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer_MERDC.et" {
+ M923A1_engineer_MERDC1 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo EngineerBox {
+      Prefab "{808A34E26203B82D}worlds/HotMic/Prefabs/truck_engineer_box_wo_commandPost_HotMic.et"
+     }
     }
    }
   }
+  coords 5890.884 109.312 11429.893
+  angleY -47.747
  }
- coords 5890.884 109.312 11429.893
- angleY -47.747
+ M923A1_engineer_MERDC2 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo EngineerBox {
+      Prefab "{808A34E26203B82D}worlds/HotMic/Prefabs/truck_engineer_box_wo_commandPost_HotMic.et"
+     }
+    }
+   }
+  }
+  coords 5900.885 109.312 11420.807
+  angleY -47.747
+ }
 }
 $grp Vehicle : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
  AUS_UH60_armed2 {

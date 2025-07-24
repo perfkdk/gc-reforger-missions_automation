@@ -33,14 +33,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- Oil Depots"\
   ""\
   "Phase 2: Dig in and Defend [Median & Hard]"\
-  "By using Command Post & Construction truck with the Supplies from MOB. Set up the fortication and defend for 30 mins. "\
+  "By using Construction truck with the Supplies from MOB. Set up the Command Post & fortication and defend for 30 mins. "\
   ""\
   "End Conditions:"\
   "- Completing all Objectives: Victory"\
   "- 95% Casualty: Defeat"\
   ""\
   "----- Difficuty -----"\
-  "Only GM or CO can interact the sign by the ATC to set the difficulty of the mission. It's irreversible action after selecting the option."\
+  "Only GM or COs can interact the sign by the ATC to set the difficulty of the mission. It's irreversible action after selecting the option."\
   ""\
   "----- Mission Notes -----"\
   "It's recommanded that recon is needed for the hot insertion"\
@@ -70,7 +70,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Enemy Forces:"\
   "Insurgents"\
-  "Multiple BTRs "
+  "Multiple BTRs [Median & Hard]"
   m_aVisibleForFactions {
    "US"
   }
@@ -142,7 +142,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Helicopter Restriction: 1 Heavy CAS or 2 Little Birds with Guns & Rockets"\
   ""\
-  "   ----- Hard (59 - 77 Players) -----"\
+  "   ----- Hard (59 - 85 Players) -----"\
   "1 CHQ & FTO"\
   "2 PHQ"\
   "4 Medics"\

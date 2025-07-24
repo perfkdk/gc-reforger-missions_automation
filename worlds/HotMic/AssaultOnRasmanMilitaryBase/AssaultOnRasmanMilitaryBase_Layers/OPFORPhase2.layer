@@ -4,7 +4,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
   m_conditionFlag "Phase 2 Attack Median"
   m_spawnTimings {
-   2 2 2 300 360 420
+   0 180 360 600 780 960
   }
   m_waypointNames {
    "AIWaypoint_MainAttack"
@@ -15,7 +15,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
   m_conditionFlag "Phase 2 Attack Median"
   m_spawnTimings {
-   2 2 2 300 360 420
+   30 210 390 630 810 990
   }
   m_waypointNames {
    "AIWaypoint_MainAttack"
@@ -26,29 +26,29 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
   m_conditionFlag "Phase 2 Attack Median"
   m_spawnTimings {
-   2 2 2 300 360 420
+   60 240 420 660 0 0
   }
   m_waypointNames {
    "AIWaypoint_MainAttack"
   }
  }
  Spawner_Attacker_Median4 {
-  coords 5014.468 119.347 10848.638
+  coords 5191.854 136.311 10533.882
   m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
   m_conditionFlag "Phase 2 Attack Median"
   m_spawnTimings {
-   2 2 2 300 360 420
+   90 270 450 690 870 1050
   }
   m_waypointNames {
    "AIWaypoint_MainAttack"
   }
  }
  Spawner_Attacker_Median5 {
-  coords 5213.984 119.347 11329.424
+  coords 5208.541 113.792 11324.357
   m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
   m_conditionFlag "Phase 2 Attack Median"
   m_spawnTimings {
-   2 2 2 300 360 420
+   120 300 480 720 380 1080
   }
   m_waypointNames {
    "AIWaypoint_MainAttack"
@@ -62,7 +62,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et"
   m_conditionFlag "Phase 2 Attack Median"
   m_spawnTimings {
-   0 120
+   0 30
   }
   m_crewConfig TILW_CrewConfig "{65E55DBC6F61E811}" {
    m_crewGroups {
@@ -89,7 +89,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
   m_conditionFlag "Phase 2 Attack Median"
   m_spawnTimings {
-   0 30
+   0 60
   }
   m_crewConfig TILW_CrewConfig "{65E2050ED004B1CD}" {
    m_crewGroups {
@@ -134,6 +134,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     }
    }
    m_noTurretDismount 1
+  }
+ }
+ Spawner_Attacker_Median7 {
+  coords 5396.251 104.379 11793.599
+  m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
+  m_conditionFlag "Phase 2 Attack Median"
+  m_spawnTimings {
+   150 330 510 750 930 1110
+  }
+  m_waypointNames {
+   "AIWaypoint_MainAttack"
   }
  }
 }
