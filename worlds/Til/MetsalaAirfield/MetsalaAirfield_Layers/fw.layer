@@ -1,17 +1,12 @@
-GenericEntity loc_cm {
+TILW_PrefabSpawnerEntity kh55_flyby : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  coords 7036.094 104.132 123.507
  angleY -100
- {
-  TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
-   coords 0 0 0
-   m_prefab "{17B08DA4B050BBFE}Prefabs/Vehicles/Missles/kh55/KH55_CAS.et"
-   m_spawnTimings {
-    20
-   }
-   m_setEntityNames {
-    "cm1"
-   }
-  }
+ m_prefab "{17B08DA4B050BBFE}Prefabs/Vehicles/Missles/kh55/KH55_CAS.et"
+ m_spawnTimings {
+  120
+ }
+ m_setEntityNames {
+  "cm1"
  }
 }
 TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
@@ -51,7 +46,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
    m_name "Mission Start"
    m_instructions {
     TILW_DeleteEntitiesInstruction "{65F1444A3DEAB9EC}" {
-     m_executionDelay 50
+     m_executionDelay 150
      m_entityNames {
       "cm1"
      }
