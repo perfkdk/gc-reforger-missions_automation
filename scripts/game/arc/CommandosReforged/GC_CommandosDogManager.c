@@ -41,7 +41,7 @@ class GC_CommandosDogManager : ScriptComponent
 			{
 				component.SetActive();
 			}
-			world.SetCameraHDRBrightness(world.GetCurrentCameraId(), 5.0);
+			world.SetCameraHDRBrightness(world.GetCurrentCameraId(), 8.0);
 			GetGame().GetInputManager().AddActionListener("VONDirect", EActionTrigger.DOWN, ActionBark);
 		}
 		else

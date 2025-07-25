@@ -52,8 +52,10 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 	
 	override void OnPlayerConnected(int playerId)
 	{
-		//if(playerId == m_defectorPlayerId)
-		//	SetupTraitor(m_defectorPlayerId);
+		foreach(GC_CommandosObj objective : m_objectives)
+		{
+			objective.OnPlayerConnected(playerId);
+		}
 	}
 	
 	override protected void OnPostInit(IEntity owner)
@@ -129,28 +131,14 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 	
 	protected void BriefingStart()
 	{
-		Print("GRAY.BriefingStart");
-		
 		foreach(GC_CommandosObj objective : m_objectives)
 		{
 			objective.OnBriefing();
 		}
 	}
-
-	protected void SetupTraitor(int playerId)
-	{
-		//Print("GRAY.SetupTraitor = " + SCR_PlayerNamesFilterCache.GetInstance().GetPlayerDisplayName(playerId));
-		//m_defectorPlayerId = playerId;
-
-		//SCR_PlayerController pc = SCR_PlayerController.Cast(GetGame().GetPlayerManager().GetPlayerController(playerId));
-		//pc.SetupTraitorLocal();
-	}
 	
 	protected void GameStart()
 	{
-		//SCR_PlayerController pc = SCR_PlayerController.Cast(GetGame().GetPlayerManager().GetPlayerController(m_defectorPlayerId));
-		//pc.TILW_SendHintToPlayer("You are a Traitor!", "Sabotage everything! No spawn killing.", 120);
-		
 		foreach(GC_CommandosObj objective : m_objectives)
 		{
 			objective.OnGameStart();
@@ -203,11 +191,17 @@ class GC_CommandosObj
 	[Attribute(defvalue: "The %1 has been neutralized!", UIWidgets.EditBoxMultiline)]
 	protected string m_objectiveCompletedMsg;
 	
+	[Attribute(defvalue: "180", UIWidgets.Auto)]
+	protected int m_completeDelay;
+	
 	[Attribute(defvalue: "Destroy the objective using C4", UIWidgets.EditBoxMultiline)]
 	protected string m_briefingDescription;
 	
-	[Attribute(defvalue: "{2E08E7B7914EB585}worlds/arc/CommandosReforged/Prefabs/Objective_Marker.et", UIWidgets.ResourceNamePicker)]
+	[Attribute(defvalue: "{8B6159923D67F288}worlds/arc/CommandosReforged/Prefabs/Marker_Any.et", UIWidgets.ResourceNamePicker)]
 	protected ResourceName m_markerPrefab;
+	
+	[Attribute(defvalue: "{CBB8E081B4DA5A39}worlds/arc/CommandosReforged/Prefabs/Obj_Blufor_Briefing.et", UIWidgets.ResourceNamePicker)]
+	protected ResourceName m_briefingPrefab;
 	
 	protected bool m_isActive = false;
 	
@@ -225,32 +219,38 @@ class GC_CommandosObj
 	
 	void Activate()
 	{
+		Print("GRAY.OBJ selected = " + m_name);
+		
 		foreach(PS_ManualMarker marker : m_markers)
 		{
 			ActivateMarker(marker);
 		}
 		
 		m_isActive = true;
+	
+		if(GC_CommandosDefector.Cast(this))
+			return;
+		
+		SpawnBriefing();
 	}
 	
 	void ActivateMarker(PS_ManualMarker marker)
 	{
-		SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
-		Faction faction = fm.GetFactionByKey("RHS_USAF");
-		marker.SetVisibleForFaction(faction, false);
-		
 		EntitySpawnParams params = new EntitySpawnParams();
 		params.Transform[3] = marker.GetOrigin();
 		
-		PS_ManualMarker marker2 = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
+		PS_ManualMarker marker2 = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load("{2E08E7B7914EB585}worlds/arc/CommandosReforged/Prefabs/Objective_Marker.et"), GetGame().GetWorld(), params));
 		marker2.SetDescription(m_name);
-		marker2.SetColor(Color.Red);
 	}
 	
 	void OnBriefing();
 	
 	void OnGameStart();
+	
+	void OnPlayerConnected(int playerId);
 
+	void ActivateLocal();
+	
 	void Complete()
 	{
 		if(!Replication.IsServer())
@@ -262,8 +262,7 @@ class GC_CommandosObj
 		GC_CommandosManager cm = GC_CommandosManager.GetInstance();
 		
 		string description = string.Format(m_objectiveCompletedMsg, m_name);
-		GetGame().GetCallqueue().CallLater(cm.SendHintAll,100,false,"Objective Completed", description);
-		Print("Gray.Complete = " + this);
+		GetGame().GetCallqueue().CallLater(cm.SendHintAll, m_completeDelay * 1000, false,"Objective Completed", description);
 		cm.OnObjectiveCompleted(this);
 		
 		m_isActive = false;
@@ -281,16 +280,17 @@ class GC_CommandosObj
 	
 	void RegisterMarker(IEntity entity)
 	{
+		if(!Replication.IsServer())
+			return;
+		
 		EntitySpawnParams params = new EntitySpawnParams();
 		params.Transform[3] = entity.GetOrigin();
-		PS_ManualMarker marker = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
+		
+		IEntity prefab = GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params);
+		PS_ManualMarker marker = PS_ManualMarker.Cast(prefab);
+		
 		marker.SetDescription(m_name);
-		marker.SetVisibleForEmptyFaction(true);
-		
-		SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
-		Faction faction = fm.GetFactionByKey("RHS_AFRF");
-		marker.SetVisibleForFaction(faction, true);
-		
+
 		m_markers.Insert(marker);
 		
 		if(m_isActive)
@@ -298,6 +298,14 @@ class GC_CommandosObj
 	}
 	
 	void RegisterObjective(IEntity entity);
+	
+	PS_MissionDescription SpawnBriefing()
+	{
+		PS_MissionDescription brief = PS_MissionDescription.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_briefingPrefab)));
+		brief.SetTitle("Objective: " + m_name);
+		brief.SetTextData(m_briefingDescription);
+		return brief;
+	}
 }
 
 [BaseContainerProps()]
@@ -356,17 +364,11 @@ class GC_CommandosDefector : GC_CommandosObjWeight
 		
 		GC_CommandosManager cm = GC_CommandosManager.GetInstance();
 		cm.m_defectorPlayerId = m_defectorId;
-		
-		GC_CommandosPlayerController pc = GC_CommandosPlayerController.Cast(GetGame().GetPlayerManager().GetPlayerController(m_defectorId));
-		if(!pc)
-			return;
-		
-		pc.ActivateObjective(m_name);
+		RPC_ActivateLocal(m_defectorId);
 	}
 	
-	int FindDefector()
+	protected int FindDefector()
 	{
-		Print("GRAY.FindDefector");
 		PlayerManager pm = GetGame().GetPlayerManager();
 		PS_PlayableManager playableManager = PS_PlayableManager.GetInstance();
 		
@@ -391,23 +393,39 @@ class GC_CommandosDefector : GC_CommandosObjWeight
 			if(!pc)
 				continue;
 			
-			Print("GRAY.FindDefector pc = " + pc);
 			Print("GRAY.FindDefector name = " + pc.GetName());
 			Print("GRAY.FindDefector m_blacklist = " + m_blacklist);
 			if(m_blacklist.Contains(pc.GetName()))
 				continue;
 			
-			Print("GRAY.FindDefector2");
+			Print("GRAY.FindDefector = " + playerId);
 			return playerId;
 		}
 		
 		return null;
 	}
 	
-	void ActivateLocal();
+	override void OnPlayerConnected(int playerId)
+	{
+		if(!m_defectorId)
+			return;
+		
+		if(m_defectorId != playerId)
+			return;
+		
+		RPC_ActivateLocal(playerId);
+	}
+	
+	protected void RPC_ActivateLocal(int playerId)
+	{
+		GC_CommandosPlayerController pc = GC_CommandosPlayerController.GetInstance(playerId);
+		if(!pc)
+			return;
+
+		pc.ActivateObjective(m_name);
+	}
 	
 	override void RegisterMarker(IEntity entity);
-	
 }
 
 [BaseContainerProps()]
@@ -441,8 +459,6 @@ class GC_CommandosDefectorDestroy : GC_CommandosDefector
 		
 		hz.GetOnDamageStateChanged().Insert(OnDamageStateChangedHZ);
 		objCount++;
-		
-		RegisterMarkerLocal(entity);
 	}
 	
 	void OnDamageStateChangedHZ(SCR_HitZone hitZone)
@@ -467,30 +483,22 @@ class GC_CommandosDefectorDestroy : GC_CommandosDefector
 	
 	override void RegisterObjective(IEntity entity)
 	{
-		SCR_DamageManagerComponent dmc = SCR_DamageManagerComponent.Cast(entity.FindComponent(SCR_DamageManagerComponent));
-		if(!dmc)
-			return;
-		
 		entities.Insert(entity);
-		SCR_BaseGameMode gm = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
-		Print("GRAY.RegisterObjective state = " + gm.GetState());
-		
 
 		if(m_isActive)
 			ActivateObjective(entity);
 	}
 	
-	void RegisterMarkerLocal(IEntity entity)
+	void SpawnMarker(IEntity entity)
 	{
-		Print("GRAY.RegisterMarkerLocal");
 		GC_CommandosObjRegister objRegister = GC_CommandosObjRegister.Cast(entity.FindComponent(GC_CommandosObjRegister));
 		if(!objRegister || !objRegister.m_registerMarker)
 			return;
-		Print("GRAY.RegisterMarkerLocal2");
+
 		EntitySpawnParams params = new EntitySpawnParams();
 		params.Transform[3] = entity.GetOrigin();
 		PS_ManualMarker marker = PS_ManualMarker.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_markerPrefab), GetGame().GetWorld(), params));
-		
+
 		string name;
 		if(objRegister.m_registerMarker)
 			name = objRegister.m_markerName;
@@ -504,7 +512,19 @@ class GC_CommandosDefectorDestroy : GC_CommandosDefector
 		SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
 		Faction faction = fm.GetFactionByKey("RHS_AFRF");
 		marker.SetVisibleForFaction(faction, true);
-		Print("GRAY.RegisterMarkerLocal3");
+	}
+	
+	override void ActivateLocal()
+	{
+		foreach(IEntity entity : entities)
+		{
+			SpawnMarker(entity);
+		}
+		
+		PS_MissionDescription brief = SpawnBriefing();
+		brief.SetShowForAnyFaction(true);
+		
+		GetGame().SpawnEntityPrefab(Resource.Load("{E2A878A34285BDFB}worlds/arc/CommandosReforged/Prefabs/Defector_Brief.et"));
 	}
 }
 
@@ -524,7 +544,7 @@ class GC_CommandosTracker : GC_CommandosDestroyed
 		{
 			RegisterTracker(entity);
 		}
-		
+		Print("GRAY.CallLater UpdateTracker");
 		GetGame().GetCallqueue().CallLater(UpdateTracker, m_updateDelay * 1000, true)
 	}
 	
@@ -538,9 +558,10 @@ class GC_CommandosTracker : GC_CommandosDestroyed
 	
 	void UpdateTracker()
 	{
+		Print("GRAY.UpdateTracker");
 		foreach(GC_CommandosTrackerData tracker : m_trackers)
 		{
-			tracker.Update();
+			tracker.UpdateTracker();
 		}
 	}
 	
@@ -579,8 +600,6 @@ class GC_CommandosDestroyed : GC_CommandosObj
 	
 	void ActivateObjective(IEntity entity)
 	{
-		Print("GRAY.ActivateObjective = " + this);
-		
 		SCR_DamageManagerComponent dmc = SCR_DamageManagerComponent.Cast(entity.FindComponent(SCR_DamageManagerComponent));
 		if(!dmc)
 			return;
@@ -726,8 +745,23 @@ class GC_CommandosTrackerData
 		m_marker = marker;
 	}
 	
-	void Update()
+	void UpdateTracker()
 	{
-		m_marker.SetOrigin(m_entity.GetOrigin());
+		m_marker.UpdatePosition(m_entity.GetOrigin());
+	}
+}
+
+modded class PS_ManualMarker
+{
+	void UpdatePosition(vector position)
+	{
+		RPC_ActivateObjective(position);
+		Rpc(RPC_ActivateObjective, position);
+	}
+	
+	[RplRpc(RplChannel.Reliable, RplRcver.Broadcast)]
+	protected void RPC_ActivateObjective(vector position)
+	{
+		SetOrigin(position);
 	}
 }

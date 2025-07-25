@@ -22,7 +22,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Mission by arc, inspired by the original by Krause and the remake by Weapon X"\
   ""\
   "End conditions:"\
-  "3 objectives complete and 90% of surviving forces extract to an insertion point: US Victory"\
+  "All Objectives: US Victory"\
   "90% US casualties or 75 minutes pass after setup: RU Victory"\
   ""\
   "Objective selection is randomized for US, you must perform the objectives you're given for it to count."\
@@ -31,9 +31,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Both teams are permitted to take Radios from the dead."\
   ""\
-  "Do NOT metagame or set up based on knowledge of the US insertion points from a previous playthrough, this is largely a placeholder until we have real boats."
+  "Dogs can smell you, be careful!"\
+  ""\
+  "Defectors exist, becareful who you're with. Who knows what their objective is."\
+  "(Cannot be the Political Officer, Base Commander, or Dog/Handler)"\
+  ""\
+  "Do NOT metagame or set up based on knowledge of the US insertion points from a previous playthrough."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 10
+  m_iOrder 15
  }
 }

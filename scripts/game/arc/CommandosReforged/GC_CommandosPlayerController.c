@@ -4,6 +4,10 @@ class GC_CommandosPlayerControllerClass : SCR_PlayerControllerClass
 
 class GC_CommandosPlayerController : SCR_PlayerController
 {
+	static GC_CommandosPlayerController GetInstance(int playerId)
+	{
+		return GC_CommandosPlayerController.Cast(GetGame().GetPlayerManager().GetPlayerController(playerId));
+	}
 	
 	void ActivateObjective(string name)
 	{
