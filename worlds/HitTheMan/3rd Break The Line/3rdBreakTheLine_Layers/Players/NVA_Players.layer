@@ -303,10 +303,10 @@ $grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.e
     }
    }
   }
-  coords 3736.034 20.232 2468.829
-  angleX -1.116
-  angleY -60.467
-  angleZ -1.66
+  coords 3750.247 20.672 2525.175
+  angleX -2.001
+  angleY -95.512
+  angleZ -1.239
   m_sAttachmentGroupName "RifleSquad_1"
   {
    EnvironmentProbeEntity {
@@ -433,10 +433,10 @@ $grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.e
     }
    }
   }
-  coords 3753.818 20.931 2526.448
-  angleX -2.242
-  angleY -93.934
-  angleZ 0.123
+  coords 3734.482 20.523 2470.339
+  angleX -1.684
+  angleY -49.374
+  angleZ -1.485
   m_sAttachmentGroupName "RifleSquad_2"
   {
    EnvironmentProbeEntity {
@@ -593,10 +593,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 6
    }
   }
-  coords 3741.148 20.277 2469.222
-  angleX -1.613
-  angleY -150.365
-  angleZ 0.221
+  coords 3754.207 20.792 2528.433
+  angleX -1.194
+  angleY 174.58
+  angleZ 1.107
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{6DECFF331066F950}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_GunnerRadio_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
@@ -619,7 +619,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 7
    }
   }
-  coords 3757.246 21.049 2528.819
+  coords 3750.575 21.537 2574.651
   angleX 0.169
   angleY 174.753
   angleZ 1.344
@@ -644,10 +644,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 8
    }
   }
-  coords 3749.701 21.689 2574.032
-  angleX 1.123
-  angleY 172.393
-  angleZ 1.656
+  coords 3739.808 20.401 2469.874
+  angleX -0.614
+  angleY -138.404
+  angleZ 1.157
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{6DECFF331066F950}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_GunnerRadio_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
@@ -880,7 +880,7 @@ $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 5
    }
   }
-  coords 3751.911 20.812 2521.938
+  coords 3749.588 20.814 2521.691
   angleX -0.08
   angleY -2.85
   angleZ -2.243

@@ -1,0 +1,9 @@
+SCR_AIWorld : "{A47BA159988C732F}Prefabs/AI/SCR_AIWorld_Ruha.et" {
+ coords 3432.345 82.851 7136.81
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3432.578 82.832 7133.292
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3425.197 82.915 7130.933
+}

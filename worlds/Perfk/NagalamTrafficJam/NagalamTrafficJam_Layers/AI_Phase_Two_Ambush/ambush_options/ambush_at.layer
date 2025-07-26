@@ -1,0 +1,12 @@
+$grp GenericEntity {
+ Spawn_ambush_at {
+  coords 971.69 30.76 3257.521
+ }
+ Spawn_at_mine_1 {
+  coords 972.823 32.031 3245.309
+ }
+}
+SCR_DefendWaypoint WP_Defend_Road_AT : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ coords 970.624 30.7 3254.866
+ CompletionRadius 5
+}

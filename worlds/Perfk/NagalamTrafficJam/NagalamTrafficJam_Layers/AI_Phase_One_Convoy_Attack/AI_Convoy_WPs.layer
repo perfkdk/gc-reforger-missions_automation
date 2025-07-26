@@ -1,36 +1,40 @@
 $grp GenericEntity {
  Spawn_1 {
-  coords 1910.742 14.985 3613.046
+  coords 1924.328 15.237 3633.578
  }
  Spawn_3 {
-  coords 2006.088 16.993 3832.995
+  coords 2006.009 17.193 3844.957
  }
  Spawn_4 {
-  coords 2105.495 22.71 3860.468
+  coords 2136.804 23.246 3869.126
  }
  Spawn_5 {
   coords 2178.031 22.642 3761.918
  }
  Spawn_6 {
-  coords 2205.954 21.82 3706.307
+  coords 2242.31 23.379 3702.978
  }
  Spawn_7 {
-  coords 2161.465 16.17 3486.199
+  coords 2134.148 14.373 3542.021
  }
  Spawn_8 {
   coords 1990.33 41.031 3441.743
  }
  Spawn_2 {
-  coords 1883.814 30.357 3766.07
+  coords 1768.334 53.562 3610.935
  }
  Spawn_9 {
-  coords 1871.868 71.592 3418.47
+  coords 1984.829 15.337 3561.179
  }
+}
+SCR_AIWaypoint WP_FM_Convoy_Center : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ coords 2051.644 19.618 3650.3
+ CompletionRadius 25
 }
 $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
  PresenceTrigger_Group_1 {
   coords 2048.164 20.152 3660.893
-  m_queryRadius 250
+  m_queryRadius 300
   m_comparisonMode EQUAL_OR_LESS
   m_flagName "Group_1_is_not_present"
   m_drawShapeOutline 0
@@ -41,7 +45,7 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
  }
  PresenceTrigger_Group_2 {
   coords 2048.164 20.152 3660.893
-  m_queryRadius 250
+  m_queryRadius 300
   m_comparisonMode EQUAL_OR_LESS
   m_flagName "Group_2_is_not_present"
   m_drawShapeOutline 0
@@ -52,7 +56,7 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
  }
  PresenceTrigger_Group_3 {
   coords 2048.164 20.152 3660.893
-  m_queryRadius 250
+  m_queryRadius 300
   m_comparisonMode EQUAL_OR_LESS
   m_flagName "Group_3_is_not_present"
   m_drawShapeOutline 0
@@ -63,5 +67,5 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
  }
 }
 SCR_SearchAndDestroyWaypoint WP_SD_Convoy_Center : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
- coords 2058.26 20.49 3647.997
+ coords 2035.909 20.49 3685.217
 }

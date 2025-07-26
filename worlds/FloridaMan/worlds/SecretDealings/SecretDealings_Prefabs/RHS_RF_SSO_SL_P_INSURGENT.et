@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{805EA9F7914FE2A6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_SL_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterFactionAffiliationComponent "{6062F6587469882D}" {
+   "faction affiliation" "GC_INSURGENT"
+  }
+ }
+ coords 3467.837 82.781 7136.807
+}
