@@ -66,6 +66,10 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
       MaxFuel 0
       m_fInitialFuelTankState 0
      }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
     }
    }
   }
@@ -74,7 +78,7 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleY 80.224
   angleZ -0.304
  }
- Ural4320_transport_covered6 {
+ Ural4320_transport_covered3 {
   components {
    BaseLightManagerComponent "{51E210F17D2534F7}" {
     LightsEnabled 1
@@ -85,13 +89,17 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
       MaxFuel 0
       m_fInitialFuelTankState 0
      }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
     }
    }
   }
-  coords 1475.27 37.898 2935.658
-  angleX 1.771
-  angleY 98.219
-  angleZ 0.256
+  coords 1474.39 37.979 2937.759
+  angleX 1.716
+  angleY 106.558
+  angleZ 0.51
  }
 }
 Vehicle Mi8MT_unarmed_transport1 : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et" {
