@@ -1,0 +1,37 @@
+SCR_EntityWaypoint AIWaypoint_MainAttack : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et" {
+ coords 6049.167 110.779 11619.877
+ CompletionRadius 15
+}
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ DefendWaypoint_Oil_Depots {
+  coords 5725.556 108.969 11141.116
+ }
+ DefendWaypoint_Hangers {
+  coords 5909.342 108.969 11328.562
+  CompletionRadius 150
+ }
+ DefendWaypoint_Main_Warehouse_Complex {
+  coords 6145.207 108.969 11567.311
+  CompletionRadius 80
+ }
+ DefendWaypoint_North_Warehouse {
+  coords 5987.677 108.969 11947.485
+  CompletionRadius 50
+ }
+ Fort_A_Defend {
+  coords 6462.884 127.846 11818.84
+  CompletionRadius 35
+ }
+ Fort_B_Defend {
+  coords 6380.925 180.234 12299.551
+  CompletionRadius 35
+ }
+ Fort_C_Defend {
+  coords 5673.521 123.898 11706.771
+  CompletionRadius 35
+ }
+ Fort_D_Defend {
+  coords 5390.695 135.875 10783.619
+  CompletionRadius 35
+ }
+}
