@@ -49,5 +49,8 @@ SCR_ChimeraCharacter : "{8E323C4D67938F11}worlds/arc/CommandosReforged/Prefabs/O
     }
    }
   }
+  GC_CommandosObjRegister "{65FE1DE6FACE2D27}" {
+   m_objectiveName "Air Traffic Controller"
+  }
  }
 }

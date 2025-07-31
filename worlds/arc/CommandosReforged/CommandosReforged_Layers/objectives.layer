@@ -549,13 +549,6 @@ $grp GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.
   }
  }
 }
-TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
- coords 1554.819 1.383 3474.376
- m_queryRadius 30
- m_flagName "US_EXTRACTED_N"
- m_factionKey "RHS_USAF"
- m_ratioThreshold 0.9
-}
 GenericEntity : "{19C337D98667D3E6}worlds/arc/CommandosReforged/Prefabs/Ship.et" {
  components {
   GC_CommandosObjRegister "{65E457576C2C33DB}" {
@@ -1891,6 +1884,43 @@ RHS_Tank Tank_OBJ : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et"
  coords 1559.987 38.04 2976.025
  angleY 120.971
 }
+Vehicle AUS_UH60_armed1 : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
+ components {
+  GC_CommandosObjRegister "{65FE1DEC165EA717}" {
+   m_objectiveName "Black Hawk"
+   m_registerMarker 1
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5E9AE02488359898}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5E9AE0248D00D20B}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5E9AE0248101059B}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+  SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     "Explosive multiplier" 100
+    }
+   }
+  }
+ }
+ coords 1387.202 39 2244.822
+ angleY 148.473
+}
 GenericEntity Il_76_OBJ : "{522DEDD6E6C0E6C4}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76_USSR_static.et" {
  coords 1441.128 38 2927.267
  angleY 164.848
@@ -1978,57 +2008,37 @@ GenericEntity Il_76_OBJ : "{522DEDD6E6C0E6C4}Prefabs/Vehicles/Airplanes/IL76/Pla
   }
  }
 }
-Vehicle AUS_MH60_DAP_Battlehawk1 : "{62E2D368AB3CEE04}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60_DAP_Battlehawk.et" {
+GenericEntity : "{5C9A089F424D8001}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Weapon_01_US.et" {
  components {
-  GC_CommandosObjRegister "{65E45BDD50E96404}" {
-   m_objectiveName "Black Hawk"
+  GC_CommandosObjRegister "{65FE1A54B097DDB7}" {
+   m_objectiveName "Mi-8"
    m_registerMarker 1
+   m_markerName "Igla Cache"
   }
-  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-   FuelNodes {
-    SCR_FuelNode "{5622A70CD4036C5A}" {
-     MaxFuel 0
-     m_fInitialFuelTankState 0
-    }
-    SCR_FuelNode "{5E9AE02488359898}" {
-     MaxFuel 0
-     m_fInitialFuelTankState 0
-    }
-    SCR_FuelNode "{5E9AE0248D00D20B}" {
-     MaxFuel 0
-     m_fInitialFuelTankState 0
-    }
-    SCR_FuelNode "{5E9AE0248101059B}" {
-     MaxFuel 0
-     m_fInitialFuelTankState 0
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{65F33DD29F348572}" {
+     SlotTemplate InventoryStorageSlot sniper {
+      Prefab "{962C400354E4BD6C}Prefabs/Weapons/Launchers/9K38_IGLA/Launcher_9K38_IGLA.et"
+     }
+     NumSlots 50
     }
    }
   }
-  SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
-   "Additional hit zones" {
-    SCR_FlammableHitZone Hull {
-     "Explosive multiplier" 10
-    }
-    SCR_FuelHitZone FuelTank_01 {
-     "Explosive multiplier" 5
-    }
-    SCR_FuelHitZone FuelTank_02 {
-     "Explosive multiplier" 5
-    }
-    SCR_FuelHitZone FuelTank_03 {
-     "Explosive multiplier" 5
-    }
-    SCR_FuelHitZone FuelTank_04 {
-     "Explosive multiplier" 5
-    }
-    SCR_FuelHitZone FuelTank_05 {
-     "Explosive multiplier" 5
-    }
-   }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
   }
  }
- coords 1386.89 39 2247.512
- angleY 149.339
+ coords 1309.265 34.165 2603.667
+ angleY -174.591
+ scale 1.5
 }
 GenericEntity : "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et" {
  components {

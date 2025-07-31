@@ -17,6 +17,7 @@ class GC_CommandosPlayerController : SCR_PlayerController
 	[RplRpc(RplChannel.Reliable, RplRcver.Owner)]
 	protected void RPC_ActivateObjective(string name)
 	{
+		Print("GRAY.RPC_ActivateObjective = " + name);
 		GC_CommandosManager cm = GC_CommandosManager.GetInstance();
 		GC_CommandosDefector obj = GC_CommandosDefector.Cast(cm.GetObjective(name));
 		if(!obj)

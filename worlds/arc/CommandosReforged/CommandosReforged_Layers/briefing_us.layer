@@ -12,13 +12,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3607.677 0 3254.545
   m_sTitle "II. Friendly Forces"
-  m_sTextData "Max 10 CIA SAD agents."\
+  m_sTextData "Max 12 CIA SAD agents."\
   ""\
   "Equipped with suppressed M4s, NVGs and GPS/Compass watches."\
   ""\
-  "Wearing black and M81 woodland camo."\
+  "Wearing black."\
   ""\
-  "3x wirecutters are available at our spawn."
+  "Supplies, including MP5s, SMAWs and other tactical gear in crates at sapwn."\
+  ""\
+  "5x Enemy kits available at spawn for disguise."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -26,7 +28,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3626.917 0 3236.123
   m_sTitle "III. Enemy Forces"
-  m_sTextData "Approximately 40 Russian base guards patrolling the premises."\
+  m_sTextData "Approximately 50 Russian base guards patrolling the premises."\
   ""\
   "Wearing VSR '93 camo, equipped with AK74s, PKMs and SVDs. Not expected to be night vision capable, but will be equipped with flashlights and flares."
   m_aVisibleForFactions {
@@ -36,7 +38,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3639.229 0 3225.604
   m_sTitle "IV. Mission"
-  m_sTextData "Insert via one of the 4 marked insertion points on the map, complete your 3 assigned objectives then extract to one of the marked insertion points. We will only be able to perform extraction one time from one area, so make sure you all head to the same extraction point."\
+  m_sTextData "Insert via one of the 4 marked insertion points on the map, complete your assigned objectives(In briefing)."\
   ""\
   "Achieve this within 75 minutes after setup."
   m_aVisibleForFactions {

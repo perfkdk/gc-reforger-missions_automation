@@ -8,7 +8,7 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 	[Attribute(defvalue: "5", UIWidgets.Auto)]
 	protected int m_minObjectiveCount;
 	
-	[Attribute(defvalue: "7", UIWidgets.Auto)]
+	[Attribute(defvalue: "8", UIWidgets.Auto)]
 	protected int m_maxObjectiveCount;
 	
 	[Attribute(defvalue: "", UIWidgets.Object)]
@@ -301,7 +301,13 @@ class GC_CommandosObj
 	
 	PS_MissionDescription SpawnBriefing()
 	{
-		PS_MissionDescription brief = PS_MissionDescription.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_briefingPrefab)));
+		PS_MissionDescription brief;
+		if(RplSession.Mode() == RplMode.Dedicated)
+		{
+			brief = PS_MissionDescription.Cast(GetGame().SpawnEntityPrefab(Resource.Load(m_briefingPrefab)));
+		}else{
+			brief = PS_MissionDescription.Cast(GetGame().SpawnEntityPrefabLocal(Resource.Load(m_briefingPrefab)));
+		}
 		brief.SetTitle("Objective: " + m_name);
 		brief.SetTextData(m_briefingDescription);
 		return brief;
@@ -393,9 +399,7 @@ class GC_CommandosDefector : GC_CommandosObjWeight
 			if(!pc)
 				continue;
 			
-			Print("GRAY.FindDefector name = " + pc.GetName());
-			Print("GRAY.FindDefector m_blacklist = " + m_blacklist);
-			if(m_blacklist.Contains(pc.GetName()))
+			if(m_blacklist.Contains(pc.GetRoleName()))
 				continue;
 			
 			Print("GRAY.FindDefector = " + playerId);
@@ -412,7 +416,7 @@ class GC_CommandosDefector : GC_CommandosObjWeight
 		
 		if(m_defectorId != playerId)
 			return;
-		
+
 		RPC_ActivateLocal(playerId);
 	}
 	
@@ -516,6 +520,7 @@ class GC_CommandosDefectorDestroy : GC_CommandosDefector
 	
 	override void ActivateLocal()
 	{
+		Print("GRAY.ActivateLocal = " + m_name);
 		foreach(IEntity entity : entities)
 		{
 			SpawnMarker(entity);
@@ -524,14 +529,15 @@ class GC_CommandosDefectorDestroy : GC_CommandosDefector
 		PS_MissionDescription brief = SpawnBriefing();
 		brief.SetShowForAnyFaction(true);
 		
-		GetGame().SpawnEntityPrefab(Resource.Load("{E2A878A34285BDFB}worlds/arc/CommandosReforged/Prefabs/Defector_Brief.et"));
+		GetGame().SpawnEntityPrefabLocal(Resource.Load("{E2A878A34285BDFB}worlds/arc/CommandosReforged/Prefabs/Defector_Brief.et"));
+		GetGame().GetMenuManager().OpenMenu(ChimeraMenuPreset.BriefingMapMenu);
 	}
 }
 
 [BaseContainerProps()]
 class GC_CommandosTracker : GC_CommandosDestroyed
 {
-	[Attribute(defvalue: "120", uiwidget: UIWidgets.Auto, desc: "Seconds to update tracker marker")]
+	[Attribute(defvalue: "45", uiwidget: UIWidgets.Auto, desc: "Seconds to update tracker marker")]
 	protected int m_updateDelay;
 	
 	protected ref array<ref GC_CommandosTrackerData> m_trackers = {};
@@ -544,7 +550,6 @@ class GC_CommandosTracker : GC_CommandosDestroyed
 		{
 			RegisterTracker(entity);
 		}
-		Print("GRAY.CallLater UpdateTracker");
 		GetGame().GetCallqueue().CallLater(UpdateTracker, m_updateDelay * 1000, true)
 	}
 	
@@ -558,7 +563,6 @@ class GC_CommandosTracker : GC_CommandosDestroyed
 	
 	void UpdateTracker()
 	{
-		Print("GRAY.UpdateTracker");
 		foreach(GC_CommandosTrackerData tracker : m_trackers)
 		{
 			tracker.UpdateTracker();

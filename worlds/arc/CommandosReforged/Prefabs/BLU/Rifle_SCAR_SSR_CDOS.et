@@ -3,9 +3,14 @@ GenericEntity : "{D0B336774F33A45B}Prefabs/Weapons/Rifles/SCAR_SSR/Rifle_SCAR_SS
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
+    AttachmentSlotComponent "{64E4FBE6B5E8ADA2}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Prefab "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+     }
+    }
     AttachmentSlotComponent "{64E4FBE6B5E8ADA4}" {
      AttachmentSlot InventoryStorageSlot optic_ris {
-      Prefab "{E9E4B001C12E71F8}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_SchmidtBender_PMII_5-25x/Optic_SchmidtBender_PMII_5-25x_base.et"
+      Prefab "{36EF773EB236A891}Prefabs/Weapons/Attachments/Optics/ta648mdo/Optic_TA648MDO_rmr.et"
      }
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {

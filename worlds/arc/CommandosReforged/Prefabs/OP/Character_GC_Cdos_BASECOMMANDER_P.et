@@ -12,6 +12,8 @@ SCR_ChimeraCharacter : "{CC3E84140343D82E}Prefabs/Characters/Factions/OPFOR/RHS_
     }
    }
   }
+  GC_CommandosFootPrints "{65FE1DE354E70056}" {
+  }
   GC_CommandosObjRegister "{65E45BD6D5F3D22D}" {
    m_objectiveName "Base Commander"
   }

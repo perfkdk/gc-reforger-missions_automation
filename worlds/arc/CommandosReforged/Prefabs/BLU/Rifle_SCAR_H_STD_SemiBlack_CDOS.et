@@ -5,7 +5,7 @@ GenericEntity : "{B0F70FE3FC30D7E6}Prefabs/Weapons/Rifles/SCAR_H/Rifle_SCAR_H_ST
    components {
     AttachmentSlotComponent "{64615D5DD76DAECE}" {
      AttachmentSlot InventoryStorageSlot optic_ris {
-      Prefab "{7A5A21F5F2F508CA}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_tan.et"
+      Prefab "{36EF773EB236A891}Prefabs/Weapons/Attachments/Optics/ta648mdo/Optic_TA648MDO_rmr.et"
      }
     }
     AttachmentSlotComponent "{65F359390E3A54A2}" {

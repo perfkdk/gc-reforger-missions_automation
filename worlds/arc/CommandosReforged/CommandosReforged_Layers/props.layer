@@ -623,19 +623,19 @@ GenericEntity : "{5C9A089F424D8001}Prefabs/Props/Military/AmmoBoxes/US/Equipment
      SlotTemplate InventoryStorageSlot su230 {
       Prefab "{7DB681643152613C}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS.et"
      }
-     NumSlots 2
+     NumSlots 5
     }
     MultiSlotConfiguration "{65F3592A4BD02D77}" {
      SlotTemplate InventoryStorageSlot eotech {
       Prefab "{D0453107F44917CF}Prefabs/Weapons/Attachments/Optics/exps/Optic_su231A_black.et"
      }
-     NumSlots 6
+     NumSlots 10
     }
     MultiSlotConfiguration "{65F3592D8E49ADB5}" {
      SlotTemplate InventoryStorageSlot aimpoint {
       Prefab "{FC763C05CFC59BEF}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_AimpointPRO/Collim_AIMPOINT-PRO_blk.et"
      }
-     NumSlots 6
+     NumSlots 10
     }
     MultiSlotConfiguration "{65F3592FFBD68B70}" {
      SlotTemplate InventoryStorageSlot thermal {
@@ -648,6 +648,18 @@ GenericEntity : "{5C9A089F424D8001}Prefabs/Props/Military/AmmoBoxes/US/Equipment
       Prefab "{085AB57005296E19}Prefabs/Weapons/Attachments/Optics/reap_ir/snipe_ir_acog.et"
      }
      NumSlots 1
+    }
+    MultiSlotConfiguration "{65FE1DE93CD19734}" {
+     SlotTemplate InventoryStorageSlot Test {
+      Prefab "{AB5AAFA893C60C2D}Prefabs/Weapons/Magazines/Magazine_127x99_M107A1_10rnd_M33_M10.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{65FE1DE950F50081}" {
+     SlotTemplate InventoryStorageSlot Test2 {
+      Prefab "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/Magazine_127x99_M107A1_10rnd_M2.et"
+     }
+     NumSlots 10
     }
    }
   }
@@ -1791,24 +1803,6 @@ $grp GenericEntity : "{93B2511EFB2B6A51}Prefabs/Props/Military/MilitaryCrates/Cr
   angleY -33.694
  }
 }
-$grp GenericEntity : "{962C400354E4BD6C}Prefabs/Weapons/Launchers/9K38_IGLA/Launcher_9K38_IGLA.et" {
- {
-  coords 1309.23 34.746 2603.503
-  angleY 93.423
- }
- {
-  coords 1309.243 34.722 2603.995
-  angleY 93.423
- }
- {
-  coords 1309.257 34.72 2603.852
-  angleY 93.423
- }
- {
-  coords 1309.248 34.715 2603.685
-  angleY 93.423
- }
-}
 $grp DecalEntity : "{96F86A5624E9C5E3}Prefabs/Decals/Asphalt/Decal_Asphalt_Patch_Blob_01.et" {
  {
   coords 1171.4 -0.069 2946.222
@@ -2150,22 +2144,6 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
   angleX -0.116
   angleY -100.967
   angleZ 0.051
- }
- {
-  components {
-   GC_CommandosObjRegister "{65E31C540D9D3E84}" {
-    m_objectiveName "Mi-8"
-    m_registerMarker 1
-    m_markerName "Igla Cache"
-   }
-   Hierarchy "{54A6A39C75EAFE2C}" {
-    Enabled 1
-   }
-  }
-  coords 1309.186 33.911 2603.769
-  angleX -0.85
-  angleY -87.15
-  angleZ -0.938
  }
  {
   components {

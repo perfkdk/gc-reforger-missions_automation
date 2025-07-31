@@ -95,7 +95,7 @@ class GC_CommandosFootPrints : ScriptComponent
 		SCR_ChimeraCharacter character = SCR_ChimeraCharacter.Cast(GetOwner());
 		if(!character || character.IsInVehicle())
 			return;
-		
+
 		CharacterControllerComponent controller = character.GetCharacterController();
 		if(controller.GetMovementSpeed() <= 0)
 			return;
@@ -137,6 +137,8 @@ class GC_CommandosFootPrints : ScriptComponent
 	
 	protected void CreateDecal(TraceParam trace, ResourceName mat, int color = Color.WHITE)
 	{
+		Print("GRAY.Foot CreateDecal = " + this);
+		
 		if(!trace.TraceEnt)
 			return;
 		

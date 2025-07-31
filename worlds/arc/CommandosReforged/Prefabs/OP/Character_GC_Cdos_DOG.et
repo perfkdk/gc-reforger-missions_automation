@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{B692B5F052AA3EF1}Prefabs/Characters/Factions/CIV/Dockwo
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Scientist"
+    Name "Dog"
     m_Image "{0A02A0ACEAEEABA3}UI/Textures/EditorPreviews/Characters/CIV/Character_CIV_DockWorker_2.edds"
     m_sFaction "RHS_AFRF"
    }

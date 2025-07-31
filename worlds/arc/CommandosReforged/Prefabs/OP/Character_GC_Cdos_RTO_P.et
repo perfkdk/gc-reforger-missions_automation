@@ -23,5 +23,8 @@ SCR_ChimeraCharacter : "{6A430E77F7E6B27A}worlds/arc/CommandosReforged/Prefabs/O
     }
    }
   }
+  GC_CommandosObjRegister "{65FE1DE6FACE2D27}" {
+   Enabled 0
+  }
  }
 }

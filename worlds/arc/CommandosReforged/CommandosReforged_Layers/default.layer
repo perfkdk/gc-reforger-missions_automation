@@ -37,8 +37,6 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   GC_CommandosManager "{659C5DFB11CD048A}" {
-   m_minObjectiveCount 60
-   m_maxObjectiveCount 2222
    m_objectives {
     GC_CommandosObj "{65BB1908ED43E40C}" {
      m_name "Power Station"
@@ -120,17 +118,53 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
     }
     GC_CommandosTracker "{65E46E83B3E951D1}" {
      m_name "Political Officer"
-     m_briefingDescription "Kill the Kill the Political Officer, being tracked by a drone (Marker on map moves), being tracked by a drone (Marker on map moves)"
+     m_briefingDescription "Kill the Political Officer, being tracked by a drone (Marker on map moves)"
+     m_markerPrefab "{2E08E7B7914EB585}worlds/arc/CommandosReforged/Prefabs/Objective_Marker.et"
+    }
+    GC_CommandosTracker "{65FE1DECFD7E6750}" {
+     m_name "Scientist"
+     m_briefingDescription "Kill the Scientist, being tracked by a drone (Marker on map moves)"
+     m_markerPrefab "{2E08E7B7914EB585}worlds/arc/CommandosReforged/Prefabs/Objective_Marker.et"
+    }
+    GC_CommandosTracker "{65FE1DE6EE051CDF}" {
+     m_name "Air Traffic Controller"
+     m_briefingDescription "Kill the Air Traffic Controller, being tracked by a drone (Marker on map moves)"
      m_markerPrefab "{2E08E7B7914EB585}worlds/arc/CommandosReforged/Prefabs/Objective_Marker.et"
     }
     GC_CommandosDefectorDestroy "{65E46E86EAA11372}" {
      m_name "Mi-8"
      m_briefingDescription "Destroy the MI-8 using an Igla (Cache Marked on map)"
+     m_chance 0.25
+     m_blacklist {
+      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew"
+     }
     }
     GC_CommandosDefectorDestroy "{65F27573FB51061D}" {
      m_name "Assassinate Base Commander"
-     m_objectiveCompletedMsg "The %1 has been assassinated!"
+     m_objectiveCompletedMsg "The Base Commander has been assassinated!"
      m_briefingDescription "Assassinate the Base Commander"
+     m_chance 0.25
+     m_blacklist {
+      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew"
+     }
+    }
+    GC_CommandosDefectorDestroy "{65FE1DE08226E680}" {
+     m_name "Assassinate Political Officer"
+     m_objectiveCompletedMsg "The Political Officer has been assassinated!"
+     m_briefingDescription "Assassinate the Political Officer"
+     m_chance 0.25
+     m_blacklist {
+      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew"
+     }
+    }
+    GC_CommandosDefectorDestroy "{65FE1DE082DB9717}" {
+     m_name "Assassinate Scientist"
+     m_objectiveCompletedMsg "The Scientist has been assassinated!"
+     m_briefingDescription "Assassinate the Scientist"
+     m_chance 0.25
+     m_blacklist {
+      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew" "Scientist"
+     }
     }
    }
   }
@@ -200,6 +234,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        }
        SCR_CallsignInfo "{55CCB792D13759D8}" {
         m_sCallsign "Bravo"
+       }
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+        m_sCallsign "Charlie"
        }
       }
       m_sCallsignGroupFormat "%3"

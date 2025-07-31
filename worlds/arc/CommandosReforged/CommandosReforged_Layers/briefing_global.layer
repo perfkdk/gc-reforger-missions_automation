@@ -8,8 +8,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "US teleports to any of their insertion points after setup by using flagpoles at their spawn."\
   ""\
-  "No AO limit, RU are restricted to a 600m restriction zone during setup (you can freely move within the base but not leave it during setup). This is to prevent insertion point camping/metagaming."\
-  ""\
   "DO NOT SWAP FROM US TO RU AFTER ENTERING BRIEFING"\
   ""\
   "5 minute setup, 75 minute TL."
@@ -33,7 +31,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Dogs can smell you, be careful!"\
   ""\
-  "Defectors exist, becareful who you're with. Who knows what their objective is."\
+  "Defectors exist, becareful who you're with. Who knows what their objective is?"\
   "(Cannot be the Political Officer, Base Commander, or Dog/Handler)"\
   ""\
   "Do NOT metagame or set up based on knowledge of the US insertion points from a previous playthrough."
