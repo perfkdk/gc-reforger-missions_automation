@@ -9,7 +9,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{65E365F2E8BB73ED}" {
    m_sFactionKey "US"
-   m_iCount 10
+   m_iCount 0
    m_iTime 0
   }
  }
@@ -121,7 +121,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_EditRespawnTicketsInstruction "{65E365D4168B7902}" {
      m_executionDelay 0
      m_factionKey "US"
-     m_amount 20
+     m_amount 5
      m_allowSpecRespawn 1
     }
     TILW_SetFlagInstruction "{65E55DB930AF001F}" {
@@ -147,7 +147,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_EditRespawnTicketsInstruction "{65E365D46AD62AD4}" {
      m_executionDelay 0
      m_factionKey "US"
-     m_amount 30
+     m_amount 10
     }
     TILW_SetFlagInstruction "{65FB5856EF1EFAED}" {
      m_executionDelay 0

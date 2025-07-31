@@ -35,6 +35,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   coords 5396.74 136.396 10777.554
   m_prefab "{394CBF3725B7D9A4}worlds/HotMic/Prefabs/Characters/Afghan/GC_INS_Afghan_Squad_WithAA_HotMIc.et"
   m_conditionFlag "Spawn Enemies Median"
+  m_spawnTimings {
+   20
+  }
   m_waypointNames {
    "Fort_D_Defend"
   }
@@ -59,6 +62,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   coords 6376.145 180.728 12294.055
   m_prefab "{394CBF3725B7D9A4}worlds/HotMic/Prefabs/Characters/Afghan/GC_INS_Afghan_Squad_WithAA_HotMIc.et"
   m_conditionFlag "Spawn Enemies Median"
+  m_spawnTimings {
+   5
+  }
   m_waypointNames {
    "Fort_B_Defend"
   }
@@ -67,6 +73,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   coords 5682.502 125.65 11727.149
   m_prefab "{394CBF3725B7D9A4}worlds/HotMic/Prefabs/Characters/Afghan/GC_INS_Afghan_Squad_WithAA_HotMIc.et"
   m_conditionFlag "Spawn Enemies Median"
+  m_spawnTimings {
+   15
+  }
   m_waypointNames {
    "Fort_C_Defend"
   }
@@ -91,6 +100,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   coords 5393.95 136.396 10802.224
   m_prefab "{394CBF3725B7D9A4}worlds/HotMic/Prefabs/Characters/Afghan/GC_INS_Afghan_Squad_WithAA_HotMIc.et"
   m_conditionFlag "Spawn Enemies Hard"
+  m_spawnTimings {
+   20
+  }
   m_waypointNames {
    "Fort_D_Defend"
   }
@@ -104,6 +116,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   coords 5678.054 124.872 11713.646
   m_prefab "{394CBF3725B7D9A4}worlds/HotMic/Prefabs/Characters/Afghan/GC_INS_Afghan_Squad_WithAA_HotMIc.et"
   m_conditionFlag "Spawn Enemies Hard"
+  m_spawnTimings {
+   15
+  }
   m_waypointNames {
    "Fort_C_Defend"
   }
@@ -112,6 +127,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   coords 6464.854 127.485 11836.543
   m_prefab "{394CBF3725B7D9A4}worlds/HotMic/Prefabs/Characters/Afghan/GC_INS_Afghan_Squad_WithAA_HotMIc.et"
   m_conditionFlag "Spawn Enemies Hard"
+  m_spawnTimings {
+   10
+  }
   m_waypointNames {
    "Fort_A_Defend"
   }
@@ -120,6 +138,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   coords 6391.191 182.555 12316.479
   m_prefab "{394CBF3725B7D9A4}worlds/HotMic/Prefabs/Characters/Afghan/GC_INS_Afghan_Squad_WithAA_HotMIc.et"
   m_conditionFlag "Spawn Enemies Hard"
+  m_spawnTimings {
+   5
+  }
   m_waypointNames {
    "Fort_B_Defend"
   }
@@ -181,6 +202,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   coords 6464.854 127.485 11827.459
   m_prefab "{394CBF3725B7D9A4}worlds/HotMic/Prefabs/Characters/Afghan/GC_INS_Afghan_Squad_WithAA_HotMIc.et"
   m_conditionFlag "Spawn Enemies Median"
+  m_spawnTimings {
+   10
+  }
   m_waypointNames {
    "Fort_A_Defend"
   }
