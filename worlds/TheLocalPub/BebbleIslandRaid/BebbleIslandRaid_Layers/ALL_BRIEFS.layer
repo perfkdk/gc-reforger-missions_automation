@@ -9,6 +9,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  MissionNotes {
   coords 2887.512 0 103.42
   m_sTitle "Mission Notes"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "|END CONDITIONS|"\
   "BLUFOR"\
   "- Total victory: Complete ALL objectives and extracted with 30% of current alive force."\
@@ -27,7 +28,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- AO limits: None"\
   ""\
   "This mission can be influenced by a GM/zeus at any time."\
-  "GM's have a max of 40x infantry pax, 3x soft skinned armed vehicles."\
+  "GM's have a max of 40x infantry pax, 3x soft skinned armed vehicles from the Agentine faction."\
   "The GM/Zeus should use their own reasonable discretion when it comes to spawning and placement of units."\
   ""\
   "Made by TheLocalPub. "\
