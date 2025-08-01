@@ -1,0 +1,49 @@
+$grp Vehicle : "{36EA87CEC1BE77E0}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK_Olive.et" {
+ JLTV_OGPK_Olive1 {
+  coords 4469.753 53.912 4342.925
+ }
+ JLTV_OGPK_Olive2 {
+  coords 4485.411 54 4336.023
+ }
+}
+Vehicle APC_K17_Epoch_camo1 : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camo1.et" {
+ coords 3772.416 59.069 1797.541
+}
+$grp Vehicle : "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/M1296/Stryker_Dragoon.et" {
+ Stryker_Dragoon1 {
+  coords 4482.33 54.001 4348.107
+  angleY 139
+ }
+ Stryker_Dragoon2 {
+  coords 4475.241 54 4355.201
+  angleY 139
+ }
+}
+$grp Vehicle : "{65FE6DD2E27E366E}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/Javelin/JLTV_CROWSII_Javelin_Olive.et" {
+ JLTV_CROWSII_Javelin_Olive1 {
+  coords 4480.503 54.001 4340.396
+ }
+ JLTV_CROWSII_Javelin_Olive2 {
+  coords 4475.538 53.954 4343.525
+ }
+}
+Vehicle GAZ_TIGR_v2_Arbalet_PKM1 : "{70BF53CF0F4D103F}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TIGR_v2_Arbalet_PKM.et" {
+ coords 3736.067 57.381 1826.645
+}
+Vehicle GAZ_TIGR_v2_Arbalet_KORD1 : "{7A21F47E09038E58}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TIGR_v2_Arbalet_KORD.et" {
+ coords 3741.349 57.779 1826.908
+}
+Vehicle GAZ_TIGR_v2_PKM_1P1 : "{7ACFD8FA081996F6}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_1P29.et" {
+ coords 3741.609 57.572 1834.895
+}
+Vehicle GAZ_TIGR_v2_AGS17_PAG1 : "{CEFC2B5C4334CADB}Prefabs/Vehicles/Wheeled/TIGR/AGS/GAZ_TIGR_v2_AGS17_PAG17.et" {
+ coords 3735.768 57.302 1834.761
+}
+$grp Vehicle : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
+ APC_K17_Berezok_camo1 {
+  coords 3767.094 59.139 1808.823
+ }
+ APC_K17_Berezok_camo2 {
+  coords 3775.015 59.11 1807.823
+ }
+}

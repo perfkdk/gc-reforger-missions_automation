@@ -1,0 +1,64 @@
+SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_PHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{66033D8C591570A5}" {
+   m_iCompanyCallsign 2
+   m_iSquadCallsign 1
+  }
+ }
+ coords 3754.298 58.681 1813.303
+}
+$grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{66033D8CA581BED8}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3754.235 58.811 1807.414
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{66033D8CB25DD38E}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3754.657 59.014 1800.203
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{66033D8CB25DD38E}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 4
+   }
+  }
+  coords 3754.568 58.931 1793.525
+ }
+}
+SCR_AIGroup : "{8CDE310457476BBE}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFRF_SSO_2020_PHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{66033D8C77D01B38}" {
+   m_iSquadCallsign 1
+  }
+ }
+ coords 3753.174 58.137 1835.675
+}
+$grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFRF_SSO_2020_Squad_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{66033D8C79D64A99}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3753.039 58.31 1831.652
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{66033D8C42857831}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3752.899 81.633 1825.773
+ }
+}
