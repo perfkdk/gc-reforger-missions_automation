@@ -35,7 +35,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 1592.659 69.175 6977.795
   m_sTitle "II. Friendly Forces"
-  m_sTextData "Company(-) strength RU located near Koskelankyla. x1 K-17 Mot Plt and x1 GAZ Tigr SSO Plt ."\
+  m_sTextData "Company(-) strength RU located near Koskelankyla. x1 K-17 Mot Plt(x2 Berezok; x1 Epoch) and x1 GAZ Tigr(x1 AGS; x1PKM; x1 RWS PK; x1 RWS KORD) SSO Plt ."\
   ""\
   "Wearing a mixture of camouflage patterns, equipped with Russian weaponry such as AK-74s, PKMs and SVDs."
   m_aVisibleForFactions {

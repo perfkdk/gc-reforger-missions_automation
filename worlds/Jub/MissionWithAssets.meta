@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{656D43AF343C48E1}Worlds/Jub/MissionWithAssets"
+ Configurations {
+  FolderResourceClass PC {
+  }
+  FolderResourceClass XBOX_ONE : PC {
+  }
+  FolderResourceClass XBOX_SERIES : PC {
+  }
+  FolderResourceClass PS4 : PC {
+  }
+  FolderResourceClass PS5 : PC {
+  }
+  FolderResourceClass HEADLESS : PC {
+  }
+  FolderResourceClass Xbox : PC {
+  }
+ }
+}
