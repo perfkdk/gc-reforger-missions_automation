@@ -40,6 +40,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  {
   SCR_FactionManager "65ACF4489CB17492" {
    ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{652544E87DFA8253}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
+      m_sCallsignCharacterWithRoleFormat "%1-%2%3%4"
+     }
+    }
+   }
   }
  }
 }

@@ -136,18 +136,18 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
     UserActionContext "{6452F6D565608B0F}" {
      ContextName "default"
      Position PointInfo "{6452F6D565608B0D}" {
-      Offset 0 0.0769 0
+      Offset 0 0.0994 0
      }
-     Radius 0.5
-     Height 0
+     Radius 1
+     Height 1
     }
    }
    additionalActions {
-    SCR_OpenStorageAction "{6452F6D565608BF0}" {
+    SCR_OpenStorageAction "{65F718744093B561}" {
      ParentContextList {
       "default"
      }
-     UIInfo UIInfo "{6452F6D565608BF1}" {
+     UIInfo SCR_ActionUIInfo "{65F71874B45EC394}" {
       Name "#AR-Inventory_OpenStorage"
      }
     }
@@ -159,4 +159,10 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
   }
  }
  coords 0 0 0
+ {
+  GenericEntity : "{B3BCE4B6920ED5C0}Prefabs/Structures/Signs/Military/Sign_AmmoStorage_US_01.et" {
+   ID "65F7187623A3B6B4"
+   coords -0.038 0.32 0.05
+  }
+ }
 }
