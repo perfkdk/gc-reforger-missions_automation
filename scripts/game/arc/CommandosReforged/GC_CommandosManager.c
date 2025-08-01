@@ -11,7 +11,7 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 	[Attribute(defvalue: "8", UIWidgets.Auto)]
 	protected int m_maxObjectiveCount;
 	
-	[Attribute(defvalue: "", UIWidgets.Object)]
+	[RplProp(), Attribute(defvalue: "", UIWidgets.Object)]
 	protected ref array<ref GC_CommandosObj> m_objectives;
 
 	int m_defectorPlayerId;
@@ -37,17 +37,21 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 		int count = 0;
 		foreach(GC_CommandosObj objective : m_objectives)
 		{
+			if(GC_CommandosDefector.Cast(objective))
+				continue;
+		
 			if(objective.IsActive())
 				count++;
 		}
 		
 		if(count <= 0)
-			SendHintAll("US Victory!", "All objectives completed!")
+			SendHintAll("US Victory!", "All US objectives completed!")
 	}
 	
 	void OnObjectiveCompleted(GC_CommandosObj objective)
 	{
 		CheckEndConditions();
+		Replication.BumpMe();
 	}
 	
 	override void OnPlayerConnected(int playerId)
@@ -113,6 +117,8 @@ class GC_CommandosManager : SCR_BaseGameModeComponent
 			objective.Activate();
 			objCount++;
 		}
+		
+		Replication.BumpMe();
 	}
 	
 	override void OnGameStateChanged(SCR_EGameModeState state)
@@ -191,7 +197,7 @@ class GC_CommandosObj
 	[Attribute(defvalue: "The %1 has been neutralized!", UIWidgets.EditBoxMultiline)]
 	protected string m_objectiveCompletedMsg;
 	
-	[Attribute(defvalue: "180", UIWidgets.Auto)]
+	[Attribute(defvalue: "90", UIWidgets.Auto)]
 	protected int m_completeDelay;
 	
 	[Attribute(defvalue: "Destroy the objective using C4", UIWidgets.EditBoxMultiline)]
@@ -226,7 +232,7 @@ class GC_CommandosObj
 			ActivateMarker(marker);
 		}
 		
-		m_isActive = true;
+		SetActive(true);
 	
 		if(GC_CommandosDefector.Cast(this))
 			return;
@@ -265,7 +271,7 @@ class GC_CommandosObj
 		GetGame().GetCallqueue().CallLater(cm.SendHintAll, m_completeDelay * 1000, false,"Objective Completed", description);
 		cm.OnObjectiveCompleted(this);
 		
-		m_isActive = false;
+		SetActive(false);
 	}
 
 	string GetName()
@@ -276,6 +282,14 @@ class GC_CommandosObj
 	bool IsActive()
 	{
 		return m_isActive;
+	}
+	
+	protected void SetActive(bool state)
+	{
+		if(state == m_isActive)
+			return;
+		
+		m_isActive = state;
 	}
 	
 	void RegisterMarker(IEntity entity)
@@ -311,6 +325,57 @@ class GC_CommandosObj
 		brief.SetTitle("Objective: " + m_name);
 		brief.SetTextData(m_briefingDescription);
 		return brief;
+	}
+	
+	//! From snapshot to packet.
+	// Takes snapshot and compresses it into packet. Opposite of Decode()
+	static void Encode(SSnapSerializerBase snapshot, ScriptCtx ctx, ScriptBitSerializer packet)
+	{
+		snapshot.EncodeString(packet);
+		snapshot.EncodeBool(packet);
+	}
+
+	//! From packet to snapshot.
+	// Takes packet and decompresses it into snapshot. Opposite of Encode()
+	static bool Decode(ScriptBitSerializer packet, ScriptCtx ctx, SSnapSerializerBase snapshot)
+	{
+		snapshot.DecodeString(packet);
+		snapshot.DecodeBool(packet);
+		return true;
+	}
+
+	//! Snapshot to snapshot comparison.
+	// Compares two snapshots to see whether they are the same or not
+	static bool SnapCompare(SSnapSerializerBase lhs, SSnapSerializerBase rhs, ScriptCtx ctx)
+	{
+		return lhs.CompareStringSnapshots(rhs)
+		&& lhs.CompareSnapshots(rhs, 4);
+	}
+
+	//! Property mem to snapshot comparison.
+	// Compares instance and a snapshot to see if any property has changed enough to require a new snapshot
+	static bool PropCompare(GC_CommandosObj prop, SSnapSerializerBase snapshot, ScriptCtx ctx)
+	{
+		return snapshot.CompareString(prop.m_name)
+		&& snapshot.CompareBool(prop.m_isActive);
+	}
+
+	//! Property mem to snapshot extraction.
+	// Extracts relevant properties from an instance of type T into snapshot. Opposite of Inject()
+	static bool Extract(GC_CommandosObj prop, ScriptCtx ctx, SSnapSerializerBase snapshot)
+	{
+		snapshot.SerializeString(prop.m_name);
+		snapshot.SerializeBool(prop.m_isActive);
+		return true;
+	}
+
+	//! Snapshot to property memory injection.
+	// Injects relevant properties from snapshot into an instance of type T . Opposite of Extract()
+	static bool Inject(SSnapSerializerBase snapshot, ScriptCtx ctx, GC_CommandosObj prop)
+	{
+		snapshot.SerializeString(prop.m_name);
+		snapshot.SerializeBool(prop.m_isActive);
+		return true;
 	}
 }
 
