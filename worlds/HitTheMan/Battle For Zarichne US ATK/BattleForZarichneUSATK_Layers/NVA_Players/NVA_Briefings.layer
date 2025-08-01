@@ -89,14 +89,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "II. Logistical Support:"\
   "18x AT Mines in the UAZ Vans (6x In Each)"\
-  "- Not in the Medic Van"\
+  "16x AK Mags"\
+  "4x RPK Mags"\
+  "6x Bandages"\
+  "2x Backpacks"\
   ""\
   "III. Medical:"\
   "None."\
   ""\
   "IV. Vehicles:"\
-  "3x UAZ452 Vans"\
-  "1x UAZ452 Ambulance"
+  "4x UAZ452 Vans"
   m_aVisibleForFactions {
    "GC_NVA"
   }

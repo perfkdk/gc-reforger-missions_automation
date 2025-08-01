@@ -49,7 +49,7 @@ SCR_ChimeraCharacter : "{F56BC64B3EE41F3F}worlds/arc/CommandosReforged/Prefabs/B
      TargetStorage ""
     }
     ItemsInitConfigurationItem "{6063106CCCB65709}" {
-     TargetStorage "Prefabs/Characters/Uniforms/LongSleeve_Shirts/Hoodie_RHS_Shirt_black_dots.et"
+     TargetStorage "Jacket/Crye_G4_Combat_Shirt_Black.et"
     }
     ItemsInitConfigurationItem "{6476AAA9BDC7430A}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_nobelt_4.et/flex1/Pouch_Shaw_Flex_Blk.et"

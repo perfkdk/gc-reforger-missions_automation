@@ -1,0 +1,876 @@
+SCR_MapEntity MapEntity_Kunar : "{02367029C55BAE5E}Prefabs/World/Game/Kunar/MapEntity_Kunar.et" {
+ coords 2893.436 9.999 3197.449
+ "Map Geometry Data" "{E25E842F90019134}Worlds/Kunar/GameMaster_Kunar.topo"
+ "Satellite background image" "{5A4E3A4FCBF014CE}Worlds/Kunar/GameMaster_Kunar.edds"
+}
+SCR_AIWorld : "{E2A016456BBC697D}Prefabs/AI/SCR_AIWorld_Kunar.et" {
+ coords 2844.464 10 3205.75
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2836.212 10 3169.186
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 6
+  }
+ }
+ coords 2850.667 9.929 3182.794
+ m_iFreezeTime 600000
+ m_bDisableBuildingModeAfterFreezeTime 1
+ {
+  SCR_FactionManager "65A0D5654C3D0CED" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{655D481EFA969864}" {
+     UIInfo SCR_FactionUIInfo "{528C96127F8B6B08}" {
+      Name "ANA"
+      Icon "{7D9A08C4F71CB8FC}worlds/Perfk/Images/Faction_Flags/Roundel_of_Afghanistan.edds"
+      m_sNameUpper "ANA"
+     }
+     m_sFactionFlag "{7D9A08C4F71CB8FC}worlds/Perfk/Images/Faction_Flags/Roundel_of_Afghanistan.edds"
+     m_aFriendlyFactionsIds {
+      "US"
+     }
+    }
+   }
+  }
+ }
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_killTimer 30
+   m_defaultColor 1 0 0 1
+   m_lineWidth 4
+  }
+ }
+ coords 159.344 97.225 3287.058
+ Points {
+  ShapePoint "{65B4BA0416F97FB7}" {
+   Position -33.565 9.222 -5.103
+  }
+  ShapePoint "{65B4BA04EC23766D}" {
+   Position 455.198 -10.03 111.415
+  }
+  ShapePoint "{65B4BA04E6AD7B0A}" {
+   Position 758.681 -26.297 205.882
+  }
+  ShapePoint "{65B4BA04E1867696}" {
+   Position 1224.973 -37.878 403.768
+  }
+  ShapePoint "{65B4BA04E2FE8827}" {
+   Position 1402.113 -46.857 589.877
+  }
+  ShapePoint "{65B4BA04FC210A68}" {
+   Position 1575.635 -40.853 723.629
+  }
+  ShapePoint "{65B4BA04F6C1BEAC}" {
+   Position 1804.305 -55.874 627.175
+  }
+  ShapePoint "{65B4BA072D902C60}" {
+   Position 1961.004 -71.433 451.024
+  }
+  ShapePoint "{65B4BA04CC8D6174}" {
+   Position 2081.343 -79.777 313.207
+  }
+  ShapePoint "{65B4BA04CFEA934A}" {
+   Position 1981.153 -83.271 251.552
+  }
+  ShapePoint "{65B4BA04CEAF647E}" {
+   Position 1867.954 -83.085 243.008
+  }
+  ShapePoint "{65B4BA04C9B6727A}" {
+   Position 1661.001 -24.655 305.989
+  }
+  ShapePoint "{65B4BA04C61D6A12}" {
+   Position 1538.775 -53.458 209.756
+  }
+  ShapePoint "{65B4BA04C0D800F3}" {
+   Position 1431.416 -54.69 141.436
+  }
+  ShapePoint "{65B4BA04DDC87693}" {
+   Position 1425.844 -6.494 -101.473
+  }
+  ShapePoint "{65B4BA04DC0734ED}" {
+   Position 1073.136 -13.662 -236.215
+  }
+  ShapePoint "{65B4BA04DFB9AB40}" {
+   Position 590.356 -17.646 -353.216
+  }
+  ShapePoint "{65B4BA04D9D2DDF1}" {
+   Position -57.833 37.873 -361.241
+  }
+ }
+}
+TILW_MissionFrameworkEntity MissionFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3127.465 31.703 3227.127
+ m_missionEvents {
+  TILW_MissionEvent "{6572FC0A9ECE093E}" {
+   m_name "Start_Mission"
+   m_instructions {
+    TILW_DeactivateEventsInstruction "{6572FC0D89CE8934}" {
+     m_eventNames {
+      "Spawn_2" "Spawn_3" "Spawn_5" "Spawn_6" "Spawn_8"
+     }
+    }
+    TILW_SetFlagInstruction "{6572FC08F9A97460}" {
+     m_executionDelay 180
+     m_flagName "Mission_Started"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6572FC0D05CAF1BF}" {
+    m_invertTerm 1
+    m_flagName "Mission_Started"
+   }
+  }
+  TILW_MissionEvent "{6572B628C7EBA378}" {
+   m_name "Spawn_1"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{6572C4279D4650CB}" {
+     m_executionDelay 0
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_1"
+     m_setEntityName "Group_1"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65A2A3FC0CAD8C34}" {
+     m_executionDelay 2
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_1"
+     m_waypointNames {
+      "WP_FM_Convoy_Center"
+     }
+    }
+    TILW_ReactivateEventsInstruction "{6572C428915F78F8}" {
+     m_executionDelay 10
+     m_eventNames {
+      "Spawn_2"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6572FC0831FB6EAF}" {
+    m_operands {
+     TILW_LiteralTerm "{6572FC0833BC0D36}" {
+      m_flagName "Group_1_is_not_present"
+     }
+     TILW_LiteralTerm "{6572FC080F695CF0}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6572FC0C39A1A8F7}" {
+   m_name "Spawn_2"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{6572FC0C39A1A853}" {
+     m_executionDelay 0
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_2"
+     m_setEntityName "Group_1"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65A2A3FC1A8573B1}" {
+     m_executionDelay 3
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_2"
+     m_waypointNames {
+      "WP_FM_Convoy_Center"
+     }
+    }
+    TILW_ReactivateEventsInstruction "{6572FC0C39A1A858}" {
+     m_executionDelay 10
+     m_eventNames {
+      "Spawn_3"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6572FC0C39A1A85A}" {
+    m_operands {
+     TILW_LiteralTerm "{6572FC0C39A1A85B}" {
+      m_flagName "Group_1_is_not_present"
+     }
+     TILW_LiteralTerm "{6572FC0C39A1A845}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6572FC0DB8927FD4}" {
+   m_name "Spawn_3"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{6572FC0DB8927FBF}" {
+     m_executionDelay 0
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_3"
+     m_setEntityName "Group_1"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65A2A3FCECA59B4C}" {
+     m_executionDelay 2
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_3"
+     m_waypointNames {
+      "WP_FM_Convoy_Center"
+     }
+    }
+    TILW_ReactivateEventsInstruction "{6572FC0DB8927FBB}" {
+     m_executionDelay 10
+     m_eventNames {
+      "Spawn_1"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6572FC0DB8927FA6}" {
+    m_operands {
+     TILW_LiteralTerm "{6572FC0DB8927FA7}" {
+      m_flagName "Group_1_is_not_present"
+     }
+     TILW_LiteralTerm "{6572FC0DB8927FA0}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6572FC13E5DA9541}" {
+   m_name "Spawn_4"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{6572FC13E5DA9527}" {
+     m_executionDelay 0
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_4"
+     m_setEntityName "Group_2"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65A2A3FCE597DEA1}" {
+     m_executionDelay 3
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_4"
+     m_waypointNames {
+      "WP_FM_Convoy_Center"
+     }
+    }
+    TILW_ReactivateEventsInstruction "{6572FC13E5DA9523}" {
+     m_executionDelay 10
+     m_eventNames {
+      "Spawn_5"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6572FC13E5DA952D}" {
+    m_operands {
+     TILW_LiteralTerm "{6572FC13E5DA952F}" {
+      m_flagName "Group_2_is_not_present"
+     }
+     TILW_LiteralTerm "{6572FC13E5DA9528}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6572FC13E7F95902}" {
+   m_name "Spawn_5"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{6572FC13E7F95EE3}" {
+     m_executionDelay 0
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_5"
+     m_setEntityName "Group_2"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65A2A3FCE3B5D1F6}" {
+     m_executionDelay 2
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_5"
+     m_waypointNames {
+      "WP_FM_Convoy_Center"
+     }
+    }
+    TILW_ReactivateEventsInstruction "{6572FC13E7F95E94}" {
+     m_executionDelay 10
+     m_eventNames {
+      "Spawn_6"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6572FC13E7F95E97}" {
+    m_operands {
+     TILW_LiteralTerm "{6572FC13E7F95E90}" {
+      m_flagName "Group_2_is_not_present"
+     }
+     TILW_LiteralTerm "{6572FC13E7F95E91}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6572FC13E1E2059E}" {
+   m_name "Spawn_6"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{6572FC13E1E2057A}" {
+     m_executionDelay 0
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_6"
+     m_setEntityName "Group_2"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65A2A3FCFE6F5BA0}" {
+     m_executionDelay 4
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_6"
+     m_waypointNames {
+      "WP_FM_Convoy_Center"
+     }
+    }
+    TILW_ReactivateEventsInstruction "{6572FC13E1E20566}" {
+     m_executionDelay 10
+     m_eventNames {
+      "Spawn_4"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6572FC13E1E2056D}" {
+    m_operands {
+     TILW_LiteralTerm "{6572FC13E1E2056E}" {
+      m_flagName "Group_2_is_not_present"
+     }
+     TILW_LiteralTerm "{6572FC13E1E2056F}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6572FC127490AF85}" {
+   m_name "Spawn_7"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{6572FC127490AF64}" {
+     m_executionDelay 0
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_7"
+     m_setEntityName "Group_3"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65A2A3FCF5A4EA27}" {
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_7"
+     m_waypointNames {
+      "WP_FM_Convoy_Center"
+     }
+    }
+    TILW_ReactivateEventsInstruction "{6572FC127490AF60}" {
+     m_executionDelay 10
+     m_eventNames {
+      "Spawn_8"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6572FC127490AF62}" {
+    m_operands {
+     TILW_LiteralTerm "{6572FC127490AF6C}" {
+      m_flagName "Group_3_is_not_present"
+     }
+     TILW_LiteralTerm "{6572FC127490AF6D}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6572FC12763A2C1C}" {
+   m_name "Spawn_8"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{6572FC12763A2DF2}" {
+     m_executionDelay 0
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_8"
+     m_setEntityName "Group_3"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65A2A3FCCD330E70}" {
+     m_executionDelay 2
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_8"
+     m_setEntityName "Group_3_3"
+     m_waypointNames {
+      "WP_FM_Convoy_Center"
+     }
+    }
+    TILW_ReactivateEventsInstruction "{6572FC12763A2DFF}" {
+     m_executionDelay 10
+     m_eventNames {
+      "Spawn_7"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6572FC12763A2DF9}" {
+    m_operands {
+     TILW_LiteralTerm "{6572FC12763A2DFB}" {
+      m_flagName "Group_3_is_not_present"
+     }
+     TILW_LiteralTerm "{6572FC12763A2DE4}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{65B6ACED3569BDCF}" {
+   m_name "Spawn_Hiltop"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{65B6ACED3569BD57}" {
+     m_executionDelay 0
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_hiltop_1"
+     m_setEntityName "Group_hilltop"
+     m_waypointNames {
+      "WP_SD_Hilltop"
+     }
+    }
+    TILW_ReactivateEventsInstruction "{65B6ACED3569BD5E}" {
+     m_executionDelay 10
+     m_eventNames {
+      "Spawn_Hiltop"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{65B6ACED3569BD58}" {
+    m_operands {
+     TILW_LiteralTerm "{65B6ACED3569BD5A}" {
+      m_flagName "Group_hilltop_is_not_present"
+     }
+     TILW_LiteralTerm "{65B6ACED3569BD5B}" {
+      m_flagName "Mission_Started"
+     }
+     TILW_LiteralTerm "{65B6ACED148A094B}" {
+      m_flagName "BluforOnHilltop"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{65A2A3FCD5DDBE3E}" {
+   m_name "WaveNorth_1"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{65A2A3FCD5DDBF89}" {
+     m_executionDelay 0
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_5"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65A2A3FC9B430102}" {
+     m_executionDelay 2
+     m_prefab "{8D93DE0EB90C479D}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_MG_team.et"
+     m_locationName "Spawn_5"
+     m_waypointNames {
+      "WP_FM_Convoy_Center"
+     }
+    }
+    TILW_ReactivateEventsInstruction "{65A2A3FC85BEF180}" {
+     m_executionDelay 68
+     m_eventNames {
+      "WaveNorth_1"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{65A2A3FCD5DDBFB2}" {
+    m_operands {
+     TILW_LiteralTerm "{65A2A3FCD5DDBFBE}" {
+      m_flagName "Mission_Started"
+     }
+     TILW_LiteralTerm "{65A2A3F314529352}" {
+      m_flagName "QRF_Arrived"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{65A2A3F36EAA2962}" {
+   m_name "WaveNorth_2"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{65A2A3F36EAA2EC8}" {
+     m_executionDelay 1
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_6"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65A2A3F36EAA2EF5}" {
+     m_executionDelay 4
+     m_prefab "{8D93DE0EB90C479D}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_MG_team.et"
+     m_locationName "Spawn_5"
+     m_waypointNames {
+      "WP_FM_Convoy_Center"
+     }
+    }
+    TILW_ReactivateEventsInstruction "{65A2A3F36EAA2EF7}" {
+     m_executionDelay 60
+     m_eventNames {
+      "WaveNorth_2"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{65A2A3F36EAA2EF1}" {
+    m_operands {
+     TILW_LiteralTerm "{65A2A3F36EAA2EF3}" {
+      m_flagName "Mission_Started"
+     }
+     TILW_LiteralTerm "{65A2A3F30F1AC8F8}" {
+      m_flagName "QRF_Arrived"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{65732C275FAF3F20}" {
+   m_name "RunOverRoad"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{65732C275FAF3C9B}" {
+     m_executionDelay 0
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "spawn_Runaway"
+     m_waypointNames {
+      "wp_Runaway"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{65732C27250F66A6}" {
+    m_flagName "Runaway_flag"
+   }
+  }
+  TILW_MissionEvent "{65792A89FDD101D2}" {
+   m_name "Spawn_attack_QRF_At_Convoy"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{65792A89FDD1178B}" {
+     m_executionDelay 60
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_1"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65792A89A6688CC2}" {
+     m_executionDelay 62
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Spawn_3"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65792A89B1A99588}" {
+     m_executionDelay 63
+     m_prefab "{8D93DE0EB90C479D}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_MG_team.et"
+     m_locationName "Spawn_3"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65792A898B2946E9}" {
+     m_executionDelay 66
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_7"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65792A899DF2EA7D}" {
+     m_executionDelay 68
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Spawn_9"
+     m_waypointNames {
+      "WP_SD_Convoy_Center"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{65792A89FDD117BC}" {
+    m_operands {
+     TILW_LiteralTerm "{65792A89FDD117BF}" {
+      m_flagName "QRF_Arrived"
+     }
+     TILW_LiteralTerm "{65792A89FDD117B8}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{65731DA871CEB92C}" {
+   m_name "QRF_Defend_1"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{65731DA871CEBEBB}" {
+     m_executionDelay 0
+     m_prefab "{8D93DE0EB90C479D}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_MG_team.et"
+     m_locationName "Spawn_6"
+     m_waypointNames {
+      "WP_Defend_Road_1"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{65731DA871CEBEA3}" {
+    m_operands {
+     TILW_LiteralTerm "{65731DA871CEBEAD}" {
+      m_flagName "QRF_Arrived"
+     }
+     TILW_LiteralTerm "{65731DA871CEBEAE}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{65B6ACE5A7FDC3D8}" {
+   m_name "ambush_BlockedRoadStone"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{65B6ACE5A7FDC3BC}" {
+     m_executionDelay 0
+     m_prefab "{6650B2B969248F4C}Prefabs/Structures/Rock/Afghan_Rock/GraniteCliff_Afghan_03.et"
+     m_locationName "Spawn_ambush_stoneRoad"
+    }
+    TILW_SpawnPrefabInstruction "{65B6ACE5A7FDC3BF}" {
+     m_executionDelay 0
+     m_prefab "{3A3331F61766D055}PrefabsEditable/EffectsModules/Mortar/EffectModule_MortarShell.et"
+     m_locationName "Spawn_ambush_stoneexplosion"
+    }
+    TILW_SendMessageInstruction "{65B6ACE42A5CF6F0}" {
+     m_executionDelay 30
+     m_messageTitle "Intel"
+     m_messageBody "All stations, this is Higher. MSR Toyota is blocked. Recommend reroute via ASR Dodge for return trip. Cause: enemy explosives triggered landslide. Out."
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{65B6ACE5A7FDC3BA}" {
+    m_operands {
+     TILW_LiteralTerm "{65B6ACE5A7FDC3A1}" {
+      m_flagName "QRF_Arrived"
+     }
+     TILW_LiteralTerm "{65B6ACE5A7FDC3A2}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{65731DA8EA9EEC92}" {
+   m_name "ambush_mine"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{65731DA90966B4E0}" {
+     m_executionDelay 0
+     m_prefab "{F5C61D19C5FE5209}worlds/Perfk/PrefabsEditable/EffectsModules/Mine/PK_EffectModule_MineField_Single_USSR.et"
+     m_locationName "Spawn_Mine_1"
+    }
+    TILW_SpawnPrefabInstruction "{65731DAC34D4EB1D}" {
+     m_executionDelay 0
+     m_prefab "{F5C61D19C5FE5209}worlds/Perfk/PrefabsEditable/EffectsModules/Mine/PK_EffectModule_MineField_Single_USSR.et"
+     m_locationName "Spawn_Mine_2"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{65731DA8EA9EEC7B}" {
+    m_operands {
+     TILW_LiteralTerm "{65731DA8EA9EEC65}" {
+      m_flagName "QRF_Arrived"
+     }
+     TILW_LiteralTerm "{65731DA8EA9EEC66}" {
+      m_flagName "Mission_Started"
+     }
+     TILW_LiteralTerm "{65A2A3FAA886E7EC}" {
+      m_flagName "ambush_mine"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{65A2A3FAA185AC18}" {
+   m_name "Ambush_roadblock"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{65A2A3FAA185ADF2}" {
+     m_executionDelay 0
+     m_prefab "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et"
+     m_locationName "Spawn_ambush_roadblock"
+    }
+    TILW_SpawnVehicleInstruction "{65A2A3F9BB1EA623}" {
+     m_executionDelay 0
+     m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+     m_locationName "Spawn_ambush_mg_truck"
+     m_crewConfig TILW_CrewConfig "{65A2A3F98D4E1C62}" {
+      m_crewGroups {
+       TILW_CrewGroup "{65A2A3F98C30DBBD}" {
+        m_crewStations {
+         TILW_CrewStation "{65A2A3F98ECEDD57}" {
+          m_characters {
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+       }
+      }
+      m_noTurretDismount 1
+     }
+     m_waypointDelay 0
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{65A2A3FAA185ADFD}" {
+    m_operands {
+     TILW_LiteralTerm "{65A2A3FAA185ADFE}" {
+      m_flagName "QRF_Arrived"
+     }
+     TILW_LiteralTerm "{65A2A3FAA185ADFF}" {
+      m_flagName "Mission_Started"
+     }
+     TILW_LiteralTerm "{65A2A3FAA185ADF9}" {
+      m_flagName "ambush_bus"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{65A2A3FD60E7AF7E}" {
+   m_name "Ambush_at"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{65A2A3FD2C0C37D2}" {
+     m_executionDelay 0
+     m_prefab "{9DE1C345404CDCA8}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_AT_team.et"
+     m_locationName "Spawn_ambush_at"
+     m_waypointNames {
+      "WP_Defend_Road_AT"
+     }
+    }
+    TILW_SpawnPrefabInstruction "{65A2A3FD1F33541A}" {
+     m_executionDelay 0
+     m_prefab "{F5C61D19C5FE5209}worlds/Perfk/PrefabsEditable/EffectsModules/Mine/PK_EffectModule_MineField_Single_USSR.et"
+     m_locationName "Spawn_at_mine_1"
+    }
+    TILW_SpawnVehicleInstruction "{65A2A3FD60E7AC92}" {
+     m_executionDelay 0
+     m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+     m_locationName "Spawn_ambush_mg_truck"
+     m_crewConfig TILW_CrewConfig "{65A2A3FD60E7AC9C}" {
+      m_crewGroups {
+       TILW_CrewGroup "{65A2A3FD60E7AC9E}" {
+        m_crewStations {
+         TILW_CrewStation "{65A2A3FD60E7AC9F}" {
+          m_characters {
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+       }
+      }
+      m_noTurretDismount 1
+     }
+     m_waypointDelay 0
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{65A2A3FD60E7AC80}" {
+    m_operands {
+     TILW_LiteralTerm "{65A2A3FD60E7AC82}" {
+      m_flagName "QRF_Arrived"
+     }
+     TILW_LiteralTerm "{65A2A3FD60E7AC83}" {
+      m_flagName "Mission_Started"
+     }
+     TILW_LiteralTerm "{65A2A3FD60E7AC8C}" {
+      m_flagName "ambush_at"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{65732C26A8C5720C}" {
+   m_name "QRF_Defend_1"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{65732C26A8C574A4}" {
+     m_executionDelay 1
+     m_prefab "{022C831668ACFFA4}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_2.et"
+     m_locationName "Road_spawn_1"
+     m_waypointNames {
+      "WP_Defend_Road_2"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65732C26B0B43F79}" {
+     m_executionDelay 2
+     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_locationName "Road_spawn_2"
+     m_waypointNames {
+      "WP_Defend_Road_2"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65732C26806E25E0}" {
+     m_executionDelay 3
+     m_prefab "{8D93DE0EB90C479D}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_MG_team.et"
+     m_locationName "Road_spawn_3"
+     m_waypointNames {
+      "WP_Defend_Road_3"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65732C26933BD935}" {
+     m_executionDelay 4
+     m_prefab "{8D93DE0EB90C479D}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_MG_team.et"
+     m_locationName "Road_spawn_4"
+     m_waypointNames {
+      "WP_Defend_Road_4"
+     }
+    }
+    TILW_SpawnGroupInstruction "{65732C277AC75178}" {
+     m_executionDelay 5
+     m_prefab "{8D93DE0EB90C479D}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_MG_team.et"
+     m_locationName "Road_spawn_5"
+     m_waypointNames {
+      "WP_Defend_Road_5"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{65732C26A8C574AD}" {
+    m_operands {
+     TILW_LiteralTerm "{65732C26A8C574A8}" {
+      m_flagName "QRF_Arrived"
+     }
+     TILW_LiteralTerm "{65732C26A8C574A9}" {
+      m_flagName "Mission_Started"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6598AE7DFC5D2F78}" {
+   m_name "US Casualty Hint"
+   m_instructions {
+    TILW_SendMessageInstruction "{6598AE7DF3FF1026}" {
+     m_messageTitle "US Casualty 85%"
+     m_messageBody "US Forces have lost more than 85%, GM please consider if the missions should be ended at this time."
+    }
+   }
+   m_condition TILW_LiteralTerm "{6598AE7DCC5990B3}" {
+    m_flagName "US_Casualty_Flag"
+   }
+  }
+  TILW_MissionEvent "{6598AE7DACE18BBE}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{6598AE7DA17446D0}" {
+     m_executionDelay 3600
+     m_messageTitle "Timelimit"
+     m_messageBody "The 60 min timelimit have been met. GM please consider if the missions should be ended at this time."
+    }
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6598AE7D03F100EC}" {
+   m_flagName "US_Casualty_Flag"
+   m_factionKey "US"
+   m_casualtyRatio 0.85
+  }
+ }
+ m_randomFlags {
+  TILW_FlagSampling "{65A2A3FAF460DD4D}" {
+   m_flagNames {
+    "ambush_mine" "ambush_bus" "ambush_at"
+   }
+  }
+ }
+}

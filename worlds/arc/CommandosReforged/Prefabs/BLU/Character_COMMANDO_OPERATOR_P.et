@@ -44,7 +44,6 @@ SCR_ChimeraCharacter : "{F56BC64B3EE41F3F}worlds/arc/CommandosReforged/Prefabs/B
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6063106CCCB65709}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Black.et"
     }
     ItemsInitConfigurationItem "{6476AAA8C5255519}" {
      TargetStorage "Vest/Vest_JPC_MCBlk_nobelt_2.et/flex1/Pouch_Shaw_Flex_Blk.et"

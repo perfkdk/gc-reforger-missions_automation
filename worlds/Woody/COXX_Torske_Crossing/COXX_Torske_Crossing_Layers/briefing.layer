@@ -38,7 +38,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Time Limit - Unlimited"\
   ""\
   "UK Win:"\
-  "Seperatist/Russian Company HQ in Torske Seized."\
+  "Separatist/Russian Company HQ in Torske Seized."\
   ""\
   "UK Lose:"\
   "75% Casualties Taken."
@@ -56,7 +56,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Weather: Random"\
   ""\
   "1 RIFLES under 16 Air Assault Brigade have been deployed to Estonia in response to a Russian incursion in the East of the country."\
-  "Estonian seperatists are being directly supported by the 80th Seperate Arctic Motor Rifle Brigade."\
+  "Estonian separatists are being directly supported by the 80th Seperate Arctic Motor Rifle Brigade."\
   "The Russians have gained lodgement on the West bank of the Zherebets River."\
   " "\
   "Ia. Friendly Forces:"\
@@ -64,7 +64,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1x Light Infantry Company (-)"\
   ""\
   "Ib. Enemy Forces:"\
-  "1x Company of Russian motor rifles with GAZ Tigrs and Estonian seperatists."
+  "1x Company of Russian motor rifles with GAZ Tigrs and Estonian separatists."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }

@@ -20,7 +20,7 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 11748.967 0 11840.878
 }
-PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_bUsePredefineStartingTimeAndWeather 1
@@ -121,7 +121,7 @@ $grp GenericEntity {
   angleY 105.845
  }
 }
-$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/TILW_FactionTrigger.et" {
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  {
   coords 5823.769 4.592 9722.262
   m_queryRadius 100
@@ -270,6 +270,50 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
    m_condition TILW_LiteralTerm "{62E4D154E433FDCA}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{65E158E9EAC36680}" {
+   m_name "ASSIGN_WAYPOINTS"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{65E158E9E7E09076}" {
+     m_groupName "OBJ1SQD3"
+     m_waypointNames {
+      "OBJ1PATROL1WP1" "OBJ1PATROL1WP2" "OBJ1PATROL1WP3" "OBJ1PATROL1WP4" "OBJ1PATROL1CYCLE"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{65E158E9C61FB8C1}" {
+     m_groupName "OBJ1SQD4"
+     m_waypointNames {
+      "OBJ1PATROL2WP1" "OBJ1PATROL2WP1" "OBJ1PATROL2WP1" "OBJ1PATROL2WP1" "OBJ1PATROL2CYCLE"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{65E158E9D6FF1694}" {
+     m_groupName "OBJ2SQD1"
+     m_waypointNames {
+      "OBJ2PATROL1WP1" "OBJ2PATROL1WP2" "OBJ2PATROL1WP3" "OBJ2PATROL1WP4" "OBJ2PATROL1CYCLE"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{65E158E9AB4138EF}" {
+     m_groupName "OBJ2SQD2"
+     m_waypointNames {
+      "OBJ2PATROL2WP1" "OBJ2PATROL2WP2" "OBJ2PATROL2WP3" "OBJ2PATROL2WP4" "OBJ2PATROL2CYCLE"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{65E158E9B4C39A18}" {
+     m_groupName "OBJ3SQD1"
+     m_waypointNames {
+      "OBJ3PATROL1WP1" "OBJ3PATROL1WP2" "OBJ3PATROL1WP3" "OBJ3PATROL1WP4" "OBJ3PATROL1CYCLE"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{65E158E98F4E3A72}" {
+     m_groupName "OBJ3SQD2"
+     m_waypointNames {
+      "OBJ3PATROL2WP1" "OBJ3PATROL2WP2" "OBJ3PATROL2WP3" "OBJ3PATROL2WP4" "OBJ3PATROL2CYCLE"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{65E158E9E56B6212}" {
     m_invertTerm 1
    }
   }
