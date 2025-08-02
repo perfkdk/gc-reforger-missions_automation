@@ -30,6 +30,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Both teams are permitted to take Radios from the dead."\
   ""\
   "Dogs can smell you, be careful!"\
+  "Dogs can left click to bark and melee to kill. Please only do dog things."\
   ""\
   "Defectors exist, becareful who you're with. Who knows what their objective is?"\
   "(Cannot be the Political Officer, Base Commander, or Dog/Handler)"\

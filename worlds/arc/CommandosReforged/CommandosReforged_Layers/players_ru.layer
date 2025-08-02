@@ -147,13 +147,3 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   m_sCustomNameSet "Patrol 5"
  }
 }
-GenericEntity : "{7A0FB5C37F8437B2}worlds/arc/CommandosReforged/Prefabs/Dog_Knife.et" {
- components {
-  WeaponSoundComponent "{5A8685198A9AEEDD}" {
-   Filenames {
-    "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp"
-   }
-  }
- }
- coords 1388.093 37.039 2621.759
-}
