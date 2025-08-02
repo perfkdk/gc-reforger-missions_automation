@@ -24,7 +24,7 @@ $grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     m_iSquadCallsign 1
    }
   }
-  coords 1386.526 37.2 2619.555
+  coords 1386.526 37.299 2619.555
   angleY -15.667
   m_aUnitPrefabSlots {
    "{736EDBCAED11F5E6}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_DogHandler_P.et" "{CDB8EF4A6115A227}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_DOG.et" "{736EDBCAED11F5E6}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_DogHandler_P.et" "{CDB8EF4A6115A227}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_DOG.et"
@@ -107,7 +107,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     m_iSquadCallsign 3
    }
   }
-  coords 1420.737 37.528 2646.298
+  coords 1420.737 37.524 2646.298
   angleY -14.393
   m_aUnitPrefabSlots {
    "{299A24639615930A}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_PatrolLeader_P.et" "{8E323C4D67938F11}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_Rifleman_P.et" "{8E323C4D67938F11}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_Rifleman_P.et" "{8E323C4D67938F11}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_Rifleman_P.et" "{AFDA9AF44EF0DF83}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_SeniorRifleman_P.et" "{8E323C4D67938F11}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_Rifleman_P.et" "{8E323C4D67938F11}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_Rifleman_P.et"
@@ -139,11 +139,21 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     m_iSquadCallsign 5
    }
   }
-  coords 1418.496 37.263 2645.554
+  coords 1418.496 37.512 2645.554
   angleY -14.393
   m_aUnitPrefabSlots {
    "{299A24639615930A}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_PatrolLeader_P.et" "{8E323C4D67938F11}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_Rifleman_P.et" "{8E323C4D67938F11}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_Rifleman_P.et" "{8E323C4D67938F11}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_Rifleman_P.et" "{AFDA9AF44EF0DF83}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_SeniorRifleman_P.et" "{8E323C4D67938F11}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_Rifleman_P.et" "{8E323C4D67938F11}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_Rifleman_P.et"
   }
   m_sCustomNameSet "Patrol 5"
  }
+}
+GenericEntity : "{7A0FB5C37F8437B2}worlds/arc/CommandosReforged/Prefabs/Dog_Knife.et" {
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp"
+   }
+  }
+ }
+ coords 1388.093 37.039 2621.759
 }
