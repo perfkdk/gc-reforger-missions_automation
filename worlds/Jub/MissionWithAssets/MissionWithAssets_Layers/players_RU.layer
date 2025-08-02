@@ -8,8 +8,8 @@ SCR_AIGroup ru_mr_hq : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_
    m_iSquadCallsign 1
   }
  }
- coords 3752.161 58.605 1813.625
- angleY 95.466
+ coords 3767.505 58.541 1841.291
+ angleY 103.14
  m_sCustomNameSet "Motor Rifle HQ"
 }
 $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
@@ -23,8 +23,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     m_iSquadCallsign 2
    }
   }
-  coords 3759.221 58.759 1821.856
-  angleY 88.685
+  coords 3775.601 58.236 1848.506
+  angleY 96.359
   m_sCustomNameSet "1st Motor Rifle Squad"
  }
  ru_mr_sq2 {
@@ -37,8 +37,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     m_iSquadCallsign 3
    }
   }
-  coords 3759.294 59.033 1809.038
-  angleY 92.727
+  coords 3773.961 58.822 1835.793
+  angleY 100.401
   m_sCustomNameSet "2nd Motor Rifle Squad"
  }
  ru_mr_sq3 {
@@ -51,8 +51,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     m_iSquadCallsign 4
    }
   }
-  coords 3757.956 58.999 1794.002
-  angleY 98.872
+  coords 3770.628 59.188 1821.07
+  angleY 106.546
   m_sCustomNameSet "3rd Motor Rifle Squad"
  }
 }

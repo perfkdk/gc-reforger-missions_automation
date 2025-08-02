@@ -111,9 +111,6 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
 }
-SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 3747.552 58.503 1808.018
-}
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  ao_ru {
   components {
@@ -159,7 +156,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position -1172.816 0 828.775
    }
    ShapePoint "{65DAD4520662E2F6}" {
-    Position -1366.254 26.491 -455.43
+    Position -1323.879 3.966 -172.458
    }
    ShapePoint "{65DAD452079001F0}" {
     Position 508.644 21.108 -1064.305
@@ -171,13 +168,24 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  }
 }
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 4489.611 53.938 4322.81
- m_queryRadius 30
+ coords 4496.74 53.938 4353.721
+ m_queryRadius 200
  m_captureTime 60
  m_sendStatusMessages 1
- m_locationName "the hamlet"
+ m_locationName "Ruha"
  m_flagName "RU_CAP"
  m_ownerFactionKey "RHS_AFRF"
+ m_ratioThreshold 0.9
+ {
+  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords 0 0 0
+   m_sImageSetGlow ""
+   m_MarkerColor 0 0 0 0.5
+   m_fWorldSize 600
+   m_bVisibleForEmptyFaction 1
+   m_bShowForAnyFaction 1
+  }
+ }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 1975.851 66.373 6735.549
@@ -188,10 +196,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{65DAD44B3E9B04E5}" {
      m_messageTitle "RU VICTORY"
      m_messageBody "US forces have taken significant casualties."
-    }
-    TILW_EndGameInstruction "{65DAD44B367A5786}" {
-     m_executionDelay 15
-     m_factionKey "RHS_AFRF"
     }
    }
    m_condition TILW_LiteralTerm "{65DAD44B3CEA7945}" {
@@ -205,10 +209,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageTitle "RU VICTORY"
      m_messageBody "RU forces have taken control of the hamlet."
     }
-    TILW_EndGameInstruction "{65DAD44B1C96CEFC}" {
-     m_executionDelay 15
-     m_factionKey "RHS_AFRF"
-    }
    }
    m_condition TILW_LiteralTerm "{65DAD44B0F043436}" {
     m_flagName "RU_CAP"
@@ -220,10 +220,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{65DAD44B173C3443}" {
      m_messageTitle "USMC VICTORY"
      m_messageBody "RU forces have taken significant casualties."
-    }
-    TILW_EndGameInstruction "{65DAD44BE67D35ED}" {
-     m_executionDelay 15
-     m_factionKey "RHS_USAF"
     }
    }
    m_condition TILW_LiteralTerm "{65DAD44B124E4EED}" {
@@ -237,10 +233,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 3600
      m_messageTitle "USMC VICTORY"
      m_messageBody "RU forces have been delayed for long enough."
-    }
-    TILW_EndGameInstruction "{65DAD44BC7EC8D2A}" {
-     m_executionDelay 3610
-     m_factionKey "RHS_USAF"
     }
    }
    m_condition TILW_LiteralTerm "{65DAD44BFECA2360}" {
@@ -260,4 +252,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_casualtyRatio 0.9
   }
  }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 3757.425 58.611 1829.167
 }
