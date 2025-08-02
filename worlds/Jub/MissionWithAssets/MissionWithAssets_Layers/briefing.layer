@@ -18,8 +18,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "90% USMC casualties or hamlet captured for 1 minute: RU victory"\
   "90% RU casualties or 60 minutes pass: USMC victory"\
   ""\
-  "Capzone is around the gasstation, requires 100% RU control for 1 minute."\
-  "RU restricted to their spawn during setup, USMC restricted to within 250m of Ruha during setup but unrestricted after."
+  "Capzone is around the gasstation, requires 100%"\
+  "RU control for 1 minute."\
+  "RU restricted to their spawn for 5 minutes"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 5
@@ -29,7 +30,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  {
   coords 4483.179 54 4346.96
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+  m_sImageSetGlow ""
   m_sQuadName "infantry"
   m_fWorldSize 80
   m_bVisibleForEmptyFaction 1
@@ -39,7 +40,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 3761.569 60.173 1838.934
   angleY 90
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
+  m_sImageSetGlow ""
   m_sQuadName "infantry"
   m_fWorldSize 100
   m_bVisibleForEmptyFaction 1

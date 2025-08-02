@@ -34,7 +34,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 1517.18 68.285 6925.979
   m_sTitle "IV. Mission"
-  m_sTextData "Defend Ruha from separatist attacks, holding it for 60 minutes after setup."
+  m_sTextData "Defend Ruha from Russian attacks, holding it for 60 minutes after setup."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
