@@ -52,6 +52,10 @@ class GC_CommandosDogManager : ScriptComponent
 			GetGame().GetInputManager().RemoveActionListener("VONDirect", EActionTrigger.DOWN, ActionBark);
 		}
 		
+		SCR_VONController von = SCR_VONController.Cast(GetOwner().FindComponent(SCR_VONController));
+		if(von)
+			von.SetVONDisabled(state);
+		
 		m_isDog = state;
 	}
 	
