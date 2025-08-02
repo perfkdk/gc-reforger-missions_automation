@@ -40,7 +40,7 @@ class GC_CommandosDogManager : ScriptComponent
 				component.SetActive();
 			}
 			SetEventMask(GetOwner(),EntityEvent.FIXEDFRAME);
-			GetGame().GetInputManager().AddActionListener("VONDirect", EActionTrigger.DOWN, ActionBark);
+			GetGame().GetInputManager().AddActionListener("MouseLeft", EActionTrigger.DOWN, ActionBark);
 		}
 		else
 		{
@@ -49,7 +49,7 @@ class GC_CommandosDogManager : ScriptComponent
 				component.SetDeactive();
 			}
 			ClearEventMask(GetOwner(), EntityEvent.FIXEDFRAME);
-			GetGame().GetInputManager().RemoveActionListener("VONDirect", EActionTrigger.DOWN, ActionBark);
+			GetGame().GetInputManager().RemoveActionListener("MouseLeft", EActionTrigger.DOWN, ActionBark);
 		}
 		
 		SCR_VONController von = SCR_VONController.Cast(GetOwner().FindComponent(SCR_VONController));
