@@ -197,7 +197,7 @@ class GC_CommandosObj
 	[Attribute(defvalue: "The %1 has been neutralized!", UIWidgets.EditBoxMultiline)]
 	protected string m_objectiveCompletedMsg;
 	
-	[Attribute(defvalue: "90", UIWidgets.Auto)]
+	[Attribute(defvalue: "60", UIWidgets.Auto)]
 	protected int m_completeDelay;
 	
 	[Attribute(defvalue: "Destroy the objective using C4", UIWidgets.EditBoxMultiline)]

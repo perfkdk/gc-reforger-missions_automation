@@ -20,7 +20,8 @@ $grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{647748C8173AB8B2}" {
-    m_iSquadCallsign 2
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
    }
   }
   coords 1386.526 37.2 2619.555
@@ -36,6 +37,7 @@ $grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{647748C814633C7B}" {
+    m_iPlatoonCallsign 3
     m_iSquadCallsign 1
    }
   }
@@ -52,7 +54,8 @@ $grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{647748C814633C7B}" {
-    m_iSquadCallsign 8
+    m_iPlatoonCallsign 4
+    m_iSquadCallsign 9
    }
   }
   coords 1209.855 37.114 2627.452
@@ -69,7 +72,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{647748C8123A7705}" {
-    m_iSquadCallsign 3
+    m_iSquadCallsign 1
    }
   }
   coords 1383.483 37.297 2635.819
@@ -85,7 +88,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{647748C8EE7FF3D5}" {
-    m_iSquadCallsign 4
+    m_iSquadCallsign 2
    }
   }
   coords 1386.256 37.347 2636.387
@@ -101,7 +104,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{647748C8EA99C73C}" {
-    m_iSquadCallsign 5
+    m_iSquadCallsign 3
    }
   }
   coords 1420.737 37.528 2646.298
@@ -117,7 +120,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{647748C8E6D12D69}" {
-    m_iSquadCallsign 6
+    m_iSquadCallsign 4
    }
   }
   coords 1423.237 37.514 2647.105
@@ -133,7 +136,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{647748C8EA99C73C}" {
-    m_iSquadCallsign 7
+    m_iSquadCallsign 5
    }
   }
   coords 1418.496 37.263 2645.554
