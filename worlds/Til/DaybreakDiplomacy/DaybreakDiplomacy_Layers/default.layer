@@ -10,7 +10,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{65F6E35A2AF907AB}" {
      m_iStartingHour 3
-     m_iStartingMinutes 35
+     m_iStartingMinutes 20
     }
    }
   }

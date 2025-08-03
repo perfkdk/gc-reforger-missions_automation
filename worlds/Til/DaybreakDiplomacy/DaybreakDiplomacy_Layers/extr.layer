@@ -26,7 +26,7 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SE
   coords 3486.624 82.9 7192.442
   angleY -155.296
   m_aUnitPrefabSlots {
-   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_SL_P.et" "{4FCB1540F6AFC4DA}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_AR_P.et" "{F21B47C789B4D8C4}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_AT_P.et" "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_TL_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_Rifleman_P.et"
+   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_SL_P.et" "{4FCB1540F6AFC4DA}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_AR_P.et" "{F21B47C789B4D8C4}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_AT_P.et" "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_TL_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_Rifleman_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_Rifleman_P.et"
   }
   m_sCustomNameSet "1st Squad"
  }
@@ -74,7 +74,7 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SE
   coords 3462.347 82.9 7043.855
   angleY 27.696
   m_aUnitPrefabSlots {
-   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_SL_P.et" "{4FCB1540F6AFC4DA}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_AR_P.et" "{F21B47C789B4D8C4}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_AT_P.et" "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_TL_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_Rifleman_P.et"
+   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_SL_P.et" "{4FCB1540F6AFC4DA}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_AR_P.et" "{F21B47C789B4D8C4}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_AT_P.et" "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_TL_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_Rifleman_P.et" "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEP/P/Character_SEP_Rifleman_P.et"
   }
   m_sCustomNameSet "2nd Squad"
  }
@@ -102,7 +102,7 @@ $grp SCR_AIGroup : "{DF688F0BC937BFC7}Prefabs/Groups/CIV/Group_CIV_Base.et" {
   coords 3492.334 82.881 7194.394
   angleY 143.932
   m_aUnitPrefabSlots {
-   "{979D6FD4888512DD}worlds/Til/hrsc/Prefabs/bm1.et"
+   "{979D6FD4888512DD}worlds/Til/DaybreakDiplomacy/Prefabs/bm1.et"
   }
   m_sCustomNameSet "Hostage 1"
  }
@@ -115,7 +115,7 @@ $grp SCR_AIGroup : "{DF688F0BC937BFC7}Prefabs/Groups/CIV/Group_CIV_Base.et" {
   coords 3482.596 83.035 7085.499
   angleY -4.194
   m_aUnitPrefabSlots {
-   "{FBC95B3434419DF3}worlds/Til/hrsc/Prefabs/bm2.et"
+   "{FBC95B3434419DF3}worlds/Til/DaybreakDiplomacy/Prefabs/bm2.et"
   }
   m_sCustomNameSet "Hostage 2"
  }
