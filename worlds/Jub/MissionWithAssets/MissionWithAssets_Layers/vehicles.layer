@@ -9,6 +9,27 @@ $grp Vehicle : "{36EA87CEC1BE77E0}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_O
  }
 }
 Vehicle APC_K17_Epoch_camo1 : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camo1.et" {
+ components {
+  RHS_GroupMaterialController "{5E356B92D417DC07}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{5E356B92CC45C4E7}" {
+     m_iTextureID 3
+     m_bRandomize 0
+    }
+    RHS_MaterialGroupProperties "{5E356B9233E75430}" {
+     m_iTextureID 1
+     m_bRandomize 0
+    }
+    RHS_MaterialGroupProperties "{5E356B92330F7851}" {
+     m_iTextureID 3
+     m_bRandomize 0
+    }
+    RHS_MaterialGroupProperties "{5E3574F66AAE4150}" {
+     m_iTextureID 3
+    }
+   }
+  }
+ }
  coords 3777.101 59.125 1816.112
  angleY 7.674
  m_sAttachmentGroupName "ru_mr_sq3"
@@ -57,11 +78,53 @@ Vehicle GAZ_TIGR_v2_AGS17_PAG1 : "{CEFC2B5C4334CADB}Prefabs/Vehicles/Wheeled/TIG
 }
 $grp Vehicle : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
  APC_K17_Berezok_camo1 {
+  components {
+   RHS_GroupMaterialController "{5E356B92D417DC07}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{5E356B92CC45C4E7}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{5E356B9233E75430}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{5E356B92330F7851}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{5E3574F66AAE4150}" {
+      m_iTextureID 1
+     }
+    }
+   }
+  }
   coords 3785.783 58.352 1843.74
   angleY 7.674
   m_sAttachmentGroupName "ru_mr_sq1"
  }
  APC_K17_Berezok_camo2 {
+  components {
+   RHS_GroupMaterialController "{5E356B92D417DC07}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{5E356B92CC45C4E7}" {
+      m_iTextureID 3
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{5E356B9233E75430}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{5E356B92330F7851}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{5E3574F66AAE4150}" {
+      m_iTextureID 2
+     }
+    }
+   }
+  }
   coords 3785.568 58.935 1826.868
   angleY 7.674
   m_sAttachmentGroupName "ru_mr_sq2"
