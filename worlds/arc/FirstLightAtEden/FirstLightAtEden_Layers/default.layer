@@ -61,20 +61,22 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
       m_aCompanyNames {
        SCR_CallsignInfo "{55CCB792CCD598D3}" {
+       }
+       SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
         m_sCallsign "Longbow-"
        }
       }
       m_aPlatoonNames {
        SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+       }
+       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
         m_sCallsign "6"
        }
       }
       m_aSquadNames {
        SCR_CallsignInfo "{55CCB792D1218E95}" {
-        m_sCallsign "D"
        }
        SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
-        m_sCallsign "E"
        }
        SCR_CallsignInfo "{62E6C1B918E898C6}" {
         m_sCallsign "1"
