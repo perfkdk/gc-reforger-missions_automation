@@ -34,6 +34,12 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 11777.352 0 11649.996
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{6608E42402CB2460}" {
+   m_sFactionKey "UK"
+   m_iCount 5
+  }
+ }
  {
   SCR_FactionManager "62E564E462BC6804" {
    ID "5ED9088735FF2D8B"
