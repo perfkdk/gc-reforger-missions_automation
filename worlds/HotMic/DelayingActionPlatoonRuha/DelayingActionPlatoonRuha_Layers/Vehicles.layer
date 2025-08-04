@@ -1,0 +1,69 @@
+$grp Vehicle : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
+ M923A1_engineer1 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo EngineerBox {
+      Prefab "{808A34E26203B82D}worlds/HotMic/Prefabs/truck_engineer_box_wo_commandPost_HotMic.et"
+     }
+    }
+   }
+  }
+  coords 6675.536 96.658 1186.669
+ }
+ M923A1_engineer2 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo EngineerBox {
+      Prefab "{808A34E26203B82D}worlds/HotMic/Prefabs/truck_engineer_box_wo_commandPost_HotMic.et"
+     }
+    }
+   }
+  }
+  coords 6675.536 96.658 1174.657
+ }
+}
+Vehicle M923A1_ammo1 : "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et" {
+ coords 6680.96 96.657 1186.669
+}
+Vehicle M998_covered_long1 : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65FF4C0A5AFB36CD}" {
+     SlotTemplate InventoryStorageSlot AmmoBag {
+      Prefab "{5028D9E699AE3A73}Prefabs/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_US.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 6766.265 60.469 4753.706
+ angleY 114.215
+}
+$grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ M923A1_transport6 {
+  coords 6814.208 61.05 4734.443
+  angleX 0.835
+  angleY 112
+  angleZ 0.324
+ }
+ M923A1_transport7 {
+  coords 6800.424 60.763 4739.625
+  angleX 1.669
+  angleY 112
+  angleZ 0.647
+ }
+ M923A1_transport8 {
+  coords 6787.943 60.763 4744.562
+  angleX 1.669
+  angleY 112
+  angleZ 0.647
+ }
+ M923A1_transport2 {
+  coords 6776.156 60.468 4749.739
+  angleY 112
+ }
+}

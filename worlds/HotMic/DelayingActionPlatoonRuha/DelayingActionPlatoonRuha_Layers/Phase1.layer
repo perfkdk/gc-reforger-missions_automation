@@ -1,0 +1,11 @@
+$grp GenericEntity {
+ Phase1_Main_Infantry {
+  coords 7622.571 63.608 7191.714
+ }
+ Phase1_Flanking_Infantry {
+  coords 7985.613 63.608 6763.298
+ }
+}
+SCR_AIWaypoint Phase1_Move_Waypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+ coords 7426.455 64.455 6526.671
+}
