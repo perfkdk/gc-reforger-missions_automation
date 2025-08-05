@@ -146,7 +146,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  Spawner_Runway_Vehicles_Median {
-  coords 5778.271 109.312 11535.465
+  coords 5891.401 109.312 11642.679
   angleY -133.462
   m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
   m_conditionFlag "Spawn Enemies Median"
@@ -162,16 +162,15 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefendWaypoint_Hangers" "DefendWaypoint_Main_Warehouse_Complex" "DefendWaypoint_North_Warehouse" "DefendWaypoint_Oil_Depots"
+      "BTR_Patrol_1" "BTR_Patrol_2" "BTR_Patrol_3"
      }
-     m_waypointDelay 5
     }
    }
    m_noTurretDismount 1
   }
  }
  Spawner_Runway_Vehicles_Hard {
-  coords 5806.292 109.312 11562.021
+  coords 5919.422 109.312 11669.235
   angleY -133.462
   m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
   m_conditionFlag "Spawn Enemies Hard"
@@ -190,7 +189,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefendWaypoint_Oil_Depots" "DefendWaypoint_Norht_Warehouse" "DefendWaypoint_Main_Warehouse_Complex" "DefendWaypoint_Hangers"
+      "BTR_Patrol_1" "BTR_Patrol_2" "BTR_Patrol_3"
      }
      m_waypointDelay 5
     }

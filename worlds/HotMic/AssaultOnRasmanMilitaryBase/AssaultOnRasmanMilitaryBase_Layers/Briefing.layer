@@ -146,7 +146,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 8133.234 322.187 1978.993
   m_sTitle "Notes for GM and Pilots"
-  m_sTextData "GM: If there isn't enough AI or AI isn't apply enough pressure to the defenders during Phase 2; spawn new AI groups if possible. Feel free to take manual controls of AA units."\
+  m_sTextData "GM: If there isn't enough AI or AI isn't apply enough pressure to the defenders during Phase 2; spawn new AI groups if possible. Feel free to take manual controls of AA units. If there are too much AI, you can delete some units or in worst case, head to the CO's Pit and use the Debug Sign to clear the AI Respawns Flags."\
   ""\
   "Pilots: They are free to take what ever helicopters they want AS LONG it's either gun & unguided rockets or transport. They must work in pairs, in the same helicopter; with the exception of flying supply Little Birds."\
   ""\
@@ -163,14 +163,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "It's important for GM to make sure that the slots are rightly reserved to make this mission fun and somewhat balance. It's also important for CO to understand and set up the proper Chain of Command."\
   ""\
   "     ----- Easy (15 - 27 Players) -----"\
-  "1 PHQ, FTO, & Medic"\
+  "1 CHQ, FTO, & Medic"\
   "11 - 22 Troops"\
   "1 Pilot for every 11 Troops"\
   ""\
   "Helicopter Restriction: Transport Helicopter only"\
   ""\
   "     ----- Medium (28 - 53 Players) -----"\
-  "1 PHQ, FTO"\
+  "1 CHQ & FTO"\
   "2 Medics"\
   ""\
   "22 - 44 Troops"\
@@ -199,7 +199,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 8260.576 325.576 2196.742
   m_sTitle "Supplies and Support"
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
-  m_sTextData "a. Aviation / Close Air Support (CAS):"\
+  m_sTextData "a. Aviation / Close Air Support:"\
   "- The Main Operating Base (MoB) maintains unlimited supplies for CAS support."\
   "- Forward Air Controllers (FAC) must coordinate strikes in accordance with ROE (Type 3)."\
   ""\
