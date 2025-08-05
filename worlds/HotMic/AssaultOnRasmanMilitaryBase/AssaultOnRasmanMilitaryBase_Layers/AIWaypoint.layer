@@ -2,6 +2,12 @@ SCR_EntityWaypoint AIWaypoint_MainAttack : "{1B0E3436C30FA211}Prefabs/AI/Waypoin
  coords 6049.167 110.779 11619.877
  CompletionRadius 15
 }
+AIWaypointCycle BTR_Patrol_Cycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ coords 5954.856 109.311 11545.224
+ CycleWaypoints {
+  "BTR_Patrol_1" "BTR_Patrol_2" "BTR_Patrol_3"
+ }
+}
 $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  Fort_A_Move_Waypoint {
   coords 6462.487 127.356 11818.913

@@ -925,7 +925,7 @@ $grp GameEntity {
      {
       GenericEntity {
        ID "5CCCBEE868D6B043"
-       coords 2.268 -0 0.545
+       coords 2.268 0 0.545
       }
       GenericEntity {
        ID "5CCCBEE868D6B04E"
@@ -939,7 +939,7 @@ $grp GameEntity {
       }
       GenericEntity {
        ID "5CCCBEE868D6B29A"
-       coords 0.002 -0 1.422
+       coords 0.002 0 1.422
        angleY -0.696
       }
       GenericEntity {
@@ -968,7 +968,7 @@ $grp GameEntity {
       }
       GenericEntity {
        ID "5CCCBEE868D6B2BC"
-       coords 1.605 -0 1.427
+       coords 1.605 0 1.427
        angleY 180
       }
       GenericEntity {
@@ -990,7 +990,7 @@ $grp GameEntity {
       }
       GenericEntity {
        ID "5CCCBEE868D6B318"
-       coords 0.504 -0 0.298
+       coords 0.504 0 0.298
        angleY -30.181
        {
         DecalEntity {
@@ -1046,7 +1046,7 @@ $grp GameEntity {
        {
         DecalEntity {
          ID "56DEFDB4A2C87F38"
-         coords 0 -0 0
+         coords 0 0 0
          angleX 0
          angleY -132.714
          angleZ 0
@@ -1067,7 +1067,7 @@ $grp GameEntity {
       }
       GenericEntity {
        ID "5CD2AC4DBFADB874"
-       coords -0.051 -0 -0.172
+       coords -0.051 0 -0.172
        angleY -85.801
       }
       GenericEntity {
@@ -1391,7 +1391,7 @@ $grp GameEntity {
        {
         DecalEntity {
          ID "56DEFDB4A9499F9B"
-         coords 0.001 -0 -0
+         coords 0.001 0 0
          angleX 0
          angleY -140.328
         }
@@ -1436,11 +1436,10 @@ $grp GameEntity {
        ID "5CCCBEE868D6B318"
        coords 0.504 0 0.299
        angleY -30.192
-       angleZ -0
        {
         DecalEntity {
          ID "56E0B29F4975B6A9"
-         coords 0 -0 -0
+         coords 0 0 0
          angleX 0
          angleY -111.014
          angleZ 0
@@ -1486,7 +1485,7 @@ $grp GameEntity {
        {
         DecalEntity {
          ID "56DEFDB4A2C87F38"
-         coords 0.002 -0 0.001
+         coords 0.002 0 0.001
          angleX 0
          angleY -125.291
          angleZ 0
@@ -1511,7 +1510,6 @@ $grp GameEntity {
        ID "5CD2AC4DBFADB874"
        coords -0.053 0 -0.172
        angleY -85.808
-       angleZ -0
       }
       GenericEntity {
        ID "5CCCBEE868D6B086"
@@ -8091,24 +8089,64 @@ $grp GameEntity {
 }
 $grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
  {
+  components {
+   TILW_VehicleCrewComponent "{660B6225F4726D19}" {
+    m_spawnTurret 1
+    m_customCrew {
+     "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+    }
+    m_noTurretDismount 1
+    m_idleGroup 1
+   }
+  }
   coords 5392.71 134.831 10789.382
   angleX 0.558
   angleY 0.075
   angleZ 7.628
  }
  {
+  components {
+   TILW_VehicleCrewComponent "{660B62259744CC41}" {
+    m_spawnTurret 1
+    m_customCrew {
+     "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+    }
+    m_noTurretDismount 1
+    m_idleGroup 1
+   }
+  }
   coords 6455.767 127.826 11823.955
   angleX 0.568
   angleY 0.009
   angleZ 0.853
  }
  {
+  components {
+   TILW_VehicleCrewComponent "{660B6225E2C55598}" {
+    m_spawnTurret 1
+    m_customCrew {
+     "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+    }
+    m_noTurretDismount 1
+    m_idleGroup 1
+   }
+  }
   coords 6378.963 180.485 12302.631
   angleX 3.392
   angleY -0.219
   angleZ -3.696
  }
  {
+  components {
+   TILW_VehicleCrewComponent "{660B6225C8CCE612}" {
+    m_spawnTurret 1
+    m_customCrew {
+     "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+    }
+    m_noTurretDismount 1
+    m_idleGroup 1
+   }
+  }
   coords 5678.129 123.985 11714.888
  }
 }
