@@ -78,8 +78,6 @@ GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
       SCR_ResourceComponent "{5D247A59598D71AE}" {
        m_aContainers {
         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-         m_fResourceValueCurrent 1400
-         m_fResourceValueMax 1400
         }
        }
       }
@@ -91,8 +89,6 @@ GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
       SCR_ResourceComponent "{5D247A59598D71AE}" {
        m_aContainers {
         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-         m_fResourceValueCurrent 1400
-         m_fResourceValueMax 1400
         }
        }
       }
@@ -104,8 +100,6 @@ GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
       SCR_ResourceComponent "{5D247A59598D71AE}" {
        m_aContainers {
         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-         m_fResourceValueCurrent 1400
-         m_fResourceValueMax 1400
         }
        }
       }
@@ -115,42 +109,8 @@ GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
   }
  }
 }
-GenericEntity Action_Sign : "{76167BEC292DCF79}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Warzone_US_01.et" {
- coords 6769.966 60.468 4749.769
- angleY 19.946
- {
-  GenericEntity : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_BaseInteraction.et" {
-   components {
-    ActionsManagerComponent "{61F4C18E835074FF}" {
-     ActionContexts {
-      UserActionContext "{61F4C18ECB0A8B85}" {
-       Radius 1
-      }
-     }
-     additionalActions {
-      TILW_BaseInteraction "{61F4C18E863E752C}" {
-       m_actionName "Debug: Clear Phase 1 Flag"
-       m_deleteParent 1
-       m_flagName "Clear Phase 1 Can Respawn"
-      }
-      TILW_BaseInteraction "{65E365F08EEAC4F9}" {
-       ParentContextList {
-        "Interact_A"
-       }
-       ActionTitle "Interact_B"
-       Duration 1
-       "Sort Priority" 1
-       m_actionName "Debug: Clear Phase 12Flag"
-       m_deleteParent 1
-       m_flagName "Clear Phase 2 Can Respawn"
-      }
-     }
-    }
-   }
-   coords 0 1.367 0
-   angleY 95.431
-  }
- }
+SCR_AIGroup : "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/Group_USSR_MSV80_MotRifleSquad.et" {
+ coords 7503.982 64.875 6575.5
 }
 DecalEntity : "{7C184D5F132A8987}Prefabs/Decals/Asphalt/Decal_Asphalt_Crossroad_01.et" {
  coords 6578.197 0.547 1280.324
@@ -160,4 +120,12 @@ DecalEntity : "{7C184D5F132A8987}Prefabs/Decals/Asphalt/Decal_Asphalt_Crossroad_
  FarPlane 8.61
  Stretch 33.07
  ClutterOccluder 1
+}
+GenericEntity : "{A76FBE3B139F227A}PrefabsEditable/Auto/Structures/Signs/Military/E_SignCheckpoint_01_stop.et" {
+ coords 4091.75 61.81 1349.454
+ angleY 41.845
+}
+GenericEntity : "{E74D2F51CD4F03D0}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_US_01.et" {
+ coords 4098.366 61.844 1351.497
+ angleY 47.541
 }

@@ -1,5 +1,5 @@
 $grp SCR_AIGroup : "{3CB49E81F6BAED00}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf (Woodland)/P/Group_US_1989_BDU_RifleSquad_P.et" {
- {
+ RifleSquad1 {
   components {
    PS_GroupCallsignAssigner "{6587209DC264F2AF}" {
     m_iSquadCallsign 1
@@ -8,7 +8,7 @@ $grp SCR_AIGroup : "{3CB49E81F6BAED00}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf 
   coords 6819.074 62.87 4737.384
   angleY -159
  }
- {
+ RifleSquad2 {
   components {
    PS_GroupCallsignAssigner "{6587209DC264F2AF}" {
     m_iSquadCallsign 2
@@ -17,7 +17,7 @@ $grp SCR_AIGroup : "{3CB49E81F6BAED00}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf 
   coords 6806.192 62.716 4742.386
   angleY -159
  }
- {
+ RifleSquad3 {
   components {
    PS_GroupCallsignAssigner "{6587209DC264F2AF}" {
     m_iSquadCallsign 3
@@ -26,7 +26,7 @@ $grp SCR_AIGroup : "{3CB49E81F6BAED00}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf 
   coords 6793.391 62.716 4747.15
   angleY -159
  }
- {
+ ConstructionSquad {
   components {
    PS_GroupCallsignAssigner "{6587209DC264F2AF}" {
     m_iSquadCallsign 5
@@ -41,14 +41,14 @@ $grp SCR_AIGroup : "{3CB49E81F6BAED00}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf 
  }
 }
 $grp SCR_AIGroup : "{89D481D41D11BF1C}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf (Woodland)/P/Group_US_1989_BDU_PLT_HQ_P.et" {
- {
+ PHQ {
   coords 6768.706 62.154 4756.703
   angleY -159
   m_aUnitPrefabSlots {
    "{86519F90C3408D26}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_PL_CO_P.et" "{BFA68FAC936D8E5A}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_PSG_P.et" "{C65B9CABAD35095E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Medic_P.et"
   }
  }
- {
+ WeaponsSquad {
   components {
    PS_GroupCallsignAssigner "{6587209DC267F93E}" {
     m_iSquadCallsign 4
