@@ -880,6 +880,30 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "Extraction Complete Flag"
    }
   }
+  TILW_MissionEvent "{660F341BBBE5BAC9}" {
+   m_name "Extraction Failed"
+   m_instructions {
+    TILW_SendMessageInstruction "{660F341B9C6BF155}" {
+     m_messageTitle "Extraction Failed!"
+     m_messageBody "COWARDS!"
+    }
+    TILW_SendMessageInstruction "{660F341BC8E6DAA5}" {
+     m_executionDelay 15
+     m_messageTitle "Mission Failed!"
+     m_messageBody "Wait for GMs to pick the next mission."
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{660F341BB3B346DF}" {
+    m_operands {
+     TILW_LiteralTerm "{660F341BB1E3ABBA}" {
+      m_flagName "Extraction Complete Flag"
+     }
+     TILW_LiteralTerm "{660F341B8E8AA3B9}" {
+      m_flagName "Within Time Limit"
+     }
+    }
+   }
+  }
   TILW_MissionEvent "{660D35832349E8CD}" {
    m_name "US Casualties Limit"
    m_instructions {
