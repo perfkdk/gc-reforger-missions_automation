@@ -37,7 +37,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Friendly Forces"
   m_sTextData "Company(-) strength RU located north of Kelloja. x1 Scout platoon Mot; x2 Tank platoon; Co HQ with repair vic and AAA."\
   ""\
-  "Wearing EMR, equipped with standard Russian weaponry such as AK-74s, PKMs and SVDs."
+  "Wearing EMR, equipped with standard Russian weaponry such as AK-74s, PKMs and SVDs."\
+  ""\
+  ""\
+  "The repair truck can be used to repair vehicles using supplies. By default, it has 40/340 supplies loaded - there is a container at the starting location with 500 supplies which can be loaded into the truck."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }

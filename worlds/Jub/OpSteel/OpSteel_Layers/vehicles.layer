@@ -234,30 +234,15 @@ $grp RHS_Tank : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et
  }
 }
 Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
- components {
-  SCR_ResourceComponent "{660C02824C8AC3E9}" {
-   m_aContainers {
-    SCR_ResourceContainer "{660C028257957F49}" {
-     m_sDebugName "test"
-     m_eResourceRights FACTION
-     m_eStorageType CARGO_VEHICLE
-     m_fResourceValueCurrent 1500
-     m_fResourceValueMax 1500
-     m_bEnableResourceGain 1
-     m_fResourceGain 100
-     m_fResourceGainTickrate 0.1
-    }
-   }
-   m_aGenerators {
-    SCR_ResourceGenerator "{660C028754EEEB49}" {
-     m_eResourceRights FACTION
-    }
-   }
-  }
- }
  coords 6181.668 54.123 8109.691
  angleY 116.281
  m_sAttachmentGroupName "RUCOYXO"
+}
+GenericEntity : "{C0B99D11761CA2AD}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_10ft.et" {
+ coords 6182.494 54.075 8115.074
+ angleX -2.476
+ angleY -22.689
+ angleZ 1.035
 }
 Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
  coords 6191.493 53.869 8156.155
