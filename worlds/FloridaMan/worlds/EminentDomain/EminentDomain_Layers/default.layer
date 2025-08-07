@@ -37,10 +37,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  coords 7601.359 79.414 5495.919
  m_missionEvents {
   TILW_MissionEvent "{660916AFB7E9BA21}" {
-   m_name "UK Major Victory"
+   m_name "UK Victory"
    m_instructions {
-    TILW_EndGameInstruction "{660916AFA2F04805}" {
-     m_factionKey "UK"
+    TILW_SendMessageInstruction "{660E1744C5DA3629}" {
+     m_executionDelay 10
+     m_messageTitle "UK VICTORY"
+     m_messageBody "The British killed most separatists and destroyed the cache."
     }
    }
    m_condition TILW_ConjunctionTerm "{660916AF9A635FE4}" {
@@ -54,30 +56,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
-  TILW_MissionEvent "{660916AF631C2AAF}" {
-   m_name "UK Minor Victory"
-   m_instructions {
-    TILW_EndGameInstruction "{660916AF631C2AC3}" {
-     m_factionKey "UK"
-    }
-   }
-   m_condition TILW_ConjunctionTerm "{660916AF631C2ADD}" {
-    m_operands {
-     TILW_LiteralTerm "{660916AF631C2ADC}" {
-      m_invertTerm 1
-      m_flagName "CacheDestroyed"
-     }
-     TILW_LiteralTerm "{660916AF631C2ADB}" {
-      m_flagName "SeparatistKilled"
-     }
-    }
-   }
-  }
   TILW_MissionEvent "{660916AF15EFB3E8}" {
    m_name "Separatist Minor Victory"
    m_instructions {
-    TILW_EndGameInstruction "{660916AF15EFB331}" {
-     m_factionKey "GC_SEPARATIST"
+    TILW_SendMessageInstruction "{660E17432CFD5A5E}" {
+     m_messageTitle "MINOR SEPARATIST VICTORY"
+     m_messageBody "The separatists managed to inflict heavy casualties on the British, but the cache was destroyed."
     }
    }
    m_condition TILW_ConjunctionTerm "{660916AF15EFB30C}" {
@@ -94,8 +78,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{660916AF02390146}" {
    m_name "Separatist Major Victory"
    m_instructions {
-    TILW_EndGameInstruction "{660916AF023906FF}" {
-     m_factionKey "GC_SEPARATIST"
+    TILW_SendMessageInstruction "{660E17431814B20D}" {
+     m_messageTitle "MAJOR SEPARATIST VICTORY"
+     m_messageBody "The separatists managed to protect the cache and inflict heavy casualties on the British."
     }
    }
    m_condition TILW_ConjunctionTerm "{660916AF023906F8}" {
@@ -124,13 +109,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
- m_factionPlayersKilledFlags {
-  TILW_FactionPlayersKilledFlag "{660916A81492966B}" {
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{660E174646A91809}" {
    m_flagName "SeparatistKilled"
    m_factionKey "GC_SEPARATIST"
    m_casualtyRatio 0.95
   }
-  TILW_FactionPlayersKilledFlag "{660916A804E6F748}" {
+  TILW_FactionPlayersKilledFlag "{660E174648720C05}" {
    m_flagName "BritishKilled"
    m_factionKey "UK"
    m_casualtyRatio 0.9
