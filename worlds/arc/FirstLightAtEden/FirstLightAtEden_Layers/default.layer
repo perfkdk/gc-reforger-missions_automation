@@ -34,6 +34,12 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 11777.352 0 11649.996
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{6608E42402CB2460}" {
+   m_sFactionKey "UK"
+   m_iCount 5
+  }
+ }
  {
   SCR_FactionManager "62E564E462BC6804" {
    ID "5ED9088735FF2D8B"
@@ -81,15 +87,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        SCR_CallsignInfo "{62E6C1B918E898C6}" {
         m_sCallsign "1"
        }
-       SCR_CallsignInfo "{62E6C1B918F7C3B2}" {
+       SCR_CallsignInfo "{65371177AECDA3B3}" {
         m_sCallsign "2"
        }
-       SCR_CallsignInfo "{62E6C1B918D4FF0E}" {
+       SCR_CallsignInfo "{65371177B9B5E302}" {
         m_sCallsign "3"
        }
       }
-      m_sCallsignCharacterFormat "%1%2%3: %4"
-      m_sCallsignCharacterWithRoleFormat "%1%2%3: %4"
      }
      m_iFactionRadioFrequency 45000
     }
