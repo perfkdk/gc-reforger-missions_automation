@@ -1,6 +1,8 @@
 SCR_AIGroup : "{0AB5E28F3A7EBC66}Prefabs/Groups/BLUFOR/British Forces/2024/Light Infantry/1 RIFLES/P/Group_UK_2024_1Rifles_RiflePHQ_P.et" {
  components {
   PS_GroupCallsignAssigner "{65DAD4518B802457}" {
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
   }
  }
  coords 2239.77 69.143 6967.409
@@ -13,7 +15,8 @@ $grp SCR_AIGroup : "{782AF99E6EF46E1E}Prefabs/Groups/BLUFOR/British Forces/2024/
  {
   components {
    PS_GroupCallsignAssigner "{65DAD45185541B74}" {
-    m_iSquadCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
    }
   }
   coords 2240.249 69.281 6963.496
@@ -22,7 +25,8 @@ $grp SCR_AIGroup : "{782AF99E6EF46E1E}Prefabs/Groups/BLUFOR/British Forces/2024/
  {
   components {
    PS_GroupCallsignAssigner "{65DAD451802A50A3}" {
-    m_iSquadCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 5
    }
   }
   coords 2240.719 69.248 6959.473
