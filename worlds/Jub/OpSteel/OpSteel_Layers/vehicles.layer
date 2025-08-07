@@ -176,6 +176,7 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
   }
   coords 6195.481 53.984 8129.564
   angleY 177.505
+  m_sAttachmentGroupName "RUTNKHQ1"
  }
  T72B_base2 {
   components {
@@ -198,6 +199,7 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
   }
   coords 6195.207 54 8138.927
   angleY 177.505
+  m_sAttachmentGroupName "RUTNKHQ2"
  }
  T72B_base3 {
   components {
@@ -220,6 +222,7 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
   }
   coords 6195.314 53.906 8148.28
   angleY 177.505
+  m_sAttachmentGroupName "RUTNK1"
  }
  T72B_base4 {
   components {
@@ -242,6 +245,7 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
   }
   coords 6190.456 54 8129.541
   angleY 177.505
+  m_sAttachmentGroupName "RUTNK2"
  }
  T72B_base5 {
   components {
@@ -264,6 +268,7 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
   }
   coords 6190.354 53.961 8139.456
   angleY 177.505
+  m_sAttachmentGroupName "RUTNK3"
  }
  T72B_base6 {
   components {
@@ -286,6 +291,7 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
   }
   coords 6190.267 53.931 8148.09
   angleY 177.505
+  m_sAttachmentGroupName "RUTNK4"
  }
 }
 $grp RHS_Tank : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
