@@ -131,7 +131,7 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
  angleX 0.895
  Points {
   ShapePoint "{65DAD45204ECAC0A}" {
-   Position 1549.938 -121.738 4267.394
+   Position 1521.164 -64.816 4136.813
   }
   ShapePoint "{65DAD4520662E2F6}" {
    Position -3597.187 71.26 -4031.999
@@ -145,8 +145,8 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
  }
 }
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 1179.124 61.125 49.232
- m_queryRadius 50
+ coords 1223.408 61.353 154.998
+ m_queryRadius 150
  m_captureIterations 6
  m_sendStatusMessages 1
  m_locationName "the hamlet"
