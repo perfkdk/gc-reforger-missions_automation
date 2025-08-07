@@ -23,7 +23,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Separatists restricted to their spawn during setup, Brits restricted to within 250m of Pihlajamaa during setup but unrestricted after."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 5
+  m_iOrder 6
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {

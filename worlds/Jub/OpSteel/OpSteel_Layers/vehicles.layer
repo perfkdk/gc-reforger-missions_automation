@@ -1,0 +1,251 @@
+$grp Tank : "{12C35C0A24EDA6D0}Prefabs/Vehicles/Tracked/BFV/M2A3_BUSK_MERDC.et" {
+ M2A3_BUSK_MERDC2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64F11B25C811ACD3}" {
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 3551.548 58.139 4098.867
+  angleY 98.13
+  m_sAttachmentGroupName "ASEC"
+ }
+ M2A3_BUSK_MERDC1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64F11B25C811ACD3}" {
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 3561.24 57.95 4097.35
+  angleY 98.13
+  m_sAttachmentGroupName "ASEC"
+ }
+ M2A3_BUSK_MERDC3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64F11B25C811ACD3}" {
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 3542.142 58.354 4101.006
+  angleY 98.13
+  m_sAttachmentGroupName "BSEC"
+ }
+ M2A3_BUSK_MERDC4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64F11B25C811ACD3}" {
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 3529.254 58.605 4103.9
+  angleY 98.13
+  m_sAttachmentGroupName "BSEC"
+ }
+ M2A3_BUSK_MERDC5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64F11B25C811ACD3}" {
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 3515.266 58.793 4104.719
+  angleY 98.13
+  m_sAttachmentGroupName "CSEC"
+ }
+ M2A3_BUSK_MERDC6 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+    MultiSlots {
+     MultiSlotConfiguration "{64F11B25C811ACD3}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{6605070AC395DC03}" {
+      SlotTemplate InventoryStorageSlot CG {
+       Prefab "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 3501.246 59.043 4104.653
+  angleY 98.13
+  m_sAttachmentGroupName "CSEC"
+ }
+}
+$grp Vehicle : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et" {
+ K4386_Armed_Camo2 {
+  components {
+   RHS_GroupMaterialController "{627A2C8BFBB29028}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{627A2C8BF19DF13A}" {
+      m_iTextureID 4
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{627A2C8BF15F13F6}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{627A2C8BF1434AF7}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+    }
+   }
+  }
+  coords 6191.846 54.248 8103.606
+  angleY -171.659
+  m_sAttachmentGroupName "RURECSQ2"
+  {
+   EnvironmentProbeEntity {
+    ID "64F5300043896B60"
+    coords 0.004 2.43 -1.135
+    angleX 0.193
+    angleZ -0.051
+   }
+  }
+ }
+ K4386_Armed_Camo3 {
+  components {
+   RHS_GroupMaterialController "{627A2C8BFBB29028}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{627A2C8BF19DF13A}" {
+      m_iTextureID 4
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{627A2C8BF15F13F6}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{627A2C8BF1434AF7}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+    }
+   }
+  }
+  coords 6189.949 54.094 8094.44
+  angleY -171.659
+  m_sAttachmentGroupName "RURECHQ"
+  {
+   EnvironmentProbeEntity {
+    ID "64F5300043896B60"
+    coords 0.004 2.43 -1.136
+    angleX 0.193
+    angleZ -0.051
+   }
+  }
+ }
+}
+$grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
+ T72B_base1 {
+  coords 6195.481 53.984 8129.564
+  angleY 177.505
+  m_sAttachmentGroupName "RUTNKHQ1"
+ }
+ T72B_base2 {
+  coords 6195.207 54 8138.927
+  angleY 177.505
+  m_sAttachmentGroupName "RUTNKHQ2"
+ }
+ T72B_base3 {
+  coords 6195.314 53.906 8148.28
+  angleY 177.505
+  m_sAttachmentGroupName "RUTNK1"
+ }
+ T72B_base4 {
+  coords 6190.456 54 8129.541
+  angleY 177.505
+  m_sAttachmentGroupName "RUTNK2"
+ }
+ T72B_base5 {
+  coords 6190.354 53.961 8139.456
+  angleY 177.505
+  m_sAttachmentGroupName "RUTNK3"
+ }
+ T72B_base6 {
+  coords 6190.267 53.931 8148.09
+  angleY 177.505
+  m_sAttachmentGroupName "RUTNK4"
+ }
+}
+$grp RHS_Tank : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
+ Tank_T14_camo1 {
+  components {
+   RHS_GroupMaterialController "{5E36A382F894B29C}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{5E36A382F7BC44DE}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{5E36A382F7F42CD7}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{5E36A382F73CB243}" {
+      m_bRandomize 0
+     }
+    }
+   }
+  }
+  coords 6194.666 54.062 8117.462
+  angleY -176.26
+  m_sAttachmentGroupName "RUCOHQ"
+ }
+ Tank_T14_camo2 {
+  components {
+   RHS_GroupMaterialController "{5E36A382F894B29C}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{5E36A382F7BC44DE}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{5E36A382F7F42CD7}" {
+      m_iTextureID 1
+      m_bRandomize 0
+     }
+     RHS_MaterialGroupProperties "{5E36A382F73CB243}" {
+      m_iTextureID 2
+      m_bRandomize 0
+     }
+    }
+   }
+  }
+  coords 6188.42 54.062 8117.898
+  angleY -176.26
+  m_sAttachmentGroupName "RUCOYXO"
+ }
+}
+Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
+ coords 6181.668 54.123 8109.691
+ angleY 116.281
+ m_sAttachmentGroupName "RUCOYXO"
+}
+GenericEntity : "{C0B99D11761CA2AD}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_10ft.et" {
+ coords 6182.494 54.075 8115.074
+ angleX -2.476
+ angleY -22.689
+ angleZ 1.035
+}
+Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
+ coords 6191.493 53.869 8156.155
+ angleY 176.849
+ m_sAttachmentGroupName "RUCOHQ"
+}
