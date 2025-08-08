@@ -237,6 +237,32 @@ $grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   }
  }
 }
+GenericEntity : "{76167BEC292DCF79}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Warzone_US_01.et" {
+ coords 5249.285 78.708 6377.778
+ angleY -171.883
+ {
+  GenericEntity : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_BaseInteraction.et" {
+   components {
+    ActionsManagerComponent "{61F4C18E835074FF}" {
+     ActionContexts {
+      UserActionContext "{61F4C18ECB0A8B85}" {
+       Radius 1
+      }
+     }
+     additionalActions {
+      TILW_BaseInteraction "{61F4C18E863E752C}" {
+       m_actionName "Set Check Supplies Flag"
+       m_deleteParent 1
+       m_flagName "Check Supplies"
+      }
+     }
+    }
+   }
+   coords 0 1.367 0
+   angleY 95.431
+  }
+ }
+}
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  AO_Limit_Blufor {
   components {
@@ -356,8 +382,20 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
  "		SCR_ResourceComponent BlueRC = SCR_ResourceComponent.FindResourceComponent(BlueSupplyDepot, true);"\
  "		SCR_ResourceComponent RedRC = SCR_ResourceComponent.FindResourceComponent(RedSupplyDepot, true);"\
  "		"\
- "		Print(\"Hello\");"\
- "	"
+ "		const float BlueRCSupplies = BlueRC.GetConsumer(EResourceGeneratorID.DEFAULT_STORAGE, EResourceType.SUPPLIES).GetAggregatedResourceValue();"\
+ "		const float RedRCSupplies = RedRC.GetConsumer(EResourceGeneratorID.DEFAULT_STORAGE, EResourceType.SUPPLIES).GetAggregatedResourceValue();"\
+ "		"\
+ "		if (BlueRCSupplies > RedRCSupplies)"\
+ "		{"\
+ "			Print(\"Blue has more supplies than Red\");"\
+ "			AdjustMissionFlag(\"Blue Won\", true);"\
+ "		}"\
+ "		else"\
+ "		{"\
+ "			Print(\"Red has more supplies than Blue\");"\
+ "			AdjustMissionFlag(\"Red Won\", true);"\
+ "		}"\
+ "	  "
  m_missionEvents {
   TILW_MissionEvent "{65C749517D83AB0A}" {
    m_name "BLUFOR Casualty Limit"
@@ -542,11 +580,38 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
    }
   }
   TILW_MissionEvent "{65D16832947B28D3}" {
+   m_name "Check Supplies Status"
    m_instructions {
     TILW_RunScriptInstruction "{660F3414DEAC5668}" {
+     m_executionDelay 0
     }
    }
    m_condition TILW_LiteralTerm "{65D16832FC9EFA69}" {
+    m_flagName "Check Supplies"
+   }
+  }
+  TILW_MissionEvent "{660F791B9CAD0D16}" {
+   m_name "US Supplies Won"
+   m_instructions {
+    TILW_SendMessageInstruction "{660F791BE0F2CCF4}" {
+     m_messageTitle "US Victory"
+     m_messageBody "US has the most amount of supplies."
+    }
+   }
+   m_condition TILW_LiteralTerm "{660F791BEC4C3137}" {
+    m_flagName "Blue Won"
+   }
+  }
+  TILW_MissionEvent "{660F791BCE41269A}" {
+   m_name "USSR Supplies Won"
+   m_instructions {
+    TILW_SendMessageInstruction "{660F791BCE412653}" {
+     m_messageTitle "USSR Victory"
+     m_messageBody "USSR has the most amount of supplies."
+    }
+   }
+   m_condition TILW_LiteralTerm "{660F791BCE41264F}" {
+    m_flagName "Red Won"
    }
   }
  }
