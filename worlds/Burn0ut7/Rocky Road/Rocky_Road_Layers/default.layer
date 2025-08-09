@@ -15,10 +15,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5412.931 78.47 5244.146
   m_sTitle "Mission Notes"
   m_sTextData "End conditions:"\
-  "Deliver Truck: US Victory"\
-  "90% US casualties: Insurgent Victory"\
+  "Deliver at least 1 truck: US Victory"\
+  "90% US casualties: INS Victory"\
+  "All trucks destroyed: INS Victory (could let things play out)"\
   ""\
-  "There is a cap zone marked(NW Naudeh) that trucks need to remain in for 5 minutes to deliver."
+  "There is a cap zone marked (NW Naudeh) that trucks need to remain in for 5 minutes to deliver."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 15
@@ -30,8 +31,12 @@ TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_Pres
  m_queryPeriod 1
  m_captureTime 300
  m_sendStatusMessages 1
- m_locationName "Bath House"
+ m_statusMessages {
+  "US forces delivered the trucks to %2." "US forces are delivering the trucks to %2." "US forces are no longer delivering the trucks to %2." "Abandoned presence at %2." "Abandoning presence at %2." "No longer abandoning presence at %2."
+ }
+ m_locationName "the Bath House"
  m_flagName "Blufor Capture"
+ m_stopAfterFirstChange 1
  m_entityNames {
   "Truck_1" "Truck_2"
  }
@@ -81,9 +86,11 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  m_missionEvents {
   TILW_MissionEvent "{661002208C97A955}" {
+   m_name "INS VIctory"
    m_instructions {
-    TILW_EndGameInstruction "{661002209A678721}" {
-     m_factionKey "GC_INSURGENT"
+    TILW_SendMessageInstruction "{66130B6CB67A6C0F}" {
+     m_messageTitle "INSURGENT VICTORY"
+     m_messageBody "US forces suffered severe casualties."
     }
    }
    m_condition TILW_LiteralTerm "{66100220B0CB9E64}" {
@@ -93,12 +100,32 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{6610022132098454}" {
    m_name "Blufor Capture"
    m_instructions {
-    TILW_EndGameInstruction "{6610022139EE3B53}" {
-     m_factionKey "US"
+    TILW_SendMessageInstruction "{66130B6C54C4DA71}" {
+     m_messageTitle "US VICTORY"
+     m_messageBody "The truck was delivered."
     }
    }
    m_condition TILW_LiteralTerm "{66100221DAF493BA}" {
     m_flagName "Blufor Capture"
+   }
+  }
+  TILW_MissionEvent "{66130B6C52415505}" {
+   m_name "Trucks destroyed"
+   m_instructions {
+    TILW_SendMessageInstruction "{66130B6CF9821862}" {
+     m_messageTitle "US DEFEAT"
+     m_messageBody "Both trucks were destroyed."
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{66130B6CEBCAEC86}" {
+    m_operands {
+     TILW_LiteralTerm "{66130B6CEC7A66BF}" {
+      m_flagName "t1d"
+     }
+     TILW_LiteralTerm "{66130B6CF2355DC1}" {
+      m_flagName "t2d"
+     }
+    }
    }
   }
  }

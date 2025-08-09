@@ -58,6 +58,9 @@ $grp Vehicle : "{15A15F5EF6FFE4A5}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
      }
     }
    }
+   TILW_Flag_EntityDamage "{66130B6C7E7ACD5B}" {
+    m_flagName "t1d"
+   }
   }
   coords 10004.504 19.859 1208.363
   angleX 1.659
@@ -76,6 +79,9 @@ $grp Vehicle : "{15A15F5EF6FFE4A5}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
       NumSlots 100
      }
     }
+   }
+   TILW_Flag_EntityDamage "{66130B6C7D8931FF}" {
+    m_flagName "t2d"
    }
   }
   coords 10017.047 20.034 1202.866
@@ -133,9 +139,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 3
  }
-}
-GenericEntity : "{5ED585C493D441B3}Prefabs/Weapons/Warheads/Warhead_VIED.et" {
- coords 8363.032 77.11 5268.007
 }
 $grp Vehicle : "{6B0E98CE6921FCC2}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_M2HB_gunshield.et" {
  CRX_M1025_armed_M2HB_gunshield6 {
