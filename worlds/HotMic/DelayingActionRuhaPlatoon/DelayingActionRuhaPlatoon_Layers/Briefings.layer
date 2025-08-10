@@ -13,9 +13,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "TL: 45 minutes"\
   "Mission by Hot Mic"\
-  "Fun Fact: This is Hot Mic's 3rd Missiom. Please thanks Haesten for an idea for the lore/settings."
+  "Fun Fact: This is Hot Mic's 3rd Mission. Please thanks Haesten for an idea for the lore/settings."
   m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
  }
  {
   coords 6511.931 96.656 1269.014
@@ -82,11 +81,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Supplies for fortification are limited and non-replaceable."\
   "Construction can occur at any defense point or fallback area at squad discretion."\
   "IMPORTANT: Any defense with MG has this following information:"\
-  " -- Any Defense with the cost of 225 Suppies uses 7.62x51mm 100 rounds, 3 boxes installed."\
-  " -- Any Defense with the cost of 350 Suppies uses 12.7x99mm 100 rounds, 3 boxes installed."\
+  " -- Any Defense with the cost of 225 Supplies uses 7.62x51mm 100 rounds, 3 boxes installed."\
+  " -- Any Defense with the cost of 350 Supplies uses 12.7x99mm 100 rounds, 3 boxes installed."\
   ""\
   "-- Medical --"\
-  "Platoon Humvee have additional ACE medical supplies. Medic should have everthing on spawn + Humvee."\
+  "Platoon Humvee have additional ACE medical supplies. Medic should have everything on spawn + Humvee."\
   ""\
   "-- Transportation --"\
   "Each rifle squad has a truck."\
@@ -103,7 +102,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Signal:"\
   "Platoon Net: 48 MHz (default)"\
   ""\
-  "Command Seccession Order:"\
+  "Command Secession Order:"\
   "1'6 -> 1'4 -> 1'1 -> 1'2-> 1'3"
   m_aVisibleForFactions {
    "US"
@@ -114,7 +113,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 6511.931 96.656 1269.014
   m_sTitle "GM Notes"
   m_sTextData "If AI Vechicles is stuck. help them reposition on the road."\
-  "If there are AI infantry squads that are far away; delete them or move and give them new orders."
+  "If there are AI infantry squads that are far away; delete them or move and give them new orders."\
+  "If there are too many AI, delete some units."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 12
