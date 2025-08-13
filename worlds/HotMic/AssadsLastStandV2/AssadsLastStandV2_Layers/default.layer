@@ -1,0 +1,279 @@
+SCR_AIWorld : "{3D0FE80570D5BFCC}Prefabs/AI/SCR_AIWorld_Anizay.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{62F741EB7EA36A3E}" {
+    }
+   }
+  }
+ }
+ coords 7117.136 341.059 3613.561
+}
+$grp Vehicle {
+ AUS_UH60_supplytransporter2 {
+  coords 8476.146 111.523 6654.773
+  angleY 179.383
+ }
+ AUS_UH60_supplytransporter1 {
+  coords 8502.355 111.554 6656.095
+  angleY -176.092
+ }
+}
+Vehicle UAZ469_Camo_uncovered1 : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_uncovered.et" {
+ coords 7123.372 339.457 3562.405
+ angleY 116.969
+}
+GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
+ coords 8544.566 111.593 6621.105
+ {
+  GenericEntity {
+   ID "5E330D6C348F7D49"
+   {
+    GenericEntity {
+     ID "5D1ED92C8FCFAAB4"
+     coords 0 0.95 0
+    }
+   }
+  }
+ }
+}
+$grp Vehicle : "{6CA46BC65DE861A8}Prefabs/Vehicles/Helicopters/AH6M/AH6M_Armed_base.et" {
+ AH6M_Armed_base1 {
+  coords 8500.372 111.458 6734.132
+  angleY -174.796
+ }
+ AH6M_Armed_base2 {
+  coords 8500.849 111.554 6706.115
+  angleY -174.296
+ }
+ AH6M_Armed_base3 {
+  coords 8479.15 111.554 6734.065
+  angleY -179.349
+ }
+ AH6M_Armed_base4 {
+  coords 8479.292 111.555 6705.844
+  angleY -178.248
+ }
+}
+GenericEntity : "{7C93700E1AC4C387}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Medical_USSR.et" {
+ coords 8514.084 111.531 6758.472
+}
+GenericEntity : "{C6B534F64C60C583}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_US_01.et" {
+ components {
+  SCR_ResourceComponent "{6152F92926A47D83}" {
+   m_eDebugVisualizationFlags 0
+  }
+ }
+ coords 8548.022 111.594 6732.785
+ angleY 180
+ {
+  GenericEntity {
+   ID "5E64C0FB916EA309"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+       m_fResourceGain 0
+       m_fResourceGainTickrate 0
+      }
+     }
+    }
+   }
+   {
+    GenericEntity {
+     ID "5E64C0FA01642056"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FA01642058"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FA0164205A"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FA0164205B"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FA01642240"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FA01642242"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FA01647BCF"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FA01647BD0"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FA01647BD1"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FA0167FF9B"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FA0167FF9D"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FA0167FF9F"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E64C0FCB1C99422"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_bEnableResourceGain 1
+         m_fResourceGain 50
+         m_fResourceGainTickrate 5
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E64C0FB916EAC93"
+  }
+  GenericEntity {
+   ID "5E64C0FB916EAF90"
+   components {
+    SCR_FactionAffiliationComponent "{5D22B92ED0ABBFD4}" {
+     "faction affiliation" "RHS_USAF"
+    }
+   }
+  }
+ }
+}
