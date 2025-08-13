@@ -35,14 +35,14 @@ Vehicle APC_K17_Epoch_camo1 : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/AP
  m_sAttachmentGroupName "ru_mr_sq3"
 }
 $grp Vehicle : "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/M1296/Stryker_Dragoon.et" {
- stryker1 {
-  coords 4482.33 54.001 4348.107
-  angleY 139
+ Stryker1 {
+  coords 4482.781 54 4347.972
+  angleY 143.59
   m_sAttachmentGroupName "us_crew_1"
  }
- stryker2 {
-  coords 4475.241 54 4355.201
-  angleY 139
+ Stryker2 {
+  coords 4475.163 54 4356.419
+  angleY 143.59
   m_sAttachmentGroupName "us_crew_2"
  }
 }
