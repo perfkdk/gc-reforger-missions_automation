@@ -13,7 +13,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "TL: 45 minutes"\
   "Mission by Hot Mic"\
-  "Fun Fact: This is Hot Mic's 3rd Mission. Please thanks Haesten for an idea for the lore/settings."
+  "Fun Fact: This is Hot Mic's 3rd Mission. Please thanks Haesten for an idea for the lore/settings and general assistant."
   m_bEmptyFactionVisibility 1
  }
  {
@@ -32,9 +32,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 6511.931 96.656 1269.014
   m_sTitle "Mission "
-  m_sTextData "We are tasked to delay the Soviet advance for 35 minutes by defending three designated Defense Points (Alpha, Beta, Charlie). Each point is expected to be held for at least 10 minutes."\
-  ""\
-  "Victory is achieved if Point Charlie is not breached by the end of the time limit. "\
+  m_sTextData "We are executing a delaying action against advancing Soviet forces, with the objective of holding them off for 35 minutes. The plan is to defend each position for approximately 10 minutes before conducting a controlled fallback. Under no circumstances is Defense Point Charlie to be lost; its defense is critical to the success of the operation."\
   ""\
   "The final tiered outcome will depend on how many U.S. troops reach the Extraction Point alive."\
   ""\
@@ -124,11 +122,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Enemy and Friendly Forces"
   m_sTextData "  -- Enemy Forces --"\
   "Elements of the Soviet Army, composed of at least two mechanized companies, are conducting a rapid armored thrust through the region. Their forces include:I"\
-  "- Infantry squads transported via BTRs"\
+  "- Infantry squads transported via Trucks"\
   "- Main battle tanks"\
   "- Integrated mortar teams providing indirect fire support (Off map)"\
   ""\
-  "Intel suggests the Soviets will change and capture thos 3 interaction at all cost. They will attempt to smoke out defensive positions with mortar-delivered explosive rounds if we hold a point for too long. No enemy air assets are expected."\
+  "Intel suggests the Soviets will change and capture those 3 intersections at all cost. Maintaining your position for more than 10 minutes will allow the Soviets to pinpoint your location with mortar fire."\
   ""\
   "  -- Friendly Forces --"\
   "One U.S. Infantry Platoon, including:"\
