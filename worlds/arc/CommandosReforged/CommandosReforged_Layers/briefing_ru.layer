@@ -19,8 +19,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Wearing VSR '93 camo, equipped with AK74s, PKMs and SVDs. Not night vision capable, but equipped with flashlights and flares."\
   ""\
   "2x Dog Handlers"\
-  ""\
-  "1x Mi-8"
+  "1x Mi-8"\
+  "2x Trucks"\
+  "2x Vans"\
+  "4x UAZ"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -31,7 +33,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Unknown."\
   ""\
   "There is high probality the enemy may disguise as us. "\
-  "Create a Challenge–response."
+  "Create a Challenge–Pass."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
