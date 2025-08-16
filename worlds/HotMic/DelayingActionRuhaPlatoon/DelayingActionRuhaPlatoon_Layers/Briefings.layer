@@ -121,10 +121,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 6511.931 96.656 1269.014
   m_sTitle "Enemy and Friendly Forces"
   m_sTextData "  -- Enemy Forces --"\
-  "Elements of the Soviet Army, composed of at least two mechanized companies, are conducting a rapid armored thrust through the region. Their forces include:I"\
-  "- Infantry squads transported via Trucks"\
+  "Elements of the Soviet Army, composed of at least two mechanized companies, are conducting a rapid armored thrust through the region. Their forces include:"\
+  "- Infantry squads transported via trucks"\
   "- Main battle tanks"\
-  "- Integrated mortar teams providing indirect fire support (Off map)"\
+  "- Integrated mortar teams providing indirect fire support (off map)"\
   ""\
   "Intel suggests the Soviets will change and capture those 3 intersections at all cost. Maintaining your position for more than 10 minutes will allow the Soviets to pinpoint your location with mortar fire."\
   ""\
@@ -142,7 +142,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 6511.931 96.656 1269.014
   m_sTitle "Mission Notes"
-  m_sTextData "All combat units (excluding Construction/Logistics Squad:) will spawn at Defense Point Beta."\
+  m_sTextData "All combat units (excluding Construction/Logistics Squad:) will spawn at Defense Point Bravo."\
   ""\
   "Upon mission start, they will mount available vehicles positioned in front of them and head north to establish the first line of defense at Defense Point Alpha."\
   ""\
@@ -175,7 +175,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0 0 1 1
   m_sQuadName "objective-marker-2"
   m_fWorldSize 75
-  m_sDescription "Defense Point Beta"
+  m_sDescription "Defense Point Bravo"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
