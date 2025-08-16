@@ -3,7 +3,7 @@ PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
   TILW_MapShapeComponent "{6508F5526836BC09}" {
    m_drawArea 0
    m_drawLine 1
-   m_lineColor 0.502 0 0 1
+   m_lineColor 0.502 0 0 0.75
    m_lineWidth 6
   }
  }
@@ -62,7 +62,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  pic_compound {
   coords 5350 76.344 7420
   angleY 90
-  m_sImageSet "{22DD8EB395B40C7C}worlds/Til/hrsc/Prefabs/compound.edds"
+  m_sImageSet "{22DD8EB395B40C7C}worlds/Til/DaybreakDiplomacy/Prefabs/compound.edds"
   m_sImageSetGlow ""
   m_sQuadName ""
   m_fWorldSize 500
@@ -70,5 +70,17 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "GC_SEPARATIST" "RHS_USAF"
   }
   m_bringToFront 0
+ }
+ marker_rec3 {
+  coords 3950 71.563 6550
+  angleY 90
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "recon"
+  m_fWorldSize 40
+  m_sDescription "Recon Team"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
  }
 }

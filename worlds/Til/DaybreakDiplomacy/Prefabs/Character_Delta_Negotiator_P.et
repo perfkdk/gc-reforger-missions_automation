@@ -12,7 +12,7 @@ SCR_ChimeraCharacter : "{FE0970414F43AF15}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{65F3725E6F74E12B}" {
      TargetStorage "Back/Backpack_Wartech_BB102_OD.et"
      PrefabsToSpawn {
-      "{399EBA1849BFF48C}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_Single_Separatist.et"
+      "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et"
      }
     }
    }

@@ -223,12 +223,12 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
     TILW_DeleteEntitiesInstruction "{6602E4EA4B21B64F}" {
      m_executionDelay 0
      m_entityNames {
-      "us_team_4_1" "maker_rec1"
+      "us_team_4_1" "marker_rec1"
      }
     }
    }
    m_condition TILW_LiteralTerm "{6602E4EA3E500901}" {
-    m_flagName "rec2"
+    m_flagName "rec1"
    }
    m_pregameEvent 1
   }
@@ -243,7 +243,22 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
     }
    }
    m_condition TILW_LiteralTerm "{6602E4EA1DEB9C66}" {
-    m_flagName "rec1"
+    m_flagName "rec2"
+   }
+   m_pregameEvent 1
+  }
+  TILW_MissionEvent "{66070218616A19C7}" {
+   m_name "Delete recon 3"
+   m_instructions {
+    TILW_DeleteEntitiesInstruction "{660702185B7FED0B}" {
+     m_executionDelay 0
+     m_entityNames {
+      "us_team_4_3" "marker_rec3"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{660702186BB8C5A4}" {
+    m_flagName "rec3"
    }
    m_pregameEvent 1
   }
@@ -356,8 +371,9 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
  m_randomFlags {
   TILW_FlagSampling "{6602E4EA76E40736}" {
    m_flagNames {
-    "rec1" "rec2"
+    "rec1" "rec2" "rec3"
    }
+   m_k 2
   }
  }
 }

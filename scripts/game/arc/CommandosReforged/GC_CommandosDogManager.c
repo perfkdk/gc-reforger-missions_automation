@@ -40,8 +40,8 @@ class GC_CommandosDogManager : ScriptComponent
 			{
 				component.SetActive();
 			}
-			world.SetCameraHDRBrightness(world.GetCurrentCameraId(), 10.0);
-			GetGame().GetInputManager().AddActionListener("VONDirect", EActionTrigger.DOWN, ActionBark);
+			SetEventMask(GetOwner(),EntityEvent.FIXEDFRAME);
+			GetGame().GetInputManager().AddActionListener("MouseLeft", EActionTrigger.DOWN, ActionBark);
 		}
 		else
 		{
@@ -49,9 +49,13 @@ class GC_CommandosDogManager : ScriptComponent
 			{
 				component.SetDeactive();
 			}
-			world.SetCameraHDRBrightness(world.GetCurrentCameraId(), -1);
-			GetGame().GetInputManager().RemoveActionListener("VONDirect", EActionTrigger.DOWN, ActionBark);
+			ClearEventMask(GetOwner(), EntityEvent.FIXEDFRAME);
+			GetGame().GetInputManager().RemoveActionListener("MouseLeft", EActionTrigger.DOWN, ActionBark);
 		}
+		
+		SCR_VONController von = SCR_VONController.Cast(GetOwner().FindComponent(SCR_VONController));
+		if(von)
+			von.SetVONDisabled(state);
 		
 		m_isDog = state;
 	}

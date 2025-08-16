@@ -4,15 +4,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Overview"
   m_sTextData "Delta Force rescues two US diplomats that are being held hostage by foreign anti-US extremists."\
   ""\
+  "Note that I slightly changed the mission concept, in particular negotiation is (usually) no longer done on a high level between factions, facilitates surrender of individual enemies."\
+  ""\
   "The following roles MUST be slotted:"\
-  "- US Diplomat 1, US Diplomat 2 (hostages)"\
+  "- Both US Diplomats (hostages)"\
   "- Hostage guards"\
-  "- US negotiator, appropriate number of US pilots (number of slotted teams + at least 1)"\
+  "- US negotiator"\
+  "- US pilots (at least 3 at full strength)"\
   ""\
-  "Only slot hostage or guard if you're capable of engaging in a little roleplay."\
-  "Only slot negotiator if you're interested in active & creative negotiation."\
+  "Only slot hostage, guard or negotiator if you're capable of engaging in a little roleplay."\
   ""\
-  "Note that this mission is NOT strictly about just killing all enemies."\
   "Commanders, hostage guards, negotiator and hostages must read the briefing, you can have an extra 2 minutes for that if you need them."
   m_bEmptyFactionVisibility 1
  }
@@ -40,8 +41,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "5 - Star flight"\
   ""\
   "Star flight callsigns: Star 51, 52, 53, 54"\
-  "Unless planned otherwise, there are initially three MH-6M while one AH-6M provides security. After insertion, two MH-6M pilots switch to the second AH-6M."\
-  "Who crews which helicopter is decided by the pilots."\
+  "There are three MH-6M and one AH-6M provides security. After insertion, two MH-6M pilots switch to the second AH-6M."\
+  "Who crews which helicopter is decided by the flight lead."\
   ""\
   "<h2>b. Signals</h2>"\
   ""\
@@ -61,11 +62,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "No resupply/repair/refuel/rearmament available."\
   ""\
   "<h2>b. Support</h2>"\
-  "2 AH-6M with 2 M134 miniguns and 7 Hydra 70 and 2 AGM-114 are available."\
-  "It is recommended that one AH-6M provides security during the landing (two-manned if enough pilots are available), and that after insertion, two of the MH-6M pilots man the second one."\
+  "One AH-6M with 2 M134 miniguns and 14 Hydra 70."\
+  "After insertion, the pilots may collapse into just 2 helicopters for increased surveillance capabilities."\
   ""\
   "CAS is coordinated by the FAC."\
-  "Fire into the compound is restricted to Type 1 and should ONLY be considered when there is NO possibility of hostages being inadvertently harmed."
+  "Fire into the compound is restricted to Type 1 and should ONLY be considered if it is known the hostages are not in the targets vicinity."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -104,16 +105,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3472.466 82.781 7140.113
   m_sTitle "Negotiation"
   m_sTextData "<h2>Negotiation</h2>"\
-  "Negotiation may become critical to safely securing the hostages."\
-  "It should be performed by a designated negotiator (in coordination with the commander), who has been given a radio fully compatible with the enemy radios (their frequency is 52.0MHz)."\
+  "In some situations, it may be required that a situation is deescalated to ensure safety of the hostages."\
+  "For this purpose, there is a designated negotiator with the task of facilitating surrender of individual enemies or similar."\
   ""\
-  "<b>Example negotiation strategies:</b>"\
-  "- Persuade the enemy to let the hostages leave the compound. He is unlikely to accept this as it would make them vurnerable to indiscriminate fire and significantly worsen his tactical situation."\
-  "- After the enemy has suffered significant casualties, guarantee surrender in exchange for safety of the hostages."\
-  "- Deceive the enemy by pretending to negotiate."\
-  "- Propose that remaining enemies can avoid death by leaving, ensured by a couple of remaining guards that could kill the hostages if betrayed."\
+  "<b>Example goals:</b>"\
+  "- Decrease general enemy strength by getting individual enemies to surrender or desert."\
+  "- Safely secure a threatened hostage that might otherwise have been killed."\
+  "- Avoid friedly casualties by getting an enemy to abandon an advantageous position."\
+  "- Deceive or distract an enemy by pretending to negotiate."\
   ""\
-  "The hostage takers primary motivation is likely their survival. It is unlikely they would kill the hostages unless their capture was imminent and negotiations failed, as they are their main leverage."
+  "<b>Example means:</b>"\
+  "- Offer that an enemy can surrender (F1 key) and be captured alive (zip ties are available)."\
+  "- Offer that an enemy would be permitted to leave the area unharmed after dropping their weapons."\
+  "- Credibly threaten the enemy, make it clear that this is their only chance of survival."\
+  ""\
+  "The hostage takers primary motivation is likely their survival. It is unlikely they would kill the hostages unless their capture was imminent, as they are their main leverage."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -189,9 +195,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3472.466 82.781 7140.113
   m_sTitle "II. Mission"
   m_sTextData "<h2>Mission</h2>"\
-  "Ordered by importance, your goals are: Survive, avoid capture, maintain control over the hostages, kill the attackers."\
+  "Your goals are: Survive, avoid capture, maintain control over the hostages, kill the attackers."\
   ""\
-  "You can leave the compound, but the hostages must stay there."\
+  "On an individual level, the first goal is the most important."\
   ""\
   "Important context can be found in the Execution briefing, also read the hostage rules."
   m_aVisibleForFactions {
@@ -205,13 +211,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>a. Commander's Intent</h2>"\
   "As described in the mission briefing, the goals are to survive, avoid capture, maintain control over the hostages and if possible, kill the enemy."\
   ""\
-  "Killing the hostages is not considered preferable over losing control of them as it does not result in an advantage."\
+  "Killing the hostages is not considered preferable over losing control of them as it does not result in an advantage, but harming them may be considered if the enemy did not respond to threats."\
   ""\
   "<h2>b. Concept of Operations</h2>"\
   "Not all of these goals may be achievable."\
-  "If that is the case, try to achieve a compromise, for example by giving up hostages in exchange for a chance to escape or avoid death."\
   ""\
-  "The hostages are very important: They are valuable leverage (allowing for negotiation) and also prevent the enemy from indiscriminately firing at structures as the hostages may come under harm."\
+  "If that appears to be the case, individual fighters may choose to surrender over being killed if an option is presented and they see no other way to survive."\
+  ""\
+  "The hostages are very important: They are invaluable leverage (e. g. allowing for negotiatiated surrender), but also prevent enemies from indiscriminately firing at structures as the hostages may come under harm."\
   ""\
   "You may leave the compound, but the hostages must stay inside."
   m_aVisibleForFactions {
@@ -246,9 +253,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<h2>b. Signals</h2>"\
   ""\
-  "Platoon net: 52.0MHz"\
-  ""\
-  "Assume your radio communication might be compromised, use codewords for important messages."
+  "Platoon net: 52.0MHz"
   m_aVisibleForFactions {
    "GC_SEPARATIST"
   }
@@ -258,17 +263,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3472.466 82.781 7140.113
   m_sTitle "NEGOTIATION"
   m_sTextData "<h2>Negotiation</h2>"\
-  "It is possible that you will in one form or another be contacted by the enemy for negotiation purposes."\
-  ""\
-  "Negotiation may become critical if a continued fight is looking too costly and survival is under serious danger."\
+  "Individual fighters may consider surrender if they see no other way to survive."\
+  "Negotiating a surrender may become critical if a continued fight is looking too costly and personal survival is under serious danger."\
   "Even beyond that, it may be possible to secure some advantages."\
   ""\
   "<b>Some examples:</b>"\
-  "- You could offer hostages in exchange for a chance to surrender if the fight is about to be lost."\
-  "- Freely giving up the hostages while the fight is still undecided might be unwise as the enemy could decide to attack indiscriminately once the hostages are secure."\
-  "- You could attempt delay the enemy by pretending to negotiate."\
-  "- You could offer that the enemy can retrieve the hostages after letting "\
-  "- Demand that the enemy lets you leave unharmed, with only a couple of guards staying, ready to kill the hostage if the leaving friendlies were attacked."
+  "- You could demand the enemy accepts your surrender or lets you leave unharmed."\
+  "- You could buy time by pretending to negotiate a surrender."\
+  "- If the enemy is not interested in accepting your surrender, you could say you have some information, or as the hostage guards, threaten to harm to the hostage."\
+  "- Demand that the enemy lets a 1-2 other guys leave the compound freely while one guard remains, ready to kill the hostage if the friendlies are harmed."\
+  ""\
+  "You can physically surrender by pressing F1, upon which enemies can zip cuff you."
   m_aVisibleForFactions {
    "GC_SEPARATIST"
   }

@@ -53,6 +53,26 @@ Vehicle UAZ469_covered_CIV_JZD1 : "{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UA
  coords 1209.762 37.063 2623.907
  angleY 76.295
 }
+Vehicle Mi8MT_armed1 : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
+ components {
+  GC_CommandosObjRegister "{6605007472DB0869}" {
+   m_objectiveName "Mi-8"
+  }
+  SCR_FuelConsumptionComponent "{5CCCEEA12FE59D93}" {
+   m_fFuelConsumption 1
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 5000
+     m_fInitialFuelTankState 5000
+    }
+   }
+  }
+ }
+ coords 1389.181 36.789 2678.48
+ angleY -101.064
+}
 $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
  Ural4320_transport_covered2 {
   components {

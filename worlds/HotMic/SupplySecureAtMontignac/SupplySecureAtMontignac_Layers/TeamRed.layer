@@ -2,7 +2,6 @@ SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifl
  components {
   PS_GroupCallsignAssigner "{65B921CAB8B76406}" {
    m_iPlatoonCallsign 1
-   m_iSquadCallsign 1
   }
  }
  coords 4561.604 109.463 7903.886
@@ -14,7 +13,7 @@ $grp SCR_AIGroup : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   components {
    PS_GroupCallsignAssigner "{65BA144FB248F568}" {
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 2
+    m_iSquadCallsign 1
    }
   }
   coords 4567.511 107.896 7920.896
@@ -24,7 +23,7 @@ $grp SCR_AIGroup : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   components {
    PS_GroupCallsignAssigner "{65BA144F8EB8B9FD}" {
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 3
+    m_iSquadCallsign 2
    }
   }
   coords 4541.621 110.825 7917.945
@@ -34,7 +33,7 @@ $grp SCR_AIGroup : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   components {
    PS_GroupCallsignAssigner "{65BA144F8B74B40C}" {
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 4
+    m_iSquadCallsign 3
    }
   }
   coords 4549.219 106.744 7932.396
@@ -44,7 +43,7 @@ $grp SCR_AIGroup : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   components {
    PS_GroupCallsignAssigner "{65B921CB2A789FBB}" {
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 5
+    m_iSquadCallsign 4
    }
   }
   coords 4574.852 113.01 7940.347
