@@ -1,95 +1,3 @@
-$grp Tank : "{12C35C0A24EDA6D0}Prefabs/Vehicles/Tracked/BFV/M2A3_BUSK_MERDC.et" {
- M2A3_BUSK_MERDC2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
-    MultiSlots {
-     MultiSlotConfiguration "{64F11B25C811ACD3}" {
-      NumSlots 8
-     }
-    }
-   }
-  }
-  coords 3551.548 58.139 4098.867
-  angleY 98.13
-  m_sAttachmentGroupName "ASEC"
- }
- M2A3_BUSK_MERDC1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
-    MultiSlots {
-     MultiSlotConfiguration "{64F11B25C811ACD3}" {
-      NumSlots 8
-     }
-    }
-   }
-  }
-  coords 3561.24 57.95 4097.35
-  angleY 98.13
-  m_sAttachmentGroupName "ASEC"
- }
- M2A3_BUSK_MERDC3 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
-    MultiSlots {
-     MultiSlotConfiguration "{64F11B25C811ACD3}" {
-      NumSlots 8
-     }
-    }
-   }
-  }
-  coords 3542.142 58.354 4101.006
-  angleY 98.13
-  m_sAttachmentGroupName "BSEC"
- }
- M2A3_BUSK_MERDC4 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
-    MultiSlots {
-     MultiSlotConfiguration "{64F11B25C811ACD3}" {
-      NumSlots 8
-     }
-    }
-   }
-  }
-  coords 3529.254 58.605 4103.9
-  angleY 98.13
-  m_sAttachmentGroupName "BSEC"
- }
- M2A3_BUSK_MERDC5 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
-    MultiSlots {
-     MultiSlotConfiguration "{64F11B25C811ACD3}" {
-      NumSlots 8
-     }
-    }
-   }
-  }
-  coords 3515.266 58.793 4104.719
-  angleY 98.13
-  m_sAttachmentGroupName "CSEC"
- }
- M2A3_BUSK_MERDC6 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
-    MultiSlots {
-     MultiSlotConfiguration "{64F11B25C811ACD3}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{6605070AC395DC03}" {
-      SlotTemplate InventoryStorageSlot CG {
-       Prefab "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
-      }
-      NumSlots 2
-     }
-    }
-   }
-  }
-  coords 3501.246 59.043 4104.653
-  angleY 98.13
-  m_sAttachmentGroupName "CSEC"
- }
-}
 $grp Vehicle : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et" {
  K4386_Armed_Camo2 {
   components {
@@ -110,7 +18,7 @@ $grp Vehicle : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Cam
     }
    }
   }
-  coords 6191.846 54.248 8103.606
+  coords 6191.846 54.093 8103.606
   angleY -171.659
   m_sAttachmentGroupName "RURECSQ2"
   {
@@ -141,7 +49,7 @@ $grp Vehicle : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Cam
     }
    }
   }
-  coords 6189.949 54.094 8094.44
+  coords 6189.949 54.093 8094.439
   angleY -171.659
   m_sAttachmentGroupName "RURECHQ"
   {
@@ -152,38 +60,6 @@ $grp Vehicle : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Cam
     angleZ -0.051
    }
   }
- }
-}
-$grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
- T72B_base1 {
-  coords 6195.481 53.984 8129.564
-  angleY 177.505
-  m_sAttachmentGroupName "RUTNKHQ1"
- }
- T72B_base2 {
-  coords 6195.207 54 8138.927
-  angleY 177.505
-  m_sAttachmentGroupName "RUTNKHQ2"
- }
- T72B_base3 {
-  coords 6195.314 53.906 8148.28
-  angleY 177.505
-  m_sAttachmentGroupName "RUTNK1"
- }
- T72B_base4 {
-  coords 6190.456 54 8129.541
-  angleY 177.505
-  m_sAttachmentGroupName "RUTNK2"
- }
- T72B_base5 {
-  coords 6190.354 53.961 8139.456
-  angleY 177.505
-  m_sAttachmentGroupName "RUTNK3"
- }
- T72B_base6 {
-  coords 6190.267 53.931 8148.09
-  angleY 177.505
-  m_sAttachmentGroupName "RUTNK4"
  }
 }
 $grp RHS_Tank : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
@@ -228,15 +104,47 @@ $grp RHS_Tank : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et
     }
    }
   }
-  coords 6188.42 54.062 8117.898
+  coords 6188.419 54.062 8117.897
   angleY -176.26
   m_sAttachmentGroupName "RUCOYXO"
  }
 }
 Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
- coords 6181.668 54.123 8109.691
- angleY 116.281
- m_sAttachmentGroupName "RUCOYXO"
+ coords 6183.278 54.125 8108.337
+ angleY 156.696
+ m_sAttachmentGroupName "RECOYXO"
+}
+$grp Tank : "{BC07885176C7FF8A}GitHub/gc-reforger-units/Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
+ T72A_base1 {
+  coords 6195.828 54.03 8127.801
+  angleY -176.892
+  m_sAttachmentGroupName "RUTNKHQ1"
+ }
+ T72A_base2 {
+  coords 6190.696 54 8128.981
+  angleY -176.892
+  m_sAttachmentGroupName "RUTNKHQ2"
+ }
+ T72A_base3 {
+  coords 6196.832 53.969 8138.091
+  angleY -176.892
+  m_sAttachmentGroupName "RUTNK1"
+ }
+ T72A_base4 {
+  coords 6195.213 53.969 8149.192
+  angleY -176.892
+  m_sAttachmentGroupName "RUTNK2"
+ }
+ T72A_base5 {
+  coords 6191.503 53.969 8138.165
+  angleY -176.892
+  m_sAttachmentGroupName "RUTNK3"
+ }
+ T72A_base6 {
+  coords 6188.969 53.938 8146.539
+  angleY -176.892
+  m_sAttachmentGroupName "RUTNK4"
+ }
 }
 GenericEntity : "{C0B99D11761CA2AD}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_10ft.et" {
  coords 6182.494 54.075 8115.074
@@ -245,7 +153,9 @@ GenericEntity : "{C0B99D11761CA2AD}PrefabsEditable/Auto/Props/Military/SupplyBox
  angleZ 1.035
 }
 Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
- coords 6191.493 53.869 8156.155
- angleY 176.849
+ coords 6191.493 53.872 8156.155
+ angleX 0.894
+ angleY 176.848
+ angleZ -0.049
  m_sAttachmentGroupName "RUCOHQ"
 }
