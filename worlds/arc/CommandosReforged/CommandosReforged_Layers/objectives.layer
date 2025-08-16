@@ -2104,7 +2104,7 @@ Vehicle Mi24V_OBJ : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_a
    }
   }
  }
- coords 719.613 39 2688.182
+ coords 719.613 39.079 2688.182
  angleY -33.747
  {
   $grp Vehicle : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S8.et" {

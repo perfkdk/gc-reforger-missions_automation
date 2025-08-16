@@ -467,7 +467,7 @@ class GC_CommandosDefector : GC_CommandosObjWeight
 			if(m_blacklist.Contains(pc.GetRoleName()))
 				continue;
 			
-			Print("GRAY.FindDefector = " + playerId);
+			Print("GRAY.FindDefector = " + SCR_PlayerNamesFilterCache.GetInstance().GetPlayerDisplayName(playerId));
 			return playerId;
 		}
 		

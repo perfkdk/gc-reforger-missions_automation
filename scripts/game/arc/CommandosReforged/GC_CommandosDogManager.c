@@ -2,7 +2,7 @@
 class GC_CommandosDogManagerClass : ScriptComponentClass
 {
 }
-//to.ClearFlags(EntityFlags.VISIBLE);
+
 class GC_CommandosDogManager : ScriptComponent
 {
 	[Attribute(defvalue: "{CDB8EF4A6115A227}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_DOG.et", uiwidget: UIWidgets.ResourceNamePicker, desc: "Dog prefab (Sets player as a dog)")]
@@ -33,13 +33,14 @@ class GC_CommandosDogManager : ScriptComponent
 		if(m_isDog == state)
 			return;
 		
+		BaseWorld world = GetGame().GetWorld();
 		if(state)
 		{
 			foreach(GC_CommandosFootPrints component : m_footPrints)
 			{
 				component.SetActive();
 			}
-			SetEventMask(GetOwner(),EntityEvent.FIXEDFRAME);
+			world.SetCameraHDRBrightness(world.GetCurrentCameraId(), 10.0);
 			GetGame().GetInputManager().AddActionListener("VONDirect", EActionTrigger.DOWN, ActionBark);
 		}
 		else
@@ -48,22 +49,13 @@ class GC_CommandosDogManager : ScriptComponent
 			{
 				component.SetDeactive();
 			}
-			ClearEventMask(GetOwner(), EntityEvent.FIXEDFRAME);
+			world.SetCameraHDRBrightness(world.GetCurrentCameraId(), -1);
 			GetGame().GetInputManager().RemoveActionListener("VONDirect", EActionTrigger.DOWN, ActionBark);
 		}
 		
 		m_isDog = state;
 	}
 	
-	override protected void EOnFixedFrame(IEntity owner, float timeSlice)
-	{
-		if(!m_isDog)
-			return;
-		
-		BaseWorld world = GetGame().GetWorld();
-		world.SetCameraHDRBrightness(world.GetCurrentCameraId(), 10.0);
-	}
-
 	override protected void OnPostInit(IEntity owner)
 	{
 		if(RplSession.Mode() == RplMode.Dedicated)
