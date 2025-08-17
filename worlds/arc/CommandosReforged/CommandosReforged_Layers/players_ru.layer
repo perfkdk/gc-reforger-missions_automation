@@ -65,6 +65,10 @@ $grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   }
  }
 }
+Vehicle Mi8MT_unarmed_transport_Commandos1 : "{4022DE6D1FFDB267}worlds/arc/CommandosReforged/Prefabs/Mi8MT_unarmed_transport_Commandos.et" {
+ coords 1388.448 36.719 2677.061
+ angleY -101.84
+}
 $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_RifleSquad_P.et" {
  {
   components {
