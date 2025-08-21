@@ -283,7 +283,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
          }
         }
         m_waypointNames {
-         "wp16" "wp15" "AIWP_SearchAndDestroy_1"
+         "wp16" "wp14" "wp15" "AIWP_SearchAndDestroy_1"
         }
        }
       }
@@ -305,7 +305,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
          }
         }
         m_waypointNames {
-         "wp16" "wp15" "AIWP_SearchAndDestroy_1"
+         "wp16" "wp14" "wp15" "AIWP_SearchAndDestroy_1"
         }
        }
       }
@@ -328,7 +328,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
          }
         }
         m_waypointNames {
-         "wp16" "wp15" "AIWP_SearchAndDestroy_1"
+         "wp16" "wp14" "wp15" "AIWP_SearchAndDestroy_1"
         }
        }
       }
@@ -351,7 +351,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
          }
         }
         m_waypointNames {
-         "wp14" "wp15" "AIWP_SearchAndDestroy_1"
+         "wp13" "wp14" "wp15" "AIWP_SearchAndDestroy_1"
         }
        }
       }
@@ -503,6 +503,26 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
        TILW_CrewGroup "{662A1841DA27300B}" {
         m_crewStations {
          TILW_CrewStation "{662A1841DA273005}" {
+          m_allowPilot 0
+          m_allowCargo 0
+          m_characters {
+           "{E417F82BEA7137D5}worlds/arc/AAS/CentralAnizay/Prefabs/Character_GC_INSURGENT_AAS_Rifleman.et"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{662A588A8A2AF9BF}" {
+     m_executionDelay 80
+     m_prefab "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et"
+     m_locationName "spawntruck7"
+     m_crewConfig TILW_CrewConfig "{662A588A8A2AF909}" {
+      m_crewGroups {
+       TILW_CrewGroup "{662A588A8A2AF904}" {
+        m_crewStations {
+         TILW_CrewStation "{662A588A8A2AF905}" {
           m_allowPilot 0
           m_allowCargo 0
           m_characters {
