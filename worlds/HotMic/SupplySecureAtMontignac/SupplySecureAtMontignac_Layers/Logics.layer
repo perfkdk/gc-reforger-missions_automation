@@ -88,6 +88,7 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
   m_entityNames {
    "truck_supplies_1" "truck_supplies_2" "truck_supplies_3" "truck_supplies_4" "truck_supplies_5"
   }
+  m_allowDestroyed 1
   m_ratioThreshold 0
  }
  Supply_Truck_1_Trigger_Blufor {

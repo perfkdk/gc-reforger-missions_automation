@@ -80,7 +80,7 @@ $grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angleY 175.796
   angleZ 1.088
   {
-   GenericEntity {
+   GenericEntity BlueforResourceEnity {
     ID "5D45393876460D01"
     components {
      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
@@ -161,7 +161,7 @@ $grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angleY 146.957
   angleZ 7.423
   {
-   GenericEntity {
+   GenericEntity RedforResourceEnity {
     ID "5D45393876460D01"
     components {
      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
@@ -234,32 +234,6 @@ $grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyC
     angleY -147.016
     angleZ 7.125
    }
-  }
- }
-}
-GenericEntity : "{76167BEC292DCF79}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Warzone_US_01.et" {
- coords 5249.285 78.708 6377.778
- angleY -171.883
- {
-  GenericEntity : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_BaseInteraction.et" {
-   components {
-    ActionsManagerComponent "{61F4C18E835074FF}" {
-     ActionContexts {
-      UserActionContext "{61F4C18ECB0A8B85}" {
-       Radius 1
-      }
-     }
-     additionalActions {
-      TILW_BaseInteraction "{61F4C18E863E752C}" {
-       m_actionName "Set Check Supplies Flag"
-       m_deleteParent 1
-       m_flagName "Check Supplies"
-      }
-     }
-    }
-   }
-   coords 0 1.367 0
-   angleY 95.431
   }
  }
 }
@@ -376,11 +350,34 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
 TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  FrameworkScript1 ""\
  "		/* code here */"\
- "		IEntity BlueSupplyDepot = GetGame().GetWorld().FindEntityByName(\"Bluefor_Supply_Depot\");"\
- "		IEntity RedSupplyDepot = GetGame().GetWorld().FindEntityByName(\"Redfor_Supply_Depot\");"\
+ "		IEntity BlueSupplyDepot = GetGame().GetWorld().FindEntityByName(\"BlueforResourceEnity\");"\
+ "		IEntity RedSupplyDepot = GetGame().GetWorld().FindEntityByName(\"RedforResourceEnity\");"\
  "		"\
+ "		if (!BlueSupplyDepot){"\
+ "		"\
+ "			Print(\"No entity of \\"Blufor_Supply_Depot\\" was found\");"\
+ "			AdjustMissionFlag(\"Script1 Error\", true);"\
+ "			return;"\
+ "		}"\
+ "		if (!RedSupplyDepot) {"\
+ "			Print(\"No entity of \\"Redfor_Supply_Depot\\" was found\");"\
+ "			AdjustMissionFlag(\"Script1 Error\", true);"\
+ "			return;"\
+ "		}"\
+ ""\
  "		SCR_ResourceComponent BlueRC = SCR_ResourceComponent.FindResourceComponent(BlueSupplyDepot, true);"\
  "		SCR_ResourceComponent RedRC = SCR_ResourceComponent.FindResourceComponent(RedSupplyDepot, true);"\
+ "		"\
+ "		if (!BlueRC) {"\
+ "			Print(\"No ResourceComponent of \\"BlueSupplyDepot\\" was found\");"\
+ "			AdjustMissionFlag(\"Script1 Error\", true);"\
+ "			return;"\
+ "		}"\
+ "		if (!RedRC) {"\
+ "			Print(\"No ResourceComponent of \\"RedSupplyDepot\\" was found\");"\
+ "			AdjustMissionFlag(\"Script1 Error\", true);"\
+ "			return;"\
+ "		}"\
  "		"\
  "		const float BlueRCSupplies = BlueRC.GetConsumer(EResourceGeneratorID.DEFAULT_STORAGE, EResourceType.SUPPLIES).GetAggregatedResourceValue();"\
  "		const float RedRCSupplies = RedRC.GetConsumer(EResourceGeneratorID.DEFAULT_STORAGE, EResourceType.SUPPLIES).GetAggregatedResourceValue();"\
@@ -405,7 +402,7 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
      m_messageBody "Too much BLUFOR Casualty.     Ending Mission in 2 mins!"
     }
     TILW_EndGameInstruction "{65C74951594EB3B5}" {
-     m_executionDelay 120
+     m_executionDelay 300
      m_factionKey "RHS_AFRF"
     }
    }
@@ -421,7 +418,7 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
      m_messageBody "Too much OPFOR Casualty.     Ending Mission in 2 mins!"
     }
     TILW_EndGameInstruction "{65C749504F6D3C65}" {
-     m_executionDelay 120
+     m_executionDelay 300
      m_factionKey "RHS_USAF"
     }
    }
@@ -432,14 +429,15 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
   TILW_MissionEvent "{65C7495094574259}" {
    m_name "Game End Event"
    m_instructions {
+    TILW_SendMessageInstruction "{662C63277F3AB6A3}" {
+    }
     TILW_SendMessageInstruction "{65CA00658ED5EDD9}" {
      m_executionDelay 2700
      m_messageTitle "TIME LIMIT REACHED"
-     m_messageBody "The time limit has been reached, the faction with the most supplies wins."
+     m_messageBody "The time limit has been reached. Victor will be determined by which side holds the most supplies."
     }
-    TILW_EndGameInstruction "{65D05BF7C25490A9}" {
-     m_executionDelay 120
-     m_gameOverType EDITOR_FACTION_NEUTRAL
+    TILW_RunScriptInstruction "{662C63247E8AB627}" {
+     m_executionDelay 2710
     }
    }
    m_condition TILW_LiteralTerm "{65C74950D462D266}" {
@@ -452,11 +450,48 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
     TILW_SendMessageInstruction "{65C7495DB06967D0}" {
      m_executionDelay 0
      m_messageTitle "All truck has left the AO!"
-     m_messageBody "Get the supplies submitted to the Supply Depot and wait for GM to annouce the winners."
+     m_messageBody "Get the supplies submitted to the Supply Depot. You have 3 minutes before the Supplies are being counted."
+    }
+    TILW_RunScriptInstruction "{662C632D1A71B31A}" {
+     m_executionDelay 180
     }
    }
    m_condition TILW_LiteralTerm "{65C7495DF9EBF130}" {
     m_flagName "trucks_left_ao"
+   }
+  }
+  TILW_MissionEvent "{660F791B9CAD0D16}" {
+   m_name "US Supplies Won"
+   m_instructions {
+    TILW_SendMessageInstruction "{660F791BE0F2CCF4}" {
+     m_executionDelay 0
+     m_messageTitle "US Victory"
+     m_messageBody "US has the largest amount of supplies."
+    }
+    TILW_EndGameInstruction "{662C632455585AE2}" {
+     m_executionDelay 10
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{660F791BEC4C3137}" {
+    m_flagName "Blue Won"
+   }
+  }
+  TILW_MissionEvent "{660F791BCE41269A}" {
+   m_name "USSR Supplies Won"
+   m_instructions {
+    TILW_SendMessageInstruction "{660F791BCE412653}" {
+     m_executionDelay 0
+     m_messageTitle "USSR Victory"
+     m_messageBody "USSR has the largest amount of supplies."
+    }
+    TILW_EndGameInstruction "{662C6324827CCBF5}" {
+     m_executionDelay 10
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{660F791BCE41264F}" {
+    m_flagName "Red Won"
    }
   }
   TILW_MissionEvent "{65D05BF56D6C3C44}" {
@@ -577,41 +612,6 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
    }
    m_condition TILW_LiteralTerm "{65D1510C55A42C7A}" {
     m_flagName "USSR_Spawn_Jeep_5"
-   }
-  }
-  TILW_MissionEvent "{65D16832947B28D3}" {
-   m_name "Check Supplies Status"
-   m_instructions {
-    TILW_RunScriptInstruction "{660F3414DEAC5668}" {
-     m_executionDelay 0
-    }
-   }
-   m_condition TILW_LiteralTerm "{65D16832FC9EFA69}" {
-    m_flagName "Check Supplies"
-   }
-  }
-  TILW_MissionEvent "{660F791B9CAD0D16}" {
-   m_name "US Supplies Won"
-   m_instructions {
-    TILW_SendMessageInstruction "{660F791BE0F2CCF4}" {
-     m_messageTitle "US Victory"
-     m_messageBody "US has the most amount of supplies."
-    }
-   }
-   m_condition TILW_LiteralTerm "{660F791BEC4C3137}" {
-    m_flagName "Blue Won"
-   }
-  }
-  TILW_MissionEvent "{660F791BCE41269A}" {
-   m_name "USSR Supplies Won"
-   m_instructions {
-    TILW_SendMessageInstruction "{660F791BCE412653}" {
-     m_messageTitle "USSR Victory"
-     m_messageBody "USSR has the most amount of supplies."
-    }
-   }
-   m_condition TILW_LiteralTerm "{660F791BCE41264F}" {
-    m_flagName "Red Won"
    }
   }
  }
