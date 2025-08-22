@@ -19,10 +19,12 @@ class GC_CommandosPlayerController : SCR_PlayerController
 	{
 		Print("GRAY.RPC_ActivateObjective = " + name);
 		GC_CommandosManager cm = GC_CommandosManager.GetInstance();
-		GC_CommandosDefector obj = GC_CommandosDefector.Cast(cm.GetObjective(name));
+		
+		GC_CommandosObj obj = cm.GetObjective(name);
 		if(!obj)
 			return;
 		
-		obj.ActivateLocal();
+		Print("GRAY.RPC_ActivateObjective obj = " + obj);
+		GetGame().GetCallqueue().Call(obj.ActivateLocal);
 	}
 }

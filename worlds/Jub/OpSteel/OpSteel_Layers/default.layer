@@ -36,8 +36,8 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_bRandomStartingDaytime 1
    m_bRandomStartingDaytimeRange 1
-   m_iRangeHoursStart 4
-   m_iRangeHoursEnd 10
+   m_iRangeHoursStart 6
+   m_iRangeHoursEnd 16
    m_bRandomStartingWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{65D9122E96DBA160}" {
@@ -46,7 +46,6 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
     }
    }
    m_bRandomWeatherChanges 1
-   m_bAllowHeaderSettings 1
    m_bUseSpecifiedDate 1
    m_iSetMonth 9
    m_iSetYear 2025

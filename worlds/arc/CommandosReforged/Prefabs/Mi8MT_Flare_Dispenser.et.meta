@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{EB8DA62B50F103DF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AR_P.et"
+ Name "{F5E16A632A5370A8}worlds/arc/CommandosReforged/Prefabs/Mi8MT_Flare_Dispenser.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
