@@ -15,7 +15,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "The enemies forwardmost company is located around Koskelankyla / Pauhu, likely waiting for follow on forces to continue the advance."\
   ""\
-  "The enemy battalion is using BTR-70 infantry fighting vehicles supported by T-72A tanks. They may be able to request air support, likely in the form of an attack helicopter, however not in significant numbers."\
+  "The enemy battalion is using BTR-70 infantry fighting vehicles supported by T-72A tanks. They may be able to request air support in the form of attack helicopters, however not in significant numbers."\
   ""\
   ""\
   "<b>b. Friendly Forces</b>"\
@@ -72,11 +72,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 0 0 0
   m_sTitle "IV. SERVICE SUPPORT"
   m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
-  m_sTextData "a. Service"\
+  m_sTextData "<b>a. Service</b>"\
   ""\
-  "None"\
+  "The CMT (company maintenance team) can conduct on-site repairs using its repair vehicle. There is a container with spare parts which need to be loaded into the vehicle."\
   ""\
-  "b. Support"\
+  ""\
+  "<b>b. Support</b>"\
   ""\
   "None"
   m_aVisibleForFactions {
@@ -91,6 +92,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<b>Company</b>"\
   "Black 6 - Coy CDR"\
   "Black 5 - Coy XO"\
+  "Wrench - CMT"\
   ""\
   "<b>1st Platoon (Abrams)</b>"\
   "Red 1 - PL"\
@@ -117,11 +119,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  G6_Notes {
   coords 0 0 0
   m_sTitle "Mission Notes"
-  m_sTextData "- Setup Timer: 5 minutes (affects NVA helicopter and US)"\
-  "- US defeat end condition is fairly lenient, it's the COs job to call it when deemed appropriate."\
-  "- It is against mission maker intent that the NVA maneuvers around the US advance and attacks from the rear, as there would be follow and support forces."\
-  "- There are capture messages however they can only be seen by US players"\
-  "- Surviving crew of destroyed US vehicles can mount up in the Bradleys and play infantry, or ascend to specpen"
+  m_sTextData "- Setup Timer: 5 minutes (affects NVA helicopters and US)"\
+  "- It is against mission maker intent that the NVA maneuvers around the US advance and attacks from the rear, as there would be follow and support forces"\
+  "- There are capture messages, only visible to US players"\
+  ""\
+  "<b>End conditions:</b>"\
+  "- Automatic US defeat condition (75% player casualties) does not take vehicle kills into account, it's the COs job to call it when deemed appropriate"\
+  "- US Victory occurs when a sufficient combination of objectives has been secured (see Mission briefing)"\
+  "- Time limit occurs after 60 minutes"
   m_bShowForAnyFaction 1
   m_iOrder 6
  }
@@ -179,13 +184,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "IV. SERVICE SUPPORT"
   m_sTextData "<b>a. Service</b>"\
   ""\
-  "None, both for tanks and helicopter"\
+  "None, both for tanks and helicopters"\
   ""\
   ""\
   "<b>b. Support</b>"\
   ""\
-  "One Mi-24P, armed with 4 ATGMs, a fixed 30mm autocannon and 4 rocket pods (starts near 051 075)."\
-  "It is not under command of the tank platoon and can attack without support being explicitly requested, but coordination is recommended."
+  "Two Mi-24P, each armed with 4 ATGMs, a fixed 30mm autocannon and 4 rocket pods (starts near 051 075)."\
+  "They are not under command of the tank platoon and can attack without support being explicitly requested, but coordination is recommended."
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -196,7 +201,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "V. COMMAND AND CONTROL"
   m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "Tanks: 1, 2, 3"\
-  "Helicopter: 5"
+  "Helicopters: 4, 5"
   m_aVisibleForFactions {
    "GC_NVA"
   }

@@ -86,8 +86,38 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 2759.41 59.827 466.705
- m_fWarnRadius 175
- m_fZoneRadius 200
+ m_fWarnRadius 225
+ m_fZoneRadius 225
+}
+GenericEntity : "{C0B99D11761CA2AD}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_10ft.et" {
+ coords 2642.657 59.021 552.326
+ angleX 2.259
+ angleY 78.131
+ angleZ -2.302
+}
+Vehicle M923A1 : "{C8656AECF5DF41D9}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair_MERDC.et" {
+ coords 2651.841 59.309 556.894
+ angleX -0.199
+ angleY 30.158
+ angleZ -3.218
+ m_sAttachmentGroupName "us_rpr_1"
+ {
+  SCR_AIGroup us_rpr_1 : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+   components {
+    AIFormationComponent "{507E9DC12F541FE6}" {
+     DefaultFormation "line"
+    }
+    PS_GroupCallsignAssigner "{660D468D791EECA6}" {
+     m_iSquadCallsign 6
+    }
+   }
+   coords -0.498 0.032 -8
+   m_aUnitPrefabSlots {
+    "{C893CAA5652F8C5D}worlds/Til/CompanyTeamCounterAttack/Prefabs/Character_US_1986_BDU_MTC_P.et" "{3245F15CEA803F94}worlds/Til/CompanyTeamCounterAttack/Prefabs/Character_US_1986_BDU_Mechanic_P.et"
+   }
+   m_sCustomNameSet "Coy Maintenance Team"
+  }
+ }
 }
 $grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
  M1A1_11 {

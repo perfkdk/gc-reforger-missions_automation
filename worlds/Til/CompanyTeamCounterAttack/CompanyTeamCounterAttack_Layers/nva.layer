@@ -2,15 +2,17 @@ $grp SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_B
  mi24crew {
   components {
    PS_GroupCallsignAssigner "{662D2CAAD34A36AB}" {
-    m_iSquadCallsign 7
+    m_iSquadCallsign 6
    }
   }
-  coords 5194.757 70.445 7495.93
-  angleY -138.302
+  coords 5209.04 69.89 7505.967
+  angleX 0.595
+  angleY -138.309
+  angleZ -0.669
   m_aUnitPrefabSlots {
    "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et" "{E3CF674456A804A1}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Aircrew_P.et"
   }
-  m_sCustomNameSet "Mi-24"
+  m_sCustomNameSet "1st Mi-24"
  }
  t72crew1 {
   components {
@@ -60,13 +62,37 @@ $grp SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_B
   }
   m_sCustomNameSet "3rd Tank"
  }
+ mi24crew2 {
+  components {
+   PS_GroupCallsignAssigner "{662D2CAAD34A36AB}" {
+    m_iSquadCallsign 7
+   }
+  }
+  coords 5169.97 71.368 7480.474
+  angleX 1.264
+  angleY -138.304
+  angleZ -0.073
+  m_aUnitPrefabSlots {
+   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et" "{E3CF674456A804A1}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Aircrew_P.et"
+  }
+  m_sCustomNameSet "2nd Mi-24"
+ }
 }
-Vehicle Mi24P_armed_9M1 : "{2FA364D8E326CB3C}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_9M114.et" {
- coords 5182.885 70.903 7488.463
- angleX -0.293
- angleY 145.01
- angleZ -1.979
- m_sAttachmentGroupName "mi24crew"
+$grp Vehicle : "{2FA364D8E326CB3C}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_9M114.et" {
+ Mi24P_armed_9M1 {
+  coords 5197.167 70.362 7498.5
+  angleX -0.293
+  angleY 145.01
+  angleZ -1.979
+  m_sAttachmentGroupName "mi24crew"
+ }
+ Mi24P_armed_9M2 {
+  coords 5158.097 71.67 7473.008
+  angleX 0.22
+  angleY 144.999
+  angleZ -1.247
+  m_sAttachmentGroupName "mi24crew2"
+ }
 }
 $grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
  T72A_NVA1 {

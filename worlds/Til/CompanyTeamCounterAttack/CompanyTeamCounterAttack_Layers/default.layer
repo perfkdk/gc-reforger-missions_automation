@@ -15,6 +15,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    }
   }
  }
+ m_iFreezeTime 300000
  {
   SCR_FactionManager "662D2CA1352E04FB" {
    ID "5ED9088735FF2D8B"
@@ -33,6 +34,11 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
        }
        SCR_CallsignInfo "{55CCB792CE2A44BD}" {
         m_sCallsign "Blue"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{66320A28FD31D47B}" {
+        m_sCallsign "Wrench"
        }
       }
       m_sCallsignGroupFormat "%2 %3"

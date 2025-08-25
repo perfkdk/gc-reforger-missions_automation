@@ -407,6 +407,19 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
     }
    }
   }
+  TILW_MissionEvent "{66320A22D4B4492E}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{66320A2121084AC9}" {
+     m_executionDelay 3600
+     m_messageTitle "TIME LIMIT REACHED"
+     m_messageBody "The time limit has been reached."
+    }
+   }
+   m_condition TILW_LiteralTerm "{66320A21220470BA}" {
+    m_invertTerm 1
+   }
+  }
   TILW_MissionEvent "{662CDC2DEF8ECA0D}" {
    m_name "Delete NVA AI: 1+2"
    m_instructions {
