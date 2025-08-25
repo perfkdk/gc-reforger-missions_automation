@@ -1,6 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  G0_Overview {
   m_sTitle "Overview"
+  m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "American <b>tank and mechanized infantry company team</b> counter attacks along a railway line seized by the NVA."\
   ""\
   "At least 3 Bradleys must be slotted"

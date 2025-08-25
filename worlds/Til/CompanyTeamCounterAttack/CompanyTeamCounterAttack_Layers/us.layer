@@ -86,8 +86,8 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 2759.41 59.827 466.705
- m_fWarnRadius 225
- m_fZoneRadius 225
+ m_fWarnRadius 200
+ m_fZoneRadius 250
 }
 GenericEntity : "{C0B99D11761CA2AD}PrefabsEditable/Auto/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/E_SupplyShippingContainers_01_10ft.et" {
  coords 2642.657 59.021 552.326
