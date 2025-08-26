@@ -104,6 +104,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  U6_Negotiation {
   coords 3472.466 82.781 7140.113
   m_sTitle "Negotiation"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "<h2>Negotiation</h2>"\
   "In some situations, it may be required that a situation is deescalated to ensure safety of the hostages."\
   "For this purpose, there is a designated negotiator with the task of facilitating surrender of individual enemies or similar."\
@@ -208,6 +209,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  E3_Execution {
   coords 3472.466 82.781 7140.113
   m_sTitle "III. Execution"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "<h2>a. Commander's Intent</h2>"\
   "As described in the mission briefing, the goals are to survive, avoid capture, maintain control over the hostages and if possible, kill the enemy."\
   ""\

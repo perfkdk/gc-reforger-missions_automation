@@ -1,7 +1,6 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  G0_Overview {
   m_sTitle "Overview"
-  m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "American <b>tank and mechanized infantry company team</b> counter attacks along a railway line seized by the NVA."\
   ""\
   "At least 3 Bradleys must be slotted"
@@ -72,7 +71,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  U4_Service {
   coords 0 0 0
   m_sTitle "IV. SERVICE SUPPORT"
-  m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "<b>a. Service</b>"\
   ""\
   "The CMT (company maintenance team) can conduct on-site repairs using its repair vehicle. There is a container with spare parts which need to be loaded into the vehicle."\
@@ -89,7 +87,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  U5_Command {
   coords 0 0 0
   m_sTitle "V. COMMAND AND CONTROL"
-  m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "<b>Company</b>"\
   "Black 6 - Coy CDR"\
   "Black 5 - Coy XO"\
@@ -200,7 +197,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  N5_Command {
   coords 0 0 0
   m_sTitle "V. COMMAND AND CONTROL"
-  m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "Tanks: 1, 2, 3"\
   "Helicopters: 4, 5"
   m_aVisibleForFactions {
