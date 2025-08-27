@@ -68,6 +68,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "		--- Friendly Forces ---"\
   "1 US Infantry Company"\
   "3x Supply Blackhawks (1500 supplies each)"\
+  "3x Armed Transport Blackhawks"\
   ""\
   "Unlimited Blackhawk:"\
   "- Transport (Door Gunners is allowed as CAS)"\
@@ -78,6 +79,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- Guns and/or Unguided Rockets"\
   ""\
   "Unlimited Bell AH-1 Cobra:"\
+  "- Guns and Unguided Rockets"\
+  ""\
+  "Unlimited Boeing AH-64 Apache:"\
   "- Guns and Unguided Rockets"\
   ""\
   "		---Enemy Forces---"\
@@ -115,6 +119,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 8133.234 322.187 1978.993
   m_sTitle "Command & Signal"
+  m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "LR Channels:"\
   "Company Net: 48.0 Mhz (Default)"\
   "Platoon 1 Net: 48.5 Mhz"\
@@ -148,7 +153,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Notes for GM and Pilots"
   m_sTextData "GM: If there isn't enough AI or AI isn't apply enough pressure to the defenders during Phase 2; spawn new AI groups if possible. Feel free to take manual controls of AA units. If there are too much AI, you can delete some units or in worst case, head to the CO's Pit and use the Debug Sign to clear the AI Respawns Flags."\
   ""\
-  "Pilots: They are free to take what ever helicopters they want AS LONG it's either gun & unguided rockets or transport. They must work in pairs, in the same helicopter; with the exception of flying supply Little Birds."\
+  "Pilots: They are free to take what ever helicopters they want. They must work in pairs, in the same helicopter. "\
+  "For Supply runs, the intended method is to use Supply Blackhawk (1500), but if the Supply Blackhawk is broken, the Pilot pair will split into 2 Supply Littlebirds (1200)."\
   ""\
   "Heavy CAS definition: Any Helicopter that need two people to function."\
   ""

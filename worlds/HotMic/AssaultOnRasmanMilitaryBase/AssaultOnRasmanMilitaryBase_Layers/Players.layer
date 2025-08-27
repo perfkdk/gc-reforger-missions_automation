@@ -105,8 +105,8 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
     m_iSquadCallsign 9
    }
   }
-  coords 8289.813 322.2 2084.445
-  angleY -26
+  coords 8298.468 322.2 2070.486
+  angleY -30.744
   m_aUnitPrefabSlots {
    "{48654019A6D4F1A3}worlds/HotMic/Prefabs/Characters/US Pilots/US_Pilot_HotMic_P.et" "{B2D90CC819360F4E}worlds/HotMic/Prefabs/Characters/US Pilots/US_PilotCrew_HotMic_P.et" "{48654019A6D4F1A3}worlds/HotMic/Prefabs/Characters/US Pilots/US_Pilot_HotMic_P.et" "{B2D90CC819360F4E}worlds/HotMic/Prefabs/Characters/US Pilots/US_PilotCrew_HotMic_P.et" "{48654019A6D4F1A3}worlds/HotMic/Prefabs/Characters/US Pilots/US_Pilot_HotMic_P.et" "{B2D90CC819360F4E}worlds/HotMic/Prefabs/Characters/US Pilots/US_PilotCrew_HotMic_P.et" "{48654019A6D4F1A3}worlds/HotMic/Prefabs/Characters/US Pilots/US_Pilot_HotMic_P.et" "{B2D90CC819360F4E}worlds/HotMic/Prefabs/Characters/US Pilots/US_PilotCrew_HotMic_P.et"
   }

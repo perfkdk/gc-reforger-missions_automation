@@ -41,7 +41,7 @@ GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
      m_aContainers {
       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-       m_fResourceGain 500
+       m_fResourceGain 1000
       }
      }
     }
@@ -53,8 +53,8 @@ GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
       SCR_ResourceComponent "{5D247A59598D71AE}" {
        m_aContainers {
         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-         m_fResourceValueCurrent 2000
-         m_fResourceValueMax 2000
+         m_fResourceValueCurrent 3000
+         m_fResourceValueMax 3000
         }
        }
       }
@@ -66,8 +66,8 @@ GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
       SCR_ResourceComponent "{5D247A59598D71AE}" {
        m_aContainers {
         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-         m_fResourceValueCurrent 2000
-         m_fResourceValueMax 2000
+         m_fResourceValueCurrent 3000
+         m_fResourceValueMax 3000
         }
        }
       }
@@ -80,8 +80,8 @@ GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
       SCR_ResourceComponent "{5D247A59598D71AE}" {
        m_aContainers {
         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-         m_fResourceValueCurrent 2000
-         m_fResourceValueMax 2000
+         m_fResourceValueCurrent 3000
+         m_fResourceValueMax 3000
         }
        }
       }
@@ -165,6 +165,10 @@ $grp GenericEntity : "{76167BEC292DCF79}Prefabs/Structures/Signs/Military/SignRe
 GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_US.et" {
  coords 8291.688 322.187 2099.023
  angleY -122.554
+}
+Vehicle M923A1_repair1 : "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et" {
+ coords 8301.487 322.187 2093.331
+ angleY 60.961
 }
 $grp GenericEntity : "{C6B534F64C60C583}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_US_01.et" {
  {
@@ -380,6 +384,9 @@ $grp GenericEntity : "{C6B534F64C60C583}PrefabsEditable/Auto/Compositions/Slotte
    GenericEntity {
     ID "5E64C0FB916EAF90"
     components {
+     SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+      m_fBuildingRadius 10000
+     }
      SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
       m_bSuppliesConsumptionEnabled 0
      }
@@ -600,6 +607,18 @@ $grp GenericEntity : "{C6B534F64C60C583}PrefabsEditable/Auto/Compositions/Slotte
    GenericEntity {
     ID "5E64C0FB916EAF90"
     components {
+     SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+      m_fBuildingRadius 10000
+      m_aBudgetsToEvaluate {
+       SCR_CampaignBuildingCooldownWithRankBudgetToEvaluateData "{5EE71CAB5BFCF9A3}" {
+        m_aCustomCooldownData {
+         SCR_CooldownData "{5EEEF52515996867}" {
+          m_fDefaultTimeMultiplier 10
+         }
+        }
+       }
+      }
+     }
      SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
       m_bSuppliesConsumptionEnabled 0
      }

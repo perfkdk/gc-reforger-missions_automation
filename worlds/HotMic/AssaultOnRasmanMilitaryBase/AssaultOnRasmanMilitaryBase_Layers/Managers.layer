@@ -64,6 +64,134 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
       m_sCallsignGroupFormat "%2 - %3"
       m_sCallsignCharacterFormat "%3-%4"
      }
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{5C9E82F29B327997}" {
+       m_aMultiLists {
+        SCR_EntityCatalogMultiListEntry "{60569780DC27DDBC}" {
+         m_aEntities {
+          SCR_EntityCatalogEntry "{5D23482661E39833}" {
+          }
+          SCR_EntityCatalogEntry "{662D0BA7CBB3B493}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{62710D9BD7AAF6E8}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{65F803942541EADE}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{629EFC720467968B}" {
+          }
+          SCR_EntityCatalogEntry "{62AEBE4EAA104493}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{62B3432B931CB167}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{62B0FD8D988BDE0D}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{62B3432B994FD679}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DD11F8049FD5F0}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DEFC8B7531996F}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DEFC8B7A02A951}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DD11F805EE4D49}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DD11F8065CD369}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DEFC8B561536EF}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DEFC8B638AB584}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DD11F806B5DC63}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DD11F8070A90C7}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DEFC8B5FA3FC5D}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DEFC8B6C6B4998}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DD11F800770CE4}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DD11F800EA5A9B}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DEFC8B59FC7BC8}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64CC2039CD5BB892}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64CC2039C12882EC}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{631F67E1E4E37474}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64CC2039C26F72E6}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64CC2039C606127D}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{631F67E1E5E83066}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64CC2039C0AF1758}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64CC2039C713010D}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DB3D4F0DDFF7A1}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DB3D4F0F03B83B}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DB3D4F090FF0F7}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DB3D4F0E2268FD}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DB3D4F084B4DD5}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DB3D4F0A4E5217}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{651D2328A0867EC0}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{651D2328B8AFB4EC}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{651D2328BA2F3B52}" {
+           m_bEnabled 0
+          }
+         }
+        }
+       }
+      }
+     }
     }
    }
   }
