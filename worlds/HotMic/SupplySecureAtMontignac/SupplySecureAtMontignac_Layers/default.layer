@@ -429,8 +429,6 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
   TILW_MissionEvent "{65C7495094574259}" {
    m_name "Game End Event"
    m_instructions {
-    TILW_SendMessageInstruction "{662C63277F3AB6A3}" {
-    }
     TILW_SendMessageInstruction "{65CA00658ED5EDD9}" {
      m_executionDelay 2700
      m_messageTitle "TIME LIMIT REACHED"
