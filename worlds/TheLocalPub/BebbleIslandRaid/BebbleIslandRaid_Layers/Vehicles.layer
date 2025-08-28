@@ -20,134 +20,26 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
     MultiSlots {
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
       SlotTemplate InventoryStorageSlot Bandages {
-       Prefab ""
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
       }
+      NumSlots 3
      }
-    }
-   }
-   SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
-    InitialInventoryItems {
-     ItemsInitConfigurationItem "{65D8C91EBDC91E68}" {
-      PrefabsToSpawn {
-       "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+     MultiSlotConfiguration "{65F7187319472878}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
       }
+      NumSlots 3
      }
-     ItemsInitConfigurationItem "{65D8C91EB3F0D650}" {
-      PrefabsToSpawn {
-       "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+     MultiSlotConfiguration "{65F718731FA6141D}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
       }
-     }
-     ItemsInitConfigurationItem "{65D8C91EB3340F65}" {
-      PrefabsToSpawn {
-       "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
-      }
+      NumSlots 3
      }
     }
    }
   }
   coords 1346.192 36.938 2393.015
-  angleY 142.606
- }
- UAZ3 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5AD4F813E67ECB53}" {
-      SlotTemplate InventoryStorageSlot Bandages {
-       Prefab ""
-      }
-     }
-    }
-   }
-   SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
-    InitialInventoryItems {
-     ItemsInitConfigurationItem "{65D8C91EBDC91E68}" {
-      PrefabsToSpawn {
-       "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
-      }
-     }
-     ItemsInitConfigurationItem "{65D8C91EB3F0D650}" {
-      PrefabsToSpawn {
-       "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
-      }
-     }
-     ItemsInitConfigurationItem "{65D8C91EB3340F65}" {
-      PrefabsToSpawn {
-       "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
-      }
-     }
-    }
-   }
-  }
-  coords 1350.559 36.938 2396.353
-  angleY 142.606
- }
- UAZ4 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5AD4F813E67ECB53}" {
-      SlotTemplate InventoryStorageSlot Bandages {
-       Prefab ""
-      }
-     }
-    }
-   }
-   SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
-    InitialInventoryItems {
-     ItemsInitConfigurationItem "{65D8C91EBDC91E68}" {
-      PrefabsToSpawn {
-       "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
-      }
-     }
-     ItemsInitConfigurationItem "{65D8C91EB3F0D650}" {
-      PrefabsToSpawn {
-       "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
-      }
-     }
-     ItemsInitConfigurationItem "{65D8C91EB3340F65}" {
-      PrefabsToSpawn {
-       "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
-      }
-     }
-    }
-   }
-  }
-  coords 1355.664 36.938 2400.255
-  angleY 142.606
- }
- UAZ5 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5AD4F813E67ECB53}" {
-      SlotTemplate InventoryStorageSlot Bandages {
-       Prefab ""
-      }
-     }
-    }
-   }
-   SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
-    InitialInventoryItems {
-     ItemsInitConfigurationItem "{65D8C91EBDC91E68}" {
-      PrefabsToSpawn {
-       "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
-      }
-     }
-     ItemsInitConfigurationItem "{65D8C91EB3F0D650}" {
-      PrefabsToSpawn {
-       "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
-      }
-     }
-     ItemsInitConfigurationItem "{65D8C91EB3340F65}" {
-      PrefabsToSpawn {
-       "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
-      }
-     }
-    }
-   }
-  }
-  coords 1360.172 36.938 2403.701
   angleY 142.606
  }
 }

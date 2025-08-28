@@ -19,64 +19,38 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
 }
-PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 5120.286 82.446 6397.29
  m_iFreezeTime 300000
  {
-  SCR_FactionManager "65BD7CD87ACCA96F" {
+  SCR_FactionManager "660F34146F787BC2" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{5977478D568C093C}" {
-      m_aCompanyNames {
-       SCR_CallsignInfo "{5977478D568C0922}" {
-        m_sCallsign ""
-       }
-      }
-      m_aPlatoonNames {
-       SCR_CallsignInfo "{5977478D568C092A}" {
-        m_sCallsign ""
-       }
-       SCR_CallsignInfo "{5977478D568C0929}" {
-        m_sCallsign ""
-       }
-      }
       m_aSquadNames {
        SCR_CallsignInfo "{55CCB79287E901BC}" {
-       }
-       SCR_CallsignInfo "{55CCB79287936EBD}" {
         m_sCallsign "Zulu"
        }
-       SCR_CallsignInfo "{55CCB79287BAFBD6}" {
+       SCR_CallsignInfo "{55CCB79287936EBD}" {
         m_sCallsign "Alpha"
        }
-       SCR_CallsignInfo "{55CCB79287A4D7B6}" {
-        m_sCallsign "Bravo"
+       SCR_CallsignInfo "{55CCB79287BAFBD6}" {
+        m_sCallsign "Beta"
        }
-       SCR_CallsignInfo "{64E2F896E232A50B}" {
+       SCR_CallsignInfo "{55CCB79287A4D7B6}" {
         m_sCallsign "Charlie"
        }
-       SCR_CallsignInfo "{64E2F896FFC45153}" {
+       SCR_CallsignInfo "{64E2F896E232A50B}" {
         m_sCallsign "Delta"
-       }
-       SCR_CallsignInfo "{64E2F896FFF772BB}" {
-        m_sCallsign "Echo"
        }
       }
       m_sCallsignGroupFormat "%3"
-      m_sCallsignCharacterFormat "%3-%4"
+      m_sCallsignCharacterFormat "%3 - %4"
      }
     }
     SCR_Faction "{5CC8DE37E1FF0F7A}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
-      m_aCompanyNames {
-       SCR_CallsignInfo "{55CCB792CD021D5C}" {
-        m_sCallsign ""
-       }
-      }
-      m_aPlatoonNames {
-       SCR_CallsignInfo "{55CCB792CE18FB44}" {
-       }
-      }
       m_aSquadNames {
        SCR_CallsignInfo "{55CCB792D10AD8F4}" {
         m_sCallsign "Zulu"
@@ -85,20 +59,14 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "Alpha"
        }
        SCR_CallsignInfo "{55CCB792D1218E95}" {
-        m_sCallsign "Bravo"
+        m_sCallsign "Beta"
        }
        SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
         m_sCallsign "Charlie"
        }
-       SCR_CallsignInfo "{64E30A2DA4FE4811}" {
-        m_sCallsign "Delta"
-       }
-       SCR_CallsignInfo "{64E30A2DA52DD54C}" {
-        m_sCallsign "Echo"
-       }
       }
       m_sCallsignGroupFormat "%3"
-      m_sCallsignCharacterFormat "%3-%4"
+      m_sCallsignCharacterFormat " %3 - %4"
      }
     }
    }
@@ -106,13 +74,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  }
 }
 $grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
- {
+ Bluefor_Supply_Depot {
   coords 5230.007 78.604 6377.548
   angleX -2.611
   angleY 175.796
   angleZ 1.088
   {
-   GenericEntity {
+   GenericEntity BlueforResourceEnity {
     ID "5D45393876460D01"
     components {
      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
@@ -187,13 +155,13 @@ $grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyC
    }
   }
  }
- {
+ Redfor_Supply_Depot {
   coords 4564.555 107.2 7886.127
   angleX 1.653
   angleY 146.957
   angleZ 7.423
   {
-   GenericEntity {
+   GenericEntity RedforResourceEnity {
     ID "5D45393876460D01"
     components {
      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
@@ -377,5 +345,306 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
   }
   LineColor 0.1451 0 0.2831 1
+ }
+}
+TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ FrameworkScript1 ""\
+ "		/* code here */"\
+ "		IEntity BlueSupplyDepot = GetGame().GetWorld().FindEntityByName(\"BlueforResourceEnity\");"\
+ "		IEntity RedSupplyDepot = GetGame().GetWorld().FindEntityByName(\"RedforResourceEnity\");"\
+ "		"\
+ "		if (!BlueSupplyDepot){"\
+ "		"\
+ "			Print(\"No entity of \\"Blufor_Supply_Depot\\" was found\");"\
+ "			AdjustMissionFlag(\"Script1 Error\", true);"\
+ "			return;"\
+ "		}"\
+ "		if (!RedSupplyDepot) {"\
+ "			Print(\"No entity of \\"Redfor_Supply_Depot\\" was found\");"\
+ "			AdjustMissionFlag(\"Script1 Error\", true);"\
+ "			return;"\
+ "		}"\
+ ""\
+ "		SCR_ResourceComponent BlueRC = SCR_ResourceComponent.FindResourceComponent(BlueSupplyDepot, true);"\
+ "		SCR_ResourceComponent RedRC = SCR_ResourceComponent.FindResourceComponent(RedSupplyDepot, true);"\
+ "		"\
+ "		if (!BlueRC) {"\
+ "			Print(\"No ResourceComponent of \\"BlueSupplyDepot\\" was found\");"\
+ "			AdjustMissionFlag(\"Script1 Error\", true);"\
+ "			return;"\
+ "		}"\
+ "		if (!RedRC) {"\
+ "			Print(\"No ResourceComponent of \\"RedSupplyDepot\\" was found\");"\
+ "			AdjustMissionFlag(\"Script1 Error\", true);"\
+ "			return;"\
+ "		}"\
+ "		"\
+ "		const float BlueRCSupplies = BlueRC.GetConsumer(EResourceGeneratorID.DEFAULT_STORAGE, EResourceType.SUPPLIES).GetAggregatedResourceValue();"\
+ "		const float RedRCSupplies = RedRC.GetConsumer(EResourceGeneratorID.DEFAULT_STORAGE, EResourceType.SUPPLIES).GetAggregatedResourceValue();"\
+ "		"\
+ "		if (BlueRCSupplies > RedRCSupplies)"\
+ "		{"\
+ "			Print(\"Blue has more supplies than Red\");"\
+ "			AdjustMissionFlag(\"Blue Won\", true);"\
+ "		}"\
+ "		else"\
+ "		{"\
+ "			Print(\"Red has more supplies than Blue\");"\
+ "			AdjustMissionFlag(\"Red Won\", true);"\
+ "		}"\
+ "	  "
+ m_missionEvents {
+  TILW_MissionEvent "{65C749517D83AB0A}" {
+   m_name "BLUFOR Casualty Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{65C749515CF229BC}" {
+     m_messageTitle "OPFOR Victory!"
+     m_messageBody "Too much BLUFOR Casualty.     Ending Mission in 2 mins!"
+    }
+    TILW_EndGameInstruction "{65C74951594EB3B5}" {
+     m_executionDelay 120
+     m_factionKey "RHS_AFRF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65C749501327BDC1}" {
+    m_flagName "BLUFOR_Killed"
+   }
+  }
+  TILW_MissionEvent "{65C7495171808F32}" {
+   m_name "OPFOR Casualty Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{65C74950736030DC}" {
+     m_messageTitle "BLUFOR Victory!"
+     m_messageBody "Too much OPFOR Casualty.     Ending Mission in 2 mins!"
+    }
+    TILW_EndGameInstruction "{65C749504F6D3C65}" {
+     m_executionDelay 120
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65C74950B920DCA8}" {
+    m_flagName "OPFOR_Killed"
+   }
+  }
+  TILW_MissionEvent "{65C7495094574259}" {
+   m_name "Game End Event"
+   m_instructions {
+    TILW_SendMessageInstruction "{65CA00658ED5EDD9}" {
+     m_executionDelay 2700
+     m_messageTitle "TIME LIMIT REACHED"
+     m_messageBody "The time limit has been reached. Victor will be determined by which side holds the most supplies."
+    }
+    TILW_RunScriptInstruction "{662C63247E8AB627}" {
+     m_executionDelay 2710
+    }
+   }
+   m_condition TILW_LiteralTerm "{65C74950D462D266}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{65C7495B3346BADA}" {
+   m_name "Truck AO Left"
+   m_instructions {
+    TILW_SendMessageInstruction "{65C7495DB06967D0}" {
+     m_executionDelay 0
+     m_messageTitle "All trucks have left the AO!"
+     m_messageBody "Get the supplies submitted to the Supply Depot. You have 3 minutes before the Supplies are being counted."
+    }
+    TILW_RunScriptInstruction "{662C632D1A71B31A}" {
+     m_executionDelay 180
+    }
+   }
+   m_condition TILW_LiteralTerm "{65C7495DF9EBF130}" {
+    m_flagName "trucks_left_ao"
+   }
+  }
+  TILW_MissionEvent "{660F791B9CAD0D16}" {
+   m_name "US Supplies Won"
+   m_instructions {
+    TILW_SendMessageInstruction "{660F791BE0F2CCF4}" {
+     m_executionDelay 0
+     m_messageTitle "US Victory"
+     m_messageBody "US has the largest amount of supplies."
+    }
+    TILW_EndGameInstruction "{662C632455585AE2}" {
+     m_executionDelay 10
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{660F791BEC4C3137}" {
+    m_flagName "Blue Won"
+   }
+  }
+  TILW_MissionEvent "{660F791BCE41269A}" {
+   m_name "USSR Supplies Won"
+   m_instructions {
+    TILW_SendMessageInstruction "{660F791BCE412653}" {
+     m_executionDelay 0
+     m_messageTitle "USSR Victory"
+     m_messageBody "USSR has the largest amount of supplies."
+    }
+    TILW_EndGameInstruction "{662C6324827CCBF5}" {
+     m_executionDelay 10
+     m_factionKey "RHS_USAF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{660F791BCE41264F}" {
+    m_flagName "Red Won"
+   }
+  }
+  TILW_MissionEvent "{65D05BF56D6C3C44}" {
+   m_name "US Truck South HQ"
+   m_instructions {
+    TILW_SendMessageInstruction "{65D05BF1707D6FF2}" {
+     m_executionDelay 0
+     m_messageTitle "Truck 'South' Secured at US HQ"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65D05BF5C833DC47}" {
+    m_flagName "US_Spawn_Jeep_1"
+   }
+  }
+  TILW_MissionEvent "{65D1510FF334ED63}" {
+   m_name "USSR Truck South HQ"
+   m_instructions {
+    TILW_SendMessageInstruction "{65D1510FF334F2C2}" {
+     m_executionDelay 0
+     m_messageTitle "Truck 'South' Secured at Russsia HQ"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65D1510FF334F2FE}" {
+    m_flagName "USSR_Spawn_Jeep_1"
+   }
+  }
+  TILW_MissionEvent "{65D1510B87A94841}" {
+   m_name "US Truck North HQ"
+   m_instructions {
+    TILW_SendMessageInstruction "{65D1510B87A95C90}" {
+     m_executionDelay 0
+     m_messageTitle "Truck 'North' Secured at US HQ"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65D1510B87A95C89}" {
+    m_flagName "US_Spawn_Jeep_2"
+   }
+  }
+  TILW_MissionEvent "{65D1510FD41B47DC}" {
+   m_name "USSR Truck North HQ"
+   m_instructions {
+    TILW_SendMessageInstruction "{65D1510FD41B47BA}" {
+     m_executionDelay 0
+     m_messageTitle "Truck 'North' Secured at USSR HQ"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65D1510FD41B47B6}" {
+    m_flagName "USSR_Spawn_Jeep_2"
+   }
+  }
+  TILW_MissionEvent "{65D1510B850BB03B}" {
+   m_name "US Truck Center HQ"
+   m_instructions {
+    TILW_SendMessageInstruction "{65D1510B850BB18F}" {
+     m_executionDelay 0
+     m_messageTitle "Truck 'Center' Secured at US HQ"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65D1510B850BB18A}" {
+    m_flagName "US_Spawn_Jeep_3"
+   }
+  }
+  TILW_MissionEvent "{65D1510C383585DA}" {
+   m_name "USSR Truck Center HQ"
+   m_instructions {
+    TILW_SendMessageInstruction "{65D1510C38358586}" {
+     m_executionDelay 0
+     m_messageTitle "Truck 'Center' Secured at Russia HQ"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65D1510C38358582}" {
+    m_flagName "USSR_Spawn_Jeep_3"
+   }
+  }
+  TILW_MissionEvent "{65D1510B82F8A808}" {
+   m_name "US Truck West HQ"
+   m_instructions {
+    TILW_SendMessageInstruction "{65D1510B82F8A9FC}" {
+     m_executionDelay 0
+     m_messageTitle "Truck 'West' Secured at US HQ"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65D1510B82F8A9F8}" {
+    m_flagName "US_Spawn_Jeep_4"
+   }
+  }
+  TILW_MissionEvent "{65D1510C040172B8}" {
+   m_name "USSR Truck West HQ"
+   m_instructions {
+    TILW_SendMessageInstruction "{65D1510C04017260}" {
+     m_executionDelay 0
+     m_messageTitle "Truck 'West' Secured at Russia HQ"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65D1510C0401721C}" {
+    m_flagName "USSR_Spawn_Jeep_4"
+   }
+  }
+  TILW_MissionEvent "{65D1510B80680F29}" {
+   m_name "US Truck East HQ"
+   m_instructions {
+    TILW_SendMessageInstruction "{65D1510B80680C99}" {
+     m_executionDelay 0
+     m_messageTitle "Truck 'East' Secured at US HQ"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65D1510B80680C95}" {
+    m_flagName "US_Spawn_Jeep_5"
+   }
+  }
+  TILW_MissionEvent "{65D1510C55A42C93}" {
+   m_name "USSR Truck East HQ"
+   m_instructions {
+    TILW_SendMessageInstruction "{65D1510C55A42C43}" {
+     m_executionDelay 0
+     m_messageTitle "Truck 'East' Secured at Russia HQ"
+    }
+   }
+   m_condition TILW_LiteralTerm "{65D1510C55A42C7A}" {
+    m_flagName "USSR_Spawn_Jeep_5"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{65C74952ED8D39D9}" {
+   m_flagName "BLUFOR_Killed"
+   m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{65C74952E8A88D43}" {
+   m_flagName "OPFOR_Killed"
+   m_factionKey "RHS_AFRF"
+   m_casualtyRatio 0.9
+  }
+ }
+ m_randomFlags {
+  TILW_FlagSampling "{65D1510DBB66468D}" {
+   m_flagNames {
+    "Spawnpoint South A" "Spawnpoint South B" "Spawnpoint South C"
+   }
+  }
+  TILW_FlagSampling "{65D151034020539E}" {
+   m_flagNames {
+    "Spawnpoint North A" "Spawnpoint North B" "Spawnpoint North C"
+   }
+  }
+  TILW_FlagSampling "{65D1510341902952}" {
+   m_flagNames {
+    "Spawnpoint West A" "Spawnpoint West B" "Spawnpoint West C"
+   }
+  }
+  TILW_FlagSampling "{65D151035F4136A0}" {
+   m_flagNames {
+    "Spawnpoint East A" "Spawnpoint East B" "Spawnpoint East C"
+   }
+  }
  }
 }

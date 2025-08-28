@@ -14,9 +14,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<b>a. Enemy Forces</b>"\
   ""\
   "Chernarussian Defense Forces of the 2nd Rapid Reaction Brigade."\
-  "1 air defense platoon equipped with ZU-23-2, defending Metsala airfield. All known AAA positions were previously destroyed with cruise missiles, however some may remain."\
+  "1 air defense platoon equipped with ZU-23-2, defending Metsala airfield. All known AAA positions were previously destroyed with cruise missiles, some may remain."\
   "At least 2 platoons of light infantry, located around the airfield and within the northern compound, possibly armed with a couple of MANPADS."\
-  "Due to the foresty terrain, the enemy will likely be unable to engage low flying aircraft from larger distances."\
+  "Due to the foresty terrain, the enemy will likely be unable to engage low flying aircraft from a distance."\
   "Unknown amount of Chernarussian mechanized forces several kilometers to the west, their response would likely take more than one hour."\
   ""\
   ""\
@@ -68,8 +68,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "No further resupply is available for the infantry until the objective has been secured for subsequent landings."\
   ""\
-  "Refuel for the helicopters is available on the helipad (049 061)."\
-  "The Mi-24s can also rearm there, however not the Mi-8s."\
+  "Refuel for the helicopters is available on the helipad (049 061). The Mi-24s can also rearm there, but not the Mi-8s."\
   "Repair is not available."\
   ""\
   "Load plan: Each Mi-8 carries one platoon, company HQ splits up across the remaining 2 seats per helicopter"\
@@ -109,7 +108,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Company net: 42.1MHz"\
   "Air net: 42.2MHz"\
-  "If platoon nets are established, the frequency will be their platoon leaders group frequency."
+  "If platoon nets are established, the frequency will be their platoon leaders group frequency. However this can also be played in a way where squad leaders only listen to company net and communicate directly with their PL."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -119,7 +118,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 0 0 0
   m_sTitle "Mission Notes"
   m_sTextData "- Setup Timer: 5 minutes"\
-  "- CDF has 5 respawns. VDV has 5 respawns."\
+  "- CDF has 5 respawns. VDV has 10 respawns."\
   "- Once the VDV has taken an objective, there will be a notification."\
   "- CDF players are confined to the green rectangle."\
   "- JIP TP is disabled, Mi-8 pilots should handle transport of new joins / respawns."\
@@ -149,7 +148,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Remains of one an defense platoon equipped with ZU-23-2, tasked with defending Metsala airfield. Several guns were previously destroyed by cruise missiles, only one static and one mobile ZU remain."\
   ""\
   "3 platoons of light infantry, located around the airfield and within the northern compound."\
-  "HQ and 1 are at the northern bounding group (066 015), 2 is currently near the ATC (076 012),"\
+  "HQ and 1 are at the northern bounding group (066 015), 2 is currently near the ATC (067 012),"\
   ""\
   "There are friendly mechanized forces several kilometers to the west, but it will take them more than an hour to respond."
   m_aVisibleForFactions {
@@ -207,9 +206,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Command/Signals"
   m_sTextData "<b>a. Command</b>"\
   ""\
-  "210"\
-  "  211"\
-  "  212"\
+  "110"\
+  "  111"\
+  "  112"\
   "513 (AAA)"\
   ""\
   ""\

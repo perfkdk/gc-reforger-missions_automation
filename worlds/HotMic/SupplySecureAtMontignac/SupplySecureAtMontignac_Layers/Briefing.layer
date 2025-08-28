@@ -15,16 +15,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   coords 5034.915 157 6836.614
-  m_sTitle "Mission Notes"
-  m_sTextData "Time: 1200 hours; June 27th, 2020"\
-  "Location: Montignac, Everon"\
-  "Weather: Clear skies, Midday"\
-  ""\
-  "Orders:"\
-  "- Secure FOOD transport trucks and transport them to your HQ (Supply Depot)."\
-  "- Prevent enemy forces from extracting supplies."\
-  ""\
-  "Notes about trucks: "\
+  m_sTitle "V. Mission Notes"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "Notes about trucks: "\
   "- All trucks are hidden in the garages."\
   "- Each truck’s exact location is randomized at mission start, except Center. "\
   "- Once a truck reaches HQ, it must offload its cargo and stay parked. A replacement Jeep will spawn to allow the crew to return to the AO."\
@@ -43,23 +36,20 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Fun Fact:"\
   "This is Hot Mic's first mission for the community."\
   "It might be possible to complete the match without seeing PvP in Action if low pop."
-  m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 14
+  m_iOrder 5
  }
  {
   coords 5021.496 157 6889.383
   m_sTitle "Game Mastering"
-  m_sTextData "GM intervention is needed to determine the victor:"\
-  "- Each side has a supply depot. Only supplies inside the depot are counted."\
-  "- There will be an automated message once all trucks have left the AO."\
-  "- Once all trucks are at their destination, GMs should compare supplies and announce the winner."\
-  "- If any truck is immobilized, it should be ignored."
+  m_sTextData "This mission is fully automatic."\
+  ""\
+  "GM intervention is needed when any truck is immobilized; it should be destroyed."
   m_aVisibleForFactions {
   }
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 15
+  m_iOrder 7
  }
  {
   coords 5041.754 157 6880.624
@@ -73,6 +63,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_USAF"
   }
+  m_iOrder 1
  }
  {
   coords 5008.943 157 6846.363
@@ -81,6 +72,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_USAF"
   }
+  m_iOrder 2
  }
  {
   coords 5039.509 142.969 6863
@@ -91,18 +83,33 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_USAF"
   }
+  m_iOrder 3
  }
  {
   coords 5026.138 157 6831.895
   m_sTitle "IV. Mission"
-  m_sTextData "Your task is to enter the town, secure as many trucks as possible, and extract them to HQ. Resistance from both Russian forces and local militias is expected. Rules of engagement are active. Extract back to the HQ once the trucks are secured."
+  m_sTextData "Time: 1200 hours; June 27th, 2020"\
+  "Location: Montignac, Everon"\
+  "Weather: Clear skies, Midday"\
+  ""\
+  "Your task is to enter the town, secure as many trucks as possible, and extract them to HQ. Resistance from both Russian forces and local militias is expected. Rules of engagement are active. Extract back to the HQ once the trucks are secured."\
+  ""\
+  "Orders:"\
+  "- Secure FOOD transport trucks and transport them to your HQ (Supply Depot)."\
+  "- Prevent enemy forces from extracting supplies."\
+  ""\
+  "End Conditions:"\
+  "- A faction with the highest amount of supplies at its HQ after 45 minutes OR all trucks left AO: Victory"\
+  "- A faction reduced to near-total losses or combat-ineffective: Defeat"
   m_aVisibleForFactions {
    "RHS_USAF"
   }
+  m_iOrder 4
  }
  {
   coords 5034.767 157 6826.052
   m_sTitle "VI. Command & Signal"
+  m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "LR Channels:"\
   "Platoon Net: 48.0 Mhz (Default)"\
   ""\
@@ -115,10 +122,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_USAF"
   }
+  m_iOrder 6
  }
  {
   coords 5571.196 104.306 6356.092
   m_sTitle "VI. Command & Signal"
+  m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "LR Channels:"\
   "Platoon Net: 42.0 Mhz (Default)"\
   ""\
@@ -127,11 +136,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1st Squad: Alpha"\
   "2nd Squad: Bravo"\
   "3rd Squad: Charlie"\
+  "3th Squad: Delta"\
   ""
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
-  m_iOrder 13
+  m_iOrder 6
  }
  {
   coords 5578.183 104.306 6410.665
@@ -147,32 +157,47 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
+  m_iOrder 1
  }
  {
   coords 5545.372 104.306 6376.403
   m_sTitle "II. Friendly Forces"
+  m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "Platoon-strength Russians."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
+  m_iOrder 2
  }
  {
   coords 5575.938 90.275 6393.041
   m_sTitle "III. Enemy Forces"
+  m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "Platoon-strength USAF."\
   ""\
   "A third-party IFA, composed of local militia fighters."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
+  m_iOrder 3
  }
  {
   coords 5562.567 104.306 6361.936
   m_sTitle "IV. Mission"
-  m_sTextData "You are to seize and transport as many of these trucks as possible to Russia lines. Expect interference from enemy combatants and remaining civilian resistance factions. Engage with force and suppress any obstruction."
+  m_sTextData "Time: 1200 hours; June 27th, 2020"\
+  "Location: Montignac, Everon"\
+  "Weather: Clear skies, Midday"\
+  ""\
+  "You are to seize and transport as many of these trucks as possible to Russia lines. Expect interference from americans and remaining civilian resistance factions. Engage with force and suppress any obstruction."\
+  ""\
+  "Orders:"\
+  "- Secure FOOD transport trucks and transport them to your HQ (Supply Depot)."\
+  "- Prevent enemy forces from extracting supplies."\
+  ""
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
+  m_iOrder 4
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
