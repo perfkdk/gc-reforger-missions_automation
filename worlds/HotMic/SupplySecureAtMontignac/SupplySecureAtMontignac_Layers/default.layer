@@ -402,7 +402,7 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
      m_messageBody "Too much BLUFOR Casualty.     Ending Mission in 2 mins!"
     }
     TILW_EndGameInstruction "{65C74951594EB3B5}" {
-     m_executionDelay 300
+     m_executionDelay 120
      m_factionKey "RHS_AFRF"
     }
    }
@@ -418,12 +418,12 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
      m_messageBody "Too much OPFOR Casualty.     Ending Mission in 2 mins!"
     }
     TILW_EndGameInstruction "{65C749504F6D3C65}" {
-     m_executionDelay 300
+     m_executionDelay 120
      m_factionKey "RHS_USAF"
     }
    }
    m_condition TILW_LiteralTerm "{65C74950B920DCA8}" {
-    m_flagName "OPFOR_KIlled"
+    m_flagName "OPFOR_Killed"
    }
   }
   TILW_MissionEvent "{65C7495094574259}" {
@@ -449,7 +449,7 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
    m_instructions {
     TILW_SendMessageInstruction "{65C7495DB06967D0}" {
      m_executionDelay 0
-     m_messageTitle "All truck has left the AO!"
+     m_messageTitle "All trucks have left the AO!"
      m_messageBody "Get the supplies submitted to the Supply Depot. You have 3 minutes before the Supplies are being counted."
     }
     TILW_RunScriptInstruction "{662C632D1A71B31A}" {
@@ -617,12 +617,12 @@ TILW_MissionFrameworkEntity Main_MF : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mission
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{65C74952ED8D39D9}" {
-   m_flagName "BLUFOR_Killed1"
+   m_flagName "BLUFOR_Killed"
    m_factionKey "RHS_USAF"
    m_casualtyRatio 0.9
   }
   TILW_FactionPlayersKilledFlag "{65C74952E8A88D43}" {
-   m_flagName "OPFOR_KIlled1"
+   m_flagName "OPFOR_Killed"
    m_factionKey "RHS_AFRF"
    m_casualtyRatio 0.9
   }
