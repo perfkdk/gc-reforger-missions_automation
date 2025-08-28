@@ -100,6 +100,8 @@ SCR_SearchAndDestroyWaypoint AIWP_SearchAndDestroy_1 : "{B3E7B8DC2BAB8ACC}Prefab
  CompletionRadius 178
 }
 SCR_BoardingWaypoint wp14 : "{C40316EE26846CAB}Prefabs/AI/Waypoints/AIWaypoint_GetOut.et" {
- coords 7135.038 310.645 3401.516
+ coords 7142.832 333.808 3502.864
+ CompletionRadius 30
+ CompletionType Any
  m_fPriorityLevel 1500
 }

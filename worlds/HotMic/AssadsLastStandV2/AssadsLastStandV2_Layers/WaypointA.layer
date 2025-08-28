@@ -41,8 +41,10 @@ $grp GenericEntity {
  }
 }
 SCR_AIWaypoint wp1 : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
- coords 5709.578 257.236 1007.733
+ coords 5703.651 257.236 1010.947
  angleY 81.853
+ CompletionRadius 20
+ m_fPriorityLevel 1000
 }
 SCR_AIWaypoint wp3 : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  coords 5779.778 270.278 938.504
@@ -109,10 +111,12 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  }
 }
 SCR_SearchAndDestroyWaypoint AIWP_SearchDestroy_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
- coords 5800.65 264.894 927.664
+ coords 5800.65 271.561 927.664
  CompletionRadius 100
 }
 SCR_BoardingWaypoint wp2 : "{C40316EE26846CAB}Prefabs/AI/Waypoints/AIWaypoint_GetOut.et" {
- coords 5723.099 256.306 999.31
+ coords 5704.797 256.827 1010.571
  angleY 81.853
+ CompletionRadius 13
+ CompletionType Any
 }

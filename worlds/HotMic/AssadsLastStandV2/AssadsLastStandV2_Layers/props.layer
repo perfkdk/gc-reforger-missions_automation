@@ -1,7 +1,3 @@
-StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
- coords 7128.296 0.116 3419.99
- angleY 179.377
-}
 GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
  coords 7134.534 313.012 3416.45
  angleX -12.761

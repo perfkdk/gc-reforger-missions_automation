@@ -283,7 +283,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
          }
         }
         m_waypointNames {
-         "wp16" "wp14" "wp15" "AIWP_SearchAndDestroy_1"
+         "wp16" "wp15" "wp14" "AIWP_SearchAndDestroy_1"
         }
        }
       }
@@ -305,7 +305,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
          }
         }
         m_waypointNames {
-         "wp16" "wp14" "wp15" "AIWP_SearchAndDestroy_1"
+         "wp16" "wp15" "wp14" "AIWP_SearchAndDestroy_1"
         }
        }
       }
@@ -328,7 +328,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
          }
         }
         m_waypointNames {
-         "wp16" "wp14" "wp15" "AIWP_SearchAndDestroy_1"
+         "wp16" "wp15" "wp14" "AIWP_SearchAndDestroy_1"
         }
        }
       }
@@ -351,7 +351,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
          }
         }
         m_waypointNames {
-         "wp13" "wp14" "wp15" "AIWP_SearchAndDestroy_1"
+         "wp13" "wp15" "wp14" "AIWP_SearchAndDestroy_1"
         }
        }
       }
@@ -625,21 +625,13 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
      m_messageTitle "Minor Defeat"
      m_messageBody "US forces were unable to complete the mission in the time window."
     }
-   }
-   m_condition TILW_LiteralTerm "{64DF3496AEB63228}" {
-    m_invertTerm 1
-   }
-  }
-  TILW_MissionEvent "{649D0766AB6C3B39}" {
-   m_name "Time Limit"
-   m_instructions {
-    TILW_EndGameInstruction "{649D076545565342}" {
-     m_executionDelay 5400
+    TILW_EndGameInstruction "{66395330DFBF234A}" {
+     m_executionDelay 5520
      m_gameOverType EDITOR_FACTION_DEFEAT
      m_factionKey "RHS_USAF"
     }
    }
-   m_condition TILW_LiteralTerm "{649D076567627F34}" {
+   m_condition TILW_LiteralTerm "{64DF3496AEB63228}" {
     m_invertTerm 1
    }
   }
