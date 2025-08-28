@@ -845,7 +845,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          }
         }
         m_waypointNames {
-         "Phase3_ForcedMove_FlankingDismount_Waypoint" "Phase3_Flanking_Getout_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
+         "Phase3_Flanking_Getout_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
        }
       }
@@ -867,7 +867,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          }
         }
         m_waypointNames {
-         "Phase3_ForcedMove_FlankingDismount_Waypoint" "Phase3_Flanking_Getout_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
+         "Phase3_Flanking_Getout_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
        }
       }
