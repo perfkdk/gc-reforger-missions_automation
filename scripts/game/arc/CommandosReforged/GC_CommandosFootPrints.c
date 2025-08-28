@@ -65,11 +65,12 @@ class GC_CommandosFootPrints : ScriptComponent
 			return;
 		
 		CreateFootPrint();
-		CleanUp();
+		//CleanUp();
 	}
 	
 	protected void CleanUp()
 	{
+		Print("GRAY.CleanUp");
 		World world = GetGame().GetWorld();
 		float currentTime = GetGame().GetWorld().GetWorldTime();
 		currentTime -= m_lifeTime * 1000;
