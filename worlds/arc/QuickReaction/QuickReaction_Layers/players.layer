@@ -37,7 +37,7 @@ $grp SCR_AIGroup : "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
   }
   coords 6690.47 96.657 1203.244
   m_aUnitPrefabSlots {
-   "{BF6C3DF72FA131E8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_CoyCO_P.et" "{BF4EDDF1A0E36FE2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Coy2IC_P.et" "{B2E5DF9C6753FB5F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_RTO_P.et"
+   "{BF6C3DF72FA131E8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_CoyCO_P.et" "{BF4EDDF1A0E36FE2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Coy2IC_P.et" "{1F37DEC383E18BD7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_RTO_P.et"
   }
   m_sCustomNameSet ""
  }
