@@ -1,0 +1,11 @@
+$grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ ConvoyB_ForcedMove {
+  coords 3045.906 8.481 2730.563
+ }
+ ConvoyC_ForcedMove {
+  coords 3815.782 3.786 2529.483
+ }
+ ConvoyA_ForcedMove {
+  coords 698.639 48.983 3121.779
+ }
+}

@@ -1,0 +1,495 @@
+SCR_AIWorld : "{E2A016456BBC697D}Prefabs/AI/SCR_AIWorld_Kunar.et" {
+ coords 2683.716 8 3054.829
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2680.799 8 3050.624
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 10
+  }
+ }
+ coords 2680.271 8 3051.191
+ m_bMarkersOnlyOnBriefing 1
+ m_iFreezeTime 180000
+}
+TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 2682.254 8 3053.212
+ FrameworkScript1 ""\
+ "		// Get the active flag name from random flag list"\
+ "		string cargoVehicleName = \"\";"\
+ "		if (IsMissionFlag(\"PickConvoyAFlag\")) cargoVehicleName = \"CargoA\";"\
+ "		if (IsMissionFlag(\"PickConvoyBFlag\")) cargoVehicleName = \"CargoB\";"\
+ "		if (IsMissionFlag(\"PickConvoyCFlag\")) cargoVehicleName = \"CargoC\";"\
+ "		"\
+ "		if (cargoVehicleName == \"\")"\
+ "		{"\
+ "			Print(\"Failed to acquired the name for which Cargo Van in the world\");"\
+ "			RaiseFailedFlag();"\
+ "		} else "\
+ "			PrintFormat(\"FW1 picked %1 as a winner!\", cargoVehicleName);"\
+ "		"\
+ "		// Use that name to get the vehicle in the Game World"\
+ "		IEntity cargoVan = GetGame().GetWorld().FindEntityByName(cargoVehicleName);"\
+ "		if (!cargoVan)"\
+ "		{"\
+ "			PrintFormat(\"No entity of %1 found\", cargoVehicleName);"\
+ "			RaiseFailedFlag();"\
+ "		}"\
+ "		"\
+ "		// Get the Resource Component, then Resource Container, and then set the value"\
+ "		SCR_ResourceComponent cargoVanRC = SCR_ResourceComponent.FindResourceComponent(cargoVan, true);"\
+ "		SCR_ResourceContainer container;"\
+ "		"\
+ "		if (cargoVanRC && cargoVanRC.GetContainer(EResourceType.SUPPLIES, container))"\
+ "		{"\
+ "  			container.SetResourceValue(250);"\
+ "		} else {"\
+ "			PrintFormat(\"%1 did not have either a resource component or resource container\", cargoVehicleName);"\
+ "			RaiseFailedFlag();"\
+ "		}"\
+ "	}"\
+ "		"\
+ "	private void RaiseFailedFlag()"\
+ "	{"\
+ "		Print(\"FW1 Script soft failed\");"\
+ "		AdjustMissionFlag(\"Failed Cargo Van Supplies Flag\", true);"\
+ "		return;"\
+ "	"
+ m_missionEvents {
+  TILW_MissionEvent "{663A0087BEB977F0}" {
+   m_name "Spawn Convoys"
+   m_instructions {
+    TILW_SetFlagInstruction "{663A008617C614A2}" {
+     m_flagName "Spawn Convoy B Flag"
+    }
+    TILW_SetFlagInstruction "{663A008604B17521}" {
+     m_executionDelay 30
+     m_flagName "Spawn Convoy A Flag"
+    }
+    TILW_SetFlagInstruction "{663A008614E9679C}" {
+     m_executionDelay 55
+     m_flagName "Spawn Convoy C Flag"
+    }
+   }
+   m_condition TILW_LiteralTerm "{663A00878E5FFED0}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{6636678C2A593312}" {
+   m_name "Spawn Convoy A"
+   m_instructions {
+    TILW_SpawnVehicleInstruction "{6636678C2A593053}" {
+     m_executionDelay 0
+     m_prefab "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et"
+     m_locationName "CVA1"
+     m_crewConfig TILW_CrewConfig "{6636678C2A59304D}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6636678C2A59304F}" {
+        m_crewStations {
+         TILW_CrewStation "{6636678C2A593048}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyA_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6636678C2A593042}" {
+     m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+     m_locationName "CVA2"
+     m_crewConfig TILW_CrewConfig "{6636678C2A593043}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6636678C2A59307C}" {
+        m_crewStations {
+         TILW_CrewStation "{6636678C2A59307D}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyA_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6636678C2A593079}" {
+     m_executionDelay 10
+     m_prefab "{767D49C35F87DC1A}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CIV_randomized.et"
+     m_locationName "CVA3"
+     m_setEntityName "CargoA"
+     m_crewConfig TILW_CrewConfig "{6636678C2A59307A}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6636678C2A59307B}" {
+        m_crewStations {
+         TILW_CrewStation "{6636678C2A593074}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyA_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6636678C2A593068}" {
+     m_executionDelay 15
+     m_prefab "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et"
+     m_locationName "CVA4"
+     m_crewConfig TILW_CrewConfig "{6636678C2A59306A}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6636678C2A59306B}" {
+        m_crewStations {
+         TILW_CrewStation "{6636678C2A593064}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyA_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6636678C2A593066}" {
+     m_executionDelay 20
+     m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+     m_locationName "CVA5"
+     m_crewConfig TILW_CrewConfig "{6636678C2A593067}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6636678C2A592017}" {
+        m_crewStations {
+         TILW_CrewStation "{6636678C2A592011}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyA_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6636678C2A59206C}" {
+    m_flagName "Spawn Convoy A Flag"
+   }
+  }
+  TILW_MissionEvent "{663568BFD61CD130}" {
+   m_name "Spawn Convoy B"
+   m_instructions {
+    TILW_SpawnVehicleInstruction "{663568BE254787C3}" {
+     m_executionDelay 0
+     m_prefab "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et"
+     m_locationName "CVB1"
+     m_crewConfig TILW_CrewConfig "{663568BEAB077260}" {
+      m_crewGroups {
+       TILW_CrewGroup "{663568BEA856837C}" {
+        m_crewStations {
+         TILW_CrewStation "{663568BEA98FC954}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyB_ForcedMove"
+        }
+       }
+       TILW_CrewGroup "{663A0083779A579F}" {
+        m_crewStations {
+         TILW_CrewStation "{663A0083750F09E7}" {
+          m_allowPilot 0
+          m_allowTurret 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{663568BEFF085C40}" {
+     m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+     m_locationName "CVB2"
+     m_crewConfig TILW_CrewConfig "{663568BEFF085DC8}" {
+      m_crewGroups {
+       TILW_CrewGroup "{663568BEFF085DCA}" {
+        m_crewStations {
+         TILW_CrewStation "{663568BEFF085DCB}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyB_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{663568A1449E7ECB}" {
+     m_executionDelay 10
+     m_prefab "{767D49C35F87DC1A}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CIV_randomized.et"
+     m_locationName "CVB3"
+     m_setEntityName "CargoB"
+     m_crewConfig TILW_CrewConfig "{663568A1449E7E42}" {
+      m_crewGroups {
+       TILW_CrewGroup "{663568A1449E7E7C}" {
+        m_crewStations {
+         TILW_CrewStation "{663568A1449E7E7D}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyB_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{663568A145A9093C}" {
+     m_executionDelay 15
+     m_prefab "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et"
+     m_locationName "CVB4"
+     m_crewConfig TILW_CrewConfig "{663568A145A90EBA}" {
+      m_crewGroups {
+       TILW_CrewGroup "{663568A145A90EB6}" {
+        m_crewStations {
+         TILW_CrewStation "{663568A145A90EB1}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyB_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{663568A142BD2121}" {
+     m_executionDelay 20
+     m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+     m_locationName "CVB5"
+     m_crewConfig TILW_CrewConfig "{663568A142BD26BA}" {
+      m_crewGroups {
+       TILW_CrewGroup "{663568A142BD26B5}" {
+        m_crewStations {
+         TILW_CrewStation "{663568A142BD26B6}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyB_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{663568BE2D6AFA40}" {
+    m_flagName "Spawn Convoy B Flag"
+   }
+  }
+  TILW_MissionEvent "{6636678C25ACD1B9}" {
+   m_name "Spawn Convoy C"
+   m_instructions {
+    TILW_SpawnVehicleInstruction "{6636678C25ACD148}" {
+     m_executionDelay 0
+     m_prefab "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et"
+     m_locationName "CVC1"
+     m_crewConfig TILW_CrewConfig "{6636678C25ACD144}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6636678C25ACD145}" {
+        m_crewStations {
+         TILW_CrewStation "{6636678C25ACD146}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyC_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6636678C25ACD15E}" {
+     m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+     m_locationName "CVC2"
+     m_crewConfig TILW_CrewConfig "{6636678C25ACD15F}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6636678C25ACD159}" {
+        m_crewStations {
+         TILW_CrewStation "{6636678C25AC6965}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyC_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6636678C25AC696A}" {
+     m_executionDelay 10
+     m_prefab "{767D49C35F87DC1A}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CIV_randomized.et"
+     m_locationName "CVC3"
+     m_setEntityName "CargoC"
+     m_crewConfig TILW_CrewConfig "{6636678C25AC696C}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6636678C25AC696D}" {
+        m_crewStations {
+         TILW_CrewStation "{6636678C25AC696E}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyC_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6636678C25AC6E82}" {
+     m_executionDelay 15
+     m_prefab "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et"
+     m_locationName "CVC4"
+     m_crewConfig TILW_CrewConfig "{6636678C25AC6E83}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6636678C25AC6E84}" {
+        m_crewStations {
+         TILW_CrewStation "{6636678C25AC6E85}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyC_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6636678C25AC6E88}" {
+     m_executionDelay 20
+     m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+     m_locationName "CVC5"
+     m_crewConfig TILW_CrewConfig "{6636678C25AC6E8A}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6636678C25AC6E8B}" {
+        m_crewStations {
+         TILW_CrewStation "{6636678C25AC6E8C}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "ConvoyC_ForcedMove"
+        }
+       }
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6636678C25AC6E8E}" {
+    m_flagName "Spawn Convoy C Flag"
+   }
+  }
+  TILW_MissionEvent "{663A0081039CC233}" {
+   m_name "Set Cargo Van with Supplies"
+   m_instructions {
+    TILW_RunScriptInstruction "{663A008164B5B57E}" {
+     m_executionDelay 0
+    }
+    TILW_SendMessageInstruction "{663A00899D3F6A3F}" {
+     m_messageTitle "FW1 Script Done"
+    }
+   }
+   m_condition TILW_LiteralTerm "{663A00874667FE90}" {
+    m_flagName "Set Cargo Van Supplies Flag"
+   }
+  }
+  TILW_MissionEvent "{663A008A4B25BE20}" {
+   m_name "Failed Cargo Van Supplies"
+   m_instructions {
+    TILW_SendMessageInstruction "{663A008A553E3D11}" {
+     m_executionDelay 0
+     m_messageTitle "Failed Cargo Van Supplies"
+     m_messageBody "There's a problem with the FW1's custom script; GMs - your call!"
+    }
+   }
+   m_condition TILW_LiteralTerm "{663A008A5ACDBEA1}" {
+    m_flagName "Failed Cargo Van Supplies Flag"
+   }
+  }
+ }
+ m_randomFlags {
+  TILW_FlagSampling "{6636678A2DD77390}" {
+   m_flagNames {
+    "PickConvoyAFlag" "PickConvoyBFlag" "PickConvoyCFlag"
+   }
+  }
+ }
+}
