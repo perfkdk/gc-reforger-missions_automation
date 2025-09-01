@@ -66,7 +66,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Mission:"\
   "- Find the van with FOOD Supplies. "\
-  "- Take the Supplies back to HQ"\
+  "- Take the Supplies back to HQ (Supply Depot is at Western Hanger at Spawn Area)."\
   "- If the wrong convoy is engaged, regroup and proceed to intercept one of the remaining convoys."\
   ""\
   "Major Victory (Soft End): HQ with 250 Supplies"\
@@ -227,6 +227,17 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "arrow-medium"
   m_fWorldSize 50
   m_sDescription "Convoy C"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 2919.262 10 2994.763
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow "{C07D82625600BA21}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor-outline.imageset"
+  m_sQuadName "undefined"
+  m_fWorldSize 25
+  m_sDescription "Supply Depot"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1

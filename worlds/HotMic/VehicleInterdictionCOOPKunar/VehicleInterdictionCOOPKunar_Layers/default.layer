@@ -268,7 +268,13 @@ $grp StaticModelEntity : "{8CDB9C117669AF4A}Prefabs/Structures/Military/Camps/He
 }
 TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 2682.254 8 3053.212
+ userScript "	// code here"\
+ "	IEntity BlueSupplyDepot;"\
+ " 	SCR_ResourceComponent BlueRC;"\
+ " 	SCR_ResourceContainer container;"
  FrameworkScript1 ""\
+ "		// Set the Supplies value on random chosen van.\""\
+ "		"\
  "		// Get the active flag name from random flag list"\
  "		string cargoVehicleName = \"\";"\
  "		if (IsMissionFlag(\"PickConvoyAFlag\")) cargoVehicleName = \"CargoA\";"\
@@ -297,6 +303,7 @@ TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
  "		if (cargoVanRC && cargoVanRC.GetContainer(EResourceType.SUPPLIES, container))"\
  "		{"\
  "  			container.SetResourceValue(250);"\
+ "			Print(\"FW1 Script ran successfully\");"\
  "		} else {"\
  "			PrintFormat(\"%1 did not have either a resource component or resource container\", cargoVehicleName);"\
  "			RaiseFailedFlag();"\
@@ -310,42 +317,49 @@ TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
  "		return;"\
  "	"
  FrameworkScript2 ""\
- "		IEntity BlueSupplyDepot = GetGame().GetWorld().FindEntityByName(\"Bluefor_Supply_Depot\");"\
- "		if (!BlueSupplyDepot)"\
- "		{"\
- "			Print(\"No entity of Bluefor Supply Depot found\");"\
- "			RaiseFailedFlag2();"\
- "		}"\
- "        "\
- "        SCR_ResourceComponent BlueRC = SCR_ResourceComponent.FindResourceComponent(BlueSupplyDepot, true);"\
- "		SCR_ResourceContainer container;"\
- "		float currentSuppliesValue = 0;"\
+ "		// Check the Current Supply value of Supply Depot with Target value(250)"\
  "		"\
- "        if (BlueRC && BlueRC.GetContainer(EResourceType.SUPPLIES, container))"\
- "		{"\
- "  			currentSuppliesValue = container.GetResourceValue();"\
- "		} else {"\
- "			Print(\"Bluefor Supply Depot did not have either a resource component or resource container\");"\
- "			RaiseFailedFlag2();"\
- "		}"\
- "		"\
+ "		float currentSuppliesValue = container.GetResourceValue();"\
  "		if (currentSuppliesValue == 250) "\
  "		{"\
  "			AdjustMissionFlag(\"Check Supplies Success Flag\", true);"\
  "		} else {"\
- "			// PrintFormat(\"FW2 Check fail | %1 < 250\", currentSuppliesValue);"\
+ "			PrintFormat(\"FW2 Check fail | %1 < 250\", currentSuppliesValue);"\
  "		}"\
- "	}"\
- "	"\
- "	private void RaiseFailedFlag2()"\
+ "	"
+ FrameworkScript3 ""\
+ "		// Set the Variables that will be use in Framework Script 2"\
+ " 		"\
+ " 		BlueSupplyDepot = GetGame().GetWorld().FindEntityByName(\"Bluefor_Supply_Depot\");"\
+ "		"\
+ "		if (!BlueSupplyDepot)"\
+ " 		{"\
+ "			Print(\"No entity of Bluefor Supply Depot found\");"\
+ " 			RaiseFailedFlag3();"\
+ " 		}"\
+ "			"\
+ "		BlueRC = SCR_ResourceComponent.FindResourceComponent(BlueSupplyDepot, true);"\
+ "		if (!(BlueRC && BlueRC.GetContainer(EResourceType.SUPPLIES, container)))"\
+ " 		{"\
+ "			Print(\"Bluefor Supply Depot did not have either a resource component or resource container\");"\
+ " 			RaiseFailedFlag3();"\
+ " 		}"\
+ "			"\
+ " 		Print(\"FW3 Script ran successfully\");"\
+ " 	}"\
+ "			"\
+ " 	private void RaiseFailedFlag3()"\
  "	{"\
- "		Print(\"FW2 Script soft failed\");"\
- "		return;"\
+ " 		Print(\"FW3 Script soft failed\");"\
+ " 		return;"\
  "	"
  m_missionEvents {
   TILW_MissionEvent "{663A0087BEB977F0}" {
    m_name "Spawn Convoys & Start Auto-Check"
    m_instructions {
+    TILW_RunScriptInstruction "{66431A0320CA479F}" {
+     m_iScriptNumber 3
+    }
     TILW_SetFlagInstruction "{663A008617C614A2}" {
      m_executionDelay 115
      m_flagName "Spawn Convoy B Flag"
@@ -359,7 +373,7 @@ TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
      m_flagName "Spawn Convoy C Flag"
     }
     TILW_SetFlagInstruction "{6642330279A050E9}" {
-     m_executionDelay 360
+     m_executionDelay 180
      m_flagName "Check Supplies for Completion Flag"
     }
    }
