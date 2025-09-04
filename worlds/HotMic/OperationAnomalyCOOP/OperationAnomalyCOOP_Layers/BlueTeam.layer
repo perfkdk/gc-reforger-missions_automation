@@ -1,0 +1,21 @@
+$grp SCR_AIGroup : "{715D5CD2DD77ACBB}Prefabs/Groups/BLUFOR/US/Army/2009/Delta Force/P/Group_Delta_2010_Assault_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+  }
+  coords 9320.537 18.105 7456.891
+  angleY 180
+  m_bSnapToTerrain 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+  }
+  coords 9372.442 3.058 7442.406
+  m_bSnapToTerrain 0
+ }
+}

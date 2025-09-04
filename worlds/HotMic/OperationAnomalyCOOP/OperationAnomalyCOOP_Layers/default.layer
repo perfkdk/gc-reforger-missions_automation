@@ -1,0 +1,68 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 9297.931 6.443 7472.401
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 9303.968 6.981 7480.094
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 9303.554 22.799 7468.379
+}
+$grp GenericEntity {
+ LocationA {
+  coords 9300.631 22.799 7465.804
+ }
+ LocationB {
+  coords 9237.188 18.106 7456.904
+ }
+}
+TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 9301.616 22.971 7469.054
+ m_missionEvents {
+  TILW_MissionEvent "{66474DAD9C7FCC8D}" {
+   m_instructions {
+    TILW_SetFlagInstruction "{66474DAD9465DC0E}" {
+     m_executionDelay 10
+     m_flagName "Allow Teleportation Flag"
+    }
+   }
+   m_condition TILW_LiteralTerm "{66474DAD982F7259}" {
+    m_invertTerm 1
+   }
+  }
+ }
+ m_metaFlags {
+  TILW_MetaFlag "{66474DADE393055E}" {
+   m_flagName "Allow Teleportation A Flag"
+   m_definition TILW_ConjunctionTerm "{66474DADFFD57D73}" {
+    m_operands {
+     TILW_LiteralTerm "{66474DADF8313F3D}" {
+      m_flagName "SpawnAFlag"
+     }
+     TILW_LiteralTerm "{66474DADF48A6F30}" {
+      m_flagName "Allow Teleportation Flag"
+     }
+    }
+   }
+  }
+  TILW_MetaFlag "{66474DADC656D270}" {
+   m_flagName "Allow Teleportation B Flag"
+   m_definition TILW_ConjunctionTerm "{66474DADC656D5BF}" {
+    m_operands {
+     TILW_LiteralTerm "{66474DADC656D5A3}" {
+      m_flagName "SpawnBFlag"
+     }
+     TILW_LiteralTerm "{66474DADC656D55F}" {
+      m_flagName "Allow Teleportation Flag"
+     }
+    }
+   }
+  }
+ }
+ m_randomFlags {
+  TILW_FlagSampling "{66474DA9E6E3F275}" {
+   m_flagNames {
+    "SpawnAFlag" "SpawnBFlag"
+   }
+  }
+ }
+}
