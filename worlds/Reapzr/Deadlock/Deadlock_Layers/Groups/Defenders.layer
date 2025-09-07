@@ -1,0 +1,16 @@
+SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARATIST_RifleSquad_P.et" {
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity OPFOR
+    }
+   }
+  }
+ }
+ coords 6593.149 118.887 1544.642
+ m_iGroupRadioFrequency 34
+}
+SCR_AIGroup : "{FC3850752FAB8FF5}Prefabs/Groups/BLUFOR/British Forces/2024/Light Infantry/P/Group_UK_2024_RifleSection_P.et" {
+ coords 6808.832 102.377 1610.074
+}

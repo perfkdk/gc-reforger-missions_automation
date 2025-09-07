@@ -1,0 +1,23 @@
+SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ coords 6654.142 103.797 1654.242
+ CompletionRadius 10
+ m_fPriorityLevel 1500
+ m_bFastInit 1
+}
+SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity INDFOR
+   }
+  }
+ }
+ coords 6655.029 96.188 1653.385
+ DangerEventRange 30
+ m_aStaticWaypoints {
+  "AIWaypoint_Defend_1"
+ }
+}

@@ -1,0 +1,38 @@
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ {
+  coords 6653.175 103.797 1653.825
+  m_queryRadius 15
+  m_sendStatusMessages 1
+  m_locationName "reinforced building!"
+  m_displayTo {
+   "UK" "GC_SEPARATIST"
+  }
+  m_flagName "UK_CAPTURE"
+  m_ownerFactionKey "UK"
+  m_ratioThreshold 1
+ }
+ {
+  coords 6653.175 103.797 1653.825
+  m_queryRadius 15
+  m_sendStatusMessages 1
+  m_locationName "reinforced building!"
+  m_displayTo {
+   "UK" "GC_SEPARATIST"
+  }
+  m_flagName "INSURGENT_CAPTURE"
+  m_ownerFactionKey "GC_INSURGENT"
+  m_ratioThreshold 1
+ }
+ {
+  coords 6653.175 103.797 1653.825
+  m_queryRadius 15
+  m_sendStatusMessages 1
+  m_locationName "reinforced building!"
+  m_displayTo {
+   "UK" "GC_SEPARATIST"
+  }
+  m_flagName "SEPARATIST_CAPTURE"
+  m_ownerFactionKey "GC_SEPARATIST"
+  m_ratioThreshold 1
+ }
+}
