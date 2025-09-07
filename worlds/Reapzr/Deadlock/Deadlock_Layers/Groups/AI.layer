@@ -1,3 +1,7 @@
+GenericEntity : "{0DE37DEC29C2DF3C}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_USSR_02.et" {
+ coords 6660.627 103.785 1652.051
+ angleY 20.844
+}
 $grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
  {
   coords 5186.604 67.773 2826.66
@@ -5,6 +9,10 @@ $grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.
  {
   coords 5581.604 65.396 2466.526
  }
+}
+GenericEntity : "{26FA6D68CE614540}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_US_02_M60.et" {
+ coords 6646.396 103.77 1655.925
+ angleY -72.515
 }
 GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
  coords 5910.19 96.645 1078.142
@@ -22,6 +30,10 @@ $grp SCR_TimedWaypoint : "{A88F0B6CF25BD1DE}Prefabs/AI/Waypoints/AIWaypoint_Scou
  {
   coords 5107.301 93.363 1415.1
  }
+}
+GenericEntity : "{AC5172F00941C060}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_burlap.et" {
+ coords 6646.476 104.358 1659.406
+ angleY 110.916
 }
 $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
  {
