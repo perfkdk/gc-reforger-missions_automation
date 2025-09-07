@@ -7,6 +7,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{664E0E11718BF922}" {
      m_executionDelay 10
      m_messageTitle "Local insurgents have been eliminated"
+     m_messageBody "Capture the reinforced building!"
      m_factionKeys {
       "UK" "GC_SEPARATIST"
      }

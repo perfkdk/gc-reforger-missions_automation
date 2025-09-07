@@ -32,13 +32,13 @@ $grp Vehicle : "{38BB7CA1E7013D8D}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M134/JLTV_O
 }
 $grp Vehicle : "{420562B2B5D106C3}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_unarmed.et" {
  AUS_UH60_unarmed1 {
-  coords 3344.433 58.516 2183.353
+  coords 3344.433 58.294 2183.353
  }
  AUS_UH60_unarmed3 {
-  coords 3319.01 58.48 2183.353
+  coords 3319.01 58.198 2183.353
  }
  AUS_UH60_unarmed2 {
-  coords 3344.433 58.616 2159.906
+  coords 3344.433 58.344 2159.906
  }
 }
 $grp Vehicle : "{59C895043D862E4F}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed_Olive.et" {
@@ -69,14 +69,14 @@ $grp Vehicle : "{59C895043D862E4F}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Una
 }
 $grp Vehicle : "{5BF04078A1EC66D8}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black_no_pylons.et" {
  Mi8MTT_A_Black_no_pylons1 {
-  coords 7035.064 63.683 4781.789
+  coords 7035.064 63.937 4781.789
  }
  Mi8MTT_A_Black_no_pylons2 {
-  coords 7007.127 65.369 4765.789
+  coords 7007.127 63.137 4765.789
  }
 }
 Vehicle AH6M_OPFOR_base1 : "{9FF4AA98784BDF8B}Prefabs/Vehicles/Helicopters/AH6M/OPFOR/AH6M_OPFOR_base.et" {
- coords 7008.269 65.731 4793.357
+ coords 7008.269 63.297 4793.353
 }
 $grp Vehicle : "{AC12E5669B411D57}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD.et" {
  GAZ_TIGR_v2_KORD1 {

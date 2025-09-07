@@ -13,15 +13,21 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 13
-   m_bOverrideEnvironment 1
+   m_bRandomStartingDaytimeRange 1
+   m_iRangeHoursStart 5
+   m_iRangeHoursEnd 20
+   m_bRandomStartingWeather 1
+   m_bRandomWeatherChanges 1
+   m_bUseSpecifiedDate 1
+   m_iSetYear 2016
    m_fFogDensity 0
    m_fFogHeight 0
    m_fRain 0
-   m_fWind 11
+   m_fWind 0
   }
  }
  coords 3389.793 55.138 4410.87
- m_iFreezeTime 120000
+ m_iFreezeTime 100
  {
   SCR_FactionManager "664CFD270E8195F3" {
    ID "5ED9088735FF2D8B"

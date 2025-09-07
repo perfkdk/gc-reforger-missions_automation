@@ -8,7 +8,7 @@ SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/P/GC_SEPARAT
    }
   }
  }
- coords 6593.149 118.887 1544.642
+ coords 6595.436 118.887 1548.012
  m_iGroupRadioFrequency 34
 }
 SCR_AIGroup : "{FC3850752FAB8FF5}Prefabs/Groups/BLUFOR/British Forces/2024/Light Infantry/P/Group_UK_2024_RifleSection_P.et" {

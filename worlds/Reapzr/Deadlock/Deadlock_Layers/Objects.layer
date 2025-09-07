@@ -193,7 +193,7 @@ SCR_DestructibleBuildingEntity : "{4DD5F16D919A99F4}Prefabs/Structures/Military/
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{50D861F5634F6B1E}Prefabs/Models/props/tem_helipad1.et" {
  {
-  coords 7008.479 3.203 4792.844
+  coords 7008.479 0.823 4792.844
  }
  {
   coords 3343.393 0.605 2159.148
@@ -202,7 +202,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{50D861F5634F6B1E}Prefabs/Models/p
   coords 3343.647 0.348 2181.688
  }
  {
-  coords 7006.998 2.801 4764.853
+  coords 7006.998 0.421 4764.853
  }
  {
   coords 3319.205 0.45 2181.368
@@ -707,13 +707,8 @@ $grp GenericEntity : "{AC5172F00941C060}PrefabsEditable/Auto/Props/Military/Sand
   angleY 18.127
  }
 }
-$grp GenericEntity : "{B5FDCA49E8753CDF}Prefabs/Structures/Decal/HeliPad_military.et" {
- {
-  coords 7009.976 65.532 4792.729
- }
- {
-  coords 7034.894 63.756 4782.106
- }
+GenericEntity : "{B5FDCA49E8753CDF}Prefabs/Structures/Decal/HeliPad_military.et" {
+ coords 7034.894 63.756 4782.106
 }
 GenericEntity : "{B6F0B7461EDFD186}Prefabs/Compositions/Misc/FreeRoamBuilding/FloodlightGenerator_S_USSR_01.et" {
  coords 6656.713 96.536 1679.93

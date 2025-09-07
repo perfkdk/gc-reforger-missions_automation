@@ -8,7 +8,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "US Rangers and Russian SSO race to extract their allies after a weapon trafficking operation is compromised in Ruha"\
   ""\
-  "2 minute setup US and Russians only"
+  "2 minute setup for UK and Separatists ONLY"\
+  ""\
+  "GM/Admins:"\
+  "Allow US Rangers and SSO command to assign pilots if they choose to use air assets"
   m_aVisibleForFactions {
    ""
   }
@@ -147,7 +150,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Satellite intercepts confirm the Russians have deployed their own SSO element to recover separatist allies pinned in the same sector. "\
   ""\
-  "Recent intel confirmed local, hostile insurgents have secured the reinforced building and are engaging our allies."\
+  "Recent intel confirmed local, hostile insurgents are moving to secure the reinforced building and are engaging our allies. Possible patrols en route to the compound."\
   ""
   m_aVisibleForFactions {
    "RHS_USAF"
@@ -243,7 +246,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Intel confirms that a British SAS squad was left behind during NATO’s failed mission. US SOF is now racing to extract them."\
   ""\
-  "Recent local reports confirm a hostile insurgent faction is reinforcing the central building and engaging our allies.  "\
+  "Recent local reports confirm a hostile insurgent faction is moving to reinforce the central building and engaging our allies. Possible patrols en route to the compound."\
   ""\
   "Eliminate all hostiles by any means necessary. "\
   ""\

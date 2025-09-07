@@ -2,10 +2,14 @@ $grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TI
  {
   coords 6943.117 61.447 4779.474
   m_queryRadius 1000
+  m_captureTime 10
   m_sendStatusMessages 1
+  m_statusMessages {
+   "The %1 has extracted to %2."
+  }
   m_locationName "SSO Base"
   m_displayTo {
-   "RHS_USAF" "RHS_AFRF"
+   "RHS_USAF" "RHS_AFRF" "GC_SEPARATIST" "UK"
   }
   m_flagName "SEPARATIST_EXTRACT"
   m_factionKey "GC_SEPARATIST"
@@ -14,10 +18,14 @@ $grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TI
  {
   coords 3310.777 58.188 2144.618
   m_queryRadius 1000
+  m_captureTime 10
   m_sendStatusMessages 1
+  m_statusMessages {
+   "The %1 has extracted to %2."
+  }
   m_locationName "Ranger Base"
   m_displayTo {
-   "RHS_USAF" "RHS_AFRF"
+   "RHS_USAF" "RHS_AFRF" "GC_SEPARATIST" "UK"
   }
   m_flagName "UK_EXTRACT"
   m_factionKey "UK"
