@@ -211,10 +211,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{50D861F5634F6B1E}Prefabs/Models/p
   coords 7034.039 0.835 4782.675
  }
 }
-GenericEntity : "{6EFF0C8DBB638AD2}Prefabs/Structures/Core/tem_pool_ladder.et" {
- coords 6653.113 8.258 1648.475
- angleY -158.702
-}
 $grp GenericEntity : "{7F118C6EA2AF1C99}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_long_high_plastic.et" {
  {
   coords 6664.816 96.281 1627.876
