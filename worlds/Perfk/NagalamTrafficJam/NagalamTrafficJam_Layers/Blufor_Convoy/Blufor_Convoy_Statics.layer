@@ -1,44 +1,3 @@
-$grp GenericWorldLightEntity : "{5B2B348D9520F7C7}Prefabs/World/DefaultWorld/Lighting_Default.et" {
- {
-  coords 2187.297 17.234 3473.382
-  angleX 0
-  angleY 0
- }
- {
-  coords 2177.221 28.822 3466.238
-  angleX 0
-  angleY 0
- }
- {
-  coords 2177.498 28.809 3462.068
-  angleX 0
-  angleY 0
- }
- {
-  coords 2177.193 28.813 3458.391
-  angleX 0
-  angleY 0
- }
- {
-  coords 2181.961 28.763 3457.406
-  angleX 0
-  angleY 0
- }
- {
-  coords 2182.826 28.726 3463.985
-  angleX 0
-  angleY 0
- }
- {
-  coords 2182.401 28.791 3470.331
-  angleX 0
-  angleY 0
- }
-}
-PK_EntityDeleter {
- coords 2186.98 16.525 3467.35
- m_fRadius 1
-}
 $grp GenericEntity : "{1CAF77AF5C82019A}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Barrel_Filled_01.et" {
  {
   components {
@@ -250,22 +209,6 @@ $grp GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
   coords 2004.62 24.502 3715.909
   angleY 98.556
  }
-}
-SCR_DestructibleBuildingEntity : "{EA3814D459F42670}Prefabs/Structures/Bulding/Construction/A_Bulding.et" {
- components {
-  PK_EntityModifierComponent "{65A2A3FB3816311C}" {
-   m_bDamageManagerEnabled 1
-   m_aHitzonesData {
-    PK_HitzoneData "{65A2A3FB3B4CD260}" {
-     m_fHealthPercentage 0
-    }
-   }
-  }
-  PK_EntityProtectorComponent "{65A2A3FB3FBFF8BA}" {
-  }
- }
- coords 2186.98 16.525 3467.35
- angleY -84
 }
 GenericEntity : "{FA8AAF819FBC2DFD}Prefabs/Structures/Wreck/sedan.et" {
  coords 2022.02 18.594 3667.814

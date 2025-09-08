@@ -1,92 +1,189 @@
-TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
- coords 4770.761 166.204 7042.411
- m_queryRadius 650
- m_comparisonMode EQUAL_OR_LESS
- m_captureTime 30
- m_flagName "trucks_left_ao"
- m_stopAfterFirstChange 1
- m_entityNames {
-  "truck_supplies_1" "truck_supplies_2" "truck_supplies_3" "truck_supplies_4" "truck_supplies_5"
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ {
+  coords 5227.071 78.115 6357.48
+  m_prefab "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et"
+  m_conditionFlag "US_Spawn_Jeep_1"
  }
- m_ratioThreshold 0
+ {
+  coords 5230.417 78.262 6357.152
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+  m_prefab "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et"
+  m_conditionFlag "US_Spawn_Jeep_2"
+ }
+ {
+  coords 5233.321 78.218 6357.197
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+  m_prefab "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et"
+  m_conditionFlag "US_Spawn_Jeep_3"
+ }
+ {
+  coords 5236.159 78.179 6357.471
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+  m_prefab "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et"
+  m_conditionFlag "US_Spawn_Jeep_4"
+ }
+ {
+  coords 5239.431 78.131 6357.707
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+  m_prefab "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et"
+  m_conditionFlag "US_Spawn_Jeep_5"
+ }
+ {
+  coords 4569.948 108.363 7903.185
+  angleX -8.239
+  angleY 146.992
+  angleZ 8.442
+  m_prefab "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et"
+  m_conditionFlag "USSR_Spawn_Jeep_1"
+ }
+ {
+  coords 4572.295 108.769 7904.639
+  angleX -8.239
+  angleY 146.992
+  angleZ 8.442
+  m_prefab "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et"
+  m_conditionFlag "USSR_Spawn_Jeep_2"
+ }
+ {
+  coords 4574.834 109.209 7906.211
+  angleX -8.239
+  angleY 146.992
+  angleZ 8.442
+  m_prefab "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et"
+  m_conditionFlag "USSR_Spawn_Jeep_3"
+ }
+ {
+  coords 4577.391 109.65 7907.796
+  angleX -8.239
+  angleY 146.992
+  angleZ 8.442
+  m_prefab "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et"
+  m_conditionFlag "USSR_Spawn_Jeep_4"
+ }
+ {
+  coords 4579.837 110.074 7909.313
+  angleX -8.239
+  angleY 146.992
+  angleZ 8.442
+  m_prefab "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et"
+  m_conditionFlag "USSR_Spawn_Jeep_5"
+ }
 }
-TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
- m_missionEvents {
-  TILW_MissionEvent "{65C749517D83AB0A}" {
-   m_name "BLUFOR Casualty Limit"
-   m_instructions {
-    TILW_SendMessageInstruction "{65C749515CF229BC}" {
-     m_messageTitle "OPFOR Victory!"
-     m_messageBody "Too much BLUFOR Casualty.     Ending Mission in 2 mins!"
-    }
-    TILW_EndGameInstruction "{65C74951594EB3B5}" {
-     m_executionDelay 120
-     m_factionKey "RHS_AFRF"
-    }
-   }
-   m_condition TILW_LiteralTerm "{65C749501327BDC1}" {
-    m_flagName "BLUFOR_Killed"
-   }
+$grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
+ {
+  coords 4781.229 166.204 7042.411
+  m_queryRadius 500
+  m_comparisonMode EQUAL_OR_LESS
+  m_captureTime 30
+  m_flagName "trucks_left_ao"
+  m_stopAfterFirstChange 1
+  m_entityNames {
+   "truck_supplies_1" "truck_supplies_2" "truck_supplies_3" "truck_supplies_4" "truck_supplies_5"
   }
-  TILW_MissionEvent "{65C7495171808F32}" {
-   m_name "OPFOR Casualty Limit"
-   m_instructions {
-    TILW_SendMessageInstruction "{65C74950736030DC}" {
-     m_messageTitle "BLUFOR Victory!"
-     m_messageBody "Too much OPFOR Casualty.     Ending Mission in 2 mins!"
-    }
-    TILW_EndGameInstruction "{65C749504F6D3C65}" {
-     m_executionDelay 120
-     m_factionKey "RHS_USAF"
-    }
-   }
-   m_condition TILW_LiteralTerm "{65C74950B920DCA8}" {
-    m_flagName "OPFOR_KIlled"
-   }
-  }
-  TILW_MissionEvent "{65C7495094574259}" {
-   m_name "Game End Event"
-   m_instructions {
-    TILW_SendMessageInstruction "{65CA00658ED5EDD9}" {
-     m_executionDelay 2700
-     m_messageTitle "TIME LIMIT REACHED"
-     m_messageBody "The time limit has been reached, the faction with the most supplies wins."
-    }
-   }
-   m_condition TILW_LiteralTerm "{65C74950D462D266}" {
-    m_invertTerm 1
-   }
-  }
-  TILW_MissionEvent "{65C7495B3346BADA}" {
-   m_name "Truck AO Left"
-   m_instructions {
-    TILW_SendMessageInstruction "{65C7495DB06967D0}" {
-     m_executionDelay 0
-     m_messageTitle "All truck has left the AO!"
-     m_messageBody "Get the supplies submitted to the Supply Depot and wait for GM to annouce the winners."
-    }
-   }
-   m_condition TILW_LiteralTerm "{65C7495DF9EBF130}" {
-    m_flagName "trucks_left_ao"
-   }
+  m_ratioThreshold 0
+ }
+ Supply_Truck_1_Trigger_Blufor {
+  coords 5232.176 78.45 6372.88
+  m_queryRadius 10
+  m_flagName "US_Spawn_Jeep_1"
+  m_stopAfterFirstChange 1
+  m_entityNames {
+   "truck_supplies_1"
   }
  }
- m_casualtyFlags {
-  TILW_FactionPlayersKilledFlag "{65C74952ED8D39D9}" {
-   m_flagName "BLUFOR_Killed"
-   m_factionKey "RHS_USAF"
-   m_casualtyRatio 0.9
+ Supply_Truck_2_Trigger_Blufor {
+  coords 5232.176 78.45 6372.88
+  m_queryRadius 10
+  m_flagName "US_Spawn_Jeep_2"
+  m_stopAfterFirstChange 1
+  m_entityNames {
+   "truck_supplies_2"
   }
-  TILW_FactionPlayersKilledFlag "{65C74952E8A88D43}" {
-   m_flagName "OPFOR_KIlled"
-   m_factionKey "RHS_AFRF"
-   m_casualtyRatio 0.9
+ }
+ Supply_Truck_3_Trigger_Blufor {
+  coords 5232.176 78.45 6372.88
+  m_queryRadius 10
+  m_flagName "US_Spawn_Jeep_3"
+  m_stopAfterFirstChange 1
+  m_entityNames {
+   "truck_supplies_3"
+  }
+ }
+ Supply_Truck_4_Trigger_Blufor {
+  coords 5232.176 78.45 6372.88
+  m_queryRadius 10
+  m_flagName "US_Spawn_Jeep_4"
+  m_stopAfterFirstChange 1
+  m_entityNames {
+   "truck_supplies_4"
+  }
+ }
+ Supply_Truck_5_Trigger_Blufor {
+  coords 5232.176 78.45 6372.88
+  m_queryRadius 10
+  m_flagName "US_Spawn_Jeep_5"
+  m_stopAfterFirstChange 1
+  m_entityNames {
+   "truck_supplies_5"
+  }
+ }
+ Supply_Truck_1_Trigger_Opfor {
+  coords 4569.643 107.648 7883.586
+  m_queryRadius 10
+  m_flagName "USSR_Spawn_Jeep_1"
+  m_stopAfterFirstChange 1
+  m_entityNames {
+   "truck_supplies_1"
+  }
+ }
+ Supply_Truck_2_Trigger_Opfor {
+  coords 4569.643 107.648 7883.586
+  m_queryRadius 10
+  m_flagName "USSR_Spawn_Jeep_2"
+  m_stopAfterFirstChange 1
+  m_entityNames {
+   "truck_supplies_2"
+  }
+ }
+ Supply_Truck_3_Trigger_Opfor {
+  coords 4569.643 107.648 7883.586
+  m_queryRadius 10
+  m_flagName "USSR_Spawn_Jeep_3"
+  m_stopAfterFirstChange 1
+  m_entityNames {
+   "truck_supplies_3"
+  }
+ }
+ Supply_Truck_4_Trigger_Opfor {
+  coords 4569.643 107.648 7883.586
+  m_queryRadius 10
+  m_flagName "USSR_Spawn_Jeep_4"
+  m_stopAfterFirstChange 1
+  m_entityNames {
+   "truck_supplies_4"
+  }
+ }
+ Supply_Truck_5_Trigger_Opfor {
+  coords 4569.643 107.648 7883.586
+  m_queryRadius 10
+  m_flagName "USSR_Spawn_Jeep_5"
+  m_stopAfterFirstChange 1
+  m_entityNames {
+   "truck_supplies_5"
   }
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
-  coords 5269.436 77.149 6347.88
+  coords 5269.436 77.149 6332.046
   m_fWarnRadius 70
  }
  {
