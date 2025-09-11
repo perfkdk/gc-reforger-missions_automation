@@ -1,13 +1,3 @@
-$grp Vehicle : "{0174CF72FDB6B805}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Marines.et" {
- AH1S_Marines2 {
-  coords 9417.596 18.106 7055.861
-  angleY -120
- }
- AH1S_Marines1 {
-  coords 9437.081 18.106 7067.111
-  angleY -120
- }
-}
 GenericEntity : "{15518B113BCC7396}Prefabs/Structures/Naval/USS_Concrete.et" {
  coords 9475.818 0 6979.926
  angleY 60

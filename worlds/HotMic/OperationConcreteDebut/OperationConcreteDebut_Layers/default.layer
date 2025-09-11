@@ -31,6 +31,15 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
 TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 9480.127 22.971 7003.064
  angleY 60
+ userScript "	// Global count for Intel Gatherning"\
+ "	float intelCount = 0;"
+ FrameworkScript1 ""\
+ "		// Increase the count and then check the condition."\
+ "		intelCount++;"\
+ "		"\
+ "		if (intelCount == 3) "\
+ "			AdjustMissionFlag(\"Phase 1 Done Flag\", true);"\
+ "	"
  m_missionEvents {
   TILW_MissionEvent "{66474DAD9C7FCC8D}" {
    m_name "Laruns Final Attack"
@@ -39,8 +48,103 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
     }
    }
    m_condition TILW_LiteralTerm "{66474DAD982F7259}" {
-    m_invertTerm 1
+    m_flagName "PLACE"
    }
+  }
+  TILW_MissionEvent "{66554E0AD84D4EF5}" {
+   m_name "Chotain Intel"
+   m_instructions {
+    TILW_SendMessageInstruction "{66554E0AD46FB456}" {
+     m_executionDelay 1
+     m_messageTitle "Secured Intel at Chotain "
+    }
+    TILW_RunScriptInstruction "{665643AB299C015D}" {
+     m_executionDelay 1
+     m_bAllowRerun 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{66554E0AD5ED84F0}" {
+    m_flagName "Chotain Objective Flag"
+   }
+  }
+  TILW_MissionEvent "{665643AB3940E3F9}" {
+   m_name "Chotain Military Site Intel"
+   m_instructions {
+    TILW_SendMessageInstruction "{665643AB3940E351}" {
+     m_executionDelay 1
+     m_messageTitle "Secured Intel at Chotain Military Site"
+    }
+    TILW_RunScriptInstruction "{665643AB3940E34C}" {
+     m_executionDelay 1
+     m_bAllowRerun 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{665643AB3940E34E}" {
+    m_flagName "Chotain Military Site Objective Flag"
+   }
+  }
+  TILW_MissionEvent "{665643AB362B4744}" {
+   m_name "Laruns Intel"
+   m_instructions {
+    TILW_SendMessageInstruction "{665643AB362B4720}" {
+     m_executionDelay 1
+     m_messageTitle "Secured Intel at Laruns "
+    }
+    TILW_RunScriptInstruction "{665643AB362B4723}" {
+     m_executionDelay 1
+     m_bAllowRerun 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{665643AB362B44DD}" {
+    m_flagName "Laruns Objective Flag"
+   }
+  }
+  TILW_MissionEvent "{665643AB375BC51E}" {
+   m_name "Levie Intel"
+   m_instructions {
+    TILW_SendMessageInstruction "{665643AB375BCACB}" {
+     m_executionDelay 1
+     m_messageTitle "Secured Intel at Levie "
+    }
+    TILW_RunScriptInstruction "{665643AB375BCAC6}" {
+     m_executionDelay 1
+     m_bAllowRerun 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{665643AB375BCAC0}" {
+    m_flagName "Levie  Objective Flag"
+   }
+  }
+  TILW_MissionEvent "{665643AB347483DB}" {
+   m_name "Military Site Intel"
+   m_instructions {
+    TILW_SendMessageInstruction "{665643AB347483BC}" {
+     m_executionDelay 1
+     m_messageTitle "Secured Intel at Military Site "
+    }
+    TILW_RunScriptInstruction "{665643AB347483BF}" {
+     m_executionDelay 1
+     m_bAllowRerun 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{665643AB347483B9}" {
+    m_flagName "Military Site Objective Flag"
+   }
+  }
+  TILW_MissionEvent "{665643AB306D4587}" {
+   m_name "Phase 1 Done"
+   m_instructions {
+    TILW_SendMessageInstruction "{665643AB306D4565}" {
+     m_executionDelay 2
+     m_messageTitle "Phase 1 Done"
+    }
+   }
+   m_condition TILW_LiteralTerm "{665643AB306D4563}" {
+    m_flagName "Phase 1 Done Flag"
+   }
+  }
+  TILW_MissionEvent "{6657474F814F3B25}" {
+   m_name "Phase 2 Start"
   }
  }
  m_metaFlags {
