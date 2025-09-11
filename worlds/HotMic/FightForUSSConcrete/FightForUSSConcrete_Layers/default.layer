@@ -1,0 +1,246 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 9481.182 6.443 7007.93
+ angleY 60
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 9490.863 6.981 7006.547
+ angleY 60
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 9480.512 22.799 7001.048
+ angleY 60
+ {
+  RadioManagerEntity {
+   ID "5ED9088735FF2DEE"
+   coords -26.89 38.579 -2.479
+  }
+  SCR_FactionManager "665135073166C568" {
+   ID "5ED9088735FF2D8B"
+   coords 0 0 0.001
+  }
+  ItemPreviewManagerEntity "665135073166C512" {
+   ID "5ED9088735FF2DD5"
+   coords -12.247 1 -7.526
+  }
+  SCR_EditorSettingsEntity {
+   ID "61B4E967E6C20362"
+   coords 0 0 0.001
+  }
+ }
+}
+$grp GenericEntity {
+ {
+  coords 4389.27 1.705 11160.94
+  {
+   $grp GenericEntity : "{626C85F8D51AC829}PrefabLibrary/Props/Military/ObstacleBridge_01_platform.et" {
+    {
+     coords -3.27 -6.905 -0.332
+     angleY 176.361
+     scale 6.44
+    }
+    {
+     coords 1.73 -2.146 -0.334
+     angleY 176.361
+     scale 6.44
+    }
+    {
+     coords 1.73 -11.205 -0.334
+     angleY 176.361
+     scale 6.44
+    }
+    {
+     coords -1.23 -4.293 5.846
+     angleY -93.639
+     scale 3.709
+    }
+    {
+     coords 0.625 -0.026 -5.26
+     angleY 86.361
+     scale 3.709
+    }
+    {
+     coords -1.637 4.661 5.938
+     angleY -93.639
+     scale 3.709
+    }
+   }
+   GenericEntity : "{C1E318C4198DFA2A}PrefabLibrary/Props/Military/Duckboard_01.et" {
+    coords -2.835 15.23 -6.44
+    angleX -13.031
+    angleY 90
+    scale 3.051
+   }
+   $grp GenericEntity : "{C433B56E102780AA}PrefabLibrary/Props/Military/ObstacleRamp_01_start.et" {
+    {
+     coords -2.425 -0.07 0.249
+     angleY 176.361
+     scale 3.978
+    }
+    {
+     coords -2.425 -0.071 0.248
+     angleY 176.361
+     scale 3.978
+    }
+    {
+     coords 1.821 4.427 0.339
+     angleY -3.639
+     scale 3.978
+    }
+    {
+     coords -2.833 9.114 0.339
+     angleY 176.361
+     scale 3.978
+    }
+   }
+  }
+ }
+ {
+  coords 4384.27 1.705 11226.44
+  angleY -180
+  {
+   $grp GenericEntity : "{626C85F8D51AC829}PrefabLibrary/Props/Military/ObstacleBridge_01_platform.et" {
+    {
+     coords -3.27 -6.905 -0.332
+     angleY 176.361
+     scale 6.44
+    }
+    {
+     coords 1.73 -2.146 -0.334
+     angleY 176.361
+     scale 6.44
+    }
+    {
+     coords 1.73 -11.205 -0.334
+     angleY 176.361
+     scale 6.44
+    }
+    {
+     coords -1.23 -4.293 5.846
+     angleY -93.639
+     scale 3.709
+    }
+    {
+     coords 0.625 -0.026 -5.26
+     angleY 86.361
+     scale 3.709
+    }
+    {
+     coords -1.637 4.661 5.938
+     angleY -93.639
+     scale 3.709
+    }
+   }
+   GenericEntity : "{C1E318C4198DFA2A}PrefabLibrary/Props/Military/Duckboard_01.et" {
+    coords 4.077 15.199 1.056
+    angleY 176.704
+    angleZ 29.972
+    scale 3.967
+   }
+   $grp GenericEntity : "{C433B56E102780AA}PrefabLibrary/Props/Military/ObstacleRamp_01_start.et" {
+    {
+     coords -2.425 -0.07 0.249
+     angleY 176.361
+     scale 3.978
+    }
+    {
+     coords -2.425 -0.071 0.248
+     angleY 176.361
+     scale 3.978
+    }
+    {
+     coords 1.821 4.427 0.339
+     angleY -3.639
+     scale 3.978
+    }
+    {
+     coords -2.833 9.114 0.339
+     angleY 176.361
+     scale 3.978
+    }
+   }
+  }
+ }
+ {
+  coords 4390.27 1.705 11101.44
+  angleY -180
+  {
+   $grp GenericEntity : "{626C85F8D51AC829}PrefabLibrary/Props/Military/ObstacleBridge_01_platform.et" {
+    {
+     coords -3.27 -6.905 -0.332
+     angleY 176.361
+     scale 6.44
+    }
+    {
+     coords 1.73 -2.146 -0.334
+     angleY 176.361
+     scale 6.44
+    }
+    {
+     coords 1.73 -11.205 -0.334
+     angleY 176.361
+     scale 6.44
+    }
+    {
+     coords -1.23 -4.293 5.846
+     angleY -93.639
+     scale 3.709
+    }
+    {
+     coords 0.625 -0.026 -5.26
+     angleY 86.361
+     scale 3.709
+    }
+    {
+     coords -1.637 4.661 5.938
+     angleY -93.639
+     scale 3.709
+    }
+   }
+   GenericEntity : "{C1E318C4198DFA2A}PrefabLibrary/Props/Military/Duckboard_01.et" {
+    coords 3.71 15.243 1.035
+    angleY 176.704
+    angleZ 29.972
+    scale 3.967
+   }
+   $grp GenericEntity : "{C433B56E102780AA}PrefabLibrary/Props/Military/ObstacleRamp_01_start.et" {
+    {
+     coords -2.425 -0.07 0.249
+     angleY 176.361
+     scale 3.978
+    }
+    {
+     coords -2.425 -0.071 0.248
+     angleY 176.361
+     scale 3.978
+    }
+    {
+     coords 1.821 4.427 0.339
+     angleY -3.639
+     scale 3.978
+    }
+    {
+     coords -2.833 9.114 0.339
+     angleY 176.361
+     scale 3.978
+    }
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 9480.127 22.971 7003.064
+ angleY 60
+}
+$grp GenericEntity : "{C1E318C4198DFA2A}PrefabLibrary/Props/Military/Duckboard_01.et" {
+ {
+  coords 4373.786 -0.734 11084.016
+  angleX -12.005
+  angleY -62.665
+  scale 5.157
+ }
+ {
+  coords 4369.381 -1.544 11092.391
+  angleY -2.665
+  scale 5.157
+ }
+}

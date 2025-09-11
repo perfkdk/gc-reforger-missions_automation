@@ -1,0 +1,59 @@
+$grp SCR_AIGroup : "{11C0183AB214797E}Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles/P/Group_USMC_2020_RifleSquad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6651352F1597515D}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4357.5 18.106 11175.46
+  angleY 87.011
+  m_bSnapToTerrain 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6651352F6BA555DE}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4355.5 18.106 11175.46
+  angleY 87.011
+  m_bSnapToTerrain 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6651352F63FC7441}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4353 18.106 11175.46
+  angleY 87.011
+  m_bSnapToTerrain 0
+ }
+}
+SCR_AIGroup : "{464268B2BFA7FE84}Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles/P/Group_USMC_2020_RiflePHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{6651352F0AF8E200}" {
+  }
+ }
+ coords 4359.231 18.106 11175.46
+ angleY 87.011
+ m_aUnitPrefabSlots {
+  "{44AD4EEB32A74433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_PL_P.et" "{1409CFAA61554672}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_Sergeant_P.et" "{BE13A5708030B554}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_RTO_P.et" "{BE13A5708030B554}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_RTO_P.et" "{06BDB4312CCED21B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_Medic_P.et"
+ }
+ m_bSnapToTerrain 0
+}
