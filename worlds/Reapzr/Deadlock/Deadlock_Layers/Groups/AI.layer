@@ -15,7 +15,8 @@ GenericEntity : "{26FA6D68CE614540}PrefabsEditable/Auto/Compositions/Misc/SubCom
  angleY -72.515
 }
 GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
- coords 5910.19 96.645 1078.142
+ coords 5910.19 96.113 1078.142
+ angleZ 3.576
 }
 SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
  coords 6654.142 103.797 1654.242
@@ -167,6 +168,8 @@ $grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWa
  }
 }
 GenericEntity : "{E74D2F51CD4F03D0}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_US_01.et" {
- coords 7212.144 104.434 2119.198
- angleY -131.652
+ coords 7212.144 104.002 2119.198
+ angleX -0.669
+ angleY -131.659
+ angleZ 0.595
 }

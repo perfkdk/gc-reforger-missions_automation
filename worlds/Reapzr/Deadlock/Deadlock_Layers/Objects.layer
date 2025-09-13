@@ -179,6 +179,14 @@ $grp GenericEntity : "{8BABAE6E7F9B3E39}PrefabsEditable/Auto/Props/Military/Sand
   coords 6769.458 103.629 1637.237
   angleY -69.087
  }
+ {
+  coords 6718.896 103.629 1657.056
+  angleY -69.087
+ }
+ {
+  coords 6800.663 105.647 1584.486
+  angleY -103.039
+ }
 }
 GenericEntity : "{8F08705D73A7C711}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_red.et" {
  coords 6685.341 98.917 1656.465
@@ -954,4 +962,7 @@ $grp GenericEntity : "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuildi
  {
   coords 6574.63 96.281 1648.511
  }
+}
+SCR_DestructibleBuildingEntity : "{FBCE1861B987EA68}Prefabs/Structures/Military/Houses/GuardTower_01/GuardTower_01.et" {
+ coords 6818.592 0 1629.888
 }

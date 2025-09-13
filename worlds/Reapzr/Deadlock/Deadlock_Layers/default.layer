@@ -46,3 +46,13 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
 }
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ {
+  coords 6596.926 96.344 1550.538
+  m_fZoneRadius 25
+ }
+ {
+  coords 6811.977 96.523 1610.187
+  m_fZoneRadius 25
+ }
+}

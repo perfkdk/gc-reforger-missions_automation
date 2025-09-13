@@ -8,15 +8,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "US Rangers and Russian SSO race to extract their allies after a weapon trafficking operation is compromised in Ruha"\
   ""\
-  "2 minute setup for UK and Separatists ONLY"\
-  ""\
   "GM/Admins:"\
   "Allow US Rangers and SSO command to assign pilots if they choose to use air assets"
-  m_aVisibleForFactions {
-   ""
-  }
   m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
  }
  Separatists {
   coords 6661.102 97.293 1603.694
@@ -259,9 +253,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     {
      coords -4.557 6.913 -208.741
      m_sTitle "Mission"
-     m_sTextData "Intent: Eliminate all hositle at the Metsala office complex and xxfiltrate friendly forces by any means neccesary."\
+     m_sTextData "Intent: Eliminate all hostiles at the Metsala office complex and exfiltrate friendly forces by any means neccesary."\
      ""\
-     "Primary Objective: Eliminate all hostiles (UK, Rangers, and Insurgents) "\
+     "Primary Objective: Eliminate all hostiles (UK, Rangers, and Insurgents)"\
      ""\
      "Secondary Objective: Recover and evacuate separatist fighters trapped in the Metsala Office compound to SSO base"\
      ""\
@@ -329,5 +323,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     }
    }
   }
+ }
+ Briefing_Notes {
+  coords 6639.582 96.25 1623.313
+  m_sTitle "Mission Notes"
+  m_sTextData "2 minute setup for UK and Separatists ONLY"\
+  ""\
+  "Conditions are:"\
+  "- Either UK or SEP faction can capture the building (5 minute timer), it cannot be recaptured afterwards"\
+  "- Extraction requires at least 80% of UK/SEP survivors to be in the area"\
+  "- 75% casualties for US or RU is considered a defeat"\
+  "- 90% casualties for UK or SEP is considered a defeat"\
+  ""\
+  "GMs are to end the mission when objectives are unlikely to be achieved."\
+  "In turn this means you can e. g. still let the US extract UK survivors even when RU have hit the casualty limit."
+  m_bShowForAnyFaction 1
+  m_iOrder 5
  }
 }
