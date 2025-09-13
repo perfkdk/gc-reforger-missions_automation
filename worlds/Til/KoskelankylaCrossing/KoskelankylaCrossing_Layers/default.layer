@@ -8,12 +8,12 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{664C1E9BC000B313}" {
-     m_sWeatherPresetName "Cloudy"
+     m_sWeatherPresetName "Clear"
     }
    }
   }
  }
- m_iFreezeTime 300000
+ m_iFreezeTime 240000
 }
 PolylineShapeEntity ao_nva : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
