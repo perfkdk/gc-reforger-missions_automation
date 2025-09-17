@@ -1,0 +1,9 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 8143.124 2.089 1188.81
+}
+PerceptionManager PerceptionManager1 {
+ coords 8134.307 1.569 1199.954
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ coords 8138.659 1.818 1191.593
+}

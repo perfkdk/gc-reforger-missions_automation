@@ -1,0 +1,199 @@
+$grp GenericEntity {
+ ambush_TP_1 {
+  coords 7928.324 12.328 1450.778
+ }
+ ambush_TP_2 {
+  coords 8898.175 29 570.388
+ }
+ ambush_TP_3 {
+  coords 9357.187 12.281 275.293
+ }
+ return_TP {
+  coords 8223.807 223.127 2172.283
+ }
+}
+Vehicle BRDM2 : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ coords 7140.564 143.859 2209.728
+ angleY -151.729
+}
+Vehicle Ural4320_ammo5 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ coords 7125.418 147.802 2170.97
+ angleY -166.8
+}
+Vehicle Ural4320_tanker2 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ coords 7121.361 149.631 2152.598
+ angleY -179.894
+}
+$grp GenericEntity : "{6B33C7FD1918B48B}Prefabs/Structures/Civilian/BoardMap_01/BoardMap_01_base.et" {
+ ambush_board_2 {
+  coords 8226.495 223.193 2180.26
+  angleY -146.883
+  {
+   GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+    components {
+     ActionsManagerComponent "{62EF76E0D47ED96A}" {
+      additionalActions {
+       TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+        m_actionName "Ambush Position 2"
+        m_locationName "ambush_TP_2"
+        m_factionKeys {
+         "UK"
+        }
+       }
+      }
+     }
+    }
+    coords 0.205 1.145 0.101
+    angleY 178.363
+   }
+  }
+ }
+ ambush_board_3 {
+  coords 8229.583 223.193 2178.246
+  angleY -146.883
+  {
+   GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+    components {
+     ActionsManagerComponent "{62EF76E0D47ED96A}" {
+      additionalActions {
+       TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+        m_actionName "Ambush Position 3"
+        m_locationName "ambush_TP_3"
+        m_factionKeys {
+         "UK"
+        }
+       }
+      }
+     }
+    }
+    coords -0.011 1.145 -0.01
+    angleY 178.363
+   }
+  }
+ }
+ ambush_board_1 {
+  coords 8223.143 223.193 2182.447
+  angleY -146.883
+  {
+   GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+    components {
+     ActionsManagerComponent "{62EF76E0D47ED96A}" {
+      additionalActions {
+       TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+        m_actionName "Ambush Position 1"
+        m_locationName "ambush_TP_1"
+        m_factionKeys {
+         "UK"
+        }
+       }
+      }
+     }
+    }
+    coords 0.274 1.145 0.217
+    angleY 178.363
+   }
+  }
+ }
+ return_board2 {
+  coords 7926.263 12.897 1455.316
+  angleY 130.434
+  {
+   GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+    components {
+     ActionsManagerComponent "{62EF76E0D47ED96A}" {
+      additionalActions {
+       TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+        m_actionName "Return to spawn"
+        m_locationName "return_TP"
+        m_factionKeys {
+         "UK"
+        }
+       }
+      }
+     }
+    }
+    coords 0.032 1.233 0.01
+    angleY 146.883
+   }
+  }
+ }
+ return_board3 {
+  coords 8892.341 30.131 573.861
+  angleY 116.627
+  {
+   GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+    components {
+     ActionsManagerComponent "{62EF76E0D47ED96A}" {
+      additionalActions {
+       TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+        m_actionName "Return to spawn"
+        m_locationName "return_TP"
+        m_factionKeys {
+         "UK"
+        }
+       }
+      }
+     }
+    }
+    coords 0.032 1.233 0.01
+    angleY 146.883
+   }
+  }
+ }
+ return_board4 {
+  coords 9354.562 12.28 277.64
+  angleY 131.427
+  {
+   GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+    components {
+     ActionsManagerComponent "{62EF76E0D47ED96A}" {
+      additionalActions {
+       TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+        m_actionName "Return to spawn"
+        m_locationName "return_TP"
+        m_factionKeys {
+         "UK"
+        }
+       }
+      }
+     }
+    }
+    coords 0.032 1.233 0.01
+    angleY 146.883
+   }
+  }
+ }
+}
+SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+ }
+ coords 7143.422 143.976 2206.658
+ angleY -60.771
+ m_aUnitPrefabSlots {
+  "{B4A947AA09E9F15E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewCommander_P.et" "{F818395904C3AE6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewGunner_P.et" "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
+ }
+}
+SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaPHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+ }
+ coords 8217.355 223.101 2178.685
+ angleY 29.625
+ m_aUnitPrefabSlots {
+  "{A8D2B4284BA4C39E}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_PlatoonLeader_P.et" "{F5FCA2D30AED97A2}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Paras/Character_UK_1983_Paras_Medic_P.et"
+ }
+}
+SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaSection_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+ }
+ coords 8221.921 223.125 2176.022
+ angleY 22.779
+}
