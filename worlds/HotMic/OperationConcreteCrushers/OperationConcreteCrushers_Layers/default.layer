@@ -302,9 +302,6 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
      m_executionDelay 2
      m_messageTitle "Phase 1 Done"
     }
-    TILW_SetFlagInstruction "{66632CF9B1CB5DF2}" {
-     m_flagName "Phase 1 Delete Units Flag"
-    }
     TILW_SendMessageInstruction "{66632CFE4F8DF90B}" {
      m_messageTitle "Live Map Edit is allowed!"
      m_messageBody "Only top 2 ground CO and Flight Lead is allowed to place markers on the map. You have 5 mins."
