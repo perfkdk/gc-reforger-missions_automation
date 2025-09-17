@@ -150,6 +150,12 @@ GenericEntity : "{144F1136AB4DB0E8}Prefabs/Compositions/Slotted/SlotFlatSmall/Li
    angleX -0.054
    angleY -0.011
    angleZ 11.536
+   {
+    StaticModelEntity {
+     ID "5D1EB454858F64CB"
+     coords 0 -0 0
+    }
+   }
   }
   GenericEntity {
    ID "5D22B92C9C68866C"
@@ -643,7 +649,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleZ -1.614
   m_prefab "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
   m_setEntityNames {
-   "larunsBTR1"
+   "larunsBTR2"
   }
   m_pregameSpawn 1
   m_crewConfig TILW_CrewConfig "{66523C8C37F37CF2}" {

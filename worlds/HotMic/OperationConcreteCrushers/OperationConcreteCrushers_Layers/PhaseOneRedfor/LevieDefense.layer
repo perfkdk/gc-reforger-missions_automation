@@ -159,9 +159,19 @@ SCR_AIGroup LevieDefendSquad9 : "{8984FEFAA829ED76}Prefabs/Groups/OPFOR/Russia/2
   "LevieDefendWaypoint2"
  }
 }
-Vehicle GAZ_TIGR_v2_PKM_Green_1P1 : "{8E7F7A0368CE8805}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green_1P29.et" {
- coords 7476.823 138.754 4709.192
- angleY -60
+$grp Vehicle : "{8E7F7A0368CE8805}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Green_1P29.et" {
+ GAZ_TIGR_v2_PKM_Green_1P1 {
+  coords 7476.823 138.754 4709.192
+  angleY -60
+ }
+ GAZ_TIGR_v2_PKM_Green_1P2 {
+  coords 7468.823 138.754 4713.995
+  angleY -60
+ }
+ GAZ_TIGR_v2_PKM_Green_1P3 {
+  coords 7458.108 137.766 4719.438
+  angleY -64.221
+ }
 }
 SCR_DefendWaypoint LevieDefendWaypoint : "{A33AF7FC5004F294}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large_CO.et" {
  coords 7481.781 144.858 4708.237

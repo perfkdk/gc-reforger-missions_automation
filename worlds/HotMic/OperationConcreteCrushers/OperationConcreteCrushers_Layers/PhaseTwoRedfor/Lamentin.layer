@@ -1,19 +1,29 @@
 $grp GenericEntity {
- LocationLamA {
+ LocationA1 {
   coords 1282.585 41.352 6029.08
  }
- LocationLamB {
+ LocationB1 {
   coords 1310.585 46.239 6003.08
  }
- LocationLamC {
+ LocationC1 {
   coords 1285.085 41.153 5985.58
  }
+}
+TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
+ coords 1296.754 37.733 6018.727
+ m_queryRadius 700
+ m_flagName "Phase 1 Delete Units Flag"
+ m_factionKey "RHS_USAF"
+ m_ratioThreshold 0.85
 }
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  {
   coords 1230.616 29.644 6130.819
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   0
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -23,6 +33,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   5
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -32,6 +45,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   10
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -41,6 +57,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   15
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -50,6 +69,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   20
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -59,6 +81,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   25
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -68,6 +93,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   30
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -77,6 +105,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   35
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -86,6 +117,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   40
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -95,6 +129,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   45
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -104,6 +141,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   50
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -113,6 +153,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   55
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
@@ -122,6 +165,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   angleY -30
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Lamentin Spawn Flag"
+  m_spawnTimings {
+   60
+  }
   m_waypointNames {
    "LamentinDefenseWaypoint"
   }
