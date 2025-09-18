@@ -374,7 +374,7 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   CompletionRadius 40
  }
  WP_Ambush_Defend_5 {
-  coords 3391.239 207.747 4109.923
+  coords 3362.349 167.354 4177.813
   CompletionRadius 40
  }
  WP_Ambush_Defend_6 {
