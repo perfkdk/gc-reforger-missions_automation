@@ -1,5 +1,5 @@
 Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
- coords 7136.534 146.431 2202.032
+ coords 7136.534 144.669 2202.032
  angleY -159.039
 }
 Vehicle UAZ469_uncovered1 : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et" {
@@ -22,17 +22,63 @@ Vehicle BRDM1 : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
 }
 $grp Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
  Ural4320_ammo3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{666335977CCBB721}" {
+      SlotTemplate InventoryStorageSlot "{666335977AA95A6B}" {
+       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
   coords 7128.625 146.731 2181.555
   angleY -166.8
  }
  Ural4320_ammo4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{666335974135C5FF}" {
+      SlotTemplate InventoryStorageSlot "{666335974FA9FC60}" {
+       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
   coords 7132.847 145.587 2192.788
   angleY -161.276
  }
+ Ural4320_ammo5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66633597193D8354}" {
+      SlotTemplate InventoryStorageSlot exp {
+       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 7125.418 147.802 2170.97
+  angleY -166.8
+ }
 }
-Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
- coords 7123.075 148.733 2161.661
- angleY -170.998
+$grp Vehicle : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ Ural4320_tanker1 {
+  coords 7123.075 148.733 2161.661
+  angleY -170.998
+ }
+ Ural4320_tanker2 {
+  coords 7121.361 149.631 2152.598
+  angleY -179.894
+ }
 }
 SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
  components {
@@ -54,4 +100,7 @@ SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rif
  }
  coords 7131.75 151.238 2129.277
  angleY -123.399
+ m_aUnitPrefabSlots {
+  "{DF8E65CA90B55E3B}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_PL_P.et" "{5888F75B9942CE7D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_RTO_P.et" "{D1BA3D1164545A8D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Medic_P.et"
+ }
 }

@@ -4,6 +4,57 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
 PerceptionManager PerceptionManager1 {
  coords 8134.307 1.569 1199.954
 }
-PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
- coords 8138.659 1.818 1191.593
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 7928.787 11.917 1446.529
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{6664DC895657CC38}" {
+   m_sFactionKey "UK"
+   m_iCount 20
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 7719.355 1.256 1470.474
+ m_missionEvents {
+  TILW_MissionEvent "{6664EA2814C420E9}" {
+   m_name "Enable_Teleports"
+   m_instructions {
+    TILW_SetFlagInstruction "{6664EA28F91B53D6}" {
+     m_executionDelay 0.1
+     m_flagName "TP_1_control"
+    }
+    TILW_SetFlagInstruction "{6664EA28CF9638D8}" {
+     m_executionDelay 0.1
+     m_flagName "TP_2_control"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6664EA28F728286E}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{6664EA292700C71D}" {
+   m_name "Disable_Teleport_1"
+   m_instructions {
+    TILW_ClearFlagInstruction "{6664EA2A41D41B75}" {
+     m_executionDelay 0
+     m_flagName "TP_1_control"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6664EA292955E6F5}" {
+    m_flagName "disable_TP_1"
+   }
+  }
+  TILW_MissionEvent "{6664EA290A55E83A}" {
+   m_name "Disable_Teleport_2"
+   m_instructions {
+    TILW_ClearFlagInstruction "{6664EA2A550F37C1}" {
+     m_executionDelay 0
+     m_flagName "TP_2_control"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6664EA290A55E87A}" {
+    m_flagName "disable_TP_2"
+   }
+  }
+ }
 }

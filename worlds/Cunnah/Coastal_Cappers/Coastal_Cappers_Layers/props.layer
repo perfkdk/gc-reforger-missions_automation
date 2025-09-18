@@ -1,3 +1,11 @@
+$grp SCR_IndestructibleEnvironmentalEntity : "{038844285FEE0D7A}Prefabs/Rocks/Granite/GraniteStone_01.et" {
+ {
+  coords 9320.466 -0.51 638.305
+ }
+ {
+  coords 9312.341 0 624.128
+ }
+}
 $grp Vehicle : "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_forest.et" {
  Ural4320_transport_CIV_forest2 {
   coords 9366.296 16.06 317.467
@@ -12,8 +20,34 @@ Vehicle UAZ469_uncovered2 : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/U
  coords 7587.427 113.576 2077.375
  angleY -48.85
 }
+$grp StaticModelEntity : "{19A3C48FC2665A3F}Prefabs/Props/Construction/GravelPile_01/GravelPile_01_large.et" {
+ {
+  coords 8904.374 49.663 667.846
+  angleX 4.902
+  angleY -0.812
+  angleZ -9.422
+  scale 1.214
+ }
+ {
+  coords 9317.159 27.443 627.336
+  scale 1.204
+ }
+}
 Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
  coords 9903.275 10.278 261.594
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{1FFB6B5828D2B35F}Prefabs/Rocks/Granite/GraniteRock_03.et" {
+ {
+  coords 8905.167 48.865 669.623
+  angleX 4.173
+  angleY 135.094
+  angleZ 24.092
+ }
+ {
+  coords 9317.788 25.363 628.239
+  angleY -84.868
+  angleZ -21.955
+ }
 }
 $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
  {
@@ -103,6 +137,17 @@ GenericEntity : "{44FD6B68E3E9F83F}Prefabs/Structures/Signs/Military/SignRectang
  coords 9870.794 6.887 263.179
  angleY -69.54
 }
+$grp GenericEntity : "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et" {
+ {
+  coords 8382.639 9.865 1109.977
+ }
+ {
+  coords 8399.823 11.76 1082.328
+ }
+ {
+  coords 8386.497 9.966 1110.571
+ }
+}
 SCR_AIGroup : "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/Group_USSR_MSV80_MotRifleSquad.et" {
  coords 7591.524 113.704 2074.733
  angleY -102.475
@@ -112,35 +157,42 @@ SCR_AIGroup : "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rif
 }
 $grp GenericEntity : "{57FB5E487EC91D63}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_02.et" {
  {
-  coords 8857.683 53.66 782.607
-  angleY 103.288
-  angleZ 5.327
+  coords 8854.807 54.492 786.643
+  angleX -3.547
+  angleY 144.956
+  angleZ -0.02
   {
    GenericEntity {
     ID "59A297CBE3C270B1"
-    coords 0.664 0.474 -1.051
+    coords 0.661 0.474 -1.051
     angleX 13.496
     angleY -78.767
    }
    GenericEntity {
     ID "59A297CBE3C21908"
-    coords 1.739 0.66 -0.313
+    coords 1.736 0.66 -0.314
     angleX -13.533
     angleY -120.547
    }
+   GenericEntity {
+    ID "59A297CBE3C270B0"
+    coords -2.908 0.981 0.124
+    angleX 1.539
+    angleY -70.869
+   }
    StaticModelEntity {
     ID "59A297CBE3C19926"
-    coords -1.072 0 -0.835
+    coords -1.073 0 -0.837
     angleY -93.565
    }
    StaticModelEntity {
     ID "59A297CBE3C2190A"
-    coords 3.303 0 0.468
+    coords 3.302 0 0.468
     angleY -47.942
    }
    StaticModelEntity {
     ID "59A297CBE3C270B3"
-    coords 2.451 0 -0.594
+    coords 2.45 0 -0.593
     angleY -70.171
    }
    StaticModelEntity {
@@ -148,11 +200,18 @@ $grp GenericEntity : "{57FB5E487EC91D63}Prefabs/Compositions/Misc/SubComposition
     coords 3.424 0 -0.594
     angleY 76.052
    }
+   StaticModelEntity {
+    ID "59A297CBE3C19921"
+    coords -3.932 0 0.363
+    angleY 30.193
+   }
   }
  }
  {
-  coords 8861.302 51.277 768.758
-  angleZ 4.883
+  coords 8873.665 48.705 758.907
+  angleX 9.429
+  angleY -42.044
+  angleZ -3.014
  }
 }
 $grp GenericEntity : "{64C9C1D1C2C1B38D}Prefabs/Props/Infrastructure/Roadblocks/RoadBlock_01.et" {
@@ -177,10 +236,10 @@ $grp GenericEntity : "{64C9C1D1C2C1B38D}Prefabs/Props/Infrastructure/Roadblocks/
   angleY -96.023
  }
 }
+SCR_IndestructibleEnvironmentalEntity : "{6FDC70C8E32A8254}Prefabs/Rocks/Granite/GraniteStone_02.et" {
+ coords 9316.019 0 618.38
+}
 $grp GenericEntity : "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et" {
- {
-  coords 8401.581 11.798 1082.708
- }
  {
   coords 8354.131 9.025 1126.517
  }
@@ -222,6 +281,9 @@ StaticModelEntity : "{8125DEB23B3FF39E}Prefabs/Compositions/Misc/CustomEntities/
  coords 9919.057 13.574 293.799
  angleY -14.252
 }
+SCR_IndestructibleEnvironmentalEntity : "{8A403C31EFCF153F}Prefabs/Rocks/Granite/GraniteStone_03.et" {
+ coords 9313.914 0 627.979
+}
 GenericEntity : "{8C73F42FBAB6D9D7}Prefabs/Compositions/Misc/SubCompositions/Sandbag_MG_USSR_02.et" {
  coords 9895.093 9.15 256.991
  angleY -172.45
@@ -257,6 +319,16 @@ $grp GenericEntity : "{AE300E34EA8FF40C}Prefabs/Props/Wrecks/Ural4320_wreck_stat
   angleY 52.128
  }
 }
+SCR_IndestructibleEnvironmentalEntity : "{B18F42ED694B5654}Prefabs/Rocks/Granite/Granite_Cluster_06.et" {
+ coords 8904.094 -0.533 667.348
+ angleX -3.622
+ angleY -62.402
+ angleZ 1.175
+}
+GenericEntity : "{B26712B1722C8A09}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_03.et" {
+ coords 8860.647 51.516 770.209
+ angleY -26.56
+}
 Vehicle UAZ469_covered_CIV_VAK1 : "{B2CC137FE424B129}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_VAK.et" {
  coords 8096.711 7.719 1272.525
  angleY 142.115
@@ -291,7 +363,7 @@ $grp StaticModelEntity : "{C289F5D866F0E46E}Prefabs/Structures/Walls/BarbedWire/
   angleY 31.245
  }
  {
-  coords 9886.911 -0 245.65
+  coords 9886.911 0 245.65
   angleY 22.891
  }
 }
@@ -324,6 +396,9 @@ GenericEntity : "{F0EC223F2A1094C0}Prefabs/Props/Military/Sandbags/Sandbag_01_bu
  angleX -0.145
  angleY -91.086
  angleZ -4.282
+}
+GenericEntity : "{F1929AE7DC824D81}Prefabs/Weapons/Warheads/Warhead_ExplosiveCharge_TNT400g.et" {
+ coords 7139.932 150.865 2108.648
 }
 Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
  coords 7935.334 12.303 1461.753

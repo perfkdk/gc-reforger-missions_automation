@@ -1,0 +1,19 @@
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ ambush_1_trigger {
+  coords 7974.645 10.015 1431.892
+  m_queryRadius 200
+  m_flagName "disable_TP_1"
+  m_playersOnly 1
+  m_ownerFactionKey "USSR"
+  m_ratioThreshold 0
+ }
+ ambush_2_trigger {
+  coords 8868.28 49.969 764.862
+  m_queryRadius 200
+  m_flagName "disable_TP_2"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "USSR"
+  m_ratioThreshold 0
+ }
+}

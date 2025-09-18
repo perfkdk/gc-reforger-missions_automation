@@ -550,3 +550,142 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   }
  }
 }
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ BLUFOR_TP1 {
+  coords 7931.905 12.436 1455.35
+  angleY 90
+  m_sImageSetGlow ""
+  m_MarkerColor 0.651 0.417 0.001 1
+  m_sQuadName "pick-up-2"
+  m_fWorldSize 100
+  m_sDescription "Ambush 1 Teleport"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ BLUFOR_TP2 {
+  coords 8889.456 49.394 656.358
+  angleY 90
+  m_sImageSetGlow ""
+  m_MarkerColor 0.651 0.417 0.001 1
+  m_sQuadName "pick-up-2"
+  m_fWorldSize 100
+  m_sDescription "Ambush 2 Teleport"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ BLUFOR_TP3 {
+  coords 9355.621 4.849 241.951
+  m_sImageSetGlow ""
+  m_MarkerColor 0.651 0.417 0.001 1
+  m_sQuadName "pick-up-2"
+  m_fWorldSize 100
+  m_sDescription "Ambush 3 Teleport"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ BLUFOR_Ambush_1 {
+  coords 8040.177 8.7 1312.975
+  angleY 90
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "cross-2"
+  m_fWorldSize 100
+  m_sDescription "Ambush Position 1"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ BLUFOR_Ambush_2 {
+  coords 8861.184 52.385 776.321
+  angleY 90
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "cross-2"
+  m_fWorldSize 100
+  m_sDescription "Ambush Position 2"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ BLUFOR_Ambush_3 {
+  coords 9298.854 29.597 633.61
+  angleY 90
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "cross-2"
+  m_fWorldSize 100
+  m_sDescription "Ambush Position 3"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ OPFOR_Route_2 {
+  coords 8223.874 6.757 1152.125
+  angleY 120.672
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 100
+  m_sDescription "Route Ivan"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ OPFOR_Route_1 {
+  coords 8998.033 51.803 627.919
+  angleY 119.361
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 100
+  m_sDescription "Route Ivan"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ OPFOR_Route_3 {
+  coords 7639.276 91.972 1916.42
+  angleY -175.304
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 100
+  m_sDescription "Route Ivan"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ OPFOR_Goal {
+  coords 9918.915 8.199 240.034
+  angleY 120.672
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "circle"
+  m_fWorldSize 200
+  m_sDescription "Route Ivan"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ OPFOR_Start {
+  coords 7127.693 149.358 2152.722
+  m_sImageSet "{8D15AE151C8F3A5C}UI/Textures/GPSMarkers/opfor_ImageSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "motor_inf"
+  m_fWorldSize 100
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ OPFOR_Check_Point {
+  coords 7576.455 113.519 2074.621
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "dot-2"
+  m_fWorldSize 100
+  m_sDescription "Check Point"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+}
