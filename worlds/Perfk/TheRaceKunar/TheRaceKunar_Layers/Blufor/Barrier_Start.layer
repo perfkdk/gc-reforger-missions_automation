@@ -1,0 +1,206 @@
+$grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Generic_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 359.121 352 316.74
+  angleY -23.717
+  m_aUnitPrefabSlots + {
+   "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 360.663 352 314.058
+  angleY -23.717
+  m_aUnitPrefabSlots + {
+   "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{244D77BE58FCC5C1}Prefabs/Structures/Hesco/HBarrier3.et" {
+ coords 407.094 352 345.019
+ angleY 89.039
+ scale 0.943
+}
+$grp SCR_DestructibleEntity : "{2591F1D52FD5DC65}PrefabLibrary/Walls/Net/NetFence_04_8m.et" {
+ fence_1 {
+  coords 352.293 0 321.991
+  angleY -78.25
+ }
+ fence_2 {
+  coords 353.942 0 329.636
+  angleY -44.256
+ }
+ fence_3 {
+  coords 359.603 0 335.196
+  angleY -10.969
+ }
+ fence_4 {
+  coords 367.347 0 336.78
+  angleY 21.865
+ }
+ fence_5 {
+  coords 374.819 0 333.85
+  angleY 55.959
+ }
+ fence_6 {
+  coords 379.394 0 327.264
+  angleY 89.834
+ }
+ fence_7 {
+  coords 379.485 0 319.216
+  angleY 123.078
+ }
+ fence_8 {
+  coords 375.07 0 312.545
+  angleY 155.053
+ }
+ fence_9 {
+  coords 367.92 0 309.191
+  angleY -170.472
+ }
+ fence_10 {
+  coords 360.103 -0.059 310.45
+  angleY -139.99
+ }
+ fence_11 {
+  coords 354.997 0 314.418
+  angleY -109.077
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{CFED50E712CD1F19}Prefabs/Structures/Hesco/BigHBarrier4.et" {
+ {
+  coords 385.296 352 366.993
+  angleY 18.283
+ }
+ {
+  coords 368.989 352.857 367.279
+  angleY -4.114
+  angleZ 12.375
+ }
+ {
+  coords 361.123 353.382 366.003
+  angleX 4.405
+  angleY -20.76
+  angleZ 2.49
+ }
+ {
+  coords 340.105 351.795 289.343
+  angleY 17.721
+ }
+ {
+  coords 372.589 351.633 282.108
+  angleY 6.774
+ }
+ {
+  coords 347.843 351.731 287.361
+  angleY 13.62
+ }
+ {
+  coords 380.654 351.727 281.564
+  angleY 0.33
+ }
+ {
+  coords 392.804 352 364.034
+  angleY 30.839
+ }
+ {
+  coords 405.339 352 352.805
+  angleY 63.065
+ }
+ {
+  coords 315.182 353.03 335.173
+  angleX 8.133
+  angleY -57.601
+  angleZ -0.568
+ }
+ {
+  coords 399.603 352 359.173
+  angleY 40.317
+ }
+ {
+  coords 320.764 352.39 341.337
+  angleX 4.846
+  angleY -33.555
+  angleZ 9.098
+ }
+ {
+  coords 334.042 351.569 351.343
+  angleX 4.846
+  angleY -33.555
+  angleZ 0.886
+ }
+ {
+  coords 310.671 352.651 328.328
+  angleX 8.15
+  angleY -52.341
+  angleZ 0.177
+ }
+ {
+  coords 301.768 352.014 315.716
+  angleX 8.15
+  angleY -52.341
+  angleZ 0.177
+ }
+ {
+  coords 339.935 352.171 356.097
+  angleX 4.846
+  angleY -33.555
+  angleZ -2.817
+ }
+ {
+  coords 305.818 352.079 321.852
+  angleX 8.15
+  angleY -52.341
+  angleZ 0.177
+ }
+ {
+  coords 326.087 352.02 299.383
+  angleY 48.328
+ }
+ {
+  coords 353.266 353.606 362.711
+  angleX 4.405
+  angleY -20.76
+  angleZ 2.49
+ }
+ {
+  coords 364.402 351.625 283.891
+  angleY 21.037
+ }
+ {
+  coords 346.88 353.274 359.961
+  angleX 4.405
+  angleY -20.76
+  angleZ -4.748
+ }
+ {
+  coords 377.492 352.027 367.6
+  angleY 1.761
+ }
+ {
+  coords 332.59 351.941 293.41
+  angleY 36.1
+ }
+ {
+  coords 327.539 351.733 346.404
+  angleX 4.846
+  angleY -33.555
+  angleZ 0.886
+ }
+ {
+  coords 388.633 351.246 283.531
+  angleY -28.944
+ }
+ {
+  coords 356.158 351.699 286.026
+  angleY 10.799
+ }
+}
