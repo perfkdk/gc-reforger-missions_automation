@@ -56,5 +56,71 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "disable_TP_2"
    }
   }
+  TILW_MissionEvent "{66654CD5B3F6C139}" {
+   m_name "1_Truck_Arrived"
+   m_instructions {
+    TILW_SendMessageInstruction "{66654CD58D721460}" {
+     m_messageTitle "Truck Arrived!"
+     m_messageBody "1 Convoy Truck has Arrived."
+     m_factionKeys {
+      "USSR" "UK"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{66654CD5E9E7ED74}" {
+    m_flagName "convoy_arrived_1"
+   }
+  }
+  TILW_MissionEvent "{66654CD5CFD281AF}" {
+   m_name "2_Truck_Arrived"
+   m_instructions {
+    TILW_SendMessageInstruction "{66654CD5CFD28111}" {
+     m_messageTitle "Truck Arrived!"
+     m_messageBody "2 Convoy Trucks have Arrived."
+     m_factionKeys {
+      "USSR" "UK"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{66654CD5CFD2811D}" {
+    m_flagName "convoy_arrived_2"
+   }
+  }
+  TILW_MissionEvent "{66654CD5CF057712}" {
+   m_name "3_Truck_Arrived"
+   m_instructions {
+    TILW_SendMessageInstruction "{66654CD5CF057753}" {
+     m_messageTitle "Truck Arrived!"
+     m_messageBody "3 Convoy Trucks have Arrived."
+    }
+   }
+   m_condition TILW_LiteralTerm "{66654CD5CF05775E}" {
+    m_flagName "convoy_arrived_3"
+   }
+  }
+  TILW_MissionEvent "{66654CD5C04C0F20}" {
+   m_name "4_Truck_Arrived"
+   m_instructions {
+    TILW_SendMessageInstruction "{66654CD5C04C0F6B}" {
+     m_messageTitle "Truck Arrived!"
+     m_messageBody "4 Convoy Trucks have Arrived."
+    }
+   }
+   m_condition TILW_LiteralTerm "{66654CD5C04C0C96}" {
+    m_flagName "convoy_arrived_4"
+   }
+  }
+  TILW_MissionEvent "{66654CD5C1360807}" {
+   m_name "5_Truck_Arrived"
+   m_instructions {
+    TILW_SendMessageInstruction "{66654CD5C136084C}" {
+     m_messageTitle "Truck Arrived!"
+     m_messageBody "All Convoy Trucks have Arrived."
+    }
+   }
+   m_condition TILW_LiteralTerm "{66654CD5C136084B}" {
+    m_flagName "convoy_arrived_5"
+   }
+  }
  }
 }

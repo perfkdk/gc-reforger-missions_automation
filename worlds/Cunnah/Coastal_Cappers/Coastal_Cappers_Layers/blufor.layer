@@ -13,10 +13,6 @@ $grp GenericEntity {
   coords 8223.807 223.127 2172.283
  }
 }
-Vehicle BRDM2 : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
- coords 7140.564 143.859 2209.728
- angleY -151.729
-}
 $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
  {
   components {
@@ -212,18 +208,6 @@ $grp GenericEntity : "{6B33C7FD1918B48B}Prefabs/Structures/Civilian/BoardMap_01/
     angleY 174.299
    }
   }
- }
-}
-SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
-  }
- }
- coords 7143.422 143.976 2206.658
- angleY -60.771
- m_aUnitPrefabSlots {
-  "{B4A947AA09E9F15E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewCommander_P.et" "{F818395904C3AE6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewGunner_P.et" "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
  }
 }
 SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaPHQ_P.et" {
