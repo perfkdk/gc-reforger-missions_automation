@@ -23,7 +23,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "The objective is to rescue as many personnel (Player and AI) and vehicles from the ANA platoon as possible and return them safely to FOB Thunderbolt."\
   ""\
   "<h2>Setup timer</h2>"\
-  "10 min for US. ANA should expect combat within 3-5 min"\
+  "5 min for US. ANA should expect combat within 3-5 min"\
   ""\
   "<h2>Mission Status</h2>"\
   "Interacting with the flagpole in FOB Thunderbolt will provide you with a status of how many wounded and vehicles that were rescued. (GM or Command can press this at the end)"\
@@ -59,7 +59,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   ""\
   "<h2>Mission by Perfk</h2>"\
-  "Last updated: 2026-07-21"\
+  "Last updated: 2027-09-15"\
   ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
@@ -320,6 +320,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "APPENDIX A: Vehicle assignment"
   m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
   m_sTextData "<h2>Vehicle convoy order</h2>"\
+  "See Image on the left side of the map"\
   "M2A2 - M2 Humvee - HQ Humvee - Ambulance - Transport Truck - Repair Truck - Transport Truck - M2 Humvee - M2A2 - Transport Truck"\
   ""\
   "<h2>Squad Assignment</h2>"\
@@ -327,12 +328,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<b>M2A2:</b>"\
   ""\
   "- 2'1 (BFV crew)"\
-  "- 1'1 (SL, Alpha)."\
+  "- 1'1 (Alpha)."\
   "Seats: 3 Crew, 6 Passenger"\
   ""\
   "<b>M2 M1025:</b>"\
   ""\
-  "- 1'1 (Bravo)."\
+  "- 1'1 (SL, Bravo)."\
   "Seats: 4 Seats, 1 gunner"\
   ""\
   "<b>Transport M998</b>"\
@@ -362,13 +363,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>M2 M1025:</b>"\
   ""\
-  "- 1'2 - (Bravo Fireteam)"\
+  "- 1'2 - (SL, Bravo Fireteam)"\
   "Seat: 1 Driver, 3 Passenger, 1 Gunner"\
   ""\
   "<b>M2A2:</b>"\
   ""\
   "- 2'2 (BFV crew)"\
-  "- 1'2 (SL, Alpha)."\
+  "- 1'2 (Alpha)."\
   "Seats: 3 Crew, 6 Passenger"\
   ""\
   "<b>M923A1 Transport Truck:</b>"\
