@@ -21,6 +21,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  coords 7928.787 11.917 1446.529
+ m_iFreezeTime 300000
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{6664DC895657CC38}" {
    m_sFactionKey "UK"
@@ -182,4 +183,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 7156.592 146.679 2165.574
 }
