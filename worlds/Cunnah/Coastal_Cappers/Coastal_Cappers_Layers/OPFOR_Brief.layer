@@ -29,7 +29,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "EXECUSION (PLEASE READ)"
   m_sTextData "Execution per CO's brief."\
   ""\
-  "NOTE: The enemy has access to AT mines along a route that can be easily bloked by AT mines. There is no timelimit execution is expected to be slow and methodical."\
+  "NOTE: The enemy has access to AT mines along a route that can be easily blocked by AT mines. There is no timelimit execution is expected to be slow and methodical."\
   ""\
   "Mines can be cleared by demo charges (found in ammo transport covered URALs)."\
   ""\

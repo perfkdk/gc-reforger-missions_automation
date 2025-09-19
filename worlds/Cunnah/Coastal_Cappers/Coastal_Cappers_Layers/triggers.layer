@@ -4,6 +4,8 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
   m_queryRadius 50
   m_flagName "convoy_arrived_5"
   m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
+  m_drawShapeOutline 0
   m_entityNames {
    "convoy_1" "convoy_2" "convoy_3" "convoy_4" "convoy_5"
   }
@@ -13,6 +15,8 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
   m_queryRadius 50
   m_flagName "convoy_arrived_4"
   m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
+  m_drawShapeOutline 0
   m_entityNames {
    "convoy_1" "convoy_2" "convoy_3" "convoy_4" "convoy_5"
   }
@@ -23,6 +27,8 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
   m_queryRadius 50
   m_flagName "convoy_arrived_3"
   m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
+  m_drawShapeOutline 0
   m_entityNames {
    "convoy_1" "convoy_2" "convoy_3" "convoy_4" "convoy_5"
   }
@@ -33,6 +39,8 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
   m_queryRadius 50
   m_flagName "convoy_arrived_2"
   m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
+  m_drawShapeOutline 0
   m_entityNames {
    "convoy_1" "convoy_2" "convoy_3" "convoy_4" "convoy_5"
   }
@@ -43,10 +51,24 @@ $grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW
   m_queryRadius 50
   m_flagName "convoy_arrived_1"
   m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
+  m_drawShapeOutline 0
   m_entityNames {
    "convoy_1" "convoy_2" "convoy_3" "convoy_4" "convoy_5"
   }
   m_ratioThreshold 0.2
+ }
+ convoy_alive_trigger {
+  coords 8486.862 143.075 1354.549
+  m_queryRadius 2000
+  m_comparisonMode EQUAL_OR_LESS
+  m_flagName "convoy_destroyed"
+  m_drawShapeSurface 0
+  m_drawShapeOutline 0
+  m_entityNames {
+   "convoy_1" "convoy_2" "convoy_3" "convoy_4" "convoy_5"
+  }
+  m_ratioThreshold 0
  }
 }
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
@@ -54,6 +76,8 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   coords 7974.645 10.015 1431.892
   m_queryRadius 200
   m_flagName "disable_TP_1"
+  m_drawShapeSurface 0
+  m_drawShapeOutline 0
   m_playersOnly 1
   m_ownerFactionKey "USSR"
   m_ratioThreshold 0
@@ -63,6 +87,8 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_queryRadius 200
   m_flagName "disable_TP_2"
   m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
+  m_drawShapeOutline 0
   m_playersOnly 1
   m_ownerFactionKey "USSR"
   m_ratioThreshold 0

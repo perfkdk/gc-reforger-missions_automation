@@ -688,4 +688,43 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "USSR"
   }
  }
+ {
+  coords 7874.016 -0.002 1179.669
+  angleY 90
+  m_sImageSet "{F76723DD70C435D3}Missions/Cunnah/textures/ambush_icons.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "ambush_1"
+  m_fWorldSize 200
+  m_sDescription "Ambush 1"
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_bringToFront 0
+ }
+ {
+  coords 9016.359 -0 328.732
+  angleY 90
+  m_sImageSet "{F76723DD70C435D3}Missions/Cunnah/textures/ambush_icons.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "ambush_3"
+  m_fWorldSize 200
+  m_sDescription "Ambush 3"
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_bringToFront 0
+ }
+ {
+  coords 8583.267 0 521.321
+  angleY 90
+  m_sImageSet "{F76723DD70C435D3}Missions/Cunnah/textures/ambush_icons.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "ambush_2"
+  m_fWorldSize 200
+  m_sDescription "Ambush 2"
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_bringToFront 0
+ }
 }
