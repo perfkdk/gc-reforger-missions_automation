@@ -1,0 +1,36 @@
+TILW_ExtractionTriggerEntity us_extract : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
+ coords 2410.741 67.034 6408.867
+ m_queryRadius 750
+ m_flagName "us_extract"
+ m_drawShapeSurface 0
+ m_factionKey "US"
+ m_ratioThreshold 0.75
+}
+TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ m_missionEvents {
+  TILW_MissionEvent "{666178CAED41880C}" {
+   m_name "Mission Start"
+   m_instructions {
+    TILW_SetFlagInstruction "{666178CAC4828AE8}" {
+     m_flagName "extract_allowed"
+    }
+   }
+   m_condition TILW_LiteralTerm "{666178CAF7D74E02}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{666178CADC81989A}" {
+   m_name "US Extraction"
+   m_condition TILW_ConjunctionTerm "{666178D524E5A5F5}" {
+    m_operands {
+     TILW_LiteralTerm "{666178D52593D8DE}" {
+      m_flagName "extract_allowed"
+     }
+     TILW_LiteralTerm "{666178D52A9DD1D7}" {
+      m_flagName "us_extract"
+     }
+    }
+   }
+  }
+ }
+}

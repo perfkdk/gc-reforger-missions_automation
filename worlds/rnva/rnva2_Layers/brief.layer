@@ -1,0 +1,147 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ G0_Background {
+  m_sTitle "Background"
+  m_sTextData "1990, Germany. War has broken out between NATO and the Warsaw Pact, and Soviet Forces are advancing deeper and deeper into the northern plains of West Germany together with the NVA, aiming to reach the Rhine by day 7."\
+  ""\
+  "In this sector, the Panzer Regiment 22 \"Soja Kosmodemjanskaja\" of the East German 9. Panzer Division is leading the advance."\
+  ""\
+  "Due to the previously deteriorating political situation, the US had chosen to start deployment of most of its NORTHAG units shortly before the start of the war, as practiced during earlier Reforger exercises."\
+  ""\
+  "Among these forces is the 2nd Armored Division, soon expected to make first contact with the enemy. Until now, it had been screened by the 3rd Armored Cavalry Regiment, also part of the NORTHAG complement."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ G6_Notes {
+  coords 0 0 0
+  m_sTitle "Notes"
+  m_sTextData "- bradley switch to missiles"
+  m_iOrder 6
+ }
+ U1_Situation {
+  coords 0 0 0
+  m_sTitle "I. SITUATION"
+  m_sTextData "<b>a. Enemy Forces</b>"\
+  ""\
+  "A tank battalion of the East German Panzer Regiment 22 is advancing from the south west."\
+  "Two of its companies were spotted in the vicinity of Martikkalakyla, some reconnaissance forces may already be slightly ahead."\
+  ""\
+  "Our troops initial mission was to perform a passage of lines with the 2nd Armored Divisions previously screened 1st Brigade later today, which would blunt the regiments advance."\
+  ""\
+  "However, a few hours ago, East German airmobile forces of the Luftsturmregiment 40 staged an air assault on Nyrhilanmaki (GRID), destroying most of Troop HQ and occupying the village."\
+  ""\
+  "While the enemy likely remains unaware of the friendly brigades proximity, this move prevented our cavalry troop from withdrawing north as originally planned, forcing an engagement with the enemy battalion."\
+  ""\
+  ""\
+  "<b>b. Friendly Forces</b>"\
+  ""\
+  "RED (scout platoon) and WHITE (tank platoon) are located in the vicinity of Hietalanmaki (GRID)."\
+  "Black 8 (mortar) is set up in the forest at GRID, preparing to support the platoons using smoke rounds."\
+  ""\
+  "Unable to bypass the occupied village, BLUE and GREEN were forced to proceed north on their own, which means they are unable to support RED and WHITE."\
+  ""\
+  "A tank-heavy tank-mech company team from the 2nd Armored Divisions 1st Brigade is rushing south to break the encirclement and allow RED and WHITE to retreat, but is estimated to need at least another hour to arrive."
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 1
+ }
+ U2_Mission {
+  coords 0 0 0
+  m_sTitle "II. MISSION"
+  m_sTextData "<b>RED and WHITE platoons must DELAY the NVA tank battalion by at least X minutes, before retreating to Pihlajamaa.</b>"
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 2
+ }
+ U3_Execution {
+  coords 0 0 0
+  m_sTitle "III. EXECUTION"
+  m_sTextData "<b>Commander's intent</b>"\
+  ""\
+  "Purpose: Hold out until the arrival of reinforcements"\
+  "Key Tasks:"\
+  "- Delay the enemy force"\
+  "- Retreat towards Pihalajamaa"\
+  "End State:"\
+  "- After X minutes, the enemies main force has not yet passed Ruha"\
+  "- RED and WHITE have regrouped near Pihlajamaa following the delaying action"\
+  ""\
+  ""\
+  "<b>Concept of the operation</b>"\
+  ""\
+  "(1) Scheme of Maneuver"\
+  "As briefed by Red 1"\
+  ""\
+  "(2) Fires"\
+  "One mortar (Black 8) is available, its primary purpose is to support the delaying action using smoke rounds."
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 3
+ }
+ U4_Service {
+  coords 0 0 0
+  m_sTitle "IV. SERVICE SUPPORT"
+  m_sTextData "No resupply is available"\
+  ""\
+  "The mortar has unlimited rounds"
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 4
+ }
+ U5_Command {
+  coords 0 0 0
+  m_sTitle "V. COMMAND AND CONTROL"
+  m_sTextData "<b>a. Command</b>"\
+  ""\
+  "Troop commander is presumed KIA following the air assault."\
+  "Red 1 has assumed command of RED and WHITE."\
+  ""\
+  ""\
+  "<b>b. Signal</b>"\
+  ""\
+  "RED platoon net (48.0MHz)"\
+  "Red 1, Red 2, Red 3, Red 4, Red 5, Red 6"\
+  ""\
+  "WHITE platoon net (48.5MHz)"\
+  "White 1, White 2, White 3, White 4"\
+  ""\
+  "BLACK troop net (49.0MHz)"\
+  "RED (Red 1), WHITE (White 1), Black 8"\
+  ""\
+  "If preferred by Red 1, all elements may alternatively use 48.0MHz instead for the duration of the engagement."
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 5
+ }
+ N1_Situation {
+  coords 0 0 0
+  m_sTitle "I. SITUATION"
+  m_sTextData "<b>a. Enemy Forces</b>"\
+  ""\
+  "Parts of an American heavy cavalry troop, using Abrams tanks and cavalry fighting vehicles, are located 2-5km to the north."\
+  ""\
+  "A prior air assault on Nyrhilanmaki by forces of Luftsturmregiment 40 successfully cut them off from friendly forces and likely deteriorated their command and control."\
+  ""\
+  "The Americans are now unable to retreat further north east past Isomaki, allowing us to destroy the force. It is possible they have mortar support available, likely from beyond our reach."\
+  ""\
+  "A tank battalion of the East German Panzer Regiment 22 is advancing from the south west."\
+  "Two of its companies were spotted in the vicinity of Martikkalakyla, some reconnaissance forces may already be slightly ahead."\
+  ""\
+  "Our troops initial mission was to perform a passage of lines with the 2nd Armored Divisions previously screened 1st Brigade later today, which would blunt the regiments advance."\
+  ""\
+  ""\
+  "<b>b. Friendly Forces</b>"\
+  ""\
+  "Two tank companies of the Panzer Regiment 22 \"Soja Kosmodemjanskaja\", third battalion, currently located just north of Martikkalankyla."\
+  ""\
+  "One of the regiments reconnaissance platoons has moved further ahead and is standing by south of Jarvela."
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+  m_iOrder 1
+ }
+}
