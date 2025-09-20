@@ -67,19 +67,23 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
  MapShape_DelayLine {
   components {
    TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_factionKeys {
+     "US"
+    }
+    m_visibleForEmptyFaction 0
     m_drawArea 0
     m_drawLine 1
-    m_lineColor 0.016 0.552 0.905 0.75
-    m_lineWidth 8
+    m_lineColor 0.016 0.552 0.905 0.6
+    m_lineWidth 10
    }
   }
   coords 3400 65.459 5000
   Points {
    ShapePoint "{666761E214AE5028}" {
-    Position 0 0 0
+    Position -100 -6.011 100
    }
    ShapePoint "{666761E21EB1806F}" {
-    Position 1000 -11.699 -400
+    Position 700 0 -700
    }
   }
  }
@@ -126,11 +130,12 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  NVA_PLT {
   coords 2050 66.031 1250
+  angleY 45
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "automobile_plt"
-  m_fWorldSize 100
+  m_fWorldSize 90
   m_sDescription "2710"
   m_aVisibleForFactions {
    "GC_NVA"
@@ -171,7 +176,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 0.75
   m_sQuadName "armored"
   m_fWorldSize 96
-  m_sDescription "TANK PLT"
+  m_sDescription "WHITE"
   m_aVisibleForFactions {
    "US"
   }
@@ -197,7 +202,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 0.75
   m_sQuadName "recon-motorized"
   m_fWorldSize 96
-  m_sDescription "SCOUT PLT"
+  m_sDescription "RED"
   m_aVisibleForFactions {
    "US"
   }
@@ -250,7 +255,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 0.75
   m_sQuadName "mortar"
   m_fWorldSize 48
-  m_sDescription "MORTAR"
+  m_sDescription "Black 8"
   m_aVisibleForFactions {
    "US"
   }
@@ -267,6 +272,17 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
     m_bVisibleForEmptyFaction 0
     m_bShowForAnyFaction 0
    }
+  }
+ }
+ NVA_INFCOY {
+  coords 5100 66.031 5300
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "coy_hq"
+  m_fWorldSize 200
+  m_aVisibleForFactions {
+   "GC_NVA"
   }
  }
 }

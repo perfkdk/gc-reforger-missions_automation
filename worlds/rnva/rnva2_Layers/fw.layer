@@ -1,7 +1,7 @@
 TILW_PresenceTriggerEntity nva_obj : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
- coords 3982.839 58.126 5273.275
+ coords 3907.344 58.082 5239.227
  m_queryRadius 600
- m_captureTime 60
+ m_captureTime 30
  m_flagName "nva_obj"
  m_stopAfterFirstChange 1
  m_drawShapeSurface 0
