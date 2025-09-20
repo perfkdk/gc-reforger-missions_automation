@@ -16,19 +16,6 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 379.104 352 278.86
  m_missionEvents {
-  TILW_MissionEvent "{6664B5671404CC27}" {
-   m_name "Mission Started"
-   m_instructions {
-    TILW_SetFlagInstruction "{6664B567ECD6BE50}" {
-     m_executionDelay 0
-     m_flagName "Mission_Started"
-    }
-   }
-   m_condition TILW_LiteralTerm "{6664B567E5961683}" {
-    m_invertTerm 1
-    m_flagName "Mission_Started"
-   }
-  }
   TILW_MissionEvent "{6664B56611AE97FF}" {
    m_name "RemoveFence"
    m_instructions {
@@ -45,7 +32,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
    m_condition TILW_LiteralTerm "{6664B567E37B6B96}" {
-    m_flagName "Mission_Started"
+    m_invertTerm 1
    }
   }
   TILW_MissionEvent "{6664B56D36864AEF}" {
