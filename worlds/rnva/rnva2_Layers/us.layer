@@ -235,7 +235,7 @@ SCR_AIGroup GR_MortarCrew : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Ba
   }
   PS_GroupCallsignAssigner "{666534685D8EAA95}" {
    m_iCompanyCallsign 1
-   m_iSquadCallsign 8
+   m_iSquadCallsign 7
   }
  }
  coords 3150.976 59.855 5052.385
