@@ -1,12 +1,38 @@
-SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Generic_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   Enabled 0
+$grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Generic_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 357.365 352 320.056
+  angleY -23.717
+  m_aUnitPrefabSlots + {
+   "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
   }
  }
- coords 357.365 352 320.056
- angleY -23.717
- m_aUnitPrefabSlots + {
-  "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 359.121 352 316.74
+  angleY -23.717
+  m_aUnitPrefabSlots + {
+   "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+  }
+  coords 360.663 352 314.058
+  angleY -23.717
+  m_aUnitPrefabSlots + {
+   "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et" "{BF38869730F83577}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized_P.et"
+  }
  }
 }
