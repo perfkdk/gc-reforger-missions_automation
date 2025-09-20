@@ -63,9 +63,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  B_TELEPORTERS {
   coords 8238.227 223.125 2167.841
   m_sTitle "TELEPORTERS (ALL PLEASE READ)"
-  m_sTextData "Each ambush point has a teleporter from spawn to it's location. Every teleport except AMBUSH POSITION 3 will be disabled once the convoy is in range."\
+  m_sTextData "Each ambush point has a teleporter from spawn to it's location. Every teleport except AMBUSH POSITION 3 will be disabled once the convoy comes into range."\
   ""\
-  "Each ambush point has a return to spawn teleport that can be used if the convoy bipasses an ambush point."\
+  "Each ambush point has a return to spawn teleport that can be used if the convoy bypasses an ambush point."\
   ""\
   "IMPORTANT! AMPUSH POSITION 3 has no return teleport you teleport there you will not be able to return except when you die."\
   ""\

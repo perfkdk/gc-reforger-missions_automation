@@ -80,17 +80,16 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_drawShapeOutline 0
   m_playersOnly 1
   m_ownerFactionKey "USSR"
-  m_ratioThreshold 0
+  m_ratioThreshold 0.001
  }
  ambush_2_trigger {
   coords 8868.28 49.969 764.862
   m_queryRadius 200
   m_flagName "disable_TP_2"
-  m_stopAfterFirstChange 1
   m_drawShapeSurface 0
   m_drawShapeOutline 0
   m_playersOnly 1
   m_ownerFactionKey "USSR"
-  m_ratioThreshold 0
+  m_ratioThreshold 0.001
  }
 }
