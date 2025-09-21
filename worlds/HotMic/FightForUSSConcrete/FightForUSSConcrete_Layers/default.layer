@@ -363,7 +363,7 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
    m_instructions {
     TILW_SendMessageInstruction "{66644935E89E844D}" {
      m_messageTitle "AFRF Victory!"
-     m_messageBody "100% USMC Casualties"
+     m_messageBody "90% USMC Casualties"
     }
    }
    m_condition TILW_LiteralTerm "{66644935E6046F21}" {
@@ -375,7 +375,7 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
    m_instructions {
     TILW_SendMessageInstruction "{66644935D9E585A8}" {
      m_messageTitle "USMC Victory!"
-     m_messageBody "100% AFRF Casualties"
+     m_messageBody "90% AFRF Casualties"
     }
    }
    m_condition TILW_LiteralTerm "{66644935C42831CF}" {
@@ -388,7 +388,7 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
     TILW_SendMessageInstruction "{66652096D04E66D1}" {
      m_executionDelay 10
      m_messageTitle "AFRF Victory!"
-     m_messageBody "AFRF have capture the Flag!"
+     m_messageBody "AFRF have captured the tower!"
     }
    }
    m_condition TILW_LiteralTerm "{66652096D8934A24}" {
@@ -417,10 +417,12 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
   TILW_FactionPlayersKilledFlag "{6664493DF952136C}" {
    m_flagName "USMC Casualties Flag"
    m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.9
   }
   TILW_FactionPlayersKilledFlag "{6664493E2BCF3BC8}" {
    m_flagName "AFRF Casualties Flag"
    m_factionKey "RHS_AFRF"
+   m_casualtyRatio 0.9
   }
  }
 }

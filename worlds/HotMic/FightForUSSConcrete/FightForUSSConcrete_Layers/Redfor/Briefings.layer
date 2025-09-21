@@ -8,12 +8,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Victory:"\
   "- Capture the ATC"\
   "OR"\
-  "- 100% USMC Casualties"\
+  "- 90% USMC Casualties"\
   ""\
   "Defeat:"\
   "- Time Limit"\
   "OR"\
-  "- 100% AFRF Casualties"\
+  "- 90% AFRF Casualties"\
   ""\
   "ATC Capture Time: 2 Minutes"
   m_aVisibleForFactions {

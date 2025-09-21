@@ -9,7 +9,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "AFRF fights USMC over the fate of USS Concrete."\
   ""\
-  "Setup Timer: 3 Minutes"\
+  "Setup Timer: 2 Minutes"\
   "Time Limit: 45 mins"\
   "Mission by Hot Mic"
   m_bEmptyFactionVisibility 1
