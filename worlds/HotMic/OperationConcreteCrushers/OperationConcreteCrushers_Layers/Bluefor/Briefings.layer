@@ -15,7 +15,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Mission by Hot Mic"\
   "Briefing Making Assistant: Haesten"\
-  "Fun Fact: This is USS Concrete's Debut mission. "
+  "Fun Fact: This was originally intended to be the debut mission for the USS Concrete, but the mission 'Fights for USS Concrete' was published first. As a result, this is the 6th mission."
   m_bEmptyFactionVisibility 1
   m_iOrder 0
  }
