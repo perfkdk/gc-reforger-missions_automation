@@ -38,6 +38,9 @@ $grp GenericEntity {
  Phase1_Delete {
   coords 7268.518 59.624 6652.606
  }
+ Test1Loc {
+  coords 7835.607 71.694 6891.929
+ }
 }
 $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
  Phase1_ForcedMove_Main_Waypoint {

@@ -101,8 +101,47 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   }
  }
 }
-TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 6619.112 96.656 1229.266
+ userScript "	// code here	"\
+ "	int currentPhaseIndex = 0;"\
+ "	ref array<string> placeholderNames = {\"Unit1\", \"Unit2\", \"Unit3\", \"Unit4\", \"Unit5\", \"Unit6\", \"Unit7\", \"Unit8\", \"Unit9\", \"Unit10\"};"\
+ "	int placeUnitID = 0;"\
+ "	ref array<IEntity> phaseEntities = {};"
+ FrameworkScript1 ""\
+ "		// The idea is that when the prefab spawner spawns the entity, it uses a generic name, then this function will rename it to a unique ID so that FW2 can delete it from the list."\
+ "		foreach (string name : placeholderNames) {"\
+ "			IEntity unitEnity = GetGame().GetWorld().FindEntityByName(name);"\
+ "			if (unitEnity) {"\
+ "				placeUnitID++;"\
+ "				unitEnity.SetName(\"PhaseUnit\" + placeUnitID);"\
+ "				phaseEntities.Insert(unitEnity);"\
+ "			} else {"\
+ "				PrintFormat(\"FW1: Can't find Entity %1\", name);"\
+ "			}"\
+ "		}"\
+ "		"\
+ " 		Print(\"FW1 Done!\");"\
+ "	"
+ FrameworkScript2 ""\
+ "		// Delete the enitities on the list and clear the list to prevent memory leaks."\
+ "		PrintFormat(\"The size of the list is %1\", phaseEntities.Count());"\
+ "		"\
+ "		foreach (IEntity entity : phaseEntities){"\
+ "			if (entity) {"\
+ "				Print(entity.GetName());"\
+ "				SCR_EntityHelper.DeleteEntityAndChildren(entity);"\
+ "			} else {"\
+ "				Print(\"This entity doesn't exist\");"\
+ "			}"\
+ "			"\
+ "		}"\
+ "		"\
+ "		phaseEntities.Clear();"\
+ "		"\
+ "	 	PrintFormat(\"The size of the list is %1\", phaseEntities.Count());"\
+ "		Print(\"FW2 Done!\");"\
+ "	"
  m_missionEvents {
   TILW_MissionEvent "{660B6237726D0ED2}" {
    m_name "Pre-Game Events"
@@ -152,6 +191,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 0
      m_prefab "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et"
      m_locationName "Phase1_Main_Vics"
+     m_setEntityName "Unit1"
      m_crewConfig TILW_CrewConfig "{660B62234281146E}" {
       m_crewGroups {
        TILW_CrewGroup "{660B622342811468}" {
@@ -190,6 +230,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "Phase1_ForcedMove_Main_Waypoint" "Phase1_Move_Waypoint" "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
+        m_entityName "Unit2"
        }
       }
      }
@@ -213,6 +254,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "Phase1_ForcedMove_Main_Waypoint" "Phase1_Move_Waypoint" "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
+        m_entityName "Unit3"
        }
       }
      }
@@ -236,6 +278,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "Phase1_ForcedMove_ASR_Waypoint" "Phase1_Move_Waypoint" "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
+        m_entityName "Unit4"
        }
       }
      }
@@ -259,6 +302,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "Phase1_ForcedMove_ASR_Waypoint" "Phase1_Move_Waypoint" "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
+        m_entityName "Unit5"
        }
       }
      }
@@ -282,6 +326,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "Phase1_ForcedMove_Flanking_Waypoint" "Phase1_Move_Waypoint" "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
+        m_entityName "Unit6"
        }
       }
      }
@@ -305,10 +350,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "Phase1_ForcedMove_Flanking_Waypoint" "Phase1_Move_Waypoint" "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
+        m_entityName "Unit7"
        }
       }
      }
      m_waypointDelay 1
+    }
+    TILW_RunScriptInstruction "{666D3A6A1E573D65}" {
+     m_executionDelay 75
+     m_bAllowRerun 1
     }
     TILW_ReactivateEventsInstruction "{660655D8F2E49AF5}" {
      m_executionDelay 240
@@ -371,6 +421,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_ClearFlagInstruction "{660B62344606F79B}" {
      m_flagName "Phase 1 Can Respawn"
     }
+    TILW_RunScriptInstruction "{666D3A6A67B0A257}" {
+     m_executionDelay 6
+     m_iScriptNumber 2
+     m_bAllowRerun 1
+    }
     TILW_SetFlagInstruction "{660C40F69EFBED22}" {
      m_executionDelay 120
      m_flagName "Phase 2 Flag"
@@ -378,16 +433,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SetFlagInstruction "{660D35BAFB91CF80}" {
      m_executionDelay 120
      m_flagName "Phase 2 Mortars"
-    }
-    TILW_SpawnPrefabInstruction "{6625477A64F039A1}" {
-     m_executionDelay 30
-     m_prefab "{AC38C68F91878539}worlds/HotMic/Prefabs/Delete/USSR_Troops_Delete.et"
-     m_locationName "Phase1_Delete"
-    }
-    TILW_SpawnPrefabInstruction "{6625474149476F5F}" {
-     m_executionDelay 35
-     m_prefab "{6E6DF728A17A2785}worlds/HotMic/Prefabs/Delete/General_Opfor_Vehicles_Delete.et"
-     m_locationName "Phase1_Delete"
     }
    }
    m_condition TILW_LiteralTerm "{660655D044A358A1}" {
@@ -401,6 +446,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 6
      m_prefab "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et"
      m_locationName "Phase2_Main_Vics"
+     m_setEntityName "Unit1"
      m_crewConfig TILW_CrewConfig "{660C40FD2EE434F5}" {
       m_crewGroups {
        TILW_CrewGroup "{660C40FD2EE434F7}" {
@@ -424,6 +470,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 3
      m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
      m_locationName "Phase2_Main_Vics2"
+     m_setEntityName "Unit2"
      m_crewConfig TILW_CrewConfig "{660A41EA2C2D6EB7}" {
       m_crewGroups {
        TILW_CrewGroup "{660A41EA2D451EA8}" {
@@ -454,6 +501,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 6
      m_prefab "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et"
      m_locationName "Phase2_Main_Vics3"
+     m_setEntityName "Unit3"
      m_crewConfig TILW_CrewConfig "{660C40E6E021F716}" {
       m_crewGroups {
        TILW_CrewGroup "{660C40E6E021F710}" {
@@ -498,6 +546,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "Phase2_ForcedMove_ASR_Waypoint" "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
+        m_entityName "Unit4"
        }
       }
      }
@@ -519,6 +568,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "Phase2_ForcedMove_ASR_Waypoint" "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
+        m_entityName "Unit5"
        }
       }
      }
@@ -541,6 +591,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "Phase2_ForcedMove_Flanking_Waypoint" "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
+        m_entityName "Unit6"
        }
       }
      }
@@ -563,14 +614,20 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "Phase2_ForcedMove_Flanking_Waypoint" "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
         }
+        m_entityName "Unit7"
        }
       }
      }
+    }
+    TILW_RunScriptInstruction "{666E050B8BEDB2C6}" {
+     m_executionDelay 10
+     m_bAllowRerun 1
     }
     TILW_SpawnGroupInstruction "{660C40F05875DA6E}" {
      m_executionDelay 200
      m_prefab "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/Group_USSR_MSV80_MotRifleSquad.et"
      m_locationName "Phase2_Flanking_Infantry"
+     m_setEntityName "Unit8"
      m_waypointNames {
       "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
      }
@@ -579,6 +636,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 210
      m_prefab "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/Group_USSR_MSV80_MotRifleSquad.et"
      m_locationName "Phase2_ASR_Infantry"
+     m_setEntityName "Unit9"
      m_waypointNames {
       "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
      }
@@ -587,9 +645,14 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 220
      m_prefab "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/Group_USSR_MSV80_MotRifleSquad.et"
      m_locationName "Phase2_ASR_Infantry"
+     m_setEntityName "Unit10"
      m_waypointNames {
       "Phase2_Move_Waypoint" "Phase3_Move_Waypoint" "Phase4_Move_Waypoint"
      }
+    }
+    TILW_RunScriptInstruction "{666E050B9BD2219D}" {
+     m_executionDelay 225
+     m_bAllowRerun 1
     }
     TILW_ReactivateEventsInstruction "{660C40F7AE4DE2A2}" {
      m_executionDelay 240
@@ -648,6 +711,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_ClearFlagInstruction "{660C40E31304544C}" {
      m_flagName "Phase 2 Can Respawn"
     }
+    TILW_RunScriptInstruction "{666E050BF68F4A49}" {
+     m_executionDelay 6
+     m_iScriptNumber 2
+     m_bAllowRerun 1
+    }
     TILW_SetFlagInstruction "{660C40E2D106EBCA}" {
      m_executionDelay 120
      m_flagName "Phase 3 Flag"
@@ -655,21 +723,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SetFlagInstruction "{660D35BAC3A18801}" {
      m_executionDelay 120
      m_flagName "Phase 3 Mortars"
-    }
-    TILW_SpawnPrefabInstruction "{662547495C9558FE}" {
-     m_executionDelay 30
-     m_prefab "{AC38C68F91878539}worlds/HotMic/Prefabs/Delete/USSR_Troops_Delete.et"
-     m_locationName "Phase2_Delete"
-    }
-    TILW_SpawnPrefabInstruction "{6625474953C68865}" {
-     m_executionDelay 35
-     m_prefab "{6E6DF728A17A2785}worlds/HotMic/Prefabs/Delete/General_Opfor_Vehicles_Delete.et"
-     m_locationName "Phase2_Delete"
-    }
-    TILW_SpawnPrefabInstruction "{662547578E35990D}" {
-     m_executionDelay 40
-     m_prefab "{50C498F005EC6EB6}worlds/HotMic/Prefabs/Delete/US_Playermade_Defense_Delete.et"
-     m_locationName "Phase2_Delete"
     }
    }
    m_condition TILW_LiteralTerm "{660655D053A19778}" {
