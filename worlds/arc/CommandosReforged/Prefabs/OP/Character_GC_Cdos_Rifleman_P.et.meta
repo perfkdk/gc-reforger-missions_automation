@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8E323C4D67938F11}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VSR/Character_RHS_RF_MSV_VSR_Rifleman.et"
+ Name "{EC6F888025ED54EF}worlds/arc/CommandosReforged/Prefabs/OP/Character_GC_Cdos_Rifleman_P.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
