@@ -89,6 +89,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "WIN CONDITIONS"
   m_sTextData "BLUFOR wins when all cargo transports (x5) are destroyed. Cargo transports are the covered URALs (x3) and the tanker URALs (x2)"\
   ""\
+  "OR"\
+  ""\
+  "Timer runs out after 60 mins."\
+  ""\
   "OPFOR wins when all surviving cargo transports arrive at the base."\
   ""\
   "BLUFOR has a 5 min setup timer."
