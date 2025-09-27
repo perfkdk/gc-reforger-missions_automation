@@ -240,10 +240,19 @@ $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/
 GenericEntity ammobox : "{BEC8601B09076A89}Prefabs/Props/Military/Arsenal/AmmoBoxes/FIA/AmmoBoxArsenal_CombatOps_1983_US.et" {
  components {
   SCR_ArsenalComponent "{589F01C9C8D4A475}" {
-   m_eSupportedArsenalItemModes 178
+   m_eSupportedArsenalItemTypes 295934
+   m_eSupportedArsenalItemModes 434
+   m_eEditableAttributeGroups 20
+  }
+  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+   Enabled 0
   }
   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-   Enabled 0
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+     m_fBuyMultiplier 0
+    }
+   }
   }
  }
  coords 3987.213 18.512 11421.104
