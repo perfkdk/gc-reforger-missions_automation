@@ -181,6 +181,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "convoy_destroyed"
    }
   }
+  TILW_MissionEvent "{6676CC167E18D45B}" {
+   m_name "Timer"
+   m_instructions {
+    TILW_SendMessageInstruction "{6676CC16458A18D6}" {
+     m_executionDelay 3600
+     m_messageTitle "OPFOR LOSE"
+     m_messageBody "OPFOR has failed to deliver in time."
+    }
+   }
+   m_condition TILW_LiteralTerm "{6676CC167B69A322}" {
+    m_invertTerm 1
+   }
+  }
  }
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
