@@ -9,6 +9,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
+    m_lineColor 0.376 0.749 0.749 1
    }
   }
   coords 6591.88 34.551 8659.259
@@ -37,6 +38,10 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_ignoredVehicles {
      "{929086216DD3010D}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Base.et" "{73F708941FA822BF}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L_Canon.et" "{51DFF3D1F5DA21BE}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L.et" "{7C31E089ECCF7162}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Strike.et"
     }
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_lineColor 0.561 0.071 0.071 1
    }
   }
   coords 7076.564 24.244 9696.896
@@ -68,6 +73,10 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_ignoredVehicles {
      "{929086216DD3010D}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Base.et" "{73F708941FA822BF}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L_Canon.et" "{51DFF3D1F5DA21BE}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L.et" "{7C31E089ECCF7162}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Strike.et"
     }
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_lineColor 0.561 0.071 0.071 1
    }
   }
   coords 3913.139 330.735 11498.104

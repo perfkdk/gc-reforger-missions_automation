@@ -118,36 +118,88 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
 }
-PolylineShapeEntity {
- coords 6513.594 35.044 8777.51
- Points {
-  ShapePoint "{6671029B51C37932}" {
-   Position 59.608 0.752 9.896
+$grp PolylineShapeEntity {
+ {
+  coords 6513.594 35.044 8777.51
+  Points {
+   ShapePoint "{6671029B51C37932}" {
+    Position 59.608 0.752 9.896
+   }
+   ShapePoint "{6671029B51C3B208}" {
+    Position -47.167 -14.476 -38.491
+   }
+   ShapePoint "{6671029B59992CFB}" {
+    Position 143.957 -1.162 -170.605
+   }
+   ShapePoint "{6671029B5E7C6F6B}" {
+    Position 404.755 -5.233 -225.941
+   }
+   ShapePoint "{6671029B5EA7A82A}" {
+    Position 401.458 -7.949 -17.271
+   }
   }
-  ShapePoint "{6671029B51C3B208}" {
-   Position -47.167 -14.476 -38.491
-  }
-  ShapePoint "{6671029B59992CFB}" {
-   Position 143.957 -1.162 -170.605
-  }
-  ShapePoint "{6671029B5E7C6F6B}" {
-   Position 404.755 -5.233 -225.941
-  }
-  ShapePoint "{6671029B5EA7A82A}" {
-   Position 401.458 -7.949 -17.271
+  IsClosed 1
+  {
+   TILW_FactionTriggerEntity UK_CAP1 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 45.72 -6.599 -49.758
+    m_queryRadius 200
+    m_captureTime 60
+    m_sendStatusMessages 1
+    m_locationName "the hill"
+    m_flagName "UK"
+    m_ownerFactionKey "UK"
+    m_ratioThreshold 0.9
+   }
   }
  }
- IsClosed 1
  {
-  TILW_FactionTriggerEntity UK_CAP1 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
-   coords 45.72 -6.599 -49.758
-   m_queryRadius 200
-   m_captureTime 60
-   m_sendStatusMessages 1
-   m_locationName "the hill"
-   m_flagName "UK"
-   m_ownerFactionKey "UK"
-   m_ratioThreshold 0.9
+  coords 6513.594 35.044 8777.51
+  Points {
+   ShapePoint "{6671029B51C37932}" {
+    Position 59.608 0.752 9.896
+   }
+   ShapePoint "{6671029B51C3B208}" {
+    Position -47.167 -14.476 -38.491
+   }
+   ShapePoint "{6671029B59992CFB}" {
+    Position 143.957 -1.162 -170.605
+   }
+   ShapePoint "{6671029B5E7C6F6B}" {
+    Position 404.755 -5.233 -225.941
+   }
+   ShapePoint "{6671029B5EA7A82A}" {
+    Position 401.458 -7.949 -17.271
+   }
+  }
+  IsClosed 1
+  {
+   PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+    components {
+     TILW_MapShapeComponent "{6508F5526836BC09}" {
+      m_drawArea 0
+      m_drawLine 1
+      m_lineColor 0.686 0.58 0.259 1
+     }
+    }
+    coords 0 0 0
+    Points {
+     ShapePoint "{667615ADFF0BF9EB}" {
+      Position 58.149 -10.699 21.002
+     }
+     ShapePoint "{667615ADC4E93D8C}" {
+      Position -47.816 -14.299 -40.211
+     }
+     ShapePoint "{667615ADC5363523}" {
+      Position 142.284 -1.181 -170.088
+     }
+     ShapePoint "{667615ADCAEE3781}" {
+      Position 406.332 -5.184 -226.102
+     }
+     ShapePoint "{667615ADCBEDAEA8}" {
+      Position 399.52 -7.906 -16.735
+     }
+    }
+   }
   }
  }
 }
@@ -197,7 +249,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "TIME_LIMIT"
    m_instructions {
     TILW_SendMessageInstruction "{65DAD44BFF933260}" {
-     m_executionDelay 3600
+     m_executionDelay 4500
      m_messageTitle "ARG VICTORY"
      m_messageBody "UK forces have been delayed for long enough."
     }
