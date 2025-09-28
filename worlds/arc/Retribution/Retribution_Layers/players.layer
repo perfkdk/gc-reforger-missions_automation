@@ -177,7 +177,7 @@ $grp SCR_AIGroup : "{D1C8401D78234671}Prefabs/Groups/OPFOR/Russia/1990s/Airborne
   }
   coords 6650.539 96.658 1191.793
   m_aUnitPrefabSlots {
-   "{6F6D833580121145}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_Pilot_P.et" "{705E721E83043CA2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_Crew_P.et" "{6F6D833580121145}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_Pilot_P.et" "{705E721E83043CA2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_Crew_P.et" "{6F6D833580121145}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_Pilot_P.et" "{705E721E83043CA2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_Crew_P.et"
+   "{DB733D29A8EF9612}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_HeliPilot_P.et" "{4D2C3C1544AE13CF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_HeliCrew_P.et" "{DB733D29A8EF9612}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_HeliPilot_P.et" "{4D2C3C1544AE13CF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_HeliCrew_P.et" "{DB733D29A8EF9612}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_HeliPilot_P.et" "{4D2C3C1544AE13CF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VSR/P/Character_RHS_RF_VDV_VSR_HeliCrew_P.et"
   }
  }
 }
