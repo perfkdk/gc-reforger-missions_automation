@@ -158,7 +158,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Game Master Notes"
   m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "If GM wants to end the mission asap, please have all remaining personnel in the helicopter(s) before switching to the new mission."\
-  ""
+  ""\
+  "After Phase 1, if the players are mentally exhausted or low player count for Phase 2; feel free to end the mission and move on to the next mission,"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 0
