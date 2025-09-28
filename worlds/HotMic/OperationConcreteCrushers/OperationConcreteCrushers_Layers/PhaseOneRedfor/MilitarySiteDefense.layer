@@ -124,36 +124,6 @@ $grp SCR_AIGroup : "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    "MilitarySiteDefendWaypoint"
   }
  }
- MilitarySiteDefendSquad4 {
-  coords 7716.846 10.995 8051.089
-  m_aStaticWaypoints {
-   "MilitarySiteDefendWaypoint"
-  }
- }
- MilitarySiteDefendSquad5 {
-  coords 7843.556 28.191 8175.498
-  m_aStaticWaypoints {
-   "MilitarySiteDefendWaypoint"
-  }
- }
- MilitarySiteDefendSquad6 {
-  coords 7768.066 16.517 8242.196
-  m_aStaticWaypoints {
-   "MilitarySiteDefendWaypoint"
-  }
- }
- MilitarySiteDefendSquad7 {
-  coords 7707.306 32.761 8308.535
-  m_aStaticWaypoints {
-   "MilitarySiteDefendWaypoint"
-  }
- }
- MilitarySiteDefendSquad8 {
-  coords 7537.146 50.094 8192.751
-  m_aStaticWaypoints {
-   "MilitarySiteDefendWaypoint"
-  }
- }
 }
 TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  coords 7682.748 13.331 8085.121
@@ -178,7 +148,7 @@ TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.e
   m_useIdleGroups 0
  }
 }
-SCR_AIGroup MilitarySiteDefendSquad9 : "{8984FEFAA829ED76}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_PHQ.et" {
+SCR_AIGroup MilitarySiteDefendSquad4 : "{8984FEFAA829ED76}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_PHQ.et" {
  coords 7667.798 13.014 8079.163
  m_aStaticWaypoints {
   "MilitarySiteDefendWaypoint2"

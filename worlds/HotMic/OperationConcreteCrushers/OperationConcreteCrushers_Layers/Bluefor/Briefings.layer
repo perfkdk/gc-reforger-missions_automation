@@ -11,7 +11,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "-- Pre-Slotting -- "\
   "4 Pilots per full Rifle Platoon | No Attack Helicopters"\
   ""\
-  "Time Limit: 75 min"\
+  "Time Limit: 80 min"\
   ""\
   "Mission by Hot Mic"\
   "Briefing Making Assistant: Haesten"\
@@ -22,14 +22,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 9498.968 22.33 6952.947
   m_sTitle "I. Situation"
-  m_sTextData "Time: 1100 hours; June 27th, 202x"\
+  m_sTextData "Time: 1000 hours; June 27th, 202x"\
   "Location: Everon"\
   "Weather: Random, Morning"\
   ""\
   "The United States is launching a large-scale operation to seize control of the island of Everon. Intelligence has identified the presence of the Commander currently overseeing the defense of the island. This individual is currently overseeing the island’s defense. His leadership and coordination are critical to the enemy's ability to establish a resistance against NATO. The Northern Airport has been seized by a section of VDV. The rest of the island has been occupied by remnants of various elements as per J2."
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bShowForAnyFaction 1
   m_iOrder 0
  }
  {
@@ -49,13 +47,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "10x Armed RHIB (.50 Cal) (8 Passagers + 1 Gunner)"\
   ""\
   "⬤ Enemy Forces ⬤"\
-  "Each site contains at least a platoon-strength infantry supported by a BTR. "\
+  "Each site contains a platoon-strength infantry supported by a BTR. "\
   ""\
   "Additionally, each major urban area might have additional security. Unknown strength at this time, but estimated squads without mechanized forces due to intercepted radio transmissions."\
   ""
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bShowForAnyFaction 1
   m_iOrder 0
  }
  {
@@ -78,14 +74,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "20 Tickets"\
   "If one died during Phase 1 and respawned on deck. It's not allowed to be re-inserted until Phase 1 is concluded."\
   ""\
+  "- Intel Gathering -"\
+  "Each Command Post may contain a large red folder that can be collected by holding the Interact button."\
+  "If no red folder is present, the site holds no intel; move on to the next objective."\
+  ""\
   "- Live Map Editing -"\
   "Live Map editing is allowed after Phase 1. In-game message will notify the COs. Only top 2 ground COs and 1 Flight Lead is allow to add/edit new markers. They have 5 mins."\
   ""\
   "- Post Phase 1 -"\
   "COs can plan for extraction back to LHD after completing Phase 1 if they so choose or refit."
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bShowForAnyFaction 1
   m_iOrder 0
  }
  {
@@ -99,9 +97,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- Phase 2-"\
   "Once intel is confirmed, assault the enemy Battalion Commander’s position once identified, neutralize the target, and extract remaining forces to the LHD."\
   ""
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bShowForAnyFaction 1
   m_iOrder 0
  }
  {
@@ -119,9 +115,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Supply drops can be coordinated via helicopter."\
   "For personal resupply and mission-essential equipment. Additional weapon systems may be equipped only with approval from your leadership."\
   ""
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bShowForAnyFaction 1
   m_iOrder 0
  }
  {
@@ -156,9 +150,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Blue Platoon: 48.5 MHz"\
   "Air Net: 49 MHz"\
   ""
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bShowForAnyFaction 1
   m_iOrder 0
  }
  {
@@ -183,9 +175,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 50
   m_sDescription "USS Concrete"
   m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
  }
  {
   coords 7685.963 13.776 8115.968
@@ -195,9 +186,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 50
   m_sDescription "Military Site"
   m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bShowForAnyFaction 1
  }
  {
   coords 7465.583 7.732 6714.267
@@ -207,9 +196,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 50
   m_sDescription "Chotain Military Site"
   m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bShowForAnyFaction 1
  }
  {
   coords 7096.92 119.28 6012.819
@@ -219,9 +206,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 50
   m_sDescription "Chotain Site"
   m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bShowForAnyFaction 1
  }
  {
   coords 7559.635 82.43 5543.083
@@ -231,9 +216,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 50
   m_sDescription "Laruns Site"
   m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bShowForAnyFaction 1
  }
  {
   coords 7480.794 137.111 4738.216
@@ -243,8 +226,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 50
   m_sDescription "Levie Site"
   m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_bShowForAnyFaction 1
  }
 }

@@ -99,36 +99,6 @@ $grp SCR_AIGroup : "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    "LevieDefendWaypoint"
   }
  }
- LevieDefendSquad4 {
-  coords 7485.86 136.107 4771.539
-  m_aStaticWaypoints {
-   "LevieDefendWaypoint"
-  }
- }
- LevieDefendSquad5 {
-  coords 7466.311 130.225 4867.058
-  m_aStaticWaypoints {
-   "LevieDefendWaypoint"
-  }
- }
- LevieDefendSquad6 {
-  coords 7375.881 128.36 4784.144
-  m_aStaticWaypoints {
-   "LevieDefendWaypoint"
-  }
- }
- LevieDefendSquad7 {
-  coords 7380.624 139.413 4679.636
-  m_aStaticWaypoints {
-   "LevieDefendWaypoint"
-  }
- }
- LevieDefendSquad8 {
-  coords 7465.134 139.222 4737.418
-  m_aStaticWaypoints {
-   "LevieDefendWaypoint2"
-  }
- }
 }
 TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  coords 7487.668 137.219 4743.325
@@ -153,7 +123,7 @@ TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.e
   m_useIdleGroups 0
  }
 }
-SCR_AIGroup LevieDefendSquad9 : "{8984FEFAA829ED76}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_PHQ.et" {
+SCR_AIGroup LevieDefendSquad4 : "{8984FEFAA829ED76}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_PHQ.et" {
  coords 7474.447 144.123 4724.367
  m_aStaticWaypoints {
   "LevieDefendWaypoint2"
@@ -174,5 +144,6 @@ $grp Vehicle : "{8E7F7A0368CE8805}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_
  }
 }
 SCR_DefendWaypoint LevieDefendWaypoint : "{A33AF7FC5004F294}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large_CO.et" {
- coords 7481.781 144.858 4708.237
+ coords 7481.781 140.544 4709.542
+ CompletionRadius 150
 }

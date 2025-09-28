@@ -333,31 +333,31 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
     TILW_DeleteEntitiesInstruction "{665766B85B6D5210}" {
      m_executionDelay 0
      m_entityNames {
-      "ChotainDefendSquad1" "ChotainDefendSquad2" "ChotainDefendSquad3" "ChotainDefendSquad4" "ChotainDefendSquad5" "ChotainDefendSquad6" "ChotainDefendSquad7" "ChotainDefendSquad8" "ChotainDefendSquad9"
+      "ChotainDefendSquad1" "ChotainDefendSquad2" "ChotainDefendSquad3" "ChotainDefendSquad4"
      }
     }
     TILW_DeleteEntitiesInstruction "{665766B95E5C7F94}" {
      m_executionDelay 3
      m_entityNames {
-      "ChotainMilitarySiteDefendSquad1" "ChotainMilitarySiteDefendSquad2" "ChotainMilitarySiteDefendSquad3" "ChotainMilitarySiteDefendSquad4" "ChotainMilitarySiteDefendSquad5" "ChotainMilitarySiteDefendSquad6" "ChotainMilitarySiteDefendSquad7" "ChotainMilitarySiteDefendSquad8"
+      "ChotainMilitarySiteDefendSquad1" "ChotainMilitarySiteDefendSquad2" "ChotainMilitarySiteDefendSquad3" "ChotainMilitarySiteDefendSquad4"
      }
     }
     TILW_DeleteEntitiesInstruction "{665766B9E3D4F688}" {
      m_executionDelay 6
      m_entityNames {
-      "LarunDefendSquad1" "LarunDefendSquad2" "LarunDefendSquad3" "LarunDefendSquad4" "LarunDefendSquad5" "LarunDefendSquad6" "LarunDefendSquad7" "LarunDefendSquad8"
+      "LarunDefendSquad1" "LarunDefendSquad2" "LarunDefendSquad3" "LarunDefendSquad4" "LarunDefendSquad5"
      }
     }
     TILW_DeleteEntitiesInstruction "{665766B9DCCDD2B0}" {
      m_executionDelay 9
      m_entityNames {
-      "LevieDefendSquad1" "LevieDefendSquad2" "LevieDefendSquad3" "LevieDefendSquad4" "LevieDefendSquad5" "LevieDefendSquad6" "LevieDefendSquad7" "LevieDefendSquad8" "LevieDefendSquad9"
+      "LevieDefendSquad1" "LevieDefendSquad2" "LevieDefendSquad3" "LevieDefendSquad4"
      }
     }
     TILW_DeleteEntitiesInstruction "{665766B9D20F92A6}" {
      m_executionDelay 12
      m_entityNames {
-      "MilitarySiteDefendSquad1" "MilitarySiteDefendSquad2" "MilitarySiteDefendSquad3" "MilitarySiteDefendSquad4" "MilitarySiteDefendSquad5" "MilitarySiteDefendSquad6" "MilitarySiteDefendSquad7" "MilitarySiteDefendSquad8" "MilitarySiteDefendSquad9"
+      "MilitarySiteDefendSquad1" "MilitarySiteDefendSquad2" "MilitarySiteDefendSquad3" "MilitarySiteDefendSquad4"
      }
     }
     TILW_DeleteEntitiesInstruction "{665766BEC915422E}" {
@@ -426,6 +426,23 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
       m_flagName "US Extraction Flag"
      }
     }
+   }
+  }
+  TILW_MissionEvent "{66780D03BD20BDC7}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{66780D03B550C1D4}" {
+     m_executionDelay 3600
+     m_messageTitle "20 Minutes Left"
+    }
+    TILW_SendMessageInstruction "{66780D0384748D27}" {
+     m_executionDelay 4800
+     m_messageTitle "USMC Defeat!"
+     m_messageBody "Time Limit Reach"
+    }
+   }
+   m_condition TILW_LiteralTerm "{66780D03B6EC3821}" {
+    m_invertTerm 1
    }
   }
  }

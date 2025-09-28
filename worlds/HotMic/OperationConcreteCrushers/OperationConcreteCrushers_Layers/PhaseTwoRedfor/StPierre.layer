@@ -84,7 +84,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  {
-  coords 9654.789 27.391 1368.634
+  coords 9654.789 15.148 1585.134
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "StPierre Spawn Flag"
   m_spawnTimings {
@@ -100,117 +100,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_conditionFlag "StPierre Spawn Flag"
   m_spawnTimings {
    35
-  }
-  m_waypointNames {
-   "PierreDefenseWaypoint"
-  }
- }
- {
-  coords 9558.635 25.544 1516.391
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPierre Spawn Flag"
-  m_spawnTimings {
-   40
-  }
-  m_waypointNames {
-   "PierreDefenseWaypoint"
-  }
- }
- {
-  coords 9640.499 20.21 1501.233
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPierre Spawn Flag"
-  m_spawnTimings {
-   45
-  }
-  m_waypointNames {
-   "PierreDefenseWaypoint"
-  }
- }
- {
-  coords 9770.671 16.582 1680.482
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPierre Spawn Flag"
-  m_spawnTimings {
-   50
-  }
-  m_waypointNames {
-   "PierreDefenseWaypoint"
-  }
- }
- {
-  coords 9844.975 3.087 1526.705
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPierre Spawn Flag"
-  m_spawnTimings {
-   55
-  }
-  m_waypointNames {
-   "PierreDefenseWaypoint"
-  }
- }
- {
-  coords 9771.301 4.618 1550.235
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPierre Spawn Flag"
-  m_spawnTimings {
-   60
-  }
-  m_waypointNames {
-   "PierreDefenseWaypoint"
-  }
- }
- {
-  coords 9742.838 12.562 1474.51
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPierre Spawn Flag"
-  m_spawnTimings {
-   65
-  }
-  m_waypointNames {
-   "PierreDefenseWaypoint"
-  }
- }
- {
-  coords 9675.848 21.33 1627.057
-  angleY -19.459
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPierre Spawn Flag"
-  m_spawnTimings {
-   70
-  }
-  m_waypointNames {
-   "PierreDefenseWaypoint"
-  }
- }
- {
-  coords 9666.931 19.987 1590.805
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPierre Spawn Flag"
-  m_spawnTimings {
-   75
-  }
-  m_waypointNames {
-   "PierreDefenseWaypoint"
-  }
- }
- {
-  coords 9568.297 25.96 1609.011
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPierre Spawn Flag"
-  m_spawnTimings {
-   80
-  }
-  m_waypointNames {
-   "PierreDefenseWaypoint"
-  }
- }
- {
-  coords 9687.612 20.253 1430.072
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPierre Spawn Flag"
-  m_spawnTimings {
-   85
   }
   m_waypointNames {
    "PierreDefenseWaypoint"

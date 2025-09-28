@@ -153,7 +153,7 @@ GenericEntity : "{144F1136AB4DB0E8}Prefabs/Compositions/Slotted/SlotFlatSmall/Li
    {
     StaticModelEntity {
      ID "5D1EB454858F64CB"
-     coords 0 -0 0
+     coords 0 0 0
     }
    }
   }
@@ -590,28 +590,10 @@ $grp SCR_AIGroup : "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    "LarunsDefendWaypoint_3"
   }
  }
- LarunDefendSquad8 {
-  coords 7588.602 80.526 5561.962
-  m_aStaticWaypoints {
-   "LarunsDefendWaypoint_8"
-  }
- }
  LarunDefendSquad4 {
   coords 7459.755 94.32 5537.583
   m_aStaticWaypoints {
    "LarunsDefendWaypoint_4"
-  }
- }
- LarunDefendSquad6 {
-  coords 7546.838 83.112 5501.368
-  m_aStaticWaypoints {
-   "LarunsDefendWaypoint_6"
-  }
- }
- LarunDefendSquad7 {
-  coords 7549.375 82.781 5472.207
-  m_aStaticWaypoints {
-   "LarunsDefendWaypoint_7"
   }
  }
 }

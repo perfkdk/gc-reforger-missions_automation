@@ -18,7 +18,7 @@ TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_Ex
 }
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  {
-  coords 4472.454 13.56 10704.506
+  coords 4553.954 13.56 10540.006
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "StPhillipe Spawn Flag"
   m_spawnTimings {
@@ -51,7 +51,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  {
-  coords 4373.393 4.843 10898.795
+  coords 4320.967 5.795 10703.683
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "StPhillipe Spawn Flag"
   m_spawnTimings {
@@ -100,171 +100,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_conditionFlag "StPhillipe Spawn Flag"
   m_spawnTimings {
    35
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4613.833 19.018 10790.021
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   40
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4609.292 21.104 10718.756
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   45
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4673.913 21.496 10689.034
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   50
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4635.029 18.325 10571.415
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   55
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4615.418 15.95 10497.225
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   60
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4547.257 16.46 10541.457
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   65
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4548.775 15.968 10473.597
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   70
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4469.803 18.377 10592.58
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   75
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4412.842 16.37 10591.415
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   80
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4349.264 11.984 10645.574
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   85
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4341.518 8.082 10725.586
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   90
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4249.699 6.24 10646.559
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   95
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4412.755 3.791 10818.223
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   100
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4511.545 17.055 10865.049
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   105
-  }
-  m_waypointNames {
-   "PhillipeDefenseWaypoint"
-  }
- }
- {
-  coords 4566.238 17.062 10624.663
-  m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
-  m_conditionFlag "StPhillipe Spawn Flag"
-  m_spawnTimings {
-   110
   }
   m_waypointNames {
    "PhillipeDefenseWaypoint"
