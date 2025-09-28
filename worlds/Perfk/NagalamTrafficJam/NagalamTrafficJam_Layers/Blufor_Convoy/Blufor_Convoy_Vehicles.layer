@@ -9,7 +9,7 @@ $grp Vehicle : "{0B2763663404AD2E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo_Gu
     }
    }
   }
-  coords 2048.117 20.326 3653.011
+  coords 2047.882 20.353 3652.157
   angleX 1.741
   angleY 166.498
   angleZ -0.419
@@ -27,11 +27,17 @@ $grp Vehicle : "{0B2763663404AD2E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo_Gu
     }
    }
   }
-  coords 2038.182 19.081 3691.535
+  coords 2039.988 19.043 3691.745
   angleX 2.549
   angleY 172.718
   angleZ -1.227
  }
+}
+Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ coords 1188.331 29.756 3477.53
+ angleX -3.995
+ angleY -118.377
+ angleZ 0.126
 }
 $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RifleSquad_P.et" {
  Rifle11 {
@@ -223,6 +229,12 @@ Vehicle M923A1_repair_GulfWar_unlimited_supply1 : "{38282D4B7BD8324A}worlds/Perf
  angleY 47.238
  m_sAttachmentGroupName "Rifle31Engineering"
 }
+Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ coords 1195.185 30.059 3475.455
+ angleX 0.431
+ angleY 140.989
+ angleZ 1.954
+}
 Vehicle M997_maxi_ambulance_GulfWar1 : "{6EBA88F9481F5E06}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_GulfWar.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
@@ -342,10 +354,10 @@ Vehicle M998_covered_long_USAF_D1 : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/
    }
   }
  }
- coords 2061.277 20.708 3639.945
- angleX 1.262
- angleY 140.445
- angleZ 0.12
+ coords 2059.164 20.697 3638.5
+ angleX 1.266
+ angleY 137.786
+ angleZ 0.061
  m_sAttachmentGroupName "RifleConvoy03"
 }
 Vehicle Ural4320_tanker_tan1 : "{9E0B1495CBE91D3A}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker_GulfWar.et" {
@@ -361,7 +373,7 @@ Vehicle Ural4320_tanker_tan1 : "{9E0B1495CBE91D3A}Prefabs/Vehicles/Wheeled/M923A
    }
   }
  }
- coords 2045.745 19.94 3667.634
+ coords 2047.378 19.985 3666.404
  angleX 1.258
  angleY 141.493
  angleZ 0.143
@@ -385,19 +397,10 @@ Vehicle Ural4320_transport_tan1 : "{A53CDB2CCE892DEA}Prefabs/Vehicles/Wheeled/M9
  angleZ 0.761
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- coords 256.167 41.841 3174.516
- angleX -4.881
- angleY 174.384
- angleZ -3.996
- m_fWarnRadius 170
- m_fZoneRadius 180
- m_fZoneTeleportedRadius 180
- {
-  GenericEntity {
-   ID "59D673B36B893D84"
-   coords -33.894 2.847 15.441
-  }
- }
+ coords 296.763 41.749 3185.714
+ m_fWarnRadius 174
+ m_fZoneRadius 214
+ m_fZoneTeleportedRadius 224
 }
 $grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
  M1025_armed_M2HB_USAF_D2 {
@@ -426,7 +429,7 @@ $grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
     }
    }
   }
-  coords 2028.529 18.363 3701.913
+  coords 2027.823 18.362 3701.469
   angleX 3.202
   angleY 153.013
   angleZ 0.376
@@ -454,10 +457,10 @@ $grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
     }
    }
   }
-  coords 2058.012 20.601 3643.589
-  angleX 1.265
-  angleY 137.991
-  angleZ 0.066
+  coords 2056.067 20.587 3642.558
+  angleX 1.234
+  angleY 148.107
+  angleZ 0.287
   m_sAttachmentGroupName "RifleConvoy01"
  }
 }

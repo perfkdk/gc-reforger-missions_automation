@@ -56,7 +56,7 @@ GenericEntity WoundedAI : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/C
         m_fPerceptionFactor 60
        }
       }
-      coords -3.527 0 2.184
+      coords -1.996 -0.014 3.418
       angleY -0.112
      }
      rescueUnit_2 {
@@ -103,7 +103,7 @@ GenericEntity WoundedAI : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/C
         m_fPerceptionFactor 60
        }
       }
-      coords 13.369 -0.078 -22.419
+      coords 11.677 -0.078 -20.945
       angleY 149.826
      }
      rescueUnit_3 {
@@ -148,7 +148,7 @@ GenericEntity WoundedAI : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/C
         m_fPerceptionFactor 60
        }
       }
-      coords 10.557 -0.097 -25.5
+      coords 10.033 -0.108 -26.076
       angleX -1.729
       angleY -6.991
       angleZ -1.002
@@ -188,7 +188,7 @@ GenericEntity WoundedAI : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/C
         m_fPerceptionFactor 60
        }
       }
-      coords -0.666 -0.001 4.096
+      coords 1.501 0.122 5.884
       angleX -0.384
       angleY 53.531
       angleZ 2.502
@@ -228,7 +228,7 @@ GenericEntity WoundedAI : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/C
         m_fPerceptionFactor 60
        }
       }
-      coords -2.487 0.01 0.826
+      coords -0.956 -0.004 2.06
       angleX -0.34
       angleY 49.889
       angleZ 3.782
@@ -268,7 +268,7 @@ GenericEntity WoundedAI : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/C
         m_fPerceptionFactor 60
        }
       }
-      coords 10.983 -0.002 -15.428
+      coords 11.291 0.017 -14.715
       angleX -3.552
       angleY 155.511
       angleZ -1.345

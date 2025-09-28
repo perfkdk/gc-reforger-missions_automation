@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  D3_Notes {
   coords 3427.854 55.094 1816.473
   m_sTitle "Notes"
-  m_sTextData "Setup Timer: 5m"\
+  m_sTextData "Setup Timer: 4m"\
   ""\
   "<b>End conditions:</b>"\
   "- NVA Victory: 2m of 80% control over the bridge area (includes all nearby buildings SW of the creek)"\
