@@ -9,6 +9,9 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
+    m_factionKeys {
+     "GC_ARG"
+    }
     m_lineColor 0.376 0.749 0.749 1
    }
   }
@@ -36,7 +39,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
      "UK"
     }
     m_ignoredVehicles {
-     "{929086216DD3010D}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Base.et" "{73F708941FA822BF}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L_Canon.et" "{51DFF3D1F5DA21BE}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L.et" "{7C31E089ECCF7162}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Strike.et"
+     "{929086216DD3010D}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Base.et"
     }
     m_visibility FACTION
    }
