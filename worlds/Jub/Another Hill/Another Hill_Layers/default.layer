@@ -234,15 +234,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{65DAD44B18B1FFCF}" {
-   m_name "UK_KIA"
+   m_name "ARG_KIA"
    m_instructions {
     TILW_SendMessageInstruction "{65DAD44B173C3443}" {
-     m_messageTitle "ARG VICTORY"
-     m_messageBody "UK forces have taken significant casualties."
+     m_messageTitle "UK VICTORY"
+     m_messageBody "ARG forces have taken significant casualties."
     }
    }
    m_condition TILW_LiteralTerm "{65DAD44B124E4EED}" {
-    m_flagName "UK_KIA"
+    m_flagName "ARG_KIA"
    }
   }
   TILW_MissionEvent "{65DAD44BE3E4874B}" {
