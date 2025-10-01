@@ -124,9 +124,6 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     }
     m_defaultColor 0.561 0.439 0.071 1
    }
-   TILW_CoverMapComponent "{6473480FCAB7760B}" {
-    Enabled 1
-   }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
    }
@@ -216,7 +213,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  coords 1975.851 66.373 6735.549
  m_missionEvents {
   TILW_MissionEvent "{65DAD44B20B959A8}" {
-   m_name "USMC_KIA"
+   m_name "US_KIA"
    m_instructions {
     TILW_SendMessageInstruction "{65DAD44B3E9B04E5}" {
      m_messageTitle "Duck VICTORY"
@@ -224,7 +221,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
    m_condition TILW_LiteralTerm "{65DAD44B3CEA7945}" {
-    m_flagName "USMC_KIA"
+    m_flagName "US_KIA"
    }
   }
   TILW_MissionEvent "{65DAD44B18B1FFCF}" {
