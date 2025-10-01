@@ -15,6 +15,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "90% UK casualties or 75 minutes pass: ARG victory"\
   ""\
   "Capzones marked by circles, requires 90% UK control for 1 minute each."\
+  "UK helicopters are NOT restricted to the AO"\
   "UK restricted to their spawns for 5 minutes"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1

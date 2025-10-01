@@ -302,6 +302,9 @@ $grp GenericEntity : "{E0E74C1EF4CD0C60}Prefabs/Props/Military/Arsenal/AmmoBoxes
      }
     }
    }
+   SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+    "faction affiliation" "GC_ARG"
+   }
    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
     m_aConsumers {
      SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {

@@ -1,3 +1,29 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A2995A7E8BC2}" {
+     NavmeshFile "{BA41723F3F314964}worlds/Navmesh/Soldiers.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A299509CF377}" {
+     NavmeshFile "{496DB79F7F4F33BE}worlds/Navmesh/BTRLike.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90B7788942D4B8}" {
+     NavmeshFile "{7C34271D8EC6FA18}worlds/Navmesh/LowRes.nmn"
+    }
+   }
+  }
+ }
+ coords 4145.497 0 11261.986
+}
 GenericWorldFogEntity : "{78D9BBF0F423FEB4}Prefabs/World/DefaultWorld/FogHaze_Default.et" {
  coords 1767.751 66.03 6658.533
  HeightDensity 1
@@ -8,9 +34,6 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 4
-   m_iRangeHoursStart 3
-   m_iRangeHoursEnd 5
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{65D9122E96DBA160}" {
@@ -18,7 +41,6 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
      m_iStartingHour 4
     }
    }
-   m_bAllowHeaderSettings 1
    m_bUseSpecifiedDate 1
    m_iSetDay 28
    m_iSetMonth 5
@@ -125,7 +147,7 @@ PolylineShapeEntity {
   }
  }
 }
-GenericEntity : "{15518B113BCC7396}GitHub/gc-reforger-units/Prefabs/Structures/Naval/USS_Concrete.et" {
+GenericEntity : "{15518B113BCC7396}Prefabs/Structures/Naval/USS_Concrete.et" {
  coords 3942.22 0.422 11413.777
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
@@ -156,15 +178,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{65DAD44B18B1FFCF}" {
-   m_name "UK_KIA"
+   m_name "ARG_KIA"
    m_instructions {
     TILW_SendMessageInstruction "{65DAD44B173C3443}" {
-     m_messageTitle "ARG VICTORY"
-     m_messageBody "UK forces have taken significant casualties."
+     m_messageTitle "UK VICTORY"
+     m_messageBody "ARG forces have taken significant casualties."
     }
    }
    m_condition TILW_LiteralTerm "{65DAD44B124E4EED}" {
-    m_flagName "UK_KIA"
+    m_flagName "ARG_KIA"
    }
   }
   TILW_MissionEvent "{65DAD44BE3E4874B}" {

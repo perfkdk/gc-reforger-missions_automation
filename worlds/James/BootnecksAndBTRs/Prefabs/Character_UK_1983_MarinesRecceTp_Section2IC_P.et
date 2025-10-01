@@ -2,28 +2,28 @@ SCR_ChimeraCharacter : "{31F5013E85B6DC2C}Prefabs/Characters/Factions/BLUFOR/UK_
  ID "62790652124811DD"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{CA55D15F8CC57E0F}Prefabs/Weapons/Rifles/AR15_604/Rifle_AR15_604_30rnd.et"
+   WeaponTemplate "{0AE2212733AB9861}Prefabs/Weapons/Rifles/M16/Rifle_AR15_604.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC3129E7848BC}" {
      PrefabsToSpawn {
-      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{610CC312DBF11ACA}" {
      PrefabsToSpawn {
-      "" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      "" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et" "{1C2AE568E16FDDED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{610CC31278A75ED6}" {
      PrefabsToSpawn {
-      "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      "{1C2AE568E16FDDED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{610D52FBCFED007D}" {
      PrefabsToSpawn {
-      "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et" "{15DE59A0089AA290}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Ball.et"
      }
     }
    }

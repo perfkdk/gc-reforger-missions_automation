@@ -6,9 +6,14 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
      "GC_ARG"
     }
     m_useFactionColor 0
+    m_defaultColor 0.376 0.749 0.749 1
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_lineColor 0.376 0.749 0.749 1
    }
   }
   coords 6591.88 34.551 8659.259
@@ -35,8 +40,13 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
      "UK"
     }
     m_ignoredVehicles {
-     "{929086216DD3010D}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Base.et" "{73F708941FA822BF}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L_Canon.et" "{51DFF3D1F5DA21BE}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L.et" "{7C31E089ECCF7162}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Strike.et"
+     "{929086216DD3010D}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_Base.et"
     }
+    m_visibility FACTION
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_lineColor 0.561 0.071 0.071 1
    }
   }
   coords 7076.564 24.244 9696.896

@@ -18,7 +18,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  O_MISSION {
   coords 7140.411 149.321 2142.368
   m_sTitle "MISSION"
-  m_sTextData "Our platoon will conduct route clearance along ROUTE IVAN while escorting important supplies."
+  m_sTextData "Our platoon will conduct route clearance along ROUTE IVAN while escorting important supplies within the hour."
   m_aVisibleForFactions {
    "USSR"
   }
