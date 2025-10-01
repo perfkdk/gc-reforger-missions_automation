@@ -171,7 +171,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "TIME_LIMIT"
    m_instructions {
     TILW_SendMessageInstruction "{65DAD44BFF933260}" {
-     m_executionDelay 3600
+     m_executionDelay 4500
      m_messageTitle "ARG VICTORY"
      m_messageBody "UK forces have been delayed for long enough."
     }
