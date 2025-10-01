@@ -142,7 +142,7 @@ $grp PolylineShapeEntity {
     m_captureTime 60
     m_sendStatusMessages 1
     m_locationName "the hill"
-    m_flagName "UK"
+    m_flagName "UK_CAP1"
     m_ownerFactionKey "UK"
     m_ratioThreshold 0.9
    }
