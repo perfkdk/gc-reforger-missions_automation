@@ -10,7 +10,11 @@ $grp GenericEntity : "{00A3B9444B0BD14C}Prefabs/Compositions/Slotted/SlotFlatSma
       ID "646D3320E37D75EC"
       components {
        SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-        Enabled 0
+        m_aConsumers {
+         SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+          m_fBuyMultiplier 0
+         }
+        }
        }
       }
      }
@@ -43,7 +47,11 @@ $grp GenericEntity : "{00A3B9444B0BD14C}Prefabs/Compositions/Slotted/SlotFlatSma
       ID "646D3320E37D75EC"
       components {
        SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-        Enabled 0
+        m_aConsumers {
+         SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+          m_fBuyMultiplier 0
+         }
+        }
        }
       }
      }
@@ -85,7 +93,7 @@ Vehicle Gazelle_342L_Canon1 : "{73F708941FA822BF}Prefabs/Vehicles/Helicopters/Ga
  coords 3978.033 18.55 11397.404
  angleY -85.197
 }
-$grp SCR_AIGroup : "{7FC8ED620451A6B6}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaCoyHQ_P.et" {
+$grp SCR_AIGroup : "{7FC8ED620451A6B6}USMC changes/Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaCoyHQ_P.et" {
  Flightcrew {
   coords 3969.82 19.105 11408.362
   m_aUnitPrefabSlots {
@@ -105,7 +113,25 @@ $grp SCR_AIGroup : "{7FC8ED620451A6B6}Prefabs/Groups/BLUFOR/British Forces/1983/
   angleY -85.499
  }
 }
-$grp SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaPHQ_P.et" {
+GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_US.et" {
+ components {
+  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+     m_fBuyMultiplier 0
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGeneratorServicePoint "{5E5AD30768BBE3D1}" {
+     m_fResourceMultiplier 4.333
+    }
+   }
+  }
+ }
+ coords 3981.266 18.471 11416.251
+ angleY 175.115
+}
+$grp SCR_AIGroup : "{89792EAE79CEF9DF}USMC changes/Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaPHQ_P.et" {
  Morts {
   components {
    PS_GroupCallsignAssigner "{667102A117501594}" {
@@ -116,7 +142,7 @@ $grp SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/
   coords 7502.869 1.768 10124.248
   angleY -40.399
   m_aUnitPrefabSlots {
-   "{5B78F2171B302841}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_MFC_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et"
+   "{5B78F2171B302841}USMC changes/Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_MFC_P.et" "{4ED6C861B5C8B5CD}USMC changes/Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}USMC changes/Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}USMC changes/Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}USMC changes/Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et"
   }
   m_sCustomNameSet "Mortar Section"
  }
@@ -151,7 +177,7 @@ $grp Vehicle : "{929086216DD3010D}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_B
   angleY -87.8
  }
 }
-$grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaSection_P.et" {
+$grp SCR_AIGroup : "{A5F2431C2DCF3118}USMC changes/Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaSection_P.et" {
  b1a {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -243,8 +269,27 @@ GenericEntity ammobox : "{BEC8601B09076A89}Prefabs/Props/Military/Arsenal/AmmoBo
    m_eSupportedArsenalItemModes 178
   }
   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-   Enabled 0
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+     m_fBuyMultiplier 0
+    }
+   }
   }
  }
  coords 3987.213 18.512 11421.104
+}
+StaticModelEntity : "{F8427C3EFC52644E}Prefabs/Structures/Military/Camps/TentUS_01/TentUSMedical_01.et" {
+ components {
+  SCR_HealSupportStationComponent "{5EE8A81A8E23D62A}" {
+   m_fRange 20
+  }
+  SCR_ResourceComponent "{5EE8A81ADEC69E93}" {
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{5EE8A81AFBA36391}" {
+     m_fBuyMultiplier 0
+    }
+   }
+  }
+ }
+ coords 3979.367 18.516 11420.836
 }

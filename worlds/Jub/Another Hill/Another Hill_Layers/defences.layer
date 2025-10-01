@@ -114,21 +114,15 @@ $grp StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortific
     }
     {
      coords 17.196 0.001 -1.179
-     angleX -0
      angleY 24.384
-     angleZ -0
     }
     {
      coords 23.363 0.001 -4.03
-     angleX -0
      angleY 24.384
-     angleZ -0
     }
     {
      coords 29.598 0 -6.81
-     angleX -0
      angleY 24.384
-     angleZ -0
     }
    }
   }
@@ -146,21 +140,15 @@ $grp StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortific
     }
     {
      coords 17.196 0.001 -1.179
-     angleX -0
      angleY 24.384
-     angleZ -0
     }
     {
      coords 23.363 0.001 -4.03
-     angleX -0
      angleY 24.384
-     angleZ -0
     }
     {
      coords 29.598 0 -6.81
-     angleX -0
      angleY 24.384
-     angleZ -0
     }
     {
      coords 6.042 0 -0.024
@@ -198,9 +186,30 @@ $grp GenericEntity : "{E0E74C1EF4CD0C60}Prefabs/Props/Military/Arsenal/AmmoBoxes
   components {
    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
     m_eSupportedArsenalItemTypes 62
+    m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{6490E7E5E9391AFD}" {
+     m_aArsenalItems {
+      SCR_ArsenalItemStandalone "{6682FC12DB3727AE}" {
+       m_eItemType MACHINE_GUN
+       m_ItemResourceName "{1C6912B8193EEB8A}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_1Ball_1Tracer.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11619E862E}" {
+       m_ItemResourceName "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11791E6E54}" {
+       m_ItemResourceName "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11BE07C2D6}" {
+       m_ItemResourceName "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+      }
+     }
+    }
    }
    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-    Enabled 0
+    m_aConsumers {
+     SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+      m_fBuyMultiplier 0
+     }
+    }
    }
   }
   coords 6688.757 32.796 8740.233
@@ -214,9 +223,42 @@ $grp GenericEntity : "{E0E74C1EF4CD0C60}Prefabs/Props/Military/Arsenal/AmmoBoxes
   components {
    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
     m_eSupportedArsenalItemTypes 62
+    m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{6490E7E5E9391AFD}" {
+     m_aArsenalItems {
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AF4}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AED}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AE0}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AE2}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AE4}" {
+      }
+      SCR_ArsenalItemStandalone "{649CE5C7B75FD778}" {
+      }
+      SCR_ArsenalItemStandalone "{6682FC12DB3727AE}" {
+       m_eItemType MACHINE_GUN
+       m_ItemResourceName "{1C6912B8193EEB8A}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_1Ball_1Tracer.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11619E862E}" {
+       m_ItemResourceName "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11791E6E54}" {
+       m_ItemResourceName "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11BE07C2D6}" {
+       m_ItemResourceName "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+      }
+     }
+    }
    }
    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-    Enabled 0
+    m_aConsumers {
+     SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+      m_fBuyMultiplier 0
+     }
+    }
    }
   }
   coords 6603.431 29.043 8762.128
@@ -230,9 +272,42 @@ $grp GenericEntity : "{E0E74C1EF4CD0C60}Prefabs/Props/Military/Arsenal/AmmoBoxes
   components {
    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
     m_eSupportedArsenalItemTypes 62
+    m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{6490E7E5E9391AFD}" {
+     m_aArsenalItems {
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AF4}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AED}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AE0}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AE2}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AE4}" {
+      }
+      SCR_ArsenalItemStandalone "{649CE5C7B75FD778}" {
+      }
+      SCR_ArsenalItemStandalone "{6682FC12DB3727AE}" {
+       m_eItemType MACHINE_GUN
+       m_ItemResourceName "{1C6912B8193EEB8A}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_1Ball_1Tracer.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11619E862E}" {
+       m_ItemResourceName "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11791E6E54}" {
+       m_ItemResourceName "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11BE07C2D6}" {
+       m_ItemResourceName "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+      }
+     }
+    }
    }
    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-    Enabled 0
+    m_aConsumers {
+     SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+      m_fBuyMultiplier 0
+     }
+    }
    }
   }
   coords 6724.379 32.44 8739.426
@@ -246,9 +321,42 @@ $grp GenericEntity : "{E0E74C1EF4CD0C60}Prefabs/Props/Military/Arsenal/AmmoBoxes
   components {
    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
     m_eSupportedArsenalItemTypes 62
+    m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{6490E7E5E9391AFD}" {
+     m_aArsenalItems {
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AF4}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AED}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AE0}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AE2}" {
+      }
+      SCR_ArsenalItemStandalone "{6490E7E5E9391AE4}" {
+      }
+      SCR_ArsenalItemStandalone "{649CE5C7B75FD778}" {
+      }
+      SCR_ArsenalItemStandalone "{6682FC12DB3727AE}" {
+       m_eItemType MACHINE_GUN
+       m_ItemResourceName "{1C6912B8193EEB8A}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_1Ball_1Tracer.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11619E862E}" {
+       m_ItemResourceName "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11791E6E54}" {
+       m_ItemResourceName "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      SCR_ArsenalItemStandalone "{6682FC11BE07C2D6}" {
+       m_ItemResourceName "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+      }
+     }
+    }
    }
    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
-    Enabled 0
+    m_aConsumers {
+     SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+      m_fBuyMultiplier 0
+     }
+    }
    }
   }
   coords 6861.169 31.995 8686.466

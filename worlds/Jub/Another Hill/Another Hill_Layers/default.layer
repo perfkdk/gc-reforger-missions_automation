@@ -151,7 +151,7 @@ PolylineShapeEntity {
   }
  }
 }
-GenericEntity : "{15518B113BCC7396}Prefabs/Structures/Naval/USS_Concrete.et" {
+GenericEntity : "{15518B113BCC7396}GitHub/gc-reforger-units/Prefabs/Structures/Naval/USS_Concrete.et" {
  coords 3942.22 0.422 11413.777
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
