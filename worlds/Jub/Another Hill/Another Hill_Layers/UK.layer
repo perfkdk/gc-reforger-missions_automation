@@ -88,10 +88,12 @@ $grp GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitar
 Vehicle Gazelle_342L1 : "{51DFF3D1F5DA21BE}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L.et" {
  coords 4005.176 18.529 11429.351
  angleY -91.638
+ m_sAttachmentGroupName "Flightcrew"
 }
 Vehicle Gazelle_342L_Canon1 : "{73F708941FA822BF}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_342L_Canon.et" {
  coords 3978.033 18.55 11397.404
  angleY -85.197
+ m_sAttachmentGroupName "Flightcrew"
 }
 $grp SCR_AIGroup : "{7FC8ED620451A6B6}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaCoyHQ_P.et" {
  Flightcrew {
@@ -153,10 +155,12 @@ $grp Vehicle : "{929086216DD3010D}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_B
  Gazelle_Base1 {
   coords 4005.261 18.572 11396.762
   angleY -87.8
+  m_sAttachmentGroupName "Flightcrew"
  }
  Gazelle_Base2 {
   coords 4007.247 18.559 11411.152
   angleY -87.8
+  m_sAttachmentGroupName "Flightcrew"
  }
 }
 $grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaSection_P.et" {
