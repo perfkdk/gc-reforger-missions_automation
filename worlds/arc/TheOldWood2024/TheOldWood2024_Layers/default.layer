@@ -20,7 +20,7 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 4006.403 0 3204.339
 }
-PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  coords 4040.567 0 3194.911
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{645B15782B7984B4}" {
@@ -54,26 +54,29 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-$grp GenericEntity {
- WestQRFSpawn {
-  coords 1832.43 83.92 5614.034
-  angleY 114.884
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   Enabled 0
+  }
+  TILW_MapShapeComponent "{6508F54F9B461198}" {
+   Enabled 1
+  }
  }
- NorthQRFSpawn {
-  coords 2577.11 85.782 6102.872
-  angleY -150.168
- }
- NorthWestQRFSpawn {
-  coords 2199.033 132.764 5669.618
-  angleY -150.168
- }
- NorthEastQRFSpawn {
-  coords 2689.062 95.788 5924.504
-  angleY -150.168
- }
- SouthWestQRFSpawn {
-  coords 1956.211 82.975 5168.435
-  angleY 114.884
+ coords 2075.571 -0 4178.591
+ Points {
+  ShapePoint "{668315E313314974}" {
+   Position 1979.966 0 -569.129
+  }
+  ShapePoint "{668315E3EEC1F1E9}" {
+   Position 43.589 0 542.813
+  }
+  ShapePoint "{668315E3E8EEBFE6}" {
+   Position 515.67 0 1808.956
+  }
+  ShapePoint "{668315E3E95C980E}" {
+   Position 2690.485 0 763.861
+  }
  }
 }
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
@@ -92,8 +95,16 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_locationName "Wolf Hill"
   m_flagName "USSR_CAP"
   m_stopAfterFirstChange 1
-  m_ownerFactionKey "USSR"
+  m_ownerFactionKey "RHS_AFRF"
   m_ratioThreshold 0.1
+ }
+ {
+  coords 3702.803 156.924 4419.515
+  m_queryRadius 200
+  m_flagName "UK_STEPOFF"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "UK"
  }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
@@ -114,130 +125,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_EndGameInstruction "{6454DECA7E2F68B0}" {
      m_executionDelay 615
      m_factionKey "UK"
-    }
-    TILW_SpawnVehicleInstruction "{6454DECAB532C670}" {
-     m_executionDelay 65
-     m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
-     m_locationName "WestQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-     m_idleGroup 1
-    }
-    TILW_SpawnVehicleInstruction "{6454DECA9F93F035}" {
-     m_executionDelay 75
-     m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
-     m_locationName "NorthQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-     m_idleGroup 1
-    }
-    TILW_SpawnVehicleInstruction "{64556601BEA51D70}" {
-     m_executionDelay 185
-     m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
-     m_locationName "NorthQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-     m_idleGroup 1
-    }
-    TILW_SpawnVehicleInstruction "{64568758592FB491}" {
-     m_executionDelay 205
-     m_prefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
-     m_locationName "WestQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-     m_idleGroup 1
-    }
-    TILW_SpawnGroupInstruction "{64556601B27E3FED}" {
-     m_executionDelay 65
-     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
-     m_locationName "NorthEastQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-    }
-    TILW_SpawnGroupInstruction "{6455660199A15249}" {
-     m_executionDelay 185
-     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
-     m_locationName "NorthEastQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-    }
-    TILW_SpawnGroupInstruction "{6455660196E5BDCF}" {
-     m_executionDelay 195
-     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
-     m_locationName "NorthEastQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-    }
-    TILW_SpawnGroupInstruction "{645566024B9E4FC3}" {
-     m_executionDelay 205
-     m_prefab "{A2F75E45C66B1C0A}Prefabs/Groups/OPFOR/Group_USSR_MachineGunTeam.et"
-     m_locationName "NorthEastQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-    }
-    TILW_SpawnGroupInstruction "{6455660190DF2E9A}" {
-     m_executionDelay 85
-     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
-     m_locationName "NorthWestQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-    }
-    TILW_SpawnGroupInstruction "{64556601913B2B4C}" {
-     m_executionDelay 245
-     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
-     m_locationName "NorthWestQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-    }
-    TILW_SpawnGroupInstruction "{645566026CDE36D8}" {
-     m_executionDelay 255
-     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
-     m_locationName "NorthWestQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-    }
-    TILW_SpawnGroupInstruction "{645566025E2428A0}" {
-     m_executionDelay 265
-     m_prefab "{A2F75E45C66B1C0A}Prefabs/Groups/OPFOR/Group_USSR_MachineGunTeam.et"
-     m_locationName "NorthWestQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-    }
-    TILW_SpawnGroupInstruction "{6456875C079C32F5}" {
-     m_executionDelay 25
-     m_prefab "{A2F75E45C66B1C0A}Prefabs/Groups/OPFOR/Group_USSR_MachineGunTeam.et"
-     m_locationName "SouthWestQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-    }
-    TILW_SpawnGroupInstruction "{6456875C1AD7F0A5}" {
-     m_executionDelay 45
-     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
-     m_locationName "SouthWestQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
-    }
-    TILW_SpawnGroupInstruction "{6456875CEABA46B7}" {
-     m_executionDelay 55
-     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
-     m_locationName "SouthWestQRFSpawn"
-     m_waypointNames {
-      "QRFWP"
-     }
     }
     TILW_AssignWaypointsInstruction "{6456875E792EB75E}" {
      m_groupName "VDVPlt3HQ"
@@ -328,6 +215,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
    m_condition TILW_LiteralTerm "{645566011087892C}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{668300F447052EBA}" {
+   m_name "STEPOFF_FALLBACK"
+   m_instructions {
+    TILW_SetFlagInstruction "{668300F458C56CFD}" {
+     m_executionDelay 300
+     m_flagName "UK_STEPOFF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{668300F45EEB17AD}" {
     m_invertTerm 1
    }
   }

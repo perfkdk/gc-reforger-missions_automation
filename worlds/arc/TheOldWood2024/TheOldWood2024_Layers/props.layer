@@ -111,7 +111,7 @@ GenericEntity : "{7D39683D0F8EDB59}Prefabs/Props/Military/MilitaryCrates/CrateSt
    MultiSlots {
     MultiSlotConfiguration "{6457224E9C5542BD}" {
      SlotTemplate InventoryStorageSlot Mags {
-      Prefab "{5DB8DBAB68E56D6A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_4B1T.et"
+      Prefab "{56D03286CC10F7FB}Prefabs/Weapons/Magazines/EMAG_BLK_556x45_Ball.et"
      }
      NumSlots 210
     }

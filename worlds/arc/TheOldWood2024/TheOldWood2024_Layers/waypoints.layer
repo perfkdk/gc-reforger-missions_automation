@@ -39,50 +39,6 @@ $grp SCR_EntityWaypoint : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Att
   CompletionRadius 25
   Autocomplete 1
  }
- VDVPlt1Sqd3WP2 {
-  coords 3236.684 115.59 4697.975
-  angleY -18.469
-  CompletionRadius 25
-  Autocomplete 1
- }
- VDVPlt1HQWP2 {
-  coords 3228.258 112.446 4762.341
-  angleY -18.469
-  CompletionRadius 25
-  Autocomplete 1
- }
- VDVPlt1Sqd1WP2 {
-  coords 3289.383 121.089 4727.471
-  angleY -18.469
-  CompletionRadius 25
-  Autocomplete 1
- }
- VDVPlt1Sqd2WP2 {
-  coords 3282.932 119.227 4797.791
-  angleY -18.469
-  CompletionRadius 25
-  Autocomplete 1
- }
- VDVPlt2Sqd3WP2 {
-  coords 3212.797 112.96 4488.535
-  CompletionRadius 25
-  Autocomplete 1
- }
- VDVPlt2HQWP2 {
-  coords 3193.99 113.565 4576.119
-  CompletionRadius 25
-  Autocomplete 1
- }
- VDVPlt2Sqd1WP2 {
-  coords 3290.137 122.881 4519.883
-  CompletionRadius 25
-  Autocomplete 1
- }
- VDVPlt2Sqd2WP2 {
-  coords 3273.52 117.647 4600.401
-  CompletionRadius 25
-  Autocomplete 1
- }
  QRFWP {
   coords 2619.691 92.421 5379.95
   CompletionRadius 75
@@ -149,5 +105,61 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
  WolfHillCapWP {
   coords 3847.524 163.869 4330.802
   CompletionRadius 50
+ }
+}
+$grp GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_vLookPosition 1 0 -3.6
+   }
+  }
+  coords 2727.818 105.531 5087.07
+  angleY 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_vLookPosition 8.222 0 -3.6
+   }
+  }
+  coords 2735.312 105.516 5090.898
+  angleY 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_vLookPosition -0.016 0 11.651
+   }
+  }
+  coords 2727.526 105.663 5107.389
+  angleY 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_vLookPosition -10.253 0 1.295
+   }
+  }
+  coords 2716 105.127 5094.537
+  angleY 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_vLookPosition 1 0 -7.069
+   }
+  }
+  coords 2693.327 97.212 5411.231
+  angleY 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_vLookPosition 10.855 0 0.113
+   }
+  }
+  coords 2704.844 99.214 5423.722
+  angleY 0
  }
 }
