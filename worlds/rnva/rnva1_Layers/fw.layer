@@ -1,15 +1,3 @@
-TILW_PresenceTriggerEntity nva_obj : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
- coords 3907.344 58.082 5239.227
- m_queryRadius 600
- m_captureTime 30
- m_flagName "nva_obj"
- m_stopAfterFirstChange 1
- m_drawShapeSurface 0
- m_entityNames {
-  "T72A_00" "T72A_10" "T72A_11" "T72A_12" "T72A_13" "T72A_14" "T72A_15" "T72A_16" "T72A_17" "T72A_18" "T72A_19" "T72A_20" "T72A_21" "T72A_22" "T72A_23" "T72A_24" "T72A_25" "T72A_26" "T72A_27" "T72A_28" "T72A_29"
- }
- m_ratioThreshold 0.7
-}
 TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  m_missionEvents {
   TILW_MissionEvent "{666178CAED41880C}" {
