@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C8BA8787536DB9A7}worlds/Corax/eden test/unnamed.edds"
+ Name "{C8BA8787536DB9A7}worlds/Corax/SummerDays/SummerDays.edds"
  Configurations {
   TGAResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }
