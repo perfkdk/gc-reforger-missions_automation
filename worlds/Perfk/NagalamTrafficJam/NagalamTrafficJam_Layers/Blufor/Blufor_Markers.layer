@@ -100,7 +100,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 258.884 40.277 2216.739
+  coords 250 40.277 2200
   m_sImageSet "{487A74959A74EEDD}worlds/Perfk/Images/NagaTrafficOOM_50.edds"
   m_sImageSetGlow "{487A74959A74EEDD}worlds/Perfk/Images/NagaTrafficOOM_50.edds"
   m_sQuadName ""
