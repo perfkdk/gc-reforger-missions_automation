@@ -1,0 +1,712 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 9232.838 242.409 2410.379
+  m_sTitle "Terrain and Weather"
+  m_sTextData "c. Terrain:"\
+  "Wide open fields SE leading to a river and intersection at the entrance to a vally. intersection is heavily wooded and valley beyond is broad and lightly wooded with wooded hilltops to either side."\
+  ""\
+  ""
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 1
+ }
+ {
+  coords 9231.108 242.435 2398.336
+  m_sTitle "Situation"
+  m_sTextData "a. Enemy Forces:"\
+  "A VDV Brigade was Airlanded in the bad orb valley 5 days ago. G2 Believes there is a company sized force currently holding the intersection at the mouth of the valley preventing movement along the Main supply route and Bad orb proper. Route reconnaissance conducted by btn reports at least one known checkpoint at the interception on the road facing south along the highway  "\
+  ""\
+  "Btn engineers have identified and marked minefields overnight in preperation for the attack. Disposition of enemy force beyond the intersection is currently unknown."\
+  ""\
+  "Enemy ofrce are knwon to have long range IDF on call and is likely to have pre sighted killing areas established."\
+  ""\
+  "b. Friendly Forces:"\
+  "B COY Mechanised infantry located North west of the intersection, A and C COY are standing by to exploit and attempt a breakthrough South 2km along the Highway once we complete our mission. "\
+  ""\
+  ""
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ {
+  coords 9254.895 242.002 2370.423
+  m_sTitle "Mission"
+  m_sTextData "B COY:"\
+  "Mission is to capture the intersection at the mouth of the bad orb valley and provide security while A and C COY conduct a passage through our lines to assault into the valley proper"\
+  ""\
+  " "
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 2
+ }
+ {
+  coords 9235.905 243.035 2295.633
+  m_sTitle "Execution"
+  m_sTextData "At CO discretion but M113's must remain organic to their squads as per US mechanised infantry (M113) doctrine"
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 3
+ }
+ {
+  coords 9227.84 245.419 2262.014
+  m_sTitle "Sustainment"
+  m_sTextData "G4 has told us that we have no additional resupply, forces are to attack with what they have on themselves and in friendly vehicles."\
+  ""
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 3
+ }
+ {
+  coords 9179.52 247.265 2277.715
+  m_sTitle "Command and Signal"
+  m_sTextData "a. Command:"\
+  "1plt HQ > 2plt HQ > 1PLT SL's >2PLT SL's"\
+  ""\
+  "b. Signal:"\
+  "COY:47MHz"\
+  "1PLT: 48MHz"\
+  "2PLT 49MHz"\
+  ""\
+  ""\
+  "Callsigns:"\
+  "1PLT 1'6, 1'1,1'2,1'3"\
+  "2PLT 2'6, 2'1.2'2,2'3"
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 5
+ }
+ {
+  coords 9202.836 242.46 2424.692
+  m_sTitle "Notes"
+  m_sTextData "US Mechanised (M113) company assaults VDV forces to secure a key intersection."\
+  ""\
+  "No time limit, weather is random"\
+  ""\
+  "Setup timer is 2 minutes"\
+  ""\
+  "Casualty conditions apply at 80% for Blufor"\
+  ""\
+  "GMs be smart and call it when it starts to suck for people."
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 7
+ }
+ {
+  coords 9181.888 242.497 2374.796
+  m_sTitle "Service And Support"
+  m_sTextData "Platoon Vehicles:"\
+  "4x M114 w/.50cal"\
+  ""\
+  "Each contains:"\
+  "50 Paraflares for illumination."\
+  "10 Paraflares for marking"\
+  "30 30rnd 556 magazines"\
+  "10 boxes of 556 linked"\
+  "10 m67"\
+  "10 HC smoke"\
+  ""\
+  "Platoon HQ vehicles additionally have medical supplies (ACE stuff)"\
+  ""
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 6
+ }
+}
+$grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+ SoftAO {
+  components {
+   TILW_AOLimitComponent "{6520BB417327292E}" {
+    Enabled 0
+    m_factionKeys {
+     "US"
+    }
+    m_visibility FACTION
+    m_defaultColor 0 0.125 0.502 1
+    m_useFactionColor 0
+    m_lineWidth 4
+   }
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_factionKeys {
+     "UK"
+    }
+    m_visibleForEmptyFaction 0
+    m_drawArea 0
+    m_color 0.502 0 0 0
+    m_drawLine 1
+    m_lineColor 0 0.125 0.502 1
+   }
+  }
+  coords 9528.514 106.698 2131.367
+  Points {
+   ShapePoint "{667D05C5143DCEC8}" {
+    Position -1157.715 142.649 2414.39
+   }
+   ShapePoint "{667D05C5164549CC}" {
+    Position -701.065 146.596 2259.899
+   }
+   ShapePoint "{667D05C517EB3D26}" {
+    Position -90.294 179.993 1926.993
+   }
+   ShapePoint "{667D05CAE81DB003}" {
+    Position 338.696 117.343 1414.976
+   }
+   ShapePoint "{667D05CAE9B6374A}" {
+    Position 721.693 61.385 886.844
+   }
+   ShapePoint "{667D05CAEFD8772E}" {
+    Position 1133.987 144.709 402.031
+   }
+   ShapePoint "{667D05CAE3E22842}" {
+    Position 547.34 163.658 49.408
+   }
+   ShapePoint "{667D05CACA53F289}" {
+    Position 264.305 71.941 -74.132
+   }
+   ShapePoint "{667D05CACA23F9EB}" {
+    Position -346.349 26.433 501.252
+   }
+   ShapePoint "{667D05CACDCF62A9}" {
+    Position -602.488 37.274 950.096
+   }
+   ShapePoint "{667D05CAC1DC96EE}" {
+    Position -933.976 49.167 1425.969
+   }
+   ShapePoint "{6520BB45F99D5D2F}" {
+    Position -1446.723 121.535 2001.054
+   }
+  }
+  IsClosed 0
+  LineColor 0 0.1255 0.502 1
+ }
+ HardAO {
+  components {
+   TILW_AOLimitComponent "{6520BB417327292E}" {
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_visibility FACTION
+    m_defaultColor 0.502 0 0 1
+    m_useFactionColor 0
+    m_lineWidth 4
+   }
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_factionKeys {
+     "ARG"
+    }
+    m_drawArea 0
+    m_color 0 0.125 0.502 1
+    m_lineColor 0 0.125 0.502 1
+    m_lineWidth 4
+   }
+  }
+  coords 9378.349 106.698 2131.367
+  Points {
+   ShapePoint "{667D05C5143DCEC8}" {
+    Position -1357.819 71.09 2556.803
+   }
+   ShapePoint "{667D05C5164549CC}" {
+    Position -506.998 126.682 2311.088
+   }
+   ShapePoint "{667D05C517EB3D26}" {
+    Position 202.376 91.654 1901.224
+   }
+   ShapePoint "{667D05CAE81DB003}" {
+    Position 608.894 38.685 1391.232
+   }
+   ShapePoint "{667D05CAE9B6374A}" {
+    Position 945.789 30.827 869.682
+   }
+   ShapePoint "{667D05CAEFD8772E}" {
+    Position 1346.146 135.389 385.306
+   }
+   ShapePoint "{667D05CAE3E22842}" {
+    Position 950.413 -84.83 -421.958
+   }
+   ShapePoint "{667D05CACA53F289}" {
+    Position 348.682 26.082 -133.315
+   }
+   ShapePoint "{667D05CACA23F9EB}" {
+    Position -242.867 14.191 495.021
+   }
+   ShapePoint "{667D05CACDCF62A9}" {
+    Position -474.22 31.532 936.156
+   }
+   ShapePoint "{667D05CAC1DC96EE}" {
+    Position -809.464 42.359 1399.745
+   }
+   ShapePoint "{6520BB45F99D5D2F}" {
+    Position -1571.962 114.593 2117.36
+   }
+  }
+  IsClosed 0
+  LineColor 0.502 0 0 1
+ }
+ HardAO2 {
+  components {
+   TILW_AOLimitComponent "{6520BB417327292E}" {
+    m_factionKeys {
+     "UK"
+    }
+    m_visibility NONE
+    m_defaultColor 0.502 0 0 1
+    m_useFactionColor 0
+    m_lineWidth 4
+   }
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    Enabled 0
+    m_factionKeys {
+     "UK" "ARG"
+    }
+    m_drawArea 0
+    m_color 0 0.125 0.502 1
+    m_lineColor 0 0.125 0.502 1
+    m_lineWidth 4
+   }
+  }
+  coords 9378.349 106.698 2131.367
+  Points {
+   ShapePoint "{667D05C5143DCEC8}" {
+    Position -1357.819 71.09 2556.803
+   }
+   ShapePoint "{667D05C5164549CC}" {
+    Position -506.998 126.682 2311.088
+   }
+   ShapePoint "{667D05C517EB3D26}" {
+    Position 202.376 91.654 1901.224
+   }
+   ShapePoint "{667D05CAE81DB003}" {
+    Position 608.894 38.685 1391.232
+   }
+   ShapePoint "{667D05CAE9B6374A}" {
+    Position 945.789 30.827 869.682
+   }
+   ShapePoint "{667D05CAEFD8772E}" {
+    Position 1346.146 135.389 385.306
+   }
+   ShapePoint "{667D05CAE3E22842}" {
+    Position 950.413 -84.83 -421.958
+   }
+   ShapePoint "{667D05CACA53F289}" {
+    Position 348.682 26.082 -133.315
+   }
+   ShapePoint "{667D05CACA23F9EB}" {
+    Position -242.867 14.191 495.021
+   }
+   ShapePoint "{667D05CACDCF62A9}" {
+    Position -474.22 31.532 936.156
+   }
+   ShapePoint "{667D05CAC1DC96EE}" {
+    Position -809.464 42.359 1399.745
+   }
+   ShapePoint "{6520BB45F99D5D2F}" {
+    Position -1571.962 114.593 2117.36
+   }
+  }
+  IsClosed 0
+  LineColor 0.502 0 0 1
+ }
+ SoftAO2 {
+  components {
+   TILW_AOLimitComponent "{6520BB417327292E}" {
+    Enabled 0
+    m_factionKeys {
+     "US"
+    }
+    m_visibility FACTION
+    m_defaultColor 0 0.125 0.502 1
+    m_useFactionColor 0
+    m_lineWidth 4
+   }
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_factionKeys {
+     "UK" "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_drawArea 0
+    m_color 0.502 0 0 0
+    m_drawLine 1
+    m_lineColor 0 0.125 0.502 1
+   }
+  }
+  coords 7742.979 156.016 4683.243
+  angleY -19.9
+  Points {
+   ShapePoint "{667D05CACDCF62A9}" {
+    Position -129.741 -11.713 59.583
+   }
+   ShapePoint "{667D1A7C5E531FF0}" {
+    Position -37.126 2.003 -57.359
+   }
+   ShapePoint "{667D1A7C5DB0D482}" {
+    Position -99.349 1.99 -104.118
+   }
+   ShapePoint "{667D1A7C5BBFEB34}" {
+    Position 131.068 15.755 -133.697
+   }
+   ShapePoint "{667D1A7C5A667DCB}" {
+    Position 146.184 -10.42 85.108
+   }
+   ShapePoint "{667D1A7C591710E1}" {
+    Position 54.884 -4.792 21.999
+   }
+   ShapePoint "{667D1A7C59C06981}" {
+    Position -44.554 -18.38 138.89
+   }
+  }
+  LineColor 0 0.1255 0.502 1
+ }
+ SoftAO3 {
+  components {
+   TILW_AOLimitComponent "{6520BB417327292E}" {
+    Enabled 0
+    m_factionKeys {
+     "US"
+    }
+    m_visibility FACTION
+    m_defaultColor 0 0.125 0.502 1
+    m_useFactionColor 0
+    m_lineWidth 4
+   }
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_factionKeys {
+     "UK" "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_drawArea 0
+    m_color 0.502 0 0 0
+    m_drawLine 1
+    m_lineColor 0 0.125 0.502 1
+   }
+  }
+  coords 7404.051 147.645 4462.152
+  angleY 29.722
+  Points {
+   ShapePoint "{667D05CACDCF62A9}" {
+    Position -129.741 -11.713 59.583
+   }
+   ShapePoint "{667D1A7C591710E1}" {
+    Position 64.835 14.674 -169.914
+   }
+   ShapePoint "{667D1A7C6D6D5458}" {
+    Position 287.55 55.099 -435.917
+   }
+   ShapePoint "{667D1A7C6CE2D18E}" {
+    Position 395.178 74.06 -492.64
+   }
+   ShapePoint "{667D1A7C6A415E5A}" {
+    Position 373.422 67.783 -574.468
+   }
+   ShapePoint "{667D1A7C6969434C}" {
+    Position 568.655 117.648 -511.484
+   }
+   ShapePoint "{667D1A7C69D1A983}" {
+    Position 456.959 81.742 -337.537
+   }
+   ShapePoint "{667D1A7C68AF107F}" {
+    Position 421.775 79.369 -403.826
+   }
+   ShapePoint "{667D1A7C97A8535C}" {
+    Position 324.724 57.465 -317.998
+   }
+   ShapePoint "{667D1A7C59C06981}" {
+    Position -44.554 -18.38 138.89
+   }
+  }
+  LineColor 0 0.1255 0.502 1
+ }
+ SoftAO4 {
+  components {
+   TILW_AOLimitComponent "{6520BB417327292E}" {
+    Enabled 0
+    m_factionKeys {
+     "US"
+    }
+    m_visibility FACTION
+    m_defaultColor 0 0.125 0.502 1
+    m_useFactionColor 0
+    m_lineWidth 4
+   }
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_factionKeys {
+     "GC_ARG"
+    }
+    m_visibleForEmptyFaction 0
+    m_drawArea 0
+    m_color 0.502 0 0 0
+    m_drawLine 1
+    m_lineColor 0.502 0 0 1
+   }
+  }
+  coords 8106.314 87.669 1375.713
+  Points {
+   ShapePoint "{667D05C5143DCEC8}" {
+    Position -497.644 79.175 2956.443
+   }
+   ShapePoint "{667D05C5164549CC}" {
+    Position 67.633 100.555 2306.043
+   }
+   ShapePoint "{667D05C517EB3D26}" {
+    Position 156.53 90.116 1842.391
+   }
+   ShapePoint "{667D05CAE81DB003}" {
+    Position 355.367 95.488 1347.64
+   }
+   ShapePoint "{667D05CAE9B6374A}" {
+    Position 690.781 33.409 864.961
+   }
+   ShapePoint "{667D05CAEFD8772E}" {
+    Position 1099.405 -25.549 504.543
+   }
+   ShapePoint "{667D05CAE3E22842}" {
+    Position 494.672 168.699 149.75
+   }
+   ShapePoint "{667D05CACA53F289}" {
+    Position 249.996 85.233 105.953
+   }
+   ShapePoint "{667D05CACA23F9EB}" {
+    Position -229.029 67.64 534.533
+   }
+   ShapePoint "{667D05CACDCF62A9}" {
+    Position -546.423 75.561 966.931
+   }
+   ShapePoint "{667D05CAC1DC96EE}" {
+    Position -927.557 70.3 1425.557
+   }
+   ShapePoint "{6520BB45F99D5D2F}" {
+    Position -1317.899 -67.975 2389.705
+   }
+  }
+  IsClosed 0
+  LineColor 0 0.1255 0.502 1
+ }
+ SoftAO5 {
+  components {
+   TILW_AOLimitComponent "{6520BB417327292E}" {
+    Enabled 0
+    m_factionKeys {
+     "US"
+    }
+    m_visibility FACTION
+    m_defaultColor 0 0.125 0.502 1
+    m_useFactionColor 0
+    m_lineWidth 4
+   }
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_factionKeys {
+     "UK"
+    }
+    m_visibleForEmptyFaction 0
+    m_drawArea 0
+    m_color 0.502 0 0 0
+    m_drawLine 1
+    m_lineColor 0 0.125 0.502 1
+   }
+  }
+  coords 8106.313 87.669 1375.713
+  Points {
+   ShapePoint "{667D05C5143DCEC8}" {
+    Position -497.644 79.175 2956.443
+   }
+   ShapePoint "{667D05C5164549CC}" {
+    Position 67.633 100.555 2306.043
+   }
+   ShapePoint "{667D05C517EB3D26}" {
+    Position 156.53 90.116 1842.391
+   }
+   ShapePoint "{667D05CAE81DB003}" {
+    Position 355.367 95.488 1347.64
+   }
+   ShapePoint "{667D05CAE9B6374A}" {
+    Position 690.781 33.409 864.961
+   }
+   ShapePoint "{667D05CAEFD8772E}" {
+    Position 1099.405 -25.549 504.543
+   }
+   ShapePoint "{667D05CAE3E22842}" {
+    Position 494.672 168.699 149.75
+   }
+   ShapePoint "{667D05CACA53F289}" {
+    Position 249.996 85.233 105.953
+   }
+   ShapePoint "{667D05CACA23F9EB}" {
+    Position -229.029 67.64 534.533
+   }
+   ShapePoint "{667D05CACDCF62A9}" {
+    Position -546.423 75.561 966.931
+   }
+   ShapePoint "{667D05CAC1DC96EE}" {
+    Position -927.557 70.3 1425.557
+   }
+   ShapePoint "{6520BB45F99D5D2F}" {
+    Position -1317.899 -67.975 2389.705
+   }
+  }
+  IsClosed 0
+  LineColor 0 0.1255 0.502 1
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 8089.512 226.773 4128.972
+  angleY 31.803
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "dot"
+  m_fWorldSize 150
+  m_sDescription "Startline \"Pub Garden\""
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ {
+  coords 8077.974 203.897 4346.22
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "infantry"
+  m_fWorldSize 150
+  m_sDescription "Z COY ()british Company)"
+  m_aVisibleForFactions {
+   "UK"
+  }
+ }
+ {
+  coords 9397.69 257.091 3247.219
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 150
+  m_sDescription "5 platoon"
+  m_aVisibleForFactions {
+   "UK" "GC_ARG"
+  }
+ }
+ {
+  coords 9121.261 251.474 3701.411
+  angleY 50.1
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 150
+  m_sDescription "5 platoon"
+  m_aVisibleForFactions {
+   "UK" "GC_ARG"
+  }
+ }
+ {
+  coords 9384.827 251.878 3312.404
+  angleY 50.1
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 150
+  m_sDescription "5 platoon"
+  m_aVisibleForFactions {
+   "UK" "GC_ARG"
+  }
+ }
+ {
+  coords 9913.7 303.307 2620.545
+  angleY 50.1
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 150
+  m_sDescription "5 platoon"
+  m_aVisibleForFactions {
+   "UK" "GC_ARG"
+  }
+ }
+ {
+  coords 7560.935 137.294 4766.75
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.071 0.192 0.561 1
+  m_sQuadName "infantry"
+  m_fWorldSize 150
+  m_sDescription "British Btn"
+  m_aVisibleForFactions {
+   "GC_ARG" "UK"
+  }
+ }
+ {
+  coords 7859.399 348.947 3031.945
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 150
+  m_sDescription "9 platoon"
+  m_aVisibleForFactions {
+   "UK" "GC_ARG"
+  }
+ }
+ {
+  coords 7795.563 335.63 3298.283
+  angleY 50.1
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 150
+  m_sDescription "9 platoon"
+  m_aVisibleForFactions {
+   "UK" "GC_ARG"
+  }
+ }
+ {
+  coords 7832.095 343.919 3049.187
+  angleY 50.1
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 150
+  m_sDescription "5 platoon"
+  m_aVisibleForFactions {
+   "UK" "GC_ARG"
+  }
+ }
+ {
+  coords 8041.338 357.557 2757.48
+  angleY 50.1
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 150
+  m_sDescription "9 platoon"
+  m_aVisibleForFactions {
+   "UK" "GC_ARG"
+  }
+ }
+ {
+  coords 10223.675 256.469 2593.054
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 150
+  m_sDescription "Argentine player Spawn"
+  m_aVisibleForFactions {
+   "GC_ARG"
+  }
+ }
+}
