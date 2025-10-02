@@ -1,0 +1,17 @@
+SCR_AIGroup usmc_snipers : "{464268B2BFA7FE84}GitHub/gc-reforger-units/Prefabs/Groups/BLUFOR/US/Marines/2020/Marine Rifles/P/Group_USMC_2020_RiflePHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{66033D8C662524F2}" {
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 10097.948 312.966 2636.091
+ angleY 154.148
+ m_aUnitPrefabSlots {
+  "{4B9E9A6CE1B50916}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_Sniper_P.et" "{4B9E9A6CE1B50916}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_Sniper_P.et" "{6B5395281DE43356}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_Spotter_P.et" "{6B5395281DE43356}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_Spotter_P.et"
+ }
+ m_sCustomNameSet "Hunters"
+}
