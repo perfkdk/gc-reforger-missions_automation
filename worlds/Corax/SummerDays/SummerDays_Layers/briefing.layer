@@ -202,7 +202,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
    }
    TILW_MapShapeComponent "{6508F5526836BC09}" {
     m_factionKeys {
-     "ARG"
+     "GC_ARG"
     }
     m_drawArea 0
     m_color 0 0.125 0.502 1
@@ -266,7 +266,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
    TILW_MapShapeComponent "{6508F5526836BC09}" {
     Enabled 0
     m_factionKeys {
-     "UK" "ARG"
+     "UK" "GC_ARG"
     }
     m_drawArea 0
     m_color 0 0.125 0.502 1
