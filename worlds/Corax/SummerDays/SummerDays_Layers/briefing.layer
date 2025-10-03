@@ -576,7 +576,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.071 0.192 0.561 1
   m_sQuadName "infantry"
   m_fWorldSize 150
-  m_sDescription "Z COY ()british Company)"
+  m_sDescription "Z COY (British Company)"
   m_aVisibleForFactions {
    "UK"
   }
