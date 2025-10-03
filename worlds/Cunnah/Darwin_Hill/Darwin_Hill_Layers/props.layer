@@ -1385,9 +1385,6 @@ GenericEntity : "{60DE3D0B58E8C7A0}Prefabs/Compositions/Misc/SubCompositions/Bar
   }
  }
 }
-SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 7117.525 1.72 8011.81
-}
 GenericEntity : "{6762F7C5C3A2419B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_plastic.et" {
  components {
   Hierarchy "{59B6A7678F6A1018}" {
