@@ -172,6 +172,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_ConjunctionTerm "{6550F9C54C2CE8E9}" {
     m_operands {
      TILW_LiteralTerm "{6550F9C5AFB86399}" {
+      m_invertTerm 1
       m_flagName "OPFOR_In_Town"
      }
      TILW_LiteralTerm "{6550F9C59CDE6D84}" {
@@ -226,6 +227,22 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_LiteralTerm "{6550F9C58252AEDB}" {
     m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{66870C137FB3AAC1}" {
+   m_name "Truck Blockade"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{66870C134013C0C7}" {
+     m_executionDelay 10
+     m_groupName "truck_blockade"
+     m_waypointNames {
+      "truck_blockade_wp"
+     }
+     m_clearExisting 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{66870C139FA8E875}" {
+    m_flagName "truck_blocked_trigger"
    }
   }
  }

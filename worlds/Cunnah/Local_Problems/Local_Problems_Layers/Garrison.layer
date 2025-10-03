@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{26E9D09E8E3C0CC0}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_CoyHQ_P.et" {
+$grp SCR_AIGroup : "{26E9D09E8E3C0CC0}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_CoyHQ_P.et" {
  HVT {
   components {
    PS_GroupCallsignAssigner "{6522D4E915D8424E}" {
@@ -26,7 +26,7 @@ $grp SCR_AIGroup : "{26E9D09E8E3C0CC0}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2
   angleY -41.756
   m_faction "GARRISON"
   m_aUnitPrefabSlots {
-   "{D1DB41AAA4F08E5F}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Garrison_SL_P.et" "{C8B4CE6A657B5C64}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Garrison_Medic_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Garrison_Rifleman_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Garrison_Rifleman_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Garrison_Rifleman_P.et"
+   "{D1DB41AAA4F08E5F}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/Russian_Garrison/Garrison_SL_P.et" "{C8B4CE6A657B5C64}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/Russian_Garrison/Garrison_Medic_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/Russian_Garrison/Garrison_Rifleman_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/Russian_Garrison/Garrison_Rifleman_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/Russian_Garrison/Garrison_Rifleman_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "Squad (HQ)"
@@ -44,9 +44,18 @@ $grp SCR_AIGroup : "{26E9D09E8E3C0CC0}Prefabs/Groups/OPFOR/RF/AFRF_MotorRifles_2
   angleY -41.756
   m_faction "GARRISON"
   m_aUnitPrefabSlots {
-   "{D1DB41AAA4F08E5F}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Garrison_SL_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Garrison_Rifleman_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Garrison_Rifleman_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Garrison_Rifleman_P.et"
+   "{D1DB41AAA4F08E5F}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/Russian_Garrison/Garrison_SL_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/Russian_Garrison/Garrison_Rifleman_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/Russian_Garrison/Garrison_Rifleman_P.et" "{EF5C337AE4AA23F0}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/Russian_Garrison/Garrison_Rifleman_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "Squad"
+ }
+}
+TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
+ coords 4790.374 169.331 3575.13
+ m_queryRadius 13
+ m_skipFirstQuery 1
+ m_flagName "OPFOR_In_Town"
+ m_entityNames {
+  "HVT"
  }
 }

@@ -1,10 +1,3 @@
-TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
- coords 3191.693 160.262 4278.284
- m_queryRadius 100
- m_flagName "Garrison_Extracted"
- m_stopAfterFirstChange 1
- m_factionKey "GARRISON"
-}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  School_Marker {
   coords 4808.927 182.33 3615.287
