@@ -1,7 +1,7 @@
 SCR_MapEntity SCR_MapEntity1 : "{E1B88C66BF6CA1F9}Prefabs/World/Game/MapEntity_Everon.et" {
  coords 8247.396 180.407 3813.235
- "Map Geometry Data" "{70AA39E7089C3C5D}worlds/Corax/eden test/unnamed.topo"
- "Satellite background image" "{C8BA8787536DB9A7}worlds/Corax/eden test/unnamed.edds"
+ "Map Geometry Data" "{70AA39E7089C3C5D}worlds/Corax/SummerDays/SummerDays.topo"
+ "Satellite background image" "{C8BA8787536DB9A7}worlds/Corax/SummerDays/SummerDays.edds"
 }
 SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
  components {
@@ -21,10 +21,12 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
  }
  coords 8605.959 173.705 3731.979
 }
+SCR_DestructionManager : "{E5B570B5F32A7BAE}Prefabs/Systems/Destruction/DestructionManager.et" {
+}
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 8441.557 178.954 3453.063
 }
-PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 0
@@ -94,201 +96,19 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
+ProjectileSoundsManager : "{B4DA8B0024536625}Prefabs/World/Game/ProjectileSoundsManager.et" {
+}
 StaticModelEntity : "{04160EF46BEB8758}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal_end.et" {
  coords 9127.781 -0.687 3624.304
  angleX 7.002
  angleY 178.991
  angleZ -11.998
 }
-$grp GenericEntity : "{47B8056ADCBAE8EC}Prefabs/World/Locations/Eden/Natural/Moutains_East_hill_02.et" {
- H_Two_Sisters {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Two Sisters"
-    }
-    m_fMaxDrawDistance 500
-    m_sColor 0.937 0.91 0.82 1
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName "Two Sisters"
-    MainType "Name Ridge"
-   }
-  }
-  coords 8728.062 107.502 2907.126
- }
- H_Long_Toenail {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Long Toenail"
-    }
-    m_fMaxDrawDistance 500
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName "Long Toenail"
-   }
-  }
-  coords 7814.185 340.865 3344.575
- }
- H_Summer_Days {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Summer Days"
-    }
-    m_fMaxDrawDistance 500
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName "Summer Days"
-   }
-  }
-  coords 9934.974 297.08 2556.544
- }
- H_Summerdays_Height {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Summerdays height"
-    }
-    m_fMaxDrawDistance 500
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName ""
-    ShowTerrainElevation 1
-    MainType Hill
-   }
-  }
-  coords 8615.055 290.219 4318.55
- }
- H_Summerdays_Height3 {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Summerdays height3"
-    }
-    m_fMaxDrawDistance 500
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName ""
-    ShowTerrainElevation 1
-    MainType Hill
-   }
-  }
-  coords 9429.125 324.007 3911.146
- }
- H_Summerdays_Height4 {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Summerdays height4"
-    }
-    m_fMaxDrawDistance 500
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName ""
-    ShowTerrainElevation 1
-    MainType Hill
-   }
-  }
-  coords 9124.655 273.369 3643.573
- }
- H_Summerdays_Height5 {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Summerdays height5"
-    }
-    m_fMaxDrawDistance 500
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName ""
-    ShowTerrainElevation 1
-    MainType Hill
-   }
-  }
-  coords 9186.894 252.332 3158.075
- }
- H_Summerdays_Height6 {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Summerdays height6"
-    }
-    m_fMaxDrawDistance 500
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName ""
-    ShowTerrainElevation 1
-    MainType Hill
-   }
-  }
-  coords 10073.699 301.816 2679.182
- }
- H_Summerdays_Height7 {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Summerdays height7"
-    }
-    m_fMaxDrawDistance 500
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName ""
-    ShowTerrainElevation 1
-    MainType Hill
-   }
-  }
-  coords 9720.826 296.876 2490.292
- }
- H_Summerdays_Height8 {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Summerdays height8"
-    }
-    m_fMaxDrawDistance 500
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName ""
-    ShowTerrainElevation 1
-    MainType Hill
-   }
-  }
-  coords 8746.522 194.997 3902.36
- }
- H_Longtoenail_Height {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Long Toenail height"
-    }
-    m_fMaxDrawDistance 500
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName ""
-    ShowTerrainElevation 1
-    MainType Hill
-   }
-  }
-  coords 7856.386 348.374 3033.461
- }
- H_Summerdays_Height2 {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
-     Name "Summerdays height2"
-    }
-    m_fMaxDrawDistance 500
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName ""
-    ShowTerrainElevation 1
-    MainType Hill
-   }
-  }
-  coords 8634.218 118.141 3187.617
- }
+BasePreloadManager PreloadManager1 : "{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et" {
+}
+GenericEntity : "{434AFBBE90F2B078}Prefabs/Sounds/Environment/AmbientSounds_Everon.et" {
+}
+RadioBroadcastManager : "{66B93BC296E2F977}Prefabs/Radio/RadioBroadcastManager.et" {
 }
 $grp GCC_Arty : "{6C38A36F9C37A967}Prefabs/Modules/Off_Map_Arty.et" {
  {
@@ -392,6 +212,10 @@ $grp GCC_Arty : "{6C38A36F9C37A967}Prefabs/Modules/Off_Map_Arty.et" {
    }
   }
  }
+}
+GenericEntity : "{7699E66077068406}Prefabs/World/Game/ForestSyncManager.et" {
+}
+SoundWorld : "{8A8604E158704937}Prefabs/Sounds/SoundWorld/SoundWorld_Eden.et" {
 }
 StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.et" {
  coords 9122.126 -0.764 3624.391
@@ -525,6 +349,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
  }
+}
+SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  components {
