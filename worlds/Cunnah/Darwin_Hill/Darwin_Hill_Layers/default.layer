@@ -61,7 +61,6 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
       m_aCompanyNames {
        SCR_CallsignInfo "{55CCB792CD021D5C}" {
-        m_sCallsign "A"
        }
        SCR_CallsignInfo "{55CCB792CCD598D3}" {
         m_sCallsign "Mortar Crew"
@@ -69,7 +68,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
       }
       m_aPlatoonNames {
        SCR_CallsignInfo "{55CCB792CE6E998D}" {
-        m_sCallsign " Coy HQ"
+        m_sCallsign ""
        }
        SCR_CallsignInfo "{65371176557C60E6}" {
         m_sCallsign ""
@@ -77,13 +76,10 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
       }
       m_aSquadNames {
        SCR_CallsignInfo "{55CCB792D13759D8}" {
-        m_sCallsign "1"
        }
        SCR_CallsignInfo "{55CCB792D1218E95}" {
-        m_sCallsign "2"
        }
        SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
-        m_sCallsign "3"
        }
       }
      }
@@ -131,6 +127,9 @@ PS_MissionDescription NOTES : "{3136BE42592F3B1B}PrefabsEditable/MissionDescript
  }
  m_bEmptyFactionVisibility 1
  m_iOrder 10
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 7117.525 1.72 8011.81
 }
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 7148.854 41.194 7430.352
