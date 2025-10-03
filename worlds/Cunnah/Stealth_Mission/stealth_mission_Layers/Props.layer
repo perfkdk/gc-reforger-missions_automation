@@ -1,0 +1,111 @@
+$grp StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+ {
+  coords 7560.826 166.156 4266.529
+  angleY -18.942
+ }
+ {
+  coords 7562.922 166.156 4266.551
+  angleY 32.44
+ }
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 7558.211 166.156 4266.052
+ angleY 10.726
+}
+$grp StaticModelEntity : "{2D303C505CC6576A}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_camonet_foundation.et" {
+ {
+  coords 7806.142 254.531 4025.651
+  angleY 55.886
+ }
+ {
+  coords 7865.1 256.297 4024.993
+  angleY -136.84
+ }
+}
+GenericEntity : "{451BE00A37C69679}Prefabs/Structures/Military/Radar/ApproachRadar_TPN19_01/ApproachRadar_TPN19_01_generator.et" {
+ coords 7856.293 256.515 4004.228
+ angleY 33.762
+}
+$grp Vehicle : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ Ural4320_tanker1 {
+  coords 7557.734 166.501 4225.937
+  angleY 17.463
+ }
+ Ural4320_tanker3 {
+  coords 7548.536 166.501 4228.83
+  angleY 17.463
+ }
+ Ural4320_tanker2 {
+  coords 7553.073 166.501 4227.403
+  angleY 17.463
+ }
+ Ural4320_tanker4 {
+  coords 7961.558 250.193 4049.29
+  angleX -1.973
+  angleY 85.623
+  angleZ -2.79
+ }
+}
+GenericEntity : "{60AA21344D68BACE}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Medium_Top_Soviet.et" {
+ coords 7960.823 250.49 4049.981
+ angleY -99.819
+}
+$grp StaticModelEntity : "{75A7C06222E6218B}Prefabs/Structures/Military/Camps/TentSmallUSSR_01/TentSmallUSSR_01.et" {
+ {
+  coords 7806.442 254.531 4017.807
+  angleY 54.898
+ }
+ {
+  coords 7814.174 254.531 4018.395
+  angleY -152.568
+ }
+ {
+  coords 7812.51 254.531 4021.084
+  angleY -43.217
+ }
+ {
+  coords 7810.258 254.532 4011.969
+  angleY 54.898
+ }
+ {
+  coords 7816.214 254.531 4015.532
+  angleY -90.794
+ }
+ {
+  coords 7808.359 254.519 4014.844
+  angleY 54.898
+ }
+}
+$grp Vehicle : "{A2E23CB8DDCFE82E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_base.et" {
+ Ural4320_transport_CIV_base1 {
+  coords 7876.287 256.286 4034.55
+  angleY -25.182
+ }
+ Ural4320_transport_CIV_base2 {
+  coords 7881.03 256.476 4037.624
+  angleY 5.162
+ }
+}
+$grp GameEntity : "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et" {
+ {
+  coords 7561.351 166.156 4265.065
+ }
+ {
+  coords 7562.87 166.656 4266.617
+ }
+}
+GenericEntity burning_barrel : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/BarrelMetal_01_rust.et" {
+ coords 7561.828 166.156 4265.362
+ {
+  GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+   components {
+    SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     m_eInitialLightState LIT
+    }
+   }
+   coords -0.014 0.865 0.007
+   angleY -21.353
+   scale 0.415
+  }
+ }
+}

@@ -1,0 +1,453 @@
+SCR_ScenarioFrameworkTriggerEntity {
+ coords 7843.308 254.531 4029.357
+ TriggerShapeType Sphere
+ SphereRadius 200
+ m_eActivationPresence ANY_CHARACTER
+ m_aSpecificEntityNames {
+  "mountain_base_patrol"
+ }
+ m_aCustomTriggerConditions {
+  SCR_ScenarioFrameworkAIThreatStateCondition "{66856A4C42D1D13B}" {
+  }
+ }
+ m_aFinishedActions {
+  SCR_ScenarioFrameworkSetVariable "{66856A4C060205C5}" {
+   m_bDebug 1
+   m_sVariableName "alerted"
+   m_sVariableValue "1"
+  }
+ }
+}
+$grp StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+ {
+  coords 7804.617 254.712 4024.733
+  angleY 55.306
+ }
+ {
+  coords 7807.927 254.719 4024.73
+  angleY -43.604
+ }
+ {
+  coords 7809.325 254.531 4017.347
+  angleY -100.777
+ }
+ {
+  coords 7811.154 254.531 4018.982
+  angleX 3.071
+  angleY -10.765
+ }
+}
+GenericEntity : "{1BE2B6FF4806EB3E}Prefabs/Props/Civilian/Guitar_01/Guitar_01.et" {
+ coords 7811.173 254.908 4018.796
+ angleX 57.297
+}
+$grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ BMP_1_Patrol_1 {
+  coords 8125.731 219.555 4108.573
+ }
+ BMP_1_Patrol_2 {
+  coords 7610.12 163.907 4534.077
+ }
+ BMP_1_Patrol_3 {
+  coords 7485.666 137.966 4730.887
+ }
+ BMP_1_Patrol_4 {
+  coords 7590.823 80.52 5539.318
+ }
+ BMP_1_Patrol_5 {
+  coords 7521.297 -2.253 4847.395
+ }
+ mountain_base_patrol_1 {
+  coords 7851.504 254.707 4043.727
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{668528112E304B6E}" {
+    m_eFormation Column
+   }
+   SCR_AICharacterStanceSetting "{66852811747D1382}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+ mountain_base_patrol_2 {
+  coords 7886.135 255.959 4050.47
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_3 {
+  coords 7949.003 251.23 4049.57
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_4 {
+  coords 7897.661 256.628 4036.936
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_5 {
+  coords 7846.979 256.774 3979.423
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_6 {
+  coords 7780.109 256.405 3918.216
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_7 {
+  coords 7656.528 247.325 3852.214
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_8 {
+  coords 7647.548 230.92 3940.638
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_9 {
+  coords 7749.946 246.637 3968.864
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_10 {
+  coords 7823.585 256.652 3996.383
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+}
+$grp GameEntity : "{2CB0AA2A87842C18}Prefabs/Props/Civilian/LampKerosene_01/LampKerosene_01_military_USSR.et" {
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7812.018 254.545 4011.127
+ }
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7958.147 251.466 4046.89
+  angleY -43.089
+ }
+ {
+  coords 7803.848 255.608 4024.906
+  angleY 118.614
+ }
+}
+$grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.et" {
+ mountain_base_patrol {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 7842.194 254.647 4037.418
+  angleY 57.927
+  m_aUnitPrefabSlots {
+   "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "mountain_base_patrol_cycle"
+  }
+ }
+ mountain_base_relaxed_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 7809.327 254.531 4018.891
+  angleY 57.641
+  m_aUnitPrefabSlots {
+   "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "animation_waypoint"
+  }
+ }
+ mountain_base_relaxed_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 7812.164 254.531 4015.282
+  angleY 57.641
+  m_aUnitPrefabSlots {
+   "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "animation_waypoint2"
+  }
+ }
+ mountain_base_relaxed_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 7810.209 254.531 4015.975
+  angleY 57.641
+  m_aUnitPrefabSlots {
+   "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "animation_waypoint3"
+  }
+ }
+}
+$grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ BMP_1_Patrol_Cycle {
+  coords 7582.915 138.265 4750.118
+  CycleWaypoints {
+   "BMP_1_Patrol_1" "BMP_1_Patrol_2" "BMP_1_Patrol_3" "BMP_1_Patrol_4" "BMP_1_Patrol_5"
+  }
+ }
+ mountain_base_patrol_cycle {
+  coords 7834.522 257.178 3989.768
+  CycleWaypoints {
+   "mountain_base_patrol_1" "mountain_base_patrol_2" "mountain_base_patrol_4" "mountain_base_patrol_3" "mountain_base_patrol_4" "mountain_base_patrol_5" "mountain_base_patrol_6" "mountain_base_patrol_7" "mountain_base_patrol_8" "mountain_base_patrol_9" "mountain_base_patrol_10"
+  }
+ }
+}
+StaticModelEntity : "{3FBCCB3371A2F77B}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Typewriter_USSR_01.et" {
+ coords 7804.316 254.709 4024.527
+ angleY 58.866
+}
+TILW_PrefabSpawnerEntity BMP_1_Spawner : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ coords 8365.001 162.981 3685.403
+ angleY -51.804
+ m_prefab "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et"
+ m_crewConfig TILW_CrewConfig "{6685281AE1636AE2}" {
+  m_crewGroups {
+   TILW_CrewGroup "{6685281AEA3711D6}" {
+    m_crewStations {
+     TILW_CrewStation "{6685281AF285A5B0}" {
+      m_allowCargo 0
+      m_characters {
+       "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+      }
+     }
+    }
+    m_waypointNames {
+     "BMP_1_Patrol_Cycle"
+    }
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 7871.207 256.588 4015.376
+ m_missionEvents {
+  TILW_MissionEvent "{66856A4C91B2051C}" {
+   m_instructions {
+    TILW_SendMessageInstruction "{66856A4CE67AA705}" {
+     m_messageTitle "ALERTED"
+     m_factionKeys {
+      "UK"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{66856A4C9E258EBC}" {
+    m_flagName "alert"
+   }
+  }
+ }
+}
+$grp GenericEntity : "{9A011A8BAA2E8351}worlds/James/OrbSturm/EffectModule_Zoned_MortarBarrage_Larger.et" {
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5CAAAC876B00D6FB}" {
+     m_bIsLooping 1
+    }
+   }
+  }
+  coords 5914.26 103.78 4984.444
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5CAAAC876B00D6FB}" {
+     m_fMinBarrageDelay 10
+     m_fMaxBarrageDelay 20
+     m_bIsLooping 1
+    }
+   }
+  }
+  coords 5971.259 91.436 5406.877
+ }
+}
+GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+ coords 7958.523 250.534 4046.678
+}
+StaticModelEntity : "{ACB6EFBD551A30FE}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Ashtray_USSR_01.et" {
+ coords 7808.147 254.703 4024.322
+ angleY -31.836
+}
+$grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
+ T72A_base1 {
+  coords 7580.254 166.156 4233.644
+  angleY -75.435
+ }
+ T72A_base2 {
+  coords 7581.438 166.156 4238.275
+  angleY -75.435
+ }
+ T72A_base3 {
+  coords 7582.638 166.156 4242.851
+  angleY -75.435
+ }
+ T72A_base4 {
+  coords 7585.315 166.156 4251.872
+  angleY -75.435
+ }
+}
+SCR_AIGroup : "{C7095C066BFA5DC9}Prefabs/Groups/BLUFOR/British Forces/2024/UKSF/SAS/P/Group_UK_2024_SAS_Team_P.et" {
+ coords 7886.99 263.62 3872.842
+}
+GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ components {
+  SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+   m_eInitialLightState LIT
+  }
+ }
+ coords 7811.54 254.531 4016.585
+}
+GenericEntity : "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et" {
+ coords 5864.636 87.802 5317.303
+ angleY 48.782
+}
+$grp Vehicle : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
+ Ural4320_ZU1 {
+  coords 7830.155 254.531 4031.129
+  angleY 55.411
+ }
+ Ural4320_ZU2 {
+  coords 7892.781 256.625 4004.002
+  angleY -136.852
+ }
+}
+$grp SCR_AIAnimationWaypoint : "{FF8730CC23015B41}Prefabs/AI/Waypoints/AIWaypoint_Animation_SlowMove.et" {
+ animation_waypoint {
+  coords 7810.948 254.531 4017.454
+  m_aAnimationScripts {
+   SCR_AIAnimationScript "{66856A466FD11C79}" {
+    m_aAgentAnimationParameters {
+     SCR_AIAnimationWaypointParameters "{66856A466B96532F}" {
+      m_oAnimationLocalTransform PointInfo "{66856A452EF19E46}" {
+       Offset -0.9639 0 1.2595
+       Angles 0 121.4059 0
+      }
+      m_oAnimationClass SCR_AIAnimation_Loitering "{66856A4645E30908}" {
+      }
+     }
+    }
+   }
+  }
+ }
+ animation_waypoint2 {
+  coords 7810.948 254.531 4017.454
+  m_aAnimationScripts {
+   SCR_AIAnimationScript "{66856A466FD11C79}" {
+    m_aAgentAnimationParameters {
+     SCR_AIAnimationWaypointParameters "{66856A459F7C820C}" {
+      m_oAnimationLocalTransform PointInfo "{66856A4599F4291D}" {
+       Offset 0.8213 0 -2.5227
+       Angles 0 -9.4103 0
+      }
+      m_oAnimationClass SCR_AIAnimation_OfficerMission_Table "{66856A4BDFF4A87B}" {
+      }
+     }
+    }
+   }
+  }
+ }
+ animation_waypoint3 {
+  coords 7810.948 254.531 4017.454
+  m_aAnimationScripts {
+   SCR_AIAnimationScript "{66856A466FD11C79}" {
+    m_aAgentAnimationParameters {
+     SCR_AIAnimationWaypointParameters "{66856A45F2EBAAED}" {
+      m_oAnimationLocalTransform PointInfo "{66856A45FECEE624}" {
+       Offset -0.9951 0 -1.2139
+       Angles 0 77.5445 0
+      }
+      m_oAnimationClass SCR_AIAnimation_Loitering "{66856A44E4D76E10}" {
+      }
+     }
+    }
+   }
+  }
+ }
+}
