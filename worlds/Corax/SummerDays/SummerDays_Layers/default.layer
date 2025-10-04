@@ -135,7 +135,7 @@ GCC_Arty : "{6C38A36F9C37A967}Prefabs/Modules/Off_Map_Arty.et" {
    }
    m_roundCount 20
    m_gunCount 2
-   m_roundDelay 1
+   m_roundDelay 30
   }
   GCC_ArtyData "{667D1A6A8B58E5EC}" {
    m_shellPrefab "{1F761EEB943CEDE2}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_L19A2.et"
@@ -148,7 +148,7 @@ GCC_Arty : "{6C38A36F9C37A967}Prefabs/Modules/Off_Map_Arty.et" {
    }
    m_roundCount 200
    m_gunCount 3
-   m_roundDelay 1
+   m_roundDelay 30
   }
   GCC_ArtyData "{6689109E4355B646}" {
    m_shellPrefab "{14260CFC175F3490}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_L41A3.et"
