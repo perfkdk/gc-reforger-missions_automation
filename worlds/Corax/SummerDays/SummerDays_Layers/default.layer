@@ -26,7 +26,7 @@ SCR_DestructionManager : "{E5B570B5F32A7BAE}Prefabs/Systems/Destruction/Destruct
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 8441.557 178.954 3453.063
 }
-PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 0
@@ -224,131 +224,6 @@ StaticModelEntity : "{8CAE228D5D44DD5F}Prefabs/Structures/Military/Fortification
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 8445.258 179.037 3455.195
- m_missionEvents {
-  TILW_MissionEvent "{6536AA4743C7E617}" {
-   m_instructions {
-    TILW_SendMessageInstruction "{6536AA474DB070B8}" {
-     m_messageTitle "Sucks to be you"
-     m_messageBody "B COY casualties are too too High, Mission failure. mission will end in 2 minutes"
-     m_factionKeys {
-      "US"
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{6536AA477510D8A9}" {
-    m_flagName "bluforkill"
-   }
-  }
-  TILW_MissionEvent "{6536AA4788DFF721}" {
-   m_instructions {
-    TILW_EndGameInstruction "{6536AA47A39AA750}" {
-     m_executionDelay 125
-     m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "US"
-    }
-   }
-   m_condition TILW_LiteralTerm "{6536AA47DD772A3A}" {
-    m_flagName "bluforkill"
-   }
-  }
-  TILW_MissionEvent "{6536AA47F9162732}" {
-   m_instructions {
-    TILW_SendMessageInstruction "{6536AA47E5DE812D}" {
-     m_messageTitle "Army Strong"
-     m_messageBody "The intersection has been seured and the VDV are retreating into the valley. mission will end in 60 seconds"
-     m_factionKeys {
-      "US"
-     }
-    }
-    TILW_EndGameInstruction "{6536AA405FDE40A3}" {
-     m_executionDelay 65
-     m_factionKey "US"
-    }
-   }
-   m_condition TILW_LiteralTerm "{6536AA402C03A0CC}" {
-    m_flagName "vdvkill"
-   }
-  }
-  TILW_MissionEvent "{6536AA7D1327767D}" {
-   m_instructions {
-    TILW_SendMessageInstruction "{6536AA7D1F9EABFA}" {
-     m_executionDelay 25
-     m_messageTitle "BTN HQ"
-     m_messageBody "Counter Battery reports outbound IDF"
-     m_factionKeys {
-      "US"
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{6536AA7D18CF33D4}" {
-    m_flagName "mortar1"
-   }
-  }
-  TILW_MissionEvent "{6536AA7D5CE8810A}" {
-   m_instructions {
-    TILW_SendMessageInstruction "{6536AA7D5CE88185}" {
-     m_executionDelay 25
-     m_messageTitle "BTN HQ"
-     m_messageBody "Counter Battery reports outbound IDF"
-     m_factionKeys {
-      "US"
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{6536AA7D5CE88181}" {
-    m_flagName "mortar2"
-   }
-  }
-  TILW_MissionEvent "{6536AA7D5C1A8F8B}" {
-   m_instructions {
-    TILW_SendMessageInstruction "{6536AA7D5C1A8831}" {
-     m_executionDelay 25
-     m_messageTitle "BTN HQ"
-     m_messageBody "Counter Battery reports outbound IDF"
-     m_factionKeys {
-      "US"
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{6536AA7D5C1A880A}" {
-    m_flagName "mortar3"
-   }
-  }
-  TILW_MissionEvent "{6536AA7D5DBE6BEE}" {
-   m_instructions {
-    TILW_SendMessageInstruction "{6536AA7D5DBE7475}" {
-     m_executionDelay 25
-     m_messageTitle "BTN HQ"
-     m_messageBody "Counter Battery reports outbound IDF"
-     m_factionKeys {
-      "US"
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{6536AA7D5DBE744F}" {
-    m_flagName "mortar4"
-   }
-  }
- }
- m_casualtyFlags {
-  TILW_FactionPlayersKilledFlag "{6536AA47553C874A}" {
-   m_flagName "bluforkill"
-   m_factionKey "US"
-   m_casualtyRatio 0.8
-  }
-  TILW_FactionAIKilledFlag "{6536AA47CE7ACAC6}" {
-   m_flagName "vdvkill"
-   m_factionKey "USSR"
-   m_casualtyRatio 0.95
-  }
- }
- m_metaFlags {
-  TILW_MetaFlag "{6520BB570C55F987}" {
-   m_flagName "reinforce"
-   m_definition TILW_BaseTerm "{6520BB572CF3E852}" {
-   }
-  }
- }
 }
 SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
 }

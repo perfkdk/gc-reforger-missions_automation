@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A9532A7F39949572}Missions/Corax/SummerDays/summerdays.edds"
+ Name "{A9532A7F39949572}Missions/Corax/Summerdays/summerdays.edds"
  Configurations {
   JPGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }
