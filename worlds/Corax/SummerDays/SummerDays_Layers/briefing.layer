@@ -23,7 +23,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Password/Countersign: per CO."\
   ""\
   "<b>4. SERVICE SUPPORT</b>"\
-  "a. Ammunition: Company mortars have 50 HE (2x tubes) 300 Illum (2x tubes) and 60 Smoke (3x tubes) for fire support tasks. (TOT 30s, 6s reload, 30m dispersion ) 39.5MHz"\
+  "a. Ammunition: Company mortars have 50 HE (2x tubes) and 60 Smoke (3x tubes) for fire support tasks. (TOT 30s, 6s reload, 30m dispersion ) 39.5MHz"\
   "An ammo box with Schermulys will be at 6 platoon supply point(spawn location)."\
   "b. Casualties: CCP per CO."\
   "c. CPers: To be disarmed, searched, and held at the CCP for escort to the rear."\
@@ -67,7 +67,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Password/Countersign: ARMY / CRABS."\
   ""\
   "<b>4. SERVICE SUPPORT</b>"\
-  "a. Ammunition: Company mortars have 20 HE (2x tubes) 300 Illum (2x tubes) and 200 Smoke (3x tubes) for fire support tasks. (TOT 30s, 6s reload, 30m dispersion ) 39.5MHz"\
+  "a. Ammunition: Company mortars have 20 HE (2x tubes) and 200 Smoke (3x tubes) for fire support tasks. (TOT 30s, 6s reload, 30m dispersion ) 39.5MHz"\
   "An ammo box with Schermulys will be at Z Coy supply point(spawn location)."\
   "HMS glamorgan on station with 58 4.5 inch HE (TOT 150s, 2s reload, 100m dispersion)   38.5MHz"\
   "b. Casualties: CCP Per Troop Cdrs."\
@@ -93,8 +93,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 9254.895 242.002 2370.423
   m_sTitle "Summary"
-  m_sTextData "Z COY assaults summer days as part part of operations to capture Two Sisters."
+  m_sTextData "Z COY assaults summer days as part part of operations to capture Two Sisters."\
+  ""\
+  "NOTES ON ARTILLERY: To use open radio menu (default G) switch to the correct frequency and double tap C. Coords are in EIGHT DIGIT CODES."\
+  ""\
+  "Illum is cancelled due to technical difficulties. "
   m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
   m_iOrder 0
  }
 }
