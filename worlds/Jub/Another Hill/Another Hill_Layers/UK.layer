@@ -1,6 +1,6 @@
 $grp GenericEntity : "{00A3B9444B0BD14C}Prefabs/Compositions/Slotted/SlotFlatSmall/MortarPlacement_S_UK_01.et" {
  {
-  coords 7501.766 1.75 10117.639
+  coords 7501.766 2 10117.639
   angleY -129.564
   {
    GenericEntity {
@@ -22,22 +22,28 @@ $grp GenericEntity : "{00A3B9444B0BD14C}Prefabs/Compositions/Slotted/SlotFlatSma
    }
    $grp GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
     {
-     coords -1.792 0 0.81
-     angleY 129.564
+     coords -1.792 0.17 0.81
+     angleX -2.374
+     angleY 129.526
+     angleZ 0.915
     }
     {
      coords 1.921 0.192 -0.252
-     angleY 129.564
+     angleX 1.33
+     angleY 129.565
+     angleZ 0.056
     }
     {
      coords -1.35 0.787 -2.469
-     angleY 129.564
+     angleX 0.552
+     angleY 129.484
+     angleZ -8.283
     }
    }
   }
  }
  {
-  coords 7495.45 1.75 10124.981
+  coords 7495.45 2 10124.981
   angleY -129.564
   {
    GenericEntity {
@@ -55,20 +61,35 @@ $grp GenericEntity : "{00A3B9444B0BD14C}Prefabs/Compositions/Slotted/SlotFlatSma
        }
       }
      }
+     GenericEntity {
+      ID "646D3320E37D75E3"
+      {
+       DecalEntity {
+        ID "56DEFDB4A9499F9B"
+        coords 0 0.128 0
+       }
+      }
+     }
     }
    }
    $grp GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
     {
-     coords -1.792 0 0.81
-     angleY 129.564
+     coords -1.793 0.17 0.81
+     angleX -2.374
+     angleY 129.526
+     angleZ 0.915
     }
     {
-     coords 1.921 0.192 -0.252
-     angleY 129.564
+     coords 1.92 0.192 -0.252
+     angleX 1.33
+     angleY 129.565
+     angleZ 0.056
     }
     {
      coords -1.35 0.787 -2.469
-     angleY 129.564
+     angleX 0.552
+     angleY 129.484
+     angleZ -8.283
     }
    }
   }
@@ -95,7 +116,7 @@ Vehicle Gazelle_342L_Canon1 : "{73F708941FA822BF}Prefabs/Vehicles/Helicopters/Ga
  angleY -85.197
  m_sAttachmentGroupName "Flightcrew"
 }
-$grp SCR_AIGroup : "{7FC8ED620451A6B6}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaCoyHQ_P.et" {
+$grp SCR_AIGroup : "{7FC8ED620451A6B6}GitHub/gc-reforger-units/Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaCoyHQ_P.et" {
  Flightcrew {
   coords 3969.82 19.105 11408.362
   m_aUnitPrefabSlots {
@@ -115,7 +136,7 @@ $grp SCR_AIGroup : "{7FC8ED620451A6B6}Prefabs/Groups/BLUFOR/British Forces/1983/
   angleY -85.499
  }
 }
-$grp SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaPHQ_P.et" {
+$grp SCR_AIGroup : "{89792EAE79CEF9DF}GitHub/gc-reforger-units/Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaPHQ_P.et" {
  Morts {
   components {
    PS_GroupCallsignAssigner "{667102A117501594}" {
@@ -126,7 +147,7 @@ $grp SCR_AIGroup : "{89792EAE79CEF9DF}Prefabs/Groups/BLUFOR/British Forces/1983/
   coords 7502.869 1.768 10124.248
   angleY -40.399
   m_aUnitPrefabSlots {
-   "{5B78F2171B302841}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_MFC_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et"
+   "{5B78F2171B302841}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_MFC_P.et" "{4ED6C861B5C8B5CD}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et" "{4ED6C861B5C8B5CD}GitHub/gc-reforger-units/Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Light Infantry/P/Character_UK_1983_Regulars_Mortarman_Sterling_P.et"
   }
   m_sCustomNameSet "Mortar Section"
  }
@@ -163,7 +184,7 @@ $grp Vehicle : "{929086216DD3010D}Prefabs/Vehicles/Helicopters/Gazelle/Gazelle_B
   m_sAttachmentGroupName "Flightcrew"
  }
 }
-$grp SCR_AIGroup : "{A5F2431C2DCF3118}Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaSection_P.et" {
+$grp SCR_AIGroup : "{A5F2431C2DCF3118}GitHub/gc-reforger-units/Prefabs/Groups/BLUFOR/British Forces/1983/P/Paras/Group_UK_1983_REG_ParaSection_P.et" {
  b1a {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {

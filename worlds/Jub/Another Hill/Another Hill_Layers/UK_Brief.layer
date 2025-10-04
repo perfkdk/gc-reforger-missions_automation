@@ -1,18 +1,17 @@
-PS_MissionsDiscription:
-"{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- coords 6783.152 35.348 8588.209
- m_sTitle "OPORD"
+PS_MissionDescription : "{3136BE42592F3B1B}GitHub/gc-reforger-core/PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 1512.883 67.596 6922.836
+ m_sTitle "Opord"
  m_sTextData "GROUND"\
  ""\
- "We are in the company hide, grid 073098, facing southwest. To our front is Coronation Ridge, 55m elevation. To our right is Brenton Loch and to our left is Darwin Road, which runs from northeast to southwest through Coronation Ridge and eventually curves left to Darwin. Our right boundary is the water and our left boundary with A Coy is marked approximately 100-200 meters left of and parallel with Darwin Road."\
+ "We are in the company hide, grid 073098, facing southwest. To our front is Coronation Ridge, 55m elevation. To our right is Brenton Loch and to our left is Darwin Road, which runs from northeast to southwest through Coronation Ridge and eventually curves left to Darwin. Our right boundary is the water and our left boundary with A Coy is marked approximately 100-200 meters left of and parallel with Darwin Road. "\
  ""\
- "Beyond Coronation Ridge is an 800m long expanse of uneven treeless grassland with some rocky outcropping. There are two peat bogs, Boy Bog and Girl Bog, that are shallow and can be crossed. There is foliage and microterrain that will provide some cover and concealment but overall sightlines are generally clear."\
+ "Beyond Coronation Ridge is an 800m long expanse of uneven treeless grassland with some rocky outcropping. There are two peat bogs, Boy Bog and Girl Bog, that are shallow and can be crossed. There is foliage and microterrain that will provide some cover and concealment but overall sightlines are generally clear. "\
  ""\
  "On the other side of the expanse is Middle Hill, grid 066086, 35m elevation, which is our company objective. There is a small stream, Baby Stream, that runs from the east side of Middle Hill southeast through Darwin Road. Beyond Middle Hill is Boca Stream, which runs northwest to southeast from Brenton Loch to Darwin."\
  ""\
  "First light is 0600, light haze, full moon, visibility good."\
  ""\
- "1. SITUATION"\
+ "1. SITUATION "\
  ""\
  "a. ENEMY FORCES"\
  ""\
@@ -22,7 +21,7 @@ PS_MissionsDiscription:
  ""\
  "6 Pl is detached to D Coy."\
  ""\
- "A Coy (notional) attacks on our left to seize Darwin."\
+ "A Coy (notional) attacks on our left to seize Darwin. "\
  ""\
  "Sp Pl will provide one 81mm mortar section in DS, grid 07491012."\
  ""\
@@ -32,15 +31,15 @@ PS_MissionsDiscription:
  ""\
  "B Coy(-) attacks to seize Middle Hill."\
  ""\
- "3. EXECUTION"\
+ "3. EXECUTION "\
  ""\
  "a. GENERAL OUTLINE"\
  ""\
  "My intent is to suppress the enemy on Middle Hill with overwhelming direct and indirect fires to allow the platoons to manoeuvre."\
  ""\
- "At 0400, 4 Pl and 5 Pl will move to their individual FUPs. On order, 4 Pl will establish a Fire Support Base on Coronation Ridge and 5 Pl will begin movement along their route handrailing Darwin Road. If we take fire, 4 Pl will suppress the enemy while 5 Pl continues to manoeuvre. When 5 Pl reaches Baby Stream, they will conduct a left flank assault onto Middle Hill."\
+ "At 0400, 4 Pl and 5 Pl will move to their individual FUPs. On order, 4 Pl will establish a Fire Support Base on Coronation Ridge and 5 Pl will begin movement along their route handrailing Darwin Road. If we take fire, 4 Pl will suppress the enemy while 5 Pl continues to manoeuvre. When 5 Pl reaches Baby Stream, they will conduct a left flank assault onto Middle Hill. "\
  ""\
- "If 4 Pl is unable to support 5 Pl from their location on Coronation Ridge, they will advance by fire and manoeuvre across the open ground towards Middle Hill and establish fire support positions close to the objective."\
+ "If 4 Pl is unable to support 5 Pl from their location on Coronation Ridge, they will advance by fire and manoeuvre across the open ground towards Middle Hill and establish fire support positions close to the objective. "\
  ""\
  "Once the initial trenches on Middle Hill are seized by 5 Pl, they will provide direct fires at any remaining enemy positions and 4 Pl will conduct a right flank assault along the beach to destroy any enemy in depth."\
  ""\
@@ -125,4 +124,5 @@ PS_MissionsDiscription:
  m_aVisibleForFactions {
   "UK"
  }
+ m_iOrder 1
 }
