@@ -1,8 +1,8 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  {
   coords 9232.838 242.409 2410.379
-  m_sTitle "Terrain and Weather"
-  m_sTextData "1. SITUATION"\
+  m_sTitle "OPORD"
+  m_sTextData "<b>1. SITUATION</b>"\
   "a. Enemy Forces: 3 British platoons preparing for an attack on the north east ridgeline of Dos Hermanas from the north west. "\
   "Likely Access to mortars and artillery."\
   "9 platoon on the Southwest Ridgeline of Dos Hermanas under attack from company sized forces at current time."\
@@ -12,7 +12,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "None."\
   "Weather."\
   "Light cloud, ¾ moon, fair wind"\
-  "2. MISSION"\
+  ""\
+  "<b>2. MISSION</b>"\
   "Resist or Stall any attack on the Northeast ridge of Dos Hermanas."\
   "3. EXECUTION"\
   "a. Tasks to Subordinate Units:"\
@@ -20,12 +21,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "b. Coordinating Instructions:"\
   "Recognition:"\
   "Password/Countersign: per CO."\
-  "4. SERVICE SUPPORT (ADMIN & LOGISTICS)"\
+  ""\
+  "<b>4. SERVICE SUPPORT</b>"\
   "a. Ammunition: Company mortars have 50 HE (2x tubes) 300 Illum (2x tubes) and 60 Smoke (3x tubes) for fire support tasks. (TOT 30s, 6s reload, 30m dispersion ) 39.5MHz"\
   "An ammo box with Schermulys will be at 6 platoon supply point(spawn location)."\
   "b. Casualties: CCP per CO."\
   "c. CPers: To be disarmed, searched, and held at the CCP for escort to the rear."\
-  "5. COMMAND & SIGNAL"\
+  ""\
+  "<b>5. COMMAND & SIGNAL</b>"\
   "a. Command:"\
   "Chain of Command: OC, platoon 2iC, OC 1 section."\
   "b. Signals:"\
@@ -43,8 +46,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   coords 9231.108 242.435 2398.336
-  m_sTitle "Situation"
-  m_sTextData "1. SITUATION"\
+  m_sTitle "OPORD"
+  m_sTextData "<b>1. SITUATION</b>"\
   "a. Enemy Forces: 2 Argentinian platoons dug-in on “Summer Days” south east from Start line “Pub Garden”. They occupy well-sited shell scrapes and makeshift bunkers supported by HMG nests. Possible reinforcements from adjacent attacks on “mt. harriet” and long toe nail reinforcing from the enemy rear. "\
   "Likely Access to mortars and artillery."\
   "b. Friendly Forces: Z Coy is the main effort and will be conducting an assault from the north west on Summer Days, Y Coy will follow up, X Coy will assault “Long toenail” approx 3 Hours before H hour. Z and Y Coy Mortars are allocated for support Attack on “Summer Days”."\
@@ -52,22 +55,26 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Naval Gunfire Officer with Comm to HMS Glamorgan for Gunfire Support."\
   "Weather."\
   "Light cloud, ¾ moon, fair wind"\
-  "2. MISSION"\
+  ""\
+  "<b>2. MISSION</b>"\
   "Commencing at H-Hour (120030Z), Z Company is to ATTACK to SEIZE “Summer Days”"\
-  "3. EXECUTION"\
+  ""\
+  "<b>3. EXECUTION</b>"\
   "a. Tasks to Subordinate Units:"\
   "Tasks to all platoons and attachments will be issued verbally by the OC (per CO)."\
   "b. Coordinating Instructions:"\
   "Recognition:"\
   "Password/Countersign: ARMY / CRABS."\
-  "4. SERVICE SUPPORT (ADMIN & LOGISTICS)"\
+  ""\
+  "<b>4. SERVICE SUPPORT</b>"\
   "a. Ammunition: Company mortars have 20 HE (2x tubes) 300 Illum (2x tubes) and 200 Smoke (3x tubes) for fire support tasks. (TOT 30s, 6s reload, 30m dispersion ) 39.5MHz"\
   "An ammo box with Schermulys will be at Z Coy supply point(spawn location)."\
   "HMS glamorgan on station with 58 4.5 inch HE (TOT 150s, 2s reload, 100m dispersion)   38.5MHz"\
   "b. Casualties: CCP Per Troop Cdrs."\
   "c. CPers: To be disarmed, searched, and held at the CCP for escort to the rear."\
   "d. Air Support: Prep fires cease at 112100z "\
-  "5. COMMAND & SIGNAL"\
+  ""\
+  "<b>5. COMMAND & SIGNAL</b>"\
   "a. Command:"\
   "Chain of Command: OC, Coy 2iC, OC 7 Troop."\
   "b. Signals:"\
@@ -86,10 +93,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 9254.895 242.002 2370.423
   m_sTitle "Summary"
-  m_sTextData "Z COY assaults sumemr days as part part of operations to capture two sisters "
+  m_sTextData "Z COY assaults summer days as part part of operations to capture Two Sisters."
   m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
-  m_iOrder 2
+  m_iOrder 0
  }
 }
 $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
