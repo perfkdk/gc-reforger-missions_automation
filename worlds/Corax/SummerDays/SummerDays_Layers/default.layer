@@ -26,7 +26,7 @@ SCR_DestructionManager : "{E5B570B5F32A7BAE}Prefabs/Systems/Destruction/Destruct
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 8441.557 178.954 3453.063
 }
-PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 0
@@ -110,106 +110,71 @@ GenericEntity : "{434AFBBE90F2B078}Prefabs/Sounds/Environment/AmbientSounds_Ever
 }
 RadioBroadcastManager : "{66B93BC296E2F977}Prefabs/Radio/RadioBroadcastManager.et" {
 }
-$grp GCC_Arty : "{6C38A36F9C37A967}Prefabs/Modules/Off_Map_Arty.et" {
- {
-  coords 8025.001 191.097 4355.798
-  m_artyRounds {
-   GCC_ArtyData "{652B743A90CE7EE7}" {
-    m_shellPrefab "{FF4A69FB744267A3}Prefabs/Weapons/Ammo/Ammo_122mm_HE_FRAG_3OF56.et"
-    m_roundName "4.5inch HE"
-    m_factionKeys {
-     "UK"
-    }
-    m_roundCount 58
-    m_roundDelay 150
-    m_roundReload 2
-    m_roundDispersion 100
+GCC_Arty : "{6C38A36F9C37A967}Prefabs/Modules/Off_Map_Arty.et" {
+ coords 8025.001 191.097 4355.798
+ m_artyRounds {
+  GCC_ArtyData "{652B743A90CE7EE7}" {
+   m_shellPrefab "{FF4A69FB744267A3}Prefabs/Weapons/Ammo/Ammo_122mm_HE_FRAG_3OF56.et"
+   m_roundName "4.5inch HE"
+   m_factionKeys {
+    "UK"
    }
-   GCC_ArtyData "{667D1A6DEE4846AD}" {
-    m_shellPrefab "{BB875F877625ADBF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Illum_L54A2.et"
-    m_roundName "81mm Illum L54A2"
-    m_factionKeys {
-     "UK"
-    }
-    m_allowedFrequencies {
-     39500
-    }
-    m_roundCount 300
-    m_gunCount 2
-    m_roundDelay 30
-   }
-   GCC_ArtyData "{667D1A67C2313F19}" {
-    m_shellPrefab "{14260CFC175F3490}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_L41A3.et"
-    m_roundName "81mm HE"
-    m_factionKeys {
-     "UK"
-    }
-    m_allowedFrequencies {
-     39500
-    }
-    m_roundCount 20
-    m_gunCount 2
-    m_roundDelay 30
-   }
-   GCC_ArtyData "{667D1A6A8B58E5EC}" {
-    m_shellPrefab "{1F761EEB943CEDE2}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_L19A2.et"
-    m_roundName "81mm Smoke L19A2"
-    m_factionKeys {
-     "UK"
-    }
-    m_allowedFrequencies {
-     39500
-    }
-    m_roundCount 200
-    m_gunCount 3
-    m_roundDelay 30
-   }
+   m_roundCount 58
+   m_roundDelay 150
+   m_roundReload 2
+   m_roundDispersion 100
   }
- }
- {
-  coords 10271.333 267.603 2634.616
-  m_artyRounds {
-   GCC_ArtyData "{652B743A90CE7EE7}" {
-    m_shellPrefab "{BB875F877625ADBF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Illum_L54A2.et"
-    m_roundName "81mm Illum"
-    m_factionKeys {
-     "GC_ARG"
-    }
-    m_allowedFrequencies {
-     39500
-    }
-    m_roundCount 300
-    m_gunCount 2
-    m_roundDelay 30
-    m_roundReload 6
-    m_roundDispersion 30
+  GCC_ArtyData "{667D1A67C2313F19}" {
+   m_shellPrefab "{14260CFC175F3490}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_L41A3.et"
+   m_roundName "81mm HE"
+   m_factionKeys {
+    "UK"
    }
-   GCC_ArtyData "{667D1A67C2313F19}" {
-    m_shellPrefab "{14260CFC175F3490}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_L41A3.et"
-    m_roundName "81mm HE"
-    m_factionKeys {
-     "GC_ARG"
-    }
-    m_allowedFrequencies {
-     39500
-    }
-    m_roundCount 50
-    m_gunCount 2
-    m_roundDelay 30
+   m_allowedFrequencies {
+    39500
    }
-   GCC_ArtyData "{667D1A6A8B58E5EC}" {
-    m_shellPrefab "{1F761EEB943CEDE2}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_L19A2.et"
-    m_roundName "81mm Smoke"
-    m_factionKeys {
-     "GC_ARG"
-    }
-    m_allowedFrequencies {
-     39500
-    }
-    m_roundCount 60
-    m_gunCount 3
-    m_roundDelay 30
+   m_roundCount 20
+   m_gunCount 2
+   m_roundDelay 30
+  }
+  GCC_ArtyData "{667D1A6A8B58E5EC}" {
+   m_shellPrefab "{1F761EEB943CEDE2}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_L19A2.et"
+   m_roundName "81mm Smoke L19A2"
+   m_factionKeys {
+    "UK"
    }
+   m_allowedFrequencies {
+    39500
+   }
+   m_roundCount 200
+   m_gunCount 3
+   m_roundDelay 30
+  }
+  GCC_ArtyData "{6689109E4355B646}" {
+   m_shellPrefab "{14260CFC175F3490}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_L41A3.et"
+   m_roundName "81mm HE"
+   m_factionKeys {
+    "GC_ARG"
+   }
+   m_allowedFrequencies {
+    39500
+   }
+   m_roundCount 50
+   m_gunCount 2
+   m_roundDelay 30
+  }
+  GCC_ArtyData "{6689109EAE3208C9}" {
+   m_shellPrefab "{1F761EEB943CEDE2}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_Smoke_L19A2.et"
+   m_roundName "81mm Smoke"
+   m_factionKeys {
+    "GC_ARG"
+   }
+   m_allowedFrequencies {
+    39500
+   }
+   m_roundCount 60
+   m_gunCount 3
+   m_roundDelay 30
   }
  }
 }
