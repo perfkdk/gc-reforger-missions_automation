@@ -403,11 +403,14 @@ TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_Ex
 PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  coords 2746.621 10 3203.029
  m_sTitle "Mission Overview"
- m_sTextData "This is a LOL race mission, your objective is to get to the FOB Michigan Airfield from COP VIper (North East)"\
+ m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+ m_sTextData "This is a LOL race mission, your objective is to get to the FOB Michigan Airfield from COP Viper (North East)"\
+ ""\
  "There will be green arrows showing the way at intersections."\
+ ""\
  "You spawn inside a fenced area. The fences are removed when the setup timer is done. The race is LIVE once the fences are down!"\
  ""\
- "Route is marked by dots"\
+ "Route is marked by dots on the map"\
  ""\
  "Setup timer: 2 min"\
  ""\
@@ -415,11 +418,12 @@ PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/Ed
  ""\
  "A message will appear when the first player reaches the airfield. GM´s should give players a few minutes and then call the mission."\
  ""\
- "Mission makers, you are welcome to expand on the race functinality like adding checkpoints or race timers etc."\
+ "Respawns are off. If you die, thats it. This is just a quick break between the real missions, not something meant to last long"\
+ ""\
+ "Mission makers, you are welcome to expand on the race functinality like adding checkpoints or race timers etc. Would be great if someone could figure out how to have ace medical heal wounded people."\
  ""\
  "Mission by Perfk"\
- "Updated: 2025-09-18"\
- ""
+ "Updated: 2025-10-05"
  m_bEmptyFactionVisibility 1
  m_bShowForAnyFaction 1
 }
