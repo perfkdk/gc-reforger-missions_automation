@@ -1,7 +1,3 @@
-GenericEntity Market3Location {
- coords 3616.143 280 407.93
- angleY 90
-}
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  {
   coords 3969.791 -3.177 1440.944
@@ -10,7 +6,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Location: Kunar Province, Afghanistan"\
   "Weather: Random, Noon"\
   ""\
-  "Takistan Army conducts a Air Assualt on enemy markets."\
+  "Takistan Army conducts an Air Assualt on enemy markets."\
   ""\
   "-- Pre-Slotting -- "\
   "1 Pilot/Crew pair per full Rifle Squad"\

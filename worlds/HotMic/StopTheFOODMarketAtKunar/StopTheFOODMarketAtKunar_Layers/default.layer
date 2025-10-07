@@ -13,6 +13,10 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  }
  coords 2680.271 8 3051.191
 }
+GenericEntity Market3Location {
+ coords 3616.143 280 407.93
+ angleY 90
+}
 $grp SplineShapeEntity {
  {
   coords 841.105 114.928 2411.302
