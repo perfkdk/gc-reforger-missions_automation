@@ -1,0 +1,52 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 1466.282 38.017 2876.815
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1464.268 38.001 2884.881
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 1478.697 38.001 2898.635
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign "Spearhead"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
+      m_sCallsignCharacterFormat "%3: %4"
+      m_sCallsignCharacterWithRoleFormat "%3: %4"
+     }
+    }
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3452.211 39.271 2577.153
+ m_missionEvents {
+  TILW_MissionEvent "{668D6D025B258CD9}" {
+   m_name "US Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{668D6D027EE29083}" {
+     m_messageTitle "US Victory"
+     m_messageBody "Spearhead Squad has inflicted significant casualties to USSR troops operating in Arland"
+    }
+   }
+   m_condition TILW_LiteralTerm "{668D6D026B8775F2}" {
+    m_flagName "USSR Casualty Flag"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionAIKilledFlag "{668D6D03FD72995B}" {
+   m_flagName "USSR Casualty Flag"
+   m_factionKey "USSR"
+   m_casualtyRatio 0.9
+  }
+ }
+}

@@ -1,0 +1,65 @@
+GenericEntity : "{15518B113BCC7396}Prefabs/Structures/Naval/USS_Concrete.et" {
+ coords 1500 0 5500
+}
+GenericEntity : "{F68F3B7247F6E810}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_USSR_01.et" {
+ coords 3382.031 40.267 2568.764
+ angleX 3.573
+ angleY -0.112
+ angleZ -1.793
+ {
+  GenericEntity {
+   ID "5D16956BA778EACD"
+   coords -2.53 0.514 18.959
+  }
+  GenericEntity {
+   ID "5D16956BA778EA0B"
+   coords 15.861 -0.17 4.133
+   angleY -90
+  }
+  GenericEntity {
+   ID "5D16956BA778EA70"
+   coords 15.859 -0.248 -0.875
+   angleY -90
+  }
+  GenericEntity {
+   ID "5D16956BA778F607"
+   coords 6.186 -0.031 2.973
+   angleY -88.488
+  }
+  GenericEntity {
+   ID "5D45393D9E1F4761"
+   coords 10.842 -0.229 -9.716
+   angleX 0.894
+   angleY 0.028
+   angleZ 1.785
+  }
+  StaticModelEntity {
+   ID "5D16956BA778E015"
+   coords 1.719 0.004 -9.207
+   angleX 0.815
+   angleY -65.714
+   angleZ 0.366
+  }
+  StaticModelEntity {
+   ID "5D16956BA778E01E"
+   coords -1.863 -0.063 7.949
+   angleX 10.045
+   angleY -101.126
+   angleZ 2.44
+  }
+  StaticModelEntity {
+   ID "5D16956BA778EE56"
+   coords 13.288 -0.238 15.599
+   angleX 1.723
+   angleY 178.08
+   angleZ -1.848
+  }
+  StaticModelEntity {
+   ID "5D16956BA778E1D2"
+   coords 6.773 -0.195 -20.546
+   angleX 2.68
+   angleY -90.246
+   angleZ -0.017
+  }
+ }
+}

@@ -1,0 +1,22 @@
+$grp Vehicle : "{C8C37964483452EA}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Army.et" {
+ AH1S_Army1 {
+  coords 1412.844 18.106 5500.235
+  angleY 180
+ }
+ AH1S_Army2 {
+  coords 1454.786 18.108 5500.877
+  angleY 180
+ }
+ AH1S_Army3 {
+  coords 1439.585 18.106 5499.455
+  angleY 180
+ }
+ AH1S_Army4 {
+  coords 1426.702 18.106 5499.318
+  angleY 180
+ }
+ AH1S_Army5 {
+  coords 1470.08 18.201 5501.446
+  angleY 180
+ }
+}
