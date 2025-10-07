@@ -6,7 +6,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Location: Kunar Province, Afghanistan"\
   "Weather: Random, Noon"\
   ""\
-  "Takistan Army conducts an Air Assualt on enemy markets."\
+  "Takistan Army conducts an Air Assault on enemy markets."\
   ""\
   "-- Pre-Slotting -- "\
   "1 Pilot/Crew pair per full Rifle Squad"\
@@ -26,7 +26,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3969.791 -3.177 1440.944
   m_sTitle "I. Situation"
-  m_sTextData "Time: 1100 hours; August 27th, 2000s"\
+  m_sTextData "Time: 1200 hours; August 27th, 2000s"\
   "Location: Kunar Province, Afghanistan"\
   "Weather: Random, Morning"\
   ""\
