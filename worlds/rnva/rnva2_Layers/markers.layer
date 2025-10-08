@@ -255,7 +255,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 0.75
   m_sQuadName "mortar"
   m_fWorldSize 48
-  m_sDescription "Black 8"
+  m_sDescription "Black 9"
   m_aVisibleForFactions {
    "US"
   }

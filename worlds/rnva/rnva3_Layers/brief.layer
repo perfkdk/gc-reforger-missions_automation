@@ -14,18 +14,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  G6_Notes {
   coords 0 0 0
   m_sTitle "Notes"
-  m_sTextData "- 6 minute setup timer. Affects the NVA tanks, but NOT the NVA reconnaissance platoon."\
-  "- If you are on the reconnaissance platoon and choose to make use of the lack of a setup timer, know that you may die very early. If you don't like that, either be extremely careful or wait for the tanks to join you."\
+  m_sTextData "- 5 minute setup timer. Affects NVA helicopters and US forces."\
+  "- AO limit does not affect NVA helicopters"\
   ""\
   "- If you drive your vehicle into a ditch and can't get out, you may ask for GM help, but please try your best to just stay clear of them in the first place. There are many places where you can get past them without going right through."\
-  "- If your vehicle gets destroyed but you survive, I recommend ascending to spectator by pressing the respawn button unless you find something to do."\
   "- If you are a Bradley gunner, you can switch to your TOW by holding V. You cannot select it using the number keys."\
   ""\
-  "The mission concludes when the NVA tank battalion has reached the area west of Ruha and Isomaki."\
-  "A message will automatically be displayed some time after 60% of non-destroyed NVA tanks have entered this area."\
-  "According to the situation, GMs may decide to keep the mission running beyond that or end it earlier."\
-  "If the NVA tank battalion sustains severe casualties and is no longer effective, either the NVA commander or the GMs will call the mission. There is no automatic condition for this, as it highly depends on the situation."\
-  "Before switching to the next mission, a GM will annouce the outcome."
+  ""\
+  "Victory conditions:"\
+  "- US forces achieved 90% control over both objectives (US victory)"\
+  "- US forces suffer 80% casualties (major NVA victory)"\
+  "- 60 minutes pass (minor NVA victory)"
   m_bShowForAnyFaction 1
   m_iOrder 6
  }
@@ -47,7 +46,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<b>b. Friendly Forces</b>"\
   ""\
   "RED (scout platoon) and WHITE (tank platoon) are located in the vicinity of Hietalanmaki (031 033)."\
-  "Black 8 (mortar) is set up in the forest at 031 050, preparing to support the platoons using smoke rounds."\
+  "Black 9 (mortar) is set up in the forest at 031 050, preparing to support the platoons using smoke rounds."\
   ""\
   "Unable to bypass the occupied village, BLUE and GREEN were forced to proceed north on their own, which means they are unable to support RED and WHITE."\
   ""\
@@ -108,22 +107,22 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "V. COMMAND AND CONTROL"
   m_sTextData "<b>a. Command</b>"\
   ""\
-  "Troop commander is presumed KIA following the air assault."\
-  "Red 1 has assumed command of RED and WHITE."\
+  "-"\
   ""\
   ""\
   "<b>b. Signal</b>"\
   ""\
-  "RED platoon net (48.0MHz)"\
-  "Red 1, Red 2, Red 3, Red 4, Red 5, Red 6"\
+  "RED platoon net (48.5MHz)"\
+  "Red 1, Red 2, Red 3, Red 4"\
   ""\
-  "WHITE platoon net (48.5MHz)"\
+  "WHITE platoon net (49.0MHz)"\
   "White 1, White 2, White 3, White 4"\
   ""\
-  "BLACK troop net (49.0MHz)"\
-  "RED (Red 1), WHITE (White 1), Black 8"\
+  "BLUE platoon net (49.5MHz)"\
+  "Blue 1, Blue 2, Blue 3, Blue 4"\
   ""\
-  "If preferred by Red 1, all elements may alternatively use 48.0MHz instead for the duration of the engagement."
+  "COY net (50.0MHz)"\
+  "Black 6, Black 5, Black 7, RED (Red 1), WHITE (White 1), BLUE (Blue 1)"
   m_aVisibleForFactions {
    "US"
   }

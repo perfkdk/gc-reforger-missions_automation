@@ -10,6 +10,7 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
     components {
      PS_GroupCallsignAssigner "{66641BD329AD3B5C}" {
       m_iPlatoonCallsign 1
+      m_iSquadCallsign 1
      }
     }
     coords -5 0 1
@@ -32,7 +33,7 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
     components {
      PS_GroupCallsignAssigner "{66641BD329AD3B5C}" {
       m_iPlatoonCallsign 1
-      m_iSquadCallsign 1
+      m_iSquadCallsign 2
      }
     }
     coords -5 0 1
@@ -52,7 +53,7 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
     components {
      PS_GroupCallsignAssigner "{66641BD329AD3B5C}" {
       m_iPlatoonCallsign 1
-      m_iSquadCallsign 2
+      m_iSquadCallsign 3
      }
     }
     coords -5 0 1
@@ -72,7 +73,7 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
     components {
      PS_GroupCallsignAssigner "{66641BD329AD3B5C}" {
       m_iPlatoonCallsign 1
-      m_iSquadCallsign 3
+      m_iSquadCallsign 4
      }
     }
     coords -5 0 1
@@ -95,7 +96,7 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
     components {
      PS_GroupCallsignAssigner "{66641BD329AD3B5C}" {
       m_iPlatoonCallsign 1
-      m_iSquadCallsign 4
+      m_iSquadCallsign 5
      }
     }
     coords -5 0 1
@@ -115,7 +116,7 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
     components {
      PS_GroupCallsignAssigner "{66641BD329AD3B5C}" {
       m_iPlatoonCallsign 1
-      m_iSquadCallsign 5
+      m_iSquadCallsign 6
      }
     }
     coords -5 0 1
@@ -152,6 +153,7 @@ $grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
     components {
      PS_GroupCallsignAssigner "{66641BD329AD3B5C}" {
       m_iPlatoonCallsign 2
+      m_iSquadCallsign 1
      }
     }
     coords -5 0 1
@@ -175,7 +177,7 @@ $grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
     components {
      PS_GroupCallsignAssigner "{66641BD329AD3B5C}" {
       m_iPlatoonCallsign 2
-      m_iSquadCallsign 1
+      m_iSquadCallsign 2
      }
     }
     coords -5 0 1
@@ -195,7 +197,7 @@ $grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
     components {
      PS_GroupCallsignAssigner "{66641BD329AD3B5C}" {
       m_iPlatoonCallsign 2
-      m_iSquadCallsign 2
+      m_iSquadCallsign 3
      }
     }
     coords -5 0 1
@@ -215,7 +217,7 @@ $grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
     components {
      PS_GroupCallsignAssigner "{66641BD329AD3B5C}" {
       m_iPlatoonCallsign 2
-      m_iSquadCallsign 3
+      m_iSquadCallsign 4
      }
     }
     coords -5 0 1
@@ -235,7 +237,7 @@ SCR_AIGroup GR_MortarCrew : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Ba
   }
   PS_GroupCallsignAssigner "{666534685D8EAA95}" {
    m_iCompanyCallsign 1
-   m_iSquadCallsign 7
+   m_iSquadCallsign 9
   }
  }
  coords 3150.976 59.855 5052.385

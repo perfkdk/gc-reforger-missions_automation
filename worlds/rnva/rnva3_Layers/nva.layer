@@ -1,0 +1,79 @@
+$grp SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_Base.et" {
+ GR_NVA_pilots1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+  }
+  coords 6478.281 96.656 1251.275
+  angleY 35
+  m_aUnitPrefabSlots {
+   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et" "{E3CF674456A804A1}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Aircrew_P.et"
+  }
+  m_sCustomNameSet "1st Mi-24"
+ }
+ GR_NVA_pilots2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{668CC1AB440DF740}" {
+   }
+  }
+  coords 6536.364 96.656 1219.1
+  angleY 15
+  m_aUnitPrefabSlots {
+   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et" "{E3CF674456A804A1}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Aircrew_P.et"
+  }
+  m_sCustomNameSet "2nd Mi-24"
+ }
+}
+$grp Vehicle : "{2FA364D8E326CB3C}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_9M114.et" {
+ Mi24P_armed_9M1 {
+  coords 6554.834 96.656 1278.115
+  m_sAttachmentGroupName "GR_NVA_pilots1"
+ }
+ Mi24P_armed_9M2 {
+  coords 6506.123 96.656 1293.429
+  m_sAttachmentGroupName "GR_NVA_pilots2"
+ }
+}
+$grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
+ T72A_NVA1 {
+  coords 4638.263 59.316 5235.007
+  angleX 0.686
+  angleY 49.975
+  angleZ -0.576
+  m_sAttachmentGroupName "GR_NVA_T1"
+  {
+   SCR_AIGroup GR_NVA_T1 : "{B3CC9AE15B7CCE69}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_TankCrew_P.et" {
+    coords -1 0 -7.5
+    m_aUnitPrefabSlots {
+     "{B1836A005BDD0AE4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewPltCO_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewGunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewDriver_P.et"
+    }
+   }
+  }
+ }
+ T72A_NVA2 {
+  coords 4617.125 59.509 5236.847
+  angleX -0.796
+  angleY 50.004
+  angleZ 1.836
+  m_sAttachmentGroupName "GR_NVA_T2"
+  {
+   SCR_AIGroup GR_NVA_T2 : "{B3CC9AE15B7CCE69}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_TankCrew_P.et" {
+    coords -1 0 -7.5
+   }
+  }
+ }
+ T72A_NVA3 {
+  coords 4636.418 59.375 5213.877
+  angleY 49.996
+  m_sAttachmentGroupName "GR_NVA_T3"
+  {
+   SCR_AIGroup GR_NVA_T3 : "{B3CC9AE15B7CCE69}Prefabs/Groups/OPFOR/GC_NVA/Group_GC_NVA_TankCrew_P.et" {
+    coords -1 0 -7.5
+   }
+  }
+ }
+}
