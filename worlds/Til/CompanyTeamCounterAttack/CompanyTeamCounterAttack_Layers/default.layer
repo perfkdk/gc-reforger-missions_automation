@@ -21,29 +21,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
-     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
-      m_aPlatoonNames {
-       SCR_CallsignInfo "{55CCB792CE6E998D}" {
-        m_sCallsign "Black"
-       }
-       SCR_CallsignInfo "{55CCB792CE18FB44}" {
-        m_sCallsign "Red"
-       }
-       SCR_CallsignInfo "{55CCB792CE02ECFA}" {
-        m_sCallsign "White"
-       }
-       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
-        m_sCallsign "Blue"
-       }
-      }
-      m_aSquadNames {
-       SCR_CallsignInfo "{66320A28FD31D47B}" {
-        m_sCallsign "Wrench"
-       }
-      }
-      m_sCallsignGroupFormat "%2 %3"
-      m_sCallsignCharacterFormat "%2 %3: %4"
-      m_sCallsignCharacterWithRoleFormat "%2 %3: %4"
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" : "{4F81B91B436B51FE}Configs/Callsigns/Callsigns_US_Armor.conf" {
      }
     }
     SCR_Faction "{652F615735715119}" {
