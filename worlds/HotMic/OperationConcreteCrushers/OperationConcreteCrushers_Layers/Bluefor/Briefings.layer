@@ -26,7 +26,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Location: Everon"\
   "Weather: Random, Morning"\
   ""\
-  "The United States is launching a large-scale operation to seize control of the island of Everon. Intelligence has identified the presence of the Commander currently overseeing the defense of the island. This individual is currently overseeing the island’s defense. His leadership and coordination are critical to the enemy's ability to establish a resistance against NATO. The Northern Airport has been seized by a section of VDV. The rest of the island has been occupied by remnants of various elements as per J2."
+  "The United States is launching a large-scale operation to seize control of the island of Everon. Intelligence has identified the presence of the Commander currently overseeing the defense of the island. This individual is currently overseeing the island’s defense. His leadership and coordination are critical to the enemy's ability to establish a resistance against NATO. "
   m_bShowForAnyFaction 1
   m_iOrder 0
  }
@@ -75,14 +75,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "If one died during Phase 1 and respawned on deck. It's not allowed to be re-inserted until Phase 1 is concluded."\
   ""\
   "- Intel Gathering -"\
-  "Each Command Post may contain a large red folder that can be collected by holding the Interact button."\
-  "If no red folder is present, the site holds no intel; move on to the next objective."\
+  "Each Command Post contain a large red folder that can be collected by holding the Interact button."\
   ""\
   "- Live Map Editing -"\
   "Live Map editing is allowed after Phase 1. In-game message will notify the COs. Only top 2 ground COs and 1 Flight Lead is allow to add/edit new markers. They have 5 mins."\
   ""\
   "- Post Phase 1 -"\
-  "COs can plan for extraction back to LHD after completing Phase 1 if they so choose or refit."
+  "COs can plan for extraction back to LHD after completing Phase 1 if they so choose or refit. AO Limit is lifted as well."
   m_bShowForAnyFaction 1
   m_iOrder 0
  }
@@ -92,7 +91,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Up to CO's discretion, this mission accomplish with two phases in mind:"\
   ""\
   "- Phase 1 -"\
-  "Assault and secure three intelligence fragments from five known enemy sites. Only three of the sites contain actionable intel; recovering all fragments is necessary to triangulate and confirm the commander’s location. The Company CDR can order any element to reconvene back to the LHD at any time."\
+  "Assault and secure both enemy sites. Each site contains one intelligence fragment (in a form of Red Folder) that must be recovered."\
+  "Recovering all fragments is necessary to triangulate and confirm the commander’s location. The Company CDR can order any element to reconvene back to the LHD at any time."\
   ""\
   "- Phase 2-"\
   "Once intel is confirmed, assault the enemy Battalion Commander’s position once identified, neutralize the target, and extract remaining forces to the LHD."\
@@ -179,7 +179,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
- {
+ MilitarySite_Intel_Marker {
   coords 7685.963 13.776 8115.968
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
@@ -189,7 +189,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bUseWorldScale 0
   m_bShowForAnyFaction 1
  }
- {
+ ChotainMilitarySite_Intel_Marker {
   coords 7465.583 7.732 6714.267
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
@@ -199,7 +199,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bUseWorldScale 0
   m_bShowForAnyFaction 1
  }
- {
+ Chotain_Intel_Marker {
   coords 7096.92 119.28 6012.819
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
@@ -209,7 +209,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bUseWorldScale 0
   m_bShowForAnyFaction 1
  }
- {
+ Laruns_Intel_Marker {
   coords 7559.635 82.43 5543.083
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
@@ -219,7 +219,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bUseWorldScale 0
   m_bShowForAnyFaction 1
  }
- {
+ Levie_Intel_Marker {
   coords 7480.794 137.111 4738.216
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"

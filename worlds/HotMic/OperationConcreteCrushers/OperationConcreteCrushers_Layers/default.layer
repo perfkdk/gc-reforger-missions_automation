@@ -81,6 +81,39 @@ TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_Ex
  m_factionKey "RHS_USAF"
  m_ratioThreshold 0.95
 }
+PolylineShapeEntity AOPhase1 : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_factionKeys {
+    "RHS_USAF"
+   }
+   m_defaultColor 0 0 1 1
+   m_useFactionColor 0
+   m_lineWidth 4
+  }
+ }
+ coords 8678.081 265.259 4384.686
+ Points {
+  ShapePoint "{669153F490730CFB}" {
+   Position 2487.179 -258.028 -420.494
+  }
+  ShapePoint "{669153F4CE1643A7}" {
+   Position 2453.832 0 2385.138
+  }
+  ShapePoint "{669153F4DCAF34A8}" {
+   Position -1141.565 0 5261.237
+  }
+  ShapePoint "{669153F4D67EE665}" {
+   Position -2194.526 0 4599.839
+  }
+  ShapePoint "{669153F52AA4407C}" {
+   Position -2695.163 0 2070.503
+  }
+  ShapePoint "{669153F5233295AD}" {
+   Position -2164.679 0 -432.573
+  }
+ }
+}
 TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 9480.127 22.971 7003.064
  angleY 60
@@ -90,7 +123,7 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
  "		// Increase the count and then check the condition."\
  "		intelCount++;"\
  "		"\
- "		if (intelCount == 3) "\
+ "		if (intelCount == 2) "\
  "			AdjustMissionFlag(\"Phase 1 Done Flag\", true);"\
  "	"
  FrameworkScript2 ""\
@@ -200,11 +233,13 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
  FrameworkScript3 ""\
  "		// Delete Intel Entities based on non-active flags"\
  "		array<string> intelEntityFlagsList = {\"Chotain_Intel\", \"ChotainMilitarySite_Intel\", \"Laruns_Intel\", \"Levie_Intel\", \"MilitarySite_Intel\"};"\
+ "		array<string> markerEntityFlagsList = {\"Chotain_Intel\", \"ChotainMilitarySite_Intel\", \"Laruns_Intel\", \"Levie_Intel\", \"MilitarySite_Intel\"};"\
  "		"\
  "		foreach (string intelEntity : intelEntityFlagsList){"\
  "			if (!IsMissionFlag(intelEntity)) {"\
  "				PrintFormat(\"FW3: Deleting %1\", intelEntity);"\
  "				SCR_EntityHelper.DeleteEntityAndChildren(GetGame().GetWorld().FindEntityByName(intelEntity));"\
+ "				SCR_EntityHelper.DeleteEntityAndChildren(GetGame().GetWorld().FindEntityByName(intelEntity + \"_Marker\"));"\
  "			}			"\
  "		}"\
  "		"\
@@ -214,13 +249,15 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
   TILW_MissionEvent "{665C5BA8E1FB65E1}" {
    m_name "Phase 1 Setup"
    m_instructions {
-    TILW_RunScriptInstruction "{665C5BA8F6ED0EC4}" {
+    TILW_RunScriptInstruction "{669153F5E43B311F}" {
+     m_executionDelay 0.5
      m_iScriptNumber 3
     }
    }
    m_condition TILW_LiteralTerm "{665C5BA8CC5F83F7}" {
     m_invertTerm 1
    }
+   m_pregameEvent 1
   }
   TILW_MissionEvent "{66554E0AD84D4EF5}" {
    m_name "Chotain Intel"
@@ -316,6 +353,12 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
     TILW_RunScriptInstruction "{665766ABA6FD5DAE}" {
      m_executionDelay 10
      m_iScriptNumber 2
+    }
+    TILW_DeleteEntitiesInstruction "{669153F093220C28}" {
+     m_executionDelay 15
+     m_entityNames {
+      "AOPhase1"
+     }
     }
     TILW_SendMessageInstruction "{66632CFEA0AA20D0}" {
      m_executionDelay 305
@@ -458,7 +501,7 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
    m_flagNames {
     "Chotain_Intel" "ChotainMilitarySite_Intel" "Laruns_Intel" "Levie_Intel" "MilitarySite_Intel"
    }
-   m_k 3
+   m_k 2
   }
   TILW_FlagSampling "{66523C8787D2B82A}" {
    m_flagNames {
