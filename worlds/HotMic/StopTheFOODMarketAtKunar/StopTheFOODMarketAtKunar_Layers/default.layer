@@ -302,66 +302,6 @@ TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
  "	SCR_ResourceComponent BlueRC;"\
  " 	SCR_ResourceContainer BlueContainer;"\
  "	int currentPhaseIndex = 1;"
- FrameworkScript1 ""\
- "		// Set the Supplies value on all cargo vans.\""\
- "		"\
- "		IEntity cargoVanMarket1 = GetGame().GetWorld().FindEntityByName(\"Market1Van\");"\
- "		IEntity cargoVanMarket2 = GetGame().GetWorld().FindEntityByName(\"Market2Van\");"\
- "		IEntity cargoVanMarket3 = GetGame().GetWorld().FindEntityByName(\"Market3Van\");"\
- "		IEntity cargoVanMarket4 = GetGame().GetWorld().FindEntityByName(\"Market3Van2\");"\
- "		"\
- "		if (!cargoVanMarket1)"\
- "		{"\
- "			Print(\"No entity of Market1Van found\");"\
- "			RaiseFailedFlag();"\
- "		}"\
- "		if (!cargoVanMarket2)"\
- "		{"\
- "			Print(\"No entity of Market2Van found\");"\
- "			RaiseFailedFlag();"\
- "		}"\
- "		if (!cargoVanMarket3)"\
- "		{"\
- "			Print(\"No entity of Market3Van found\");"\
- "			RaiseFailedFlag();"\
- "		}"\
- "		if (!cargoVanMarket4)"\
- "		{"\
- "			Print(\"No entity of Market3Van found\");"\
- "			RaiseFailedFlag();"\
- "		}"\
- "		"\
- "		CheckForComponentAndAddSupplies(cargoVanMarket1, 250);"\
- "		CheckForComponentAndAddSupplies(cargoVanMarket2, 250);"\
- "		CheckForComponentAndAddSupplies(cargoVanMarket3, 250);"\
- "		CheckForComponentAndAddSupplies(cargoVanMarket4, 250);"\
- "		"\
- "		Print(\"FW1 Script ran successfully\");"\
- "	}"\
- "	"\
- "	private bool CheckForComponentAndAddSupplies(IEntity entity, int suppliesAmount)"\
- "	{"\
- "		// Get the Resource Component, then Resource Container, and then set the value"\
- "		if (!entity) return false;"\
- "		"\
- "		SCR_ResourceComponent resourceComponent = SCR_ResourceComponent.FindResourceComponent(entity, true);"\
- "		SCR_ResourceContainer container;"\
- "		if (resourceComponent && resourceComponent.GetContainer(EResourceType.SUPPLIES, container)) {"\
- "  			container.SetResourceValue(250);"\
- "		} else {"\
- "			PrintFormat(\"%1 did not have either a resource component or resource container\", entity.GetName());"\
- "			return false;"\
- "		}"\
- "		"\
- "		return true;"\
- "	}"\
- "		"\
- "	private void RaiseFailedFlag()"\
- "	{"\
- "		Print(\"FW1 Script soft failed\");"\
- "		AdjustMissionFlag(\"Failed Cargo Van Supplies Flag\", true);"\
- "		return;"\
- "	"
  FrameworkScript2 ""\
  "		// Check the Current Supply value of Supply Depot with Target value(500) or value(750)"\
  "		"\
@@ -403,40 +343,17 @@ TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
  " 		Print(\"FW3 Script soft failed\");"\
  " 		return;"\
  "	"
- FrameworkScript4 ""\
- "		// Spawn a Marker on the Market 3 Location"\
- "		EntitySpawnParams spawnParams = new EntitySpawnParams();"\
- "		vector mat[4];"\
- "		"\
- "		IEntity spawnMarker = GetGame().GetWorld().FindEntityByName(\"Market3Location\");"\
- "		spawnMarker.GetWorldTransform(mat);"\
- "		spawnParams.Transform = mat;"\
- "		IEntity marker = GetGame().SpawnEntityPrefab(Resource.Load(\"{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et\"), GetGame().GetWorld(), spawnParams);"\
- "		"\
- "		// Edit the Marker"\
- "		if (marker) {"\
- "			PS_EditableMarkerComponent markerComponent = PS_EditableMarkerComponent.Cast(marker.FindComponent(PS_EditableMarkerComponent));"\
- "			markerComponent.SetMarkerImage(\"{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset|{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset|objective-marker\");"\
- "			markerComponent.SetMarkerSize(75);"\
- "			markerComponent.SetMarkerDescription(\"Market Site 3\");"\
- "			markerComponent.SetMarkerUseWorldScale(false);"\
- "			"\
- "			Faction TKAFaction = GetGame().GetFactionManager().GetFactionByKey(\"GC_TKA\");"\
- "			array<string> factionKey = {\"GC_TKA\"};"\
- "			markerComponent.SetMarkerVisibleForFaction(TKAFaction, true);"\
- "			"\
- "			markerComponent.SetMarkerColor(\"253 202 146 0\");"\
- "		} else {"\
- "			Print(\"Failed to find the Map Marker to Edit.\");"\
- "		}"\
- "		"\
- "						"\
- "		Print(\"FW4 Done!\");"\
- "	"
  m_missionEvents {
   TILW_MissionEvent "{663A0081039CC233}" {
    m_name "Phase 1 Setup"
    m_instructions {
+    TILW_ServiceVehiclesInstruction "{669329458AEFB8E3}" {
+     m_aVehicleNames {
+      "Market1Van" "Market2Van" "Market3Van" "Market3Van2"
+     }
+     m_bAdjustSupplies 1
+     m_iAmountSupplies 250
+    }
     TILW_RunScriptInstruction "{66863C8ED09B03D3}" {
      m_executionDelay 0
      m_iScriptNumber 3
@@ -452,19 +369,6 @@ TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
     m_invertTerm 1
    }
   }
-  TILW_MissionEvent "{663A008A4B25BE20}" {
-   m_name "Failed Set Cargo Van with Supplies"
-   m_instructions {
-    TILW_SendMessageInstruction "{663A008A553E3D11}" {
-     m_executionDelay 0
-     m_messageTitle "Failed Cargo Van Supplies"
-     m_messageBody "There's a problem with the FW1's custom script; GMs - your call!"
-    }
-   }
-   m_condition TILW_LiteralTerm "{663A008A5ACDBEA1}" {
-    m_flagName "Failed Cargo Van Supplies Flag"
-   }
-  }
   TILW_MissionEvent "{668635AFF9DF6353}" {
    m_name "Start Phase 2"
    m_instructions {
@@ -474,16 +378,32 @@ TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
      "Happy hunting!"
     }
     TILW_SetFlagInstruction "{66863C8CAF846497}" {
-     m_executionDelay 10
      m_flagName "Phase 2 Units Spawn Flag"
     }
-    TILW_RunScriptInstruction "{668D5B34EFD1A779}" {
-     m_iScriptNumber 4
-    }
     TILW_DeleteEntitiesInstruction "{668D5B396B064242}" {
-     m_executionDelay 15
      m_entityNames {
       "Phase1AO"
+     }
+    }
+    TILW_EditMapItemInstruction "{66932941973C8EB0}" {
+     m_itemNames {
+      "Market1" "Market2"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{66932941973C9D31}" {
+       m_factionKey "GC_TKA"
+      }
+     }
+    }
+    TILW_EditMapItemInstruction "{66932946AE43D62F}" {
+     m_itemNames {
+      "Market3"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6693294691576EC6}" {
+       m_factionKey "GC_TKA"
+       m_visible 1
+      }
      }
     }
    }
