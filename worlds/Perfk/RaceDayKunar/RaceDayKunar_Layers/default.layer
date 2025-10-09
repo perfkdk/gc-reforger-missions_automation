@@ -12,13 +12,6 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
  }
  coords 3080.505 10.036 3056.896
  m_iFreezeTime 60000
- m_aFactionRespawnCount {
-  PS_FactionRespawnCount "{666AF8B289899AD7}" {
-   m_sFactionKey "CIV"
-   m_iCount 999
-   m_iTime 2
-  }
- }
  m_eJIPState Deny
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
