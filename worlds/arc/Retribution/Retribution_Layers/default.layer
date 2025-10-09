@@ -7,7 +7,7 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  coords 6540.076 96.656 1347.778
  {
-  SCR_FactionManager {
+  SCR_FactionManager "667979EF6047C7DC" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
@@ -34,6 +34,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   Enabled 0
    m_useFactionColor 0
   }
   TILW_MapShapeComponent "{6508F54F9B461198}" {
