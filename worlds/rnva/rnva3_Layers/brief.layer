@@ -17,6 +17,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "- 5 minute setup timer. Affects NVA helicopters and US forces."\
   "- AO limit does not affect NVA helicopters"\
   ""\
+  "respawns?"\
+  ""\
   "- If you drive your vehicle into a ditch and can't get out, you may ask for GM help, but please try your best to just stay clear of them in the first place. There are many places where you can get past them without going right through."\
   "- If you are a Bradley gunner, you can switch to your TOW by holding V. You cannot select it using the number keys."\
   ""\
