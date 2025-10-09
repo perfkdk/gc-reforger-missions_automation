@@ -351,7 +351,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
 }
 TILW_FactionTriggerEntity truck_blockade_trigger : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 3569.9 166.56 4125.428
- m_flagName "truck_blocked_trigger"
+ m_flagName "truck_blockade_trigger"
  m_ownerFactionKey "RHS_AFRF"
  m_ratioThreshold 0.01
 }

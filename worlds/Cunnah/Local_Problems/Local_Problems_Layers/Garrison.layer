@@ -1,18 +1,4 @@
 $grp SCR_AIGroup : "{26E9D09E8E3C0CC0}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/P/AFRF_MotRifles_2020_CoyHQ_P.et" {
- HVT {
-  components {
-   PS_GroupCallsignAssigner "{6522D4E915D8424E}" {
-   }
-  }
-  coords 4798.653 169.327 3579.738
-  angleY -127.063
-  m_faction "GARRISON"
-  m_aUnitPrefabSlots {
-   "{5BC878AFF8AE2C5D}worlds/Cunnah/Prefabs/Characters/Factions/CIV/Businessman/HVT_Armoured.et"
-  }
-  m_bSnapToTerrain 0
-  m_sCustomNameSet "HVT"
- }
  Patrol_1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -49,13 +35,21 @@ $grp SCR_AIGroup : "{26E9D09E8E3C0CC0}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   m_bSnapToTerrain 0
   m_sCustomNameSet "Squad"
  }
-}
-TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
- coords 4790.374 169.331 3575.13
- m_queryRadius 13
- m_skipFirstQuery 1
- m_flagName "OPFOR_In_Town"
- m_entityNames {
-  "HVT"
+ HVT {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{6522D4E9315D95EF}" {
+   }
+  }
+  coords 4798.688 169.327 3580.183
+  angleY -125.353
+  m_faction "HVT"
+  m_aUnitPrefabSlots {
+   "{F32A660889248606}worlds/Cunnah/Prefabs/Characters/Factions/CIV/Businessman/HVT_Armoured_Faction_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "HVT"
  }
 }
