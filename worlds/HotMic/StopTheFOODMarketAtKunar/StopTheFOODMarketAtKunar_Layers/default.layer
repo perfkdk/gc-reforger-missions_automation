@@ -358,8 +358,6 @@ TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
      m_executionDelay 0
      m_iScriptNumber 3
     }
-    TILW_RunScriptInstruction "{663A008164B5B57E}" {
-    }
     TILW_SetFlagInstruction "{66863C8F6662DDB3}" {
      m_executionDelay 180
      m_flagName "Check Supplies Flag"
@@ -447,8 +445,8 @@ TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
    m_instructions {
     TILW_SendMessageInstruction "{66423301EB2641DE}" {
      m_executionDelay 1
-     m_messageTitle "Mission Success"
-     m_messageBody "Great Job, wait for GMs to end the mission."
+     m_messageTitle "TKA VICTORY"
+     m_messageBody "Great job, wait for GMs to end the mission."
     }
    }
    m_condition TILW_LiteralTerm "{663E442FD552629F}" {
@@ -459,8 +457,8 @@ TILW_MissionFrameworkEntity fw1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
    m_name "Casualties Limit "
    m_instructions {
     TILW_SendMessageInstruction "{663E442AA21BFB97}" {
-     m_messageTitle "Mission Failed!"
-     m_messageBody "We have taken to much loses! Fall Back!"
+     m_messageTitle "TKA DEFEAT"
+     m_messageBody "The TKA has taken too many losses! Fall back!"
     }
     TILW_EndGameInstruction "{663E442A92CB347A}" {
      m_executionDelay 120

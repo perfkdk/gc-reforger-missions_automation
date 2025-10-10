@@ -1,5 +1,9 @@
 $grp GenericEntity {
  MarketSpot {
+  components {
+   TILW_NavmeshRegenComponent "{6694FCCB38F0A597}" {
+   }
+  }
   coords 322.885 155.202 2196.192
   angleY -45
   {
@@ -49,6 +53,10 @@ $grp GenericEntity {
   }
  }
  MarketSpot2 {
+  components {
+   TILW_NavmeshRegenComponent "{6694FCCB3EF2B1E9}" {
+   }
+  }
   coords 889.616 125.068 2558.767
   {
    GenericEntity : "{3D54B486FA666640}Prefabs/Structures/Market/SmallStand.et" {
@@ -80,6 +88,10 @@ $grp GenericEntity {
   }
  }
  MarketSpot3 {
+  components {
+   TILW_NavmeshRegenComponent "{6694FCCB3CE23474}" {
+   }
+  }
   coords 3597.719 280 401.305
   angleY -5.975
   {
@@ -140,6 +152,10 @@ $grp GenericEntity {
   }
  }
  MarketSpot4 {
+  components {
+   TILW_NavmeshRegenComponent "{6694FCCB020299A7}" {
+   }
+  }
   coords 3695.021 280 426.205
   angleY -95.975
   {
