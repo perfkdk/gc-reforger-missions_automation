@@ -1,14 +1,3 @@
-$grp GenericEntity {
- LocationA5 {
-  coords 9682.815 25.303 1605.15
- }
- LocationB5 {
-  coords 9656.244 23.249 1555.692
- }
- LocationC5 {
-  coords 9639.802 24.79 1581.213
- }
-}
 TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
  coords 9798.394 11.224 1564.519
  m_queryRadius 700
@@ -105,6 +94,22 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    "PierreDefenseWaypoint"
   }
  }
+ CommanderSpawner5 {
+  coords 9682.843 25.302 1605.126
+  m_prefab "{C36FA3DD3507C03E}worlds/HotMic/Prefabs/Characters/Objectives/RHS_RF_Commander.et"
+  m_conditionFlag "StPierre Location A Flag"
+  m_spawnTimings {
+   38
+  }
+ }
+}
+PS_ManualMarker StPierreMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 9680.71 21.328 1603.842
+ angleY 0
+ m_MarkerColor 1 0 0 1
+ m_sQuadName "circle"
+ m_fWorldSize 260
+ m_sDescription "Commander's Rough Location"
 }
 SCR_DefendWaypoint PierreDefenseWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
  coords 9725.866 18.257 1624.511

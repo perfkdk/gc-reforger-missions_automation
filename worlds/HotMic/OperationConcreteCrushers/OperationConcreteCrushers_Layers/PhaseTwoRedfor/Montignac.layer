@@ -1,14 +1,3 @@
-$grp GenericEntity {
- LocationA2 {
-  coords 4776.134 179.443 6990.493
- }
- LocationB2 {
-  coords 4799.207 177.163 6953.822
- }
- LocationC2 {
-  coords 4749.621 171.363 7021.672
- }
-}
 TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
  coords 4798.058 163.324 6999.404
  m_queryRadius 700
@@ -96,7 +85,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Montignac Spawn Flag"
   m_spawnTimings {
-   90
+   35
   }
   m_waypointNames {
    "MontignacDefenseWaypoint2"
@@ -107,12 +96,28 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et"
   m_conditionFlag "Montignac Spawn Flag"
   m_spawnTimings {
-   95
+   40
   }
   m_waypointNames {
    "MontignacDefenseWaypoint2"
   }
  }
+ CommanderSpawner2 {
+  coords 4775.701 179.463 6990.684
+  m_prefab "{C36FA3DD3507C03E}worlds/HotMic/Prefabs/Characters/Objectives/RHS_RF_Commander.et"
+  m_conditionFlag "Montignac Location A Flag"
+  m_spawnTimings {
+   43
+  }
+ }
+}
+PS_ManualMarker MontignacMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 4775.542 179.463 6990.564
+ angleY 0
+ m_MarkerColor 1 0 0 1
+ m_sQuadName "circle"
+ m_fWorldSize 260
+ m_sDescription "Commander's Rough Location"
 }
 $grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
  MontignacDefenseWaypoint {

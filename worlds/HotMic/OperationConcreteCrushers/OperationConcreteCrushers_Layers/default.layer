@@ -127,9 +127,8 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
  "			AdjustMissionFlag(\"Phase 1 Done Flag\", true);"\
  "	"
  FrameworkScript2 ""\
- "		// Based on the result of the random flags, select which town location to spawn units and sub location for enemy commander"\
+ "		// Based on the result of the random flags, select which town location to spawn units and location for enemy commander"\
  "		array<string> townList = {\"Lamentin Flag\", \"Montignac Flag\", \"Morton Flag\", \"StPhillipe Flag\", \"StPierre Flag\"};"\
- "		array<string> commanderLocationList = {\"Loc A Flag\", \"Loc B Flag\", \"Loc C Flag\"};"\
  "		"\
  "		array<string> townSpawnFlagList = {\"Lamentin Spawn Flag\", \"Montignac Spawn Flag\", \"Morton Spawn Flag\", \"StPhillipe Spawn Flag\", \"StPierre Spawn Flag\"};"\
  "		"\
@@ -145,88 +144,17 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
  "			}			"\
  "		}"\
  "		"\
- "		for (int i = 0; i < commanderLocationList.Count(); i++){"\
- "			if (IsMissionFlag(commanderLocationList[i])){"\
- "				PrintFormat(\"%1 has been chosen!\", commanderLocationList[i]);"\
- "				commanderLocation = commanderLocationList[i];"\
- "				continue;"\
- "			}"\
- "		}"\
- "		"\
- "		// Get a string for commander location based on current town and sub-location number "\
- "		switch (commanderLocation) {"\
- "			case (\"Loc A Flag\"):"\
- "				commanderLocation = \"LocationA\" + townNumber;"\
- "				break;"\
- "		"\
- "			case (\"Loc B Flag\"):"\
- "				commanderLocation = \"LocationB\" + townNumber;"\
- "				break;"\
- "			"\
- "			case (\"Loc C Flag\"):"\
- "				commanderLocation = \"LocationC\" + townNumber;"\
- "				break;"\
- "			"\
- "			default: "\
- "				Print(\"FW2 switch case failed to find the location name!\");"\
- "				break;"\
- "		};"\
- "		"\
  "		PrintFormat(\"FW2: The Commander's spawn location is %1, %2!\", commanderLocation, townList[townNumber-1]);"\
  "		"\
  "		// Get Faction class for USMC "\
  "		Faction USMCFaction = GetGame().GetFactionManager().GetFactionByKey(\"RHS_USAF\");"\
  "		array<string> factionKey = {\"RHS_USAF\"};"\
- "		"\
- "		// Get the Location Entity that will be use to spawn the Commander based on the string we have"\
- "		IEntity commanderSpawnLocation = GetGame().GetWorld().FindEntityByName(commanderLocation);"\
- "		if (!commanderSpawnLocation) {"\
- "			Print(\"Commander's Spawn Location Entity not located; FW2 Failed!\");"\
- "			return;"\
- "		}"\
- "		"\
- "		EntitySpawnParams spawnParams = new EntitySpawnParams();"\
- "		vector mat[4];"\
- "		commanderSpawnLocation.GetWorldTransform(mat);"\
- "		spawnParams.Transform = mat;"\
- "		"\
- "		// Spawn a Commander on the Location Entity"\
- "		IEntity commanderEntity = GetGame().SpawnEntityPrefab(Resource.Load(\"{C36FA3DD3507C03E}worlds/HotMic/Prefabs/Characters/Objectives/RHS_RF_Commander.et\"), GetGame().GetWorld(), spawnParams);"\
- "		"\
- "		if (!commanderEntity) "\
- "		{"\
- "			TILW_MissionFrameworkEntity.GetInstance().ShowGlobalHint(\"Misson Complete\", \"We got the intel that the enemy commander has been backstab by his 2IC and now they're express their intent to surrender.\", 10, factionKey);"\
- "			Print(\"FW2 Failed!\");"\
- "			return;"\
- "		}"\
- "		"\
- "		commanderEntity.SetName(\"TheCommander\");"\
- "		"\
- "		// Spawn a Marker on the respective Location A Entity"\
- "		IEntity spawnMarker = GetGame().GetWorld().FindEntityByName(\"LocationA\" + townNumber);"\
- "		spawnMarker.GetWorldTransform(mat);"\
- "		spawnParams.Transform = mat;"\
- "		IEntity marker = GetGame().SpawnEntityPrefab(Resource.Load(\"{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et\"), GetGame().GetWorld(), spawnParams);"\
+ ""\
  "		"\
  "		// Send a Message about locating a Enemy Commander's location"\
  "		array<string> outTokens = new array<string>();"\
  "		townList[townNumber-1].Split(\" \", outTokens, false);"\
  "		TILW_MissionFrameworkEntity.GetInstance().ShowGlobalHint(\"Enemy Commander Located!\", \"The Commander is located at \" + outTokens[0], 10, factionKey);"\
- "		"\
- "		// Edit the Marker"\
- "		if (marker) {"\
- "			PS_EditableMarkerComponent markerComponent = PS_EditableMarkerComponent.Cast(marker.FindComponent(PS_EditableMarkerComponent));"\
- "			markerComponent.SetMarkerImage(\"{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset|{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset|circle\");"\
- "			markerComponent.SetMarkerSize(260);"\
- "			markerComponent.SetMarkerDescription(\"Commander's Rough Location\");"\
- "			markerComponent.SetMarkerUseWorldScale(true);"\
- "			markerComponent.SetMarkerVisibleForFaction(USMCFaction, true);"\
- "			"\
- "			markerComponent.SetMarkerColor(\"255 255 0 0\"); // This should be red but the ouput is black. Don't know why."\
- "		} else {"\
- "			Print(\"Failed to find the Map Marker to Edit.\");"\
- "		}"\
- "		"\
  "						"\
  "		Print(\"FW2 Done!\");"\
  "	"
@@ -420,6 +348,122 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
     m_flagName "Phase 1 Delete Units Flag"
    }
   }
+  TILW_MissionEvent "{669536FCC6882285}" {
+   m_name "Show Lamentin Marker"
+   m_instructions {
+    TILW_EditMapItemInstruction "{669536FD6B98F4AF}" {
+     m_executionDelay 0
+     m_itemNames {
+      "LamentinMarker"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6695689FA2813975}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{669536FD781C5F9D}" {
+    m_operands {
+     TILW_LiteralTerm "{6695689F8BAE6038}" {
+      m_flagName "Lamentin Location A Flag"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6695689FEDF0DC49}" {
+   m_name "Show Montignac Marker"
+   m_instructions {
+    TILW_EditMapItemInstruction "{6695689FEDF0DDF4}" {
+     m_executionDelay 0
+     m_itemNames {
+      "MontignacMarker"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6695689FEDF0DDF6}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6695689FEDF0DDF2}" {
+    m_operands {
+     TILW_LiteralTerm "{6695689FEDF0DDF3}" {
+      m_flagName "Montignac Location A Flag"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6695689FCBDB3FA9}" {
+   m_name "Show Morton Marker"
+   m_instructions {
+    TILW_EditMapItemInstruction "{6695689FCBDB3F3B}" {
+     m_executionDelay 0
+     m_itemNames {
+      "MortonMarker"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6695689FCBDB3F35}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6695689FCBDB3F2D}" {
+    m_flagName "Morton Location A Flag"
+   }
+  }
+  TILW_MissionEvent "{6695689E2A43F775}" {
+   m_name "Show StPhilipe Marker"
+   m_instructions {
+    TILW_EditMapItemInstruction "{6695689E2A43F4C8}" {
+     m_executionDelay 0
+     m_itemNames {
+      "StPhilipeMarker"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6695689E2A43F4CA}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6695689E2A43F4C6}" {
+    m_operands {
+     TILW_LiteralTerm "{6695689E2A43F4C7}" {
+      m_flagName "StPhillipe Location A Flag"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6695689E075D2158}" {
+   m_name "Show StPierre Marker"
+   m_instructions {
+    TILW_EditMapItemInstruction "{6695689E075D2132}" {
+     m_executionDelay 0
+     m_itemNames {
+      "StPierreMarker"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{6695689E075D212C}" {
+       m_factionKey "RHS_USAF"
+       m_visible 1
+      }
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6695689E075D2128}" {
+    m_operands {
+     TILW_LiteralTerm "{6695689E075D2129}" {
+      m_flagName "StPierre Location A Flag"
+     }
+    }
+   }
+  }
   TILW_MissionEvent "{665A6785A04306DC}" {
    m_name "Phase 2 Commander Killed"
    m_instructions {
@@ -433,19 +477,6 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
    }
    m_condition TILW_LiteralTerm "{665A67865663B9F7}" {
     m_flagName "RHS RF Commander Killed Flag"
-   }
-  }
-  TILW_MissionEvent "{665C5BAF14C4EB72}" {
-   m_name "US Casualties"
-   m_instructions {
-    TILW_SendMessageInstruction "{665C5BAF6639CD55}" {
-     m_executionDelay 2
-     m_messageTitle "US Defeat!"
-     m_messageBody "We have taken too much casualties!"
-    }
-   }
-   m_condition TILW_LiteralTerm "{665C5BAF468FB56B}" {
-    m_flagName "US Casualties Flag"
    }
   }
   TILW_MissionEvent "{665C5BAF43483A20}" {
@@ -488,12 +519,92 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
     m_invertTerm 1
    }
   }
+  TILW_MissionEvent "{665C5BAF14C4EB72}" {
+   m_name "US Casualties"
+   m_instructions {
+    TILW_SendMessageInstruction "{665C5BAF6639CD55}" {
+     m_executionDelay 2
+     m_messageTitle "US Defeat!"
+     m_messageBody "We have taken too much casualties!"
+    }
+   }
+   m_condition TILW_LiteralTerm "{665C5BAF468FB56B}" {
+    m_flagName "US Casualties Flag"
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{665C5BAF3133C463}" {
    m_flagName "US Casualties Flag"
    m_factionKey "RHS_USAF"
    m_casualtyRatio 0.9
+  }
+ }
+ m_metaFlags {
+  TILW_MetaFlag "{669536F6AD181507}" {
+   m_flagName "Lamentin Location A Flag"
+   m_definition TILW_ConjunctionTerm "{669536F68EAE6641}" {
+    m_operands {
+     TILW_LiteralTerm "{669536F68D9E7C2C}" {
+      m_flagName "Lamentin Flag"
+     }
+     TILW_LiteralTerm "{669536F6ED49EA77}" {
+      m_flagName "Phase 1 Done Flag"
+     }
+    }
+   }
+  }
+  TILW_MetaFlag "{669536F73D74BC5F}" {
+   m_flagName "Montignac Location A Flag"
+   m_definition TILW_ConjunctionTerm "{669536F73D74BC04}" {
+    m_operands {
+     TILW_LiteralTerm "{669536F73D74BC06}" {
+      m_flagName "Montignac Flag"
+     }
+     TILW_LiteralTerm "{669536F73D74BC01}" {
+      m_flagName "Phase 1 Done Flag"
+     }
+    }
+   }
+  }
+  TILW_MetaFlag "{669536F748D16DD9}" {
+   m_flagName "Morton Location A Flag"
+   m_definition TILW_ConjunctionTerm "{669536F748D16D8A}" {
+    m_operands {
+     TILW_LiteralTerm "{669536F748D16D84}" {
+      m_flagName "Morton Flag"
+     }
+     TILW_LiteralTerm "{669536F748D1C16F}" {
+      m_flagName "Phase 1 Done Flag"
+     }
+    }
+   }
+  }
+  TILW_MetaFlag "{669536F7C664B7DD}" {
+   m_flagName "StPhillipe Location A Flag"
+   m_definition TILW_ConjunctionTerm "{669536F7C664B789}" {
+    m_operands {
+     TILW_LiteralTerm "{669536F7C664A874}" {
+      m_flagName "StPhillipe Flag"
+     }
+     TILW_LiteralTerm "{669536F7C6653752}" {
+      m_flagName "Phase 1 Done Flag"
+     }
+    }
+   }
+  }
+  TILW_MetaFlag "{669536F7B011C75A}" {
+   m_flagName "StPierre Location A Flag"
+   m_definition TILW_ConjunctionTerm "{669536F7B011C7F2}" {
+    m_operands {
+     TILW_LiteralTerm "{669536F7B011C7FC}" {
+      m_flagName "StPierre Flag"
+     }
+     TILW_LiteralTerm "{669536F7B011C7FF}" {
+      m_flagName "Phase 1 Done Flag"
+     }
+    }
+   }
   }
  }
  m_randomFlags {
@@ -506,11 +617,6 @@ TILW_MissionFrameworkEntity MF1 : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFram
   TILW_FlagSampling "{66523C8787D2B82A}" {
    m_flagNames {
     "Lamentin Flag" "Montignac Flag" "Morton Flag" "StPierre Flag" "StPhillipe Flag"
-   }
-  }
-  TILW_FlagSampling "{66523C865E0664AB}" {
-   m_flagNames {
-    "Loc A Flag" "Loc B Flag" "Loc C Flag"
    }
   }
  }
