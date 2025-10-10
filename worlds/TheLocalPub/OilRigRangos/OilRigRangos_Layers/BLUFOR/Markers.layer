@@ -46,9 +46,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  Intel1 {
   coords 10859.884 0 1848.976
   angleY 90
-  m_sImageSet "{F90299752DEBB09B}worlds/TheLocalPub/OilRigRangos/UI/Textures/Icons/Intel1.imageset"
-  m_sImageSetGlow "{F90299752DEBB09B}worlds/TheLocalPub/OilRigRangos/UI/Textures/Icons/Intel1.imageset"
-  m_sQuadName "Rig1"
+  m_sImageSet "{B189668A63DECFDF}worlds/TheLocalPub/OilRigRangos/Images/Intel1.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
   m_fWorldSize 3000
   m_aVisibleForFactions {
    "UK"
@@ -57,9 +57,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  Intel2 {
   coords 10859.884 0 5836.505
   angleY 90
-  m_sImageSet "{B9F2B8509BF732DD}worlds/TheLocalPub/OilRigRangos/UI/Textures/Icons/Intel2.imageset"
-  m_sImageSetGlow "{B9F2B8509BF732DD}worlds/TheLocalPub/OilRigRangos/UI/Textures/Icons/Intel2.imageset"
-  m_sQuadName "Rig2"
+  m_sImageSet "{EF614FC9DC5341D0}worlds/TheLocalPub/OilRigRangos/Images/Intel2.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
   m_fWorldSize 3000
   m_aVisibleForFactions {
    "UK"
@@ -68,9 +68,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  Intel3 {
   coords 10859.884 0 9717.043
   angleY 90
-  m_sImageSet "{47F2F8156EA55E90}worlds/TheLocalPub/OilRigRangos/UI/Textures/Icons/Intel3.imageset"
-  m_sImageSetGlow "{47F2F8156EA55E90}worlds/TheLocalPub/OilRigRangos/UI/Textures/Icons/Intel3.imageset"
-  m_sQuadName "Rig3"
+  m_sImageSet "{1B690851D18E29A4}worlds/TheLocalPub/OilRigRangos/Images/Intel3.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
   m_fWorldSize 3000
   m_aVisibleForFactions {
    "UK"
