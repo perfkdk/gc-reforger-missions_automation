@@ -20,6 +20,7 @@ SCR_AIGroup HQ : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorR
 Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
  coords 3355.033 162.664 4214.604
  angleY 116.751
+ m_sAttachmentGroupName "HQ"
  {
   GenericEntity {
    ID "5E2E7C60E0F9B3F4"
@@ -83,32 +84,39 @@ $grp Vehicle : "{6B7CD408BDFB94F5}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_
  GAZ_TIGR_v2_PKM_Green1 {
   coords 3384.716 162.281 4203.282
   angleY 110.775
+  m_sAttachmentGroupName "Squad_2"
  }
  GAZ_TIGR_v2_PKM_Green2 {
   coords 3378.711 162.281 4205.561
   angleY 110.775
+  m_sAttachmentGroupName "Squad_2"
  }
  GAZ_TIGR_v2_PKM_Green3 {
   coords 3371.55 162.281 4208.278
   angleY 110.775
+  m_sAttachmentGroupName "Squad_3"
  }
  GAZ_TIGR_v2_PKM_Green4 {
   coords 3364.961 162.281 4210.777
   angleY 110.775
+  m_sAttachmentGroupName "Squad_3"
  }
 }
 Vehicle GAZ_TIGR_v2_Unarmed_Green1 : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et" {
  coords 3404.467 162.5 4195.445
  angleY 106.017
+ m_sAttachmentGroupName "HQ"
 }
 $grp Vehicle : "{7A16FB788DAD3992}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_Green.et" {
  GAZ_TIGR_v2_KORD_Green5 {
   coords 3390.999 162.532 4200.761
   angleY 110.723
+  m_sAttachmentGroupName "Squad_1"
  }
  GAZ_TIGR_v2_KORD_Green6 {
   coords 3397.213 162.532 4198.411
   angleY 110.723
+  m_sAttachmentGroupName "Squad_1"
  }
 }
 Vehicle S105_base1 : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
