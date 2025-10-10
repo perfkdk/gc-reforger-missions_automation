@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{47F2F8156EA55E90}UI/Textures/Icons/Intel3.imageset"
+ Configurations {
+  ImageSetResourceClass PC {
+  }
+  ImageSetResourceClass XBOX_ONE : PC {
+  }
+  ImageSetResourceClass XBOX_SERIES : PC {
+  }
+  ImageSetResourceClass PS4 : PC {
+  }
+  ImageSetResourceClass PS5 : PC {
+  }
+  ImageSetResourceClass HEADLESS : PC {
+  }
+  ImageSetResourceClass Xbox : PC {
+  }
+ }
+}
