@@ -1,19 +1,45 @@
+TILW_PresenceTriggerEntity pres_m113 : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
+ coords 5265.266 61.4 5164.813
+ m_queryRadius 135
+ m_flagName "pres_m113"
+ m_stopAfterFirstChange 1
+ m_drawShapeSurface 0
+ m_drawShapeOutline 0
+ m_entityNames {
+  "M113_Medical"
+ }
+}
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ cap_west {
+  coords 4834.451 59.933 5340.167
+  m_queryRadius 90
+  m_captureTime 60
+  m_flagName "cap_west"
+  m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
+  m_ownerFactionKey "GC_NVA"
+  m_ratioThreshold 0.9
+ }
+ cap_east {
+  coords 5265.266 61.4 5164.814
+  m_queryRadius 135
+  m_captureTime 60
+  m_flagName "cap_east"
+  m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
+  m_ownerFactionKey "GC_NVA"
+  m_ratioThreshold 0.9
+ }
+}
 TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  m_missionEvents {
   TILW_MissionEvent "{666178CAED41880C}" {
    m_name "Mission Start"
    m_instructions {
-    TILW_SetFlagInstruction "{666178CAC4828AE8}" {
-     m_executionDelay 2400
-     m_flagName "nva_delayed"
-    }
     TILW_SendMessageInstruction "{6666C7AFF474011E}" {
-     m_executionDelay 2400
-     m_messageTitle "ENEMY DELAYED"
-     m_messageBody "You have delayed the enemy battalion by 40 minutes, and may now retreat towards Pihlajamaa."
-     m_factionKeys {
-      "US"
-     }
+     m_executionDelay 3600
+     m_messageTitle "NVA DEFEAT"
+     m_messageBody "NVA forces failed to secure the objectives before reinforcements arrived."
     }
    }
    m_condition TILW_LiteralTerm "{666178CAF7D74E02}" {
@@ -21,17 +47,49 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
    }
   }
   TILW_MissionEvent "{6666C7AE0E89E59A}" {
-   m_name "NVA reaches location"
+   m_name "NVA Victory"
    m_instructions {
     TILW_SendMessageInstruction "{6666C7AE652FCB2E}" {
-     m_messageTitle "NVA REACHES RUHA"
-     m_messageBody "Forces of the Panzer Regiment 22 have reached Ruha."\
-     "With no other option, surviving US forces are falling back towards Pihlajamaa."
+     m_messageTitle "NVA VICTORY"
+     m_messageBody "Forces of the Luftsturmregiment 40 take control of Nyrhilanmaki and Isomaki, cutting off parts of the US cavalry troop."
     }
    }
-   m_condition TILW_LiteralTerm "{6666C7AE19FFEAD3}" {
-    m_flagName "nva_obj"
+   m_condition TILW_ConjunctionTerm "{66955607E1CB014A}" {
    }
+  }
+  TILW_MissionEvent "{6695560011634E1A}" {
+   m_name "US Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{669556001EA22179}" {
+     m_messageTitle "US VICTORY"
+     m_messageBody "The Luftsturmregiment 40 suffers heavy casualties during the operation."\
+     ""\
+     "However, surviving US forces are still forced to pull back north, leaving part of the troop cut off."
+    }
+   }
+   m_condition TILW_LiteralTerm "{669556001B3CB997}" {
+    m_flagName "nva_cas"
+   }
+  }
+  TILW_MissionEvent "{6696C115A646F27A}" {
+   m_name "M113 Task"
+   m_instructions {
+    TILW_EditRespawnTicketsInstruction "{6696C115AC5D8309}" {
+     m_factionKey "US"
+     m_operation ADD
+     m_amount 3
+    }
+   }
+   m_condition TILW_LiteralTerm "{6696C115A7B4D532}" {
+    m_flagName "pres_m113"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{669556078331AD65}" {
+   m_flagName "nva_cas"
+   m_factionKey "GC_NVA"
+   m_casualtyRatio 0.75
   }
  }
 }

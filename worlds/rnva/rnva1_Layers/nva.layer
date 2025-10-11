@@ -4,9 +4,19 @@ SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA_PHQ_
 }
 $grp Vehicle : "{2FA364D8E326CB3C}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_9M114.et" {
  Mi24P_armed_9M1 {
+  components {
+   RigidBody "{51DAA09FECF52BBF}" {
+    Active Active
+   }
+  }
   coords 6508.464 96.689 1292.383
  }
  Mi24P_armed_9M2 {
+  components {
+   RigidBody "{51DAA09FECF52BBF}" {
+    Active Active
+   }
+  }
   coords 6554.967 96.656 1277.911
  }
 }
@@ -20,14 +30,8 @@ $grp Vehicle : "{3F27CF86235E1B0B}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
  Mi8MT_armed_NVA3 {
   coords 6561.05 96.7 1340.598
  }
- Mi8MT_armed_NVA5 {
-  coords 6637.71 96.7 1340.598
- }
  Mi8MT_armed_NVA4 {
   coords 6584.188 96.7 1340.598
- }
- Mi8MT_armed_NVA6 {
-  coords 6665.796 96.7 1340.598
  }
 }
 $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA_RifleSquad_P.et" {

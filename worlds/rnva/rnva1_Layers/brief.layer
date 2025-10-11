@@ -14,18 +14,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  G6_Notes {
   coords 0 0 0
   m_sTitle "Notes"
-  m_sTextData "- 6 minute setup timer. Affects the NVA tanks, but NOT the NVA reconnaissance platoon."\
-  "- If you are on the reconnaissance platoon and choose to make use of the lack of a setup timer, know that you may die very early. If you don't like that, either be extremely careful or wait for the tanks to join you."\
+  m_sTextData "- 2 minute setup timer, affects NVA forces."\
   ""\
-  "- If you drive your vehicle into a ditch and can't get out, you may ask for GM help, but please try your best to just stay clear of them in the first place. There are many places where you can get past them without going right through."\
-  "- If your vehicle gets destroyed but you survive, I recommend ascending to spectator by pressing the respawn button unless you find something to do."\
-  "- If you are a Bradley gunner, you can switch to your TOW by holding V. You cannot select it using the number keys."\
+  "- stinger usage + flares"\
   ""\
-  "The mission concludes when the NVA tank battalion has reached the area west of Ruha and Isomaki."\
-  "A message will automatically be displayed some time after 60% of non-destroyed NVA tanks have entered this area."\
-  "According to the situation, GMs may decide to keep the mission running beyond that or end it earlier."\
-  "If the NVA tank battalion sustains severe casualties and is no longer effective, either the NVA commander or the GMs will call the mission. There is no automatic condition for this, as it highly depends on the situation."\
-  "Before switching to the next mission, a GM will annouce the outcome."
+  "Conditions:"\
+  "- NVA Victory upon capturing both objectives (90% control for 1m)"\
+  "- NVA Defeat if 75% casualties are sustained, or 1h passes"
   m_bShowForAnyFaction 1
   m_iOrder 6
  }
@@ -235,6 +230,24 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "There are no nets for individual tank platoons."
   m_aVisibleForFactions {
    "GC_NVA"
+  }
+  m_iOrder 5
+ }
+ U8_Tasks {
+  coords 0 0 0
+  m_sTitle "TASKS"
+  m_sTextData "<b>Further tasks for troop elements</b>"\
+  ""\
+  "<b>Black 2 (Medics)</b>"\
+  "Retrieve the already repaired M113 Ambulance from the Maintenance Team (GRID) and move it into Nyrhilanmaki, this grants 3 respawns."\
+  ""\
+  "<b>Black 4 (Supply)</b>"\
+  "Retrieve one load of supplies (spare parts) from GRID and deliver them to the troop maintenance team."\
+  ""\
+  "<b>Black 8 (Maintenance)</b>"\
+  "Repair the XO CFVs engine (GRID), which is currently inoperable. This requires a delivery of spare parts by Black 4."
+  m_aVisibleForFactions {
+   "US"
   }
   m_iOrder 5
  }

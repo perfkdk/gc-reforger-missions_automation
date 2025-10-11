@@ -14,7 +14,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    }
   }
  }
- m_iFreezeTime 360000
+ m_iFreezeTime 120000
  {
   SCR_FactionManager "6664C295F80A6549" {
    ID "5ED9088735FF2D8B"
@@ -66,26 +66,66 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
 }
-PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
- coords 5000 55.85 4600
- Points {
-  ShapePoint "{6684F2AEB45139AE}" {
-   Position 0 0 0
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ ao_us {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "US"
+    }
+    m_lineWidth 4
+   }
   }
-  ShapePoint "{6684F2AEB9AABC0C}" {
-   Position 700 -0.414 700
+  coords 5000 55.85 4600
+  Points {
+   ShapePoint "{6684F2AEB45139AE}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6684F2AEB9AABC0C}" {
+    Position 700 -0.414 700
+   }
+   ShapePoint "{6684F2AF4FB50A4F}" {
+    Position 300 0.133 1100
+   }
+   ShapePoint "{6684F2AF7DB9D5DE}" {
+    Position 64.348 1.338 900
+   }
+   ShapePoint "{6684F2AEE0CB3546}" {
+    Position -400 5.931 900
+   }
+   ShapePoint "{6684F2AE874AA470}" {
+    Position -400 4.29 400
+   }
   }
-  ShapePoint "{6684F2AF4FB50A4F}" {
-   Position 300 0.133 1100
+ }
+ ao_nva {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 30
+    m_factionKeys {
+     "GC_NVA"
+    }
+    m_visibility NONE
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_color 0 0 0 1
+   }
   }
-  ShapePoint "{6684F2AF7DB9D5DE}" {
-   Position 64.348 1.338 900
-  }
-  ShapePoint "{6684F2AEE0CB3546}" {
-   Position -400 5.931 900
-  }
-  ShapePoint "{6684F2AE874AA470}" {
-   Position -400 4.29 400
+  coords 1000 55.85 1000
+  Points {
+   ShapePoint "{6697151CEFF75A3A}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6697151CF25C182D}" {
+    Position 7000 0 0
+   }
+   ShapePoint "{6697151F2A682D9B}" {
+    Position 7000 10.933 7000
+   }
+   ShapePoint "{6697151F2D58FECB}" {
+    Position 0 0 7000
+   }
   }
  }
 }

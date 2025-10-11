@@ -114,7 +114,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "GC_NVA"
   }
  }
- nva_atkh2 {
+ nva_tanks {
   coords 4650 59.074 5250
   angleY 135
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
