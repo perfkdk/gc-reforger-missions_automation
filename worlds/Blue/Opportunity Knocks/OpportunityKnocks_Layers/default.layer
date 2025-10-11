@@ -18,7 +18,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
  coords 2731.626 58.578 1475.883
- m_iFreezeTime 600000
+ m_iFreezeTime 720000
  {
   SCR_FactionManager "668F5C8A059D4363" {
    ID "5ED9088735FF2D8B"
@@ -125,7 +125,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "QRF Released"
    m_instructions {
     TILW_SetFlagInstruction "{6693657C9E44D10D}" {
-     m_executionDelay 550
+     m_executionDelay 720
      m_flagName "QRFReleased"
     }
    }
