@@ -26,6 +26,23 @@ $grp GenericEntity : "{1BF466F63DD9CA9A}Prefabs/Props/Signs/Industrial/SignIndus
   angleY 90
  }
 }
+$grp GenericEntity : "{2D7BF1652764415D}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_1x30.et" {
+ {
+  coords 4884.977 27.1 1720.861
+  angleY 180
+  scale 0.4
+ }
+ {
+  coords 4879.197 27.1 1729.5
+  angleY -90
+  scale 0.4
+ }
+ {
+  coords 4879.197 27.1 1726.7
+  angleY -90
+  scale 0.4
+ }
+}
 GenericEntity : "{3EDE2976263D17B2}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Num2.et" {
  coords 4818.528 39.316 1730.256
  angleX 0.94
@@ -236,13 +253,22 @@ $grp DecalEntity : "{B38FBA56FA69E392}Prefabs/Decals/Fluids/Decal_OilStain_01_la
   TerrainOnly 0
  }
 }
-DecalEntity : "{D2DE0352ED00F315}Prefabs/Decals/Infrastructure/Decal_DrainChannel_01.et" {
- coords 4848.581 83.394 1719.182
- angleX -90
- angleY 90
- angleZ -180
- scale 0.4
- TerrainOnly 0
+$grp DecalEntity : "{D2DE0352ED00F315}Prefabs/Decals/Infrastructure/Decal_DrainChannel_01.et" {
+ {
+  coords 4848.514 83.395 1719.182
+  angleX -90
+  angleY 90
+  angleZ -180
+  scale 0.4
+  TerrainOnly 0
+ }
+ {
+  coords 4848.485 81.89 1725.474
+  angleX -90
+  angleY -90.948
+  scale 0.4
+  TerrainOnly 0
+ }
 }
 DecalEntity : "{D53741D03AB3A652}Prefabs/Decals/Fluids/Decal_OilStain_01_extralarge.et" {
  coords 4854.247 82.74 1721.592

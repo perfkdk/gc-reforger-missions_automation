@@ -1802,7 +1802,7 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
     {
      Flags 1027
-     coords -1.008 -0.959 2.161
+     coords -1.008 -0.959 2.494
      angleZ -90
     }
    }
@@ -1908,13 +1908,8 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
     {
      Flags 1027
-     coords 0 -1.955 0
+     coords 0.018 -1.955 -3.529
      angleZ -180
-    }
-    {
-     Flags 1027
-     coords -0.99 -0.959 0
-     angleZ -90
     }
    }
    $grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
@@ -1948,11 +1943,6 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
      coords 0 -1.936 0.002
      angleZ -180
     }
-    {
-     Flags 1027
-     coords -0.98 -0.959 -2.004
-     angleZ -90
-    }
    }
    $grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
     {
@@ -1966,6 +1956,13 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
    }
   }
+ }
+ {
+  Flags 1027
+  coords 4848.981 32.729 1687.543
+  angleY -90.291
+  angleZ 90
+  scale 0.69
  }
  {
   Flags 1027
@@ -2024,14 +2021,14 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
  }
  {
   Flags 1027
-  coords 4842.408 32.119 1696.069
+  coords 4842.333 32.119 1696.069
   angleY -90.479
   angleZ 180
   {
    $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Naval/Slipway_01/Slipway_01_rail.et" {
     {
      Flags 1027
-     coords 0.986 -0.959 0
+     coords 0.969 -0.959 1.929
      angleY 180
      angleZ -90
     }
@@ -2042,7 +2039,7 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
     {
      Flags 1027
-     coords -1.004 -0.959 1.651
+     coords -1.007 -0.959 1.99
      angleZ -90
     }
    }
@@ -2105,13 +2102,7 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
    $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Naval/Slipway_01/Slipway_01_rail.et" {
     {
      Flags 1027
-     coords 0.986 -0.959 0
-     angleY 180
-     angleZ -90
-    }
-    {
-     Flags 1027
-     coords 0 -1.955 0
+     coords 0.02 -1.955 -2.33
      angleZ -180
     }
     {
@@ -2148,11 +2139,6 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
     {
      Flags 1027
-     coords 0 -1.955 0
-     angleZ -180
-    }
-    {
-     Flags 1027
      coords -0.99 -0.959 0
      angleZ -90
     }
@@ -2169,12 +2155,6 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
    }
   }
- }
- {
-  Flags 1027
-  coords 4846.238 33.063 1693.36
-  angleY 180
-  angleZ -90
  }
  {
   Flags 1027
@@ -5460,14 +5440,6 @@ GenericEntity : "{CFFDCA0EEB5EEBF6}Prefabs/Structures/Misc/Cable3.et" {
  angleX 1.695
  angleY 28.262
  angleZ -20.84
-}
-DecalEntity : "{D2DE0352ED00F315}Prefabs/Decals/Infrastructure/Decal_DrainChannel_01.et" {
- coords 4848.581 82.749 1721.934
- angleX -90
- angleY 90
- angleZ -180
- scale 0.4
- TerrainOnly 0
 }
 $grp GenericEntity : "{DA05AB5EB8299FA0}Prefabs/Structures/BuildingParts/Heating/BoilerTank_02/BoilerTank_02.et" {
  {
