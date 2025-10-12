@@ -50,9 +50,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_sQuadName ""
   m_fWorldSize 3000
-  m_aVisibleForFactions {
-   "UK"
-  }
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
  }
  Intel2 {
   coords 10859.884 0 5836.505
@@ -61,9 +60,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_sQuadName ""
   m_fWorldSize 3000
-  m_aVisibleForFactions {
-   "UK"
-  }
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
  }
  Intel3 {
   coords 10859.884 0 9717.043
@@ -72,8 +70,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_sQuadName ""
   m_fWorldSize 3000
-  m_aVisibleForFactions {
-   "UK"
-  }
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
  }
 }

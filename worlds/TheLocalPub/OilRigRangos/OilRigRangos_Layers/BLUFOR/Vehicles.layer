@@ -1,51 +1,98 @@
-Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
-   MultiSlots {
-    MultiSlotConfiguration "{60F6C785F08E4AE4}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
-     }
-     NumSlots 1
+$grp Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ UH1H_armed1 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_lockPilot 1
+    m_factionLock {
+     "UK"
     }
-    MultiSlotConfiguration "{667AB18C6E5E56BA}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
+   }
+   SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60F6C785F08E4AE4}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Enabled 1
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
      }
-     NumSlots 1
+     MultiSlotConfiguration "{6698A3766A11C69E}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Enabled 1
+       Prefab "{423D78F865E8AF8A}Prefabs/Weapons/Magazines/Box_762x51_M60_500rnd_2Ball_1Tracer.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{60F686523ED8885E}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{66953DC25A1469FD}" {
+      SlotTemplate InventoryStorageSlot chutes {
+       Prefab "{23DA0939B0158024}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute.et"
+      }
+      NumSlots 15
+     }
     }
    }
   }
+  coords 4871.01 28.594 11737.919
+  angleY -90
  }
- coords 4872.46 28.594 11781.823
- angleY -90
-}
-Vehicle UH1H_armed1 : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
-   MultiSlots {
-    MultiSlotConfiguration "{60F6C785F08E4AE4}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Enabled 1
-      Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
-     }
-     NumSlots 1
+ UH1H_armed2 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_lockPilot 1
+    m_factionLock {
+     "UK"
     }
-    MultiSlotConfiguration "{60F686523ED8885E}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
+   }
+   SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60F6C785F08E4AE4}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Enabled 1
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
      }
-     NumSlots 1
+     MultiSlotConfiguration "{6698A3766A11C69E}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Enabled 1
+       Prefab "{423D78F865E8AF8A}Prefabs/Weapons/Magazines/Box_762x51_M60_500rnd_2Ball_1Tracer.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{60F686523ED8885E}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{66953DC25A1469FD}" {
+      SlotTemplate InventoryStorageSlot chutes {
+       Prefab "{23DA0939B0158024}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute.et"
+      }
+      NumSlots 15
+     }
     }
    }
   }
+  coords 4871.01 28.594 11781.419
+  angleY -90
  }
- coords 4871.01 28.594 11737.919
- angleY -90
 }
 $grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
  RHIB_Gunboat3 {
   components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_lockPilot 1
+    m_factionLock {
+     "UK"
+    }
+   }
    SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
     MultiSlots {
      MultiSlotConfiguration "{61089C63B4E0BFEF}" {
@@ -63,6 +110,11 @@ $grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
      }
      MultiSlotConfiguration "{646A5602C2724B32}" {
       NumSlots 0
+     }
+     MultiSlotConfiguration "{6698A37A6A982E03}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
      }
     }
    }
@@ -72,6 +124,12 @@ $grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
  }
  RHIB_Gunboat4 {
   components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_lockPilot 1
+    m_factionLock {
+     "UK"
+    }
+   }
    SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
     MultiSlots {
      MultiSlotConfiguration "{61089C63B4E0BFEF}" {
@@ -89,6 +147,13 @@ $grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
      }
      MultiSlotConfiguration "{646A5602C2724B32}" {
       NumSlots 0
+     }
+     MultiSlotConfiguration "{6698A37A6A982E03}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+     }
+     MultiSlotConfiguration "{6698A37A7D5AC35A}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
      }
     }
    }
@@ -96,8 +161,14 @@ $grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
   coords 5806.961 0 3574.043
   angleY 40.955
  }
- RHIB_Gunboat7 {
+ RHIB_Gunboat5 {
   components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_lockPilot 1
+    m_factionLock {
+     "UK"
+    }
+   }
    SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
     MultiSlots {
      MultiSlotConfiguration "{61089C63B4E0BFEF}" {
@@ -116,14 +187,140 @@ $grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
      MultiSlotConfiguration "{646A5602C2724B32}" {
       NumSlots 0
      }
+     MultiSlotConfiguration "{6698A37A6A982E03}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+     }
     }
    }
   }
-  coords 2663.016 0 1857.702
-  angleY -112.558
+  coords 5822.357 0 3560.739
+  angleY 40.955
+ }
+ RHIB_Gunboat2 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_lockPilot 1
+    m_factionLock {
+     "UK"
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61089C63B4E0BFEF}" {
+      SlotTemplate InventoryStorageSlot bandage {
+       Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{646A5602EA25A5E8}" {
+      SlotTemplate InventoryStorageSlot bandage {
+       Enabled 1
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{646A5602C2724B32}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{6698A37A6A982E03}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+     }
+    }
+   }
+  }
+  coords 5817.331 0 3565.102
+  angleY 40.955
+ }
+ RHIB_Gunboat6 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_lockPilot 1
+    m_factionLock {
+     "UK"
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61089C63B4E0BFEF}" {
+      SlotTemplate InventoryStorageSlot bandage {
+       Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{646A5602EA25A5E8}" {
+      SlotTemplate InventoryStorageSlot bandage {
+       Enabled 1
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{646A5602C2724B32}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{6698A37A6A982E03}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+     }
+     MultiSlotConfiguration "{6698A37A7D5AC35A}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+     }
+    }
+   }
+  }
+  coords 2671.323 0 1846.367
+  angleY -113.901
+ }
+ RHIB_Gunboat7 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_lockPilot 1
+    m_factionLock {
+     "UK"
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61089C63B4E0BFEF}" {
+      SlotTemplate InventoryStorageSlot bandage {
+       Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{646A5602EA25A5E8}" {
+      SlotTemplate InventoryStorageSlot bandage {
+       Enabled 1
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{646A5602C2724B32}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{6698A37A6A982E03}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+     }
+     MultiSlotConfiguration "{6698A37A7D5AC35A}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+     }
+    }
+   }
+  }
+  coords 2668.913 0 1852.942
+  angleY -113.214
  }
  RHIB_Gunboat8 {
   components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_lockPilot 1
+    m_factionLock {
+     "UK"
+    }
+   }
    SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
     MultiSlots {
      MultiSlotConfiguration "{61089C63B4E0BFEF}" {
@@ -142,10 +339,56 @@ $grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
      MultiSlotConfiguration "{646A5602C2724B32}" {
       NumSlots 0
      }
+     MultiSlotConfiguration "{6698A37A6A982E03}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+     }
+     MultiSlotConfiguration "{6698A37A7D5AC35A}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+     }
     }
    }
   }
-  coords 2665.603 0 1851.586
-  angleY -112.558
+  coords 2666.419 -0 1859.017
+  angleY -113.901
+ }
+ RHIB_Gunboat9 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_lockPilot 1
+    m_factionLock {
+     "UK"
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61089C63B4E0BFEF}" {
+      SlotTemplate InventoryStorageSlot bandage {
+       Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{646A5602EA25A5E8}" {
+      SlotTemplate InventoryStorageSlot bandage {
+       Enabled 1
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{646A5602C2724B32}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{6698A37A6A982E03}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      }
+     }
+     MultiSlotConfiguration "{6698A37A7D5AC35A}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+     }
+    }
+   }
+  }
+  coords 2663.567 0 1865.164
+  angleY -113.901
  }
 }
