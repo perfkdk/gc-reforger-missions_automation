@@ -37,6 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Timelimit: 35mins"\
   "JIP: Deny after 5mins"\
   "AO limit: ECO team are limited to a very small radius around the rig, don't try swimming to far!"\
+  "TIme and weather: Random - If it's utterly dog ass awful, the GM has discretion to adjust either/or time and weather."\
   ""\
   "|HOSTAGE GAMEPLAY|"\
   "- Hostages cannot be placed in access routes to buildings or areas."\
@@ -47,10 +48,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• If a hostage is actively or repeatedly disobeying orders, attempting to flee, attempting to decive, or attempting to aid the UK team, ECO team may carry out punishments or even inflict death upon the hostage(s)."\
   ""\
   "|PERFORMANCE|"\
-  "The performance on this rig compared to Arma 3 is much higher, yet you may fine that during the night, lighting will cause a lower FPS due to lamps/lights having to cast mutiple smaller shadows around and through props."\
+  "The performance on this rig compared to Arma 3 is much higher, yet you may fine that during the night, lighting will cause a lower FPS due to lamps/lights having to cast mutiple smaller shadows around and through props. This is also worse if it's also raining heavy."\
   "This is most noticeable in the center where the big flood lights cast the shadows from the big tower, gangwalks, and chain lined fences."\
   "Try turning your shadows or lighting quality down to increase FPS."\
-  "(In my testing at full graphics, I had 45+ FPS in the center at night)"
+  "(In my testing at full graphics, I had 45+ FPS in the center at night)"\
+  "- If it's unplayable, a GM can change the weather and/or time to be something similar but not as bad, have some discretion."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 6
@@ -65,7 +67,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "This should allow for the boats to better split up making for less rich targets and also allow some boats to have a skeleton crew used just to suppress while still enough boats to actually assault."\
   "- 2nd armed huey helicopter and abit of extra ammo for the guns."\
   "- Additional gangwalks on the oil rig to better allowed covered movement from one half to the other."\
-  "- photos of the rig for the ECO team."\
+  "- Additional prop placement around the rig for further detailing but to also provide cover in certain places to better aid gameplay, such as a large container on the construction site roof, to cover dismounting troops from helicopters."\
+  "- Photos of the rig for the ECO team."\
   ""\
   "• Fixed:"\
   "- An oversight in the end conditions that meant one disabled another and created a snow ball affect of flags/variable not then being able to be set."\

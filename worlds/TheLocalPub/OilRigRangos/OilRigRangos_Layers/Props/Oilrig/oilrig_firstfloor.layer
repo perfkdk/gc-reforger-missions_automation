@@ -245,6 +245,10 @@ $grp StaticModelEntity : "{08403A2F4EFF76A4}Prefabs/Structures/Infrastructure/Pi
   scale 2.346
  }
 }
+GenericEntity : "{0B0479E79F7D60D5}Prefabs/Props/Industrial/Pallets/MarsBox_01_blue.et" {
+ coords 4834.848 39.589 1735.352
+ angleY -15.202
+}
 GenericEntity : "{0C7319383777A107}Prefabs/Props/Furniture/CabinetMetal_01_grey_V3.et" {
  coords 4813.267 39.418 1759.636
  angleY 180
@@ -278,6 +282,10 @@ GenericEntity : "{111673E62CB11177}Prefabs/Structures/BuildingParts/Eletrical/Br
 GenericEntity : "{12874D28EBAB6A4C}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_medium_03.et" {
  coords 4831.941 38.575 1699.432
  angleY -92.471
+}
+GenericEntity : "{167AE5590B8A2601}Prefabs/Compositions/Misc/SubCompositions/EquipmentBoxStacked_Cluttered_US_02.et" {
+ coords 4834.589 39.618 1737.747
+ angleY -69.362
 }
 $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Naval/Slipway_01/Slipway_01_rail.et" {
  {
@@ -2872,12 +2880,6 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
      coords 0 -1.955 0
      angleZ -180
     }
-    {
-     Flags 1027
-     coords -0.925 -0.959 -0.031
-     angleY -179.222
-     angleZ 90
-    }
    }
    $grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
     {
@@ -3311,7 +3313,7 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
     {
      Flags 1027
-     coords -0.99 -0.959 0
+     coords -0.99 -0.959 -2.044
      angleZ -90
     }
    }
@@ -3348,7 +3350,7 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
     {
      Flags 1027
-     coords -0.99 -0.959 0
+     coords -0.99 -0.959 -2.501
      angleZ -90
     }
    }
@@ -3385,7 +3387,7 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
     {
      Flags 1027
-     coords -0.99 -0.959 0
+     coords -0.99 -0.959 -3.01
      angleZ -90
     }
    }
@@ -3422,7 +3424,7 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
     {
      Flags 1027
-     coords -0.99 -0.959 -2.007
+     coords -0.99 -0.959 -3.549
      angleZ -90
     }
    }
@@ -3459,7 +3461,7 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
     {
      Flags 1027
-     coords -0.99 -0.959 0
+     coords -0.99 -0.959 1.921
      angleZ -90
     }
    }
@@ -3493,11 +3495,6 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
      Flags 1027
      coords 0 -1.955 0
      angleZ -180
-    }
-    {
-     Flags 1027
-     coords -0.99 -0.959 0
-     angleZ -90
     }
    }
    $grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
@@ -3533,7 +3530,7 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
     {
      Flags 1027
-     coords -0.99 -0.959 0
+     coords -0.99 -0.959 1.479
      angleZ -90
     }
    }
@@ -3570,7 +3567,7 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
     }
     {
      Flags 1027
-     coords -0.99 -0.959 0
+     coords -0.99 -0.959 1.004
      angleZ -90
     }
    }
@@ -3660,6 +3657,264 @@ $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Na
   angleZ 90
   scale 0.6
  }
+ {
+  Flags 1027
+  coords 4840.596 32.108 1760.768
+  angleY 0.104
+  angleZ 180
+  {
+   $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Naval/Slipway_01/Slipway_01_rail.et" {
+    {
+     Flags 1027
+     coords 0.986 -0.959 0
+     angleY 180
+     angleZ -90
+    }
+    {
+     Flags 1027
+     coords 0 -1.955 0
+     angleZ -180
+    }
+    {
+     Flags 1027
+     coords -0.99 -0.959 0
+     angleZ -90
+    }
+   }
+   $grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
+    {
+     coords -0.025 0.001 -1.876
+     angleY 89.615
+     angleZ 180
+    }
+    {
+     coords -0.019 0.001 1.96
+     angleY -89.906
+    }
+   }
+  }
+ }
+ {
+  Flags 1027
+  coords 4840.582 32.108 1753.267
+  angleY 0.104
+  angleZ 180
+  {
+   $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Naval/Slipway_01/Slipway_01_rail.et" {
+    {
+     Flags 1027
+     coords 0.986 -0.959 0
+     angleY 180
+     angleZ -90
+    }
+    {
+     Flags 1027
+     coords 0 -1.955 0
+     angleZ -180
+    }
+    {
+     Flags 1027
+     coords -0.99 -0.959 0
+     angleZ -90
+    }
+   }
+   $grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
+    {
+     coords -0.025 0.001 -1.876
+     angleY 89.615
+     angleZ 180
+    }
+    {
+     coords -0.019 0.001 1.96
+     angleY -89.906
+    }
+   }
+  }
+ }
+ {
+  Flags 1027
+  coords 4840.555 32.108 1738.267
+  angleY 0.104
+  angleZ 180
+  {
+   $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Naval/Slipway_01/Slipway_01_rail.et" {
+    {
+     Flags 1027
+     coords 0.986 -0.959 0
+     angleY 180
+     angleZ -90
+    }
+    {
+     Flags 1027
+     coords 0 -1.955 0
+     angleZ -180
+    }
+    {
+     Flags 1027
+     coords -0.99 -0.959 0
+     angleZ -90
+    }
+   }
+   $grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
+    {
+     coords -0.025 0.001 -1.876
+     angleY 89.615
+     angleZ 180
+    }
+    {
+     coords -0.019 0.001 1.96
+     angleY -89.906
+    }
+   }
+  }
+ }
+ {
+  Flags 1027
+  coords 4840.568 32.108 1745.768
+  angleY 0.104
+  angleZ 180
+  {
+   $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Naval/Slipway_01/Slipway_01_rail.et" {
+    {
+     Flags 1027
+     coords 0.986 -0.959 0
+     angleY 180
+     angleZ -90
+    }
+    {
+     Flags 1027
+     coords 0 -1.955 0
+     angleZ -180
+    }
+    {
+     Flags 1027
+     coords -0.99 -0.959 0
+     angleZ -90
+    }
+   }
+   $grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
+    {
+     coords -0.025 0.001 -1.876
+     angleY 89.615
+     angleZ 180
+    }
+    {
+     coords -0.019 0.001 1.96
+     angleY -89.906
+    }
+   }
+  }
+ }
+ {
+  Flags 1027
+  coords 4840.541 32.108 1730.767
+  angleY 0.104
+  angleZ 180
+  {
+   $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Naval/Slipway_01/Slipway_01_rail.et" {
+    {
+     Flags 1027
+     coords 0.986 -0.959 0
+     angleY 180
+     angleZ -90
+    }
+    {
+     Flags 1027
+     coords 0 -1.955 0
+     angleZ -180
+    }
+    {
+     Flags 1027
+     coords -0.99 -0.959 0
+     angleZ -90
+    }
+   }
+   $grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
+    {
+     coords -0.025 0.001 -1.876
+     angleY 89.615
+     angleZ 180
+    }
+    {
+     coords -0.019 0.001 1.96
+     angleY -89.906
+    }
+   }
+  }
+ }
+ {
+  Flags 1027
+  coords 4840.54 32.108 1729.984
+  angleY 0.104
+  angleZ 180
+  {
+   $grp StaticModelEntity : "{19C37440C83DF31F}Prefabs/Structures/Infrastructure/Naval/Slipway_01/Slipway_01_rail.et" {
+    {
+     Flags 1027
+     coords 0.986 -0.959 0
+     angleY 180
+     angleZ -90
+    }
+    {
+     Flags 1027
+     coords 0 -1.955 0
+     angleZ -180
+    }
+    {
+     Flags 1027
+     coords -0.99 -0.959 0
+     angleZ -90
+    }
+   }
+   GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
+    coords -0.012 0.002 -3.745
+    angleY 89.615
+    angleZ 180
+   }
+  }
+ }
+ {
+  Flags 1027
+  coords 4842.865 32.424 1726.205
+  angleY 89.79
+  angleZ -90
+  scale 0.35
+ }
+ {
+  Flags 1027
+  coords 4842.865 33.101 1726.205
+  angleY 89.79
+  angleZ -90
+  scale 0.35
+ }
+ {
+  Flags 1027
+  coords 4842.865 33.79 1726.205
+  angleY 89.79
+  angleZ -90
+  scale 0.35
+ }
+ {
+  Flags 1027
+  coords 4838.035 32.406 1726.187
+  angleY 89.79
+  angleZ -90
+  scale 0.37
+ }
+ {
+  Flags 1027
+  coords 4838.035 33.044 1726.187
+  angleY 89.79
+  angleZ -90
+  scale 0.37
+ }
+ {
+  Flags 1027
+  coords 4838.035 33.734 1726.187
+  angleY 89.79
+  angleZ -90
+  scale 0.37
+ }
 }
 $grp SCR_DestructibleEntity : "{19DBAA8E5A19F5CC}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_Corner_Narrow.et" {
  {
@@ -3733,6 +3988,11 @@ $grp GenericEntity : "{29429F5112AFB910}Prefabs/Models/props/tem_plasticchair.et
 }
 SCR_DestructibleEntity : "{2DAC8D663D5F3E2E}Prefabs/Props/Commercial/MarketStand_01_Umbrella.et" {
  coords 4837.664 37.219 1685.374
+}
+GenericEntity : "{2DB15E662002730D}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/Dst/BenchStreet_01_dst_01_yellow_red.et" {
+ coords 4835.198 39.518 1762.623
+ angleX 53.938
+ angleY -65.144
 }
 $grp StaticModelEntity : "{2FC8C07706891F0D}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_junction_T.et" {
  {
@@ -3881,6 +4141,14 @@ $grp GenericEntity : "{35C6762FE62386CA}Prefabs/Structures/Military/Bunkers/Airc
   coords 4848.32 38.777 1740.693
  }
 }
+GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/BarrelMetalGroup_01.et" {
+ coords 4836.397 39.409 1760.296
+ angleY -149.804
+}
+GenericEntity : "{36E65E74067C13F1}Prefabs/Props/Industrial/Pallets/MarsBoxContainer_01_dst.et" {
+ coords 4832.807 39.393 1737.393
+ angleY -72.495
+}
 $grp StaticModelEntity : "{3BDB53AF13D47912}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_straight_low_2m_cnc.et" {
  {
   coords 4828.143 28.726 1750.526
@@ -3902,6 +4170,9 @@ $grp StaticModelEntity : "{3BDB53AF13D47912}Prefabs/Structures/Infrastructure/Pi
   angleY 0.255
   scale 2.346
  }
+}
+GenericEntity : "{3C01EE1C92530749}Prefabs/Models/props/tem_WoodCrate_1.et" {
+ coords 4833.492 39.409 1738.607
 }
 $grp StaticModelEntity : "{3C1CA9FE7552C3D2}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_straight_low_5m.et" {
  {
@@ -4260,6 +4531,10 @@ GenericEntity : "{4BF528DF7A469909}Prefabs/Props/Construction/PalletJack_01.et" 
  coords 4859.766 27.089 1723.326
  angleY 180
 }
+GenericEntity : "{50E0BD657D81315A}Prefabs/Props/Military/AmmoBoxes/RocketContainer_02/RocketContainer_02_trolley_loaded.et" {
+ coords 4836.164 39.449 1743.94
+ angleY -17.033
+}
 $grp SCR_DestructibleEntity : "{559D2FB1A54441E7}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_base.et" {
  {
   coords 4855.972 98.38 1681.313
@@ -4279,6 +4554,18 @@ $grp SCR_DestructibleEntity : "{559D2FB1A54441E7}Prefabs/Structures/Walls/Pipe/P
  }
  {
   coords 4863.891 91.432 1687.505
+ }
+}
+$grp GenericEntity : "{569C0E9792A6D39A}Prefabs/Props/Military/Training/Obstacles/ObstacleRamp_01_start.et" {
+ {
+  coords 4844.548 39.06 1757.753
+  angleY 90
+  scale 1.2
+ }
+ {
+  coords 4836.493 39.06 1757.753
+  angleY -90
+  scale 1.2
  }
 }
 StaticModelEntity : "{56CF791F12BB17B0}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_terminator_low.et" {
@@ -4334,6 +4621,18 @@ $grp SCR_DestructibleEntity : "{5E657E157968B1A5}Prefabs/Structures/Walls/Pipe/P
  }
  {
   coords 4807.848 77.558 1759.995
+ }
+ {
+  coords 4840.164 85.724 1758.516
+ }
+ {
+  coords 4837.828 85.691 1758.516
+ }
+ {
+  coords 4840.164 86.06 1756.957
+ }
+ {
+  coords 4837.828 86.046 1756.957
  }
 }
 $grp StaticModelEntity : "{641131C69F64B84D}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_stack.et" {
@@ -4447,6 +4746,11 @@ $grp GenericEntity : "{6A4D71569EFE3DDE}Prefabs/Models/ind/tem_ind_wall1_small.e
   coords 4839.238 30.577 1681.404
   angleX 8.1
  }
+}
+GenericEntity : "{6B68854FD47B936F}Prefabs/Props/Military/Training/Obstacles/ObstacleBridge_01_platform.et" {
+ coords 4840.483 35.076 1757.747
+ angleY -90
+ scale 2.171
 }
 $grp SCR_DestructibleBuildingEntity : "{6CDAFB08D5F88533}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Stairs01.et" {
  {
@@ -4778,6 +5082,12 @@ $grp SCR_DestructibleEntity : "{8E7FA9CB9DCB52DE}Prefabs/Structures/Walls/Pipe/P
   angleY -90.107
  }
 }
+GenericEntity : "{8F08705D73A7C711}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_red.et" {
+ coords 4834.935 39.438 1737.634
+ angleX -0.157
+ angleY 15.803
+ angleZ -0.392
+}
 $grp SCR_DestructibleEntity : "{935A7079755D467F}Prefabs/Props/Decorations/Flowerpots/FlowerpotStreet_01/FlowerpotStreet_01_rect_long_begonia_white.et" {
  {
   coords 4828.13 37.209 1678.725
@@ -4801,6 +5111,13 @@ $grp GenericEntity : "{9469915BD7CB2A46}Prefabs/Structures/Infrastructure/Power/
 GenericEntity : "{94DCE76C1FFBA9BA}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBox_01.et" {
  coords 4831.33 27.48 1739.811
  angleY 90
+}
+GenericEntity : "{9536D7FABB9EB702}Prefabs/Models/props/tem_crates_stack1.et" {
+ coords 4834.565 39.612 1739.001
+}
+GenericEntity : "{961E870C68F3F850}Prefabs/Props/Furniture/TableSmall_01/Dst/TableSmall_01_dst_01_light.et" {
+ coords 4836.241 39.53 1761.516
+ angleX -88.463
 }
 StaticModelEntity : "{972266619E8572EA}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_curve_high_33_cnc.et" {
  coords 4883.354 27.018 1761.378
@@ -4941,6 +5258,10 @@ $grp SCR_DestructibleBuildingEntity : "{B5963E922C972A4A}Prefabs/Structures/Infr
   angleY 135
  }
 }
+GenericEntity : "{B5C9960522721F0C}Prefabs/Models/props/tem_woodcrate_3.et" {
+ coords 4832.759 39.599 1738.729
+ angleX -20.993
+}
 GameEntity : "{B8508AD8AA5464E8}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_322_B.et" {
  coords 4899.392 79.763 1754.57
 }
@@ -5015,6 +5336,20 @@ $grp SCR_DestructibleEntity : "{B9CFA824C3EEA68D}Prefabs/Structures/Walls/Pipe/P
   coords 4823.223 89.722 1716.034
   angleY 180
  }
+ {
+  coords 4844.583 85.498 1758.512
+ }
+ {
+  coords 4844.583 85.854 1756.96
+ }
+ {
+  coords 4836.416 85.303 1758.521
+  angleY 180
+ }
+ {
+  coords 4836.416 85.667 1756.969
+  angleY 180
+ }
 }
 GenericEntity : "{BCCAF6DAD47AA8C7}PrefabsEditable/Auto/Props/Furniture/E_Table_02.et" {
  coords 4837.075 37.22 1688.869
@@ -5085,6 +5420,9 @@ $grp SCR_DestructibleBuildingEntity : "{C4EAB3F9F0AB37B2}Prefabs/Structures/Infr
   angleY -0.064
  }
 }
+GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
+ coords 4835.768 39.509 1762.159
+}
 SCR_DestructibleEntity : "{C8A5C92E74ABB5EA}Prefabs/Props/Civilian/PicnicTable/PicnicTable_01.et" {
  coords 4837.65 37.217 1685.4
  angleY 179.361
@@ -5106,6 +5444,10 @@ $grp GenericEntity : "{C9BE1A2755380F2B}Prefabs/Structures/BuildingParts/Eletric
 GenericEntity : "{CCBDB24C6FED8CC0}Prefabs/Props/Garbage/Bins/TrashBin_02_fd_fd.et" {
  coords 4815.4 37.205 1702.399
  angleY -155.308
+}
+GenericEntity : "{CD66BE4E1368B398}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_low_blue.et" {
+ coords 4835.979 39.449 1762.2
+ angleY 82.585
 }
 DecalEntity : "{CE564F15A8C0E5B7}Prefabs/Decals/Markings/Runway/Decal_Runway_Num_4.et" {
  coords 4849.03 83.239 1719.82
@@ -5161,6 +5503,12 @@ GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/LampS
 }
 StaticModelEntity : "{E38C2EEE61381A66}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_pump.et" {
  coords 4827.539 27.415 1718.137
+}
+GenericEntity : "{E61017AB514E6C34}Prefabs/Structures/Walls/Net/NetFence_01/Dst/NetFence_01_Corner_dst_00_debris_03_brown.et" {
+ coords 4836.027 39.51 1762.705
+ angleX -15.67
+ angleY -14.123
+ angleZ 55.077
 }
 GenericEntity : "{E7E1B1B2B433F80A}Prefabs/Props/Furniture/BenchWooden_02_Worn.et" {
  coords 4828.222 37.208 1680.828
@@ -5252,6 +5600,10 @@ GenericEntity : "{F4CA533A99B20DAE}Prefabs/Props/Civilian/SackUniversal_01.et" {
  coords 4814.561 27.377 1750.972
  angleX -11.071
  angleY -48.725
+}
+GenericEntity : "{F80AD3B81747388D}Prefabs/Structures/BuildingParts/Infrastructure/ContainerSpreader_01/ContainerSpreader_01_chain_20ft.et" {
+ coords 4809.259 59.025 1771.537
+ angleY -90
 }
 StaticModelEntity : "{F80E87795A543758}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_section_valve_cnc.et" {
  coords 4826.711 27.417 1716.002
