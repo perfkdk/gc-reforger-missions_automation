@@ -187,7 +187,22 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  N4_Service {
   coords 0 0 0
   m_sTitle "IV. SERVICE SUPPORT"
-  m_sTextData "No resupply will be available during the engagement"
+  m_sTextData "<b>a. Service</b>"\
+  ""\
+  "4 Mi-8 (Specht) are available for transportation."\
+  ""\
+  "Load plan:"\
+  "1Plt across Specht 1+2"\
+  "2Plt across Specht 3+4"\
+  "Coy HQ across remaining seats"\
+  ""\
+  "<b>b. Support</b>"\
+  ""\
+  "Fire support:"\
+  "Falke - 2 Mi-24P (each: 4 ATGM, 2 rocket pods, cannon)"\
+  "Specht - 4 Mi-8 (each: 2 rocket pods, 2 PKMs)"\
+  ""\
+  "Fire support is coordinated by the FAC."
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -196,38 +211,23 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  N5_Command {
   coords 0 0 0
   m_sTitle "V. COMMAND AND SIGNAL"
-  m_sTextData "<b>a. Command</b>"\
+  m_sTextData "<b>Callsigns</b>"\
   ""\
-  "Btn Commander (2300) is currently located at 016 005, inbetween the companies"\
+  "0 - Coy HQ"\
+  " 10 - 1 Plt HQ"\
+  "  11, 12, 13 - 1 Plt Sqds"\
+  " 20 - 1 Plt HQ"\
+  "  21, 22, 23 - 2 Plt Sqds"\
   ""\
-  "The reconnaissance platoon (2710) is under command of 2300 for the duration of the operation"\
+  "Specht <b>1</b>, 2, <b>3</b>, 4 - Mi-8 flight"\
+  "Falke <b>1</b>, 2 - Mi-24 flight"\
   ""\
+  "<b>Frequencies</b>"\
   ""\
-  "<b>b. Signal</b>"\
+  "Company net - 42.0MHz (all ground elements)"\
+  "Flight net - 43.0MHz (all aircraft + FAC)"\
   ""\
-  "2300 - Btn HQ"\
-  ""\
-  " 2310 - 1 Coy HQ"\
-  "  2311, 2312, 2313 - 1 Plt"\
-  "  2314, 2315, 2316 - 2 Plt"\
-  "  2317, 2318, 2319 - 3 Plt"\
-  ""\
-  " 2320 - 2 Coy HQ"\
-  "  2311, 2312, 2313 - 1 Plt"\
-  "  2314, 2315, 2316 - 2 Plt"\
-  "  2317, 2318, 2319 - 3 Plt"\
-  ""\
-  " 2710 - Recon Plt HQ"\
-  "  2711, 2712"\
-  ""\
-  "For brevity, the first 3 callsign digits can be omitted on the company/platoon nets, or the first 1 on the battalion net."\
-  ""\
-  "Battalion net - 44.0MHz"\
-  "2310 Company net - 42.5MHz"\
-  "2320 Company net - 43.0MHz"\
-  "2710 Platoon net - 43.5MHz"\
-  ""\
-  "There are no nets for individual tank platoons."
+  "There are no nets for individual platoons."
   m_aVisibleForFactions {
    "GC_NVA"
   }
