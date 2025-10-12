@@ -66,7 +66,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "d) Readiness times"\
   "Report of readiness by platoon leaders by 7/18, 21:00h"\
   "Patrol readiness: 7/18, 22:00h"\
-  "Note: There is an 15 minute set up timer for Anna 332."\
+  "Note: There is an 12 minute set up timer for Anna 331, a notification is displayed upon expiry."\
   ""\
   "e) Signals"\
   "ZSU PLT, 'Roman 351', LR-1"\

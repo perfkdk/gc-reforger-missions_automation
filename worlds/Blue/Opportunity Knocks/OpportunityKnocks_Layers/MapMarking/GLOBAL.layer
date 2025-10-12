@@ -34,16 +34,22 @@ PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupF
  coords 2766.764 57.425 1467.745
  angleY 0
  m_sQuadName "artillery"
- m_aHideOnGameModeStates {
-  5
+ m_aVisibleForFactions {
+  "US"
  }
+ m_aHideOnGameModeStates {
+ }
+ m_bShowForAnyFaction 0
 }
 PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
  coords 3280.482 38.792 919.014
  angleY -90.658
- m_aHideOnGameModeStates {
-  5
+ m_aVisibleForFactions {
+  "US"
  }
+ m_aHideOnGameModeStates {
+ }
+ m_bShowForAnyFaction 0
 }
 GenericEntity : "{911C459456637ABA}Prefabs/World/Locations/Common/Urban/LocationUrbanGeneric.et" {
  components {
