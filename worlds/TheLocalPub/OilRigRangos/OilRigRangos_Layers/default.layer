@@ -344,13 +344,16 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   coords 4893.542 17.64 1754.303
   m_prefab "{D4700A8D41E53F1E}worlds/TheLocalPub/OilRigRangos/Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et"
   m_conditionFlag "DropBomb"
+  m_spawnTimings {
+   3
+  }
  }
 }
 PolylineShapeEntity AO : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
    m_factionKeys {
-    "ECO" "CIV"
+    "ECO"
    }
    m_visibility NONE
   }
@@ -585,10 +588,10 @@ TILW_MissionFrameworkEntity FRAMEWORK : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missi
   TILW_MissionEvent "{668D06904B73D000}" {
    m_name "ECOWinMaj1"
    m_instructions {
-    TILW_DeactivateEventsInstruction "{668D0696F83C50CD}" {
-     m_executionDelay 0.1
+    TILW_DeactivateEventsInstruction "{6698A361CAF46057}" {
+     m_executionDelay 2095
      m_eventNames {
-      "ECOMajWin2"
+      "ECODead"
      }
     }
     TILW_SetFlagInstruction "{667AB1A243C93F7C}" {
@@ -636,6 +639,12 @@ TILW_MissionFrameworkEntity FRAMEWORK : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missi
     TILW_SetFlagInstruction "{667B38159087B815}" {
      m_executionDelay 1
      m_flagName "UnlockBomb"
+    }
+    TILW_DeactivateEventsInstruction "{6698A361FB220543}" {
+     m_executionDelay 0.1
+     m_eventNames {
+      "ECODead"
+     }
     }
    }
    m_condition TILW_LiteralTerm "{667AB1A11CEBFA1F}" {

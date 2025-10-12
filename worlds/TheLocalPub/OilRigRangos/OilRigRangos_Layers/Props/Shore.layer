@@ -1,3 +1,17 @@
+$grp GenericEntity : "{3F3D50D5D02C93D4}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_doubleStraight_base.et" {
+ {
+  coords 2673.505 2.742 1872.165
+  angleY -111.909
+ }
+ {
+  coords 2683.045 2.888 1848.444
+  angleY -111.909
+ }
+ {
+  coords 5809.981 3.43 3561.201
+  angleY 134.105
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{4256CFD677701B03}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_04.et" {
  {
   coords 5828.066 -4.196 3562.237
@@ -63,28 +77,6 @@ $grp SCR_DestructibleBuildingEntity : "{4256CFD677701B03}Prefabs/Structures/Infr
 SCR_DestructibleBuildingEntity : "{4DA887CD0BBD0A28}PrefabLibrary/Structures/Industrial/ShedMetal_02_short.et" {
  coords 5760.92 0.14 3496.101
  angleY 46.167
-}
-$grp GenericEntity : "{64C9C1D1C2C1B38D}Prefabs/Props/Infrastructure/Roadblocks/RoadBlock_01.et" {
- {
-  coords 2687.566 1.81 1878.742
-  angleY -110.745
- }
- {
-  coords 2698.091 1.815 1853.852
-  angleY -110.745
- }
- {
-  coords 5817.604 1.807 3560.529
-  angleY -139.263
- }
- {
-  coords 5822.725 1.821 3556.262
-  angleY -139.263
- }
- {
-  coords 5825.268 1.824 3556.853
-  angleY 132.436
- }
 }
 SCR_DestructibleBuildingEntity : "{810FC4D515FB00F2}PrefabLibrary/Structures/Houses/Shed_02_square.et" {
  coords 5770.579 -0.026 3540.682
