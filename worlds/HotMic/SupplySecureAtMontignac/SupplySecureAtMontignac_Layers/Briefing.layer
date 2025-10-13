@@ -10,7 +10,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- A faction with the highest amount of supplies at its HQ after all trucks left the Montignac OR TL reached: Victory"\
   "- A faction reduced to near-total losses or combat-ineffective: Defeat"\
   ""\
-  "45 minute TL."
+  "45 minute TL + 3 minutes setup."
   m_bEmptyFactionVisibility 1
  }
  {
