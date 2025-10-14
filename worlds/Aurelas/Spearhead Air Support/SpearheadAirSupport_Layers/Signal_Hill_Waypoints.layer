@@ -12,13 +12,3 @@ $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Def
   CompletionRadius 15
  }
 }
-$grp SCR_BoardingTimedWaypoint : "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et" {
- SHWP_GetInNearest_01 {
-  coords 2500.498 147.105 2291.724
-  CompletionRadius 7.5
- }
- SHWP_GetInNearest_02 {
-  coords 2497.354 148.089 2257.051
-  CompletionRadius 7.5
- }
-}

@@ -33,14 +33,14 @@ $grp SCR_AIGroup : "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam
   coords 2499.831 154.344 2258.356
   angleY -80.567
   m_aStaticWaypoints {
-   "SHWP_GetInNearest_02"
+   "SHWP_Defend_01"
   }
  }
  {
   coords 2501.426 154.546 2291.484
   angleY -78.803
   m_aStaticWaypoints {
-   "SHWP_GetInNearest_01"
+   "SHWP_Defend_02"
   }
  }
 }
