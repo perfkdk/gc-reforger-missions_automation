@@ -108,6 +108,12 @@ $grp SCR_AIGroup : "{0FBF1CDC687208F9}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD 
   m_sCustomNameSet "Supply Section"
  }
 }
+GenericEntity : "{3BAF6AA8C20D924E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_01.et" {
+ coords 5961.16 57.206 7401.247
+ angleX 0.859
+ angleY -16.448
+ angleZ -0.254
+}
 $grp SCR_AIGroup : "{3CC80518BD9541C4}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_TankCrew_P.et" {
  GR_US_TrpXO {
   components {

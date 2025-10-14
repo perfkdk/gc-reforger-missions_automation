@@ -41,7 +41,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
   coords 6600 96.656 1300
   Points {
    ShapePoint "{669B5DF1637773DC}" {
-    Position -100 0 -9.42
+    Position -100 0 0
    }
    ShapePoint "{669B5DF75AE93496}" {
     Position -100 -11.409 1200
@@ -77,7 +77,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
     Position 200 4.188 1200
    }
    ShapePoint "{669B5DF16B3BDBE6}" {
-    Position 200 0 -13.3
+    Position 200 0 0
    }
   }
   IsClosed 0
@@ -91,6 +91,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "helicopter_atk"
   m_fWorldSize 125
+  m_sDescription "FALKE"
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -182,6 +183,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "helicopter_transport"
   m_fWorldSize 200
+  m_sDescription "SPECHT"
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -467,5 +469,29 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "US"
   }
   m_bVisibleForEmptyFaction 1
+ }
+ NVA_plt1 {
+  coords 6450 62.25 1350
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 125
+  m_sDescription "10"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+ }
+ NVA_plt2 {
+  coords 6650 62.25 1350
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 125
+  m_sDescription "20"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
  }
 }

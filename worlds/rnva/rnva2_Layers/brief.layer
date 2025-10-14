@@ -7,7 +7,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Due to the previously deteriorating political situation, the US had chosen to start deployment of most of its NORTHAG units shortly before the start of the war, as practiced during earlier Reforger exercises."\
   ""\
-  "Among these forces is the 2nd Armored Division, soon expected to make first contact with the enemy. Until now, it had been screened by the 3rd Armored Cavalry Regiment, also part of the NORTHAG complement."
+  "Among these forces is the 2nd Armored Division, soon expected to make first contact with the enemy. Until now, it had been screened by the 3rd Armored Cavalry Regiment, also part of the NORTHAG complement."\
+  ""\
+  ""\
+  "<b>A prior air assault by the East German LStR-40 on a cavalry troop headquarters deteriorated the troops command and control and left two of its platoons cut off, unable to avoid engagement with the advancing Panzer Regiment 22s 3rd battalion.</b>"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }

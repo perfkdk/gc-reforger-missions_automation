@@ -37,7 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Your troops initial mission was to perform a passage of lines with the 2nd Armored Divisions previously screened 1st Brigade later today, which would blunt the regiments advance."\
   ""\
-  "However, minutes ago, East German helicopters carrying airmobile forces were spotted flying towards your cavalry troops position."\
+  "However, minutes ago, East German Mi-8 and Mi-24 helicopters carrying airmobile forces were spotted flying towards your cavalry troops position."\
   "The most likely target of the air assault is the troop headquarters, which is not currently in the immediate vicinity of any of its platoons."\
   ""\
   "The surprise attack leaves the troop HQ no time to retreat, it must hold out until its platoons respond."\
@@ -68,13 +68,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<b>Further tasks for troop elements</b>"\
   ""\
   "<b>Black 2 (Medics)</b>"\
-  "Retrieve the already repaired M113 Ambulance from the Maintenance Team (GRID) and move it into Nyrhilanmaki, this grants 3 respawns."\
+  "Retrieve the already repaired M113 Ambulance from the Maintenance Team (048 053) and move it into Nyrhilanmaki, this grants 3 respawns."\
   ""\
   "<b>Black 4 (Supply)</b>"\
-  "Retrieve one load of supplies (spare parts) from GRID and deliver them to the troop maintenance team."\
+  "Retrieve one load of supplies (spare parts) from 059 072 and deliver them to the troop maintenance team."\
   ""\
   "<b>Black 8 (Maintenance)</b>"\
-  "Repair the XO CFVs engine (GRID), which is currently inoperable. This requires a delivery of spare parts by Black 4."
+  "Repair the XO CFVs engine (052 051), which is currently inoperable. This requires a delivery of spare parts by Black 4."
   m_aVisibleForFactions {
    "US"
   }
@@ -157,10 +157,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Taking the position would deteriorate the enemy's command and control, cut off any platoons south west of Nyrhilanmaki (facilitating destruction by Panzer Regiment 22), and ultimately allow friendly reconnaissance forces to penetrate the ineffective screen."\
   ""\
+  "Enemy weapons likely include a tank and one or two IFVs. It is possible that the enemy also has a limited quantity of MANPADS."\
   ""\
   "<b>b. Friendly Forces</b>"\
   ""\
-  "Company-strength airmobile force of the Luftsturmregiment 40 \"Willi Sänger\", assembled at Metsala Airfield. It consists of 2 platoons with 3 squads each."\
+  "Company-strength airmobile force of the Luftsturmregiment 40 \"Willi Sänger\", assembled at Metsala Airfield (066 012). It consists of 2 platoons with 3 squads each."\
   ""\
   "The force is supported by Mi-24 attack and Mi-8 transport helicopters."\
   ""\

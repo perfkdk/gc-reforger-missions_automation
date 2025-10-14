@@ -7,7 +7,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Due to the previously deteriorating political situation, the US had chosen to start deployment of most of its NORTHAG units shortly before the start of the war, as practiced during earlier Reforger exercises."\
   ""\
-  "Among these forces is the 2nd Armored Division, soon expected to make first contact with the enemy. Until now, it had been screened by the 3rd Armored Cavalry Regiment, also part of the NORTHAG complement."
+  "Among these forces is the 2nd Armored Division, soon expected to make first contact with the enemy. Until now, it had been screened by the 3rd Armored Cavalry Regiment, also part of the NORTHAG complement."\
+  ""\
+  ""\
+  "<b>Despite taking significant losses, the cut-off RED and WHITE platoon of the US cavalry troop were able to delay the NVA tank battalion by multiple hours. Now fully encircled west of Isomaki, their only hope is a tank and mechanized infantry company team of the previously screened 2nd Armored Division, which had rushed ahead to assist the endangered screening force.</b>"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
