@@ -1,0 +1,24 @@
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ SHWP_Defend_01 {
+  coords 2509.001 147.565 2257.319
+  CompletionRadius 15
+ }
+ SHWP_Defend_02 {
+  coords 2510.647 147.616 2288.356
+  CompletionRadius 15
+ }
+ SHWP_Defend_03 {
+  coords 2535.379 143.764 2267.149
+  CompletionRadius 15
+ }
+}
+$grp SCR_BoardingTimedWaypoint : "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et" {
+ SHWP_GetInNearest_01 {
+  coords 2500.498 147.105 2291.724
+  CompletionRadius 7.5
+ }
+ SHWP_GetInNearest_02 {
+  coords 2497.354 148.089 2257.051
+  CompletionRadius 7.5
+ }
+}

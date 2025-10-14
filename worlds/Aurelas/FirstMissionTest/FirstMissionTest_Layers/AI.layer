@@ -1,9 +1,0 @@
-SCR_AIGroup : "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/Group_USSR_MSV80_MotRifleSquad.et" {
- coords 3435.882 40.721 2589.446
-}
-SCR_AIGroup : "{6A85E7ABBB6803A7}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/Group_USSR_MSV80_MotRifleSquadSVD.et" {
- coords 3454.404 39.431 2580.599
-}
-SCR_AIGroup : "{8DE9E967FADD9FEF}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/Group_USSR_MSV80_MotRiflePHQ.et" {
- coords 3465.958 47.348 2581.903
-}

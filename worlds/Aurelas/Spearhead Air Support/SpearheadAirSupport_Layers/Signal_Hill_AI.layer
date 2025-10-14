@@ -1,0 +1,58 @@
+SCR_AIGroup : "{0D10CCEEC7B3EC34}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ.et" {
+ coords 2507.111 147.714 2257.975
+ m_aStaticWaypoints {
+  "SHWP_Defend_01"
+ }
+}
+SCR_AIGroup : "{A2F75E45C66B1C0A}Prefabs/Groups/OPFOR/Group_USSR_MachineGunTeam.et" {
+ coords 2506.309 147.572 2273.057
+ m_aStaticWaypoints {
+  "SHWP_Defend_02"
+ }
+}
+$grp SCR_AIGroup : "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et" {
+ {
+  coords 2530.371 145.866 2272.823
+  m_aStaticWaypoints {
+   "SHWP_Defend_03"
+  }
+ }
+ {
+  coords 2539.596 143.752 2268.515
+  m_aStaticWaypoints {
+   "SHWP_Defend_03"
+  }
+ }
+ {
+  coords 2528.853 143.937 2264.677
+  m_aStaticWaypoints {
+   "SHWP_Defend_03"
+  }
+ }
+ {
+  coords 2499.831 154.344 2258.356
+  angleY -80.567
+  m_aStaticWaypoints {
+   "SHWP_GetInNearest_02"
+  }
+ }
+ {
+  coords 2501.426 154.546 2291.484
+  angleY -78.803
+  m_aStaticWaypoints {
+   "SHWP_GetInNearest_01"
+  }
+ }
+}
+SCR_AIGroup : "{D815658156080328}Prefabs/Groups/OPFOR/Group_USSR_MedicalSection.et" {
+ coords 2515.627 147.723 2274.085
+ m_aStaticWaypoints {
+  "SHWP_Defend_02"
+ }
+}
+SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
+ coords 2516.311 146.467 2295.783
+ m_aStaticWaypoints {
+  "SHWP_Defend_02"
+ }
+}
