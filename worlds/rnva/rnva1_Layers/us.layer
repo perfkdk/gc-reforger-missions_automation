@@ -1,5 +1,12 @@
 $grp SCR_AIGroup : "{0FBF1CDC687208F9}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_Brad_RifleSquad_M60_P.et" {
  GR_US_Scouts1 {
+  components {
+   PS_GroupCallsignAssigner "{6582D12528A726C4}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
   coords 5355.896 60.993 5104.431
   angleX -1.861
   angleY -12.294
@@ -24,6 +31,13 @@ $grp SCR_AIGroup : "{0FBF1CDC687208F9}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD 
   m_sCustomNameSet "Mortar"
  }
  GR_US_Scouts2 {
+  components {
+   PS_GroupCallsignAssigner "{6582D12528A726C4}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
   coords 4825.389 60.125 5350.088
   angleY -134.185
   m_aUnitPrefabSlots {
@@ -134,7 +148,7 @@ Tank M2A2 : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
  }
  coords 5277.881 61.656 5195.666
  angleY -139.467
- m_sAttachmentGroupName "GR_TrpXO"
+ m_sAttachmentGroupName "GR_US_TrpXO"
 }
 Turret US_Mortar : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
  coords 5211.823 61.431 5240.207
@@ -164,22 +178,62 @@ Vehicle Truck_Maintenance : "{C8656AECF5DF41D9}Prefabs/Vehicles/Wheeled/M923A1/M
  angleX 1.016
  angleY -171.617
  angleZ -0.755
+ m_sAttachmentGroupName "GR_US_Maintenance"
 }
 $grp Vehicle : "{DC21E543DF39D2C0}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_closed_MERDC.et" {
  Truck_Supply {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECA66163838}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{669B5DE5251AAEAD}" {
+      SlotTemplate InventoryStorageSlot a {
+       Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+      }
+      NumSlots 25
+     }
+     MultiSlotConfiguration "{669B5DE52A541765}" {
+      SlotTemplate InventoryStorageSlot b {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{669B5DE5960852EC}" {
+      SlotTemplate InventoryStorageSlot d {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
   coords 5438.135 63.844 6241.481
   angleY 35.779
+  m_sAttachmentGroupName "GR_US_Supply"
  }
  Truck_SupplyProp {
   coords 5953.001 56.5 7306.193
  }
+}
+GenericEntity : "{E1FD1ACDA98123AE}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Mortar_US.et" {
+ components {
+  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+   Enabled 0
+  }
+ }
+ coords 5215.063 61.393 5243.613
+ angleX 1.375
+ angleY -120.794
+ angleZ 2.305
 }
 Tank M1A1 : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
  coords 4855.582 59.392 5304.864
  angleX -2.516
  angleY 38.873
  angleZ 0.27
- m_sAttachmentGroupName "GR_TrpCDR"
+ m_sAttachmentGroupName "GR_US_TrpCDR"
 }
 GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
  coords 5934.838 56.633 7327.869

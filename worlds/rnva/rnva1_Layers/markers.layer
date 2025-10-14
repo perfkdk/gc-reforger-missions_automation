@@ -1,28 +1,86 @@
-PolylineShapeEntity US_DARKEN : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
- components {
-  TILW_MapShapeComponent "{6508F5526836BC09}" {
-   m_factionKeys {
-    "US"
+$grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+ US_DARKEN {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_factionKeys {
+     "US"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0 0 0.5
+    m_invert 1
    }
-   m_visibleForEmptyFaction 0
-   m_color 0 0 0 0.5
-   m_invert 1
+  }
+  coords 3000 52.724 3000
+  Points {
+   ShapePoint "{6696C10FF7F7CA24}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6696C10FFAEFBC1C}" {
+    Position 4000 0 0
+   }
+   ShapePoint "{6696C10FD2D964D1}" {
+    Position 4000 0 4000
+   }
+   ShapePoint "{6696C10FD3ED4CD2}" {
+    Position 0 0 4000
+   }
   }
  }
- coords 3000 52.724 3000
- Points {
-  ShapePoint "{6696C10FF7F7CA24}" {
-   Position 0 0 0
+ MapShape_ArrowNVA {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_factionKeys {
+     "US"
+    }
+    m_drawArea 0
+    m_drawLine 1
+    m_lineColor 0.502 0 0 1
+    m_lineWidth 20
+   }
   }
-  ShapePoint "{6696C10FFAEFBC1C}" {
-   Position 4000 0 0
+  coords 6600 96.656 1300
+  Points {
+   ShapePoint "{669B5DF1637773DC}" {
+    Position -100 0 -9.42
+   }
+   ShapePoint "{669B5DF75AE93496}" {
+    Position -100 -11.409 1200
+   }
+   ShapePoint "{669B5DF6A3492F6A}" {
+    Position 200 -26.271 2200
+   }
+   ShapePoint "{669B5DF16A346DF0}" {
+    Position 200 -29.032 2400
+   }
+   ShapePoint "{669B5DF0D9F563C8}" {
+    Position -600 -39.048 3200
+   }
+   ShapePoint "{669B5DF6214DEA22}" {
+    Position -400 -39.232 3300
+   }
+   ShapePoint "{669B5DF62F5E15A5}" {
+    Position -1000 -40.062 3400
+   }
+   ShapePoint "{669B5DF60565AA56}" {
+    Position -900 -38.327 2800
+   }
+   ShapePoint "{669B5DF0F50AB079}" {
+    Position -800 -36.169 3000
+   }
+   ShapePoint "{669B5DF16AB9C3AA}" {
+    Position -100 -32.069 2300
+   }
+   ShapePoint "{669B5DF6F3B10DE8}" {
+    Position -100 -12.058 2200
+   }
+   ShapePoint "{669B5DF7867BCB7A}" {
+    Position 200 4.188 1200
+   }
+   ShapePoint "{669B5DF16B3BDBE6}" {
+    Position 200 0 -13.3
+   }
   }
-  ShapePoint "{6696C10FD2D964D1}" {
-   Position 4000 0 4000
-  }
-  ShapePoint "{6696C10FD3ED4CD2}" {
-   Position 0 0 4000
-  }
+  IsClosed 0
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
@@ -38,7 +96,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  US_PLT_TANK {
-  coords 3050 66.225 3346
+  coords 1650 66.225 1350
   angleY 90
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
@@ -64,7 +122,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  US_PLT_CFV {
-  coords 3150 66.225 3446
+  coords 2550 61.094 1150
   angleY 90
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
@@ -81,33 +139,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
     angleY 0
     m_MarkerColor 0 0 0 0.75
     m_fWorldSize 50
-    m_aVisibleForFactions {
-     "US"
-    }
-    m_bVisibleForEmptyFaction 0
-    m_bShowForAnyFaction 0
-   }
-  }
- }
- US_ENYCOY {
-  coords 6700 96.656 1300
-  angleY 90
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 0.75
-  m_sQuadName "infantry"
-  m_fWorldSize 288
-  m_sDescription "ENY INF COY"
-  m_aVisibleForFactions {
-   "US"
-  }
-  {
-   PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
-    coords -100 0 0
-    angleY 0
-    m_MarkerColor 0 0 0 0.75
-    m_sQuadName "0"
-    m_fWorldSize 100
     m_aVisibleForFactions {
      "US"
     }
@@ -338,7 +369,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 0.75
   m_sQuadName "recon"
   m_fWorldSize 36
-  m_sDescription "Scout Team 1"
+  m_sDescription "RED 1"
   m_aVisibleForFactions {
    "US"
   }
@@ -365,7 +396,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 0.75
   m_sQuadName "recon"
   m_fWorldSize 36
-  m_sDescription "Scout Team 2"
+  m_sDescription "RED 2"
   m_aVisibleForFactions {
    "US"
   }
@@ -383,5 +414,58 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
     m_bShowForAnyFaction 0
    }
   }
+ }
+ US_NVACoy {
+  coords 6650 60.563 1250
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 0.75
+  m_sQuadName "infantry"
+  m_fWorldSize 288
+  m_sDescription "ENY AIRMOBILE COY"
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bVisibleForEmptyFaction 1
+  {
+   PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+    coords -105 0 0
+    angleY 0
+    m_MarkerColor 0 0 0 0.75
+    m_sQuadName "4"
+    m_fWorldSize 100
+    m_aVisibleForFactions {
+     "US"
+    }
+    m_bShowForAnyFaction 0
+   }
+  }
+ }
+ US_HeliTP {
+  coords 6500 60.563 3000
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 0.75
+  m_sQuadName "helicopter"
+  m_fWorldSize 200
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ US_HeliATK {
+  coords 6800 60.563 3000
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 0.75
+  m_sQuadName "helicopter-attack"
+  m_fWorldSize 200
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_bVisibleForEmptyFaction 1
  }
 }

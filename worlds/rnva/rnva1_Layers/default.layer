@@ -15,6 +15,11 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
  m_iFreezeTime 120000
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{669B5DE4303A567D}" {
+   m_sFactionKey "US"
+  }
+ }
  {
   SCR_FactionManager "6664C295F80A6549" {
    ID "5ED9088735FF2D8B"
