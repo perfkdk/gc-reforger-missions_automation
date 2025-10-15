@@ -1,14 +1,3 @@
-TILW_PrefabSpawnerEntity FARP_Delayed_Marker : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
- coords 943.066 46.565 2787.747
- angleY 90
- m_prefab "{E52ACEA9223E6EA6}worlds/Aurelas/Spearhead Air Support/Markers/FARP Marker.et"
- m_spawnTimings {
-  420
- }
- m_waypointNames {
-  "BGWP_Defend_01"
- }
-}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  Soviet_Comms_Marker {
   coords 2520.065 147.301 2271.859
@@ -81,5 +70,19 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "US"
   }
   m_bVisibleForEmptyFaction 1
+ }
+ FARP_Marker {
+  components {
+   SCR_EditableEntityVisibilityChildComponent "{5EDF48006635F3CA}" {
+    Enabled 0
+   }
+  }
+  coords 932.268 38.969 2786.914
+  angleY 90
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+  m_sQuadName "maintenance"
+  m_fWorldSize 200
+  m_sDescription "FARP"
  }
 }

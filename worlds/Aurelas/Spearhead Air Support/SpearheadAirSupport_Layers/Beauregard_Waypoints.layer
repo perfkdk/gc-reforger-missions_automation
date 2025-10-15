@@ -1,9 +1,9 @@
-$grp SCR_EntityWaypoint : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et" {
+$grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  BGWP_Attack_1 {
   coords 3127.21 17.037 2652.104
  }
  BGWP_Attack_2 {
-  coords 3101.528 16.69 2674.256
+  coords 3105.344 16.223 2684.355
  }
  BGWP_Attack_3 {
   coords 3081.411 18.702 2690.988
@@ -29,14 +29,14 @@ $grp SCR_EntityWaypoint : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Att
  BGWP_Attack_10 {
   coords 3170.372 10.383 2829.496
  }
- BGWP_Attack_11 {
-  coords 3290.807 2.001 2867.983
- }
  BGWP_Attack_12 {
   coords 3274.594 2.009 2883.319
  }
  BGWP_Attack_13 {
   coords 3259.937 2 2906.675
+ }
+ BGWP_Attack_11 {
+  coords 3290.807 2.001 2867.983
  }
 }
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {

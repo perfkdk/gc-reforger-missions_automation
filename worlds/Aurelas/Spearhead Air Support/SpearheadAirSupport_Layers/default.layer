@@ -41,18 +41,32 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  coords 3452.211 39.271 2577.153
  m_missionEvents {
   TILW_MissionEvent "{668D6D025B258CD9}" {
-   m_name "Signal Hill Clear"
+   m_name "Soviet Comms Destroyed"
    m_instructions {
     TILW_SendMessageInstruction "{668D6D027EE29083}" {
+     m_executionDelay 10
      m_messageTitle "All Spearhead Callsigns this is FAC"
-     m_messageBody "Reports idicate significant Soviet casualties at Signal Hill. Troops in contact at Beauregard are requesting support against Soviet Mechanized Infantry holding the town. "\
-     "Break. "\
-     "Friendly troops marked by green smoke. All weapons cleared hot. "\
-     "FAC Out."
+     m_messageBody "Reports idicate Soviet communications have been disrupted."\
+     "Clean up remaining troops at signal hill and await next tasking. "\
+     ""\
+     "Over."
     }
    }
-   m_condition TILW_LiteralTerm "{668D6D026B8775F2}" {
-    m_flagName "Signal_Hill_Clear"
+   m_condition TILW_ConjunctionTerm "{669D6ED5E385CC1D}" {
+    m_operands {
+     TILW_LiteralTerm "{669D6ED5F85D066C}" {
+      m_flagName "SH_Destroyed_1"
+     }
+     TILW_LiteralTerm "{669D6ED5F97430EA}" {
+      m_flagName "SH_Destroyed_2"
+     }
+     TILW_LiteralTerm "{669D6ED5FED9E126}" {
+      m_flagName "SH_Destroyed_3"
+     }
+     TILW_LiteralTerm "{669D6ED5FF9EAC12}" {
+      m_flagName "SH_Destroyed_4"
+     }
+    }
    }
   }
   TILW_MissionEvent "{669A6D4B29E9F849}" {
@@ -66,6 +80,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      ""\
      "FAC Out."
     }
+    TILW_EditMapItemInstruction "{669E2EFC293D68DE}" {
+     m_executionDelay 420
+     m_itemNames {
+      "FARP_Marker"
+     }
+     m_factionVisibility {
+      TILW_FactionVisibility "{669E2EFC86B5DFAA}" {
+       m_factionKey "US"
+       m_visible 1
+      }
+     }
+    }
    }
    m_condition TILW_LiteralTerm "{669A6D4B32DE1F4D}" {
     m_invertTerm 1
@@ -78,7 +104,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{669A6D4424ECF0D3}" {
      m_messageTitle "All Spearhead Callsigns this is FAC"
      m_messageBody "Soviet troops have taken signifigant casualties and our Marines have secured the town of Beauregard."\
-     "Return to ship for rearm and refuel and to recieve next tasking."\
+     "Return to the USS Concrete to rearm and refuel."\
+     ""\
+     "Good work today."\
+     ""\
      "FAC Out."
     }
    }
@@ -99,7 +128,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{669A6D44A18D9484}" {
      m_executionDelay 20
      m_messageTitle "US Victory"
-     m_messageBody "Spear squad has succeed in providing air support and the US has taken a significant foothold on the island of Arland."
+     m_messageBody "Spearhead squad has succeed in providing air support and the US has taken a significant foothold on the island of Arland."
     }
    }
    m_condition TILW_ConjunctionTerm "{669A6D45E172D0D5}" {
@@ -157,14 +186,50 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_invertTerm 1
    }
   }
+  TILW_MissionEvent "{669D6ED80A52E83B}" {
+   m_name "Signal Hill Clear"
+   m_instructions {
+    TILW_SendMessageInstruction "{669D6ED653351035}" {
+     m_executionDelay 0
+     m_messageTitle "All Spearhead Callsigns this is FAC"
+     m_messageBody "Ground observers report significant Soviet casualities at Signal Hill."\
+     ""\
+     "Good work."\
+     ""\
+     "Standby for next tasking."\
+     ""\
+     "Over."
+    }
+    TILW_SendMessageInstruction "{669D6ED6C5B7185B}" {
+     m_executionDelay 25
+     m_messageTitle "All Spearhead Callsigns this is FAC"
+     m_messageBody "Troops in contact at Beauregard are requesting support against Soviet Mechanized Infantry holding the town. "\
+     "Break. "\
+     "Friendly troops marking positions with green smoke. All weapons cleared hot."\
+     ""\
+     "FAC Out."
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{669D6ED6BA024D9A}" {
+    m_operands {
+     TILW_LiteralTerm "{669D6ED6B8329497}" {
+      m_flagName "Signal_Hill_Clear"
+     }
+     TILW_LiteralTerm "{669D6ED6B99449CC}" {
+      m_flagName "BRDM_1_Destroyed"
+     }
+     TILW_LiteralTerm "{669D6ED6BEBF549B}" {
+      m_flagName "BRDM_2_Destroyed"
+     }
+    }
+   }
+  }
  }
  m_casualtyFlags {
-  TILW_FactionAIKilledFlag "{668D6D03FD72995B}" {
+  TILW_FactionPlayersKilledFlag "{669D6ED88444F260}" {
    m_flagName "US_Players_Killed"
    m_factionKey "US"
    m_casualtyRatio 0.9
-  }
-  TILW_FactionAIKilledFlag "{669A6D455EA89580}" {
   }
  }
 }

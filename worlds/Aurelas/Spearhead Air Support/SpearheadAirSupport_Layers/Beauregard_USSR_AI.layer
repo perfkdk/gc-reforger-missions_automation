@@ -81,8 +81,11 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_spawnTimings {
    20
   }
+  m_setEntityNames {
+   "BTR 1"
+  }
   m_waypointNames {
-   "BGWP_Defend_Harbor"
+   ""
   }
   m_crewConfig TILW_CrewConfig "{669A31CCD4A6CAFE}" {
    m_crewGroups {
@@ -94,6 +97,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
         "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et" "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
        }
       }
+     }
+     m_waypointNames {
+      "BGWP_Defend_Harbor"
      }
     }
    }
