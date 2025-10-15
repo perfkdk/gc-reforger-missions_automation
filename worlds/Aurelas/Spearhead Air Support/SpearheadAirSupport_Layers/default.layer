@@ -40,13 +40,81 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3452.211 39.271 2577.153
  m_missionEvents {
+  TILW_MissionEvent "{669B367346C5F6A8}" {
+   m_name "Mission Start"
+   m_instructions {
+    TILW_SendMessageInstruction "{669B3673529CFAD7}" {
+     m_executionDelay 15
+     m_messageTitle "All Spearhead Callsigns this is the USS Concrete"
+     m_messageBody "Spearhead you are cleared for liftoff. Remember to disrupt the Soviet Comms Center and await tasking from FAC."\
+     ""\
+     "Stay Safe and Happy Hunting!"\
+     ""\
+     "USS Concrete out."
+    }
+    TILW_SendMessageInstruction "{669EC4D2ED7F65C5}" {
+     m_executionDelay 420
+     m_messageTitle "All Spearhead Callsigns this is FAC"
+     m_messageBody "A Forward Ammunition and Resupply Point has been established at the Airfield at Grid (009,028) for you to use."\
+     "The FARP is marked by Blue Smoke."\
+     ""\
+     "FAC Out."
+    }
+    TILW_SendMessageInstruction "{669EC4D22EC38635}" {
+     m_executionDelay 2700
+     m_messageTitle "TIME LIMIT REACHED"
+     m_messageBody "The time window has closed."
+    }
+   }
+   m_condition TILW_LiteralTerm "{669B367377CCB7CB}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{669D6ED80A52E83B}" {
+   m_name "Signal Hill Clear"
+   m_instructions {
+    TILW_SendMessageInstruction "{669D6ED653351035}" {
+     m_executionDelay 0
+     m_messageTitle "All Spearhead Callsigns this is FAC"
+     m_messageBody "Ground observers report significant Soviet casualities at Signal Hill."\
+     ""\
+     "Good work."\
+     ""\
+     "Standby for next tasking."\
+     ""\
+     "Over."
+    }
+    TILW_SendMessageInstruction "{669D6ED6C5B7185B}" {
+     m_executionDelay 25
+     m_messageTitle "All Spearhead Callsigns this is FAC"
+     m_messageBody "Troops in contact at Beauregard are requesting support against Soviet Mechanized Infantry holding the town. "\
+     "Break. "\
+     "Friendly troops marking positions with green smoke. All weapons cleared hot."\
+     ""\
+     "FAC Out."
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{669D6ED6BA024D9A}" {
+    m_operands {
+     TILW_LiteralTerm "{669D6ED6B8329497}" {
+      m_flagName "Signal_Hill_Clear"
+     }
+     TILW_LiteralTerm "{669D6ED6B99449CC}" {
+      m_flagName "BRDM_1_Destroyed"
+     }
+     TILW_LiteralTerm "{669D6ED6BEBF549B}" {
+      m_flagName "BRDM_2_Destroyed"
+     }
+    }
+   }
+  }
   TILW_MissionEvent "{668D6D025B258CD9}" {
    m_name "Soviet Comms Destroyed"
    m_instructions {
     TILW_SendMessageInstruction "{668D6D027EE29083}" {
      m_executionDelay 10
      m_messageTitle "All Spearhead Callsigns this is FAC"
-     m_messageBody "Reports idicate Soviet communications have been disrupted."\
+     m_messageBody "Reports indicate Soviet communications have been disrupted."\
      "Clean up remaining troops at signal hill and await next tasking. "\
      ""\
      "Over."
@@ -67,35 +135,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       m_flagName "SH_Destroyed_4"
      }
     }
-   }
-  }
-  TILW_MissionEvent "{669A6D4B29E9F849}" {
-   m_name "FARP Notification"
-   m_instructions {
-    TILW_SendMessageInstruction "{669A6D4B3EE32883}" {
-     m_executionDelay 420
-     m_messageTitle "All Spearhead Callsigns this is FAC"
-     m_messageBody "A Forward Ammunition and Resupply Point has been established at the Airfield at Grid (009,028) for you to use."\
-     "The FARP is marked by Blue Smoke."\
-     ""\
-     "FAC Out."
-    }
-    TILW_EditMapItemInstruction "{669E2EFC293D68DE}" {
-     m_executionDelay 420
-     m_itemNames {
-      "FARP_Marker"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{669E2EFC86B5DFAA}" {
-       m_factionKey "US"
-       m_visible 1
-      }
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{669A6D4B32DE1F4D}" {
-    m_invertTerm 1
-    m_flagName "FARP_Alert"
    }
   }
   TILW_MissionEvent "{669A6D441B83D035}" {
@@ -153,75 +192,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_LiteralTerm "{669A6D45B128A5E7}" {
     m_flagName "US_Players_Killed"
-   }
-  }
-  TILW_MissionEvent "{669A6D4875BAA9E7}" {
-   m_name "Time Limit"
-   m_instructions {
-    TILW_EndGameInstruction "{669A6D488532F4B3}" {
-     m_executionDelay 2700
-     m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "US"
-    }
-   }
-   m_condition TILW_LiteralTerm "{669A6D489BD4100F}" {
-    m_invertTerm 1
-    m_flagName "Time Limit"
-   }
-  }
-  TILW_MissionEvent "{669B367346C5F6A8}" {
-   m_name "Cleared for Takeoff"
-   m_instructions {
-    TILW_SendMessageInstruction "{669B3673529CFAD7}" {
-     m_executionDelay 15
-     m_messageTitle "All Spearhead Callsigns this is the USS Concrete"
-     m_messageBody "Spearhead you are cleared for liftoff. Remember to disrupt the Soviet Comms Center and await tasking from FAC."\
-     ""\
-     "Stay Safe and Happy Hunting!"\
-     ""\
-     "USS Concrete out."
-    }
-   }
-   m_condition TILW_LiteralTerm "{669B367377CCB7CB}" {
-    m_invertTerm 1
-   }
-  }
-  TILW_MissionEvent "{669D6ED80A52E83B}" {
-   m_name "Signal Hill Clear"
-   m_instructions {
-    TILW_SendMessageInstruction "{669D6ED653351035}" {
-     m_executionDelay 0
-     m_messageTitle "All Spearhead Callsigns this is FAC"
-     m_messageBody "Ground observers report significant Soviet casualities at Signal Hill."\
-     ""\
-     "Good work."\
-     ""\
-     "Standby for next tasking."\
-     ""\
-     "Over."
-    }
-    TILW_SendMessageInstruction "{669D6ED6C5B7185B}" {
-     m_executionDelay 25
-     m_messageTitle "All Spearhead Callsigns this is FAC"
-     m_messageBody "Troops in contact at Beauregard are requesting support against Soviet Mechanized Infantry holding the town. "\
-     "Break. "\
-     "Friendly troops marking positions with green smoke. All weapons cleared hot."\
-     ""\
-     "FAC Out."
-    }
-   }
-   m_condition TILW_ConjunctionTerm "{669D6ED6BA024D9A}" {
-    m_operands {
-     TILW_LiteralTerm "{669D6ED6B8329497}" {
-      m_flagName "Signal_Hill_Clear"
-     }
-     TILW_LiteralTerm "{669D6ED6B99449CC}" {
-      m_flagName "BRDM_1_Destroyed"
-     }
-     TILW_LiteralTerm "{669D6ED6BEBF549B}" {
-      m_flagName "BRDM_2_Destroyed"
-     }
-    }
    }
   }
  }
