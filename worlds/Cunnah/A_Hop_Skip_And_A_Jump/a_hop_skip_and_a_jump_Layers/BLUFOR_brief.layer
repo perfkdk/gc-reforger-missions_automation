@@ -47,7 +47,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  BLUFOR_sustainment {
   coords 7189.468 148.444 2606.813
   m_sTitle "SUSTAINMENT"
-  m_sTextData "2x Static Tow positions. North position has 1 missile. South position has 1 missile."\
+  m_sTextData "2x Static Tow positions. North position has 1 missile. South position has 3 missiles (located in crate)."\
   ""\
   "1x UH1H Transport Helicopter."\
   ""\
@@ -62,5 +62,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "COMSIG"
   m_sTextData "Platoon Net - 48.0MHz"\
   "Air Net (ROBIN 24) - 39.0MHz"
+ }
+ BLUFOR_TOW_notes {
+  coords 7178.345 148.901 2619.955
+  m_sTitle "TOW NOTES (PLEASE READ)"
+  m_sTextData "The tow can be rearmed but in order to do so you need to have a replacement tube and it NEEDS TO BE EQUIPED in order to get the reload interaction prompt. This is similar to how mortars work."\
+  ""\
+  "Also note that the TOW takes a second to launch after the trigger has been pressed so be patient. :)"
+  m_aVisibleForFactions {
+   "UK"
+  }
+  m_iOrder 8
  }
 }

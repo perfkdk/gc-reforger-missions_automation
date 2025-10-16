@@ -5,6 +5,17 @@ $grp Turret : "{023236B2A390BA5B}Prefabs/Weapons/Tripods/BGM71_TOW/Tripod_BGM-71
   angleY -62.075
  }
  {
+  components {
+   InventoryStorageManagerComponent "{570EB718136CC976}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{66A0C98056546902}" {
+      PrefabsToSpawn {
+       "{E7B6EE8A99C7F760}Prefabs/Weapons/Ammo/Ammo_Missile_BGM-71_BFV.et" "{E7B6EE8A99C7F760}Prefabs/Weapons/Ammo/Ammo_Missile_BGM-71_BFV.et"
+      }
+     }
+    }
+   }
+  }
   coords 7316.973 148.193 2121.349
   angleY 3.176
  }
@@ -94,9 +105,40 @@ $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortific
   angleZ 3.471
  }
 }
-GenericEntity : "{6511EA5E7DD4C149}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_base.et" {
- coords 7317.894 148.228 2118.564
- angleY 123.168
+GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{EB0A22FF818604FF}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_3.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{66A0C983366C09BE}" {
+     SlotTemplate InventoryStorageSlot test {
+      Prefab "{C45AE68B74B6136D}Prefabs/Weapons/Tripods/BGM71_TOW/Pod_BGM-71_TOW.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.5178 -0.2329
+     }
+    }
+   }
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
+ }
+ coords 7317.709 148.351 2118.371
+ angleX -1.382
+ angleY 117.22
+ angleZ -5.965
 }
 $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
  {
