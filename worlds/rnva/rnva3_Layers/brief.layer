@@ -1,16 +1,16 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  G0_Background {
   m_sTitle "Background"
-  m_sTextData "1990, Germany. War has broken out between NATO and the Warsaw Pact, and Soviet Forces are advancing deeper and deeper into the northern plains of West Germany together with the NVA, aiming to reach the Rhine by day 6."\
+  m_sTextData "1989, Germany. War has broken out between NATO and the Warsaw Pact, and Soviet Forces are advancing deeper and deeper into the northern plains of West Germany together with the NVA, aiming to reach the Rhine by day 6."\
   ""\
   "In this sector, the Panzer Regiment 22 \"Soja Kosmodemjanskaja\" of the East German 9. Panzer Division is leading the advance."\
   ""\
   "Due to the previously deteriorating political situation, the US had chosen to start deployment of most of its NORTHAG units shortly before the start of the war, as practiced during earlier Reforger exercises."\
   ""\
-  "Among these forces is the 2nd Armored Division, soon expected to make first contact with the enemy. Until now, it had been screened by the 3rd Armored Cavalry Regiment, also part of the NORTHAG complement."\
+  "Among these forces is the 2nd Armored Division, soon expected to make first contact with the enemy. Until now, it had been covered by the 3rd Armored Cavalry Regiment, also part of the NORTHAG complement."\
   ""\
   ""\
-  "<b>Despite taking significant losses, the cut-off RED and WHITE platoon of the US cavalry troop were able to delay the NVA tank battalion by multiple hours. Now fully encircled west of Isomaki, their only hope is a tank and mechanized infantry company team of the previously screened 2nd Armored Division, which had rushed ahead to assist the endangered screening force.</b>"
+  "<b>Despite taking significant losses, the cut-off RED and WHITE platoon of the US cavalry troop were able to delay the NVA tank battalion by multiple hours. Now fully encircled west of Isomaki, their only hope is a tank and mechanized infantry company team of the previously covered 2nd Armored Division, which had rushed ahead to assist the endangered screening force.</b>"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -41,7 +41,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "A tank battalion of the East German Panzer Regiment 22 is advancing from the south west."\
   "Two of its companies were spotted in the vicinity of Martikkalakyla, some reconnaissance forces may already be slightly ahead."\
   ""\
-  "Our troops initial mission was to perform a passage of lines with the 2nd Armored Divisions previously screened 1st Brigade later today, which would blunt the regiments advance."\
+  "Our troops initial mission was to perform a passage of lines with the 2nd Armored Divisions previously covered 1st Brigade later today, which would blunt the regiments advance."\
   ""\
   "However, a few hours ago, East German airmobile forces of the Luftsturmregiment 40 staged an air assault on Nyrhilanmaki (052 051), destroying most of Troop HQ and occupying the village."\
   ""\
@@ -138,18 +138,22 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "I. SITUATION"
   m_sTextData "<b>a. Enemy Forces</b>"\
   ""\
-  "Parts of an American heavy cavalry troop, using Abrams tanks and cavalry fighting vehicles, are located 2-5km to the north."\
+  "Over the past hours, forces of the Panzer Regiment 22s 2300 Btn advanced towards Isomaki while being delayed by an understrength American heavy cavalry troop."\
   ""\
-  "A prior air assault on Nyrhilanmaki by forces of Luftsturmregiment 40 successfully cut them off from friendly forces and likely disrupted their command and control."\
+  "These forces, which were sucessfully cut of from friendly forces by the prior LStR-40 air assault, are now being encircled west of Isomaki."\
   ""\
-  "The Americans are now unable to retreat further north east past Isomaki, allowing us to destroy the force. It is possible they have mortar support available, likely from beyond our reach."\
+  "However, 20 minutes ago, one of the regiments reconnaissance platoons spotted a US force consisting of tanks and mechanized infantry, moving southwards in the direction of Isomaki and Nyrhilanmaki."\
+  "While that force appeared to be only company to battalion sized, it is likely part of a larger unit covered by the armored cavalry regiment."\
+  ""\
+  "Enemy intent may be to attack 2300 Btn before it destroys the encircled cavalry troop."\
   ""\
   ""\
   "<b>b. Friendly Forces</b>"\
   ""\
-  "Two tank companies of the Panzer Regiment 22 \"Soja Kosmodemjanskaja\", third battalion, currently located just north of Martikkalankyla."\
+  "One infantry platoon of the LStR-40 (30, 31, 32, 33), located around Nyrhilanmaki and Isomaki."\
+  "The rest of the company departed after the area had initially been secured, however Mi-24P support (Falke 1+2) remains available."\
   ""\
-  "One of the regimental reconnaissance platoons has moved further ahead and is standing by south of Jarvela (020 012)."
+  "One T-72 platoon (2327, 2328, 2329) of the Panzer Regiment 23, currently near Isomaki. The remaining tanks are still in engagement with forces of the American heavy cavalry troop, and will not be available for another hour."
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -158,9 +162,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  N2_Mission {
   coords 0 0 0
   m_sTitle "II. MISSION"
-  m_sTextData "<b>2300 battalion is to advance north towards Isomaki with the purpose of DESTROYING the American cavalry troop.</b>"\
-  ""\
-  "If any surviving enemies retreat further north west from Ruha towards Pihlajamaa, the battalion should not pursue them past easting 034 but HOLD and stand by for further orders."
+  m_sTextData "<b>Defend Nyrhilanmaki and Isomaki for at least 1 hour.</b>"
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -171,23 +173,22 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. EXECUTION"
   m_sTextData "<b>Commander's intent</b>"\
   ""\
-  "Purpose: Destroy the cut off enemy force"\
+  "Purpose: Delay the armored/mechanized force long enough for 2300 battalion to destroy the encircled cavalry troop and reorient"\
   "Key Tasks:"\
-  "- Advance to contact"\
-  "- Destroy the enemy force, avoid bypassing enemies"\
+  "- Defend Nyrhilanmaki"\
+  "- Defend Isomaki"\
   "End State:"\
-  "- The battalion has reached the area west of Ruha / Isomaki"\
-  "- Enemies have either been destroyed, or retreated towards Pihlajamaa"\
-  "- No significant parts of the enemy force were bypassed on the way to Ruha"\
+  "- After 1 hour, at most one location is under control of US forces"\
+  "- 2300 battalion is ready to engage the enemy force"\
   ""\
   ""\
   "<b>Concept of the operation</b>"\
   ""\
   "(1) Scheme of Maneuver"\
-  "As briefed by 2300 for the battalion and 2310 / 2320 for the companies"\
+  "As briefed by 30 for the infantry platoon, and X for the tank platoon"\
   ""\
   "(2) Fires"\
-  "No fire support is available"
+  "Mi-24P support as requested by the infantry platoon commander"
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -196,7 +197,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  N4_Service {
   coords 0 0 0
   m_sTitle "IV. SERVICE SUPPORT"
-  m_sTextData "No resupply will be available during the engagement"
+  m_sTextData "<b>a. Service</b>"\
+  ""\
+  "No resupply"\
+  ""\
+  "<b>b. Support</b>"\
+  ""\
+  "Two Mi-24P are available for air support (Falke 1+2), each armed with 4 ATGMs, 2 rocket pods and a cannon"\
+  ""
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -214,22 +222,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>b. Signal</b>"\
   ""\
-  "2300 - Btn HQ"\
+  "30 - Inf Plt HQ"\
+  " 31, 32, 33 - Inf Sqds"\
   ""\
-  " 2310 - 1 Coy HQ"\
-  "  2311, 2312, 2313 - 1 Plt"\
-  "  2314, 2315, 2316 - 2 Plt"\
-  "  2317, 2318, 2319 - 3 Plt"\
+  "Falke 1 - 1st Mi-24P"\
+  " Falke 2 - 2nd Mi-24P"\
   ""\
-  " 2320 - 2 Coy HQ"\
-  "  2311, 2312, 2313 - 1 Plt"\
-  "  2314, 2315, 2316 - 2 Plt"\
-  "  2317, 2318, 2319 - 3 Plt"\
-  ""\
-  " 2710 - Recon Plt HQ"\
-  "  2711, 2712"\
-  ""\
-  "For brevity, the first 3 callsign digits can be omitted on the company/platoon nets, or the first 1 on the battalion net."\
+  "2327 - 1st T-72"\
+  " 2328 - 2nd T-72"\
+  " 2329 - 2rd T-72"\
   ""\
   "Battalion net - 44.0MHz"\
   "2310 Company net - 42.5MHz"\

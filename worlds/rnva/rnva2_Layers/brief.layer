@@ -1,13 +1,13 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  G0_Background {
   m_sTitle "Background"
-  m_sTextData "1990, Germany. War has broken out between NATO and the Warsaw Pact, and Soviet Forces are advancing deeper and deeper into the northern plains of West Germany together with the NVA, aiming to reach the Rhine by day 6."\
+  m_sTextData "1989, Germany. War has broken out between NATO and the Warsaw Pact, and Soviet Forces are advancing deeper and deeper into the northern plains of West Germany together with the NVA, aiming to reach the Rhine by day 6."\
   ""\
   "In this sector, the Panzer Regiment 22 \"Soja Kosmodemjanskaja\" of the East German 9. Panzer Division is leading the advance."\
   ""\
   "Due to the previously deteriorating political situation, the US had chosen to start deployment of most of its NORTHAG units shortly before the start of the war, as practiced during earlier Reforger exercises."\
   ""\
-  "Among these forces is the 2nd Armored Division, soon expected to make first contact with the enemy. Until now, it had been screened by the 3rd Armored Cavalry Regiment, also part of the NORTHAG complement."\
+  "Among these forces is the 2nd Armored Division, soon expected to make first contact with the enemy. Until now, it had been covered by the 3rd Armored Cavalry Regiment, also part of the NORTHAG complement."\
   ""\
   ""\
   "<b>A prior air assault by the East German LStR-40 on a cavalry troop headquarters deteriorated the troops command and control and left two of its platoons cut off, unable to avoid engagement with the advancing Panzer Regiment 22s 3rd battalion.</b>"
@@ -40,7 +40,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "A tank battalion of the East German Panzer Regiment 22 is advancing from the south west."\
   "Two of its companies were spotted in the vicinity of Martikkalakyla, some reconnaissance forces may already be slightly ahead."\
   ""\
-  "Our troops initial mission was to perform a passage of lines with the 2nd Armored Divisions previously screened 1st Brigade later today, which would blunt the regiments advance."\
+  "Our troops initial mission was to perform a passage of lines with the 2nd Armored Divisions previously covered 1st Brigade later today, which would blunt the regiments advance."\
   ""\
   "However, a few hours ago, East German airmobile forces of the Luftsturmregiment 40 staged an air assault on Nyrhilanmaki (052 051), destroying most of Troop HQ and occupying the village."\
   ""\
@@ -221,9 +221,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "  2317, 2318, 2319 - 3 Plt"\
   ""\
   " 2320 - 2 Coy HQ"\
-  "  2311, 2312, 2313 - 1 Plt"\
-  "  2314, 2315, 2316 - 2 Plt"\
-  "  2317, 2318, 2319 - 3 Plt"\
+  "  2321, 2322, 2323 - 1 Plt"\
+  "  2324, 2325, 2326 - 2 Plt"\
+  "  2327, 2328, 2329 - 3 Plt"\
   ""\
   " 2710 - Recon Plt HQ"\
   "  2711, 2712"\

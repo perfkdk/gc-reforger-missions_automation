@@ -1,13 +1,13 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  G0_Background {
   m_sTitle "Background"
-  m_sTextData "1990, Germany. War has broken out between NATO and the Warsaw Pact, and Soviet Forces are advancing deeper and deeper into the northern plains of West Germany together with the NVA, aiming to reach the Rhine by day 6."\
+  m_sTextData "1989, Germany. War has broken out between NATO and the Warsaw Pact, and Soviet Forces are advancing deeper and deeper into the northern plains of West Germany together with the NVA, aiming to reach the Rhine by day 6."\
   ""\
   "In this sector, the Panzer Regiment 22 \"Soja Kosmodemjanskaja\" of the East German 9. Panzer Division is leading the advance."\
   ""\
   "Due to the previously deteriorating political situation, the US had chosen to start deployment of most of its NORTHAG units shortly before the start of the war, as practiced during earlier Reforger exercises."\
   ""\
-  "Among these forces is the 2nd Armored Division, soon expected to make first contact with the enemy. Until now, it had been screened by the 3rd Armored Cavalry Regiment, also part of the NORTHAG complement."\
+  "Among these forces is the 2nd Armored Division, soon expected to make first contact with the enemy. Until now, it had been covered by the 3rd Armored Cavalry Regiment, also part of the NORTHAG complement."\
   ""\
   ""\
   "<b>The East German Kommando Landstreitkräfte has tasked the Luftsturmregiment 40 with conducting an airmobile operation that would facilitate penetration of the US screen.</b>"
@@ -35,7 +35,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "A tank battalion of the East German Panzer Regiment 22 is advancing from the south west and will reach this area in several hours."\
   ""\
-  "Your troops initial mission was to perform a passage of lines with the 2nd Armored Divisions previously screened 1st Brigade later today, which would blunt the regiments advance."\
+  "Your troops initial mission was to perform a passage of lines with the 2nd Armored Divisions previously covered 1st Brigade later today, which would blunt the regiments advance."\
   ""\
   "However, minutes ago, East German Mi-8 and Mi-24 helicopters carrying airmobile forces were spotted flying towards your cavalry troops position."\
   "The most likely target of the air assault is the troop headquarters, which is not currently in the immediate vicinity of any of its platoons."\
@@ -53,7 +53,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "RED (scout platoon) and WHITE (tank platoon) are located several kilometers to the south west and will be unable to reach the HQ position within an hour. Same applies to BLUE and GREEN which had remained to the north."\
   ""\
-  "The screened 2nd Armored Division has been informed, however none of its forces will be able to reach the troop within the next several hours."
+  "The covered 2nd Armored Division has been informed, however none of its forces will be able to reach the troop within the next several hours."
   m_aVisibleForFactions {
    "US"
   }
@@ -151,11 +151,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "I. SITUATION"
   m_sTextData "<b>a. Enemy Forces</b>"\
   ""\
-  "American heavy cavalry troop north west of the river, likely involved in a screening operation that has been preventing the advancing Panzer Regiment 22 from performing deeper reconnaissance."\
+  "American heavy cavalry troop north west of the river, likely involved in a covering force operation that has been preventing the advancing Panzer Regiment 22 from performing deeper reconnaissance."\
   ""\
   "Recent intelligence uncovered the present location of the enemy troop HQ. Further reconnaissance established that its platoons are not currently in the immediate vicinity, but several kilometers to the south west and the north, leaving it vurnerable to unforseen attack."\
   ""\
-  "Taking the position would deteriorate the enemy's command and control, cut off any platoons south west of Nyrhilanmaki (facilitating destruction by Panzer Regiment 22), and ultimately allow friendly reconnaissance forces to penetrate the ineffective screen."\
+  "Taking the position would deteriorate the enemy's command and control, cut off any platoons south west of Nyrhilanmaki (facilitating destruction by Panzer Regiment 22), and ultimately allow friendly reconnaissance forces to penetrate the ineffective covering force."\
   ""\
   "Enemy weapons likely include a tank and one or two IFVs. It is possible that the enemy also has a limited quantity of MANPADS."\
   ""\
