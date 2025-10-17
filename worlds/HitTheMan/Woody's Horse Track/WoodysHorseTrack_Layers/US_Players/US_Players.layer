@@ -1,0 +1,114 @@
+$grp SCR_AIGroup : "{446A6B53FBC8673B}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_PLT_HQ_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6635.605 96.187 1592.661
+  angleY 17.23
+  m_aUnitPrefabSlots {
+   "{373B40FAB9F262CA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Commander_1_P.et" "{4BE122E83008AA87}worlds/HitTheMan/Fate of 2nd Platoon2/Character_1993_CAF_PLT_Sergeant_1_P.et" "{B4C4A4C1E9C987B6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_Signaller_1_P.et" "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_Medic_1_P.et"
+  }
+  m_sCustomNameSet "1st Platoon HQ"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6619.345 96.141 1597.789
+  angleY 17.23
+  m_aUnitPrefabSlots {
+   "{373B40FAB9F262CA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Commander_1_P.et" "{4BE122E83008AA87}worlds/HitTheMan/Fate of 2nd Platoon2/Character_1993_CAF_PLT_Sergeant_1_P.et" "{B4C4A4C1E9C987B6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_Signaller_1_P.et" "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_Medic_1_P.et"
+  }
+  m_sCustomNameSet "2nd Platoon HQ"
+ }
+}
+$grp SCR_AIGroup : "{64D16EF2DD7CD791}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Weap_Sect_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 5
+   }
+  }
+  coords 6634.301 96.188 1588.675
+  angleY 16.644
+  m_aUnitPrefabSlots {
+   "{E1B0E0478D68E303}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Warrant_1_P.et" "{A78C57340C03477B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG_1_P.et" "{2B8A1EEAC7320722}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG2_1_P.et" "{A78C57340C03477B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG_1_P.et" "{2B8A1EEAC7320722}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG2_1_P.et"
+  }
+  m_sCustomNameSet "Weapons Section (11)"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 5
+   }
+  }
+  coords 6618.041 96.161 1593.804
+  angleY 16.644
+  m_aUnitPrefabSlots {
+   "{E1B0E0478D68E303}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Warrant_1_P.et" "{A78C57340C03477B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG_1_P.et" "{2B8A1EEAC7320722}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG2_1_P.et" "{A78C57340C03477B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG_1_P.et" "{2B8A1EEAC7320722}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG2_1_P.et"
+  }
+  m_sCustomNameSet "Weapons Section (12)"
+ }
+}
+$grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Rifle_Sect_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6635.136 96.188 1591.377
+  angleY 18.558
+  m_sCustomNameSet "1st Rifle Section"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 6634.713 96.188 1590.131
+  angleY 18.558
+  m_sCustomNameSet "2nd Rifle Section"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6618.453 96.156 1595.26
+  angleY 18.558
+  m_sCustomNameSet "1st Rifle Section"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 6618.875 96.15 1596.506
+  angleY 18.558
+  m_sCustomNameSet "2nd Rifle Section"
+ }
+}
