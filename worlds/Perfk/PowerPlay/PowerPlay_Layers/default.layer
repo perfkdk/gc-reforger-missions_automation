@@ -205,12 +205,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "BluforCAS"
    }
   }
-  TILW_MissionEvent "{669E7E4190093448}" {
-   m_instructions {
-    TILW_EditMapItemInstruction "{669E7E407F65C6B9}" {
-    }
-   }
-  }
  }
  m_casualtyFlags {
   TILW_FactionAIKilledFlag "{669CCDF39E2E6FF4}" {
