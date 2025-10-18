@@ -9,7 +9,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Situation:"\
   "Woody has acquired some rather exquisite horses.. however no one know whats happening to them over at his horse track"\
   ""\
-  "So the CAF is sending in 2 Platoon (-) to secure the facilities at the Track"\
+  "So the CAF is sending in 2x Platoon (-) to secure the facilities at the Track"\
   ""\
   "While NVA already stationed a Platoon there to defend Woody's Properties..."
   m_bEmptyFactionVisibility 1
