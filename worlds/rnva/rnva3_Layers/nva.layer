@@ -11,6 +11,7 @@ SCR_AIGroup GR_NVA_HQ : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_G
  m_aUnitPrefabSlots {
   "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et"
  }
+ m_sCustomNameSet "Inf Plt | 0"
 }
 $grp SCR_AIGroup : "{2BA4FF1232A6371C}Prefabs/Groups/OPFOR/GC_NVA/Group_NVA_Base.et" {
  GR_NVA_pilots1 {
@@ -110,7 +111,7 @@ $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ri
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
   }
-  m_sCustomNameSet "1st Squad"
+  m_sCustomNameSet "Inf Plt | 1"
  }
  GR_NVA_SQ2 {
   components {
@@ -124,9 +125,9 @@ $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ri
   coords 5248.136 63.78 5963.473
   angleY 137.427
   m_aUnitPrefabSlots {
-   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
   }
-  m_sCustomNameSet "2nd Squad"
+  m_sCustomNameSet "Inf Plt | 2"
  }
  GR_NVA_SQ3 {
   components {
@@ -142,7 +143,7 @@ $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ri
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
   }
-  m_sCustomNameSet "3rd Squad"
+  m_sCustomNameSet "Inf Plt | 3"
  }
 }
 $grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
@@ -181,6 +182,7 @@ $grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
     m_aUnitPrefabSlots {
      "{B1836A005BDD0AE4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewPltCO_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewGunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewDriver_P.et"
     }
+    m_sCustomNameSet "Tank Plt | 7"
    }
   }
  }
@@ -216,6 +218,7 @@ $grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
      }
     }
     coords -1 0 -7.5
+    m_sCustomNameSet "Tank Plt | 8"
    }
   }
  }
@@ -249,6 +252,75 @@ $grp Tank : "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et" {
      }
     }
     coords -1 0 -7.5
+    m_sCustomNameSet "Tank Plt | 9"
+   }
+  }
+ }
+}
+$grp Vehicle : "{EC4811AC7C17DC7E}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_NVA.et" {
+ BRDM2_NVA_710 {
+  components {
+   RHS_GroupMaterialController "{6584F7946A30454E}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{6584F7946ECC1310}" {
+      m_iTextureID 7
+     }
+     RHS_MaterialGroupProperties "{6584F7946F67236B}" {
+      m_iTextureID 1
+     }
+    }
+   }
+  }
+  coords 5530.325 55.026 5789.773
+  angleX -0.282
+  angleY 18.324
+  angleZ 0.85
+  m_sAttachmentGroupName "GR_NVA_BRDM_710"
+  {
+   SCR_AIGroup GR_NVA_BRDM_710 : "{B3CC9AE15B7CCE69}Prefabs/Groups/OPFOR/GC_NVA/Group_NVA_TankCrew_P.et" {
+    components {
+     PS_GroupCallsignAssigner "{666309D96F07C78F}" {
+      m_iSquadCallsign 9
+     }
+    }
+    coords -1 0 -5
+    m_aUnitPrefabSlots {
+     "{B1836A005BDD0AE4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewPltCO_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewGunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewDriver_P.et"
+    }
+    m_sCustomNameSet "Recon Plt | 0"
+   }
+  }
+ }
+ BRDM2_NVA_711 {
+  components {
+   RHS_GroupMaterialController "{6584F7946A30454E}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{6584F7946ECC1310}" {
+      m_iTextureID 7
+     }
+     RHS_MaterialGroupProperties "{6584F7946F67236B}" {
+      m_iTextureID 1
+     }
+     RHS_MaterialGroupProperties "{6584F7946F344A1E}" {
+      m_iTextureID 1
+     }
+    }
+   }
+  }
+  coords 5534.703 54.999 5783.364
+  angleX -1.131
+  angleY 18.317
+  angleZ 0.568
+  m_sAttachmentGroupName "GR_NVA_BRDM_711"
+  {
+   SCR_AIGroup GR_NVA_BRDM_711 : "{B3CC9AE15B7CCE69}Prefabs/Groups/OPFOR/GC_NVA/Group_NVA_TankCrew_P.et" {
+    components {
+     PS_GroupCallsignAssigner "{666309D96F07C78F}" {
+      m_iSquadCallsign 10
+     }
+    }
+    coords -1 0 -5
+    m_sCustomNameSet "1"
    }
   }
  }

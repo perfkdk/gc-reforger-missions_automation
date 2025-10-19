@@ -99,9 +99,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  U4_Service {
   coords 0 0 0
   m_sTitle "IV. SERVICE SUPPORT"
-  m_sTextData "No resupply is available"\
+  m_sTextData "<b>a. Service</b>"\
   ""\
-  "The mortar has unlimited rounds"
+  "No resupply or repairs are available"\
+  ""\
+  "<b>b. Support</b>"\
+  ""\
+  "No fire support"
   m_aVisibleForFactions {
    "US"
   }
@@ -151,7 +155,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<b>b. Friendly Forces</b>"\
   ""\
   "One infantry platoon of the LStR-40 (30, 31, 32, 33), located around Nyrhilanmaki and Isomaki."\
-  "The rest of the company departed after the area had initially been secured, however Mi-24P support (Falke 1+2) remains available."\
+  "The rest of the company, together with casualties, departed after the area had initially been secured, however Mi-24P support (Falke 1+2) remains available."\
   ""\
   "One T-72 platoon (2327, 2328, 2329) of the Panzer Regiment 23, currently near Isomaki. The remaining tanks are still in engagement with forces of the American heavy cavalry troop, and will not be available for another hour."
   m_aVisibleForFactions {
@@ -215,9 +219,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "V. COMMAND AND SIGNAL"
   m_sTextData "<b>a. Command</b>"\
   ""\
-  "Btn Commander (2300) is currently located at 016 005, inbetween the companies"\
-  ""\
-  "The reconnaissance platoon (2710) is under command of 2300 for the duration of the operation"\
+  "Plt Commander (30) is currently located with 31 at Nyrhilanmaki."\
   ""\
   ""\
   "<b>b. Signal</b>"\
@@ -230,14 +232,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "2327 - 1st T-72"\
   " 2328 - 2nd T-72"\
-  " 2329 - 2rd T-72"\
+  " 2329 - 3rd T-72"\
   ""\
-  "Battalion net - 44.0MHz"\
-  "2310 Company net - 42.5MHz"\
-  "2320 Company net - 43.0MHz"\
-  "2710 Platoon net - 43.5MHz"\
+  "710 - 1st SPW-40P2"\
+  " 711 - 2nd SPW-40P2"\
   ""\
-  "There are no nets for individual tank platoons."
+  "Net: 42.0MHz"
   m_aVisibleForFactions {
    "GC_NVA"
   }
