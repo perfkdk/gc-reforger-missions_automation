@@ -318,20 +318,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
-  TILW_MissionEvent "{66A935B3F4E5CABD}" {
-   m_name "NOFUEL"
-   m_instructions {
-    TILW_ServiceVehiclesInstruction "{66A935B3EA23F8BB}" {
-     m_executionDelay 0
-     m_aVehicleNames {
-      "Tank_2S2" "Tank_2S3" "Tank_2S4"
-     }
-     m_bAdjustFuel 1
-     m_fFuelRatio 0
-    }
-   }
-   m_pregameEvent 1
-  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{6695001B43C6F129}" {
