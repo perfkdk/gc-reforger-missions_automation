@@ -26,7 +26,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Kilo 6 will provide a brief to the squadleads on the mission and best perceived plan to accomplish the mission."\
   ""\
-  "Step off will be NET 5 minutes from briefing, ensure PCSs and PCIs are conducted during this time."
+  "Step off will be NET 5 minutes from briefing, ensure PCCs and PCIs are conducted during this time."
   m_aVisibleForFactions {
    "US"
   }

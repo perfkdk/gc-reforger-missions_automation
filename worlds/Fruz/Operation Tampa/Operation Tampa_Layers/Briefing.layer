@@ -8,7 +8,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5979.972 109.312 11473.521
   m_sTitle "Mission Notes"
-  m_sTextData "Missionmaker: Fruz"\
+  m_sTextData "End Conditions: BLUFOR Victory when 90 percent of insurgent forces are eliminated."\
+  ""\
+  "OPFOR Victory when 90 percent of BLUFOR is eliminated."\
+  ""\
+  ""\
+  "Missionmaker: Fruz"\
   ""\
   "A special thanks to all those who have helped me create this mission; Wade, Hotmic, Blue, Gabe."
   m_bEmptyFactionVisibility 1
@@ -18,7 +23,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
 }
 PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {
  coords 5709.393 80.914 9042.703
- angleY 0
+ angleY 90
  m_aVisibleForFactions {
   "GC_INSURGENT" "US"
  }
@@ -26,6 +31,6 @@ PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupF
 }
 PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
  coords 5976.836 109.312 11464.678
- angleY 0
+ angleY 90
  m_fWorldSize 100
 }
