@@ -9,16 +9,8 @@ $grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/Restri
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
-  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-   m_factionKeys {
-    "UK" "US"
-   }
-  }
   TILW_MapShapeComponent "{6508F54F9B461198}" {
    Enabled 1
-   m_factionKeys {
-    "US" "UK"
-   }
   }
  }
  coords 4979.084 172.883 6960.072

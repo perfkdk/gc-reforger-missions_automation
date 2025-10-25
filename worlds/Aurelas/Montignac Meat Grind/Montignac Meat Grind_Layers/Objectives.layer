@@ -5,9 +5,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_captureTime 300
   m_sendStatusMessages 1
   m_locationName "City Center of Montignac"
-  m_displayTo {
-   "US" "UK"
-  }
   m_flagName "US_Cap_CM"
   m_ownerFactionKey "US"
   m_ratioThreshold 0.8
@@ -18,9 +15,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_captureTime 300
   m_sendStatusMessages 1
   m_locationName "City Center of Montignac"
-  m_displayTo {
-   "UK" "US"
-  }
   m_flagName "UK_Cap_CM"
   m_ownerFactionKey "UK"
   m_ratioThreshold 0.8

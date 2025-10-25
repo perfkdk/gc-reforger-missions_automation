@@ -1,5 +1,4 @@
 SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
- coords 10919.404 24.937 11699.848
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 10919.209 24.924 11702.873
@@ -14,10 +13,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  coords 10915.243 24.876 11706.942
- m_bTeamSwitch 0
- m_bMarkersOnlyOnBriefing 1
- m_bRemoveSquadMarkers 0
- m_iFreezeTime 300000
+ m_iFreezeTime 180000
  {
   SCR_FactionManager "66B220611B1A5888" {
    ID "5ED9088735FF2D8B"
@@ -144,7 +140,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_LiteralTerm "{66B22061E06FD8DC}" {
     m_invertTerm 1
-    m_flagName "UK_Low_Casualties"
    }
   }
  }
