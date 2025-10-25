@@ -18,6 +18,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Special thanks to HotMic, Gabe, Wade, and AC337 for the help when creating this mission!"
   m_bEmptyFactionVisibility 1
+  m_iOrder 1
+ }
+ D3_Victory {
+  coords 4851.144 28.581 11908.117
+  m_sTitle "Victory Conditions"
+  m_sTextData "Faction Major Victory -- Capture the town center and sustain less than 70% casualties."\
+  "Faction Minor Victory -- Capture the town center while sustaining more than 70% casualties."\
+  "Draw -- Both factions sustain more than 30% casualties with no team capturing the town center."\
+  ""\
+  "Time Limit: 45 minutes"\
+  ""
+  m_aVisibleForFactions {
+   "US" "UK"
+  }
+  m_bEmptyFactionVisibility 1
   m_iOrder 10
  }
 }

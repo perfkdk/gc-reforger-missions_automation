@@ -19,7 +19,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bRemoveSquadMarkers 0
  m_iFreezeTime 300000
  {
-  SCR_FactionManager {
+  SCR_FactionManager "66B220611B1A5888" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
@@ -133,14 +133,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
-  TILW_MissionEvent "{66AF531EE25B827B}" {
-   m_condition TILW_ConjunctionTerm "{66AF531EE68BF5F5}" {
-    m_operands {
-     TILW_OperationTerm "{66AF531EE5A435A7}" {
-     }
-     TILW_LiteralTerm "{66AF531EFF09A213}" {
-     }
+  TILW_MissionEvent "{66B22061D44F0309}" {
+   m_name "Timer"
+   m_instructions {
+    TILW_SendMessageInstruction "{66B22061EF60189E}" {
+     m_executionDelay 3000
+     m_messageTitle "Time Limit Reached"
+     m_messageBody "The time limit for this mission has been reached."
     }
+   }
+   m_condition TILW_LiteralTerm "{66B22061E06FD8DC}" {
+    m_invertTerm 1
+    m_flagName "UK_Low_Casualties"
    }
   }
  }
