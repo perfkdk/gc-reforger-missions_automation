@@ -4,7 +4,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "1. SITUATION"
   m_sTextData "15 minutes ago Airborne Elements from the United Kingdom and United States dropped across Everon as part of a Joint Nato training exercise. This exercise is intended to test the two countries against each other."\
   ""\
-  "Your platoon has been assigned with securing the town of Montignac and deploying a radio relay from the roof of the church to establish a communication network across the island."\
+  "Your platoon has been assigned with securing the town of Montignac and deploying a radio relay from the roof of the church to establish a communication network across the island. To achieve this goal you must capture the city center of Montignac."\
   ""\
   "A. Enemy Forces"\
   "A platoon sized element of American paratroopers were spotted dropping East of Montignac as you were falling."\
@@ -32,7 +32,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "3. EXECUTION"
   m_sTextData "A. Concept of Operations"\
   "Phase 1: Parachute drop into the AO"\
-  "Phase 2: Rally at the predetermined landmark"\
+  "Phase 2: Rally at the predetermined landmark(Spawn)"\
   "Phase 3: Secure the City Center of Montignac"\
   "Phase 4: Establish a Radio Relay in the tower of Montignac's Church"\
   ""\
@@ -49,7 +49,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "4. SUSTAINMENT"
   m_sTextData "Combat Armor is in the crates in front of where you spawn."\
   ""\
-  "Extra MG ammo in the backpack of certain PHQ members."
+  "Extra MG ammo in the backpack of certain PHQ members."\
+  ""\
+  "Players are not allowed to take radios off of dead enemy players. You may take radios off of dead friendlies."
   m_aVisibleForFactions {
    "UK"
   }
