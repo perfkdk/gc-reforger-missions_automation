@@ -13,8 +13,12 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Recon Scout Light AT"
    m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Recon Scout Light AT"
+   }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
@@ -26,5 +30,4 @@ SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords 3462.475 158.763 6026.427
 }
