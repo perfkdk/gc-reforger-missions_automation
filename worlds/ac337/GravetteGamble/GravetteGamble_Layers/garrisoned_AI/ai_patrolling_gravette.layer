@@ -1,6 +1,7 @@
 $grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
  patrol_WP1 {
   coords 4237.069 50.821 7707.548
+  CompletionRadius 8
   m_aSettings {
    SCR_AIGroupFormationSetting "{66AE0ED4563D7AB7}" {
     m_eFormation Column
@@ -29,11 +30,11 @@ SCR_AIGroup : "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rif
    DefaultFormation "Column"
   }
  }
- coords 4153.177 42.775 7750.641
+ coords 4120.507 36.117 7794.416
  m_aUnitPrefabSlots {
   "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et" "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et"
  }
  m_aStaticWaypoints {
-  "patrol_WP1" "patrol_WP2" "patrol_WP3" "patrol_WP2" "patrol_WP4" "patrol_WP2" "patrol_WP_Cycle"
+  "patrol_WP1" "patrol_WP2" "patrol_WP3" "patrol_WP2" "patrol_WP4" "patrol_WP2" "patrol_WP1" "patrol_WP2" "patrol_WP3" "patrol_WP2" "patrol_WP4" "patrol_WP2"
  }
 }
