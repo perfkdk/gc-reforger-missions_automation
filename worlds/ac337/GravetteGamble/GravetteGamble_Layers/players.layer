@@ -76,6 +76,9 @@ SCR_AIGroup : "{A1CCEF4C0411F787}Prefabs/Groups/BLUFOR/US/Navy/2006/SEALs/BDU/P/
  m_aUnitPrefabColorTeams {
   "None" "None" "Yellow" "Yellow" "Yellow" "Red" "Red" "Red" "Red" "Red" "Blue" "Blue" "Blue" "Blue" "Blue"
  }
+ m_aUnitPrefabOverrideIcons {
+  "Team Lead" "Medic" "Machine Gunner" "None" "None" "Team Lead" "Machine Gunner" "Anti-Tank" "None" "None" "Team Lead" "Machine Gunner" "Anti-Tank" "None" "None"
+ }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  Insert_1_Marker {
