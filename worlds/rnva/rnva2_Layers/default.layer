@@ -20,10 +20,19 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
+     UIInfo SCR_FactionUIInfo "{528C961236B7DCD3}" {
+      Name "3rd ACR"
+      Icon "{A1373E38CF68E062}Images/icon_us_3acr.edds"
+      m_sNameUpper "3rd ACR"
+     }
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" : "{4F81B91B436B51FE}Configs/Callsigns/Callsigns_US_Armor.conf" {
      }
     }
     SCR_Faction "{652F615735715119}" {
+     UIInfo SCR_FactionUIInfo "{65C4CC57CC9F23DA}" {
+      Name "9. PD"
+      m_sNameUpper "9. PD"
+     }
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
       m_aPlatoonNames {
        SCR_CallsignInfo "{55CCB7928490AEEE}" {

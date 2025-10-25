@@ -141,7 +141,7 @@ $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ri
   coords 4506.978 66.529 5487.211
   angleY -99.052
   m_aUnitPrefabSlots {
-   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
   }
   m_sCustomNameSet "Inf Plt | 3"
  }
@@ -320,7 +320,7 @@ $grp Vehicle : "{EC4811AC7C17DC7E}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_NVA.et" {
      }
     }
     coords -1 0 -5
-    m_sCustomNameSet "1"
+    m_sCustomNameSet "Recon Plt | 1"
    }
   }
  }

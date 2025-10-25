@@ -234,8 +234,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   " 2328 - 2nd T-72"\
   " 2329 - 3rd T-72"\
   ""\
-  "710 - 1st SPW-40P2"\
-  " 711 - 2nd SPW-40P2"\
+  "2710 - 1st SPW-40P2"\
+  " 2711 - 2nd SPW-40P2"\
   ""\
   "Net: 42.0MHz"
   m_aVisibleForFactions {
