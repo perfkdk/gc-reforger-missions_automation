@@ -1,21 +1,16 @@
 SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
- coords 3174.19 68.667 4079.323
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 3213.639 57.817 4024.854
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
-  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
-   m_iSetWeatherConstant 1
-  }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 18
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{66B21809418DB02D}" {
+     m_iStartingHour 18
     }
    }
-   m_bRandomWeatherChanges 1
    m_bUseSpecifiedDate 1
    m_iSetDay 27
    m_iSetMonth 9
@@ -126,32 +121,20 @@ PolylineShapeEntity TILW_AOLimit : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW
   ShapePoint "{66AA83B202A00BCD}" {
    Position -2.245 0 -1.281
   }
-  ShapePoint "{66AA83B2378A2315}" {
-   Position 180.173 0 53.276
-  }
   ShapePoint "{66AA83B230173E11}" {
    Position 278.204 0 83.141
   }
   ShapePoint "{66AA83B23266E13E}" {
    Position 442.347 0 153.195
   }
-  ShapePoint "{66AA83B23C682223}" {
-   Position 545.632 0 222.474
-  }
   ShapePoint "{66AA83B23E257C95}" {
    Position 675.245 25.53 324.38
-  }
-  ShapePoint "{66AA83B238EE5994}" {
-   Position 755.85 33.208 397.428
   }
   ShapePoint "{66AA83B23A89A231}" {
    Position 874.717 23.716 534.87
   }
   ShapePoint "{66AA83B224AE8797}" {
    Position 989.518 40.202 687.471
-  }
-  ShapePoint "{66AA83B225428E56}" {
-   Position 1046.134 48.132 782.21
   }
   ShapePoint "{66AA83B22752CCED}" {
    Position 1083.945 79.658 865.441
@@ -198,17 +181,8 @@ PolylineShapeEntity TILW_AOLimit : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW
   ShapePoint "{66AB55DF8546B6A0}" {
    Position -1609.945 59.582 2242.112
   }
-  ShapePoint "{66AA83B2F891517B}" {
-   Position -1671.067 58.584 2104.48
-  }
   ShapePoint "{66AB55DFB5F6BA6E}" {
    Position -1722.604 56.407 1962.161
-  }
-  ShapePoint "{66AB55DFBC7ED5A0}" {
-   Position -1773.324 55.557 1814.517
-  }
-  ShapePoint "{66AA83B2EEDCD882}" {
-   Position -1806.006 54.336 1695.811
   }
   ShapePoint "{66AB55DFA466705C}" {
    Position -1822.385 51.563 1527.571
@@ -216,14 +190,8 @@ PolylineShapeEntity TILW_AOLimit : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW
   ShapePoint "{66AA83B2EA45616F}" {
    Position -1809.211 48.902 1320.341
   }
-  ShapePoint "{66AA83B3140CD13C}" {
-   Position -1753.563 44.727 1108.798
-  }
   ShapePoint "{66AB55DFD828E7E0}" {
    Position -1714.971 41.799 970.621
-  }
-  ShapePoint "{66AA83B3156A2ADE}" {
-   Position -1652.302 38.347 801.747
   }
   ShapePoint "{66AB55DFC5862884}" {
    Position -1567.214 34.898 666.622
@@ -231,14 +199,8 @@ PolylineShapeEntity TILW_AOLimit : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW
   ShapePoint "{66AA83B317B1379B}" {
    Position -1468.803 31.065 519.19
   }
-  ShapePoint "{66AB55DFC60DA2DF}" {
-   Position -1367.561 27.846 414.89
-  }
   ShapePoint "{66AA83B310FCD525}" {
    Position -1268.297 24.602 306.066
-  }
-  ShapePoint "{66AB55DFC74D693F}" {
-   Position -1182.058 22.22 240.242
   }
   ShapePoint "{66AA83B31146F3CA}" {
    Position -1071.883 19.615 183.34
@@ -246,14 +208,8 @@ PolylineShapeEntity TILW_AOLimit : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW
   ShapePoint "{66AA83B31366EF49}" {
    Position -870.811 14.865 91.507
   }
-  ShapePoint "{66AB55DFCE589039}" {
-   Position -702.854 11.328 22.245
-  }
   ShapePoint "{66AA83B31D38E817}" {
    Position -576.024 8.826 -11.23
-  }
-  ShapePoint "{66AB55DFF4760065}" {
-   Position -388.368 5.745 -29.235
   }
   ShapePoint "{66AA83B31F6BF151}" {
    Position -221.295 2.8 -28.691
@@ -264,10 +220,6 @@ PolylineShapeEntity TILW_AOLimit : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW
  }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
- coords 3176.427 69.788 4083.643
- angleX 12.151
- angleY -1.542
- angleZ -7.289
  m_missionEvents {
   TILW_MissionEvent "{66AA83A49F475A89}" {
    m_name "US Victory"
@@ -299,7 +251,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Time Limit"
    m_instructions {
     TILW_SendMessageInstruction "{66B17CF428A96D58}" {
-     m_executionDelay 3900
+     m_executionDelay 3600
      m_messageTitle "Time Limit Reached"
      m_messageBody "Everyone loses... or wins. Whatever."
     }
@@ -328,6 +280,9 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
   angleX -6.6
   angleY 0.3
   angleZ 2.7
+  m_fWarnRadius 125
+  m_fZoneRadius 200
+  m_fZoneTeleportedRadius 250
   {
    GenericEntity {
     ID "59D673B36B893D84"
@@ -340,6 +295,9 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
   angleX -4.8
   angleY 8.9
   angleZ 4.5
+  m_fWarnRadius 125
+  m_fZoneRadius 200
+  m_fZoneTeleportedRadius 250
   {
    GenericEntity {
     ID "59D673B36B893D84"
@@ -352,7 +310,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  MarkerBlufor {
   coords 3491.901 163.756 6008.334
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+  m_sImageSetGlow ""
   m_sQuadName "armored"
   m_fWorldSize 50
   m_bUseWorldScale 0
@@ -362,7 +320,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  MarkerOpfor {
   coords 5495.334 92.988 4849.489
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
+  m_sImageSetGlow ""
   m_sQuadName "armored"
   m_fWorldSize 80
   m_bUseWorldScale 0
@@ -372,7 +330,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  MarkerHeliWolfHill {
   coords 3805.584 167.558 4322.458
   m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
-  m_sImageSetGlow "{C07D82625600BA21}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor-outline.imageset"
+  m_sImageSetGlow ""
   m_sQuadName "helicopter"
   m_fWorldSize 60
   m_sDescription "Wolf Hill Helicopter Pad"
