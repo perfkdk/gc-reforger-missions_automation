@@ -11,13 +11,19 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 18
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{66B21809418DB02D}" {
+    }
+   }
+   m_bRandomWeatherChanges 1
    m_bUseSpecifiedDate 1
    m_iSetDay 27
    m_iSetMonth 9
    m_iSetYear 1991
    m_fUTCTimeZone 9.25
-   m_fFogDensity 0.05
-   m_fFogHeight 7.8
+   m_bOverrideEnvironment 1
+   m_fFogDensity 0.12
+   m_fFogHeight 150
    m_fRain 0
    m_fWind 0
   }
@@ -287,6 +293,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_LiteralTerm "{66AA83A4F6B891DA}" {
     m_flagName "USSR Victory Flag"
+   }
+  }
+  TILW_MissionEvent "{66B17CF39FA56C6A}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{66B17CF428A96D58}" {
+     m_executionDelay 3900
+     m_messageTitle "Time Limit Reached"
+     m_messageBody "Everyone loses... or wins. Whatever."
+    }
+   }
+   m_condition TILW_LiteralTerm "{66B17CF668AAE2B7}" {
+    m_invertTerm 1
    }
   }
  }

@@ -1,5 +1,17 @@
 Vehicle BRDM : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
  components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 130
+     m_iFuelLeakSpeed 1
+    }
+    SCR_FuelNode "{58F8DC78283E1F75}" {
+     m_fInitialFuelTankState 130
+     m_iFuelLeakSpeed 1
+    }
+   }
+  }
   SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
    MultiSlots {
     MultiSlotConfiguration "{62F49BC471C9DCC6}" {
@@ -45,12 +57,15 @@ Vehicle Mi24P_armed_9M1 : "{2FA364D8E326CB3C}Prefabs/Vehicles/Helicopters/Mi24/M
   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
    FuelNodes {
     SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 950
      m_iFuelLeakSpeed 1
     }
     SCR_FuelNode "{628933A358A15681}" {
+     m_fInitialFuelTankState 380
      m_iFuelLeakSpeed 1
     }
     SCR_FuelNode "{628933A358A15683}" {
+     m_fInitialFuelTankState 800
      m_iFuelLeakSpeed 1
     }
    }
@@ -120,6 +135,18 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
     m_fFuelConsumption 10
     m_fFuelConsumptionIdle 0.5
    }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3D936017D8}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
    SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
     "Additional hit zones" {
      SCR_FlammableHitZone Hull {
@@ -149,6 +176,18 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
    SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
     m_fFuelConsumption 10
     m_fFuelConsumptionIdle 0.5
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3D936017D8}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+    }
    }
    SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
     "Additional hit zones" {
@@ -180,6 +219,18 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
     m_fFuelConsumption 10
     m_fFuelConsumptionIdle 0.5
    }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3D936017D8}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
    SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
     "Additional hit zones" {
      SCR_FlammableHitZone Hull {
@@ -209,6 +260,18 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
    SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
     m_fFuelConsumption 10
     m_fFuelConsumptionIdle 0.5
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3D936017D8}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+    }
    }
    SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
     "Additional hit zones" {
@@ -240,6 +303,18 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
     m_fFuelConsumption 10
     m_fFuelConsumptionIdle 0.5
    }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3D936017D8}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
    SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
     "Additional hit zones" {
      SCR_FlammableHitZone Hull {
@@ -269,6 +344,18 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
    SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
     m_fFuelConsumption 10
     m_fFuelConsumptionIdle 0.5
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3D936017D8}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+    }
    }
    SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
     "Additional hit zones" {
@@ -300,6 +387,18 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
     m_fFuelConsumption 10
     m_fFuelConsumptionIdle 0.5
    }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3D936017D8}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
    SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
     "Additional hit zones" {
      SCR_FlammableHitZone Hull {
@@ -329,6 +428,18 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
    SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
     m_fFuelConsumption 10
     m_fFuelConsumptionIdle 0.5
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3D936017D8}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+    }
    }
    SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
     "Additional hit zones" {
@@ -360,6 +471,18 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
     m_fFuelConsumption 10
     m_fFuelConsumptionIdle 0.5
    }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3D936017D8}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
    SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
     "Additional hit zones" {
      SCR_FlammableHitZone Hull {
@@ -389,6 +512,18 @@ $grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
    SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
     m_fFuelConsumption 10
     m_fFuelConsumptionIdle 0.5
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3D936017D8}" {
+      m_fInitialFuelTankState 590
+      m_iFuelLeakSpeed 1
+     }
+    }
    }
    SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
     "Additional hit zones" {
@@ -422,6 +557,32 @@ StaticModelEntity LZWolfhill : "{8CDB9C117669AF4A}Prefabs/Structures/Military/Ca
 }
 $grp Tank : "{C0EAEB0DDE3C496E}Prefabs/Vehicles/Tracked/M1A1/M1A1_TUSK_MERDC.et" {
  B26 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3FCBC2960E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8E490A2E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8DF1D173}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3CAEDA71BC}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
+  }
   coords 3523.408 161.137 5991.822
   angleX -0.89
   angleY -179.93
@@ -429,6 +590,32 @@ $grp Tank : "{C0EAEB0DDE3C496E}Prefabs/Vehicles/Tracked/M1A1/M1A1_TUSK_MERDC.et"
   m_sAttachmentGroupName "Tank1_HQ"
  }
  B_21 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3FCBC2960E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8E490A2E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8DF1D173}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3CAEDA71BC}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
+  }
   coords 3508.56 162.107 5991.1
   angleX -0.892
   angleY -179.944
@@ -436,12 +623,64 @@ $grp Tank : "{C0EAEB0DDE3C496E}Prefabs/Vehicles/Tracked/M1A1/M1A1_TUSK_MERDC.et"
   m_sAttachmentGroupName "Tank2"
  }
  B_22 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3FCBC2960E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8E490A2E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8DF1D173}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3CAEDA71BC}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
+  }
   coords 3493.53 162.967 5990.379
   angleY 180
   angleZ -3.576
   m_sAttachmentGroupName "Tank3"
  }
  B_23 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3FCBC2960E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8E490A2E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8DF1D173}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3CAEDA71BC}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
+  }
   coords 3479.509 163.609 5990.251
   angleX -0.001
   angleY 179.972
@@ -449,6 +688,32 @@ $grp Tank : "{C0EAEB0DDE3C496E}Prefabs/Vehicles/Tracked/M1A1/M1A1_TUSK_MERDC.et"
   m_sAttachmentGroupName "Tank4"
  }
  Bravo12vic {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3FCBC2960E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8E490A2E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8DF1D173}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3CAEDA71BC}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
+  }
   coords 3488.741 158.716 6021.131
   angleX 8.005
   angleY -179.732
@@ -456,6 +721,32 @@ $grp Tank : "{C0EAEB0DDE3C496E}Prefabs/Vehicles/Tracked/M1A1/M1A1_TUSK_MERDC.et"
   m_sAttachmentGroupName "Bravo12"
  }
  Bravovic {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3FCBC2960E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8E490A2E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8DF1D173}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3CAEDA71BC}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
+  }
   coords 3527.856 157.018 6021.962
   angleX 7.081
   angleY 179.53
@@ -463,6 +754,32 @@ $grp Tank : "{C0EAEB0DDE3C496E}Prefabs/Vehicles/Tracked/M1A1/M1A1_TUSK_MERDC.et"
   m_sAttachmentGroupName "Bravo"
  }
  Bravo016vic {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3FCBC2960E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8E490A2E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8DF1D173}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3CAEDA71BC}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
+  }
   coords 3514.682 157.923 6021.695
   angleX 5.341
   angleY 179.763
@@ -470,6 +787,32 @@ $grp Tank : "{C0EAEB0DDE3C496E}Prefabs/Vehicles/Tracked/M1A1/M1A1_TUSK_MERDC.et"
   m_sAttachmentGroupName "Bravo016"
  }
  Bravo11vic {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3FCBC2960E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8E490A2E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8DF1D173}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3CAEDA71BC}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
+  }
   coords 3501.263 158.544 6021.327
   angleX 7.137
   angleY -179.618
@@ -477,6 +820,32 @@ $grp Tank : "{C0EAEB0DDE3C496E}Prefabs/Vehicles/Tracked/M1A1/M1A1_TUSK_MERDC.et"
   m_sAttachmentGroupName "Bravo11"
  }
  Bravo13vic {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3FCBC2960E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8E490A2E}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3F8DF1D173}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+     SCR_FuelNode "{5E8A1B3CAEDA71BC}" {
+      m_fInitialFuelTankState 340
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
+  }
   coords 3477.609 158.667 6021.468
   angleX 7.129
   angleY -179.718
@@ -487,6 +856,14 @@ $grp Tank : "{C0EAEB0DDE3C496E}Prefabs/Vehicles/Tracked/M1A1/M1A1_TUSK_MERDC.et"
 $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
  Whiskey1vic {
   components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 90
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
    SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
     MultiSlots {
      MultiSlotConfiguration "{62EACA4482A6FEC6}" {
@@ -505,6 +882,14 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
  }
  Whiskey2vic {
   components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 90
+      m_iFuelLeakSpeed 1
+     }
+    }
+   }
    SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
     MultiSlots {
      MultiSlotConfiguration "{62EACA4482A6FEC6}" {

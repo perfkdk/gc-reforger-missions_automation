@@ -28,7 +28,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  blufor3mission {
   coords 2116.855 5.542 3109.766
   m_sTitle "Mission"
-  m_sTextData "Wolf Hill (named area of interest) is to our southwest. Intelligence suggests there is an operable Mi-24P Hind equipped with 9M114 anti-tank rockets. The Soviets are may attempt to secure this vital piece of equipment and will likely man it if given the opportunity."\
+  m_sTextData "Wolf Hill (named area of interest) is to our southwest. Intelligence suggests there is an operable Mi-24P Hind equipped with 9M114 anti-tank rockets. The Soviets may attempt to secure this vital piece of equipment and will likely man it if given the opportunity."\
   ""\
   "The mission is simple: Advance to contact and annihilate the enemy. Optional: Either steal the Mi-24P and use it against them or destroy it before or after the Soviets man it themselves (should they attempt to do so)."
   m_aVisibleForFactions {
@@ -196,7 +196,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  ALL_Last_Tab_endconditions {
   coords 2038.82 18.284 3340.131
   m_sTitle "End Conditions"
-  m_sTextData "Either side takes 90% casualties (vehicles not considered, players only)"
+  m_sTextData "Either side takes 90% casualties (vehicles not considered, players only)"\
+  "60 minute time limit"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 8
