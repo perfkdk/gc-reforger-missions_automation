@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{4198EB0EC5CE98BA}worlds/ac337/mission1/target_Truck.edds"
+ Name "{4198EB0EC5CE98BA}worlds/ac337/GravetteGamble/target_Truck.edds"
  Configurations {
   JPGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }

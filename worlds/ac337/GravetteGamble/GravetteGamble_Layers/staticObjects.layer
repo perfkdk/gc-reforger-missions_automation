@@ -164,6 +164,10 @@ $grp StaticModelEntity : "{C6BFE324CCCFE6C4}Prefabs/Props/Military/Furniture/Cot
   angleY -57.617
  }
  {
+  components {
+   TILW_NavmeshRegenComponent "{66B50EAA2E2988E6}" {
+   }
+  }
   coords 4155.833 38.014 7786.779
   angleY -57.617
  }
@@ -194,6 +198,10 @@ $grp StaticModelEntity : "{CAE1588B6265A2AB}Prefabs/Structures/Walls/BarbedWire/
   angleY -52.542
  }
  {
+  components {
+   TILW_NavmeshRegenComponent "{66B50EAA2A81AB9A}" {
+   }
+  }
   coords 4174.135 -0.035 7802.236
   angleY -52.542
  }
@@ -236,6 +244,10 @@ $grp StaticModelEntity : "{CAE1588B6265A2AB}Prefabs/Structures/Walls/BarbedWire/
   angleZ -0.258
  }
  {
+  components {
+   TILW_NavmeshRegenComponent "{66B50EAA242416B8}" {
+   }
+  }
   coords 4174.32 0 7784.822
   angleX 4.197
   angleY -146.059
@@ -326,6 +338,10 @@ $grp StaticModelEntity : "{CAE1588B6265A2AB}Prefabs/Structures/Walls/BarbedWire/
   angleZ -2.967
  }
  {
+  components {
+   TILW_NavmeshRegenComponent "{66B50EAA209B7FFC}" {
+   }
+  }
   coords 4162.975 0 7770.953
   angleX -8.005
   angleY -53.141
@@ -464,6 +480,10 @@ $grp StaticModelEntity : "{CAE1588B6265A2AB}Prefabs/Structures/Walls/BarbedWire/
   angleZ -4.467
  }
  {
+  components {
+   TILW_NavmeshRegenComponent "{66B50EA9DD8DAB0D}" {
+   }
+  }
   coords 4137.399 0.001 7798.596
   angleX 0.038
   angleY 37.351

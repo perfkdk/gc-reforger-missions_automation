@@ -1,15 +1,4 @@
 SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
- components {
-  NavmeshWorldComponent "{5584F30E67F617AD}" {
-   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
-     NavmeshFileOveride {
-      ""
-     }
-    }
-   }
-  }
- }
  coords 5978.46 150.427 6372.828
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
@@ -72,6 +61,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{66B1579073A92742}" {
    m_name "Time Limit"
    m_instructions {
+    TILW_SendMessageInstruction "{66B50EADB3364941}" {
+     m_executionDelay 3000
+     m_messageTitle "Time Limit Warning!"
+     m_messageBody "Only 10 minutes left in the mission."
+    }
     TILW_SendMessageInstruction "{66B1579067624DB1}" {
      m_executionDelay 3600
      m_messageTitle "BLUFOR Defeat: Time Limit Reached"
@@ -83,7 +77,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{66A369D32332B494}" {
-   m_name "objective setup"
+   m_name "Objective 2 setup"
    m_instructions {
     TILW_SpawnPrefabInstruction "{66A369D312164E4A}" {
      m_prefab "{263F16A0D6679165}worlds/ac337/prefab/prefab_East_radio_truck.et"
@@ -123,19 +117,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_LiteralTerm "{66B15790BA186872}" {
     m_flagName "blufor_Casualty_Limit"
-   }
-  }
-  TILW_MissionEvent "{66B1579040B17A66}" {
-   m_name "Time Limit Warning"
-   m_instructions {
-    TILW_SendMessageInstruction "{66B157903FA23E27}" {
-     m_executionDelay 3000
-     m_messageTitle "Time Limit Warning!"
-     m_messageBody "Only 10 minutes left in the mission."
-    }
-   }
-   m_condition TILW_LiteralTerm "{66B257878DDA34B3}" {
-    m_invertTerm 1
    }
   }
   TILW_MissionEvent "{66B157977B81D13C}" {

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B9B5B84FB68681DC}worlds/ac337/mission1/w_Photo.edds"
+ Name "{B9B5B84FB68681DC}worlds/ac337/GravetteGamble/w_Photo.edds"
  Configurations {
   JPGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }
