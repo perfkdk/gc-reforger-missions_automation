@@ -370,27 +370,27 @@ TILW_MissionFrameworkEntity MissionFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TIL
    m_name "Time Limit"
    m_instructions {
     TILW_SendMessageInstruction "{6506E408307D3B9A}" {
-     m_executionDelay 2700
+     m_executionDelay 1800
      m_messageTitle "Time Limit"
-     m_messageBody "The Mission will end in 45 minutes"
+     m_messageBody "The Mission will end in 30 minutes"
     }
     TILW_SendMessageInstruction "{6550E36F53005626}" {
-     m_executionDelay 4200
+     m_executionDelay 2400
      m_messageTitle "Time Limit"
      m_messageBody "The Mission will end in 20 minutes"
     }
     TILW_SendMessageInstruction "{6550E36F43F2544F}" {
-     m_executionDelay 4800
+     m_executionDelay 3000
      m_messageTitle "Time Limit"
      m_messageBody "The Mission will end in 10 minutes"
     }
     TILW_SendMessageInstruction "{6506E4089FDE5CA5}" {
-     m_executionDelay 5400
+     m_executionDelay 3600
      m_messageTitle "Canadian Armed Forces Victory"
      m_messageBody "CAF held the town long enough forcing the NVA to fall back... GM Discretion when to end the mission"
     }
     TILW_EndGameInstruction "{650CE1979D068E00}" {
-     m_executionDelay 5410
+     m_executionDelay 3610
      m_factionKey "GC_CAF"
     }
    }
