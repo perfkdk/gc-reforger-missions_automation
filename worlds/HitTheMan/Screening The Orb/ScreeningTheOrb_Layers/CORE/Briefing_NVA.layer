@@ -66,7 +66,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Arty is being focused on Bad Orb itself."\
   ""\
   "Attachments/Detachments:"\
-  "None."
+  "More attachments will be made available as you capture your assigned objectives."
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -123,7 +123,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- 6x Tourniquets"\
   "- 8x Morphines"\
   ""\
-  "No Replacement is provided or accounted for if losses are sustained."
+  "No vehicle Replacement will be provided or accounted for if losses are sustained."
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -134,7 +134,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "VI. Mission Notes:"
   m_sTextData "Mi-24s cannot freely engage targets without being called in or given permission by ground forces (FACs or CO), Be it Type 1, 2 or 3"\
   ""\
-  "You must be within 10m-25m of the building(s) to be counted as capturing it."\
+  "You must be within 10m-25m of the Objective(s) to be counted as capturing it."\
   ""\
   "Hard AO for NVA (Infantry/Ground)"\
   "Soft AO for Soviet Airforce (Helicopters/Air)"\
@@ -145,7 +145,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "- NVA Victory is achieved once all 4 buildings are secured & defended against any potential QRF"\
   ""\
-  "- Canadian Victory is achieved by causing 85% casualties to the NVA, before or after the buildings have been secured."
+  "- Canadian Victory is achieved by causing 85% casualties to the NVA, before or after the buildings have been secured."\
+  ""\
+  "- There is 10x Respawn at start for NVA || 5x Respawn rewarded per Objective Captured."\
+  "-- Should JIP Teleport not function, UAZs will spawn 10min after mission start, utilize that to rejoin your squad."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 8
