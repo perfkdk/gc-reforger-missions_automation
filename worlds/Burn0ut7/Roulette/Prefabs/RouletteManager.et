@@ -1,0 +1,91 @@
+GC_R_Manager {
+ ID "66AB7A702E7E92B7"
+ coords 5369.727 82.566 6285.249
+ m_scenarios {
+  GC_R_AttackDefend "{66AB7A7085BCF79D}" {
+   m_buildingBlackListWords {
+    "DeerStands" "Shed" "Calvaries" "Greenhouse" "Piers" "Wall" "Cemeteries" "SeaBollards" "GateCollective" "Henhouse" "Hotbed" "Wall" "Power/Utility" "Bridge" "Industrial/Containers/" "Davits" "Stairs" "Waterworks" "Ruins/HouseRuin_01/"
+   }
+  }
+ }
+ m_teams {
+  GC_R_Team "{66AE36D67D974C0E}" {
+   m_name "US 80s"
+   m_factionKey "US"
+   m_companies {
+    GC_R_Company "{66AE36D6BFBF480A}" {
+     m_prefab "{809D5896510B70C2}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_COY_HQ_P.et"
+     m_platoons {
+      GC_R_Platoon "{66AE36D6BD434E99}" {
+       m_prefab "{7E53E193D3894D09}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_PLT_HQ_P.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GC_R_Team "{66AE36D688D6BC5D}" {
+   m_name "RU 80s"
+   m_factionKey "RU"
+   m_companies {
+    GC_R_Company "{66AE36D01DEA08E6}" {
+     m_prefab "{8E4BE6AA99B15919}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_CoyHQ_P.et"
+     m_platoons {
+      GC_R_Platoon "{66AE36D6BD434E99}" {
+       m_prefab "{C724911C8224C5EF}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_PHQ_P.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+        }
+       }
+      }
+      GC_R_Platoon "{66B15D5AA6765C94}" {
+       m_prefab "{C724911C8224C5EF}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_PHQ_P.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+        }
+       }
+      }
+      GC_R_Platoon "{66B15D5AA66D7A20}" {
+       m_prefab "{C724911C8224C5EF}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_PHQ_P.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
