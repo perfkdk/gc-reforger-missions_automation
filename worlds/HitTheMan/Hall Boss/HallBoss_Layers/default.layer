@@ -1,5 +1,5 @@
-SCR_AIWorld : "{65DEC16960498027}Prefabs/AI/SCR_AIWorld_Ruha.et" {
- coords 6190.352 56.531 6961.771
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
+ coords 6866.237 433.338 6882.394
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 3727.142 525.044 1643.412
@@ -362,22 +362,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageTitle "Soviet Army Victory"
      m_messageBody "USSR held the town long enough forcing the NVA to fall back... GM Discretion when to end the mission"
     }
-    TILW_EndGameInstruction "{650CE1979D068E00}" {
-     m_executionDelay 3610
-     m_factionKey "USSR"
-    }
    }
    m_condition TILW_LiteralTerm "{6506E40BFBED4D76}" {
     m_invertTerm 1
    }
   }
   TILW_MissionEvent "{650750E2E1A73F1D}" {
-   m_name "NVA OBJ Victory"
+   m_name "US OBJ Victory"
    m_instructions {
     TILW_SendMessageInstruction "{6550E36ED08C418C}" {
      m_executionDelay 10
-     m_messageTitle "East German Army Victory"
-     m_messageBody "NVA has managed to secure the HQ Building... "\
+     m_messageTitle "US Army Victory"
+     m_messageBody "US has managed to secure the Apartment... "\
      "GM Discretion when to end the mission"
     }
    }
