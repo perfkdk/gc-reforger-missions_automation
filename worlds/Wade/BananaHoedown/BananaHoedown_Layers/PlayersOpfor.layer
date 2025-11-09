@@ -1,0 +1,11 @@
+SCR_AIGroup : "{8CDE310457476BBE}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFRF_SSO_2020_PHQ_P.et" {
+ coords 8412.165 18.141 511.531
+}
+$grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFRF_SSO_2020_Squad_P.et" {
+ {
+  coords 8415.167 18.101 502.987
+ }
+ {
+  coords 8409.91 18.094 505.314
+ }
+}
