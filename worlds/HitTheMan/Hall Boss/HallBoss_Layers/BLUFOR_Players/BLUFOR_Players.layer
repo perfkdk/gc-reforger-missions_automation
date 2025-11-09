@@ -112,7 +112,7 @@ $grp SCR_AIGroup : "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf 
    "{87FFAAF2254AB251}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_AMG_P.et"
    "{B17666FC6E80B139}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_AMMO_P.et"
   }
-  m_sCustomNameSet "Weapons Squad"
+  m_sCustomNameSet "3rd Rifle Squad"
   m_bSetPlayable 0
  }
 }
