@@ -398,13 +398,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
  }
 }
-$grp GenericEntity : "{FC609C179F576083}Prefabs/Props/Military/H Barrier/Hesco barrier.et" {
- {
-  coords 6613.025 0 3843.334
-  angles 0 53.196 0
- }
- {
-  coords 6613.061 2.534 3843.265
-  angles -0.894 -126.804 -180
- }
+GenericEntity : "{FC5F5244402393E8}Prefabs/Props/Civilian/Industrial/Fueltanks/FuelTank01_White.et" {
+ coords 6613.743 0 3839.725
+ angles 0 -41.931 0
 }
