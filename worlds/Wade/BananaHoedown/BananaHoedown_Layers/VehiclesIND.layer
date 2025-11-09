@@ -1,0 +1,18 @@
+Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ coords 2713.53 24.592 5467.443
+ angles 0 -90.594 0
+}
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ1 {
+  coords 2711.095 24.592 5490.968
+  angles 0 -93.362 0
+ }
+ UAZ2 {
+  coords 2711.87 24.592 5483.563
+  angles 0 -94.416 0
+ }
+ UAZ3 {
+  coords 2712.239 24.592 5476.548
+  angles 0 -89.003 0
+ }
+}

@@ -1,14 +1,32 @@
 $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Group_Rangers_2020_Squad_P.et" {
  {
-  coords 3150.296 19.399 12605.141
-  angles 0 -91.808 0
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 3130.533 18.066 12587.247
+  angles 0 -1.056 0
+  m_bSnapToTerrain 0
  }
  {
-  coords 3140.238 18.089 12611.911
-  angles 0 -91.808 0
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 3007.356 18.199 12585.645
+  angles 0 -1.056 0
+  m_bSnapToTerrain 0
  }
 }
 SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Group_Rangers_2020_PHQ_P.et" {
- coords 3124.627 18.104 12609.605
- angles 0 -91.808 0
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 3068.418 18.105 12581.327
+ angles 0 -2.931 0
+ m_bSnapToTerrain 0
 }

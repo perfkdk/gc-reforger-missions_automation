@@ -1,6 +1,8 @@
 SCR_AIGroup : "{A156A12FCA70EE91}Prefabs/Groups/INDFOR/ION/VIP_Protection/Group_RHS_ION_VIP_Bodyguard_Team_P.et" {
- coords 5107.938 687.496 6355.436
+ coords 2725.829 24.591 5477.8
+ angles 0 -88.562 0
 }
 SCR_AIGroup : "{EDAD260BFD3BBA4F}Prefabs/Groups/INDFOR/ION/Uniformed/Playable/Group_GC_ION_Uniformed_CAT_P.et" {
- coords 5104.866 687.986 6352.021
+ coords 2726.409 24.593 5486.182
+ angles 0 -81.381 0
 }

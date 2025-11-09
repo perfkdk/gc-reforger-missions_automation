@@ -1,11 +1,32 @@
 SCR_AIGroup : "{8CDE310457476BBE}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFRF_SSO_2020_PHQ_P.et" {
- coords 8412.165 18.141 511.531
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 8451.205 18.095 525.855
+ angles 0 167.362 0
+ m_bSnapToTerrain 0
 }
 $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFRF_SSO_2020_Squad_P.et" {
  {
-  coords 8415.167 18.101 502.987
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8395.238 18.025 513.153
+  angles 0 165.257 0
+  m_bSnapToTerrain 0
  }
  {
-  coords 8409.91 18.094 505.314
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8511.463 18.106 538.923
+  angles 0 167.249 0
+  m_bSnapToTerrain 0
  }
 }

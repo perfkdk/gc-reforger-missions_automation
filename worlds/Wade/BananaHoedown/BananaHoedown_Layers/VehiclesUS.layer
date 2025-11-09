@@ -1,6 +1,6 @@
 $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
  MH6M1 {
-  coords 3011.047 18.105 12608.788
+  coords 3128.876 18.117 12614.502
   angles 0 175.56 0
  }
  MH6M2 {
