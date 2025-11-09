@@ -168,7 +168,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  AO_Limit_OPF {
   components {
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-    m_killTimer 15
+    m_killTimer 3
     m_factionKeys {
      "USSR"
     }
