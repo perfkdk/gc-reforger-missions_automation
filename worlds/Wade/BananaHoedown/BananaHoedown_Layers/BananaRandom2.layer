@@ -1,0 +1,47 @@
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ {
+  coords 2727.928 24.592 5467.842
+  angles 11.24 1.796 1.264
+  m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
+  m_conditionFlag "BananaRandomFlag2"
+  m_spawnTimings {
+   0
+  }
+ }
+ {
+  coords 2727.359 24.592 5467.884
+  angles 11.24 1.796 1.264
+  m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
+  m_conditionFlag "BananaRandomFlag2"
+  m_spawnTimings {
+   0
+  }
+ }
+ {
+  coords 2726.597 24.592 5467.93
+  angles 11.24 1.796 1.264
+  m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
+  m_conditionFlag "BananaRandomFlag2"
+  m_spawnTimings {
+   0
+  }
+ }
+ {
+  coords 2725.909 24.592 5468.008
+  angles 11.24 1.796 1.264
+  m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
+  m_conditionFlag "BananaRandomFlag2"
+  m_spawnTimings {
+   0
+  }
+ }
+ {
+  coords 2724.673 24.592 5468.005
+  angles 11.24 1.796 1.264
+  m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
+  m_conditionFlag "BananaRandomFlag2"
+  m_spawnTimings {
+   0
+  }
+ }
+}

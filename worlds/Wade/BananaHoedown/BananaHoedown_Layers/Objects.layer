@@ -8,3 +8,24 @@ $grp GenericEntity : "{15518B113BCC7396}Prefabs/Structures/Naval/USS_Concrete.et
   angles 0 167.163 0
  }
 }
+$grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/GeneratorFloodlight_USSR_01.et" {
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{5882B9E6B4EFC9DF}" {
+    m_fLV 10
+    m_eInitialLightState LIT
+   }
+  }
+  coords 2725.565 24.592 5459.459
+ }
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{5882B9E6B4EFC9DF}" {
+    m_fLV 10
+    m_eInitialLightState LIT
+   }
+  }
+  coords 2728.326 24.592 5499.025
+  angles 0 -139.646 0
+ }
+}
