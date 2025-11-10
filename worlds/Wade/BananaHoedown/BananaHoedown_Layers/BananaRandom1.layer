@@ -1,6 +1,6 @@
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  {
-  coords 2728.066 24.54 5467.287
+  coords 2688.392 25.399 5468.36
   angles 11.24 1.796 1.264
   m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
   m_conditionFlag "BananaRandomFlag1"
@@ -10,9 +10,16 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_setEntityNames {
    "BananaLoc1"
   }
+  {
+   PS_ManualMarker BMark1 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_MarkerColor 1 0 0 1
+    m_sQuadName "dot"
+   }
+  }
  }
  {
-  coords 2727.398 24.592 5467.239
+  coords 2687.724 25.451 5468.312
   angles 11.24 1.796 1.264
   m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
   m_conditionFlag "BananaRandomFlag1"
@@ -22,9 +29,16 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_setEntityNames {
    "BananaLoc2"
   }
+  {
+   PS_ManualMarker BMark2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_MarkerColor 1 0 0 1
+    m_sQuadName "dot"
+   }
+  }
  }
  {
-  coords 2726.797 24.593 5467.151
+  coords 2687.124 25.452 5468.224
   angles 11.24 1.796 1.264
   m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
   m_conditionFlag "BananaRandomFlag1"
@@ -34,9 +48,16 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_setEntityNames {
    "BananaLoc3"
   }
+  {
+   PS_ManualMarker BMark3 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_MarkerColor 1 0 0 1
+    m_sQuadName "dot"
+   }
+  }
  }
  {
-  coords 2725.633 24.592 5467.113
+  coords 2685.959 25.451 5468.186
   angles 11.24 1.796 1.264
   m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
   m_conditionFlag "BananaRandomFlag1"
@@ -46,9 +67,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_setEntityNames {
    "BananaLoc4"
   }
+  {
+   PS_ManualMarker BMark4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_MarkerColor 1 0 0 1
+    m_sQuadName "dot"
+   }
+  }
  }
  {
-  coords 2724.298 24.592 5467.011
+  coords 2684.625 25.451 5468.084
   angles 11.24 1.796 1.264
   m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
   m_conditionFlag "BananaRandomFlag1"
@@ -57,6 +86,13 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
   m_setEntityNames {
    "BananaLoc5"
+  }
+  {
+   PS_ManualMarker BMark5 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_MarkerColor 1 0 0 1
+    m_sQuadName "dot"
+   }
   }
  }
 }

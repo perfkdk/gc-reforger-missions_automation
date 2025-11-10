@@ -1,47 +1,82 @@
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  {
-  coords 2728.124 24.592 5468.792
+  coords 2713.593 24.5 5514.839
   angles 11.24 1.796 1.264
   m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
   m_conditionFlag "BananaRandomFlag3"
   m_spawnTimings {
    0
   }
+  {
+   PS_ManualMarker BMark11 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_MarkerColor 1 0 0 1
+    m_sQuadName "dot"
+   }
+  }
  }
  {
-  coords 2727.367 24.592 5468.877
+  coords 2712.836 24.5 5514.924
   angles 11.24 1.796 1.264
   m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
   m_conditionFlag "BananaRandomFlag3"
   m_spawnTimings {
    0
   }
+  {
+   PS_ManualMarker BMark12 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_MarkerColor 1 0 0 1
+    m_sQuadName "dot"
+   }
+  }
  }
  {
-  coords 2726.531 24.592 5468.889
+  coords 2712 24.5 5514.936
   angles 11.24 1.796 1.264
   m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
   m_conditionFlag "BananaRandomFlag3"
   m_spawnTimings {
    0
   }
+  {
+   PS_ManualMarker BMark13 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_MarkerColor 1 0 0 1
+    m_sQuadName "dot"
+   }
+  }
  }
  {
-  coords 2725.451 24.592 5468.899
+  coords 2710.92 24.5 5514.946
   angles 11.24 1.796 1.264
   m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
   m_conditionFlag "BananaRandomFlag3"
   m_spawnTimings {
    0
   }
+  {
+   PS_ManualMarker BMark14 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_MarkerColor 1 0 0 1
+    m_sQuadName "dot"
+   }
+  }
  }
  {
-  coords 2724.531 24.592 5468.933
+  coords 2710 24.5 5514.979
   angles 11.24 1.796 1.264
   m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
   m_conditionFlag "BananaRandomFlag3"
   m_spawnTimings {
    0
+  }
+  {
+   PS_ManualMarker BMark15 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_MarkerColor 1 0 0 1
+    m_sQuadName "dot"
+   }
   }
  }
 }
