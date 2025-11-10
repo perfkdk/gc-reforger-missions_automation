@@ -12,10 +12,8 @@ PS_GameModeCoop GameModeLobby : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 19
-   m_bFogOverride 1
    m_fFogAmount 0.77
    m_fFogHeightDensity 0.86
-   m_bDateOverride 1
    m_iDay 7
    m_iMonth 7
    m_iYear 2012
@@ -30,7 +28,6 @@ PS_GameModeCoop GameModeLobby : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_
    m_fUTCTimeZone 4.3
    m_fDSTEnabled 1
    m_fDSTOffsetHours 0
-   m_bOverrideEnvironment 1
    m_fFogDensity 0.86
    m_fFogHeight 77
    m_fRain 0
@@ -109,8 +106,8 @@ $grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/Restri
   m_fZoneTeleportedRadius 65
  }
  RestrictZone_Opfor {
-  coords 10896.501 175.68 10734.265
-  angles -0.568 0.009 -0.853
+  coords 10895.964 174.331 10736.731
+  angles -1.136 0.022 -0.853
   m_fZoneRadius 50
   m_fZoneTeleportedRadius 65
  }
@@ -356,7 +353,8 @@ $grp PS_ManualMarker : "{BC5F78D7A380E856}PrefabsEditable/Markers/Group/Marker_G
   m_fWorldSize 60
  }
  SpawnMarkerOpfor {
-  coords 10898.086 176.78 10732.891
+  coords 10908.585 175.286 10684.659
+  angles 0 90 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
   m_MarkerColor 0.623 0.022 0.022 1
