@@ -115,11 +115,11 @@ PolylineShapeEntity CapZoneMarker : "{85222A2744768C81}Prefabs/Logic/AOLimit/TIL
 }
 $grp PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Objective_Base.et" {
  CapMarkerText {
-  coords 10477.07 162.069 11209.119
-  angles -0.852 -0.017 1.137
+  coords 10478.859 164.228 11084.954
+  angles 0 0 0
   m_MarkerColor 0 0 0 0
   m_sQuadName "circle"
-  m_fWorldSize 325
+  m_fWorldSize 180
   m_sDescription "Capture Area"
   m_aHideOnGameModeStates {
    GAME

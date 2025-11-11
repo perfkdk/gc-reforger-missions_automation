@@ -378,6 +378,36 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
   }
  }
+ housemapoutline9 {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_color 0.456 0.456 0.456 1
+    m_invert 0
+    m_drawLine 1
+    m_lineColor 0.191 0.191 0.191 1
+    m_lineWidth 1
+   }
+  }
+  coords 10444.2 168.235 10947.218
+  Points {
+   ShapePoint "{66BC00DFA896588B}" {
+    Position -2.857 0.329 4.536
+   }
+   ShapePoint "{66BC00DFDE095F8A}" {
+    Position -3.501 0.52 -1.328
+   }
+   ShapePoint "{66BC00DFDB067BC7}" {
+    Position 2.63 0.019 -2.217
+   }
+   ShapePoint "{66BC00DFC5B9CF62}" {
+    Position 3.428 0.047 3.851
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{89732831F26334E8}Prefabs/Structures/Bulding/HouseL/House_L_8_EP1_Full.et" {
  coords 10411.646 165.898 10877.938
