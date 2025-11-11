@@ -5,7 +5,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   0
+   42
   }
  }
  {
@@ -14,7 +14,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   0
+   42
   }
  }
  {
@@ -23,7 +23,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   0
+   42
   }
  }
  {
@@ -32,7 +32,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   0
+   42
   }
  }
  {
@@ -41,7 +41,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   0
+   42
   }
  }
 }
