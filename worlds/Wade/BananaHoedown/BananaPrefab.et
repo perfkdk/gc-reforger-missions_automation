@@ -1,0 +1,16 @@
+GenericEntity : "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et" {
+ ID "508AB2013EEE1E00"
+ coords 2681.233 24.219 5492.573
+ {
+  PS_ManualMarker BananaMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   ID "66D60148B8B210C2"
+   coords 7.159 1.18 -24.213
+   angles -1.24 91.55 11.243
+   m_MarkerColor 1 0 0 1
+   m_sQuadName "dot"
+   m_aVisibleForFactions {
+    "CIV"
+   }
+  }
+ }
+}

@@ -33,83 +33,15 @@ PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/Ed
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 6007.018 6.285 3375.691
- m_missionEvents {
-  TILW_MissionEvent "{66D53A9DE7E1E311}" {
-   m_name "Banana1"
-   m_instructions {
-    TILW_EditMapItemInstruction "{66D53A9DF838BE7C}" {
-     m_itemNames {
-      "BMark1"
-      "BMark2"
-      "BMark3"
-      "BMark4"
-      "BMark5"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{66D53A9FDBC29998}" {
-       m_factionKey "CIV"
-       m_visible 1
-      }
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{66D53A9DFFB4A4F1}" {
-    m_flagName "BananaRandomFlag1"
-   }
-  }
-  TILW_MissionEvent "{66D53A9FD07B5797}" {
-   m_name "Banana2"
-   m_instructions {
-    TILW_EditMapItemInstruction "{66D53A9FD07B2ADF}" {
-     m_itemNames {
-      "BMark6"
-      "BMark7"
-      "BMark8"
-      "BMark9"
-      "BMark10"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{66D53A9FD07B2AD7}" {
-       m_factionKey "CIV"
-       m_visible 1
-      }
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{66D53A9FD07B2AD2}" {
-    m_flagName "BananaRandomFlag2"
-   }
-  }
-  TILW_MissionEvent "{66D53A9E3A64A10F}" {
-   m_name "Banana3"
-   m_instructions {
-    TILW_EditMapItemInstruction "{66D53A9E3A64A69D}" {
-     m_itemNames {
-      "BMark11"
-      "BMark12"
-      "BMark13"
-      "BMark14"
-      "BMark15"
-     }
-     m_factionVisibility {
-      TILW_FactionVisibility "{66D53A9E3A64A69E}" {
-       m_factionKey "CIV"
-       m_visible 1
-      }
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{66D53A9E3A64A69A}" {
-    m_flagName "BananaRandomFlag3"
-   }
-  }
- }
  m_randomFlags {
   TILW_FlagSampling "{66D517DA2F599A89}" {
    m_flagNames {
     "BananaRandomFlag1"
     "BananaRandomFlag2"
     "BananaRandomFlag3"
+    "BananaRandomFlag4"
+    "BananaRandomFlag5"
+    "BananaRandomFlag6"
    }
   }
  }

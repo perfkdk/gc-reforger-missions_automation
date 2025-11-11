@@ -2,81 +2,46 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  {
   coords 2723.173 24.695 5467.971
   angles 11.24 1.796 1.264
-  m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
+  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
   m_conditionFlag "BananaRandomFlag2"
   m_spawnTimings {
    0
-  }
-  {
-   PS_ManualMarker BMark6 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-    coords 0 0 0
-    m_MarkerColor 1 0 0 1
-    m_sQuadName "dot"
-   }
   }
  }
  {
   coords 2722.604 24.695 5468.013
   angles 11.24 1.796 1.264
-  m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
+  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
   m_conditionFlag "BananaRandomFlag2"
   m_spawnTimings {
    0
-  }
-  {
-   PS_ManualMarker BMark7 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-    coords 0 0 0
-    m_MarkerColor 1 0 0 1
-    m_sQuadName "dot"
-   }
   }
  }
  {
   coords 2721.842 24.695 5468.059
   angles 11.24 1.796 1.264
-  m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
+  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
   m_conditionFlag "BananaRandomFlag2"
   m_spawnTimings {
    0
-  }
-  {
-   PS_ManualMarker BMark8 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-    coords 0 0 0
-    m_MarkerColor 1 0 0 1
-    m_sQuadName "dot"
-   }
   }
  }
  {
   coords 2721.154 24.695 5468.137
   angles 11.24 1.796 1.264
-  m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
+  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
   m_conditionFlag "BananaRandomFlag2"
   m_spawnTimings {
    0
-  }
-  {
-   PS_ManualMarker BMark9 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-    coords 0 0 0
-    m_MarkerColor 1 0 0 1
-    m_sQuadName "dot"
-   }
   }
  }
  {
   coords 2719.918 24.695 5468.134
   angles 11.24 1.796 1.264
-  m_prefab "{546993E6C82DB82C}worlds/Wade/BananaHoedown/BananaWeightless.et"
+  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
   m_conditionFlag "BananaRandomFlag2"
   m_spawnTimings {
    0
-  }
-  {
-   PS_ManualMarker BMark10 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-    coords 0 0 0
-    m_MarkerColor 1 0 0 1
-    m_sQuadName "dot"
-   }
   }
  }
 }
