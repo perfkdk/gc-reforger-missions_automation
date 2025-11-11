@@ -9,9 +9,10 @@ $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
    }
   }
   coords 6455.396 96.656 1362.606
-  angleY 180
+  angles 0 180 0
   m_aUnitPrefabSlots {
-   "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et"
+   "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et"
+   "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et"
   }
   m_sCustomNameSet "1st Platoon | HQ"
   {
@@ -26,8 +27,10 @@ $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
       }
      }
      coords 21 0 -10
-     m_aUnitPrefabSlots + {
-      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+     m_aUnitPrefabSlots +{
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
      }
      m_sCustomNameSet "1st Platoon | 1st Squad"
     }
@@ -41,8 +44,10 @@ $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
       }
      }
      coords -4 0 -10
-     m_aUnitPrefabSlots + {
-      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+     m_aUnitPrefabSlots +{
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
      }
      m_sCustomNameSet "1st Platoon | 2nd Squad"
     }
@@ -56,8 +61,10 @@ $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
       }
      }
      coords -29 0 -10
-     m_aUnitPrefabSlots + {
-      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+     m_aUnitPrefabSlots +{
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
      }
      m_sCustomNameSet "1st Platoon | 3rd Squad"
     }
@@ -74,9 +81,10 @@ $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
    }
   }
   coords 6612.7 96.656 1362.606
-  angleY -180
+  angles 0 -180 0
   m_aUnitPrefabSlots {
-   "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et"
+   "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et"
+   "{2DF30A80B14F510E}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Medic_P.et"
   }
   m_sCustomNameSet "1st Platoon | HQ"
   {
@@ -91,8 +99,10 @@ $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
       }
      }
      coords 21 0 -10
-     m_aUnitPrefabSlots + {
-      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+     m_aUnitPrefabSlots +{
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
      }
      m_sCustomNameSet "1st Platoon | 1st Squad"
     }
@@ -106,8 +116,10 @@ $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
       }
      }
      coords -4 0 -10
-     m_aUnitPrefabSlots + {
-      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+     m_aUnitPrefabSlots +{
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
      }
      m_sCustomNameSet "1st Platoon | 2nd Squad"
     }
@@ -121,8 +133,10 @@ $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
       }
      }
      coords -29 0 -10
-     m_aUnitPrefabSlots + {
-      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+     m_aUnitPrefabSlots +{
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+      "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
      }
      m_sCustomNameSet "1st Platoon | 3rd Squad"
     }
@@ -188,6 +202,16 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
    RigidBody "{51DAA09FECF52BBF}" {
     Active Active
    }
+   SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66D562F50110E165}" {
+      SlotTemplate InventoryStorageSlot parachute {
+       Prefab "{DB1A767F2E5EDDA9}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute_green.et"
+      }
+      NumSlots 16
+     }
+    }
+   }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
      SCR_WeaponRackSlotInfo Hardpoints {
@@ -203,6 +227,16 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
   components {
    RigidBody "{51DAA09FECF52BBF}" {
     Active Active
+   }
+   SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66D562F50110E165}" {
+      SlotTemplate InventoryStorageSlot parachute {
+       Prefab "{DB1A767F2E5EDDA9}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute_green.et"
+      }
+      NumSlots 16
+     }
+    }
    }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
@@ -220,6 +254,16 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
    RigidBody "{51DAA09FECF52BBF}" {
     Active Active
    }
+   SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66D562F50110E165}" {
+      SlotTemplate InventoryStorageSlot parachute {
+       Prefab "{DB1A767F2E5EDDA9}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute_green.et"
+      }
+      NumSlots 16
+     }
+    }
+   }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
      SCR_WeaponRackSlotInfo Hardpoints {
@@ -235,6 +279,16 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
   components {
    RigidBody "{51DAA09FECF52BBF}" {
     Active Active
+   }
+   SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66D562F50110E165}" {
+      SlotTemplate InventoryStorageSlot parachute {
+       Prefab "{DB1A767F2E5EDDA9}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute_green.et"
+      }
+      NumSlots 16
+     }
+    }
    }
    SlotManagerComponent "{55BCE45E438E4CFF}" {
     Slots {
@@ -257,7 +311,8 @@ $grp SCR_AIGroup : "{B8BFDDDEEFB02E28}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ve
   }
   coords 6505.271 96.656 1254.236
   m_aUnitPrefabSlots {
-   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et" "{E3CF674456A804A1}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Aircrew_P.et"
+   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et"
+   "{E3CF674456A804A1}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Aircrew_P.et"
   }
   m_sCustomNameSet "Falke-1 (Mi-24P)"
  }
@@ -269,7 +324,8 @@ $grp SCR_AIGroup : "{B8BFDDDEEFB02E28}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ve
   }
   coords 6554.455 96.656 1232.323
   m_aUnitPrefabSlots {
-   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et" "{E3CF674456A804A1}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Aircrew_P.et"
+   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et"
+   "{E3CF674456A804A1}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Aircrew_P.et"
   }
   m_sCustomNameSet "Falke-2 (Mi-24P)"
  }
@@ -284,7 +340,8 @@ $grp SCR_AIGroup : "{B8BFDDDEEFB02E28}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ve
   }
   coords 6454.761 96.656 1316.566
   m_aUnitPrefabSlots {
-   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et" "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et"
+   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et"
+   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et"
   }
   m_sCustomNameSet "1Plt Transport (Mi-8)"
  }
@@ -299,7 +356,8 @@ $grp SCR_AIGroup : "{B8BFDDDEEFB02E28}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ve
   }
   coords 6612.689 96.656 1316.566
   m_aUnitPrefabSlots {
-   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et" "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et"
+   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et"
+   "{E3D02636057FC2B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Pilot_P.et"
   }
   m_sCustomNameSet "2Plt Transport (Mi-8)"
  }
@@ -313,8 +371,11 @@ SCR_AIGroup GR_NVA_CHQ : "{F8F0C9F6E52CB32A}Prefabs/Groups/OPFOR/GC_NVA/P/Group_
   }
  }
  coords 6530.953 96.656 1366.273
- angleY 180
+ angles 0 180 0
  m_aUnitPrefabSlots {
-  "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et" "{C503AFF96F792C9F}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanySergeantMajor_P.et" "{8263A33EFE862797}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_FAC_P.et" "{A6E5041CD1DA302C}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Sharpshooter_P.et"
+  "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et"
+  "{C503AFF96F792C9F}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanySergeantMajor_P.et"
+  "{8263A33EFE862797}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_FAC_P.et"
+  "{A6E5041CD1DA302C}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Sharpshooter_P.et"
  }
 }

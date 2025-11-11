@@ -1,7 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  G0_Background {
   m_sTitle "Background"
-  m_sTextData "1989, Germany. War has broken out between NATO and the Warsaw Pact, and Soviet Forces are advancing deeper and deeper into the northern plains of West Germany together with the NVA, aiming to reach the Rhine by day 6."\
+  m_sTextData "1987, Germany. War has broken out between NATO and the Warsaw Pact, and Soviet Forces are advancing deeper and deeper into the northern plains of West Germany together with the NVA, aiming to reach the Rhine by day 6."\
   ""\
   "In this sector, the Panzer Regiment 22 \"Soja Kosmodemjanskaja\" of the East German 9. Panzer Division is leading the advance."\
   ""\
@@ -38,24 +38,20 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "I. SITUATION"
   m_sTextData "<b>a. Enemy Forces</b>"\
   ""\
-  "A tank battalion of the East German Panzer Regiment 22 is advancing from the south west."\
-  "Two of its companies were spotted in the vicinity of Martikkalakyla, some reconnaissance forces may already be slightly ahead."\
+  "The enemy tank battalion of the Panzer Regiment 22 has advanced towards Ruha, and allthough delayed, are in the process of encircling the remaining elements of the CFV troop north west of Ruha."\
   ""\
-  "Our troops initial mission was to perform a passage of lines with the 2nd Armored Divisions previously covered 1st Brigade later today, which would blunt the regiments advance."\
+  "To its north east, the battalion is being covered by a force consisting of a remaining airmobile infantry platoon of the LStR-40 and multiple tanks and possibly reconnaissance vehicles detached from the tank battalion."\
   ""\
-  "However, a few hours ago, East German airmobile forces of the Luftsturmregiment 40 staged an air assault on Nyrhilanmaki (052 051), destroying most of Troop HQ and occupying the village."\
-  ""\
-  "While the enemy likely remains unaware of the friendly brigades proximity, this move prevented our cavalry troop from withdrawing north as originally planned, forcing an engagement with the enemy battalion."\
+  "It is possible the covering force may be able to request limited attack helicopter support."\
   ""\
   ""\
   "<b>b. Friendly Forces</b>"\
   ""\
-  "RED (scout platoon) and WHITE (tank platoon) are located in the vicinity of Hietalanmaki (031 033)."\
-  "Black 9 (mortar) is set up in the forest at 031 050, preparing to support the platoons using smoke rounds."\
+  "You are a tank-heavy tank-mech company team of the 2nd Armored Divisions 1st Brigade, tasked with neutralizing the covering force so that a larger spearhead can move through the canalizing terrain near Isomaki and fight the enemy tank battalion while it is still occupied with remaining US cavalry forces."\
   ""\
-  "Unable to bypass the occupied village, BLUE and GREEN were forced to proceed north on their own, which means they are unable to support RED and WHITE."\
+  "Currently located north of Kelloja, the company team consists of two tank platoons (RED, WHITE) and one mechanized infantry platoon (BLUE)."\
   ""\
-  "A tank-heavy tank-mech company team from the 2nd Armored Divisions 1st Brigade is rushing south to break the encirclement and allow RED and WHITE to retreat, but is estimated to need at least another hour to arrive."
+  ""
   m_aVisibleForFactions {
    "US"
   }
@@ -64,7 +60,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  U2_Mission {
   coords 0 0 0
   m_sTitle "II. MISSION"
-  m_sTextData "<b>RED and WHITE platoons must DELAY the NVA tank battalion by at least X minutes, before retreating to Pihlajamaa (023 068).</b>"
+  m_sTextData "<b>The company team is to NEUTRALIZE the enemy covering force by SEIZING both Isomaki and Nyrhilanmaki within 1 hour.</b>"
   m_aVisibleForFactions {
    "US"
   }
@@ -75,22 +71,18 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. EXECUTION"
   m_sTextData "<b>Commander's intent</b>"\
   ""\
-  "Purpose: Hold out until the arrival of reinforcements"\
+  "Purpose: Neutralize the covering force by taking control of key terrain"\
   "Key Tasks:"\
-  "- Delay the enemy force"\
-  "- Retreat towards Pihalajamaa, avoid being bypassed"\
+  "- Gain control over Isomaki"\
+  "- Gain control over Nyrhilanmaki"\
   "End State:"\
-  "- After X minutes, the enemies main force has not yet passed Ruha"\
-  "- RED and WHITE have regrouped near Pihlajamaa following the delaying action"\
+  "- Key terrain is under control of US forces within 1 hour"\
+  "- A larger armored force is able to move up to Isomaki without encountering significant resistance"\
   ""\
   ""\
   "<b>Concept of the operation</b>"\
   ""\
-  "(1) Scheme of Maneuver"\
-  "As briefed by Red 1"\
-  ""\
-  "(2) Fires"\
-  "One mortar (Black 8) is available, its primary purpose is to support the delaying action using smoke rounds."
+  "Scheme of Maneuver briefed by Black 6"
   m_aVisibleForFactions {
    "US"
   }
@@ -147,17 +139,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "These forces, which were sucessfully cut of from friendly forces by the prior LStR-40 air assault, are now being encircled west of Isomaki."\
   ""\
   "However, 20 minutes ago, one of the regiments reconnaissance platoons spotted a US force consisting of tanks and mechanized infantry, moving southwards in the direction of Isomaki and Nyrhilanmaki."\
-  "While that force appeared to be only company to battalion sized, it is likely part of a larger unit covered by the armored cavalry regiment."\
+  "While that force appeared to be only company to battalion sized, it is likely part of a larger unit previously covered by the armored cavalry regiment."\
   ""\
   "Enemy intent may be to attack 2300 Btn before it destroys the encircled cavalry troop."\
   ""\
   ""\
   "<b>b. Friendly Forces</b>"\
   ""\
+  "A force consisting of remaining airmobile infantry and some tanks covers 2300 battalion to the north east."\
+  ""\
   "One infantry platoon of the LStR-40 (30, 31, 32, 33), located around Nyrhilanmaki and Isomaki."\
   "The rest of the company, together with casualties, departed after the area had initially been secured, however Mi-24P support (Falke 1+2) remains available."\
   ""\
-  "One T-72 platoon (2327, 2328, 2329) of the Panzer Regiment 23, currently near Isomaki. The remaining tanks are still in engagement with forces of the American heavy cavalry troop, and will not be available for another hour."
+  "One T-72 platoon (2327, 2328, 2329) of the Panzer Regiment 23, currently near Isomaki. The remaining tanks are still in engagement with forces of the American heavy cavalry troop, and will not be available for another hour."\
+  ""\
+  "Two SPW-40P2 reconnaissance vehicles are also available."
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -166,7 +162,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  N2_Mission {
   coords 0 0 0
   m_sTitle "II. MISSION"
-  m_sTextData "<b>Defend Nyrhilanmaki and Isomaki for at least 1 hour.</b>"
+  m_sTextData "<b>Cover the tank battalion by defending Nyrhilanmaki and Isomaki for at least 1 hour.</b>"
   m_aVisibleForFactions {
    "GC_NVA"
   }

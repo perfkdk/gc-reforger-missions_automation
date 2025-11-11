@@ -1,7 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  G0_Background {
   m_sTitle "Background"
-  m_sTextData "1989, Germany. War has broken out between NATO and the Warsaw Pact, and Soviet Forces are advancing deeper and deeper into the northern plains of West Germany together with the NVA, aiming to reach the Rhine by day 6."\
+  m_sTextData "1987, Germany. War has broken out between NATO and the Warsaw Pact, and Soviet Forces are advancing deeper and deeper into the northern plains of West Germany together with the NVA, aiming to reach the Rhine by day 6."\
   ""\
   "In this sector, the Panzer Regiment 22 \"Soja Kosmodemjanskaja\" of the East German 9. Panzer Division is leading the advance."\
   ""\

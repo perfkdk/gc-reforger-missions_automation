@@ -98,7 +98,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_PLT_TANK {
   coords 1650 66.225 1350
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -111,7 +111,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -36 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_fWorldSize 50
     m_aVisibleForFactions {
@@ -124,7 +124,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_PLT_CFV {
   coords 2550 61.094 1150
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -137,7 +137,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -36 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_fWorldSize 50
     m_aVisibleForFactions {
@@ -150,7 +150,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_MORTAR {
   coords 5211.799 60.563 5240.57
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -163,7 +163,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -13.5 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_sQuadName "0"
     m_fWorldSize 18.75
@@ -177,7 +177,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  NVA_heli_tp {
   coords 6550 96.656 1350
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
@@ -190,7 +190,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_SUPPLY {
   coords 5442.188 60.563 6240.293
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -203,7 +203,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -13.5 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_sQuadName "0"
     m_fWorldSize 18.75
@@ -217,7 +217,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_DEPOT {
   coords 5950 56.406 7300
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -230,7 +230,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_CDR {
   coords 4850 59.193 5300
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -243,7 +243,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -13.5 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_sQuadName "0"
     m_fWorldSize 18.75
@@ -257,7 +257,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_XO {
   coords 5278.077 60.563 5195.754
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -270,7 +270,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -13.5 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_sQuadName "0"
     m_fWorldSize 18.75
@@ -284,7 +284,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_1SG {
   coords 5242.803 60.563 5174.571
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -297,7 +297,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -13.5 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_sQuadName "1"
     m_fWorldSize 18.75
@@ -311,7 +311,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_MED {
   coords 5159.58 57.945 5186.713
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -324,7 +324,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -13.5 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_sQuadName "0"
     m_fWorldSize 18.75
@@ -338,7 +338,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_MAINT {
   coords 4881.035 59.193 5333.374
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -351,7 +351,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -13.5 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_sQuadName "0"
     m_fWorldSize 18.75
@@ -365,7 +365,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_SQ1 {
   coords 5351.502 60.88 5112.408
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -378,7 +378,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -13.5 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_sQuadName "1"
     m_fWorldSize 18.75
@@ -392,7 +392,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_SQ2 {
   coords 4815.646 60.218 5348.441
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -405,7 +405,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -13.5 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_sQuadName "1"
     m_fWorldSize 18.75
@@ -419,7 +419,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_NVACoy {
   coords 6650 60.563 1250
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 0.75
@@ -433,7 +433,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -105 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_sQuadName "4"
     m_fWorldSize 100
@@ -446,7 +446,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_HeliTP {
   coords 6500 60.563 3000
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 0.75
@@ -459,7 +459,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  US_HeliATK {
   coords 6800 60.563 3000
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 0.75
