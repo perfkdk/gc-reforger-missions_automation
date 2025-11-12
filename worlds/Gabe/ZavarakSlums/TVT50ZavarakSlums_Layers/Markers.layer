@@ -12,7 +12,8 @@ PolylineShapeEntity CapZoneMarker : "{85222A2744768C81}Prefabs/Logic/AOLimit/TIL
    m_lineWidth 1
   }
  }
- coords 10423.317 163.187 11195.394
+ coords 10379.648 163.187 11070.97
+ scale 2.759
  Points {
   ShapePoint "{66BC00EC00D6DEB5}" {
    Position 5.852 0 -0.746
@@ -112,44 +113,46 @@ PolylineShapeEntity CapZoneMarker : "{85222A2744768C81}Prefabs/Logic/AOLimit/TIL
   }
  }
 }
-$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- CapZoneOpfor {
-  coords 10459.183 160.823 11200.585
-  m_queryRadius 30.7
-  m_captureTime 300
-  m_sendStatusMessages 1
-  m_statusMessages {
-   "The %1 WIN! They've taken control of %2." "The %1 are taking control of %2." "The %1 are no longer taking control of %2." "The %1 have lost control of %2." "The %1 are losing control of %2." "The %1 are no longer losing control of %2."
+$grp PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Objective_Base.et" {
+ CapMarkerText {
+  coords 10478.859 164.228 11084.954
+  angles 0 0 0
+  m_MarkerColor 0 0 0 0
+  m_sQuadName "circle"
+  m_fWorldSize 180
+  m_sDescription "Capture Area"
+  m_aHideOnGameModeStates {
+   GAME
   }
-  m_locationName "the objective"
-  m_drawShapeSurface 0
-  m_drawShapeOutline 0
-  m_ownerFactionKey "GC_INSURGENT"
-  m_ratioThreshold 0.51
  }
- CapZoneBlufor {
-  coords 10459.183 160.823 11200.585
-  m_queryRadius 30.7
-  m_captureTime 300
-  m_sendStatusMessages 1
-  m_statusMessages {
-   "The %1 WINS! They've taken control of %2." "The %1 is taking control of %2." "The %1 is no longer taking control of %2." "The %1 has lost control of %2." "The %1 is losing control of %2." "The %1 is no longer losing control of %2."
+ UAZMarker {
+  coords 10703.952 168.008 11124.915
+  m_sImageSetGlow "{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset"
+  m_MarkerColor 0.334 0.003 0.003 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 40
+  m_sDescription "2x PKM mounted jeeps"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
   }
-  m_locationName "the objective"
-  m_setShapeColor 0.175 0.01 0.01 1
-  m_ownerFactionKey "RHS_USAF"
-  m_ratioThreshold 0.51
+  m_bVisibleForEmptyFaction 0
+  m_bShowForAnyFaction 0
  }
 }
-PS_ManualMarker CapZoneMarkerText : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Objective_Base.et" {
- coords 10458.427 160.995 11240.328
- angleY 0
- m_MarkerColor 0 0 0 0
- m_sQuadName "circle-2"
- m_fWorldSize 140
- m_sDescription "Objective Capture Zone"
- m_aHideOnGameModeStates {
-  1
+$grp PS_ManualMarker : "{BC5F78D7A380E856}PrefabsEditable/Markers/Group/Marker_GroupFlagsIndfor_Base.et" {
+ SpawnMarkerOpfor {
+  coords 10893.517 175.286 10739.763
+  angles 0 90 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
+  m_MarkerColor 0.623 0.022 0.022 1
+  m_fWorldSize 90
  }
- m_iZOrder 0
+ SpawnMarkerBlufor {
+  coords 10219.005 173.381 10670.203
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+  m_MarkerColor 0.016 0.308 0.58 1
+  m_fWorldSize 60
+ }
 }
