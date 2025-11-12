@@ -75,10 +75,10 @@ $grp GenericEntity : "{1D0B32AA80873228}Prefabs/Props/Wrecks/LAV25_wreck.et" {
    TILW_NavmeshRegenComponent "{655E8E4B6F4A36F1}" {
    }
   }
-  coords 2069.394 20.632 3631.312
-  angleX 0.715
-  angleY 142.965
-  angleZ -0.54
+  coords 2071.969 20.709 3626.437
+  angleX 0.601
+  angleY 132.183
+  angleZ -0.664
   {
    ParticleEffectEntity {
     coords -0.244 1.138 -0.572
@@ -116,14 +116,14 @@ $grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.e
   scale 1.5
  }
  {
-  coords 2056.85 0 3642.315
+  coords 2052.865 0.07 3642.459
   angleX -87.467
   angleY 134.493
   angleZ 142.398
   scale 1.5
  }
  {
-  coords 2062.763 0.004 3641.118
+  coords 2061.266 -0.01 3639.843
   angleX -87.467
   angleY 134.493
   angleZ 142.398
@@ -138,12 +138,16 @@ GenericEntity : "{3872E0C19D19A045}Prefabs/Structures/Wreck/pickup.et" {
 }
 $grp GenericEntity : "{AE300E34EA8FF40C}Prefabs/Props/Wrecks/Ural4320_wreck_static.et" {
  {
-  coords 1996.052 16.76 3767.742
+  coords 1996.067 16.257 3767.726
   angleX 1.848
   angleY 91.9
   angleZ -1.729
  }
  {
+  components {
+   TILW_NavmeshRegenComponent "{665EB5CEDE483A57}" {
+   }
+  }
   coords 2050.066 18.908 3681.915
   angleX -5.615
   angleY -164.287
@@ -160,7 +164,7 @@ GenericEntity : "{B67A4797AED7B3BC}Prefabs/Structures/Wreck/ikarus.et" {
 }
 $grp DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.et" {
  {
-  coords 2060.945 0.111 3638.853
+  coords 2057.833 0.123 3637.261
   angleX -87.467
   angleY 134.38
   angleZ 43.956
