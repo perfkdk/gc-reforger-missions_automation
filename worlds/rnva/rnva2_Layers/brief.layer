@@ -63,7 +63,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  U2_Mission {
   coords 0 0 0
   m_sTitle "II. MISSION"
-  m_sTextData "<b>RED and WHITE platoons must DELAY the NVA tank battalion by at least X minutes, before retreating to Pihlajamaa (023 068).</b>"
+  m_sTextData "<b>RED and WHITE platoons must DELAY the NVA tank battalion by at least 45 minutes, before retreating to Pihlajamaa (023 068).</b>"
   m_aVisibleForFactions {
    "US"
   }
@@ -173,7 +173,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Purpose: Destroy the cut off enemy force"\
   "Key Tasks:"\
   "- Advance to contact"\
-  "- Destroy the enemy force, avoid bypassing enemies"\
+  "- Destroy the enemy force, attempt to maintain momentum"\
   "End State:"\
   "- The battalion has reached the area west of Ruha / Isomaki"\
   "- Enemies have either been destroyed, or retreated towards Pihlajamaa"\

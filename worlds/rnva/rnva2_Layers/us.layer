@@ -1,9 +1,7 @@
 $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
  M2A2_1 {
   coords 3210.127 66.171 3448.138
-  angleX -5.644
-  angleY 71.258
-  angleZ 0.03
+  angles -5.644 71.258 0.03
   m_sAttachmentGroupName "GR_M2A2_1"
   {
    SCR_AIGroup GR_M2A2_1 : "{3CC80518BD9541C4}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_TankCrew_P.et" {
@@ -14,9 +12,11 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
      }
     }
     coords -5 0 1
-    angleY 90
+    angles 0 90 0
     m_aUnitPrefabSlots {
-     "{45E7181593DEFC6E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Crew_PL_P.et" "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Gunner_P.et" "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
+     "{45E7181593DEFC6E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Crew_PL_P.et"
+     "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Gunner_P.et"
+     "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
     }
     m_sCustomNameSet "Scout Plt | 1st CFV"
    }
@@ -24,9 +24,7 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
  }
  M2A2_2 {
   coords 3189.69 68.239 3442.28
-  angleX -5.611
-  angleY 77.775
-  angleZ -0.609
+  angles -5.611 77.775 -0.609
   m_sAttachmentGroupName "GR_M2A2_2"
   {
    SCR_AIGroup GR_M2A2_2 : "{3CC80518BD9541C4}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_TankCrew_P.et" {
@@ -37,16 +35,14 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
      }
     }
     coords -5 0 1
-    angleY 90
+    angles 0 90 0
     m_sCustomNameSet "Scout Plt | 2nd CFV"
    }
   }
  }
  M2A2_3 {
   coords 3152.525 69.866 3436.982
-  angleX -2.773
-  angleY 82.948
-  angleZ -0.558
+  angles -2.773 82.948 -0.558
   m_sAttachmentGroupName "GR_M2A2_3"
   {
    SCR_AIGroup GR_M2A2_3 : "{3CC80518BD9541C4}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_TankCrew_P.et" {
@@ -57,16 +53,14 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
      }
     }
     coords -5 0 1
-    angleY 90
+    angles 0 90 0
     m_sCustomNameSet "Scout Plt | 3rd CFV"
    }
   }
  }
  M2A2_4 {
   coords 3132.528 70.711 3433.806
-  angleX -0.876
-  angleY 78.247
-  angleZ 0.182
+  angles -0.876 78.247 0.182
   m_sAttachmentGroupName "GR_M2A2_4"
   {
    SCR_AIGroup GR_M2A2_4 : "{3CC80518BD9541C4}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_TankCrew_P.et" {
@@ -77,9 +71,11 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
      }
     }
     coords -5 0 1
-    angleY 90
+    angles 0 90 0
     m_aUnitPrefabSlots {
-     "{240CF1FD74E49B72}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Crew_PSG_P.et" "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Gunner_P.et" "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
+     "{240CF1FD74E49B72}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Crew_PSG_P.et"
+     "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Gunner_P.et"
+     "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
     }
     m_sCustomNameSet "Scout Plt | 4th CFV"
    }
@@ -87,9 +83,7 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
  }
  M2A2_5 {
   coords 3100.471 72.202 3432.423
-  angleX -3.996
-  angleY 115.135
-  angleZ 0.1
+  angles -3.996 115.135 0.1
   m_sAttachmentGroupName "GR_M2A2_5"
   {
    SCR_AIGroup GR_M2A2_5 : "{3CC80518BD9541C4}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_TankCrew_P.et" {
@@ -100,16 +94,14 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
      }
     }
     coords -5 0 1
-    angleY 90
+    angles 0 90 0
     m_sCustomNameSet "Scout Plt | 5th CFV"
    }
   }
  }
  M2A2_6 {
   coords 3090.052 73.106 3449.392
-  angleX -1.732
-  angleY 165.355
-  angleZ 0.452
+  angles -1.732 165.355 0.452
   m_sAttachmentGroupName "GR_M2A2_6"
   {
    SCR_AIGroup GR_M2A2_6 : "{3CC80518BD9541C4}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_TankCrew_P.et" {
@@ -120,15 +112,15 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
      }
     }
     coords -5 0 1
-    angleY 90
+    angles 0 90 0
     m_sCustomNameSet "Scout Plt | 6th CFV"
    }
   }
  }
 }
 Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
- coords 3145.788 61.164 5046.375
- angleY -180
+ coords 3153.277 64.367 5093.954
+ angles 0 180 0
 }
 GenericEntity : "{E1FD1ACDA98123AE}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Mortar_US.et" {
  components {
@@ -136,17 +128,13 @@ GenericEntity : "{E1FD1ACDA98123AE}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/A
    Enabled 0
   }
  }
- coords 3147.722 61.007 5043.24
- angleX 4.388
- angleY 4.307
- angleZ 1.225
+ coords 3157.561 64.466 5093.483
+ angles -4.451 -85.086 -0.382
 }
 $grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
  M1A1_1 {
   coords 3124.631 64.815 3318.671
-  angleX -3.781
-  angleY 139.492
-  angleZ -0.297
+  angles -3.781 139.492 -0.297
   m_sAttachmentGroupName "GR_M1A1_1"
   {
    SCR_AIGroup GR_M1A1_1 : "{3CC80518BD9541C4}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_TankCrew_P.et" {
@@ -157,9 +145,11 @@ $grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
      }
     }
     coords -5 0 1
-    angleY 90
+    angles 0 90 0
     m_aUnitPrefabSlots {
-     "{45E7181593DEFC6E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Crew_PL_P.et" "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Gunner_P.et" "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
+     "{45E7181593DEFC6E}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Crew_PL_P.et"
+     "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Gunner_P.et"
+     "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
     }
     m_sCustomNameSet "Tank Plt | 1st Tank"
    }
@@ -167,9 +157,7 @@ $grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
  }
  M1A1_2 {
   coords 3111.77 66.564 3335.938
-  angleX -4.736
-  angleY 148.167
-  angleZ 0.837
+  angles -4.736 148.167 0.837
   m_sAttachmentGroupName "GR_M1A1_2"
   m_bEnableMoveOnFreeze 0
   {
@@ -181,16 +169,14 @@ $grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
      }
     }
     coords -5 0 1
-    angleY 90
+    angles 0 90 0
     m_sCustomNameSet "Tank Plt | 2nd Tank"
    }
   }
  }
  M1A1_3 {
   coords 3100.923 68.37 3355.384
-  angleX -3.991
-  angleY 150.288
-  angleZ 0.219
+  angles -3.991 150.288 0.219
   m_sAttachmentGroupName "GR_M1A1_3"
   {
    SCR_AIGroup GR_M1A1_3 : "{3CC80518BD9541C4}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_TankCrew_P.et" {
@@ -201,16 +187,14 @@ $grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
      }
     }
     coords -5 0 1
-    angleY 90
+    angles 0 90 0
     m_sCustomNameSet "Tank Plt | 3rd Tank"
    }
   }
  }
  M1A1_4 {
   coords 3082.123 70.24 3371.843
-  angleX -3.674
-  angleY 108.738
-  angleZ -0.302
+  angles -3.674 108.738 -0.302
   m_sAttachmentGroupName "GR_M1A1_4"
   {
    SCR_AIGroup GR_M1A1_4 : "{3CC80518BD9541C4}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/P/Group_US_1986_BDU_TankCrew_P.et" {
@@ -221,9 +205,11 @@ $grp Tank : "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et" {
      }
     }
     coords -5 0 1
-    angleY 90
+    angles 0 90 0
     m_aUnitPrefabSlots {
-     "{240CF1FD74E49B72}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Crew_PSG_P.et" "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Gunner_P.et" "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
+     "{240CF1FD74E49B72}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Crew_PSG_P.et"
+     "{7B1C194621AD2553}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Gunner_P.et"
+     "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
     }
     m_sCustomNameSet "Tank Plt |  4th Tank"
    }
@@ -240,10 +226,12 @@ SCR_AIGroup GR_MortarCrew : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Ba
    m_iSquadCallsign 9
   }
  }
- coords 3150.976 59.855 5052.385
- angleY -150
+ coords 3149.529 64.504 5095.226
+ angles 0 95.142 0
  m_aUnitPrefabSlots {
-  "{B66846EB4BB8DDF4}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_Mortar_CO_P.et" "{7AEA5186DB627E37}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_Mortar_Crew_P.et" "{7AEA5186DB627E37}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_Mortar_Crew_P.et"
+  "{B66846EB4BB8DDF4}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_Mortar_CO_P.et"
+  "{7AEA5186DB627E37}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_Mortar_Crew_P.et"
+  "{7AEA5186DB627E37}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_Mortar_Crew_P.et"
  }
  m_sCustomNameSet "Mortar"
 }
