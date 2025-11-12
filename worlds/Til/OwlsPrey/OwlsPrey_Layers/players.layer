@@ -282,10 +282,10 @@ $grp SCR_AIGroup : "{CDEFFCB07F55B3FE}Prefabs/Groups/BLUFOR/CDF/SF_Modern/P/Grou
   m_aUnitPrefabSlots {
    "{23C9B89FC7F8AAC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_SL_P.et"
    "{D1FBE13EAB61C796}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_MG_P.et"
-   "{3B9C52956CA502B4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_AT_P.et"
+   "{936D0986ACB56F7F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_Rifleman_P.et"
    "{F14F88995E8F0EC2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_TL_P.et"
    "{5C767BC4AF3CF8E4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_GL_P.et"
-   "{936D0986ACB56F7F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_Operator_P.et"
+   "{A89A2A9440D3326D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_RiflemanAT_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "2nd Team"
@@ -304,10 +304,10 @@ $grp SCR_AIGroup : "{CDEFFCB07F55B3FE}Prefabs/Groups/BLUFOR/CDF/SF_Modern/P/Grou
   m_aUnitPrefabSlots {
    "{23C9B89FC7F8AAC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_SL_P.et"
    "{D1FBE13EAB61C796}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_MG_P.et"
-   "{3B9C52956CA502B4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_AT_P.et"
+   "{936D0986ACB56F7F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_Rifleman_P.et"
    "{F14F88995E8F0EC2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_TL_P.et"
    "{5C767BC4AF3CF8E4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_GL_P.et"
-   "{936D0986ACB56F7F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_Operator_P.et"
+   "{A89A2A9440D3326D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_RiflemanAT_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Team"
@@ -326,10 +326,10 @@ $grp SCR_AIGroup : "{CDEFFCB07F55B3FE}Prefabs/Groups/BLUFOR/CDF/SF_Modern/P/Grou
   m_aUnitPrefabSlots {
    "{23C9B89FC7F8AAC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_SL_P.et"
    "{D1FBE13EAB61C796}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_MG_P.et"
-   "{3B9C52956CA502B4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_AT_P.et"
+   "{936D0986ACB56F7F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_Rifleman_P.et"
    "{F14F88995E8F0EC2}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_TL_P.et"
    "{5C767BC4AF3CF8E4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_GL_P.et"
-   "{936D0986ACB56F7F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_Operator_P.et"
+   "{A89A2A9440D3326D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_SF/P/Character_CDF_Modern_SF_RiflemanAT_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd Team"
