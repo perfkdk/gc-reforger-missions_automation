@@ -133,22 +133,6 @@ DecalEntity : "{7C184D5F132A8987}Prefabs/Decals/Asphalt/Decal_Asphalt_Crossroad_
  Stretch 33.07
  ClutterOccluder 1
 }
-GenericEntity : "{A28E5D231A74D95D}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Equipment.et" {
- components {
-  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-   m_eSupportedArsenalItemTypes 65664
-  }
-  SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
-   m_aConsumers {
-    SCR_ResourceConsumerServicePoint "{5E5AE189C57A9FD7}" {
-     m_fBuyMultiplier 0
-    }
-   }
-  }
- }
- coords 6663.744 96.658 1175.64
- angles 0 -105 0
-}
 GenericEntity : "{E74D2F51CD4F03D0}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_US_01.et" {
  coords 4098.366 61.844 1351.497
  angles 0 47.541 0
