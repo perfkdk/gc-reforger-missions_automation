@@ -91,17 +91,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- Defend Nyrhilanmaki"\
   "- Defend the western building group"\
   "End State:"\
-  "- After X minutes, the enemies main force has not yet passed Ruha"\
-  "- RED and WHITE have regrouped near Pihlajamaa following the delaying action"\
+  "- After 60 minutes, the enemy has not yet taken both locations"\
   ""\
   ""\
   "<b>Concept of the operation</b>"\
   ""\
   "(1) Scheme of Maneuver"\
-  "As briefed by Red 1"\
+  "As briefed by Black 6"\
   ""\
   "(2) Fires"\
-  "One mortar (Black 8) is available, its primary purpose is to support the delaying action using smoke rounds."
+  "One mortar (Black 9) is available, usage as briefed by Black 6"
   m_aVisibleForFactions {
    "US"
   }

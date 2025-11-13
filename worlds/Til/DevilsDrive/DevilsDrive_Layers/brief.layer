@@ -111,13 +111,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>b. Signal</b>"\
   ""\
-  "RED platoon net (48.5MHz)"\
+  "RED platoon net (47.0MHz)"\
   "Red 1, Red 2, Red 3, Red 4"\
   ""\
-  "WHITE platoon net (49.0MHz)"\
+  "WHITE platoon net (48.0MHz)"\
   "White 1, White 2, White 3, White 4"\
   ""\
-  "BLUE platoon net (49.5MHz)"\
+  "BLUE platoon net (49.0MHz)"\
   "Blue 1, Blue 2, Blue 3, Blue 4"\
   ""\
   "COY net (50.0MHz)"\

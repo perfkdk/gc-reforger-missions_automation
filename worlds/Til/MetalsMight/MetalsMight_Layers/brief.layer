@@ -79,7 +79,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- Delay the enemy force"\
   "- Retreat towards Pihalajamaa, avoid being bypassed"\
   "End State:"\
-  "- After X minutes, the enemies main force has not yet passed Ruha"\
+  "- After 45 minutes, the enemies main force has not yet passed Ruha"\
   "- RED and WHITE have regrouped near Pihlajamaa following the delaying action"\
   ""\
   ""\
@@ -120,10 +120,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "RED platoon net (48.0MHz)"\
   "Red 1, Red 2, Red 3, Red 4, Red 5, Red 6"\
   ""\
-  "WHITE platoon net (48.5MHz)"\
+  "WHITE platoon net (49.0MHz)"\
   "White 1, White 2, White 3, White 4"\
   ""\
-  "BLACK troop net (49.0MHz)"\
+  "Troop net (50.0MHz)"\
   "RED (Red 1), WHITE (White 1), Black 9"\
   ""\
   "If preferred by Red 1, all elements may alternatively use 48.0MHz instead for the duration of the engagement."
@@ -231,9 +231,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "For brevity, the first 3 callsign digits can be omitted on the company/platoon nets, or the first 1 on the battalion net."\
   ""\
   "Battalion net - 44.0MHz"\
-  "2310 Company net - 42.5MHz"\
-  "2320 Company net - 43.0MHz"\
-  "2710 Platoon net - 43.5MHz"\
+  "2310 Company net - 40.0MHz"\
+  "2320 Company net - 41.0MHz"\
+  "2710 Platoon net - 43.0MHz"\
   ""\
   "There are no nets for individual tank platoons."
   m_aVisibleForFactions {
