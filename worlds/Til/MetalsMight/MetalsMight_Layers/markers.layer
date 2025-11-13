@@ -1,22 +1,165 @@
+$grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+ MapShape_Cover {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0 0 0 1
+   }
+  }
+  Points {
+   ShapePoint "{666761EA1F4B0129}" {
+    Position 0 0 0
+   }
+   ShapePoint "{666761EA1CB51D23}" {
+    Position 1000 -0.248 0
+   }
+   ShapePoint "{666761EA539D33EC}" {
+    Position 1000 -4.49 8192
+   }
+   ShapePoint "{666761EA5E3E7DF8}" {
+    Position 0 5.14 8192
+   }
+  }
+ }
+ MapShape_Cover2 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0 0 0 1
+   }
+  }
+  coords 6000 0 0
+  Points {
+   ShapePoint "{666761EA1F4B0129}" {
+    Position 0 0 0
+   }
+   ShapePoint "{666761EA1CB51D23}" {
+    Position 2192 -0.248 0
+   }
+   ShapePoint "{666761EA539D33EC}" {
+    Position 2192 -4.49 8192
+   }
+   ShapePoint "{666761EA5E3E7DF8}" {
+    Position 0 5.14 8192
+   }
+  }
+ }
+ MapShape_Cover3 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0 0 0 1
+   }
+  }
+  coords 1000 0 8000
+  Points {
+   ShapePoint "{666761EA1F4B0129}" {
+    Position 0 0 0
+   }
+   ShapePoint "{666761EA1CB51D23}" {
+    Position 5000 -0.248 0
+   }
+   ShapePoint "{666761EA539D33EC}" {
+    Position 5000 -4.49 192
+   }
+   ShapePoint "{666761EA5E3E7DF8}" {
+    Position 0 5.14 192
+   }
+  }
+ }
+ MapShape_DelayLine {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_factionKeys {
+     "US"
+    }
+    m_visibleForEmptyFaction 0
+    m_drawArea 0
+    m_drawLine 1
+    m_lineColor 0.016 0.552 0.905 0.6
+    m_lineWidth 10
+   }
+  }
+  coords 3400 65.459 5000
+  Points {
+   ShapePoint "{666761E214AE5028}" {
+    Position -100 -6.011 100
+   }
+   ShapePoint "{666761E21EB1806F}" {
+    Position 700 0 -700
+   }
+  }
+ }
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- us_tnkplt_1 {
-  coords 6050 55.594 7550
-  angleY 90
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ NVA_BTN {
+  coords 1600 66.225 500
+  angles 0 90 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 0.75
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "btn_hq"
+  m_fWorldSize 300
+  m_sDescription "2300"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+ }
+ NVA_COY1 {
+  coords 1450 62.25 450
+  angles 0 135 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "afv_coy"
+  m_fWorldSize 200
+  m_sDescription "2310"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+ }
+ NVA_COY2 {
+  coords 1850 62.133 550
+  angles 0 -180 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "afv_coy"
+  m_fWorldSize 200
+  m_sDescription "2320"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+ }
+ NVA_PLT {
+  coords 2050 66.031 1250
+  angles 0 45 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "automobile_plt"
+  m_fWorldSize 90
+  m_sDescription "2710"
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+ }
+ US_ENYBTN {
+  coords 1600 66.225 500
+  angles 0 90 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 0.75
   m_sQuadName "armored"
-  m_fWorldSize 96
-  m_sDescription "RED"
+  m_fWorldSize 575
+  m_sDescription "ENY TANK BTN"
   m_aVisibleForFactions {
    "US"
   }
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
-    coords -36 0 0
-    angleY 0
+    coords -200 0 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
-    m_fWorldSize 50
+    m_sQuadName "5"
+    m_fWorldSize 200
     m_aVisibleForFactions {
      "US"
     }
@@ -25,8 +168,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    }
   }
  }
- us_tnkplt_2 {
-  coords 5950 54.262 7650
+ US_PLT_TANK {
+  coords 3050 66.225 3346
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -39,7 +183,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -36 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_fWorldSize 50
     m_aVisibleForFactions {
@@ -50,21 +194,22 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    }
   }
  }
- us_bfvplt_3 {
-  coords 6050 54.262 7650
+ US_PLT_CFV {
+  coords 3150 66.225 3446
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
-  m_sQuadName "combined"
+  m_sQuadName "recon-motorized"
   m_fWorldSize 96
-  m_sDescription "BLUE"
+  m_sDescription "RED"
   m_aVisibleForFactions {
    "US"
   }
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
     coords -36 0 0
-    angleY 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_fWorldSize 50
     m_aVisibleForFactions {
@@ -75,25 +220,25 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    }
   }
  }
- us_tnkcoy {
-  coords 5950 55.594 7550
-  angleY 90
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ US_ENYCOY {
+  coords 4900 66.225 5300
+  angles 0 90 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 0.75
-  m_sQuadName "armored"
-  m_fWorldSize 96
-  m_sDescription "BLACK"
+  m_MarkerColor 0.502 0 0 0.75
+  m_sQuadName "infantry"
+  m_fWorldSize 288
+  m_sDescription "ENY INF COY"
   m_aVisibleForFactions {
    "US"
   }
   {
    PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
-    coords -36 0 0
-    angleY 0
+    coords -100 0 0
+    angles 0 0 0
     m_MarkerColor 0 0 0 0.75
     m_sQuadName "4"
-    m_fWorldSize 50
+    m_fWorldSize 100
     m_aVisibleForFactions {
      "US"
     }
@@ -102,79 +247,40 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    }
   }
  }
- nva_atkh {
-  coords 6550 96.656 1250
-  angleY 90
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+ US_MORTAR {
+  coords 3150 64.124 5098
+  angles 0 90 0
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "helicopter_atk"
-  m_fWorldSize 125
-  m_sDescription "Falke"
+  m_MarkerColor 1 1 1 0.75
+  m_sQuadName "mortar"
+  m_fWorldSize 48
+  m_sDescription "Black 9"
   m_aVisibleForFactions {
-   "GC_NVA"
+   "US"
+  }
+  {
+   PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_AMP.et" {
+    coords -18 0 0
+    angles 0 0 0
+    m_MarkerColor 0 0 0 0.75
+    m_sQuadName "1"
+    m_fWorldSize 25
+    m_aVisibleForFactions {
+     "US"
+    }
+    m_bVisibleForEmptyFaction 0
+    m_bShowForAnyFaction 0
+   }
   }
  }
- nva_tanks {
-  coords 4641.742 59.25 5241.742
-  angleY 135
+ NVA_INFCOY {
+  coords 5100 66.031 5300
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
-  m_sQuadName "afv_plt"
-  m_fWorldSize 150
-  m_sDescription "2327"
-  m_aVisibleForFactions {
-   "GC_NVA"
-  }
- }
- nva_sq2 {
-  coords 5250 62.502 5950
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "op"
-  m_fWorldSize 250
-  m_sDescription "32"
-  m_aVisibleForFactions {
-   "GC_NVA"
-  }
- }
- nva_sq1 {
-  coords 5314.202 58.579 5297.037
-  angleY 113.216
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "fp"
-  m_fWorldSize 500
-  m_sDescription "31"
-  m_aVisibleForFactions {
-   "GC_NVA"
-  }
- }
- nva_sq3 {
-  coords 4634.398 68.533 5559.286
-  angleY 160
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "fp"
-  m_fWorldSize 500
-  m_sDescription "33"
-  m_aVisibleForFactions {
-   "GC_NVA"
-  }
- }
- nva_recon {
-  coords 5550 53.812 5750
-  angleY 90
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "automobile_plt"
-  m_fWorldSize 100
-  m_sDescription "710"
+  m_sQuadName "coy_hq"
+  m_fWorldSize 200
   m_aVisibleForFactions {
    "GC_NVA"
   }

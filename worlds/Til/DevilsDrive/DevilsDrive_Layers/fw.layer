@@ -1,69 +1,101 @@
-TILW_PresenceTriggerEntity nva_obj : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
- coords 3907.344 58.082 5239.227
- m_queryRadius 600
- m_captureTime 30
- m_flagName "nva_obj"
- m_stopAfterFirstChange 1
- m_drawShapeSurface 0
- m_entityNames {
-  "T72A_00"
-  "T72A_10"
-  "T72A_11"
-  "T72A_12"
-  "T72A_13"
-  "T72A_14"
-  "T72A_15"
-  "T72A_16"
-  "T72A_17"
-  "T72A_18"
-  "T72A_19"
-  "T72A_20"
-  "T72A_21"
-  "T72A_22"
-  "T72A_23"
-  "T72A_24"
-  "T72A_25"
-  "T72A_26"
-  "T72A_27"
-  "T72A_28"
-  "T72A_29"
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ cap_isomaki {
+  coords 4512.527 68.317 5514.927
+  m_queryRadius 130
+  m_sendStatusMessages 1
+  m_locationName "Isomaki"
+  m_flagName "cap_isomaki"
+  m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
+  m_ownerFactionKey "US"
+  m_ratioThreshold 0.9
+  {
+   PS_ManualMarker marker_isomaki : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    angleY 0
+    m_sImageSetGlow ""
+    m_MarkerColor 0 0 0 0.5
+    m_fWorldSize 390
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
  }
- m_ratioThreshold 0.7
+ cap_nyrhilanmaki {
+  coords 5262.938 62.024 5177.516
+  m_queryRadius 130
+  m_sendStatusMessages 1
+  m_locationName "Nyrhilanmaki"
+  m_flagName "cap_nyrhilanmaki"
+  m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
+  m_ownerFactionKey "US"
+  m_ratioThreshold 0.9
+  {
+   PS_ManualMarker marker_nyrhilanmaki : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    angleY 0
+    m_sImageSetGlow ""
+    m_MarkerColor 0 0 0 0.5
+    m_fWorldSize 390
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
+ }
 }
 TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  m_missionEvents {
-  TILW_MissionEvent "{666178CAED41880C}" {
-   m_name "Mission Start"
+  TILW_MissionEvent "{668CC1B8897F7543}" {
+   m_name "US Victory"
    m_instructions {
-    TILW_SetFlagInstruction "{666178CAC4828AE8}" {
-     m_executionDelay 2700
-     m_flagName "nva_delayed"
+    TILW_SendMessageInstruction "{668CC1B8E0273B5D}" {
+     m_messageTitle "US VICTORY"
+     m_messageBody "US forces took control of both objectives."
     }
-    TILW_SendMessageInstruction "{6666C7AFF474011E}" {
-     m_executionDelay 2700
-     m_messageTitle "ENEMY DELAYED"
-     m_messageBody "You have delayed the enemy battalion by 40 minutes, and may now retreat towards Pihlajamaa."
-     m_factionKeys {
-      "US"
+   }
+   m_condition TILW_ConjunctionTerm "{668CC1B891D39394}" {
+    m_operands {
+     TILW_LiteralTerm "{668CC1B89452E7AD}" {
+      m_flagName "cap_isomaki"
+     }
+     TILW_LiteralTerm "{668CC1B895A90DA2}" {
+      m_flagName "cap_nyrhilanmaki"
      }
     }
    }
-   m_condition TILW_LiteralTerm "{666178CAF7D74E02}" {
+  }
+  TILW_MissionEvent "{668CC1B8FF6585F1}" {
+   m_name "Minor NVA Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{668CC1B8C16A8244}" {
+     m_executionDelay 3600
+     m_messageTitle "MINOR NVA VICTORY"
+     m_messageBody "US forces failed to take control of both objectives within 60 minutes."
+    }
+   }
+   m_condition TILW_LiteralTerm "{668CC1B8DD13CE1A}" {
     m_invertTerm 1
    }
   }
-  TILW_MissionEvent "{6666C7AE0E89E59A}" {
-   m_name "NVA reaches location"
+  TILW_MissionEvent "{668CC1B8FF8FB6EC}" {
+   m_name "Major NVA Victory"
    m_instructions {
-    TILW_SendMessageInstruction "{6666C7AE652FCB2E}" {
-     m_messageTitle "NVA REACHES RUHA"
-     m_messageBody "Forces of the Panzer Regiment 22 have reached Ruha."\
-     "With no other option, surviving US forces are falling back towards Pihlajamaa."
+    TILW_SendMessageInstruction "{668CC187347F9778}" {
+     m_messageTitle "MAJOR NVA VICTORY"
+     m_messageBody "US forces suffered severe casualties."
     }
    }
-   m_condition TILW_LiteralTerm "{6666C7AE19FFEAD3}" {
-    m_flagName "nva_obj"
+   m_condition TILW_LiteralTerm "{668CC1872B77E0FB}" {
+    m_flagName "us_cas"
    }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{668CC1872EB6FF01}" {
+   m_flagName "us_cas"
+   m_factionKey "US"
+   m_casualtyRatio 0.8
   }
  }
 }
