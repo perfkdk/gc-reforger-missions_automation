@@ -106,7 +106,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "V. COMMAND AND CONTROL"
   m_sTextData "<b>a. Command</b>"\
   ""\
-  "-"\
+  "Black is located just north of Kelloja together with all platoons"\
   ""\
   ""\
   "<b>b. Signal</b>"\
@@ -121,7 +121,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Blue 1, Blue 2, Blue 3, Blue 4"\
   ""\
   "COY net (50.0MHz)"\
-  "Black 6, Black 5, Black 7, RED (Red 1), WHITE (White 1), BLUE (Blue 1)"
+  "Black 6, Black 5, Black 7, RED (Red 1), WHITE (White 1), BLUE (Blue 1)"\
+  ""\
+  ""\
+  "If COY net is insufficient for this purpose, Black elements can use 51.0MHz for internal comms."
   m_aVisibleForFactions {
    "US"
   }
