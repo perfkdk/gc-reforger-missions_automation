@@ -122,7 +122,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  TruckSpawn_15 {
   coords 6090.164 418.274 6239.724
   angles 0 90 0
-  m_prefab "{72022288D7256096}worlds/HitTheMan/Stealthing Into Villa/Prefab/TruckMarker.et"
+  m_prefab "{1F3E8F0AF3768EDD}worlds/HitTheMan/Stealthing Into Villa/Prefab/FuelTruckMarkerV2.et"
   m_conditionFlag "TruckSpawn1"
   m_spawnTimings {
    1
@@ -132,7 +132,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  TruckSpawn_25 {
   coords 6125.226 39.199 7966.065
   angles 0 90 0
-  m_prefab "{72022288D7256096}worlds/HitTheMan/Stealthing Into Villa/Prefab/TruckMarker.et"
+  m_prefab "{1F3E8F0AF3768EDD}worlds/HitTheMan/Stealthing Into Villa/Prefab/FuelTruckMarkerV2.et"
   m_conditionFlag "TruckSpawn2"
   m_spawnTimings {
    1
@@ -142,7 +142,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  TruckSpawn_35 {
   coords 5462.401 18.694 3104.061
   angles 0 90 0
-  m_prefab "{72022288D7256096}worlds/HitTheMan/Stealthing Into Villa/Prefab/TruckMarker.et"
+  m_prefab "{1F3E8F0AF3768EDD}worlds/HitTheMan/Stealthing Into Villa/Prefab/FuelTruckMarkerV2.et"
   m_conditionFlag "TruckSpawn3"
   m_spawnTimings {
    1

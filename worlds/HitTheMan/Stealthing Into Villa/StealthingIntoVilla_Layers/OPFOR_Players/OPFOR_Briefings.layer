@@ -10,7 +10,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1x Rifle Platoon (-)"\
   ""\
   "Location: "\
-  "Somewhere Island of Skalisty"\
+  "We know they've likely sent some infiltrators.. their whereabouts is unknown as of this moment, intel peps are working hard to try and get more information."\
   ""\
   "MLCOA:"\
   "Find a opening to sneak past our platoons, destroy whatever it is and kill our Commander"\
@@ -22,6 +22,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "No known threat at this time."
   m_aVisibleForFactions {
    "USSR"
+   "CIV"
   }
   m_iOrder 2
  }
@@ -49,6 +50,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1x Fuel Truck + UAZ PKM"
   m_aVisibleForFactions {
    "USSR"
+   "CIV"
   }
   m_iOrder 3
  }
@@ -57,9 +59,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Mission:"
   m_sTextData "Patrol our assigned area, prevent the destruction of our vital Infastructure (Antenna, Generators) and Ammunition that has arrived by boat.. and make sure our Supreme Commander does not get killed.. Nor the destruction of our Mi-24"\
   ""\
-  "Our Mi-24 is currently out of fuel, a fuel truck will be arriving shortly coming in from the East. If the Fuel Truck does not make it, the Mi-24 will be stranded on the ground and useless."
+  "Our Mi-24 is currently out of fuel, a fuel truck will be arriving shortly coming in from the East. If the Fuel Truck does not make it, the Mi-24 will be stranded on the ground and be useless."
   m_aVisibleForFactions {
    "USSR"
+   "CIV"
   }
   m_iOrder 4
  }
@@ -77,6 +80,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""
   m_aVisibleForFactions {
    "USSR"
+   "CIV"
   }
   m_iOrder 5
  }
@@ -99,7 +103,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "None."\
   ""\
   "IV. Vehicles:"\
-  "1x Mi-24s"\
+  "1x Mi-24 - Has 8x Troop Transport Capability"\
   "- 1470x 12.7x108mm YakB"\
   "- 500x UPK-23"\
   "- 40x 80mm HEDP S-8KO"\
@@ -112,6 +116,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""
   m_aVisibleForFactions {
    "USSR"
+   "CIV"
   }
   m_iOrder 6
  }
@@ -145,6 +150,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Air Net						- 43.00"
   m_aVisibleForFactions {
    "USSR"
+   "CIV"
   }
   m_iOrder 7
  }

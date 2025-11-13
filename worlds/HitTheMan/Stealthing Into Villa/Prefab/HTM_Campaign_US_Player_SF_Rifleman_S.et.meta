@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{20F6DAED238AF6A7}worlds/HitTheMan/Air Assault Onto Skalisty/Prefab/Campaign_US_Player_SF_TL_S_HTM.et"
+ Name "{8E2F0877D2277F5C}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/GreenBerets/Suppressed/HTM_Campaign_US_Player_SF_Rifleman_S.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
