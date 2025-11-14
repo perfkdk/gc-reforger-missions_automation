@@ -3,10 +3,26 @@ SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
 PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
 }
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{66DCB8DE65FFD60A}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingHour 11
+    }
+    SCR_TimeAndWeatherState "{66DCB8DE6A61799C}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 11
+    }
+   }
+  }
+ }
+ m_iFreezeTime 240000
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{66DB544ED0C16303}" {
    m_sFactionKey "GC_SEPARATIST"
-   m_iCount 10
+   m_iCount 8
   }
  }
  {
@@ -39,6 +55,33 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
       m_sCallsignGroupFormat "%3"
      }
     }
+    SCR_Faction "{62EB308733CA83DD}" {
+     FactionColor 0.502 0 0 1
+     UIInfo SCR_FactionUIInfo "{62EB259E4C94C2BD}" {
+      Name "Partisans"
+      Icon "{E48FCDDD5132A4F8}UI/Textures/InventoryIcons/Disabled_slot_V4.edds"
+     }
+     m_OutlineFactionColor 0.227 0 0 1
+     m_NotificationFactionColor 0.227 0 0 1
+     m_NotificationTextFactionColor 0.502 0 0 1
+     m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{58B2B630FDD64B6D}" {
+        m_sCallsign "0"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B53}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B51}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B50}" {
+        m_sCallsign "3"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
+     }
+    }
    }
   }
  }
@@ -46,6 +89,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
 PolylineShapeEntity ao_us : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_killTimer 30
    m_factionKeys {
     "US"
    }
@@ -113,9 +157,6 @@ PolylineShapeEntity ao_us : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimi
   ShapePoint "{66DB5442F9DF8D3F}" {
    Position 1000 0 400
   }
-  ShapePoint "{66DB5442CA33315B}" {
-   Position 900 0 300
-  }
   ShapePoint "{66DB5442C914DB7F}" {
    Position 800 0 200
   }
@@ -129,4 +170,72 @@ PolylineShapeEntity ao_us : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimi
    Position 100 0 0
   }
  }
+ {
+  PolylineShapeEntity ao_sep : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+   components {
+    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+     m_killTimer 30
+     m_factionKeys {
+      "GC_SEPARATIST"
+     }
+     m_defaultColor 0.502 0 0 1
+     m_useFactionColor 0
+     m_lineWidth 5
+    }
+   }
+   coords 0 0 0
+   Points {
+    ShapePoint "{66DB5440EA93B24B}" {
+     Position 900 0 700
+    }
+    ShapePoint "{66DB5440C0211FA0}" {
+     Position 1500 0 700
+    }
+    ShapePoint "{66DB54432106A790}" {
+     Position 1600 0 800
+    }
+    ShapePoint "{66DB54433168F8A5}" {
+     Position 1800 0 800
+    }
+    ShapePoint "{66DB544304EC42CA}" {
+     Position 1900 0 900
+    }
+    ShapePoint "{66DB544362DE366F}" {
+     Position 2400 0 900
+    }
+    ShapePoint "{66DB5443736A2272}" {
+     Position 2500 0 1000
+    }
+    ShapePoint "{66DB54438120C778}" {
+     Position 2800 0 1000
+    }
+    ShapePoint "{66DB5447C2F9B5F9}" {
+     Position 2800 0 800
+    }
+    ShapePoint "{66DB5443C0A8B4D4}" {
+     Position 2700 0 700
+    }
+    ShapePoint "{66DB54420DA8B684}" {
+     Position 2100 0 700
+    }
+    ShapePoint "{66DB544264A5A054}" {
+     Position 2000 0 600
+    }
+    ShapePoint "{66DB54424AD33674}" {
+     Position 1800 0 600
+    }
+    ShapePoint "{66DB5442E566A83F}" {
+     Position 1600 0 400
+    }
+    ShapePoint "{66DB5442F9DF8D3F}" {
+     Position 1000 0 400
+    }
+   }
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 8865.19 91.781 9699.11
+ m_fZoneRadius 150
+ m_fZoneTeleportedRadius 175
 }
