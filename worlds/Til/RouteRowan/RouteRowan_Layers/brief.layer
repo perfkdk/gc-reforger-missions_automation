@@ -1,0 +1,14 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ A0_Overview {
+  m_sTitle "Overview"
+  m_sTextData "1990s, Kolguyev."\
+  ""\
+  "A light armored reconnaissance platoon of the US Marine Corps conducts a route security mission, supported by an AH-1."
+  m_bEmptyFactionVisibility 1
+ }
+ A6_Notes {
+  coords 0 0 0
+  m_sTitle "Notes"
+  m_bEmptyFactionVisibility 1
+ }
+}

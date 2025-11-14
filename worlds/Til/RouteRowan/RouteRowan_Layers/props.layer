@@ -1,0 +1,37 @@
+SCR_DestructibleBuildingEntity : "{02128ED43CA97BCF}Prefabs/Structures/Industrial/CoalMineShaft_01/CoalMineShaft_USSR_01_end_buried.et" {
+ coords 7601.48 217.13 6825.58
+ angles 0 89.853 0
+ scale 1.05
+}
+$grp GenericEntity : "{2DB729170DBCE7BE}Prefabs/Props/Furniture/TableOld_01/TableOld_01.et" {
+ {
+  coords 7597.189 217.32 6827.401
+  angles 0 -178.88 0
+ }
+ {
+  coords 7578.004 217.357 6827.676
+  angles 0 -178.88 0
+ }
+}
+GenericEntity : "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et" {
+ coords 7583.515 218.237 6826.735
+}
+GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ coords 7583.75 217.388 6826.658
+ angles 0 93.908 0
+}
+GenericEntity : "{D5DCF3520C2A8C41}Prefabs/Props/Furniture/Flipchart_01/Flipchart_01.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
+ coords 7601.575 217.375 6825.565
+ angles 0 -87.412 0
+ scale 0.8
+ {
+  GenericEntity : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_BaseInteraction.et" {
+   coords 0.001 1.346 0.092
+  }
+ }
+}

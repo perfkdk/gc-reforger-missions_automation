@@ -1,0 +1,36 @@
+Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ coords 11398.345 86.276 10523.823
+ angles 2.528 -132.429 0.113
+}
+Vehicle S1203_transport_white1 : "{23B8C20ACAEC164B}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_white.et" {
+ coords 11414.743 85.083 10532.968
+ angles 4.538 -106.346 -0.4
+}
+Vehicle BRDM1 : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ coords 11386.791 86.383 10521.53
+ angles 0.895 179.432 -0.009
+}
+SCR_AIGroup GR_SEP_HQ : "{2D1AC8714A6D8BC9}Prefabs/Groups/OPFOR/GC_SEPARATIST/1990/P/GC_SEPARATIST_1990_PHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   Enabled 0
+  }
+ }
+ coords 7595.228 217.345 6827.179
+ angles 0 -177.393 0
+ m_bSnapToTerrain 0
+}
+SCR_AIGroup GR_SEP_SQ1 : "{62B3E3CFAABEB4CA}Prefabs/Groups/OPFOR/GC_SEPARATIST/1990/P/GC_SEPARATIST_1990_RifleSquad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   Enabled 0
+  }
+ }
+ coords 7588.922 217.349 6824.284
+ angles 0 2.287 0
+ m_bSnapToTerrain 0
+}
+Vehicle S105_darkbrown1 : "{A1CD41DFE0C93CAD}Prefabs/Vehicles/Wheeled/S105/S105_darkbrown.et" {
+ coords 11406.044 85.749 10528.987
+ angles 2.388 -115.652 0.838
+}
