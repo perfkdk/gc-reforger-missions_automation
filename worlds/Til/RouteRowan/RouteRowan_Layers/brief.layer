@@ -14,7 +14,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "As mentioned in the US support briefing, the Cobra is not meant to be used continuously, but to be called in for individual runs on known targets."\
   "The mission includes a mechanism that automatically somewhat punishes the US for violating MM intent in that regard:"\
   "A timer ticks up if the Cobra is within 2.5km of the AOs center and back down while it is not. If the timer ever reaches 5 minutes, the opponent gains several additional respawn tickets."\
-  "This means while the Cobra can stay within AO for multiple minutes, and over an extended perioid, mission duration requires an at least equal downtime."
+  "This means while the Cobra can stay within AO for multiple minutes, and over an extended perioid, mission duration requires an at least equal downtime."\
+  ""\
+  "End conditions:"\
+  "- US Victory: 70% of alive US forces have reached the location"\
+  "- US Defeat: 80% US casualties, or 45 minutes pass"
   m_bShowForAnyFaction 1
   m_iOrder 2
  }
