@@ -208,7 +208,6 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
       SlotTemplate InventoryStorageSlot parachute {
        Prefab "{DB1A767F2E5EDDA9}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute_green.et"
       }
-      NumSlots 16
      }
     }
    }
@@ -234,7 +233,6 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
       SlotTemplate InventoryStorageSlot parachute {
        Prefab "{DB1A767F2E5EDDA9}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute_green.et"
       }
-      NumSlots 16
      }
     }
    }
@@ -260,7 +258,6 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
       SlotTemplate InventoryStorageSlot parachute {
        Prefab "{DB1A767F2E5EDDA9}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute_green.et"
       }
-      NumSlots 16
      }
     }
    }
@@ -286,7 +283,6 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
       SlotTemplate InventoryStorageSlot parachute {
        Prefab "{DB1A767F2E5EDDA9}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute_green.et"
       }
-      NumSlots 16
      }
     }
    }

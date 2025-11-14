@@ -21,7 +21,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "- Stinger usage: Keep the target behind the reticle while holding LCTRL for a few seconds. Once you get a lock tone, you are clear to fire"\
   "- Flares usage: Shift+F (recommend pressing this for reason above)"\
-  "- Parachute usage: Equip as backpack, press SPACE to open"\
   ""\
   "Conditions:"\
   "- NVA Victory upon capturing both objectives (90% control for 1m)"\
@@ -218,8 +217,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1Plt across Specht 1+2"\
   "2Plt across Specht 3+4"\
   "Coy HQ across remaining seats"\
-  ""\
-  "Transport helicopters contain parachutes (however usage requires leaving backpack behind)"\
   ""\
   ""\
   "<b>b. Support</b>"\
