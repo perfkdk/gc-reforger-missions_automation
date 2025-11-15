@@ -16,6 +16,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5811.579 272.478 10244.603
   m_sTitle "VI. Mission Notes:"
   m_sTextData "Timelimit: 60m (Can be increased by GM's Discretion)"\
+  "Start time: 5min (To let the defenders get into positions)"\
   ""\
   "- US Army Victory by destroying the Ammo dump or killing 100% of USSR Forces."\
   ""\

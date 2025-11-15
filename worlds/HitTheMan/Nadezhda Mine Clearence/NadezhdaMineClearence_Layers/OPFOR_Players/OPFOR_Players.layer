@@ -37,10 +37,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
    "{E5C3468BDF19AC4F}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MG_P.et"
-   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/CoalMineMission/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
+   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
    "{1A5BEECAF606ACFC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SR_P.et"
-   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/CoalMineMission/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
+   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Squad"
@@ -81,10 +81,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
    "{E5C3468BDF19AC4F}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MG_P.et"
-   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/CoalMineMission/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
+   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
    "{1A5BEECAF606ACFC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SR_P.et"
-   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/CoalMineMission/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
+   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd Squad"
@@ -105,10 +105,10 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
    "{E5C3468BDF19AC4F}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MG_P.et"
-   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/CoalMineMission/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
+   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
    "{1A5BEECAF606ACFC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SR_P.et"
-   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/CoalMineMission/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
+   "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
   }
   m_bSnapToTerrain 0
  }
@@ -145,13 +145,13 @@ GenericEntity : "{7CE07D80592CA499}PrefabsEditable/Auto/Props/Military/AmmoBoxes
      SlotTemplate InventoryStorageSlot Sandbags {
       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
      }
-     NumSlots 250
+     NumSlots 300
     }
     MultiSlotConfiguration "{66DB00D5E44E601D}" {
      SlotTemplate InventoryStorageSlot Sandbags {
       Prefab "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et"
      }
-     NumSlots 20
+     NumSlots 15
     }
    }
   }
@@ -159,6 +159,6 @@ GenericEntity : "{7CE07D80592CA499}PrefabsEditable/Auto/Props/Military/AmmoBoxes
    Enabled 1
   }
  }
- coords 7598.819 217.387 6825.62
+ coords 7604.712 217.387 6825.315
  angles 0 -89.346 0
 }

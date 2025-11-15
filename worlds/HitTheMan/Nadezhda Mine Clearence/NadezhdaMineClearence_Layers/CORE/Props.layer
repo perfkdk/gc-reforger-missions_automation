@@ -2,50 +2,59 @@ SCR_DestructibleBuildingEntity : "{23764D9776ABBFC4}Prefabs/Structures/Military/
  coords 7672.623 196.818 6946.867
  angles 0 -143.123 0
 }
-$grp GenericEntity : "{6B52C6B5FEC3E369}Prefabs/Destructible/GMFX_Destructible_AmmoDump.et" {
- {
+$grp GenericEntity : "{4C931B452C796A2A}Prefabs/Destructible/AmmoStorage/GMFX_AmmoStorage_USSR.et" {
+ Obj_AmmoDump_1 {
   components {
-   TILW_Flag_EntityDamage "{66DAEAD5C0E3FFA0}" {
-    m_flagName "AmmoDump3"
-   }
-  }
-  coords 7576.314 217.449 6816.083
-  angles 0 81.299 0
- }
- {
-  components {
-   TILW_Flag_EntityDamage "{66DAEAD5CF12849A}" {
+   TILW_Flag_EntityDamage "{66DEC829D4DC6CC7}" {
     m_flagName "AmmoDump1"
    }
   }
-  coords 7578.296 217.463 6814.222
-  angles 0 7.586 0
+  coords 7576.297 217.441 6816.975
+  angles 0 82.315 0
  }
- {
+ Obj_AmmoDump_3 {
   components {
-   TILW_Flag_EntityDamage "{66DAEAD5FAC26812}" {
+   TILW_Flag_EntityDamage "{66DEC829D4DC6CC7}" {
+    m_flagName "AmmoDump3"
+   }
+  }
+  coords 7577.889 217.458 6814.779
+  angles 0 28.986 0
+ }
+ Obj_AmmoDump_4 {
+  components {
+   TILW_Flag_EntityDamage "{66DEC829D4DC6CC7}" {
     m_flagName "AmmoDump4"
    }
   }
-  coords 7577.64 218.338 6814.363
-  angles 0 34.768 0
+  coords 7576.789 218.328 6815.651
+  angles 0 53.888 0
  }
- {
+ Obj_AmmoDump_2 {
   components {
-   TILW_Flag_EntityDamage "{66DAEAD5D0630D89}" {
+   TILW_Flag_EntityDamage "{66DEC829D4DC6CC7}" {
     m_flagName "AmmoDump2"
    }
   }
-  coords 7576.995 217.451 6814.844
-  angles 0 48.091 0
+  coords 7576.801 217.477 6815.733
+  angles 0 60.022 0
+ }
+}
+$grp GameEntity : "{FAE17A12E0729D56}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_01_on_mine.et" {
+ {
+  coords 7587.807 220.366 6825.76
+  angles -51.051 0 0
  }
  {
-  components {
-   TILW_Flag_EntityDamage "{66DAEAD5FDAEA33C}" {
-    m_flagName "AmmoDump5"
-   }
-  }
-  coords 7576.563 218.339 6815.469
-  angles 0 61.756 0
+  coords 7575.221 220.377 6815.967
+  angles -51.051 0 0
+ }
+ {
+  coords 7586.875 219.981 6820.762
+  angles -51.051 0 0
+ }
+ {
+  coords 7577.188 219.976 6820.939
+  angles -51.051 0 0
  }
 }

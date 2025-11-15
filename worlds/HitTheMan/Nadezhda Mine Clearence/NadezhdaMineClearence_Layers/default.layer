@@ -542,9 +542,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
        TILW_LiteralTerm "{66DB00D4DDCF1767}" {
         m_flagName "AmmoDump4"
        }
-       TILW_LiteralTerm "{66DB00D4DF6B779C}" {
-        m_flagName "AmmoDump5"
-       }
       }
      }
     }
