@@ -16,28 +16,28 @@ $grp GenericEntity : "{0E3533EE196F01EC}Prefabs/Structures/Infrastructure/Lamps/
   coords 11867.833 0 11090.525
  }
  {
-  coords 2736.901 -0 6934.09
+  coords 2736.901 0 6934.09
  }
  {
   coords 2473.223 0 7032.912
  }
  {
-  coords 2726.347 -0 6752.249
+  coords 2726.347 0 6752.249
  }
  {
-  coords 2684.396 -0 6740.355
+  coords 2684.396 0 6740.355
  }
  {
-  coords 2609.436 -0 6878.581
+  coords 2609.436 0 6878.581
  }
  {
   coords 2738.103 0 6827.857
  }
  {
-  coords 2501.751 -0 6976.524
+  coords 2501.751 0 6976.524
  }
  {
-  coords 2531.581 -0 6931.891
+  coords 2531.581 0 6931.891
  }
  {
   coords 2695.896 0 6995.824
@@ -103,7 +103,7 @@ $grp GenericEntity : "{614C7CCF23A6FB40}Prefabs/Structures/Infrastructure/Lamps/
   angles 0 47.328 0
  }
  {
-  coords 1709.783 -0 7352.279
+  coords 1709.783 0 7352.279
   angles 0 13.058 0
  }
  {
@@ -147,11 +147,11 @@ $grp GenericEntity : "{614C7CCF23A6FB40}Prefabs/Structures/Infrastructure/Lamps/
   angles 0 157.1 0
  }
  {
-  coords 1908.661 -0 7481.536
+  coords 1908.661 0 7481.536
   angles 0 -82.3 0
  }
  {
-  coords 2588.88 -0 7865.158
+  coords 2588.88 0 7865.158
   angles 0 31.901 0
  }
  {
@@ -183,7 +183,7 @@ $grp GenericEntity : "{614C7CCF23A6FB40}Prefabs/Structures/Infrastructure/Lamps/
   angles 0 -115.965 0
  }
  {
-  coords 1889.451 -0 7440.42
+  coords 1889.451 0 7440.42
   angles 0 42.472 0
  }
  {
@@ -203,11 +203,11 @@ $grp GenericEntity : "{614C7CCF23A6FB40}Prefabs/Structures/Infrastructure/Lamps/
   angles 0 -157.242 0
  }
  {
-  coords 2501.579 -0 7076.662
+  coords 2501.579 0 7076.662
   angles 0 -131.451 0
  }
  {
-  coords 2556.446 -0 7010.717
+  coords 2556.446 0 7010.717
   angles 0 42.715 0
  }
  {
@@ -219,7 +219,7 @@ $grp GenericEntity : "{614C7CCF23A6FB40}Prefabs/Structures/Infrastructure/Lamps/
   angles 0 -178.389 0
  }
  {
-  coords 2389.323 -0 7684.033
+  coords 2389.323 0 7684.033
   angles 0 71.379 0
  }
  {

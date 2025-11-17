@@ -89,6 +89,25 @@ $grp Vehicle : "{38527BF34A02C3C7}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat_M134.
   angles 0 9.71 0
  }
 }
+GenericEntity : "{4D759A30BDE386D2}Prefabs/Structures/Military/Bunkers/AircraftShelter_E_01/AircraftShelter_E_01_powerbox.et" {
+ components {
+  TILW_Flag_EntityDamage "{66E2EACA989C371D}" {
+   m_flagName "VillaPower"
+  }
+  ActionsManagerComponent "{66E2EACD38D1E6C2}" {
+   additionalActions {
+    TILW_BaseInteraction "{66E2EACD2CB3DE81}" {
+     ActionTitle "Villa Power Box"
+     Duration 3
+     m_actionName "Villa Power Box"
+     m_flagName "VillaPower"
+    }
+   }
+  }
+ }
+ coords 1934.988 133.799 7429.73
+ angles 0 -61.216 0
+}
 $grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  {
   coords 3283.821 151.307 7540.321
