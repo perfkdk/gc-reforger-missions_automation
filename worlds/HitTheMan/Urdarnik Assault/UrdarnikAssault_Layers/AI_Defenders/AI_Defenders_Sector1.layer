@@ -66,7 +66,7 @@ $grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loi
 }
 $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  Move_WPSector1_1 {
-  coords 5752.351 33.196 3351.94
+  coords 5702.788 71.915 3566.142
  }
  Move_WPSector1_2 {
   coords 5411.426 64.761 3436.71
@@ -314,9 +314,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_spawnTimings {
    30
   }
-  m_waypointNames {
-   "Move_WPSector1_1"
-  }
   m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
    m_crewGroups {
     TILW_CrewGroup "{651028E34B0E58D9}" {
@@ -329,9 +326,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
         ""
        }
       }
-     }
-     m_waypointNames {
-      "Move_WPSector1_1"
      }
     }
    }
@@ -347,9 +341,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_spawnTimings {
    30
   }
-  m_waypointNames {
-   "Move_WPSector1_1"
-  }
   m_crewConfig TILW_CrewConfig "{655288DD15A9F6AC}" {
    m_crewGroups {
     TILW_CrewGroup "{651028E34B0E58D9}" {
@@ -362,9 +353,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
         ""
        }
       }
-     }
-     m_waypointNames {
-      "Move_WPSector1_1"
      }
     }
    }
