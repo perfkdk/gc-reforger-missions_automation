@@ -133,7 +133,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "--------------------------------------------------------------------------"\
   ""\
   "Difficulty Check!"\
-  "- Using the Boat Insertion will be extremely hard, do it at your own expense."
+  "- Using the Boat Insertion will be extremely hard, do it at your own expense."\
+  ""\
+  "Mission Maker Note:"\
+  "- Youre not allowed to send individual players to go Rambo, minimum a buddy team.. please dear god. Or try to keep the squads together"
   m_aVisibleForFactions {
    "US"
   }
