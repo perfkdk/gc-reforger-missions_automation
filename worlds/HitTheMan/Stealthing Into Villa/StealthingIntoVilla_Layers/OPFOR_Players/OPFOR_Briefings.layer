@@ -39,7 +39,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1x Motor Rifle Company (-)"\
   ""\
   "Strength:"\
-  "51x man strong Unit."\
+  "47x man strong Unit."\
   ""\
   "Supporting Fires:"\
   "None."\
@@ -47,7 +47,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Attachments/Detachments:"\
   "1x Mi-24s"\
   "-- 8x Infantry Capacity for Transport"\
-  "1x Fuel Truck + UAZ PKM"
+  ""\
+  "Relief Convoy consisting of:"\
+  "1x Fuel Truck"\
+  "2x BRDMs"
   m_aVisibleForFactions {
    "USSR"
    "CIV"
@@ -91,13 +94,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "None."\
   ""\
   "II. Logistical Support:"\
-  "- Fuel Truck is on route to refuel the Mi-24 Hind."\
   "- Mi-24 Hind is out of Fuel at Start."\
+  "- Relief Convoy is on route to refuel the Mi-24 Hind."\
   ""\
   "Each Platoon has a crate containing:"\
-  "- 30x Orange Flares"\
-  "- 30x Green Flares"\
-  "- 30x White Flares"\
+  "- 90x Orange Flares"\
+  "- 90x Green Flares"\
+  "- 90x White Flares"\
   ""\
   "III. Medical:"\
   "None."\
@@ -112,7 +115,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "6x UAZ452 per Squad"\
   "3x UAZ469 per PLT HQ & Pilots."\
   ""\
-  "1x Fuel Truck + UAZ469 PKM"\
+  "Convoy consists of:"\
+  "1x Fuel Truck"\
+  "2x BRDMs"\
   ""
   m_aVisibleForFactions {
    "USSR"
@@ -142,8 +147,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "3rd Rifle Squad 		- 243"\
   ""\
   "1st Mi-24 					- STAVOK 1"\
-  ""\
-  "Fuel Escorts 				- 122"\
   ""\
   "III. Frequencies:"\
   "Company Net 		- 42.00"\

@@ -9,6 +9,5 @@ PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" 
  m_aVisibleForFactions {
   "US"
  }
- m_bVisibleForEmptyFaction 1
  m_bringToFront 0
 }
