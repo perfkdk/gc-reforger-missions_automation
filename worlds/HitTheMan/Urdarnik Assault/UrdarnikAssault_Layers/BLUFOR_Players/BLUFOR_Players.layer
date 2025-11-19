@@ -103,6 +103,85 @@ Vehicle M997_maxi_ambulance_MERDC1 : "{3B1EB924602C7A07}Prefabs/Vehicles/Wheeled
  angles 0 -44.321 0
  m_sAttachmentGroupName "CAF_COYHQ"
 }
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ AI_Spawn_Sector1_23 {
+  coords 6786.16 2.466 3555.307
+  angles 0 -40.071 0
+  m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+  m_spawnTimings {
+   1
+  }
+  m_waypointNames {
+   "MotorPool"
+  }
+ }
+ AI_Spawn_Sector1_24 {
+  coords 6776.515 2.711 3546.762
+  angles 0 -40.071 0
+  m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+  m_spawnTimings {
+   1
+  }
+  m_waypointNames {
+   "MotorPool"
+  }
+ }
+ AI_Spawn_Sector1_25 {
+  coords 6767.018 2.891 3537.188
+  angles 0 -40.071 0
+  m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+  m_spawnTimings {
+   1
+  }
+  m_waypointNames {
+   "MotorPool"
+  }
+ }
+ AI_Spawn_Sector1_26 {
+  coords 6734.098 3.03 3514.969
+  angles 0 -45.975 0
+  m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+  m_spawnTimings {
+   1
+  }
+  m_waypointNames {
+   "MotorPool"
+  }
+ }
+ AI_Spawn_Sector1_27 {
+  coords 6684.269 3.188 3507.633
+  angles 0 -35.009 0
+  m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+  m_spawnTimings {
+   1
+  }
+  m_waypointNames {
+   "MotorPool"
+  }
+ }
+ AI_Spawn_Sector1_28 {
+  coords 6671.007 3.193 3498.381
+  angles 0 -33.008 0
+  m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+  m_spawnTimings {
+   1
+  }
+  m_waypointNames {
+   "MotorPool"
+  }
+ }
+ AI_Spawn_Sector1_29 {
+  coords 6659.718 3.187 3488.871
+  angles 0 -34.625 0
+  m_prefab "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+  m_spawnTimings {
+   1
+  }
+  m_waypointNames {
+   "MotorPool"
+  }
+ }
+}
 GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Equipment_01_US.et" {
  components {
   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {

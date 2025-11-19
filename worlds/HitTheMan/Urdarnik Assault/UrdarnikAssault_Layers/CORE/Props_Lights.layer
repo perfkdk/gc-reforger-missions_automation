@@ -34,7 +34,7 @@ $grp GenericEntity : "{34F74A7DBAD46974}Prefabs/Props/Furniture/LightWall_01.et"
 }
 $grp GenericEntity : "{614C7CCF23A6FB40}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_03/LampStreet_E_03_single.et" {
  {
-  coords 5450.413 -0 3489.305
+  coords 5450.413 0 3489.305
  }
  {
   coords 5712.831 0 3378.759
@@ -57,7 +57,7 @@ $grp GenericEntity : "{614C7CCF23A6FB40}Prefabs/Structures/Infrastructure/Lamps/
   angles 0 28.104 0
  }
  {
-  coords 4714.221 -0 3294.769
+  coords 4714.221 0 3294.769
   angles 0 -108.193 0
  }
  {

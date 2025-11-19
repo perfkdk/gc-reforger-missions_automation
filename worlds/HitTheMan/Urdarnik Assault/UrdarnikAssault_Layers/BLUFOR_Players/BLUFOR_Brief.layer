@@ -140,7 +140,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  BLU_Briefing_2_Mission {
   coords 5770.217 101.246 10124.798
   m_sTitle "II. Mission (Must Read):"
-  m_sTextData "Our Mechanized Company has been tasked with securing the Motor Pool containing some of their motorized equipment before continuing to secure a fortified apartment at Udarnik itself."
+  m_sTextData "Our Mechanized Company has been tasked with securing the Motor Pool containing some of their motorized equipment before continuing to secure a fortified apartment at Udarnik itself."\
+  ""\
+  "Once we seize the MotorPool, reinforcements (Respawns) will arrive to help replace losses."
   m_aVisibleForFactions {
    "GC_CAF"
   }

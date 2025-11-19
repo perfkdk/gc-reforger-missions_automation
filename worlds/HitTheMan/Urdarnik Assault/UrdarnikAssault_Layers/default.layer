@@ -42,6 +42,11 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 7756.999 312.503 8163.458
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{66E706840328A862}" {
+   m_sFactionKey "GC_CAF"
+  }
+ }
  m_bDisableArmaVision 1
  m_safeStartTime 20
  {
@@ -385,7 +390,7 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_locationName "HQ Building"
   m_flagName "MotorPool"
   m_stopAfterFirstChange 1
-  m_ownerFactionKey "USSR"
+  m_ownerFactionKey "GC_CAF"
   m_ratioThreshold 0.9
  }
  OBJ_MainBuilding {
@@ -450,8 +455,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Motor Pool Secured"
    m_instructions {
     TILW_SendMessageInstruction "{6550E36ED08C418C}" {
-     m_messageTitle "Motorpool Secured."
-     m_messageBody "Canadians have secured the Motorpool"
+     m_messageTitle "Motorpool Secured.. Reinforcements inbound"
+     m_messageBody "Canadians have secured the Motorpool, reinforcements to replace our losses are inbound via trucks."
     }
     TILW_SetFlagInstruction "{66E3485D1E6FDE51}" {
      m_flagName "MotorPoolSecured"
@@ -485,6 +490,24 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       m_flagName "MainBuilding"
      }
     }
+   }
+  }
+  TILW_MissionEvent "{66E706851F28D96F}" {
+   m_name "Respawn Event"
+   m_instructions {
+    TILW_EditRespawnTicketsInstruction "{66E70685099B77B1}" {
+     m_factionKey "GC_CAF"
+     m_amount 200
+     m_allowSpecRespawn 1
+    }
+    TILW_EditRespawnTicketsInstruction "{66E7068501AFE100}" {
+     m_executionDelay 30
+     m_factionKey "GC_CAF"
+     m_allowSpecRespawn 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{66E7068512006E8A}" {
+    m_flagName "MotorPool"
    }
   }
  }
