@@ -1,5 +1,5 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- {
+ OPF_Briefing_1n1_EnemyForces {
   coords 5809.926 272.42 10244.987
   m_sTitle "A. Enemy Forces:"
   m_sTextData "Equipment:"\
@@ -26,7 +26,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 2
  }
- {
+ OPF_Briefing_1n2_FriendlyForces {
   coords 5810.485 272.436 10244.991
   m_sTitle "B. Friendly Forces:"
   m_sTextData "Disposition:"\
@@ -57,7 +57,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 3
  }
- {
+ OPF_Briefing_2_Mission {
   coords 5810.876 272.451 10244.802
   m_sTitle "II. Mission:"
   m_sTextData "Patrol our assigned area, prevent the destruction of our vital Infastructure (Antenna, Generators) and Ammunition that has arrived by boat.. and make sure our Supreme Commander does not get killed.. Nor the destruction of our Mi-24"\
@@ -69,7 +69,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 4
  }
- {
+ OPF_Briefing_3_Execution {
   coords 5811.153 272.461 10244.768
   m_sTitle "III. Execution:"
   m_sTextData "Intent:"\
@@ -87,7 +87,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 5
  }
- {
+ OPF_Briefing_4_Sustainment {
   coords 5811.303 272.534 10244.736
   m_sTitle "IV. Sustainment:"
   m_sTextData "I. SOP Variations"\
@@ -125,7 +125,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 6
  }
- {
+ OPF_Briefing_5_CommandnSignal {
   coords 5811.692 272.468 10245.123
   m_sTitle "V. Command & Signals:"
   m_sTextData "I. Chain of Command:"\

@@ -1,5 +1,5 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- {
+ FIA_Briefing_1n1_EnemyForces {
   coords 7508.609 332.989 7909.169
   m_sTitle "A. Enemy Forces:"
   m_sTextData "Equipment:"\
@@ -25,7 +25,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 2
  }
- {
+ FIA_Briefing_1n2_FriendlyForces {
   coords 7509.168 333.005 7909.173
   m_sTitle "B. Friendly Forces:"
   m_sTextData "Disposition:"\
@@ -50,7 +50,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 3
  }
- {
+ FIA_Briefing_2_Mission {
   coords 7509.559 333.02 7908.983
   m_sTitle "II. Mission:"
   m_sTextData "Deliver the fuel truck to the military site to refuel the Mi-24, then attach to the Company Commander stationed there until further notice."
@@ -59,7 +59,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 4
  }
- {
+ FIA_Briefing_3_Execution {
   coords 7509.836 333.03 7908.949
   m_sTitle "III. Execution:"
   m_sTextData "Intent:"\
@@ -76,7 +76,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 5
  }
- {
+ FIA_Briefing_4_Sustainment {
   coords 7509.986 333.103 7908.918
   m_sTitle "IV. Sustainment:"
   m_sTextData "I. SOP Variations"\
@@ -95,7 +95,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 6
  }
- {
+ FIA_Briefing_5_CommandnSignal {
   coords 7510.375 333.037 7909.305
   m_sTitle "V. Command & Signals:"
   m_sTextData "I. Chain of Command:"\
