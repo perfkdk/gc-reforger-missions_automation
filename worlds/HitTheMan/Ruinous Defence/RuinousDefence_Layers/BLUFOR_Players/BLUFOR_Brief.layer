@@ -26,17 +26,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5771.033 101.263 10125.119
   m_sTitle "V. Command & Signals:"
   m_sTextData "I. Chain of Command:"\
-  "2'6, 2'1, 2'2, 2'3, 2'4"\
+  "2'6, 2'1, 2'2, 2'4"\
   ""\
   "II. Callsigns:"\
-  "Platoon Leader - 2'6"\
+  "Platoon Leader ----------------------- 2'6"\
   ""\
-  "1st Squad - 2'1"\
-  "2nd Squad - 2'2"\
-  "Weapon Squad - 2'4"\
+  "1st Squad ------------------------------- 2'1"\
+  "2nd Squad ------------------------------ 2'2"\
+  "Weapon Squad ----------------------- 2'4"\
   ""\
   "III. Frequencies:"\
-  "1st Platoon Net 	- 48.00"
+  "1st Platoon Net ---------------------- 48.00Mhz"
   m_aVisibleForFactions {
    "US"
   }
@@ -49,6 +49,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Setup our forces and prevent the loss of the Ammo Dump."\
   ""\
   "Powerlines are potentially a good spot for a M2HB position."\
+  ""\
+  "Limit of the forward defence is highlighted by the blue line on your map, commander."\
   ""\
   "1. Concept of the Operation:"\
   "Platoon Commander's Discretion."\

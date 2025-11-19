@@ -118,6 +118,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        SCR_CallsignInfo "{55CCB79287E901BC}" {
        }
        SCR_CallsignInfo "{55CCB79287936EBD}" {
+        m_sCallsign "1 (HQ)"
        }
        SCR_CallsignInfo "{55CCB79287BAFBD6}" {
        }
@@ -230,9 +231,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_killTimer 15
     m_factionKeys {
      "US"
-     "USSR"
     }
-    m_visibility FACTION
     m_defaultColor 0 0.125 0.502 1
     m_useFactionColor 0
     m_lineWidth 5

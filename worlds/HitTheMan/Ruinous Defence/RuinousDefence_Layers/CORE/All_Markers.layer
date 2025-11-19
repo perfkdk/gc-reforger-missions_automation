@@ -6,7 +6,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.561 0.071 0.071 1
   m_sQuadName "objective-marker"
   m_fWorldSize 40
-  m_sDescription "Ammo Stockpile Inside Coal Mine"
+  m_sDescription "Ammo Stockpile"
   m_aVisibleForFactions {
    "USSR"
    "US"
