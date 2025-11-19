@@ -129,28 +129,28 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5811.692 272.468 10245.123
   m_sTitle "V. Command & Signals:"
   m_sTextData "I. Chain of Command:"\
-  "230, 231 HQ, 241 HQ"\
+  "230, 231 HQ, 241 HQ, etc"\
   ""\
   "II. Callsigns:"\
-  "Company HQ 				- 230"\
+  "Company HQ  ------------------------ 230 (Radio)"\
   ""\
-  "1st Platoon HQ 				- 231"\
-  "1st PLT Forward Air Controller - ROSCHINO "\
-  "1st Rifle Squad			- 231"\
-  "2nd Rifle Squad 		- 232"\
-  "3rd Rifle Squad 		- 233"\
+  "1st Platoon HQ ---------------------- 231 (Radio)"\
+  "1st Platoon FAC -------------------- ROSCHINO (Radio)"\
+  "1st Rifle Squad ---------------------- 231"\
+  "2nd Rifle Squad --------------------- 232"\
+  "3rd Rifle Squad  --------------------- 233"\
   ""\
-  "2nd Platoon HQ 				- 241"\
-  "2nd PLT Forward Air Controller - DNEPR"\
-  "1st Rifle Squad			- 241"\
-  "2nd Rifle Squad 		- 242"\
-  "3rd Rifle Squad 		- 243"\
+  "2nd Platoon HQ --------------------- 241 (Radio)"\
+  "2nd Platoon FAC ------------------- DNEPR (Radio)"\
+  "1st Rifle Squad ---------------------- 241"\
+  "2nd Rifle Squad --------------------- 242"\
+  "3rd Rifle Squad ---------------------- 243"\
   ""\
-  "1st Mi-24 					- STAVOK 1"\
+  "1st Mi-24 ------------------------------ STAVOK 1 (Radio)"\
   ""\
   "III. Frequencies:"\
-  "Company Net 		- 42.00"\
-  "Air Net						- 43.00"
+  "Company Net ------------------------ 42.00 Mhz"\
+  "Air Net ---------------------------------- 43.00Mhz"
   m_aVisibleForFactions {
    "USSR"
    "CIV"

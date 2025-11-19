@@ -102,13 +102,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "150, 151v, 152v"\
   ""\
   "II. Callsigns:"\
-  "Fuel Truck - 150"\
+  "Fuel Truck ---------------------- 150"\
   ""\
-  "1st BRDM - 151v"\
-  "2nd BRDM -152v"\
+  "1st BRDM ----------------------- 151v"\
+  "2nd BRDM ---------------------- 152v"\
   ""\
   "III. Frequencies:"\
-  "Short Range - 38.0Mhz"\
+  "Short Range -------------------- 38.0Mhz"\
   ""\
   "Mission maker note: You wont get into coms with the other Soviets until you reach the military site"
   m_aVisibleForFactions {
