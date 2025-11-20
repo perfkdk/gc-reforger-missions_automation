@@ -26,28 +26,33 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    Enabled 0
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 15
-   m_iStartingMinutes 33
+   m_iStartingHours 16
+   m_iStartingMinutes 15
    m_fDayTimeAcceleration 0.1
    m_fNightTimeAcceleration 0.1
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{650415CBAFAE6875}" {
-     m_sWeatherPresetName "Extreme Wind (Thunderstorm}"
-     m_iStartingHour 15
-     m_iStartingMinutes 33
+     m_sWeatherPresetName "Overcast"
+     m_iStartingHour 16
+     m_iStartingMinutes 15
     }
    }
    m_bWindOverride 1
-   m_fWindSpeed 14.65
+   m_fWindSpeed 8.589
    m_fWindDirection 0.058
    m_bUseSpecifiedDate 1
    m_iSetDay 9
    m_iSetMonth 12
+   m_bOverrideEnvironment 1
+   m_fFogDensity 0.5
+   m_fFogHeight 150
+   m_fRain 0.7
+   m_fWind 9
   }
  }
  coords 2654.675 220.845 6982.4
- m_iFreezeTime 120000
+ m_iFreezeTime 150000
  m_bDisableArmaVision 1
  m_safeStartTime 20
  {
@@ -114,6 +119,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        SCR_CallsignInfo "{55CCB79287E901BC}" {
        }
        SCR_CallsignInfo "{55CCB79287936EBD}" {
+        m_sCallsign "1 (HQ)"
        }
        SCR_CallsignInfo "{55CCB79287BAFBD6}" {
        }
@@ -122,6 +128,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        SCR_CallsignInfo "{64E2F896E232A50B}" {
        }
        SCR_CallsignInfo "{64E2F896FFC45153}" {
+        m_sCallsign "4 (HQ)"
        }
        SCR_CallsignInfo "{64E2F896F0699D6A}" {
         m_sCallsign "Mi-24 | STAVOK 1"
@@ -130,7 +137,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "2 - Fuel Truck (MUST BE FILLED)"
        }
        SCR_CallsignInfo "{64E2F8970C5291B4}" {
-        m_sCallsign "Mi-8 | ZAKUSKA 1"
+        m_sCallsign "3 - Escorts (MUST BE FILLED)"
        }
        SCR_CallsignInfo "{6508F6387DF69F1D}" {
         m_sCallsign "Mi-8 | ZAKUSKA 2"
@@ -146,12 +153,48 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
       m_sCallsignCharacterWithRoleFormat "%1%2%3 %4"
      }
     }
+    SCR_Faction "{56DEAC40D132400B}" {
+     UIInfo SCR_FactionUIInfo "{5570936866E0AD08}" {
+      Name "Soviet Relief Convoy"
+      Icon "{40B12B0DF911B856}UI/Textures/Editor/EditableEntities/Factions/EditableEntity_Faction_USSR.edds"
+     }
+     m_sFactionFlag "{50824EB9F2C215AB}UI/Textures/Flags/USSR-flag-base-3it.edds"
+     m_FactionFlagMaterial "{B47B52D9DA68905D}Assets/Props/Fabric/Flags/Data/Flag_1_2_SovietArmy.emat"
+     m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{58B2B630FDD64B73}" {
+        m_sCallsign "1"
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{58B2B630FDD64B6B}" {
+        m_sCallsign "5"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{58B2B630FDD64B53}" {
+        m_sCallsign "0 - (MUST BE FILLED)"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B51}" {
+        m_sCallsign "1v - (MUST BE FILLED)"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B50}" {
+        m_sCallsign "2v"
+       }
+      }
+      m_sCallsignGroupFormat "%1%2%3"
+      m_sCallsignCharacterFormat "%1%2%3%4"
+      m_sCallsignCharacterWithRoleFormat "%1%2%3%4"
+     }
+     m_iFactionRadioFrequency 60000
+    }
     SCR_Faction "{607AA5C7A94496DA}" {
      UIInfo SCR_FactionUIInfo "{56B49118D8D0A9C5}" {
       Name "Supreme Commander"
       Icon "{40B12B0DF911B856}UI/Textures/Editor/EditableEntities/Factions/EditableEntity_Faction_USSR.edds"
      }
      m_sFactionFlag "{50824EB9F2C215AB}UI/Textures/Flags/USSR-flag-base-3it.edds"
+     m_FactionFlagMaterial "{B47B52D9DA68905D}Assets/Props/Fabric/Flags/Data/Flag_1_2_SovietArmy.emat"
      m_CallsignInfo SCR_FactionCallsignInfo "{607A9A9E40D70F6E}" {
       m_aCompanyNames {
        SCR_CallsignInfo "{607A9A9EC820C29F}" {
@@ -1127,6 +1170,1062 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "Kolguyev Supreme Commander"
        }
        SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
         m_sCallsign "Supreme Commander"
        }
       }
@@ -1134,6 +2233,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
       m_sCallsignCharacterFormat "%1%3:%4"
       m_sCallsignCharacterWithRoleFormat "%1%3:%4"
      }
+     m_iFactionRadioFrequency 49000
     }
     SCR_Faction "{64AA098AEA5B1498}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{64AA098204A61453}" {
@@ -1454,8 +2554,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageBody "USSR Sustained too many casualties.. GM Discretion when to end the mission"
     }
    }
-   m_condition TILW_LiteralTerm "{6504157885FC5C39}" {
-    m_flagName "USSR_CAS"
+   m_condition TILW_ConjunctionTerm "{66E17692419BE399}" {
+    m_operands {
+     TILW_LiteralTerm "{66E1769246C3305D}" {
+      m_flagName "USSR_CAS"
+     }
+     TILW_LiteralTerm "{66E1769245F8E809}" {
+      m_flagName "FIA_CAS"
+     }
+    }
    }
   }
   TILW_MissionEvent "{66C8BB26EE443FC7}" {
@@ -1502,10 +2609,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "US OBJ Victory"
    m_instructions {
     TILW_SendMessageInstruction "{6550E36ED08C418C}" {
+     m_executionDelay 15
      m_messageTitle "US Army Victory"
      m_messageBody "US has managed to kill the Supreme Commander and their other objecitves... "\
      ""\
      "GM Discretion when to end the mission"
+    }
+    TILW_SetFlagInstruction "{66E17687D8BFA25B}" {
+     m_executionDelay 10
+     m_flagName "Sirens"
     }
    }
    m_condition TILW_DisjunctionTerm "{66C7205C27C5927B}" {
@@ -1530,34 +2642,162 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
        TILW_LiteralTerm "{66C90828C435C747}" {
         m_flagName "Generator2"
        }
+       TILW_LiteralTerm "{66E176848EB01D4F}" {
+        m_flagName "Generator3"
+       }
        TILW_LiteralTerm "{66C90828FE03E90E}" {
-        m_flagName "AmmoDumpAll"
+        m_flagName "AmmoDumpPierAll"
+       }
+       TILW_LiteralTerm "{66E17683094ED269}" {
+        m_flagName "AmmoDumpCheckpointAll"
        }
       }
-      m_minTrue 3
+      m_minTrue 4
      }
     }
    }
   }
   TILW_MissionEvent "{66C8BB2936B21303}" {
-   m_name "AmmoDumpAll"
+   m_name "AmmoDumpPierAll"
    m_instructions {
     TILW_SetFlagInstruction "{66C8BB292B193773}" {
-     m_flagName "AmmoDumpAll"
+     m_flagName "AmmoDumpPierAll"
+    }
+    TILW_SendMessageInstruction "{66E176926CC75C7E}" {
+     m_messageTitle "Ammo Dump at the Pier Destroyed"
+     m_messageBody "We successfully destroyed the Pier Ammo Dump"
+     m_factionKeys {
+      "US"
+     }
     }
    }
    m_condition TILW_ConjunctionTerm "{66C8BB292E070158}" {
     m_operands {
      TILW_LiteralTerm "{66C8BB292C766CC6}" {
-      m_flagName "AmmoDump1"
+      m_flagName "AmmoDumpPier1"
      }
      TILW_LiteralTerm "{66C8BB29234B587C}" {
-      m_flagName "AmmoDump2"
+      m_flagName "AmmoDumpPier2"
      }
      TILW_LiteralTerm "{66C8BB2921DDF575}" {
-      m_flagName "AmmoDump3"
+      m_flagName "AmmoDumpPier3"
      }
     }
+   }
+  }
+  TILW_MissionEvent "{66E17684854DE4E3}" {
+   m_name "AmmoDumpCheckpointAll"
+   m_instructions {
+    TILW_SetFlagInstruction "{66E17684854DE54A}" {
+     m_flagName "AmmoDumpCheckpointAll"
+    }
+    TILW_SendMessageInstruction "{66E1769D33E2AA2A}" {
+     m_messageTitle "Ammo Dump at the Checkpoint Destroyed"
+     m_messageBody "We successfully destroyed the Checkpoint Ammo Dump"
+     m_factionKeys {
+      "US"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{66E17684854DE547}" {
+    m_operands {
+     TILW_LiteralTerm "{66E17684854DE541}" {
+      m_flagName "AmmoDumpCheckpoint1"
+     }
+     TILW_LiteralTerm "{66E17684854D3E7D}" {
+      m_flagName "AmmoDumpCheckpoint2"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{66E240B301E43BAA}" {
+   m_name "Mi-24 Message"
+   m_instructions {
+    TILW_SendMessageInstruction "{66E240B33E5AE621}" {
+     m_messageTitle "Mi-24 has been destroyed"
+     m_messageBody "We successfully destroyed the Mi-24"
+     m_factionKeys {
+      "US"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{66E240B3390AD102}" {
+    m_flagName "HindDestroyed"
+   }
+  }
+  TILW_MissionEvent "{66E240B3208F8B3E}" {
+   m_name "Southern Antenna Message"
+   m_instructions {
+    TILW_SendMessageInstruction "{66E240B3208F8B80}" {
+     m_messageTitle "Southern Antenna has been destroyed"
+     m_messageBody "We successfully destroyed the Southern Antenna"
+     m_factionKeys {
+      "US"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{66E240B3208F8B9C}" {
+    m_flagName "Antenna1"
+   }
+  }
+  TILW_MissionEvent "{66E240B3C1ACAC44}" {
+   m_name "Northern Antenna Message"
+   m_instructions {
+    TILW_SendMessageInstruction "{66E240B3C1ACAC10}" {
+     m_messageTitle "Northern Antenna has been destroyed"
+     m_messageBody "We successfully destroyed the Northern Antenna"
+     m_factionKeys {
+      "US"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{66E240B3C1ACAC2D}" {
+    m_flagName "Antenna2"
+   }
+  }
+  TILW_MissionEvent "{66E240B3FCE64BE4}" {
+   m_name "Radar Generator Message"
+   m_instructions {
+    TILW_SendMessageInstruction "{66E240B3FCE6484F}" {
+     m_messageTitle "Radar Generator has been destroyed"
+     m_messageBody "We successfully destroyed the Radar Generator"
+     m_factionKeys {
+      "US"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{66E240B3FCE64849}" {
+    m_flagName "Generator1"
+   }
+  }
+  TILW_MissionEvent "{66E240B39C57A9AA}" {
+   m_name "Checkpoint Generator Message"
+   m_instructions {
+    TILW_SendMessageInstruction "{66E240B39C57AE75}" {
+     m_messageTitle "Checkpoint Generator has been destroyed"
+     m_messageBody "We successfully destroyed the Checkpoint Generator"
+     m_factionKeys {
+      "US"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{66E240B39C57AE71}" {
+    m_flagName "Generator2"
+   }
+  }
+  TILW_MissionEvent "{66E240B387D429FC}" {
+   m_name "Spare Generator Message"
+   m_instructions {
+    TILW_SendMessageInstruction "{66E240B387D42E4F}" {
+     m_messageTitle "Spare Generator has been destroyed"
+     m_messageBody "We successfully destroyed the Spare Generator"
+     m_factionKeys {
+      "US"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{66E240B387D42E48}" {
+    m_flagName "Generator3"
    }
   }
  }
@@ -1565,7 +2805,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{6506E4081586428B}" {
    m_flagName "USSR_CAS"
    m_factionKey "USSR"
-   m_casualtyRatio 0.85
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{66E17693A09D06CA}" {
+   m_flagName "FIA_CAS"
+   m_factionKey "FIA"
+   m_casualtyRatio 0.9
   }
   TILW_FactionPlayersKilledFlag "{66C8BB26F8455EFE}" {
    m_flagName "US_CAS"
@@ -1587,8 +2832,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
   TILW_FlagSampling "{66C90826B7FDAA24}" {
    m_flagNames {
-    "TruckSpawn1"
     "TruckSpawn2"
+    "TruckSpawn1"
     "TruckSpawn3"
    }
   }
