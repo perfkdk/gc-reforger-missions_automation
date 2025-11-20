@@ -1,43 +1,43 @@
 $grp Vehicle : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport.et" {
  UAZ452_transport1 {
-  coords 2087.214 119.502 7388.484
+  coords 2087.214 119.25 7388.484
   angles -1.913 -136.686 -2.158
   m_sAttachmentGroupName "RifleSquad_1"
  }
  UAZ452_transport2 {
-  coords 2058.806 119.277 7393.776
+  coords 2058.806 119.281 7393.776
   angles 0 43.639 0
   m_sAttachmentGroupName "RifleSquad_2"
  }
  UAZ452_transport3 {
-  coords 2076.915 119.294 7377.219
+  coords 2076.915 119.281 7377.219
   angles 0 44.321 0
   m_sAttachmentGroupName "RifleSquad_3"
  }
  UAZ452_transport4 {
-  coords 2231.066 126.12 7368.6
+  coords 2231.066 126.125 7368.6
   angles 0 179.456 0
   m_sAttachmentGroupName "RifleSquad_4"
  }
  UAZ452_transport5 {
-  coords 2246.092 126.12 7365.512
+  coords 2246.092 126.125 7365.512
   angles 0 -91.403 0
   m_sAttachmentGroupName "RifleSquad_5"
  }
  UAZ452_transport6 {
-  coords 2218.833 126.148 7343.771
+  coords 2218.833 126.107 7343.771
   angles 0.002 -90.565 0.151
   m_sAttachmentGroupName "RifleSquad_6"
  }
 }
 $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  UAZ1 {
-  coords 2068.98 119.257 7406.963
+  coords 2068.98 119.25 7406.963
   angles 0 -136.954 0
   m_sAttachmentGroupName "PLHQ"
  }
  UAZ2 {
-  coords 2205.626 126.122 7368.524
+  coords 2205.626 126.125 7368.524
   angles 0 179.937 0
   m_sAttachmentGroupName "PLHQ2"
  }
@@ -66,7 +66,7 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  }
 }
 Vehicle Mi24V_armed_UPK1_HTM1 : "{38585CC6058AC815}worlds/HitTheMan/Stealthing Into Villa/Prefab/Mi24V_armed_UPK1_HTM.et" {
- coords 2022.519 129.468 7327.009
+ coords 2022.519 129.469 7327.009
  angles 0 -50.867 0
 }
 $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
@@ -79,7 +79,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iPlatoonCallsign 2
    }
   }
-  coords 2090.414 119.887 7389.191
+  coords 2090.414 119.25 7389.191
   angles -0.25 135.697 2.078
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
@@ -102,7 +102,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 1
    }
   }
-  coords 2066.357 118.737 7406.595
+  coords 2066.357 119.25 7406.595
   angles 0 -46.963 0
   m_aUnitPrefabSlots {
    "{DF8E65CA90B55E3B}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_PL_P.et"
@@ -123,7 +123,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 4
    }
   }
-  coords 2080.176 118.821 7377.845
+  coords 2080.176 119.25 7377.845
   angles 0 133.136 0
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
@@ -146,7 +146,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 3
    }
   }
-  coords 2055.273 120.026 7393.569
+  coords 2055.273 119.281 7393.569
   angles -0.518 -44.927 0.73
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
@@ -169,7 +169,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 0
    }
   }
-  coords 1938.547 137.81 7429.886
+  coords 1938.547 137.811 7429.886
   angles 0 118.17 0
   m_faction "CIV"
   m_aUnitPrefabSlots {
@@ -225,7 +225,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iPlatoonCallsign 3
    }
   }
-  coords 2232.624 126.341 7370.73
+  coords 2232.624 126.125 7370.73
   angles 0 89.635 0
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
@@ -248,7 +248,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 1
    }
   }
-  coords 2203.812 126.501 7367.088
+  coords 2203.812 126.125 7367.088
   angles 0 -90.902 0
   m_aUnitPrefabSlots {
    "{DF8E65CA90B55E3B}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_PL_P.et"
@@ -269,7 +269,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 3
    }
   }
-  coords 2243.646 126.194 7367.51
+  coords 2243.646 126.125 7367.51
   angles 1.985 2.295 0.256
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
@@ -291,7 +291,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 4
    }
   }
-  coords 2216.663 125.941 7345.818
+  coords 2216.663 126.101 7345.818
   angles 0.026 3.167 -2.002
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
@@ -332,13 +332,19 @@ $grp GenericEntity : "{762430A240108C70}PrefabsEditable/Auto/Props/Military/Ammo
       }
       NumSlots 90
      }
+     MultiSlotConfiguration "{66E8DEC87ED1D2A8}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+      }
+      NumSlots 90
+     }
     }
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
     Enabled 1
    }
   }
-  coords 2073.677 119.249 7393.148
+  coords 2073.677 119.25 7393.148
   angles 0 44.8 0
  }
  {
@@ -364,6 +370,12 @@ $grp GenericEntity : "{762430A240108C70}PrefabsEditable/Auto/Props/Military/Ammo
      MultiSlotConfiguration "{66C9082047D6658F}" {
       SlotTemplate InventoryStorageSlot Bandages {
        Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 90
+     }
+     MultiSlotConfiguration "{66E8DEC86ABCF7C4}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
       }
       NumSlots 90
      }

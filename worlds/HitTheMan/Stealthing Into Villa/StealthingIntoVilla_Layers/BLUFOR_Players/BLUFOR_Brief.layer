@@ -50,7 +50,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5770.494 101.256 10124.764
   m_sTitle "III. Execution:"
   m_sTextData "Intent:"\
-  "Move in stealth, destroy 4 of our objectives or killing the HVT himself."\
+  "Move in stealth, destroy 4x of our objectives or killing the HVT himself."\
   ""\
   "1. Concept of the Operation:"\
   "Platoon Commander's Discretion."\
@@ -118,7 +118,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  BLU_Briefing_2_Mission {
   coords 5770.217 101.246 10124.798
   m_sTitle "II. Mission (Must Read):"
-  m_sTextData "Kill the HVT (Supreme Commander) or if unable, destroy 3x Objectives to make this mission a success (Check Mission Notes)"\
+  m_sTextData "Kill the HVT (Supreme Commander) or if unable, destroy 4x Objectives to make this mission a success (Check Mission Notes)"\
   ""\
   "Antennas & Generators needs 2x Demoblocks each"\
   "Ammodump needs 1-2x Demoblocks"\
