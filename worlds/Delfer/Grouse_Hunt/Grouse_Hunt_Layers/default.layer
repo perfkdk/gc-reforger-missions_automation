@@ -22,6 +22,47 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  coords 6394.121 159.125 6423.654
+ {
+  SCR_FactionManager "66EB0A141A722C56" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{633D460D559977CA}" {
+     UIInfo SCR_FactionUIInfo "{633D46001FC1655D}" {
+      Name "West German Militia"
+      Icon "{E5045D08FF65036A}worlds/Delfer/Grouse_Hunt/Flag PNG.edds"
+     }
+     m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
+      m_bIsAssignedRandomly 0
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{58B2B630FDD64B65}" {
+        m_sCallsign "Spatel"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{58B2B630FDD64B6D}" {
+        m_sCallsign "HQ"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B53}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B51}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B50}" {
+        m_sCallsign ""
+       }
+       SCR_CallsignInfo "{61C8F1ACA9FDB12D}" {
+        m_sCallsign ""
+       }
+      }
+      m_sCallsignGroupFormat "%2-%3"
+      m_sCallsignCharacterFormat "%2-%3 %4"
+      m_sCallsignCharacterWithRoleFormat "%2-%3 %4"
+     }
+    }
+   }
+  }
+ }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 2769.05 86.211 6295.662
