@@ -21,6 +21,10 @@ $grp GenericEntity : "{4C931B452C796A2A}Prefabs/Destructible/AmmoStorage/GMFX_Am
    TILW_Flag_EntityDamage "{66E1768656FAE50F}" {
     m_flagName "AmmoDumpCheckpoint1"
    }
+   TILW_Flag_EntityDamage "{66EC24A62068C723}" {
+    m_flagName "AmmoDumpCheckpoint1Alive"
+    m_targetState UNDAMAGED
+   }
   }
   coords 2709.371 221.126 6969.599
   angles 0 34.838 0
@@ -29,6 +33,10 @@ $grp GenericEntity : "{4C931B452C796A2A}Prefabs/Destructible/AmmoStorage/GMFX_Am
   components {
    TILW_Flag_EntityDamage "{66E176864CA6C03A}" {
     m_flagName "AmmoDumpCheckpoint2"
+   }
+   TILW_Flag_EntityDamage "{66EC24A6DF401CA1}" {
+    m_flagName "AmmoDumpCheckpoint2Alive"
+    m_targetState UNDAMAGED
    }
   }
   coords 2710.004 221.126 6967.16
@@ -39,6 +47,10 @@ $grp GenericEntity : "{4C931B452C796A2A}Prefabs/Destructible/AmmoStorage/GMFX_Am
    TILW_Flag_EntityDamage "{66E17683DB67EC4C}" {
     m_flagName "AmmoDumpPier1"
    }
+   TILW_Flag_EntityDamage "{66EC24A6630CF340}" {
+    m_flagName "AmmoDumpPier1Alive"
+    m_targetState UNDAMAGED
+   }
   }
   coords 1431.406 0.587 7700.653
   angles 0 73.21 0
@@ -48,6 +60,10 @@ $grp GenericEntity : "{4C931B452C796A2A}Prefabs/Destructible/AmmoStorage/GMFX_Am
    TILW_Flag_EntityDamage "{66E17683DB67EC4C}" {
     m_flagName "AmmoDumpPier2"
    }
+   TILW_Flag_EntityDamage "{66EC24A664C5CC5C}" {
+    m_flagName "AmmoDumpPier2Alive"
+    m_targetState UNDAMAGED
+   }
   }
   coords 1431.687 0.567 7699.141
   angles 0 123.51 0
@@ -56,6 +72,10 @@ $grp GenericEntity : "{4C931B452C796A2A}Prefabs/Destructible/AmmoStorage/GMFX_Am
   components {
    TILW_Flag_EntityDamage "{66E17683DB67EC4C}" {
     m_flagName "AmmoDumpPier3"
+   }
+   TILW_Flag_EntityDamage "{66EC24A61DAC8A2F}" {
+    m_flagName "AmmoDumpPier3Alive"
+    m_targetState UNDAMAGED
    }
   }
   coords 1430.06 0.599 7699.513
@@ -69,7 +89,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{93FC2145F05A1EEE}Prefabs/Systems/Sound/sound_airraidsiren.et"
   m_conditionFlag "Sirens"
   m_spawnTimings {
-   5
+   0
   }
   m_pregameSpawn 1
  }
@@ -130,6 +150,10 @@ $grp StaticModelEntity : "{82CCE96E35DC6A6E}Prefabs/Structures/Military/Antennas
    TILW_Flag_EntityDamage "{66C8BB24C8BA4CC3}" {
     m_flagName "Antenna2"
    }
+   TILW_Flag_EntityDamage "{66EC24A6E40F5CD6}" {
+    m_flagName "Antenna2Alive"
+    m_targetState UNDAMAGED
+   }
   }
   coords 1937.652 0 7641.723
   {
@@ -143,6 +167,10 @@ $grp StaticModelEntity : "{82CCE96E35DC6A6E}Prefabs/Structures/Military/Antennas
    TILW_Flag_EntityDamage "{66C8BB24C8BA4CC3}" {
     m_flagName "Antenna1"
    }
+   TILW_Flag_EntityDamage "{66EC24A6F5EEA720}" {
+    m_flagName "Antenna1Alive"
+    m_targetState UNDAMAGED
+   }
   }
   coords 2313.889 0 7017.24
   {
@@ -150,6 +178,32 @@ $grp StaticModelEntity : "{82CCE96E35DC6A6E}Prefabs/Structures/Military/Antennas
     coords -0.008 49.505 0.024
    }
   }
+ }
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  coords 1941.375 137.802 7434.645
+  angles 0 -59.551 0
+ }
+ {
+  coords 1941.351 138.914 7434.59
+  angles 0 -59.551 0
+ }
+ {
+  coords 1945.694 138.9 7433.96
+  angles 0 30.224 0
+ }
+ {
+  coords 1945.749 137.788 7433.936
+  angles 0 30.224 0
+ }
+ {
+  coords 1943.613 137.817 7435.148
+  angles 0 30.224 0
+ }
+ {
+  coords 1943.557 138.929 7435.172
+  angles 0 30.224 0
  }
 }
 GenericEntity Radar : "{C5341109EB1AB7B5}Prefabs/Destructible/GMFX_Destructible_Radar_RPL5.et" {
@@ -161,6 +215,10 @@ $grp GenericEntity : "{FFCDFB1375A99125}Prefabs/Destructible/GMFX_Destructible_R
    TILW_Flag_EntityDamage "{66C8BB2AF4A3F71B}" {
     m_flagName "Generator1"
    }
+   TILW_Flag_EntityDamage "{66EC24A68CB5FC2B}" {
+    m_flagName "Generator1Alive"
+    m_targetState UNDAMAGED
+   }
   }
   coords 1637.613 110.685 7382.54
   angles 0 -92.506 0
@@ -170,6 +228,10 @@ $grp GenericEntity : "{FFCDFB1375A99125}Prefabs/Destructible/GMFX_Destructible_R
    TILW_Flag_EntityDamage "{66C8BB2AF4A3F71B}" {
     m_flagName "Generator2"
    }
+   TILW_Flag_EntityDamage "{66EC24A6BF9C8289}" {
+    m_flagName "Generator2Alive"
+    m_targetState UNDAMAGED
+   }
   }
   coords 2614.652 3.492 7873.154
   angles 0 -148.559 0
@@ -178,6 +240,10 @@ $grp GenericEntity : "{FFCDFB1375A99125}Prefabs/Destructible/GMFX_Destructible_R
   components {
    TILW_Flag_EntityDamage "{66C8BB2AF4A3F71B}" {
     m_flagName "Generator3"
+   }
+   TILW_Flag_EntityDamage "{66EC24A6A9AFFECE}" {
+    m_flagName "Generator3Alive"
+    m_targetState UNDAMAGED
    }
   }
   coords 2176.113 56.494 7681.67
