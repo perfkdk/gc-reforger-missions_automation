@@ -29,8 +29,9 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
     SCR_Faction "{633D460D559977CA}" {
      UIInfo SCR_FactionUIInfo "{633D46001FC1655D}" {
       Name "West German Militia"
-      Icon "{E5045D08FF65036A}worlds/Delfer/Grouse_Hunt/Flag PNG.edds"
+      Icon "{29BD4B2192625A29}worlds/Delfer/Grouse_Hunt/GC_BDW_icon.edds"
      }
+     m_sFactionFlag "{29BD4B2192625A29}worlds/Delfer/Grouse_Hunt/GC_BDW_icon.edds"
      m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
       m_bIsAssignedRandomly 0
       m_aPlatoonNames {
