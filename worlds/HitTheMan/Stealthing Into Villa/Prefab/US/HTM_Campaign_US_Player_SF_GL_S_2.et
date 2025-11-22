@@ -6,8 +6,8 @@ SCR_ChimeraCharacter : "{35D0632E8E0FC83D}Prefabs/Characters/Campaign/Final/BLUF
   }
  }
  {
-  PS_ManualMarker : "{A5F184C1270A7150}worlds/HitTheMan/Stealthing Into Villa/Prefab/US/EditableMarker_Stealth_HTM_GL.et" {
-   ID "66EC24B230E8EB34"
+  PS_ManualMarker : "{0FE6218EC7D7CDF1}worlds/HitTheMan/Stealthing Into Villa/Prefab/US/EditableMarker_Stealth_HTM_GL_2.et" {
+   ID "66EC24B22A2BE56E"
    coords 0 0 0
    angles 0 0 0
   }
