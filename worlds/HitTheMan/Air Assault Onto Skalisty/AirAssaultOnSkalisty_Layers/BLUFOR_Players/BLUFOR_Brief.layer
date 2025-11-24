@@ -27,11 +27,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "21 Alpha, 21 Bravo"\
   ""\
   "II. Callsigns:"\
-  "1st Section 		- 21 Alpha"\
-  "2nd Section 		- 21 Bravo"\
+  "1st Section ------------------- 21 Alpha"\
+  "2nd Section ------------------ 21 Bravo"\
   ""\
   "III. Frequencies:"\
-  "1st Platoon Net 	- 48.00"
+  "1st Platoon Net ------------ 48.00 MHz"
   m_aVisibleForFactions {
    "GC_CAF"
   }

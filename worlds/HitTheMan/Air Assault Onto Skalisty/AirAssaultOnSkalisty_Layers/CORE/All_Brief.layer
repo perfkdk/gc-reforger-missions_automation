@@ -1,15 +1,17 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  Briefing_1_Situation {
   coords 5810.46 272.434 10245.144
-  m_sTitle "I. Situation:"
+  m_sTitle "<h2>I. Situation:</h2>"
   m_sTextData "Time & Weather:"\
   "Time: 05:15"\
   "Cloudy"\
   ""\
   "Situation:"\
   "CAF secured the island of Skalisty in the early beginnings of the liberation of this region.. however the Soviets are sending in their VDV to reclaim this vital island."
+  m_aVisibleForFactions {
+   "GC_CAF"
+  }
   m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
   m_iOrder 1
  }
  Briefing_6_MissionNotes {
@@ -41,7 +43,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 8
+  m_iOrder 20
  }
  Briefing_7_GameMaster {
   coords 5812.508 272.504 10244.749
@@ -49,6 +51,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "This mission is not designed for game mastering and should only be manipulated for technical, administrative or diagnostic purposes."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 9
+  m_iOrder 21
  }
 }
