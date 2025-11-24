@@ -651,12 +651,6 @@ $grp GenericEntity {
      DistanceAttenuation 1.5
     }
     {
-     coords -10.681 -8.401 -7.481
-     LV 1
-     Radius 8
-     DistanceAttenuation 1.5
-    }
-    {
      coords -0.147 -8.67 6.46
      LV 1
      Radius 8
@@ -930,12 +924,6 @@ $grp GenericEntity {
      DistanceAttenuation 1.5
     }
     {
-     coords -11.064 -9.03 -9.529
-     LV 1
-     Radius 8
-     DistanceAttenuation 1.5
-    }
-    {
      coords -8.999 -9.029 1.526
      angles -0.168 91.781 -1.341
      LV 1
@@ -1169,13 +1157,6 @@ $grp GenericEntity {
     }
     {
      coords -5.435 -8.777 4.256
-     angles 0 89.771 0
-     LV 1
-     Radius 8
-     DistanceAttenuation 1.5
-    }
-    {
-     coords -10.226 -8.531 12.163
      angles 0 89.771 0
      LV 1
      Radius 8
