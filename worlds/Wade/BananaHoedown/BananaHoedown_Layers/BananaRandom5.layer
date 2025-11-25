@@ -1,47 +1,8 @@
-$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
- {
-  coords 2637.471 24.219 5473.536
-  angles 11.24 1.796 1.264
-  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
-  m_conditionFlag "BananaRandomFlag5"
-  m_spawnTimings {
-   42
-  }
- }
- {
-  coords 2641.064 24.219 5473.396
-  angles 11.24 1.796 1.264
-  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
-  m_conditionFlag "BananaRandomFlag5"
-  m_spawnTimings {
-   42
-  }
- }
- {
-  coords 2640.307 24.219 5473.481
-  angles 11.24 1.796 1.264
-  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
-  m_conditionFlag "BananaRandomFlag5"
-  m_spawnTimings {
-   42
-  }
- }
- {
-  coords 2639.471 24.219 5473.493
-  angles 11.24 1.796 1.264
-  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
-  m_conditionFlag "BananaRandomFlag5"
-  m_spawnTimings {
-   42
-  }
- }
- {
-  coords 2638.391 24.219 5473.503
-  angles 11.24 1.796 1.264
-  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
-  m_conditionFlag "BananaRandomFlag5"
-  m_spawnTimings {
-   42
-  }
+TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ coords 2637.471 24.219 5473.536
+ m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+ m_conditionFlag "BananaRandomFlag5"
+ m_spawnTimings {
+  42
  }
 }

@@ -1,44 +1,385 @@
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  {
   coords 2637.793 25.215 5518.035
-  angles 11.24 1.796 1.264
-  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag4"
   m_spawnTimings {
    42
   }
  }
  {
-  coords 2641.386 25.215 5517.895
-  angles 11.24 1.796 1.264
-  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
+  coords 7665.192 17.687 4934.52
+  angles 0 68.263 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag4"
   m_spawnTimings {
    42
   }
  }
  {
-  coords 2639.793 25.215 5517.992
-  angles 11.24 1.796 1.264
-  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
+  coords 7138.464 315.089 6007.147
+  angles 0 99.088 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag4"
   m_spawnTimings {
    42
   }
  }
  {
-  coords 2638.713 25.215 5518.002
-  angles 11.24 1.796 1.264
-  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
+  coords 6512.607 494.09 6642.347
+  angles 0 58.76 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag4"
   m_spawnTimings {
    42
   }
  }
  {
-  coords 2640.629 25.215 5517.98
-  angles 11.24 1.796 1.264
-  m_prefab "{1A623AD412F0CD8F}worlds/Wade/BananaHoedown/BananaPrefab.et"
+  coords 9619.028 137.684 10021.728
+  angles 0 29.509 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 9332.32 100.176 9607.226
+  angles 0 86.729 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 5360.711 404.117 5296.353
+  angles 0 -1.939 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 5964.183 419.882 5871.306
+  angles 0 -54.05 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 6534.078 527.176 6624.883
+  angles 0 -127.386 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 8785.797 3.999 7339.43
+  angles 0 16.869 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 7653.472 14.812 9261.65
+  angles 0 123.433 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 9555.784 11.629 8658.666
+  angles 0 40.167 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 4384.486 327.088 5152.589
+  angles -24.368 -157.101 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 3889.706 238.38 5299.636
+  angles 0 80.913 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 3789.416 10.506 3776.24
+  angles 0 -32.404 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 4538.13 60.801 3505.439
+  angles 0 168.415 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 4573.753 49.614 3559.426
+  angles 0 109.283 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 2771.053 121.117 7434.209
+  angles 0 -179.933 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 4879.032 19.267 8166.389
+  angles 0 -0.651 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 6103.213 46.828 8003.468
+  angles 0 -5.558 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 12038.501 24.536 10787.685
+  angles 0 -61.455 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 4357.087 57.838 3170.849
+  angles 0 95.473 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 9710.685 130.307 10162.549
+  angles 0 -110.178 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 10092.514 169.007 10282.688
+  angles 0 179.48 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 6770.435 443.186 6724.894
+  angles 0 -96.822 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 6721.716 195.327 5310.176
+  angles 0 148.27 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 9638.106 95.679 9736.84
+  angles 0 41.474 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 10506.259 24.023 9744.647
+  angles 0 -160.02 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 9498.251 72.608 9175.689
+  angles 0 128.717 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 8501.928 25.743 6560.941
+  angles 0 -83.644 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 7834.433 42.264 4764.026
+  angles 0 65.931 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 7845.64 3.198 4293.796
+  angles 0 136.997 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 4353.086 26.444 2959.462
+  angles 0 -177.308 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 7652.381 327.513 7823.926
+  angles 0 53.472 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 4554.919 521.585 6291.474
+  angles 0 65.931 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 6862.233 168.57 7855.314
+  angles 0 -86.051 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 7626.993 19.928 9242.158
+  angles 0 -52.922 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 8271.563 12.11 9884.413
+  angles 0 -38.181 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 10256.188 84.468 9820.391
+  angles 0 -35.332 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 8252.512 12.011 9879.718
+  angles 0 93.151 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 5933.787 43.371 8018.424
+  angles 0 90.331 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 7637.039 18.69 4789.142
+  angles 0 13.501 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
+  m_conditionFlag "BananaRandomFlag4"
+  m_spawnTimings {
+   42
+  }
+ }
+ {
+  coords 7513.384 35.534 5150.05
+  angles 0 142.435 0
+  m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag4"
   m_spawnTimings {
    42
