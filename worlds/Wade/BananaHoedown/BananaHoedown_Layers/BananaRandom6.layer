@@ -1,10 +1,21 @@
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  {
-  coords 2596.746 24.219 5474.745
+  coords 11045.638 102.036 10507.936
+  angles 0 162.986 0
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0.006 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -13,7 +24,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -22,7 +43,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -31,7 +62,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -40,7 +81,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -49,7 +100,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -58,7 +119,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -67,7 +138,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -76,7 +157,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -85,7 +176,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -94,7 +195,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -103,7 +214,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -112,7 +233,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -121,7 +252,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -130,7 +271,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -139,7 +290,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -148,7 +309,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -157,7 +328,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -166,7 +347,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -175,7 +366,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -184,7 +385,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -193,7 +404,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -202,7 +423,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -211,7 +442,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
  {
@@ -220,7 +461,17 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{F9516BAAF0D2E496}worlds/Wade/BananaHoedown/Computer_Secure.et"
   m_conditionFlag "BananaRandomFlag6"
   m_spawnTimings {
-   10.8
+   300
+  }
+  {
+   TILW_PrefabSpawnerEntity : "{24DE47146AB85B95}worlds/Wade/BananaHoedown/MarkerPrefab.et" {
+    coords 0 0 0
+    angles 0 0 0
+    m_conditionFlag "BananaRandomFlag6"
+    m_spawnTimings {
+     300
+    }
+   }
   }
  }
 }
