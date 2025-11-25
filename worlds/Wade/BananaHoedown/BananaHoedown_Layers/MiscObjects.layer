@@ -68,4 +68,22 @@ $grp GenericEntity {
   }
   coords 10092.778 168.107 10282.782
  }
+ {
+  components {
+   MeshObject "{66EE3AD8C0DB4260}" {
+    Object "{5E56E23485C7D393}Assets/Props/Furniture/DeskSchool_01/DeskSchool_01.xob"
+   }
+  }
+  coords 2224.347 126.244 7386.609
+  angles 0 -89.912 0
+ }
+ {
+  components {
+   MeshObject "{66EE3AD8C0DB4260}" {
+    Object "{5E56E23485C7D393}Assets/Props/Furniture/DeskSchool_01/DeskSchool_01.xob"
+   }
+  }
+  coords 8657.986 17.41 6488.433
+  angles 0 -51.856 0
+ }
 }

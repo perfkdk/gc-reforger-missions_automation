@@ -1,11 +1,10 @@
-$grp GenericEntity {
+$grp GenericEntity : "{15518B113BCC7396}Prefabs/Structures/Naval/USS_Concrete.et" {
  {
   coords 3071.581 -0.001 12603.123
-  angles 0 -4.019 0
  }
  {
   coords 8454.976 0 505.97
-  angles 0 167.163 0
+  angles 0 164.861 0
  }
 }
 $grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/GeneratorFloodlight_USSR_01.et" {

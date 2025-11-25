@@ -1,18 +1,56 @@
+Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ components {
+  SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+   m_fFuelConsumption 50
+  }
+ }
+ coords 2711.696 24.592 5496.587
+ angles 0 -88.874 0
+}
 Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
- coords 2713.53 24.592 5467.443
+ components {
+  SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+   m_fFuelConsumption 100
+  }
+ }
+ coords 2712.283 24.592 5467.478
  angles 0 -90.594 0
 }
 $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
- UAZ1 {
-  coords 2711.095 24.592 5490.968
-  angles 0 -93.362 0
- }
  UAZ2 {
-  coords 2711.87 24.592 5483.563
-  angles 0 -94.416 0
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 50
+   }
+  }
+  coords 2711.587 24.592 5491.283
+  angles 0 -89.003 0
  }
  UAZ3 {
-  coords 2712.239 24.592 5476.548
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 50
+   }
+  }
+  coords 2711.635 24.592 5485.919
+  angles 0 -89.003 0
+ }
+ UAZ4 {
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 50
+   }
+  }
+  coords 2712.305 24.592 5480.478
+  angles 0 -89.003 0
+ }
+ UAZ5 {
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 50
+   }
+  }
+  coords 2712.349 24.592 5475.061
   angles 0 -89.003 0
  }
 }
