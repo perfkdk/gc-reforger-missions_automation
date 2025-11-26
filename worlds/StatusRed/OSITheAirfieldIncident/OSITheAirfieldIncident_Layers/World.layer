@@ -1,0 +1,139 @@
+StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Long.et" {
+ coords 4874.72 -0.085 11717.043
+ angles 0 86.717 0
+}
+Vehicle bluTanker : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     FuelType Kerosene
+     m_fInitialFuelTankState 100
+     m_eFuelNodeType 15
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "UK"
+  }
+ }
+ coords 4903.583 28.692 11955.318
+ angles 0 176.355 0
+}
+GenericEntity : "{47B7E8CA1935BB28}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Fuel.et" {
+ coords 4906.49 28.594 11962.858
+ scale 2
+}
+$grp Vehicle : "{47F2921E0DACA300}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_Supply.et" {
+ AUS_UH60_Supply1 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5E9AE02488359898}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5E9AE0248D00D20B}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5E9AE0248101059B}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60F686523ED8885E}" {
+      SlotTemplate InventoryStorageSlot MGammo {
+       Enabled 0
+      }
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 4881.408 28.594 11801.586
+  angles 0 -86.977 0
+ }
+ AUS_UH60_Supply2 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+   }
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5E9AE02488359898}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5E9AE0248D00D20B}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5E9AE0248101059B}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60F686523ED8885E}" {
+      SlotTemplate InventoryStorageSlot MGammo {
+       Enabled 0
+      }
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 4882.196 28.594 11834.986
+  angles 0 -86.977 0
+ }
+}
+Vehicle bluChopper : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_factionLock {
+    "UK"
+   }
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 10
+    }
+    SCR_FuelNode "{5E9AE02488359898}" {
+     MaxFuel 10
+    }
+    SCR_FuelNode "{5E9AE0248D00D20B}" {
+     MaxFuel 10
+    }
+    SCR_FuelNode "{5E9AE0248101059B}" {
+     MaxFuel 10
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60F686523ED8885E}" {
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "UK"
+  }
+  SCR_VehicleSpawnProtectionComponent "{54D6FBC0CE49F6D9}" {
+   m_factionLock {
+    "UK"
+   }
+  }
+ }
+ coords 4881.729 28.594 11870.338
+ angles 0 -89.158 0
+}

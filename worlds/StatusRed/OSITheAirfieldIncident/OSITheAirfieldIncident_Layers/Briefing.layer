@@ -1,0 +1,16 @@
+PS_MissionDescription situation : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 4824.861 28.593 11825.625
+ m_sTitle "Situation"
+ m_sTextData "=== 28th of September 2014 ==="\
+ "It is 10 days since Scotland voted to remain part of the United Kingdom of Great Britain and Northern Ireland. Riots have broke out in the streets of Glasgow and other separatist stronghold cities and towns across the country."\
+ ""\
+ "With tensions running high, a highly motivated group of separatists are claiming that the vote was not fair and have taken up arms in the fight for Scotland's independence."\
+ ""\
+ "RAF Kirknewton (south west of Edinburgh) has been chosen as a target for one of their most brazen operations, to seize an RAF base and commandeer some military equipment."\
+ ""\
+ "Will this fizzle out? Or be a the start of a civil war?"\
+ ""\
+ "The fate of Scotland is in your hands! Which side will you choose?"
+ m_bEmptyFactionVisibility 1
+ m_bShowForAnyFaction 1
+}

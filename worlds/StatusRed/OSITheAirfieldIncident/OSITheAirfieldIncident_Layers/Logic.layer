@@ -1,0 +1,31 @@
+PolylineShapeEntity bluAO : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_factionKeys {
+    "UK"
+   }
+  }
+ }
+ coords 4868.753 28.593 11846.228
+ Points {
+  ShapePoint "{66EF056D7C4ED75C}" {
+   Position -808.573 -1749.322 332.992
+  }
+  ShapePoint "{66EF056D7FD9FC38}" {
+   Position 215.801 0 248.059
+  }
+  ShapePoint "{66EF056D44FB41EA}" {
+   Position 662.009 0 -800.657
+  }
+  ShapePoint "{66EF056D48950A24}" {
+   Position -300.307 0 -808.329
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity bluSetupZone : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 4793.488 35.975 11748.647
+ scale 10.177
+ m_fWarnRadius 70
+ m_fZoneRadius 80
+ m_iWarningType SINGLE_PLAYER
+}
