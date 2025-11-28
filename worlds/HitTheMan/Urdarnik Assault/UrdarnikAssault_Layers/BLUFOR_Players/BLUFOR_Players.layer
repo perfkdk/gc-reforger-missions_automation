@@ -431,12 +431,12 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
   angles -0.624 -134.094 -0.643
   m_aUnitPrefabSlots {
    "{E0C8CB8559AC550E}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_COY_Commander_1_P.et"
-   "{3AC4053214B1B638}worlds/HitTheMan/Urdarnik Assault/Prefabs/Character_1993_CAF_COY_2iC_1_P.et"
+   "{3AC4053214B1B638}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_COY_2iC_1_P.et"
    "{B4C4A4C1E9C987B6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_Signaller_1_P.et"
    "{521F896E060E6696}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_COY_CSM_1_P.et"
    "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_Medic_1_P.et"
    "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_Medic_1_P.et"
-   "{DF590830801CEB95}worlds/HitTheMan/Urdarnik Assault/Prefabs/Character_1993_CAF_Vehicle_Gunner_1_P_HTM.et"
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et"
    "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
   m_sCustomNameSet "Company HQ"
@@ -456,7 +456,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
    "{373B40FAB9F262CA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Commander_1_P.et"
    "{E1B0E0478D68E303}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Warrant_1_P.et"
    "{B4C4A4C1E9C987B6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_Signaller_1_P.et"
-   "{DF590830801CEB95}worlds/HitTheMan/Urdarnik Assault/Prefabs/Character_1993_CAF_Vehicle_Gunner_1_P_HTM.et"
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et"
    "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
   m_sCustomNameSet "1st Platoon HQ"
@@ -476,7 +476,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
    "{373B40FAB9F262CA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Commander_1_P.et"
    "{E1B0E0478D68E303}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Warrant_1_P.et"
    "{B4C4A4C1E9C987B6}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_Signaller_1_P.et"
-   "{DF590830801CEB95}worlds/HitTheMan/Urdarnik Assault/Prefabs/Character_1993_CAF_Vehicle_Gunner_1_P_HTM.et"
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et"
    "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
   m_sCustomNameSet "2nd Platoon HQ"
@@ -500,7 +500,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
    "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et"
    "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et"
    "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et"
-   "{DF590830801CEB95}worlds/HitTheMan/Urdarnik Assault/Prefabs/Character_1993_CAF_Vehicle_Gunner_1_P_HTM.et"
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et"
    "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
   m_sCustomNameSet "1st Section"
@@ -524,7 +524,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
    "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et"
    "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et"
    "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et"
-   "{DF590830801CEB95}worlds/HitTheMan/Urdarnik Assault/Prefabs/Character_1993_CAF_Vehicle_Gunner_1_P_HTM.et"
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et"
    "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
   m_sCustomNameSet "2nd Section"
@@ -548,7 +548,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
    "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et"
    "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et"
    "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et"
-   "{DF590830801CEB95}worlds/HitTheMan/Urdarnik Assault/Prefabs/Character_1993_CAF_Vehicle_Gunner_1_P_HTM.et"
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et"
    "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
   m_sCustomNameSet "1st Section"
@@ -572,7 +572,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
    "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et"
    "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et"
    "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et"
-   "{DF590830801CEB95}worlds/HitTheMan/Urdarnik Assault/Prefabs/Character_1993_CAF_Vehicle_Gunner_1_P_HTM.et"
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et"
    "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
   m_sCustomNameSet "2nd Section"
@@ -634,7 +634,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
    "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et"
    "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et"
    "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et"
-   "{DF590830801CEB95}worlds/HitTheMan/Urdarnik Assault/Prefabs/Character_1993_CAF_Vehicle_Gunner_1_P_HTM.et"
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et"
    "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
   m_sCustomNameSet "3rd Section"
@@ -658,7 +658,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
    "{C8A1A5B03388350F}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_2IC_1_P.et"
    "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et"
    "{652F146EF6635151}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_LAT_1_P.et"
-   "{DF590830801CEB95}worlds/HitTheMan/Urdarnik Assault/Prefabs/Character_1993_CAF_Vehicle_Gunner_1_P_HTM.et"
+   "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et"
    "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
   m_sCustomNameSet "3rd Section"
