@@ -402,11 +402,11 @@ $grp GenericEntity : "{36108DAFF38E0C07}PrefabsEditable/EffectsModules/Mine/Effe
     }
    }
   }
-  coords 1503.65 19.702 2165.643
+  coords 1512.568 18.56 2148.597
   angles 0 62.088 0
   {
    PS_ManualMarker NVA_Mark_Minefield_12 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
-    coords 0.365 -0.006 0.302
+    coords 0.365 0.004 0.302
     angles 0 2.754 0
     m_sImageSetGlow ""
     m_MarkerColor 0 0 0 1
@@ -437,7 +437,7 @@ $grp GenericEntity : "{36108DAFF38E0C07}PrefabsEditable/EffectsModules/Mine/Effe
     }
    }
   }
-  coords 1367.021 17.69 2098.226
+  coords 1368.006 14.737 2052.378
   angles 0 87.664 0
   {
    PS_ManualMarker NVA_Mark_Minefield_13 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
@@ -472,7 +472,7 @@ $grp GenericEntity : "{36108DAFF38E0C07}PrefabsEditable/EffectsModules/Mine/Effe
     }
    }
   }
-  coords 1743.138 15.093 2165.415
+  coords 1747.046 15.093 2143.428
   angles 0 79.572 0
   {
    PS_ManualMarker NVA_Mark_Minefield_14 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
@@ -507,7 +507,7 @@ $grp GenericEntity : "{36108DAFF38E0C07}PrefabsEditable/EffectsModules/Mine/Effe
     }
    }
   }
-  coords 1618.481 19.149 2260.527
+  coords 1565.784 20.438 2265.029
   angles 0 -2.342 0
   {
    PS_ManualMarker NVA_Mark_Minefield_15 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {

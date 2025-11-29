@@ -150,6 +150,14 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
+$grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+ LAV_M_1 {
+  coords 1428.457 20.125 2160.562
+ }
+ LAV_M_2 {
+  coords 1642.519 17.383 2270.066
+ }
+}
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  AO_Limit_OPF {
   components {
@@ -231,38 +239,23 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    ShapePoint "{6584FEF1FFDBC984}" {
     Position -2.234 16.941 -1118.721
    }
-   ShapePoint "{6584FEF1FEE584F7}" {
-    Position -27.376 16.655 -1064.039
+   ShapePoint "{66FAF95BE98D3FE0}" {
+    Position -28.898 14.568 -924.498
    }
-   ShapePoint "{6584FEF1FDFF5A38}" {
-    Position -48.928 15.007 -951.12
+   ShapePoint "{66FAF95BE908B10B}" {
+    Position -39.103 5.969 -736.245
    }
-   ShapePoint "{6584FEF1FC4AA25E}" {
-    Position -70.895 13.072 -834.758
+   ShapePoint "{66FAF95BEFC64F1D}" {
+    Position -68.443 -0.461 -537.802
    }
-   ShapePoint "{6584FEF1F30D057E}" {
-    Position -93.692 5.702 -719.089
+   ShapePoint "{66FAF95BEF4B938B}" {
+    Position -91.454 -2.056 -391.562
    }
-   ShapePoint "{6584FEF1F2039695}" {
-    Position -109.933 4.438 -638.192
-   }
-   ShapePoint "{6584FEF1F13AAE5A}" {
-    Position -125.615 -0.917 -556.704
-   }
-   ShapePoint "{6584FEF1F7D84C0C}" {
-    Position -144.579 -3.341 -457.901
-   }
-   ShapePoint "{6584FEF1F6DBD567}" {
-    Position -159.895 -4.07 -378.472
-   }
-   ShapePoint "{6584FEF1F5FE269F}" {
-    Position -165.631 -2.714 -320.616
-   }
-   ShapePoint "{6584FEF18C74F03D}" {
-    Position -136.794 -0.676 -291.199
+   ShapePoint "{66FAF95BEEBB7B00}" {
+    Position -101.477 0.182 -314.362
    }
    ShapePoint "{65B95BED67EC4AE8}" {
-    Position -97.363 1.728 -286.192
+    Position -94.156 2.465 -270.516
    }
    ShapePoint "{66FAE9B08C1046A4}" {
     Position -86.127 3.217 -244.76
@@ -358,16 +351,15 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
     m_killTimer 30
     m_factionKeys {
-     "US"
+     "GC_SEPARATIST"
     }
     m_defaultColor 0.071 0.192 0.561 1
-    m_useFactionColor 0
     m_lineWidth 5
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
     m_factionKeys {
-     "US"
+     "GC_SEPARATIST"
     }
    }
   }
@@ -441,63 +433,63 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  }
 }
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- Sector1_Trigger {
-  coords 1408.491 26.391 2206.469
+ Trigger_Compound {
+  coords 1410.905 26.391 2201.354
   m_queryRadius 50
-  m_sendStatusMessages 1
-  m_locationName "Sector 1"
-  m_flagName "Sector1"
+  m_locationName "Compound"
+  m_flagName "Compound"
   m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
-  m_drawShapeOutline 0
   m_ownerFactionKey "GC_NVA"
   m_ratioThreshold 0.9
  }
- Sector2_Trigger {
-  coords 1504.365 20.594 2262.351
-  m_queryRadius 60
-  m_sendStatusMessages 1
-  m_locationName "Sector 2"
-  m_flagName "Sector2"
+ Trigger_Apartment1 {
+  coords 1505.577 40.338 2310.451
+  m_queryRadius 31
+  m_locationName "Apartment 1"
+  m_flagName "Apartment1"
   m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
-  m_drawShapeOutline 0
   m_ownerFactionKey "GC_NVA"
   m_ratioThreshold 0.9
  }
- Sector4_Trigger {
-  coords 1353.053 20.656 2364.588
-  m_queryRadius 40
-  m_sendStatusMessages 1
-  m_locationName "Sector 4"
-  m_flagName "Sector4"
+ Trigger_Apartment2 {
+  coords 1371.416 39.918 2320.159
+  m_queryRadius 24
+  m_locationName "Apartment 2"
+  m_flagName "Apartment2"
   m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
-  m_drawShapeOutline 0
   m_ownerFactionKey "GC_NVA"
   m_ratioThreshold 0.9
  }
- Sector5_Trigger {
-  coords 1436.73 20.656 2433.013
-  m_queryRadius 35
-  m_sendStatusMessages 1
-  m_locationName "Sector 5"
-  m_flagName "Sector5"
+ Trigger_Apartment3 {
+  coords 1470.599 40.964 2374.493
+  m_queryRadius 32
+  m_locationName "Apartment 3"
+  m_flagName "Apartment3"
   m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
-  m_drawShapeOutline 0
   m_ownerFactionKey "GC_NVA"
   m_ratioThreshold 0.9
  }
  Airstrike_trigger {
-  coords 1566.734 13.302 1838.022
+  coords 1542.157 14.441 1988.976
   m_queryRadius 300
   m_locationName "the Compound"
   m_flagName "Compound"
   m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
+  m_drawShapeOutline 0
   m_playersOnly 1
   m_ownerFactionKey "GC_NVA"
   m_ratioThreshold 0.6
+ }
+ Trigger_LAVs {
+  coords 1394.057 20.656 2483.233
+  m_queryRadius 300
+  m_locationName "the Compound"
+  m_flagName "LAVs"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ownerFactionKey "GC_NVA"
+  m_ratioThreshold 0.001
  }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
@@ -505,10 +497,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  angles 0 0 -3.576
  m_missionEvents {
   TILW_MissionEvent "{65041578E772535B}" {
-   m_name "US Victory Casualties"
+   m_name "SEP Victory Casualties"
    m_instructions {
     TILW_SendMessageInstruction "{6504157888C9AF5E}" {
-     m_messageTitle "United States Army Victory"
+     m_messageTitle "Seperatists Victory"
      m_messageBody "NVA Sustained too many casualties.. GM Discretion when to end the mission"
     }
    }
@@ -525,7 +517,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
    m_condition TILW_LiteralTerm "{6586BE009547FF25}" {
-    m_flagName "US_CAS"
+    m_flagName "SEP_CAS"
    }
   }
   TILW_MissionEvent "{6506E408139E95AC}" {
@@ -548,12 +540,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SendMessageInstruction "{6506E4089FDE5CA5}" {
      m_executionDelay 5400
-     m_messageTitle "US Army Victory"
-     m_messageBody "US held the town long enough forcing the NVA to fall back... GM Discretion when to end the mission"
-    }
-    TILW_EndGameInstruction "{650CE1979D068E00}" {
-     m_executionDelay 5410
-     m_factionKey "US"
+     m_messageTitle "Seperatists Victory"
+     m_messageBody "Seperatists held the town long enough forcing the NVA to fall back... GM Discretion when to end the mission"
     }
    }
    m_condition TILW_LiteralTerm "{6506E40BFBED4D76}" {
@@ -564,6 +552,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "NVA OBJ Victory"
    m_instructions {
     TILW_SendMessageInstruction "{6550E36ED08C418C}" {
+     m_executionDelay 8
      m_messageTitle "East German Victory"
      m_messageBody "NVA has managed to secure the town... "\
      "GM Discretion when to end the mission"
@@ -572,24 +561,92 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_condition TILW_ConjunctionTerm "{650AE15E5BA69298}" {
     m_operands {
      TILW_LiteralTerm "{650AE15E59E990F8}" {
-      m_flagName "Sector1"
+      m_flagName "Compound"
      }
      TILW_LiteralTerm "{6586BE0770F4B9C7}" {
-      m_flagName "Sector2"
+      m_flagName "Apartment1"
      }
      TILW_LiteralTerm "{6586BE0771BA4769}" {
-      m_flagName "Sector3"
+      m_flagName "Apartment2"
      }
      TILW_LiteralTerm "{6550E36E8EA64081}" {
-      m_flagName "Sector4"
-     }
-     TILW_LiteralTerm "{6570BC085EF505AA}" {
-      m_flagName "Sector5"
-     }
-     TILW_LiteralTerm "{650AE15E58E959FC}" {
-      m_flagName "Sector6"
+      m_flagName "Apartment3"
      }
     }
+   }
+  }
+  TILW_MissionEvent "{66FAF95D9973669F}" {
+   m_name "--------------------------------"
+  }
+  TILW_MissionEvent "{66FAF95D919E5763}" {
+   m_name "Compound Message"
+   m_instructions {
+    TILW_SendMessageInstruction "{66FAF95D82F08C06}" {
+     m_messageTitle "NVA Secured the Compound"
+    }
+   }
+   m_condition TILW_LiteralTerm "{66FAF95D8E6BC275}" {
+    m_flagName "Compound"
+   }
+  }
+  TILW_MissionEvent "{66FAF95DADAFF003}" {
+   m_name "Apartment 1 Message"
+   m_instructions {
+    TILW_SendMessageInstruction "{66FAF95DADAFF0D0}" {
+     m_messageTitle "NVA Secured the Apartment ONE"
+    }
+   }
+   m_condition TILW_LiteralTerm "{66FAF95DADAFF0ED}" {
+    m_flagName "Apartment1"
+   }
+  }
+  TILW_MissionEvent "{66FAF95A5EA57E53}" {
+   m_name "Apartment 2 Message"
+   m_instructions {
+    TILW_SendMessageInstruction "{66FAF95A5EA57E26}" {
+     m_messageTitle "NVA Secured the Apartment TWO"
+    }
+   }
+   m_condition TILW_LiteralTerm "{66FAF95A5EA57E23}" {
+    m_flagName "Apartment2"
+   }
+  }
+  TILW_MissionEvent "{66FAF95A5D9603CD}" {
+   m_name "Apartment 3 Message"
+   m_instructions {
+    TILW_SendMessageInstruction "{66FAF95A5D960383}" {
+     m_messageTitle "NVA Secured the Apartment THREE"
+    }
+   }
+   m_condition TILW_LiteralTerm "{66FAF95A5D96039C}" {
+    m_flagName "Apartment3"
+   }
+  }
+  TILW_MissionEvent "{66FAF95D93417DCB}" {
+   m_name "--------------------------------"
+  }
+  TILW_MissionEvent "{66FAF95AFA06902E}" {
+   m_name "LAVWaypoint"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{66FAF95AF1F88607}" {
+     m_groupName "LAVCrew1"
+     m_waypointNames {
+      "LAV_M_1"
+      "LAVSnD"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{66FAF95AE9536A9C}" {
+     m_groupName "LAVCrew2"
+     m_waypointNames {
+      "LAV_M_1"
+      "LAVSnD"
+     }
+     m_clearExisting 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{66FAF95AFD62E57F}" {
+    m_flagName "LAVs"
    }
   }
  }
@@ -600,57 +657,68 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_casualtyRatio 0.85
   }
   TILW_FactionPlayersKilledFlag "{6586BE008E89787A}" {
-   m_flagName "US_CAS"
-   m_factionKey "US"
+   m_flagName "SEP_CAS"
+   m_factionKey "GC_SEPARATIST"
    m_casualtyRatio 0.9
   }
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  Obj_Mark_1 {
-  coords 1408.278 20.705 2208.022
+  coords 1411.548 20.705 2203.901
   angles 0 90 0
   m_sImageSetGlow ""
   m_MarkerColor 0.624 0.157 0.157 1
-  m_sQuadName "flag-3"
+  m_sQuadName "objective-marker"
   m_fWorldSize 30
-  m_sDescription "Sector 1"
+  m_sDescription "Compound"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
   m_bringToFront 0
  }
  Obj_Mark_2 {
-  coords 1504.362 20.594 2262.516
+  coords 1505.763 20.594 2309.09
   angles 0 90 0
   m_sImageSetGlow ""
   m_MarkerColor 0.624 0.157 0.157 1
-  m_sQuadName "flag-3"
+  m_sQuadName "objective-marker"
   m_fWorldSize 30
-  m_sDescription "Sector 2"
+  m_sDescription "Apartment 1"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
   m_bringToFront 0
  }
- Obj_Mark_5 {
-  coords 1436.624 20.656 2433.108
+ Obj_Mark_3 {
+  coords 1471.789 20.656 2373.686
   angles 0 90 0
   m_sImageSetGlow ""
   m_MarkerColor 0.624 0.157 0.157 1
-  m_sQuadName "flag-3"
+  m_sQuadName "objective-marker"
   m_fWorldSize 30
-  m_sDescription "Sector 5"
+  m_sDescription "Apartment 2"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
   m_bringToFront 0
  }
  Obj_Mark_4 {
-  coords 1353.14 20.656 2364.582
+  coords 1368.573 20.656 2320.822
   angles 0 90 0
   m_sImageSetGlow ""
   m_MarkerColor 0.624 0.157 0.157 1
-  m_sQuadName "flag-3"
+  m_sQuadName "objective-marker"
   m_fWorldSize 30
-  m_sDescription "Sector 4"
+  m_sDescription "Apartment 3"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ Blu_Mark_10 {
+  coords 3055.146 17.987 2124.035
+  angles 0 90 0
+  m_sImageSet "{E3A54F8246902EF6}worlds/HitTheMan/Battle For Zarichne NVA ATK/AOMap.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 2000
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
   m_bringToFront 0

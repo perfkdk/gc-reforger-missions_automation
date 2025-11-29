@@ -1,25 +1,19 @@
-$grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
- M2A2_MERDC3 {
+$grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ LAV25_RHS1 {
   components {
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      m_fInitialFuelTankState 0
-     }
-    }
-   }
-   TILW_VehicleCrewComponent "{6586D4862D11E9D4}" {
-    m_crewConfig TILW_CrewConfig "{6586D4862235FFDF}" {
+   TILW_VehicleCrewComponent "{66FAF95A0A060F64}" {
+    m_crewConfig TILW_CrewConfig "{66FAF95A0909A406}" {
      m_crewGroups {
       TILW_CrewGroup "{6586D4863C81C095}" {
        m_crewStations {
         TILW_CrewStation "{6586D48632D2B292}" {
          m_characters {
-          "{637E8C98FF3607CC}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/Character_US_1986_BDU_Brad_Gunner_AI.et"
-          "{1FB2FCFCD1CE8252}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/Character_US_1986_BDU_Brad_Driver_AI.et"
+          "{5B882C82EF033ABD}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_Rifleman.et"
+          "{5B882C82EF033ABD}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_Rifleman.et"
          }
         }
        }
+       m_entityName "LAVCrew1"
       }
      }
      m_noTurretDismount 1
@@ -27,30 +21,24 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
     }
    }
   }
-  coords 1748.153 15.094 2178.608
-  angles 0 175.543 0
+  coords 1360.282 16.349 2080.812
+  angles 0 162.413 0
  }
- M2A2_MERDC2 {
+ LAV25_RHS2 {
   components {
-   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-    FuelNodes {
-     SCR_FuelNode "{5622A70CD4036C5A}" {
-      m_fInitialFuelTankState 0
-     }
-    }
-   }
-   TILW_VehicleCrewComponent "{6586D48600844CD0}" {
-    m_crewConfig TILW_CrewConfig "{6586D4863DF4B934}" {
+   TILW_VehicleCrewComponent "{66FAF95A0A060F64}" {
+    m_crewConfig TILW_CrewConfig "{66FAF95A0909A406}" {
      m_crewGroups {
       TILW_CrewGroup "{6586D4863C81C095}" {
        m_crewStations {
         TILW_CrewStation "{6586D48632D2B292}" {
          m_characters {
-          "{637E8C98FF3607CC}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/Character_US_1986_BDU_Brad_Gunner_AI.et"
-          "{1FB2FCFCD1CE8252}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/Character_US_1986_BDU_Brad_Driver_AI.et"
+          "{5B882C82EF033ABD}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_Rifleman.et"
+          "{5B882C82EF033ABD}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/Character_SEP_1990_Rifleman.et"
          }
         }
        }
+       m_entityName "LAVCrew2"
       }
      }
      m_noTurretDismount 1
@@ -58,13 +46,14 @@ $grp Tank : "{5CFD8CB5C3E55A4E}Prefabs/Vehicles/Tracked/BFV/M2A2_MERDC.et" {
     }
    }
   }
-  coords 1359.6 16.32 2080.571
-  angles -4.169 167.507 1.837
+  coords 1748.558 15.094 2177.883
+  angles 0 173.073 0
  }
 }
 SCR_AIGroup US_PLTHQ : "{7E53E193D3894D09}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_PLT_HQ_P.et" {
  components {
   PS_GroupCallsignAssigner "{6582D1205FA38942}" {
+   Enabled 1
    m_iCompanyCallsign 3
    m_iPlatoonCallsign 2
   }
@@ -76,19 +65,19 @@ SCR_AIGroup US_PLTHQ : "{7E53E193D3894D09}Prefabs/Groups/BLUFOR/US/Army/1986/Lt 
   "{79A070049953651F}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_PL_P.et"
   "{A0B3BCF2173D994F}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_PSG_P.et"
   "{86CE6F9A819D767B}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_Medic_P.et"
-  "{86CE6F9A819D767B}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_Medic_P.et"
  }
 }
 $grp SCR_AIGroup : "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et" {
  US_RifleSquad_1 {
   components {
    PS_GroupCallsignAssigner "{6582D1205FA50E6F}" {
+    Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 2
     m_iSquadCallsign 1
    }
   }
-  coords 1436.425 20.665 2331.84
+  coords 1441.068 20.665 2334.342
   angles 0 150.023 0
   m_faction "GC_SEPARATIST"
   m_aUnitPrefabSlots {
@@ -98,7 +87,6 @@ $grp SCR_AIGroup : "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf 
    "{C62B9817669A3BAC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_Rifleman_P.et"
    "{A183104FB634329A}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_TL_P.et"
    "{43ED5345D6FF976B}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_MG_P.et"
-   "{05F03DE9BBD6488E}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_RiflemanAT_P.et"
    "{C62B9817669A3BAC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_Rifleman_P.et"
   }
   m_sCustomNameSet "1st Rifle Squad"
@@ -106,12 +94,13 @@ $grp SCR_AIGroup : "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf 
  US_RifleSquad_2 {
   components {
    PS_GroupCallsignAssigner "{6582D1205FA50E6F}" {
+    Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 2
     m_iSquadCallsign 2
    }
   }
-  coords 1424.191 20.667 2324.995
+  coords 1432.529 20.667 2329.551
   angles 0 148.077 0
   m_faction "GC_SEPARATIST"
   m_aUnitPrefabSlots {
@@ -122,6 +111,28 @@ $grp SCR_AIGroup : "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf 
    "{A183104FB634329A}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_TL_P.et"
    "{43ED5345D6FF976B}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_MG_P.et"
    "{C62B9817669A3BAC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_Rifleman_P.et"
+  }
+  m_sCustomNameSet "2nd Rifle Squad"
+ }
+ US_RifleSquad_3 {
+  components {
+   PS_GroupCallsignAssigner "{6582D1205FA50E6F}" {
+    Enabled 1
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1423.92 20.773 2324.601
+  angles 0 148.077 0
+  m_faction "GC_SEPARATIST"
+  m_aUnitPrefabSlots {
+   "{730520492F439698}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_SL_P.et"
+   "{D68098C4FB0522F2}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_AR_P.et"
+   "{05F03DE9BBD6488E}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_RiflemanAT_P.et"
+   "{C62B9817669A3BAC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_Rifleman_P.et"
+   "{A183104FB634329A}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_TL_P.et"
+   "{43ED5345D6FF976B}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_MG_P.et"
    "{C62B9817669A3BAC}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_Rifleman_P.et"
   }
   m_sCustomNameSet "2nd Rifle Squad"
