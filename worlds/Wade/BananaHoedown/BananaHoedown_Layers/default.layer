@@ -28,10 +28,11 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_objectives {
     GC_CommandosTracker "{66FA7E68FF0981CB}" {
      m_name "HVT"
-     m_objectiveCompletedMsg "HVT has been captured!"
-     m_completeDelay 120
+     m_objectiveCompletedMsg ""
+     m_completeDelay 0
      m_briefingDescription "Capture the HVT"
      m_markerPrefab "{7BCC081C2E617F70}worlds/Wade/BananaHoedown/HVTMarker.et"
+     m_briefingPrefab ""
      m_updateDelay 300
     }
    }
@@ -41,6 +42,40 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  coords 3061.744 2.762 1734.644
+}
+$grp TILW_PresenceTriggerEntity {
+ IntelExtractBlufor {
+  coords 3070.019 18.105 12599.194
+  m_queryRadius 130
+  m_flagName "IntelExtractBlufor"
+  m_entityNames {
+   "Intel"
+  }
+ }
+ IntelExtractOpfor {
+  coords 8450.919 18.106 513.726
+  m_queryRadius 130
+  m_flagName "IntelExtractOpfor"
+  m_entityNames {
+   "Intel"
+  }
+ }
+ HVTExtractBlufor {
+  coords 3070.015 18.105 12599.181
+  m_queryRadius 130
+  m_flagName "HVTExtractBlufor"
+  m_entityNames {
+   "HVT"
+  }
+ }
+ HVTExtractOpfor {
+  coords 8450.916 18.106 513.736
+  m_queryRadius 130
+  m_flagName "HVTExtractOpfor"
+  m_entityNames {
+   "HVT"
+  }
+ }
 }
 PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  coords 6685.379 1.555 4528.548
@@ -52,23 +87,81 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  "		Print(\"HelloWorld, I'm Wade\");"\
  "	"
  m_missionEvents {
-  TILW_MissionEvent "{66F953F6DA35A50C}" {
-   m_name "HVT Update"
+  TILW_MissionEvent "{66FC4EC5FC3B7A0E}" {
+   m_name "BothExtractBlufor"
    m_instructions {
-    TILW_RunScriptInstruction "{66F953F6ADCB00A6}" {
-     m_bAllowRerun 1
+    TILW_SendMessageInstruction "{66FC4EDC9300FE32}" {
+     m_messageTitle "BLUFOR Major Victory"
+     m_messageBody "Both the HVT and intel were extracted."
     }
-    TILW_ReactivateEventsInstruction "{66F953F687DFFB8F}" {
-     m_executionDelay 10
-     m_eventNames {
-      "HVT Update"
+   }
+   m_condition TILW_ConjunctionTerm "{66FC4EDA3A31ECC5}" {
+    m_operands {
+     TILW_LiteralTerm "{66FC4EDA3688A998}" {
+      m_flagName "HVTExtractBlufor"
+     }
+     TILW_LiteralTerm "{66FC4EDA3716173E}" {
+      m_flagName "IntelExtractBlufor"
      }
     }
    }
-   m_condition TILW_LiteralTerm "{66F953F587401A5C}" {
-    m_invertTerm 1
+  }
+  TILW_MissionEvent "{66FC4EC5C57A9AE2}" {
+   m_name "BothExtractOpfor"
+   m_instructions {
+    TILW_SendMessageInstruction "{66FC4EDC2CECED3D}" {
+     m_messageTitle "OPFOR Major Victory"
+     m_messageBody "Both the HVT and intel were extracted."
+    }
    }
-   m_pregameEvent 1
+   m_condition TILW_ConjunctionTerm "{66FC4EDA49445C8B}" {
+    m_operands {
+     TILW_LiteralTerm "{66FC4EDA40F2C3D8}" {
+      m_flagName "HVTExtractOpfor"
+     }
+     TILW_LiteralTerm "{66FC4EDA4102681D}" {
+      m_flagName "IntelExtractOpfor"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{66FC4EC5DEEDD207}" {
+   m_name "IntelExtractBlufor"
+   m_instructions {
+    TILW_SendMessageInstruction "{66FC4EDF5E9D6C0A}" {
+     m_messageTitle "BLUFOR Minor Victory"
+     m_messageBody "The intel was extracted."
+    }
+   }
+   m_condition TILW_MatchjunctionTerm "{66FC4ED12B12E9DD}" {
+    m_operands {
+     TILW_LiteralTerm "{66FC4ED13C0E84F3}" {
+      m_flagName "HVTExtractBlufor"
+     }
+     TILW_LiteralTerm "{66FC4ED13ABFFB62}" {
+      m_flagName "IntelExtractBlufor"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{66FC4EC5D6BC928F}" {
+   m_name "IntelExtractOpfor"
+   m_instructions {
+    TILW_SendMessageInstruction "{66FC4EDF127FBC0A}" {
+     m_messageTitle "OPFOR Minor Victory"
+     m_messageBody "The intel was extracted."
+    }
+   }
+   m_condition TILW_MatchjunctionTerm "{66FC4ED10902AEB3}" {
+    m_operands {
+     TILW_LiteralTerm "{66FC4ED1075C3183}" {
+      m_flagName "HVTExtractOpfor"
+     }
+     TILW_LiteralTerm "{66FC4ED105D7E0E0}" {
+      m_flagName "IntelExtractOpfor"
+     }
+    }
+   }
   }
  }
  m_randomFlags {
