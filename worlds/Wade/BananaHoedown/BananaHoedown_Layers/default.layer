@@ -22,6 +22,20 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
+  GC_CommandosManager "{66FA7E68E581F311}" {
+   m_minObjectiveCount 1
+   m_maxObjectiveCount 1
+   m_objectives {
+    GC_CommandosTracker "{66FA7E68FF0981CB}" {
+     m_name "HVT"
+     m_objectiveCompletedMsg "HVT has been captured!"
+     m_completeDelay 120
+     m_briefingDescription "Capture the HVT"
+     m_markerPrefab "{7BCC081C2E617F70}worlds/Wade/BananaHoedown/HVTMarker.et"
+     m_updateDelay 300
+    }
+   }
+  }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 1
   }
@@ -33,6 +47,30 @@ PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/Ed
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 6007.018 6.285 3375.691
+ FrameworkScript1 ""\
+ "		/* code here */"\
+ "		Print(\"HelloWorld, I'm Wade\");"\
+ "	"
+ m_missionEvents {
+  TILW_MissionEvent "{66F953F6DA35A50C}" {
+   m_name "HVT Update"
+   m_instructions {
+    TILW_RunScriptInstruction "{66F953F6ADCB00A6}" {
+     m_bAllowRerun 1
+    }
+    TILW_ReactivateEventsInstruction "{66F953F687DFFB8F}" {
+     m_executionDelay 10
+     m_eventNames {
+      "HVT Update"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{66F953F587401A5C}" {
+    m_invertTerm 1
+   }
+   m_pregameEvent 1
+  }
+ }
  m_randomFlags {
   TILW_FlagSampling "{66D517DA2F599A89}" {
    m_flagNames {

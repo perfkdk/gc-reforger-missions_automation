@@ -1,8 +1,10 @@
-SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Generic_P.et" {
- coords 2722.207 24.592 5481.999
- angles 0 -91.654 0
+SCR_AIGroup HVT : "{98539E750B3A359F}Prefabs/Groups/CIV/Business/Group_CIV_Business_03.et" {
+ coords 2722.386 24.593 5480.16
+ angles 0 -93.139 0
  m_aUnitPrefabSlots {
-  "{DE94F9CA70A9C23B}worlds/Wade/BananaHoedown/VIP_P.et"
+  "{DE94F9CA70A9C23B}worlds/Wade/BananaHoedown/HVT.et"
  }
+ m_bPlayable 1
+ m_sCustomNameSet "HVT"
  m_bSetPlayable 1
 }

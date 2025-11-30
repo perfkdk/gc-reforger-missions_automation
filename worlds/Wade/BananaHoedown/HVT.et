@@ -1,8 +1,12 @@
 SCR_ChimeraCharacter : "{76EC8248377D0989}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "HVT"
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "HVT"
     m_Image "{E89D7A100ABD03DC}UI/Textures/EditorPreviews/Characters/CIV/Character_CIV_Businessman_1.edds"
    }
   }
@@ -29,6 +33,9 @@ SCR_ChimeraCharacter : "{76EC8248377D0989}Prefabs/Characters/Factions/CIV/Busine
    InitialInventoryItems {
     ItemsInitConfigurationItem "{60DCBCECAC6C6E65}" {
      TargetStorage "Jacket/Shirt_CottonShirt_01_V2.et"
+     PrefabsToSpawn + {
+      "{F3739484332D8932}worlds/Wade/BananaHoedown/Intel.et"
+     }
     }
    }
   }
