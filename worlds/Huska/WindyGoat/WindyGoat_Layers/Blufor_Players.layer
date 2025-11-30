@@ -1,7 +1,10 @@
 $grp SCR_AIGroup : "{2B6A737E854586F0}Prefabs/Groups/BLUFOR/US/Army/2009/Rangers/P/Group_Ranger_2009_HQ_P.et" {
  {
   coords 2690.331 24.607 5249.354
-  m_aUnitPrefabSlots +{
+  m_aUnitPrefabSlots {
+   "{9ADFE3B7162BF070}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_SL_P.et"
+   "{4A6379807CA9C05F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_PSG_P.et"
+   "{F4DFB9F8501A7F8D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_MD_P.et"
    "{AF83EB5AA91B8ACC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_FAC_P.et"
   }
   m_sCustomNameSet "RAPTOR HQ"
