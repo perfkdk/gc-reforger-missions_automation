@@ -3855,6 +3855,102 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "Kolguyev Supreme Commander"
        }
        SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
+        m_sCallsign "Kolguyev Supreme Commander"
+       }
+       SCR_CallsignInfo "{607A9A9EC820C279}" {
         m_sCallsign "Supreme Commander"
        }
       }
@@ -4362,6 +4458,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "US"
      }
     }
+    TILW_SendMessageInstruction "{66FCF96610D38BDF}" {
+     m_executionDelay 30
+     m_messageTitle "US Destroyed an Objective"
+     m_factionKeys {
+      "USSR"
+      "FIA"
+      "CIV"
+     }
+    }
    }
    m_condition TILW_ConjunctionTerm "{66C8BB292E070158}" {
     m_operands {
@@ -4390,6 +4495,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "US"
      }
     }
+    TILW_SendMessageInstruction "{66FCF96605964D5D}" {
+     m_executionDelay 30
+     m_messageTitle "US Destroyed an Objective"
+     m_factionKeys {
+      "USSR"
+      "FIA"
+      "CIV"
+     }
+    }
    }
    m_condition TILW_ConjunctionTerm "{66E17684854DE547}" {
     m_operands {
@@ -4412,6 +4526,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "US"
      }
     }
+    TILW_SendMessageInstruction "{66FCF966341C39F4}" {
+     m_executionDelay 30
+     m_messageTitle "US Destroyed an Objective"
+     m_factionKeys {
+      "USSR"
+      "FIA"
+      "CIV"
+     }
+    }
    }
    m_condition TILW_LiteralTerm "{66E240B3390AD102}" {
     m_flagName "HindDestroyed"
@@ -4425,6 +4548,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageBody "We successfully destroyed the Southern Antenna"
      m_factionKeys {
       "US"
+     }
+    }
+    TILW_SendMessageInstruction "{66FCF96625A771ED}" {
+     m_executionDelay 30
+     m_messageTitle "US Destroyed an Objective"
+     m_factionKeys {
+      "USSR"
+      "FIA"
+      "CIV"
      }
     }
    }
@@ -4442,6 +4574,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "US"
      }
     }
+    TILW_SendMessageInstruction "{66FCF966D3F2B448}" {
+     m_executionDelay 30
+     m_messageTitle "US Destroyed an Objective"
+     m_factionKeys {
+      "USSR"
+      "FIA"
+      "CIV"
+     }
+    }
    }
    m_condition TILW_LiteralTerm "{66E240B3C1ACAC2D}" {
     m_flagName "Antenna2"
@@ -4455,6 +4596,16 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageBody "We successfully destroyed the Radar Generator"
      m_factionKeys {
       "US"
+     }
+    }
+    TILW_SendMessageInstruction "{66FCF966CFD9E386}" {
+     m_executionDelay 30
+     m_messageTitle "US Destroyed an Objective"
+     m_messageBody ""
+     m_factionKeys {
+      "USSR"
+      "FIA"
+      "CIV"
      }
     }
    }
@@ -4472,6 +4623,16 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "US"
      }
     }
+    TILW_SendMessageInstruction "{66FCF966C38CCF12}" {
+     m_executionDelay 30
+     m_messageTitle "US Destroyed an Objective"
+     m_messageBody ""
+     m_factionKeys {
+      "USSR"
+      "FIA"
+      "CIV"
+     }
+    }
    }
    m_condition TILW_LiteralTerm "{66E240B39C57AE71}" {
     m_flagName "Generator2"
@@ -4485,6 +4646,16 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageBody "We successfully destroyed the Spare Generator"
      m_factionKeys {
       "US"
+     }
+    }
+    TILW_SendMessageInstruction "{66FCF966C5DD097B}" {
+     m_executionDelay 30
+     m_messageTitle "US Destroyed an Objective"
+     m_messageBody ""
+     m_factionKeys {
+      "USSR"
+      "FIA"
+      "CIV"
      }
     }
    }

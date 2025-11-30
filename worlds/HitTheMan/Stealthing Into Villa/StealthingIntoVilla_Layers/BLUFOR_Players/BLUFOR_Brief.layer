@@ -160,6 +160,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "-- Generators will disable sections of lights and power throughout the Villa Base"\
   "Ammodump needs 1-2x Demoblocks"\
   "-- They blow up with Force, be mindful</i>"\
+  "Mi-24 Can be destroyed by using the Iglas OR Zu-23-2, ZU is more reliable than the Igla"\
+  "-- Can try to disable it mid-air with the M107.. Good luck dont forget to Zero the gun."\
   ""\
   "--------------------------------------------------------------------------"\
   ""\
