@@ -1,0 +1,40 @@
+$grp SCR_AIGroup : "{1FABF63E0F58019F}Prefabs/Groups/OPFOR/GC_SEPARATIST/1990/GC_SEPARATIST_1990_RifleSquad.et" {
+ {
+  coords 1660.282 110.832 7379.326
+ }
+ {
+  coords 2237.969 127.045 7330.735
+ }
+ {
+  coords 2099.923 105.324 7510.868
+ }
+}
+SCR_AIGroup : "{886C33F4F8F819A4}Prefabs/Groups/OPFOR/GC_SEPARATIST/1990/GC_SEPARATIST_1990_Sharpshooter.et" {
+ coords 1859.916 131.497 7466.594
+}
+$grp SCR_AIGroup : "{CBC76AF6C9126ED2}Prefabs/Groups/OPFOR/GC_SEPARATIST/1990/GC_SEPARATIST_1990_FireTeam.et" {
+ {
+  coords 1908.154 127.459 7279.557
+ }
+ {
+  coords 1897.508 125.927 7529.191
+ }
+ {
+  coords 2083.519 120.354 7426.888
+ }
+ {
+  coords 2717.987 222.096 6974.556
+ }
+ {
+  coords 2058.934 125.369 7359.025
+ }
+ {
+  coords 1893.962 131.995 7398.538
+ }
+ {
+  coords 2258.384 150.906 7166.71
+ }
+ {
+  coords 2319.883 150.226 7278.225
+ }
+}
