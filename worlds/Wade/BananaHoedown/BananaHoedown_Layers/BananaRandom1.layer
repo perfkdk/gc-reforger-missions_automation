@@ -15,18 +15,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -44,21 +32,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
@@ -78,21 +51,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -110,21 +68,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
@@ -144,21 +87,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -176,21 +104,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
@@ -210,21 +123,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -242,21 +140,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
@@ -276,21 +159,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -308,21 +176,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
@@ -342,21 +195,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -374,21 +212,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
@@ -408,21 +231,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -440,21 +248,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
@@ -474,21 +267,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -506,21 +284,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
@@ -540,21 +303,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -572,21 +320,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
@@ -606,21 +339,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -638,21 +356,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
@@ -672,21 +375,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -704,21 +392,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
@@ -738,21 +411,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -771,21 +429,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
      300
     }
    }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
-   }
   }
  }
  {
@@ -803,21 +446,6 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
     m_spawnTimings {
      300
     }
-   }
-   GenericEntity : "{91FFA7AB0A80C19B}worlds/Wade/BananaHoedown/ComputerCapture.et" {
-    components {
-     ActionsManagerComponent "{670220E5A79AEC14}" {
-      additionalActions {
-       TILW_BaseInteraction "{670220E5A79AF408}" {
-        VisibilityRange 2
-        m_factionKeys {
-         ""
-        }
-       }
-      }
-     }
-    }
-    coords 0 0 0
    }
   }
  }
