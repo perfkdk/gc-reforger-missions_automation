@@ -1,0 +1,33 @@
+GenericEntity {
+ ID "670220E5A79AEDE7"
+ components {
+  ActionsManagerComponent "{670220E5A79AEC14}" {
+   ActionContexts {
+    UserActionContext "{670220E5A79AF41B}" {
+     ContextName "ComputerCaptured"
+     Position PointInfo "{670220E5A79AF40E}" {
+     }
+     Radius 2
+    }
+   }
+   additionalActions {
+    TILW_BaseInteraction "{670220E5A79AF408}" {
+     ParentContextList {
+      "Interact_A"
+     }
+     ActionTitle "ComputerCaptured"
+     Duration 30
+     m_actionName "Check for TheLocalPub Video"
+     m_factionKeys {
+      "CIV"
+     }
+     m_flagName "ComputerCaptured"
+    }
+   }
+  }
+  RplComponent "{670220E5A79AF433}" {
+  }
+  Hierarchy "{670220E5A79AF43F}" {
+  }
+ }
+}

@@ -163,6 +163,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
+  TILW_MissionEvent "{670220E3B7619411}" {
+   m_name "ComputerCapture"
+   m_instructions {
+    TILW_SendMessageInstruction "{670220E0F6726E3C}" {
+     m_executionDelay 30
+     m_messageTitle "He's Done it Again!"
+     m_messageBody "Lunchyyy has found more evidence! Stop him!"
+    }
+   }
+   m_condition TILW_LiteralTerm "{670220E389CBEBB9}" {
+    m_flagName "ComputerCaptured"
+   }
+  }
  }
  m_randomFlags {
   TILW_FlagSampling "{66D517DA2F599A89}" {
@@ -177,4 +190,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_k 2
   }
  }
+}
+GenericEntity Intel : "{F3739484332D8932}worlds/Wade/BananaHoedown/Intel.et" {
+ coords 2720.457 25.492 5480.746
+ angles 0 -178.961 0
 }
