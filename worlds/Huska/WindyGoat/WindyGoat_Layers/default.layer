@@ -21,6 +21,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_bShowInWelcomeScreenIfNonPlayable 0
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
       m_aCompanyNames {
        SCR_CallsignInfo "{55CCB792CD021D5C}" {
@@ -180,27 +181,11 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
 }
-TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
- coords 2711.306 24.592 5480.954
- m_sendStatusMessages 1
- m_statusMessages {
-  "Wade and/or Gabe HVTs have been extracted to %2."
-  "Establishing presence at %2."
-  "No longer establishing presence at %2."
-  "Abandoned presence at %2."
-  "Abandoning presence at %2."
-  "No longer abandoning presence at %2."
- }
- m_locationName "Joint Base Edwards"
- m_flagName "HVTs Extracted"
- m_stopAfterFirstChange 1
- m_entityNames {
-  "Wade"
-  "Gabe"
- }
-}
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_lineWidth 5
+  }
   TILW_CoverMapComponent "{6473480FCAB7760B}" {
    Enabled 1
   }
@@ -226,7 +211,7 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    Position 3315.486 -0.518 1179.271
   }
   ShapePoint "{66FD3CC9399F5748}" {
-   Position 1979.183 -2.351 -1936.296
+   Position 1224.104 -1.237 -114.721
   }
  }
 }
@@ -236,10 +221,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{66FCF8A84F67F69C}" {
    m_name "All_HVTs_Extracted"
    m_instructions {
-    TILW_EndGameInstruction "{66FCF8A8423E10D7}" {
-     m_executionDelay 20
-     m_factionKey "RHS_USAF"
+    TILW_SendMessageInstruction "{670215559701B211}" {
+     m_messageTitle "HVTs Extracted, Blufor victory"
+     m_messageBody "Blufor wins, both HVTs were extracted"
     }
+   }
+   m_condition TILW_LiteralTerm "{6702155BBE431084}" {
+    m_flagName "HVT_Extracted"
    }
   }
  }
@@ -259,6 +247,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   scale 200
   m_MarkerColor 0 0.502 0.125 1
   m_sQuadName "flag-2"
+  m_fWorldSize 100
   m_sDescription "OBJ WINDY GOAT"
   m_aVisibleForFactions {
    "RHS_USAF"
@@ -279,6 +268,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   scale 100
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "mark-exclamation"
+  m_fWorldSize 100
   m_sDescription "Wade's Villa"
   m_aVisibleForFactions {
    "GC_INSURGENT"
@@ -297,11 +287,31 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    }
   }
   coords 2615.245 24.281 5243.906
-  scale 200
   m_MarkerColor 0 0.125 0.502 1
   m_sQuadName "point-of-interest"
+  m_fWorldSize 100
   m_sDescription "Joint Base Edwards"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
+ }
+ Gabes_smoke_break {
+  components {
+   PS_EditableMarkerComponent "{5EDF4803CD048668}" {
+    m_EntityType FACTION
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5EDF4803E71335A1}" {
+     Description "OBJ WINDY GOAT"
+     Icon "{D8DDF2331F405C18}UI/Textures/FieldManual/Gameplay/Navigation/Images/MilitarySymbol/FM_Milsymbol_UNKNOWN_UI.edds"
+    }
+   }
+  }
+  coords 3612.88 260.11 6915.583
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "heal"
+  m_fWorldSize 100
+  m_sDescription "Gabe's smoke break"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+  m_bVisibleForEmptyFaction 1
  }
 }

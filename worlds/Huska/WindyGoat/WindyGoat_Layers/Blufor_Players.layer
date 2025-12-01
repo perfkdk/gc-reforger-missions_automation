@@ -18,12 +18,12 @@ $grp SCR_AIGroup : "{2B6A737E854586F0}Prefabs/Groups/BLUFOR/US/Army/2009/Rangers
   }
   coords 2657.706 24.219 5505.15
   m_aUnitPrefabSlots {
-   "{A95FF7421DCEEA90}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Pilots/P/Character_US_1981_FlightLead_P.et"
-   "{22D707B7AE75A5D8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Pilots/P/Character_US_1981_Crew_P.et"
-   "{22D707B7AE75A5D8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Pilots/P/Character_US_1981_Crew_P.et"
-   "{8426E83786EC8E1E}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Pilots/P/Character_US_1981_Pilot_P.et"
-   "{22D707B7AE75A5D8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Pilots/P/Character_US_1981_Crew_P.et"
-   "{22D707B7AE75A5D8}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Pilots/P/Character_US_1981_Crew_P.et"
+   "{60E1492FD0E1529B}Missions/Huska/Prefabs/Character_RHS_USAF_USMC_HeliPilot_P.et"
+   "{92A4EFDB3B26823A}Missions/Huska/Prefabs/Character_RHS_USAF_USMC_HeliCrew_P.et"
+   "{92A4EFDB3B26823A}Missions/Huska/Prefabs/Character_RHS_USAF_USMC_HeliCrew_P.et"
+   "{60E1492FD0E1529B}Missions/Huska/Prefabs/Character_RHS_USAF_USMC_HeliPilot_P.et"
+   "{92A4EFDB3B26823A}Missions/Huska/Prefabs/Character_RHS_USAF_USMC_HeliCrew_P.et"
+   "{92A4EFDB3B26823A}Missions/Huska/Prefabs/Character_RHS_USAF_USMC_HeliCrew_P.et"
   }
   m_sCustomNameSet "HAWK 6"
  }

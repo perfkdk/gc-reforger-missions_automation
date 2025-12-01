@@ -8,7 +8,7 @@ SCR_AIGroup Gabe : "{0A0D72CDE16A9A9D}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
  m_aUnitPrefabSlots {
   "{9D7D6D238A9D8B0D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_CO_P.et"
  }
- m_sCustomNameSet "Gabriel"
+ m_sCustomNameSet "Gabe"
 }
 $grp SCR_AIGroup : "{2D1AC8714A6D8BC9}Prefabs/Groups/OPFOR/GC_SEPARATIST/1990/P/GC_SEPARATIST_1990_PHQ_P.et" {
  {

@@ -34,15 +34,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Friendly Forces"
   m_sTextData "We are all located at Joint Base Edwards. Grid 026053."\
   "DINGO is assigned to the UH-60 helicopters."\
-  "RAPTOR is assigned to the ground vehicles."\
   ""\
+  "LOAD PLAN"\
+  "DINGO is to utilize both UH-60s which hold 11 each plus the co-pilot seat. Each UH-60 has 2 crew for gunners."\
+  ""\
+  "RAPTOR is assigned to the ground vehicles. RAPTOR 1, 2, and 3 have 2x M2 JLTVs each. RAPTOR 4 has 1x truck and RAPTOR 0 has an unarmed JLTV."\
+  ""\
+  "COMPOSITION"\
   "DINGO - 1x Delta Forces group"\
   "RAPTOR - 1x Ranger Platoon"\
   "HAWK 6 - Flight of 2x UH-60 Blackhawks"\
   ""\
+  "ASSETS"\
   "6x Armed JLTVs"\
   "1x Unarmed JLTV"\
-  "1x Trnasport Truck"\
+  "1x Transport Truck"\
   ""\
   "2x armed UH-60 Blackhawks"
   m_aVisibleForFactions {
@@ -113,7 +119,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Establish security inside of the villa building. Wait for the terrorist leader Gabriel to arrive."\
   "We spawn at the villa grid 019074"\
   ""\
-  "Once Gabriel arrives, welcome him inside and get your money from him. We expect the van has the $5m payment inside. Negotiate and get more money for the VBIED."\
+  "Once Gabriel arrives, welcome him inside and get your money from him. We expect that his van has the $5m payment inside. Negotiate and get more money for the VBIED."\
   ""\
   "We are friendly with Gabriel and his terrorist group. We expect to support him in his upcoming fight against the Americans."\
   ""\
@@ -147,5 +153,18 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Several warlords and terrorists groups still operate on the island. Some warlords are supported by the United States and others remain hostile."
   m_bEmptyFactionVisibility 1
+ }
+ Blufor_comsig {
+  coords 2410.277 24.22 5478.341
+  m_sTitle "Comsig"
+  m_sTextData "DINGO - 42 Mhz"\
+  "RAPTOR - 43 Mhz"\
+  ""\
+  "AIR - 40 Mhz"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "US"
+  }
+  m_iOrder 4
  }
 }
