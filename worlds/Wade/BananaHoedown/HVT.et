@@ -33,8 +33,7 @@ SCR_ChimeraCharacter : "{76EC8248377D0989}Prefabs/Characters/Factions/CIV/Busine
    InitialInventoryItems {
     ItemsInitConfigurationItem "{60DCBCECAC6C6E65}" {
      TargetStorage "Jacket/Shirt_CottonShirt_01_V2.et"
-     PrefabsToSpawn + {
-      "{F3739484332D8932}worlds/Wade/BananaHoedown/Intel.et"
+     PrefabsToSpawn +{
      }
     }
    }

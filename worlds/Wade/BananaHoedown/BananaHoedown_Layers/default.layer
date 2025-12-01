@@ -60,25 +60,25 @@ $grp TILW_PresenceTriggerEntity {
    "Intel"
   }
  }
- HVTExtractBlufor {
-  coords 3070.015 18.105 12599.181
-  m_queryRadius 130
-  m_flagName "HVTExtractBlufor"
-  m_entityNames {
-   "HVT"
-  }
- }
- HVTExtractOpfor {
-  coords 8450.916 18.106 513.736
-  m_queryRadius 130
-  m_flagName "HVTExtractOpfor"
-  m_entityNames {
-   "HVT"
-  }
- }
 }
 PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  coords 6685.379 1.555 4528.548
+}
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ HVTExtractOpfor {
+  coords 8450.919 18.106 513.726
+  m_queryRadius 130
+  m_sendStatusMessages 1
+  m_flagName "HVTExtractOpfor"
+  m_ownerFactionKey "CIV"
+ }
+ HVTExtractBlufor {
+  coords 3070.015 18.105 12599.181
+  m_queryRadius 130
+  m_sendStatusMessages 1
+  m_flagName "HVTExtractBlufor"
+  m_ownerFactionKey "CIV"
+ }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 6007.018 6.285 3375.691

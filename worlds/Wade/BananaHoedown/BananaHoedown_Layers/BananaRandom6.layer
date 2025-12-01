@@ -475,3 +475,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
 }
+GenericEntity Intel : "{F3739484332D8932}worlds/Wade/BananaHoedown/Intel.et" {
+ coords 2721.139 24.592 5480.289
+ angles 0 -90 0
+}
