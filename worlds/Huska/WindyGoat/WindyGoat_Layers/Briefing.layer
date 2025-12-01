@@ -6,7 +6,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Several warlords and terrorists groups still operate on the island. Some warlords are supported by the United States and others remain hostile."\
   ""\
-  "We have received a recent intelligence report that Warlord Wade, whom we have supported in the past, is planning to secretly supply the terrorist group The Scourge of Gabriel with a VBIED for future use against coalition forces. They plan to meet at OBJ WINDY GOAT in the warlord's compound. The villa is the most likely meeting place."
+  "We have received a recent intelligence report that Warlord Wade, whom we have supported in the past, is planning to secretly supply the terrorist group The Scourge of Gabriel with a VBIED for future use against coalition forces. They plan to meet at OBJ WINDY GOAT in the warlord's compound grid 019074. The villa is the most likely meeting place."
   m_aVisibleForFactions {
    "RHS_USAF"
    "US"
@@ -15,7 +15,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Blufor_Mission {
   coords 2435.111 23.575 5491.202
   m_sTitle "Mission"
-  m_sTextData "MISSION: Capture HVTs Gabe and Wade alive. Extract them to the hangar at the airbase."\
+  m_sTextData "MISSION: Capture HVTs Gabe and Wade alive. They are expected to meet at the Villa located at grid 019074. Extract them to the hangar at the airbase."\
   ""\
   "DINGO and RAPTOR are to plan a joint operation to capture Wade and Gabe alive. Our intelligence agencies tell us they are meeting at the villa marked by OBJ WINDY GOAT to exchange money for the VBIED."\
   ""\
@@ -36,7 +36,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "DINGO is assigned to the UH-60 helicopters."\
   ""\
   "LOAD PLAN"\
-  "DINGO is to utilize both UH-60s which hold 11 each plus the co-pilot seat. Each UH-60 has 2 crew for gunners."\
+  "DINGO is to utilize both UH-60s which hold 11 each plus the co-pilot seat (12 total). Each UH-60 has 2 crew for gunners. There is room for all of DINGO."\
   ""\
   "RAPTOR is assigned to the ground vehicles. RAPTOR 1, 2, and 3 have 2x M2 JLTVs each. RAPTOR 4 has 1x truck and RAPTOR 0 has an unarmed JLTV."\
   ""\
@@ -50,7 +50,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1x Unarmed JLTV"\
   "1x Transport Truck"\
   ""\
-  "2x armed UH-60 Blackhawks"
+  "2x armed UH-60 Blackhawks"\
+  "No resupply for UH-60 Blackhawks."
   m_aVisibleForFactions {
    "RHS_USAF"
    "US"
@@ -80,7 +81,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  All_MissionNotes {
   coords 2602.487 24.576 5595.806
   m_sTitle "Mission Notes"
-  m_sTextData "Some amount of roleplay expected by \"Wade\" and \"Gabe\"."\
+  m_sTextData "Ranger PLT Lead is overall mission commander."\
+  ""\
+  "Some amount of roleplay expected by \"Wade\" and \"Gabe\"."\
   ""\
   "US Major Victory if Gabe and Wade extracted alive."\
   ""\
@@ -123,7 +126,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "We are friendly with Gabriel and his terrorist group. We expect to support him in his upcoming fight against the Americans."\
   ""\
-  "Defend the villa building and Wade at all costs."
+  "Defend the villa building and Wade at all costs. We should not abandon the Villa building any surrounding area. Deserters should be killed."\
+  ""\
+  ""\
+  "Wade's note: There is no VBIED. We lied to Gabe. There is a truck out front we can give them for the money instead. Don't let them find out its a fake."
   m_aVisibleForFactions {
    "GC_SEPARATIST"
   }
@@ -134,9 +140,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission"
   m_sTextData "We stopped for a smoke break at grid 034069"\
   ""\
-  "Continue driving to the villa. We will meet with Warlord Wade and give him money in exchange for the VBIED."\
+  "Continue driving to the villa. We will meet with Warlord Wade and give him money in exchange for the VBIED. He is expecting us."\
   ""\
-  "Negotiate the price down as much as possible."\
+  "Negotiate the price down as much as possible. Do not exchange money without a demonstration of a working VBIED. Our contact told us the van parked out front is the test VBIED. Ask for a demonstration. We were told the truck parked nearby is the VBIED we can use."\
   ""\
   "We must be friendly with Wade and his men. We need all the support we can get to fight the Americans."
   m_aVisibleForFactions {
@@ -157,10 +163,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Blufor_comsig {
   coords 2410.277 24.22 5478.341
   m_sTitle "Comsig"
-  m_sTextData "DINGO - 42 Mhz"\
+  m_sTextData "RAPTOR 0 is mission commander"\
+  "2IC DINGO 0"\
+  ""\
+  "DINGO - 42 Mhz"\
   "RAPTOR - 43 Mhz"\
   ""\
-  "AIR - 40 Mhz"
+  "AIR/SHARED NET - 40 Mhz"
   m_aVisibleForFactions {
    "RHS_USAF"
    "US"

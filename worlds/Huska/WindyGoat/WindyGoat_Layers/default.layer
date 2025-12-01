@@ -10,6 +10,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    m_iStartingHours 6
    m_iStartingMinutes 45
    m_bRandomStartingWeather 1
+   m_bWindOverride 1
    m_iSetDay 17
    m_iSetMonth 1
    m_iSetYear 2024
@@ -244,7 +245,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    }
   }
   coords 1942.048 134.173 7420.438
-  scale 200
   m_MarkerColor 0 0.502 0.125 1
   m_sQuadName "flag-2"
   m_fWorldSize 100
@@ -265,7 +265,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    }
   }
   coords 1939.286 137.19 7422.788
-  scale 100
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "mark-exclamation"
   m_fWorldSize 100
@@ -312,6 +311,5 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "GC_INSURGENT"
   }
-  m_bVisibleForEmptyFaction 1
  }
 }

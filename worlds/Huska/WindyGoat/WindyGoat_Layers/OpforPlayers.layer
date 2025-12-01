@@ -6,7 +6,7 @@ SCR_AIGroup Gabe : "{0A0D72CDE16A9A9D}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
  }
  coords 3619.598 259.658 6918.309
  m_aUnitPrefabSlots {
-  "{9D7D6D238A9D8B0D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_CO_P.et"
+  "{D12224DAE8AE4A10}Missions/Huska/Prefabs/Gabe_P.et"
  }
  m_sCustomNameSet "Gabe"
 }
@@ -36,7 +36,7 @@ $grp SCR_AIGroup : "{2D1AC8714A6D8BC9}Prefabs/Groups/OPFOR/GC_SEPARATIST/1990/P/
   }
   coords 1932.739 132.541 7420.959
   m_aUnitPrefabSlots {
-   "{79A070049953651F}Prefabs/Characters/Factions/OPFOR/GC_SEP/1990/P/Character_SEP_1990_PL_P.et"
+   "{9B34B83F31A0067E}Missions/Huska/Prefabs/Wade_P.et"
   }
   m_sCustomNameSet "Wade"
  }
