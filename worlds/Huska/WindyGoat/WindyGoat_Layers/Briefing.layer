@@ -15,7 +15,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Blufor_Mission {
   coords 2435.111 23.575 5491.202
   m_sTitle "Mission"
-  m_sTextData "DINGO and RAPTOR are to plan a joint operation to capture Wade and Gabe alive. Our intelligence agencies tell us they are meeting at the villa marked by OBJ WINDY GOAT to exchange money for the VBIED."\
+  m_sTextData "MISSION: Capture HVTs Gabe and Wade alive. Extract them to the hangar at the airbase."\
+  ""\
+  "DINGO and RAPTOR are to plan a joint operation to capture Wade and Gabe alive. Our intelligence agencies tell us they are meeting at the villa marked by OBJ WINDY GOAT to exchange money for the VBIED."\
   ""\
   "Capture Wade and Gabe alive and extract them to the hangar at the airbase for complete and total US Victory."\
   ""\
@@ -30,7 +32,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Blufor_FriendlyForces {
   coords 2440.103 24.284 5496.586
   m_sTitle "Friendly Forces"
-  m_sTextData "DINGO - 1x Delta Forces group"\
+  m_sTextData "We are all located at Joint Base Edwards. Grid 026053."\
+  "DINGO is assigned to the UH-60 helicopters."\
+  "RAPTOR is assigned to the ground vehicles."\
+  ""\
+  "DINGO - 1x Delta Forces group"\
   "RAPTOR - 1x Ranger Platoon"\
   "HAWK 6 - Flight of 2x UH-60 Blackhawks"\
   ""\
@@ -38,9 +44,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1x Unarmed JLTV"\
   "1x Trnasport Truck"\
   ""\
-  "2x armed UH-60 Blackhawks"\
-  ""\
-  ""
+  "2x armed UH-60 Blackhawks"
   m_aVisibleForFactions {
    "RHS_USAF"
    "US"
@@ -50,7 +54,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Blufor_EnemyForces {
   coords 2616.308 24.219 5586.956
   m_sTitle "Enemy Forces"
-  m_sTextData "The Scourge of Gabriel"\
+  m_sTextData "The Villa (Objective Windy Goat): grid 019074"\
+  ""\
+  "The Scourge of Gabriel"\
   "We expect the terrorist leader, Gabe, to arrive shortly. He will ingress with a small convoy and several body guards. Small arms only."\
   ""\
   "Warlord Wade"\
@@ -105,6 +111,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2421.385 24.219 5503.139
   m_sTitle "Mission"
   m_sTextData "Establish security inside of the villa building. Wait for the terrorist leader Gabriel to arrive."\
+  "We spawn at the villa grid 019074"\
   ""\
   "Once Gabriel arrives, welcome him inside and get your money from him. We expect the van has the $5m payment inside. Negotiate and get more money for the VBIED."\
   ""\
@@ -119,7 +126,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  INS_Mission {
   coords 2424.787 24.218 5509.335
   m_sTitle "Mission"
-  m_sTextData "Continue driving to the villa. We will meet with Warlord Wade and give him money in exchange for the VBIED."\
+  m_sTextData "We stopped for a smoke break at grid 034069"\
+  ""\
+  "Continue driving to the villa. We will meet with Warlord Wade and give him money in exchange for the VBIED."\
   ""\
   "Negotiate the price down as much as possible."\
   ""\

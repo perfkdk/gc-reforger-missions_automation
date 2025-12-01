@@ -180,40 +180,23 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
 }
-$grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
- {
-  coords 2711.547 24.592 5480.396
-  m_sendStatusMessages 1
-  m_statusMessages {
-   "The %1 has extracted to %2."
-   "The %1 is extracting to %2."
-   "The %1 has extracted to %2."
-   "The %1 has extracted to %2."
-   "The %1 has extracted to %2."
-   "The %1 has extracted to %2."
-  }
-  m_locationName "Base"
-  m_flagName "Wade_Extracted"
-  m_stopAfterFirstChange 1
-  m_factionKey "GC_SEPARATIST"
-  m_ratioThreshold 0
+TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
+ coords 2711.306 24.592 5480.954
+ m_sendStatusMessages 1
+ m_statusMessages {
+  "Wade and/or Gabe HVTs have been extracted to %2."
+  "Establishing presence at %2."
+  "No longer establishing presence at %2."
+  "Abandoned presence at %2."
+  "Abandoning presence at %2."
+  "No longer abandoning presence at %2."
  }
- {
-  coords 2712.861 25.853 5480.525
-  m_sendStatusMessages 1
-  m_statusMessages {
-   "The %1 has extracted to %2."
-   "The %1 is extracting to %2."
-   "The %1 has extracted to %2."
-   "The %1 has extracted to %2."
-   "The %1 has extracted to %2."
-   "The %1 has extracted to %2."
-  }
-  m_locationName "Base"
-  m_flagName "Gabe_Extracted"
-  m_stopAfterFirstChange 1
-  m_factionKey "GC_INSURGENT"
-  m_ratioThreshold 0
+ m_locationName "Joint Base Edwards"
+ m_flagName "HVTs Extracted"
+ m_stopAfterFirstChange 1
+ m_entityNames {
+  "Wade"
+  "Gabe"
  }
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
