@@ -8,47 +8,6 @@ $grp GenericEntity {
   angles 0 -100.072 0
  }
 }
-Vehicle Mi24P_armed_R5 : "{3DD336DB69DCD4AC}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_R60.et" {
- components {
-  WCS_Armament_LoadoutComponent "{62E74E9634E5D544}" {
-   m_ArmamentGroups {
-    WCS_ArmamentWeaponGroup "{64D7270910D95A90}" {
-     weaponsInfo {
-      WCS_ArmamentWeaponInfo "{64D7270910D95A6C}" {
-      }
-      WCS_ArmamentWeaponInfo "{64D7270955DC4899}" {
-       isEnabled 0
-      }
-     }
-    }
-    WCS_ArmamentWeaponGroup "{64D727090270F382}" {
-     weaponsInfo {
-      WCS_ArmamentWeaponInfo "{64D727090270F35B}" {
-      }
-      WCS_ArmamentWeaponInfo "{64D7270EB719D276}" {
-       Position PointInfo "{64D7270EB719D1D3}" {
-        PivotID "pylon_R02"
-       }
-       isEnabled 0
-      }
-     }
-    }
-   }
-  }
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo Turret {
-     Prefab "{2FFB1076C8040CB4}Prefabs/Vehicles/Helicopters/Mi24/VehParts/Weapons/Mi24_Turret_base.et"
-    }
-   }
-  }
-  WeaponSlotComponent "{62E74E97AAE8F407}" {
-   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
-  }
- }
- coords 2173.077 8.778 877.882
- angles 1.663 -68.325 0.661
-}
 SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRiflePHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
@@ -65,6 +24,19 @@ SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rif
   "{0323E038932C6523}worlds/HitTheMan/Beach Holiday To Mineraly/Prefab/Character_CustomTest_2.et"
  }
  m_sCustomNameSet "Spetznaz Group"
+}
+Vehicle Mi24P_armed_R60_HTM1 : "{BBF0EF53A1DD51FB}worlds/HitTheMan/Beach Holiday To Mineraly/Prefab/Mi24P_armed_R60_HTM.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{B687201401B8D3AA}Prefabs/Vehicles/Helicopters/Mi24/VehParts/Weapons/Mi24P_Turret_9M114.et"
+    }
+   }
+  }
+ }
+ coords 2173.535 8.684 881.502
+ angles 4.2 -76.789 0
 }
 GenericEntity : "{D5DCF3520C2A8C41}Prefabs/Props/Furniture/Flipchart_01/Flipchart_01.et" {
  components {

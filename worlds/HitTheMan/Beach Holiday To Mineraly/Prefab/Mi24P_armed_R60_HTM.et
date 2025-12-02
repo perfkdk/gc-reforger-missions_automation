@@ -1,0 +1,34 @@
+Vehicle : "{3DD336DB69DCD4AC}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_R60.et" {
+ ID "57DA6675519A417B"
+ components {
+  WCS_Armament_LoadoutComponent "{62E74E9634E5D544}" {
+   m_ArmamentGroups {
+    WCS_ArmamentWeaponGroup "{64D7270910D95A90}" {
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{64D7270910D95A6C}" {
+       Position PointInfo "{64D7270910D95A67}" {
+       }
+      }
+      WCS_ArmamentWeaponInfo "{64D7270955DC4899}" {
+      }
+     }
+    }
+    WCS_ArmamentWeaponGroup "{64D727090270F382}" {
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{64D727090270F35B}" {
+      }
+      WCS_ArmamentWeaponInfo "{64D7270EB719D276}" {
+       isEnabled 0
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+    }
+   }
+  }
+ }
+}

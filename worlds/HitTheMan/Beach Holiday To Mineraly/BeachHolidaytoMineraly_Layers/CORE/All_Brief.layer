@@ -50,11 +50,3 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 10
  }
 }
-$grp Vehicle : "{685A81835A3E6BC0}Prefabs/Vehicles/Helicopters/AH1S/Army/AH1S_Army_AIM9.et" {
- AH1S_Army_AIM1 {
-  coords 5032.173 1.354 9988.775
- }
- AH1S_Army_AIM2 {
-  coords 5050.392 1.374 9995.778
- }
-}

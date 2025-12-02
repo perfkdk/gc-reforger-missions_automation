@@ -12,6 +12,16 @@ SCR_DestructibleBuildingEntity : "{02128ED43CA97BCF}Prefabs/Structures/Industria
  coords 5865.477 221.871 4639.152
  angles 0 138.756 0
 }
+Vehicle UH1H_armed_gunship_HEDP_sharkNose1 : "{3133602B406D131C}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_sharkNose.et" {
+ components {
+  TILW_Flag_EntityDamage "{670522F57740E83F}" {
+   m_flagName "UH1H"
+   m_targetState INTERMEDIARY
+  }
+ }
+ coords 5068.299 1.382 10013.48
+ angles 0 155.341 0
+}
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
  LAV25_RHS1 {
   components {
@@ -459,6 +469,26 @@ $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
 }
 GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
  coords 5869.72 222.037 4646.274
+}
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ Spawner_UH1H_1 {
+  coords 5068.299 1.382 10013.48
+  angles 0 155.341 0
+  m_prefab "{3133602B406D131C}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_sharkNose.et"
+  m_conditionFlag "UH1H"
+ }
+ Spawner_UH1H_2 {
+  coords 5046.676 1.382 10003.706
+  angles 0 155.341 0
+  m_prefab "{3133602B406D131C}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_sharkNose.et"
+  m_conditionFlag "AH1S_1"
+ }
+ Spawner_UH1H_3 {
+  coords 5025.044 1.382 9993.904
+  angles 0 155.341 0
+  m_prefab "{3133602B406D131C}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_sharkNose.et"
+  m_conditionFlag "AH1S_2"
+ }
 }
 GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Equipment_01_US.et" {
  components {
