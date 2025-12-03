@@ -49,7 +49,7 @@ Vehicle LAV25_RHS7 : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS
  }
  coords 5056.333 300.844 5984.055
  angles 0 -147.764 0
- m_sAttachmentGroupName "CAF_COYHQ"
+ m_sAttachmentGroupName "LAV_Crew"
  {
   GameEnvironmentProbeEntity {
    ID "654E62C205528ACB"
@@ -312,8 +312,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
   components {
    PS_GroupCallsignAssigner "{651CBACDB1382F58}" {
     m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 5
+    m_iSquadCallsign 6
    }
   }
   coords 5056.708 300.844 5980.443
@@ -323,7 +322,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
    "{51CBF41B811B8244}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Gunner_1_P.et"
    "{80BF0A15249B2F27}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_Vehicle_Driver_1_P.et"
   }
-  m_sCustomNameSet "Weapons Detachment"
+  m_sCustomNameSet "LAV-II Crew"
   m_bSetPlayable 0
  }
 }
