@@ -25,19 +25,6 @@ SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rif
  }
  m_sCustomNameSet "Spetznaz Group"
 }
-Vehicle Mi24P_armed_R60_HTM1 : "{BBF0EF53A1DD51FB}worlds/HitTheMan/Beach Holiday To Mineraly/Prefab/Mi24P_armed_R60_HTM.et" {
- components {
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo Turret {
-     Prefab "{B687201401B8D3AA}Prefabs/Vehicles/Helicopters/Mi24/VehParts/Weapons/Mi24P_Turret_9M114.et"
-    }
-   }
-  }
- }
- coords 2173.535 8.684 881.502
- angles 4.2 -76.789 0
-}
 GenericEntity : "{D5DCF3520C2A8C41}Prefabs/Props/Furniture/Flipchart_01/Flipchart_01.et" {
  components {
   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {

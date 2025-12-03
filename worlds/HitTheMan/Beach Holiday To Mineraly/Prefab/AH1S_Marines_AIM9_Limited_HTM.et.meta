@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{37CB2D5A5C785278}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Marines_AIM9_HTM.et"
+ Name "{B860D8BF417FB8F6}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Marines_AIM9_Limited_HTM.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

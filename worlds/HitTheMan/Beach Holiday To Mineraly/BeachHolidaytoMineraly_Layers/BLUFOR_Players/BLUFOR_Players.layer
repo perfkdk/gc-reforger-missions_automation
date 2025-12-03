@@ -12,6 +12,10 @@ SCR_DestructibleBuildingEntity : "{02128ED43CA97BCF}Prefabs/Structures/Industria
  coords 5865.477 221.871 4639.152
  angles 0 138.756 0
 }
+Vehicle AH1S_Marines_AIM9_Limited_HTM2 : "{197609B5292E52DB}worlds/HitTheMan/Beach Holiday To Mineraly/Prefab/AH1S_Marines_AIM9_Limited_HTM2.et" {
+ coords 5025.044 1.382 9993.904
+ angles 0 155.341 0
+}
 Vehicle UH1H_armed_gunship_HEDP_sharkNose1 : "{3133602B406D131C}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_sharkNose.et" {
  components {
   TILW_Flag_EntityDamage "{670522F57740E83F}" {
@@ -563,6 +567,14 @@ GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes
  }
  coords 5093.142 1.521 10004.442
  angles 0 172.187 0
+}
+Vehicle AH1S_Marines_AIM9_Limited_HTM1 : "{B860D8BF417FB8F6}worlds/HitTheMan/Beach Holiday To Mineraly/Prefab/AH1S_Marines_AIM9_Limited_HTM.et" {
+ coords 5046.676 1.382 10003.706
+ angles 0 155.341 0
+}
+Vehicle Mi24P_armed_R60_NOATGM_HTM1 : "{BBF0EF53A1DD51FC}worlds/HitTheMan/Beach Holiday To Mineraly/Prefab/Mi24P_armed_R60_NOATGM_HTM.et" {
+ coords 2172.777 8.83 881.423
+ angles 0 -59.078 0
 }
 GenericEntity : "{D5DCF3520C2A8C41}Prefabs/Props/Furniture/Flipchart_01/Flipchart_01.et" {
  components {
