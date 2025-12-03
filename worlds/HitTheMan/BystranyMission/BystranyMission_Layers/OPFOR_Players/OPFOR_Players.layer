@@ -22,7 +22,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   coords 5968.709 234.903 6125.241
   angles -0.03 103.692 -4.91
   m_aUnitPrefabSlots {
-   "{AABEC26D42D3B7C4}worlds/HitTheMan/BystranyMission/Character_USSR_MSV80_SL_P_Radio_HTM.et"
+   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
    "{CD7EDF8D8DF805C8}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AT_P.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
@@ -69,7 +69,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   coords 5978.263 234.143 6148.787
   angles 0 163.174 0
   m_aUnitPrefabSlots {
-   "{AABEC26D42D3B7C4}worlds/HitTheMan/BystranyMission/Character_USSR_MSV80_SL_P_Radio_HTM.et"
+   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
    "{CD7EDF8D8DF805C8}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AT_P.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
@@ -94,13 +94,13 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   coords 5967.884 234.105 6143.474
   angles 1.185 -173.258 0.14
   m_aUnitPrefabSlots {
-   "{AABEC26D42D3B7C4}worlds/HitTheMan/BystranyMission/Character_USSR_MSV80_SL_P_Radio_HTM.et"
+   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
-   "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
+   "{CD7EDF8D8DF805C8}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AT_P.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
    "{1A5BEECAF606ACFC}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SR_P.et"
-   "{E5C3468BDF19AC4F}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MG_P.et"
-   "{7ED89FF8122EBF62}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AMG_P.et"
+   "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
+   "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
   }
   m_bSnapToTerrain 0
  }
@@ -128,6 +128,12 @@ $grp Vehicle : "{E4D645B1CE943EDF}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transpo
      MultiSlotConfiguration "{6706A9BB3A2AB31F}" {
       SlotTemplate InventoryStorageSlot FieldDressing {
        Prefab "{184DFCEFE574E776}Prefabs/Items/Equipment/Tripods/6T7/Part_NSV_Tripod.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{6706A9A200BB7E62}" {
+      SlotTemplate InventoryStorageSlot FieldDressing {
+       Prefab "{88B4E9C3B4F3B89D}Prefabs/Items/Equipment/Radios/Radio_R148_Multi.et"
       }
       NumSlots 1
      }
@@ -163,6 +169,12 @@ $grp Vehicle : "{E4D645B1CE943EDF}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transpo
       }
       NumSlots 1
      }
+     MultiSlotConfiguration "{6706A9A23AF9FBBA}" {
+      SlotTemplate InventoryStorageSlot FieldDressing {
+       Prefab "{88B4E9C3B4F3B89D}Prefabs/Items/Equipment/Radios/Radio_R148_Multi.et"
+      }
+      NumSlots 1
+     }
     }
    }
   }
@@ -192,6 +204,12 @@ $grp Vehicle : "{E4D645B1CE943EDF}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transpo
      MultiSlotConfiguration "{6706A9BB3A2AB31F}" {
       SlotTemplate InventoryStorageSlot FieldDressing {
        Prefab "{184DFCEFE574E776}Prefabs/Items/Equipment/Tripods/6T7/Part_NSV_Tripod.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{6706A9A23DDF1B3D}" {
+      SlotTemplate InventoryStorageSlot FieldDressing {
+       Prefab "{88B4E9C3B4F3B89D}Prefabs/Items/Equipment/Radios/Radio_R148_Multi.et"
       }
       NumSlots 1
      }

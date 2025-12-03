@@ -155,6 +155,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "6x NSV 50rnd Boxes"\
   "1x Tripod NSV"\
   "1x NSV Machinegun"\
+  "1x Radio FOR THE SQUD LEADER (Temporary)"\
   "</i>"
   m_aVisibleForFactions {
    "USSR"
