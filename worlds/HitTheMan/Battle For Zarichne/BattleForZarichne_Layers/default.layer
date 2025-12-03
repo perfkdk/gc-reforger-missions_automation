@@ -28,7 +28,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 3697.287 353.796 1652.506
- m_iFreezeTime 360000
+ m_iFreezeTime 180000
  m_safeStartTime 20
  {
   RadioManagerEntity {
@@ -171,6 +171,9 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
+    m_factionKeys {
+     "GC_NVA"
+    }
    }
   }
   coords 1415.306 20.625 2406.769
@@ -361,6 +364,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_factionKeys {
      "GC_SEPARATIST"
     }
+    m_visibleForEmptyFaction 0
    }
   }
   coords 1415.307 20.625 2406.774
@@ -715,7 +719,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  Blu_Mark_10 {
   coords 3055.146 17.987 2124.035
   angles 0 90 0
-  m_sImageSet "{E3A54F8246902EF6}worlds/HitTheMan/Battle For Zarichne NVA ATK/AOMap.edds"
+  m_sImageSet "{868D31A1CD6C273B}worlds/HitTheMan/Battle For Zarichne/AOMapJPGNew.edds"
   m_sImageSetGlow ""
   m_sQuadName ""
   m_fWorldSize 2000

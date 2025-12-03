@@ -4,9 +4,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "IV. Sustainment:"
   m_sTextData "<h2>IV: Sustainment</h2>"\
   "<b>a. SOP Variations</b>"\
-  "<i>Dress: Whatever you can wear"\
-  "Equipment: Whatever you can find"\
-  "You are free to pick up enemy weapons BUT not uniform.. you'll be shot at sight</i>"\
+  "<i>Uniform: Strict adherence to friendly seperatist clothing. DO NOT put on enemy uniforms.. you'll be shot at sight"\
+  "Equipment: Battlefield scavenging is authorized (weapons, ammo, vests).</i>"\
   ""\
   "<b>b. Logistical Support:</b>"\
   "<i>Replen Plan: None for 24h."\
@@ -124,7 +123,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1x LAV Section (AI)</i>"\
   ""\
   "<b>d. Strength:</b>"\
-  "<i>24x man strong Platoon/i>"\
+  "<i>24x man strong Platoon</i>"\
   ""\
   "<b>e. Supporting Fires:</b>"\
   "<i>We have none.</i>"\

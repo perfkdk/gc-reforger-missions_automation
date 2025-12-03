@@ -14,7 +14,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<i>Holding out at the town of Zarichne</i>"\
   ""\
   "<b>Capabilities:</b>"\
-  "<i>Access to RPGs, PKMs, VOGs."\
+  "<i>Access to RPGs, PKMs, VOGs, AT Mines."\
   "Vehicles include LAVs provided by the Americans.</i>"\
   ""\
   "<b>MLCOA:</b>"\
@@ -81,7 +81,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Secure the town of Zarichne from the Seperatists fortified there, destroying the LAV Section and establish your own defences there facing North."\
   ""\
-  "We've located one AT Minefield (Marked on map), however there may be more, utilize TNT OR Wrenches as needed to clear the path for the T-72As as needed"\
+  "We've located Three AT Minefield (Marked on map), however there may be more, Wrenches as needed to clear the path for the T-72As as needed"\
   ""\
   "No Civilians in the area</i>"
   m_aVisibleForFactions {
@@ -94,8 +94,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "<i>"\
-  "Secure the town of Zarichne and push the Seperatists out!</i>"\
+  "<i>Secure the town of Zarichne and push the Seperatists out!</i>"\
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "<i>Company Commander's Discretion."\
@@ -139,9 +138,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "In each UAZ452:"\
   "4x Bandages"\
-  "6x Wrenches"\
-  "50x TSh400g TnT"\
-  "10x KPM 3U1 Detonator</i>"
+  "24x Wrenches</i>"
   m_aVisibleForFactions {
    "GC_NVA"
   }

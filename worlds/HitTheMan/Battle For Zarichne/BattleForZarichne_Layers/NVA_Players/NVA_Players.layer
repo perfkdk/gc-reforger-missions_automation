@@ -10,19 +10,7 @@ $grp Vehicle : "{01F65EFB8D767A91}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo.e
       SlotTemplate InventoryStorageSlot FieldDressing {
        Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
       }
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{65876AE6B923DECE}" {
-      SlotTemplate InventoryStorageSlot FieldDressing {
-       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{66FAF95455EC7579}" {
-      SlotTemplate InventoryStorageSlot FieldDressing {
-       Prefab "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
-      }
-      NumSlots 10
+      NumSlots 24
      }
     }
    }
@@ -42,19 +30,7 @@ $grp Vehicle : "{01F65EFB8D767A91}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo.e
       SlotTemplate InventoryStorageSlot FieldDressing {
        Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
       }
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{65876AE6B923DECE}" {
-      SlotTemplate InventoryStorageSlot FieldDressing {
-       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{66FAF95455EC7579}" {
-      SlotTemplate InventoryStorageSlot FieldDressing {
-       Prefab "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
-      }
-      NumSlots 10
+      NumSlots 24
      }
     }
    }
