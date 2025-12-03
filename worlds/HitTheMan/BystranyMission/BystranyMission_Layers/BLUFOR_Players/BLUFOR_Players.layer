@@ -144,7 +144,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
     m_iSquadCallsign 1
    }
   }
-  coords 5108.103 302.38 5962.477
+  coords 5108.45 302.351 5965.751
   angles -1.196 104.267 9.46
   m_aUnitPrefabSlots {
    "{373B40FAB9F262CA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Commander_1_P.et"
@@ -274,7 +274,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
     m_iSquadCallsign 4
    }
   }
-  coords 5108.632 302.359 5966.494
+  coords 5125.032 301.892 5966.726
   angles -0.573 100.54 9.517
   m_aUnitPrefabSlots {
    "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et"

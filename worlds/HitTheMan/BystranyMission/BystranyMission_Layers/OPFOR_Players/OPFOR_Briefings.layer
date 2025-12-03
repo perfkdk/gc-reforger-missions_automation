@@ -1,41 +1,164 @@
-PS_MissionDescription OPF_Briefing : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- coords 5414.724 0 10395.938
- m_sTitle "Main Briefing (MUST READ ALL)"
- m_sTextData "<h2>Shit Simple Brief:</h2>"\
- "<i>Congrats you're getting the shit simple briefing but also the most required/restricted one."\
- ""\
- "Here are the Mission Maker's Intents for you guys.</i>"\
- ""\
- "<b>Mission Maker Intent:</b>"\
- "<i>- You start out with 2x tickets and a ZSU-23-2 Ural Truck, located South-East of the military site at 065 078."\
- "- Once you enter a vehicle you WILL NOT be able to exit it, there'll be a 60sec timer. "\
- "- No you're not allowed to skimp the ZSU-23-2 Ural Truck and go on Foot. Against the Mission Maker Intent.. Don't worry you'll be rewarded soon."\
- "- TP to the ZSU will close after 10min ingame"\
- ""\
- "- Main goal/victory for you is to target & destroy the AH-1S' and a smaller priority the UH-1H</i>"\
- ""\
- "<b>DO NOT AIM, FIRE NOR FOCUS THE ZSU ON THE MAIN PLAYER FORCE NOR LAVS IN THE WATER, AT LEAST NOT UNTIL THEYV'VE SECURED A BEACH LANDING (5-10MIN AFTER THEY LAND)</b>"\
- ""\
- "- Once BLUFOR captures either the Factory or the Fuel Depot, the Mi-24 will be unlocked located at 021 008."\
- "- Either kill yourself or ram the ZSU-23-2 Truck towards the players and respawn"\
- ""\
- "<i>Teleport to the Mi-24 and the restrictions are now off, you have limited armaments:"\
- "16x S-5 Rockets"\
- "3x R-60 AA Missiles"\
- "-- NOTE, you cannot lock them on because WCS hates you, fire normally and they will have a *chance* to self lock onto a helicopter but its not as good as proper lock.. yeah I know, I really tried."\
- "1400x Ball Turret YAK-B"\
- ""\
- "<b>DO NOT AIM, FIRE NOR FLY ANYWHERE CLOSE TO THE BLUFOR'S SPAWN ISLAND NORTH, If this is at any point failed I will make a Kill Zone destroying both you and the helicopter by even sniffing the island in the next patch while you're in breach of the Mission Maker Intent and my trust towards the playerbase</b>"\
- ""\
- "- BLUFOR will have at least 6x FIM92 Stingers, you're best recommended advice AND the intended fly pattern of a Mi-24 is;</i>"\
- ""\
- "<h2>- Fly low (NOE Tree Top Level)"\
- "- Fly Fast (Max Speed)"\
- "- Strike Hard</h2>"\
- ""\
- "<h2>- Good Luck & Have Fun</h2>"
- m_aVisibleForFactions {
-  "USSR"
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ OPF_Briefing_5_CommandnSignal2 {
+  coords 5157.785 341.561 5343.324
+  m_sTitle "V. Command & Signals:"
+  m_sTextData "<h2>V. Command & Signal:</h2>"\
+  "<b>I. Chain of Command:</b>"\
+  "<i>340, 341, 342, 343, etc</i>"\
+  ""\
+  "<b>II. Callsigns:</b>"\
+  "<i>Platoon HQ ---------------------------- 340"\
+  "1st Squad ------------------------------ 341"\
+  "2nd Squad ----------------------------- 342"\
+  "2nd Squad ----------------------------- 343"\
+  ""\
+  "<b>- - - Vehicle/LAV Callsigns when Inf dismounted:</b>"\
+  "<i>Z29 or Zulu 29"\
+  "Zulu 21 Alpha"\
+  "Zulu 21 Bravo"\
+  "Etc.</i>"\
+  ""\
+  "<b>III. Frequencies:</b>"\
+  "<i>Platoon Net ------------------------- 42.00MHz</i>"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 7
  }
- m_iOrder 2
+ OPF_Briefing_1n1_EnemyForces2 {
+  coords 5156.019 341.513 5343.188
+  m_sTitle "A. Enemy Forces:"
+  m_sTextData "<h2>A. Enemy Forces:</h2>"\
+  "<b>Equipment:</b>"\
+  "<i>Canadians are equipped with their standard NATO weaponry. etc"\
+  "Wearing woodland coloured camo uniforms & helmets.</i>"\
+  ""\
+  "<b>Known Strength:</b>"\
+  "<i>1x Rifle Company (-)"\
+  "1x LAV-ii</i>"\
+  ""\
+  "<b>Location:</b>"\
+  "<i>West of the village of Hnevice</i>"\
+  ""\
+  "<b>Capabilities:</b>"\
+  "<i>Access to M16A1s series, LAWs/M67s, M60, etc."\
+  "Vehicles include LAV-II</i>"\
+  ""\
+  "<b>MLCOA:</b>"\
+  "<i>Split their platoons up before pushing up towards our defences</i>"\
+  ""\
+  "<b>MDCOA:</b>"\
+  "<i>Move their whole company down a gap in our defences before going to the depot.</i>"\
+  ""\
+  "<b>Defensive Fires:</b>"\
+  "<i>No known in-direct threat at this time.</i>"\
+  ""\
+  "<b>Airthreat:</b>"\
+  "<i>No known Air support.</i>"\
+  ""\
+  "<b>Morale:</b>"\
+  "<i>Very High.</i>"\
+  ""\
+  "<b>CBRN Threat:</b>"\
+  "<i>The enemy pose no CBRN Threat as of now.</i>"\
+  ""
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 2
+ }
+ OPF_Briefing_1n2_FriendlyForces2 {
+  coords 5156.578 341.529 5343.192
+  m_sTitle "B. Friendly Forces:"
+  m_sTextData "<h2>B. Friendly Forces</h2>"\
+  "<b>a. Disposition:</b>"\
+  "<i>Soviet Platoon is spread around the farm that contains the ammo depot.</i>"\
+  ""\
+  "<b>b. Higher Units Mission:</b>"\
+  "<i>Soviet Platoon is acting as security for the Ammo Depot for the Battalion</i>"\
+  ""\
+  "<b>c. Composition:</b>"\
+  "<i>1x Rifle Platoon</i>"\
+  ""\
+  "<b>d. Strength:</b>"\
+  "<i>Platoon - At 25 Man Strength.</i>"\
+  ""\
+  "<b>e. Supporting Fires:</b>"\
+  "<i>None as of this time.</i>"\
+  ""\
+  "<b>f. Attachments/Detachments:</b>"\
+  "<i>No air support available</i>"\
+  ""\
+  "<b>g. Additional Ammunition</b>"\
+  "<i>Some extra bandages in the vehicles + tripod weapons.</i>"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 3
+ }
+ OPF_Briefing_2_Mission2 {
+  coords 5156.968 341.544 5343.003
+  m_sTitle "II. Mission (Must Read):"
+  m_sTextData "<h2>II: Mission</h2>"\
+  "<i>Prevent the destruction of the Ammo Depot or render the enemy combat ineffective.</i>"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 4
+ }
+ OPF_Briefing_3_Execution2 {
+  coords 5157.246 341.554 5342.969
+  m_sTitle "III. Execution:"
+  m_sTextData "<h2>III: Execution</h2>"\
+  "<b>Intent:</b>"\
+  "<i>Setup defensive lines to prevent the fall of the ammo depot.</i>"\
+  ""\
+  "<b>1. Concept of the Operation:</b>"\
+  "<i>Company Commander's Discretion."\
+  "It is adviced to utilize the NSV Tripods located in each UAZ to setup a fortified position to better defend the area.</i>"\
+  ""\
+  "<b>2. Maneuver</b>"\
+  "<i>Company Commander's Discretion."\
+  "It is adviced to setup fields of fire for the squads & NSVs to better hurt the enemy before pulling back to a fallback defence point.</i>"\
+  ""
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 5
+ }
+ OPF_Briefing_4_Sustainment2 {
+  coords 5157.396 341.627 5342.938
+  m_sTitle "IV. Sustainment:"
+  m_sTextData "<h2>IV: Sustainment</h2>"\
+  "<b>a. SOP Variations</b>"\
+  "<i>Dress: Standard Soviet Uniform"\
+  "Equipment: Standard Soviet Loadout</i>"\
+  ""\
+  "<b>b. Logistical Support:</b>"\
+  "<i>Replen Plan: None for 24h."\
+  "Ammunition: Each man carries his own ammunition."\
+  "IPE: Helmets and body armour are to be worn at all times.</i>"\
+  ""\
+  "<b>c. Medical:</b>"\
+  "<i>Location: Platoon Aid Post is to be setup by Platoon medics."\
+  "CASEVAC: By foot or with company asset like the HMMWV or LAVIIs"\
+  "Plan: Set up a casualty collection point and extract casualties to this point."\
+  "Stretchers: None"\
+  "Med Packs: Platoon medpack carried by Platoon medic."\
+  "Morphine: Every soldier carries 1+ stick of morphine.</i>"\
+  ""\
+  "<b>d. Vehicles:</b>"\
+  "<i>3x UAZ452s"\
+  "1x UAZ469"\
+  "The UAZ452s contains;"\
+  "8x Bandages"\
+  "6x NSV 50rnd Boxes"\
+  "1x Tripod NSV"\
+  "1x NSV Machinegun"\
+  "</i>"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 6
+ }
 }
