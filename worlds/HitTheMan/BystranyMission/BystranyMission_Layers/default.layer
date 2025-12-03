@@ -1,0 +1,700 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 5923.219 241.213 6066.784
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3727.142 525.044 1643.412
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 6
+   m_fDayTimeAcceleration 0.1
+   m_fNightTimeAcceleration 0.1
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{650415CBAFAE6875}" {
+     m_sWeatherPresetName "Clear Fog"
+     m_iStartingHour 6
+    }
+   }
+   m_bWindOverride 1
+   m_fWindSpeed 7.538
+   m_fWindDirection 0.903
+   m_bFogOverride 1
+   m_fFogAmount 0.15
+   m_fFogHeightDensity 0.35
+   m_bUseSpecifiedDate 1
+   m_iSetDay 21
+   m_iSetMonth 3
+   m_iSetYear 1983
+  }
+ }
+ coords 7756.999 312.503 8163.458
+ m_iFreezeTime 300000
+ m_bDisableArmaVision 1
+ m_safeStartTime 20
+ {
+  RadioManagerEntity {
+   ID "5ED9088735FF2DEE"
+   coords -0.193 0.002 -0.206
+  }
+  SCR_FactionManager "650415CC01AFC059" {
+   ID "5ED9088735FF2D8B"
+   coords 0 0 0
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D13759D8}" {
+        m_sCallsign "7"
+       }
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{64E2F896A8C154A9}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{64E2F896A8E698B6}" {
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{669E264C31B8F43B}" {
+        m_sCallsign "5"
+       }
+      }
+     }
+    }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     UIInfo SCR_FactionUIInfo "{528C96127F8B6B08}" {
+      Name "Soviet Army"
+     }
+     m_iOrder 1
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A67DFB8809}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB79282FF010C}" {
+       }
+       SCR_CallsignInfo "{55CCB792829053B0}" {
+       }
+       SCR_CallsignInfo "{55CCB79282A19687}" {
+       }
+       SCR_CallsignInfo "{55CCB7928223BB00}" {
+       }
+       SCR_CallsignInfo "{64E2F896C9EDF867}" {
+        m_sCallsign ""
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB79284A2F6C9}" {
+       }
+       SCR_CallsignInfo "{64E2F896D3989F52}" {
+       }
+       SCR_CallsignInfo "{64E2F896D40CE24D}" {
+        m_sCallsign ""
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB79287E901BC}" {
+       }
+       SCR_CallsignInfo "{55CCB79287936EBD}" {
+        m_sCallsign "1 (HQ)"
+       }
+       SCR_CallsignInfo "{55CCB79287BAFBD6}" {
+       }
+       SCR_CallsignInfo "{55CCB79287A4D7B6}" {
+       }
+       SCR_CallsignInfo "{64E2F896E232A50B}" {
+       }
+       SCR_CallsignInfo "{64E2F896FFC45153}" {
+        m_sCallsign "1v"
+       }
+       SCR_CallsignInfo "{64E2F896FFF772BB}" {
+        m_sCallsign "2v"
+       }
+       SCR_CallsignInfo "{64E2F896F0699D6A}" {
+        m_sCallsign "Mi-24 | STAVOK 1"
+       }
+       SCR_CallsignInfo "{64E2F896F08C1FC2}" {
+        m_sCallsign "Mi-24 | STAVOK 2"
+       }
+       SCR_CallsignInfo "{64E2F8970C5291B4}" {
+        m_sCallsign "Mi-8 | ZAKUSKA 1"
+       }
+       SCR_CallsignInfo "{6508F6387DF69F1D}" {
+        m_sCallsign "Mi-8 | ZAKUSKA 2"
+       }
+       SCR_CallsignInfo "{66C7204F957B73C0}" {
+        m_sCallsign "Mi-8 | ZAKUSKA 3"
+       }
+       SCR_CallsignInfo "{66C7204F8A9C3546}" {
+        m_sCallsign "Mi-8 | ZAKUSKA 4"
+       }
+      }
+      m_sCallsignCharacterFormat "%1%2%3%4"
+      m_sCallsignCharacterWithRoleFormat "%1%2%3 %4"
+     }
+    }
+    SCR_Faction "{64AA098AEA5B1498}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{64AA098204A61453}" {
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{64AA098204A6145D}" {
+        m_sCallsign "9"
+       }
+       SCR_CallsignInfo "{64AA098204A61443}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{64AA098204A61441}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{64AA098204A61446}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{650AE15C940BA34B}" {
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{650AE15C8B7A1EC2}" {
+        m_sCallsign "5"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign ""
+       }
+       SCR_CallsignInfo "{55CCB792D13759D8}" {
+        m_sCallsign "Sunray"
+       }
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+        m_sCallsign "Alpha"
+       }
+       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+        m_sCallsign "Bravo"
+       }
+       SCR_CallsignInfo "{61677618371B4C91}" {
+        m_sCallsign "Charlie"
+       }
+       SCR_CallsignInfo "{65055DBDAC6F7853}" {
+        m_sCallsign "Whiskey"
+       }
+       SCR_CallsignInfo "{65055DB6CE3F5934}" {
+        m_sCallsign "Echo"
+       }
+       SCR_CallsignInfo "{650AE1494DA67E1D}" {
+        m_sCallsign "Foxtrot"
+       }
+      }
+     }
+     m_iFactionRadioFrequency 50000
+    }
+    SCR_Faction "{652F615735715119}" {
+    }
+   }
+  }
+  ScriptedChatEntity {
+   ID "5ED9088735FF2DC2"
+   coords -0.852 0.085 -0.28
+  }
+  ItemPreviewManagerEntity "6506E4095D53BA70" {
+   ID "5ED9088735FF2DD5"
+   coords -0.371 -3.712 0.108
+  }
+  SCR_EditorSettingsEntity {
+   ID "61B4E967E6C20362"
+   coords 0 0 0
+  }
+ }
+}
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ AO_Limit_BLU {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 15
+    m_factionKeys {
+     "US"
+    }
+    m_defaultColor 0 0.125 0.502 1
+    m_useFactionColor 0
+    m_lineWidth 5
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_drawLine 1
+   }
+  }
+  coords 5690.563 299.195 6402.652
+  angles 0.895 0 0
+  Points {
+   ShapePoint "{67066C6626AD216A}" {
+    Position 206.91 -58.5 -218.25
+   }
+   ShapePoint "{67066C662586FCA6}" {
+    Position 191.412 -56.05 -239.291
+   }
+   ShapePoint "{67066C66253EE77C}" {
+    Position 155.106 -53.324 -265.121
+   }
+   ShapePoint "{67066C6624AF8712}" {
+    Position 111.949 -50.749 -280.417
+   }
+   ShapePoint "{67066C66FB4DD8C7}" {
+    Position 41.042 -46.363 -285.228
+   }
+   ShapePoint "{67066C66F807E19E}" {
+    Position -13.099 -43.376 -291.261
+   }
+   ShapePoint "{67066C66FD5FCBF2}" {
+    Position -40.915 -42.985 -284.445
+   }
+   ShapePoint "{67066C66FCFC805D}" {
+    Position -68.116 -41.264 -289.751
+   }
+   ShapePoint "{67066C66FC791D80}" {
+    Position -85.125 -39.169 -311.587
+   }
+   ShapePoint "{67066C66F3FCC313}" {
+    Position -94.955 -36.975 -339.221
+   }
+   ShapePoint "{67066C66F35AE6E8}" {
+    Position -106.761 -34.183 -375.094
+   }
+   ShapePoint "{67066C66F0C5BFD2}" {
+    Position -122.059 -31.787 -410.267
+   }
+   ShapePoint "{67066C66F0282684}" {
+    Position -144.999 -28.757 -429.536
+   }
+   ShapePoint "{67066C66F7EE089F}" {
+    Position -160.91 -27.567 -437.062
+   }
+   ShapePoint "{67066C66F62F0478}" {
+    Position -176.031 -26.788 -451.682
+   }
+   ShapePoint "{67066C66F59236A6}" {
+    Position -181.708 -27.042 -468.968
+   }
+   ShapePoint "{67066C66F5433D7A}" {
+    Position -181.223 -23.991 -497.017
+   }
+   ShapePoint "{67066C66F53849C8}" {
+    Position -193.259 -22.434 -549.024
+   }
+   ShapePoint "{67066C66F4C3BCD6}" {
+    Position -201.287 -17.695 -591.77
+   }
+   ShapePoint "{67066C66EA6E07EC}" {
+    Position -226.671 -11.121 -660.857
+   }
+   ShapePoint "{67066C66E9C3CC6D}" {
+    Position -250.348 -4.916 -720.599
+   }
+   ShapePoint "{67066C66E9B0E090}" {
+    Position -264.938 -1.469 -769.468
+   }
+   ShapePoint "{67066C66E8508372}" {
+    Position -291.52 12.665 -864.323
+   }
+   ShapePoint "{67066C66E818618E}" {
+    Position -300.073 27.911 -938.692
+   }
+   ShapePoint "{67066C66EE631274}" {
+    Position -279.311 55.151 -1069.045
+   }
+   ShapePoint "{67066C66EDD38B20}" {
+    Position -234.169 55.409 -1132.635
+   }
+   ShapePoint "{67066C66EDADFC62}" {
+    Position -119.726 49.669 -1198.591
+   }
+   ShapePoint "{67066C66ED11A0F5}" {
+    Position 11.404 40.161 -1243.334
+   }
+   ShapePoint "{67066C66ECF741E2}" {
+    Position 129.706 35.286 -1236.384
+   }
+   ShapePoint "{67066C66E3EFCF6B}" {
+    Position 211.596 39.122 -1193.972
+   }
+   ShapePoint "{67066C66E35A6325}" {
+    Position 261.974 32.577 -1118.418
+   }
+   ShapePoint "{67066C66E201EA0F}" {
+    Position 310.604 21.365 -1052.626
+   }
+   ShapePoint "{67066C669245B639}" {
+    Position 396.579 4.327 -953.553
+   }
+   ShapePoint "{67066C66B816D702}" {
+    Position 390.479 -7.333 -846.675
+   }
+   ShapePoint "{67066C66BFE31B32}" {
+    Position 389.602 -15.092 -767.539
+   }
+   ShapePoint "{67066C66BF4DB13D}" {
+    Position 385.095 -23.9 -675.768
+   }
+   ShapePoint "{67066C66BE5768C3}" {
+    Position 370.815 -30.79 -589.126
+   }
+   ShapePoint "{67066C66BD9A0593}" {
+    Position 370.663 -33.67 -508.875
+   }
+   ShapePoint "{67066C66BCD545C8}" {
+    Position 374.073 -45.284 -437.437
+   }
+   ShapePoint "{67066C66BCAD3D0C}" {
+    Position 371.923 -50.908 -391.38
+   }
+   ShapePoint "{67066C66B0135E3D}" {
+    Position 398.052 -55.252 -348.785
+   }
+   ShapePoint "{67066C66B7CAA018}" {
+    Position 426.25 -58.222 -322.519
+   }
+   ShapePoint "{67066C66B7B7F2DF}" {
+    Position 446.029 -63.067 -285.117
+   }
+   ShapePoint "{67066C66B77F0385}" {
+    Position 454.861 -65.713 -254.9
+   }
+   ShapePoint "{67066C66B5FF5CFC}" {
+    Position 458.625 -68.054 -223.114
+   }
+   ShapePoint "{67066C66B4ED0684}" {
+    Position 458.41 -78.735 -194.096
+   }
+   ShapePoint "{67066C66ABA3D56E}" {
+    Position 444.842 -70.751 -171.966
+   }
+   ShapePoint "{67066C66AA42E8C5}" {
+    Position 423.538 -71.672 -176.796
+   }
+   ShapePoint "{67066C66AF20C2EB}" {
+    Position 410.151 -71.45 -174.011
+   }
+   ShapePoint "{67066C66AEE1E8B6}" {
+    Position 398.687 -71.719 -166.099
+   }
+   ShapePoint "{67066C66AEAE5D9F}" {
+    Position 388.451 -65.373 -156.044
+   }
+   ShapePoint "{67066C66AE6DC749}" {
+    Position 379.655 -64.647 -151.135
+   }
+   ShapePoint "{67066C66A3CF8FF7}" {
+    Position 360.307 -67.154 -148.826
+   }
+   ShapePoint "{67066C66A56D06FE}" {
+    Position 335.153 -66.323 -161.274
+   }
+   ShapePoint "{67066C66A52C7FFD}" {
+    Position 313.463 -67.475 -172.446
+   }
+   ShapePoint "{67066C66A4E84BC5}" {
+    Position 286.468 -64.535 -178.728
+   }
+   ShapePoint "{67066C66A4A2317B}" {
+    Position 266.796 -61.685 -184.525
+   }
+   ShapePoint "{67066C66A46CDFA7}" {
+    Position 250.326 -60.769 -185.725
+   }
+   ShapePoint "{67066C6759BA3925}" {
+    Position 228.147 -58.079 -187.771
+   }
+   ShapePoint "{67066C675932B532}" {
+    Position 213.429 -57.372 -202.978
+   }
+  }
+ }
+ AO_Limit_OPF {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 15
+    m_factionKeys {
+     "USSR"
+    }
+    m_visibility FACTION
+    m_defaultColor 0.502 0 0 1
+    m_lineWidth 5
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    m_drawArea 0
+    m_drawLine 1
+   }
+  }
+  coords 5922.887 293.046 5978.448
+  angles 0.895 0 0
+  Points {
+   ShapePoint "{67066C60FFCB7ACA}" {
+    Position 213.726 -63.557 139.226
+   }
+   ShapePoint "{67066C60FF3E7CC3}" {
+    Position 222.621 -66.198 169.479
+   }
+   ShapePoint "{67066C60FE7E2CD3}" {
+    Position 226.099 -68.546 201.254
+   }
+   ShapePoint "{67066C60FD6980CF}" {
+    Position 226.28 -79.271 230.431
+   }
+   ShapePoint "{67066C60FC9074D1}" {
+    Position 212.44 -71.209 252.33
+   }
+   ShapePoint "{67066C60FC172188}" {
+    Position 191.356 -72.166 247.307
+   }
+   ShapePoint "{67066C60F368E060}" {
+    Position 177.661 -71.941 250.351
+   }
+   ShapePoint "{67066C60F289366C}" {
+    Position 166.711 -72.185 257.953
+   }
+   ShapePoint "{67066C60F20375D0}" {
+    Position 155.812 -65.888 268.043
+   }
+   ShapePoint "{67066C60F12ACC1F}" {
+    Position 147.266 -65.133 273.256
+   }
+   ShapePoint "{67066C60F049CB78}" {
+    Position 128.04 -67.626 275.441
+   }
+   ShapePoint "{67066C60F7EB966D}" {
+    Position 102.709 -66.784 263.046
+   }
+   ShapePoint "{67066C60F6EC5928}" {
+    Position 81.43 -67.913 251.528
+   }
+   ShapePoint "{67066C60F48845E6}" {
+    Position 54.107 -65.01 245.511
+   }
+   ShapePoint "{67066C60EB54C972}" {
+    Position 34.342 -62.136 239.714
+   }
+   ShapePoint "{67066C60EAF6FEDF}" {
+    Position 17.866 -61.244 238.295
+   }
+   ShapePoint "{67066C60E92DF14B}" {
+    Position -4.212 -58.537 236.541
+   }
+   ShapePoint "{67066C60E82B35BA}" {
+    Position -18.855 -57.808 221.438
+   }
+   ShapePoint "{67066C60EE597DB5}" {
+    Position -25.423 -58.967 206.035
+   }
+   ShapePoint "{67066C60ED85A46C}" {
+    Position -40.843 -56.537 185.005
+   }
+   ShapePoint "{67066C60EC0936D3}" {
+    Position -77.206 -53.802 159.001
+   }
+   ShapePoint "{67066C60E30C3912}" {
+    Position -120.505 -51.229 143.766
+   }
+   ShapePoint "{67066C60E1CBBDAC}" {
+    Position -191.349 -46.843 139.062
+   }
+   ShapePoint "{67066C60E0E2A9C7}" {
+    Position -245.624 -43.835 133.167
+   }
+   ShapePoint "{67066C60E035C71C}" {
+    Position -273.199 -43.464 139.845
+   }
+   ShapePoint "{67066C60E72E459E}" {
+    Position -300.533 -41.721 134.664
+   }
+   ShapePoint "{67066C60E644A675}" {
+    Position -317.715 -39.619 112.695
+   }
+   ShapePoint "{67066C60E57D2843}" {
+    Position -327.44 -37.453 84.686
+   }
+   ShapePoint "{67066C60E4EAE651}" {
+    Position -338.909 -34.665 49.381
+   }
+   ShapePoint "{67066C6098ABABF1}" {
+    Position -354.481 -32.261 14.083
+   }
+   ShapePoint "{67066C609F27409B}" {
+    Position -377.486 -29.229 -5.146
+   }
+   ShapePoint "{67066C609E6701C3}" {
+    Position -392.901 -28.053 -12.767
+   }
+   ShapePoint "{67066C609DA7770D}" {
+    Position -408.271 -27.305 -27.731
+   }
+   ShapePoint "{67066C609C56EC6E}" {
+    Position -414.066 -27.52 -44.838
+   }
+   ShapePoint "{67066C60935D6EC5}" {
+    Position -413.571 -24.474 -72.696
+   }
+   ShapePoint "{67066C60924BB77F}" {
+    Position -425.854 -22.858 -125
+   }
+   ShapePoint "{67066C609133301B}" {
+    Position -420.734 -22.238 -152.946
+   }
+   ShapePoint "{67066C60900E7668}" {
+    Position -371.488 -21.186 -181.024
+   }
+   ShapePoint "{67066C6097FF30B0}" {
+    Position -330.184 -20.369 -195.374
+   }
+   ShapePoint "{67066C60969BF7E2}" {
+    Position -278.147 -22.196 -199.58
+   }
+   ShapePoint "{67066C60964CB869}" {
+    Position -246.101 -23.462 -189.877
+   }
+   ShapePoint "{67066C609633011A}" {
+    Position -213.073 -25.294 -178.594
+   }
+   ShapePoint "{67066C609598DE8C}" {
+    Position -181.306 -26.613 -169.415
+   }
+   ShapePoint "{67066C60954C9B4A}" {
+    Position -153.545 -25.798 -185.448
+   }
+   ShapePoint "{67066C60946A8824}" {
+    Position -120.71 -26.347 -205.025
+   }
+   ShapePoint "{67066C608BF27238}" {
+    Position -74.47 -25.939 -222.033
+   }
+   ShapePoint "{67066C608ADD99BC}" {
+    Position -39.484 -24.692 -237.013
+   }
+   ShapePoint "{67066C608A9E7B9A}" {
+    Position 4.671 -24.574 -236.504
+   }
+   ShapePoint "{67066C6088B58088}" {
+    Position 55.073 -25.221 -230.542
+   }
+   ShapePoint "{67066C60882BB998}" {
+    Position 108.625 -27.76 -208.116
+   }
+   ShapePoint "{67066C608F5052DC}" {
+    Position 132.517 -29.906 -185.615
+   }
+   ShapePoint "{67066C608EECCCA0}" {
+    Position 138.5 -31.259 -165.172
+   }
+   ShapePoint "{67066C608019B9F4}" {
+    Position 138.173 -34.091 -85.044
+   }
+   ShapePoint "{67066C60872909F6}" {
+    Position 141.694 -45.781 -13.107
+   }
+   ShapePoint "{67066C60867FE243}" {
+    Position 139.807 -51.394 32.927
+   }
+   ShapePoint "{67066C60853BA0CC}" {
+    Position 165.727 -55.762 75.632
+   }
+   ShapePoint "{67066C608472C4B6}" {
+    Position 194.14 -58.67 101.636
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3720.089 354.787 1640.119
+ angles 0 0 -3.576
+ m_missionEvents {
+  TILW_MissionEvent "{65041578E772535B}" {
+   m_name "USSR Victory Casualties"
+   m_instructions {
+    TILW_SendMessageInstruction "{6504157888C9AF5E}" {
+     m_messageTitle "Soviet Army Victory"
+     m_messageBody "US Army Sustained too many casualties.. GM Discretion when to end the mission"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6504157885FC5C39}" {
+    m_flagName "US_CAS"
+   }
+  }
+  TILW_MissionEvent "{66DB00D44D047D24}" {
+   m_name "US Victory Casualties"
+   m_instructions {
+    TILW_SendMessageInstruction "{66DB00D44D047DF3}" {
+     m_messageTitle "US Army Victory"
+     m_messageBody "Soviet Army Sustained too many casualties.. GM Discretion when to end the mission"
+    }
+   }
+   m_condition TILW_LiteralTerm "{66DB00D44D047D8F}" {
+    m_flagName "USSR_CAS"
+   }
+  }
+  TILW_MissionEvent "{6506E408139E95AC}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{6506E408307D3B9A}" {
+     m_messageTitle "Time Limit"
+     m_messageBody "The Mission will end in 60 minutes - At GM's Discretion"
+    }
+    TILW_SendMessageInstruction "{66D4DA0EA5FAB09D}" {
+     m_executionDelay 1800
+     m_messageTitle "Time Limit"
+     m_messageBody "The Mission will end in 30 minutes"
+    }
+    TILW_SendMessageInstruction "{6550E36F53005626}" {
+     m_executionDelay 2400
+     m_messageTitle "Time Limit"
+     m_messageBody "The Mission will end in 20 minutes"
+    }
+    TILW_SendMessageInstruction "{6550E36F43F2544F}" {
+     m_executionDelay 3000
+     m_messageTitle "Time Limit"
+     m_messageBody "The Mission will end in 10 minutes"
+    }
+    TILW_SendMessageInstruction "{6506E4089FDE5CA5}" {
+     m_executionDelay 3600
+     m_messageTitle "Soviet Army Victory"
+     m_messageBody "USSR Held onto the mines long enough for reinforcements... GM Discretion when to end the mission"
+    }
+    TILW_SendMessageInstruction "{66DB00CAB4C049EC}" {
+     m_executionDelay 3610
+     m_messageTitle "Soviet Reinforcements has arrived"
+     m_messageBody "Soviet Forces are moving in to secure the Ammo Dump and the surrounding area."
+    }
+   }
+   m_condition TILW_LiteralTerm "{6506E40BFBED4D76}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{650750E2E1A73F1D}" {
+   m_name "USSR OBJ Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{6550E36ED08C418C}" {
+     m_messageTitle "US Army Victory"
+     m_messageBody "US Forces managed to destroy the Ammo Dump... "\
+     "GM Discretion when to end the mission"
+    }
+   }
+   m_condition TILW_DisjunctionTerm "{66C7205C27C5927B}" {
+    m_operands {
+     TILW_ConjunctionTerm "{66C7205C24648218}" {
+      m_operands {
+       TILW_LiteralTerm "{66C7205CD82CD1AB}" {
+        m_flagName "AmmoDump1"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6506E4081586428B}" {
+   m_flagName "USSR_CAS"
+   m_factionKey "USSR"
+  }
+  TILW_FactionPlayersKilledFlag "{66DB00D5AECA8021}" {
+   m_flagName "US_CAS"
+   m_factionKey "US"
+   m_casualtyRatio 0.85
+  }
+ }
+}
