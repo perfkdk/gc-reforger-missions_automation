@@ -719,7 +719,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  Blu_Mark_10 {
   coords 3055.146 17.987 2124.035
   angles 0 90 0
-  m_sImageSet "{863170759B281F00}worlds/HitTheMan/Battle For Zarichne/AOMapJPGUltraNew.edds"
+  m_sImageSet "{14CA3FF5DFC10722}worlds/HitTheMan/Battle For Zarichne/AOMapJPGPerfection.edds"
   m_sImageSetGlow ""
   m_sQuadName ""
   m_fWorldSize 2000
