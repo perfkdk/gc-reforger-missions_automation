@@ -1,8 +1,3 @@
-SCR_MapEntity MapEntity1 : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
- coords 5971.801 234.508 6133.254
- "Map Geometry Data" "{BF5F2D022EA8CB36}Worlds/Bystrany/Bystrany_Map_v02.topo"
- "Satellite background image" "{E7F34FEC87C0BBF9}UI/Textures/Map/Worlds/Bystrany/Bystrany_Rasterized_Enhanced_Border.edds"
-}
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  components {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
