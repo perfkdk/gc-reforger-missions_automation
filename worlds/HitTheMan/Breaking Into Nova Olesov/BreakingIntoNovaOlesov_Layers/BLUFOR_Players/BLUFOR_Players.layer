@@ -1,62 +1,27 @@
-$grp GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Equipment_01_US.et" {
- {
-  components {
-   SCR_SoundDataComponent "{5C53391603B5CF41}" {
-    Enabled 1
-   }
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Enabled 1
-    MultiSlots {
-     MultiSlotConfiguration "{66E10EEEAB8D4C58}" {
-      SlotTemplate InventoryStorageSlot M14Mines {
-       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
-      }
-      NumSlots 50
+GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Equipment_01_US.et" {
+ components {
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{670AC55E3919566F}" {
+     SlotTemplate InventoryStorageSlot hbn {
+      Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
      }
-     MultiSlotConfiguration "{66E10EFC90B0BF46}" {
-      SlotTemplate InventoryStorageSlot M14Mines {
-       Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
-      }
-      NumSlots 10
-     }
+     NumSlots 500
     }
    }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 1
-   }
   }
-  coords 6734.921 148.554 8197.238
-  angles -4.296 33.179 0.038
- }
- {
-  components {
-   SCR_SoundDataComponent "{5C53391603B5CF41}" {
-    Enabled 1
-   }
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Enabled 1
-    MultiSlots {
-     MultiSlotConfiguration "{66E10EEEAB8D4C58}" {
-      SlotTemplate InventoryStorageSlot M14Mines {
-       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
-      }
-      NumSlots 50
-     }
-     MultiSlotConfiguration "{66E10EFC90B0BF46}" {
-      SlotTemplate InventoryStorageSlot M14Mines {
-       Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
-      }
-      NumSlots 10
-     }
-    }
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 1
-   }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
   }
-  coords 6737.576 153.481 8125.264
-  angles -0.633 -47.857 4.249
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
  }
+ coords 6928.761 147.168 8054.366
 }
 $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Rifle_Sect_P.et" {
  CAFPL_HQ_1 {
@@ -67,8 +32,8 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
     m_iSquadCallsign 1
    }
   }
-  coords 6732.693 153.29 8128.885
-  angles -1.196 104.267 9.46
+  coords 6938.598 146.852 8047.698
+  angles 0.848 -134.696 -0.839
   m_aUnitPrefabSlots {
    "{373B40FAB9F262CA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Commander_1_P.et"
    "{E1B0E0478D68E303}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Warrant_1_P.et"
@@ -85,8 +50,8 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
     m_iSquadCallsign 2
    }
   }
-  coords 6743.619 151.857 8142.819
-  angles 1.408 88.28 7.084
+  coords 6926.807 147.366 8059.095
+  angles -3.285 -162.847 -1.976
   m_aUnitPrefabSlots {
    "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et"
    "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et"
@@ -108,8 +73,8 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
     m_iSquadCallsign 3
    }
   }
-  coords 6739.047 151.923 8145.174
-  angles -0.942 88.491 9.489
+  coords 6933.39 147.043 8052.951
+  angles -0.008 -135.257 -1.688
   m_aUnitPrefabSlots {
    "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et"
    "{32E19CB521F9F2E2}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_AR_1_P.et"
@@ -131,8 +96,8 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
     m_iSquadCallsign 5
    }
   }
-  coords 6740.48 152.797 8130.775
-  angles 1.969 74.131 -1.799
+  coords 6918.286 148.064 8061.457
+  angles 0.839 -171.918 -5.888
   m_aUnitPrefabSlots {
    "{7A76E75B6C2A0697}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_1IC_1_P.et"
    "{A78C57340C03477B}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Character_1993_CAF_MG_1_P.et"

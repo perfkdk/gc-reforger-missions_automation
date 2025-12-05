@@ -136,6 +136,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        SCR_CallsignInfo "{64E2F896FFF772BB}" {
         m_sCallsign "2v"
        }
+       SCR_CallsignInfo "{64E2F896F044B7B6}" {
+        m_sCallsign "4 - Mortar \"Zavok\""
+       }
        SCR_CallsignInfo "{64E2F896F0699D6A}" {
         m_sCallsign "Mi-24 | STAVOK 1"
        }
@@ -228,9 +231,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 7475.494 114.209 8454.137
-}
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  AO_Limit_BLU {
   components {
@@ -244,159 +244,110 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_lineWidth 5
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
-    Enabled 1
     m_drawLine 1
    }
   }
-  coords 5690.563 299.195 6402.652
+  coords 6984.914 134.081 8206.65
   angles 0.895 0 0
   Points {
-   ShapePoint "{67066C69DA6236F9}" {
-    Position -683.218 16.182 -379.239
+   ShapePoint "{670AC55805497677}" {
+    Position -197.991 21.836 -202.375
    }
-   ShapePoint "{67066C69D9D876CD}" {
-    Position -657.568 17.526 -334.091
+   ShapePoint "{670AC55804F21579}" {
+    Position -177.617 21.864 -132.846
    }
-   ShapePoint "{67066C69D8534338}" {
-    Position -637.121 15.523 -293.894
+   ShapePoint "{670AC5583A9C121F}" {
+    Position -175.519 21.025 -117.259
    }
-   ShapePoint "{67066C69D8647493}" {
-    Position -640.393 18.977 -259.484
+   ShapePoint "{670AC5583A3122A4}" {
+    Position -178.811 18.433 -85.023
    }
-   ShapePoint "{67066C69DFD1BD52}" {
-    Position -629.971 19.379 -210.059
+   ShapePoint "{670AC55839E0897F}" {
+    Position -179.761 15.371 -47.615
    }
-   ShapePoint "{67066C69DF8A010F}" {
-    Position -600.609 18.49 -189.932
+   ShapePoint "{670AC558364D2018}" {
+    Position -185.679 9.524 9.572
    }
-   ShapePoint "{67066C69DF25F50B}" {
-    Position -537.665 16.297 -153.773
+   ShapePoint "{670AC55836097D07}" {
+    Position -178.129 4.887 57.854
    }
-   ShapePoint "{67066C69DDCDEA54}" {
-    Position -508.78 17.219 -136.755
+   ShapePoint "{670AC55835DD882B}" {
+    Position -156.232 -0.193 84.271
    }
-   ShapePoint "{67066C69D7D56C36}" {
-    Position -451.533 9.002 -115.992
+   ShapePoint "{670AC5582A9EFB5C}" {
+    Position -87.133 -6.295 102.527
    }
-   ShapePoint "{67066C69D7853CDA}" {
-    Position -362.484 -5.304 -106.207
+   ShapePoint "{670AC5582A191486}" {
+    Position -11.196 -9.183 96.226
    }
-   ShapePoint "{67066C69D765FFCD}" {
-    Position -252.021 -17.182 -91.794
+   ShapePoint "{670AC5582F7B8AB2}" {
+    Position 28.498 -11.163 91.074
    }
-   ShapePoint "{67066C69D449885A}" {
-    Position -179.645 -28.38 -98.325
+   ShapePoint "{670AC5582294224B}" {
+    Position 68.866 -11.246 67.354
    }
-   ShapePoint "{67066C69CBF24952}" {
-    Position -127.187 -32.953 -119.798
+   ShapePoint "{670AC558221DE5BB}" {
+    Position 101.489 -14 50.415
    }
-   ShapePoint "{67066C69F5E0C708}" {
-    Position 42.89 -42.85 -149.706
+   ShapePoint "{670AC558214FBF10}" {
+    Position 125.969 -16.72 34.525
    }
-   ShapePoint "{67066C69F51D3A76}" {
-    Position 142.318 -49.505 -158.637
+   ShapePoint "{670AC558DE8E49DF}" {
+    Position 82.019 -16.642 -1.436
    }
-   ShapePoint "{67066C698B74255A}" {
-    Position 164.076 -51.034 -153.502
+   ShapePoint "{670AC558DE399C59}" {
+    Position 56.081 -16.14 -30.36
    }
-   ShapePoint "{67066C698AD566AE}" {
-    Position 187.627 -52.249 -147.467
+   ShapePoint "{670AC558DCF32745}" {
+    Position 38.642 -15.949 -58.516
    }
-   ShapePoint "{67066C698AA73B25}" {
-    Position 222.48 -55.707 -145.118
+   ShapePoint "{670AC558D3A71236}" {
+    Position 23.234 -15.348 -93.444
    }
-   ShapePoint "{67066C698A3D466B}" {
-    Position 257.505 -58.477 -137.182
+   ShapePoint "{670AC558D2D0BF36}" {
+    Position 19.914 -14.792 -119.634
    }
-   ShapePoint "{67066C6988925783}" {
-    Position 292.723 -60.239 -117.42
+   ShapePoint "{670AC558D7E5DB8F}" {
+    Position 40.25 -15.316 -128.65
    }
-   ShapePoint "{67066C6983373E13}" {
-    Position 334.647 -61.765 -116.908
+   ShapePoint "{670AC558D772E300}" {
+    Position 72.126 -13.432 -137.198
    }
-   ShapePoint "{67066C69829FED89}" {
-    Position 368.96 -65.5 -130.679
+   ShapePoint "{670AC558D6EBDBE1}" {
+    Position 104.278 -11.123 -177.49
    }
-   ShapePoint "{67066C69826895D7}" {
-    Position 401.162 -66.678 -156.426
+   ShapePoint "{670AC558D5C4907E}" {
+    Position 125.879 -8.711 -203.012
    }
-   ShapePoint "{67066C6981F7573B}" {
-    Position 427.548 -74.585 -189.724
+   ShapePoint "{670AC558D553A625}" {
+    Position 141.062 -10.87 -234.865
    }
-   ShapePoint "{67066C69815839AC}" {
-    Position 454.058 -66.331 -247.44
+   ShapePoint "{670AC558D4F40029}" {
+    Position 124.239 -12.819 -276.478
    }
-   ShapePoint "{67066C6985F13333}" {
-    Position 453.383 -61.686 -299.929
+   ShapePoint "{670AC558D45B3B39}" {
+    Position 113.063 -8.376 -296.087
    }
-   ShapePoint "{67066C6985BD444F}" {
-    Position 431.474 -55.811 -340.018
+   ShapePoint "{670AC558CA73412B}" {
+    Position 103.253 -4.714 -308.265
    }
-   ShapePoint "{67066C6985044DA5}" {
-    Position 404.653 -49.788 -397.062
+   ShapePoint "{670AC558C9B14E2A}" {
+    Position 76.735 -1.406 -324.811
    }
-   ShapePoint "{67066C69BA9DC44F}" {
-    Position 391.889 -43.128 -454.609
+   ShapePoint "{670AC558C927A6F6}" {
+    Position 41.563 -0.827 -335.733
    }
-   ShapePoint "{67066C69BA4B7DBE}" {
-    Position 384.401 -34.785 -522.753
+   ShapePoint "{670AC558C8A98BBE}" {
+    Position -7.107 -2.319 -337.113
    }
-   ShapePoint "{67066C69AC5886B0}" {
-    Position 396.764 -27.504 -596.05
+   ShapePoint "{670AC558CDAC1643}" {
+    Position -70.391 -2.225 -328.349
    }
-   ShapePoint "{67066C69AC34D5D4}" {
-    Position 380.657 -25.955 -652.73
+   ShapePoint "{670AC558CCD7E05A}" {
+    Position -124.859 9.478 -300.625
    }
-   ShapePoint "{67066C69A3E1B663}" {
-    Position 351.99 -19.492 -716.823
-   }
-   ShapePoint "{67066C6A5970DEEF}" {
-    Position 365.463 -7.86 -846.691
-   }
-   ShapePoint "{67066C6A58DF1511}" {
-    Position 317.215 1.5 -942.202
-   }
-   ShapePoint "{67066C6A58BE0472}" {
-    Position 224.491 8.115 -982.623
-   }
-   ShapePoint "{67066C6A532BD459}" {
-    Position 180.899 16.3 -1037.399
-   }
-   ShapePoint "{67066C6A5291CF84}" {
-    Position 78.146 29.897 -1109.234
-   }
-   ShapePoint "{67066C6A52A3FCFF}" {
-    Position -65.483 39.386 -1091.774
-   }
-   ShapePoint "{67066C6A521694CB}" {
-    Position -313.64 40.117 -984.529
-   }
-   ShapePoint "{67066C6A522F4FB0}" {
-    Position -450.354 33.737 -935.478
-   }
-   ShapePoint "{67066C6A57D01867}" {
-    Position -562.354 37.799 -869.808
-   }
-   ShapePoint "{67066C6A43361AAA}" {
-    Position -631.365 36.922 -820.884
-   }
-   ShapePoint "{67066C6A4297F59A}" {
-    Position -675.723 34.006 -791.47
-   }
-   ShapePoint "{67066C6A40071DD0}" {
-    Position -720.933 23.272 -712.044
-   }
-   ShapePoint "{67066C6A47E28BE3}" {
-    Position -757.2 19.54 -663.465
-   }
-   ShapePoint "{67066C6A4770DA40}" {
-    Position -758.208 14.859 -601.962
-   }
-   ShapePoint "{67066C6A4726FB6B}" {
-    Position -746.109 10.615 -515.692
-   }
-   ShapePoint "{67066C6A464DB163}" {
-    Position -717.656 19.563 -425.249
+   ShapePoint "{670AC558CC4D13BD}" {
+    Position -171.717 20.099 -253.517
    }
   }
  }
@@ -410,143 +361,121 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_lineWidth 5
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
     m_drawLine 1
    }
   }
-  coords 5690.563 299.195 6402.652
+  coords 7450.511 124.636 8278.044
   angles 0.895 0 0
   Points {
-   ShapePoint "{67066C69F51D3A76}" {
-    Position 142.318 -49.505 -158.637
+   ShapePoint "{670AC5584118AC19}" {
+    Position 311.808 -14.159 44.203
    }
-   ShapePoint "{67066C698B74255A}" {
-    Position 164.076 -51.034 -153.502
+   ShapePoint "{670AC55840735E01}" {
+    Position 315.076 -9.66 167.123
    }
-   ShapePoint "{67066C698AD566AE}" {
-    Position 187.627 -52.249 -147.467
+   ShapePoint "{670AC55847F50299}" {
+    Position 311.831 -1.507 286.508
    }
-   ShapePoint "{67066C698AA73B25}" {
-    Position 222.48 -55.707 -145.118
+   ShapePoint "{670AC55844DE3515}" {
+    Position 105.004 13.318 270.996
    }
-   ShapePoint "{67066C698A3D466B}" {
-    Position 257.505 -58.477 -137.182
+   ShapePoint "{670AC5587BEAE3C5}" {
+    Position -68.255 26.792 342.654
    }
-   ShapePoint "{67066C6988925783}" {
-    Position 292.723 -60.239 -117.42
+   ShapePoint "{670AC5587A93B107}" {
+    Position -252.226 35.011 418.293
    }
-   ShapePoint "{67066C6983373E13}" {
-    Position 334.647 -61.765 -116.908
+   ShapePoint "{670AC558795CCD85}" {
+    Position -354.703 39.05 447.653
    }
-   ShapePoint "{67066C69829FED89}" {
-    Position 368.96 -65.5 -130.679
+   ShapePoint "{670AC5587939905F}" {
+    Position -392.613 41.276 471.679
    }
-   ShapePoint "{67066C69826895D7}" {
-    Position 401.162 -66.678 -156.426
+   ShapePoint "{670AC558788893F4}" {
+    Position -444.543 38.185 473.043
    }
-   ShapePoint "{67066C6981F7573B}" {
-    Position 427.548 -74.585 -189.724
+   ShapePoint "{670AC5587FDE90E2}" {
+    Position -461.08 46.029 551.662
    }
-   ShapePoint "{67066C69815839AC}" {
-    Position 454.058 -66.331 -247.44
+   ShapePoint "{670AC5587F5FA581}" {
+    Position -543.984 39.308 496.732
    }
-   ShapePoint "{67066C6985F13333}" {
-    Position 453.383 -61.686 -299.929
+   ShapePoint "{670AC558731DD4A9}" {
+    Position -747.121 47.368 432.037
    }
-   ShapePoint "{67066C6985BD444F}" {
-    Position 431.474 -55.811 -340.018
+   ShapePoint "{670AC5587193DD42}" {
+    Position -926.15 36.056 302.667
    }
-   ShapePoint "{67066C6985044DA5}" {
-    Position 404.653 -49.788 -397.062
+   ShapePoint "{670AC558712EE4DB}" {
+    Position -975.226 -1.476 53.738
    }
-   ShapePoint "{67066C69BA9DC44F}" {
-    Position 391.889 -43.128 -454.609
+   ShapePoint "{670AC55877DFC97F}" {
+    Position -966.158 37.405 -191.557
    }
-   ShapePoint "{67066C69BA4B7DBE}" {
-    Position 384.401 -34.785 -522.753
+   ShapePoint "{670AC5587709476F}" {
+    Position -909.256 33.495 -397.321
    }
-   ShapePoint "{67066C69AC5886B0}" {
-    Position 396.764 -27.504 -596.05
+   ShapePoint "{670AC5586D3CDCE4}" {
+    Position -661.265 14.417 -531.458
    }
-   ShapePoint "{67066C69AC34D5D4}" {
-    Position 380.657 -25.955 -652.73
+   ShapePoint "{670AC5586C67EF2B}" {
+    Position -305.176 30.042 -621.371
    }
-   ShapePoint "{67066C69A3E1B663}" {
-    Position 351.99 -19.492 -716.823
+   ShapePoint "{670AC55863E0B4BD}" {
+    Position -212.541 7.763 -640.701
    }
-   ShapePoint "{67066C6A5970DEEF}" {
-    Position 365.463 -7.86 -846.691
+   ShapePoint "{670AC55863139ACA}" {
+    Position 0.318 41.4 -656.445
    }
-   ShapePoint "{67066C6A58DF1511}" {
-    Position 317.215 1.5 -942.202
+   ShapePoint "{670AC55862B08068}" {
+    Position 207.624 40.833 -657.995
    }
-   ShapePoint "{67066C6A58BE0472}" {
-    Position 224.491 8.115 -982.623
-   }
-   ShapePoint "{67066C6AB19BDD9E}" {
-    Position 160.225 6.783 -980.041
-   }
-   ShapePoint "{67066C6AB170F7EC}" {
-    Position 139.806 3.917 -961.544
-   }
-   ShapePoint "{67066C6AB0D73CF7}" {
-    Position 131.608 -0.1 -929.037
-   }
-   ShapePoint "{67066C6AB086A1F5}" {
-    Position 121.146 -3.942 -895.25
-   }
-   ShapePoint "{67066C6AB782B478}" {
-    Position 108.745 -7.24 -866.585
-   }
-   ShapePoint "{67066C6AB6FAEBBB}" {
-    Position 32.044 -5.806 -847.377
-   }
-   ShapePoint "{67066C6AB6324F56}" {
-    Position -24.68 -5.046 -835.837
-   }
-   ShapePoint "{67066C6AB5E1DEAF}" {
-    Position -64.71 -5.425 -813.479
-   }
-   ShapePoint "{67066C6AB4D698D0}" {
-    Position -117.275 -5.793 -786.054
-   }
-   ShapePoint "{67066C6AA9590EBD}" {
-    Position -160.347 -8.564 -732.744
-   }
-   ShapePoint "{67066C6AA9395213}" {
-    Position -165.731 -11.697 -678.579
-   }
-   ShapePoint "{67066C6AA8E86E30}" {
-    Position -163.463 -17.665 -621.966
-   }
-   ShapePoint "{67066C6AA85384E1}" {
-    Position -146.047 -24.824 -549.908
-   }
-   ShapePoint "{67066C6AAF0B1769}" {
-    Position -137.666 -25.639 -497.903
-   }
-   ShapePoint "{67066C6AAE7DFC7B}" {
-    Position -120.528 -31.687 -425.17
-   }
-   ShapePoint "{67066C6AA35551AE}" {
-    Position -119.049 -34.395 -357.522
-   }
-   ShapePoint "{67066C6AA2FB2718}" {
-    Position -111.491 -36.785 -308.515
-   }
-   ShapePoint "{67066C6AA26FF73B}" {
-    Position -94.986 -39.931 -266.742
-   }
-   ShapePoint "{67066C6AA14A23F0}" {
-    Position -77.909 -39.628 -229.809
-   }
-   ShapePoint "{67066C6AA0949C64}" {
-    Position -12.48 -39.806 -158.686
-   }
-   ShapePoint "{67066C6AA6E6514E}" {
-    Position 42.916 -42.851 -149.685
+   ShapePoint "{670AC55867A5B837}" {
+    Position 311.238 73.8 -663.63
    }
   }
  }
+ AO_Limit_OPFMortar {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 15
+    m_factionKeys {
+     "USSR"
+    }
+    m_lineWidth 5
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "USSR"
+    }
+    m_drawLine 1
+   }
+  }
+  coords 7063.98 199.079 9209.971
+  angles 0.895 0 0
+  Points {
+   ShapePoint "{670AC559BA59FEC2}" {
+    Position -56.409 -0.964 -17.735
+   }
+   ShapePoint "{670AC559B9DBB275}" {
+    Position -18.475 -2.104 -32.335
+   }
+   ShapePoint "{670AC559B956CEE6}" {
+    Position -8.403 -0.468 -4.902
+   }
+   ShapePoint "{670AC559B8F5A190}" {
+    Position -42.881 0.864 11.433
+   }
+  }
+ }
+}
+TILW_FactionTriggerEntity Trigger_Obj : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 6939.351 164.361 8057.291
+ m_queryRadius 20
+ m_flagName "HQ"
+ m_ownerFactionKey "USSR"
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3720.089 354.787 1640.119
@@ -565,7 +494,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{66DB00D44D047D24}" {
-   m_name "US Victory Casualties"
+   m_name "Canadian Victory Casualties"
    m_instructions {
     TILW_SendMessageInstruction "{66DB00D44D047DF3}" {
      m_messageTitle "Canadian Army Victory"
@@ -600,13 +529,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SendMessageInstruction "{6506E4089FDE5CA5}" {
      m_executionDelay 3600
-     m_messageTitle "Soviet Army Victory"
-     m_messageBody "USSR Held onto the mines long enough for reinforcements... GM Discretion when to end the mission"
-    }
-    TILW_SendMessageInstruction "{66DB00CAB4C049EC}" {
-     m_executionDelay 3610
-     m_messageTitle "Soviet Reinforcements has arrived"
-     m_messageBody "Soviet Forces are moving in to secure the Ammo Dump and the surrounding area."
+     m_messageTitle "Canadian Army Victory"
+     m_messageBody "Canadians held onto the HQ Long Enough... GM Discretion when to end the mission"
     }
    }
    m_condition TILW_LiteralTerm "{6506E40BFBED4D76}" {
@@ -614,11 +538,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{650750E2E1A73F1D}" {
-   m_name "CAF OBJ Victory"
+   m_name "Soviet OBJ Victory"
    m_instructions {
     TILW_SendMessageInstruction "{6550E36ED08C418C}" {
-     m_messageTitle "Canadian Army Victory"
-     m_messageBody "Canadian Army managed to destroy the Ammo Dump... "\
+     m_messageTitle "Soviet Army Victory"
+     m_messageBody "Soviet Forces has managed to secure the Canadian HQ... "\
      "GM Discretion when to end the mission"
     }
    }
@@ -627,7 +551,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      TILW_ConjunctionTerm "{66C7205C24648218}" {
       m_operands {
        TILW_LiteralTerm "{66C7205CD82CD1AB}" {
-        m_flagName "AmmoDump1"
+        m_flagName "HQ"
        }
       }
      }
@@ -639,12 +563,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{6506E4081586428B}" {
    m_flagName "USSR_CAS"
    m_factionKey "USSR"
-   m_casualtyRatio 0.85
+   m_casualtyRatio 0.9
   }
   TILW_FactionPlayersKilledFlag "{66DB00D5AECA8021}" {
    m_flagName "CAF_CAS"
    m_factionKey "GC_CAF"
-   m_casualtyRatio 0.9
+   m_casualtyRatio 0.85
   }
  }
 }

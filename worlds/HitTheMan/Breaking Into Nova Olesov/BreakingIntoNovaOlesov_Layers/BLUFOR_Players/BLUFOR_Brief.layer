@@ -12,9 +12,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Ammunition: Each man carries his own ammunition & LAVIIs carry additional ammunition."\
   "IPE: Helmets and body armour are to be worn at all times."\
   ""\
-  "Each Platoon has a Crate that contains:"\
-  "- 50x Demoblock M112"\
-  "- 10x Blasting Machine M34</i>"\
+  "Platoon has a Crate that contains:"\
+  "- 500x Sandbags</i>"\
   ""\
   "<b>c. Medical:</b>"\
   "<i>Location: Platoon Aid Post is to be setup by Platoon medics."\
@@ -25,22 +24,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Morphine: Every soldier carries 1+ stick of morphine.</i>"\
   ""\
   "<b>d. Vehicles:</b>"\
-  "<i>1x LAVIIs"\
-  "- LAVs has Smoke Launchers"\
-  "The LAV-IIs contains;"\
-  "- 20x Bandages"\
-  "- 20x Tourniquets"\
-  "- 10x Morphine"\
-  "- 48x Stanag Mags"\
-  "- 12x M249 Boxes"\
-  "- 12x Grenades"\
-  "- 12x Smoke Grenades"\
-  "- 8x 40mm Grenade"\
-  "- 24x 40mm Flares"\
-  "- 2x LAWs"\
-  "- 1x ANPRC77"\
-  "- 30x Demoblock M112"\
-  "- 6x Blasting Machine M34</i>"
+  "<i>None.</i>"
   m_aVisibleForFactions {
    "GC_CAF"
   }
@@ -51,28 +35,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "V. Command & Signals:"
   m_sTextData "<h2>V. Command & Signal:</h2>"\
   "<b>I. Chain of Command:</b>"\
-  "<i>29, 29A, 21, 22, etc</i>"\
+  "<i>21, 21A, 21B, 21W, etc</i>"\
   ""\
   "<b>II. Callsigns:</b>"\
-  "<i>Company Commander ----------- 29"\
-  "Company 2iC ------------------------- 29A - Alpha"\
-  "Company CSM ----------------------- 29D - Delta"\
-  ""\
-  "Platoon HQ ---------------------------- 21"\
+  "<i>Platoon HQ ---------------------------- 21"\
   "- Platoon Leader -------------------- 21 Sunray"\
-  "- Platoon Warrant ------------------ 21 Sunray Minor OR 21F - Foctor"\
+  "- Platoon Warrant ------------------ 21 Sunray Minor"\
   "1st Section --------------------------- 21A - Alpha"\
   "2nd Section -------------------------- 21B - Bravo"\
   "Weapons Detachment ---------- 21W - Whisky"\
-  ""\
-  "Platoon HQ ---------------------------- 22"\
-  "- Platoon Leader -------------------- 22 Sunray"\
-  "- Platoon Warrant ------------------ 22 Sunray Minor "\
-  "1st Section --------------------------- 22A - Alpha"\
-  "2nd Section -------------------------- 22B -  Bravo"\
-  "Weapons Detachment ---------- 22W - Whisky"\
-  ""\
-  "LAV-II Attachment ---------------- 29E - Echo</i>"\
   ""\
   "<b>- - - Vehicle/LAV Callsigns when Inf dismounted:</b>"\
   "<i>Z29 or Zulu 29"\
@@ -81,9 +52,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Etc.</i>"\
   ""\
   "<b>III. Frequencies:</b>"\
-  "<i>Company Net ------------ 48.00Mhz"\
-  "1st Platoon Net -------- 47.00Mhz"\
-  "2nd Platoon Net ------- 49.00Mhz</i>"
+  "<i>Platoon Net ------------ 48.00Mhz</i>"
   m_aVisibleForFactions {
    "GC_CAF"
   }
@@ -94,16 +63,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "<i>Push through an gaps in their defences and destroy the Ammo Dump.</i>"\
+  "<i>Prevent the loss of our HQ Building while maintaining Combat Effectiveness.</i>"\
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "<i>Company Commander's Discretion."\
-  "It is adviced to the Platoons to locate any heavily fortified positions before calling up the LAV to destroy it, prior to continuing movement.</i>"\
+  "It is adviced to split the platoon up to setup Kill Zones in the most likely Avenues of Approaches, engage them and pull back to fallback positions.</i>"\
   ""\
   "<b>2. Maneuver</b>"\
   "<i>Company Commander's Discretion."\
-  "It is adviced to NOT split up the platoons but have them work together to mutually support one another during movement, while utilizing the LAV to break up any heavily fortified positions that the platoons encounter."\
-  "</i>"\
+  "It is adviced to allow the squad to be flexible in their maneuver depending on the battlefield conditions.</i>"\
   ""
   m_aVisibleForFactions {
    "GC_CAF"
@@ -119,29 +87,29 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Wearing the standard USSR uniform of Tan with greenish helmet..</i>"\
   ""\
   "<b>Known Strength:</b>"\
-  "<i>1x Rifle Platoon</i>"\
+  "<i>1x Rifle Company (-)"\
+  "1x Mortar Team</i>"\
   ""\
   "<b>Location:</b>"\
-  "<i>Held up at the village of Hnevice</i>"\
+  "<i>Located somewhere East of Nova Olesov</i>"\
   ""\
   "<b>Capabilities:</b>"\
-  "<i>Access to RPGs, PKMs, VOGs."\
-  "Vehicles include UAZ452s and UAZ469.</i>"\
+  "<i>Access to RPGs, RPKs, PKMs, VOGs.</i>"\
   ""\
   "<b>MLCOA:</b>"\
-  "<i>Locate our axis of movement before concentrating their forces to repel us or pull back after a short engagement</i>"\
+  "<i>Split their Company up to approach and attack us from multiple directions.</i>"\
   ""\
   "<b>MDCOA:</b>"\
-  "<i>Utilize their NSVs to decimate our approach axis, hit us with all they got before falling back to do it gain.</i>"\
+  "<i>Find a easy avenue of approach, and shove their whole company through it to overwhelm us.</i>"\
   ""\
   "<b>Defensive Fires:</b>"\
-  "<i>No known in-direct threat at this time.</i>"\
+  "<i>Access to Mortar Support is suspected.</i>"\
   ""\
   "<b>Airthreat:</b>"\
   "<i>No known Air support.</i>"\
   ""\
   "<b>Morale:</b>"\
-  "<i>Alright.</i>"\
+  "<i>Very High.</i>"\
   ""\
   "<b>CBRN Threat:</b>"\
   "<i>The enemy pose no CBRN Threat as of now.</i>"\
@@ -156,20 +124,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "B. Friendly Forces:"
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
-  "<i>Canadian Rifle Company (-) with an attached LAV II is located South of Hnevice</i>"\
+  "<i>Canadian Rifle Platoon (-) located at the Canadian HQ in Nova Olesov</i>"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
-  "<i>Company has been tasked with securing a enemy supply depot & the village of Hnevice itself</i>"\
+  "<i>Prevent the loss of the HQ while reinforcements are inbound.</i>"\
   ""\
   "<b>c. Composition:</b>"\
-  "<i>1x Rifle Canadian Company (-)"\
-  "1x LAVII</i>"\
+  "<i>1x Rifle Canadian Platoon (-)</i>"\
   ""\
   "<b>d. Strength:</b>"\
-  "<i>29 COY HQ - At 56 Man Strength."\
-  "1st Plt - At 23x Man Strength"\
-  "2nd Plt - At 23x Man Strength"\
-  "xxx - At 3x Man Strength + 1x LAVII</i>"\
+  "<i>Platoon - At 24x Man Strength</i>"\
   ""\
   "<b>e. Supporting Fires:</b>"\
   "<i>None as of this time.</i>"\
@@ -178,8 +142,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<i>No air support available</i>"\
   ""\
   "<b>g. Additional Ammunition</b>"\
-  "<i>Provided in the LAVII"\
-  "Detonators & Satchels located in each PLT Crate.</i>"
+  "<i>None.</i>"
   m_aVisibleForFactions {
    "GC_CAF"
   }
@@ -189,7 +152,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5770.217 101.246 10124.798
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "<i>Move in & Destroy the enemy Ammo Depot (5x Ammo Crates) located north of Hnevice</i>"
+  "<i>Prevent the loss of our HQ Building.</i>"
   m_aVisibleForFactions {
    "GC_CAF"
   }
