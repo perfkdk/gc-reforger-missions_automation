@@ -40,7 +40,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_pregameSpawn 1
  }
  Stinger_Spawner_3 {
-  coords 1638.018 134.607 7375.263
+  coords 1638.018 137.307 7375.263
   angles 0 150.612 0
   m_prefab "{962C400354E4BD6C}Prefabs/Weapons/Launchers/9K38_IGLA/Launcher_9K38_IGLA.et"
   m_conditionFlag "Ran3"
@@ -50,7 +50,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_pregameSpawn 1
  }
  Marker_Spawner_3 {
-  coords 1638.016 134.607 7375.262
+  coords 1638.016 137.307 7375.262
   angles 0 90 0
   m_prefab "{20357195D1AE1962}worlds/HitTheMan/Stealthing Into Villa/Prefab/IglaMarkerV4.et"
   m_conditionFlag "Ran3"
