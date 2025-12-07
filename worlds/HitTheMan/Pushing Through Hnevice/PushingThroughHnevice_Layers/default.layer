@@ -621,12 +621,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_DisjunctionTerm "{66C7205C27C5927B}" {
     m_operands {
-     TILW_ConjunctionTerm "{66C7205C24648218}" {
-      m_operands {
-       TILW_LiteralTerm "{66C7205CD82CD1AB}" {
-        m_flagName "AmmoDump1"
-       }
-      }
+     TILW_LiteralTerm "{670EC74582D93549}" {
+      m_flagName "AmmoDump1"
      }
     }
    }
