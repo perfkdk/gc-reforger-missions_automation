@@ -324,4 +324,32 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bringToFront 0
  }
+ USSR_PLT_Marker_23 {
+  coords 9231.751 97.408 8505.435
+  angles 0 90 4.764
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "reg_hq"
+  m_fWorldSize 400
+  m_sDescription "Regimental Convoy"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_24 {
+  coords 5829.269 134.047 8256.284
+  angles 4.764 0.168 0.014
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "automobile_coy"
+  m_fWorldSize 200
+  m_sDescription "Divisional Reconnaissance "
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
 }
