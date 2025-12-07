@@ -12,10 +12,6 @@ SCR_DestructibleBuildingEntity : "{02128ED43CA97BCF}Prefabs/Structures/Industria
  coords 5865.477 221.871 4639.152
  angles 0 138.756 0
 }
-Vehicle AH1S_Marines_AIM9_Limited_HTM2 : "{197609B5292E52DB}worlds/HitTheMan/Beach Holiday To Mineraly/Prefab/AH1S_Marines_AIM9_Limited_HTM2.et" {
- coords 5025.044 1.382 9993.904
- angles 0 155.341 0
-}
 Vehicle UH1H_armed_gunship_HEDP_sharkNose1 : "{3133602B406D131C}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_sharkNose.et" {
  components {
   TILW_Flag_EntityDamage "{670522F57740E83F}" {
@@ -23,7 +19,7 @@ Vehicle UH1H_armed_gunship_HEDP_sharkNose1 : "{3133602B406D131C}Prefabs/Vehicles
    m_targetState INTERMEDIARY
   }
  }
- coords 5068.299 1.382 10013.48
+ coords 5068.299 2.102 10013.48
  angles 0 155.341 0
 }
 $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
@@ -476,23 +472,27 @@ GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_
 }
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  Spawner_UH1H_1 {
-  coords 5068.299 1.382 10013.48
+  coords 5068.299 2.102 10013.48
   angles 0 155.341 0
   m_prefab "{3133602B406D131C}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_sharkNose.et"
   m_conditionFlag "UH1H"
  }
  Spawner_UH1H_2 {
-  coords 5046.676 1.382 10003.706
+  coords 5046.676 2.077 10003.706
   angles 0 155.341 0
   m_prefab "{3133602B406D131C}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_sharkNose.et"
   m_conditionFlag "AH1S_1"
  }
  Spawner_UH1H_3 {
-  coords 5025.044 1.382 9993.904
+  coords 5025.044 2.101 9993.904
   angles 0 155.341 0
   m_prefab "{3133602B406D131C}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HEDP_sharkNose.et"
   m_conditionFlag "AH1S_2"
  }
+}
+Vehicle AH1S_Marines_AIM9_Limited_HTM2 : "{9C80B07A9E8FE463}worlds/HitTheMan/Beach Holiday To Mineraly/Prefab/AH1S_Marines_M299_Limited_HTM2.et" {
+ coords 5025.044 2.101 9993.904
+ angles 0 155.341 0
 }
 GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Equipment_01_US.et" {
  components {
@@ -568,8 +568,58 @@ GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes
  coords 5093.142 1.521 10004.442
  angles 0 172.187 0
 }
+$grp GenericEntity : "{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_US_01.et" {
+ {
+  components {
+   SCR_ResourceComponent "{6152F92926A47D83}" {
+    m_aContainers {
+     SCR_ResourceContainer "{670EFD8F1CA39F9C}" {
+      m_eResourceRights ALL
+      m_eStorageType STORED
+      m_fResourceValueCurrent 3000
+      m_fResourceValueMax 3000
+     }
+    }
+   }
+  }
+  coords 5047.424 1.373 10003.981
+  angles 0 -24.432 0
+ }
+ {
+  components {
+   SCR_ResourceComponent "{6152F92926A47D83}" {
+    m_aContainers {
+     SCR_ResourceContainer "{670EFD8F01B1B12C}" {
+      m_eResourceRights ALL
+      m_eStorageType STORED
+      m_fResourceValueCurrent 3000
+      m_fResourceValueMax 3000
+     }
+    }
+   }
+  }
+  coords 5025.018 1.38 9994.191
+  angles 0 -24.432 0
+ }
+ {
+  components {
+   SCR_ResourceComponent "{6152F92926A47D83}" {
+    m_aContainers {
+     SCR_ResourceContainer "{670EFD8F3B355E83}" {
+      m_eResourceRights ALL
+      m_eStorageType STORED
+      m_fResourceValueCurrent 3000
+      m_fResourceValueMax 3000
+     }
+    }
+   }
+  }
+  coords 5068.961 1.375 10013.833
+  angles 0 -24.432 0
+ }
+}
 Vehicle AH1S_Marines_AIM9_Limited_HTM1 : "{B860D8BF417FB8F6}worlds/HitTheMan/Beach Holiday To Mineraly/Prefab/AH1S_Marines_AIM9_Limited_HTM.et" {
- coords 5046.676 1.382 10003.706
+ coords 5046.676 2.077 10003.706
  angles 0 155.341 0
 }
 Vehicle Mi24P_armed_R60_NOATGM_HTM1 : "{BBF0EF53A1DD51FC}worlds/HitTheMan/Beach Holiday To Mineraly/Prefab/Mi24P_armed_R60_NOATGM_HTM.et" {
