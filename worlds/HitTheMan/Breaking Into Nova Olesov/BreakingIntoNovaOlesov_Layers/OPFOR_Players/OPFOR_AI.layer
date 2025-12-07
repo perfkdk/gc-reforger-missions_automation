@@ -29,22 +29,6 @@ $grp PK_EntityDeleter {
   }
  }
 }
-$grp SCR_AIGroup : "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/Group_USSR_MSV80_MotRifleSquad.et" {
- {
-  coords 7060.509 118.688 8304.135
-  angles 0 -156.957 0
-  m_aStaticWaypoints {
-   "WP_Def_1"
-  }
- }
- {
-  coords 7155.667 137.466 8386.972
-  angles 0 -156.957 0
-  m_aStaticWaypoints {
-   "WP_Def_2"
-  }
- }
-}
 $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  WP_2 {
   coords 7311.166 115.179 8296.92
@@ -496,6 +480,30 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    }
    m_noTurretDismount 1
    m_useIdleGroups 0
+  }
+ }
+ Infantry_1 {
+  coords 7069.773 118.687 8320.968
+  angles 0 -103.25 0
+  m_prefab "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/Group_USSR_MSV80_MotRifleSquad.et"
+  m_conditionFlag "SpawnInfantry"
+  m_spawnTimings {
+   110
+  }
+  m_waypointNames {
+   "WP_Def_1"
+  }
+ }
+ Infantry_2 {
+  coords 7166.173 142.243 8408.688
+  angles 0 -103.25 0
+  m_prefab "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/Group_USSR_MSV80_MotRifleSquad.et"
+  m_conditionFlag "SpawnInfantry"
+  m_spawnTimings {
+   110
+  }
+  m_waypointNames {
+   "WP_Def_2"
   }
  }
 }
