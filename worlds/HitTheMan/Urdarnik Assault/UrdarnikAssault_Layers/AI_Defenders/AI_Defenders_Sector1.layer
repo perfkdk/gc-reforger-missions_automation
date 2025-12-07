@@ -273,10 +273,10 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    m_useIdleGroups 0
   }
  }
- BRDM_Spawn_Sector2 {
+ T72_Spawn_Sector1 {
   coords 4725.108 27.459 3257.212
   angles -3.194 138.401 0.444
-  m_prefab "{83FC98FFD5D48825}Prefabs/Vehicles/Tracked/T-72A/T72A_NVA.et"
+  m_prefab "{4355537BD75ED98A}worlds/HitTheMan/Prefabs/Vehicles/T72A_Green_AI.et"
   m_conditionFlag "Sector1_2"
   m_spawnTimings {
    30
