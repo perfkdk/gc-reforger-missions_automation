@@ -818,31 +818,31 @@ $grp GenericEntity : "{BB9DFC7232860128}Prefabs/Props/Construction/BrickPile/Bri
 $grp ParticleEffectEntity : "{C4A16F2433002F7E}Prefabs/Systems/Smoke/Wrapper_Smoke_Inf_Black_Large.et" {
  {
   coords 1499.451 20.903 2234.988
-  EffectPath "{BF496ADB7584E640}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+  EffectPath "{BF496ADB7584E640}worlds/Corax/Breach and clear/Building_Explosion_Smoke.ptc"
  }
  {
   coords 1473.714 22.959 2229.955
-  EffectPath "{BF496ADB7584E640}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+  EffectPath "{BF496ADB7584E640}worlds/Corax/Breach and clear/Building_Explosion_Smoke.ptc"
  }
  {
   coords 1475.938 21.103 2277.42
-  EffectPath "{BF496ADB7584E640}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+  EffectPath "{BF496ADB7584E640}worlds/Corax/Breach and clear/Building_Explosion_Smoke.ptc"
  }
  {
   coords 1454.82 20.899 2269.503
-  EffectPath "{BF496ADB7584E640}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+  EffectPath "{BF496ADB7584E640}worlds/Corax/Breach and clear/Building_Explosion_Smoke.ptc"
  }
  {
   coords 1440.204 24.281 2294.823
-  EffectPath "{BF496ADB7584E640}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+  EffectPath "{BF496ADB7584E640}worlds/Corax/Breach and clear/Building_Explosion_Smoke.ptc"
  }
  {
   coords 1464.889 20.846 2302.501
-  EffectPath "{BF496ADB7584E640}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+  EffectPath "{BF496ADB7584E640}worlds/Corax/Breach and clear/Building_Explosion_Smoke.ptc"
  }
  {
   coords 1476.579 20.333 2254.346
-  EffectPath "{BF496ADB7584E640}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+  EffectPath "{BF496ADB7584E640}worlds/Corax/Breach and clear/Building_Explosion_Smoke.ptc"
  }
 }
 $grp GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
