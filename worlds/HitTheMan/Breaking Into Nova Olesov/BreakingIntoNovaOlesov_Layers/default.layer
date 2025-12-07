@@ -472,9 +472,11 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  }
 }
 TILW_FactionTriggerEntity Trigger_Obj : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 6939.351 164.361 8057.291
+ coords 6939.351 157.196 8057.291
  m_queryRadius 20
  m_flagName "HQ"
+ m_stopAfterFirstChange 1
+ m_playersOnly 1
  m_ownerFactionKey "USSR"
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
@@ -556,6 +558,53 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       }
      }
     }
+   }
+  }
+  TILW_MissionEvent "{670CBE6E61C2659C}" {
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{670CBE6E64CB1A0A}" {
+     m_groupName "BMPSpawner_1"
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{670CBE6E1D6503F5}" {
+     m_groupName "BMPSpawner_2"
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{670CBE6E12CD2C2B}" {
+     m_groupName "BMPSpawner_3"
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{670CBE6E16E438CD}" {
+     m_groupName "BMPSpawner_4"
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{670CBE6E0FD06937}" {
+     m_groupName "BMPSpawner_5"
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{670CBE6E0CE3829E}" {
+     m_groupName "BMPSpawner_6"
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{670CBE6E01F27D82}" {
+     m_groupName "BMPSpawner_7"
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{670CBE6E0670E0D3}" {
+     m_groupName "T72Spawner_1"
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{670CBE6E3EDEE1D5}" {
+     m_groupName "T72Spawner_2"
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{670CBE6E3C53A4FB}" {
+     m_groupName "T72Spawner_3"
+     m_clearExisting 1
+    }
+   }
+   m_condition TILW_LiteralTerm "{670CBE6E6064652C}" {
+    m_flagName "CeaseFire"
    }
   }
  }

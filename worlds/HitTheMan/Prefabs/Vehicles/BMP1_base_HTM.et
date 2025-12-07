@@ -1167,6 +1167,8 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
   ChimeraAIVehicleControlComponent "{61C2E46781A66E82}" {
    components {
     AICarMovementComponent "{61C2E46796C28D80}" {
+     "Max Speed" 40
+     CruiseVehicleSpeedKmh 20
      BreakTreshold 3.3
      SteeringPID 15 0.08 0.5
     }
