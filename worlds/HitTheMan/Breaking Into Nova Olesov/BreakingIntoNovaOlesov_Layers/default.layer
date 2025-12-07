@@ -48,8 +48,8 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    m_fFogAmount 0.15
    m_fFogHeightDensity 0.35
    m_bUseSpecifiedDate 1
-   m_iSetDay 21
-   m_iSetMonth 3
+   m_iSetDay 25
+   m_iSetMonth 2
    m_iSetYear 1983
   }
  }
@@ -436,40 +436,6 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
   }
  }
- AO_Limit_OPFMortar {
-  components {
-   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-    m_killTimer 15
-    m_factionKeys {
-     "USSR"
-    }
-    m_lineWidth 5
-   }
-   TILW_MapShapeComponent "{6508F54F9B461198}" {
-    Enabled 1
-    m_factionKeys {
-     "USSR"
-    }
-    m_drawLine 1
-   }
-  }
-  coords 7063.98 199.079 9209.971
-  angles 0.895 0 0
-  Points {
-   ShapePoint "{670AC559BA59FEC2}" {
-    Position -56.409 -0.964 -17.735
-   }
-   ShapePoint "{670AC559B9DBB275}" {
-    Position -18.475 -2.104 -32.335
-   }
-   ShapePoint "{670AC559B956CEE6}" {
-    Position -8.403 -0.468 -4.902
-   }
-   ShapePoint "{670AC559B8F5A190}" {
-    Position -42.881 0.864 11.433
-   }
-  }
- }
 }
 TILW_FactionTriggerEntity Trigger_Obj : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 6939.351 157.196 8057.291
@@ -511,26 +477,27 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Time Limit"
    m_instructions {
     TILW_SendMessageInstruction "{6506E408307D3B9A}" {
+     m_executionDelay 300
      m_messageTitle "Time Limit"
      m_messageBody "The Mission will end in 60 minutes - At GM's Discretion"
     }
     TILW_SendMessageInstruction "{66D4DA0EA5FAB09D}" {
-     m_executionDelay 1800
+     m_executionDelay 900
      m_messageTitle "Time Limit"
-     m_messageBody "The Mission will end in 30 minutes"
+     m_messageBody "The Mission will end in 40 minutes"
     }
     TILW_SendMessageInstruction "{6550E36F53005626}" {
-     m_executionDelay 2400
+     m_executionDelay 1800
      m_messageTitle "Time Limit"
-     m_messageBody "The Mission will end in 20 minutes"
+     m_messageBody "The Mission will end in 25 minutes"
     }
     TILW_SendMessageInstruction "{6550E36F43F2544F}" {
-     m_executionDelay 3000
+     m_executionDelay 2700
      m_messageTitle "Time Limit"
      m_messageBody "The Mission will end in 10 minutes"
     }
     TILW_SendMessageInstruction "{6506E4089FDE5CA5}" {
-     m_executionDelay 3600
+     m_executionDelay 3300
      m_messageTitle "Canadian Army Victory"
      m_messageBody "Canadians held onto the HQ Long Enough... GM Discretion when to end the mission"
     }
@@ -561,6 +528,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{670CBE6E61C2659C}" {
+   m_name "Spawn Vehicles"
    m_instructions {
     TILW_AssignWaypointsInstruction "{670CBE6E64CB1A0A}" {
      m_groupName "BMPSpawner_1"
@@ -612,12 +580,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{6506E4081586428B}" {
    m_flagName "USSR_CAS"
    m_factionKey "USSR"
-   m_casualtyRatio 0.9
+   m_casualtyRatio 0.85
   }
   TILW_FactionPlayersKilledFlag "{66DB00D5AECA8021}" {
    m_flagName "CAF_CAS"
    m_factionKey "GC_CAF"
-   m_casualtyRatio 0.85
+   m_casualtyRatio 0.9
   }
  }
 }

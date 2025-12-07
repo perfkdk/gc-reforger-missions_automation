@@ -43,6 +43,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{DF8E65CA90B55E3B}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_PL_P.et"
    "{07299990D00B0823}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_DPL_P.et"
    "{D1BA3D1164545A8D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Medic_P.et"
+   "{E5C3468BDF19AC4F}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MG_P.et"
+   "{7ED89FF8122EBF62}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AMG_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Platoon HQ"
@@ -161,6 +163,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{DF8E65CA90B55E3B}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_PL_P.et"
    "{07299990D00B0823}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_DPL_P.et"
    "{D1BA3D1164545A8D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Medic_P.et"
+   "{E5C3468BDF19AC4F}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MG_P.et"
+   "{7ED89FF8122EBF62}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AMG_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Platoon HQ"
@@ -201,12 +205,12 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 0
    }
   }
-  coords 7553.41 114.285 8404.945
-  angles 0 -83.854 0
+  coords 7552.243 114.06 8402.626
+  angles 0 -135.99 0
   m_aUnitPrefabSlots {
    "{8558FB262DBF1D64}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_CoyL_P.et"
+   "{308B7EF638B4FD35}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_1SG_P.et"
    "{3C7561AD348B68EA}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_PO_P.et"
-   "{5888F75B9942CE7D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_RTO_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Platoon HQ"

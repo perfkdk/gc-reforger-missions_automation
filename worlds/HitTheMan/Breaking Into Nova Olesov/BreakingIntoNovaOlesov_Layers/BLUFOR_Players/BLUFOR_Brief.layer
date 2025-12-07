@@ -13,7 +13,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "IPE: Helmets and body armour are to be worn at all times."\
   ""\
   "Platoon has a Crate that contains:"\
-  "- 500x Sandbags</i>"\
+  "- 500x Sandbags"\
+  "- 84mm MAW Carrier Rucksacks, contains 2x HEAT each.</i>"\
   ""\
   "<b>c. Medical:</b>"\
   "<i>Location: Platoon Aid Post is to be setup by Platoon medics."\
@@ -63,11 +64,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "<i>Prevent the loss of our HQ Building while maintaining Combat Effectiveness.</i>"\
+  "<i>Prevent the loss of the High Ground (Building) while maintaining Combat Effectiveness until we pull out.</i>"\
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "<i>Company Commander's Discretion."\
-  "It is adviced to split the platoon up to setup Kill Zones in the most likely Avenues of Approaches, engage them and pull back to fallback positions.</i>"\
+  "It is adviced to split the platoon up to setup Kill Zones in the most likely Avenues of Approaches, engage the vehicles and infantry and pull back to fallback positions.</i>"\
   ""\
   "<b>2. Maneuver</b>"\
   "<i>Company Commander's Discretion."\
@@ -84,26 +85,29 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>A. Enemy Forces:</h2>"\
   "<b>Equipment:</b>"\
   "<i>USSR are equipped with their standard WARSAW Pact weaponry, AK series, RPG7s, PKMs."\
-  "Wearing the standard USSR uniform of Tan with greenish helmet..</i>"\
+  "Wearing the standard USSR uniform of Tan with greenish helmet.</i>"\
   ""\
   "<b>Known Strength:</b>"\
-  "<i>1x Rifle Company (-)"\
-  "1x Mortar Team</i>"\
+  "<i>1x Mechanized Company (-)"\
+  "Regimental Main Body (Further behind)</i>"\
   ""\
   "<b>Location:</b>"\
-  "<i>Located somewhere East of Nova Olesov</i>"\
+  "<i>Company (-) is located somewhere East of Nova Olesov"\
+  "Enemy Divisional Reconnasence pushed through earlier, not expected to be a threat"\
+  "Their Regimental Main Body is behind the Company (-), will arrive in about 50min </i>"\
   ""\
   "<b>Capabilities:</b>"\
-  "<i>Access to RPGs, RPKs, PKMs, VOGs.</i>"\
+  "<i>Access to RPGs, RPKs, PKMs, VOGs."\
+  "Vehicle Access include T-72s, BMP1s</i>"\
   ""\
   "<b>MLCOA:</b>"\
-  "<i>Split their Company up to approach and attack us from multiple directions.</i>"\
+  "<i>Push their vehicles up to shell the town, while splitting their Company up to approach and attack us from multiple directions.</i>"\
   ""\
   "<b>MDCOA:</b>"\
-  "<i>Find a easy avenue of approach, and shove their whole company through it to overwhelm us.</i>"\
+  "<i>Push their vehicles up to shell the town, find a easy avenue of approach, and shove their whole company through it to overwhelm us.</i>"\
   ""\
   "<b>Defensive Fires:</b>"\
-  "<i>Access to Mortar Support is suspected.</i>"\
+  "<i>None at this time.</i>"\
   ""\
   "<b>Airthreat:</b>"\
   "<i>No known Air support.</i>"\
@@ -127,7 +131,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<i>Canadian Rifle Platoon (-) located at the Canadian HQ in Nova Olesov</i>"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
-  "<i>Prevent the loss of the HQ while reinforcements are inbound.</i>"\
+  "<i>Delay the enemy for as long as possible before pulling back, Company behind us is digging in as fast as they can</i>"\
   ""\
   "<b>c. Composition:</b>"\
   "<i>1x Rifle Canadian Platoon (-)</i>"\
@@ -152,7 +156,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5770.217 101.246 10124.798
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "<i>Prevent the loss of our HQ Building.</i>"
+  "<i>We ambushed the Combat Reconnaissance Patrol earlier with success (Though we suspect there may be some infantry survivors), now the main mission is to delay the Forward Security Element for as long as possible to give our Company behind us enough time to dig without losing the High Ground (Building) before pulling out."\
+  ""\
+  "We suspect them to utilize their vehicles (BMPs & T-72s) to start shelling the town itself once the infantry start making their move towards the town. Not recommended to look at the T-72 front on, as they may use HE Shells to blow us apart.</i>"
   m_aVisibleForFactions {
    "GC_CAF"
   }

@@ -12,6 +12,12 @@ GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/Equipment
      }
      NumSlots 500
     }
+    MultiSlotConfiguration "{670EC740A6C0896E}" {
+     SlotTemplate InventoryStorageSlot hbn {
+      Prefab "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
+     }
+     NumSlots 4
+    }
    }
   }
   ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -37,6 +43,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
   m_aUnitPrefabSlots {
    "{373B40FAB9F262CA}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Commander_1_P.et"
    "{E1B0E0478D68E303}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_PLT_Warrant_1_P.et"
+   "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_Medic_1_P.et"
    "{E22C3DDB5BCE6B3C}Prefabs/Characters/Factions/BLUFOR/GC_Canada/1993 Canadian Army/Players/Headquarters/Character_1993_CAF_Medic_1_P.et"
   }
   m_sCustomNameSet "1st Platoon HQ"

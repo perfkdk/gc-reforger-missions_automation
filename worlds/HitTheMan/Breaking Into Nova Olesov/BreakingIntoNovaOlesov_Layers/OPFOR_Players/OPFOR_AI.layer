@@ -7,9 +7,6 @@ $grp PK_EntityDeleter {
    "{61D918F6575A3231}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_alnus_glutinosa_2s.et"
    "{C44F51A81AC2B063}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et"
    "{16D3707EA3F8DD41}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_alnus_glutinosa_3s.et"
-   ""
-   ""
-   ""
   }
  }
  {
@@ -20,9 +17,6 @@ $grp PK_EntityDeleter {
    "{61D918F6575A3231}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_alnus_glutinosa_2s.et"
    "{C44F51A81AC2B063}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et"
    "{16D3707EA3F8DD41}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_alnus_glutinosa_3s.et"
-   ""
-   ""
-   ""
   }
  }
  {
@@ -32,9 +26,6 @@ $grp PK_EntityDeleter {
    "{61D918F6575A3231}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_alnus_glutinosa_2s.et"
    "{C44F51A81AC2B063}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3s.et"
    "{16D3707EA3F8DD41}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_alnus_glutinosa_3s.et"
-   ""
-   ""
-   ""
   }
  }
 }
@@ -56,12 +47,10 @@ $grp SCR_AIGroup : "{5736F94D76C26150}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
 }
 $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  WP_2 {
-  coords 7308.801 115.292 8297.903
-  CompletionRadius 2
+  coords 7311.166 115.179 8296.92
  }
  WP_3 {
-  coords 7329.481 116.493 8290.793
-  CompletionRadius 2
+  coords 7329.752 116.475 8290.396
  }
  WP_5 {
   coords 7110.881 117.281 8178.728
@@ -80,7 +69,7 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
   CompletionRadius 2
  }
  WP_8 {
-  coords 6999.967 119.261 8044.984
+  coords 7031.905 120.247 7974.868
   CompletionRadius 2
  }
  WP_9 {
@@ -113,6 +102,14 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
  }
  WP_16 {
   coords 7071.253 122.303 8261.064
+  CompletionRadius 2
+ }
+ WP_17 {
+  coords 6895.89 153.333 8027.375
+  CompletionRadius 2
+ }
+ WP_18 {
+  coords 6976.281 122.831 8073.911
   CompletionRadius 2
  }
 }
@@ -337,6 +334,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       "WP_13"
       "WP_15"
       "WP_4"
+      "WP_17"
      }
     }
    }
@@ -369,6 +367,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       "WP_14"
       "WP_16"
       "WP_7"
+      "WP_18"
      }
     }
    }
@@ -518,47 +517,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_playersOnly 1
   m_ownerFactionKey "USSR"
   m_ratioThreshold 0.1
- }
-}
-$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- USSR_PLT_Marker_24 {
-  coords 7479.453 124.331 8266.987
-  angles 8.032 -4.006 -4.108
-  m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "up"
-  m_fWorldSize 40
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_bringToFront 0
- }
- USSR_PLT_Marker_26 {
-  coords 7598.88 123.255 8293.027
-  angles 7.869 -6.215 -4.414
-  m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "up"
-  m_fWorldSize 40
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_bringToFront 0
- }
- USSR_PLT_Marker_27 {
-  coords 7723.177 113.819 8321.481
-  angles 7.193 -14.104 -5.449
-  m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "up"
-  m_fWorldSize 40
-  m_aVisibleForFactions {
-   "USSR"
-  }
-  m_bringToFront 0
  }
 }
 $grp SCR_SuppressWaypoint : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_Suppress.et" {

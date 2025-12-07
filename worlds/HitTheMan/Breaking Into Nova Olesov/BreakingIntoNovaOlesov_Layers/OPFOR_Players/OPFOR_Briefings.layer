@@ -12,14 +12,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Platoon HQ ---------------------------- 341 (HQ)"\
   "1st Squad ------------------------------ 341"\
   "2nd Squad ----------------------------- 342"\
-  "2nd Squad ----------------------------- 343"\
+  "3rd Squad ----------------------------- 343"\
   ""\
   "Platoon HQ ---------------------------- 351 (HQ)"\
   "1st Squad ------------------------------ 351"\
   "2nd Squad ----------------------------- 352"\
-  "2nd Squad ----------------------------- 353"\
-  ""\
-  "Mortar Team ------------------------- 364 \"Zavok\""\
+  "3rd Squad ----------------------------- 353"\
   ""\
   "<b>- - - Vehicle/LAV Callsigns when Inf dismounted:</b>"\
   "<i>Z29 or Zulu 29"\
@@ -28,8 +26,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Etc.</i>"\
   ""\
   "<b>III. Frequencies:</b>"\
-  "<i>Company Net ------------------------- 42.00MHz"\
-  "Mortar Net ----------------------------- 43.00MHz</i>"
+  "<i>Company Net ------------------------- 42.00MHz</i>"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -50,7 +47,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<i>Holding up at Nova Olesov</i>"\
   ""\
   "<b>Capabilities:</b>"\
-  "<i>Access to M16A1s series, LAWs/M67s, M60, M249 etc.</i>"\
+  "<i>Access to M16A1s series, LAWs/M67s, M60, M249, Carl Gustavs, etc.</i>"\
   ""\
   "<b>MLCOA:</b>"\
   "<i>Split their platoons up to cover their sectors, engage us before pulling back</i>"\
@@ -80,22 +77,25 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "B. Friendly Forces:"
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
-  "<i>Soviet Company (-) is located East of Nova Olesov with Mortar Support in the backline (Ignore their ACTUAL position.. limitations)</i>"\
+  "<i>Soviet Forward Security Element Company (-) is located East of Nova Olesov</i>"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
-  "<i>Push through and secure the town of Nova Olesov, specifically their HQ building.</i>"\
+  "<i>Our Combat Reconnaissance Patrol were ambushed after the Divisional Reconnaissance passed this town by, we are to move, eliminate the hostile threat for the Regimental Main Body and secure the High Ground (Building)</i>"\
   ""\
   "<b>c. Composition:</b>"\
-  "<i>1x Rifle Company (-)</i>"\
+  "<i>1x Mechanized Company (-)</i>"\
   ""\
   "<b>d. Strength:</b>"\
   "<i>COY HQ - At 3x Man Strength."\
   "1st Platoon - At 24x Man Strength."\
   "2nd Platoon - At 24x Man Strength"\
-  "Mortar Support - At 5x Man Strength</i>"\
+  "Mortar Support - At 5x Man Strength"\
+  ""\
+  "7x BMPs (AI)"\
+  "3x T-72s (AI)</i>"\
   ""\
   "<b>e. Supporting Fires:</b>"\
-  "<i>Mortar Support is available</i>"\
+  "<i>No In-Direct firesupport available.</i>"\
   ""\
   "<b>f. Attachments/Detachments:</b>"\
   "<i>No air support available</i>"\
@@ -111,7 +111,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5156.968 341.544 5343.003
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "<i>Push into the town of Nova Olesov and secure their HQ building</i>"
+  "<i>THIS is a time critical mission, 45-50min total from the moment we step off (TLDR, We're Soviets)"\
+  ""\
+  "Combat Reconnaissance Patrol were ambushed in the town of Nova Olesov after the Divisional Reconnaissance passed by, although there are some infantry survivors from that Patrol at the T-Junction."\
+  ""\
+  "Our task is to push in & eliminate the hostile threat to the Regimental Main Body that is 50min behind us, by securing the High Ground (Building) so the large convoy can pass by without being ambushed or attacked."\
+  ""\
+  "Mounted Elements (BMPs, T-72s) Will start moving up once we're about 500m from the high ground, and commence shelling of the town while the T-72 starts moving in. Once we're about 50m from the buildings behind shelled the Mounted Elements will Cease Fire."\
+  ""\
+  "Should we fail or lack in strength, then the Regiment will unfold and push through this town in force.</i>"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -122,11 +130,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "<i>Push into Nova Olesov and secure their HQ Building</i>"\
+  "<i>Push into Nova Olesov and secure the High Ground (Building)</i>"\
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "<i>Company Commander's Discretion."\
-  "It is adviced to pick an avenure of approach, one that gives you the advantage in the attack on the town while using the Mortars to keep the enemy inside the buildings, or SMOKE your approach</i>"\
+  "It is adviced to pick an avenure of approach, one that gives you the advantage in the attack on the town while the mounted up units (BMPs, T-72s) push up to start shelling the town</i>"\
   ""\
   "<b>2. Maneuver</b>"\
   "<i>Company Commander's Discretion."\
@@ -159,7 +167,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Morphine: Every soldier carries 1+ stick of morphine.</i>"\
   ""\
   "<b>d. Vehicles:</b>"\
-  "<i>None.</i>"
+  "<i>7x BMPs (AI)"\
+  "3x T-72As (AI)</i>"
   m_aVisibleForFactions {
    "USSR"
   }

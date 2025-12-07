@@ -1,6 +1,6 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  USSR_PLT_Marker_3 {
-  coords 7552.698 116.346 8405.946
+  coords 7550.818 116.083 8403.604
   angles 0 90 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
@@ -157,6 +157,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0 0 0 1
   m_sQuadName "destroyed"
   m_fWorldSize 40
+  m_sDescription "T-72A"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -183,6 +184,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0 0 0 1
   m_sQuadName "destroyed"
   m_fWorldSize 40
+  m_sDescription "BMP"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -196,6 +198,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0 0 0 1
   m_sQuadName "ifv_recon"
   m_fWorldSize 40
+  m_sDescription "BMP"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -209,6 +212,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0 0 0 1
   m_sQuadName "afv"
   m_fWorldSize 40
+  m_sDescription "T72"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -222,6 +226,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0 0 0 1
   m_sQuadName "destroyed"
   m_fWorldSize 40
+  m_sDescription "BMP"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -235,6 +240,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0 0 0 1
   m_sQuadName "ifv_recon"
   m_fWorldSize 40
+  m_sDescription "BMP"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -282,6 +288,32 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  USSR_PLT_Marker_25 {
   coords 6932.956 140.471 8172.984
   angles -1.222 -74.527 -8.933
+  m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "up"
+  m_fWorldSize 40
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_26 {
+  coords 7523.579 125.586 8279.277
+  angles 6.771 -18.353 -5.966
+  m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "up"
+  m_fWorldSize 40
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_27 {
+  coords 7723.177 113.819 8321.481
+  angles 7.193 -14.104 -5.449
   m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
