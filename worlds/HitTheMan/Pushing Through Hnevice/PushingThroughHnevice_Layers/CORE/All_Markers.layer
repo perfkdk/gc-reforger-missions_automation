@@ -1,6 +1,6 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  Obj_Marker {
-  coords 5973.799 241.82 6147.76
+  coords 5994.719 250.325 6030.206
   angles 0 90 0
   m_sImageSetGlow ""
   m_MarkerColor 0.561 0.071 0.071 1
@@ -9,7 +9,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Ammo Stockpile"
   m_aVisibleForFactions {
    "USSR"
-   "US"
+   "GC_CAF"
   }
   m_bVisibleForEmptyFaction 1
   m_bringToFront 0
@@ -36,6 +36,21 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "infantry"
   m_fWorldSize 180
   m_sDescription "Soviet Rifle Platoon"
+  m_bVisibleForEmptyFaction 1
+  m_bringToFront 0
+ }
+ Obj_Marker2 {
+  coords 5936.046 266.857 5844.326
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 40
+  m_sDescription "Ammo Stockpile"
+  m_aVisibleForFactions {
+   "USSR"
+   "GC_CAF"
+  }
   m_bVisibleForEmptyFaction 1
   m_bringToFront 0
  }

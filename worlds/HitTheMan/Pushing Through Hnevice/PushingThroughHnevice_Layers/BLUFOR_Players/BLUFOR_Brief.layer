@@ -189,7 +189,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5770.217 101.246 10124.798
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "<i>Move in & Destroy the enemy Ammo Depot (5x Ammo Crates) located north of Hnevice</i>"
+  "<i>Move in & Destroy the enemy Ammo Depots (2x Locations) located arouned Hnevice as marked on map.</i>"
   m_aVisibleForFactions {
    "GC_CAF"
   }
