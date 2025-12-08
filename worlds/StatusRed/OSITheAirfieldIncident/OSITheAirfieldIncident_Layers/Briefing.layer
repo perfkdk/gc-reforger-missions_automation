@@ -18,7 +18,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  opMission {
   coords 4197.806 1.125 9539.839
   m_sTitle "Mission"
-  m_sTextData "Your mission is to take control of RAF Kirknewton (area centred around the airfield's hangar) and destroy 2 cargo helicopters on the ground which contain important documents which we cannot risk getting back to London."\
+  m_sTextData "Your mission is to take control of RAF Kirknewton (area centred around the airfield's hangar 048 118) and destroy 2 cargo helicopters on the ground which contain important documents which we cannot risk getting back to London."\
   ""\
   "We need 5 minutes to sort ourselves out before we can advance on the airfield."
   m_aVisibleForFactions {
@@ -28,7 +28,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  bluMission {
   coords 4231.021 0 9572.356
   m_sTitle "Mission"
-  m_sTextData "Your mission is to defend and hold RAF Kirknewton."\
+  m_sTextData "Your mission is to defend and hold RAF Kirknewton (048 118)."\
   ""\
   "You must also try to defend the 2 cargo helicopters from being destroyed, they contain paper based movement instructions confiscated from the Scottish National Party (SNP)."\
   ""\
@@ -54,7 +54,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Expect irregular weapons and piss poor training."\
   ""\
-  "We estimate approximately 60 of them have been spotted forming up to the south."
+  "We estimate approximately 60 of them have been spotted forming up to the south (043 095)."
   m_aVisibleForFactions {
    "UK"
   }
@@ -83,10 +83,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 4282.904 0 9512.534
   m_sTitle "Service and Support"
   m_sTextData "=== Vehicles ==="\
-  "1x Tanker lorry (for refueling)."\
-  "1x Armed UH60"\
+  "1x Tanker lorry (for refueling). [3 occupants]"\
+  "1x UH60 (equipped with miniguns either side) [10 occupants]"\
   ""\
   "If we want to use this we'll need to make sure it's fueled and ready to go."\
+  ""\
+  "=== Resupply ==="\
+  "There is no resupply for repairs or ammunition, only fuel."\
   ""\
   "=== Comms ==="\
   "Preset, pilots and leadership have radios."\
@@ -95,7 +98,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "We have sandbags in the crate and entrenching tools we can use to build defences."\
   ""\
   "=== (OOC) ==="\
-  "You can use the tanker and fuel supply station inside the airfield to refuel the chopper."
+  "You can use the tanker and fuel supply station inside the airfield to refuel the chopper (048 118)."
   m_aVisibleForFactions {
    "UK"
   }
@@ -104,17 +107,20 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 4272.917 0 9479.471
   m_sTitle "Service and Support"
   m_sTextData "=== Vehicles ==="\
-  "We have access to several transport lorries."\
+  "We have access to several transport lorries. [13 occupants each]"\
   ""\
-  "We also have an open top land rover."\
+  "We also have an open top land rover. [4 occupants]"\
   ""\
   "If we want to use these we'll need to make they're fueled and ready to go."\
+  ""\
+  "=== Resupply ==="\
+  "There is no resupply for repairs or ammunition, only fuel."\
   ""\
   "=== Comms ==="\
   "Leadership have radios, sort yourselves out."\
   ""\
   "=== (OOC) ==="\
-  "You can use the jerry cans and port's fuel supply station to refuel the vehicles."
+  "You can use the jerry cans and port's fuel supply station to refuel the vehicles (043 095)."
   m_aVisibleForFactions {
    "GC_IRA"
   }
@@ -123,13 +129,24 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 4801.367 27.633 11812.216
   m_sTitle "End Conditions"
   m_sTextData "=== UK Win ==="\
-  "- Time limit reached (90 minutes) or;"\
-  "- > 90% Separatists dead"\
+  "The UK wins if one of the following is met:"\
+  ""\
+  "Time Limit Reached: 90 minutes of elapsed mission time."\
+  "Separatists Decimated: Over 90% of all Separatist forces are eliminated"\
   ""\
   "=== Separatists Win ==="\
-  "- Cargo helicopters destroyed and;"\
-  "- Airfield controlled (10 minutes) or;"\
-  "- > 90% UK dead"
+  "The Separatists win if one of the following is met:"\
+  ""\
+  "Objective Secured: ALL Cargo Helicopters are destroyed AND the Airfield is held and controlled for a continuous period of 10 minutes."\
+  "UK Decimated: Over 90% of all UK forces are eliminated."\
+  ""
+  m_bShowForAnyFaction 1
+ }
+ notes {
+  coords 4636.121 12.103 11427.875
+  m_sTitle "Notes"
+  m_sTextData "UK's helicopter can go beyond the UK AO, but if unloading soldiers must not do this outside their AO."
+  m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
 }

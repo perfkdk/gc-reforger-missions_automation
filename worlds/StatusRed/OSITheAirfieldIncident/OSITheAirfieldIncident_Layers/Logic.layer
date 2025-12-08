@@ -1,6 +1,5 @@
 PS_ManualMarker bluMarkerBase : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupFlagsBlufor_Base.et" {
  coords 4870.249 28.69 11884.591
- angles 0 0 0
 }
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  bluAO {
@@ -8,6 +7,9 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
     m_factionKeys {
      "UK"
+    }
+    m_ignoredVehicles {
+     "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et"
     }
    }
   }
@@ -257,6 +259,5 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
 }
 PS_ManualMarker opMarkerBase : "{BC5F78D7A380E856}PrefabsEditable/Markers/Group/Marker_GroupFlagsIndfor_Base.et" {
  coords 4324.027 11.766 9538.241
- angles 0 0 0
  m_MarkerColor 0 0.112 0.479 1
 }

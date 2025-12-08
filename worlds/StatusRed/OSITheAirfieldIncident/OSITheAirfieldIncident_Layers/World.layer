@@ -225,6 +225,11 @@ Vehicle bluChopper : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AU
 }
 $grp GenericEntity : "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et" {
  {
+  components {
+   RigidBody "{5E96A067A67C5029}" {
+    ResponseIndex "MediumMomentum"
+   }
+  }
   coords 4888.368 28.593 11845.728
   {
    GenericEntity {

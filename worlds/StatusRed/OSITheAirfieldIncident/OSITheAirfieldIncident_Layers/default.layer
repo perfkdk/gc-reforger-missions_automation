@@ -30,7 +30,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_aDisabledResourceTypes {
   SUPPLIES
  }
- m_iFreezeTime 300
+ m_iFreezeTime 300000
  {
   SCR_FactionManager "66FB09B36EF3247B" {
    ID "5ED9088735FF2D8B"
@@ -39,6 +39,17 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
      m_aEntityCatalogs {
       SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
        m_aMultiLists {
+        SCR_EntityCatalogMultiListEntry "{62DD3B2896AEA994}" {
+         m_aEntities {
+          SCR_EntityCatalogInventoryItem "{615009250F2FAA56}" {
+           m_aEntityDataList {
+            SCR_ArsenalItem "{615009250F2FAA55}" {
+             m_eItemMode AMMUNITION
+            }
+           }
+          }
+         }
+        }
         SCR_EntityCatalogMultiListEntry "{6676DAB944E2B29C}" {
          m_aEntities {
           SCR_EntityCatalogInventoryItem "{6676DAB91C58C013}" {
@@ -103,14 +114,22 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
       }
      }
     }
-    SCR_Faction "{633D460D559977CA}" : "{BDFCD6A86E8ED2C1}worlds/StatusRed/OSITheAirfieldIncident/Configs/Factions/SCT.conf" {
+    SCR_Faction "{633D460D559977CA}" {
      FactionKey "GC_IRA"
+     FactionColor 0 0.1119 0.4793 1
      UIInfo SCR_FactionUIInfo "{633D46001FC1655D}" {
+      Name "Scottish Separatists"
+      Description "Scottish Separatists"
       Icon "{66579DB0674F9954}Missions/StatusRed/scotland-flag.edds"
+      m_sNameUpper "SCOTTISH SEPARATISTS"
      }
      "Radio encryption key" "scotlandForever"
+     m_OutlineFactionColor 0 0.112 0.479 1
+     m_NotificationFactionColor 0 0.112 0.479 1
+     m_NotificationTextFactionColor 0 0.112 0.479 1
      m_bIsPlayable 1
      m_sFactionFlag "{66579DB0674F9954}Missions/StatusRed/scotland-flag.edds"
+     m_FactionFlagMaterial "{DB52C2D4463AA0A0}Assets/Props/Fabric/Flags/Data/Flag_2_3_Blue.emat"
      m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
       m_aCompanyNames {
        SCR_CallsignInfo "{58B2B630FDD64B73}" {
