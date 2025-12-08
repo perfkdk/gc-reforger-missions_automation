@@ -168,7 +168,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
       }
       m_aPlatoonNames {
        SCR_CallsignInfo "{64AA098204A6145D}" {
-        m_sCallsign "9"
+        m_sCallsign ""
        }
        SCR_CallsignInfo "{64AA098204A61443}" {
         m_sCallsign "1"
@@ -177,7 +177,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
         m_sCallsign "2"
        }
        SCR_CallsignInfo "{64AA098204A61446}" {
-        m_sCallsign ""
+        m_sCallsign "3"
        }
        SCR_CallsignInfo "{650AE15C940BA34B}" {
         m_sCallsign "4"

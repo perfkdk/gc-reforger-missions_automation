@@ -72,10 +72,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<i>29, 29A, 21, 22, etc</i>"\
   ""\
   "<b>II. Callsigns:</b>"\
-  "<i>Company Commander ---------- 29"\
-  "Company 2iC ------------------------ 29A - Alpha"\
-  "FAC -------------------------------------- 29K - Kilo"\
-  "FAC(A) --------------------------------- 29S - SIERRA"\
+  "<i>Company HQ --------------------------- 2"\
+  "- Company OC ------------------------- 29"\
+  "- Company 2iC ------------------------ 29A - Alpha"\
+  "- Company CSM ---------------------- 29D - Delta"\
+  "- FAC -------------------------------------- 29K - Kilo"\
+  "- FAC(A) --------------------------------- 29S - SIERRA"\
   ""\
   "Platoon HQ ---------------------------- 21"\
   "- Platoon Leader -------------------- 21 Sunray"\
