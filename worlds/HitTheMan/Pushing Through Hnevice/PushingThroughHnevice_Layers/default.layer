@@ -163,7 +163,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_CallsignInfo SCR_FactionCallsignInfo "{64AA098204A61453}" {
       m_aPlatoonNames {
        SCR_CallsignInfo "{64AA098204A6145D}" {
-        m_sCallsign "9"
+        m_sCallsign ""
        }
        SCR_CallsignInfo "{64AA098204A61443}" {
         m_sCallsign "1"
@@ -179,6 +179,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        }
        SCR_CallsignInfo "{650AE15C8B7A1EC2}" {
         m_sCallsign "5"
+       }
+       SCR_CallsignInfo "{671081EE733D5468}" {
+        m_sCallsign "9"
        }
       }
       m_aSquadNames {
@@ -518,26 +521,44 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    ShapePoint "{67066C6AA85384E1}" {
     Position -146.047 -24.824 -549.908
    }
-   ShapePoint "{67066C6AAF0B1769}" {
-    Position -137.666 -25.639 -497.903
+   ShapePoint "{671081EC54C6B0EF}" {
+    Position -143.158 -28.98 -436.984
    }
-   ShapePoint "{67066C6AAE7DFC7B}" {
-    Position -120.528 -31.687 -425.17
+   ShapePoint "{671081EC545CA61D}" {
+    Position -161.822 -30.178 -403.125
    }
-   ShapePoint "{67066C6AA35551AE}" {
-    Position -119.049 -34.395 -357.522
+   ShapePoint "{671081EC54202F52}" {
+    Position -185.902 -31.31 -370.448
    }
-   ShapePoint "{67066C6AA2FB2718}" {
-    Position -111.491 -36.785 -308.515
+   ShapePoint "{671081EC4B9B46F4}" {
+    Position -186.243 -32.869 -353.781
    }
-   ShapePoint "{67066C6AA26FF73B}" {
-    Position -94.986 -39.931 -266.742
+   ShapePoint "{671081EC4B1D7836}" {
+    Position -178.679 -33.822 -338.281
    }
-   ShapePoint "{67066C6AA14A23F0}" {
-    Position -77.909 -39.628 -229.809
+   ShapePoint "{671081EC4AA5413B}" {
+    Position -168.6 -34.024 -325.304
    }
-   ShapePoint "{67066C6AA0949C64}" {
-    Position -12.48 -39.806 -158.686
+   ShapePoint "{671081EC48BBB24D}" {
+    Position -167.843 -33.45 -317.897
+   }
+   ShapePoint "{671081EC4EC69FC9}" {
+    Position -167.345 -34.903 -278.176
+   }
+   ShapePoint "{671081EC4E14B577}" {
+    Position -157.413 -34.161 -228.373
+   }
+   ShapePoint "{671081EC4DAD67D1}" {
+    Position -141.876 -35.079 -191.823
+   }
+   ShapePoint "{671081EC4C676BFB}" {
+    Position -114.406 -35.223 -156.497
+   }
+   ShapePoint "{671081EC43BEA3A8}" {
+    Position -96.181 -34.774 -136.712
+   }
+   ShapePoint "{671081EC414BACCD}" {
+    Position -82.167 -34.973 -127.79
    }
    ShapePoint "{67066C6AA6E6514E}" {
     Position 42.916 -42.851 -149.685
@@ -619,10 +640,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      "GM Discretion when to end the mission"
     }
    }
-   m_condition TILW_DisjunctionTerm "{66C7205C27C5927B}" {
+   m_condition TILW_ConjunctionTerm "{671081ED893E68B6}" {
     m_operands {
-     TILW_LiteralTerm "{670EC74582D93549}" {
+     TILW_LiteralTerm "{671081ED8F5B0FAE}" {
       m_flagName "AmmoDump1"
+     }
+     TILW_LiteralTerm "{671081ED86CD7A9A}" {
+      m_flagName "AmmoDump2"
      }
     }
    }
