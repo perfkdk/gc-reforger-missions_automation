@@ -24,13 +24,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5771.033 101.263 10125.119
   m_sTitle "V. Command & Signals:"
   m_sTextData "I. Chain of Command:"\
-  "1'1, 1'2, etc etc"\
+  "11 Sunray, 11 Sunray Minor, 11, 12, etc etc"\
   ""\
   "II. Callsigns:"\
-  "1st Platoon Leader 	- 1'1 Sunray"\
-  "1st Section 		- 1'1 Alpha"\
-  "2nd Section 		- 1'1 Bravo"\
-  "Weapon Section	- 1'1 Whisky"\
+  "Platoon - 11"\
+  "Platoon OC 	- 11 Sunray"\
+  "Platoon 2iC 	- 11 Sunray Minor"\
+  ""\
+  "1st Section 		- 11 Alpha"\
+  "2nd Section 		- 11 Bravo"\
+  "3rd Section 		- 11 Charlie"\
+  "Weapon Section	- 11 Whisky"\
   ""\
   "III. Frequencies:"\
   "Platoon Net		- 48.00 MHz"
