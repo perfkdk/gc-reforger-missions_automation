@@ -163,7 +163,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_CallsignInfo SCR_FactionCallsignInfo "{64AA098204A61453}" {
       m_aPlatoonNames {
        SCR_CallsignInfo "{64AA098204A6145D}" {
-        m_sCallsign "9"
+        m_sCallsign ""
        }
        SCR_CallsignInfo "{64AA098204A61443}" {
         m_sCallsign "1"
@@ -179,6 +179,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        }
        SCR_CallsignInfo "{650AE15C8B7A1EC2}" {
         m_sCallsign "5"
+       }
+       SCR_CallsignInfo "{671081EE733D5468}" {
+        m_sCallsign "9"
        }
       }
       m_aSquadNames {

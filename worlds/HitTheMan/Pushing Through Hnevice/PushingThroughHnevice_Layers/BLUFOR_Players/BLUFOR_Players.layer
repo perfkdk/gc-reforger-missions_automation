@@ -312,6 +312,7 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
   components {
    PS_GroupCallsignAssigner "{651CBACDB1382F58}" {
     m_iCompanyCallsign 1
+    m_iPlatoonCallsign 3
     m_iSquadCallsign 6
    }
   }
