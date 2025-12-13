@@ -163,18 +163,105 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
-  TILW_MissionEvent "{670220E3B7619411}" {
-   m_name "ComputerCapture"
+  TILW_MissionEvent "{67040B70CA48C2A5}" {
+   m_name "LocalFileSearchMessage"
    m_instructions {
-    TILW_SendMessageInstruction "{670220E0F6726E3C}" {
-     m_executionDelay 30
-     m_messageTitle "He's Done it Again!"
-     m_messageBody "Lunchyyy has found more evidence! Stop him!"
+    TILW_SendMessageInstruction "{67040B70C38E2D18}" {
+     m_executionDelay 60
+     m_messageTitle "Computer Searched!"
+     m_messageBody "Lunchyyy has searched another computer for the Pub files!"
+    }
+    TILW_ClearFlagInstruction "{6719160044333F34}" {
+     m_executionDelay 0
+     m_flagName "ComputerCaptured"
+    }
+    TILW_ReactivateEventsInstruction "{6719160055A85812}" {
+     m_executionDelay 0
+     m_eventNames {
+      "LocalFileSearchMessage"
+     }
     }
    }
-   m_condition TILW_LiteralTerm "{670220E389CBEBB9}" {
+   m_condition TILW_LiteralTerm "{67191612E522412A}" {
     m_flagName "ComputerCaptured"
    }
+  }
+  TILW_MissionEvent "{671666048808E584}" {
+   m_name "BluforMessage"
+   m_instructions {
+    TILW_SendMessageInstruction "{671666040A83087A}" {
+     m_executionDelay 60
+     m_messageTitle "BLUFOR has sustained significant causalties!"
+     m_messageBody "If BLUFOR ain't doing radical shit right now, then they have lost."
+    }
+   }
+   m_condition TILW_LiteralTerm "{67166616716DA521}" {
+    m_flagName "BluforDead"
+   }
+  }
+  TILW_MissionEvent "{671666048989FB58}" {
+   m_name "OpforMessage"
+   m_instructions {
+    TILW_SendMessageInstruction "{671666040C96FB2E}" {
+     m_executionDelay 60
+     m_messageTitle "OPFOR has sustained significant causalties!"
+     m_messageBody "If OPFOR ain't doing radical shit right now, then they have lost."
+    }
+   }
+   m_condition TILW_LiteralTerm "{6716661673B87EC6}" {
+    m_flagName "OpforDead"
+   }
+  }
+  TILW_MissionEvent "{6716661314F216DC}" {
+   m_name "BothTeamsDead"
+   m_instructions {
+    TILW_SendMessageInstruction "{67166612EE62382A}" {
+     m_executionDelay 75
+     m_messageTitle "BLUFOR and OPFOR have sustained signifcant casualties!"
+     m_messageBody "Put it in the leadership feedback. How did they let this happen?"
+    }
+    TILW_SetFlagInstruction "{6716A2EB82041A3A}" {
+     m_executionDelay 0
+     m_flagName "BothTeamsDead"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{67166612EC41D0F0}" {
+    m_operands {
+     TILW_LiteralTerm "{67166612EBEB086B}" {
+      m_flagName "BluforDead"
+     }
+     TILW_LiteralTerm "{67166612E6895E9E}" {
+      m_flagName "OpforDead"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{671666125216A93D}" {
+   m_name "HVTWins"
+   m_instructions {
+    TILW_SendMessageInstruction "{6716661227F240EF}" {
+     m_executionDelay 90
+     m_messageTitle "HVT Wins!"
+     m_messageBody "If radical shit ain't happening, then the HVT has won."\
+     ""\
+     "This should never happen. Get better CO's."
+    }
+   }
+   m_condition TILW_LiteralTerm "{67166612242A9114}" {
+    m_flagName "BothTeamsDead"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6716660600CA91F1}" {
+   m_flagName "BluforDead"
+   m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{67166605B1E5B684}" {
+   m_flagName "OpforDead"
+   m_factionKey "RHS_AFRF"
+   m_casualtyRatio 0.9
   }
  }
  m_randomFlags {
@@ -187,7 +274,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     "BananaRandomFlag5"
     "BananaRandomFlag6"
    }
-   m_k 2
   }
  }
 }

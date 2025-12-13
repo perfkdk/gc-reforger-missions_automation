@@ -5,8 +5,8 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
     DefaultFormation "Line"
    }
   }
-  coords 3130.533 18.066 12587.247
-  angles 0 -1.056 0
+  coords 3130.794 17.99 12581.936
+  angles 0 0.862 0
   m_bSnapToTerrain 0
  }
  {
@@ -15,18 +15,40 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
     DefaultFormation "Line"
    }
   }
-  coords 3007.356 18.199 12585.645
+  coords 2977.886 18.199 12581.797
   angles 0 -1.056 0
   m_bSnapToTerrain 0
  }
 }
-SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Group_Rangers_2020_PHQ_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "Line"
+$grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Group_Rangers_2020_PHQ_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
   }
+  coords 3085.481 27.394 12612.669
+  angles 0 -91.206 0
+  m_aUnitPrefabSlots +{
+   "{FC2BC8152641F5B0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Medic_P.et"
+  }
+  m_bSnapToTerrain 0
  }
- coords 3068.418 18.105 12581.327
- angles 0 -2.931 0
- m_bSnapToTerrain 0
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 3081.049 27.394 12617.992
+  angles 0 -179.894 0
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Pilots"
+  m_bSetPlayable 1
+ }
 }

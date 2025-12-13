@@ -1,22 +1,33 @@
-SCR_AIGroup : "{8CDE310457476BBE}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFRF_SSO_2020_PHQ_P.et" {
+SCR_AIGroup : "{5A25A84A359E9644}Prefabs/Groups/OPFOR/Russia/2020/VDV/P/AFRF_VDV_2021_PHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
   }
  }
- coords 8451.205 18.095 525.855
- angles 0 167.362 0
+ coords 8444.346 27.395 493.818
+ angles 0 74.957 0
+ m_aUnitPrefabSlots {
+  "{D4773EF2D234A21A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_PL_P.et"
+  "{D4D815A29726E0AE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_PSG_P.et"
+  "{F4A421AFFE056D76}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_RTO_P.et"
+  "{67AA06E9DD667E9D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_Medic_P.et"
+ }
  m_bSnapToTerrain 0
 }
-$grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFRF_SSO_2020_Squad_P.et" {
+$grp SCR_AIGroup : "{D5E2D56B32364511}Prefabs/Groups/OPFOR/Russia/2020/VDV/P/AFRF_VDV_2021_RifleSquad_P.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
   }
-  coords 8395.238 18.025 513.153
-  angles 0 165.257 0
+  coords 8392.368 18.054 512.349
+  angles 0 165.511 0
+  m_aUnitPrefabSlots +{
+   "{3219FFB8145ACE1E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_Rifleman_P.et"
+   "{3219FFB8145ACE1E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_Rifleman_P.et"
+   "{67AA06E9DD667E9D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_Medic_P.et"
+  }
   m_bSnapToTerrain 0
  }
  {
@@ -25,8 +36,30 @@ $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFR
     DefaultFormation "Line"
    }
   }
-  coords 8511.463 18.106 538.923
-  angles 0 167.249 0
+  coords 8541.292 18.106 551.911
+  angles 0 165.66 0
+  m_aUnitPrefabSlots +{
+   "{3219FFB8145ACE1E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_Rifleman_P.et"
+   "{3219FFB8145ACE1E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_Rifleman_P.et"
+   "{67AA06E9DD667E9D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VKPO3_EMR/P/Character_RHS_VDV_VKPO3_Medic_P.et"
+  }
   m_bSnapToTerrain 0
  }
+}
+SCR_AIGroup : "{EB51EF1ED798EBAF}Prefabs/Groups/OPFOR/Russia/2020/VDV/AFRF_VDV_2021_PHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 8450.094 27.395 489.079
+ angles 0 -16.383 0
+ m_aUnitPrefabSlots {
+  "{5601772757B7D7FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Pilot_P.et"
+  "{5601772757B7D7FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Pilot_P.et"
+  "{5601772757B7D7FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Pilot_P.et"
+ }
+ m_bSnapToTerrain 0
+ m_sCustomNameSet "Pilots"
+ m_bSetPlayable 1
 }

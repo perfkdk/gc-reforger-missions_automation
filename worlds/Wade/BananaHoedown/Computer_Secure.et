@@ -15,5 +15,23 @@ GenericEntity : "{98079765627F6EA3}Prefabs/Props/Civilian/Computer_E_01/Computer
    coords 0 0.116 -0.08
    angles 0 -1.906 0
   }
+  GenericEntity : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_BaseInteraction.et" {
+   ID "670408DA48402A52"
+   components {
+    ActionsManagerComponent "{61F4C18E835074FF}" {
+     additionalActions {
+      TILW_BaseInteraction "{61F4C18E863E752C}" {
+       Duration 30
+       m_actionName "Search for TheLocalPub's Video"
+       m_factionKeys {
+        "CIV"
+       }
+       m_flagName "ComputerCaptured"
+      }
+     }
+    }
+   }
+   coords 0 0 0
+  }
  }
 }

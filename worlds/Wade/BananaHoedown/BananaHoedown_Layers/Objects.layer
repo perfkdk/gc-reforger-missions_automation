@@ -32,4 +32,14 @@ $grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/Generator
 GenericEntity : "{BE384DC07D8C8250}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_USSR_03.et" {
  coords 2720.234 24.593 5480.374
  angles 0 90.666 0
+ {
+  GameEntity {
+   ID "5CB0F58852E1A9D1"
+   components {
+    SCR_LampComponent "{5D2AB5C8865F22C4}" {
+     m_eInitialLightState LIT
+    }
+   }
+  }
+ }
 }
