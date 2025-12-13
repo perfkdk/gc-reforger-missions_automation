@@ -36,8 +36,11 @@ $grp SCR_AIGroup : "{782AF99E6EF46E1E}Prefabs/Groups/BLUFOR/British Forces/2024/
   m_bSetPlayable 1
  }
 }
-SCR_AIGroup indHQ : "{D0B3F4BF9E9EF2C7}Prefabs/Groups/OPFOR/GC_IRA/P/GC_IRA_PHQ_P.et" {
+SCR_AIGroup indHQ : "{D0B3F4BF9E9EF2C7}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_PHQ_P.et" {
  components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   Enabled 0
+  }
   PS_GroupCallsignAssigner "{66F4B94739752CC9}" {
   }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
@@ -51,8 +54,8 @@ SCR_AIGroup indHQ : "{D0B3F4BF9E9EF2C7}Prefabs/Groups/OPFOR/GC_IRA/P/GC_IRA_PHQ_
    }
   }
  }
- coords 4320.583 1.125 9533.026
- angles 0 -117.935 0
+ coords 4318.992 1.125 9542.517
+ angles 0 -129.34 0
  m_aUnitPrefabSlots {
   "{44D79444474F9D20}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_SL_P.et"
   "{9651A442DE383922}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_TL_P.et"
@@ -64,14 +67,17 @@ SCR_AIGroup indHQ : "{D0B3F4BF9E9EF2C7}Prefabs/Groups/OPFOR/GC_IRA/P/GC_IRA_PHQ_
  m_sCustomNameSet "Separatist HQ"
  m_bSetPlayable 1
 }
-$grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/GC_IRA_RifleSquad_P.et" {
+$grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_RifleSquad_P.et" {
  indS1 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
    PS_GroupCallsignAssigner "{66FB09B3BF86A93A}" {
     m_iSquadCallsign 1
    }
   }
-  coords 4331.448 1.084 9542.741
+  coords 4318.108 1.099 9554.88
   angles 0.115 -127.872 -0.027
   m_aUnitPrefabSlots {
    "{44D79444474F9D20}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_SL_P.et"
@@ -89,11 +95,14 @@ $grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/GC_IRA_Rifle
  }
  indS2 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
    PS_GroupCallsignAssigner "{66FB09B3BF86A93A}" {
     m_iSquadCallsign 2
    }
   }
-  coords 4354.341 4.434 9508.925
+  coords 4348.463 4.447 9506.089
   angles 0.1 -82.263 0.063
   m_aUnitPrefabSlots {
    "{44D79444474F9D20}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_SL_P.et"
@@ -111,11 +120,14 @@ $grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/GC_IRA_Rifle
  }
  indS4 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
    PS_GroupCallsignAssigner "{66FB09B3BF86A93A}" {
     m_iSquadCallsign 4
    }
   }
-  coords 4355.011 6.819 9554.661
+  coords 4355.417 6.819 9553.854
   angles 0.118 -116.369 -0.004
   m_aUnitPrefabSlots {
    "{44D79444474F9D20}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_SL_P.et"
@@ -133,12 +145,15 @@ $grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/GC_IRA_Rifle
  }
  indS3 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
    PS_GroupCallsignAssigner "{66FB09B3BF86A93A}" {
     m_iSquadCallsign 3
    }
   }
-  coords 4340.767 3.234 9551.236
-  angles 0.118 -116.369 -0.004
+  coords 4332.786 3.248 9553.192
+  angles -0.101 96.75 -0.061
   m_aUnitPrefabSlots {
    "{44D79444474F9D20}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_SL_P.et"
    "{DA3EADA646424950}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_Sapper_P.et"
@@ -155,12 +170,15 @@ $grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/GC_IRA_Rifle
  }
  indS5 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
    PS_GroupCallsignAssigner "{66FB09B3BF86A93A}" {
     m_iSquadCallsign 5
    }
   }
-  coords 4337.135 5.258 9519.478
-  angles 0.113 -131.178 -0.034
+  coords 4334.957 5.251 9531.891
+  angles 0.004 -26.179 0.118
   m_aUnitPrefabSlots {
    "{44D79444474F9D20}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_SL_P.et"
    "{DA3EADA646424950}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_Sapper_P.et"
@@ -177,11 +195,14 @@ $grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/GC_IRA_Rifle
  }
  indS6 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
    PS_GroupCallsignAssigner "{66FB09B3BF86A93A}" {
     m_iSquadCallsign 6
    }
   }
-  coords 4374.593 9.942 9527.983
+  coords 4364.178 9.969 9519.228
   angles 0.113 -131.178 -0.034
   m_aUnitPrefabSlots {
    "{44D79444474F9D20}Prefabs/Characters/Factions/OPFOR/GC_IRA/P/Character_GC_IRA_SL_P.et"
