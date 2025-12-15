@@ -34,6 +34,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	protected GC_R_Manager m_manager;
 	protected ref GC_R_ObjAttackDefend m_objective;
 	protected ref GC_R_SpawnAttacker m_attackerSpawn;
+	protected ref GC_R_SpawnDefender m_defenderSpawn;
 	
 	ref 	array<ref GC_R_Team> m_teams = {};
 	
@@ -120,14 +121,10 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	
 	protected void AttackerSpawnFound()
 	{
-		Print("GC Roulette | Spawn pos found: " + m_attackerSpawn.m_position);
+		Print("GC Roulette | Attacker Spawn pos found: " + m_attackerSpawn.m_position);
+		m_searching = false;
 		
-		IEntity player = GetGame().GetPlayerController().GetControlledEntity();
-
-		player.SetOrigin(m_attackerSpawn.m_position);
-		
-		
-		GetGame().GetCallqueue().CallLater(m_manager.Reroll, 3000);
+		FindDefenderSpawnAsync();
 	}
 	
 	protected void FindAttackerSpawnAsync()
@@ -154,11 +151,51 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		if(m_attackerSpawn.m_searchCount <= 0)
 		{
 			Print("GC Roulette | No attacker spawn found");
-			//m_manager.Reroll();
+			m_manager.Reroll();
 			return;
 		}
 
 		GetGame().GetCallqueue().CallLater(FindAttackerSpawn, 1, false);
+	}
+	
+	protected void DefenderSpawnFound()
+	{
+		Print("GC Roulette | Defender Spawn pos found: " + m_defenderSpawn.m_position);
+		m_searching = false;
+		
+		IEntity player = GetGame().GetPlayerController().GetControlledEntity();
+		player.SetOrigin(m_defenderSpawn.m_position);
+	}
+	
+	protected void FindDefenderSpawnAsync()
+	{
+		Print("GC Roulette | FindDefenderSpawnAsync = " + m_searching);
+		if (m_searching)
+			return;
+		
+		m_searching = true;
+		
+		m_defenderSpawn = new GC_R_SpawnDefender();
+		m_defenderSpawn.m_scenario = this;
+		m_defenderSpawn.m_searchCount = 100;
+
+		GetGame().GetCallqueue().CallLater(FindDefenderSpawn, 1, false);
+	}
+	
+	protected void FindDefenderSpawn()
+	{
+		bool found = m_defenderSpawn.GetSpawn();
+		if(found)
+			return DefenderSpawnFound();
+		
+		if(m_defenderSpawn.m_searchCount <= 0)
+		{
+			Print("GC Roulette | No defender spawn found");
+			m_manager.Reroll();
+			return;
+		}
+
+		GetGame().GetCallqueue().CallLater(FindDefenderSpawn, 1, false);
 	}
 }
 
@@ -218,6 +255,11 @@ class GC_R_Company : GC_R_ElementBase
 	array<ref GC_R_Platoon> GetPlatoons()
 	{
 		return m_platoons;
+	}
+	
+	void GetRatioElements(int plateyCount)
+	{
+	
 	}
 }
 
@@ -344,6 +386,48 @@ class GC_R_SpawnAttacker : GC_R_SpawnBase
 			distance += stepDistance;
 		}
 
+		return false;
+	}
+}
+
+class GC_R_SpawnDefender : GC_R_SpawnBase
+{
+	ref GC_R_AttackDefend m_scenario;
+	
+	bool GetSpawn()
+	{
+		for (int i = 0; i < 5; i++)
+		{
+			if(Search())
+			{
+				m_found = true;
+				return true;
+			}
+			
+			m_searchCount--;
+		}
+		
+		return false;
+	}
+	
+	bool Search()
+	{
+		float radius = 15;
+		float searchDistance = 500;
+		
+		GC_R_Manager manager = GC_R_Manager.GetInstance();
+		vector position = m_scenario.GetObjective().building.GetOrigin();
+		
+		bool found = manager.FindEmptyPosition(position, radius, searchDistance);
+		if(found)
+		{
+			if(manager.SurfaceIsWater(position))
+				return false;
+			
+			m_position = position;
+			return true;
+		}
+		
 		return false;
 	}
 }

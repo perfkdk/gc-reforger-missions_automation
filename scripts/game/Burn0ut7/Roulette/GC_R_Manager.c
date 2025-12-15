@@ -154,7 +154,7 @@ class GC_R_Manager : GameEntity
 		
 		return opponents;
 	}
-
+	
 	IEntity FindBuildingRandom(notnull GC_R_BaseQuery query)
 	{
 		IEntity building;

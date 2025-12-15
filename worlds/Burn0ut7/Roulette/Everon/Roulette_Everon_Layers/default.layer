@@ -1,15 +1,15 @@
 SCR_BaseGameMode GameMode_Plain1 : "{1B76F75A3175E85C}Prefabs/MP/Modes/Plain/GameMode_Plain.et" {
- coords 5357.271 81.369 6291.887
+ coords 5360.425 81.665 6290.84
 }
 SCR_FactionManager FactionManager_FFA1 : "{A1C54BBE72C5C696}Prefabs/MP/Managers/Factions/FactionManager_FFA.et" {
- coords 5358.708 81.504 6290.471
+ coords 5361.046 81.723 6290.921
 }
 SCR_SpawnPoint : "{5392C4D80E4B18F8}Prefabs/MP/Spawning/SpawnPoint_FFA.et" {
- coords 5360.907 81.599 6288.635
+ coords 5360.817 81.702 6290.892
 }
-GC_R_Manager : "{6E2C9E0BE9F314EC}worlds/Roulette/Prefabs/RouletteManager.et" {
- coords 5359.131 81.477 6300.178
+GC_R_Manager : "{6E2C9E0BE9F314EC}worlds/Burn0ut7/Roulette/Prefabs/RouletteManager.et" {
+ coords 5361.161 81.696 6292.64
 }
 SCR_LoadoutManager : "{B7E5D7F4864D81C0}Prefabs/MP/Managers/Loadouts/LoadoutManager_FFA.et" {
- coords 5358.953 81.527 6290.164
+ coords 5361.746 81.781 6290.726
 }

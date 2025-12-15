@@ -1,0 +1,11 @@
+Ratio counting
+prefab spawning -two elements needed for leader
+Check vehicle spawns/player spawns are safe
+AO Limit
+Obj setup
+Random weather and time
+Admin commands
+
+Ratio AO size balancing
+AI briefing?
+more scenarios
