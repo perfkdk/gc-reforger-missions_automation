@@ -79,7 +79,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  BRDM_Spawn_Wave_1 {
   coords 3671.906 27.474 4192.247
   angles -2.946 122.301 1.311
-  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
+  m_prefab "{84A2CD45010EC22E}worlds/HitTheMan/Prefabs/Vehicles/BMP1_base_HTM.et"
   m_conditionFlag "Waves"
   m_spawnTimings {
    10
@@ -113,7 +113,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  BRDM_Spawn_Wave_2 {
   coords 3632.131 27.415 4218.592
   angles -2.946 122.301 1.311
-  m_prefab "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et"
+  m_prefab "{84A2CD45010EC22E}worlds/HitTheMan/Prefabs/Vehicles/BMP1_base_HTM.et"
   m_conditionFlag "Waves"
   m_spawnTimings {
    10
