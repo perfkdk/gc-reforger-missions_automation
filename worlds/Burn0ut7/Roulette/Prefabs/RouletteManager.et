@@ -55,7 +55,7 @@ GC_R_Manager {
         }
        }
       }
-      GC_R_Platoon "{66B15D5AA6765C94}" {
+      GC_R_Platoon "{671E22BD318610F2}" {
        m_prefab "{C724911C8224C5EF}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_PHQ_P.et"
        m_squads {
         GC_R_Squad "{66AE36D01426DD59}" {
@@ -69,7 +69,7 @@ GC_R_Manager {
         }
        }
       }
-      GC_R_Platoon "{66B15D5AA66D7A20}" {
+      GC_R_Platoon "{671E22BD31C9EDBE}" {
        m_prefab "{C724911C8224C5EF}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_PHQ_P.et"
        m_squads {
         GC_R_Squad "{66AE36D01426DD59}" {

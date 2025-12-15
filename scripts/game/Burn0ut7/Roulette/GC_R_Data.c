@@ -36,7 +36,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	protected ref GC_R_SpawnAttacker m_attackerSpawn;
 	protected ref GC_R_SpawnDefender m_defenderSpawn;
 	
-	ref 	array<ref GC_R_Team> m_teams = {};
+	ref array<ref GC_R_Team> m_teams = {};
 	
 	protected bool m_searching = false;
 	
@@ -165,6 +165,9 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		
 		IEntity player = GetGame().GetPlayerController().GetControlledEntity();
 		player.SetOrigin(m_defenderSpawn.m_position);
+		
+		
+		m_teams[0].GetRatioElements(50);
 	}
 	
 	protected void FindDefenderSpawnAsync()
@@ -220,6 +223,8 @@ class GC_R_Team
 	[Attribute(defvalue: "", UIWidgets.Object)]
     protected ref array<ref GC_R_Company> m_companies;
 	
+	int m_totalPlayers = 0;
+	
 	string GetName() { return m_name; }
 	
 	FactionKey GetFaction(){ return m_factionKey; }
@@ -244,6 +249,64 @@ class GC_R_Team
 	
 		return false;
 	}
+	
+	array<GC_R_ElementBase> GetRatioElements(int targetPlayers)
+	{
+		array<GC_R_ElementBase> outElements = {};
+		m_totalPlayers = 0;
+		
+		foreach (GC_R_Company company : m_companies)
+		{
+			array<GC_R_ElementBase> elements = company.Fill(targetPlayers, this);
+			Print("GC Roulette | GetRatio elements3" + elements);
+			foreach(GC_R_ElementBase element : elements)
+				outElements.Insert(element);
+		}
+		
+		Print("GC Roulette | GetRatio elements2" + outElements);
+		outElements = Order(outElements);
+		
+		Print("GC Roulette | GetRatio " + m_name + " - Target: " + targetPlayers + " Selected: " + m_totalPlayers);
+		Print("GC Roulette | GetRatio elements3" + outElements);
+		
+		return outElements;
+	}
+	
+    array<GC_R_ElementBase> Order(array<GC_R_ElementBase> pickedElements)
+    {
+        array<GC_R_ElementBase> ordered = {};
+
+        foreach (GC_R_Company company : m_companies)
+        {
+            if (pickedElements.Contains(company)) 
+                ordered.Insert(company);
+
+            foreach (GC_R_Platoon platoon : company.GetPlatoons())
+            {
+                if (pickedElements.Contains(platoon))
+                    ordered.Insert(platoon);
+
+                foreach (GC_R_Squad squad : platoon.GetSquads())
+                {
+                    if (pickedElements.Contains(squad))
+                        ordered.Insert(squad);
+                }
+            }
+        }
+
+        foreach (GC_R_ElementBase e : pickedElements)
+        {
+            GC_R_Squad squad = GC_R_Squad.Cast(e);
+            if (!squad) 
+                continue;
+
+            GC_R_ElementBase parent = squad.GetParent();
+            if (!parent || !pickedElements.Contains(parent))
+                ordered.Insert(squad);
+        }
+
+        return ordered;
+    }
 }
 
 [BaseContainerProps(), BaseContainerCustomTitleField("Company")]
@@ -252,14 +315,52 @@ class GC_R_Company : GC_R_ElementBase
 	[Attribute(defvalue: "", UIWidgets.Object)]
     protected ref array<ref GC_R_Platoon> m_platoons;
 
+	void SetParents()
+	{
+		foreach(GC_R_Platoon platoon : m_platoons)
+		{
+			platoon.SetParent(this);
+		}
+	}
+	
 	array<ref GC_R_Platoon> GetPlatoons()
 	{
 		return m_platoons;
 	}
 	
-	void GetRatioElements(int plateyCount)
+	array<GC_R_ElementBase> Fill(int target, GC_R_Team team)
 	{
-	
+		array<GC_R_ElementBase> elements = {};
+		int platoons = 0;
+		bool picked = false;
+		
+		SetParents();
+		
+		foreach(GC_R_Platoon platoon : m_platoons)
+		{
+			array<GC_R_ElementBase> outElements = platoon.Fill(target, team);
+
+			if(outElements.Count() == 0)
+				continue;
+
+			platoons++;
+			foreach(GC_R_ElementBase element : outElements)
+				elements.Insert(element);
+
+			if(platoons >= 2 && !picked)
+			{
+				int finalCount = Count() + team.m_totalPlayers;
+				if(!IsCloser(finalCount, team.m_totalPlayers, target))
+					break;	
+				
+				Print("GC Roulette | CompanyFill - Count: " + Count() + " Total: " + team.m_totalPlayers);
+				elements.Insert(this);
+				team.m_totalPlayers = finalCount;
+				picked = true;
+			}
+		}
+		
+		return elements;
 	}
 }
 
@@ -269,9 +370,53 @@ class GC_R_Platoon : GC_R_ElementBase
 	[Attribute(defvalue: "", UIWidgets.Object)]
     protected ref array<ref GC_R_Squad> m_squads;
 	
+	void SetParents()
+	{
+		foreach(GC_R_Squad squad : m_squads)
+		{
+			squad.SetParent(this);
+		}
+	}
+	
 	array<ref GC_R_Squad> GetSquads()
 	{
 		return m_squads;
+	}
+	
+	array<GC_R_ElementBase> Fill(int target, GC_R_Team team)
+	{
+		array<GC_R_ElementBase> elements = {};
+		int squads = 0;
+		bool picked = false;
+		
+		SetParents();
+		
+		foreach(GC_R_Squad squad : m_squads)
+		{
+			int finalCount = squad.Count() + team.m_totalPlayers;
+			
+			if(!IsCloser(finalCount, team.m_totalPlayers, target))
+				break;
+			
+			Print("GC Roulette | SquadFill - Count: " + squad.Count() + " Total: " + team.m_totalPlayers);
+			squads++;
+			elements.Insert(squad);
+			team.m_totalPlayers = finalCount;
+			
+			if(squads >= 2 && !picked)
+			{
+				finalCount = Count() + team.m_totalPlayers;
+				if(!IsCloser(finalCount, team.m_totalPlayers, target))
+					break;	
+				
+				Print("GC Roulette | PlatoonFill - Count: " + Count() + " Total: " + team.m_totalPlayers);
+				elements.Insert(this);
+				team.m_totalPlayers = finalCount;
+				picked = true;
+			}
+		}
+		
+		return elements;
 	}
 }
 
@@ -287,17 +432,34 @@ class GC_R_ElementBase
 	[Attribute("", UIWidgets.ResourceNamePicker, desc: "Vehicle prefab")]
 	protected ResourceName m_vehiclePrefab;
 
+	protected GC_R_ElementBase m_parent;
+	
+	void SetParent(GC_R_ElementBase parent)
+	{
+		m_parent = parent;
+	}
+
+	GC_R_ElementBase GetParent()
+	{
+		return m_parent;
+	}
+	
 	ResourceName GetPrefab()
 	{
 		return m_prefab;
 	}
 	
-	int GetPlayerCount()
+	int Count()
 	{
 		array<ResourceName> slots;
 		Resource.Load(m_prefab).GetResource().ToBaseContainer().Get("m_aUnitPrefabSlots", slots);
 
 		return slots.Count();
+	}
+	
+	protected bool IsCloser(int newTotal, int currentTotal, int target)
+	{
+		return Math.AbsInt(target - newTotal) <= Math.AbsInt(target - currentTotal);
 	}
 }
 
