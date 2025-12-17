@@ -42,6 +42,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  coords 3061.744 2.762 1734.644
+ m_iFreezeTime 180
 }
 $grp TILW_PresenceTriggerEntity {
  IntelExtractBlufor {

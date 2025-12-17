@@ -4,7 +4,6 @@ SCR_AIGroup HVT : "{98539E750B3A359F}Prefabs/Groups/CIV/Business/Group_CIV_Busin
  m_aUnitPrefabSlots {
   "{DE94F9CA70A9C23B}worlds/Wade/BananaHoedown/HVT.et"
  }
- m_bPlayable 1
  m_sCustomNameSet "HVT"
  m_bSetPlayable 1
 }
