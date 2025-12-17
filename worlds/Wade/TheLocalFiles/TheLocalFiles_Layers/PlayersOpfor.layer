@@ -6,6 +6,12 @@ SCR_AIGroup : "{8CDE310457476BBE}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFRF_SSO
  }
  coords 8444.229 27.395 493.985
  angles 0 76.284 0
+ m_aUnitPrefabSlots {
+  "{805EA9F7914FE2A6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_SL_P.et"
+  "{805EA9F7914FE2A6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_SL_P.et"
+  "{805EA9F7914FE2A6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_SL_P.et"
+  "{302686725CAD9328}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_Medic_P.et"
+ }
  m_bSnapToTerrain 0
  m_bPlayable 1
  m_sCustomNameSet "Platoon HQ"
