@@ -45,7 +45,6 @@ SCR_AIGroup indHQ : "{D0B3F4BF9E9EF2C7}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_P
   }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
-    m_sFaction "SCT"
    }
   }
   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
