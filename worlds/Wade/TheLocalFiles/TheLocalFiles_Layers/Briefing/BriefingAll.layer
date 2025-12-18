@@ -8,7 +8,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "JIP Trans"\
   ""\
-  "Special thanks to HotMic and the Commando's mission makers for the map marker update that I rigged for this mission."
+  "End Conditions"\
+  ""\
+  "No time limit."\
+  ""\
+  "HVT extracted by either team OR 90% casualties on BLUFOR AND OPFOR"\
+  ""\
+  "Special thanks to HotMic for walking me through the process and the Commando's mission makers for the map marker update that I rigged for this mission."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 10
