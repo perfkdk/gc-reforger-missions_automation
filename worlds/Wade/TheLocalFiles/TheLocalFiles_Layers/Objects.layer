@@ -1,11 +1,15 @@
 $grp GenericEntity : "{15518B113BCC7396}Prefabs/Structures/Naval/USS_Concrete.et" {
  {
-  coords 3071.581 -0.001 12603.123
+  coords 3071.132 -0.888 12603.805
  }
  {
-  coords 8454.976 0 505.97
-  angles 0 164.861 0
+  coords 8898.471 0 -961.375
+  angles 0 146.327 0
  }
+}
+GenericEntity : "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et" {
+ coords 8899.204 27.396 -972.895
+ angles 0 56.878 0
 }
 $grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/GeneratorFloodlight_USSR_01.et" {
  {
@@ -28,6 +32,10 @@ $grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/Generator
   coords 2728.326 24.592 5499.025
   angles 0 -145.053 0
  }
+}
+GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et" {
+ coords 3076.656 26.507 12613.771
+ angles -61.019 -77.895 -7.537
 }
 GenericEntity : "{BE384DC07D8C8250}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_USSR_03.et" {
  coords 2720.234 24.593 5480.374

@@ -1,0 +1,79 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 7295.843 4.844 4254.1
+  m_sTitle "Situation"
+  m_sTextData "TELL THE HVT TO PICK UP THE RED FOLDER WHEN YOU START. DO NOT LET HIM DROP IT."\
+  ""\
+  "Enemy Forces"\
+  "Two rival contracted military teams are operating in the AO with the sole objective of capturing and extracting the HVT (Lunchyyy)."\
+  "These forces are well-equipped, mobile, and may engage each other if it supports HVT capture."\
+  ""\
+  "Friendly Forces"\
+  "Your team (INDFOR): Dedicated protection element assigned to the HVT."\
+  ""\
+  "HVT Lunchyyy: The protected individual under your security."\
+  ""\
+  ""\
+  "Background"\
+  "A disputed past incident involving TheLocalPub may be contradicted by unreleased video footage. To prevent that footage from being recovered, a paid capture contract was arranged, drawing multiple armed groups toward the HVT."\
+  ""\
+  "Your team’s sole purpose is to keep the HVT free and alive."
+  m_aVisibleForFactions {
+   "RHS_ION"
+  }
+  m_iOrder 1
+ }
+ {
+  coords 7302.504 5.312 4234.995
+  m_sTitle "Mission"
+  m_sTextData "TELL THE HVT TO PICK UP THE RED FOLDER WHEN YOU START. DO NOT LET HIM DROP IT."\
+  ""\
+  "Your team will protect the HVT from capture and prevent his extraction for as long as possible."
+  m_aVisibleForFactions {
+   "RHS_ION"
+  }
+  m_iOrder 2
+ }
+ {
+  coords 7319.312 4.156 4231.876
+  m_sTitle "Execution"
+  m_sTextData "TELL THE HVT TO PICK UP THE RED FOLDER WHEN YOU START. DO NOT LET HIM DROP IT."\
+  ""\
+  "Your team is a full-time protection element and is always hostile to both contracted forces."\
+  ""\
+  "You are NOT bound by any setup or briefing timer."\
+  ""\
+  "You may move immediately at mission start."\
+  "It is strongly recommended that you begin driving around the island immediately, as:"\
+  "Enemy knows where you spawn"\
+  "Computers will not spawn for the first five minutes"\
+  "Early movement reduces the risk of encirclement"\
+  "After five minutes, computer locations will spawn and be marked on the map."\
+  "Maintain close protection of the HVT at all times."\
+  "Actively interfere with capture attempts using movement, blocking, deception, and force as required."
+  m_aVisibleForFactions {
+   "RHS_ION"
+  }
+  m_iOrder 3
+ }
+ {
+  coords 7284.164 7.475 4244.125
+  m_sTitle "Sustainment"
+  m_sTextData "TELL THE HVT TO PICK UP THE RED FOLDER WHEN YOU START. DO NOT LET HIM DROP IT."\
+  ""\
+  "You got cars with stuff in it."
+  m_aVisibleForFactions {
+   "RHS_ION"
+  }
+  m_iOrder 4
+ }
+ {
+  coords 7307.521 4.599 4232.205
+  m_sTitle "Command and Signal"
+  m_sTextData "TELL THE HVT TO PICK UP THE RED FOLDER WHEN YOU START. DO NOT LET HIM DROP IT."
+  m_aVisibleForFactions {
+   "RHS_ION"
+  }
+  m_iOrder 5
+ }
+}

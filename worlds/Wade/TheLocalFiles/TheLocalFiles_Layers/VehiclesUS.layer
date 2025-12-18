@@ -30,7 +30,7 @@ $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
     }
    }
   }
-  coords 3130.752 18.188 12614.192
+  coords 3130.752 17.312 12614.192
   angles 0 -179.335 0
  }
  MH6M2 {
@@ -64,7 +64,7 @@ $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
     }
    }
   }
-  coords 3028.481 18.149 12613.722
+  coords 3028.481 17.262 12613.722
   angles 0 -179.335 0
  }
  MH6M3 {
@@ -98,7 +98,7 @@ $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
     }
    }
   }
-  coords 2976.457 18.149 12614.569
+  coords 2976.457 17.262 12614.569
   angles 0 -179.335 0
  }
 }

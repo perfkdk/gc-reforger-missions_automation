@@ -3,9 +3,13 @@ SCR_AIGroup : "{8CDE310457476BBE}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFRF_SSO
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
   }
+  PS_GroupCallsignAssigner "{67235C539AC4E028}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+  }
  }
- coords 8444.229 27.395 493.985
- angles 0 76.284 0
+ coords 8892.467 27.395 -975.927
+ angles 0 57.75 0
  m_aUnitPrefabSlots {
   "{805EA9F7914FE2A6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_SL_P.et"
   "{805EA9F7914FE2A6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_SL_P.et"
@@ -23,9 +27,14 @@ $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFR
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
+   PS_GroupCallsignAssigner "{67235C539E19E38B}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
   }
-  coords 8394.774 18.034 512.32
-  angles 0 168.308 0
+  coords 8858.161 1.097 -973.808
+  angles 0 145.882 0
   m_aUnitPrefabSlots {
    "{805EA9F7914FE2A6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_SL_P.et"
    "{52D899F1083846A4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_TL_P.et"
@@ -46,9 +55,14 @@ $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFR
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
+   PS_GroupCallsignAssigner "{67235C5383708C21}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
   }
-  coords 8526.188 18.106 548.682
-  angles 0 162.25 0
+  coords 8860.498 1.097 -976.929
+  angles 0 -32.49 0
   m_aUnitPrefabSlots {
    "{805EA9F7914FE2A6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_SL_P.et"
    "{52D899F1083846A4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/ATACS/Character_RHS_RF_SSO_TL_P.et"
@@ -70,9 +84,14 @@ SCR_AIGroup : "{EB51EF1ED798EBAF}Prefabs/Groups/OPFOR/Russia/2020/VDV/AFRF_VDV_2
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
   }
+  PS_GroupCallsignAssigner "{67235C5386D5BAD7}" {
+   m_iCompanyCallsign 2
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
  }
- coords 8450.094 27.395 489.079
- angles 0 -16.383 0
+ coords 8899.21 27.395 -978.941
+ angles 0 -34.917 0
  m_aUnitPrefabSlots {
   "{5601772757B7D7FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Pilot_P.et"
   "{5601772757B7D7FA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Pilot_P.et"

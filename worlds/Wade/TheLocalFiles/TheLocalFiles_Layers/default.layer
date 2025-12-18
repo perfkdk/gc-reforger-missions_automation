@@ -31,7 +31,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
      m_objectiveCompletedMsg ""
      m_completeDelay 0
      m_briefingDescription "Capture the HVT"
-     m_markerPrefab "{7BCC081C2E617F70}worlds/Wade/BananaHoedown/HVTMarker.et"
+     m_markerPrefab "{7BCC081C2E617F70}worlds/Wade/TheLocalFiles/HVTMarker.et"
      m_briefingPrefab ""
      m_updateDelay 300
     }
@@ -39,10 +39,25 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 1
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{67235C4D9DB6C924}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingHour 1
+    }
+   }
+   m_bRandomWeatherChanges 1
+   m_bWindOverride 1
+   m_fWindSpeed 10.06
+   m_fWindDirection 0.187
+   m_bFogOverride 1
+   m_fFogAmount 0.708
+   m_fFogHeightDensity 0.544
   }
  }
  coords 3061.744 2.762 1734.644
- m_iFreezeTime 180
+ m_iFreezeTime 180000
+ m_eJIPState Deny
 }
 $grp TILW_PresenceTriggerEntity {
  IntelExtractBlufor {
@@ -54,7 +69,8 @@ $grp TILW_PresenceTriggerEntity {
   }
  }
  IntelExtractOpfor {
-  coords 8450.919 18.106 513.726
+  coords 8892.158 18.106 -955.31
+  angles 0 -18.534 0
   m_queryRadius 130
   m_flagName "IntelExtractOpfor"
   m_entityNames {
@@ -64,10 +80,12 @@ $grp TILW_PresenceTriggerEntity {
 }
 PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  coords 6685.379 1.555 4528.548
+ m_sTitle "TheLocalFiles"
 }
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  HVTExtractOpfor {
-  coords 8450.919 18.106 513.726
+  coords 8892.158 18.106 -955.31
+  angles 0 -18.534 0
   m_queryRadius 130
   m_sendStatusMessages 1
   m_flagName "HVTExtractOpfor"
@@ -278,7 +296,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
  }
 }
-GenericEntity Intel : "{F3739484332D8932}worlds/Wade/BananaHoedown/Intel.et" {
+GenericEntity Intel : "{F3739484332D8932}worlds/Wade/TheLocalFiles/Intel.et" {
  coords 2720.457 25.492 5480.746
  angles 0 -178.961 0
 }
