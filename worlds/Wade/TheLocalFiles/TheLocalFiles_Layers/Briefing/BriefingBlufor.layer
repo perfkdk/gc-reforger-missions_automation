@@ -34,7 +34,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7047.513 106.914 5114.708
   m_sTitle "Sustainment"
-  m_sTextData "There are items in the aircraft."\
+  m_sTextData "3x MH-6's"\
+  ""\
+  "Each MH-6 has 9 passenger seats."\
+  ""\
+  "There are items in the aircraft."\
   "No planned resupply."\
   "Casualty evacuation is self-managed."
   m_aVisibleForFactions {

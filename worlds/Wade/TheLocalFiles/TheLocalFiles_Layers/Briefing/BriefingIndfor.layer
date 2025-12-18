@@ -9,9 +9,19 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "These forces are well-equipped, mobile, and may engage each other if it supports HVT capture."\
   ""\
   "Friendly Forces"\
-  "Your team (INDFOR): Dedicated protection element assigned to the HVT."\
+  "Your team (INDFOR): Dedicated protection element assigned to the HVT. You spawn at the airfield."\
   ""\
-  "HVT Lunchyyy: The protected individual under your security."\
+  "The HVT has an active mission (survive, evade capture, and search computers), and your objective is to enable that mission."\
+  "Your role is to create the conditions for the HVT to move, relocate, and reach objectives safely, not to keep him static or concealed indefinitely."\
+  ""\
+  "ION success is measured by how effectively you:"\
+  "Preserve the HVT’s life"\
+  ""\
+  "Enable continued movement and decision-making"\
+  ""\
+  "Deny capture while supporting the HVT’s objectives"\
+  ""\
+  "Passive hiding, excessive stalling, or preventing the HVT from acting runs counter to mission intent."\
   ""\
   ""\
   "Background"\
@@ -28,7 +38,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission"
   m_sTextData "TELL THE HVT TO PICK UP THE RED FOLDER WHEN YOU START. DO NOT LET HIM DROP IT."\
   ""\
-  "Your team will protect the HVT from capture and prevent his extraction for as long as possible."
+  "Your team will protect the HVT from capture and prevent his extraction for as long as possible."\
+  ""\
+  "ION success is measured by how effectively you:"\
+  "Preserve the HVT’s life"\
+  ""\
+  "Enable continued movement and decision-making"\
+  ""\
+  "Deny capture while supporting the HVT’s objectives"\
+  ""\
+  "Passive hiding, excessive stalling, or preventing the HVT from acting runs counter to mission intent."\
+  ""
   m_aVisibleForFactions {
    "RHS_ION"
   }

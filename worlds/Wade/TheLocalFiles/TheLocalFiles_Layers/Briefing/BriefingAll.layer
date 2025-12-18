@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7036.708 106.545 5123.372
   m_sTitle "Mission Notes"
-  m_sTextData "5 Minute Brief Max"\
+  m_sTextData "10 Minute Brief Max"\
   ""\
   "3 Minute Set-Up"\
   ""\
@@ -12,7 +12,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "No time limit."\
   ""\
-  "HVT extracted by either team OR 90% casualties on BLUFOR AND OPFOR"\
+  "HVT extracted by either team OR 90% casualties on BLUFOR AND OPFOR. Red intel from body can be extracted for minor victory."\
   ""\
   "Special thanks to HotMic for walking me through the process and the Commando's mission makers for the map marker update that I rigged for this mission."
   m_bEmptyFactionVisibility 1
@@ -22,7 +22,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7037.203 106.568 5123.377
   m_sTitle "Overview"
-  m_sTextData "5 Minute Brief Max"\
+  m_sTextData "10 Minute Brief Max"\
   ""\
   "Two opposing contracted forces deploy from separate aircraft carriers and compete to locate, capture, and extract a single High Value Target (HVT), while an Independent protection element works to keep the HVT free and alive. "\
   ""\
@@ -32,7 +32,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7466.465 164.563 4321.966
   m_sTitle "Game Mastering (READ THIS)"
-  m_sTextData "Slot HVT and ION first. Top ION slot is CO."\
+  m_sTextData "Slot HVT and ION first."\
   "REST OF CIVILIAN IS OVERFILL. Do not slot until everything else is full."\
   ""\
   "Fix loadout problems."\

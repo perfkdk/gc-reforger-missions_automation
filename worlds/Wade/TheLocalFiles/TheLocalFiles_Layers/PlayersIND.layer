@@ -8,6 +8,12 @@ SCR_AIGroup : "{A156A12FCA70EE91}Prefabs/Groups/INDFOR/ION/VIP_Protection/Group_
  }
  coords 2725.829 24.592 5477.8
  angles 0 -88.562 0
+ m_aUnitPrefabSlots {
+  "{53C0A621CB97E80D}worlds/Wade/TheLocalFiles/Character_RHS_ION_VIP_Leader.et"
+  "{09944821D19CC5F1}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Random_P.et"
+  "{09944821D19CC5F1}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Random_P.et"
+  "{09944821D19CC5F1}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Random_P.et"
+ }
  m_sCustomNameSet "Bodyguards"
  m_bSetPlayable 1
 }

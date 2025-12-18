@@ -4,7 +4,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Situation"
   m_sTextData "GRAB THE RED INTEL ON THE DESK WHEN YOU SPAWN, NEVER DROP IT."\
   ""\
-  "You are HVT Lunchyyy. Two rival contracted military teams are actively attempting to locate, capture, and extract you. An Independent Security Detail (INDFOR) is assigned to protect you and will actively interfere with capture attempts."\
+  "You are HVT Lunchyyy. You spawn at the airfield. Two rival contracted military teams are actively attempting to locate, capture, and extract you. An Independent Security Detail (INDFOR) is assigned to protect you and will actively interfere with capture attempts."\
   "Your actions directly influence the pace and outcome of the mission."\
   ""\
   ""\
@@ -78,7 +78,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Sustainment"
   m_sTextData "GRAB THE RED INTEL ON THE DESK WHEN YOU SPAWN, NEVER DROP IT."\
   ""\
-  "There are vehicles where you spawn."
+  "There are many UAZ's where youy spawn."\
+  "A UAZ has 5 seats."\
+  "There is a ural, a ural has many seats."\
+  "There is a gun truck UAZ, it has 3 seats."
   m_aVisibleForFactions {
    "CIV"
   }
@@ -89,8 +92,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Command and Signal"
   m_sTextData "GRAB THE RED INTEL ON THE DESK WHEN YOU SPAWN, NEVER DROP IT."\
   ""\
-  "You do not command INDFOR in tactics. You tell them where you want to go and they take you there."\
-  "Follow INDFOR instructions in tactical decision making."
+  "You do not command ION in tactics. You tell them where you want to go and they take you there."\
+  "Follow ION instructions in tactical decision making."
   m_aVisibleForFactions {
    "CIV"
   }
