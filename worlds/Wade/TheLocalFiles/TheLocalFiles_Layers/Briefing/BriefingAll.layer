@@ -2,9 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7036.708 106.545 5123.372
   m_sTitle "Mission Notes"
-  m_sTextData "10 Minute Brief Max"\
-  ""\
-  "3 Minute Set-Up"\
+  m_sTextData "3 Minute Set-Up (BLUFOR / OPFOR)"\
   ""\
   "JIP Trans"\
   ""\
@@ -22,9 +20,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7037.203 106.568 5123.377
   m_sTitle "Overview"
-  m_sTextData "10 Minute Brief Max"\
-  ""\
-  "Two opposing contracted forces deploy from separate aircraft carriers and compete to locate, capture, and extract a single High Value Target (HVT), while an Independent protection element works to keep the HVT free and alive. "\
+  m_sTextData "Two opposing contracted forces deploy from separate aircraft carriers and compete to locate, capture, and extract a single High Value Target (HVT), while an Independent protection element works to keep the HVT free and alive. "\
   ""\
   "During a past incident, Lunchyyy muted TheLocalPub. Shortly afterward, Pub teamkilled a third party and claimed the muting caused a communication failure. Pub said video evidence existed, but it was never released. Intelligence suggests the footage may contradict that claim. Lunchyyy has resurfaced and is attempting to recover the missing video, prompting a paid capture effort that has drawn multiple armed groups into the area."
   m_bEmptyFactionVisibility 1
