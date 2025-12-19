@@ -28,7 +28,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
      m_objectiveCompletedMsg ""
      m_completeDelay 0
      m_briefingDescription "Capture the HVT"
-     m_markerPrefab "{2E08E7B7914EB585}worlds/arc/CommandosReforged/Prefabs/Objective_Marker.et"
+     m_markerPrefab "{A7D20E8743A78B4E}worlds/Wade/TheLocalFiles/Objective_Marker_Lunchyyy.et"
      m_briefingPrefab ""
      m_updateDelay 300
     }
