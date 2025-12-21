@@ -7,7 +7,7 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
    PS_GroupCallsignAssigner "{67235C538F22175A}" {
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 3108.39 0.209 12592.974
@@ -36,7 +36,7 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
    PS_GroupCallsignAssigner "{67235C53B463EC6D}" {
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 2
+    m_iSquadCallsign 3
    }
   }
   coords 3110.952 0.209 12595.688
@@ -67,6 +67,7 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
    PS_GroupCallsignAssigner "{67235C53C2976279}" {
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 3084.68 26.507 12612.653
@@ -84,8 +85,8 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
    }
    PS_GroupCallsignAssigner "{67235C53BE4EDA39}" {
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
+    m_iPlatoonCallsign 4
+    m_iSquadCallsign 4
    }
   }
   coords 3080.618 26.507 12619.41

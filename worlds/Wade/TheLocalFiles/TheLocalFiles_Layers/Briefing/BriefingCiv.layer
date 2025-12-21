@@ -102,7 +102,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 6647.403 25.223 3887.874
   m_sTitle "CIVILIAN BRIEFING (NOT FOR HVT)"
-  m_sTextData "Drive around, yell at people, run around, yell at people."\
+  m_sTextData "DO not create plans with the other civilians groups."\
+  ""\
+  "Do Civlians things in proximity of the HVT."\
+  ""\
+  "Confusing the enemy helos by driving around and using headlights might be something you do."\
   ""\
   "DO NOT ARM YOURSELF."\
   ""\

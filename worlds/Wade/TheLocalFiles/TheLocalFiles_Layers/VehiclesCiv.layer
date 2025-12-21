@@ -1,9 +1,6 @@
 $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  UAZ6 {
   components {
-   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
-    m_fFuelConsumption 50
-   }
    SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
     MultiSlots {
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
@@ -53,9 +50,6 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  }
  UAZ7 {
   components {
-   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
-    m_fFuelConsumption 50
-   }
    SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
     MultiSlots {
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
@@ -105,9 +99,6 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  }
  UAZ8 {
   components {
-   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
-    m_fFuelConsumption 50
-   }
    SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
     MultiSlots {
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
@@ -157,9 +148,6 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  }
  UAZ9 {
   components {
-   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
-    m_fFuelConsumption 50
-   }
    SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
     MultiSlots {
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
@@ -209,9 +197,6 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  }
  UAZ10 {
   components {
-   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
-    m_fFuelConsumption 50
-   }
    SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
     MultiSlots {
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
@@ -261,9 +246,6 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  }
  UAZ11 {
   components {
-   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
-    m_fFuelConsumption 50
-   }
    SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
     MultiSlots {
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
@@ -313,9 +295,6 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  }
  UAZ12 {
   components {
-   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
-    m_fFuelConsumption 50
-   }
    SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
     MultiSlots {
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
@@ -365,9 +344,6 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  }
  UAZ13 {
   components {
-   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
-    m_fFuelConsumption 50
-   }
    SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
     MultiSlots {
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
