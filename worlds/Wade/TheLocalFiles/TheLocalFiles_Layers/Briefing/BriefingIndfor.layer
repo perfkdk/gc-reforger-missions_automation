@@ -12,7 +12,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Your team (INDFOR): Dedicated protection element assigned to the HVT. You spawn at the airfield."\
   ""\
   "The HVT has an active mission (survive, evade capture, and search computers), and your objective is to enable that mission."\
-  "Your role is to create the conditions for the HVT to move, relocate, and reach objectives safely, not to keep him static or concealed indefinitely."\
+  "Your role is to create the conditions for the HVT to move, relocate, and reach objectives safely, not to keep him static or concealed indefinitely. Computers are marked on the map after 5 minutes with red dots."\
   ""\
   "ION success is measured by how effectively you:"\
   "Preserve the HVT’s life"\
@@ -90,7 +90,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7307.521 4.599 4232.205
   m_sTitle "Command and Signal"
-  m_sTextData "TELL THE HVT TO PICK UP THE RED FOLDER WHEN YOU START. DO NOT LET HIM DROP IT."
+  m_sTextData "TELL THE HVT TO PICK UP THE RED FOLDER WHEN YOU START. DO NOT LET HIM DROP IT."\
+  ""\
+  "The ION boss is should make descisions in coordination with the HVT. The HVT for example should say where he wants to go whereas the the ION boss should tell the ION team how to accomplish the HVT's intent."\
+  ""\
+  "Your radios are compromised."\
+  ""\
+  "Create your own frequencies, challenge and password, brevity terms, flare signals, etc.."\
+  ""\
+  "Ideally you should have PLT net, Air net, and Emergency net established with phrases to use to switch channels."
   m_aVisibleForFactions {
    "RHS_ION"
   }

@@ -34,13 +34,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7045.876 107.017 5118.654
   m_sTitle "Sustainment"
-  m_sTextData "3x MH-6's"\
+  m_sTextData "3x MH-6's and 3x MH-6's in reserve."\
   ""\
   "Each MH-6 has 9 passenger seats."\
   ""\
   "There are items in the aircraft."\
+  "White, Red, and Green Flares."\
+  "Pilot NVG's are in the helo's."\
+  "Backpack radio spawns on grouind infront of JTAC."\
   "No planned resupply."\
-  "Casualty evacuation is self-managed."
+  "Casualty evacuation is self-managed."\
+  ""
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -49,11 +53,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7048.396 108.058 5120.041
   m_sTitle "Command and Signal"
-  m_sTextData "Platoon net 42"\
+  m_sTextData "Your radios are compromised."\
   ""\
-  "Air net 43"\
+  "Create your own frequencies, challenge and password, brevity terms, flare signals, etc.."\
   ""\
-  "Emergency net 36"
+  "Ideally you should have PLT net, Air net, and Emergency net established with phrases to use to switch channels."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }

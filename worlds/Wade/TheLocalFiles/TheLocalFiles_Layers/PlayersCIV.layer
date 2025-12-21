@@ -14,37 +14,6 @@ $grp SCR_AIGroup : "{D56431580CBEC91D}Prefabs/Groups/CIV/Docks/Group_CIV_Docks_0
     DefaultFormation "Line"
    }
   }
-  coords 5839.771 2.235 8402.555
-  angles 0 170.078 0
-  m_aUnitPrefabSlots {
-   "{C6FAF52907A544AC}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_1.et"
-   "{2CDFBF355F3410DD}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_2.et"
-   "{2366B9D00B40D3C7}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_3.et"
-  }
-  m_bSetPlayable 1
- }
- {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-  }
-  coords 6810.19 1.978 3441.707
-  angles 0 -37.136 0
-  m_aUnitPrefabSlots {
-   "{C6FAF52907A544AC}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_1.et"
-   "{2CDFBF355F3410DD}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_2.et"
-   "{2366B9D00B40D3C7}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_3.et"
-  }
-  m_bSnapToTerrain 0
-  m_bSetPlayable 1
- }
- {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-  }
   coords 8815.641 3.036 7360.276
   angles 0 -67.852 0
   m_aUnitPrefabSlots {
@@ -52,6 +21,7 @@ $grp SCR_AIGroup : "{D56431580CBEC91D}Prefabs/Groups/CIV/Docks/Group_CIV_Docks_0
    "{2CDFBF355F3410DD}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_2.et"
    "{2366B9D00B40D3C7}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_3.et"
   }
+  m_sCustomNameSet "ROLEPLAY REQUIRED"
   m_bSetPlayable 1
  }
  {
@@ -67,6 +37,7 @@ $grp SCR_AIGroup : "{D56431580CBEC91D}Prefabs/Groups/CIV/Docks/Group_CIV_Docks_0
    "{2CDFBF355F3410DD}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_2.et"
    "{2366B9D00B40D3C7}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_3.et"
   }
+  m_sCustomNameSet "ROLEPLAY REQUIRED"
   m_bSetPlayable 1
  }
 }
