@@ -1,0 +1,104 @@
+$grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ MH6M1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6716A2EDCAAAD00B}" {
+      SlotTemplate InventoryStorageSlot TelescopicLadder {
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{6716A2EDCA1D1804}" {
+      SlotTemplate InventoryStorageSlot Ziptie {
+       Prefab "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6716A2EDCA256E86}" {
+      SlotTemplate InventoryStorageSlot Wirecutter {
+       Prefab "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{6716A2EDCA6096FE}" {
+      SlotTemplate InventoryStorageSlot FlareWhite {
+       Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 3130.752 17.312 12614.192
+  angles 0 -179.335 0
+ }
+ MH6M2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6716A2EDCAAAD00B}" {
+      SlotTemplate InventoryStorageSlot TelescopicLadder {
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{6716A2EDCA1D1804}" {
+      SlotTemplate InventoryStorageSlot Ziptie {
+       Prefab "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6716A2EDCA256E86}" {
+      SlotTemplate InventoryStorageSlot Wirecutter {
+       Prefab "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{6716A2EDCA6096FE}" {
+      SlotTemplate InventoryStorageSlot FlareWhite {
+       Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 3028.481 17.262 12613.722
+  angles 0 -179.335 0
+ }
+ MH6M3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6716A2EDCAAAD00B}" {
+      SlotTemplate InventoryStorageSlot TelescopicLadder {
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{6716A2EDCA1D1804}" {
+      SlotTemplate InventoryStorageSlot Ziptie {
+       Prefab "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6716A2EDCA256E86}" {
+      SlotTemplate InventoryStorageSlot Wirecutter {
+       Prefab "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{6716A2EDCA6096FE}" {
+      SlotTemplate InventoryStorageSlot FlareWhite {
+       Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 2976.457 17.262 12614.569
+  angles 0 -179.335 0
+ }
+}
