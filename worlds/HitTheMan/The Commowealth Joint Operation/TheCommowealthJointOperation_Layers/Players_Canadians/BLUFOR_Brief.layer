@@ -45,12 +45,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "2nd Section -------------------------- 23B - Bravo"\
   "2nd Section -------------------------- 23C - Charlie"\
   ""\
-  "<b>- - - Vehicle/LAV Callsigns when Inf dismounted:</b>"\
-  "Z29 or Zulu 29"\
-  "Zulu 21 Alpha"\
-  "Zulu 21 Bravo"\
-  "Etc."\
-  ""\
   "<b>III. Frequencies:</b>"\
   "Global NATO Net ------- 50.00Mhz"\
   "1st Platoon Net -------- 49.00Mhz"

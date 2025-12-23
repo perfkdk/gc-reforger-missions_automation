@@ -634,7 +634,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{66DB00D44D047D24}" {
-   m_name "US Victory Casualties"
+   m_name "Commonwealth Victory Casualties"
    m_instructions {
     TILW_SendMessageInstruction "{66DB00D44D047DF3}" {
      m_messageTitle "Canadian & British Victory"

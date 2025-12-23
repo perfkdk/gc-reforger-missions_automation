@@ -12,12 +12,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "2nd Squad ----------------------------- 342"\
   "3rd Squad ----------------------------- 343"\
   ""\
-  "<b>- - - Vehicle/LAV Callsigns when Inf dismounted:</b>"\
-  "340 Victor or 340V"\
-  "341 Victor"\
-  "342 Victor"\
-  "etc."\
-  ""\
   "III. Frequencies:</b>"\
   "Platoon Net ------------------------- 42.00MHz"
   m_aVisibleForFactions {
