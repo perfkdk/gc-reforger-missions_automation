@@ -40,9 +40,10 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    m_iSetMonth 3
    m_iSetYear 1983
    m_bOverrideEnvironment 1
-   m_fFogHeight 0.6
+   m_fFogDensity 0.69
+   m_fFogHeight 0.7
    m_fRain 0
-   m_fWind 4
+   m_fWind 7
   }
  }
  coords 7756.999 312.503 8163.458
