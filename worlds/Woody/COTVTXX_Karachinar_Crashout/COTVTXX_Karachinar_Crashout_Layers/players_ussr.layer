@@ -1,5 +1,5 @@
 $grp SCR_AIGroup : "{2D259E53BEEAB3AF}Prefabs/Groups/OPFOR/Russia/1980s/876th independent Naval Infantry Battalion - 1986/Group_USSR_876_MotRiflePHQ_P.et" {
- {
+ gr_ussr_221hq {
   components {
    PS_GroupCallsignAssigner "{65571615B09C52DE}" {
     m_iCompanyCallsign 1
@@ -11,7 +11,7 @@ $grp SCR_AIGroup : "{2D259E53BEEAB3AF}Prefabs/Groups/OPFOR/Russia/1980s/876th in
   angles 0.057 -110.746 1.784
   m_sCustomNameSet "1st Platoon HQ"
  }
- {
+ gr_ussr_224hq {
   components {
    PS_GroupCallsignAssigner "{65571615B09C52DE}" {
     m_iCompanyCallsign 1
@@ -24,7 +24,7 @@ $grp SCR_AIGroup : "{2D259E53BEEAB3AF}Prefabs/Groups/OPFOR/Russia/1980s/876th in
   m_sCustomNameSet "2nd Platoon HQ"
  }
 }
-SCR_AIGroup : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleCoyHQ_P.et" {
+SCR_AIGroup gr_ussr_220 : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleCoyHQ_P.et" {
  components {
   PS_GroupCallsignAssigner "{65136701CA021D8F}" {
    m_iPlatoonCallsign 1
@@ -42,7 +42,7 @@ SCR_AIGroup : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rif
  m_bSetPlayable 1
 }
 $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR.et" {
- BTR70_MSV0 {
+ BTR70_USSR0 {
   components {
    RHS_GroupMaterialController "{65151D74DAFD4445}" {
     m_aGroups {
@@ -69,8 +69,9 @@ $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR
   }
   coords 10811.691 170.87 11071.816
   angles 1.529 114.288 0.066
+  m_sAttachmentGroupName "gr_ussr_220"
  }
- BTR70_MSV6 {
+ BTR70_USSR6 {
   components {
    RHS_GroupMaterialController "{65151D74DAFD4445}" {
     m_aGroups {
@@ -98,8 +99,9 @@ $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR
   }
   coords 10649.542 164.895 11168.405
   angles 2.21 124.92 -0.189
+  m_sAttachmentGroupName "gr_ussr_226"
  }
- BTR70_MSV1 {
+ BTR70_USSR1 {
   components {
    RHS_GroupMaterialController "{65151D74DAFD4445}" {
     m_aGroups {
@@ -127,8 +129,9 @@ $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR
   }
   coords 10789.887 170.026 11091.965
   angles 1.781 116.003 0.237
+  m_sAttachmentGroupName "gr_ussr_221"
  }
- BTR70_MSV2 {
+ BTR70_USSR2 {
   components {
    RHS_GroupMaterialController "{65151D74DAFD4445}" {
     m_aGroups {
@@ -156,8 +159,9 @@ $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR
   }
   coords 10764.541 169.167 11104.678
   angles 1.651 116.206 -0.137
+  m_sAttachmentGroupName "gr_ussr_222"
  }
- BTR70_MSV3 {
+ BTR70_USSR3 {
   components {
    RHS_GroupMaterialController "{65151D74DAFD4445}" {
     m_aGroups {
@@ -185,8 +189,9 @@ $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR
   }
   coords 10739.707 168.376 11116.479
   angles 1.65 115.935 -0.145
+  m_sAttachmentGroupName "gr_ussr_223"
  }
- BTR70_MSV4 {
+ BTR70_USSR4 {
   components {
    RHS_GroupMaterialController "{65151D74DAFD4445}" {
     m_aGroups {
@@ -214,8 +219,9 @@ $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR
   }
   coords 10695.341 166.895 11139.896
   angles 1.657 120.194 -0.022
+  m_sAttachmentGroupName "gr_ussr_224"
  }
- BTR70_MSV5 {
+ BTR70_USSR5 {
   components {
    RHS_GroupMaterialController "{65151D74DAFD4445}" {
     m_aGroups {
@@ -243,10 +249,11 @@ $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR
   }
   coords 10672.823 166.013 11153.022
   angles 2.281 124.911 0.206
+  m_sAttachmentGroupName "gr_ussr_225"
  }
 }
 $grp SCR_AIGroup : "{CD4FA6000C229B89}Prefabs/Groups/OPFOR/Russia/1980s/876th independent Naval Infantry Battalion - 1986/Group_USSR_876_MotRifleSquad_P.et" {
- {
+ gr_ussr_225 {
   components {
    PS_GroupCallsignAssigner "{65571615C9800822}" {
     m_iCompanyCallsign 1
@@ -268,7 +275,7 @@ $grp SCR_AIGroup : "{CD4FA6000C229B89}Prefabs/Groups/OPFOR/Russia/1980s/876th in
   }
   m_sCustomNameSet "2nd Squad"
  }
- {
+ gr_ussr_221 {
   components {
    PS_GroupCallsignAssigner "{65571615C9800822}" {
     m_iCompanyCallsign 1
@@ -290,7 +297,7 @@ $grp SCR_AIGroup : "{CD4FA6000C229B89}Prefabs/Groups/OPFOR/Russia/1980s/876th in
   }
   m_sCustomNameSet "1st Squad"
  }
- {
+ gr_ussr_222 {
   components {
    PS_GroupCallsignAssigner "{65571615C1F59F18}" {
     m_iCompanyCallsign 1
@@ -312,7 +319,7 @@ $grp SCR_AIGroup : "{CD4FA6000C229B89}Prefabs/Groups/OPFOR/Russia/1980s/876th in
   }
   m_sCustomNameSet "2nd Squad"
  }
- {
+ gr_ussr_223 {
   components {
    PS_GroupCallsignAssigner "{65571615D8077350}" {
     m_iCompanyCallsign 1
@@ -334,7 +341,7 @@ $grp SCR_AIGroup : "{CD4FA6000C229B89}Prefabs/Groups/OPFOR/Russia/1980s/876th in
   }
   m_sCustomNameSet "3rd Squad"
  }
- {
+ gr_ussr_224 {
   components {
    PS_GroupCallsignAssigner "{65571615C9800822}" {
     m_iCompanyCallsign 1
@@ -356,7 +363,7 @@ $grp SCR_AIGroup : "{CD4FA6000C229B89}Prefabs/Groups/OPFOR/Russia/1980s/876th in
   }
   m_sCustomNameSet "1st Squad"
  }
- {
+ gr_ussr_226 {
   components {
    PS_GroupCallsignAssigner "{65571615C9800822}" {
     m_iCompanyCallsign 1
