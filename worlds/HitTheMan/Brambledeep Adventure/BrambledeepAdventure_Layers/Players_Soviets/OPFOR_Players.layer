@@ -316,6 +316,15 @@ $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ri
   }
   coords 5482.998 226.377 11227.304
   angles 0 55.856 0
+  m_aUnitPrefabSlots {
+   "{BCC39EBCD14FD378}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P_NoRadio.et"
+   "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et"
+   "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et"
+   "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et"
+   "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et"
+   "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et"
+   "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+  }
   m_bPlayable 0
   m_sCustomNameSet "1st Rifle Squad"
   m_bSetPlayable 0
@@ -333,6 +342,15 @@ $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ri
   }
   coords 5474.067 225.376 11245.563
   angles 0 68.241 0
+  m_aUnitPrefabSlots {
+   "{BCC39EBCD14FD378}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P_NoRadio.et"
+   "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et"
+   "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et"
+   "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et"
+   "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et"
+   "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et"
+   "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+  }
   m_bPlayable 0
   m_sCustomNameSet "2nd Rifle Squad"
   m_bSetPlayable 0
@@ -350,6 +368,15 @@ $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ri
   }
   coords 5467.61 223.861 11265
   angles 0 74.141 0
+  m_aUnitPrefabSlots {
+   "{BCC39EBCD14FD378}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P_NoRadio.et"
+   "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et"
+   "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et"
+   "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et"
+   "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et"
+   "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et"
+   "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+  }
   m_bPlayable 0
   m_sCustomNameSet "3rd Rifle Squad"
   m_bSetPlayable 0
