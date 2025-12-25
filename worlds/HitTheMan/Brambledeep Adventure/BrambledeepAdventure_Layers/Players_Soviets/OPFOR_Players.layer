@@ -302,11 +302,6 @@ $grp Vehicle : "{1C1038CF07EA4B00}Prefabs/Vehicles/Wheeled/BTR70/NVA/BTR70_NVA.e
   m_sAttachmentGroupName "CoyHQ"
  }
 }
-Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
- coords 5460.766 222.537 11278.994
- angles 0 166.451 0
- m_sAttachmentGroupName "PltHQ2"
-}
 $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_RifleSquad_P.et" {
  Squad4 {
   components {
@@ -433,6 +428,11 @@ $grp SCR_AIGroup : "{5EBBA8C4F782D895}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
   }
   m_sCustomNameSet "3rd Mot. Schützengruppe"
  }
+}
+Vehicle UAZ469_NVA1 : "{5F8882699C54858C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_NVA.et" {
+ coords 5460.766 222.537 11278.994
+ angles 4.909 166.455 0.042
+ m_sAttachmentGroupName "PltHQ2"
 }
 SCR_EditorRestrictionZoneEntity Restriction_Zone2 : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 5490.286 226.585 11214.444
