@@ -34,7 +34,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0 0.125 0.502 1
   m_sQuadName "plt_hq"
   m_fWorldSize 100
-  m_sDescription "Enemy British Platoon"
+  m_sDescription "Enemy British Troop"
   m_aVisibleForFactions {
    "USSR"
   }

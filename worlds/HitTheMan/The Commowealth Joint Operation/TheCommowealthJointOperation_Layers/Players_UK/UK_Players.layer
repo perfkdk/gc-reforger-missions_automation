@@ -12,10 +12,10 @@ SCR_AIGroup : "{2E5865A2B9E8BA9F}Prefabs/Groups/BLUFOR/British Forces/1983/P/Roy
  angles 0 67.21 0.191
  m_aUnitPrefabSlots {
   "{0CAEFB6B0BFC3E55}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Royal Marines/Character_UK_1983_Marines_PlatoonLeader_P.et"
-  "{38648832FBEB8C02}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Royal Marines/Character_UK_1983_Marines_RTO_P.et"
+  "{CFEF5849657BF84D}worlds/HitTheMan/The Commowealth Joint Operation/Character_UK_1983_Marines_RTO_P_HTM.et"
   "{401FD4FBE02CC4C6}Prefabs/Characters/Factions/BLUFOR/UK_Army/1983/Royal Marines/Character_UK_1983_Marines_Medic_P.et"
  }
- m_sCustomNameSet "1st Royal Marine Platoon"
+ m_sCustomNameSet "1st Royal Marine Troop"
 }
 SCR_EditorRestrictionZoneEntity Restriction_Zone2 : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 3257.202 302.396 5015.894
