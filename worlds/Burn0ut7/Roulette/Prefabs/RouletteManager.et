@@ -15,46 +15,59 @@ GC_R_Manager {
    m_companies {
     GC_R_Company "{66AE36D6BFBF480A}" {
      m_prefab "{809D5896510B70C2}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_COY_HQ_P.et"
+     m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
      m_platoons {
       GC_R_Platoon "{66AE36D6BD434E99}" {
        m_prefab "{7E53E193D3894D09}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_PLT_HQ_P.et"
+       m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
        m_squads {
         GC_R_Squad "{66AE36D01426DD59}" {
          m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
         }
         GC_R_Squad "{66AE36D0141DC7CB}" {
          m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
         }
         GC_R_Squad "{66AE36D0144CC22C}" {
          m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
         }
        }
       }
       GC_R_Platoon "{6720396D9B0F4012}" {
        m_prefab "{7E53E193D3894D09}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_PLT_HQ_P.et"
+       m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
        m_squads {
         GC_R_Squad "{66AE36D01426DD59}" {
          m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
         }
         GC_R_Squad "{66AE36D0141DC7CB}" {
          m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
         }
         GC_R_Squad "{66AE36D0144CC22C}" {
          m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
         }
        }
       }
       GC_R_Platoon "{6720396D9B5D0CE0}" {
        m_prefab "{7E53E193D3894D09}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_PLT_HQ_P.et"
+       m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
        m_squads {
         GC_R_Squad "{66AE36D01426DD59}" {
          m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
         }
         GC_R_Squad "{66AE36D0141DC7CB}" {
          m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
         }
         GC_R_Squad "{66AE36D0144CC22C}" {
          m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
         }
        }
       }
@@ -64,50 +77,63 @@ GC_R_Manager {
   }
   GC_R_Team "{66AE36D688D6BC5D}" {
    m_name "RU 80s"
-   m_factionKey "RU"
+   m_factionKey "USSR"
    m_companies {
     GC_R_Company "{66AE36D01DEA08E6}" {
      m_prefab "{8E4BE6AA99B15919}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_CoyHQ_P.et"
+     m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
      m_platoons {
       GC_R_Platoon "{66AE36D6BD434E99}" {
        m_prefab "{C724911C8224C5EF}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_PHQ_P.et"
+       m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
        m_squads {
         GC_R_Squad "{66AE36D01426DD59}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
         }
         GC_R_Squad "{66AE36D0141DC7CB}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
         }
         GC_R_Squad "{66AE36D0144CC22C}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
         }
        }
       }
       GC_R_Platoon "{671E22BD318610F2}" {
        m_prefab "{C724911C8224C5EF}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_PHQ_P.et"
+       m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
        m_squads {
         GC_R_Squad "{66AE36D01426DD59}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
         }
         GC_R_Squad "{66AE36D0141DC7CB}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
         }
         GC_R_Squad "{66AE36D0144CC22C}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
         }
        }
       }
       GC_R_Platoon "{671E22BD31C9EDBE}" {
        m_prefab "{C724911C8224C5EF}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_PHQ_P.et"
+       m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
        m_squads {
         GC_R_Squad "{66AE36D01426DD59}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
         }
         GC_R_Squad "{66AE36D0141DC7CB}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
         }
         GC_R_Squad "{66AE36D0144CC22C}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
         }
        }
       }

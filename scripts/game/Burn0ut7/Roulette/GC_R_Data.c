@@ -59,7 +59,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	
 	void SetupOBJ()
 	{
-		ResourceName capturePrefab = "{145F6522D0DD766C}Prefabs/Roulette/Capture_Area.et";
+		ResourceName capturePrefab = "{FE585088FB849703}worlds/Burn0ut7/Roulette/Prefabs/RouletteCaptureArea.et";
 		vector position = m_objective.building.GetOrigin();
 		
 		TILW_FactionTriggerEntity objective = TILW_FactionTriggerEntity.Cast(m_manager.SpawnPrefab(capturePrefab, position));
@@ -67,6 +67,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		m_objective.building.GetBounds(min,max);
 		vector size = max - min;
 		float width = Math.Max(size[0],size[2]) * 1.25;
+		width = Math.Max(width, 15);
 		
 		objective.SetRadius(width);
 		objective.SetOwnerFaction(m_teams[1].GetFaction());
@@ -184,6 +185,42 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		m_manager.SpawnAO(points);
 	}
 	
+	void SetupMarkers()
+	{
+		ResourceName prefab = "{DA7538C821CFD1FE}worlds/Burn0ut7/Roulette/Prefabs/RouletteMarker.et";
+		
+		// Objective
+		vector position = m_objective.building.GetOrigin();
+		PS_ManualMarker marker = PS_ManualMarker.Cast(m_manager.SpawnPrefab(prefab, position));
+		marker.SetImageSet("{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset");
+		marker.SetQuadName("circle-2");
+		marker.SetColor(Color.Red);
+		marker.SetSize(100);
+
+		// Spawns
+		FactionManager fm = GetGame().GetFactionManager();
+		
+		// Defenders
+		SCR_Faction defenders = SCR_Faction.Cast(fm.GetFactionByKey(m_teams[0].GetFaction()));
+		marker = PS_ManualMarker.Cast(m_manager.SpawnPrefab(prefab, m_defenderSpawn.m_position));
+		marker.SetUseWorldScale(false);
+		marker.SetImageSet(defenders.GetFactionFlag());
+		marker.SetAngles({0, 90, 0});
+		marker.SetSize(40);
+		
+		Print("GC Roulette | defender flag = " + defenders.GetFactionFlag());
+		
+		// Attackers
+		SCR_Faction attackers = SCR_Faction.Cast(fm.GetFactionByKey(m_teams[1].GetFaction()));
+		marker = PS_ManualMarker.Cast(m_manager.SpawnPrefab(prefab, m_attackerSpawn.m_position));
+		marker.SetUseWorldScale(false);
+		marker.SetImageSet(attackers.GetFactionFlag());
+		marker.SetAngles({0, 90, 0});
+		marker.SetSize(40);
+		
+		Print("GC Roulette | attackers flag = " + attackers.GetFactionFlag());
+	}
+
 	GC_R_ObjAttackDefend GetObjective()
 	{
 		return m_objective;
@@ -303,8 +340,6 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		if(!isSucessful)
 			return m_manager.NewScenario();
 		
-		m_manager.SpawnPrefab("{EBF90D574B9BC909}worlds/Burn0ut7/Roulette/Prefabs/DebugMarker.et", m_defenderSpawn.m_position);
-
 		GC_R_Team attacker = m_teams[1];
 		elements = attacker.GetRatioElements(50);
 		dir = vector.Direction(m_attackerSpawn.m_position, m_defenderSpawn.m_position);
@@ -313,9 +348,8 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		if(!isSucessful)
 			return m_manager.NewScenario();
 		
-		m_manager.SpawnPrefab("{EBF90D574B9BC909}worlds/Burn0ut7/Roulette/Prefabs/DebugMarker.et", m_attackerSpawn.m_position);
-		
 		SetupAO();
+		SetupMarkers();
 	}
 	
 	protected void FindDefenderSpawnAsync()
