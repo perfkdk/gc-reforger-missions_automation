@@ -1,10 +1,10 @@
 PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  ID "5EDF4803173675DF"
  coords 5360.368 81.591 6294.433
- angleY 0
+ angles 0 0 0
  m_MarkerColor 1 0 0 1
  m_sQuadName "dot"
- m_fWorldSize 50
+ m_fWorldSize 300
  m_bVisibleForEmptyFaction 1
  m_bShowForAnyFaction 1
 }

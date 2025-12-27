@@ -1,15 +1,203 @@
-SCR_BaseGameMode GameMode_Plain1 : "{1B76F75A3175E85C}Prefabs/MP/Modes/Plain/GameMode_Plain.et" {
- coords 5360.425 81.665 6290.84
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 5361.636 81.701 6293.663
+ Formations {
+  AIFormationDefinition "{672C1A31B92E77DC}" {
+   Name "File"
+   Offsets {
+    0 0 0
+    0 0 -1
+    0 0 -2
+    0 0 -3
+    0 0 -4
+    0 0 -5
+    0 0 -6
+    0 0 -7
+    0 0 -8
+    0 0 -9
+    0 0 -10
+   }
+  }
+ }
 }
-SCR_FactionManager FactionManager_FFA1 : "{A1C54BBE72C5C696}Prefabs/MP/Managers/Factions/FactionManager_FFA.et" {
- coords 5361.046 81.723 6290.921
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ coords -2990.113 3.844 1085.012
 }
-SCR_SpawnPoint : "{5392C4D80E4B18F8}Prefabs/MP/Spawning/SpawnPoint_FFA.et" {
- coords 5360.817 81.702 6290.892
+PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 2412.888 82.314 6378.517
+ m_sTitle "Overview"
+ m_sTextData "US army lead a convoy to deliver food and other supplies to civilians in Naudeh."
+ m_bEmptyFactionVisibility 1
+ m_bShowForAnyFaction 1
+ m_iOrder 10
 }
 GC_R_Manager : "{6E2C9E0BE9F314EC}worlds/Burn0ut7/Roulette/Prefabs/RouletteManager.et" {
- coords 5361.161 81.696 6292.64
+ coords 5360.158 81.551 6297.392
+ m_teams {
+  GC_R_Team "{66AE36D67D974C0E}" {
+   m_companies {
+    GC_R_Company "{66AE36D6BFBF480A}" {
+     m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+     m_platoons {
+      GC_R_Platoon "{66AE36D6BD434E99}" {
+       m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+        }
+       }
+      }
+      GC_R_Platoon "{6720396D9B0F4012}" {
+       m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+        }
+       }
+      }
+      GC_R_Platoon "{6720396D9B5D0CE0}" {
+       m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GC_R_Team "{66AE36D688D6BC5D}" {
+   m_companies {
+    GC_R_Company "{66AE36D01DEA08E6}" {
+     m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+     m_platoons {
+      GC_R_Platoon "{66AE36D6BD434E99}" {
+       m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+        }
+       }
+      }
+      GC_R_Platoon "{671E22BD318610F2}" {
+       m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+        }
+       }
+      }
+      GC_R_Platoon "{671E22BD31C9EDBE}" {
+       m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
-SCR_LoadoutManager : "{B7E5D7F4864D81C0}Prefabs/MP/Managers/Loadouts/LoadoutManager_FFA.et" {
- coords 5361.746 81.781 6290.726
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords -2990.113 3.844 1085.012
+ m_missionEvents {
+  TILW_MissionEvent "{661002208C97A955}" {
+   m_name "INS VIctory"
+   m_instructions {
+    TILW_SendMessageInstruction "{66130B6CB67A6C0F}" {
+     m_messageTitle "INSURGENT VICTORY"
+     m_messageBody "US forces suffered severe casualties."
+    }
+   }
+   m_condition TILW_LiteralTerm "{66100220B0CB9E64}" {
+    m_flagName "BLUFOR Cas"
+   }
+  }
+  TILW_MissionEvent "{6610022132098454}" {
+   m_name "Blufor Capture"
+   m_instructions {
+    TILW_SendMessageInstruction "{66130B6C54C4DA71}" {
+     m_messageTitle "US VICTORY"
+     m_messageBody "The truck was delivered."
+    }
+   }
+   m_condition TILW_LiteralTerm "{66100221DAF493BA}" {
+    m_flagName "Blufor Capture"
+   }
+  }
+  TILW_MissionEvent "{66130B6C52415505}" {
+   m_name "Trucks destroyed"
+   m_instructions {
+    TILW_SendMessageInstruction "{66130B6CF9821862}" {
+     m_messageTitle "US DEFEAT"
+     m_messageBody "Both trucks were destroyed."
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{66130B6CEBCAEC86}" {
+    m_operands {
+     TILW_LiteralTerm "{66130B6CEC7A66BF}" {
+      m_flagName "t1d"
+     }
+     TILW_LiteralTerm "{66130B6CF2355DC1}" {
+      m_flagName "t2d"
+     }
+    }
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{66100220C3C4DCD1}" {
+   m_flagName "BLUFOR Cas"
+   m_factionKey "US"
+   m_casualtyRatio 0.9
+  }
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 5363.332 81.719 6300.033
+ m_MarkerColor 0.22 0.227 1 1
+ m_sQuadName "flag"
+ m_fWorldSize 50
+ m_bUseWorldScale 0
+ m_bVisibleForEmptyFaction 1
+ m_bShowForAnyFaction 1
 }

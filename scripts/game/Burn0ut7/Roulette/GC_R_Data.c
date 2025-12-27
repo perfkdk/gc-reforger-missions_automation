@@ -20,14 +20,14 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	[Attribute(defvalue: "", uiwidget: UIWidgets.Auto, desc: "Blacklist building of same name", category: "Objective")]
     protected ref array<string> m_buildingBlackListWords;
 	
+	[Attribute(defvalue: "1000", uiwidget: UIWidgets.CheckBox, desc: "AO width size in meters", category: "AO")]
+    protected int m_width;
+	
 	[Attribute(defvalue: "2000", uiwidget: UIWidgets.CheckBox, desc: "Min size of AO in meters", category: "AO")]
     protected int m_minAOSize;
 	
 	[Attribute(defvalue: "5000", uiwidget: UIWidgets.CheckBox, desc: "Max size of AO in meters", category: "AO")]
     protected int m_maxAOSize;
-	
-	[Attribute(defvalue: "100", uiwidget: UIWidgets.CheckBox, desc: "Max size of AO in meters", category: "Spawn")]
-    protected int m_maxAttempts;
 	
 	protected int m_searchAttempts;
 	
@@ -56,6 +56,133 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	{
 		return m_maxAOSize;
 	}	
+	
+	void SetupOBJ()
+	{
+		ResourceName capturePrefab = "{145F6522D0DD766C}Prefabs/Roulette/Capture_Area.et";
+		vector position = m_objective.building.GetOrigin();
+		
+		TILW_FactionTriggerEntity objective = TILW_FactionTriggerEntity.Cast(m_manager.SpawnPrefab(capturePrefab, position));
+		vector min,max;
+		m_objective.building.GetBounds(min,max);
+		vector size = max - min;
+		float width = Math.Max(size[0],size[2]) * 1.25;
+		
+		objective.SetRadius(width);
+		objective.SetOwnerFaction(m_teams[1].GetFaction());
+	}
+	
+	void SetupFW()
+	{
+		TILW_MissionFrameworkEntity framework = TILW_MissionFrameworkEntity.GetInstance();
+		
+		string defenderKey = m_teams[0].GetFaction();
+		string attackerKey = m_teams[1].GetFaction();
+		
+		//Create flags
+		TILW_FactionPlayersKilledFlag defenderFlag = TILW_FactionPlayersKilledFlag();
+		defenderFlag.SetFlag("defender");
+		defenderFlag.SetKey(defenderKey);
+		defenderFlag.SetCasualtyRatio(0.95);
+
+		TILW_FactionPlayersKilledFlag attackerFlag = TILW_FactionPlayersKilledFlag();
+		attackerFlag.SetFlag("attacker");
+		attackerFlag.SetKey(attackerKey);
+		attackerFlag.SetCasualtyRatio(0.95);
+		
+		array<ref TILW_FactionPlayersKilledFlag> flags = {defenderFlag, attackerFlag};
+		
+		//Instructions
+		TILW_EndGameInstruction defenderInstruction = TILW_EndGameInstruction();
+		defenderInstruction.SetGameOverType(EGameOverTypes.EDITOR_FACTION_VICTORY);
+		defenderInstruction.SetKey(attackerKey);		
+		
+		TILW_EndGameInstruction attackerInstruction = TILW_EndGameInstruction();
+		attackerInstruction.SetGameOverType(EGameOverTypes.EDITOR_FACTION_VICTORY);
+		attackerInstruction.SetKey(defenderKey);
+
+		TILW_EndGameInstruction timelimitInstruction = TILW_EndGameInstruction();
+		timelimitInstruction.SetGameOverType(EGameOverTypes.EDITOR_FACTION_VICTORY);
+		timelimitInstruction.SetKey(defenderKey);
+		timelimitInstruction.SetExecutionDelay(4200);
+		
+		TILW_EndGameInstruction objectiveInstruction = TILW_EndGameInstruction();
+		attackerInstruction.SetGameOverType(EGameOverTypes.EDITOR_FACTION_VICTORY);
+		attackerInstruction.SetKey(attackerKey);
+		
+		//Conditions
+		TILW_LiteralTerm defenderTerm = TILW_LiteralTerm();
+		defenderTerm.SetFlag("defender");
+		
+		TILW_LiteralTerm atttackerTerm = TILW_LiteralTerm();
+		atttackerTerm.SetFlag("attacker");
+		
+		TILW_LiteralTerm timeLimitTerm = TILW_LiteralTerm();
+		timeLimitTerm.SetFlag("timelimit");
+		timeLimitTerm.SetInvert(true);
+
+		TILW_LiteralTerm objectiveTerm = TILW_LiteralTerm();
+		objectiveTerm.SetFlag("objective");
+		
+		//Create events
+		TILW_MissionEvent defenderEvent = TILW_MissionEvent();
+		defenderEvent.SetName("defender event");
+		defenderEvent.SetInstructions({defenderInstruction});
+		defenderEvent.SetCondition(defenderTerm);
+		
+		TILW_MissionEvent attackerEvent = TILW_MissionEvent();
+		attackerEvent.SetName("attacker event");
+		attackerEvent.SetInstructions({attackerInstruction});
+		attackerEvent.SetCondition(atttackerTerm);
+		
+		TILW_MissionEvent timeLimitEvent = TILW_MissionEvent();
+		timeLimitEvent.SetName("timeLimit event");
+		timeLimitEvent.SetInstructions({timelimitInstruction});
+		timeLimitEvent.SetCondition(timeLimitTerm);
+		
+		TILW_MissionEvent objectiveEvent = TILW_MissionEvent();
+		objectiveEvent.SetName("objective event");
+		objectiveEvent.SetInstructions({objectiveInstruction});
+		objectiveEvent.SetCondition(objectiveTerm);
+		
+		array<ref TILW_MissionEvent> events = new array<ref TILW_MissionEvent>;
+		events.Insert(defenderEvent);
+		events.Insert(attackerEvent);
+		events.Insert(timeLimitEvent);
+		events.Insert(objectiveEvent);
+		
+		framework.SetMissionEvents(events);
+		framework.SetPlayersKilledFlags(flags);
+	}
+	
+	void SetupAO()
+	{
+		array<vector> points = new array<vector>;
+		
+		vector position1 = m_attackerSpawn.m_position;
+		vector position2 = m_defenderSpawn.m_position;
+
+		vector direction = vector.Direction(position1, position2).Normalized();
+
+		// Calculate perpendicular directions at 45 degrees
+	    vector perpendicular1 = Vector(direction[2], 0, -direction[0]); // Rotate 90 degrees clockwise
+	    vector perpendicular2 = Vector(-direction[2], 0, direction[0]); // Rotate 90 degrees counterclockwise
+	
+	    // Scale perpendicular vectors
+	    vector offset1 = (-direction + perpendicular1) * (m_width / 2); // 45 degrees clockwise
+	    vector offset2 = (-direction + perpendicular2) * (m_width / 2); // 45 degrees counterclockwise
+		vector offset3 = (direction + perpendicular2) * (m_width / 2); // Opposite direction + 45 degrees counterclockwise
+	    vector offset4 = (direction + perpendicular1) * (m_width / 2); // Opposite direction + 45 degrees clockwise
+
+	    // Calculate points
+	    points.Insert(position1 + offset1);
+	    points.Insert(position1 + offset2);
+	    points.Insert(position2 + offset3);
+	    points.Insert(position2 + offset4);
+		
+		// Spawn AO
+		m_manager.SpawnAO(points);
+	}
 	
 	GC_R_ObjAttackDefend GetObjective()
 	{
@@ -123,7 +250,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	{
 		Print("GC Roulette | Attacker Spawn pos found: " + m_attackerSpawn.m_position);
 		m_searching = false;
-		
+
 		FindDefenderSpawnAsync();
 	}
 	
@@ -163,11 +290,32 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		Print("GC Roulette | Defender Spawn pos found: " + m_defenderSpawn.m_position);
 		m_searching = false;
 		
-		IEntity player = GetGame().GetPlayerController().GetControlledEntity();
-		player.SetOrigin(m_defenderSpawn.m_position);
+		//IEntity player = GetGame().GetPlayerController().GetControlledEntity();
+		//player.SetOrigin(m_defenderSpawn.m_transform[3]);
 		
 		
-		m_teams[0].GetRatioElements(50);
+		GC_R_Team defender = m_teams[0];
+		array<GC_R_ElementBase> elements = defender.GetRatioElements(50);
+		vector dir = vector.Direction(m_defenderSpawn.m_position, m_attackerSpawn.m_position);
+		float yaw = dir.ToYaw();
+		
+		bool isSucessful = m_manager.SpawnTeam(m_defenderSpawn.m_position, yaw, elements);
+		if(!isSucessful)
+			return m_manager.NewScenario();
+		
+		m_manager.SpawnPrefab("{EBF90D574B9BC909}worlds/Burn0ut7/Roulette/Prefabs/DebugMarker.et", m_defenderSpawn.m_position);
+
+		GC_R_Team attacker = m_teams[1];
+		elements = attacker.GetRatioElements(50);
+		dir = vector.Direction(m_attackerSpawn.m_position, m_defenderSpawn.m_position);
+		yaw = dir.ToYaw();
+		isSucessful = m_manager.SpawnTeam(m_attackerSpawn.m_position, yaw, elements);
+		if(!isSucessful)
+			return m_manager.NewScenario();
+		
+		m_manager.SpawnPrefab("{EBF90D574B9BC909}worlds/Burn0ut7/Roulette/Prefabs/DebugMarker.et", m_attackerSpawn.m_position);
+		
+		SetupAO();
 	}
 	
 	protected void FindDefenderSpawnAsync()
@@ -258,18 +406,13 @@ class GC_R_Team
 		foreach (GC_R_Company company : m_companies)
 		{
 			array<GC_R_ElementBase> elements = company.Fill(targetPlayers, this);
-			Print("GC Roulette | GetRatio elements3" + elements);
 			foreach(GC_R_ElementBase element : elements)
 				outElements.Insert(element);
 		}
 		
-		Print("GC Roulette | GetRatio elements2" + outElements);
-		outElements = Order(outElements);
-		
 		Print("GC Roulette | GetRatio " + m_name + " - Target: " + targetPlayers + " Selected: " + m_totalPlayers);
-		Print("GC Roulette | GetRatio elements3" + outElements);
-		
-		return outElements;
+
+		return Order(outElements);
 	}
 	
     array<GC_R_ElementBase> Order(array<GC_R_ElementBase> pickedElements)
@@ -293,18 +436,9 @@ class GC_R_Team
                 }
             }
         }
-
-        foreach (GC_R_ElementBase e : pickedElements)
-        {
-            GC_R_Squad squad = GC_R_Squad.Cast(e);
-            if (!squad) 
-                continue;
-
-            GC_R_ElementBase parent = squad.GetParent();
-            if (!parent || !pickedElements.Contains(parent))
-                ordered.Insert(squad);
-        }
-
+	
+		Print("GC Roulette | GetRatio - Elements: " + ordered);
+		
         return ordered;
     }
 }
@@ -353,7 +487,6 @@ class GC_R_Company : GC_R_ElementBase
 				if(!IsCloser(finalCount, team.m_totalPlayers, target))
 					break;	
 				
-				Print("GC Roulette | CompanyFill - Count: " + Count() + " Total: " + team.m_totalPlayers);
 				elements.Insert(this);
 				team.m_totalPlayers = finalCount;
 				picked = true;
@@ -398,7 +531,6 @@ class GC_R_Platoon : GC_R_ElementBase
 			if(!IsCloser(finalCount, team.m_totalPlayers, target))
 				break;
 			
-			Print("GC Roulette | SquadFill - Count: " + squad.Count() + " Total: " + team.m_totalPlayers);
 			squads++;
 			elements.Insert(squad);
 			team.m_totalPlayers = finalCount;
@@ -408,8 +540,7 @@ class GC_R_Platoon : GC_R_ElementBase
 				finalCount = Count() + team.m_totalPlayers;
 				if(!IsCloser(finalCount, team.m_totalPlayers, target))
 					break;	
-				
-				Print("GC Roulette | PlatoonFill - Count: " + Count() + " Total: " + team.m_totalPlayers);
+
 				elements.Insert(this);
 				team.m_totalPlayers = finalCount;
 				picked = true;
@@ -447,6 +578,11 @@ class GC_R_ElementBase
 	ResourceName GetPrefab()
 	{
 		return m_prefab;
+	}
+	
+	ResourceName GetVehicle()
+	{
+		return m_vehiclePrefab;
 	}
 	
 	int Count()
@@ -587,6 +723,7 @@ class GC_R_SpawnDefender : GC_R_SpawnBase
 				return false;
 			
 			m_position = position;
+			
 			return true;
 		}
 		

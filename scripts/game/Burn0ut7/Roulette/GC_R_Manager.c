@@ -14,13 +14,16 @@ class GC_R_Manager : GameEntity
 	[Attribute(defvalue: "", UIWidgets.Object)]
     ref array<ref GC_R_Team> m_teams;	
 	
-	protected const float m_searchDistance = 250;
+	protected const static ResourceName m_AOPrefab = "{09D028F45D7163FF}worlds/Burn0ut7/Roulette/Prefabs/RouletteAO.et";
+	
+	protected const static float m_searchDistance = 250;
 	
 	protected static GC_R_Manager m_instance;
 	protected BaseWorld m_world;
 	protected float m_worldSize;
 	protected ref RandomGenerator m_random = new RandomGenerator();
 	protected ref GC_R_BaseScenario m_currentScenario;
+	protected ref array<IEntity> m_entites;
 	
 	void GC_R_Manager(IEntitySource src, IEntity parent)
 	{
@@ -41,21 +44,43 @@ class GC_R_Manager : GameEntity
 	{
 		IEntity player = GetGame().GetPlayerController().GetControlledEntity();
 		vector pos = player.GetOrigin();
+		
+		vector trans[4];
+		Math3D.MatrixIdentity4(trans);
+		
+		vector direction = vector.Direction(pos, Vector(0,0,0)).Normalized();
+		trans[2] = direction;
+		trans[3] = pos;
+		
+		vector trans2[4];
+		player.GetTransform(trans2);
+		Print("GC Roulette | trans2[0] : " + trans2[0]);
+		Print("GC Roulette | trans2[1] : " + trans2[1]);
+		Print("GC Roulette | trans2[2] : " + trans2[2]);
 
-		bool empty = IsPositionEmpty(pos, 10);
-		
-		Print("GC Roulette | empty = " + empty);
-		
-		//player.SetOrigin(pos);
+		player.SetTransform(trans);
+		player.SetWorldTransform(trans);
+		player.SetLocalTransform(trans);
+
+		Print("GC Roulette | direction : " + direction);
 	}
 	
 	void NewScenario()
 	{
+		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
+		if (gameMode.GetState() == SCR_EGameModeState.GAME)
+			return;
+		
 		GC_R_BaseScenario selected = GC_R_Helper<GC_R_BaseScenario>.RandomElementR(m_scenarios, m_random);
 		m_currentScenario = GC_R_BaseScenario.Cast(selected.Clone());
 
+
+		foreach(IEntity entity : m_entites)
+			SCR_EntityHelper.DeleteEntityAndChildren(entity);
+		
+		m_entites = {};
+		
 		Print("GC Roulette | NewScenario = " + m_currentScenario);
-	
 		m_currentScenario.Intialize();
 	}
 	
@@ -190,7 +215,7 @@ class GC_R_Manager : GameEntity
 		return buildings;
 	}
 	
-	bool FindEmptyPosition(inout vector position, float radius, float maxDistance)
+	bool FindEmptyPosition(inout vector position, float radius, float maxDistance, bool allowWater = false, float maxPitch = 15)
 	{
 		if (radius <= 0 || maxDistance <= 0)
 			return false;
@@ -224,6 +249,13 @@ class GC_R_Manager : GameEntity
 		
 					if (IsPositionEmpty(searchPos, radius))
 					{
+						if(!allowWater && SurfaceIsWater(searchPos))
+							continue;
+						
+						float pitch = GetTerrainPitch(position);
+						if(pitch > maxPitch)
+							continue;
+
 						position = searchPos;
 						return true;
 					}
@@ -245,54 +277,74 @@ class GC_R_Manager : GameEntity
 		return false;
 	}
 	
-	IEntity SpawnPrefab(ResourceName prefab, vector transform[4] = { "0 0 0", "0 0 0", "0 0 0", "0 0 0" })
+	bool SpawnTeam(vector position, float yaw, array<GC_R_ElementBase> elements)
 	{
-		EntitySpawnParams spawnParams = new EntitySpawnParams();
-		spawnParams.Transform = transform;
-		
-		return GetGame().SpawnEntityPrefab(Resource.Load(prefab), null, spawnParams);
-	}
-	
-	/*
-	bool IsSpawnSafe(vector position, notnull IEntity entity, float maxNormalDiff)
-	{
-		vector min, max;
-		entity.GetWorldBounds(min, max);
-	
-		vector points[5];
-		points[0] = position;
-		points[1] = Vector(min[0], 0, min[2]);
-		points[2] = Vector(max[0], 0, min[2]);
-		points[3] = Vector(max[0], 0, max[2]);
-		points[4] = Vector(min[0], 0, max[2]);
-	
-		vector normals[5];
-		for (int i = 0; i < points.Count(); i++)
+		foreach(GC_R_ElementBase element : elements)
 		{
-			vector tracePos = points[i];
-			tracePos[1] = position[1]; // keep Y height
-			normals[i] = GetTerrainNormal(tracePos, m_world);
-		}
-	
-		// --- Average normal
-		vector avgNormal = "0 0 0";
-		foreach (vector n : normals)
-			avgNormal += n;
-		avgNormal.Normalize();
-	
-		// --- Compare all normals to the average
-		foreach (vector n2 : normals)
-		{
-			float dot = vector.Dot(avgNormal, n2);
-			if (dot < maxNormalDiff) // dot lower → larger angle difference
+			ResourceName prefab = element.GetPrefab();
+			ResourceName vehiclePrefab = element.GetVehicle();
+			vector endPosition = position;
+			bool found = FindEmptyPosition(endPosition, 7, 300);
+			if(!found)
+			{
+				Print("GC Roulette | spawn team POS not found : " + prefab + " - Pos : " + position);
 				return false;
+			}
+
+			IEntity vehicle = SpawnPrefab(vehiclePrefab, endPosition, yaw);
+			vector min,max;
+			vehicle.GetBounds(min,max);
+			vector size = max - min;
+			
+			vector forward = vector.FromYaw(yaw);
+			vector right   = forward.Perpend();
+			
+			vector offset = vector.Zero;
+			offset += right   * (size[0] + 1);
+			offset += forward * (size[2] * 0.5);
+			endPosition += offset;
+
+			SCR_AIGroup group =  SCR_AIGroup.Cast(SpawnPrefab(prefab, endPosition, yaw));
+
+			AIFormationComponent formation = AIFormationComponent.Cast(group.FindComponent(AIFormationComponent));
+			if(formation)
+				formation.SetFormation("File");
 		}
-	
+		
 		return true;
 	}
-	*/
 	
-	vector GetTerrainNormal(inout vector position)
+	IEntity SpawnPrefab(ResourceName prefab, vector position = vector.Zero, float yaw = 0)
+	{
+		EntitySpawnParams spawnParams = new EntitySpawnParams();
+		spawnParams.Transform[3] = position;
+		
+		IEntity entity = GetGame().SpawnEntityPrefab(Resource.Load(prefab), null, spawnParams);
+
+		entity.SetYawPitchRoll(Vector(yaw,0,0));
+		
+		if(entity)
+			m_entites.Insert(entity);
+		
+		return entity;
+	}
+	
+	IEntity SpawnAO(array<vector> points)
+	{
+		IEntity entity = SpawnPrefab(m_AOPrefab);
+		
+		TILW_AOLimitComponent AOLimitComp = TILW_AOLimitComponent.Cast(entity.FindComponent(TILW_AOLimitComponent));
+		AOLimitComp.SetPoints(points);
+		
+		TILW_MapShapeComponent coverComp = TILW_MapShapeComponent.Cast(entity.FindComponent(TILW_MapShapeComponent));
+		coverComp.SetPoints3D(points);
+		
+		GetGame().GetCallqueue().CallLater(coverComp.SetPoints3D, 100, false, points);
+		
+		return entity;
+	}
+	
+	float GetTerrainPitch(inout vector position)
 	{
 		float surfaceY = m_world.GetSurfaceY(position[0], position[2]);
 		position[1] = surfaceY + 0.01;
@@ -306,7 +358,9 @@ class GC_R_Manager : GameEntity
 
 		position = vector.Lerp(param.Start, param.End, percent);
 		
-		return param.TraceNorm;
+		float pitch = Math.Acos(param.TraceNorm[1]) * Math.RAD2DEG;
+		
+		return pitch;
 	}
 	
 	bool SurfaceIsWater(vector pos)

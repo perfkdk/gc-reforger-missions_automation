@@ -30,6 +30,34 @@ GC_R_Manager {
         }
        }
       }
+      GC_R_Platoon "{6720396D9B0F4012}" {
+       m_prefab "{7E53E193D3894D09}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_PLT_HQ_P.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+        }
+       }
+      }
+      GC_R_Platoon "{6720396D9B5D0CE0}" {
+       m_prefab "{7E53E193D3894D09}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_PLT_HQ_P.et"
+       m_squads {
+        GC_R_Squad "{66AE36D01426DD59}" {
+         m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+        }
+        GC_R_Squad "{66AE36D0141DC7CB}" {
+         m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+        }
+        GC_R_Squad "{66AE36D0144CC22C}" {
+         m_prefab "{88F48844D5C43BF1}Prefabs/Groups/BLUFOR/US/Army/1986/Lt Inf (Woodland)/P/Group_US_1986_BDU_RifleSquad_M249_P.et"
+        }
+       }
+      }
      }
     }
    }
