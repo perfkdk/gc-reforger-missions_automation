@@ -166,9 +166,6 @@ $grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
   }
   coords 3053.448 206.85 4790.212
   angles 0 173.159 0
-  m_aUnitPrefabSlots +{
-   "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
-  }
  }
  plt2sq3 {
   components {
@@ -178,9 +175,6 @@ $grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
   }
   coords 2979.991 210.504 4806.162
   angles 0 177.432 0
-  m_aUnitPrefabSlots +{
-   "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
-  }
  }
  plt2sq2 {
   components {
@@ -190,9 +184,6 @@ $grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
   }
   coords 2980.327 208.725 4795.799
   angles 0 173.667 0
-  m_aUnitPrefabSlots +{
-   "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
-  }
  }
  plt2sq1 {
   components {
@@ -202,9 +193,6 @@ $grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
   }
   coords 2981.941 206.953 4784.083
   angles 0 173.159 0
-  m_aUnitPrefabSlots +{
-   "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
-  }
  }
  plt1sq3 {
   components {
@@ -214,9 +202,6 @@ $grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
   }
   coords 3051.499 209.739 4812.289
   angles 0 177.432 0
-  m_aUnitPrefabSlots +{
-   "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
-  }
  }
  plt1sq2 {
   components {
@@ -226,9 +211,6 @@ $grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
   }
   coords 3052.788 208.343 4802.033
   angles 0 173.667 0
-  m_aUnitPrefabSlots +{
-   "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
-  }
  }
 }
 SCR_AIGroup chq : "{EF9B0C908458D07E}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_CHQ_P.et" {
