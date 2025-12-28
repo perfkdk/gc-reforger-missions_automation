@@ -8,25 +8,31 @@ class GC_R_BaseScenario : Managed
 [BaseContainerProps(), BaseContainerCustomTitleField("Attack and Defend")]
 class GC_R_AttackDefend: GC_R_BaseScenario
 {
-	[Attribute(defvalue: "50", uiwidget: UIWidgets.CheckBox, desc: "Amount of buildings needed in the ", category: "Objective")]
+	[Attribute(defvalue: "", uiwidget: UIWidgets.Auto, desc: "Name of scenario refereced in the briefing")]
+    protected string m_scenarioName;
+	
+	[Attribute(defvalue: "50", uiwidget: UIWidgets.Auto, desc: "Size of nearby building search", category: "Objective")]
     protected float m_buildingSearchSize;
 	
-	[Attribute(defvalue: "10", uiwidget: UIWidgets.CheckBox, desc: "Amount of buildings needed in Building Search Size", category: "Objective")]
+	[Attribute(defvalue: "10", uiwidget: UIWidgets.Auto, desc: "Amount of buildings needed in Building Search Size", category: "Objective")]
     protected int m_minbuildingCount;
 	
 	[Attribute(defvalue: "", uiwidget: UIWidgets.ResourceNamePicker, desc: "Blacklist building prefab or kind", category: "Objective")]
     protected ref array<ResourceName> m_buildingBlackList;
 	
+	[Attribute(defvalue: "{FE585088FB849703}worlds/Burn0ut7/Roulette/Prefabs/RouletteCaptureArea.et", uiwidget: UIWidgets.Auto, desc: "Prefab to spawn for the objective", category: "Objective")]
+    protected ResourceName m_objectivePrefab;
+	
 	[Attribute(defvalue: "", uiwidget: UIWidgets.Auto, desc: "Blacklist building of same name", category: "Objective")]
     protected ref array<string> m_buildingBlackListWords;
 	
-	[Attribute(defvalue: "1000", uiwidget: UIWidgets.CheckBox, desc: "AO width size in meters", category: "AO")]
+	[Attribute(defvalue: "1000", uiwidget: UIWidgets.Auto, desc: "AO width size in meters", category: "AO")]
     protected int m_width;
 	
-	[Attribute(defvalue: "2000", uiwidget: UIWidgets.CheckBox, desc: "Min size of AO in meters", category: "AO")]
+	[Attribute(defvalue: "2000", uiwidget: UIWidgets.Auto, desc: "Min size of AO in meters", category: "AO")]
     protected int m_minAOSize;
 	
-	[Attribute(defvalue: "5000", uiwidget: UIWidgets.CheckBox, desc: "Max size of AO in meters", category: "AO")]
+	[Attribute(defvalue: "5000", uiwidget: UIWidgets.Auto, desc: "Max size of AO in meters", category: "AO")]
     protected int m_maxAOSize;
 	
 	protected int m_searchAttempts;
@@ -59,10 +65,9 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	
 	void SetupOBJ()
 	{
-		ResourceName capturePrefab = "{FE585088FB849703}worlds/Burn0ut7/Roulette/Prefabs/RouletteCaptureArea.et";
 		vector position = m_objective.building.GetOrigin();
 		
-		TILW_FactionTriggerEntity objective = TILW_FactionTriggerEntity.Cast(m_manager.SpawnPrefab(capturePrefab, position));
+		TILW_FactionTriggerEntity objective = TILW_FactionTriggerEntity.Cast(m_manager.SpawnPrefab(m_objectivePrefab, position));
 		vector min,max;
 		m_objective.building.GetBounds(min,max);
 		vector size = max - min;
@@ -161,7 +166,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		array<vector> points = new array<vector>;
 		
 		vector position1 = m_attackerSpawn.m_position;
-		vector position2 = m_defenderSpawn.m_position;
+		vector position2 = m_objective.building.GetOrigin();
 
 		vector direction = vector.Direction(position1, position2).Normalized();
 
@@ -207,9 +212,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		marker.SetImageSet(defenders.GetFactionFlag());
 		marker.SetAngles({0, 90, 0});
 		marker.SetSize(40);
-		
-		Print("GC Roulette | defender flag = " + defenders.GetFactionFlag());
-		
+
 		// Attackers
 		SCR_Faction attackers = SCR_Faction.Cast(fm.GetFactionByKey(m_teams[1].GetFaction()));
 		marker = PS_ManualMarker.Cast(m_manager.SpawnPrefab(prefab, m_attackerSpawn.m_position));
@@ -217,8 +220,6 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		marker.SetImageSet(attackers.GetFactionFlag());
 		marker.SetAngles({0, 90, 0});
 		marker.SetSize(40);
-		
-		Print("GC Roulette | attackers flag = " + attackers.GetFactionFlag());
 	}
 
 	GC_R_ObjAttackDefend GetObjective()
@@ -327,10 +328,6 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		Print("GC Roulette | Defender Spawn pos found: " + m_defenderSpawn.m_position);
 		m_searching = false;
 		
-		//IEntity player = GetGame().GetPlayerController().GetControlledEntity();
-		//player.SetOrigin(m_defenderSpawn.m_transform[3]);
-		
-		
 		GC_R_Team defender = m_teams[0];
 		array<GC_R_ElementBase> elements = defender.GetRatioElements(50);
 		vector dir = vector.Direction(m_defenderSpawn.m_position, m_attackerSpawn.m_position);
@@ -338,7 +335,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		
 		bool isSucessful = m_manager.SpawnTeam(m_defenderSpawn.m_position, yaw, elements);
 		if(!isSucessful)
-			return m_manager.NewScenario();
+			return m_manager.Reroll();
 		
 		GC_R_Team attacker = m_teams[1];
 		elements = attacker.GetRatioElements(50);
@@ -346,10 +343,11 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		yaw = dir.ToYaw();
 		isSucessful = m_manager.SpawnTeam(m_attackerSpawn.m_position, yaw, elements);
 		if(!isSucessful)
-			return m_manager.NewScenario();
+			return m_manager.Reroll();
 		
 		SetupAO();
 		SetupMarkers();
+		m_manager.ResetMapMenu();
 	}
 	
 	protected void FindDefenderSpawnAsync()
@@ -819,7 +817,7 @@ class GC_R_PhysQuery : GC_R_BaseQuery
 		
 		if(!entity.GetPhysics())
 			return true;
-
+		
 		m_found = true;
 		
 		return false;

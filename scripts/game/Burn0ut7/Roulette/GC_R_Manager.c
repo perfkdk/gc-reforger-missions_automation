@@ -35,9 +35,13 @@ class GC_R_Manager : GameEntity
 
 	override protected void EOnInit(IEntity owner)
 	{
-		Intialize();
+		ClientIntialize();
 		
-		GetGame().GetInputManager().AddActionListener("CharacterMelee", EActionTrigger.DOWN, TestM);
+		RplComponent rpl = RplComponent.Cast(owner.FindComponent(RplComponent));
+		if (!rpl || rpl.Role() != RplRole.Authority)
+			return;
+		
+		Intialize();
 	}
 	
 	void TestM()
@@ -45,24 +49,9 @@ class GC_R_Manager : GameEntity
 		IEntity player = GetGame().GetPlayerController().GetControlledEntity();
 		vector pos = player.GetOrigin();
 		
-		vector trans[4];
-		Math3D.MatrixIdentity4(trans);
-		
-		vector direction = vector.Direction(pos, Vector(0,0,0)).Normalized();
-		trans[2] = direction;
-		trans[3] = pos;
-		
-		vector trans2[4];
-		player.GetTransform(trans2);
-		Print("GC Roulette | trans2[0] : " + trans2[0]);
-		Print("GC Roulette | trans2[1] : " + trans2[1]);
-		Print("GC Roulette | trans2[2] : " + trans2[2]);
+		bool result = IsPositionEmpty(pos, 10);
 
-		player.SetTransform(trans);
-		player.SetWorldTransform(trans);
-		player.SetLocalTransform(trans);
-
-		Print("GC Roulette | direction : " + direction);
+		Print("GC Roulette | IsPositionEmpty : " + result);
 	}
 	
 	void NewScenario()
@@ -82,6 +71,12 @@ class GC_R_Manager : GameEntity
 		
 		Print("GC Roulette | NewScenario = " + m_currentScenario);
 		m_currentScenario.Intialize();
+	}
+	
+	protected void ClientIntialize()
+	{
+		Print("GC Roulette | ClientIntialize");
+		GetGame().GetInputManager().AddActionListener("CharacterMelee", EActionTrigger.DOWN, TestM);
 	}
 	
 	protected void Intialize()
@@ -279,39 +274,67 @@ class GC_R_Manager : GameEntity
 	
 	bool SpawnTeam(vector position, float yaw, array<GC_R_ElementBase> elements)
 	{
+		array<IEntity> tempEntities = {};
+		bool found;
+		
 		foreach(GC_R_ElementBase element : elements)
 		{
 			ResourceName prefab = element.GetPrefab();
 			ResourceName vehiclePrefab = element.GetVehicle();
 			vector endPosition = position;
-			bool found = FindEmptyPosition(endPosition, 7, 300);
-			if(!found)
+			
+			if(vehiclePrefab)
 			{
-				Print("GC Roulette | spawn team POS not found : " + prefab + " - Pos : " + position);
-				return false;
+				found = FindEmptyPosition(endPosition, 5, 300);
+				if(!found)
+				{
+					Print("GC Roulette | spawn team POS not found : " + prefab + " - Pos : " + position);
+					break;
+				}
+	
+				IEntity vehicle = SpawnPrefab(vehiclePrefab, endPosition, yaw);
+				vehicle.Update();
+				
+				vector min,max;
+				vehicle.GetBounds(min,max);
+				
+				vector size = max - min;
+
+				vector forward = vector.FromYaw(yaw);
+				vector right   = vector.FromYaw(yaw + 90);
+
+				vector offset = vector.Zero;
+				offset += right * (size[0] + 1);
+				offset += forward * (size[2] * 0.5);
+				
+				endPosition += offset;
+			}else{
+				float searchSize = element.Count() / 2;
+				found = FindEmptyPosition(endPosition, searchSize, 300, false, 30);
+				if(!found)
+				{
+					Print("GC Roulette | spawn team POS not found : " + prefab + " - Pos : " + position);
+					break;
+				}
 			}
-
-			IEntity vehicle = SpawnPrefab(vehiclePrefab, endPosition, yaw);
-			vector min,max;
-			vehicle.GetBounds(min,max);
-			vector size = max - min;
 			
-			vector forward = vector.FromYaw(yaw);
-			vector right   = forward.Perpend();
-			
-			vector offset = vector.Zero;
-			offset += right   * (size[0] + 1);
-			offset += forward * (size[2] * 0.5);
-			endPosition += offset;
-
 			SCR_AIGroup group =  SCR_AIGroup.Cast(SpawnPrefab(prefab, endPosition, yaw));
-
+			
 			AIFormationComponent formation = AIFormationComponent.Cast(group.FindComponent(AIFormationComponent));
 			if(formation)
 				formation.SetFormation("File");
+			
+			ResourceName cone = "{25C8B889A777399D}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red.et";
+			EntitySpawnParams spawnParams = new EntitySpawnParams();
+			spawnParams.Transform[3] = endPosition;
+			IEntity tempEntity = GetGame().SpawnEntityPrefab(Resource.Load(cone), null, spawnParams);
+			tempEntities.Insert(tempEntity);
 		}
 		
-		return true;
+		foreach(IEntity entity : tempEntities)
+			SCR_EntityHelper.DeleteEntityAndChildren(entity);
+		
+		return found;
 	}
 	
 	IEntity SpawnPrefab(ResourceName prefab, vector position = vector.Zero, float yaw = 0)
@@ -472,5 +495,17 @@ class GC_R_Manager : GameEntity
 	
 		hours24 = Math.Clamp(hours24, 0.0, 24.0);
 		manager.SetTimeOfTheDay(hours24, true);
+	}
+	
+	void ResetMapMenu()
+	{
+		RPC_ResetMapMenu();
+		Rpc(RPC_ResetMapMenu);
+	}
+	
+	[RplRpc(RplChannel.Reliable, RplRcver.Broadcast)]
+	protected void RPC_ResetMapMenu()
+	{
+		GetGame().GetMenuManager().OpenMenu(ChimeraMenuPreset.PreviewMapMenu);
 	}
 }

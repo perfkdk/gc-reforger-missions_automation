@@ -31,6 +31,11 @@ PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/Ed
  m_iOrder 10
 }
 GC_R_Manager : "{6E2C9E0BE9F314EC}worlds/Burn0ut7/Roulette/Prefabs/RouletteManager.et" {
+ components {
+  RplComponent "{6737700A9BA3B352}" {
+   Streamable Disabled
+  }
+ }
  coords 5360.158 81.551 6297.392
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {

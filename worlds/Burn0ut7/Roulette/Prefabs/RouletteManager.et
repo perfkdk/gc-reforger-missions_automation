@@ -3,6 +3,7 @@ GC_R_Manager {
  coords 5369.727 82.566 6285.249
  m_scenarios {
   GC_R_AttackDefend "{66AB7A7085BCF79D}" {
+   m_scenarioName "Cold War Attack and Defend"
    m_buildingBlackListWords {
     "DeerStands" "Shed" "Calvaries" "Greenhouse" "Piers" "Wall" "Cemeteries" "SeaBollards" "GateCollective" "Henhouse" "Hotbed" "Wall" "Power/Utility" "Bridge" "Industrial/Containers/" "Davits" "Stairs" "Waterworks" "Ruins/HouseRuin_01/"
    }
@@ -81,11 +82,11 @@ GC_R_Manager {
    m_companies {
     GC_R_Company "{66AE36D01DEA08E6}" {
      m_prefab "{8E4BE6AA99B15919}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_CoyHQ_P.et"
-     m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+     m_vehiclePrefab ""
      m_platoons {
       GC_R_Platoon "{66AE36D6BD434E99}" {
        m_prefab "{C724911C8224C5EF}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_PHQ_P.et"
-       m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+       m_vehiclePrefab ""
        m_squads {
         GC_R_Squad "{66AE36D01426DD59}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
@@ -103,7 +104,7 @@ GC_R_Manager {
       }
       GC_R_Platoon "{671E22BD318610F2}" {
        m_prefab "{C724911C8224C5EF}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_PHQ_P.et"
-       m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+       m_vehiclePrefab ""
        m_squads {
         GC_R_Squad "{66AE36D01426DD59}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
@@ -121,7 +122,7 @@ GC_R_Manager {
       }
       GC_R_Platoon "{671E22BD31C9EDBE}" {
        m_prefab "{C724911C8224C5EF}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_PHQ_P.et"
-       m_vehiclePrefab "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+       m_vehiclePrefab ""
        m_squads {
         GC_R_Squad "{66AE36D01426DD59}" {
          m_prefab "{953055A03391C1B2}Prefabs/Groups/OPFOR/Russia/1980s/Airborne 1983/P/Group_USSR_VDV_Squad_P.et"
