@@ -18,7 +18,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "2 min capture timer on the trenches, 5 min capture timer on the town."\
   "Retaking objectives is not possible. "\
-  "Dawn is in 15 minutes, please keep time as is."
+  ""\
+  "All sides take note: there will be 15 minutes of darkness until the sun rises, keep this in mind when route planning."
   m_bEmptyFactionVisibility 1
   m_iOrder 1
  }
