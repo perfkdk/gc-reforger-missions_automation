@@ -30,7 +30,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
      m_briefingDescription "Capture the HVT"
      m_markerPrefab "{A7D20E8743A78B4E}worlds/Wade/TheLocalFiles/Objective_Marker_Lunchyyy.et"
      m_briefingPrefab ""
-     m_updateDelay 300
+     m_updateDelay 600
     }
    }
   }
@@ -53,10 +53,10 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  coords 3061.744 2.762 1734.644
- m_iFreezeTime 180000
+ m_iFreezeTime 300000
  m_eJIPState Deny
  {
-  SCR_FactionManager {
+  SCR_FactionManager "673A25C2F7430F47" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
