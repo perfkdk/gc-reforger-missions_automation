@@ -14,7 +14,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	[Attribute(defvalue: "50", uiwidget: UIWidgets.Auto, desc: "Size of nearby building search", category: "Objective")]
     protected float m_buildingSearchSize;
 	
-	[Attribute(defvalue: "10", uiwidget: UIWidgets.Auto, desc: "Amount of buildings needed in Building Search Size", category: "Objective")]
+	[Attribute(defvalue: "5", uiwidget: UIWidgets.Auto, desc: "Amount of buildings needed in Building Search Size", category: "Objective")]
     protected int m_minbuildingCount;
 	
 	[Attribute(defvalue: "", uiwidget: UIWidgets.ResourceNamePicker, desc: "Blacklist building prefab or kind", category: "Objective")]
@@ -39,8 +39,6 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	
 	protected GC_R_Manager m_manager;
 	protected ref GC_R_ObjAttackDefend m_objective;
-	protected ref GC_R_SpawnAttacker m_attackerSpawn;
-	protected ref GC_R_SpawnDefender m_defenderSpawn;
 	
 	ref array<ref GC_R_Team> m_teams = {};
 	
@@ -165,7 +163,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	{
 		array<vector> points = new array<vector>;
 		
-		vector position1 = m_attackerSpawn.m_position;
+		vector position1 = m_teams[1].m_spawn.m_position;
 		vector position2 = m_objective.building.GetOrigin();
 
 		vector direction = vector.Direction(position1, position2).Normalized();
@@ -207,7 +205,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		
 		// Defenders
 		SCR_Faction defenders = SCR_Faction.Cast(fm.GetFactionByKey(m_teams[0].GetFaction()));
-		marker = PS_ManualMarker.Cast(m_manager.SpawnPrefab(prefab, m_defenderSpawn.m_position));
+		marker = PS_ManualMarker.Cast(m_manager.SpawnPrefab(prefab, m_teams[0].m_spawn.m_position));
 		marker.SetUseWorldScale(false);
 		marker.SetImageSet(defenders.GetFactionFlag());
 		marker.SetAngles({0, 90, 0});
@@ -215,7 +213,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 
 		// Attackers
 		SCR_Faction attackers = SCR_Faction.Cast(fm.GetFactionByKey(m_teams[1].GetFaction()));
-		marker = PS_ManualMarker.Cast(m_manager.SpawnPrefab(prefab, m_attackerSpawn.m_position));
+		marker = PS_ManualMarker.Cast(m_manager.SpawnPrefab(prefab, m_teams[1].m_spawn.m_position));
 		marker.SetUseWorldScale(false);
 		marker.SetImageSet(attackers.GetFactionFlag());
 		marker.SetAngles({0, 90, 0});
@@ -286,7 +284,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	
 	protected void AttackerSpawnFound()
 	{
-		Print("GC Roulette | Attacker Spawn pos found: " + m_attackerSpawn.m_position);
+		Print("GC Roulette | Attacker Spawn pos found: " + m_teams[1].m_spawn.m_position);
 		m_searching = false;
 
 		FindDefenderSpawnAsync();
@@ -299,21 +297,20 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 			return;
 		
 		m_searching = true;
-		
-		m_attackerSpawn = new GC_R_SpawnAttacker();
-		m_attackerSpawn.m_scenario = this;
-		m_attackerSpawn.m_searchCount = 100;
+		m_teams[1].m_spawn = new GC_R_SpawnAttacker();
+		m_teams[1].m_spawn.m_scenario = this;
+		m_teams[1].m_spawn.m_searchCount = 100;
 
 		GetGame().GetCallqueue().CallLater(FindAttackerSpawn, 1, false);
 	}
 	
 	protected void FindAttackerSpawn()
 	{
-		bool found = m_attackerSpawn.GetSpawn();
+		bool found = m_teams[1].m_spawn.GetSpawn();
 		if(found)
 			return AttackerSpawnFound();
 		
-		if(m_attackerSpawn.m_searchCount <= 0)
+		if(m_teams[1].m_spawn.m_searchCount <= 0)
 		{
 			Print("GC Roulette | No attacker spawn found");
 			m_manager.Reroll();
@@ -325,23 +322,23 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	
 	protected void DefenderSpawnFound()
 	{
-		Print("GC Roulette | Defender Spawn pos found: " + m_defenderSpawn.m_position);
+		Print("GC Roulette | Defender Spawn pos found: " + m_teams[0].m_spawn.m_position);
 		m_searching = false;
 		
 		GC_R_Team defender = m_teams[0];
 		array<GC_R_ElementBase> elements = defender.GetRatioElements(50);
-		vector dir = vector.Direction(m_defenderSpawn.m_position, m_attackerSpawn.m_position);
+		vector dir = vector.Direction(m_teams[0].m_spawn.m_position, m_teams[1].m_spawn.m_position);
 		float yaw = dir.ToYaw();
 		
-		bool isSucessful = m_manager.SpawnTeam(m_defenderSpawn.m_position, yaw, elements);
+		bool isSucessful = m_manager.SpawnTeam(m_teams[0].m_spawn.m_position, yaw, elements);
 		if(!isSucessful)
 			return m_manager.Reroll();
 		
 		GC_R_Team attacker = m_teams[1];
 		elements = attacker.GetRatioElements(50);
-		dir = vector.Direction(m_attackerSpawn.m_position, m_defenderSpawn.m_position);
+		dir = vector.Direction(m_teams[1].m_spawn.m_position, m_teams[0].m_spawn.m_position);
 		yaw = dir.ToYaw();
-		isSucessful = m_manager.SpawnTeam(m_attackerSpawn.m_position, yaw, elements);
+		isSucessful = m_manager.SpawnTeam(m_teams[1].m_spawn.m_position, yaw, elements);
 		if(!isSucessful)
 			return m_manager.Reroll();
 		
@@ -358,20 +355,20 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		
 		m_searching = true;
 		
-		m_defenderSpawn = new GC_R_SpawnDefender();
-		m_defenderSpawn.m_scenario = this;
-		m_defenderSpawn.m_searchCount = 100;
-
+		m_teams[0].m_spawn = new GC_R_SpawnAttacker();
+		m_teams[0].m_spawn.m_scenario = this;
+		m_teams[0].m_spawn.m_searchCount = 100;
+		
 		GetGame().GetCallqueue().CallLater(FindDefenderSpawn, 1, false);
 	}
 	
 	protected void FindDefenderSpawn()
 	{
-		bool found = m_defenderSpawn.GetSpawn();
+		bool found = m_teams[0].m_spawn.GetSpawn();
 		if(found)
 			return DefenderSpawnFound();
 		
-		if(m_defenderSpawn.m_searchCount <= 0)
+		if(m_teams[0].m_spawn.m_searchCount <= 0)
 		{
 			Print("GC Roulette | No defender spawn found");
 			m_manager.Reroll();
@@ -404,6 +401,8 @@ class GC_R_Team
     protected ref array<ref GC_R_Company> m_companies;
 	
 	int m_totalPlayers = 0;
+	
+	ref GC_R_SpawnBase m_spawn;
 	
 	string GetName() { return m_name; }
 	

@@ -25,6 +25,8 @@ class GC_R_Manager : GameEntity
 	protected ref GC_R_BaseScenario m_currentScenario;
 	protected ref array<IEntity> m_entites;
 	
+	protected int m_seed;
+	
 	void GC_R_Manager(IEntitySource src, IEntity parent)
 	{
 		if(!GetGame().InPlayMode())
@@ -35,6 +37,9 @@ class GC_R_Manager : GameEntity
 
 	override protected void EOnInit(IEntity owner)
 	{
+		if(!GetGame().InPlayMode())
+			return;
+		
 		ClientIntialize();
 		
 		RplComponent rpl = RplComponent.Cast(owner.FindComponent(RplComponent));
@@ -76,6 +81,7 @@ class GC_R_Manager : GameEntity
 	protected void ClientIntialize()
 	{
 		Print("GC Roulette | ClientIntialize");
+		InitCommands();
 		GetGame().GetInputManager().AddActionListener("CharacterMelee", EActionTrigger.DOWN, TestM);
 	}
 	
@@ -309,7 +315,7 @@ class GC_R_Manager : GameEntity
 				
 				endPosition += offset;
 			}else{
-				float searchSize = element.Count() / 2;
+				float searchSize = element.Count();
 				found = FindEmptyPosition(endPosition, searchSize, 300, false, 30);
 				if(!found)
 				{
@@ -327,7 +333,7 @@ class GC_R_Manager : GameEntity
 			ResourceName cone = "{25C8B889A777399D}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red.et";
 			EntitySpawnParams spawnParams = new EntitySpawnParams();
 			spawnParams.Transform[3] = endPosition;
-			IEntity tempEntity = GetGame().SpawnEntityPrefab(Resource.Load(cone), null, spawnParams);
+			IEntity tempEntity = GetGame().SpawnEntityPrefabLocal(Resource.Load(cone), null, spawnParams);
 			tempEntities.Insert(tempEntity);
 		}
 		
@@ -415,7 +421,7 @@ class GC_R_Manager : GameEntity
 		{
 			int t = System.GetUnixTime();
 			int tc = System.GetTickCount();
-			int r = Math.RandomInt(0, 999999);
+			int r = Math.RandomInt(int.MIN, int.MAX);
 	
 			// Mix bits to avoid predictable correlation
 			seed = t ^ (tc << 16) ^ (r << 1);
@@ -425,6 +431,7 @@ class GC_R_Manager : GameEntity
 		}
 		
 		m_random.SetSeed(seed);
+		m_seed = seed;
 		Print("GC Roulette | Seed = " + seed);
 	}
 	
@@ -497,6 +504,70 @@ class GC_R_Manager : GameEntity
 		manager.SetTimeOfTheDay(hours24, true);
 	}
 	
+	protected void InitCommands()
+	{
+	    SCR_ChatPanelManager chatPanelManager = SCR_ChatPanelManager.GetInstance();
+	    if (!chatPanelManager)
+	        return;
+	    chatPanelManager.GetCommandInvoker("seed").Insert(ClientSeed);
+	    chatPanelManager.GetCommandInvoker("reroll").Insert(ClientReroll);
+	}
+	
+	void InvokeCommand(SCR_PlayerController pc, string command, string data)
+	{
+		switch (command)
+		{
+			case "seed":
+				return CommandSeed(pc, command, data);
+			case "reroll":
+				return CommandReroll(pc, command, data);
+		}
+	}
+
+	protected void ClientSeed(SCR_ChatPanel panel, string data)
+	{
+		SCR_PlayerController pc = SCR_PlayerController.Cast(GetGame().GetPlayerController());
+		if (!pc)
+			return;
+		
+		pc.SendCommandServer("seed", "")
+	}
+	
+	protected void CommandSeed(SCR_PlayerController pc, string command, string data)
+	{
+		string msg = "Seed: " + m_seed.ToString();
+		pc.SendChatMsg(msg);
+	}
+	
+	protected void ClientReroll(SCR_ChatPanel panel, string data)
+	{
+		SCR_PlayerController pc = SCR_PlayerController.Cast(GetGame().GetPlayerController());
+		if (!pc)
+			return;
+		
+		pc.SendCommandServer("reroll", data)
+	}
+	
+	protected void CommandReroll(SCR_PlayerController pc, string command, string data)
+	{
+		if (!SCR_Global.IsAdmin(pc.GetPlayerId()))
+			return pc.SendChatMsg("Unable to complete command - Not admin");
+		
+		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
+		if (gameMode.GetState() == SCR_EGameModeState.GAME)
+			return pc.SendChatMsg("Unable to complete command - Game already started");
+		
+		pc.SendChatMsg("Rerolling, please wait ...");
+		
+		int seed = data.ToInt();
+		if(seed)
+			SetSeed(seed);
+		else
+			SetSeed();
+		
+		NewScenario();
+	}
+
 	void ResetMapMenu()
 	{
 		RPC_ResetMapMenu();

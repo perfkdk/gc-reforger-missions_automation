@@ -1,15 +1,16 @@
 Needs:
 Ratioing player counters. Do if rerolled
 Random weather and time
-Admin commands
-No vehicle spawning
 briefing
 get bound size before vehicle spawn
+m113 brakes working
+fix AO deleting
 
 Wants:
 More ORBATs
-strength based ratio
 AI briefing?
 more scenarios
 determine AO type: IE Air, Water, Ground
 adjust AO size? based on ratio?
+teams specify attack and defend parameter
+More Admin commands?
