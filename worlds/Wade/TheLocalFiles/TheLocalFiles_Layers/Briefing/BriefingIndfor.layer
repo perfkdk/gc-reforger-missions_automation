@@ -4,6 +4,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Situation"
   m_sTextData "TELL THE HVT TO PICK UP THE RED FOLDER WHEN YOU START. DO NOT LET HIM DROP IT."\
   ""\
+  "You are NOT bound by any setup or briefing timer."\
+  ""\
   "Enemy Forces"\
   "Two rival contracted military teams are operating in the AO with the sole objective of capturing and extracting the HVT (Lunchyyy)."\
   "These forces are well-equipped, mobile, and may engage each other if it supports HVT capture."\
@@ -37,6 +39,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 7302.504 5.312 4234.995
   m_sTitle "Mission"
   m_sTextData "TELL THE HVT TO PICK UP THE RED FOLDER WHEN YOU START. DO NOT LET HIM DROP IT."\
+  ""\
+  "You are NOT bound by any setup or briefing timer."\
   ""\
   "Your team will protect the HVT from capture and prevent his extraction for as long as possible."\
   ""\

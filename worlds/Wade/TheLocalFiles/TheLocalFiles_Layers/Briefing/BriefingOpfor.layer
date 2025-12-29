@@ -57,7 +57,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Create your own frequencies, challenge and password, brevity terms, flare signals, etc.."\
   ""\
-  "Ideally you should have PLT net, Air net, and Emergency net established with phrases to use to switch channels."
+  "Ideally you should have PLT net, Air net, and Emergency net established with phrases to use to switch channels."\
+  ""\
+  "Callsigns:"\
+  "230"\
+  "231"\
+  "232"\
+  ""\
+  "Aurora 1, 2, 3."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
