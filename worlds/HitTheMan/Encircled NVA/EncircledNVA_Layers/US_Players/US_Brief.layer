@@ -1,0 +1,180 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 5770.644 101.329 10124.732
+  m_sTitle "IV. Sustainment:"
+  m_sTextData "I. SOP Variations"\
+  "None."\
+  ""\
+  "II. Logistical Support:"\
+  "Crate contains"\
+  "20x Blasting Machine M34"\
+  "50x Demoblocks M112"\
+  ""\
+  "III. Medical:"\
+  "None."\
+  ""\
+  "IV. Vehicles:"\
+  "None."
+  m_aVisibleForFactions {
+   "GC_CAF"
+  }
+  m_iOrder 6
+ }
+ {
+  coords 5771.033 101.263 10125.119
+  m_sTitle "V. Command & Signals:"
+  m_sTextData "I. Chain of Command:"\
+  "11 Sunray, 11 Sunray Minor, 11, 12, etc etc"\
+  ""\
+  "II. Callsigns:"\
+  "Platoon - 11"\
+  "Platoon OC 	- 11 Sunray"\
+  "Platoon 2iC 	- 11 Sunray Minor"\
+  ""\
+  "1st Section 		- 11 Alpha"\
+  "2nd Section 		- 11 Bravo"\
+  "3rd Section 		- 11 Charlie"\
+  "Weapon Section	- 11 Whisky"\
+  ""\
+  "III. Frequencies:"\
+  "Platoon Net		- 48.00 MHz"
+  m_aVisibleForFactions {
+   "GC_CAF"
+  }
+  m_iOrder 7
+ }
+ {
+  coords 5770.494 101.256 10124.764
+  m_sTitle "III. Execution:"
+  m_sTextData "Intent:"\
+  "Secure the compound while establishing a secure path into the compound."\
+  ""\
+  "1. Concept of the Operation:"\
+  "Platoon Commander's Discretion."\
+  ""\
+  "2. Maneuver"\
+  "Platoon Commander's Discretion."\
+  ""
+  m_aVisibleForFactions {
+   "GC_CAF"
+  }
+  m_iOrder 5
+ }
+ {
+  coords 5769.267 101.215 10124.983
+  m_sTitle "A. Enemy Forces:"
+  m_sTextData "Equipment:"\
+  "NVA are equipped with their standard WARSAW Pact weaponry, AK series, RPKs, etc"\
+  "Wearing tan coloured uniform & green/tan helmets."\
+  ""\
+  "Known Strength:"\
+  "1x Light Infantry Platoon (-)"\
+  ""\
+  "Location: "\
+  "At the marked compound"\
+  ""\
+  "MLCOA:"\
+  "Engage us during our movement across the open before pulling back into the compound building itself"\
+  ""\
+  "MDCOA:"\
+  "Engage us during our movement across the open before pulling back, utilize the potential maze like interior to hinder our overwhelming numbers"\
+  ""\
+  "CBRN Threat:"\
+  "No known threat at this time."
+  m_aVisibleForFactions {
+   "GC_CAF"
+  }
+  m_iOrder 2
+ }
+ {
+  coords 5769.826 101.231 10124.987
+  m_sTitle "B. Friendly Forces:"
+  m_sTextData "Disposition:"\
+  "Battalion is north waiting for results from our operation"\
+  ""\
+  "Higher Units Mission:"\
+  "Figure out what is going on at Woody's Horse Track"\
+  ""\
+  "Composition:"\
+  "1x Rifle Platoons"\
+  ""\
+  "Strength:"\
+  "33x Man strong"\
+  ""\
+  "Supporting Fires:"\
+  "None."\
+  ""\
+  "Attachments/Detachments:"\
+  "None... "
+  m_aVisibleForFactions {
+   "GC_CAF"
+  }
+  m_iOrder 3
+ }
+ {
+  coords 5770.217 101.246 10124.798
+  m_sTitle "II. Mission:"
+  m_sTextData "Secure the compound and the building within it, eliminate the remaining NVA Forces."\
+  ""\
+  "Teleportation notes:"\
+  "- West is the most difficult (For added challenge & time)"\
+  "- North & East are the more easier routes & time to establish"\
+  "- South is a medium challenge, buildings to utilize to bound up."\
+  ""\
+  "Utilize Demoblocks to blow up any established sandbags blocking or hindering the path"
+  m_aVisibleForFactions {
+   "GC_CAF"
+  }
+  m_iOrder 4
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{C7A59DCCFF7BF19F}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Base.et" {
+ {
+  coords 6089.81 0.677 5348.036
+  angles 0 32.796 0
+ }
+ {
+  coords 6051.283 0.453 5295.267
+  angles 0 -57.385 0
+ }
+ {
+  coords 6094.014 0.728 5269.051
+  angles 0 -57.385 0
+ }
+ {
+  coords 6140.831 1.905 5307.156
+  angles 0 -57.385 0
+ }
+}
+GenericEntity : "{CD62E36CFDCB8FD8}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Equipment_01_USSR.et" {
+ components {
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{671081EA641B09AB}" {
+     SlotTemplate InventoryStorageSlot Sandbags {
+      Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{671081EAD9EEB1FD}" {
+     SlotTemplate InventoryStorageSlot Sandbags {
+      Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+     }
+     NumSlots 50
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
+ }
+ coords 6981.191 62.018 4800.11
+ angles 0 -59.859 0
+}

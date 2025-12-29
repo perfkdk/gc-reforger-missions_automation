@@ -9,11 +9,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "US Platoon conducting a delaying action to allow the rest of the company to retreat and fortify fallback positions further west. "\
   "Estimated required delay: 35 minutes."\
   ""\
-  "Pre-Slotting: This team need a least 3 people in Construction/Logistics Squad."\
+  "Pre-Slotting: This team need a least 3 people in Construction/Logistics Squad and know how to build up the Sandbags walls and Tripod."\
   ""\
   "TL: 45 minutes"\
   "Mission by Hot Mic"\
   "Fun Fact: This is Hot Mic's 3rd Mission. Please thanks Haesten for an idea for the lore/settings and general assistant."
+  m_aVisibleForFactions {
+   "US"
+  }
   m_bEmptyFactionVisibility 1
  }
  {
@@ -53,7 +56,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 6511.931 96.656 1269.014
   m_sTitle "Execution "
   m_sTextData "Commander’s Intent:"\
-  "Deny Soviet forces rapid movement through the AO by leveraging choke points and delaying actions at Defense Points Alpha, Beta, and Charlie. Use terrain, and fortifications."
+  "Deny Soviet forces rapid movement through the AO by leveraging choke points and delaying actions at Defense Points Alpha, Bravo, and Charlie. Use terrain, and fortifications."
   m_aVisibleForFactions {
    "US"
   }
@@ -69,18 +72,20 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- 10 Boxes of M249 Belt (200 rounds)"\
   "- 4 Alice Median Backpacks"\
   "- 40 DPHE 40mm"\
-  "- 10 LAWs"\
+  "- 15 LAWs"\
   "- 50 7.65mm Mags"\
   "- 10 Grenades"\
   ""\
   "No additional resupply is available beyond what is initially loaded."\
   ""\
-  "  --Fortifications --"\
-  "Supplies for fortification are limited and non-replaceable."\
-  "Construction can occur at any defense point or fallback area at squad discretion."\
-  "IMPORTANT: Any defense with MG has this following information:"\
-  " -- Any Defense with the cost of 225 Supplies uses 7.62x51mm 100 rounds, 3 boxes installed."\
-  " -- Any Defense with the cost of 350 Supplies uses 12.7x99mm 100 rounds, 3 boxes installed."\
+  "--Fortifications --"\
+  "All supplies for fortifications are provided in the trucks. Each truck has three pairs of M2 Browning Machine Guns + Tripod and 200 sandbags. Note: Each truck are overfilled. "\
+  "Construction can only occur at any defense points."\
+  "IMPORTANT: The Cost of sandbag types has the following information:"\
+  "-- Small - 5 Sandbags"\
+  "-- Small long - 7 Sandbags"\
+  "-- Medium - 10 Sandbags"\
+  "-- Large - 13 Sandbags"\
   ""\
   "-- Medical --"\
   "Platoon Humvee have additional ACE medical supplies. Medic should have everything on spawn + Humvee."\
@@ -97,6 +102,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 6511.931 96.656 1269.014
   m_sTitle "Command and Signal"
+  m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
   m_sTextData "Signal:"\
   "Platoon Net: 48 MHz (default)"\
   ""\
@@ -111,7 +117,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 6511.931 96.656 1269.014
   m_sTitle "GM Notes"
   m_sTextData "If AI Vechicles is stuck. help them reposition on the road."\
-  "If there are AI infantry squads that are far away; delete them or move and give them new orders."\
+  "There's a script that should delete the units on the previous phase. Some units might fall through the net so delete them manual when possible. Please let me know how many units are deleted."\
   "If there are too many AI, delete some units."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
@@ -147,10 +153,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Upon mission start, they will mount available vehicles positioned in front of them and head north to establish the first line of defense at Defense Point Alpha."\
   ""\
   "Construction/Logistics Squad:"\
-  "- The Construction/Logistics squad spawns separately at the US Supply Point, near the Civilian Airfield. They were conducting an assessment to convert the Airfield into a FOB and must now regroup and support the main force."\
+  "- The Construction/Logistics squad spawns separately at the US Supply Point, on the Civilian Airfield. They were conducting an assessment to convert the Airfield into a FOB and must now regroup and support the main force."\
   "- Solely authorized to construct fortifications. Rifles squads aren't allowed to assist in building."\
-  "- Must transport non-replaceable supplies using their trucks to build defenses at any of the Defense Points."\
-  "- Coordinate with Platoon HQ for priority build zones."
+  "- Coordinate with Platoon HQ for defense layout."
   m_aVisibleForFactions {
    "US"
   }
@@ -163,7 +168,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0 1 1
   m_sQuadName "objective-marker-2"
-  m_fWorldSize 75
+  m_fWorldSize 60
   m_sDescription "Defense Point Alpha"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
@@ -174,7 +179,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0 1 1
   m_sQuadName "objective-marker-2"
-  m_fWorldSize 75
+  m_fWorldSize 60
   m_sDescription "Defense Point Bravo"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
@@ -185,7 +190,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0 1 1
   m_sQuadName "objective-marker-2"
-  m_fWorldSize 75
+  m_fWorldSize 60
   m_sDescription "Defense Point Charlie"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
@@ -193,7 +198,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 7622.393 66.922 7181.461
-  angleY -166.223
+  angles 0 -166.223 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 1 0 0 1
   m_sQuadName "arrow-large-3"
@@ -204,7 +209,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 7968.245 66.922 7094.811
-  angleY -180
+  angles 0 -180 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 1 0 0 1
   m_sQuadName "arrow-large-3"
@@ -215,7 +220,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 6871.741 66.922 7182.24
-  angleY -166.384
+  angles 0 -166.384 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 1 0 0 1
   m_sQuadName "arrow-large-3"
@@ -226,11 +231,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 6652.513 96.656 1218.384
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sQuadName "infantry"
-  m_fWorldSize 50
+  m_fWorldSize 40
   m_sDescription "US Supply Point"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
@@ -238,11 +243,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 6793.391 62.716 4743.783
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sQuadName "infantry"
-  m_fWorldSize 50
+  m_fWorldSize 40
   m_sDescription "US 1st Platoon, Alpha Company"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
@@ -250,7 +255,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 4200.467 61.312 1442.17
-  angleY 90
+  angles 0 90 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0 1 1
   m_sQuadName "retain-2"
@@ -262,7 +267,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 5089.082 62.716 6732.007
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sQuadName "infantry"
@@ -273,7 +278,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 3015.924 62.716 6531.279
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sQuadName "infantry"
@@ -284,7 +289,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 4340.932 54.599 4519.954
-  angleY 136.911
+  angles 0 136.911 0
   m_sImageSetGlow "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
   m_MarkerColor 0 0 1 1
   m_sQuadName "arrow-large-3"
