@@ -46,12 +46,17 @@ StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/Barbe
 GenericEntity opCrateWeapons : "{19632F112985ED4B}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/AmmoBoxArsenal_Weapons_US_Pistols.et" {
  components {
   SCR_ArsenalComponent "{589F01C9C8D4A475}" {
-   m_eSupportedArsenalItemTypes PISTOL
+   m_eSupportedArsenalItemTypes 68
    m_eSupportedArsenalItemModes 254
-   m_eArsenalSaveType NO_RESTRICTIONS
   }
   SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
    "faction affiliation" "GC_IRA"
+  }
+  UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+   Attributes SCR_ItemAttributeCollection "{58A17A346E386320}" {
+    m_Size SLOT_2x2
+    m_SlotType SLOT_LOADOUT_STORAGE
+   }
   }
  }
  coords 4314.567 1.125 9532.216
@@ -109,6 +114,12 @@ $grp Vehicle : "{47F2921E0DACA300}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60
   components {
    SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
     m_bIsLocked 1
+    m_lockPilot 1
+    m_lockTurret 1
+    m_lockCargo 1
+    m_factionLock {
+     "US"
+    }
    }
    SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
     FuelNodes {
@@ -147,6 +158,12 @@ $grp Vehicle : "{47F2921E0DACA300}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60
   components {
    SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
     m_bIsLocked 1
+    m_lockPilot 1
+    m_lockTurret 1
+    m_lockCargo 1
+    m_factionLock {
+     "US"
+    }
    }
    SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
     FuelNodes {
@@ -184,11 +201,8 @@ $grp Vehicle : "{47F2921E0DACA300}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60
 }
 Vehicle bluChopper : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
  components {
-  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-   m_lockTurret 1
-   m_factionLock {
-    "UK"
-   }
+  AUS_WeaponSafetyComponent "{65F0CE1F7920073C}" {
+   m_iUpdateInterval 1
   }
   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
    FuelNodes {
@@ -213,6 +227,12 @@ Vehicle bluChopper : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AU
       Enabled 0
      }
     }
+    MultiSlotConfiguration "{673B6865CF6DA010}" {
+     SlotTemplate InventoryStorageSlot slot2 {
+      Prefab "{68FE5703457F2FF5}Prefabs/Items/Equipment/Radios/ANPRC163/Radio_ANPRC163.et"
+     }
+     NumSlots 2
+    }
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
@@ -223,9 +243,28 @@ Vehicle bluChopper : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AU
     "UK"
    }
   }
+  BaseVehicleNodeComponent "{57DA667544C3090A}" {
+   components {
+    BaseWeaponManagerComponent "{57DA667544C3550C}" {
+     Enabled 0
+    }
+   }
+  }
+  SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{673B686404CA95DC}" {
+     PrefabsToSpawn {
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+     }
+    }
+   }
+  }
  }
  coords 4881.729 28.594 11870.338
  angles 0 -89.158 0
+ EOnInit ""\
+ "		/* code here */"\
+ "	"
 }
 $grp GenericEntity : "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et" {
  {
@@ -792,16 +831,4 @@ $grp Vehicle : "{F9FD7E24B28538EE}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   coords 4306.569 1.125 9510.661
   angles 0 79.77 0
  }
-}
-GenericEntity opCrateMedical : "{FC3942FE8CFCCF8A}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_UK.et" {
- components {
-  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
-   "faction affiliation" "GC_IRA"
-  }
- }
- coords 4314.146 1.125 9533.621
- angles 0 74.473 0
- constructor ""\
- "		//SetEventMask(EntityEvent.SIMULATE);"\
- "	"
 }

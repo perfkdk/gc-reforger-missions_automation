@@ -93,6 +93,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "=== Comms ==="\
   "Preset, pilots and leadership have radios."\
+  "The pilots will find radios in the helicopter."\
+  ""\
+  "Platoon net: 46.0 MHz"\
   ""\
   "=== Other ==="\
   "We have sandbags in the crate and entrenching tools we can use to build defences."\

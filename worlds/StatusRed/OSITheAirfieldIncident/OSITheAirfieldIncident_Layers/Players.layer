@@ -234,18 +234,3 @@ SCR_AIGroup bluPilots : "{F4698570FD677A29}Prefabs/Groups/BLUFOR/British Forces/
  m_sCustomNameSet "Search Light"
  m_bSetPlayable 1
 }
-GenericEntity bluCrateMedical : "{FC3942FE8CFCCF8A}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_UK.et" {
- components {
-  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
-   m_eSupportedArsenalItemModes 254
-  }
-  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
-   "faction affiliation" "GC_IRA"
-  }
- }
- coords 4876.601 28.594 11908.935
- angles 0 91.168 0
- constructor ""\
- "		//SetEventMask(EntityEvent.SIMULATE);"\
- "	"
-}
