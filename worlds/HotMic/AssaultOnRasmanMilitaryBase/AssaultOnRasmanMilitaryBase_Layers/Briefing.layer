@@ -17,7 +17,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "End Conditions:"\
   "- 95% Casualty Limit: Defeat"\
   ""\
-  "No TL."
+  "No TL."\
+  ""\
+  "Mission by Hot Mic"\
+  "Feedback is appreciated"\
+  ""\
+  "Fun Fact:"\
+  "This is Hot Mic's second mission for the community."\
+  "New Fact: This mission was stuck on review limbo for 4 months because of broken supply helicoptor."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -49,13 +56,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "--Tickets--"\
   "Easy: 0 Tickets"\
   "Median: 5 Ticktets"\
-  "Hard: 10 Tickets"\
-  ""\
-  "Mission by Hot Mic"\
-  "Feedback is appreciated"\
-  ""\
-  "Fun Fact:"\
-  "This is Hot Mic's second mission for the community."
+  "Hard: 10 Tickets"
   m_aVisibleForFactions {
    "US"
   }
@@ -67,8 +68,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "		--- Friendly Forces ---"\
   "1 US Infantry Company"\
-  "3x Supply Blackhawks (1500 supplies each)"\
-  "3x Armed Transport Blackhawks"\
+  "6x Armed Transport Blackhawks (13 Seats)"\
   ""\
   "Unlimited Blackhawk:"\
   "- Transport (Door Gunners is allowed as CAS)"\
@@ -98,7 +98,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Each Fort features 360-degree sandbag fortifications."\
   "WARNING: Each Fort is equipped with a static Anti-Air (AA) emplacement. Additional AA positions are confirmed within AO Brick."\
   ""\
-  "Multiple BTRs (armored personnel carriers) are present and operational within the base."\
+  "Multiple BTRs are present and operational within the base."\
   "Entrenched infantry and hardened defensive positions are expected around key infrastructure."\
   ""\
   "Phase 2 – Enemy Counterattack (Upon Base Capture):"\
@@ -153,8 +153,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Notes for GM and Pilots"
   m_sTextData "GM: If there isn't enough AI or AI isn't apply enough pressure to the defenders during Phase 2; spawn new AI groups if possible. Feel free to take manual controls of AA units. If there are too much AI, you can delete some units or in worst case, head to the CO's Pit and use the Debug Sign to clear the AI Respawns Flags."\
   ""\
-  "Pilots: They are free to take what ever helicopters they want. They must work in pairs, in the same helicopter. "\
-  "For Supply runs, the intended method is to use Supply Blackhawk (1500), but if the Supply Blackhawk is broken, the Pilot pair will split into 2 Supply Littlebirds (1200)."\
+  "Pilots: They are free to take what ever helicopters they want. Ideally, they must work in pairs, in the same helicopter. "\
   ""\
   "Heavy CAS definition: Any Helicopter that need two people to function."\
   ""
@@ -186,15 +185,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Helicopter Restriction: 1 Heavy CAS or 2 Little Birds with Guns & Rockets"\
   ""\
-  "   ----- Hard (59 - 84 Players) -----"\
+  "   ----- Hard (59 - 82 Players) -----"\
   "1 CHQ & FTO"\
   "2 PHQ"\
   "3 Medics"\
   ""\
   "44 - 66 Troops"\
   ""\
-  "4 Pilots"\
-  "4 Pilot Crews"\
+  "3 Pilots"\
+  "3 Pilot Crews"\
   ""\
   "Helicopter Restriction: 2 Heavy CAS OR 4 Little Birds with Guns & Rockets OR 1 Heavy CAS and 2 Little Birds with Guns & Rockets"
   m_bEmptyFactionVisibility 1
@@ -206,27 +205,19 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Supplies and Support"
   m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
   m_sTextData "a. Aviation / Close Air Support:"\
-  "- The Main Operating Base (MoB) maintains unlimited supplies for CAS support."\
+  "- The Main Operating Base (MoB) maintains unlimited Refuel amd Rearm for CAS support."\
   "- Forward Air Controllers (FAC) must coordinate strikes in accordance with ROE (Type 3)."\
   ""\
   "b. Infantry Resupply:"\
   "Infantry elements are equipped with the following at MoB:"\
-  "- Arsenal Truck"\
+  "- Arsenal Crate"\
   "- Supply Crate"\
   "- Medical Box"\
   ""\
-  "c. Indirect Fire Support:"\
-  "- Mortar systems are authorized for deployment."\
-  "WARNING: All mortar construction requires logistical support to be transported from MoB."\
-  "Units must plan and coordinate transport of supplies organically."\
-  ""\
-  "d. Logistics:"\
-  "No automated resupply is available beyond MoB."\
-  "Units are responsible for managing their own logistics and sustaining operations in AO Brick."\
-  ""\
-  "e. Construction and Fortification:"\
-  "Two Construction Trucks is located at Rasman Military Base."\
-  "It may be utilized to build fortifications and defensive positions following the capture of the base."
+  "c. Sandbags:"\
+  "Each starting helicopter carries 78 sandbags plus huge backpack."\
+  "Suppy Crate carries unlimited amount of sandbags. "\
+  ""
   m_aVisibleForFactions {
    "US"
   }
@@ -275,12 +266,13 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 8290.495 322.188 2083.128
+  coords 8332.995 322.188 2000.128
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
   m_sQuadName "infantry-air"
-  m_fWorldSize 200
+  m_fWorldSize 40
   m_sDescription "US Deployment"
+  m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
@@ -340,7 +332,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 6603.954 113.958 11871.164
-  angleY 90
+  angles 0 90 0
   m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
   m_sImageSetGlow "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
   m_MarkerColor 0 1 0 1

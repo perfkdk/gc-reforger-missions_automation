@@ -1,6 +1,3 @@
-SCR_AIWorld : "{3DE6090FC602E566}Prefabs/AI/SCR_AIWorld_Takistan.et" {
- coords 5927.948 109.313 11401.803
-}
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 5935.412 109.313 11395.53
 }
@@ -136,55 +133,67 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
           SCR_EntityCatalogEntry "{64DEFC8B59FC7BC8}" {
            m_bEnabled 0
           }
-          SCR_EntityCatalogEntry "{64CC2039CD5BB892}" {
-           m_bEnabled 0
-          }
-          SCR_EntityCatalogEntry "{64CC2039C12882EC}" {
-           m_bEnabled 0
-          }
           SCR_EntityCatalogEntry "{631F67E1E4E37474}" {
-           m_bEnabled 0
-          }
-          SCR_EntityCatalogEntry "{64CC2039C26F72E6}" {
-           m_bEnabled 0
-          }
-          SCR_EntityCatalogEntry "{64CC2039C606127D}" {
            m_bEnabled 0
           }
           SCR_EntityCatalogEntry "{631F67E1E5E83066}" {
            m_bEnabled 0
           }
-          SCR_EntityCatalogEntry "{64CC2039C0AF1758}" {
-           m_bEnabled 0
-          }
-          SCR_EntityCatalogEntry "{64CC2039C713010D}" {
-           m_bEnabled 0
-          }
           SCR_EntityCatalogEntry "{64DB3D4F0DDFF7A1}" {
-           m_bEnabled 0
-          }
-          SCR_EntityCatalogEntry "{64DB3D4F0F03B83B}" {
-           m_bEnabled 0
-          }
-          SCR_EntityCatalogEntry "{64DB3D4F090FF0F7}" {
            m_bEnabled 0
           }
           SCR_EntityCatalogEntry "{64DB3D4F0E2268FD}" {
            m_bEnabled 0
           }
-          SCR_EntityCatalogEntry "{64DB3D4F084B4DD5}" {
-           m_bEnabled 0
-          }
-          SCR_EntityCatalogEntry "{64DB3D4F0A4E5217}" {
-           m_bEnabled 0
-          }
           SCR_EntityCatalogEntry "{651D2328A0867EC0}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64CC2039CD5BB892}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64CC2039C26F72E6}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64CC2039C0AF1758}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DB3D4F0F03B83B}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DB3D4F084B4DD5}" {
            m_bEnabled 0
           }
           SCR_EntityCatalogEntry "{651D2328B8AFB4EC}" {
            m_bEnabled 0
           }
+          SCR_EntityCatalogEntry "{64CC2039C12882EC}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64CC2039C606127D}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64CC2039C713010D}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DB3D4F090FF0F7}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{64DB3D4F0A4E5217}" {
+           m_bEnabled 0
+          }
           SCR_EntityCatalogEntry "{651D2328BA2F3B52}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{66596597D02AF19B}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{66596597D2931E25}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{66596597CCC7E559}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogEntry "{66596597CD0449F5}" {
            m_bEnabled 0
           }
          }
@@ -418,12 +427,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660A41FA2428B125}" {
           m_allowCargo 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
           }
          }
         }
         m_waypointNames {
-         "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -441,12 +453,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660A41FA2312EA36}" {
           m_allowCargo 0
           m_characters {
-           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
           }
          }
         }
         m_waypointNames {
-         "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -512,12 +527,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660856A9E1F6345A}" {
           m_allowCargo 0
           m_characters {
-           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
           }
          }
         }
         m_waypointNames {
-         "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -535,12 +553,14 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660856A8FF4ED309}" {
           m_allowCargo 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -557,12 +577,25 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660856ADA42C627E}" {
           m_allowTurret 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et" "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et" "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et"
+           "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et"
+           "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et"
+           "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+           "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et"
+           "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et"
+           "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et"
+           "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et"
+           "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et"
+           "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "AI_GetOut_Waypoint" "Search_And_Destroy_Main1"
+         "AI_GetOut_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -579,12 +612,25 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660856ADD60FD215}" {
           m_allowTurret 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et" "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et" "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et"
+           "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et"
+           "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et"
+           "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+           "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et"
+           "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et"
+           "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et"
+           "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et"
+           "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et"
+           "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "AI_GetOut_Waypoint" "Search_And_Destroy_Main1"
+         "AI_GetOut_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -601,12 +647,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660856A8D28C70ED}" {
           m_allowCargo 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -624,12 +673,16 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660856A7050AE291}" {
           m_allowCargo 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "AA_Truck_Move_Waypoint" "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "AA_Truck_Move_Waypoint"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -641,7 +694,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker8"
      m_waypointNames {
-      "Fort_A_Move_Waypoint" "Search_And_Destroy_Main1"
+      "Fort_A_Move_Waypoint"
+      "Search_And_Destroy_Main1"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FF403303ED}" {
@@ -649,7 +703,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker"
      m_waypointNames {
-      "Fort_A_Move_Waypoint" "Search_And_Destroy_Main1"
+      "Fort_A_Move_Waypoint"
+      "Search_And_Destroy_Main1"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FF4110CA96}" {
@@ -657,13 +712,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker13"
      m_waypointNames {
-      "Fort_A_Move_Waypoint" "Search_And_Destroy_Main1"
+      "Fort_A_Move_Waypoint"
+      "Search_And_Destroy_Main1"
      }
     }
     TILW_ReactivateEventsInstruction "{66080A4C975FE9BC}" {
      m_executionDelay 390
      m_eventNames {
-      "AA_Truck_Move_Waypoint" "Phase 2 Attack Median"
+      "AA_Truck_Move_Waypoint"
+      "Phase 2 Attack Median"
      }
     }
    }
@@ -692,12 +749,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660B6229FC787C13}" {
           m_allowCargo 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -715,12 +775,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660B6229FA1812AD}" {
           m_allowCargo 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -738,12 +801,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660B6228124FEE77}" {
           m_allowCargo 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -809,12 +875,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660A41FFCADA8CB8}" {
           m_allowCargo 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -832,12 +901,25 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660A41FFCAD53659}" {
           m_allowTurret 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et" "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et" "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et"
+           "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et"
+           "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et"
+           "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+           "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et"
+           "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et"
+           "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et"
+           "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et"
+           "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et"
+           "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "AI_GetOut_Waypoint" "Search_And_Destroy_Main1"
+         "AI_GetOut_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -854,12 +936,25 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660A41FFCAD5BB0B}" {
           m_allowTurret 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et" "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et" "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et"
+           "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et"
+           "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et"
+           "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+           "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et"
+           "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et"
+           "{C04C686511C62921}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_AT.et"
+           "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et"
+           "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et"
+           "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "AI_GetOut_Waypoint" "Search_And_Destroy_Main1"
+         "AI_GetOut_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -876,12 +971,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
          TILW_CrewStation "{660A41FFCAD5BB0C}" {
           m_allowTurret 0
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -897,12 +995,16 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_crewStations {
          TILW_CrewStation "{660A41FFCAD42105}" {
           m_characters {
-           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
+           "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et"
           }
          }
         }
         m_waypointNames {
-         "AA_Truck_Move_Waypoint" "Runway_Move_Waypoint" "Search_And_Destroy_Main1"
+         "AA_Truck_Move_Waypoint"
+         "Runway_Move_Waypoint"
+         "Search_And_Destroy_Main1"
         }
        }
       }
@@ -913,7 +1015,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker8"
      m_waypointNames {
-      "Fort_A_Move_Waypoint" "Search_And_Destroy_Main1"
+      "Fort_A_Move_Waypoint"
+      "Search_And_Destroy_Main1"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FFCAD42106}" {
@@ -921,7 +1024,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker"
      m_waypointNames {
-      "Fort_A_Move_Waypoint" "Search_And_Destroy_Main1"
+      "Fort_A_Move_Waypoint"
+      "Search_And_Destroy_Main1"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FFCAD42109}" {
@@ -929,7 +1033,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker13"
      m_waypointNames {
-      "Fort_A_Move_Waypoint" "Search_And_Destroy_Main1"
+      "Fort_A_Move_Waypoint"
+      "Search_And_Destroy_Main1"
      }
     }
     TILW_ReactivateEventsInstruction "{660A41FFCAD42108}" {
