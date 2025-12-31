@@ -40,6 +40,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
  coords 4693.332 271.193 9390.447
+ m_iFreezeTime 300000
  {
   SCR_FactionManager {
    ID "5ED9088735FF2D8B"
