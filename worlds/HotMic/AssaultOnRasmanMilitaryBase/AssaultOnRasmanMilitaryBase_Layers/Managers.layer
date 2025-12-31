@@ -30,7 +30,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
        SCR_CallsignInfo "{55CCB792D10AD8F4}" {
         m_sCallsign "Overlord"
        }
-       SCR_CallsignInfo "{673E5952B3108EE0}" {
+       SCR_CallsignInfo "{673F476379045838}" {
         m_sCallsign "6"
        }
       }

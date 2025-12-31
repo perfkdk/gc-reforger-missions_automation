@@ -53,6 +53,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "----- Mission Notes -----"\
   "It's recommanded that recon is needed for the hot insertion"\
   ""\
+  "----- Load Plan -----"\
+  "Each squad spawns right next to the helicopter. It's recommanded to quicly load up and wait for the Pilot to arrive."\
+  ""\
   "--Tickets--"\
   "Easy: 0 Tickets"\
   "Median: 5 Ticktets"\
@@ -129,14 +132,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Personnel:"\
   "Company HQ: Overlord"\
-  "- Platoon 1 HQ: Zulu"\
-  "-- 1st Squad: Alpha"\
-  "-- 2nd Squad: Bravo"\
-  "-- 3rd Squad: Charlie"\
-  "- Patoon 2 HQ: Yankee"\
-  "-- 1st Squad: Delta"\
-  "-- 2nd Squad: Echo"\
-  "-- 3rd Squad: Foxtrot"\
+  "- Platoon 1 HQ: 1'6"\
+  "-- 1st Squad: 1'1"\
+  "-- 2nd Squad: 1'2"\
+  "-- 3rd Squad: 1'3"\
+  "- Patoon 2 HQ: 2'6"\
+  "-- 1st Squad: 2'1"\
+  "-- 2nd Squad: 2'2"\
+  "-- 3rd Squad: 2'3"\
   ""\
   "Second in Charge: Always refer as {CO Callsign} Minor"\
   ""\
