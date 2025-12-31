@@ -18,15 +18,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "VI. Mission Notes:"
   m_sTextData "<h2>Mission Notes:</h2>"\
   "<b>Timelimit:</b>"\
-  "60m (Can be increased by GM's Discretion) "\
-  "5min Setup Timer."\
+  "- 60m (Can be increased by GM's Discretion) "\
+  "- 6min Setup Timer."\
   ""\
   "<h2>Victory/Defeat Conditions:</h2>"\
   "<b>- East German Defeat; </b>"\
   "- Suffering 85% Casualties OR Time Limit reached."\
   ""\
   "<b>- NATO Defeat</b>"\
-  " - Suffering 90% Casualties AND Battalion HQ Secured."\
+  " - Suffering 90% Casualties OR Battalion HQ Secured."\
   ""\
   "<b>GM Discretion as usual.</b>"
   m_bEmptyFactionVisibility 1

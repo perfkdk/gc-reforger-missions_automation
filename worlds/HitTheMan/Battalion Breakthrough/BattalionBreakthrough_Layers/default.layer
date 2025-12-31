@@ -52,7 +52,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 7756.999 312.503 8163.458
- m_iFreezeTime 300000
+ m_iFreezeTime 360000
  m_bDisableArmaVision 1
  m_safeStartTime 20
  {
@@ -415,41 +415,6 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
   }
  }
- AO_Limit_NVA2 {
-  components {
-   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-    m_killTimer 15
-    m_factionKeys {
-     "GC_NVA"
-    }
-    m_lineWidth 5
-   }
-   TILW_MapShapeComponent "{6508F54F9B461198}" {
-    Enabled 1
-    m_factionKeys {
-     "GC_NVA"
-    }
-    m_visibleForEmptyFaction 0
-    m_drawLine 1
-   }
-  }
-  coords 2970.588 196.756 6550.717
-  angles 0.895 0 0
-  Points {
-   ShapePoint "{673E059247FFBC37}" {
-    Position -29.579 -0.631 30.175
-   }
-   ShapePoint "{673E059247571DAE}" {
-    Position -38.848 2.068 -16.751
-   }
-   ShapePoint "{673E059247082565}" {
-    Position 35.293 -3.096 -36.492
-   }
-   ShapePoint "{673E059246FD59AC}" {
-    Position 47.858 0.824 11.551
-   }
-  }
- }
 }
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 3432.885 221.616 8348.914
@@ -474,6 +439,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_LiteralTerm "{66DB00D44D047D8F}" {
     m_flagName "NVA_CAS"
+   }
+  }
+  TILW_MissionEvent "{673E05BC60F38E0C}" {
+   m_name "NVA Victory Casualties"
+   m_instructions {
+    TILW_SendMessageInstruction "{673E05BC60F38EFC}" {
+     m_messageTitle "East German Victory"
+     m_messageBody "Royal Marines Sustained too many casualties.. GM Discretion when to end the mission"
+    }
+   }
+   m_condition TILW_LiteralTerm "{673E05BC60F38EFA}" {
+    m_flagName "CAF_UK"
    }
   }
   TILW_MissionEvent "{6506E408139E95AC}" {
@@ -523,9 +500,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_operands {
      TILW_LiteralTerm "{672B08EA0609382A}" {
       m_flagName "HQ"
-     }
-     TILW_LiteralTerm "{673E0598D68CFD02}" {
-      m_flagName "CAF_UK"
      }
     }
    }

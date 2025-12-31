@@ -7,8 +7,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "0, 21A, 21B, etc."\
   ""\
   "<b>II. Callsigns:</b>"\
-  "Battalion HQ ------------------------------ 0"\
-  "- Battalion Commander -------------- 0A"\
+  "Battalion HQ ------------------------ 0"\
+  "- Battalion Commander -------- 0A"\
   "1st Section --------------------------- 21A - Alpha"\
   "2nd Section -------------------------- 21B - Bravo"\
   "2nd Section -------------------------- 21C - Charlie"\
@@ -46,8 +46,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<b>MDCOA:</b>"\
   "Utilize their Mortar Team to establish a solid smoke cover, utilize their BTR-70s to push us off the town edge before shoving their company through."\
   ""\
-  "<b>Defensive Fires:</b>"\
-  "No known in-direct threat at this time."\
+  "<b>Offensive Fires:</b>"\
+  "2x Mortar Tubes for in-direct fires."\
+  "Suspect HE, Smoke & Illum."\
   ""\
   "<b>Airthreat:</b>"\
   "No known Air support."\
@@ -95,9 +96,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Ammunition: Each man carries his own ammunition."\
   "IPE: Helmets and body armour are to be worn at all times."\
   ""\
-  "Each Platoon has a Crate that contains:"\
-  "- 1000x Sandbags"\
-  "- 10x Backpacks"\
+  "Each vehicle contains:"\
+  "- 350x Sandbags"\
+  "- 5x Backpacks"\
   ""\
   "<b>c. Medical:</b>"\
   "Location: Platoon Aid Post is to be setup by Platoon medics."\
@@ -108,7 +109,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Morphine: Every soldier carries 1+ stick of morphine."\
   ""\
   "<b>d. Vehicles:</b>"\
-  "None."
+  "3x Trucks"\
+  "1x HMMWV"
   m_aVisibleForFactions {
    "UK"
   }
@@ -130,6 +132,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
   "Royal Marines Platoon is located north of Kamoryn"\
+  "Tank Traps with AT Mines ahead have been placed around the town of Kamoryn (Marked on map)"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
   "Royal Marines has been tasked with making sure to protect their Brigade HQ and the town of Kamoryn"\
