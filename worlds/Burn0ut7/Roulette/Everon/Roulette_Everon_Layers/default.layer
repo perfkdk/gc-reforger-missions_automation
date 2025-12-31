@@ -20,15 +20,26 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  }
 }
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   Enabled 0
+  }
+ }
  coords -2990.113 3.844 1085.012
 }
 PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- coords 2412.888 82.314 6378.517
- m_sTitle "Overview"
- m_sTextData "US army lead a convoy to deliver food and other supplies to civilians in Naudeh."
+ m_sTitle "Roulette"
+ m_sTextData "Commands:"\
+ "/seed - Returns the current seed"\
+ ""\
+ "Admin Commands"\
+ "/reroll (int seed) - Rerolls the map with optional seed. Leave blank for random"\
+ ""\
+ "/players (int) - Sets the player count target for next reroll. Default is 100"\
+ ""
  m_bEmptyFactionVisibility 1
  m_bShowForAnyFaction 1
- m_iOrder 10
+ m_iOrder 100
 }
 GC_R_Manager : "{6E2C9E0BE9F314EC}worlds/Burn0ut7/Roulette/Prefabs/RouletteManager.et" {
  components {

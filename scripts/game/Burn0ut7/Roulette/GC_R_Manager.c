@@ -6,7 +6,10 @@ class GC_R_ManagerClass : GameEntityClass
 class GC_R_Manager : GameEntity
 {
 	[Attribute(defvalue: "500", UIWidgets.Auto)]
-	float m_mapEdgeBuffer;
+	protected float m_mapEdgeBuffer;
+	
+	[Attribute(defvalue: "100", uiwidget: UIWidgets.Auto, desc: "Target player count")]
+    int m_targetPlayerCount;
 	
 	[Attribute(defvalue: "", UIWidgets.Object)]
     ref array<ref GC_R_BaseScenario> m_scenarios;	
@@ -43,7 +46,7 @@ class GC_R_Manager : GameEntity
 		ClientIntialize();
 		
 		RplComponent rpl = RplComponent.Cast(owner.FindComponent(RplComponent));
-		if (!rpl || rpl.Role() != RplRole.Authority)
+		if(!rpl || rpl.Role() != RplRole.Authority)
 			return;
 		
 		Intialize();
@@ -62,7 +65,7 @@ class GC_R_Manager : GameEntity
 	void NewScenario()
 	{
 		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
-		if (gameMode.GetState() == SCR_EGameModeState.GAME)
+		if(gameMode.GetState() == SCR_EGameModeState.GAME)
 			return;
 		
 		GC_R_BaseScenario selected = GC_R_Helper<GC_R_BaseScenario>.RandomElementR(m_scenarios, m_random);
@@ -108,7 +111,7 @@ class GC_R_Manager : GameEntity
 	
 	array<ref GC_R_Team> SelectTeams(int count, array<ref GC_R_Team> teams)
 	{
-		if (teams.IsEmpty() || teams.Count() < count)
+		if(teams.IsEmpty() || teams.Count() < count)
 			return null;
 		
 		array<ref GC_R_Team> pool = {};
@@ -122,7 +125,7 @@ class GC_R_Manager : GameEntity
 		foreach (GC_R_Team team : pool)
 		{
 			array<ref GC_R_Team> opponents = FindOpponents(team, count - 1, pool);
-			if (!opponents.IsEmpty())
+			if(!opponents.IsEmpty())
 			{
 				selected.Insert(team);
 				foreach (GC_R_Team opp : opponents)
@@ -132,7 +135,7 @@ class GC_R_Manager : GameEntity
 			}
 		}
 		
-		if (selected.Count() < count)
+		if(selected.Count() < count)
 			Print("GC Roulette | Failed to find enough valid teams (" + selected.Count() + "/" + count + ")", LogLevel.ERROR);
 		
 		GC_R_Helper<GC_R_Team>.ShuffleR(selected, m_random);
@@ -153,29 +156,29 @@ class GC_R_Manager : GameEntity
 		
 		foreach (GC_R_Team other : shuffled)
 		{
-			if (baseTeam.IsBlacklisted(other) || other.IsBlacklisted(baseTeam))
+			if(baseTeam.IsBlacklisted(other) || other.IsBlacklisted(baseTeam))
 				continue;
 			
 			bool conflict = false;
 			foreach (GC_R_Team opp : opponents)
 			{
-				if (other.IsBlacklisted(opp) || opp.IsBlacklisted(other))
+				if(other.IsBlacklisted(opp) || opp.IsBlacklisted(other))
 				{
 					conflict = true;
 					break;
 				}
 			}
 	
-			if (conflict)
+			if(conflict)
 				continue;
 			
 			opponents.Insert(other);
 			
-			if (opponents.Count() >= needed)
+			if(opponents.Count() >= needed)
 				break;
 		}
 		
-		if (opponents.Count() < needed)
+		if(opponents.Count() < needed)
 				return {};
 		
 		return opponents;
@@ -218,7 +221,7 @@ class GC_R_Manager : GameEntity
 	
 	bool FindEmptyPosition(inout vector position, float radius, float maxDistance, bool allowWater = false, float maxPitch = 15)
 	{
-		if (radius <= 0 || maxDistance <= 0)
+		if(radius <= 0 || maxDistance <= 0)
 			return false;
 		
 		float cellWidth = radius * Math.Sqrt(3);
@@ -235,7 +238,7 @@ class GC_R_Manager : GameEntity
 				int yMin = Math.Max(-ring -x, -ring);
 				int yMax = Math.Min(ring -x, ring);
 				int yStep;
-				if (Math.AbsInt(x) == ring)
+				if(Math.AbsInt(x) == ring)
 					yStep = 1;
 				else 
 					yStep = yMax - yMin;
@@ -243,12 +246,12 @@ class GC_R_Manager : GameEntity
 				for (int y = yMin; y <= yMax; y += yStep)
 				{
 					vector searchPos = position + Vector(posX, 0, posY + cellHeight * y);
-					if (vector.DistanceXZ(searchPos, position) > maxDistance - radius)
+					if(vector.DistanceXZ(searchPos, position) > maxDistance - radius)
 						continue;
 	
 					searchPos[1] = m_world.GetSurfaceY(searchPos[0], searchPos[2]);
 		
-					if (IsPositionEmpty(searchPos, radius))
+					if(IsPositionEmpty(searchPos, radius))
 					{
 						if(!allowWater && SurfaceIsWater(searchPos))
 							continue;
@@ -278,12 +281,24 @@ class GC_R_Manager : GameEntity
 		return false;
 	}
 	
-	bool SpawnTeam(vector position, float yaw, array<GC_R_ElementBase> elements)
+	bool SpawnTeam(vector position, float yaw, GC_R_Team team)
 	{
+		Print("GC Roulette | team " + team.GetName() + " - " + team.m_elements);
+		
 		array<IEntity> tempEntities = {};
 		bool found;
 		
-		foreach(GC_R_ElementBase element : elements)
+		bool firstCompany = true;
+		bool firstPlatoon = true;
+		bool firstSquad = true;
+		
+		int companyIndex = 0;
+		int platoonIndex = 0;
+		int squadIndex = 0;
+		
+		//GC_R_Squad lastSquad;
+		
+		foreach(GC_R_ElementBase element : team.m_elements)
 		{
 			ResourceName prefab = element.GetPrefab();
 			ResourceName vehiclePrefab = element.GetVehicle();
@@ -299,7 +314,7 @@ class GC_R_Manager : GameEntity
 				}
 	
 				IEntity vehicle = SpawnPrefab(vehiclePrefab, endPosition, yaw);
-				vehicle.Update();
+				element.m_vehicle = vehicle;
 				
 				vector min,max;
 				vehicle.GetBounds(min,max);
@@ -325,10 +340,47 @@ class GC_R_Manager : GameEntity
 			}
 			
 			SCR_AIGroup group =  SCR_AIGroup.Cast(SpawnPrefab(prefab, endPosition, yaw));
-			
+			element.m_group = group;
 			AIFormationComponent formation = AIFormationComponent.Cast(group.FindComponent(AIFormationComponent));
 			if(formation)
 				formation.SetFormation("File");
+			
+			SCR_CallsignGroupComponent cgc = SCR_CallsignGroupComponent.Cast(group.FindComponent(SCR_CallsignGroupComponent));
+			if(cgc)
+			{
+				typename elementType = element.Type();
+				switch(elementType)
+				{
+					case GC_R_Company:
+						if(!firstCompany)
+							companyIndex++;
+	
+						platoonIndex = 0;
+						squadIndex = 0;
+						
+						firstCompany = false;
+						break;
+					case GC_R_Platoon:
+						if(!firstPlatoon)
+							platoonIndex++;
+						squadIndex = 1;
+					
+						firstPlatoon = false;
+						break;
+					case GC_R_Squad:
+						if(!firstSquad)
+							squadIndex++;
+					
+						if(firstSquad)
+							squadIndex = 2;
+					
+						firstSquad = false;
+						break;
+				}
+				
+				Print("GC Roulette | Element: " + element + " - " + companyIndex + " " + platoonIndex + " " + squadIndex);
+				cgc.ReAssignGroupCallsign(companyIndex, platoonIndex, squadIndex);
+			}
 			
 			ResourceName cone = "{25C8B889A777399D}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red.et";
 			EntitySpawnParams spawnParams = new EntitySpawnParams();
@@ -417,7 +469,7 @@ class GC_R_Manager : GameEntity
 	
 	void SetSeed(int seed = -1)
 	{
-		if (seed == -1)
+		if(seed == -1)
 		{
 			int t = System.GetUnixTime();
 			int tc = System.GetTickCount();
@@ -474,15 +526,16 @@ class GC_R_Manager : GameEntity
 		
 		return true;
     }
-		
+	
+	
 	void SetTime(float hours24 = -1, bool dayOnly = true)
 	{
 		TimeAndWeatherManagerEntity manager = ChimeraWorld.CastFrom(m_world).GetTimeAndWeatherManager();
-		if (!manager)
+		if(!manager)
 			return;
 	
 		float sunrise, sunset;
-		if (!manager.GetSunriseHour(sunrise) || !manager.GetSunsetHour(sunset))
+		if(!manager.GetSunriseHour(sunrise) || !manager.GetSunsetHour(sunset))
 		{
 			sunrise = 8;
 			sunset = 18;
@@ -491,43 +544,91 @@ class GC_R_Manager : GameEntity
 		float startTime = 0;
 		float endTime = 24;
 	
-		if (dayOnly)
+		if(dayOnly)
 		{
 			startTime = sunrise + 2;
 			endTime = sunset - 2;
 		}
 	
-		if (hours24 == -1)
+		if(hours24 == -1)
 			hours24 = m_random.RandFloatXY(startTime, endTime);
 	
 		hours24 = Math.Clamp(hours24, 0.0, 24.0);
 		manager.SetTimeOfTheDay(hours24, true);
 	}
 	
+	void SetDate(int year = -1, int month = -1, int day = -1)
+	{
+		TimeAndWeatherManagerEntity manager = ChimeraWorld.CastFrom(m_world).GetTimeAndWeatherManager();
+		if(!manager)
+			return;
+		
+		if(year == -1)
+		{
+			year = m_random.RandInt(1970,2026);
+		}
+		
+		if(month == -1)
+		{
+			month = m_random.RandInt(1,12);
+		}
+		
+		if(day == -1)
+		{
+			day = m_random.RandInt(1,28);
+		}
+		
+		manager.SetDate(year, month, day, true);
+	}
+	
+	void SetWeather()
+	{
+		TimeAndWeatherManagerEntity manager = ChimeraWorld.CastFrom(m_world).GetTimeAndWeatherManager();
+		if(!manager)
+			return;
+		
+		array<ref WeatherState> weatherStates = {};
+		manager.GetWeatherStatesList(weatherStates);
+		
+		WeatherState selected = GC_R_Helper<WeatherState>.RandomElementR(weatherStates, m_random);
+		
+		manager.ForceWeatherTo(false, selected.GetStateName());
+	}
+	
+	void SetRandomEnvironment()
+	{
+		SetDate();
+		SetTime();
+		SetWeather();
+	}
+	
 	protected void InitCommands()
 	{
 	    SCR_ChatPanelManager chatPanelManager = SCR_ChatPanelManager.GetInstance();
-	    if (!chatPanelManager)
+	    if(!chatPanelManager)
 	        return;
 	    chatPanelManager.GetCommandInvoker("seed").Insert(ClientSeed);
 	    chatPanelManager.GetCommandInvoker("reroll").Insert(ClientReroll);
+	    chatPanelManager.GetCommandInvoker("players").Insert(ClientPlayers);
 	}
 	
 	void InvokeCommand(SCR_PlayerController pc, string command, string data)
 	{
-		switch (command)
+		switch(command)
 		{
 			case "seed":
 				return CommandSeed(pc, command, data);
 			case "reroll":
 				return CommandReroll(pc, command, data);
+			case "players":
+				return CommandPlayers(pc, command, data);
 		}
 	}
 
 	protected void ClientSeed(SCR_ChatPanel panel, string data)
 	{
 		SCR_PlayerController pc = SCR_PlayerController.Cast(GetGame().GetPlayerController());
-		if (!pc)
+		if(!pc)
 			return;
 		
 		pc.SendCommandServer("seed", "")
@@ -542,7 +643,7 @@ class GC_R_Manager : GameEntity
 	protected void ClientReroll(SCR_ChatPanel panel, string data)
 	{
 		SCR_PlayerController pc = SCR_PlayerController.Cast(GetGame().GetPlayerController());
-		if (!pc)
+		if(!pc)
 			return;
 		
 		pc.SendCommandServer("reroll", data)
@@ -550,11 +651,11 @@ class GC_R_Manager : GameEntity
 	
 	protected void CommandReroll(SCR_PlayerController pc, string command, string data)
 	{
-		if (!SCR_Global.IsAdmin(pc.GetPlayerId()))
+		if(!SCR_Global.IsAdmin(pc.GetPlayerId()))
 			return pc.SendChatMsg("Unable to complete command - Not admin");
 		
 		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
-		if (gameMode.GetState() == SCR_EGameModeState.GAME)
+		if(gameMode.GetState() == SCR_EGameModeState.GAME)
 			return pc.SendChatMsg("Unable to complete command - Game already started");
 		
 		pc.SendChatMsg("Rerolling, please wait ...");
@@ -566,6 +667,28 @@ class GC_R_Manager : GameEntity
 			SetSeed();
 		
 		NewScenario();
+	}
+	
+	protected void ClientPlayers(SCR_ChatPanel panel, string data)
+	{
+		SCR_PlayerController pc = SCR_PlayerController.Cast(GetGame().GetPlayerController());
+		if(!pc)
+			return;
+		
+		pc.SendCommandServer("players", data)
+	}
+	
+	protected void CommandPlayers(SCR_PlayerController pc, string command, string data)
+	{
+		if(!SCR_Global.IsAdmin(pc.GetPlayerId()))
+			return pc.SendChatMsg("Unable to complete command - Not admin");
+		
+		int num = data.ToInt();
+		if(!num || num <= 10)
+			return pc.SendChatMsg("Unable to complete command - Invaild number");
+		
+		m_targetPlayerCount = num;
+		pc.SendChatMsg("Player target count set to " + num);
 	}
 
 	void ResetMapMenu()

@@ -1,6 +1,9 @@
 [BaseContainerProps()]
 class GC_R_BaseScenario : Managed
 {
+	[Attribute(defvalue: "", uiwidget: UIWidgets.Auto, desc: "Name of scenario refereced in the briefing")]
+    protected string m_scenarioName;
+	
 	void Intialize();
 	void Reroll();
 }
@@ -8,9 +11,6 @@ class GC_R_BaseScenario : Managed
 [BaseContainerProps(), BaseContainerCustomTitleField("Attack and Defend")]
 class GC_R_AttackDefend: GC_R_BaseScenario
 {
-	[Attribute(defvalue: "", uiwidget: UIWidgets.Auto, desc: "Name of scenario refereced in the briefing")]
-    protected string m_scenarioName;
-	
 	[Attribute(defvalue: "50", uiwidget: UIWidgets.Auto, desc: "Size of nearby building search", category: "Objective")]
     protected float m_buildingSearchSize;
 	
@@ -34,6 +34,8 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	
 	[Attribute(defvalue: "5000", uiwidget: UIWidgets.Auto, desc: "Max size of AO in meters", category: "AO")]
     protected int m_maxAOSize;
+	
+	protected const static int BASERATIO = 2;
 	
 	protected int m_searchAttempts;
 	
@@ -297,16 +299,21 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 			return;
 		
 		m_searching = true;
-		m_teams[1].m_spawn = new GC_R_SpawnAttacker();
-		m_teams[1].m_spawn.m_scenario = this;
-		m_teams[1].m_spawn.m_searchCount = 100;
-
+		GC_R_Team attacker = m_teams[1];
+		GC_R_SpawnAttacker spawn = new GC_R_SpawnAttacker();
+		spawn.m_scenario = this;
+		spawn.m_searchCount = 100;
+		attacker.m_spawn = spawn;
+		
+		
 		GetGame().GetCallqueue().CallLater(FindAttackerSpawn, 1, false);
 	}
 	
 	protected void FindAttackerSpawn()
 	{
-		bool found = m_teams[1].m_spawn.GetSpawn();
+		GC_R_SpawnAttacker spawn = GC_R_SpawnAttacker.Cast(m_teams[1].m_spawn);
+		
+		bool found = spawn.GetSpawn();
 		if(found)
 			return AttackerSpawnFound();
 		
@@ -326,25 +333,35 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		m_searching = false;
 		
 		GC_R_Team defender = m_teams[0];
-		array<GC_R_ElementBase> elements = defender.GetRatioElements(50);
-		vector dir = vector.Direction(m_teams[0].m_spawn.m_position, m_teams[1].m_spawn.m_position);
-		float yaw = dir.ToYaw();
+		GC_R_Team attacker = m_teams[1];
 		
-		bool isSucessful = m_manager.SpawnTeam(m_teams[0].m_spawn.m_position, yaw, elements);
+		float ratio = (defender.GetStrength() - attacker.GetStrength()) + BASERATIO;
+		Print("GRAY_RouletteAD.Scenario ratio = "+ ratio);
+
+		int defenderRatio = Math.AbsInt(m_manager.m_targetPlayerCount / (1 + ratio));
+		int defenderCount = defender.GetElements(defenderRatio);
+		
+		int attackerRatio = Math.AbsInt(defenderCount * ratio);
+		attacker.GetElements(attackerRatio);
+		
+		
+		vector dir = vector.Direction(defender.m_spawn.m_position, m_teams[1].m_spawn.m_position);
+		float yaw = dir.ToYaw();
+		bool isSucessful = m_manager.SpawnTeam(defender.m_spawn.m_position, yaw, defender);
 		if(!isSucessful)
 			return m_manager.Reroll();
 		
-		GC_R_Team attacker = m_teams[1];
-		elements = attacker.GetRatioElements(50);
-		dir = vector.Direction(m_teams[1].m_spawn.m_position, m_teams[0].m_spawn.m_position);
+		dir = vector.Direction(attacker.m_spawn.m_position, attacker.m_spawn.m_position);
 		yaw = dir.ToYaw();
-		isSucessful = m_manager.SpawnTeam(m_teams[1].m_spawn.m_position, yaw, elements);
+		isSucessful = m_manager.SpawnTeam(attacker.m_spawn.m_position, yaw, attacker);
 		if(!isSucessful)
 			return m_manager.Reroll();
 		
 		SetupAO();
 		SetupMarkers();
+		
 		m_manager.ResetMapMenu();
+		m_manager.SetRandomEnvironment();
 	}
 	
 	protected void FindDefenderSpawnAsync()
@@ -354,17 +371,19 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 			return;
 		
 		m_searching = true;
-		
-		m_teams[0].m_spawn = new GC_R_SpawnAttacker();
-		m_teams[0].m_spawn.m_scenario = this;
-		m_teams[0].m_spawn.m_searchCount = 100;
+		GC_R_Team defender = m_teams[0];
+		GC_R_SpawnDefender spawn = new GC_R_SpawnDefender();
+		spawn.m_scenario = this;
+		spawn.m_searchCount = 100;
+		defender.m_spawn = spawn;
 		
 		GetGame().GetCallqueue().CallLater(FindDefenderSpawn, 1, false);
 	}
 	
 	protected void FindDefenderSpawn()
 	{
-		bool found = m_teams[0].m_spawn.GetSpawn();
+		GC_R_SpawnDefender spawn = GC_R_SpawnDefender.Cast(m_teams[0].m_spawn);
+		bool found = spawn.GetSpawn();
 		if(found)
 			return DefenderSpawnFound();
 		
@@ -401,7 +420,7 @@ class GC_R_Team
     protected ref array<ref GC_R_Company> m_companies;
 	
 	int m_totalPlayers = 0;
-	
+
 	ref GC_R_SpawnBase m_spawn;
 	
 	string GetName() { return m_name; }
@@ -416,6 +435,8 @@ class GC_R_Team
 	
 	array<ref GC_R_Company> GetCompanies(){ return m_companies; }
 	
+	ref array<GC_R_ElementBase> m_elements = {};
+	
 	bool IsBlacklisted(GC_R_Team team)
 	{
 		FactionKey otherFaction = team.GetFaction();
@@ -429,7 +450,7 @@ class GC_R_Team
 		return false;
 	}
 	
-	array<GC_R_ElementBase> GetRatioElements(int targetPlayers)
+	int GetElements(int targetPlayers)
 	{
 		array<GC_R_ElementBase> outElements = {};
 		m_totalPlayers = 0;
@@ -442,8 +463,16 @@ class GC_R_Team
 		}
 		
 		Print("GC Roulette | GetRatio " + m_name + " - Target: " + targetPlayers + " Selected: " + m_totalPlayers);
-
-		return Order(outElements);
+		
+		m_elements = Order(outElements);
+		
+		int totalCount = 0;
+		foreach(GC_R_ElementBase element : outElements)
+		{
+			totalCount += element.Count();
+		}
+		
+		return totalCount;
 	}
 	
     array<GC_R_ElementBase> Order(array<GC_R_ElementBase> pickedElements)
@@ -515,7 +544,7 @@ class GC_R_Company : GC_R_ElementBase
 			if(platoons >= 2 && !picked)
 			{
 				int finalCount = Count() + team.m_totalPlayers;
-				if(!IsCloser(finalCount, team.m_totalPlayers, target))
+				if(!IsCloser(finalCount, team.m_totalPlayers, target) && team.m_totalPlayers >= target)
 					break;	
 				
 				elements.Insert(this);
@@ -559,7 +588,7 @@ class GC_R_Platoon : GC_R_ElementBase
 		{
 			int finalCount = squad.Count() + team.m_totalPlayers;
 			
-			if(!IsCloser(finalCount, team.m_totalPlayers, target))
+			if(!IsCloser(finalCount, team.m_totalPlayers, target) && team.m_totalPlayers >= target)
 				break;
 			
 			squads++;
@@ -569,7 +598,7 @@ class GC_R_Platoon : GC_R_ElementBase
 			if(squads >= 2 && !picked)
 			{
 				finalCount = Count() + team.m_totalPlayers;
-				if(!IsCloser(finalCount, team.m_totalPlayers, target))
+				if(!IsCloser(finalCount, team.m_totalPlayers, target) && team.m_totalPlayers >= target)
 					break;	
 
 				elements.Insert(this);
@@ -595,6 +624,9 @@ class GC_R_ElementBase
 	protected ResourceName m_vehiclePrefab;
 
 	protected GC_R_ElementBase m_parent;
+	
+	IEntity m_vehicle;
+	IEntity m_group;
 	
 	void SetParent(GC_R_ElementBase parent)
 	{

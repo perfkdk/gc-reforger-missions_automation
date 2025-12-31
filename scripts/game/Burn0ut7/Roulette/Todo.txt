@@ -1,10 +1,7 @@
 Needs:
-Ratioing player counters. Do if rerolled
-Random weather and time
 briefing
 get bound size before vehicle spawn
 m113 brakes working
-fix AO deleting
 
 Wants:
 More ORBATs
