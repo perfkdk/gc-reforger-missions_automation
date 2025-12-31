@@ -18,7 +18,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "VI. Mission Notes:"
   m_sTextData "<h2>Mission Notes:</h2>"\
   "<b>Timelimit:</b>"\
-  "- 60m (Can be increased by GM's Discretion)"\
+  "- 50m (Can be increased by GM's Discretion)"\
   "- 5min Setup Timer."\
   ""\
   "<h2>Victory/Defeat Conditions:</h2>"\
