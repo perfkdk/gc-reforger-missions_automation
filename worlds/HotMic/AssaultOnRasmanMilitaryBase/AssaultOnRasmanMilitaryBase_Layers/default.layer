@@ -1,6 +1,3 @@
-SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
- coords 5912.657 106.755 11246.711
-}
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  components {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
@@ -158,68 +155,40 @@ GenericEntity : "{705D4C030A30D4A3}Prefabs/Compositions/Misc/CustomEntities/Inte
  coords 8312.378 322.187 2021.141
  angles 0 -38.419 0
 }
-$grp GenericEntity : "{76167BEC292DCF79}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Warzone_US_01.et" {
+GenericEntity : "{76167BEC292DCF79}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Warzone_US_01.et" {
+ coords 8367.424 325.303 1934.771
+ angles 0 148.739 0
  {
-  coords 8367.424 325.303 1934.771
-  angles 0 148.739 0
-  {
-   GenericEntity : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_BaseInteraction.et" {
-    components {
-     ActionsManagerComponent "{61F4C18E835074FF}" {
-      ActionContexts {
-       UserActionContext "{61F4C18ECB0A8B85}" {
-        Radius 1
-       }
+  GenericEntity : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_BaseInteraction.et" {
+   components {
+    ActionsManagerComponent "{61F4C18E835074FF}" {
+     ActionContexts {
+      UserActionContext "{61F4C18ECB0A8B85}" {
+       Radius 1
       }
-      additionalActions {
-       TILW_BaseInteraction "{61F4C18E863E752C}" {
-        m_actionName "Set Difficuty: Medium"
-        m_deleteParent 1
-        m_flagName "Set Difficuty Median"
+     }
+     additionalActions {
+      TILW_BaseInteraction "{61F4C18E863E752C}" {
+       m_actionName "Set Difficuty: Medium"
+       m_deleteParent 1
+       m_flagName "Set Difficuty Median"
+      }
+      TILW_BaseInteraction "{65E365F08EEAC4F9}" {
+       ParentContextList {
+        "Interact_A"
        }
-       TILW_BaseInteraction "{65E365F08EEAC4F9}" {
-        ParentContextList {
-         "Interact_A"
-        }
-        ActionTitle "Interact_B"
-        Duration 1
-        "Sort Priority" 1
-        m_actionName "Set Difficuty: Hard"
-        m_deleteParent 1
-        m_flagName "Set Difficuty Hard"
-       }
+       ActionTitle "Interact_B"
+       Duration 1
+       "Sort Priority" 1
+       m_actionName "Set Difficuty: Hard"
+       m_deleteParent 1
+       m_flagName "Set Difficuty Hard"
       }
      }
     }
-    coords 0 1.367 0
-    angles 0 95.431 0
    }
-  }
- }
- {
-  coords 8366.983 322.187 1928.157
-  angles 0 66.328 0
-  {
-   GenericEntity : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_BaseInteraction.et" {
-    components {
-     ActionsManagerComponent "{61F4C18E835074FF}" {
-      ActionContexts {
-       UserActionContext "{61F4C18ECB0A8B85}" {
-        Radius 1
-       }
-      }
-      additionalActions {
-       TILW_BaseInteraction "{61F4C18E863E752C}" {
-        m_actionName "Debug: Clear AI Respawn Flags"
-        m_deleteParent 1
-        m_flagName "Clear AI Respawns Flags"
-       }
-      }
-     }
-    }
-    coords 0 1.367 0
-    angles 0 95.431 0
-   }
+   coords 0 1.367 0
+   angles 0 95.431 0
   }
  }
 }

@@ -30,32 +30,8 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
        SCR_CallsignInfo "{55CCB792D10AD8F4}" {
         m_sCallsign "Overlord"
        }
-       SCR_CallsignInfo "{55CCB792D13759D8}" {
-        m_sCallsign "Zulu"
-       }
-       SCR_CallsignInfo "{55CCB792D1218E95}" {
-        m_sCallsign "Yankee"
-       }
-       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
-        m_sCallsign "Alpha"
-       }
-       SCR_CallsignInfo "{64E2F896A8C154A9}" {
-        m_sCallsign "Bravo"
-       }
-       SCR_CallsignInfo "{64E2F896A8E698B6}" {
-        m_sCallsign "Charlie"
-       }
-       SCR_CallsignInfo "{65EA22A265F640CE}" {
-        m_sCallsign "Delta"
-       }
-       SCR_CallsignInfo "{65E55DAF775C2A77}" {
-        m_sCallsign "Echo"
-       }
-       SCR_CallsignInfo "{65EA22A268709423}" {
-        m_sCallsign "Foxtrot"
-       }
-       SCR_CallsignInfo "{65EA22A0A7B66D66}" {
-        m_sCallsign "Helicopter"
+       SCR_CallsignInfo "{673E5952B3108EE0}" {
+        m_sCallsign "6"
        }
       }
       m_sCallsignGroupFormat "%2 - %3"

@@ -6,7 +6,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
    }
    PS_GroupCallsignAssigner "{65E2051E84A5C7A3}" {
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 3
+    m_iSquadCallsign 2
    }
   }
   coords 8391.619 322.187 1988.853
@@ -32,7 +32,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
    }
    PS_GroupCallsignAssigner "{65E2051E84A5C7A3}" {
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 4
+    m_iSquadCallsign 3
    }
   }
   coords 8425.621 322.187 1995.618
@@ -58,7 +58,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
    }
    PS_GroupCallsignAssigner "{65E2051E84A5C7A3}" {
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 5
+    m_iSquadCallsign 4
    }
   }
   coords 8457.636 322.187 2002.974
@@ -84,7 +84,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
    }
    PS_GroupCallsignAssigner "{65E2051E84A5C7A3}" {
     m_iPlatoonCallsign 2
-    m_iSquadCallsign 6
+    m_iSquadCallsign 2
    }
   }
   coords 8230.783 322.187 1896.698
@@ -110,7 +110,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
    }
    PS_GroupCallsignAssigner "{65E2051E84A5C7A3}" {
     m_iPlatoonCallsign 2
-    m_iSquadCallsign 7
+    m_iSquadCallsign 3
    }
   }
   coords 8263.369 322.187 1902.076
@@ -136,7 +136,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
    }
    PS_GroupCallsignAssigner "{65E2051E84A5C7A3}" {
     m_iPlatoonCallsign 2
-    m_iSquadCallsign 8
+    m_iSquadCallsign 4
    }
   }
   coords 8294.953 322.187 1911.489
@@ -223,7 +223,7 @@ $grp SCR_AIGroup : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
    }
    PS_GroupCallsignAssigner "{65DF776CE76239A5}" {
     m_iPlatoonCallsign 2
-    m_iSquadCallsign 2
+    m_iSquadCallsign 1
    }
   }
   coords 8277.893 321.789 1892.562
