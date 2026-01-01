@@ -378,7 +378,6 @@ class GC_R_Manager : GameEntity
 						break;
 				}
 				
-				Print("GC Roulette | Element: " + element + " - " + companyIndex + " " + platoonIndex + " " + squadIndex);
 				cgc.ReAssignGroupCallsign(companyIndex, platoonIndex, squadIndex);
 			}
 			
@@ -565,17 +564,17 @@ class GC_R_Manager : GameEntity
 		
 		if(year == -1)
 		{
-			year = m_random.RandInt(1970,2026);
+			year = m_random.RandIntInclusive(1950,2050);
 		}
 		
 		if(month == -1)
 		{
-			month = m_random.RandInt(1,12);
+			month = m_random.RandIntInclusive(1,12);
 		}
 		
 		if(day == -1)
 		{
-			day = m_random.RandInt(1,28);
+			day = m_random.RandIntInclusive(1,28);
 		}
 		
 		manager.SetDate(year, month, day, true);
@@ -598,6 +597,13 @@ class GC_R_Manager : GameEntity
 	void SetRandomEnvironment()
 	{
 		SetDate();
+		SetTime();
+		SetWeather();
+	}
+	
+	void SetRandomEnvironment(int year)
+	{
+		SetDate(year);
 		SetTime();
 		SetWeather();
 	}

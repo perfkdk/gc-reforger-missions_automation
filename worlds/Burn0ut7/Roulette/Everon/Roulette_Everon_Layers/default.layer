@@ -48,6 +48,54 @@ GC_R_Manager : "{6E2C9E0BE9F314EC}worlds/Burn0ut7/Roulette/Prefabs/RouletteManag
   }
  }
  coords 5360.158 81.551 6297.392
+ m_scenarios {
+  GC_R_AttackDefend "{66AB7A7085BCF79D}" {
+   m_briefing {
+    GC_R_Briefing "{673F50C99D0D411F}" {
+     m_title "Briefing: Notes"
+     m_description "I. Situation:"\
+     "%1"\
+     "Local Time: %2"\
+     "Weather: %4"\
+     ""\
+     "Attackers: %5"\
+     "Defenders: %6"\
+     ""\
+     ""\
+     "VI. End Conditions:"\
+     "	Attackers capture Marked objective(red circle)"\
+     "	100 Percent player casualties (Loss)"\
+     "	Time Limit - 70 minutes"
+     m_side All
+    }
+    GC_R_Briefing "{673F50C8D8A90240}" {
+     m_title "Briefing: Mission"
+     m_description "Ia. Friendly Forces:"\
+     "	%2"\
+     ""\
+     "Ib. Enemy Forces:"\
+     "	%4"\
+     ""\
+     "II. Mission:"\
+     "Our Team is to DEFEND the strategic building marked with a red circle."\
+     ""\
+     "III. Execution:"\
+     "As per CO's intent."\
+     ""\
+     "IV. Command/Signals:"\
+     "Per the slotting screen."\
+     ""\
+     "V. Service/Support:"\
+     "%3"\
+     ""\
+     ""\
+     "No Resupply."
+     m_side Team0
+     m_variables Team
+    }
+   }
+  }
+ }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords -2990.113 3.844 1085.012

@@ -4,13 +4,32 @@ class GC_R_BaseScenario : Managed
 	[Attribute(defvalue: "", uiwidget: UIWidgets.Auto, desc: "Name of scenario refereced in the briefing")]
     protected string m_scenarioName;
 	
-	void Intialize();
+	[Attribute(uiwidget: UIWidgets.Object, desc: "Briefings")]
+    protected ref array<ref GC_R_Briefing> m_briefing;
+	
+	protected GC_R_Manager m_manager;
+	ref array<ref GC_R_Team> m_teams = {};
+	
+	void Intialize()
+	{
+		m_manager = GC_R_Manager.GetInstance();
+	}
+	
 	void Reroll();
 }
 
 [BaseContainerProps(), BaseContainerCustomTitleField("Attack and Defend")]
 class GC_R_AttackDefend: GC_R_BaseScenario
 {
+	[Attribute(defvalue: "2", uiwidget: UIWidgets.Auto, desc: "Ratio for attackers")]
+    protected float m_ratio;
+	
+	[Attribute(defvalue: "1970", uiwidget: UIWidgets.Auto, desc: "Start range for year")]
+    protected float m_yearStart;
+	
+	[Attribute(defvalue: "1990", uiwidget: UIWidgets.Auto, desc: "End range for year")]
+    protected float m_yearEnd;
+	
 	[Attribute(defvalue: "50", uiwidget: UIWidgets.Auto, desc: "Size of nearby building search", category: "Objective")]
     protected float m_buildingSearchSize;
 	
@@ -34,21 +53,16 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	
 	[Attribute(defvalue: "5000", uiwidget: UIWidgets.Auto, desc: "Max size of AO in meters", category: "AO")]
     protected int m_maxAOSize;
-	
-	protected const static int BASERATIO = 2;
-	
+
 	protected int m_searchAttempts;
 	
-	protected GC_R_Manager m_manager;
 	protected ref GC_R_ObjAttackDefend m_objective;
-	
-	ref array<ref GC_R_Team> m_teams = {};
 	
 	protected bool m_searching = false;
 	
 	override void Intialize()
 	{
-		m_manager = GC_R_Manager.GetInstance();
+		super.Intialize();
 
 		FindObjectiveAsync();
 	}
@@ -188,6 +202,57 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		
 		// Spawn AO
 		m_manager.SpawnAO(points);
+	}
+	
+	void SetupBriefing()
+	{
+		TimeAndWeatherManagerEntity manager = ChimeraWorld.CastFrom(GetGame().GetWorld()).GetTimeAndWeatherManager();
+		int hour, minute, second;
+		manager.GetHoursMinutesSeconds(hour, minute, second);
+		string time = string.Format("%1%2",hour,minute);
+		string year = manager.GetYear().ToString();
+		string weather = WidgetManager.Translate(manager.GetCurrentWeatherState().GetLocalizedName());
+		
+		//Defender
+		string defender, dOrbat, dVehicles;
+ 		m_teams[0].GetBriefing(defender, dOrbat, dVehicles);
+		
+		//Attacker
+		string attacker, aOrbat, aVehicles;
+ 		m_teams[1].GetBriefing(attacker, aOrbat, aVehicles);
+		
+		SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
+		
+		foreach(GC_R_Briefing briefing : m_briefing)
+		{
+			PS_MissionDescription md = PS_MissionDescription.Cast(m_manager.SpawnPrefab(briefing.GetPrefab()));
+			md.SetTitle(briefing.m_title);
+			
+			string description;
+			if(briefing.m_variables == GC_R_EBriefingVars.General)
+				description = string.Format(briefing.m_description,m_scenarioName,time,year,weather,defender,attacker);
+			else
+				description = string.Format(briefing.m_description,defender,dOrbat,dVehicles,attacker,aOrbat,aVehicles);
+			
+			md.SetTextData(description);
+			
+			switch(briefing.m_side){
+				case GC_R_EBriefing.Team0:
+					md.SetVisibleForFaction(fm.GetFactionByKey(m_teams[0].GetFaction()), true);
+					md.SetVisibleForEmptyFaction(false);
+					break;
+				case GC_R_EBriefing.Team1:
+					md.SetVisibleForFaction(fm.GetFactionByKey(m_teams[1].GetFaction()), true);
+					md.SetVisibleForEmptyFaction(false);
+					break;
+				case GC_R_EBriefing.All:
+					md.SetVisibleForEmptyFaction(true);
+					md.SetShowForAnyFaction(true);
+				default:
+					md.SetVisibleForEmptyFaction(true);
+					md.SetShowForAnyFaction(false);
+			}
+		}
 	}
 	
 	void SetupMarkers()
@@ -335,16 +400,15 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		GC_R_Team defender = m_teams[0];
 		GC_R_Team attacker = m_teams[1];
 		
-		float ratio = (defender.GetStrength() - attacker.GetStrength()) + BASERATIO;
-		Print("GRAY_RouletteAD.Scenario ratio = "+ ratio);
-
+		float ratio = (defender.GetStrength() - attacker.GetStrength()) + m_ratio;
+		Print("GC Roulette | Ratio: " + ratio);
+		
 		int defenderRatio = Math.AbsInt(m_manager.m_targetPlayerCount / (1 + ratio));
 		int defenderCount = defender.GetElements(defenderRatio);
 		
 		int attackerRatio = Math.AbsInt(defenderCount * ratio);
 		attacker.GetElements(attackerRatio);
-		
-		
+
 		vector dir = vector.Direction(defender.m_spawn.m_position, m_teams[1].m_spawn.m_position);
 		float yaw = dir.ToYaw();
 		bool isSucessful = m_manager.SpawnTeam(defender.m_spawn.m_position, yaw, defender);
@@ -359,9 +423,13 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		
 		SetupAO();
 		SetupMarkers();
+
+		int year = m_manager.GetRandom().RandIntInclusive(m_yearStart, m_yearEnd);
+		m_manager.SetRandomEnvironment(year);
+		
+		SetupBriefing();
 		
 		m_manager.ResetMapMenu();
-		m_manager.SetRandomEnvironment();
 	}
 	
 	protected void FindDefenderSpawnAsync()
@@ -395,6 +463,48 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		}
 
 		GetGame().GetCallqueue().CallLater(FindDefenderSpawn, 1, false);
+	}
+}
+
+
+enum GC_R_EBriefingVars
+{
+	General,
+	Team
+}
+
+enum GC_R_EBriefing
+{
+	Empty,
+	All,
+	Team0,
+	Team1,
+	Team2,
+	Team3,
+	Team4,
+	Team5
+}
+
+[BaseContainerProps(), BaseContainerCustomTitleField("Briefing")]
+class GC_R_Briefing
+{
+	protected static const ResourceName PREFAB = "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et";
+	
+	[Attribute("", UIWidgets.EditBox)]
+	string m_title;
+	
+	[Attribute(defvalue: "", uiwidget: UIWidgets.EditBoxMultiline, desc: "Briefing description. %1 = Defender team, %2 = Attacker team, %3 = Defender Element, %4 = Attacker Element, %5 = Scenario", category: "Attack and Defend")]
+	string m_description;
+	
+	[Attribute("0", UIWidgets.ComboBox, desc: "What side is this briefing intended for?", "", ParamEnumArray.FromEnum(GC_R_EBriefing))]
+	GC_R_EBriefing m_side;	
+	
+	[Attribute("0", UIWidgets.ComboBox, desc: "Which variable set to use", "", ParamEnumArray.FromEnum(GC_R_EBriefingVars))]
+	GC_R_EBriefingVars m_variables;
+	
+	ResourceName GetPrefab()
+	{
+		return PREFAB;
 	}
 }
 
@@ -462,8 +572,6 @@ class GC_R_Team
 				outElements.Insert(element);
 		}
 		
-		Print("GC Roulette | GetRatio " + m_name + " - Target: " + targetPlayers + " Selected: " + m_totalPlayers);
-		
 		m_elements = Order(outElements);
 		
 		int totalCount = 0;
@@ -473,6 +581,70 @@ class GC_R_Team
 		}
 		
 		return totalCount;
+	}
+	
+	void GetElementCounts(out int company, out int platoon, out int squad)
+	{
+		company = 0;
+		platoon = 0;
+		squad = 0;
+		
+		foreach(GC_R_ElementBase element : m_elements)
+		{
+			if(GC_R_Company.Cast(element))
+				company++;
+			
+			if(GC_R_Platoon.Cast(element))
+				platoon++;
+			
+			if(GC_R_Squad.Cast(element))
+				squad++;
+		}
+	}
+	
+	void GetBriefing(out string name, out string orbat, out string vehicles)
+	{
+		name = m_name;
+		
+		int company, platoon, squad;
+		GetElementCounts(company, platoon, squad);
+		
+		if(company)
+			orbat += company.ToString() + "x Company\n";
+		
+		if(platoon)
+			orbat += platoon.ToString() + "x Platoon\n";
+		
+		if(squad)
+			orbat += squad.ToString() + "x Squad\n";
+		
+		map<string, int> vehicleMap = GetVehicleMap();
+		foreach(string _name, int count: vehicleMap)
+		{
+			vehicles += string.Format("%1x - %2\n",count,_name);
+		}
+	}
+
+	map<string, int> GetVehicleMap()
+	{
+		map<string, int> vehicles = new map<string, int>;
+		
+		foreach(GC_R_ElementBase element : m_elements)
+		{
+			IEntity vehicle = element.m_vehicle;
+			if(!vehicle)
+				continue;
+
+			SCR_EditableVehicleComponent editable = SCR_EditableVehicleComponent.Cast(vehicle.FindComponent(SCR_EditableVehicleComponent));
+			string name = WidgetManager.Translate(editable.GetDisplayName());
+		
+			int count = vehicles.Get(name);
+			count++;
+			
+			vehicles.Set(name, count);
+		}
+		
+		return vehicles;
 	}
 	
     array<GC_R_ElementBase> Order(array<GC_R_ElementBase> pickedElements)
