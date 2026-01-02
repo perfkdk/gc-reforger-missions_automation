@@ -87,14 +87,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "210 Coy Commander"\
   "->First Sergeant"\
   ""\
-  "220 Platoon Leader"\
-  "->Deputy Platoon Leader ->221 -> 222 -> 223"\
+  "211 Platoon Leader"\
+  "->Deputy Platoon Leader ->211 -> 212 -> 213"\
   ""\
-  "230 Platoon Leader"\
-  "->Deputy Platoon Leader ->231 -> 232 -> 233"\
+  "214 Platoon Leader"\
+  "->Deputy Platoon Leader ->214 -> 215 -> 216"\
   ""\
-  "240 Platoon Leader"\
-  "->Deputy Platoon Leader ->241 -> 242 -> 243"\
+  "217 Platoon Leader"\
+  "->Deputy Platoon Leader ->217 -> 218 -> 219"\
   ""\
   ""\
   ""\
