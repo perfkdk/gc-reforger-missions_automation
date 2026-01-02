@@ -42,7 +42,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
  coords 4693.332 271.193 9390.447
  m_iFreezeTime 300000
  {
-  SCR_FactionManager {
+  SCR_FactionManager "684520745370F70F" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{652F615735715119}" {
@@ -288,6 +288,7 @@ TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_Facti
  m_flagName "OBJ_TAKEN"
  m_stopAfterFirstChange 1
  m_playersOnly 1
+ m_ownerFactionKey "UK"
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 4700.608 272.499 9397.064
@@ -387,6 +388,7 @@ Vehicle _Series_SWB_GPMG1 : "{CC4DFA3A23A5BA41}Prefabs/Vehicles/Wheeled/LR_3Seri
  }
  coords 3545.157 267.624 8943.694
  angles 0 111 0
+ m_sAttachmentGroupName "gr_uk_86a"
 }
 PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  coords 4723.725 274.688 9473.413
@@ -396,24 +398,4 @@ PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" 
  m_fWorldSize 240
  m_bVisibleForEmptyFaction 1
  m_bShowForAnyFaction 1
-}
-SCR_AIGroup : "{CF4CEB0C1C53CE2A}Prefabs/Groups/BLUFOR/British Forces/1989/P/Paras/Group_UK_1989_REG_ParaPHQ_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "linw"
-  }
-  PS_GroupCallsignAssigner "{673EEDEA5446BEBF}" {
-   m_iCompanyCallsign 7
-   m_iPlatoonCallsign 6
-   m_iSquadCallsign 1
-  }
- }
- coords 3547.489 267.625 8946.24
- angles 0 -164 0
- m_aUnitPrefabSlots {
-  "{2D5BD01E97CB2997}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_SectionCommander_P.et"
-  "{66FB5C06124C24FF}worlds/James/JavoryPrelude/Character_UK_1989_Paras_Pioneer_P.et"
-  "{66FB5C06124C24FF}worlds/James/JavoryPrelude/Character_UK_1989_Paras_Pioneer_P.et"
- }
- m_sCustomNameSet "Assault Pioneer Section"
 }

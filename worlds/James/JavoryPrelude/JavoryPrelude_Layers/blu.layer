@@ -93,6 +93,7 @@ $grp Vehicle : "{57FE9BCA625CA0E3}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 3587.343 267.83 8917.398
   angles 0 59 0
+  m_sAttachmentGroupName "gr_uk_61a"
  }
  _Series_LWB_Recce_M2HB2 {
   components {
@@ -115,6 +116,7 @@ $grp Vehicle : "{57FE9BCA625CA0E3}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 3583.711 267.754 8919.453
   angles 0 70 0
+  m_sAttachmentGroupName "gr_uk_61b"
  }
  _Series_LWB_Recce_M2HB3 {
   components {
@@ -137,6 +139,7 @@ $grp Vehicle : "{57FE9BCA625CA0E3}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 3580.329 267.685 8922.144
   angles 0 78 0
+  m_sAttachmentGroupName "gr_uk_61c"
  }
  _Series_LWB_Recce_M2HB4 {
   components {
@@ -159,6 +162,7 @@ $grp Vehicle : "{57FE9BCA625CA0E3}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 3578.184 267.639 8925.33
   angles 0 100 0
+  m_sAttachmentGroupName "gr_uk_61d"
  }
 }
 PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {
@@ -182,7 +186,7 @@ PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_GroupF
  m_bShowForAnyFaction 0
 }
 $grp SCR_AIGroup : "{6A5FB93017D924FA}Prefabs/Groups/BLUFOR/British Forces/1989/P/Paras/Group_UK_1989_REG_ParaSection_P.et" {
- {
+ gr_uk_61c {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -202,7 +206,7 @@ $grp SCR_AIGroup : "{6A5FB93017D924FA}Prefabs/Groups/BLUFOR/British Forces/1989/
   }
   m_sCustomNameSet "Recce Section"
  }
- {
+ gr_uk_13a {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -225,7 +229,7 @@ $grp SCR_AIGroup : "{6A5FB93017D924FA}Prefabs/Groups/BLUFOR/British Forces/1989/
    "{9A8C27BD0D927F3A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_Rifleman_LAT_P.et"
   }
  }
- {
+ gr_uk_61b {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -245,7 +249,7 @@ $grp SCR_AIGroup : "{6A5FB93017D924FA}Prefabs/Groups/BLUFOR/British Forces/1989/
   }
   m_sCustomNameSet "Recce Section"
  }
- {
+ gr_uk_13b {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -268,7 +272,7 @@ $grp SCR_AIGroup : "{6A5FB93017D924FA}Prefabs/Groups/BLUFOR/British Forces/1989/
    "{9A8C27BD0D927F3A}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_Rifleman_LAT_P.et"
   }
  }
- {
+ gr_uk_61d {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -288,7 +292,7 @@ $grp SCR_AIGroup : "{6A5FB93017D924FA}Prefabs/Groups/BLUFOR/British Forces/1989/
   }
   m_sCustomNameSet "Recce Section"
  }
- {
+ gr_uk_13c {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -346,6 +350,7 @@ $grp Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 3558.45 267.594 8937.801
   angles 0 118 0
+  m_sAttachmentGroupName "gr_uk_13c"
  }
  _Series_LWB_Transport2 {
   components {
@@ -380,6 +385,7 @@ $grp Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 3564.693 267.593 8934.33
   angles 0 120 0
+  m_sAttachmentGroupName "gr_uk_13b"
  }
  _Series_LWB_Transport3 {
   components {
@@ -414,10 +420,11 @@ $grp Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 3571.265 267.593 8930.509
   angles 0 119 0
+  m_sAttachmentGroupName "gr_uk_13a"
  }
 }
 $grp SCR_AIGroup : "{CF4CEB0C1C53CE2A}Prefabs/Groups/BLUFOR/British Forces/1989/P/Paras/Group_UK_1989_REG_ParaPHQ_P.et" {
- {
+ gr_uk_13 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -429,7 +436,7 @@ $grp SCR_AIGroup : "{CF4CEB0C1C53CE2A}Prefabs/Groups/BLUFOR/British Forces/1989/
   coords 3553.394 267.592 8944.073
   angles 0 -160 0
  }
- {
+ gr_uk_61a {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "linw"
@@ -449,8 +456,29 @@ $grp SCR_AIGroup : "{CF4CEB0C1C53CE2A}Prefabs/Groups/BLUFOR/British Forces/1989/
   }
   m_sCustomNameSet "Recce Platoon HQ"
  }
+ gr_uk_86a {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "linw"
+   }
+   PS_GroupCallsignAssigner "{673EEDEA5446BEBF}" {
+    m_iCompanyCallsign 7
+    m_iPlatoonCallsign 6
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3547.489 267.625 8946.24
+  angles 0 -164 0
+  m_aUnitPrefabSlots {
+   "{2D5BD01E97CB2997}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Paras/Character_UK_1989_Paras_SectionCommander_P.et"
+   "{66FB5C06124C24FF}worlds/James/JavoryPrelude/Character_UK_1989_Paras_Pioneer_P.et"
+   "{66FB5C06124C24FF}worlds/James/JavoryPrelude/Character_UK_1989_Paras_Pioneer_P.et"
+  }
+  m_sCustomNameSet "Assault Pioneer Section"
+ }
 }
 Vehicle _Series_SWB_Transport1 : "{EDEAE951AFF2A836}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_SWB_Transport.et" {
  coords 3551.542 267.593 8941.208
  angles 0 112 0
+ m_sAttachmentGroupName "gr_uk_13"
 }
