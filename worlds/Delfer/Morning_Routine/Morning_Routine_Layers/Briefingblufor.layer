@@ -76,11 +76,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "21C"\
   "21D"\
   ""\
-  "Platoon Net: 37"\
-  ""\
-  "Challenge:"\
-  "Pass:"\
-  "Running Password:"
+  "Platoon net: 48.0MHz"
   m_aVisibleForFactions {
    "UK"
   }

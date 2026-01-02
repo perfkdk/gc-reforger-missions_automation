@@ -97,12 +97,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "->Deputy Platoon Leader ->217 -> 218 -> 219"\
   ""\
   ""\
-  ""\
-  "Company Net: 42"\
-  ""\
-  "Challenge:"\
-  "Pass:"\
-  "Running Password: "
+  "Company Net: 42.0MHz"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -119,10 +114,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Radius are not marked to prevent meta-gaming but they fully encompass each feature."\
   ""\
   "There will be no messages to indicate capturing progress, the only message will appear when the Redfor has captured one."
-  m_aVisibleForFactions {
-   "USSR"
-   "UK"
-  }
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 9

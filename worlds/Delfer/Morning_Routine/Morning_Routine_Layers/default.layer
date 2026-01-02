@@ -20,7 +20,6 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
     SCR_Faction "{56DEAC40D3C2E623}" {
     }
     SCR_Faction "{61500924662B6062}" {
-     m_iFactionRadioFrequency 37000
     }
    }
   }
