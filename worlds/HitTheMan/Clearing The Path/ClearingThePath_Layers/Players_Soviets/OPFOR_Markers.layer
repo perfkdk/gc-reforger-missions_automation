@@ -1,6 +1,6 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  USSR_PLT_Marker_3 {
-  coords 5254.136 146.038 8176.809
+  coords 4911.184 163.753 8139.43
   angles 0 90 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
@@ -28,7 +28,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_PLT_Marker_4 {
-  coords 5212.205 141.936 8207.653
+  coords 4950.863 156.305 8117.817
   angles 0 90 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
@@ -42,7 +42,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_PLT_Marker_5 {
-  coords 5304.163 140.764 8153.406
+  coords 4885.605 167.369 8200.89
   angles 0 90 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
@@ -56,8 +56,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_PLT_Marker_6 {
-  coords 5222.033 144.919 8224.541
-  angles 0 26.178 0
+  coords 4939.418 154.852 8093.658
+  angles 0 -127.254 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
@@ -70,14 +70,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_PLT_Marker_7 {
-  coords 5241.674 144.79 8211.801
-  angles 0 26.178 0
+  coords 4853.565 163.199 8119.992
+  angles 0 -27.811 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "automobile_recon"
   m_fWorldSize 25
-  m_sDescription "421 (BRDM)"
+  m_sDescription "422 (BRDM)"
   m_aVisibleForFactions {
    "GC_NVA"
   }
