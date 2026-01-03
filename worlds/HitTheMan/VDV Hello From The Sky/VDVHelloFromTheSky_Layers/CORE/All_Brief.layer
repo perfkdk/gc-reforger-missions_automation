@@ -37,7 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "- BLUFOR gets 15x Respawn at start"\
   ""\
-  "- If a pilots gets shot down.. "\
+  "- If a pilot gets shot down.. "\
   "-- Congratulations, you're now following the ground infantry in"\
   "-- OR jump into a Mi-8 and be their gunner."\
   ""\
@@ -55,14 +55,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "USE EXACT TIME AS WRITTEN GMs... DO NOT BE A MINUTE OFF OTHERWISE ITS NOT INTENDED."\
   ""\
-  "<b>ATTACKER CO. CHOOSES::</b>"\
+  "<b>ATTACKER CO. CHOOSES:</b>"\
   "Time of Day: "\
   "- 0530 / Morning"\
   "- 1330 / Day"\
   "- 2100 / Dusk"\
   "- 2200 / \"\"Early Night\"\" (It's bright, good for attackers with Flares)"\
   ""\
-  "<b>DEFENDER CO. CHOOSES::</b>"\
+  "<b>DEFENDER CO. CHOOSES:</b>"\
   "Weather: "\
   "- Clear"\
   "- Cloudy"\

@@ -246,7 +246,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>II: Mission</h2>"\
   "Secure the Bysovice Airfield by taking control over the Military Base, Industrial and Hangers (Marked on map & Mission Notes)"\
   ""\
-  "No Heavy weapons have been located at the Airfield, most likely they only have FIM Stingers and 50.calls, at least until QRF Arrive. So we'd have a \"Easier\" time landing more in shock and awe on the airfield or close to the infastructure."\
+  "No Heavy weapons have been located at the Airfield, most likely they only have FIM Stingers and 50.calls, at least until QRF Arrive. So we'd have a \"Easier\" time landing more in shock and awe on the airfield or close to the infrastructure."\
   ""\
   "<b>Once we secure ONE of these objectives, a full company (Respawn Wave) will reinforce our forces and more will arrive (64x Respawn left after)</b>"\
   ""\
@@ -270,7 +270,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "Air assault onto Airfield and secure the critical Infastructures."\
+  "Air assault onto Airfield and secure the critical Infrastructures."\
   ""\
   "2x Mi-24s"\
   "-- 8x Infantry Capacity Per Mi-24"\
@@ -282,11 +282,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Company Commander's Discretion."\
-  "It is adviced to use the infantry to scout for any hard-to-attack locations and relay the information to the aircrafts which should only serve as direct firesupport to the main VDV Element via the FASL"\
+  "It is advised to use the infantry to scout for any hard-to-attack locations and relay the information to the aircrafts which should only serve as direct fire support to the main VDV Element via the FASL"\
   ""\
   "<b>2. Maneuver</b>"\
   "Company Commander's Discretion."\
-  "It is adviced to airassault onto either ONE of the external HQ locations as a singular force to maintain force composition before moving onto the rest. Highly adviced to NOT seperate the company into independent Platoons."
+  "It is advised to air assault onto either ONE of the external HQ locations as a singular force to maintain force composition before moving onto the rest. Highly advised to NOT separate the company into independent Platoons."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -313,7 +313,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Each Mi-8 Carries"\
   "- 20x Bandages"\
   "- 100x 30rnd AK Mags"\
-  "- 50x 30rnd AK Tracer Mahs"\
+  "- 50x 30rnd AK Tracer Mags"\
   "- 100x 45rnd RPK Mags"\
   "- 50x Flares Green"\
   "- 50x Flares Orange"\

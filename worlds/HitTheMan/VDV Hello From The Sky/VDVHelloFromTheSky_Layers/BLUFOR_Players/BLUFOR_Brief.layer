@@ -60,7 +60,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "Protect our South and North Infastructures if they are lost to the enemy we have to fall back from the Airfield to Kamoryn."\
+  "Protect our South and North Infrastructures if they are lost to the enemy we have to fall back from the Airfield to Kamoryn."\
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Platoon Commander's Discretion."\
@@ -95,10 +95,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Vehicles include Mi-8s & Mi-24s"\
   ""\
   "<b>MLCOA:</b>"\
-  "Land and secure one of the infastructures (Military Base, Industry, Hangers), before pushing outwards securing the rest."\
+  "Land and secure one of the infrastructures (Military Base, Industry, Hangers), before pushing outwards securing the rest."\
   ""\
   "<b>MDCOA:</b>"\
-  "Land and secure theone of the infastructures (Military Base, Industry, Hangers), utilizing the Mi-24 to sweep the forests with rockets, before continuing to secure the rest of the Air field."\
+  "Land and secure one of the infrastructures (Military Base, Industry, Hangers), utilizing the Mi-24 to sweep the forests with rockets, before continuing to secure the rest of the Air field."\
   ""\
   "<b>Defensive Fires:</b>"\
   "No known threat at this time."\
@@ -121,16 +121,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "B. Friendly Forces:"
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
-  "Our Battalion (-) is located on the Airfield, we're fairly spread out and we dont know where all our fellow Platoons are located, but we have some clue."\
+  "Our Battalion (-) is located on the Airfield, we're fairly spread out and we don't know where all our fellow Platoons are located, but we have some clue."\
   ""\
   "<b>b. Higher Units Mission:</b>"\
-  "Battalion has been assigned as security detail for the Air field while we prepare for the invitable invasion."\
+  "Battalion has been assigned as security detail for the Air field while we prepare for the inevitable invasion."\
   ""\
   "<b>c. Composition:</b>"\
   "1x Platoon (-) (Players)"\
   ""\
   "<b>d. Strength:</b>"\
-  "1st Platton - At 15x Man Strength"\
+  "1st Platoon - At 15x Man Strength"\
   ""\
   "<b>e. Supporting Fires:</b>"\
   "None."\
@@ -149,7 +149,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5770.217 101.246 10124.798
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Prevent the loss of the our critical Infastructures.. if they are lost to the enemy we have no choice but to fall back."\
+  "Prevent the loss of our critical Infrastructures.. if they are lost to the enemy we have no choice but to fall back."\
   ""\
   "15x Respawns at start and no more."\
   ""\
