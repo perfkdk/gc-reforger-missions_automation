@@ -24,6 +24,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "GC_NVA"
   }
+  m_iZOrder -5
   m_bringToFront 0
  }
  USSR_PLT_Marker_4 {
@@ -34,7 +35,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "plt_hq"
   m_fWorldSize 100
-  m_sDescription "221 (BTR)"
+  m_sDescription "214 (BTR)"
   m_aVisibleForFactions {
    "GC_NVA"
   }

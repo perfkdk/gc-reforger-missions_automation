@@ -85,7 +85,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Mortar Team is located further south at 029 065"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
-  "Company has been tasked with securing the Brambledeep Lake and destroy the British's Ammodumps in the area."\
+  "Company has been tasked with securing the town of Kamoryn and the enemy's Battalion HQ. Before the rest of our unit pushes up to exploit the pushthrough."\
   ""\
   "<b>c. Composition:</b>"\
   "1x Company HQ"\
@@ -105,7 +105,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "No air support available"\
   ""\
   "<b>g. Additional Ammunition</b>"\
-  "Additional Ammunition in the BTR-70s & Urals."
+  "Additional Ammunition in the BTR-70s."
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -115,7 +115,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5156.968 341.544 5343.003
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Secure the enemy Brigade HQ in the town"\
+  "Secure the enemy Brigade HQ located at 034 083 north of the town."\
   ""\
   "Utilize the mortar to establish smoke cover for movement or deny area of movement with HE."
   m_aVisibleForFactions {
