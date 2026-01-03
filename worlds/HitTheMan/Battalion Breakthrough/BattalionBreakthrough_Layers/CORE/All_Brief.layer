@@ -8,7 +8,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Weather - Defenders Choose"\
   ""\
   "<b>Situation:</b>"\
-  "A East Germany Battalion has broken through the British forward defences, a Company (-) ahead of said Battalion has been tasked with securing the British Battalion HQ while also securing the town of Kamoryn itself, to continue their breakthrough. The British Battalion HQ is preparing hasty defences after having destroyed a PLT of Recon BRDMs."
+  "An East German Battalion has broken through the British forward defences, a Company (-) ahead of said Battalion has been tasked with securing the British Battalion HQ while also securing the town of Kamoryn itself, to continue their breakthrough. The British Battalion HQ is preparing hasty defences after having destroyed a PLT of Recon BRDMs."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 1
@@ -41,14 +41,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "USE EXACT TIME AS WRITTEN GMs... DO NOT BE A MINUTE OFF OTHERWISE ITS NOT INTENDED."\
   ""\
-  "<b>ATTACKER CO. CHOOSES::</b>"\
+  "<b>ATTACKER CO. CHOOSES:</b>"\
   "Time of Day: "\
   "- 0730 / Morning"\
   "- 1200 / Day"\
   "- 1715 / Dusk"\
   "- 1800 / \"\"Early Night\"\" (BRIGHT AS FUUUUUUCK) "\
   ""\
-  "<b>DEFENDER CO. CHOOSES::</b>"\
+  "<b>DEFENDER CO. CHOOSES:</b>"\
   "Weather: "\
   "- Clear"\
   "- Cloudy"\
