@@ -479,7 +479,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{6506E408307D3B9A}" {
      m_executionDelay 300
      m_messageTitle "Time Limit"
-     m_messageBody "The Mission will end in 60 minutes - At GM's Discretion"
+     m_messageBody "The Mission will end in 50 minutes - At GM's Discretion"
     }
     TILW_SetFlagInstruction "{670EEE9BF8AB54CA}" {
      m_executionDelay 300

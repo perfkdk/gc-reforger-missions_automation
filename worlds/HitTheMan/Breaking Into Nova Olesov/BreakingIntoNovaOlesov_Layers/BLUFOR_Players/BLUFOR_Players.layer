@@ -18,6 +18,24 @@ GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/Equipment
      }
      NumSlots 4
     }
+    MultiSlotConfiguration "{673EB8BA5D469203}" {
+     SlotTemplate InventoryStorageSlot hbn {
+      Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{673EB8BA517AEE6C}" {
+     SlotTemplate InventoryStorageSlot hbn {
+      Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{673EB8BA56F02F67}" {
+     SlotTemplate InventoryStorageSlot hbn {
+      Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+     NumSlots 50
+    }
    }
   }
   ActionsManagerComponent "{5476B36C403D4CC0}" {

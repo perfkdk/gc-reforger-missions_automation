@@ -1,3 +1,14 @@
+$grp GenericEntity {
+ TP1 {
+  coords 4847.096 241.771 11007.127
+ }
+ TP2 {
+  coords 4978.51 236.172 10467.379
+ }
+ TP3 {
+  coords 4173.486 265.14 10905.645
+ }
+}
 $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA_PHQ_P.et" {
  PltHQ1 {
   components {
@@ -382,6 +393,31 @@ $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ri
   m_bSetPlayable 0
  }
 }
+GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+ components {
+  ActionsManagerComponent "{62EF76E0D47ED96A}" {
+   additionalActions {
+    TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+     Duration 5
+     m_actionName "Teleport -> TP1"
+     m_locationName "TP1"
+    }
+    TILW_TeleportInteraction "{673EB8B5D77BD3C2}" {
+     Duration 5
+     m_actionName "Teleport -> TP2"
+     m_locationName "TP2"
+    }
+    TILW_TeleportInteraction "{673EB8B5C9E23E43}" {
+     Duration 5
+     m_actionName "Teleport -> TP3"
+     m_locationName "TP3"
+    }
+   }
+  }
+ }
+ coords 4815.824 426.543 6409.477
+ angles 0 22.076 0
+}
 $grp SCR_AIGroup : "{5EBBA8C4F782D895}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_MotRifleSquad1_P.et" {
  Squad1 {
   components {
@@ -474,7 +510,9 @@ SCR_AIGroup ReconTeam : "{C64F2F2FA7149BF2}Prefabs/Groups/OPFOR/GC_NVA/P/Group_N
    m_iSquadCallsign 3
   }
  }
- coords 4792.192 237.623 10932.176
+ coords 4817.609 425.351 6407.77
+ angles 0 -69.945 0
+ m_bSnapToTerrain 0
  m_bPlayable 0
  m_sCustomNameSet "Recon Team"
  m_bSetPlayable 0

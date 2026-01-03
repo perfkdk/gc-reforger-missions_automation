@@ -4,28 +4,31 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "IV. Sustainment:"
   m_sTextData "<h2>IV: Sustainment</h2>"\
   "<b>a. SOP Variations</b>"\
-  "<i>Dress: Standard Canadian Uniform"\
-  "Equipment: Standard Canadian Loadout</i>"\
+  "Dress: Standard Canadian Uniform"\
+  "Equipment: Standard Canadian Loadout"\
   ""\
   "<b>b. Logistical Support:</b>"\
-  "<i>Replen Plan: None for 24h."\
+  "Replen Plan: None for 24h."\
   "Ammunition: Each man carries his own ammunition & LAVIIs carry additional ammunition."\
   "IPE: Helmets and body armour are to be worn at all times."\
   ""\
   "Platoon has a Crate that contains:"\
   "- 500x Sandbags"\
-  "- 84mm MAW Carrier Rucksacks, contains 2x HEAT each.</i>"\
+  "- 84mm MAW Carrier Rucksacks, contains 2x HEAT each."\
+  "- 50x Flares Green"\
+  "- 50x Flares Orange"\
+  "- 50x Flares White"\
   ""\
   "<b>c. Medical:</b>"\
-  "<i>Location: Platoon Aid Post is to be setup by Platoon medics."\
+  "Location: Platoon Aid Post is to be setup by Platoon medics."\
   "CASEVAC: By foot or with company asset like the HMMWV or LAVIIs"\
   "Plan: Set up a casualty collection point and extract casualties to this point."\
   "Stretchers: None"\
   "Med Packs: Platoon medpack carried by Platoon medic."\
-  "Morphine: Every soldier carries 1+ stick of morphine.</i>"\
+  "Morphine: Every soldier carries 1+ stick of morphine."\
   ""\
   "<b>d. Vehicles:</b>"\
-  "<i>None.</i>"
+  "None."
   m_aVisibleForFactions {
    "GC_CAF"
   }
@@ -36,10 +39,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "V. Command & Signals:"
   m_sTextData "<h2>V. Command & Signal:</h2>"\
   "<b>I. Chain of Command:</b>"\
-  "<i>21, 21A, 21B, 21W, etc</i>"\
+  "21, 21A, 21B, 21W, etc"\
   ""\
   "<b>II. Callsigns:</b>"\
-  "<i>Platoon HQ ---------------------------- 21"\
+  "Platoon HQ ---------------------------- 21"\
   "- Platoon Leader -------------------- 21 Sunray"\
   "- Platoon Warrant ------------------ 21 Sunray Minor"\
   "1st Section --------------------------- 21A - Alpha"\
@@ -47,13 +50,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Weapons Detachment ---------- 21W - Whisky"\
   ""\
   "<b>- - - Vehicle/LAV Callsigns when Inf dismounted:</b>"\
-  "<i>Z29 or Zulu 29"\
+  "Z29 or Zulu 29"\
   "Zulu 21 Alpha"\
   "Zulu 21 Bravo"\
-  "Etc.</i>"\
+  "Etc."\
   ""\
   "<b>III. Frequencies:</b>"\
-  "<i>Platoon Net ------------ 48.00Mhz</i>"
+  "Platoon Net ------------ 48.00Mhz"
   m_aVisibleForFactions {
    "GC_CAF"
   }
@@ -64,15 +67,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "<i>Prevent the loss of the High Ground (Building) while maintaining Combat Effectiveness until we pull out.</i>"\
+  "Prevent the loss of the High Ground (Building) while maintaining Combat Effectiveness until we pull out."\
   ""\
   "<b>1. Concept of the Operation:</b>"\
-  "<i>Company Commander's Discretion."\
-  "It is adviced to split the platoon up to setup Kill Zones in the most likely Avenues of Approaches, engage the vehicles and infantry and pull back to fallback positions.</i>"\
+  "Company Commander's Discretion."\
+  "It is adviced to split the platoon up to setup Kill Zones in the most likely Avenues of Approaches, engage the vehicles and infantry and pull back to fallback positions."\
   ""\
   "<b>2. Maneuver</b>"\
-  "<i>Company Commander's Discretion."\
-  "It is adviced to allow the squad to be flexible in their maneuver depending on the battlefield conditions.</i>"\
+  "Company Commander's Discretion."\
+  "It is adviced to allow the squad to be flexible in their maneuver depending on the battlefield conditions."\
   ""
   m_aVisibleForFactions {
    "GC_CAF"
@@ -84,39 +87,39 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "A. Enemy Forces:"
   m_sTextData "<h2>A. Enemy Forces:</h2>"\
   "<b>Equipment:</b>"\
-  "<i>USSR are equipped with their standard WARSAW Pact weaponry, AK series, RPG7s, PKMs."\
-  "Wearing the standard USSR uniform of Tan with greenish helmet.</i>"\
+  "USSR are equipped with their standard WARSAW Pact weaponry, AK series, RPG7s, PKMs."\
+  "Wearing the standard USSR uniform of Tan with greenish helmet."\
   ""\
   "<b>Known Strength:</b>"\
-  "<i>1x Mechanized Company (-)"\
-  "Regimental Main Body (Further behind)</i>"\
+  "1x Mechanized Company (-)"\
+  "Regimental Main Body (Further behind)"\
   ""\
   "<b>Location:</b>"\
-  "<i>Company (-) is located somewhere East of Nova Olesov"\
+  "Company (-) is located somewhere East of Nova Olesov"\
   "Enemy Divisional Reconnasence pushed through earlier, not expected to be a threat"\
-  "Their Regimental Main Body is behind the Company (-), will arrive in about 50min </i>"\
+  "Their Regimental Main Body is behind the Company (-), will arrive in about 50min "\
   ""\
   "<b>Capabilities:</b>"\
-  "<i>Access to RPGs, RPKs, PKMs, VOGs."\
-  "Vehicle Access include T-72s, BMP1s</i>"\
+  "Access to RPGs, RPKs, PKMs, VOGs."\
+  "Vehicle Access include T-72s, BMP1s"\
   ""\
   "<b>MLCOA:</b>"\
-  "<i>Push their vehicles up to shell the town, while splitting their Company up to approach and attack us from multiple directions.</i>"\
+  "Push their vehicles up to shell the town, while splitting their Company up to approach and attack us from multiple directions."\
   ""\
   "<b>MDCOA:</b>"\
-  "<i>Push their vehicles up to shell the town, find a easy avenue of approach, and shove their whole company through it to overwhelm us.</i>"\
+  "Push their vehicles up to shell the town, find a easy avenue of approach, and shove their whole company through it to overwhelm us."\
   ""\
   "<b>Defensive Fires:</b>"\
-  "<i>None at this time.</i>"\
+  "None at this time."\
   ""\
   "<b>Airthreat:</b>"\
-  "<i>No known Air support.</i>"\
+  "No known Air support."\
   ""\
   "<b>Morale:</b>"\
-  "<i>Very High.</i>"\
+  "Very High."\
   ""\
   "<b>CBRN Threat:</b>"\
-  "<i>The enemy pose no CBRN Threat as of now.</i>"\
+  "The enemy pose no CBRN Threat as of now."\
   ""
   m_aVisibleForFactions {
    "GC_CAF"
@@ -128,25 +131,25 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "B. Friendly Forces:"
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
-  "<i>Canadian Rifle Platoon (-) located at the Canadian HQ in Nova Olesov</i>"\
+  "Canadian Rifle Platoon (-) located at the Canadian HQ in Nova Olesov"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
-  "<i>Delay the enemy for as long as possible before pulling back, Company behind us is digging in as fast as they can</i>"\
+  "Delay the enemy for as long as possible before pulling back, Company behind us is digging in as fast as they can"\
   ""\
   "<b>c. Composition:</b>"\
-  "<i>1x Rifle Canadian Platoon (-)</i>"\
+  "1x Rifle Canadian Platoon (-)"\
   ""\
   "<b>d. Strength:</b>"\
-  "<i>Platoon - At 24x Man Strength</i>"\
+  "Platoon - At 24x Man Strength"\
   ""\
   "<b>e. Supporting Fires:</b>"\
-  "<i>None as of this time.</i>"\
+  "None as of this time."\
   ""\
   "<b>f. Attachments/Detachments:</b>"\
-  "<i>No air support available</i>"\
+  "No air support available"\
   ""\
   "<b>g. Additional Ammunition</b>"\
-  "<i>None.</i>"
+  "None."
   m_aVisibleForFactions {
    "GC_CAF"
   }
@@ -156,9 +159,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5770.217 101.246 10124.798
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "<i>We ambushed the Combat Reconnaissance Patrol earlier with success (Though we suspect there may be some infantry survivors), now the main mission is to delay the Forward Security Element for as long as possible to give our Company behind us enough time to dig without losing the High Ground (Building) before pulling out."\
+  "We ambushed the Combat Reconnaissance Patrol earlier with success (Though we suspect there may be some infantry survivors), now the main mission is to delay the Forward Security Element for as long as possible to give our Company behind us enough time to dig without losing the High Ground (Building) before pulling out."\
   ""\
-  "We suspect them to utilize their vehicles (BMPs & T-72s) to start shelling the town itself once the infantry start making their move towards the town. Not recommended to look at the T-72 front on, as they may use HE Shells to blow us apart.</i>"
+  "We suspect them to utilize their vehicles (BMPs & T-72s) to start shelling the town itself once the infantry start making their move towards the town. Not recommended to look at the T-72 front on, as they may use HE Shells to blow us apart."
   m_aVisibleForFactions {
    "GC_CAF"
   }
