@@ -26,7 +26,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "5212 Victor"\
   "etc."\
   ""\
-  "III. Frequencies:</b>"\
+  "<b>III. Frequencies:</b>"\
   "Company Net ------------------------- 42.00MHz"\
   "Mortar Net ---------------------------- 43.00MHz"\
   ""\
@@ -51,13 +51,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Royal Marines located around Kamoryn"\
   ""\
   "<b>Capabilities:</b>"\
-  "Royal Marines Acces to FAL, GPMG, MAWs, etc"\
+  "Royal Marines Access to FAL, GPMG, MAWs, etc"\
   ""\
   "<b>MLCOA:</b>"\
   "Engage us before we establish a solid foothold in their town before pulling back to fortified positions"\
   ""\
   "<b>MDCOA:</b>"\
-  "Prepare killzones to destimate a platoon before pulling back into harder defences."\
+  "Prepare killzones to decimate a platoon before pulling back into harder defences."\
   ""\
   "<b>Defensive Fires:</b>"\
   "No known in-direct threat at this time."\
@@ -85,7 +85,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Mortar Team is located further south at 029 065"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
-  "Company has been tasked with securing the Brambledeep Lake and destroy the British's Ammodumps in the area."\
+  "Company has been tasked with securing the Brambledeep Lake and destroy the British Ammo Dumps in the area."\
   ""\
   "<b>c. Composition:</b>"\
   "1x Company HQ"\
@@ -132,11 +132,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Company Commander's Discretion."\
-  "It is adviced to utilize the Mortars to lay down smoke cover for either mounted or dismounted movement to gain lodgement into town."\
+  "It is advised to utilize the Mortars to lay down smoke cover for either mounted or dismounted movement to gain lodgement into town."\
   ""\
   "<b>2. Maneuver</b>"\
   "Company Commander's Discretion."\
-  "It is adviced to not spread the Platoons far from eachother so they can mutually support one another."\
+  "It is advised to not spread the Platoons far from each other so they can mutually support one another."\
   ""
   m_aVisibleForFactions {
    "GC_NVA"
