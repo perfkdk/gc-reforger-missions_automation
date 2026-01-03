@@ -26,7 +26,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "3rd BRDM  --------------------------- 473"\
   ""\
   ""\
-  "III. Frequencies:</b>"\
+  "<b>III. Frequencies:</b>"\
   "Company Net ------------------------- 42.00MHz"\
   "-- BRDMs on Company"\
   "1st Platoon Net ------------------------- 43.00MHz"\
@@ -48,7 +48,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1x Canadian Rifle Platoon"\
   ""\
   "<b>Location:</b>"\
-  "Royal Marines located near the Brambledeep Lake"\
+  "Royal Marines located in Kamoryn"\
   ""\
   "<b>Capabilities:</b>"\
   "Access to M16A1s series, LAWs/M67s, M60, M249, Carl Gustavs, etc."\
@@ -57,7 +57,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Engage us before we establish a solid foothold in their town before pulling back"\
   ""\
   "<b>MDCOA:</b>"\
-  "Prepare killzones to destimate a platoon before pulling back into harder defences."\
+  "Prepare killzones to decimate a platoon before pulling back into harder defences."\
   ""\
   "<b>Defensive Fires:</b>"\
   "No known in-direct threat at this time."\
@@ -113,7 +113,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5156.968 341.544 5343.003
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Secure the 3x buildings within in town and kill 90% of the Canadian forces located there."
+  "Secure the 3x buildings within the town and kill 90% of the Canadian forces located there."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -128,11 +128,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Company Commander's Discretion."\
-  "It is adviced to utilize the BRDMs to either locate the enemy or suppress them in windows & buildings, to allow the Platoons to move up and start clearing them."\
+  "It is advised to utilize the BRDMs to either locate the enemy or suppress them in windows & buildings, to allow the Platoons to move up and start clearing them."\
   ""\
   "<b>2. Maneuver</b>"\
   "Company Commander's Discretion."\
-  "It is adviced to not spread the Platoons far from eachother so they can mutually support one another."\
+  "It is advised to not spread the Platoons far from each other so they can mutually support one another."\
   ""
   m_aVisibleForFactions {
    "RHS_AFRF"

@@ -37,7 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>Capabilities:</b>"\
   "Access to RPGs, RPKs"\
-  "Vehicles include are BRDMs"\
+  "Vehicles include BRDMs"\
   ""\
   "<b>MLCOA:</b>"\
   "Locate a good attack vector before shoving their whole company through it"\
@@ -71,11 +71,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Company Commander's Discretion."\
-  "It is adviced to the Platoon to setup killzones on likely attack routes, prepare AT to kill BRDMs and prepare fallback positions."\
+  "It is advised for the Platoon to setup killzones on likely attack routes, prepare AT to kill BRDMs and prepare fallback positions."\
   ""\
   "<b>2. Maneuver</b>"\
   "Company Commander's Discretion."\
-  "It is adviced to NOT split up the sections too far so they can mutually support one another or be able to quickly support as needed."
+  "It is advised to NOT split up the sections too far so they can mutually support one another or be able to quickly support as needed."
   m_aVisibleForFactions {
    "GC_CAF"
   }
