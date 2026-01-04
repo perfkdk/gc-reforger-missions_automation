@@ -662,13 +662,13 @@ class GC_R_Manager : GameEntity
 		if(!pc)
 			return;
 		
-		pc.SendCommandServer("seed", "")
+		pc.GC_R_SendCommandServer("seed", "")
 	}
 	
 	protected void CommandSeed(SCR_PlayerController pc, string command, string data)
 	{
 		string msg = "Seed: " + m_seed.ToString();
-		pc.SendChatMsg(msg);
+		pc.GC_R_SendChatMsg(msg);
 	}
 	
 	protected void ClientReroll(SCR_ChatPanel panel, string data)
@@ -677,19 +677,19 @@ class GC_R_Manager : GameEntity
 		if(!pc)
 			return;
 		
-		pc.SendCommandServer("reroll", data)
+		pc.GC_R_SendCommandServer("reroll", data)
 	}
 	
 	protected void CommandReroll(SCR_PlayerController pc, string command, string data)
 	{
 		if(!SCR_Global.IsAdmin(pc.GetPlayerId()))
-			return pc.SendChatMsg("Unable to complete command - Not admin");
+			return pc.GC_R_SendChatMsg("Unable to complete command - Not admin");
 		
 		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
 		if(gameMode.GetState() == SCR_EGameModeState.GAME)
-			return pc.SendChatMsg("Unable to complete command - Game already started");
+			return pc.GC_R_SendChatMsg("Unable to complete command - Game already started");
 		
-		pc.SendChatMsg("Rerolling, please wait ...");
+		pc.GC_R_SendChatMsg("Rerolling, please wait ...");
 		
 		int seed = data.ToInt();
 		if(seed)
@@ -706,20 +706,20 @@ class GC_R_Manager : GameEntity
 		if(!pc)
 			return;
 		
-		pc.SendCommandServer("players", data)
+		pc.GC_R_SendCommandServer("players", data)
 	}
 	
 	protected void CommandPlayers(SCR_PlayerController pc, string command, string data)
 	{
 		if(!SCR_Global.IsAdmin(pc.GetPlayerId()))
-			return pc.SendChatMsg("Unable to complete command - Not admin");
+			return pc.GC_R_SendChatMsg("Unable to complete command - Not admin");
 		
 		int num = data.ToInt();
 		if(!num || num <= 10)
-			return pc.SendChatMsg("Unable to complete command - Invaild number");
+			return pc.GC_R_SendChatMsg("Unable to complete command - Invaild number");
 		
 		m_targetPlayerCount = num;
-		pc.SendChatMsg("Player target count set to " + num);
+		pc.GC_R_SendChatMsg("Player target count set to " + num);
 	}
 
 	void ResetMapMenu()
