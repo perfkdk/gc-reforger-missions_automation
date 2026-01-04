@@ -491,7 +491,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{672B08EA0609382C}" {
      m_messageTitle "East German Victory"
-     m_messageBody "East Germans managed to secure the HQ AND secure the town of Kamoryn (90% British Casualties)..."\
+     m_messageBody "East Germans managed to secure the HQ"\
      ""\
      "GM Discretion when to end the mission"
     }
