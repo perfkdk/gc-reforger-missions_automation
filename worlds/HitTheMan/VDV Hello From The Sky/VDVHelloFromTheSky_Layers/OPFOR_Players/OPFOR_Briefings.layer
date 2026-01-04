@@ -165,7 +165,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "A. Enemy Forces:"
   m_sTextData "<h2>A. Enemy Forces:</h2>"\
   "<b>Equipment:</b>"\
-  "CAF are equipped with their standard NATO weaponry, M16A1s series, LAWs/M67s, M249s, M60, FIM92 Stingers. etc"\
+  "CAF are equipped with their standard NATO weaponry, M16A1s series, LAWs/M67s, M249s, M60, etc.."\
   "Wearing woodland coloured camo uniforms & helmets."\
   ""\
   "<b>Known Strength:</b>"\
@@ -175,9 +175,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Throughout the Airfield, likely a Platoon (+) in each objective area if not more."\
   ""\
   "<b>Capabilities:</b>"\
-  "Access to FIM92 Stingers, LAWs"\
-  "Vehicles include HMMWVs 50.Cals"\
-  "LAVIIs may arrive as QRF"\
+  "No access to much AA or Heavy Weaponry until QRF arrive."\
   ""\
   "<b>MLCOA:</b>"\
   "Ambush us as we land on or around the Airfield, before pulling back."\
@@ -206,7 +204,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "B. Friendly Forces:"
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
-  "All VDV Forces (YOU) are located at 083 056"\
+  "All VDV Forces (YOU) are located at 007 121"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
   "Company has been tasked with securing the Bysovice Airfield to allow Battalions to land shortly after our capture."\
@@ -244,14 +242,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2583.295 24.201 5434.933
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Secure the Bysovice Airfield by taking control over the Military Base, Industrial and Hangers (Marked on map & Mission Notes)"\
+  "Secure the Bysovice Airfield by taking control over ONE of these infastructures - Military Base, Industrial or Hangers (Marked on map & Mission Notes)"\
   ""\
-  "No Heavy weapons have been located at the Airfield, most likely they only have FIM Stingers and 50.calls, at least until QRF Arrive. So we'd have a \"Easier\" time landing more in shock and awe on the airfield or close to the infrastructure."\
-  ""\
-  "<b>Once we secure ONE of these objectives, a full company (Respawn Wave) will reinforce our forces and more will arrive (64x Respawn left after)</b>"\
-  ""\
-  "(A Burning BMP Wreck will be used as a Reference to WHERE the spawn point is, For those having a rough time Land Naving)"\
-  ""\
+  "No Heavy weapons have been located at the Airfield nor any Stingers, at least until QRF Arrive. So we'd have a \"Easier\" time landing more in shock and awe on the airfield or close to the infrastructure than too far away."\
   ""\
   "Read Mission Notes for more details."\
   ""\

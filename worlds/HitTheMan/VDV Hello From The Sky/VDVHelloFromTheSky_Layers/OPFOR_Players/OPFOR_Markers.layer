@@ -1,6 +1,7 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  USSR_COY_Marker {
-  coords 8278.132 179.648 5628.794
+  coords 791.658 204.354 12094.187
+  angles 0 90 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
@@ -26,7 +27,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_Mi8_Marker_1 {
-  coords 8287.214 182.592 5693.64
+  coords 800.74 209.628 12159.033
   angles -1.597 10.207 2.136
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
@@ -40,7 +41,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_Mi8_Marker_2 {
-  coords 8359.112 176.065 5632.035
+  coords 872.638 211.693 12097.429
   angles -1.79 9.887 3.318
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
@@ -54,7 +55,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_Mi8_Marker_3 {
-  coords 8202.217 182.363 5653.669
+  coords 715.743 198.726 12119.062
   angles -1.591 10.024 2.141
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
@@ -68,7 +69,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_Mi24_Marker_2 {
-  coords 8257.991 180.025 5658.848
+  coords 771.517 202.989 12124.241
   angles 1.931 -79.893 2.766
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
@@ -82,7 +83,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_Mi24_Marker_1 {
-  coords 8308.462 178.094 5651.03
+  coords 821.988 206.975 12116.423
   angles 1.175 -79.853 0.21
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
@@ -96,7 +97,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_PLT_Marker_2 {
-  coords 8354.151 176.119 5615.595
+  coords 867.677 211 12080.988
+  angles 0 90 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
@@ -109,7 +111,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_PLT_Marker_1 {
-  coords 8284.742 178.561 5675.804
+  coords 798.268 205.078 12141.197
+  angles 0 90 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
@@ -122,7 +125,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  USSR_PLT_Marker_3 {
-  coords 8197.186 183.512 5634.315
+  coords 710.711 198.112 12099.708
+  angles 0 90 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1

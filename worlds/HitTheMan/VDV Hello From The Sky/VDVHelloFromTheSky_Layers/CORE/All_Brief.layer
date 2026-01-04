@@ -22,24 +22,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- No Setup Timer."\
   ""\
   "<b>OPFOR Victory:</b>"\
-  "by Capturing All 3 Objectives:"\
+  "by Capturing ONE of these 3 Objectives:"\
   "- Bysovice Military Base (85% Ratio in a 200m Diameter)"\
   "- Bysovice Industrial (85% Ratio in a 150m Diameter)"\
   "- Bysovice Hangers (85% Ratio in a 280m Diameter)"\
-  ""\
-  "<b>- BLUFOR Victory</b>"\
-  " - Time Limit Reached OR 85% Soviet Casualties (With Respawns)"\
-  ""\
-  "<b>Respawn:</b>"\
-  "- OPFOR Gets 45x Respawn Tickets at start"\
-  "-- Gets a single Full Respawn Wave if securing ONE of the objectives"\
-  "-- After the Wave, Respawn is reset at 64x tickets Total."\
-  ""\
-  "- BLUFOR gets 15x Respawn at start"\
-  ""\
-  "- If a pilot gets shot down.. "\
-  "-- Congratulations, you're now following the ground infantry in"\
-  "-- OR jump into a Mi-8 and be their gunner."\
   ""\
   "<b>GM Discretion as usual.</b>"\
   ""
@@ -62,7 +48,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- 2100 / Dusk"\
   "- 2200 / \"\"Early Night\"\" (It's bright, good for attackers with Flares)"\
   ""\
-  "<b>DEFENDER CO. CHOOSES:</b>"\
+  "<b>GAME MASTERS CHOOSES:</b>"\
   "Weather: "\
   "- Clear"\
   "- Cloudy"\

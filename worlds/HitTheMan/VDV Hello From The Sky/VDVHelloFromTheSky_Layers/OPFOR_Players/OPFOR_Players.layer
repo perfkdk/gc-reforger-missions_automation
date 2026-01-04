@@ -9,8 +9,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iPlatoonCallsign 3
    }
   }
-  coords 8285.344 178.494 5685.741
-  angles 1.179 -81.031 0.186
+  coords 802.601 168.758 12151.91
+  angles -1.222 -89.539 3.566
   m_aUnitPrefabSlots {
    "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
    "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
@@ -32,8 +32,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 1
    }
   }
-  coords 8284.304 178.553 5685.901
-  angles 1.176 -80.193 0.203
+  coords 801.549 168.735 12151.928
+  angles -1.273 -88.723 3.548
   m_aUnitPrefabSlots {
    "{530A65EFD09BD7F0}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_PL_VDV_P.et"
    "{E5F836512D78905B}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Sergeant_VDV_P.et"
@@ -52,8 +52,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 4
    }
   }
-  coords 8287.36 178.403 5685.395
-  angles 0 -81.024 0
+  coords 804.646 168.825 12151.839
+  angles -2.418 -89.226 2.351
   m_aUnitPrefabSlots {
    "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
    "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
@@ -75,8 +75,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 3
    }
   }
-  coords 8286.373 178.441 5685.57
-  angles 0 -81.024 0
+  coords 803.644 168.782 12151.88
+  angles -2.418 -89.226 2.351
   m_aUnitPrefabSlots {
    "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
    "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
@@ -97,8 +97,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 0
    }
   }
-  coords 8279.786 179.572 5628.136
-  angles -0.679 -171.927 -3.708
+  coords 804.881 170.615 12094.084
+  angles 1.205 -179.458 -1.182
   m_aUnitPrefabSlots {
    "{0AD7706D172DF05E}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_CoyL_VDV_P.et"
    "{DF863BB1C3B845D5}worlds/HitTheMan/Air Assault Onto Skalisty/Prefab/Character_USSR_FAC_VDV_P.et"
@@ -121,8 +121,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 8
    }
   }
-  coords 8355.343 176.236 5623.122
-  angles 1.808 -81.16 3.897
+  coords 880.425 171.869 12099.301
+  angles -0.02 -89.043 1.193
   m_aUnitPrefabSlots {
    "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
    "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
@@ -144,8 +144,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 6
    }
   }
-  coords 8357.361 176.12 5622.776
-  angles -0.363 -81.243 2.358
+  coords 882.472 171.902 12099.229
+  angles -1.252 -89.066 3.556
   m_aUnitPrefabSlots {
    "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
    "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
@@ -167,8 +167,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 5
    }
   }
-  coords 8354.303 176.294 5623.282
-  angles 1.747 -80.262 3.925
+  coords 879.373 171.868 12099.319
+  angles -0.039 -88.12 1.193
   m_aUnitPrefabSlots {
    "{530A65EFD09BD7F0}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_PL_VDV_P.et"
    "{E5F836512D78905B}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Sergeant_VDV_P.et"
@@ -187,8 +187,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 7
    }
   }
-  coords 8356.374 176.177 5622.952
-  angles 1.801 -81.05 3.901
+  coords 881.47 171.89 12099.271
+  angles -1.216 -88.911 1.17
   m_aUnitPrefabSlots {
    "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
    "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
@@ -209,8 +209,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 13
    }
   }
-  coords 8305.564 178.061 5640.795
-  angles -0.436 10.529 2.346
+  coords 828.715 170.627 12110.102
+  angles -1.134 2.793 -1.25
   m_aUnitPrefabSlots {
    "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et"
    "{CF063A058ADD156E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliGunner_P.et"
@@ -229,8 +229,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 14
    }
   }
-  coords 8255.245 180.262 5649.264
-  angles -0.428 10.337 2.347
+  coords 777.709 169.641 12111.709
+  angles -2.328 2.668 -1.302
   m_aUnitPrefabSlots {
    "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et"
    "{CF063A058ADD156E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliGunner_P.et"
@@ -249,8 +249,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 15
    }
   }
-  coords 8283.441 178.441 5691.767
-  angles -1.389 10.389 0.959
+  coords 799.902 168.529 12157.625
+  angles -1.192 2.643 -0.055
   m_aUnitPrefabSlots {
    "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et"
   }
@@ -268,8 +268,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 16
    }
   }
-  coords 8354.996 176.251 5629.487
-  angles -2.776 10.39 1.915
+  coords 879.22 171.708 12105.56
+  angles -4.703 2.663 -1.409
   m_aUnitPrefabSlots {
    "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et"
   }
@@ -287,8 +287,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 17
    }
   }
-  coords 8198.022 182.471 5651.867
-  angles -1.174 10.418 -0.216
+  coords 720.652 169.842 12106.574
+  angles -1.192 2.668 -0.056
   m_aUnitPrefabSlots {
    "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et"
   }
@@ -306,8 +306,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 12
    }
   }
-  coords 8200.172 182.614 5644.253
-  angles -0.363 -81.243 2.358
+  coords 723.811 169.936 12099.319
+  angles 3.528 -88.861 2.452
   m_aUnitPrefabSlots {
    "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
    "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
@@ -329,8 +329,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 10
    }
   }
-  coords 8199.185 182.623 5644.429
-  angles 1.801 -81.05 3.901
+  coords 722.808 169.993 12099.361
+  angles 2.338 -88.854 2.431
   m_aUnitPrefabSlots {
    "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
    "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
@@ -352,8 +352,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 11
    }
   }
-  coords 8198.153 182.665 5644.599
-  angles 1.808 -81.16 3.897
+  coords 721.763 170.053 12099.391
+  angles 3.502 -88.815 3.643
   m_aUnitPrefabSlots {
    "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
    "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
@@ -374,8 +374,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     m_iSquadCallsign 9
    }
   }
-  coords 8197.113 182.735 5644.759
-  angles 1.747 -80.262 3.925
+  coords 720.712 170.052 12099.408
+  angles -1.304 -88.217 3.537
   m_aUnitPrefabSlots {
    "{530A65EFD09BD7F0}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_PL_VDV_P.et"
    "{E5F836512D78905B}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Sergeant_VDV_P.et"
@@ -386,13 +386,13 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
 }
 $grp Vehicle : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S8.et" {
  Mi24V_armed_S1 {
-  coords 8257.302 180.068 5658.159
-  angles 0 -169.593 0
+  coords 778.545 169.53 12120.801
+  angles 0.054 -177.425 -1.192
   m_sAttachmentGroupName "Pilot_Hind_2"
  }
  Mi24V_armed_S2 {
-  coords 8307.733 178.116 5650.188
-  angles 0 -169.593 0
+  coords 829.595 170.331 12119.7
+  angles 3.573 -177.405 0.162
   m_sAttachmentGroupName "Pilot_Hind_1"
  }
 }
@@ -449,8 +449,8 @@ $grp Vehicle : "{DBEC63C9DEE4358C}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
     }
    }
   }
-  coords 8287.003 178.26 5694.386
-  angles 0 -80.53 0
+  coords 803.076 168.551 12160.7
+  angles -2.419 -88.35 1.123
   m_sAttachmentGroupName "Pilot_Mi8_1"
  }
  Mi8MT_armed_gunship_HEDP2 {
@@ -505,8 +505,8 @@ $grp Vehicle : "{DBEC63C9DEE4358C}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
     }
    }
   }
-  coords 8357.261 176.14 5631.775
-  angles 0 -80.53 0
+  coords 881.155 171.678 12108.133
+  angles -2.452 -88.391 2.316
   m_sAttachmentGroupName "Pilot_Mi8_1"
  }
  Mi8MT_armed_gunship_HEDP3 {
@@ -561,8 +561,8 @@ $grp Vehicle : "{DBEC63C9DEE4358C}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
     }
    }
   }
-  coords 8200.493 182.437 5653.4
-  angles 0 -80.53 0
+  coords 722.893 169.812 12108.427
+  angles 0 -88.342 0
   m_sAttachmentGroupName "Pilot_Mi8_1"
  }
 }
