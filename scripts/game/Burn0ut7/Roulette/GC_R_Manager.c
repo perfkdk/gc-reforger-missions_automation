@@ -12,10 +12,7 @@ class GC_R_Manager : GameEntity
     int m_targetPlayerCount;
 	
 	[Attribute(defvalue: "", UIWidgets.Object)]
-    ref array<ref GC_R_BaseScenario> m_scenarios;	
-	
-	[Attribute(defvalue: "", UIWidgets.Object)]
-    ref array<ref GC_R_Team> m_teams;	
+    ref array<ref GC_R_BaseScenario> m_scenarios;
 	
 	protected const static ResourceName m_AOPrefab = "{09D028F45D7163FF}worlds/Burn0ut7/Roulette/Prefabs/RouletteAO.et";
 	
@@ -109,15 +106,19 @@ class GC_R_Manager : GameEntity
 		NewScenario();
 	}
 	
-	array<ref GC_R_Team> SelectTeams(int count, array<ref GC_R_Team> teams)
+	array<ref GC_R_Team> SelectTeams(int count, array<ref GC_R_Team> teams, bool isWaterCapable = false)
 	{
 		if(teams.IsEmpty() || teams.Count() < count)
 			return null;
 		
 		array<ref GC_R_Team> pool = {};
 		foreach (GC_R_Team team : teams)
+		{
+			if(isWaterCapable && !team.GetWaterCapable())
+				continue;
+			
 			pool.Insert(team);
-		
+		}
 		GC_R_Helper<GC_R_Team>.ShuffleR(pool, m_random);
 		
 		array<ref GC_R_Team> selected = {};
@@ -256,8 +257,8 @@ class GC_R_Manager : GameEntity
 						if(!allowWater && SurfaceIsWater(searchPos))
 							continue;
 						
-						float pitch = GetTerrainPitch(position);
-						if(pitch > maxPitch)
+						float pitch = GetTerrainPitch(searchPos);
+						if(pitch == -1 || pitch > maxPitch)
 							continue;
 
 						position = searchPos;
@@ -283,8 +284,7 @@ class GC_R_Manager : GameEntity
 	
 	bool SpawnTeam(vector position, float yaw, GC_R_Team team)
 	{
-		Print("GC Roulette | team " + team.GetName() + " - " + team.m_elements);
-		
+		Print("GC Roulette | Team " + team.GetName() + " - " + team.m_elements);
 		array<IEntity> tempEntities = {};
 		bool found;
 		
@@ -296,22 +296,22 @@ class GC_R_Manager : GameEntity
 		int platoonIndex = 0;
 		int squadIndex = 0;
 		
-		//GC_R_Squad lastSquad;
-		
 		foreach(GC_R_ElementBase element : team.m_elements)
 		{
 			ResourceName prefab = element.GetPrefab();
 			ResourceName vehiclePrefab = element.GetVehicle();
 			vector endPosition = position;
-			
 			if(vehiclePrefab)
 			{
-				found = FindEmptyPosition(endPosition, 5, 300);
+				
+				found = FindEmptyPosition(endPosition, 5, 200);
 				if(!found)
 				{
-					Print("GC Roulette | spawn team POS not found : " + prefab + " - Pos : " + position);
+					Print("GC Roulette | spawn team POS not found : " + vehiclePrefab + " - Pos : " + position);
 					break;
 				}
+				
+				Print("GC Roulette | Team endPosition " + endPosition);
 	
 				IEntity vehicle = SpawnPrefab(vehiclePrefab, endPosition, yaw);
 				element.m_vehicle = vehicle;
@@ -331,7 +331,7 @@ class GC_R_Manager : GameEntity
 				endPosition += offset;
 			}else{
 				float searchSize = element.Count();
-				found = FindEmptyPosition(endPosition, searchSize, 300, false, 30);
+				found = FindEmptyPosition(endPosition, searchSize, 300, false);
 				if(!found)
 				{
 					Print("GC Roulette | spawn team POS not found : " + prefab + " - Pos : " + position);
@@ -339,59 +339,97 @@ class GC_R_Manager : GameEntity
 				}
 			}
 			
-			SCR_AIGroup group =  SCR_AIGroup.Cast(SpawnPrefab(prefab, endPosition, yaw));
-			element.m_group = group;
-			AIFormationComponent formation = AIFormationComponent.Cast(group.FindComponent(AIFormationComponent));
-			if(formation)
-				formation.SetFormation("File");
-			
-			SCR_CallsignGroupComponent cgc = SCR_CallsignGroupComponent.Cast(group.FindComponent(SCR_CallsignGroupComponent));
-			if(cgc)
+			if(prefab)
 			{
-				typename elementType = element.Type();
-				switch(elementType)
+				SCR_AIGroup group =  SCR_AIGroup.Cast(SpawnPrefab(prefab, endPosition, yaw));
+				element.m_group = group;
+				AIFormationComponent formation = AIFormationComponent.Cast(group.FindComponent(AIFormationComponent));
+				if(formation)
+					formation.SetFormation("File");
+				
+				SCR_CallsignGroupComponent cgc = SCR_CallsignGroupComponent.Cast(group.FindComponent(SCR_CallsignGroupComponent));
+				if(cgc)
 				{
-					case GC_R_Company:
-						if(!firstCompany)
-							companyIndex++;
-	
-						platoonIndex = 0;
-						squadIndex = 0;
+					typename elementType = element.Type();
+					switch(elementType)
+					{
+						case GC_R_Company:
+							if(!firstCompany)
+								companyIndex++;
+		
+							platoonIndex = 0;
+							squadIndex = 0;
+							
+							firstCompany = false;
+							break;
+						case GC_R_Platoon:
+							if(!firstPlatoon)
+								platoonIndex++;
+							squadIndex = 1;
 						
-						firstCompany = false;
-						break;
-					case GC_R_Platoon:
-						if(!firstPlatoon)
-							platoonIndex++;
-						squadIndex = 1;
+							firstPlatoon = false;
+							break;
+						case GC_R_Squad:
+							if(!firstSquad)
+								squadIndex++;
+						
+							if(firstSquad)
+								squadIndex = 2;
+						
+							firstSquad = false;
+							break;
+					}
 					
-						firstPlatoon = false;
-						break;
-					case GC_R_Squad:
-						if(!firstSquad)
-							squadIndex++;
-					
-						if(firstSquad)
-							squadIndex = 2;
-					
-						firstSquad = false;
-						break;
+					cgc.ReAssignGroupCallsign(companyIndex, platoonIndex, squadIndex);
 				}
 				
-				cgc.ReAssignGroupCallsign(companyIndex, platoonIndex, squadIndex);
+				ResourceName cone = "{25C8B889A777399D}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red.et";
+				EntitySpawnParams spawnParams = new EntitySpawnParams();
+				spawnParams.Transform[3] = endPosition;
+				IEntity tempEntity = GetGame().SpawnEntityPrefabLocal(Resource.Load(cone), null, spawnParams);
+				tempEntities.Insert(tempEntity);
 			}
-			
-			ResourceName cone = "{25C8B889A777399D}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red.et";
-			EntitySpawnParams spawnParams = new EntitySpawnParams();
-			spawnParams.Transform[3] = endPosition;
-			IEntity tempEntity = GetGame().SpawnEntityPrefabLocal(Resource.Load(cone), null, spawnParams);
-			tempEntities.Insert(tempEntity);
 		}
 		
 		foreach(IEntity entity : tempEntities)
 			SCR_EntityHelper.DeleteEntityAndChildren(entity);
 		
 		return found;
+	}
+	
+	bool CheckWater(float max, vector start, vector end)
+	{
+		static const float STEP = 10.0;
+	
+		vector flatStart = start;
+		vector flatEnd   = end;
+		flatStart[1] = 0;
+		flatEnd[1]   = 0;
+	
+		vector dir = flatEnd - flatStart;
+		float total = dir.Length();
+	
+		dir.Normalize();
+	
+		float waterArea = 0;
+		float traveled = 0;
+	
+		while (traveled <= total)
+		{
+			vector position = flatStart + dir * traveled;
+	
+			if (SurfaceIsWater(position))
+				waterArea += STEP;
+			else	
+				waterArea = 0;
+
+			if (waterArea >= max)
+				return true;
+	
+			traveled += STEP;
+		}
+	
+		return false;
 	}
 	
 	IEntity SpawnPrefab(ResourceName prefab, vector position = vector.Zero, float yaw = 0)
@@ -424,21 +462,27 @@ class GC_R_Manager : GameEntity
 		return entity;
 	}
 	
+	protected ref array<ref Shape> m_aShapes = {};
 	float GetTerrainPitch(inout vector position)
 	{
 		float surfaceY = m_world.GetSurfaceY(position[0], position[2]);
-		position[1] = surfaceY + 0.01;
+		position[1] = surfaceY;
 		
 		TraceParam param = new TraceParam();
 		param.Flags = TraceFlags.ANY_CONTACT | TraceFlags.WORLD | TraceFlags.OCEAN | TraceFlags.ENTS;
-		param.Start = position + vector.Up;
-		param.End = position - vector.Up;
+		param.Start = position + vector.Up * 0.01;
+		param.End = position - vector.Up * 0.01;
 		
 		float percent = m_world.TraceMove(param);
-
-		position = vector.Lerp(param.Start, param.End, percent);
+		if(percent == 0)
+			return -1;
 		
+		position = vector.Lerp(param.Start, param.End, percent);
 		float pitch = Math.Acos(param.TraceNorm[1]) * Math.RAD2DEG;
+
+		m_aShapes.Insert(Shape.Create(ShapeType.LINE, Color.RED, ShapeFlags.DEFAULT, param.Start, param.End));
+		m_aShapes.Insert(Shape.CreateSphere(Color.GREEN, ShapeFlags.WIREFRAME, position, 1));
+		Print("GC Roulette | GetTerrainPitch = " + pitch + " - percent: " + percent);
 		
 		return pitch;
 	}

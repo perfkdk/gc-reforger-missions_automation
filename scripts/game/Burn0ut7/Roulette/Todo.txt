@@ -1,13 +1,12 @@
 Needs:
-briefing
-get bound size before vehicle spawn
-m113 brakes working
+US Prefab callsigns
+Set file formation not working?
+infantry maps
 
 Wants:
 More ORBATs
+get bound size before vehicle spawn
 AI briefing?
 more scenarios
-determine AO type: IE Air, Water, Ground
-adjust AO size? based on ratio?
 teams specify attack and defend parameter
 More Admin commands?

@@ -1,3 +1,19 @@
-GC_RouletteManager : "{86EAA871DAB204C1}worlds/Burn0ut7/Roulette/Prefabs/RouletteManager.et" {
- coords 3725.298 67.48 2896.565
+PS_GameModeCoop Roulette_GameMode1 : "{D853E37AB4CCB3A3}worlds/Burn0ut7/Roulette/Prefabs/Roulette_GameMode.et" {
+ {
+  SCR_AIWorld : "{A6A16AFECB6003EC}worlds/Burn0ut7/Roulette/Prefabs/GC_R_SCR_AIWorld.et" {
+   coords 0 0 0
+  }
+  RadioManagerEntity {
+   ID "5ED9088735FF2DEE"
+   coords 0 0 0
+  }
+  ScriptedChatEntity {
+   ID "5ED9088735FF2DC2"
+   coords 0 0 0
+  }
+  ItemPreviewManagerEntity {
+   ID "5ED9088735FF2DD5"
+   coords 0 0 0
+  }
+ }
 }

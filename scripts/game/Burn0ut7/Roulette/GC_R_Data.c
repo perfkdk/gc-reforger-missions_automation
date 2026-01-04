@@ -4,10 +4,14 @@ class GC_R_BaseScenario : Managed
 	[Attribute(defvalue: "", uiwidget: UIWidgets.Auto, desc: "Name of scenario refereced in the briefing")]
     protected string m_scenarioName;
 	
+	[Attribute(defvalue: "", UIWidgets.Object)]
+    ref array<ref GC_R_Team> m_teamsList;	
+	
 	[Attribute(uiwidget: UIWidgets.Object, desc: "Briefings")]
     protected ref array<ref GC_R_Briefing> m_briefing;
 	
 	protected GC_R_Manager m_manager;
+	
 	ref array<ref GC_R_Team> m_teams = {};
 	
 	void Intialize()
@@ -39,11 +43,11 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	[Attribute(defvalue: "", uiwidget: UIWidgets.ResourceNamePicker, desc: "Blacklist building prefab or kind", category: "Objective")]
     protected ref array<ResourceName> m_buildingBlackList;
 	
-	[Attribute(defvalue: "{FE585088FB849703}worlds/Burn0ut7/Roulette/Prefabs/RouletteCaptureArea.et", uiwidget: UIWidgets.Auto, desc: "Prefab to spawn for the objective", category: "Objective")]
-    protected ResourceName m_objectivePrefab;
-	
 	[Attribute(defvalue: "", uiwidget: UIWidgets.Auto, desc: "Blacklist building of same name", category: "Objective")]
     protected ref array<string> m_buildingBlackListWords;
+	
+	[Attribute(defvalue: "{FE585088FB849703}worlds/Burn0ut7/Roulette/Prefabs/RouletteCaptureArea.et", uiwidget: UIWidgets.Auto, desc: "Prefab to spawn for the objective", category: "Objective")]
+    protected ResourceName m_objectivePrefab;
 	
 	[Attribute(defvalue: "1000", uiwidget: UIWidgets.Auto, desc: "AO width size in meters", category: "AO")]
     protected int m_width;
@@ -54,10 +58,15 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	[Attribute(defvalue: "5000", uiwidget: UIWidgets.Auto, desc: "Max size of AO in meters", category: "AO")]
     protected int m_maxAOSize;
 
+	[Attribute(defvalue: "20", uiwidget: UIWidgets.Auto, desc: "In meters if water area is more then, skip teams that aren't water capable", category: "AO")]
+    protected int m_maxWaterArea;
+	
 	protected int m_searchAttempts;
 	
 	protected ref GC_R_ObjAttackDefend m_objective;
 	
+	ref GC_R_SpawnAttacker m_attackerSpawn;
+
 	protected bool m_searching = false;
 	
 	override void Intialize()
@@ -209,7 +218,20 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		TimeAndWeatherManagerEntity manager = ChimeraWorld.CastFrom(GetGame().GetWorld()).GetTimeAndWeatherManager();
 		int hour, minute, second;
 		manager.GetHoursMinutesSeconds(hour, minute, second);
-		string time = string.Format("%1%2",hour,minute);
+		
+		string h;
+		if(hour < 10)
+			h =  "0" + hour.ToString();
+		else
+			h =  hour.ToString();
+		
+		string m;
+		if(minute < 10)
+			m =  "0" + minute.ToString();
+		else
+			m =  minute.ToString();
+		
+		string time = string.Format("%1%2",h,m);
 		string year = manager.GetYear().ToString();
 		string weather = WidgetManager.Translate(manager.GetCurrentWeatherState().GetLocalizedName());
 		
@@ -292,20 +314,24 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		return m_objective;
 	}
 	
-	protected void GetTeams()
+	bool GetTeams(bool isWater)
 	{
-		m_teams = m_manager.SelectTeams(2, m_manager.m_teams);
+		if(isWater)
+			m_teams = m_manager.SelectTeams(2, m_teamsList, true);
+		else
+			m_teams = m_manager.SelectTeams(2, m_teamsList);
 		
-		foreach(GC_R_Team team : m_teams)
-			Print("GC Roulette | Team: " + team.GetName());
+		if(m_teams.Count() == 2)
+			return true;
+		
+		return false;
 	}
 	
 	protected void ObjectiveFound()
 	{
 		Print("GC Roulette | Objective found: " + m_objective.building);
 		Print("GC Roulette | Nearby buildings: " + m_objective.buildings.Count());
-		
-		GetTeams();
+
 		FindAttackerSpawnAsync();
 	}
 	
@@ -351,40 +377,43 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	
 	protected void AttackerSpawnFound()
 	{
-		Print("GC Roulette | Attacker Spawn pos found: " + m_teams[1].m_spawn.m_position);
+		Print("GC Roulette | Attacker Spawn pos found: " + m_attackerSpawn.m_position);
 		m_searching = false;
 
+		bool isWater = m_manager.CheckWater(m_maxWaterArea, m_attackerSpawn.m_position, m_objective.building.GetOrigin());
+		bool foundTeams = GetTeams(isWater);
+		if(!foundTeams)
+		{
+			Print("GC Roulette | Not enough teams, rerolling");
+			return m_manager.Reroll();
+		}
+		
+		m_teams[1].m_spawn = m_attackerSpawn;
 		FindDefenderSpawnAsync();
 	}
 	
 	protected void FindAttackerSpawnAsync()
 	{
-		Print("GC Roulette | FindAttackerSpawnAsync = " + m_searching);
 		if (m_searching)
 			return;
 		
 		m_searching = true;
-		GC_R_Team attacker = m_teams[1];
-		GC_R_SpawnAttacker spawn = new GC_R_SpawnAttacker();
-		spawn.m_scenario = this;
-		spawn.m_searchCount = 100;
-		attacker.m_spawn = spawn;
-		
-		
+		m_attackerSpawn = new GC_R_SpawnAttacker();
+		m_attackerSpawn.m_scenario = this;
+		m_attackerSpawn.m_searchCount = 100;
+
 		GetGame().GetCallqueue().CallLater(FindAttackerSpawn, 1, false);
 	}
 	
 	protected void FindAttackerSpawn()
 	{
-		GC_R_SpawnAttacker spawn = GC_R_SpawnAttacker.Cast(m_teams[1].m_spawn);
-		
-		bool found = spawn.GetSpawn();
+		bool found = m_attackerSpawn.GetSpawn();
 		if(found)
 			return AttackerSpawnFound();
 		
-		if(m_teams[1].m_spawn.m_searchCount <= 0)
+		if(m_attackerSpawn.m_searchCount <= 0)
 		{
-			Print("GC Roulette | No attacker spawn found");
+			Print("GC Roulette | No attacker spawn found, rerolling");
 			m_manager.Reroll();
 			return;
 		}
@@ -401,25 +430,31 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		GC_R_Team attacker = m_teams[1];
 		
 		float ratio = (defender.GetStrength() - attacker.GetStrength()) + m_ratio;
-		Print("GC Roulette | Ratio: " + ratio);
 		
 		int defenderRatio = Math.AbsInt(m_manager.m_targetPlayerCount / (1 + ratio));
 		int defenderCount = defender.GetElements(defenderRatio);
 		
 		int attackerRatio = Math.AbsInt(defenderCount * ratio);
-		attacker.GetElements(attackerRatio);
-
+		int attackerCount = attacker.GetElements(attackerRatio);
+		Print("GC Roulette | Ratio: " + ratio + " - Attacker: " + attackerCount + " - Defender: " + defenderCount);
+		
 		vector dir = vector.Direction(defender.m_spawn.m_position, m_teams[1].m_spawn.m_position);
 		float yaw = dir.ToYaw();
 		bool isSucessful = m_manager.SpawnTeam(defender.m_spawn.m_position, yaw, defender);
 		if(!isSucessful)
+		{
+			Print("GC Roulette | Team spawn failed - Defender");
 			return m_manager.Reroll();
-		
-		dir = vector.Direction(attacker.m_spawn.m_position, attacker.m_spawn.m_position);
+		}
+
+		dir = vector.Direction(attacker.m_spawn.m_position, m_objective.building.GetOrigin());
 		yaw = dir.ToYaw();
 		isSucessful = m_manager.SpawnTeam(attacker.m_spawn.m_position, yaw, attacker);
 		if(!isSucessful)
+		{
+			Print("GC Roulette | Team spawn failed - Attacker");
 			return m_manager.Reroll();
+		}
 		
 		SetupAO();
 		SetupMarkers();
@@ -434,7 +469,6 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	
 	protected void FindDefenderSpawnAsync()
 	{
-		Print("GC Roulette | FindDefenderSpawnAsync = " + m_searching);
 		if (m_searching)
 			return;
 		
@@ -514,14 +548,17 @@ class GC_R_Team
 	[Attribute("", UIWidgets.EditBox)]
 	protected string m_name;
 
-	[Attribute("", UIWidgets.EditBox, desc: "What is this teams faction key in the faction manager?")]
+	[Attribute("", UIWidgets.EditBox, desc: "Faction key from the faction manager")]
 	protected FactionKey m_factionKey;
 	
-	[Attribute("1", UIWidgets.Auto, desc: "Relative strength. 1 = 1980s baseline. Less = weaker, More = stronger")]
+	[Attribute("1", UIWidgets.Auto, desc: "Relative strength. Less = weaker, More = stronger")]
 	protected float m_strength;
 	
-	[Attribute("0", UIWidgets.EditBox, desc: "Use only squad callsigns from the faction manager")]
-	protected bool m_squadCallsignsOnly;
+	[Attribute("0", UIWidgets.EditBox, desc: "Use only squad callsigns from the faction manager for platoons and squads")]
+	protected bool m_squadCallsignsOnly;	
+	
+	[Attribute("0", UIWidgets.EditBox, desc: "AOs with more then 20 meters of water will be blocked.")]
+	protected bool m_waterCapable;
 	
 	[Attribute("", UIWidgets.Auto, desc: "This team cannot versus these faction keys.")]
     protected ref array<FactionKey> m_versusBlacklist;
@@ -534,6 +571,8 @@ class GC_R_Team
 	ref GC_R_SpawnBase m_spawn;
 	
 	string GetName() { return m_name; }
+	
+	bool GetWaterCapable() { return m_waterCapable; }
 	
 	FactionKey GetFaction(){ return m_factionKey; }
 	
@@ -668,8 +707,6 @@ class GC_R_Team
                 }
             }
         }
-	
-		Print("GC Roulette | GetRatio - Elements: " + ordered);
 		
         return ordered;
     }
@@ -822,9 +859,12 @@ class GC_R_ElementBase
 	
 	int Count()
 	{
+		if(!m_prefab)
+			return 0;
+			
 		array<ResourceName> slots;
 		Resource.Load(m_prefab).GetResource().ToBaseContainer().Get("m_aUnitPrefabSlots", slots);
-
+		
 		return slots.Count();
 	}
 	

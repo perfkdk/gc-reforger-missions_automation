@@ -1,0 +1,181 @@
+PS_GameModeCoop : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ ID "56B2B479C6B96951"
+ components {
+  PS_ObjectiveManager "{60846DEA6E152749}" {
+   m_aObjectiveLavels {
+    PS_ObjectiveLevel "{60BA84346F79B79E}" {
+     m_iScore 0
+     m_sName "#PS-ObjectiveLevel_MajorLoss"
+    }
+    PS_ObjectiveLevel "{60BA84343AC819B2}" {
+     m_iScore 25
+     m_sName "#PS-ObjectiveLevel_MinorLoss"
+    }
+    PS_ObjectiveLevel "{60BA8437C52AEEC4}" {
+     m_iScore 50
+     m_sName "#PS-ObjectiveLevel_Draw"
+    }
+    PS_ObjectiveLevel "{60BA8437C9F5791C}" {
+     m_iScore 75
+     m_sName "#PS-ObjectiveLevel_MinorVictory"
+    }
+    PS_ObjectiveLevel "{60BA8437D394C60C}" {
+     m_iScore 100
+     m_sName "#PS-ObjectiveLevel_MajorVictory"
+    }
+   }
+  }
+  SCR_CampaignBuildingManagerComponent "{61B4DDBF56BF1B48}" {
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_BudgetType CAMPAIGN
+   m_iCompositionRefundPercentage 100
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5DF6FBB5913F3245}" : "{96A8B496A076F1C0}scripts/game/Building/CampaignBuildingCompositionOutline.conf" {
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+  }
+  SCR_HintManagerComponent "{5702B54C6CBC9D7F}" {
+   m_bIgnoreHintSettings 1
+  }
+  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+  }
+  SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
+   m_iKillFeedType DISABLED
+   m_iReceiveKillFeedType ALL
+  }
+  SCR_PreGameGameModeStateComponent "{5ED9056CE8168166}" {
+   m_fDuration 0
+   m_bDisableControls 0
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   Enabled 1
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   Enabled 0
+  }
+  SCR_VotingManagerComponent "{5650BB6B6089393A}" {
+   Enabled 0
+  }
+  SCR_ReconnectComponent "{5A02809D5E8ABE42}" {
+   Enabled 0
+  }
+ }
+ {
+  PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+   ID "684340D672448660"
+   m_sTitle "Roulette"
+   m_sTextData "Commands:"\
+   "/seed - Returns the current seed"\
+   ""\
+   "Admin Commands"\
+   "/reroll (int seed) - Rerolls the map with optional seed. Leave blank for random"\
+   ""\
+   "/players (int) - Sets the player count target for next reroll. Default is 100"\
+   ""
+   m_bEmptyFactionVisibility 1
+   m_bShowForAnyFaction 1
+   m_iOrder 100
+  }
+  GC_R_Manager : "{6E2C9E0BE9F314EC}worlds/Burn0ut7/Roulette/Prefabs/RouletteManager.et" {
+   ID "684340D672448664"
+   coords 0 0 0
+   m_scenarios {
+    GC_R_AttackDefend "{66AB7A7085BCF79D}" {
+     m_teamsList {
+      GC_R_Team "{6843003F6477F0FF}" {
+       m_companies {
+        GC_R_Company "{66AE36D6BFBF480A}" {
+         m_vehiclePrefab "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et"
+        }
+        GC_R_Company "{68430033EBF5A934}" {
+         m_vehiclePrefab "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et"
+         m_platoons {
+          GC_R_Platoon "{66AE36D6BD434E99}" {
+          }
+          GC_R_Platoon "{6720396D9B0F4012}" {
+          }
+          GC_R_Platoon "{6720396D9B5D0CE0}" {
+          }
+         }
+        }
+       }
+      }
+      GC_R_Team "{6843003F64C368E0}" {
+       m_companies {
+        GC_R_Company "{6843003976097D52}" {
+         m_vehiclePrefab "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et"
+        }
+        GC_R_Company "{6843003C333B28FA}" {
+         m_vehiclePrefab "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et"
+         m_platoons {
+          GC_R_Platoon "{68430039DDB677D6}" {
+          }
+          GC_R_Platoon "{6843003852EA201A}" {
+          }
+          GC_R_Platoon "{684300385138F633}" {
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+   ID "684340D67244D7FF"
+   m_missionEvents {
+    TILW_MissionEvent "{661002208C97A955}" {
+     m_name "INS VIctory"
+     m_instructions {
+      TILW_SendMessageInstruction "{66130B6CB67A6C0F}" {
+       m_messageTitle "INSURGENT VICTORY"
+       m_messageBody "US forces suffered severe casualties."
+      }
+     }
+     m_condition TILW_LiteralTerm "{66100220B0CB9E64}" {
+      m_flagName "BLUFOR Cas"
+     }
+    }
+    TILW_MissionEvent "{6610022132098454}" {
+     m_name "Blufor Capture"
+     m_instructions {
+      TILW_SendMessageInstruction "{66130B6C54C4DA71}" {
+       m_messageTitle "US VICTORY"
+       m_messageBody "The truck was delivered."
+      }
+     }
+     m_condition TILW_LiteralTerm "{66100221DAF493BA}" {
+      m_flagName "Blufor Capture"
+     }
+    }
+    TILW_MissionEvent "{66130B6C52415505}" {
+     m_name "Trucks destroyed"
+     m_instructions {
+      TILW_SendMessageInstruction "{66130B6CF9821862}" {
+       m_messageTitle "US DEFEAT"
+       m_messageBody "Both trucks were destroyed."
+      }
+     }
+     m_condition TILW_ConjunctionTerm "{66130B6CEBCAEC86}" {
+      m_operands {
+       TILW_LiteralTerm "{66130B6CEC7A66BF}" {
+        m_flagName "t1d"
+       }
+       TILW_LiteralTerm "{66130B6CF2355DC1}" {
+        m_flagName "t2d"
+       }
+      }
+     }
+    }
+   }
+   m_casualtyFlags {
+    TILW_FactionPlayersKilledFlag "{66100220C3C4DCD1}" {
+     m_flagName "BLUFOR Cas"
+     m_factionKey "US"
+     m_casualtyRatio 0.9
+    }
+   }
+  }
+ }
+}
