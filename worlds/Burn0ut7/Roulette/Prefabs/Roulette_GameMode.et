@@ -13,7 +13,7 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
    ID "5ED9088735FF2DC2"
    coords 0 0 0
   }
-  ItemPreviewManagerEntity {
+  ItemPreviewManagerEntity "68487A412BBADB44" {
    ID "5ED9088735FF2DD5"
    coords 0 0 0
   }
@@ -27,6 +27,8 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
    "/reroll (int seed) - Rerolls the map with optional seed. Leave blank for random"\
    ""\
    "/players (int) - Sets the player count target for next reroll. Default is 100"
+   m_bEmptyFactionVisibility 1
+   m_bShowForAnyFaction 1
   }
   GC_R_Manager : "{6E2C9E0BE9F314EC}worlds/Burn0ut7/Roulette/Prefabs/RouletteManager.et" {
    ID "68487A432D14BECE"

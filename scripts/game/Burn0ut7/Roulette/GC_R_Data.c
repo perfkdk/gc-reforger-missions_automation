@@ -28,6 +28,9 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	[Attribute(defvalue: "2", uiwidget: UIWidgets.Auto, desc: "Ratio for attackers")]
     protected float m_ratio;
 	
+	[Attribute(defvalue: "4200", uiwidget: UIWidgets.Auto, desc: "Time limit in seconds for defenders to win")]
+    protected int m_timeLimit;
+	
 	[Attribute(defvalue: "1970", uiwidget: UIWidgets.Auto, desc: "Start range for year")]
     protected float m_yearStart;
 	
@@ -125,20 +128,35 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		TILW_EndGameInstruction defenderInstruction = TILW_EndGameInstruction();
 		defenderInstruction.SetGameOverType(EGameOverTypes.EDITOR_FACTION_VICTORY);
 		defenderInstruction.SetKey(attackerKey);		
+		defenderInstruction.SetExecutionDelay(10);
 		
+		TILW_SendMessageInstruction defenderMsg = TILW_SendMessageInstruction();
+		defenderMsg.SetTitle("Casualty Rate reached");
+		defenderMsg.SetBody("Attackers win due to defender casualty rate being reached.");
+
 		TILW_EndGameInstruction attackerInstruction = TILW_EndGameInstruction();
 		attackerInstruction.SetGameOverType(EGameOverTypes.EDITOR_FACTION_VICTORY);
 		attackerInstruction.SetKey(defenderKey);
+		attackerInstruction.SetExecutionDelay(10);
+		
+		TILW_SendMessageInstruction attackerMsg = TILW_SendMessageInstruction();
+		attackerMsg.SetTitle("Casualty Rate reached");
+		attackerMsg.SetBody("Defenders win due to attacker casualty rate being reached.");
 
 		TILW_EndGameInstruction timelimitInstruction = TILW_EndGameInstruction();
 		timelimitInstruction.SetGameOverType(EGameOverTypes.EDITOR_FACTION_VICTORY);
 		timelimitInstruction.SetKey(defenderKey);
-		timelimitInstruction.SetExecutionDelay(4200);
+		timelimitInstruction.SetExecutionDelay(m_timeLimit);
+		
+		TILW_SendMessageInstruction timelimitMsgInstruction = TILW_SendMessageInstruction();
+		timelimitMsgInstruction.SetTitle("Time Limit Reached");
+		timelimitMsgInstruction.SetBody("Defenders win due to time limit being reached.");
+		timelimitMsgInstruction.SetExecutionDelay(m_timeLimit - 10);
 		
 		TILW_EndGameInstruction objectiveInstruction = TILW_EndGameInstruction();
-		attackerInstruction.SetGameOverType(EGameOverTypes.EDITOR_FACTION_VICTORY);
-		attackerInstruction.SetKey(attackerKey);
-		
+		objectiveInstruction.SetGameOverType(EGameOverTypes.EDITOR_FACTION_VICTORY);
+		objectiveInstruction.SetKey(attackerKey);
+
 		//Conditions
 		TILW_LiteralTerm defenderTerm = TILW_LiteralTerm();
 		defenderTerm.SetFlag("defender");
@@ -156,17 +174,17 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		//Create events
 		TILW_MissionEvent defenderEvent = TILW_MissionEvent();
 		defenderEvent.SetName("defender event");
-		defenderEvent.SetInstructions({defenderInstruction});
+		defenderEvent.SetInstructions({defenderInstruction,defenderMsg});
 		defenderEvent.SetCondition(defenderTerm);
 		
 		TILW_MissionEvent attackerEvent = TILW_MissionEvent();
 		attackerEvent.SetName("attacker event");
-		attackerEvent.SetInstructions({attackerInstruction});
+		attackerEvent.SetInstructions({attackerInstruction,attackerMsg});
 		attackerEvent.SetCondition(atttackerTerm);
 		
 		TILW_MissionEvent timeLimitEvent = TILW_MissionEvent();
 		timeLimitEvent.SetName("timeLimit event");
-		timeLimitEvent.SetInstructions({timelimitInstruction});
+		timeLimitEvent.SetInstructions({timelimitMsgInstruction, timelimitInstruction});
 		timeLimitEvent.SetCondition(timeLimitTerm);
 		
 		TILW_MissionEvent objectiveEvent = TILW_MissionEvent();
@@ -455,7 +473,9 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 			return m_manager.Reroll();
 		}
 		
+		SetupOBJ();
 		SetupAO();
+		SetupFW();
 		SetupMarkers();
 
 		int year = m_manager.GetRandom().RandIntInclusive(m_yearStart, m_yearEnd);
