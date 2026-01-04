@@ -102,7 +102,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>c. Medical:</b>"\
   "Location: Platoon Aid Post is to be setup by Platoon medics."\
-  "CASEVAC: By foot or with company asset like the Land Rover or LAVIIs if there are any."\
+  "CASEVAC: By foot or with company asset like the Land Rover."\
   "Plan: Set up a casualty collection point and extract casualties to this point."\
   "Stretchers: None"\
   "Med Packs: Platoon medpack carried by Platoon medic."\
