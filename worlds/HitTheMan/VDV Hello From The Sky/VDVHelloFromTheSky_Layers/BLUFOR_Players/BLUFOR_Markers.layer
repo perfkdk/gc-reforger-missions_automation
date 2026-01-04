@@ -16,7 +16,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  Blu_Mark_4 {
-  coords 8451.222 163.831 5443.332
+  coords 1131.444 172.273 11740.329
   angles 0 90 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
@@ -31,7 +31,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  Blu_Mark_2 {
-  coords 8155.822 185.395 5636.022
+  coords 836.044 178.462 11933.02
   angles 0 90 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
@@ -46,7 +46,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  Blu_Mark_3 {
-  coords 8463.332 170.704 5810.564
+  coords 1143.555 185.259 12107.562
   angles 0 90 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""

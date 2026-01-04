@@ -54,16 +54,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 7756.999 312.503 8163.458
- m_aFactionRespawnCount {
-  PS_FactionRespawnCount "{66C704CE14EE4401}" {
-   m_sFactionKey "USSR"
-   m_iCount 45
-  }
-  PS_FactionRespawnCount "{66C704CE0AD6274D}" {
-   m_sFactionKey "GC_CAF"
-   m_iCount 15
-  }
- }
  m_bDisableArmaVision 1
  m_safeStartTime 20
  {
@@ -239,137 +229,11 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-PolylineShapeEntity AO_Draw_BLU : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
- components {
-  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
-   m_killTimer 15
-   m_factionKeys {
-    "GC_CAF"
-   }
-   m_visibility FACTION
-   m_useFactionColor 0
-   m_lineWidth 5
-  }
-  TILW_MapShapeComponent "{6508F54F9B461198}" {
-   Enabled 1
-   m_factionKeys {
-    "GC_CAF"
-   }
-   m_visibleForEmptyFaction 0
-   m_drawLine 1
-   m_lineColor 0 0.125 0.502 1
-  }
- }
- coords 3772.772 20.308 9530.627
- angles 0.895 0 0
- Points {
-  ShapePoint "{673EE5778C9A77F0}" {
-   Position -1080.098 269.261 269.581
-  }
-  ShapePoint "{673EE5778C78DB71}" {
-   Position -1052.936 275.162 465.396
-  }
-  ShapePoint "{673EE577BB7E1CF8}" {
-   Position -910.67 269.62 817.003
-  }
-  ShapePoint "{673EE577BAFCE034}" {
-   Position -701.4 282.085 1136.322
-  }
-  ShapePoint "{673EE577BA0A64D4}" {
-   Position -591.112 278.149 1224.728
-  }
-  ShapePoint "{673EE577B9C609F9}" {
-   Position -390.814 261.125 1271.322
-  }
-  ShapePoint "{673EE577B9501654}" {
-   Position -196.972 242.836 1249.408
-  }
-  ShapePoint "{673EE577B8CA57B1}" {
-   Position 111.293 242.131 1072.474
-  }
-  ShapePoint "{673EE577B8A5E4BF}" {
-   Position 272.746 225.574 965.896
-  }
-  ShapePoint "{673EE577B8391A15}" {
-   Position 393.635 220.117 709.235
-  }
-  ShapePoint "{673EE577BF02D5D5}" {
-   Position 642.896 248.386 321.779
-  }
-  ShapePoint "{673EE577BE02BB38}" {
-   Position 750.061 253.368 18.865
-  }
-  ShapePoint "{673EE577A27817E5}" {
-   Position 849.333 255.683 -37.404
-  }
-  ShapePoint "{673EE577A1E31D35}" {
-   Position 874.259 254.157 -130.102
-  }
-  ShapePoint "{673EE577A0A47330}" {
-   Position 814.654 241.606 -273.864
-  }
-  ShapePoint "{673EE577B2043C03}" {
-   Position 786.632 243.599 -437.926
-  }
-  ShapePoint "{673EE577B1BC06BB}" {
-   Position 720.243 243.354 -522.618
-  }
-  ShapePoint "{673EE577B16E2055}" {
-   Position 639.923 242.327 -600.111
-  }
-  ShapePoint "{673EE577B0E25FE8}" {
-   Position 416.262 238.654 -641.565
-  }
-  ShapePoint "{673EE577B04C0C1D}" {
-   Position 162.582 238.532 -637.951
-  }
-  ShapePoint "{673EE577B03219D7}" {
-   Position 32.428 244.114 -643.989
-  }
-  ShapePoint "{673EE577B6C02C1A}" {
-   Position -103.822 238.916 -682.699
-  }
-  ShapePoint "{673EE577B6A34D91}" {
-   Position -253.699 232.819 -628.365
-  }
-  ShapePoint "{673EE577B63FB64A}" {
-   Position -384.282 253.849 -558.804
-  }
-  ShapePoint "{673EE577B58333CA}" {
-   Position -469.047 251.2 -509.752
-  }
-  ShapePoint "{673EE577AA061C37}" {
-   Position -634.416 233.496 -488.984
-  }
-  ShapePoint "{673EE577A814DCD1}" {
-   Position -734.59 245.22 -545.12
-  }
-  ShapePoint "{673EE577AFD90ACB}" {
-   Position -885.838 270.994 -547.216
-  }
-  ShapePoint "{673EE577AFA62351}" {
-   Position -1117.313 280.155 -371.844
-  }
-  ShapePoint "{673EE577AF0A3A76}" {
-   Position -1239.08 272.902 -21.423
-  }
- }
-}
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  {
   coords 3962.854 280.428 9373.377
   m_queryRadius 200
   m_flagName "MilitaryBase"
-  m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
-  m_drawShapeOutline 0
-  m_ownerFactionKey "USSR"
-  m_ratioThreshold 0.9
- }
- {
-  coords 3402.878 283.155 9224.352
-  m_queryRadius 150
-  m_flagName "Industrial"
   m_stopAfterFirstChange 1
   m_drawShapeSurface 0
   m_drawShapeOutline 0
@@ -441,63 +305,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{6550E36ED08C418C}" {
      m_executionDelay 15
      m_messageTitle "Soviet VDV Victory"
-     m_messageBody "VDV has managed to secure the Bysovice Airfield... "\
+     m_messageBody "VDV has managed to secure a foothold on the airfield... "\
      "GM Discretion when to end the mission"
     }
    }
    m_condition TILW_DisjunctionTerm "{66C7205C27C5927B}" {
     m_operands {
-     TILW_ConjunctionTerm "{66C7205CCD52A611}" {
-      m_operands {
-       TILW_LiteralTerm "{66C7205CC3253D00}" {
-        m_flagName "Hangers"
-       }
-       TILW_LiteralTerm "{66C7205CC1E290DE}" {
-        m_flagName "MilitaryBase"
-       }
-       TILW_LiteralTerm "{673EE5719363398D}" {
-        m_flagName "Industrial"
-       }
-      }
-     }
-    }
-   }
-  }
-  TILW_MissionEvent "{66C704CE8DDB1E3C}" {
-   m_name "VDV Wave Respawn"
-   m_instructions {
-    TILW_EditRespawnTicketsInstruction "{673EE571C48ED1E4}" {
-     m_executionDelay 10
-     m_factionKey "USSR"
-     m_amount 1000
-     m_allowSpecRespawn 1
-    }
-    TILW_EditRespawnTicketsInstruction "{673EE571FCA8596B}" {
-     m_executionDelay 10
-     m_factionKey "USSR"
-     m_amount 65
-     m_allowSpecRespawn 1
-    }
-    TILW_SendMessageInstruction "{66C704CEA3B5B73F}" {
-     m_executionDelay 20
-     m_messageTitle "Reinforcements"
-     m_messageBody "Wave Reinforcements has arrived at Spawn, requesting airlift to the AO"\
-     ""\
-     "- 65x more Respawns Remaining"
-     m_factionKeys {
-      "USSR"
-     }
-    }
-   }
-   m_condition TILW_DisjunctionTerm "{673EE5712B5991F8}" {
-    m_operands {
-     TILW_LiteralTerm "{673EE5712991F93F}" {
+     TILW_LiteralTerm "{684858D560C8556F}" {
       m_flagName "Hangers"
      }
-     TILW_LiteralTerm "{673EE5712DB34C8A}" {
+     TILW_LiteralTerm "{684858D567A29640}" {
       m_flagName "MilitaryBase"
      }
-     TILW_LiteralTerm "{673EE57120C5EE1C}" {
+     TILW_LiteralTerm "{684858D566BA312F}" {
       m_flagName "Industrial"
      }
     }
@@ -593,18 +413,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "objective-marker"
   m_fWorldSize 40
   m_sDescription "Bysovice Military Base"
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
-  m_bringToFront 0
- }
- Obj_Marker12 {
-  coords 3400.651 283.156 9214.168
-  angles 0 90 0
-  m_sImageSetGlow ""
-  m_MarkerColor 0.561 0.071 0.071 1
-  m_sQuadName "objective-marker"
-  m_fWorldSize 40
-  m_sDescription "Bysovice Industrial"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
   m_bringToFront 0
