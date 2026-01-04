@@ -1,0 +1,568 @@
+$grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rifles (BTR-Early)/P/Group_USSR_MSV80_MotRifleSquad_P.et" {
+ RifleSquad_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+   }
+  }
+  coords 8285.344 178.494 5685.741
+  angles 1.179 -81.031 0.186
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "1st Squad"
+ }
+ PLHQ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8284.304 178.553 5685.901
+  angles 1.176 -80.193 0.203
+  m_aUnitPrefabSlots {
+   "{530A65EFD09BD7F0}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_PL_VDV_P.et"
+   "{E5F836512D78905B}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Sergeant_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "1st VDV Platoon"
+ }
+ RifleSquad_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 4
+   }
+  }
+  coords 8287.36 178.403 5685.395
+  angles 0 -81.024 0
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "3rd Squad"
+ }
+ RifleSquad_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 3
+   }
+  }
+  coords 8286.373 178.441 5685.57
+  angles 0 -81.024 0
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ CoyHQ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 0
+   }
+  }
+  coords 8279.786 179.572 5628.136
+  angles -0.679 -171.927 -3.708
+  m_aUnitPrefabSlots {
+   "{0AD7706D172DF05E}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_CoyL_VDV_P.et"
+   "{DF863BB1C3B845D5}worlds/HitTheMan/Air Assault Onto Skalisty/Prefab/Character_USSR_FAC_VDV_P.et"
+   "{BCB03489754E8E38}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_CoyXO_VDV_P.et"
+   "{35630BBA3D667C61}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Medic_VDV_P.et"
+   "{35630BBA3D667C61}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Medic_VDV_P.et"
+   "{35630BBA3D667C61}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Medic_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "VDV Company"
+ }
+ RifleSquad_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 8
+   }
+  }
+  coords 8355.343 176.236 5623.122
+  angles 1.808 -81.16 3.897
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "3rd Squad"
+ }
+ RifleSquad_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 6
+   }
+  }
+  coords 8357.361 176.12 5622.776
+  angles -0.363 -81.243 2.358
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "1st Squad"
+ }
+ PLHQ2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 5
+   }
+  }
+  coords 8354.303 176.294 5623.282
+  angles 1.747 -80.262 3.925
+  m_aUnitPrefabSlots {
+   "{530A65EFD09BD7F0}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_PL_VDV_P.et"
+   "{E5F836512D78905B}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Sergeant_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "2nd VDV Platoon"
+ }
+ RifleSquad_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 7
+   }
+  }
+  coords 8356.374 176.177 5622.952
+  angles 1.801 -81.05 3.901
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ Pilot_Hind_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 8
+    m_iPlatoonCallsign 8
+    m_iSquadCallsign 13
+   }
+  }
+  coords 8305.564 178.061 5640.795
+  angles -0.436 10.529 2.346
+  m_aUnitPrefabSlots {
+   "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et"
+   "{CF063A058ADD156E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliGunner_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "1st Mi-24"
+ }
+ Pilot_Hind_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 8
+    m_iPlatoonCallsign 8
+    m_iSquadCallsign 14
+   }
+  }
+  coords 8255.245 180.262 5649.264
+  angles -0.428 10.337 2.347
+  m_aUnitPrefabSlots {
+   "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et"
+   "{CF063A058ADD156E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliGunner_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "2nd Mi-24"
+ }
+ Pilot_Mi8_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 8
+    m_iPlatoonCallsign 8
+    m_iSquadCallsign 15
+   }
+  }
+  coords 8283.441 178.441 5691.767
+  angles -1.389 10.389 0.959
+  m_aUnitPrefabSlots {
+   "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "1st Mi-8"
+ }
+ Pilot_Mi8_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 8
+    m_iPlatoonCallsign 8
+    m_iSquadCallsign 16
+   }
+  }
+  coords 8354.996 176.251 5629.487
+  angles -2.776 10.39 1.915
+  m_aUnitPrefabSlots {
+   "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "2nd Mi-8"
+ }
+ Pilot_Mi8_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 8
+    m_iPlatoonCallsign 8
+    m_iSquadCallsign 17
+   }
+  }
+  coords 8198.022 182.471 5651.867
+  angles -1.174 10.418 -0.216
+  m_aUnitPrefabSlots {
+   "{FFE45AFCB29CD014}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "3rd Mi-8"
+ }
+ RifleSquad_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 12
+   }
+  }
+  coords 8200.172 182.614 5644.253
+  angles -0.363 -81.243 2.358
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "3rd Squad"
+ }
+ RifleSquad_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 10
+   }
+  }
+  coords 8199.185 182.623 5644.429
+  angles 1.801 -81.05 3.901
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "1st Squad"
+ }
+ RifleSquad_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 11
+   }
+  }
+  coords 8198.153 182.665 5644.599
+  angles 1.808 -81.16 3.897
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ PLHQ3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 9
+   }
+  }
+  coords 8197.113 182.735 5644.759
+  angles 1.747 -80.262 3.925
+  m_aUnitPrefabSlots {
+   "{530A65EFD09BD7F0}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_PL_VDV_P.et"
+   "{E5F836512D78905B}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Sergeant_VDV_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "3rd VDV Platoon"
+ }
+}
+$grp Vehicle : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S8.et" {
+ Mi24V_armed_S1 {
+  coords 8257.302 180.068 5658.159
+  angles 0 -169.593 0
+  m_sAttachmentGroupName "Pilot_Hind_2"
+ }
+ Mi24V_armed_S2 {
+  coords 8307.733 178.116 5650.188
+  angles 0 -169.593 0
+  m_sAttachmentGroupName "Pilot_Hind_1"
+ }
+}
+$grp Vehicle : "{DBEC63C9DEE4358C}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HEDP.et" {
+ Mi8MT_armed_gunship_HEDP1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60F6C7859029DD32}" {
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{673EE57DA8E51233}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{673EE57DA653B657}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{673EE57E5F93E5B8}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{673EE57E53590E9D}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{673F20E555B692CB}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{673F20E54C216156}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{673F20E541A4C4E0}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 8287.003 178.26 5694.386
+  angles 0 -80.53 0
+  m_sAttachmentGroupName "Pilot_Mi8_1"
+ }
+ Mi8MT_armed_gunship_HEDP2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60F6C7859029DD32}" {
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{673EE57DA8E51233}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{673EE57DA653B657}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{673EE57E5F93E5B8}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{673EE57E53590E9D}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{673F20E57AF0AC7D}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{673F20E57F17923E}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{673F20E57DC24914}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 8357.261 176.14 5631.775
+  angles 0 -80.53 0
+  m_sAttachmentGroupName "Pilot_Mi8_1"
+ }
+ Mi8MT_armed_gunship_HEDP3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60F6C7859029DD32}" {
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{673EE57DA8E51233}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{673EE57DA653B657}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{673EE57E5F93E5B8}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{673EE57E53590E9D}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{673F20E570B6F7C8}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{673F20E576079D0E}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{673F20E57532AA6B}" {
+      SlotTemplate InventoryStorageSlot PKM_mags {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+  }
+  coords 8200.493 182.437 5653.4
+  angles 0 -80.53 0
+  m_sAttachmentGroupName "Pilot_Mi8_1"
+ }
+}
