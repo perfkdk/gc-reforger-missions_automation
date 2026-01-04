@@ -115,7 +115,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5156.968 341.544 5343.003
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Secure the enemy Brigade HQ located at 034 083 north of the town."\
+  "Secure the enemy Btn HQ located at 034 083 north of the town."\
   ""\
   "Utilize the mortar to establish smoke cover for movement or deny area of movement with HE."
   m_aVisibleForFactions {
@@ -128,7 +128,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "Get into town, secure the Brigade HQ and establish control over Kamoryn"\
+  "Get into town, secure the Btn HQ and establish control over Kamoryn"\
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Company Commander's Discretion."\

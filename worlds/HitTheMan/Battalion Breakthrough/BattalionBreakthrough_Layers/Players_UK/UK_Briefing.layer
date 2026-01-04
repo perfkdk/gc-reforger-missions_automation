@@ -69,7 +69,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "Defend the town of Kamoryn and not lose the Brigade HQ Compound."\
+  "Defend the town of Kamoryn and not lose the Btn HQ Compound."\
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Company Commander's Discretion."\
@@ -120,7 +120,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 4457.055 202.047 7705.539
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Defend the town of Kamoryn and do not lose the Brigade HQ compound"
+  "Defend the town of Kamoryn and do not lose the Btn HQ compound"
   m_aVisibleForFactions {
    "UK"
   }
@@ -135,7 +135,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Tank Traps with AT Mines ahead have been placed around the town of Kamoryn (Marked on map)"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
-  "Royal Marines has been tasked with making sure to protect their Brigade HQ and the town of Kamoryn"\
+  "Royal Marines has been tasked with making sure to protect their Btn HQ and the town of Kamoryn"\
   ""\
   "<b>c. Composition:</b>"\
   "1x Royal Marines Platoon"\
