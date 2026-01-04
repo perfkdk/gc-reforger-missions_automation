@@ -329,8 +329,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 	
 	protected void ObjectiveFound()
 	{
-		Print("GC Roulette | Objective found: " + m_objective.building);
-		Print("GC Roulette | Nearby buildings: " + m_objective.buildings.Count());
+		Print("GC Roulette | Objective found: " + m_objective.building + " - Nearby buildings: " + m_objective.buildings.Count());
 
 		FindAttackerSpawnAsync();
 	}

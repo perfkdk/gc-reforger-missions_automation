@@ -48,17 +48,7 @@ class GC_R_Manager : GameEntity
 		
 		Intialize();
 	}
-	
-	void TestM()
-	{
-		IEntity player = GetGame().GetPlayerController().GetControlledEntity();
-		vector pos = player.GetOrigin();
-		
-		bool result = IsPositionEmpty(pos, 10);
 
-		Print("GC Roulette | IsPositionEmpty : " + result);
-	}
-	
 	void NewScenario()
 	{
 		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
@@ -82,7 +72,6 @@ class GC_R_Manager : GameEntity
 	{
 		Print("GC Roulette | ClientIntialize");
 		InitCommands();
-		GetGame().GetInputManager().AddActionListener("CharacterMelee", EActionTrigger.DOWN, TestM);
 	}
 	
 	protected void Intialize()
@@ -96,8 +85,6 @@ class GC_R_Manager : GameEntity
 		m_worldSize = GetMapSize();
 		
 		NewScenario();
-		
-		//GetGame().GetCallqueue().CallLater(Reroll, 3000, true);
 	}
 	
 	void Reroll()
@@ -304,14 +291,12 @@ class GC_R_Manager : GameEntity
 			if(vehiclePrefab)
 			{
 				
-				found = FindEmptyPosition(endPosition, 5, 200);
+				found = FindEmptyPosition(endPosition, 5, 200, false, 10);
 				if(!found)
 				{
 					Print("GC Roulette | spawn team POS not found : " + vehiclePrefab + " - Pos : " + position);
 					break;
 				}
-				
-				Print("GC Roulette | Team endPosition " + endPosition);
 	
 				IEntity vehicle = SpawnPrefab(vehiclePrefab, endPosition, yaw);
 				element.m_vehicle = vehicle;
@@ -479,10 +464,6 @@ class GC_R_Manager : GameEntity
 		
 		position = vector.Lerp(param.Start, param.End, percent);
 		float pitch = Math.Acos(param.TraceNorm[1]) * Math.RAD2DEG;
-
-		m_aShapes.Insert(Shape.Create(ShapeType.LINE, Color.RED, ShapeFlags.DEFAULT, param.Start, param.End));
-		m_aShapes.Insert(Shape.CreateSphere(Color.GREEN, ShapeFlags.WIREFRAME, position, 1));
-		Print("GC Roulette | GetTerrainPitch = " + pitch + " - percent: " + percent);
 		
 		return pitch;
 	}

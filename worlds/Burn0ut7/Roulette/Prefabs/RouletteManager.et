@@ -17,7 +17,7 @@ GC_R_Manager {
      m_companies {
       GC_R_Company "{66AE36D6BFBF480A}" {
        m_prefab "{619A2B1910FCE9A0}Prefabs/Groups/BLUFOR/US/Army/1981/Infantry (Woodland)/P/Group_US_Army_1980_RifleCoyHQ_P.et"
-       m_vehiclePrefab "{E80F269052FC0482}Prefabs/Vehicles/Tracked/M113/M113A2_MEV.et"
+       m_vehiclePrefab "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et"
        m_platoons {
         GC_R_Platoon "{66AE36D6BD434E99}" {
          m_prefab "{173BB727C04A5513}Prefabs/Groups/BLUFOR/US/Army/1981/M113 Mech (Woodland)/P/Group_US_Army_1981_MechPHQ_P.et"
@@ -77,7 +77,7 @@ GC_R_Manager {
       }
       GC_R_Company "{68430033EBF5A934}" {
        m_prefab "{619A2B1910FCE9A0}Prefabs/Groups/BLUFOR/US/Army/1981/Infantry (Woodland)/P/Group_US_Army_1980_RifleCoyHQ_P.et"
-       m_vehiclePrefab "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et"
+       m_vehiclePrefab "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et"
        m_platoons {
         GC_R_Platoon "{66AE36D6BD434E99}" {
          m_prefab "{173BB727C04A5513}Prefabs/Groups/BLUFOR/US/Army/1981/M113 Mech (Woodland)/P/Group_US_Army_1981_MechPHQ_P.et"
@@ -412,7 +412,7 @@ GC_R_Manager {
      m_companies {
       GC_R_Company "{6843003976097D52}" {
        m_prefab "{4B540935B956E11F}Prefabs/Groups/BLUFOR/GC_CAF/1987 Canadian Army/Group_CAF_CompanyHQ_P.et"
-       m_vehiclePrefab "{E80F269052FC0482}Prefabs/Vehicles/Tracked/M113/M113A2_MEV.et"
+       m_vehiclePrefab "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et"
        m_platoons {
         GC_R_Platoon "{68430039DDB677D6}" {
          m_prefab "{977831D0F745FF87}Prefabs/Groups/BLUFOR/GC_CAF/1987 Canadian Army/Group_CAF_PlatoonHQ_P.et"
@@ -469,7 +469,7 @@ GC_R_Manager {
       }
       GC_R_Company "{6843003C333B28FA}" {
        m_prefab "{4B540935B956E11F}Prefabs/Groups/BLUFOR/GC_CAF/1987 Canadian Army/Group_CAF_CompanyHQ_P.et"
-       m_vehiclePrefab "{E80F269052FC0482}Prefabs/Vehicles/Tracked/M113/M113A2_MEV.et"
+       m_vehiclePrefab "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et"
        m_platoons {
         GC_R_Platoon "{68430039DDB677D6}" {
          m_prefab "{977831D0F745FF87}Prefabs/Groups/BLUFOR/GC_CAF/1987 Canadian Army/Group_CAF_PlatoonHQ_P.et"
