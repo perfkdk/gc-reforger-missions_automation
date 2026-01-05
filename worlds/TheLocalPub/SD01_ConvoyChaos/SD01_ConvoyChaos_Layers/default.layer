@@ -1,0 +1,90 @@
+SCR_AIWorld : "{3DE6090FC602E566}Prefabs/AI/SCR_AIWorld_Takistan.et" {
+ coords 140.348 574.294 6616.438
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 159.034 597.426 6686.224
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 15
+   m_iStartingMinutes 30
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6848B13057EB4FC9}" {
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 15
+     m_iStartingMinutes 30
+    }
+   }
+   m_bUseSpecifiedDate 1
+   m_iSetDay 4
+   m_iSetMonth 4
+   m_iSetYear 1982
+  }
+ }
+ coords 203.581 588.453 6602.052
+ m_iFreezeTime 420000
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{673F65A875FC552E}" {
+   m_sFactionKey "GC_MUJ"
+   m_iCount 6
+   m_iTime 9
+  }
+ }
+ m_safeStartTime 120
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 144.945 596.078 6638.463
+ m_missionEvents {
+  TILW_MissionEvent "{6842C23ACDC0AFFC}" {
+   m_name "IndforSetTicket0"
+   m_instructions {
+    TILW_EditRespawnTicketsInstruction "{6842C23D2C685BAD}" {
+     m_executionDelay 1
+     m_factionKey "GC_MUJ"
+    }
+    TILW_DeleteEntitiesInstruction "{6846ADD486EBD194}" {
+     m_executionDelay 1
+     m_entityNames {
+      "IndforSpawn"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6842C23D3963FBE6}" {
+    m_flagName "IndforCutoff"
+   }
+  }
+  TILW_MissionEvent "{684938CF64A60027}" {
+   m_name "IndforVictory"
+   m_instructions {
+    TILW_SendMessageInstruction "{684938CF51B3941C}" {
+     m_messageTitle "MUJAHIDEEN VICTORY"
+     m_messageBody "Mujahideen forces have managed to inflict enough damage on the Soviet convoy that they've effectively been made combat ineffective and thus neutralized."\
+     ""\
+     "Well done Indfor!"\
+     "Mission will end soon..."
+    }
+   }
+   m_condition TILW_LiteralTerm "{684938CF5987F704}" {
+    m_flagName "OpforDead"
+   }
+  }
+  TILW_MissionEvent "{684938C83FD60D02}" {
+   m_name "OpforVictory"
+   m_condition TILW_MinjunctionTerm "{684938C86CF5DAE2}" {
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{684938CF73B4C1A2}" {
+   m_flagName "OpforDead"
+   m_factionKey "USSR"
+   m_casualtyRatio 0.75
+  }
+  TILW_FactionPlayersKilledFlag "{684938C9A5247EC3}" {
+   m_factionKey "USSR"
+   m_casualtyRatio 0.6
+  }
+ }
+}

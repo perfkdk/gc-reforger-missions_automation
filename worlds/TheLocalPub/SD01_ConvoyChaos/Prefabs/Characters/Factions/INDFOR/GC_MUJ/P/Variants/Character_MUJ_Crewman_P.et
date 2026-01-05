@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{07B9EA7D1A29F2AE}worlds/TheLocalPub/SD01_ConvoyChaos/Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_CrewCommander_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Vehicle crewman"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{00ECD7EB467C97D7}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V3_Dirty.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DCF980831E880F6A}Prefabs/Characters/Uniforms/Pants_M88.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{66A0F3C8F4CD51F9}" {
+     TargetStorage "Pants/Pants_M88.et"
+    }
+    ItemsInitConfigurationItem "{66A0F3C8F4CD51ED}" {
+     PrefabsToSpawn {
+      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{715F17F82E028CF5}Prefabs/Items/Equipment/Radios/Radio_R148_Single.et"
+     }
+    }
+   }
+  }
+ }
+}
