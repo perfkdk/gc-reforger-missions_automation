@@ -793,30 +793,6 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   }
  }
 }
-TILW_FactionTriggerEntity IndofrCutoffTrigger : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 3116.067 89.155 10021.863
- m_queryRadius 600
- m_sendStatusMessages 1
- m_statusMessages {
-  "The Soviets have reached Nagara and cut off our reinforcements!"
-  ""
-  ""
-  ""
-  ""
-  ""
- }
- m_locationName ""
- m_displayTo {
-  "GC_MUJ"
- }
- m_flagName "IndforCutoff"
- m_stopAfterFirstChange 1
- m_playersOnly 1
- m_ignoredFactions {
-  "GC_MUJ"
- }
- m_ownerFactionKey "USSR"
-}
 GenericEntity MujAmmoCrate : "{DD5CB0F1EAF6821E}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V2_covered.et" {
  components {
   SCR_SoundDataComponent "{5C53391603B5CF41}" {

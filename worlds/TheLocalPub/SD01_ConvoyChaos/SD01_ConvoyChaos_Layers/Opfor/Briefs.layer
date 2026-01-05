@@ -86,6 +86,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Company has decieded on a route through the hills of NW Taki province, passing through the towns of Mulladost, Gospandi, Nagara, and Nur."\
   "We should reference the waypoint markers along our route."\
   "End state shall be the company rallied at the finish point."\
+  "- (We can choose when to end the mission by interacting with the radio on the desk at the route finish - This allows you to wait for stray trucks crawling in for example)"\
   ""\
   "• This is not a route clearence."\
   "Think about using our pax and assets to secure checkpoints along the way, so the next callsigns can pass through safely, a bounding convoy basically."\

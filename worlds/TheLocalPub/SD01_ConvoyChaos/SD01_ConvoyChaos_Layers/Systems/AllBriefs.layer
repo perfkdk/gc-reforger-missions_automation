@@ -13,10 +13,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "|WIN CONDITION NOTES|"\
   "OPFOR should choose before hand if they wish to go for a Major, Regular, Minor, or Pyrrhic victory, based on the number of Urals that make it to the end point."\
-  "- Major: All 6x unarmed Urals."\
-  "- Regular: 4x unarmed Urals."\
-  "- Minor: 2x unarmed Urals."\
-  "- Pyrrhic: No urals reach the end point, but 40% of the remaining company makes it to the end."\
+  "• Major: All 6x unarmed Urals."\
+  "• Regular: 4x unarmed Urals."\
+  "• Minor: 2x unarmed Urals."\
+  "- AND atleast 35% of alive players also reach the end point."\
+  "• Pyrrhic: No urals reach the end point, but 35% of the remaining company makes it to the end."\
   ""
   m_bEmptyFactionVisibility 1
  }
@@ -24,13 +25,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 138.902 442.281 6079.223
   m_sTitle "Mission notes"
   m_sTextData "|END CONDITIONS|"\
-  "Opfor:"\
+  "USSR:"\
   "• Major win - 6x unarmed Urals reach the end point "\
   "• Regular win - 4x unamred Urals reach the end point."\
   "• Minor win - 2x unarmed Urals reach the end point."\
-  "• Pyrrhic win - No urals reach the end point, but 40% of the remaining company makes it to the end."\
+  "- AND atleast 35% of alive players also reach the end point."\
+  "• Pyrrhic win - No urals reach the end point, but 35% of the remaining players makes it to the end."\
   ""\
-  "Indfor:"\
+  "(USSR can call the mission at their finish point by interacting with the radio on the table. This is so they can wait at the FP for trucks to still arrive and choose the end victory type)"\
+  ""\
+  "Mujahideen:"\
   "• Kill at least 75% of the Soviet company."\
   ""\
   "|MISC|"\
