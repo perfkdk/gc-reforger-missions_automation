@@ -23,7 +23,7 @@ class GC_R_Manager : GameEntity
 	protected float m_worldSize;
 	protected ref RandomGenerator m_random = new RandomGenerator();
 	protected ref GC_R_BaseScenario m_currentScenario;
-	protected ref array<IEntity> m_entites;
+	protected ref array<IEntity> m_entites = {};
 	
 	protected int m_seed;
 	
@@ -59,12 +59,16 @@ class GC_R_Manager : GameEntity
 		m_currentScenario = GC_R_BaseScenario.Cast(selected.Clone());
 
 
-		foreach(IEntity entity : m_entites)
-			SCR_EntityHelper.DeleteEntityAndChildren(entity);
+		for (int i = m_entites.Count() - 1; i >= 0; i--)
+		{
+		    IEntity entity = m_entites[i];
+		    if (entity)
+		        SCR_EntityHelper.DeleteEntityAndChildren(entity);
+		}
+
+		m_entites.Clear();
 		
-		m_entites = {};
-		
-		Print("GC Roulette | NewScenario = " + m_currentScenario);
+		Print("GC Roulette | NewScenario = " + m_currentScenario.m_scenarioName);
 		m_currentScenario.Intialize();
 	}
 	

@@ -2,7 +2,7 @@
 class GC_R_BaseScenario : Managed
 {
 	[Attribute(defvalue: "", uiwidget: UIWidgets.Auto, desc: "Name of scenario refereced in the briefing")]
-    protected string m_scenarioName;
+    string m_scenarioName;
 	
 	[Attribute(defvalue: "", UIWidgets.Object)]
     ref array<ref GC_R_Team> m_teamsList;	

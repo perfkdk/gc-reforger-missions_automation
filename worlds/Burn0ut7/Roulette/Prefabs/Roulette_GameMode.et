@@ -29,6 +29,7 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
    "/players (int) - Sets the player count target for next reroll. Default is 100"
    m_bEmptyFactionVisibility 1
    m_bShowForAnyFaction 1
+   m_iOrder 100
   }
   GC_R_Manager : "{6E2C9E0BE9F314EC}worlds/Burn0ut7/Roulette/Prefabs/RouletteManager.et" {
    ID "68487A432D14BECE"
