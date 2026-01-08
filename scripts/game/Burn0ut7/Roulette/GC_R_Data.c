@@ -270,7 +270,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 			
 			string description;
 			if(briefing.m_variables == GC_R_EBriefingVars.General)
-				description = string.Format(briefing.m_description,m_scenarioName,time,year,weather,defender,attacker);
+				description = string.Format(briefing.m_description,m_scenarioName,time,year,weather,attacker,defender);
 			else
 				description = string.Format(briefing.m_description,defender,dOrbat,dVehicles,attacker,aOrbat,aVehicles);
 			
