@@ -229,6 +229,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageBody "GM Discretion when to end the mission"
     }
    }
+   m_condition TILW_LiteralTerm "{6850D62DD761552E}" {
+    m_invertTerm 1
+   }
   }
   TILW_MissionEvent "{684CEBA232D624D0}" {
    m_name "Blufor Casualty"

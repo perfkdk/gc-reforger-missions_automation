@@ -12,7 +12,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   }
   coords 2759.617 8.469 2977.511
   angles 0 -146.114 0
-  m_sCustomNameSet "Rifle Squard"
+  m_sCustomNameSet "Rifle Squad"
  }
  US_12 {
   components {
@@ -26,7 +26,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   }
   coords 2735.451 8.469 2984.584
   angles 0 33.886 0
-  m_sCustomNameSet "Rifle Squard"
+  m_sCustomNameSet "Rifle Squad"
  }
  US_13 {
   components {
@@ -40,7 +40,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   }
   coords 2734.006 8.469 2994.519
   angles 0 -146.114 0
-  m_sCustomNameSet "Rifle Squard"
+  m_sCustomNameSet "Rifle Squad"
  }
  US_22 {
   components {
@@ -54,7 +54,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   }
   coords 2687.422 8.469 3018.398
   angles 0 33.886 0
-  m_sCustomNameSet "Rifle Squard"
+  m_sCustomNameSet "Rifle Squad"
  }
  US_23 {
   components {
@@ -68,7 +68,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   }
   coords 2686.276 8.469 3029.643
   angles 0 -146.114 0
-  m_sCustomNameSet "Rifle Squard"
+  m_sCustomNameSet "Rifle Squad"
  }
  US_21 {
   components {
@@ -83,7 +83,7 @@ $grp SCR_AIGroup : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantr
   }
   coords 2711.906 8.469 3012.462
   angles 0 -146.114 0
-  m_sCustomNameSet "Rifle Squard"
+  m_sCustomNameSet "Rifle Squad"
  }
 }
 GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Equipment_01_US.et" {
