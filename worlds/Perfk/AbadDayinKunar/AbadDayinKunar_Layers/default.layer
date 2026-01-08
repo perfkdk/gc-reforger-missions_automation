@@ -202,9 +202,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "Building_1_Trigger"
    }
   }
-  TILW_MissionEvent "{66F53347D5BB26BD}" {
-   m_name "=== LaneChasers ==="
-  }
   TILW_MissionEvent "{6726DECBEFCBDF9A}" {
    m_name "=== OBJECTIVES ==="
   }
@@ -254,22 +251,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
  }
  m_metaFlags {
-  TILW_MetaFlag "{6848C8CF4F2F6271}" {
-   m_flagName "SpawnOne"
-   m_definition TILW_DisjunctionTerm "{6848C8CF420FDEBA}" {
-    m_operands {
-     TILW_LiteralTerm "{6848C8CF5C35E693}" {
-      m_flagName "US_Trigger_Right_1"
-     }
-     TILW_LiteralTerm "{6848C8CF5FF2FF67}" {
-      m_flagName "US_Trigger_Center_1"
-     }
-     TILW_LiteralTerm "{6848C8CF5E97A508}" {
-      m_flagName "US_Trigger_Left_1"
-     }
-    }
-   }
-  }
   TILW_MetaFlag "{684AF3148E1118B6}" {
    m_flagName "Objective_1_A"
    m_definition TILW_ConjunctionTerm "{684AF31484E709A6}" {
