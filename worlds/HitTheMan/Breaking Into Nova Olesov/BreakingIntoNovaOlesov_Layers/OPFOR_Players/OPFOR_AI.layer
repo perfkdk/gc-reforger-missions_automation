@@ -31,7 +31,8 @@ $grp PK_EntityDeleter {
 }
 $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  WP_2 {
-  coords 7311.166 115.179 8296.92
+  coords 7318.548 116.128 8299.139
+  CompletionRadius 2
  }
  WP_3 {
   coords 7329.752 116.475 8290.396
@@ -41,15 +42,15 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
   CompletionRadius 2
  }
  WP_6 {
-  coords 7110.704 116.825 8210.12
+  coords 7111.29 116.731 8201.325
   CompletionRadius 2
  }
  WP_4 {
-  coords 6935.501 139.043 8185.823
+  coords 6934.085 139.785 8178.43
   CompletionRadius 2
  }
  WP_7 {
-  coords 6969.728 134.046 8177.05
+  coords 6935.236 138.861 8188.828
   CompletionRadius 2
  }
  WP_8 {
@@ -89,11 +90,11 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
   CompletionRadius 2
  }
  WP_17 {
-  coords 6895.89 153.333 8027.375
+  coords 6903.265 152.135 8011.966
   CompletionRadius 2
  }
  WP_18 {
-  coords 6976.281 122.831 8073.911
+  coords 6900.568 149.667 8064.425
   CompletionRadius 2
  }
 }
@@ -104,7 +105,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{84A2CD45010EC22E}worlds/HitTheMan/Prefabs/Vehicles/BMP1_base_HTM.et"
   m_conditionFlag "SpawnArmour"
   m_spawnTimings {
-   21
+   31
   }
   m_crewConfig TILW_CrewConfig "{670C64EA268548CF}" {
    m_crewGroups {
@@ -145,7 +146,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{84A2CD45010EC22E}worlds/HitTheMan/Prefabs/Vehicles/BMP1_base_HTM.et"
   m_conditionFlag "SpawnArmour"
   m_spawnTimings {
-   26
+   42
   }
   m_crewConfig TILW_CrewConfig "{670C64EA268548CF}" {
    m_crewGroups {
@@ -227,7 +228,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{84A2CD45010EC22E}worlds/HitTheMan/Prefabs/Vehicles/BMP1_base_HTM.et"
   m_conditionFlag "SpawnArmour"
   m_spawnTimings {
-   5
+   10
   }
   m_crewConfig TILW_CrewConfig "{670C64EA268548CF}" {
    m_crewGroups {
@@ -268,7 +269,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{4355537BD75ED98A}worlds/HitTheMan/Prefabs/Vehicles/T72A_Green_AI.et"
   m_conditionFlag "SpawnArmour"
   m_spawnTimings {
-   90
+   120
   }
   m_crewConfig TILW_CrewConfig "{670C64EA268548CF}" {
    m_crewGroups {
@@ -299,7 +300,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{4355537BD75ED98A}worlds/HitTheMan/Prefabs/Vehicles/T72A_Green_AI.et"
   m_conditionFlag "SpawnArmour"
   m_spawnTimings {
-   100
+   131
   }
   m_crewConfig TILW_CrewConfig "{670C64EA268548CF}" {
    m_crewGroups {
@@ -332,7 +333,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{4355537BD75ED98A}worlds/HitTheMan/Prefabs/Vehicles/T72A_Green_AI.et"
   m_conditionFlag "SpawnArmour"
   m_spawnTimings {
-   110
+   141
   }
   m_crewConfig TILW_CrewConfig "{670C64EA268548CF}" {
    m_crewGroups {
@@ -365,7 +366,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{84A2CD45010EC22E}worlds/HitTheMan/Prefabs/Vehicles/BMP1_base_HTM.et"
   m_conditionFlag "SpawnArmour"
   m_spawnTimings {
-   52
+   63
   }
   m_crewConfig TILW_CrewConfig "{670C64EA268548CF}" {
    m_crewGroups {
@@ -406,7 +407,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{84A2CD45010EC22E}worlds/HitTheMan/Prefabs/Vehicles/BMP1_base_HTM.et"
   m_conditionFlag "SpawnArmour"
   m_spawnTimings {
-   57
+   74
   }
   m_crewConfig TILW_CrewConfig "{670C64EA268548CF}" {
    m_crewGroups {
@@ -447,7 +448,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_prefab "{84A2CD45010EC22E}worlds/HitTheMan/Prefabs/Vehicles/BMP1_base_HTM.et"
   m_conditionFlag "SpawnArmour"
   m_spawnTimings {
-   62
+   85
   }
   m_crewConfig TILW_CrewConfig "{670C64EA268548CF}" {
    m_crewGroups {

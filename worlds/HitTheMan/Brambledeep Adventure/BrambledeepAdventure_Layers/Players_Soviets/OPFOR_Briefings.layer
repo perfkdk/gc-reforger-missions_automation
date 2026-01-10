@@ -115,7 +115,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>II: Mission</h2>"\
   "Locate the enemy Ammo Dumps marked on map and destroy them."\
   ""\
-  "Utilize the Recon Team to locate defenses and easy attack vectors (They can move during Freeze/Setup Timer.)"
+  "Utilize the Recon Team to locate defenses and easy attack vectors (They can move during Freeze/Setup Timer.)"\
+  ""\
+  ""\
+  "Recon can teleport to 3 different locations from the start. HOWEVER!"\
+  "YOU HAVE TO TELEPORT TOGETHER."\
+  ""\
+  "If the two members of the Recon Team are seperate or TP to different locations. That is Ramboing and against Mission Maker Intent."
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -126,7 +132,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "Setup defensive lines to prevent the fall of the ammo depot."\
+  "Move up and destroy the Ammo Caches."\
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Company Commander's Discretion."\
