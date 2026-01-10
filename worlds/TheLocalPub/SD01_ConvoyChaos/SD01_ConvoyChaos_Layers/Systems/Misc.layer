@@ -807,25 +807,25 @@ GenericEntity MujAmmoCrate : "{DD5CB0F1EAF6821E}PrefabsEditable/Auto/Props/Milit
      SlotTemplate EquipmentStorageSlot MujEquipment {
       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
      }
-     NumSlots 8
+     NumSlots 10
     }
     MultiSlotConfiguration "{673F65A9EA4733F5}" {
      SlotTemplate EquipmentStorageSlot MujEquipment {
       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
      }
-     NumSlots 15
+     NumSlots 13
     }
     MultiSlotConfiguration "{673F65AE1B04738D}" {
      SlotTemplate EquipmentStorageSlot MujEquipment {
       Prefab "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
      }
-     NumSlots 15
+     NumSlots 8
     }
     MultiSlotConfiguration "{6842C2051684EE38}" {
      SlotTemplate EquipmentStorageSlot MujEquipment {
       Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
      }
-     NumSlots 40
+     NumSlots 50
     }
    }
   }

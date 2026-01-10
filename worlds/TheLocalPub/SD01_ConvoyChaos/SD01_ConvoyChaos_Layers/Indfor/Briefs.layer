@@ -71,7 +71,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• We have no supporting units or fires available."\
   ""\
   "|SERVICE & SUPPORT|"\
-  "• We have a crate next to the BMP which has 10x AT mines, 13x explosive charges, 6x detonators, 50x sandbags."\
+  "• We have a crate next to the BMP which has 10x AT mines, 13x explosive charges, 8x detonators, 50x sandbags."\
   "• BMP has squad rearm. "
   m_aVisibleForFactions {
    "GC_MUJ"

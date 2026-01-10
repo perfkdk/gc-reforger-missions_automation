@@ -83,12 +83,12 @@ $grp SCR_AIGroup : "{AFA6F99CA262DEDB}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_M
     m_iSquadCallsign 1
    }
   }
-  coords 2882.406 92.801 9821.694
+  coords 2882.412 92.801 9821.696
   angles 0 -50.215 0
   m_aUnitPrefabSlots {
-   "{07B9EA7D1A29F2AE}worlds/TheLocalPub/SD01_ConvoyChaos/Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_CrewCommander_P.et"
-   "{E464BCA09BFCD741}worlds/TheLocalPub/SD01_ConvoyChaos/Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_Crewman_P.et"
-   "{E464BCA09BFCD741}worlds/TheLocalPub/SD01_ConvoyChaos/Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Variants/Character_MUJ_Crewman_P.et"
+   "{0CEB06532A001846}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_CrewCmdr_P.et"
+   "{33D8BAE96081D0D5}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_CrewGunner_P.et"
+   "{E2AC44E7C5017DB6}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_CrewDriver_P.et"
   }
   m_aStaticVehicles {
    "BMP1P_FIA_Desert1"
