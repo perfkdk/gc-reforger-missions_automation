@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{A7A0C997D0A3B92E}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_LAT_DCU_1998_P.et" {
+ ID "51FA8A5F28FD04BA"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2C367D173B99BCD}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C574A260389EF2A1}Prefabs/Characters/HeadGear/Helmet_MICH_01/Helmet_MICH_DCU_cover_goggles_cover.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{156DC7109CEE6F69}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_AR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/Suspenders/Vest_ALICE_suspenders_2.et"
+    }
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch2/Pouch_ALICE_200rnd_M249.et"
+    }
+    ItemsInitConfigurationItem "{5538C040738A83D1}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch2/Pouch_ALICE_200rnd_M249.et"
+    }
+    ItemsInitConfigurationItem "{5538C040737C0BE0}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/Buttpack/Vest_ALICE_buttpack.et"
+    }
+    ItemsInitConfigurationItem "{68545ACD53AD97C4}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

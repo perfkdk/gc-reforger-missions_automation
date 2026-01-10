@@ -1,0 +1,158 @@
+SCR_AIWorld : "{0CB65E4CC0AFBCC0}Prefabs/SCR_AIWorld_Kunar.et" {
+ coords 779.772 45.125 3330.669
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 10560.724 205.778 10691.135
+}
+PS_GameModeCoop GameModeLobby : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_initialWeatherDurationMin 5
+   m_initialWeatherDurationMax 6
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 19
+   m_fFogAmount 0.8
+   m_fFogHeightDensity 0.86
+   m_iDay 7
+   m_iMonth 7
+   m_iYear 2012
+   m_bUseSpecifiedDate 1
+   m_iSetDay 7
+   m_iSetMonth 7
+   m_iSetYear 2012
+   m_bOverrideGeocoords 1
+   m_fLatitude -52.308
+   m_fLongitude 10.769
+   m_bOverrideTimeZoneInfo 1
+   m_fUTCTimeZone 4.3
+   m_fDSTEnabled 1
+   m_fDSTOffsetHours 0
+   m_bOverrideEnvironment 1
+   m_fFogDensity 0.8
+   m_fFogHeight 86
+   m_fRain 0
+   m_fWind 8
+  }
+ }
+ coords 10570.682 204.87 10699.063
+ m_iReconnectTime 180000
+ m_iFreezeTime 150000
+ {
+  SCR_FactionManager "66B9754EFB899195" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     FactionKey "RHS_USAF"
+     m_iOrder 1
+     m_FactionLabel FACTION_RHS_USAF
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792CCD598D3}" {
+        m_sCallsign "Bravo"
+       }
+      }
+     }
+    }
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     FactionKey "US"
+     m_FactionLabel FACTION_US
+    }
+    SCR_Faction "{632925D53C7F1148}" {
+     m_iOrder 2
+     m_bShowInWelcomeScreenIfNonPlayable 1
+     m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
+      m_bIsAssignedRandomly 0
+      m_aCompanyNames {
+       SCR_CallsignInfo "{58B2B630FDD64B73}" {
+        m_sCallsign "Zavarak"
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{58B2B630FDD64B65}" {
+        m_sCallsign "Cell"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{58B2B630FDD64B6D}" {
+        m_sCallsign "HQ"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B53}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B51}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B50}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{61C8F1ACA9FDB12D}" {
+        m_sCallsign "4"
+       }
+      }
+      m_sCallsignGroupFormat "%1 %2 %3"
+      m_sCallsignCharacterFormat "%1 %2 %3 %4"
+      m_sCallsignCharacterWithRoleFormat "%1 %2 %3 %4"
+     }
+     m_iFactionRadioFrequency 42000
+    }
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity TILW_MissionFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 10573.509 198.792 10719.378
+ angles -0.568 -0.014 1.421
+ m_missionEvents {
+  TILW_MissionEvent "{66B975553FA9BABD}" {
+   m_name "Blufor Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{66B97555287D4885}" {
+     m_executionDelay 2.5
+     m_messageTitle "US Victory (BLUFOR)"
+     m_messageBody "Insurgents (OPFOR) have taken 90% casualties"
+    }
+   }
+   m_condition TILW_LiteralTerm "{66B975552BDB8B9A}" {
+    m_flagName "Blufor Victory Flag"
+   }
+  }
+  TILW_MissionEvent "{66B97554FE80DD0E}" {
+   m_name "Opfor Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{66B97554E7E27370}" {
+     m_executionDelay 2.5
+     m_messageTitle "Insurgent Victory (OPFOR)"
+     m_messageBody "US (BLUFOR) has taken 90% casualties"
+    }
+   }
+   m_condition TILW_LiteralTerm "{66B9754B41B3896E}" {
+    m_flagName "Opfor Victory Flag"
+   }
+  }
+  TILW_MissionEvent "{66B97554F85C8747}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{66B9754A0E42D3BD}" {
+     m_executionDelay 3750
+     m_messageTitle "Time Limit Reached!"
+    }
+   }
+   m_condition TILW_LiteralTerm "{66B9754A2D9BF7D2}" {
+    m_invertTerm 1
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{66B97555B5F7C2AA}" {
+   m_flagName "Blufor Victory Flag"
+   m_factionKey "GC_INSURGENT"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{66B9754B77A972E4}" {
+   m_flagName "Opfor Victory Flag"
+   m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.9
+  }
+ }
+}

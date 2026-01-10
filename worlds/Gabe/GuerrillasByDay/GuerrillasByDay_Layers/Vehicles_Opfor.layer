@@ -1,0 +1,18 @@
+$grp Vehicle : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et" {
+ S105_randomized2 {
+  coords 1000.629 32.01 3273.005
+  angles 0 -132.393 0
+ }
+ S105_randomized1 {
+  coords 1002.901 32.187 3270.405
+  angles 0 -132.393 0
+ }
+}
+Vehicle S105_yellow1 : "{A6B0D2923262E755}Prefabs/Vehicles/Wheeled/S105/S105_yellow.et" {
+ coords 998.461 32 3275.401
+ angles 0 -130.998 0
+}
+Vehicle S105_VIED1 : "{E7400CE43119FF91}Prefabs/Vehicles/Wheeled/S105/S105_VIED.et" {
+ coords 984.962 32.017 3258.916
+ angles 0 64.847 0
+}

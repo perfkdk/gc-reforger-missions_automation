@@ -1,0 +1,52 @@
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ RestrictZone_Blufor {
+  coords 10220.632 174.433 10668.896
+  m_fZoneRadius 50
+  m_fZoneTeleportedRadius 65
+ }
+ RestrictZone_Opfor {
+  coords 10895.964 174.331 10736.731
+  angles -1.136 0.022 -0.853
+  m_fZoneRadius 50
+  m_fZoneTeleportedRadius 65
+ }
+}
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ CapZoneOpfor {
+  coords 10478.855 160.823 11084.951
+  m_queryRadius 85
+  m_captureTime 600
+  m_sendStatusMessages 1
+  m_statusMessages {
+   "The %1 WIN! They've taken control of %2."
+   "The %1 are taking control of %2."
+   "The %1 are no longer taking control of %2."
+   "The %1 have lost control of %2."
+   "The %1 are losing control of %2."
+   "The %1 are no longer losing control of %2."
+  }
+  m_locationName "the objective"
+  m_playersOnly 1
+  m_ownerFactionKey "GC_INSURGENT"
+  m_ratioThreshold 0.51
+ }
+ CapZoneBlufor {
+  coords 10478.855 160.823 11084.951
+  m_queryRadius 85
+  m_captureTime 600
+  m_sendStatusMessages 1
+  m_statusMessages {
+   "The %1 WINS! They've taken control of %2."
+   "The %1 is taking control of %2."
+   "The %1 is no longer taking control of %2."
+   "The %1 has lost control of %2."
+   "The %1 is losing control of %2."
+   "The %1 is no longer losing control of %2."
+  }
+  m_locationName "the objective"
+  m_setShapeColor 0.175 0.01 0.01 1
+  m_playersOnly 1
+  m_ownerFactionKey "RHS_USAF"
+  m_ratioThreshold 0.51
+ }
+}

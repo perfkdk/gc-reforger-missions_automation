@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{F134AEC8095105A4}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_AMG_DCU_1998_P.et" {
+ ID "522AAC66D0A2C0DC"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2C367D173B99BCD}Prefabs/Weapons/Rifles/M4/Rifle_M4_RAS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C574A260389EF2A1}Prefabs/Characters/HeadGear/Helmet_MICH_01/Helmet_MICH_DCU_cover_goggles_cover.et"
+    }
+   }
+  }
+ }
+}

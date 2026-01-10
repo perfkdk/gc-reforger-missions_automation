@@ -1,0 +1,35 @@
+SCR_AIGroup US_Squad1 : "{0B9DC54980B31D0F}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RifleSquad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "file"
+  }
+ }
+ coords 253.084 40.013 3145.679
+ m_aUnitPrefabSlots {
+  "{FCC80C3904F50136}worlds/Gabe/Prefabs/Blufor/US Army/Infantry (Desert)/P/US_SL_Gabe_P.et"
+  "{D56A3CEEB4038A9A}worlds/Gabe/Prefabs/Blufor/US Army/Infantry (Desert)/P/US_TL_Gabe_P.et"
+  "{B440F58A0EC12EC1}worlds/Gabe/Prefabs/Blufor/US Army/Infantry (Desert)/P/US_GL_Gabe_P.et"
+  "{4E9D3D7B5587F36B}worlds/Gabe/Prefabs/Blufor/US Army/Infantry (Desert)/P/US_AR_Gabe_P.et"
+  "{508DFDF5AD4B963A}worlds/Gabe/Prefabs/Blufor/US Army/Infantry (Desert)/P/US_LAT_Gabe_P.et"
+  "{D56A3CEEB4038A9A}worlds/Gabe/Prefabs/Blufor/US Army/Infantry (Desert)/P/US_TL_Gabe_P.et"
+  "{B440F58A0EC12EC1}worlds/Gabe/Prefabs/Blufor/US Army/Infantry (Desert)/P/US_GL_Gabe_P.et"
+  "{4E9D3D7B5587F36B}worlds/Gabe/Prefabs/Blufor/US Army/Infantry (Desert)/P/US_AR_Gabe_P.et"
+  "{C4704D8ADFF310D4}worlds/Gabe/Prefabs/Blufor/US Army/Infantry (Desert)/P/US_Rifleman_Gabe_P.et"
+ }
+ m_sCustomNameSet "1st Squad"
+}
+SCR_AIGroup US_PHQ : "{B919E00642247722}Prefabs/Groups/BLUFOR/US/Army/1998/Infantry (Desert)/P/Group_US_Army_1998_Desert_RiflePHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "file"
+  }
+ }
+ coords 270.924 41.912 3146.484
+ m_aUnitPrefabSlots {
+  "{0CA99063388D5B0E}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_PL_DCU_1998_P.et"
+  "{2B3FDB0EA9112C3A}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Sergeant_DCU_1998_P.et"
+  "{FD48D6AFE48457DE}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_Medic_DCU_1998_P.et"
+ }
+ m_sCustomNameSet "Platoon HQ"
+ m_bSetPlayable 0
+}

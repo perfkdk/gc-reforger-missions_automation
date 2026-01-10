@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{7147A0FF95620456}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_MG_DCU_1998_P.et" {
+ ID "39332739B2DAC6B2"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C574A260389EF2A1}Prefabs/Characters/HeadGear/Helmet_MICH_01/Helmet_MICH_DCU_cover_goggles_cover.et"
+    }
+   }
+  }
+ }
+}
