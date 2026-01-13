@@ -113,7 +113,7 @@ $grp Vehicle : "{AAB3119124C9167A}Prefabs/Vehicles/Wheeled/BTR70/USSR/BTR70_USSR
      }
      MultiSlotConfiguration "{670C6ED3C5F91386}" {
       SlotTemplate InventoryStorageSlot SLRadio {
-       Prefab "{88B4E9C3B4F3B89D}Prefabs/Items/Equipment/Radios/Radio_R148_Multi.et"
+       Prefab "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et"
       }
       NumSlots 1
      }
