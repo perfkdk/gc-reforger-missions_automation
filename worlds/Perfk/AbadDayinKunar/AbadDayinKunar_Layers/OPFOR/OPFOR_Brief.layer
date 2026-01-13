@@ -92,7 +92,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Our platoon, along with our brother fighters throughout the city, will defend Kunar Abad and the ammunition cache for as long as possible. This position is critical - we are establishing a staging point for our planned assault on FOB Michigan. Every hour we hold this ground gives our commanders time to prepare the offensive."\
   ""\
   "The ammunition cache hidden in the city must not fall into American hands."\
-  ""
+  ""\
+  "Mission makers note: DO NOT CHANGE WEAPONS unless you run out of ammo. Do not kill AIs to take their weapons."
   m_aVisibleForFactions {
    "GC_MUJ"
   }

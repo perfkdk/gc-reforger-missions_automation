@@ -115,6 +115,14 @@ $grp GenericEntity : "{7B656DF11E8B4D50}Prefabs/Structures/Wreck/ikarus_g.et" {
   coords 3346.357 11 2760.324
   angles 0 -7.253 0
  }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{66F71793AE43CC40}" {
+   }
+  }
+  coords 3247.824 8.902 2631.522
+  angles -1.233 121.953 0.286
+ }
 }
 GenericEntity : "{857C0558076EE658}Prefabs/Structures/Wreck/lada_red.et" {
  components {

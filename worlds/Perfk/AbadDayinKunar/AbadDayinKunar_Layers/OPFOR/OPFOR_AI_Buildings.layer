@@ -717,73 +717,46 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Comment "Building 4 CIV"
     m_Size 0.6
    }
-   SCR_AIGroup Building_4_Loiter_AI : "{A6E7FBD99B47CC72}Prefabs/Groups/CIV/Generic/Group_CIV_Generic_03.et" {
-    components {
-     AIFormationComponent "{507E9DC12F541FE6}" {
-      Enabled 0
-     }
-    }
-    coords 0.027 -3.29 -1.802
-    angles 0 -69.516 0
-    m_aUnitPrefabSlots {
-     "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
-     "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
-     "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
-     "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
-     "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et"
-    }
-    m_bSnapToTerrain 0
-    m_aStaticWaypoints {
-     "Building_4_Loiter_WP"
-    }
-    {
-     SCR_DefendWaypoint Building_4_Loiter_WP : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
-      components {
-       TILW_NavmeshRegenComponent "{66F0D8C54346D16A}" {
-       }
-      }
-      coords 1.723 -2.129 -0.278
-      angles 1.869 -24.291 -2.682
-      CompletionRadius 6
-      m_aSettings {
-       SCR_AICharacterStanceSetting "{66F30C72D299821F}" {
-        m_eCause ALWAYS
-        m_eStance STAND
-       }
-      }
-      m_bFastInit 1
-      m_aDefendPresets {
-       SCR_DefendWaypointPreset "{61B0C34477FB8F5E}" {
-        m_fFractionOfSA 1
-        m_aTagsForSearch {
-         "LoiterPost"
-        }
-       }
-       SCR_DefendWaypointPreset "{61B0C34408A0DE30}" {
-        m_aTagsForSearch {
-         "LoiterPost"
-        }
-       }
+   $grp SCR_ChimeraCharacter : "{2DFC92038A21BA8A}Prefabs/Characters/Factions/CIV/Afghan/Civ_Random.et" {
+    Civ_captured_0 {
+     components {
+      PK_EntityModifierComponent "{6859475CE3D7B7F4}" {
+       m_bCharacterEnabled 1
+       m_bSetCaptive 1
       }
      }
+     coords 0.315 -3.661 -3.86
+     angles 0 -27.991 0
     }
-   }
-   $grp GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
-    {
-     coords 1.15 -6.741 -2.528
-     angles 0 -14.415 0
+    Civ_captured_2 {
+     components {
+      PK_EntityModifierComponent "{6859475CE3D7B7F4}" {
+       m_bCharacterEnabled 1
+       m_bSetCaptive 1
+      }
+     }
+     coords 2.253 -3.661 -1.105
+     angles 0 -107.46 0
     }
-    {
-     coords -1.208 -2.915 -3.67
-     angles 0 -137.589 0
+    Civ_captured_3 {
+     components {
+      PK_EntityModifierComponent "{6859475CE3D7B7F4}" {
+       m_bCharacterEnabled 1
+       m_bSetCaptive 1
+      }
+     }
+     coords -0.896 -3.643 4.572
+     angles 0 121.989 0
     }
-    {
-     coords 0.912 -3.654 4.037
-     angles 0 -14.415 0
-    }
-    {
-     coords 1.449 0.09 -0.912
-     angles 0 -14.415 0
+    Civ_captured_4 {
+     components {
+      PK_EntityModifierComponent "{6859475CE3D7B7F4}" {
+       m_bCharacterEnabled 1
+       m_bSetCaptive 1
+      }
+     }
+     coords -0.27 -0.675 -3.316
+     angles 0 -54.241 0
     }
    }
   }
@@ -2670,7 +2643,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
     m_Size 0.6
    }
    TILW_PrefabSpawnerEntity Building_8_Defend_AI10 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
-    coords -4.278 0.035 4.211
+    coords -3.97 0.034 3.859
     angles 0.838 116.119 2.386
     m_prefab "{637E4F99E4F91AD0}worlds/Perfk/Prefabs/Groups/PK_MUJ_07_Fighters.et"
     m_conditionFlag "US_Trigger_Left_3"
