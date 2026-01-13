@@ -109,7 +109,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5156.968 341.544 5343.003
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Move up, sweep the forests and secure the 3x Critical Buildings within Kamoryn Military Base."
+  "Move up, sweep the forests and secure the 3x Critical Buildings within Kamoryn Military Base."\
+  ""\
+  "Utilize AT mines with TSh 400g Esplosives to blow up the walls surrounding the compound (1x AT Mine + 1x TSh 400g, Connect to KPM 3U1 and detonate)"
   m_aVisibleForFactions {
    "GC_NVA"
   }
@@ -159,6 +161,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- 50x Handheld White Flares"\
   "- 50x Handheld Orange Flares"\
   "- 50x Handheld Green Flares"\
+  "- 10x AT Mines"\
+  "- 50x TSh 400g Explosives"\
+  "- 10x Blasting Machine KPM 3U1"\
+  "- 10x Backpacks"\
   ""\
   "<b>c. Medical:</b>"\
   "Location: Platoon Aid Post is to be setup by Platoon medics."\

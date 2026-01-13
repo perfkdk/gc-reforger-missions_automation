@@ -9,8 +9,8 @@ $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
     m_iSquadCallsign 1
    }
   }
-  coords 5306.015 141.583 8163.877
-  angles 0 31.651 0
+  coords 4885.043 167.452 8201.359
+  angles 0 22.51 0
   m_aUnitPrefabSlots {
    "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et"
    "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et"
@@ -31,8 +31,8 @@ $grp SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA
     m_iSquadCallsign 1
    }
   }
-  coords 5207.024 141.652 8203.669
-  angles 0 30.445 0
+  coords 4951.451 156.206 8116.941
+  angles 0 -59.852 0
   m_aUnitPrefabSlots {
    "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et"
    "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et"
@@ -55,8 +55,8 @@ $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ri
     m_iSquadCallsign 2
    }
   }
-  coords 5198.684 141.818 8209.676
-  angles 0 33.247 0
+  coords 4945.487 155.551 8108.57
+  angles 0 -57.05 0
   m_aUnitPrefabSlots {
    "{BCC39EBCD14FD378}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P_NoRadio.et"
    "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et"
@@ -81,8 +81,8 @@ $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ri
     m_iSquadCallsign 3
    }
   }
-  coords 5205.539 141.206 8185.96
-  angles 0 28.216 0
+  coords 4969.167 154.998 8115.548
+  angles 0 -62.081 0
   m_aUnitPrefabSlots {
    "{BCC39EBCD14FD378}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P_NoRadio.et"
    "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et"
@@ -107,8 +107,8 @@ $grp SCR_AIGroup : "{462E231DFE748568}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ri
     m_iSquadCallsign 4
    }
   }
-  coords 5230.711 141.392 8189.94
-  angles 0 31.155 0
+  coords 4965.057 153.901 8140.699
+  angles 0 -59.142 0
   m_aUnitPrefabSlots {
    "{BCC39EBCD14FD378}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P_NoRadio.et"
    "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et"
@@ -134,8 +134,8 @@ $grp SCR_AIGroup : "{5EBBA8C4F782D895}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
     m_iSquadCallsign 2
    }
   }
-  coords 5319.154 141.28 8159.616
-  angles 0 18.06 0
+  coords 4898.692 165.703 8199.24
+  angles 0 8.92 0
   m_aUnitPrefabSlots {
    "{BCC39EBCD14FD378}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P_NoRadio.et"
    "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et"
@@ -157,8 +157,8 @@ $grp SCR_AIGroup : "{5EBBA8C4F782D895}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
     m_iSquadCallsign 3
    }
   }
-  coords 5303.973 140.655 8140.822
-  angles 0 -51.713 0
+  coords 4886.69 166.725 8178.272
+  angles 0 -60.854 0
   m_aUnitPrefabSlots {
    "{BCC39EBCD14FD378}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P_NoRadio.et"
    "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et"
@@ -180,8 +180,8 @@ $grp SCR_AIGroup : "{5EBBA8C4F782D895}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
     m_iSquadCallsign 4
    }
   }
-  coords 5291.828 141.934 8172.242
-  angles 0 23.485 0
+  coords 4869.708 169.366 8207.364
+  angles 0 14.344 0
   m_aUnitPrefabSlots {
    "{BCC39EBCD14FD378}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P_NoRadio.et"
    "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et"
@@ -195,7 +195,7 @@ $grp SCR_AIGroup : "{5EBBA8C4F782D895}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Mo
  }
 }
 SCR_EditorRestrictionZoneEntity Restriction_Zone2 : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- coords 5255.036 139.793 8166.357
+ coords 4905.313 160.243 8142.802
 }
 $grp SCR_AIGroup : "{B8BFDDDEEFB02E28}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_VehicleCrew_P.et" {
  BRDMCrew1 {
@@ -206,8 +206,8 @@ $grp SCR_AIGroup : "{B8BFDDDEEFB02E28}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ve
     m_iSquadCallsign 2
    }
   }
-  coords 5220.811 142.952 8221.99
-  angles 0 -154.867 0
+  coords 4941.757 155.09 8095.257
+  angles 0 52.452 0
  }
  BRDMCrew2 {
   components {
@@ -217,8 +217,8 @@ $grp SCR_AIGroup : "{B8BFDDDEEFB02E28}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_Ve
     m_iSquadCallsign 3
    }
   }
-  coords 5240.334 142.594 8209.321
-  angles 0 -142.942 0
+  coords 4855.294 163.134 8117.58
+  angles 0 154.202 0
  }
 }
 $grp Vehicle : "{EC4811AC7C17DC7E}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_NVA.et" {
@@ -241,6 +241,9 @@ $grp Vehicle : "{EC4811AC7C17DC7E}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_NVA.et" {
     MultiSlots {
      MultiSlotConfiguration "{62F49BC4717082CC}" {
       NumSlots 100
+     }
+     MultiSlotConfiguration "{62F49BC4727D7B7B}" {
+      NumSlots 10
      }
      MultiSlotConfiguration "{673368DE6CCD3107}" {
       SlotTemplate InventoryStorageSlot ak74mags {
@@ -266,11 +269,29 @@ $grp Vehicle : "{EC4811AC7C17DC7E}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_NVA.et" {
       }
       NumSlots 50
      }
+     MultiSlotConfiguration "{673EB8B3AF1730B2}" {
+      SlotTemplate InventoryStorageSlot mines {
+       Prefab "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{673EB8B05F24FFF1}" {
+      SlotTemplate InventoryStorageSlot mines {
+       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{673EB8B027FD3E86}" {
+      SlotTemplate InventoryStorageSlot mines {
+       Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+      }
+      NumSlots 10
+     }
     }
    }
   }
-  coords 5222.132 142.955 8224.521
-  angles 0 -61.4 0
+  coords 4939.422 155.087 8093.615
+  angles 0 145.919 0
   m_sAttachmentGroupName "BRDMCrew1"
  }
  BRDM2_NVA2 {
@@ -317,11 +338,29 @@ $grp Vehicle : "{EC4811AC7C17DC7E}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_NVA.et" {
       }
       NumSlots 50
      }
+     MultiSlotConfiguration "{673EB8B04D1FF4AE}" {
+      SlotTemplate InventoryStorageSlot mines {
+       Prefab "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{673EB8B04523798B}" {
+      SlotTemplate InventoryStorageSlot mines {
+       Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{673EB8B0DEB29505}" {
+      SlotTemplate InventoryStorageSlot mines {
+       Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+      }
+      NumSlots 10
+     }
     }
    }
   }
-  coords 5241.642 142.594 8211.772
-  angles 0 -53.448 0
+  coords 4853.71 163.094 8119.862
+  angles 0 -116.304 0
   m_sAttachmentGroupName "BRDMCrew2"
  }
 }
@@ -334,7 +373,7 @@ SCR_AIGroup CoyHQ : "{EF9B0C908458D07E}Prefabs/Groups/OPFOR/GC_NVA/P/Group_NVA_C
    m_iCompanyCallsign 1
   }
  }
- coords 5253.649 140.745 8174.331
+ coords 4911.138 159.958 8139.336
  angles 0 26.592 0
  m_aUnitPrefabSlots {
   "{DB3CB8C4B9FE5219}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CompanyCommander_P.et"
