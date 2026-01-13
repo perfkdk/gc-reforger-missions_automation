@@ -1,10 +1,9 @@
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  US_Trigger_Right_1 {
-  coords 3060.543 9.723 2691.305
-  m_queryRadius 40
+  coords 3066.937 9.723 2671.299
+  m_queryRadius 60
   m_flagName "US_Trigger_Right_1"
   m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
   m_drawShapeOutline 0
   m_playersOnly 1
   m_ignoredFactions {
@@ -14,8 +13,8 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_ratioThreshold 0.001
   {
    TILW_PrefabSpawnerEntity US_Spawner_Right_1 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
-    coords 248.098 1.592 -127.147
-    angles 0 -58.768 0
+    coords 85.773 7.746 -79.775
+    angles 0 8.073 0
     m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
     m_conditionFlag "US_Trigger_Right_1"
     m_spawnTimings {
@@ -24,26 +23,21 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
     }
     m_waypointNames {
      "US_WP_Right_1_1"
-     "US_WP_Right_1_2"
      "WP_Fallback"
     }
-    {
-     SCR_AIWaypoint US_WP_Right_1_1 : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
-      coords -193.001 -0.076 62.248
-     }
-     SCR_SearchAndDestroyWaypoint US_WP_Right_1_2 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
-      coords -269.56 -1.354 140.045
-     }
-    }
+   }
+   SCR_SearchAndDestroyWaypoint US_WP_Right_1_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+    coords 4.109 6.591 -15.215
+    angles 0 -58.768 0
+    CompletionRadius 40
    }
   }
  }
  US_Trigger_Center_1 {
-  coords 3088.297 9.138 2763.934
+  coords 3088.297 9.938 2763.934
   m_queryRadius 40
   m_flagName "US_Trigger_Center_1"
   m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
   m_drawShapeOutline 0
   m_playersOnly 1
   m_ignoredFactions {
@@ -53,36 +47,30 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_ratioThreshold 0.001
   {
    TILW_PrefabSpawnerEntity US_Spawner_Center_1 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
-    coords 197.698 0.362 -182.659
-    angles 0 42.777 0
+    coords 24.197 -1.056 7.782
+    angles 0 -61.727 0
     m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
     m_conditionFlag "US_Trigger_Center_1"
     m_spawnTimings {
      0
-     140
+     200
     }
     m_waypointNames {
      "US_WP_Center_1_1"
-     "US_WP_Center_1_2"
      "WP_Fallback"
     }
-    {
-     SCR_AIWaypoint US_WP_Center_1_1 : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
-      coords -159.242 -2.146 105.32
-     }
-     SCR_SearchAndDestroyWaypoint US_WP_Center_1_2 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
-      coords -249.831 -2.341 193.715
-     }
-    }
+   }
+   SCR_SearchAndDestroyWaypoint US_WP_Center_1_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+    coords -22.851 -0.98 7.268
+    angles 0 42.777 0
    }
   }
  }
  US_Trigger_Left_1 {
-  coords 3093.145 17 2846.594
-  m_queryRadius 40
+  coords 3124.044 17 2885.113
+  m_queryRadius 80
   m_flagName "US_Trigger_Left_1"
   m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
   m_drawShapeOutline 0
   m_playersOnly 1
   m_ignoredFactions {
@@ -91,8 +79,9 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_ownerFactionKey "US"
   m_ratioThreshold 0.001
   {
-   TILW_PrefabSpawnerEntity US_Spawner_Left_1 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
-    coords 289.189 -8.137 -124.396
+   TILW_PrefabSpawnerEntity US_Spawner_Left_1_2 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 111.971 4.651 -19.689
+    angles 0 19.357 0
     m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
     m_conditionFlag "US_Trigger_Left_1"
     m_spawnTimings {
@@ -101,26 +90,20 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
     }
     m_waypointNames {
      "US_WP_Left_1_1"
-     "US_WP_Left_1_2"
      "WP_Fallback"
     }
-    {
-     SCR_AIWaypoint US_WP_Left_1_1 : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
-      coords -144.921 2.17 25.008
-     }
-     SCR_SearchAndDestroyWaypoint US_WP_Left_1_2 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
-      coords -263.369 7.384 140.654
-     }
-    }
+   }
+   SCR_SearchAndDestroyWaypoint US_WP_Left_1_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+    coords -46.192 1.226 -5.026
+    CompletionRadius 40
    }
   }
  }
  US_Trigger_Center_2 {
-  coords 3195.204 11.001 2641.292
+  coords 3195.371 11 2641.24
   m_queryRadius 50
   m_flagName "US_Trigger_Center_2"
   m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
   m_drawShapeOutline 0
   m_playersOnly 1
   m_ignoredFactions {
@@ -130,7 +113,7 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_ratioThreshold 0.001
   {
    TILW_PrefabSpawnerEntity US_Spawner_Center_2 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
-    coords 88.659 -1.501 -62.333
+    coords 52.668 -2.26 -12.624
     angles 0 26.426 0
     m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
     m_conditionFlag "US_Trigger_Center_2"
@@ -141,54 +124,18 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
      "US_WP_Center_2_1"
      "WP_Fallback"
     }
-    {
-     SCR_SearchAndDestroyWaypoint US_WP_Center_2_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
-      coords -121.218 1.402 67.796
-     }
-    }
    }
-  }
- }
- US_Trigger_Left_2 {
-  coords 3263.484 17 2769.483
-  m_queryRadius 45
-  m_flagName "US_Trigger_Left_2"
-  m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
-  m_drawShapeOutline 0
-  m_playersOnly 1
-  m_ignoredFactions {
-   "GC_MUJ"
-  }
-  m_ownerFactionKey "US"
-  m_ratioThreshold 0.001
-  {
-   TILW_PrefabSpawnerEntity US_Spawner_Left_2 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
-    coords 129.429 -7.492 -43.807
-    m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
-    m_conditionFlag "US_Trigger_Left_2"
-    m_spawnTimings {
-     0
-     60
-    }
-    m_waypointNames {
-     "US_WP_Left_2_1"
-     "WP_Fallback"
-    }
-    {
-     SCR_SearchAndDestroyWaypoint US_WP_Left_2_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
-      coords -132.945 7.384 48.918
-     }
-    }
+   SCR_SearchAndDestroyWaypoint US_WP_Center_2_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+    coords -12.608 -2.072 40.769
+    angles 0 26.426 0
    }
   }
  }
  US_Trigger_Left_3 {
-  coords 3185.25 14.314 2846.646
-  m_queryRadius 50
+  coords 3294.896 17 2808.52
+  m_queryRadius 100
   m_flagName "US_Trigger_Left_3"
   m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
   m_drawShapeOutline 0
   m_playersOnly 1
   m_ignoredFactions {
@@ -198,26 +145,53 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_ratioThreshold 0.001
   {
    TILW_PrefabSpawnerEntity US_Spawner_Left_3 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
-    coords 289.488 -1.801 -115.469
+    coords -4.969 -5.68 -47.34
+    angles 0 -23.267 0
     m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
-    m_conditionFlag "US_Trigger_Left_1"
+    m_conditionFlag "US_Trigger_Left_3"
+    m_spawnTimings {
+     0
+     180
+    }
+    m_waypointNames {
+     "US_WP_Left_3_1"
+     "WP_Fallback"
+    }
+   }
+   SCR_SearchAndDestroyWaypoint US_WP_Left_3_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+    coords -61.352 -3.563 17.723
+    CompletionRadius 50
+   }
+  }
+ }
+ US_Trigger_Left_2 {
+  coords 3185.25 14.314 2846.646
+  m_queryRadius 50
+  m_flagName "US_Trigger_Left_2"
+  m_stopAfterFirstChange 1
+  m_drawShapeOutline 0
+  m_playersOnly 1
+  m_ignoredFactions {
+   "GC_MUJ"
+  }
+  m_ownerFactionKey "US"
+  m_ratioThreshold 0.001
+  {
+   TILW_PrefabSpawnerEntity US_Spawner_Left_2 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 113.556 8.442 -1.599
+    m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+    m_conditionFlag "US_Trigger_Left_2"
     m_spawnTimings {
      0
      60
     }
     m_waypointNames {
-     "US_WP_Left_1_1"
-     "US_WP_Left_1_2"
+     "US_WP_Left_2_1"
      "WP_Fallback"
     }
-    {
-     SCR_AIWaypoint US_WP_Left_1_3 : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
-      coords -144.921 2.17 25.008
-     }
-     SCR_SearchAndDestroyWaypoint US_WP_Left_1_4 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
-      coords -288.035 1.296 93.233
-     }
-    }
+   }
+   SCR_SearchAndDestroyWaypoint US_WP_Left_2_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+    coords -32.582 5.791 11.938
    }
   }
  }
@@ -226,7 +200,6 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_queryRadius 70
   m_flagName "US_Trigger_Left_4"
   m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
   m_drawShapeOutline 0
   m_playersOnly 1
   m_ignoredFactions {
@@ -236,32 +209,31 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_ratioThreshold 0.001
   {
    TILW_PrefabSpawnerEntity US_Spawner_Left_4 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
-    coords 119.443 -0.458 -34.487
-    angles 0 -26.617 0
+    coords 52.136 3.191 61.2
+    angles 0 29.502 0
     m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
-    m_conditionFlag "US_Trigger_Left_2"
+    m_conditionFlag "US_Trigger_Left_4"
     m_spawnTimings {
      0
      60
     }
     m_waypointNames {
-     "US_WP_Left_2_1"
+     "US_WP_Left_4_1"
      "WP_Fallback"
     }
-    {
-     SCR_SearchAndDestroyWaypoint US_WP_Left_2_2 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
-      coords -132.945 7.384 48.918
-     }
-    }
+   }
+   SCR_SearchAndDestroyWaypoint US_WP_Left_4_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+    coords -26.697 0 -2.67
+    angles 0 -26.617 0
+    CompletionRadius 50
    }
   }
  }
- US_Trigger_Right_3 {
+ US_Trigger_Right_2 {
   coords 3313.185 9.5 2577.475
   m_queryRadius 70
-  m_flagName "US_Trigger_Right_3"
+  m_flagName "US_Trigger_Right_2"
   m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
   m_drawShapeOutline 0
   m_playersOnly 1
   m_ignoredFactions {
@@ -270,23 +242,21 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   m_ownerFactionKey "US"
   m_ratioThreshold 0.001
   {
-   TILW_PrefabSpawnerEntity US_Spawner_Left_5 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
-    coords 131.37 -8.768 -45.101
-    m_prefab "{42A2076C85157993}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Fighter_Fireteam.et"
-    m_conditionFlag "US_Trigger_Left_2"
+   TILW_PrefabSpawnerEntity US_Spawner_Right_2 : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+    coords 74.925 1.276 -15.698
+    m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
+    m_conditionFlag "US_Trigger_Right_2"
     m_spawnTimings {
      0
      60
     }
     m_waypointNames {
-     "US_WP_Left_2_1"
+     "US_WP_Right_2_1"
      "WP_Fallback"
     }
-    {
-     SCR_SearchAndDestroyWaypoint US_WP_Left_2_3 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
-      coords -132.945 7.384 48.918
-     }
-    }
+   }
+   SCR_SearchAndDestroyWaypoint US_WP_Right_2_1 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+    coords -28.138 0 8.762
    }
   }
  }
