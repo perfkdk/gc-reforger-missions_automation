@@ -40,11 +40,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- Oil Depots"\
   ""\
   "Phase 2: Dig in and Defend [Medium & Hard]"\
-  "By using Construction truck with the Supplies from MOB. Set up the fortications and defend ATC Tower for 20 mins."\
+  "By using Construction truck with the Supplies from MOB. Set up the fortications and defend ATC Tower for 20 minutes."\
   "If the enemy capture it, it's game over for us. "\
   ""\
   "End Conditions:"\
   "- Completing all Objectives: Victory"\
+  "-- Defend ATC for 20 minutes."\
   "- 95% Casualty: Defeat"\
   ""\
   "----- Difficuty -----"\
@@ -188,7 +189,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Helicopter Restriction: 1 Heavy CAS or 2 Little Birds with Guns & Rockets"\
   ""\
-  "   ----- Hard (59 - 82 Players) -----"\
+  "   ----- Hard (59 - 85 Players) -----"\
   "1 CHQ & FTO"\
   "2 PHQ"\
   "3 Medics"\

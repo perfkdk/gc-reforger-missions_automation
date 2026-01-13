@@ -423,7 +423,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -449,7 +449,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -461,7 +461,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{66080A4A56206012}" {
@@ -469,7 +469,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker2"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{66080A4A505FB84E}" {
@@ -477,7 +477,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker3"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{66080A4AADCE57FC}" {
@@ -485,7 +485,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker4"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{66080A4AA7544DE6}" {
@@ -493,7 +493,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker5"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{66080A4AF3A24F05}" {
@@ -501,7 +501,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker6"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnVehicleInstruction "{660856AEFDB61E20}" {
@@ -523,7 +523,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -548,7 +548,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -583,7 +583,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "AI_GetOut_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -618,7 +618,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "AI_GetOut_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -643,7 +643,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -670,7 +670,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "AA_Truck_Move_Waypoint"
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -683,7 +683,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_locationName "Phase2Attacker8"
      m_waypointNames {
       "Fort_A_Move_Waypoint"
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FF403303ED}" {
@@ -692,7 +692,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_locationName "Phase2Attacker"
      m_waypointNames {
       "Fort_A_Move_Waypoint"
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FF4110CA96}" {
@@ -701,7 +701,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_locationName "Phase2Attacker13"
      m_waypointNames {
       "Fort_A_Move_Waypoint"
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_ReactivateEventsInstruction "{66080A4C975FE9BC}" {
@@ -745,7 +745,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -771,7 +771,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -797,7 +797,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -809,7 +809,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FFCADA1D5D}" {
@@ -817,7 +817,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker2"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FFCADA1D5F}" {
@@ -825,7 +825,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker3"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FFCADA1D5E}" {
@@ -833,7 +833,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker4"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FFCADA1D2D}" {
@@ -841,7 +841,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker5"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FFCADA1D2C}" {
@@ -849,7 +849,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
      m_locationName "Phase2Attacker6"
      m_waypointNames {
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnVehicleInstruction "{660A41FFCADA8CB4}" {
@@ -871,7 +871,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -907,7 +907,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "AI_GetOut_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -942,7 +942,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "AI_GetOut_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -967,7 +967,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -992,7 +992,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         m_waypointNames {
          "AA_Truck_Move_Waypoint"
          "Runway_Move_Waypoint"
-         "Search_And_Destroy_Main1"
+         "AIWaypoint_MainAttack"
         }
        }
       }
@@ -1004,7 +1004,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_locationName "Phase2Attacker8"
      m_waypointNames {
       "Fort_A_Move_Waypoint"
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FFCAD42106}" {
@@ -1013,7 +1013,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_locationName "Phase2Attacker"
      m_waypointNames {
       "Fort_A_Move_Waypoint"
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_SpawnGroupInstruction "{660A41FFCAD42109}" {
@@ -1022,7 +1022,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_locationName "Phase2Attacker13"
      m_waypointNames {
       "Fort_A_Move_Waypoint"
-      "Search_And_Destroy_Main1"
+      "AIWaypoint_MainAttack"
      }
     }
     TILW_ReactivateEventsInstruction "{660A41FFCAD42108}" {
@@ -1047,13 +1047,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Phase 2 Done"
    m_instructions {
     TILW_SendMessageInstruction "{65F0057780697C16}" {
-     m_executionDelay 1800
+     m_executionDelay 1200
      m_messageTitle "Phase 2 Done"
      m_messageBody "Congrats, Takistan Army has arrived to wipe the remaining forces."
-    }
-    TILW_EndGameInstruction "{65F00576271FDBE1}" {
-     m_executionDelay 2100
-     m_factionKey "US"
     }
    }
    m_condition TILW_LiteralTerm "{65F0057787684D60}" {
@@ -1068,14 +1064,22 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageTitle "Phase 2 Failed"
      m_messageBody "Too much casualty before time limit"
     }
-    TILW_EndGameInstruction "{65FB5871DDA40479}" {
-     m_executionDelay 300
-     m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "US"
-    }
    }
    m_condition TILW_LiteralTerm "{65FB587E3888075B}" {
     m_flagName "US Casualty Limit"
+   }
+  }
+  TILW_MissionEvent "{685B5DF009C375CF}" {
+   m_name "Phase 2 Failed ATC Capture"
+   m_instructions {
+    TILW_SendMessageInstruction "{685B5DF009C34B24}" {
+     m_executionDelay 2
+     m_messageTitle "Phase 2 Failed"
+     m_messageBody "Enemy Forces has capture the ATC Tower"
+    }
+   }
+   m_condition TILW_LiteralTerm "{685B5DF009C348DD}" {
+    m_flagName "Phase 2 Capture Lost"
    }
   }
   TILW_MissionEvent "{660A41F0E2F536D2}" {
