@@ -11,24 +11,23 @@ PS_GameModeCoop GameModeLobby : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_
    m_initialWeatherDurationMax 6
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 19
+   m_iStartingHours 6
+   m_bWindOverride 1
+   m_fWindSpeed 8
+   m_fWindDirection 0.67
    m_fFogAmount 0.8
    m_fFogHeightDensity 0.86
    m_iDay 7
    m_iMonth 7
    m_iYear 2012
    m_bUseSpecifiedDate 1
-   m_iSetDay 7
-   m_iSetMonth 7
+   m_iSetDay 5
+   m_iSetMonth 10
    m_iSetYear 2012
-   m_bOverrideGeocoords 1
    m_fLatitude -52.308
    m_fLongitude 10.769
-   m_bOverrideTimeZoneInfo 1
    m_fUTCTimeZone 4.3
-   m_fDSTEnabled 1
    m_fDSTOffsetHours 0
-   m_bOverrideEnvironment 1
    m_fFogDensity 0.8
    m_fFogHeight 86
    m_fRain 0

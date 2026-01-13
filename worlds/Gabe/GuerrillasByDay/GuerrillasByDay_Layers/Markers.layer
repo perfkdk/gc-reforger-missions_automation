@@ -1,4 +1,4 @@
-PolylineShapeEntity CapZoneMarker : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+PolylineShapeEntity RichahlamMarker : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
    Enabled 0
@@ -12,8 +12,8 @@ PolylineShapeEntity CapZoneMarker : "{85222A2744768C81}Prefabs/Logic/AOLimit/TIL
    m_lineWidth 1
   }
  }
- coords 10379.648 163.187 11070.97
- scale 2.759
+ coords 587.319 55.097 3175.357
+ scale 2.95
  Points {
   ShapePoint "{66BC00EC00D6DEB5}" {
    Position 5.852 0 -0.746
@@ -113,13 +113,13 @@ PolylineShapeEntity CapZoneMarker : "{85222A2744768C81}Prefabs/Logic/AOLimit/TIL
   }
  }
 }
-PS_ManualMarker CapMarkerText : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Objective_Base.et" {
- coords 10478.859 164.228 11084.954
+PS_ManualMarker RichahlamText : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_Objective_Base.et" {
+ coords 692.193 40.053 3190.486
  angles 0 0 0
  m_MarkerColor 0 0 0 0
  m_sQuadName "circle"
- m_fWorldSize 180
- m_sDescription "Capture Area"
+ m_fWorldSize 190
+ m_sDescription "Richahlam"
  m_aHideOnGameModeStates {
   GAME
  }
