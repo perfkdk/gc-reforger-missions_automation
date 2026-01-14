@@ -1,0 +1,59 @@
+StaticModelEntity : "{00AEB966F934D63D}Prefabs/Structures/Bulding/HouseK/House_K_5_EP1_Ruins.et" {
+ coords 1545.905 30.35 3646.621
+ angles 0 -157.785 0
+}
+SCR_DestructibleBuildingEntity : "{0A7F65814BBE3771}Prefabs/Structures/Bulding/HouseK/House_K_3_EP1_Full.et" {
+ coords 1533.698 32.993 3644.462
+ angles 0 121.569 0
+ {
+  GenericEntity {
+   ID "6508BBF5E16114DD"
+   coords -4.559 2.546 6.16
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{51046BADC48B7D21}Prefabs/Structures/Bulding/HouseK/House_K_7_EP1_Full_Red.et" {
+ coords 1656.62 27.581 3665.522
+ angles 0 -70.158 0
+}
+$grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5EAEA75B0523F392}" {
+    Enabled 0
+   }
+  }
+  coords 730.631 41.846 3204.058
+  angles 11.169 -98.551 3.867
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5EAEA75B0523F392}" {
+    Enabled 0
+   }
+  }
+  coords 730.432 41.743 3205.245
+  angles 11.169 -98.551 3.867
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5EAEA75B0523F392}" {
+    Enabled 0
+   }
+  }
+  coords 730.193 41.652 3206.489
+  angles 11.323 -98.54 3.869
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5EAEA75B0523F392}" {
+    Enabled 0
+   }
+   Hierarchy "{569C80D1793EB837}" {
+    Enabled 1
+   }
+  }
+  coords 730.028 41.566 3207.684
+  angles 11.169 -98.551 3.867
+ }
+}

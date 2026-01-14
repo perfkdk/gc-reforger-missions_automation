@@ -99,6 +99,131 @@ PS_GameModeCoop GameModeLobby : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_
   }
  }
 }
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ AOLimitBlufor {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "US"
+     "CIV"
+    }
+    m_visibility FACTION
+    m_lineWidth 5
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "US"
+     "CIV"
+    }
+    m_color 0 0 0 0.513
+   }
+  }
+  coords 840.984 105.016 3410.923
+  Points {
+   ShapePoint "{685C3238BA84E183}" {
+    Position -638.242 -62.957 -192.856
+   }
+   ShapePoint "{685C323890331F35}" {
+    Position -577.52 32.284 -491.891
+   }
+   ShapePoint "{685C32388478BE6D}" {
+    Position 75.679 17.662 -407.251
+   }
+   ShapePoint "{685C32388C74EF11}" {
+    Position 264.077 70.277 -663.595
+   }
+   ShapePoint "{685C323875C8D835}" {
+    Position 379.849 43.013 -731.871
+   }
+   ShapePoint "{685C32387439790D}" {
+    Position 508.822 74.368 -711.136
+   }
+   ShapePoint "{685C323873F32EA3}" {
+    Position 600.135 96.886 -630.791
+   }
+   ShapePoint "{685C3238644DE286}" {
+    Position 529.441 30.904 -356.543
+   }
+   ShapePoint "{685C323861551187}" {
+    Position 567.086 -5.323 -296.187
+   }
+   ShapePoint "{685C32386EF6D72F}" {
+    Position 630.981 -7.584 -264.38
+   }
+   ShapePoint "{685C3238520E38A6}" {
+    Position 940.199 46.263 -264.49
+   }
+   ShapePoint "{685C32385DCA9607}" {
+    Position 961.89 -33.593 291.013
+   }
+   ShapePoint "{685C3238477B0BD9}" {
+    Position 805.027 -73.534 494.525
+   }
+  }
+ }
+ AOLimitOpfor {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "GC_INSURGENT"
+    }
+    m_visibility FACTION
+    m_lineWidth 5
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "GC_INSURGENT"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0 0 0.513
+   }
+  }
+  coords 840.984 105.016 3410.923
+  Points {
+   ShapePoint "{685C3238BA84E183}" {
+    Position -213.801 -1.784 9.208
+   }
+   ShapePoint "{685C323890331F35}" {
+    Position -116.165 -40.693 -432.109
+   }
+   ShapePoint "{685C32388478BE6D}" {
+    Position 75.679 17.662 -407.251
+   }
+   ShapePoint "{685C32388C74EF11}" {
+    Position 264.077 70.277 -663.595
+   }
+   ShapePoint "{685C323875C8D835}" {
+    Position 379.849 43.013 -731.871
+   }
+   ShapePoint "{685C32387439790D}" {
+    Position 508.822 74.368 -711.136
+   }
+   ShapePoint "{685C323873F32EA3}" {
+    Position 600.135 96.886 -630.791
+   }
+   ShapePoint "{685C3238644DE286}" {
+    Position 529.467 30.961 -356.718
+   }
+   ShapePoint "{685C323861551187}" {
+    Position 567.086 -5.323 -296.187
+   }
+   ShapePoint "{685C32386EF6D72F}" {
+    Position 630.981 -7.584 -264.38
+   }
+   ShapePoint "{685C3238520E38A6}" {
+    Position 940.199 46.263 -264.49
+   }
+   ShapePoint "{685C32385DCA9607}" {
+    Position 961.89 -33.593 291.013
+   }
+   ShapePoint "{685C3238477B0BD9}" {
+    Position 805.027 -73.534 494.525
+   }
+  }
+ }
+}
 TILW_MissionFrameworkEntity TILW_MissionFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 10573.509 198.792 10719.378
  angles -0.568 -0.014 1.421

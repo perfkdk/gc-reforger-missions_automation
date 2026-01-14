@@ -1,0 +1,32 @@
+$grp Vehicle : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et" {
+ CivGroupCar2 {
+  components {
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_VariantData SCR_EditableEntityVariantData "{610A88920914827A}" {
+    }
+   }
+  }
+  coords 1022.738 37.279 3249.093
+  angles -9.004 -38.986 1.57
+ }
+ CivGroupCar4 {
+  components {
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_VariantData SCR_EditableEntityVariantData "{610A88920914827A}" {
+    }
+   }
+  }
+  coords 527.186 42.385 3281.074
+  angles -6.032 -14.31 5.197
+ }
+}
+$grp Vehicle : "{57A441224AC02CF3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_Randomized.et" {
+ CivGroupCar1 {
+  coords 665.071 38.846 3272.841
+  angles -1.411 -127.972 1.101
+ }
+ CivGroupCar3 {
+  coords 798.455 32.638 3274.439
+  angles 5.354 -89.873 0.903
+ }
+}
