@@ -17,6 +17,18 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  }
  coords 3052.448 10 3058.805
  m_denyJIPTime 600
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{607AA5C7A94496DA}" {
+     m_aFriendlyFactionsIds +{
+      "GC_MUJ"
+     }
+    }
+   }
+  }
+ }
 }
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  AO_Limit_US {
@@ -251,7 +263,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   }
  }
  m_metaFlags {
-   TILW_MetaFlag "{6848C8CF4F2F6271}" {
+  TILW_MetaFlag "{6848C8CF4F2F6271}" {
    m_flagName "SpawnOne"
    m_definition TILW_DisjunctionTerm "{6848C8CF420FDEBA}" {
     m_operands {
