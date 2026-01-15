@@ -43,7 +43,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>Game Mastering</h2>"\
   "This mission is designed for game mastering from the lobby, but besides that should only be manipulated for technical, administrative or diagnostic purposes."\
   ""\
-  "<b>GAME MASTERS CHOOSES:</b>"\
+  "GAMEMASTERS! USE PRECISE TIMES OR I WILL HAUNT THE SHIT OUT OF YOU."\
+  ""\
+  "<b>ATTACKERS CHOOSES TIME:</b>"\
+  "Weather: "\
+  "- 0515z | Dawn"\
+  "- 1200z | Day"\
+  "- 2030z | Dusk"\
+  "- 2130z | Very early night, Fairly bright, dependent on weather picked"\
+  ""\
+  "<b>DEFENDERS CHOOSES WEATHER:</b>"\
   "Weather: "\
   "- Clear"\
   "- Cloudy"\

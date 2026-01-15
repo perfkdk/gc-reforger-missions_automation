@@ -7,7 +7,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>II. Callsigns:</b>"\
   "Company HQ ------------------------------ 340 (Radio)"\
-  "Forward Air Support Liaisons ----- KAMENKA"\
   ""\
   "1st Platoon HQ --------------------------- 341 (HQ)"\
   "1st Rifle Squad --------------------------- 341"\
@@ -81,6 +80,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>b. Higher Units Mission:</b>"\
   "Company has been tasked with conducting an incursion on a known Canadian Platoon, whose likely acting as flank security for their battalion / company."\
+  ""\
+  "A Recon element consisting of 2x BRDMs and 1x BMP-1 has been sent forward earlier to get a better information regarding the battalion, although we've lost all contact with them for the last few hours."\
   ""\
   "<b>c. Composition:</b>"\
   "1x BMP Company (-)"\
@@ -167,7 +168,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Morphine: Every soldier carries 1+ stick of morphine."\
   ""\
   "<b>d. Vehicles:</b>"\
-  "7x BMP-1s"
+  "7x BMP-1s"\
+  "Each BMP can carry 8x Troops + 3x Crew"
   m_aVisibleForFactions {
    "USSR"
   }

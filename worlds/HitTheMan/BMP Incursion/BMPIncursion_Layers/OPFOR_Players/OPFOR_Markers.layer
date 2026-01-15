@@ -6,7 +6,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "coy_hq"
-  m_fWorldSize 40
+  m_fWorldSize 60
   m_sDescription "340"
   m_aVisibleForFactions {
    "USSR"
@@ -20,7 +20,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_MarkerColor 0 0.125 0.502 1
   m_sQuadName "plt_hq"
-  m_fWorldSize 40
+  m_fWorldSize 60
   m_aVisibleForFactions {
    "USSR"
   }
@@ -33,7 +33,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "plt_hq"
-  m_fWorldSize 40
+  m_fWorldSize 60
   m_sDescription "344 (HQ)"
   m_aVisibleForFactions {
    "USSR"
@@ -47,7 +47,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "plt_hq"
-  m_fWorldSize 40
+  m_fWorldSize 60
   m_sDescription "341 (HQ)"
   m_aVisibleForFactions {
    "USSR"
