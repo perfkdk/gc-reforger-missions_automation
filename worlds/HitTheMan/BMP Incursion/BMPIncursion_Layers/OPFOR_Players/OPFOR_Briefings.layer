@@ -108,7 +108,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2583.295 24.201 5434.933
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Secure the Bridge and their Campsite as marked on map, to threaten their Battalion, hopefully forcing them to fall back."
+  "Secure the Bridge at 060 069 and their Campsite at 055 068 as marked on map, to threaten their Battalion, hopefully forcing them to fall back."
   m_aVisibleForFactions {
    "USSR"
   }
