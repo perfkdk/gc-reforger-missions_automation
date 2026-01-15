@@ -358,7 +358,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_lineWidth 1
    }
   }
-  coords 1563.555 25.442 3636.697
+  coords 1617.654 25.442 3629.214
   scale 1.65
   Points {
    ShapePoint "{66BC00EC00D6DEB5}" {
@@ -722,7 +722,7 @@ $grp PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_O
   }
  }
  AzhdarLakeText {
-  coords 1622.947 26.604 3645.603
+  coords 1677.046 26.604 3638.12
   angles 0 0 0
   m_MarkerColor 0 0 0 0
   m_sQuadName "circle"
@@ -790,7 +790,7 @@ $grp PS_ManualMarker : "{BC5F78D7A380E856}PrefabsEditable/Markers/Group/Marker_G
   m_bShowForAnyFaction 0
  }
  SpawnMarkerCiv2 {
-  coords 1021.668 37.796 3245.984
+  coords 1172.341 73.134 2930.899
   angles 0 90 0
   m_sImageSet "{D7E06968B5F9FC92}UI/Textures/GroupManagement/FlagIcons/GroupFlagsCivilian.imageset"
   m_sImageSetGlow "{824ADD5E7A28B03E}UI/Textures/GroupManagement/FlagIcons/GroupFlagsCivilian-outline.imageset"

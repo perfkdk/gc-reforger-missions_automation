@@ -24,7 +24,7 @@ $grp SCR_AIGroup : "{2F2E162C9B835EFB}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
     DefaultFormation "file"
    }
    PS_GroupCallsignAssigner "{66B97548B920A1BC}" {
-    m_iSquadCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 992.73 32 3273.437

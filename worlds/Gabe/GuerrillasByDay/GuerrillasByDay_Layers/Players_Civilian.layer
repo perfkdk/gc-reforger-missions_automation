@@ -19,9 +19,12 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
+   PS_GroupCallsignAssigner "{6664B57E9D08CD4F}" {
+    m_iSquadCallsign 1
+   }
   }
-  coords 1018.834 39.026 3248.528
-  angles 0 52.032 0
+  coords 1170.515 73.307 2932.936
+  angles -4.195 127.573 -7.684
   m_aUnitPrefabSlots {
    "{9A3544B00CB35FA2}Prefabs/Characters/Factions/CIV/Afghan/P/Civ_3_P.et"
    "{6E3D0328016E37D6}Prefabs/Characters/Factions/CIV/Afghan/P/Civ_2_P.et"
@@ -33,6 +36,9 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{6664B57E9D08CD4F}" {
+    m_iSquadCallsign 2
    }
   }
   coords 798.596 32.651 3269.592
@@ -48,6 +54,9 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{6664B57E9D08CD4F}" {
+    m_iSquadCallsign 3
    }
   }
   coords 530.759 42.755 3278.681

@@ -6,8 +6,8 @@ $grp Vehicle : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.
     }
    }
   }
-  coords 1022.738 37.279 3249.093
-  angles -9.004 -38.986 1.57
+  coords 1175.438 73.094 2929.916
+  angles 0 40.28 0
  }
  CivGroupCar4 {
   components {
