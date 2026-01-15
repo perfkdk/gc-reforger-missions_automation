@@ -55,7 +55,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "Protect our Battalion Flank and ensuring we do not lose out positions."\
+  "Protect our Battalion Flank and ensuring we do not lose our positions."\
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Platoon Commander's Discretion."\
@@ -114,7 +114,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "B. Friendly Forces:"
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
-  "Our Battalion is located to the S-W, we're spread out fairly wide to be able to locate any potential hositle movement while also maintaining security."\
+  "Our Battalion is located to the S-W, we're spread out fairly wide to be able to locate any potential hostile movement while also maintaining security."\
   ""\
   "<b>b. Higher Units Mission:</b>"\
   "Battalion has been tasked with locating any potential soviet build up before consolidating into a defensive line."\
@@ -146,7 +146,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>II: Mission</h2>"\
   "Prevent the loss of our forward positions that is the Bridge & Campsite."\
   ""\
-  "We have 1000x Sandbags + 10x Backpacks in a crate near us to be able to setup out forward positions."\
+  "We have 1000x Sandbags + 10x Backpacks in a crate near us to be able to set up our forward positions."\
   ""\
   "Be wary of the BMP-1's HEFRAG rounds"
   m_aVisibleForFactions {

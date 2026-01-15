@@ -21,7 +21,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- - - Vehicle Callsigns when Infantry dismounted:"\
   "340v - Victor"\
   "341v - Victor"\
-  "342v - Victror"\
+  "342v - Victor"\
   "Etc."\
   ""\
   "<b>III. Frequencies:</b>"\
@@ -44,7 +44,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1x Rifle Platoon (-)"\
   ""\
   "<b>Location:</b>"\
-  "West of out position in a rough spread out fashion (marked on map)"\
+  "West of our position in a rough spread out fashion (marked on map)"\
   ""\
   "<b>Capabilities:</b>"\
   "Heavy AT."\
@@ -76,7 +76,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "B. Friendly Forces:"
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
-  "West of the objective as marked on map."\
+  "East of the objective as marked on map."\
   ""\
   "<b>b. Higher Units Mission:</b>"\
   "Company has been tasked with conducting an incursion on a known Canadian Platoon, whose likely acting as flank security for their battalion / company."\
@@ -108,7 +108,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2583.295 24.201 5434.933
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Secure the Bridge and their Campsite as marked on map, to threathen their Battalion hopefully forcing them to fall back."
+  "Secure the Bridge and their Campsite as marked on map, to threaten their Battalion, hopefully forcing them to fall back."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -127,7 +127,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>2. Maneuver</b>"\
   "Company Commander's Discretion."\
-  "It is advised to NOT split up the Platoons to assault seperatly, its highly advised to keep the company together so they can mutually support one another and show the canadians true firepower."
+  "It is advised to NOT split up the Platoons to assault separately. It is highly advised to keep the company together so they can mutually support one another and show the Canadians true firepower."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -146,7 +146,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Ammunition: Each man carries his own ammunition."\
   "IPE: Helmets and body armour are to be worn at all times."\
   ""\
-  "Each Mi-8 Carries"\
+  "Each BMP Carries"\
   "- 8x Bandages"\
   "- 4x tourniquets"\
   "- 4x Morphine"\

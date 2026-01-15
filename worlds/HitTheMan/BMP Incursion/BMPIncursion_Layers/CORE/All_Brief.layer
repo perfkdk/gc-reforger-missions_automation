@@ -8,7 +8,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Weather - Defenders Choose"\
   ""\
   "<b>Situation:</b>"\
-  "Soviet BMP Company (-) is conducting a incursion onto a Canadian Platoon (-) whose been camping and maintaining security for their Battalion's left flank, with the intended goal to secure the bridge and campsite located further in."
+  "Soviet BMP Company (-) is conducting an incursion onto a Canadian Platoon (-) who have been camping and maintaining security for their Battalion's left flank, with the intended goal to secure the bridge and campsite located further in."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 1
