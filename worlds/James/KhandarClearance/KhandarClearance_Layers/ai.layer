@@ -286,7 +286,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  }
  {
   coords 1260.661 55 3270.756
-  m_prefab "{297333D99B816CC9}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_MG_P.et"
+  m_prefab "{776A0E35AF7C62AE}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_MG.et"
   m_waypointNames {
    "defwest"
   }
