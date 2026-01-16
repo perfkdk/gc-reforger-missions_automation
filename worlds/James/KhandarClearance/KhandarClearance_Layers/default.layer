@@ -278,10 +278,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{6860BC572DAF0052}" {
    m_name "Artillery"
    m_instructions {
-    TILW_SetFlagInstruction "{6860BC5777C1EAED}" {
-     m_executionDelay 15
-     m_flagName "arty"
-    }
     TILW_SendMessageInstruction "{6860BC54A04AC238}" {
      m_executionDelay 300
      m_messageTitle "Fire Mission"
