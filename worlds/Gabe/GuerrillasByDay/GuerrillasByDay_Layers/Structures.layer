@@ -62,10 +62,10 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
-    m_color 0.456 0.456 0.456 1
+    m_color 0.604 0.491 0.279 1
     m_invert 0
     m_drawLine 1
-    m_lineColor 0.191 0.191 0.191 1
+    m_lineColor 0.445 0.342 0.127 1
     m_lineWidth 1
    }
   }
