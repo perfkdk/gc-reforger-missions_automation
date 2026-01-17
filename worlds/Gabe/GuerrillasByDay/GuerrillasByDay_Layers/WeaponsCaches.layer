@@ -208,6 +208,7 @@ $grp GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/Ammo
       NumSlots 5
      }
     }
+    m_fMaxWeight 1000
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
     Enabled 1

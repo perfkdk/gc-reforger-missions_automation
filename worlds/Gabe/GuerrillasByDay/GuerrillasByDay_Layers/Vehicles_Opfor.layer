@@ -16,7 +16,7 @@ Vehicle UAZ469_covered_CIV_Randomized1 : "{57A441224AC02CF3}Prefabs/Vehicles/Whe
  coords 999.982 33.332 3261.413
  angles -6.991 -134.37 5.561
 }
-Vehicle S105_VIED1 : "{E7400CE43119FF91}Prefabs/Vehicles/Wheeled/S105/S105_VIED.et" {
- coords 984.962 32.017 3258.916
- angles 0 64.847 0
+Vehicle S1203_VIED1 : "{DD988F50099DD689}Prefabs/Vehicles/Wheeled/S1203/S1203_VIED.et" {
+ coords 985.189 32.019 3260.245
+ angles 0.811 64.993 -0.378
 }

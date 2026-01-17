@@ -11,7 +11,7 @@ $grp SCR_AIGroup : "{2F2E162C9B835EFB}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
   coords 988.889 32 3270.241
   angles 0 138.168 0
   m_aUnitPrefabSlots {
-   "{D1696C499D352CFB}worlds/Gabe/Prefabs/Opfor/GC_INSURGENT/AfghanInsurgents_Gabe_P/Character_GC_INS_Afghan_SL_Gabe_P.et"
+   "{07D5D6C13F2065B1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_SL_P.et"
    "{3774124C219B12FA}worlds/Gabe/Prefabs/Opfor/GC_INSURGENT/AfghanInsurgents_Gabe_P/Character_GC_INS_Afghan_AT_Gabe_P.et"
    "{738ACBD23711C88A}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_Enfield_2_P.et"
    "{00F632BEF6E971C1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_P.et"
@@ -30,7 +30,7 @@ $grp SCR_AIGroup : "{2F2E162C9B835EFB}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
   coords 992.73 32 3273.437
   angles 0 138.181 0
   m_aUnitPrefabSlots {
-   "{D1696C499D352CFB}worlds/Gabe/Prefabs/Opfor/GC_INSURGENT/AfghanInsurgents_Gabe_P/Character_GC_INS_Afghan_SL_Gabe_P.et"
+   "{07D5D6C13F2065B1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_SL_P.et"
    "{3774124C219B12FA}worlds/Gabe/Prefabs/Opfor/GC_INSURGENT/AfghanInsurgents_Gabe_P/Character_GC_INS_Afghan_AT_Gabe_P.et"
    "{738ACBD23711C88A}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_Enfield_2_P.et"
    "{00F632BEF6E971C1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_P.et"

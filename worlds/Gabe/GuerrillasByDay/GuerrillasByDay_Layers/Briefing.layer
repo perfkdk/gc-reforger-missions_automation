@@ -133,7 +133,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  opfor6ammocacheinfo {
   coords 1307.074 7.039 3244.448
   m_sTitle "Ammo and Cache Information"
-  m_sTextData "Up to 2x cells plus an HQ section of up to 4-6 men each. Soviet-era small arms. RPGs, other AK variants, bolt-action rifles, and a medic. We have 1x PKM gun and 1x VBIED, to be used by the sapper (if slotted) or anyone able and willing."\
+  m_sTextData "Up to 2x cells plus an HQ section of up to 4-6 men each. Soviet-era small arms. RPGs, other AK variants, bolt-action rifles, and a medic. We have 1x PKM gun and 1x VBIED."\
   ""\
   "AMMO BOX AT SPAWN WITH 5x radios. Use them however you'd like."\
   ""\
@@ -183,9 +183,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  opfor4execution {
   coords 3498.168 134.538 4440.773
   m_sTitle "Execution"
-  m_sTextData "The infidels have strict rules and will not shoot us if we look like the civilians. Occupy objective areas or surrounding area in order to engage and delay the enemy US forces."\
+  m_sTextData "The infidels have strict rules and will not shoot us if we look like the civilians. Occupy objective areas or surrounding areas in order to engage and delay the enemy US forces."\
   ""\
-  "It is recommended that we try to carry as much of our inventory in our shirts and pants to avoid using tactical vests where able in case we need to drop our gear/weapons and fall back. "\
+  "It is recommended that we try to carry as much of our inventory as possible in our shirts and pants to avoid using tactical vests where able in case we need to drop our gear/weapons and fall back. "\
   ""\
   "We can simply pretend to be part of the civilian population, fall back to one of our caches (marked on the map), and re-engage them."\
   ""\
