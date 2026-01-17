@@ -131,9 +131,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  ALL_First_Tab_overview {
   coords 2098.159 1.336 3117.191
   m_sTitle "Overview"
-  m_sTextData "Summer of 2012: Reduced strength US Army platoon engages 5x insurgent cells in the outskirts of Zavarak, Takistan. Both teams fight to capture an area for a designated amount of time."\
+  m_sTextData "Late 2003, early operations in the Pech River Valley, Kunar Province, Afghanistan. US Army conducts sweeps through the valley, seeking weapons caches and establishing a presence to disrupt insurgent networks."\
   ""\
-  "Mission AO/concept based on the legacy UO ArmA 2 mission of the same name by Synxe"\
+  "Special thanks to Haesten for his service and for assisting me to make the unit loadouts in this mission as accurate as possible, within reason, based on his own experiences/deployments."\
   ""\
   "Mission created by Gabe"\
   ""\
@@ -143,12 +143,23 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  ALL_Last_Tab_endconditions {
   coords 2038.82 18.284 3340.131
-  m_sTitle "End Conditions"
-  m_sTextData "Occupy the marked objective area for 10 mins before your opponent can do the same. If you stop capturing, you will start losing capture time. You must make up a simple majority of the objective capture zone to be considered in control and acquire capture time."\
+  m_sTitle "Notes & End Conditions (MUST READ)"
+  m_sTextData "Insurgents can drop their gear and retreat further back into the AO without being killed. US MUST NOT metagame and kill an unarmed insurgent just because they know which person it is and they know said person is on the enemy team. "\
   ""\
-  "Either side takes 90% casualties"\
+  "GMs should revive insurgents who get executed for no good reason. Attempting to retreat with a weapon in your hand or while wearing a tactical vest IS good reason to be killed, for example, but an insurgent who drops their gun and tactical vest should be assumed to be a civilian. "\
   ""\
-  "Time limit is reached (60 minutes)"
+  "Civilians wear rucksacks sometimes - a ruck is not an indication of being a combatant."\
+  ""\
+  "The US Army must successfully sweep and clear at least 4 of the 6 objective areas of insurgents within 60 minutes (excluding 5 minute setup timer). "\
+  ""\
+  "US Army loses if:"\
+  "     - They take 75% casualties"\
+  "     - They kill 80% of the player civilians"\
+  "     - They fail to complete the objective in time"\
+  ""\
+  "Insurgents lose if:"\
+  "     - They take 90% casualties"\
+  "     - US Army completes their objective in time"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 8

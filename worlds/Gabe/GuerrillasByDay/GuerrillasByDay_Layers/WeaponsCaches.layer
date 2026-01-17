@@ -1,0 +1,43 @@
+GenericEntity : "{0150701FD7034232}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_USSR_NoAffiliation.et" {
+ components {
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "GC_INSURGENT"
+  }
+  UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6860257D45C1AE12}" {
+     SlotTemplate InventoryStorageSlot Weapons {
+      Prefab "{43497A18DD888667}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_base.et"
+     }
+     NumSlots 14
+    }
+    MultiSlotConfiguration "{6860257D4584E430}" {
+     SlotTemplate InventoryStorageSlot Magazines {
+      Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{6860257D446CEF5E}" {
+     SlotTemplate InventoryStorageSlot mags762 {
+      Prefab "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{6860257D44278787}" {
+     SlotTemplate InventoryStorageSlot ak762 {
+      Prefab "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{6860257D441AA32C}" {
+     SlotTemplate InventoryStorageSlot Grenades {
+      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+ }
+ coords 1194.648 55.031 3280.692
+ angles 0 23.435 0
+}

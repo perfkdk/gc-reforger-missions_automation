@@ -1,8 +1,8 @@
 SCR_AIWorld : "{0CB65E4CC0AFBCC0}Prefabs/SCR_AIWorld_Kunar.et" {
- coords 779.772 45.125 3330.669
+ coords 690.737 47.637 3112.802
 }
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 10560.724 205.778 10691.135
+ coords 680.361 94.777 3414.728
 }
 PS_GameModeCoop GameModeLobby : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
@@ -34,7 +34,7 @@ PS_GameModeCoop GameModeLobby : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_
    m_fWind 8
   }
  }
- coords 10570.682 204.87 10699.063
+ coords 600.144 126.739 3414.728
  m_iReconnectTime 180000
  m_iFreezeTime 300000
  {
@@ -293,7 +293,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  }
 }
 TILW_MissionFrameworkEntity TILW_MissionFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
- coords 10573.509 198.792 10719.378
+ coords 721.417 91.903 3415.203
  angles -0.568 -0.014 1.421
  m_missionEvents {
   TILW_MissionEvent "{685E0791FDBEAD40}" {
@@ -370,10 +370,13 @@ TILW_MissionFrameworkEntity TILW_MissionFramework : "{8F846D0FD5D6EA51}Prefabs/M
   TILW_MissionEvent "{685E07A434F95793}" {
    m_name "CIV Deaths"
    m_instructions {
-    TILW_SpawnGroupInstruction "{685E07A42F32126E}" {
+    TILW_SendMessageInstruction "{686013024A536EF5}" {
+     m_messageTitle "Too many civilians have perished"
+     m_messageBody "Way to win those hearts and minds, gents... US ARMY TACTICAL FAILURE!"
     }
    }
-   m_condition TILW_LiteralTerm "{685E07A42B07C45D}" {
+   m_condition TILW_LiteralTerm "{6860130255043A1F}" {
+    m_flagName "Blufor Punishment Flag"
    }
   }
  }
@@ -386,7 +389,7 @@ TILW_MissionFrameworkEntity TILW_MissionFramework : "{8F846D0FD5D6EA51}Prefabs/M
   TILW_FactionPlayersKilledFlag "{685E07A75F52FAFD}" {
    m_flagName "Blufor Punishment Flag"
    m_factionKey "CIV"
-   m_casualtyRatio 0.5
+   m_casualtyRatio 0.8
   }
   TILW_FactionPlayersKilledFlag "{66B9754B77A972E4}" {
    m_flagName "Opfor Victory Flag"
