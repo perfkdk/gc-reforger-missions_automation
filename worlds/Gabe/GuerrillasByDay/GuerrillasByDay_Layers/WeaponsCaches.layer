@@ -203,7 +203,7 @@ $grp GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/Ammo
     MultiSlots {
      MultiSlotConfiguration "{68620AB198392193}" {
       SlotTemplate InventoryStorageSlot Weapons {
-       Prefab "{19D74C99726B69F3}Prefabs/Items/Equipment/Radios/Separatist/Radio_R148_Seperatist.et"
+       Prefab "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/RU/Radio_R148.et"
       }
       NumSlots 5
      }
@@ -214,7 +214,7 @@ $grp GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/Ammo
     Enabled 1
    }
   }
-  coords 991.655 32.019 3266.395
+  coords 991.852 32.022 3266.426
   angles -1.265 -42.659 -0.052
  }
 }
