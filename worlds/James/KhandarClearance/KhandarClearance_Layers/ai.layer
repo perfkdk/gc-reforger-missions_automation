@@ -1,6 +1,16 @@
 $grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
  {
   components {
+   SCR_UniversalInventoryStorageComponent "{5C9ADB83B35D0AF4}" {
+    InitialStorageSlots {
+     InventoryStorageSlot mag3 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+     InventoryStorageSlot mag4 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+    }
+   }
    TILW_VehicleCrewComponent "{6860BC70EC018322}" {
     m_crewConfig TILW_CrewConfig "{6860BC70EDBF8E16}" {
      m_crewGroups {
@@ -23,6 +33,16 @@ $grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Tur
  }
  {
   components {
+   SCR_UniversalInventoryStorageComponent "{5C9ADB83B35D0AF4}" {
+    InitialStorageSlots {
+     InventoryStorageSlot mag3 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+     InventoryStorageSlot mag4 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+    }
+   }
    TILW_VehicleCrewComponent "{6860BC7098940BD0}" {
     m_crewConfig TILW_CrewConfig "{6860BC70982F8460}" {
      m_crewGroups {
@@ -45,6 +65,16 @@ $grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Tur
  }
  {
   components {
+   SCR_UniversalInventoryStorageComponent "{5C9ADB83B35D0AF4}" {
+    InitialStorageSlots {
+     InventoryStorageSlot mag3 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+     InventoryStorageSlot mag4 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+    }
+   }
    TILW_VehicleCrewComponent "{6860BC70F4C18E41}" {
     m_crewConfig TILW_CrewConfig "{6860BC70F46C3725}" {
      m_crewGroups {
@@ -67,6 +97,16 @@ $grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Tur
  }
  {
   components {
+   SCR_UniversalInventoryStorageComponent "{5C9ADB83B35D0AF4}" {
+    InitialStorageSlots {
+     InventoryStorageSlot mag3 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+     InventoryStorageSlot mag4 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+    }
+   }
    TILW_VehicleCrewComponent "{6860BC7098940BD0}" {
     m_crewConfig TILW_CrewConfig "{6860BC70982F8460}" {
      m_crewGroups {
