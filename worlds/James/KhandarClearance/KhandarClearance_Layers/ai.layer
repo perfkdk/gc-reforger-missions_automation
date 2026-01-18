@@ -127,6 +127,38 @@ $grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Tur
   coords 1263.784 59.407 3251.532
   angles 0 111 0
  }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5C9ADB83B35D0AF4}" {
+    InitialStorageSlots {
+     InventoryStorageSlot mag3 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+     InventoryStorageSlot mag4 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+    }
+   }
+   TILW_VehicleCrewComponent "{6860BC7098940BD0}" {
+    m_crewConfig TILW_CrewConfig "{6860BC70982F8460}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6596800676E9D510}" {
+       m_crewStations {
+        TILW_CrewStation "{659680067864D3B3}" {
+         m_allowPilot 0
+         m_characters {
+          "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 1362.561 66.703 3278.787
+  angles -13.587 21.144 0
+ }
 }
 $grp SCR_EntityWaypoint : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et" {
  atk1 {
@@ -241,8 +273,8 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  {
-  coords 1376.339 69.437 3262.514
-  angles 0 17 0
+  coords 1374.509 69.437 3264.546
+  angles 0 34 0
   m_prefab "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et"
   m_conditionFlag "hill"
   m_spawnTimings {
@@ -325,7 +357,8 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  {
-  coords 1458.191 101.574 3064.288
+  coords 1459.925 101.721 3065.404
+  angles 0 24 0
   m_prefab "{25669906D0128E09}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Assault.et"
   m_conditionFlag "hill"
   m_spawnTimings {
@@ -520,6 +553,11 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    "top"
   }
  }
+}
+SCR_IndestructibleEnvironmentalEntity : "{83CCFE4065C11827}Prefabs/Structures/Rock/Afghan_Rock/GraniteCliff_Afghan_02.et" {
+ coords 1367.19 62.447 3281.777
+ angles -78.426 -140.66 -48.933
+ scale 1.307
 }
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  {
@@ -840,6 +878,94 @@ $grp SCR_AIGroup : "{E4E18A3415AA82AA}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_PHQ
  {
   coords 1265.492 59.364 3254.28
   angles 0 103 0
+  m_aUnitPrefabSlots {
+   "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  coords 1390.288 70.592 3244.983
+  angles 0 153 0
+  m_aUnitPrefabSlots {
+   "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  coords 1385.353 70.592 3244.226
+  angles 0 178 0
+  m_aUnitPrefabSlots {
+   "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  coords 1385.552 70.592 3247.922
+  angles 0 -29 0
+  m_aUnitPrefabSlots {
+   "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  coords 1387.054 72.789 3278.318
+  angles 0 20 0
+  m_aUnitPrefabSlots {
+   "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  coords 1390.392 72.789 3273.921
+  angles 0 178 0
+  m_aUnitPrefabSlots {
+   "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  coords 1390.288 69.701 3273.811
+  angles 0 178 0
+  m_aUnitPrefabSlots {
+   "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  coords 1376.979 69.711 3269.568
+  angles 0 178 0
+  m_aUnitPrefabSlots {
+   "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  coords 1378.871 72.769 3271.741
+  angles 0 -116 0
+  m_aUnitPrefabSlots {
+   "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  coords 1381.485 75.753 3271.462
+  angles 0 -135 0
+  m_aUnitPrefabSlots {
+   "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  coords 1377.828 75.674 3276.362
+  angles 0 25 0
+  m_aUnitPrefabSlots {
+   "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  coords 1378.069 72.789 3276.633
+  angles 0 27 0
   m_aUnitPrefabSlots {
    "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
   }
