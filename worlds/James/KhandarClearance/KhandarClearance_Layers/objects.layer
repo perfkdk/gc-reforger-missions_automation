@@ -61,6 +61,11 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{83CCFE4065C11827}Prefabs/Structur
   angles 21.981 -74.553 0
   scale 1.307
  }
+ {
+  coords 1367.19 62.447 3281.777
+  angles -78.426 -140.66 -48.933
+  scale 1.307
+ }
 }
 $grp GenericEntity : "{DE658AC78172D02E}Prefabs/Props/Construction/GarbageStack_01/GarbageStack_01_Short.et" {
  {
