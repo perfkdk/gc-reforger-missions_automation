@@ -156,8 +156,40 @@ $grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Tur
     }
    }
   }
-  coords 1362.561 66.703 3278.787
-  angles -13.587 21.144 0
+  coords 1428.474 45.145 3314.198
+  angles -3.965 56.416 -2.8
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5C9ADB83B35D0AF4}" {
+    InitialStorageSlots {
+     InventoryStorageSlot mag3 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+     InventoryStorageSlot mag4 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+    }
+   }
+   TILW_VehicleCrewComponent "{6860BC70F4C18E41}" {
+    m_crewConfig TILW_CrewConfig "{6860BC70F46C3725}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6596800676E9D510}" {
+       m_crewStations {
+        TILW_CrewStation "{659680067864D3B3}" {
+         m_allowPilot 0
+         m_characters {
+          "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 1500.059 40.163 3297.682
+  angles -1.513 -8.667 1.707
  }
 }
 $grp SCR_EntityWaypoint : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et" {
@@ -551,6 +583,22 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
   m_waypointNames {
    "top"
+  }
+ }
+ {
+  coords 1498.966 40.804 3327.576
+  angles 0 -50.606 0
+  m_prefab "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et"
+  m_waypointNames {
+   "defeast5"
+  }
+ }
+ {
+  coords 1368.656 69.44 3257.797
+  angles 0 -57 0
+  m_prefab "{81A45DE2A1C7C267}Prefabs/Groups/INDFOR/GC_MUJ/Group_MUJ_Mixed.et"
+  m_waypointNames {
+   "deftop6"
   }
  }
 }
@@ -1059,5 +1107,74 @@ $grp Turret : "{F12983FA2F0A61A0}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6
   }
   coords 1277.822 57.784 3263.965
   angles 0 98.967 0
+ }
+ {
+  components {
+   TILW_VehicleCrewComponent "{6860BC700389A027}" {
+    m_crewConfig TILW_CrewConfig "{6860BC70034445C4}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6596800676E9D510}" {
+       m_crewStations {
+        TILW_CrewStation "{659680067864D3B3}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 1466.349 43.902 3329.122
+  angles 0 58.102 0
+ }
+ {
+  components {
+   TILW_VehicleCrewComponent "{6860BC700389A027}" {
+    m_crewConfig TILW_CrewConfig "{6860BC70034445C4}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6596800676E9D510}" {
+       m_crewStations {
+        TILW_CrewStation "{659680067864D3B3}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 1514.958 43.619 3321.329
+  angles 0 29.923 0
+ }
+ {
+  components {
+   TILW_VehicleCrewComponent "{6860BC700389A027}" {
+    m_crewConfig TILW_CrewConfig "{6860BC70034445C4}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6596800676E9D510}" {
+       m_crewStations {
+        TILW_CrewStation "{659680067864D3B3}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{C56A48B601427AF1}Prefabs/Characters/Factions/INDFOR/GC_MUJ/Character_MUJ_Fighter.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 1448.495 34.777 3443.963
+  angles 0 72.595 0
  }
 }
