@@ -57,7 +57,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Equip missile tube in your hands. Look at rear of ATGM and interact."\
   ""\
   "Mounted:"\
-  "Look at rear of ATGM launcher and hold interact. "\
+  "Look at rear of ATGM launcher and hold interact."\
   "Mounted inf in back can reload the Bradleys if you open the hatch and angle the turret correctly."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
