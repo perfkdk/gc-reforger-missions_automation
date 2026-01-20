@@ -48,6 +48,19 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
 $grp Tank : "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et" {
  BMP1P_base1 {
   components {
+   RHS_GroupMaterialController "{68686390A098EBB2}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{68686390A1D17A63}" {
+      m_iTextureID 4
+     }
+     RHS_MaterialGroupProperties "{68686390A1EBC4E8}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{68686390A150EE71}" {
+      m_iTextureID 1
+     }
+    }
+   }
    SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
     MultiSlots {
      MultiSlotConfiguration "{685E9CEECF5EA3B4}" {
@@ -71,6 +84,19 @@ $grp Tank : "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et" {
  }
  BMP1P_base2 {
   components {
+   RHS_GroupMaterialController "{68686390A098EBB2}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{68686390A1D17A63}" {
+      m_iTextureID 4
+     }
+     RHS_MaterialGroupProperties "{68686390A1EBC4E8}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{68686390A150EE71}" {
+      m_iTextureID 2
+     }
+    }
+   }
    SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
     MultiSlots {
      MultiSlotConfiguration "{685E9CEE37C9B57A}" {
@@ -94,6 +120,19 @@ $grp Tank : "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et" {
  }
  BMP1P_base3 {
   components {
+   RHS_GroupMaterialController "{68686390A098EBB2}" {
+    m_aGroups {
+     RHS_MaterialGroupProperties "{68686390A1D17A63}" {
+      m_iTextureID 4
+     }
+     RHS_MaterialGroupProperties "{68686390A1EBC4E8}" {
+      m_iTextureID 3
+     }
+     RHS_MaterialGroupProperties "{68686390A150EE71}" {
+      m_iTextureID 3
+     }
+    }
+   }
    SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
     MultiSlots {
      MultiSlotConfiguration "{685E9CEE3B656A7C}" {
@@ -117,6 +156,21 @@ $grp Tank : "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et" {
  }
 }
 Tank T72B_base1 : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
+ components {
+  RHS_GroupMaterialController "{686863902FC16A1D}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{686863902F6ACF37}" {
+     m_iTextureID 5
+    }
+    RHS_MaterialGroupProperties "{6868639030BA1E45}" {
+     m_iTextureID 5
+    }
+    RHS_MaterialGroupProperties "{6868639030E58630}" {
+     m_iTextureID 3
+    }
+   }
+  }
+ }
  coords 6070.429 56.688 7455.184
  angles 0 -102 0
  m_sAttachmentGroupName "red_tank"
