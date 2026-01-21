@@ -1,13 +1,3 @@
-$grp GenericEntity : "{1845D7099C6F1323}Prefabs/Weapons/Tripods/9M133_Kornet/Pod_9M133_Kornet.et" {
- {
-  coords 5929.159 56.106 7355.808
-  angles 0 -96.186 0
- }
- {
-  coords 5929.118 55.938 7355.765
-  angles 0 -96.571 0
- }
-}
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  {
   coords 6175.437 56.321 7385.069
@@ -32,7 +22,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Orders"
   m_sTextData "Defend the farmstead at Kelloja. Prevent US mech platoon from taking the marked area."\
   ""\
-  "You have additional AT in your vehicles and a pre-placed ATGM position with 3x missiles SW side of Kelloja (marked on map)."\
+  "You have additional ammo and AT in your vehicles."\
   ""\
   "Platoon net 42MHz."\
   "1st BMP - 431"\
@@ -74,6 +64,14 @@ $grp Tank : "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et" {
        Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
       }
       NumSlots 3
+     }
+     MultiSlotConfiguration "{686A25CFFA8A3CE0}" {
+      SlotTemplate InventoryStorageSlot at14 {
+      }
+     }
+     MultiSlotConfiguration "{686A25CFFACCC5CE}" {
+     }
+     MultiSlotConfiguration "{686A25CFFA12845B}" {
      }
     }
    }
@@ -397,20 +395,4 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "USSR"
   }
  }
- {
-  coords 5929.284 56.015 7355.042
-  angles 0 0.631 0
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "atgm"
-  m_fWorldSize 75
-  m_aVisibleForFactions {
-   "USSR"
-  }
- }
-}
-Turret : "{E8F0DA0C05A8FED4}Prefabs/Weapons/Tripods/9M133_Kornet/Tripod_9M133_Kornet.et" {
- coords 5927.87 56.084 7355.235
- angles -0.824 -86 0
 }

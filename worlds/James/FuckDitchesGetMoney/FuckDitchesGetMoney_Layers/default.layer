@@ -53,11 +53,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 4717.447 76.657 7291.186
   m_sTitle "How to use ATGMs"
-  m_sTextData "Dismounted:"\
-  "To reload, equip missile tube in your hands. Look at rear of ATGM and interact."\
-  ""\
-  "Mounted:"\
-  "All vehicles can cycle to their ATGM by pressing V."\
+  m_sTextData "All vehicles can cycle to their ATGM by pressing V."\
   ""\
   "To reload, look at rear of ATGM launcher and hold interact."\
   ""\
