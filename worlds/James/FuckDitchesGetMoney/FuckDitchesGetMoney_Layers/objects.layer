@@ -670,6 +670,11 @@ $grp StaticModelEntity : "{9C7477A3F066F74F}Prefabs/Terrain/Erosion/ErodedEmbank
   angles 0 -27.271 0
   scale 2.68
  }
+ {
+  coords 5987.173 48.909 7542.321
+  angles -4.212 -75.411 -1.489
+  scale 4.541
+ }
 }
 Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l_collision.et" {
  coords 5898.561 -0.463 7539.292
