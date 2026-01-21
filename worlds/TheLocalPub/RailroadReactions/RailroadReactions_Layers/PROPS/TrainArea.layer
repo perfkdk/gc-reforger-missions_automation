@@ -1,0 +1,112 @@
+GenericEntity : "{132BBA9E21300F34}Prefabs/Props/Wrecks/BoatWreck_01_green.et" {
+ coords 6669.613 51.134 6190.229
+ angles 0 0 0
+}
+GenericEntity : "{212D8A2CE34F802E}Prefabs/Utils/Other/TILW_DoorOpenerEntity.et" {
+ coords 6430.397 59.368 6007.69
+}
+SCR_DestructibleBuildingEntity : "{3961F81016AAE7CD}Prefabs/Structures/Infrastructure/Naval/Sheds/PierShed_01/PierShed_01.et" {
+ coords 6530.001 0.505 5988.994
+ angles 0 -71.311 0
+}
+SCR_DestructibleBuildingEntity : "{48023B0C1DCC8F0D}Prefabs/Structures/Infrastructure/Naval/Piers/PierWooden_01_10m.et" {
+ coords 6533.28 50.686 5995.386
+ angles 0 -72.012 0
+}
+GenericEntity : "{4923E218F59644B9}Prefabs/Props/Wrecks/BoatWreck_01/BoatWreck_01.et" {
+ coords 6542.182 51.373 5960.952
+}
+GenericEntity : "{7B440E48DD583399}Prefabs/Structures/Infrastructure/Bridges/PierBridge_01/PierBridge_01_Long_Wide_01.et" {
+ coords 6527.452 51.65 6006.777
+ angles 0 0 0
+}
+$grp GenericEntity : "{945F09C688613F60}Prefabs/Compositions/Misc/FreeRoamBuilding/ACE_PersonalTrench_01_small.et" {
+ {
+  coords 6361.226 58.439 5885.327
+  angles 0 135 0
+ }
+ {
+  coords 6346.681 58.312 5890.126
+  angles 0 -100.708 0
+ }
+ {
+  coords 6377.236 58.188 5913.938
+  angles 0 121.217 0
+ }
+ {
+  coords 6392.959 58.188 5941.786
+  angles 0 119.649 0
+ }
+ {
+  coords 6409.473 58.188 5969.21
+  angles 0 119.649 0
+ }
+ {
+  coords 6428.245 58.187 5997.968
+  angles 0 119.649 0
+ }
+ {
+  coords 6447.694 58.187 6032.607
+  angles 0 119.649 0
+ }
+ {
+  coords 6466.053 58.188 6060.46
+  angles 0 119.649 0
+ }
+ {
+  coords 6486.343 58.188 6092.538
+  angles 0 76.329 0
+ }
+ {
+  coords 6476.285 58.187 6097.911
+  angles 0 1.115 0
+ }
+ {
+  coords 6457.313 58.219 6065.568
+  angles 0 -55.789 0
+ }
+ {
+  coords 6440.174 58.219 6037.335
+  angles 0 -55.789 0
+ }
+ {
+  coords 6418.476 58.25 6002.988
+  angles 0 -55.789 0
+ }
+ {
+  coords 6399.733 58.25 5975.345
+  angles 0 -55.789 0
+ }
+ {
+  coords 6382.102 58.281 5949.759
+  angles 0 -55.789 0
+ }
+ {
+  coords 6363.691 58.281 5924.461
+  angles 0 -55.789 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{A4B690DEC3D39B11}Prefabs/Structures/Infrastructure/Naval/Sheds/BoatShed_01/BoatShed_01_base.et" {
+ coords 6523.695 0.735 5902.906
+ angles 0 117.97 0
+}
+SCR_DestructibleBuildingEntity : "{B3F7E2710AE7762C}Prefabs/Structures/Infrastructure/Naval/Sheds/FishermanShed_02/FishermanShed_02_V2.et" {
+ coords 6526.646 0.425 5928.767
+ angles 0 -109.275 0
+}
+SCR_DestructibleBuildingEntity : "{BACE78CFBF553B0B}Prefabs/Structures/Infrastructure/Naval/Boatsheds/Boatshed01.et" {
+ coords 6674.962 -0.428 6176.312
+ angles 0 -106.025 0
+}
+GenericEntity : "{BAE81D5C07D25D0A}PrefabsEditable/Auto/Props/Military/Training/Obstacles/E_ObstacleRamp_01_start.et" {
+ coords 6523.463 51.962 5927.279
+ angles 0 -109.811 0
+}
+GenericEntity : "{F708B6D672C79833}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Wood_Broken_01.et" {
+ coords 6536.755 51.52 6008.129
+ angles 0 -2.378 0
+}
+SCR_DestructibleBuildingEntity : "{FF39390F2D826521}Prefabs/Structures/Infrastructure/Naval/Piers/PierWooden_01_25m.et" {
+ coords 6554.059 50.712 5988.621
+ angles 0 -71.783 0
+}

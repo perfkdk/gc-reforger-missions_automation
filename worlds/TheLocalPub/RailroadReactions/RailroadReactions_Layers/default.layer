@@ -1,0 +1,35 @@
+SCR_AIWorld : "{65DEC16960498027}Prefabs/AI/SCR_AIWorld_Ruha.et" {
+ coords 3507.342 60.438 5709.875
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3531.621 61.026 5764.365
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 7
+   m_iStartingMinutes 45
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{68671A3DB4372874}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 7
+     m_iStartingMinutes 45
+    }
+   }
+   m_bRandomWeatherChanges 1
+   m_iDay 12
+   m_iMonth 7
+   m_iYear 2001
+   m_bUseSpecifiedDate 1
+   m_iSetDay 22
+   m_iSetMonth 7
+   m_iSetYear 2001
+  }
+ }
+ coords 3513.955 60.376 5711.768
+ m_iFreezeTime 300000
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3488.733 60.134 5604.707
+}

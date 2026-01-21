@@ -1,0 +1,32 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ SUM {
+  coords 3487.581 60.156 5603.973
+  m_sTitle "Summary"
+  m_sTextData "A retreating train carrying Russian troops and equipment has been ambushed by partisan forces. The tracks have been sabotaged, causing the train to derail and leaving its occupants stranded."\
+  "With resistance fighters in the area and US forces in pursuit, the remaining Russian troops must organize a hasty defense and hold their position until reinforcements can arrive."\
+  ""\
+  "|SUMMARY NOTES|"\
+  "Ratio:"\
+  "Setup timer: Blufor = 5mins. "
+  m_bEmptyFactionVisibility 1
+ }
+ MN {
+  coords 3487.581 60.156 5603.973
+  m_sTitle "Mission Notes"
+  m_sTextData "|END CONDITIONS|"\
+  "BLUFOR: Kill at least 50% of OPFOR + destroy supply cache on the train."\
+  "OR"\
+  "Kill 95% of OPFOR"\
+  ""\
+  "|MISC|"\
+  "Ratio:"\
+  "Setup timer: Blufor = 5mins."\
+  "Timelimit: 30mins + 5mins for setup timer."\
+  ""\
+  "Mission made by TheLocalPub."\
+  "Please use the #feedback channel on Discord to log issues, suggestions, reports. "
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 10
+ }
+}
