@@ -6,8 +6,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "With resistance fighters in the area and US forces in pursuit, the remaining Russian troops must organize a hasty defense and hold their position until reinforcements can arrive."\
   ""\
   "|SUMMARY NOTES|"\
-  "Ratio:"\
-  "Setup timer: Blufor = 5mins. "
+  "Setup timer: Blufor = 6mins. "
   m_bEmptyFactionVisibility 1
  }
  MN {
@@ -18,10 +17,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "OR"\
   "Kill 95% of OPFOR"\
   ""\
+  "OPFOR:"\
+  "Kill 75% of BLUFOR causing them to become combat ineffective and withdraw."\
+  ""\
   "|MISC|"\
-  "Ratio:"\
-  "Setup timer: Blufor = 5mins."\
-  "Timelimit: 30mins + 5mins for setup timer."\
+  "Setup timer: Blufor = 6mins."\
   ""\
   "Mission made by TheLocalPub."\
   "Please use the #feedback channel on Discord to log issues, suggestions, reports. "

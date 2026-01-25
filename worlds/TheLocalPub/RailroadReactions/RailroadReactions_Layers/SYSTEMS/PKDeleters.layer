@@ -52,6 +52,15 @@ $grp PK_EntityDeleter {
    "{2B532EC12F7FB1DE}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_3s.et"
    "{98DFD56865780E5B}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_3f.et"
    "{616D6371AEB1D799}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_2t.et"
+   "{8B3736CD82DEFF16}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abies_3d_fallen.et"
+  }
+ }
+ {
+  coords 6472.079 58.721 6065.515
+  m_fRadius 2
+  m_prefabFilterList {
+   "{BA785041AC632123}Prefabs/Vegetation/Bush/b_salix_cinerea_1_collision.et"
+   "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l_collision.et"
   }
  }
 }

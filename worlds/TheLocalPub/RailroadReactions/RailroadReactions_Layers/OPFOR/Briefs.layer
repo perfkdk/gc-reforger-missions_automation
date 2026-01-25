@@ -49,6 +49,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "We are the reamining 24x Russian troops of the train derailment. Part of the 275th Motor Rifle Regiment travelling by train on the retreat before our railway was sabotaged causing us to derail."\
   "We are located at GRID: 064059"\
   ""\
+  "Our nearest friendly unit is the 278th Guards Motor Rifle Regiment, south of us 5km. They've dispatched a company to rescue us, ETA 30-40mins."\
+  ""\
   "|STRENGTHS, CAPABILITIES, LIMITATIONS|"\
   "• Our train is armed and uparmoured."\
   "At either end of the train is a mounted ZU-23, throughout the train within the carriages or on top, we can find fighting positions that also have mounted machine guns."\
@@ -60,8 +62,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "There are also buildings within close proximity to the train which would be a good area to fight a delay from."\
   ""\
   "|SERVICE & SUPPORT|"\
-  "• We were carrying supplies on the train before the crash. They've  been strewn all over the place. Check the boxes and recover what we can. "\
-  "Hopefully the crew served weapons are okay, these are vital to our defence."
+  "• We were carrying supplies on the train. They've been strewn over the place thanks to the crash. Check the boxes near us and recover what we can. "\
+  "There's various boxes containing different equipment such as an NSV 12.7mm HMG, launchers and ammo, AT & AP mines inlcuding demo charges, small arms ammo, throwables, and also fortifcation tool such as placeable barbed wire, sandbags, and also deployable foliage to conceal positions."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -71,7 +73,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3634.238 96.631 7839.62
   m_sTitle "Mission"
   m_sTextData "|MISSION STATEMENT|"\
-  "We are to conduct a HASTY DEFENCE of the train and await extraction from friendly forces, ETA 36mins."\
+  "We are to conduct a HASTY DEFENCE of the train and await extraction from friendly forces, ETA 30-40mins."\
   ""\
   "|EXECUTION|"\
   "1. Troops will collect equipment and supplies from the strewn crates."\

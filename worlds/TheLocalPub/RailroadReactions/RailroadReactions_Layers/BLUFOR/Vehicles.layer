@@ -1,3 +1,63 @@
+$grp Vehicle : "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et" {
+ M1025_MERDC2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{686B17DED20ABEEC}" {
+      SlotTemplate EquipmentStorageSlot RifleMags {
+       Prefab "{FB5EB0F6D447E858}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_Ball.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{686B17DEC1033044}" {
+      SlotTemplate EquipmentStorageSlot RifleMags {
+       Prefab "{4575737B3D3A4505}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M196_Tracer.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+  }
+  coords 7071.97 57.342 8163.082
+  angles 0 -155.756 0
+  m_sAttachmentGroupName "BLUWEP"
+ }
+ M1025_MERDC1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{686B17DED20ABEEC}" {
+      SlotTemplate EquipmentStorageSlot RifleMags {
+       Prefab "{FB5EB0F6D447E858}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_Ball.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{686B17DEC1033044}" {
+      SlotTemplate EquipmentStorageSlot RifleMags {
+       Prefab "{4575737B3D3A4505}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M196_Tracer.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+  }
+  coords 7065.418 57.268 8165.938
+  angles 0 -157.745 0
+  m_sAttachmentGroupName "BLUWEP"
+ }
+}
 $grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
  M998_covered_long_MERDC1 {
   components {
@@ -23,6 +83,7 @@ $grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_lon
   }
   coords 7008.496 57.233 8179.682
   angles 0 128.443 0
+  m_sAttachmentGroupName "BLUHQ"
  }
  M998_covered_long_MERDC2 {
   components {
@@ -48,6 +109,7 @@ $grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_lon
   }
   coords 7012.464 57.188 8182.46
   angles 0 144.225 0
+  m_sAttachmentGroupName "BLUHQ"
  }
 }
 $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_M2HB_gunshield_DESERT.et" {
@@ -101,7 +163,7 @@ $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
       SlotTemplate EquipmentStorageSlot democharge {
        Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
       }
-      NumSlots 1
+      NumSlots 2
      }
      MultiSlotConfiguration "{6869451BE6647602}" {
       SlotTemplate EquipmentStorageSlot Clacker {
@@ -114,6 +176,7 @@ $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
   }
   coords 7011.048 57.358 8130.229
   angles 0 86.624 0
+  m_sAttachmentGroupName "BLU2nd"
  }
  CRX_M1025_armed_M2HB_gunshield_DESERT2 {
   components {
@@ -165,7 +228,7 @@ $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
       SlotTemplate EquipmentStorageSlot democharge {
        Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
       }
-      NumSlots 1
+      NumSlots 2
      }
      MultiSlotConfiguration "{6869451BE6647602}" {
       SlotTemplate EquipmentStorageSlot Clacker {
@@ -178,6 +241,7 @@ $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
   }
   coords 7009.239 57.344 8152.395
   angles 0 86.624 0
+  m_sAttachmentGroupName "BLU3rd"
  }
  CRX_M1025_armed_M2HB_gunshield_DESERT3 {
   components {
@@ -229,7 +293,7 @@ $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
       SlotTemplate EquipmentStorageSlot democharge {
        Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
       }
-      NumSlots 1
+      NumSlots 2
      }
      MultiSlotConfiguration "{6869451BE6647602}" {
       SlotTemplate EquipmentStorageSlot Clacker {
@@ -242,6 +306,7 @@ $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
   }
   coords 7053.666 57.411 8170.001
   angles 0 -157.688 0
+  m_sAttachmentGroupName "BLU2nd"
  }
  CRX_M1025_armed_M2HB_gunshield_DESERT4 {
   components {
@@ -293,7 +358,7 @@ $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
       SlotTemplate EquipmentStorageSlot democharge {
        Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
       }
-      NumSlots 1
+      NumSlots 2
      }
      MultiSlotConfiguration "{6869451BE6647602}" {
       SlotTemplate EquipmentStorageSlot Clacker {
@@ -306,6 +371,7 @@ $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
   }
   coords 7017.082 57.178 8184.021
   angles 0 165.7 0
+  m_sAttachmentGroupName "BLUHQ"
  }
 }
 $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
@@ -359,7 +425,7 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
       SlotTemplate EquipmentStorageSlot democharge {
        Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
       }
-      NumSlots 1
+      NumSlots 2
      }
      MultiSlotConfiguration "{6869451BE6647602}" {
       SlotTemplate EquipmentStorageSlot Clacker {
@@ -372,6 +438,7 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   }
   coords 7010.3 57.22 8136.574
   angles 0 86.928 0
+  m_sAttachmentGroupName "BLU2nd"
  }
  M1025_armed_M2HB_MERDC2 {
   components {
@@ -423,7 +490,7 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
       SlotTemplate EquipmentStorageSlot democharge {
        Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
       }
-      NumSlots 1
+      NumSlots 2
      }
      MultiSlotConfiguration "{6869451BE6647602}" {
       SlotTemplate EquipmentStorageSlot Clacker {
@@ -436,6 +503,7 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   }
   coords 7009.882 57.319 8146.482
   angles 0 86.928 0
+  m_sAttachmentGroupName "BLU3rd"
  }
  M1025_armed_M2HB_MERDC3 {
   components {
@@ -487,7 +555,7 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
       SlotTemplate EquipmentStorageSlot democharge {
        Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
       }
-      NumSlots 1
+      NumSlots 2
      }
      MultiSlotConfiguration "{6869451BE6647602}" {
       SlotTemplate EquipmentStorageSlot Clacker {
@@ -500,5 +568,6 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   }
   coords 7046.681 57.399 8172.374
   angles 0 -167.19 0
+  m_sAttachmentGroupName "BLU2nd"
  }
 }

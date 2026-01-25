@@ -28,8 +28,151 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
  coords 3513.955 60.376 5711.768
- m_iFreezeTime 300000
+ m_iFreezeTime 360000
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3488.733 60.134 5604.707
+ m_missionEvents {
+  TILW_MissionEvent "{6872D94FF19AEDB5}" {
+   m_name "USCacheVictory"
+   m_instructions {
+    TILW_SendMessageInstruction "{6872D94FC78DEC23}" {
+     m_executionDelay 3
+     m_messageTitle "US VICTORY"
+     m_messageBody "Well done troops!"\
+     "We've managed to destroy the supplies on the train and also inflict enough damage on the Russians to render them combat ineffective."\
+     "The remaining enemies are routing."\
+     ""\
+     "Mission will end soon..."
+     m_factionKeys {
+      "US"
+     }
+    }
+    TILW_SendMessageInstruction "{6872D94EB6B5D01A}" {
+     m_executionDelay 3
+     m_messageTitle "US VICTORY"
+     m_messageBody "Run for it!"\
+     "The US forces have managed to destroy our supplies on the train and also inflict enough damage to render us combat ineffective."\
+     "Our remaining troops are routing. "\
+     ""\
+     "Better luck next time."\
+     "Mission will end soon..."
+     m_factionKeys {
+      "RHS_AFRF"
+     }
+    }
+    TILW_DeactivateEventsInstruction "{6872D94CE9315CDA}" {
+     m_executionDelay 1
+     m_eventNames {
+      "RUVictory"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6872D94FEE77FE14}" {
+    m_operands {
+     TILW_LiteralTerm "{6872D94FEDB325ED}" {
+      m_flagName "CacheDestroyed"
+     }
+     TILW_LiteralTerm "{6872D94FE0D16D3E}" {
+      m_flagName "RUNeut"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{6872D94EDB3D5463}" {
+   m_name "USKillVictory"
+   m_instructions {
+    TILW_SendMessageInstruction "{6872D94D39E06F57}" {
+     m_executionDelay 3
+     m_messageTitle "US VICTORY"
+     m_messageBody "We've been decimated those pesky Russians!"\
+     "Smashing their defence, we've destroyed Ivan and sent him packing in a box."\
+     ""\
+     "Today is a glorious day."\
+     "Mission will end soon..."
+     m_factionKeys {
+      "US"
+     }
+    }
+    TILW_SendMessageInstruction "{6872D94D3CE55FEE}" {
+     m_executionDelay 3
+     m_messageTitle "US VICTORY"
+     m_messageBody "We've been decimated!"\
+     "US forces have managed to smash our defence and complete destroy our troop."\
+     ""\
+     "Today is a sad day."\
+     "Mission will end soon..."
+     m_factionKeys {
+      "RHS_AFRF"
+     }
+    }
+    TILW_DeactivateEventsInstruction "{6872D94CF0BDFEC8}" {
+     m_executionDelay 1
+     m_eventNames {
+      "RUVictory"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6872D94ECACEDAFC}" {
+    m_flagName "RUDead"
+   }
+  }
+  TILW_MissionEvent "{6872D94DC650C61D}" {
+   m_name "RUVictory"
+   m_instructions {
+    TILW_SendMessageInstruction "{6872D94DC650C72E}" {
+     m_executionDelay 3
+     m_messageTitle "RU VICTORY"
+     m_messageBody "Christ on a bike!"\
+     "We've taken a real beating. Withdraw from the AO before we lose the anyone else!"\
+     ""\
+     "Better luck next time."\
+     "Mission will end soon..."
+     m_factionKeys {
+      "US"
+     }
+    }
+    TILW_SendMessageInstruction "{6872D94DC650C723}" {
+     m_executionDelay 3
+     m_messageTitle "RU VICTORY"
+     m_messageBody "Well done troops!"\
+     "We've managed to hold off for long enough to deal some good damage to US forces."\
+     "It appears they are withdrawing from the AO."\
+     ""\
+     "Very good job comrades."\
+     "Mission will end soon..."
+     m_factionKeys {
+      "RHS_AFRF"
+     }
+    }
+    TILW_DeactivateEventsInstruction "{6872D94C92D9434B}" {
+     m_executionDelay 1
+     m_eventNames {
+      "USCacheVictory"
+      "USKillVictory"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6872D94DC650C722}" {
+    m_flagName "USDead"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6872D9485FE4D057}" {
+   m_flagName "USDead"
+   m_factionKey "US"
+   m_casualtyRatio 0.75
+  }
+  TILW_FactionPlayersKilledFlag "{6872D948E5B0CB40}" {
+   m_flagName "RUDead"
+   m_factionKey "RHS_AFRF"
+   m_casualtyRatio 0.95
+  }
+  TILW_FactionPlayersKilledFlag "{6872D948CEAC4C01}" {
+   m_flagName "RUNeut"
+   m_factionKey "RHS_AFRF"
+   m_casualtyRatio 0.5
+  }
+ }
 }

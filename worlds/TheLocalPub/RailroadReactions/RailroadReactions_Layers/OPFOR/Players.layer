@@ -56,7 +56,7 @@ $grp SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/Russia/2000s/Motorise
    "{A91BD4FC63B0F492}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_Rifleman_P.et"
    "{A91BD4FC63B0F492}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_Rifleman_P.et"
    "{A91BD4FC63B0F492}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_Rifleman_P.et"
-   "{1390D91CBD226D97}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_SL_P.et"
+   "{A91BD4FC63B0F492}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_Rifleman_P.et"
   }
   m_sCustomNameSet "Train crew (Weapon operators)"
  }

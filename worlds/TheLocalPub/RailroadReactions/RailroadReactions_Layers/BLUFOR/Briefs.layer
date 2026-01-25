@@ -24,14 +24,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Enemy forces are approximately 20x Russian troops from the 275th Motor Rifle Regiment who've derailed their train, thanks to the help of friendly INDFOR forces, at GRID: 064059."\
   "Partisan forces are saying the front of the train has been destroyed and the enemy have clearly taken casualties in the crash, to which it looks like they are digging in to conduct a hasty defence and awaitng relief."\
   ""\
+  "The nearest enemy force are the 278th Guards Motor Rifle Regiment, south of us 5km. They'll most likely respond to this and attempt to extract the troops."\
+  ""\
   "|STRENGTHS, CAPABILITIES, LIMITATIONS|"\
-  "• The train is armed and uparmoured. Partisan forces say there is a ZU-23 at either end of the train and throughout the carriages there are fortifed fighting positions, inlcuding static machine gun positions."\
+  "• The train is armed. Partisan forces say there is a ZU-23 at either end of the train and throughout the carriages there are fortifed fighting positions, inlcuding static machine gun positions."\
   "• While not lots of time, the Russians will use every second they can to dig in, setup killzones, clear sightlines, prepare delays and fallbacks. "\
   "• They are only on foot. Their ability to move unseen is completely exposed on one side to train due to the lake."\
   ""\
   "|SERVICE & SUPPORT|"\
-  "• We should expect some form of QRF/Relief force to arrives within the hour, maybe sooner."\
-  "• This retreating train was carrying equipment and supplies back for another day. At this moment their defence is the focus. Expect them to use the surplus of supplies to slow us down."
+  "• This retreating train was carrying equipment and supplies back for another day. Their defence is now the focus. Expect them to use the surplus of supplies to slow us down."
   m_aVisibleForFactions {
    "US"
   }
@@ -42,15 +43,18 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Friendly forces"
   m_sTextData "|COMPOSITION & DISPOSITION|"\
   "We are Delta company, 1st Platoon, of the 20th Infantry Regiment, US Army. "\
-  "A motorised Humvee platoon consisting of 36x pax, located at our staging area GRID: 070081, waiting to step off in the next 5mins."\
+  "A motorised Humvee platoon consisting of 38x pax, located at our staging area GRID: 070081, waiting to step off in the next 5mins."\
   ""\
   "|STRENGTHS, CAPABILITIES, LIMITATIONS|"\
+  "• We DO NOT posse the means to fight off a relief force. We must act sharp and do so quick."\
   "• We have total freedom of movement besides the known enemy threat. This area is unconstested and this unit should be isolated allowing us to position easier and less contested."\
   "• Our manvuers can be quick as the platoon has enough vehicles for each callsign to function either fully mounted or dismounted."\
-  "• We DO NOT posse the means to fight off a relief force.  We must act sharp and do so quick."\
+  "• The east side of the train is a large open swamp that contains little cover or concealmeant, but is passable on foot and vehicle. "\
+  "The swamp is shallow with mutiple low level island between."\
   ""\
   "|SERVICE & SUPPORT|"\
   "• HQ squad has 1x 50cal Humvee and 2x unarmed Humvees."\
+  "• Weapons squad has 2x unarmed Humvees."\
   "• Each rifle squad has 2x 50cal Humvees."\
   "• A light squad rearm in each vehicle, Including 2x demo charges and 1x clacker."
   m_aVisibleForFactions {
@@ -82,7 +86,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "3rd SQD D1'3"\
   ""\
   "|FREQ/CHAN|"\
-  "40hz - All callsigns"\
+  "PLT - 40hz"\
+  "HQ - 40.1hz"\
+  "1st - 40.2hz"\
+  "2nd - 40.3hz"\
+  "3rd - 40.4hz"\
+  "WEP - 40.5hz"\
   ""\
   "|PYRO & SIGNALS|"\
   "White smoke - Maneuvers"\
