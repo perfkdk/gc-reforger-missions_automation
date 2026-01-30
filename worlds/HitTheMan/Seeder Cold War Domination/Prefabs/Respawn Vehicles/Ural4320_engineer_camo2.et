@@ -1,0 +1,11 @@
+Vehicle : "{323B9051ED5C2F7A}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_camo1.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  TILW_Flag_EntityDamage "{687AB86DE6A5CD01}" {
+   m_flagName "Engi2"
+  }
+ }
+ coords 3186.821 286.187 9802.742
+ angles 0 90.207 0
+ m_sAttachmentGroupName "Engineers"
+}
