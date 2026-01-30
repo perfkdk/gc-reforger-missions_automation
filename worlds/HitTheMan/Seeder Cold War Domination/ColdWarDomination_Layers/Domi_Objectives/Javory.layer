@@ -1,3 +1,38 @@
 GenericEntity Javory {
  coords 5057.999 259.136 9744.414
 }
+GenericEntity : "{1A6F76E0028DE740}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_USSR_01.et" {
+ coords 3186.135 286.187 9753.484
+ angles 0 91.713 0
+ {
+  GenericEntity {
+   ID "5D371ACBC8811EDA"
+   components {
+    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+     m_eSupportedArsenalItemTypes 5636990
+     m_eSupportedArsenalItemModes 510
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D82CDCA0B582A12"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+       m_fResourceValueCurrent 10000000000
+       m_fResourceValueMax 10000000000
+       m_bEnableResourceGain 1
+       m_fResourceGain 10000
+       m_fResourceGainTickrate 1
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_01/LampStreet_E_01_4m.et" {
+ coords 3189.494 0 9750.766
+ angles 0 -2.449 0
+}
