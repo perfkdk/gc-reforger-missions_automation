@@ -387,11 +387,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{687C930289371407}" {
-   m_name "Cycle 3"
+   m_name "Cycle 2"
    m_instructions {
     TILW_SetFlagInstruction "{687C9302893714B8}" {
      m_executionDelay 60
-     m_flagName "Kamoryn"
+     m_flagName "NovaOlesov"
     }
     TILW_SendMessageInstruction "{687C9302A39BB1D4}" {
      m_executionDelay 30
@@ -441,31 +441,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{687C93027CAA4E6E}" {
    m_name "-----------------------------"
   }
-  TILW_MissionEvent "{687AB82FD6C8A25B}" {
-   m_name "Antenna - No Reinforcements"
-   m_instructions {
-    TILW_DeleteEntitiesInstruction "{687B640CB0FD3842}" {
-     m_entityNames {
-      "AntennaMarker"
-      "ContactTrigger"
-     }
-    }
-    TILW_ClearFlagInstruction "{687AB82FD6C8A23B}" {
-     m_flagName "Contact"
-    }
-    TILW_ClearFlagInstruction "{687AB829678E41E9}" {
-     m_flagName "AntennaAlive"
-    }
-    TILW_SendMessageInstruction "{687AB82FD6C8A238}" {
-     m_executionDelay 10
-     m_messageTitle "Antenna Destroyed"
-     m_messageBody "Seperatists can no longer call for reinforcements."
-    }
-   }
-   m_condition TILW_LiteralTerm "{687AB82FD6C8A234}" {
-    m_flagName "AntennaDead"
-   }
-  }
   TILW_MissionEvent "{687AB82FE294050E}" {
    m_name "Antenna - Reinforcements"
    m_instructions {
@@ -489,6 +464,53 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
+  TILW_MissionEvent "{687AB82FD6C8A25B}" {
+   m_name "Antenna - No Reinforcements"
+   m_instructions {
+    TILW_DeleteEntitiesInstruction "{687B640CB0FD3842}" {
+     m_executionDelay 1
+     m_entityNames {
+      "ContactTrigger"
+      "AntennaMarker"
+      "VehicleSpawner_1"
+      "VehicleSpawner_2"
+      "VehicleSpawner_3"
+      "VehicleSpawner_4"
+      "VehicleSpawner_5"
+      "VehicleSpawner_6"
+      "VehicleSpawner_7"
+      "VehicleSpawner_8"
+      "VehicleSpawner_9"
+      "VehicleSpawner_10"
+      "InfantryQRF_1"
+      "InfantryQRF_2"
+      "InfantryQRF_3"
+      "InfantryQRF_4"
+      "InfantryQRF_5"
+      "VehicleSpawner_Contact_1"
+      "VehicleSpawner_Contact_2"
+      "VehicleSpawner_Contact_3"
+      "VehicleSpawner_Contact_4"
+      "VehicleSpawner_Contact_5"
+     }
+    }
+    TILW_ClearFlagInstruction "{687AB82FD6C8A23B}" {
+     m_executionDelay 2
+     m_flagName "Contact"
+    }
+    TILW_ClearFlagInstruction "{687AB829678E41E9}" {
+     m_executionDelay 2
+     m_flagName "AntennaAlive"
+    }
+    TILW_SendMessageInstruction "{687AB82FD6C8A238}" {
+     m_messageTitle "Antenna Destroyed"
+     m_messageBody "Seperatists can no longer call for reinforcements."
+    }
+   }
+   m_condition TILW_LiteralTerm "{687AB82FD6C8A234}" {
+    m_flagName "AntennaDead"
+   }
+  }
   TILW_MissionEvent "{687C931D160C7115}" {
    m_name "-----------------------------"
   }
@@ -496,7 +518,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Kamoryn Start"
    m_instructions {
     TILW_SpawnPrefabInstruction "{687AB838D4533278}" {
-     m_prefab "{F154A07B3B81809C}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/Kamoryn_Objective.et"
+     m_prefab "{F0D32066BDBE2A48}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/Kamoryn_Objective.et"
      m_locationName "Kamoryn"
      m_setEntityName "Obj_Trigger"
     }
@@ -543,24 +565,149 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 8
      m_flagName "AntennaDead"
     }
+    TILW_ClearFlagInstruction "{687D1CE4DB7AD14F}" {
+     m_executionDelay 8
+     m_flagName "SpawnReinforcements"
+    }
     TILW_ClearFlagInstruction "{687AB80555AE1F2C}" {
      m_executionDelay 8
      m_flagName "Contact"
     }
     TILW_DeleteEntitiesInstruction "{687AB83AB5D565DE}" {
-     m_executionDelay 10
+     m_executionDelay 2
      m_entityNames {
       "Obj_Trigger"
       "AODraw"
       "ContactTrigger"
       "Kamoryn_Objective"
       "Antenna"
+      "AntennaMarker"
+      "VehicleSpawner_1"
+      "VehicleSpawner_2"
+      "VehicleSpawner_3"
+      "VehicleSpawner_4"
+      "VehicleSpawner_5"
+      "VehicleSpawner_6"
+      "VehicleSpawner_7"
+      "VehicleSpawner_8"
+      "VehicleSpawner_9"
+      "VehicleSpawner_10"
       "InfantryQRF_1"
       "InfantryQRF_2"
       "InfantryQRF_3"
       "InfantryQRF_4"
+      "InfantryQRF_5"
       "VehicleSpawner_Contact_1"
       "VehicleSpawner_Contact_2"
+      "VehicleSpawner_Contact_3"
+      "VehicleSpawner_Contact_4"
+      "VehicleSpawner_Contact_5"
+     }
+    }
+    TILW_DeleteEntitiesInstruction "{687D3365C400FAF3}" {
+     m_executionDelay 2
+     m_entityNames {
+      "Def_Inside_WP_1"
+      "Def_Inside_WP_2"
+      "Def_Inside_WP_3"
+      "Def_Inside_WP_4"
+      "Def_Inside_WP_5"
+      "Def_Inside_WP_6"
+      "Def_Inside_WP_7"
+      "Def_Inside_WP_8"
+      "Def_Inside_WP_9"
+      "Def_Inside_WP_10"
+      "Def_Inside_WP_11"
+      "Def_Inside_WP_12"
+      "Def_Inside_WP_13"
+      "Def_Inside_WP_14"
+      "Def_Inside_WP_15"
+      "Def_Inside_WP_16"
+      "Def_Inside_WP_17"
+      "Def_Inside_WP_18"
+      "Def_Inside_WP_19"
+      "Def_Inside_WP_20"
+      "Def_Inside_WP_21"
+      "Def_Inside_WP_22"
+      "Def_Inside_WP_23"
+      "Def_Inside_WP_24"
+      "Def_Inside_WP_25"
+      "Def_Inside_WP_26"
+      "Def_Inside_WP_27"
+      "Def_Inside_WP_28"
+      "Def_Inside_WP_29"
+      "Def_Inside_WP_30"
+      "Def_Inside_WP_31"
+      "Def_Inside_WP_32"
+      "Def_Inside_WP_33"
+      "Def_Inside_WP_34"
+      "Def_Inside_WP_35"
+      "Def_Inside_WP_36"
+      "Def_Inside_WP_37"
+      "Def_Inside_WP_38"
+      "Def_Inside_WP_39"
+      "Def_Inside_WP_40"
+      "Def_WP_1"
+      "Def_WP_2"
+      "Def_WP_3"
+      "Def_WP_4"
+      "Def_WP_5"
+      "Def_WP_6"
+      "Def_WP_7"
+      "Def_WP_8"
+      "Def_WP_9"
+      "Def_WP_10"
+      "Def_WP_11"
+      "Def_WP_12"
+      "Def_WP_13"
+      "Def_WP_14"
+      "Def_WP_15"
+      "Def_WP_16"
+      "Def_WP_17"
+      "Def_WP_18"
+      "Def_WP_19"
+      "Def_WP_20"
+      "Def_WP_21"
+      "Def_WP_22"
+      "Def_WP_23"
+      "Def_WP_24"
+      "Def_WP_25"
+      "Def_WP_26"
+      "Def_WP_27"
+      "Def_WP_28"
+      "Def_WP_29"
+      "Def_WP_30"
+      "Def_WP_31"
+      "Def_WP_32"
+      "Def_WP_33"
+      "Def_WP_34"
+      "Def_WP_35"
+      "Def_WP_36"
+      "Def_WP_37"
+      "Def_WP_38"
+      "Def_WP_39"
+      "Def_WP_40"
+      "SnD_WP_1"
+      "Def_WP_Vehicle_1"
+      "Def_WP_Vehicle_2"
+      "Def_WP_Vehicle_3"
+      "Def_WP_Vehicle_4"
+      "Def_WP_Vehicle_5"
+      "Def_WP_Vehicle_6"
+      "Def_WP_Vehicle_7"
+      "Def_WP_Vehicle_8"
+      "Def_WP_Vehicle_9"
+      "Def_WP_Vehicle_10"
+      "Def_WP_Vehicle_11"
+      "Def_WP_Vehicle_12"
+      "Def_WP_Vehicle_13"
+      "Def_WP_Vehicle_14"
+      "Def_WP_Vehicle_15"
+      "Def_WP_Vehicle_16"
+      "Def_WP_Vehicle_17"
+      "Def_WP_Vehicle_18"
+      "Def_WP_Vehicle_19"
+      "Def_WP_Vehicle_20"
      }
     }
     TILW_SendMessageInstruction "{687AB823A4864573}" {
@@ -596,7 +743,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Nova Olesov Start"
    m_instructions {
     TILW_SpawnPrefabInstruction "{687B64087B36D757}" {
-     m_prefab "{63248461A25A5C86}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/NovaOlesov_Objective.et"
+     m_prefab "{9133578238B7E12C}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/NovaOlesov_Objective.et"
      m_locationName "NovaOlesov"
      m_setEntityName "NovaOlesov_Objective"
     }
@@ -643,26 +790,149 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 8
      m_flagName "AntennaDead"
     }
+    TILW_ClearFlagInstruction "{687D1CE4FF2BB86D}" {
+     m_executionDelay 8
+     m_flagName "SpawnReinforcements"
+    }
     TILW_ClearFlagInstruction "{687B64087DCCFD46}" {
      m_executionDelay 8
      m_flagName "Contact"
     }
     TILW_DeleteEntitiesInstruction "{687B64087DCCFD45}" {
-     m_executionDelay 10
+     m_executionDelay 2
      m_entityNames {
-      "ObjTrigger"
+      "Obj_Trigger"
       "AODraw"
       "ContactTrigger"
-      "NovaOlesov_Objective"
+      "Kamoryn_Objective"
       "Antenna"
+      "AntennaMarker"
+      "VehicleSpawner_1"
+      "VehicleSpawner_2"
+      "VehicleSpawner_3"
+      "VehicleSpawner_4"
+      "VehicleSpawner_5"
+      "VehicleSpawner_6"
+      "VehicleSpawner_7"
+      "VehicleSpawner_8"
+      "VehicleSpawner_9"
+      "VehicleSpawner_10"
       "InfantryQRF_1"
       "InfantryQRF_2"
       "InfantryQRF_3"
       "InfantryQRF_4"
+      "InfantryQRF_5"
       "VehicleSpawner_Contact_1"
       "VehicleSpawner_Contact_2"
       "VehicleSpawner_Contact_3"
       "VehicleSpawner_Contact_4"
+      "VehicleSpawner_Contact_5"
+     }
+    }
+    TILW_DeleteEntitiesInstruction "{687D33668C8F3FBA}" {
+     m_executionDelay 2
+     m_entityNames {
+      "Def_Inside_WP_1"
+      "Def_Inside_WP_2"
+      "Def_Inside_WP_3"
+      "Def_Inside_WP_4"
+      "Def_Inside_WP_5"
+      "Def_Inside_WP_6"
+      "Def_Inside_WP_7"
+      "Def_Inside_WP_8"
+      "Def_Inside_WP_9"
+      "Def_Inside_WP_10"
+      "Def_Inside_WP_11"
+      "Def_Inside_WP_12"
+      "Def_Inside_WP_13"
+      "Def_Inside_WP_14"
+      "Def_Inside_WP_15"
+      "Def_Inside_WP_16"
+      "Def_Inside_WP_17"
+      "Def_Inside_WP_18"
+      "Def_Inside_WP_19"
+      "Def_Inside_WP_20"
+      "Def_Inside_WP_21"
+      "Def_Inside_WP_22"
+      "Def_Inside_WP_23"
+      "Def_Inside_WP_24"
+      "Def_Inside_WP_25"
+      "Def_Inside_WP_26"
+      "Def_Inside_WP_27"
+      "Def_Inside_WP_28"
+      "Def_Inside_WP_29"
+      "Def_Inside_WP_30"
+      "Def_Inside_WP_31"
+      "Def_Inside_WP_32"
+      "Def_Inside_WP_33"
+      "Def_Inside_WP_34"
+      "Def_Inside_WP_35"
+      "Def_Inside_WP_36"
+      "Def_Inside_WP_37"
+      "Def_Inside_WP_38"
+      "Def_Inside_WP_39"
+      "Def_Inside_WP_40"
+      "Def_WP_1"
+      "Def_WP_2"
+      "Def_WP_3"
+      "Def_WP_4"
+      "Def_WP_5"
+      "Def_WP_6"
+      "Def_WP_7"
+      "Def_WP_8"
+      "Def_WP_9"
+      "Def_WP_10"
+      "Def_WP_11"
+      "Def_WP_12"
+      "Def_WP_13"
+      "Def_WP_14"
+      "Def_WP_15"
+      "Def_WP_16"
+      "Def_WP_17"
+      "Def_WP_18"
+      "Def_WP_19"
+      "Def_WP_20"
+      "Def_WP_21"
+      "Def_WP_22"
+      "Def_WP_23"
+      "Def_WP_24"
+      "Def_WP_25"
+      "Def_WP_26"
+      "Def_WP_27"
+      "Def_WP_28"
+      "Def_WP_29"
+      "Def_WP_30"
+      "Def_WP_31"
+      "Def_WP_32"
+      "Def_WP_33"
+      "Def_WP_34"
+      "Def_WP_35"
+      "Def_WP_36"
+      "Def_WP_37"
+      "Def_WP_38"
+      "Def_WP_39"
+      "Def_WP_40"
+      "SnD_WP_1"
+      "Def_WP_Vehicle_1"
+      "Def_WP_Vehicle_2"
+      "Def_WP_Vehicle_3"
+      "Def_WP_Vehicle_4"
+      "Def_WP_Vehicle_5"
+      "Def_WP_Vehicle_6"
+      "Def_WP_Vehicle_7"
+      "Def_WP_Vehicle_8"
+      "Def_WP_Vehicle_9"
+      "Def_WP_Vehicle_10"
+      "Def_WP_Vehicle_11"
+      "Def_WP_Vehicle_12"
+      "Def_WP_Vehicle_13"
+      "Def_WP_Vehicle_14"
+      "Def_WP_Vehicle_15"
+      "Def_WP_Vehicle_16"
+      "Def_WP_Vehicle_17"
+      "Def_WP_Vehicle_18"
+      "Def_WP_Vehicle_19"
+      "Def_WP_Vehicle_20"
      }
     }
     TILW_SendMessageInstruction "{687B64087DCCFD4A}" {
@@ -698,7 +968,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Brambledeep Start"
    m_instructions {
     TILW_SpawnPrefabInstruction "{687C931C8B18EA4B}" {
-     m_prefab "{63248461A25A5C86}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/NovaOlesov_Objective.et"
+     m_prefab "{E758F729F4852AF6}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/Brambledeep_Objective.et"
      m_locationName "Brambledeep"
      m_setEntityName "Brambledeep_Objective"
     }
@@ -745,26 +1015,149 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 8
      m_flagName "AntennaDead"
     }
+    TILW_ClearFlagInstruction "{687D1CE4F3F06799}" {
+     m_executionDelay 8
+     m_flagName "SpawnReinforcements"
+    }
     TILW_ClearFlagInstruction "{687C931C862D62F5}" {
      m_executionDelay 8
      m_flagName "Contact"
     }
     TILW_DeleteEntitiesInstruction "{687C931C862D640A}" {
-     m_executionDelay 10
+     m_executionDelay 2
      m_entityNames {
-      "ObjTrigger"
+      "Obj_Trigger"
       "AODraw"
       "ContactTrigger"
-      "NovaOlesov_Objective"
+      "Kamoryn_Objective"
       "Antenna"
+      "AntennaMarker"
+      "VehicleSpawner_1"
+      "VehicleSpawner_2"
+      "VehicleSpawner_3"
+      "VehicleSpawner_4"
+      "VehicleSpawner_5"
+      "VehicleSpawner_6"
+      "VehicleSpawner_7"
+      "VehicleSpawner_8"
+      "VehicleSpawner_9"
+      "VehicleSpawner_10"
       "InfantryQRF_1"
       "InfantryQRF_2"
       "InfantryQRF_3"
       "InfantryQRF_4"
+      "InfantryQRF_5"
       "VehicleSpawner_Contact_1"
       "VehicleSpawner_Contact_2"
       "VehicleSpawner_Contact_3"
       "VehicleSpawner_Contact_4"
+      "VehicleSpawner_Contact_5"
+     }
+    }
+    TILW_DeleteEntitiesInstruction "{687D3366B3B03559}" {
+     m_executionDelay 2
+     m_entityNames {
+      "Def_Inside_WP_1"
+      "Def_Inside_WP_2"
+      "Def_Inside_WP_3"
+      "Def_Inside_WP_4"
+      "Def_Inside_WP_5"
+      "Def_Inside_WP_6"
+      "Def_Inside_WP_7"
+      "Def_Inside_WP_8"
+      "Def_Inside_WP_9"
+      "Def_Inside_WP_10"
+      "Def_Inside_WP_11"
+      "Def_Inside_WP_12"
+      "Def_Inside_WP_13"
+      "Def_Inside_WP_14"
+      "Def_Inside_WP_15"
+      "Def_Inside_WP_16"
+      "Def_Inside_WP_17"
+      "Def_Inside_WP_18"
+      "Def_Inside_WP_19"
+      "Def_Inside_WP_20"
+      "Def_Inside_WP_21"
+      "Def_Inside_WP_22"
+      "Def_Inside_WP_23"
+      "Def_Inside_WP_24"
+      "Def_Inside_WP_25"
+      "Def_Inside_WP_26"
+      "Def_Inside_WP_27"
+      "Def_Inside_WP_28"
+      "Def_Inside_WP_29"
+      "Def_Inside_WP_30"
+      "Def_Inside_WP_31"
+      "Def_Inside_WP_32"
+      "Def_Inside_WP_33"
+      "Def_Inside_WP_34"
+      "Def_Inside_WP_35"
+      "Def_Inside_WP_36"
+      "Def_Inside_WP_37"
+      "Def_Inside_WP_38"
+      "Def_Inside_WP_39"
+      "Def_Inside_WP_40"
+      "Def_WP_1"
+      "Def_WP_2"
+      "Def_WP_3"
+      "Def_WP_4"
+      "Def_WP_5"
+      "Def_WP_6"
+      "Def_WP_7"
+      "Def_WP_8"
+      "Def_WP_9"
+      "Def_WP_10"
+      "Def_WP_11"
+      "Def_WP_12"
+      "Def_WP_13"
+      "Def_WP_14"
+      "Def_WP_15"
+      "Def_WP_16"
+      "Def_WP_17"
+      "Def_WP_18"
+      "Def_WP_19"
+      "Def_WP_20"
+      "Def_WP_21"
+      "Def_WP_22"
+      "Def_WP_23"
+      "Def_WP_24"
+      "Def_WP_25"
+      "Def_WP_26"
+      "Def_WP_27"
+      "Def_WP_28"
+      "Def_WP_29"
+      "Def_WP_30"
+      "Def_WP_31"
+      "Def_WP_32"
+      "Def_WP_33"
+      "Def_WP_34"
+      "Def_WP_35"
+      "Def_WP_36"
+      "Def_WP_37"
+      "Def_WP_38"
+      "Def_WP_39"
+      "Def_WP_40"
+      "SnD_WP_1"
+      "Def_WP_Vehicle_1"
+      "Def_WP_Vehicle_2"
+      "Def_WP_Vehicle_3"
+      "Def_WP_Vehicle_4"
+      "Def_WP_Vehicle_5"
+      "Def_WP_Vehicle_6"
+      "Def_WP_Vehicle_7"
+      "Def_WP_Vehicle_8"
+      "Def_WP_Vehicle_9"
+      "Def_WP_Vehicle_10"
+      "Def_WP_Vehicle_11"
+      "Def_WP_Vehicle_12"
+      "Def_WP_Vehicle_13"
+      "Def_WP_Vehicle_14"
+      "Def_WP_Vehicle_15"
+      "Def_WP_Vehicle_16"
+      "Def_WP_Vehicle_17"
+      "Def_WP_Vehicle_18"
+      "Def_WP_Vehicle_19"
+      "Def_WP_Vehicle_20"
      }
     }
     TILW_SendMessageInstruction "{687C931C862D640B}" {
@@ -1596,6 +1989,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 300
      m_entityNames {
       "Mi8MT_armed1"
+      "Helo1"
      }
     }
     TILW_SpawnPrefabInstruction "{687B646FFB0D7246}" {
@@ -1630,6 +2024,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 300
      m_entityNames {
       "Mi8MT_armed2"
+      "Helo1"
      }
     }
     TILW_SpawnPrefabInstruction "{687B646FB4D615B3}" {

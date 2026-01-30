@@ -1,8 +1,8 @@
 PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  ID "5EDF4803173675DF"
  components {
-  TILW_Flag_EntityDamage "{687CB74C871EF08F}" {
-   m_flagName "CommandTruckMarker"
+  TILW_SetNameComponent "{687D1CE8FEF18F72}" {
+   m_setName "Helo1"
   }
  }
  coords 6017.912 194.907 6944.523
