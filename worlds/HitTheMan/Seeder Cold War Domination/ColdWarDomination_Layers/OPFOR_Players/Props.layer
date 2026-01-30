@@ -1,0 +1,549 @@
+$grp GenericEntity {
+ TPMortar {
+  coords 2631.17 291.976 9470.095
+  angles 0 -9.195 0
+ }
+ TPHelicopters {
+  coords 3205.73 286.156 9956.309
+ }
+ TPHQ {
+  coords 3248.998 286 9749.158
+  angles 0 -9.195 0
+ }
+}
+GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_USSR_01.et" {
+ components {
+  SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+   Enabled 0
+  }
+  SCR_ResourceComponent "{648D00E179F27EE2}" {
+   m_aContainers {
+    SCR_ResourceContainer "{687AB81ACADB05CD}" {
+     m_eResourceRights ALL
+     m_fResourceValueCurrent 10000000000
+     m_fResourceValueMax 10000000000
+     m_bEnableResourceGain 1
+     m_fResourceGain 10000
+     m_fResourceGainTickrate 1
+    }
+   }
+  }
+  WCS_RearmSupportStationComponent "{648D00E150D72B40}" {
+   m_fRange 10
+  }
+ }
+ coords 3187.097 286.188 9761.1
+ angles 0 91.312 0
+ {
+  GenericEntity {
+   ID "5D45393ACC919C9A"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+       m_fResourceValueCurrent 10000000000
+       m_fResourceValueMax 10000000000
+       m_bEnableResourceGain 1
+       m_fResourceGain 10000
+       m_fResourceGainTickrate 1
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D22B941F0092492"
+   components {
+    SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+     Enabled 0
+    }
+    SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_Conflict_USSR_01.et" {
+ {
+  components {
+   SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+    Enabled 0
+   }
+   SCR_ResourceComponent "{66C89D460234CDF2}" {
+    m_aContainers {
+     SCR_ResourceContainer "{687AB81AE8F5AF59}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+      m_bEnableResourceGain 1
+      m_fResourceGain 10000
+      m_fResourceGainTickrate 1
+     }
+    }
+   }
+  }
+  coords 3211.293 286.157 9921.348
+  angles 0 60.44 0
+  {
+   GenericEntity {
+    ID "630888952640AD64"
+    components {
+     SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+      Enabled 0
+     }
+     SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "63088895F4E00DE9"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 10000000000
+        m_fResourceValueMax 10000000000
+        m_bEnableResourceGain 1
+        m_fResourceGain 10000
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+    Enabled 0
+   }
+   SCR_ResourceComponent "{66C89D460234CDF2}" {
+    m_aContainers {
+     SCR_ResourceContainer "{687AB81AE8F5AF59}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+      m_bEnableResourceGain 1
+      m_fResourceGain 10000
+      m_fResourceGainTickrate 1
+     }
+    }
+   }
+  }
+  coords 3211.9 286.157 9992.536
+  angles 0 60.44 0
+  {
+   GenericEntity {
+    ID "630888952640AD64"
+    components {
+     SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+      Enabled 0
+     }
+     SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "63088895F4E00DE9"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+        m_fResourceValueCurrent 10000000000
+        m_fResourceValueMax 10000000000
+        m_bEnableResourceGain 1
+        m_fResourceGain 10000
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_USSR.et" {
+ {
+  coords 3251.426 285.981 9749.289
+  {
+   GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+    components {
+     ActionsManagerComponent "{62EF76E0D47ED96A}" {
+      ActionContexts {
+       UserActionContext "{62EF76E0D47ED970}" {
+        ContextName "Interact_C"
+       }
+      }
+      additionalActions {
+       TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+        ParentContextList {
+         "Interact_C"
+        }
+        ActionTitle "TP: Mortar"
+        Duration 3
+        m_actionName "TP: Mortar"
+        m_locationName "TPMortar"
+       }
+       TILW_TeleportInteraction "{687AB81A7AC07D41}" {
+        ParentContextList {
+         "Interact_C"
+        }
+        ActionTitle "TP: Helicopters"
+        Duration 3
+        m_actionName "TP: Helicopters"
+        m_locationName "TPHelicopters"
+       }
+       TILW_TeleportInteraction "{687B64746FC2DDA7}" {
+        ParentContextList {
+         "Interact_C"
+        }
+        ActionTitle "TP: Truck"
+        Duration 3
+        m_actionName "TP: Truck"
+        m_locationName "TPTruck"
+       }
+      }
+     }
+    }
+    coords -0.049 1.299 -0.023
+    angles 0 -7.36 0
+   }
+  }
+ }
+ {
+  coords 2630.941 292.036 9469.141
+  {
+   GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+    components {
+     ActionsManagerComponent "{62EF76E0D47ED96A}" {
+      ActionContexts {
+       UserActionContext "{62EF76E0D47ED970}" {
+        ContextName "Interact_D"
+       }
+      }
+      additionalActions {
+       TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+        ParentContextList {
+         "Interact_D"
+        }
+        ActionTitle "TP: HQ"
+        Duration 3
+        m_actionName "TP: HQ"
+        m_locationName "TPHQ"
+       }
+       TILW_TeleportInteraction "{687AB81A7AC07D41}" {
+        ParentContextList {
+         "Interact_D"
+        }
+        ActionTitle "TP: Helicopters"
+        Duration 3
+        m_actionName "TP: Helicopters"
+        m_locationName "TPHelicopters"
+       }
+      }
+     }
+    }
+    coords -0.049 1.299 -0.023
+    angles 0 -7.36 0
+   }
+  }
+ }
+ {
+  coords 3208.625 286.156 9956.838
+  {
+   GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+    components {
+     ActionsManagerComponent "{62EF76E0D47ED96A}" {
+      ActionContexts {
+       UserActionContext "{62EF76E0D47ED970}" {
+        ContextName "Interact_E"
+       }
+      }
+      additionalActions {
+       TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+        ParentContextList {
+         "Interact_E"
+        }
+        ActionTitle "TP: HQ"
+        Duration 3
+        m_actionName "TP: HQ"
+        m_locationName "TPHQ"
+       }
+       TILW_TeleportInteraction "{687AB81A7AC07D41}" {
+        ParentContextList {
+         "Interact_E"
+        }
+        ActionTitle "TP: Mortar"
+        Duration 3
+        m_actionName "TP: Mortar"
+        m_locationName "TPMortar"
+       }
+      }
+     }
+    }
+    coords -0.049 1.299 -0.023
+    angles 0 -7.36 0
+   }
+  }
+ }
+}
+GenericEntity : "{73604060A04CBB85}Prefabs/Compositions/Slotted/SlotFlatSmall/FuelStorage_S_USSR_01.et" {
+ components {
+  SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+   Enabled 0
+  }
+ }
+ coords 3187.139 286.188 9745.006
+ angles 0 88.309 0
+ {
+  GenericEntity {
+   ID "5E690689B96D616C"
+   components {
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     m_aContainers {
+      SCR_ResourceContainer "{687AB866736170FC}" {
+       m_eResourceRights ALL
+       m_fResourceValueCurrent 1000000000
+       m_fResourceValueMax 1000000000
+       m_fResourceGain 1000
+       m_fResourceGainTickrate 1
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubCompositions/Foundation_Mortar_USSR.et" {
+ {
+  coords 2610.313 292.339 9433.898
+  angles 0 167.773 0
+  {
+   GenericEntity {
+    ID "60B8D36A59BEEA13"
+    components {
+     SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+      m_aContainers {
+       SCR_ResourceContainer "{687AB81BD3C3C45E}" {
+        m_eResourceRights ALL
+        m_eStorageType STORED
+        m_fResourceValueCurrent 10000000
+        m_fResourceValueMax 10000000
+        m_bEnableResourceGain 1
+        m_fResourceGain 1000
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2663.288 291.785 9445.013
+  angles 0 167.092 0
+  {
+   GenericEntity {
+    ID "60B8D36A59BEEA13"
+    components {
+     SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+      m_aContainers {
+       SCR_ResourceContainer "{687AB81B22A4C187}" {
+        m_eResourceRights ALL
+        m_eStorageType STORED
+        m_fResourceValueCurrent 10000000
+        m_fResourceValueMax 10000000
+        m_bEnableResourceGain 1
+        m_fResourceGain 1000
+        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{D5DCF3520C2A8C41}Prefabs/Props/Furniture/Flipchart_01/Flipchart_01.et" {
+ {
+  coords 3247.418 286.094 9742.81
+  angles 0 -65.259 0
+  {
+   GenericEntity SetTimeInteract : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_SetFlagInteraction.et" {
+    components {
+     ActionsManagerComponent "{61F4C18E835074FF}" {
+      ActionContexts {
+       UserActionContext "{61F4C18ECB0A8B85}" {
+        ContextName "Interact_B"
+       }
+      }
+      additionalActions {
+       TILW_BaseInteraction "{61F4C18E863E752C}" {
+        ParentContextList {
+         "Interact_B"
+        }
+        ActionTitle "Time: Morning"
+        Duration 3
+        m_actionName "Time: Morning"
+        m_singleUse 0
+        m_flagName "Morning"
+       }
+       TILW_BaseInteraction "{687AB81DDB481251}" {
+        ParentContextList {
+         "Interact_B"
+        }
+        ActionTitle "Time: Day"
+        Duration 3
+        m_actionName "Time: Day"
+        m_singleUse 0
+        m_flagName "Day"
+       }
+       TILW_BaseInteraction "{687AB81DD3E29360}" {
+        ParentContextList {
+         "Interact_B"
+        }
+        ActionTitle "Time: Dusk"
+        Duration 3
+        m_actionName "Time: Dusk"
+        m_singleUse 0
+        m_flagName "Dusk"
+       }
+       TILW_BaseInteraction "{687AB81DCA7B24C9}" {
+        ParentContextList {
+         "Interact_B"
+        }
+        ActionTitle "Time: Twilight"
+        Duration 3
+        m_actionName "Time: Twilight"
+        m_singleUse 0
+        m_flagName "Twilight"
+       }
+       TILW_BaseInteraction "{687AB81DC06F3CCB}" {
+        ParentContextList {
+         "Interact_B"
+        }
+        ActionTitle "Time: Midnight (Moonlight)"
+        Duration 3
+        m_actionName "Time: Midnight (Moonlight)"
+        m_singleUse 0
+        m_flagName "Midnight"
+       }
+      }
+     }
+    }
+    coords -0.012 1.27 0.109
+    angles 0 91.055 0
+   }
+  }
+ }
+ {
+  coords 3246.876 286.094 9741.925
+  angles 0 -51.741 0
+  {
+   GenericEntity SetWeatherInteract : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_SetFlagInteraction.et" {
+    components {
+     ActionsManagerComponent "{61F4C18E835074FF}" {
+      additionalActions {
+       TILW_BaseInteraction "{61F4C18E863E752C}" {
+        ActionTitle "Weather: Clear"
+        Duration 3
+        m_actionName "Weather: Clear"
+        m_singleUse 0
+        m_flagName "Clear"
+       }
+       TILW_BaseInteraction "{687AB81E4C9A81FE}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "Weather: Cloudy"
+        Duration 3
+        m_actionName "Weather: Cloudy"
+        m_singleUse 0
+        m_flagName "Cloudy"
+       }
+       TILW_BaseInteraction "{687AB81E47DAD062}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "Weather: Overcast"
+        Duration 3
+        m_actionName "Weather: Overcast"
+        m_singleUse 0
+        m_flagName "Overcast"
+       }
+       TILW_BaseInteraction "{687AB81E7E410AA0}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "Weather: Rainy"
+        Duration 3
+        m_actionName "Weather: Rainy"
+        m_singleUse 0
+        m_flagName "Rainy"
+       }
+      }
+     }
+    }
+    coords -0.012 1.27 0.109
+    angles 0 91.055 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_01/LampStreet_E_01_4m.et" {
+ {
+  coords 3247.826 -0.01 9743.658
+ }
+ {
+  coords 3246.402 0 9741.168
+ }
+ {
+  coords 3251.511 0 9751.804
+ }
+ {
+  coords 3251.479 -0.001 9746.582
+ }
+ {
+  coords 3209.128 0 9953.751
+ }
+ {
+  coords 3209.119 0 9959.858
+ }
+ {
+  coords 2628.686 0 9467.907
+ }
+ {
+  coords 2633.406 0 9468.848
+ }
+ {
+  coords 2661.453 0 9448.863
+ }
+ {
+  coords 2608.038 0 9437.683
+ }
+ {
+  coords 3243.427 0 9696.967
+ }
+ {
+  coords 3243.974 0 9805.659
+ }
+ {
+  coords 3243.346 0 9762.092
+ }
+ {
+  coords 3243.291 0 9739.428
+ }
+ {
+  coords 3184.224 0 9753.389
+ }
+ {
+  coords 3184.203 -0 9769.012
+ }
+ {
+  coords 3183.857 -0 9735.841
+ }
+}

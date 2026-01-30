@@ -1,0 +1,170 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ USSR_PLT_Marker_2 {
+  coords 3259.02 298.643 9781.931
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 60
+  m_sDescription "344 (HQ)"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_1 {
+  coords 3259.269 298.68 9716.521
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 60
+  m_sDescription "341 (HQ)"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_3 {
+  coords 2663.499 291.746 9445.367
+  angles 0 -102.974 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mortar"
+  m_fWorldSize 60
+  m_sDescription "Mortar"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_4 {
+  coords 2610.541 292.219 9434.137
+  angles 0 -101.463 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mortar"
+  m_fWorldSize 60
+  m_sDescription "Mortar"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ MarkedMortar {
+  components {
+   TILW_Flag_EntityDamage "{687B647843B5B5CB}" {
+    m_flagName "AntennaMarker"
+   }
+   TILW_SetNameComponent "{687B6417455D56A5}" {
+    m_setName "AntennaMarker"
+   }
+  }
+  coords 2629.494 291.967 9470.136
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag"
+  m_fWorldSize 50
+  m_sDescription "Mortar TP"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ MarkedHQ {
+  components {
+   TILW_Flag_EntityDamage "{687B647843B5B5CB}" {
+    m_flagName "AntennaMarker"
+   }
+   TILW_SetNameComponent "{687B6417455D56A5}" {
+    m_setName "AntennaMarker"
+   }
+  }
+  coords 3256.556 285.97 9749.232
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag"
+  m_fWorldSize 50
+  m_sDescription "HQ TP"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ MarkedHelicopter {
+  components {
+   TILW_Flag_EntityDamage "{687B647843B5B5CB}" {
+    m_flagName "AntennaMarker"
+   }
+   TILW_SetNameComponent "{687B6417455D56A5}" {
+    m_setName "AntennaMarker"
+   }
+  }
+  coords 3206.952 286.156 9956.479
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag"
+  m_fWorldSize 50
+  m_sDescription "Helicopter TP"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ MarkedTransports {
+  components {
+   TILW_Flag_EntityDamage "{687B647843B5B5CB}" {
+    m_flagName "AntennaMarker"
+   }
+   TILW_SetNameComponent "{687B6417455D56A5}" {
+    m_setName "AntennaMarker"
+   }
+  }
+  coords 3181.788 286.187 9697.356
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag"
+  m_fWorldSize 50
+  m_sDescription "Transport Vehicles"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ MarkedService {
+  components {
+   TILW_Flag_EntityDamage "{687B647843B5B5CB}" {
+    m_flagName "AntennaMarker"
+   }
+   TILW_SetNameComponent "{687B6417455D56A5}" {
+    m_setName "AntennaMarker"
+   }
+  }
+  coords 3180.839 286.188 9753.078
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag"
+  m_fWorldSize 50
+  m_sDescription "Vehicle Service"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ MarkedEngineers {
+  components {
+   TILW_Flag_EntityDamage "{687B647843B5B5CB}" {
+    m_flagName "AntennaMarker"
+   }
+   TILW_SetNameComponent "{687B6417455D56A5}" {
+    m_setName "AntennaMarker"
+   }
+  }
+  coords 3180.477 286.188 9801.265
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "flag"
+  m_fWorldSize 50
+  m_sDescription "Engineering Equipment"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+}

@@ -1,0 +1,10 @@
+GenericTerrainEntity {
+ ID "687B647B5CD8D822"
+ components {
+  TILW_SetNameComponent "{687B647B6AB6FA6D}" {
+   m_setName "TPTruck"
+  }
+  Hierarchy "{687B647B68F7F7E3}" {
+  }
+ }
+}
