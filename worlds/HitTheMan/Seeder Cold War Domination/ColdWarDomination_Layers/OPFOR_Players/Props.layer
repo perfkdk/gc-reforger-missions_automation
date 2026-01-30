@@ -11,6 +11,36 @@ $grp GenericEntity {
   angles 0 -9.195 0
  }
 }
+GenericEntity : "{1A6F76E0028DE740}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_USSR_01.et" {
+ coords 3261.372 285.852 9743.758
+ angles 0 -46.338 0
+ {
+  GenericEntity {
+   ID "5D371ACBC8811EDA"
+   components {
+    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+     m_eSupportedArsenalItemTypes 1442686
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D82CDCA0B582A12"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+       m_fResourceValueCurrent 10000000000
+       m_fResourceValueMax 10000000000
+       m_bEnableResourceGain 1
+       m_fResourceGain 10000
+       m_fResourceGainTickrate 1
+      }
+     }
+    }
+   }
+  }
+ }
+}
 GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_USSR_01.et" {
  components {
   SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
@@ -318,6 +348,28 @@ GenericEntity : "{73604060A04CBB85}Prefabs/Compositions/Slotted/SlotFlatSmall/Fu
   }
  }
 }
+GenericEntity : "{763B4200BE49686E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_USSR_02.et" {
+ coords 3261.914 285.797 9754.354
+ angles 0 -130.657 0
+ {
+  GenericEntity {
+   ID "5D82CDCA57D02289"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+       m_fResourceValueCurrent 10000000000
+       m_fResourceValueMax 10000000000
+       m_bEnableResourceGain 1
+       m_fResourceGain 10000
+       m_fResourceGainTickrate 1
+      }
+     }
+    }
+   }
+  }
+ }
+}
 $grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubCompositions/Foundation_Mortar_USSR.et" {
  {
   coords 2610.313 292.339 9433.898
@@ -502,10 +554,10 @@ $grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/
   coords 3246.402 0 9741.168
  }
  {
-  coords 3251.511 0 9751.804
+  coords 3258.07 0.094 9754.981
  }
  {
-  coords 3251.479 -0.001 9746.582
+  coords 3257.085 0.053 9743.689
  }
  {
   coords 3209.128 0 9953.751
@@ -538,12 +590,13 @@ $grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/
   coords 3243.291 0 9739.428
  }
  {
-  coords 3184.224 0 9753.389
+  coords 3189.682 0 9755.85
+  angles 0 -2.449 0
  }
  {
-  coords 3184.203 -0 9769.012
+  coords 3184.203 0 9769.012
  }
  {
-  coords 3183.857 -0 9735.841
+  coords 3183.857 0 9735.841
  }
 }

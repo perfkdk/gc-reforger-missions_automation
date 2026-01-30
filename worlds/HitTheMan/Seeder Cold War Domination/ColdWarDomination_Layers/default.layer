@@ -496,7 +496,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Kamoryn Start"
    m_instructions {
     TILW_SpawnPrefabInstruction "{687AB838D4533278}" {
-     m_prefab "{F154A07B3B81809C}worlds/HitTheMan/Seeder Domination/Prefabs/Objectives/Kamoryn_Objective.et"
+     m_prefab "{F154A07B3B81809C}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/Kamoryn_Objective.et"
      m_locationName "Kamoryn"
      m_setEntityName "Obj_Trigger"
     }
@@ -596,7 +596,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Nova Olesov Start"
    m_instructions {
     TILW_SpawnPrefabInstruction "{687B64087B36D757}" {
-     m_prefab "{63248461A25A5C86}worlds/HitTheMan/Seeder Domination/Prefabs/Objectives/NovaOlesov_Objective.et"
+     m_prefab "{63248461A25A5C86}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/NovaOlesov_Objective.et"
      m_locationName "NovaOlesov"
      m_setEntityName "NovaOlesov_Objective"
     }
@@ -698,7 +698,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Brambledeep Start"
    m_instructions {
     TILW_SpawnPrefabInstruction "{687C931C8B18EA4B}" {
-     m_prefab "{63248461A25A5C86}worlds/HitTheMan/Seeder Domination/Prefabs/Objectives/NovaOlesov_Objective.et"
+     m_prefab "{63248461A25A5C86}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/NovaOlesov_Objective.et"
      m_locationName "Brambledeep"
      m_setEntityName "Brambledeep_Objective"
     }
@@ -810,7 +810,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB873FFE7601A}" {
      m_executionDelay 300
-     m_prefab "{8A558F1D9D549409}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/BRDM2_AFRF1.et"
+     m_prefab "{8A558F1D9D549409}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/BRDM2_AFRF1.et"
      m_locationName "RespRec1"
      m_setEntityName "BRDM2_AFRF1"
     }
@@ -844,7 +844,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB86840613E45}" {
      m_executionDelay 300
-     m_prefab "{E601BBFD21901B27}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/BRDM2_AFRF2.et"
+     m_prefab "{E601BBFD21901B27}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/BRDM2_AFRF2.et"
      m_locationName "RespRec2"
      m_setEntityName "BRDM2_AFRF2"
     }
@@ -878,7 +878,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB87212F86BFB}" {
      m_executionDelay 300
-     m_prefab "{84B25D6099DFC1EB}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Ural4320_engineer_camo1.et"
+     m_prefab "{84B25D6099DFC1EB}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Ural4320_engineer_camo1.et"
      m_locationName "RespEngi1"
      m_setEntityName "Ural4320_engineer_camo1"
     }
@@ -912,7 +912,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B644356538D2F}" {
      m_executionDelay 300
-     m_prefab "{E8E66980251B4EC5}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Ural4320_engineer_camo2.et"
+     m_prefab "{E8E66980251B4EC5}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Ural4320_engineer_camo2.et"
      m_locationName "RespEngi2"
      m_setEntityName "Ural4320_engineer_camo2"
     }
@@ -946,7 +946,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB872F41E2E26}" {
      m_executionDelay 300
-     m_prefab "{97A7F55013440D7B}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Ural4320_repair1.et"
+     m_prefab "{97A7F55013440D7B}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Ural4320_repair1.et"
      m_locationName "RespRep1"
      m_setEntityName "Ural4320_repair1"
     }
@@ -980,7 +980,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB87296B71EC1}" {
      m_executionDelay 300
-     m_prefab "{FBF3C1B0AF808255}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Ural4320_repair2.et"
+     m_prefab "{FBF3C1B0AF808255}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Ural4320_repair2.et"
      m_locationName "RespRep2"
      m_setEntityName "Ural4320_repair2"
     }
@@ -1014,7 +1014,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB872B5F4B6BC}" {
      m_executionDelay 300
-     m_prefab "{BD38E9857D9FD3BF}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Ural4320_tanker1.et"
+     m_prefab "{BD38E9857D9FD3BF}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Ural4320_tanker1.et"
      m_locationName "RespFuel1"
      m_setEntityName "Ural4320_tanker1"
     }
@@ -1048,7 +1048,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB871598CB7EC}" {
      m_executionDelay 300
-     m_prefab "{D16CDD65C15B5C91}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Ural4320_tanker2.et"
+     m_prefab "{D16CDD65C15B5C91}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Ural4320_tanker2.et"
      m_locationName "RespFuel2"
      m_setEntityName "Ural4320_tanker2"
     }
@@ -1090,7 +1090,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB8717CFE8DD5}" {
      m_executionDelay 305
-     m_prefab "{492A9AFC52544091}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Ural4320_command1.et"
+     m_prefab "{492A9AFC52544091}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Ural4320_command1.et"
      m_locationName "RespCom1"
      m_setEntityName "Ural4320_command1"
     }
@@ -1124,7 +1124,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB87117E31E1E}" {
      m_executionDelay 300
-     m_prefab "{F13543CFDF68E714}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base1.et"
+     m_prefab "{F13543CFDF68E714}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base1.et"
      m_locationName "RespBMP1"
      m_setEntityName "BMP1_base1"
     }
@@ -1158,7 +1158,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB871CDF088E5}" {
      m_executionDelay 300
-     m_prefab "{9D61772F63AC683A}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base2.et"
+     m_prefab "{9D61772F63AC683A}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base2.et"
      m_locationName "RespBMP2"
      m_setEntityName "BMP1_base2"
     }
@@ -1192,7 +1192,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB871FE000D9B}" {
      m_executionDelay 300
-     m_prefab "{78FD3BD66F49FF51}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base3.et"
+     m_prefab "{78FD3BD66F49FF51}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base3.et"
      m_locationName "RespBMP3"
      m_setEntityName "BMP1_base3"
     }
@@ -1226,7 +1226,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB871E9D563D0}" {
      m_executionDelay 300
-     m_prefab "{45C91EEE1A257666}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base4.et"
+     m_prefab "{45C91EEE1A257666}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base4.et"
      m_locationName "RespBMP4"
      m_setEntityName "BMP1_base4"
     }
@@ -1260,7 +1260,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB8718D17B3CD}" {
      m_executionDelay 300
-     m_prefab "{A055521716C0E10D}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base5.et"
+     m_prefab "{A055521716C0E10D}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base5.et"
      m_locationName "RespBMP5"
      m_setEntityName "BMP1_base5"
     }
@@ -1294,7 +1294,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB871B87642CD}" {
      m_executionDelay 300
-     m_prefab "{CC0166F7AA046E23}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base6.et"
+     m_prefab "{CC0166F7AA046E23}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base6.et"
      m_locationName "RespBMP6"
      m_setEntityName "BMP1_base6"
     }
@@ -1328,7 +1328,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB871AB66ACE2}" {
      m_executionDelay 300
-     m_prefab "{299D2A0EA6E1F948}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base7.et"
+     m_prefab "{299D2A0EA6E1F948}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BMP1_base7.et"
      m_locationName "RespBMP7"
      m_setEntityName "BMP1_base7"
     }
@@ -1362,7 +1362,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB8706D2B9653}" {
      m_executionDelay 300
-     m_prefab "{6C6F4A437A23E41D}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR1.et"
+     m_prefab "{6C6F4A437A23E41D}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR1.et"
      m_locationName "RespBTR1"
      m_setEntityName "BTR70_USSR1"
     }
@@ -1396,7 +1396,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB8700101651B}" {
      m_executionDelay 300
-     m_prefab "{003B7EA3C6E76B33}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR2.et"
+     m_prefab "{003B7EA3C6E76B33}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR2.et"
      m_locationName "RespBTR2"
      m_setEntityName "BTR70_USSR2"
     }
@@ -1430,7 +1430,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB87031B8C387}" {
      m_executionDelay 300
-     m_prefab "{E5A7325ACA02FC58}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR3.et"
+     m_prefab "{E5A7325ACA02FC58}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR3.et"
      m_locationName "RespBTR3"
      m_setEntityName "BTR70_USSR3"
     }
@@ -1464,7 +1464,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB870212B1812}" {
      m_executionDelay 300
-     m_prefab "{D8931762BF6E756F}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR4.et"
+     m_prefab "{D8931762BF6E756F}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR4.et"
      m_locationName "RespBTR4"
      m_setEntityName "BTR70_USSR4"
     }
@@ -1498,7 +1498,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB870CFCE3381}" {
      m_executionDelay 300
-     m_prefab "{3D0F5B9BB38BE204}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR5.et"
+     m_prefab "{3D0F5B9BB38BE204}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR5.et"
      m_locationName "RespBTR5"
      m_setEntityName "BTR70_USSR5"
     }
@@ -1532,7 +1532,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB870F90713A1}" {
      m_executionDelay 300
-     m_prefab "{515B6F7B0F4F6D2A}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR6.et"
+     m_prefab "{515B6F7B0F4F6D2A}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR6.et"
      m_locationName "RespBTR6"
      m_setEntityName "BTR70_USSR6"
     }
@@ -1566,7 +1566,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687AB870E9974AD2}" {
      m_executionDelay 300
-     m_prefab "{B4C7238203AAFA41}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR7.et"
+     m_prefab "{B4C7238203AAFA41}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/IFVAPC/BTR70_USSR7.et"
      m_locationName "RespBTR7"
      m_setEntityName "BTR70_USSR7"
     }
@@ -1600,7 +1600,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B646FFB0D7246}" {
      m_executionDelay 300
-     m_prefab "{2F1ED48D4BD955CD}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Mi8MT_armed1.et"
+     m_prefab "{2F1ED48D4BD955CD}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Mi8MT_armed1.et"
      m_locationName "RespHelo1"
      m_setEntityName "Mi8MT_armed1"
     }
@@ -1634,7 +1634,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B646FB4D615B3}" {
      m_executionDelay 300
-     m_prefab "{434AE06DF71DDAE3}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Mi8MT_armed2.et"
+     m_prefab "{434AE06DF71DDAE3}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Mi8MT_armed2.et"
      m_locationName "RespHelo2"
      m_setEntityName "Mi8MT_armed2"
     }
@@ -1668,7 +1668,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B6472DC0958B7}" {
      m_executionDelay 300
-     m_prefab "{CB49C72339173E4B}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_ambulance1.et"
+     m_prefab "{CB49C72339173E4B}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_ambulance1.et"
      m_locationName "RespAmbu1"
      m_setEntityName "UAZ452_ambulance1"
     }
@@ -1702,7 +1702,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B647353D27D83}" {
      m_executionDelay 300
-     m_prefab "{A71DF3C385D3B165}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_ambulance2.et"
+     m_prefab "{A71DF3C385D3B165}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_ambulance2.et"
      m_locationName "RespAmbu2"
      m_setEntityName "UAZ452_ambulance2"
     }
@@ -1736,7 +1736,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B647345599BD9}" {
      m_executionDelay 300
-     m_prefab "{EA5D00B07E63C9D2}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Transports/Ural_Truck_1.et"
+     m_prefab "{EA5D00B07E63C9D2}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/Ural_Truck_1.et"
      m_locationName "RespTruck1"
      m_setEntityName "Ural_Truck_1"
     }
@@ -1770,7 +1770,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B64732435F9B7}" {
      m_executionDelay 300
-     m_prefab "{86093450C2A746FC}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Transports/Ural_Truck_2.et"
+     m_prefab "{86093450C2A746FC}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/Ural_Truck_2.et"
      m_locationName "RespTruck2"
      m_setEntityName "Ural_Truck_2"
     }
@@ -1804,7 +1804,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B6473D554DBB3}" {
      m_executionDelay 300
-     m_prefab "{639578A9CE42D197}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Transports/Ural_Truck_3.et"
+     m_prefab "{639578A9CE42D197}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/Ural_Truck_3.et"
      m_locationName "RespTruck3"
      m_setEntityName "Ural_Truck_3"
     }
@@ -1838,7 +1838,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B6473FC901ABC}" {
      m_executionDelay 300
-     m_prefab "{4C5713E4CB88CB72}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_transport1.et"
+     m_prefab "{4C5713E4CB88CB72}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_transport1.et"
      m_locationName "RespUAZ1"
      m_setEntityName "UAZ452_transport1"
     }
@@ -1872,7 +1872,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B6470324FBFC2}" {
      m_executionDelay 300
-     m_prefab "{20032704774C445C}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_transport2.et"
+     m_prefab "{20032704774C445C}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_transport2.et"
      m_locationName "RespUAZ2"
      m_setEntityName "UAZ452_transport2"
     }
@@ -1906,7 +1906,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B6470262E5B53}" {
      m_executionDelay 300
-     m_prefab "{C59F6BFD7BA9D337}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_transport3.et"
+     m_prefab "{C59F6BFD7BA9D337}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_transport3.et"
      m_locationName "RespUAZ3"
      m_setEntityName "UAZ452_transport3"
     }
@@ -1940,7 +1940,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B6470D58C875E}" {
      m_executionDelay 300
-     m_prefab "{A35A8C337DD83646}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Transports/UAZ1.et"
+     m_prefab "{A35A8C337DD83646}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/UAZ1.et"
      m_locationName "RespUAZ4"
      m_setEntityName "UAZ1"
     }
@@ -1974,7 +1974,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B6470F36AB3CC}" {
      m_executionDelay 300
-     m_prefab "{CF0EB8D3C11CB968}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Transports/UAZ2.et"
+     m_prefab "{CF0EB8D3C11CB968}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/UAZ2.et"
      m_locationName "RespUAZ5"
      m_setEntityName "UAZ2"
     }
@@ -2008,7 +2008,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{687B647098F4E5F2}" {
      m_executionDelay 300
-     m_prefab "{2A92F42ACDF92E03}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Transports/UAZ3.et"
+     m_prefab "{2A92F42ACDF92E03}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/UAZ3.et"
      m_locationName "RespUAZ6"
      m_setEntityName "UAZ3"
     }
