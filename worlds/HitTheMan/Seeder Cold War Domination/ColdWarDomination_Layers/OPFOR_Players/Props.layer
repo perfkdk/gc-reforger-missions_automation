@@ -1,6 +1,6 @@
 $grp GenericEntity {
  TPMortar {
-  coords 2631.17 291.976 9470.095
+  coords 2931.979 288.873 9530.48
   angles 0 -9.195 0
  }
  TPHelicopters {
@@ -11,29 +11,596 @@ $grp GenericEntity {
   angles 0 -9.195 0
  }
 }
-GenericEntity : "{1A6F76E0028DE740}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_USSR_01.et" {
- coords 3261.372 285.852 9743.758
- angles 0 -46.338 0
+$grp GenericEntity : "{1A6F76E0028DE740}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_USSR_01.et" {
  {
-  GenericEntity {
-   ID "5D371ACBC8811EDA"
-   components {
-    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-     m_eSupportedArsenalItemTypes 1442686
+  coords 3261.372 285.852 9743.758
+  angles 0 -46.338 0
+  {
+   GenericEntity {
+    ID "5D371ACBC8811EDA"
+    components {
+     SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+      m_eSupportedArsenalItemTypes 1442686
+     }
+    }
+   }
+   GenericEntity {
+    ID "5D82CDCA0B582A12"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+       }
+      }
+     }
+    }
+    {
+     GenericEntity {
+      ID "5D82CDCA1C3D1199"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D11E2"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D11ED"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D11E5"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D11E7"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D119C"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D119E"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D1190"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D1191"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D11E0"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
     }
    }
   }
-  GenericEntity {
-   ID "5D82CDCA0B582A12"
-   components {
-    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-     m_aContainers {
-      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-       m_fResourceValueCurrent 10000000000
-       m_fResourceValueMax 10000000000
-       m_bEnableResourceGain 1
-       m_fResourceGain 10000
-       m_fResourceGainTickrate 1
+ }
+ {
+  coords 3186.135 286.187 9753.484
+  angles 0 91.713 0
+  {
+   GenericEntity {
+    ID "5D371ACBC8811EDA"
+    components {
+     SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+      m_eSupportedArsenalItemTypes 5636990
+      m_eSupportedArsenalItemModes 510
+     }
+    }
+   }
+   GenericEntity {
+    ID "5D82CDCA0B582A12"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aContainers {
+       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+       }
+      }
+     }
+    }
+    {
+     GenericEntity {
+      ID "5D82CDCA1C3D1199"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D11E2"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D11ED"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D11E5"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D11E7"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D119C"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D119E"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D1190"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D1191"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D82CDCA1C3D11E0"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
       }
      }
     }
@@ -43,9 +610,6 @@ GenericEntity : "{1A6F76E0028DE740}Prefabs/Compositions/Misc/SubCompositions/Sto
 }
 GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_USSR_01.et" {
  components {
-  SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
-   Enabled 0
-  }
   SCR_ResourceComponent "{648D00E179F27EE2}" {
    m_aContainers {
     SCR_ResourceContainer "{687AB81ACADB05CD}" {
@@ -71,11 +635,143 @@ GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/Ve
     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
      m_aContainers {
       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-       m_fResourceValueCurrent 10000000000
-       m_fResourceValueMax 10000000000
-       m_bEnableResourceGain 1
-       m_fResourceGain 10000
-       m_fResourceGainTickrate 1
+      }
+     }
+    }
+   }
+   {
+    GenericEntity {
+     ID "5D45393AE7819CB9"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393AE7819C87"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393AE7819CB2"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393AE7819C85"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393AE7819CBC"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
       }
      }
     }
@@ -89,6 +785,202 @@ GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/Ve
     }
     SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
      Enabled 0
+    }
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 1
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{4510C273B794F3A9}Prefabs/Compositions/Slotted/SlotFlatMedium/VehicleMaintenance_M_USSR_01.et" {
+ components {
+  SCR_ResourceComponent "{615F443A84FF250B}" {
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{615F443A8835FA50}" {
+     m_fResourceRange 200
+    }
+   }
+  }
+ }
+ coords 3169.457 286.187 9664.878
+ angles 0 130.881 0
+ {
+  GenericEntity {
+   ID "5D45393C2BCAFA5E"
+   {
+    GenericEntity {
+     ID "5D45393CBA8CFC49"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393CBA8CFC4A"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393CBA8CFC47"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393CBA8CFC7C"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393CBA8CFC42"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D22B94164F546B2"
+   components {
+    SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+     m_aBudgetsToEvaluate {
+      SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF07CF4F67DF8CE}" {
+       m_eBudget RANK_PRIVATE
+      }
+      SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF07CF4EBDEB7E3}" {
+       m_eBudget RANK_PRIVATE
+      }
+      SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CEBC3C55B}" {
+       m_eBudget RANK_PRIVATE
+      }
+      SCR_CampaignBuildingRankBudgetToEvaluateData "{60E4C8BB029BE544}" {
+       m_eBudget RANK_PRIVATE
+      }
+      SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CE2EE6793}" {
+       m_eBudget RANK_PRIVATE
+      }
+      SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CDCB0E4C1}" {
+       m_eBudget RANK_PRIVATE
+      }
+      SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CD6CA8F4B}" {
+       m_eBudget RANK_PRIVATE
+      }
+     }
+    }
+    SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
+     m_aAllowedLabels {
+      VEHICLE_CAR
+      VEHICLE_TRUCK
+      VEHICLE_APC
+      VEHICLE_TANK
+     }
     }
    }
   }
@@ -120,10 +1012,29 @@ $grp GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLar
     ID "630888952640AD64"
     components {
      SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
-      Enabled 0
-     }
-     SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
-      Enabled 0
+      m_aBudgetsToEvaluate {
+       SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF07CF4F67DF8CE}" {
+        m_eBudget RANK_PRIVATE
+       }
+       SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF07CF4EBDEB7E3}" {
+        m_eBudget RANK_PRIVATE
+       }
+       SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CEBC3C55B}" {
+        m_eBudget RANK_PRIVATE
+       }
+       SCR_CampaignBuildingRankBudgetToEvaluateData "{60E4C8BB029BE544}" {
+        m_eBudget RANK_PRIVATE
+       }
+       SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CE2EE6793}" {
+        m_eBudget RANK_PRIVATE
+       }
+       SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CDCB0E4C1}" {
+        m_eBudget RANK_PRIVATE
+       }
+       SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CD6CA8F4B}" {
+        m_eBudget RANK_PRIVATE
+       }
+      }
      }
     }
    }
@@ -133,11 +1044,62 @@ $grp GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLar
      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
       m_aContainers {
        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-        m_fResourceValueCurrent 10000000000
-        m_fResourceValueMax 10000000000
-        m_bEnableResourceGain 1
-        m_fResourceGain 10000
-        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+    {
+     GenericEntity {
+      ID "63068252F4453DE2"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "63068252F4453DFD"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
        }
       }
      }
@@ -168,14 +1130,6 @@ $grp GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLar
   {
    GenericEntity {
     ID "630888952640AD64"
-    components {
-     SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
-      Enabled 0
-     }
-     SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
-      Enabled 0
-     }
-    }
    }
    GenericEntity {
     ID "63088895F4E00DE9"
@@ -183,11 +1137,62 @@ $grp GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLar
      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
       m_aContainers {
        SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-        m_fResourceValueCurrent 10000000000
-        m_fResourceValueMax 10000000000
-        m_bEnableResourceGain 1
-        m_fResourceGain 10000
-        m_fResourceGainTickrate 1
+       }
+      }
+     }
+    }
+    {
+     GenericEntity {
+      ID "63068252F4453DE2"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "63068252F4453DFD"
+      components {
+       SCR_ResourceComponent "{5D247A59598D71AE}" {
+        m_aContainers {
+         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+          m_fResourceValueCurrent 0
+          m_fResourceValueMax 0
+          m_fResourceGainTickrate 0
+          m_fResourceDecay 0
+          m_fResourceDecayTickrate 0
+          m_fResourceDecayTimeout 0
+         }
+        }
+        m_aConsumers {
+         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+          m_fResourceRange 200
+         }
+        }
+        m_aGenerators {
+         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+          m_fStorageRange 200
+         }
+        }
        }
       }
      }
@@ -245,7 +1250,8 @@ $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPo
   }
  }
  {
-  coords 2630.941 292.036 9469.141
+  coords 2932.57 288.875 9528.966
+  angles 0 -1.683 0
   {
    GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
     components {
@@ -337,10 +1343,6 @@ GenericEntity : "{73604060A04CBB85}Prefabs/Compositions/Slotted/SlotFlatSmall/Fu
      m_aContainers {
       SCR_ResourceContainer "{687AB866736170FC}" {
        m_eResourceRights ALL
-       m_fResourceValueCurrent 1000000000
-       m_fResourceValueMax 1000000000
-       m_fResourceGain 1000
-       m_fResourceGainTickrate 1
       }
      }
     }
@@ -358,11 +1360,305 @@ GenericEntity : "{763B4200BE49686E}Prefabs/Compositions/Misc/SubCompositions/Sto
     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
      m_aContainers {
       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-       m_fResourceValueCurrent 10000000000
-       m_fResourceValueMax 10000000000
-       m_bEnableResourceGain 1
-       m_fResourceGain 10000
-       m_fResourceGainTickrate 1
+      }
+     }
+    }
+   }
+   {
+    GenericEntity {
+     ID "5D82CDCA6C7DA631"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D82CDCA6C7D1880"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D82CDCA6C7D188E"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D82CDCA6C7DA632"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D82CDCA6C7DA633"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D82CDCA6C7DA60D"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D82CDCA6C7DA63E"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D82CDCA6C7D1883"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D82CDCA6C7DA635"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D82CDCA6C7DE2AF"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D82CDCA6C7DA634"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 0
+         m_fResourceValueMax 0
+         m_fResourceGainTickrate 0
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 200
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 200
+        }
+       }
       }
      }
     }
@@ -372,8 +1668,8 @@ GenericEntity : "{763B4200BE49686E}Prefabs/Compositions/Misc/SubCompositions/Sto
 }
 $grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubCompositions/Foundation_Mortar_USSR.et" {
  {
-  coords 2610.313 292.339 9433.898
-  angles 0 167.773 0
+  coords 2910.723 289.147 9492.719
+  angles 0 168.623 0
   {
    GenericEntity {
     ID "60B8D36A59BEEA13"
@@ -382,12 +1678,16 @@ $grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubComposition
       m_aContainers {
        SCR_ResourceContainer "{687AB81BD3C3C45E}" {
         m_eResourceRights ALL
-        m_eStorageType STORED
-        m_fResourceValueCurrent 10000000
-        m_fResourceValueMax 10000000
-        m_bEnableResourceGain 1
-        m_fResourceGain 1000
-        m_fResourceGainTickrate 1
+       }
+      }
+      m_aConsumers {
+       SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+        m_fResourceRange 600
+       }
+      }
+      m_aGenerators {
+       SCR_ResourceGeneratorServicePoint "{5E5AD30768BBE3D1}" {
+        m_fStorageRange 0
        }
       }
      }
@@ -396,22 +1696,26 @@ $grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubComposition
   }
  }
  {
-  coords 2663.288 291.785 9445.013
-  angles 0 167.092 0
+  coords 2963.926 288.625 9503.429
+  angles 0 168.623 0
   {
    GenericEntity {
     ID "60B8D36A59BEEA13"
     components {
      SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
       m_aContainers {
-       SCR_ResourceContainer "{687AB81B22A4C187}" {
+       SCR_ResourceContainer "{687AB81BD3C3C45E}" {
         m_eResourceRights ALL
-        m_eStorageType STORED
-        m_fResourceValueCurrent 10000000
-        m_fResourceValueMax 10000000
-        m_bEnableResourceGain 1
-        m_fResourceGain 1000
-        m_fResourceGainTickrate 1
+       }
+      }
+      m_aConsumers {
+       SCR_ResourceConsumerServicePoint "{5E5ABDF28A4FEC1F}" {
+        m_fResourceRange 600
+       }
+      }
+      m_aGenerators {
+       SCR_ResourceGeneratorServicePoint "{5E5AD30768BBE3D1}" {
+        m_fStorageRange 0
        }
       }
      }
@@ -537,11 +1841,110 @@ $grp GenericEntity : "{D5DCF3520C2A8C41}Prefabs/Props/Furniture/Flipchart_01/Fli
         m_singleUse 0
         m_flagName "Rainy"
        }
+       TILW_BaseInteraction "{687D50C4E5603A73}" {
+        ParentContextList {
+         "Interact_A"
+        }
+        ActionTitle "Supply"
+        Duration 3
+        m_actionName "Supply"
+        m_singleUse 0
+        m_flagName "Supply"
+       }
       }
      }
     }
     coords -0.012 1.27 0.109
     angles 0 91.055 0
+   }
+  }
+ }
+}
+GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+ coords 3215.698 285.999 9834.146
+ angles 0 -28.705 0
+ {
+  GenericEntity {
+   ID "62EACD0CC8BFE73D"
+   {
+    GenericEntity {
+     ID "62F4A41DAC20435A"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 1000
+         m_fResourceValueMax 10000
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 50
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 600
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "62F4A41DAC20AB94"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 1000
+         m_fResourceValueMax 10000
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 50
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 600
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "62F4A41DAC20AB9A"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 1000
+         m_fResourceValueMax 10000
+         m_fResourceDecay 0
+         m_fResourceDecayTickrate 0
+         m_fResourceDecayTimeout 0
+        }
+       }
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fResourceRange 50
+        }
+       }
+       m_aGenerators {
+        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
+         m_fStorageRange 600
+        }
+       }
+      }
+     }
+    }
    }
   }
  }
@@ -566,16 +1969,20 @@ $grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/
   coords 3209.119 0 9959.858
  }
  {
-  coords 2628.686 0 9467.907
+  coords 2930.352 -0.006 9527.667
+  angles -1.193 -1.708 1.194
  }
  {
-  coords 2633.406 0 9468.848
+  coords 2935.042 -0.001 9528.745
+  angles 0 -1.683 0
  }
  {
-  coords 2661.453 0 9448.863
+  coords 2962.079 -0.013 9506.928
+  angles 0 0.845 1.194
  }
  {
-  coords 2608.038 0 9437.683
+  coords 2908.504 0 9496.536
+  angles 0 0.845 0
  }
  {
   coords 3243.427 0 9696.967
@@ -598,5 +2005,9 @@ $grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/
  }
  {
   coords 3183.857 0 9735.841
+ }
+ {
+  coords 3189.494 0 9750.766
+  angles 0 -2.449 0
  }
 }

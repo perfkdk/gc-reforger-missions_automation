@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B0CDB844EA825147}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/TPTruck.et"
+ Name "{A1255A806A8303B2}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/HTMTransportBox.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
