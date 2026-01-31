@@ -151,7 +151,7 @@ Tank BMP1_base4 : "{45C91EEE1A257666}worlds/HitTheMan/Seeder Cold War Domination
  m_sAttachmentGroupName "Rifle4"
 }
 Vehicle Ural4320_command1 : "{492A9AFC52544091}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Ural4320_command1.et" {
- coords 3241.049 286.094 9757.251
+ coords 3215.558 286.094 9682.692
  angles 0 -90.345 0
 }
 Vehicle UAZ452_transport1 : "{4C5713E4CB88CB72}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_transport1.et" {
@@ -169,6 +169,15 @@ Vehicle BTR70_USSR6 : "{515B6F7B0F4F6D2A}worlds/HitTheMan/Seeder Cold War Domina
  m_sAttachmentGroupName "Rifle5"
 }
 Vehicle Ural_Truck_3 : "{639578A9CE42D197}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/Ural_Truck_3.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{A1255A806A8303B2}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/HTMTransportBox.et"
+    }
+   }
+  }
+ }
  coords 3187.166 286.156 9713.875
  angles 0 89.751 0
 }
@@ -446,6 +455,15 @@ Vehicle Ural4320_engineer_camo1 : "{84B25D6099DFC1EB}worlds/HitTheMan/Seeder Col
  m_sAttachmentGroupName "Engineers"
 }
 Vehicle Ural_Truck_2 : "{86093450C2A746FC}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/Ural_Truck_2.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{A1255A806A8303B2}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/HTMTransportBox.et"
+    }
+   }
+  }
+ }
  coords 3187.146 286.156 9718.3
  angles 0 89.751 0
 }
@@ -599,6 +617,15 @@ Vehicle Ural4320_engineer_camo2 : "{E8E66980251B4EC5}worlds/HitTheMan/Seeder Col
  m_sAttachmentGroupName "Engineers"
 }
 Vehicle Ural_Truck_1 : "{EA5D00B07E63C9D2}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/Ural_Truck_1.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{A1255A806A8303B2}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/HTMTransportBox.et"
+    }
+   }
+  }
+ }
  coords 3187.127 286.156 9722.714
  angles 0 89.751 0
 }
@@ -613,6 +640,15 @@ Tank BMP1_base1 : "{F13543CFDF68E714}worlds/HitTheMan/Seeder Cold War Domination
  m_sAttachmentGroupName "Rifle1"
 }
 Vehicle Ural4320_repair2 : "{FBF3C1B0AF808255}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Ural4320_repair2.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo RepairBox {
+     Prefab "{45E97217EF522043}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/HTMRepairingBox.et"
+    }
+   }
+  }
+ }
  coords 3186.695 286.187 9789.353
  angles 0 89.366 0
  m_sAttachmentGroupName "Engineers"

@@ -162,6 +162,72 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
       m_sCallsignCharacterFormat "%1%2%3%4"
       m_sCallsignCharacterWithRoleFormat "%1%2%3 %4"
      }
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{5C9E82F285C09E24}" {
+       m_aMultiLists {
+        SCR_EntityCatalogMultiListEntry "{605697836F02AFD9}" {
+         m_aEntities {
+          SCR_EntityCatalogEntry "{5D2348264EB93241}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{6052F486C1803290}" {
+             m_eValidEditorModes 33
+            }
+            SCR_EntityCatalogSpawnerData "{5D247326389CD3ED}" {
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalog "{5C68A0E9A51460AB}" {
+       m_aEntityEntryList {
+        SCR_EntityCatalogEntry "{5C54F92F74CEE665}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{605697813CAC7EDA}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{605EC3F4D33395C6}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{605EC7F8A3639B48}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{652F72074EAE1015}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{605EC7F8AF736074}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{65FEA1E0A80FA1B7}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{65FEA1E0A80FA147}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{65FEA1E0B9C8B17F}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{65FEA1E0B9C8BEB7}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{687D50EF8069AFB8}" {
+         m_sEntityPrefab "{130214331292D6B5}Prefabs/Weapons/Tripods/Tripod_SPG9.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{687D50EF8069AC72}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+       }
+      }
+     }
     }
     SCR_Faction "{64AA098AEA5B1498}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{64AA098204A61453}" {
@@ -233,7 +299,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  coords 3720.089 354.787 1640.119
  angles 0 0 -3.576
  m_missionEvents {
-  TILW_MissionEvent "{673F20E5B28861BC}" {
+  TILW_MissionEvent "{687D50CAE814754C}" {
    m_name "-----------------------------"
   }
   TILW_MissionEvent "{687AB8015F82E81E}" {
@@ -288,6 +354,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Time - 0650"
    m_instructions {
     TILW_ChangeTimeInstruction "{687AB81D75EBB3B0}" {
+     m_executionDelay 1
      m_iHours 6
      m_iMinutes 50
     }
@@ -300,6 +367,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Time - 1200"
    m_instructions {
     TILW_ChangeTimeInstruction "{687AB81D65F6223C}" {
+     m_executionDelay 1
      m_iHours 12
     }
    }
@@ -311,6 +379,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Time - 1945"
    m_instructions {
     TILW_ChangeTimeInstruction "{687AB81D18D7AFE8}" {
+     m_executionDelay 1
      m_iHours 19
      m_iMinutes 45
     }
@@ -323,6 +392,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Time - 2050"
    m_instructions {
     TILW_ChangeTimeInstruction "{687AB81D0840747D}" {
+     m_executionDelay 1
      m_iHours 20
      m_iMinutes 50
     }
@@ -335,6 +405,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Time - 0000"
    m_instructions {
     TILW_ChangeTimeInstruction "{687AB81D009B11F8}" {
+     m_executionDelay 1
      m_iHours 0
     }
    }
@@ -365,7 +436,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SetFlagInstruction "{687C9302CFF06093}" {
      m_executionDelay 60
-     m_flagName "Brambledeep"
+     m_flagName "Kamoryn"
     }
     TILW_SendMessageInstruction "{687C9302AEAD9265}" {
      m_executionDelay 30
@@ -518,6 +589,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Kamoryn Start"
    m_instructions {
     TILW_SpawnPrefabInstruction "{687AB838D4533278}" {
+     m_executionDelay 1
+     m_prefab "{40008B98A9DD6225}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Rewards/DeleteAllObjectiveSupplies.et"
+     m_locationName "Kamoryn"
+     m_setEntityName "DeleteAllObjectiveSupplies"
+    }
+    TILW_DeleteEntitiesInstruction "{687EA1BB6088EEBB}" {
+     m_executionDelay 1
+     m_entityNames {
+      "DeleteAllObjectiveSupplies"
+      "Obj_Trigger"
+     }
+    }
+    TILW_SpawnPrefabInstruction "{687EA1BE9F76C57D}" {
      m_prefab "{F0D32066BDBE2A48}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/Kamoryn_Objective.et"
      m_locationName "Kamoryn"
      m_setEntityName "Obj_Trigger"
@@ -546,12 +630,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{687AB82382FCD85D}" {
    m_name "Kamoryn End"
    m_instructions {
-    TILW_SetFlagInstruction "{687AB82264EF0FEF}" {
-     m_flagName "ClearAI"
-    }
-    TILW_ClearFlagInstruction "{687AB8221487679E}" {
-     m_executionDelay 8
-     m_flagName "ClearAI"
+    TILW_SpawnPrefabInstruction "{687EA1B84E0602B5}" {
+     m_executionDelay 1
+     m_prefab "{3D54A6583D027631}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/DeleteAllAIBodies.et"
+     m_locationName "Kamoryn"
+     m_setEntityName "DeleteAllAIBodies"
     }
     TILW_ClearFlagInstruction "{687AB82382FCD822}" {
      m_executionDelay 8
@@ -576,12 +659,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_DeleteEntitiesInstruction "{687AB83AB5D565DE}" {
      m_executionDelay 2
      m_entityNames {
-      "Obj_Trigger"
       "AODraw"
       "ContactTrigger"
-      "Kamoryn_Objective"
       "Antenna"
       "AntennaMarker"
+      "DeleteAllAIBodies"
       "VehicleSpawner_1"
       "VehicleSpawner_2"
       "VehicleSpawner_3"
@@ -743,6 +825,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Nova Olesov Start"
    m_instructions {
     TILW_SpawnPrefabInstruction "{687B64087B36D757}" {
+     m_executionDelay 1
+     m_prefab "{40008B98A9DD6225}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Rewards/DeleteAllObjectiveSupplies.et"
+     m_locationName "NovaOlesov"
+     m_setEntityName "DeleteAllObjectiveSupplies"
+    }
+    TILW_SpawnPrefabInstruction "{687EA1B96D8324E7}" {
      m_prefab "{9133578238B7E12C}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/NovaOlesov_Objective.et"
      m_locationName "NovaOlesov"
      m_setEntityName "NovaOlesov_Objective"
@@ -771,12 +859,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{687B64087DCC980E}" {
    m_name "Nova Olesov End"
    m_instructions {
-    TILW_SetFlagInstruction "{687B64087DCC9B8F}" {
-     m_flagName "ClearAI"
-    }
-    TILW_ClearFlagInstruction "{687B64087DCC9B92}" {
-     m_executionDelay 8
-     m_flagName "ClearAI"
+    TILW_SpawnPrefabInstruction "{687EA1B867AAE27E}" {
+     m_executionDelay 1
+     m_prefab "{3D54A6583D027631}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/DeleteAllAIBodies.et"
+     m_locationName "NovaOlesov"
+     m_setEntityName "DeleteAllAIBodies"
     }
     TILW_ClearFlagInstruction "{687B64087DCC9B93}" {
      m_executionDelay 8
@@ -807,6 +894,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "Kamoryn_Objective"
       "Antenna"
       "AntennaMarker"
+      "DeleteAllObjectiveSupplies"
+      "DeleteAllAIBodies"
       "VehicleSpawner_1"
       "VehicleSpawner_2"
       "VehicleSpawner_3"
@@ -968,6 +1057,12 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "Brambledeep Start"
    m_instructions {
     TILW_SpawnPrefabInstruction "{687C931C8B18EA4B}" {
+     m_executionDelay 1
+     m_prefab "{40008B98A9DD6225}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Rewards/DeleteAllObjectiveSupplies.et"
+     m_locationName "Brambledeep"
+     m_setEntityName "DeleteAllObjectiveSupplies"
+    }
+    TILW_SpawnPrefabInstruction "{687EA1B96A71B732}" {
      m_prefab "{E758F729F4852AF6}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/Brambledeep_Objective.et"
      m_locationName "Brambledeep"
      m_setEntityName "Brambledeep_Objective"
@@ -996,12 +1091,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{687C931C862DE581}" {
    m_name "Brambledeep End"
    m_instructions {
-    TILW_SetFlagInstruction "{687C931C862DE503}" {
-     m_flagName "ClearAI"
-    }
-    TILW_ClearFlagInstruction "{687C931C862DE53D}" {
-     m_executionDelay 8
-     m_flagName "ClearAI"
+    TILW_SpawnPrefabInstruction "{687EA1B809E8C111}" {
+     m_executionDelay 1
+     m_prefab "{3D54A6583D027631}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/DeleteAllAIBodies.et"
+     m_locationName "Brambledeep"
+     m_setEntityName "DeleteAllAIBodies"
     }
     TILW_ClearFlagInstruction "{687C931C862DE53C}" {
      m_executionDelay 8
@@ -1032,6 +1126,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "Kamoryn_Objective"
       "Antenna"
       "AntennaMarker"
+      "DeleteAllObjectiveSupplies"
+      "DeleteAllAIBodies"
       "VehicleSpawner_1"
       "VehicleSpawner_2"
       "VehicleSpawner_3"
