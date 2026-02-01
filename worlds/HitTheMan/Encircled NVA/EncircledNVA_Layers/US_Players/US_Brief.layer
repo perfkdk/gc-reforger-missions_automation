@@ -128,22 +128,119 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 4
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{C7A59DCCFF7BF19F}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Base.et" {
+$grp SCR_DestructibleBuildingEntity : "{4266901113B35A98}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_yellow.et" {
  {
-  coords 6089.81 0.677 5348.036
-  angles 0 32.796 0
+  coords 6051.074 1.743 5295.228
+  angles 0 -57.444 0
  }
  {
-  coords 6051.283 0.453 5295.267
-  angles 0 -57.385 0
+  coords 6093.498 1.727 5269.468
+  angles 0 -58.623 0
  }
  {
-  coords 6094.014 0.728 5269.051
-  angles 0 -57.385 0
+  coords 6141.065 1.593 5307.507
+  angles 0 -58.623 0
  }
  {
-  coords 6140.831 1.905 5307.156
-  angles 0 -57.385 0
+  coords 6089.617 2.125 5348.112
+  angles 0 31.74 0
+ }
+}
+$grp SCR_DestructibleEntity : "{5326C298427D91A3}PrefabLibrary/DefaultLibrary/Walls/Metal/TinWall_01_3m.et" {
+ {
+  coords 6122.28 10.871 5302.982
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6112.889 10.871 5287.473
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6116.574 10.871 5293.559
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6097.589 10.828 5285.152
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6104.901 10.828 5297.226
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6112.113 10.828 5309.138
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6090.632 10.828 5273.664
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6093.862 10.781 5303.91
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6101.074 10.781 5315.822
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6079.593 10.781 5280.348
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6086.55 10.781 5291.836
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6084.021 10.739 5309.869
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6091.234 10.739 5321.78
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6069.752 10.739 5286.307
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6076.709 10.739 5297.794
+  angles -89.792 121.196 -180
+  scale 4.697
+ }
+ {
+  coords 6085.485 10.424 5346.066
+  angles -83.681 33.51 -1.881
+  scale 2.396
+ }
+ {
+  coords 6140.304 10.337 5313.808
+  angles -81.156 121.124 -0.002
+  scale 2.396
+ }
+ {
+  coords 6093.852 10.444 5274.889
+  angles -81.93 121.124 -0.002
+  scale 2.396
+ }
+ {
+  coords 6053.226 10.366 5291.421
+  angles -78.864 -58.398 -0.007
+  scale 2.396
  }
 }
 GenericEntity : "{CD62E36CFDCB8FD8}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Equipment_01_USSR.et" {
@@ -166,6 +263,18 @@ GenericEntity : "{CD62E36CFDCB8FD8}Prefabs/Props/Military/AmmoBoxes/USSR/Equipme
      }
      NumSlots 50
     }
+    MultiSlotConfiguration "{688207BE31AC9246}" {
+     SlotTemplate InventoryStorageSlot Sandbags {
+      Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{688207BE28A9D86B}" {
+     SlotTemplate InventoryStorageSlot Sandbags {
+      Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+     }
+     NumSlots 30
+    }
    }
   }
   ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -175,6 +284,6 @@ GenericEntity : "{CD62E36CFDCB8FD8}Prefabs/Props/Military/AmmoBoxes/USSR/Equipme
    Enabled 1
   }
  }
- coords 6981.191 62.018 4800.11
+ coords 6963.847 61.879 4810.415
  angles 0 -59.859 0
 }
