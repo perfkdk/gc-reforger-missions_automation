@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 2730.995 5.733 857.363
   m_sTitle "Enemy"
-  m_sTextData "Mechanised infantry platoon with Bradley fighting vehicles forming up to our east. "\
+  m_sTextData "Mechanised infantry platoon with M113s and Bradley fighting vehicles forming up to our east. "\
   "Expect them to attack in the direction of Torske."
   m_aVisibleForFactions {
    "USSR"
@@ -23,7 +23,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Orders"
   m_sTextData "331 Plt is to defend the approach to Torske on the SE side of town against enemy attack in the direction of Torske."\
   ""\
-  "You have been given an additional PKM MG, stored in the 1st BMP, alongside additional ammo and disposable AT."\
+  "You have been given an additional PKM MG, stored in the BMP, alongside additional ammo and disposable AT."\
   ""
   m_aVisibleForFactions {
    "USSR"

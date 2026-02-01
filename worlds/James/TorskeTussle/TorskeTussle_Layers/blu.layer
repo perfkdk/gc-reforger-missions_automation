@@ -224,7 +224,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Expected to defend approach to Torske."\
   ""\
   "Friendly:"\
-  "Mechanised infantry platoon with M2 Bradleys, reinforced with a Cav scout M3 Bradley."
+  "Mechanised infantry platoon with M113s, reinforced with a Cav scout M3 Bradley section."
   m_aVisibleForFactions {
    "US"
   }
@@ -244,11 +244,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3902.589 28.259 444.011
   angles 0 -2 0
   m_sTitle "Sustainment"
-  m_sTextData "M2 Bradleys have additional ammo, including extra disposable AT, and 4x TOW reloads."\
+  m_sTextData "M113s have additional ammo, including extra disposable AT."\
   ""\
   "'M3' Bradley has 10x TOW reloads."\
   ""\
-  "There are additional backpack radios for whoever takes commander position in the Bradleys. These are not for dismounted use."\
   ""\
   ""
   m_aVisibleForFactions {
@@ -268,7 +267,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1st Plt 2nd Sqd - A12"\
   "1st Plt 3rd Sqd - A13"\
   ""\
-  "Cav scouts - G25"
+  "Cav scouts - G25, G26"
   m_aVisibleForFactions {
    "US"
   }
