@@ -4,11 +4,15 @@ $grp GenericEntity {
   angles 0 -9.195 0
  }
  TPHelicopters {
-  coords 3205.73 286.156 9956.309
+  coords 3226.46 286.144 9912.029
+  angles 0 23.088 0
  }
  TPHQ {
   coords 3248.998 286 9749.158
   angles 0 -9.195 0
+ }
+ SupplyRewardPoint {
+  coords 3214.333 281.918 9832.293
  }
 }
 $grp GenericEntity : "{1A6F76E0028DE740}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_USSR_01.et" {
@@ -793,414 +797,6 @@ GenericEntity : "{1EB5949DF6738E38}Prefabs/Compositions/Slotted/SlotFlatSmall/Ve
   }
  }
 }
-GenericEntity : "{4510C273B794F3A9}Prefabs/Compositions/Slotted/SlotFlatMedium/VehicleMaintenance_M_USSR_01.et" {
- components {
-  SCR_ResourceComponent "{615F443A84FF250B}" {
-   m_aConsumers {
-    SCR_ResourceConsumerServicePoint "{615F443A8835FA50}" {
-     m_fResourceRange 200
-    }
-   }
-  }
- }
- coords 3169.457 286.187 9664.878
- angles 0 130.881 0
- {
-  GenericEntity {
-   ID "5D45393C2BCAFA5E"
-   {
-    GenericEntity {
-     ID "5D45393CBA8CFC49"
-     components {
-      SCR_ResourceComponent "{5D247A59598D71AE}" {
-       m_aContainers {
-        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-         m_fResourceValueCurrent 0
-         m_fResourceValueMax 0
-         m_fResourceGainTickrate 0
-         m_fResourceDecay 0
-         m_fResourceDecayTickrate 0
-         m_fResourceDecayTimeout 0
-        }
-       }
-       m_aConsumers {
-        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
-         m_fResourceRange 200
-        }
-       }
-       m_aGenerators {
-        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
-         m_fStorageRange 200
-        }
-       }
-      }
-     }
-    }
-    GenericEntity {
-     ID "5D45393CBA8CFC4A"
-     components {
-      SCR_ResourceComponent "{5D247A59598D71AE}" {
-       m_aContainers {
-        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-         m_fResourceValueCurrent 0
-         m_fResourceValueMax 0
-         m_fResourceGainTickrate 0
-         m_fResourceDecay 0
-         m_fResourceDecayTickrate 0
-         m_fResourceDecayTimeout 0
-        }
-       }
-       m_aConsumers {
-        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
-         m_fResourceRange 200
-        }
-       }
-       m_aGenerators {
-        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
-         m_fStorageRange 200
-        }
-       }
-      }
-     }
-    }
-    GenericEntity {
-     ID "5D45393CBA8CFC47"
-     components {
-      SCR_ResourceComponent "{5D247A59598D71AE}" {
-       m_aContainers {
-        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-         m_fResourceValueCurrent 0
-         m_fResourceValueMax 0
-         m_fResourceGainTickrate 0
-         m_fResourceDecay 0
-         m_fResourceDecayTickrate 0
-         m_fResourceDecayTimeout 0
-        }
-       }
-       m_aConsumers {
-        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
-         m_fResourceRange 200
-        }
-       }
-       m_aGenerators {
-        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
-         m_fStorageRange 200
-        }
-       }
-      }
-     }
-    }
-    GenericEntity {
-     ID "5D45393CBA8CFC7C"
-     components {
-      SCR_ResourceComponent "{5D247A59598D71AE}" {
-       m_aContainers {
-        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-         m_fResourceValueCurrent 0
-         m_fResourceValueMax 0
-         m_fResourceGainTickrate 0
-         m_fResourceDecay 0
-         m_fResourceDecayTickrate 0
-         m_fResourceDecayTimeout 0
-        }
-       }
-       m_aConsumers {
-        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
-         m_fResourceRange 200
-        }
-       }
-       m_aGenerators {
-        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
-         m_fStorageRange 200
-        }
-       }
-      }
-     }
-    }
-    GenericEntity {
-     ID "5D45393CBA8CFC42"
-     components {
-      SCR_ResourceComponent "{5D247A59598D71AE}" {
-       m_aContainers {
-        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-         m_fResourceValueCurrent 0
-         m_fResourceValueMax 0
-         m_fResourceGainTickrate 0
-         m_fResourceDecay 0
-         m_fResourceDecayTickrate 0
-         m_fResourceDecayTimeout 0
-        }
-       }
-       m_aConsumers {
-        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
-         m_fResourceRange 200
-        }
-       }
-       m_aGenerators {
-        SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
-         m_fStorageRange 200
-        }
-       }
-      }
-     }
-    }
-   }
-  }
-  GenericEntity {
-   ID "5D22B94164F546B2"
-   components {
-    SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
-     m_aBudgetsToEvaluate {
-      SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF07CF4F67DF8CE}" {
-       m_eBudget RANK_PRIVATE
-      }
-      SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF07CF4EBDEB7E3}" {
-       m_eBudget RANK_PRIVATE
-      }
-      SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CEBC3C55B}" {
-       m_eBudget RANK_PRIVATE
-      }
-      SCR_CampaignBuildingRankBudgetToEvaluateData "{60E4C8BB029BE544}" {
-       m_eBudget RANK_PRIVATE
-      }
-      SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CE2EE6793}" {
-       m_eBudget RANK_PRIVATE
-      }
-      SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CDCB0E4C1}" {
-       m_eBudget RANK_PRIVATE
-      }
-      SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CD6CA8F4B}" {
-       m_eBudget RANK_PRIVATE
-      }
-     }
-    }
-    SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
-     m_aAllowedLabels {
-      VEHICLE_CAR
-      VEHICLE_TRUCK
-      VEHICLE_APC
-      VEHICLE_TANK
-     }
-    }
-   }
-  }
- }
-}
-$grp GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_Conflict_USSR_01.et" {
- {
-  components {
-   SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
-    Enabled 0
-   }
-   SCR_ResourceComponent "{66C89D460234CDF2}" {
-    m_aContainers {
-     SCR_ResourceContainer "{687AB81AE8F5AF59}" {
-      m_eResourceRights ALL
-      m_fResourceValueCurrent 10000000000
-      m_fResourceValueMax 10000000000
-      m_bEnableResourceGain 1
-      m_fResourceGain 10000
-      m_fResourceGainTickrate 1
-     }
-    }
-   }
-  }
-  coords 3211.293 286.157 9921.348
-  angles 0 60.44 0
-  {
-   GenericEntity {
-    ID "630888952640AD64"
-    components {
-     SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
-      m_aBudgetsToEvaluate {
-       SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF07CF4F67DF8CE}" {
-        m_eBudget RANK_PRIVATE
-       }
-       SCR_CampaignBuildingRankBudgetToEvaluateData "{5EF07CF4EBDEB7E3}" {
-        m_eBudget RANK_PRIVATE
-       }
-       SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CEBC3C55B}" {
-        m_eBudget RANK_PRIVATE
-       }
-       SCR_CampaignBuildingRankBudgetToEvaluateData "{60E4C8BB029BE544}" {
-        m_eBudget RANK_PRIVATE
-       }
-       SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CE2EE6793}" {
-        m_eBudget RANK_PRIVATE
-       }
-       SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CDCB0E4C1}" {
-        m_eBudget RANK_PRIVATE
-       }
-       SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CD6CA8F4B}" {
-        m_eBudget RANK_PRIVATE
-       }
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "63088895F4E00DE9"
-    components {
-     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-      m_aContainers {
-       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-       }
-      }
-     }
-    }
-    {
-     GenericEntity {
-      ID "63068252F4453DE2"
-      components {
-       SCR_ResourceComponent "{5D247A59598D71AE}" {
-        m_aContainers {
-         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-          m_fResourceValueCurrent 0
-          m_fResourceValueMax 0
-          m_fResourceGainTickrate 0
-          m_fResourceDecay 0
-          m_fResourceDecayTickrate 0
-          m_fResourceDecayTimeout 0
-         }
-        }
-        m_aConsumers {
-         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
-          m_fResourceRange 200
-         }
-        }
-        m_aGenerators {
-         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
-          m_fStorageRange 200
-         }
-        }
-       }
-      }
-     }
-     GenericEntity {
-      ID "63068252F4453DFD"
-      components {
-       SCR_ResourceComponent "{5D247A59598D71AE}" {
-        m_aContainers {
-         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-          m_fResourceValueCurrent 0
-          m_fResourceValueMax 0
-          m_fResourceGainTickrate 0
-          m_fResourceDecay 0
-          m_fResourceDecayTickrate 0
-          m_fResourceDecayTimeout 0
-         }
-        }
-        m_aConsumers {
-         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
-          m_fResourceRange 200
-         }
-        }
-        m_aGenerators {
-         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
-          m_fStorageRange 200
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
-    Enabled 0
-   }
-   SCR_ResourceComponent "{66C89D460234CDF2}" {
-    m_aContainers {
-     SCR_ResourceContainer "{687AB81AE8F5AF59}" {
-      m_eResourceRights ALL
-      m_fResourceValueCurrent 10000000000
-      m_fResourceValueMax 10000000000
-      m_bEnableResourceGain 1
-      m_fResourceGain 10000
-      m_fResourceGainTickrate 1
-     }
-    }
-   }
-  }
-  coords 3211.9 286.157 9992.536
-  angles 0 60.44 0
-  {
-   GenericEntity {
-    ID "630888952640AD64"
-   }
-   GenericEntity {
-    ID "63088895F4E00DE9"
-    components {
-     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-      m_aContainers {
-       SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-       }
-      }
-     }
-    }
-    {
-     GenericEntity {
-      ID "63068252F4453DE2"
-      components {
-       SCR_ResourceComponent "{5D247A59598D71AE}" {
-        m_aContainers {
-         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-          m_fResourceValueCurrent 0
-          m_fResourceValueMax 0
-          m_fResourceGainTickrate 0
-          m_fResourceDecay 0
-          m_fResourceDecayTickrate 0
-          m_fResourceDecayTimeout 0
-         }
-        }
-        m_aConsumers {
-         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
-          m_fResourceRange 200
-         }
-        }
-        m_aGenerators {
-         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
-          m_fStorageRange 200
-         }
-        }
-       }
-      }
-     }
-     GenericEntity {
-      ID "63068252F4453DFD"
-      components {
-       SCR_ResourceComponent "{5D247A59598D71AE}" {
-        m_aContainers {
-         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-          m_fResourceValueCurrent 0
-          m_fResourceValueMax 0
-          m_fResourceGainTickrate 0
-          m_fResourceDecay 0
-          m_fResourceDecayTickrate 0
-          m_fResourceDecayTimeout 0
-         }
-        }
-        m_aConsumers {
-         SCR_ResourceConsumer "{5D3CDAE76719C077}" {
-          m_fResourceRange 200
-         }
-        }
-        m_aGenerators {
-         SCR_ResourceGenerator "{5D3CDAE701F5A224}" {
-          m_fStorageRange 200
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
-}
 $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_USSR.et" {
  {
   coords 3251.426 285.981 9749.289
@@ -1289,7 +885,8 @@ $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPo
   }
  }
  {
-  coords 3208.625 286.156 9956.838
+  coords 3229.331 286.155 9911.381
+  angles 0 23.088 0
   {
    GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
     components {
@@ -1666,6 +1263,10 @@ GenericEntity : "{763B4200BE49686E}Prefabs/Compositions/Misc/SubCompositions/Sto
   }
  }
 }
+GenericEntity Helipad_Domi_Tier1 : "{BD8EC9546E751417}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Depots/Helipad_Domi_Tier1.et" {
+ coords 3211.293 286.157 9921.348
+ angles 0 60.44 0
+}
 $grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubCompositions/Foundation_Mortar_USSR.et" {
  {
   coords 2910.723 289.147 9492.719
@@ -1860,24 +1461,30 @@ $grp GenericEntity : "{D5DCF3520C2A8C41}Prefabs/Props/Furniture/Flipchart_01/Fli
   }
  }
 }
-GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+GenericEntity MainHQ_Domi_SupplyDepot : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+ components {
+  TILW_SetNameComponent "{688238CEFD9B3978}" {
+   m_setName "MainHQ_Domi_SupplyDepot"
+  }
+ }
  coords 3215.698 285.999 9834.146
  angles 0 -28.705 0
  {
   GenericEntity {
    ID "62EACD0CC8BFE73D"
    {
-    GenericEntity {
+    GenericEntity SupplyCrate_1 {
      ID "62F4A41DAC20435A"
      components {
       SCR_ResourceComponent "{5D247A59598D71AE}" {
        m_aContainers {
         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
          m_fResourceValueCurrent 1000
-         m_fResourceValueMax 10000
+         m_fResourceValueMax 100000
          m_fResourceDecay 0
          m_fResourceDecayTickrate 0
          m_fResourceDecayTimeout 0
+         m_eOnEmptyBehavior HIDE
         }
        }
        m_aConsumers {
@@ -1893,17 +1500,18 @@ GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
       }
      }
     }
-    GenericEntity {
+    GenericEntity SupplyCrate_2 {
      ID "62F4A41DAC20AB94"
      components {
       SCR_ResourceComponent "{5D247A59598D71AE}" {
        m_aContainers {
         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
          m_fResourceValueCurrent 1000
-         m_fResourceValueMax 10000
+         m_fResourceValueMax 100000
          m_fResourceDecay 0
          m_fResourceDecayTickrate 0
          m_fResourceDecayTimeout 0
+         m_eOnEmptyBehavior HIDE
         }
        }
        m_aConsumers {
@@ -1919,17 +1527,18 @@ GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
       }
      }
     }
-    GenericEntity {
+    GenericEntity SupplyCrate_3 {
      ID "62F4A41DAC20AB9A"
      components {
       SCR_ResourceComponent "{5D247A59598D71AE}" {
        m_aContainers {
         SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
          m_fResourceValueCurrent 1000
-         m_fResourceValueMax 10000
+         m_fResourceValueMax 100000
          m_fResourceDecay 0
          m_fResourceDecayTickrate 0
          m_fResourceDecayTimeout 0
+         m_eOnEmptyBehavior HIDE
         }
        }
        m_aConsumers {
@@ -1963,10 +1572,12 @@ $grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/
   coords 3257.085 0.053 9743.689
  }
  {
-  coords 3209.128 0 9953.751
+  coords 3228.583 0 9908.344
+  angles 0 23.088 0
  }
  {
-  coords 3209.119 0 9959.858
+  coords 3230.97 0.001 9913.966
+  angles 0 23.088 0
  }
  {
   coords 2930.352 -0.006 9527.667
@@ -2010,4 +1621,8 @@ $grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/
   coords 3189.494 0 9750.766
   angles 0 -2.449 0
  }
+}
+GenericEntity VehicleDepot_Domi_Tier1 : "{EE5333F011082390}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Depots/VehicleDepot_Domi_Tier1.et" {
+ coords 3169.457 286.187 9664.878
+ angles 0 130.881 0
 }
