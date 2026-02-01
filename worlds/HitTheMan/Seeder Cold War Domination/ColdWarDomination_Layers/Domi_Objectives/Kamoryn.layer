@@ -1,39 +1,3 @@
 GenericEntity Kamoryn {
  coords 3412.074 225.821 8276.382
 }
-Vehicle Mi24V_armed_S5_HTMDomi1 : "{11B5585E1C993623}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Vehicles/Mi24V_armed_S5_HTMDomi.et" {
- components {
-  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "HTMDomi"
-   }
-  }
- }
- coords 3192.165 286.156 9950.94
-}
-Vehicle Mi24P_armed_9M1 : "{2FA364D8E326CB3C}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_9M114.et" {
- coords 3196.451 286.219 9844.825
-}
-Vehicle Mi24V_armed_GUV1 : "{3A70C582A43B50C8}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_GUV8700.et" {
- coords 3205.509 286.124 9843.647
-}
-Vehicle Mi24V_armed_S1 : "{7FF511EDC4034D9F}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S5.et" {
- coords 3194.818 286.187 9866.156
-}
-Vehicle Mi24V_supply1 : "{9F4841C20C2F4F12}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_supply.et" {
- coords 3226.653 285.904 9852.26
-}
-GenericEntity : "{E6A6F428DF651F75}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/HTMEngineeringBox.et" {
- coords 3173.562 286.165 9730.643
-}
-Vehicle Mi24V_transport1 : "{F889C67BFCAD2CF7}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_transport.et" {
- coords 3249.011 285.687 9853.692
-}
-$grp Vehicle : "{FEC251CC37150DEE}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Vehicles/Mi24V_armed_S5DomiTest2.et" {
- Mi24V_armed_S5DomiTest1 {
-  coords 3200.779 286.156 9962.006
- }
- Mi24V_armed_S5DomiTest2 {
-  coords 3193.301 286.156 9978.019
- }
-}
