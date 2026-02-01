@@ -117,15 +117,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "340, 341 (Radi), 344 (Radio), 341, 342....."\
   ""\
   "II. Callsigns:"\
-  "Company HQ ---------------------- 340 (Radio)"\
+  "Company HQ ---------------------- 340"\
   ""\
-  "1st Platoon HQ ------------------- 341 (Radio)"\
-  "1st Rifle Squad ------------------- 341"\
+  "1st Platoon HQ ------------------- 341"\
+  "1st Rifle Squad ------------------- 341 (No Radio)"\
   "2nd Rifle Squad ------------------ 342"\
   "3rd Rifle Squad ------------------- 343"\
   ""\
-  "1st Platoon HQ ------------------- 344 (Radio)"\
-  "1st Rifle Squad ------------------- 344"\
+  "1st Platoon HQ ------------------- 344"\
+  "1st Rifle Squad ------------------- 344 (No Radio)"\
   "2nd Rifle Squad ------------------ 345"\
   "3rd Rifle Squad ------------------- 346"\
   ""\
