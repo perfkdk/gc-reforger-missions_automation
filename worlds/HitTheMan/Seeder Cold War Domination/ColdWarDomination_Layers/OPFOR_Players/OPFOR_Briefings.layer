@@ -64,12 +64,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "AI will be spawned inside buildings occupying them. NOT all buildings as we'd have far too many AI for the server to handle, but there will be AI in some if not most buildings depending on the location the objective spawns."\
   ""\
   "<b>Supply System:</b>"\
-  "There is now a Supply System inplace where you can purchase new vehicles, equipment, ammo and more. Use it sparingly as the only way to get more supply is by completing Main Objectives, and also scavange/steal any supplies might be located there back to our HQ"\
+  "There is now a Supply System inplace where you can purchase new vehicles, equipment, ammo and more. Use it sparingly as the only way to get more supply is by completing Main Objectives, and also scavenge/steal any supplies might be located there back to our HQ"\
   ""\
   "<b>Rewards:</b>"\
   "Main Objectives now gives rewards for completing them, sometimes access to new vehicles and equipment, but will always provide an amount of supplies to the HQ's stockpile for us to utilize for future missions."\
   ""\
-  "There is also supplies in the objective themselves that can be scavanged/stolen by loading up a truck or Mi-8 (or any vehicle capable of carrying supplies) and bring it back to Main HQ Supply Depot"\
+  "There is also supplies in the objective themselves that can be scavenged/stolen by loading up a truck or Mi-8 (or any vehicle capable of carrying supplies) and bring it back to Main HQ Supply Depot"\
   ""\
   "<h2>II: B. Planned Features</h2>"\
   ""\
