@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{434AE06DF71DDAE3}worlds/HitTheMan/Seeder Domination/Prefabs/Respawn Vehicles/Mi8MT_armed2.et"
+ Name "{11B5585E1C993623}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S5_HTMDomi.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
