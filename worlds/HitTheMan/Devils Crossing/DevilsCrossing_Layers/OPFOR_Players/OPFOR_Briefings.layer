@@ -93,8 +93,18 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "None."\
   ""\
   "IV. Vehicles:"\
-  "1x BRDM"\
-  ""
+  "1x BMP-1"\
+  ""\
+  "BMP-1 contains:"\
+  "- 12x Bandages"\
+  "- 4x Touniquets"\
+  "- 4x Morphine"\
+  "- 8x Grenades"\
+  "- 12x Smoke Grenades"\
+  "- 180x AK 30rnd Mags"\
+  "- 4x VOGs"\
+  "- 60x RPKs 40nd Mags"\
+  "- 40x Kolobok Backpacks"
   m_aVisibleForFactions {
    "GC_NVA"
   }
