@@ -178,6 +178,109 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
           }
          }
         }
+        SCR_EntityCatalogMultiListEntry "{605697836CAAD3A0}" {
+         m_aEntities {
+          SCR_EntityCatalogEntry "{687EBEC91D97EF38}" {
+           m_sEntityPrefab "{11B5585E1C993623}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Vehicles/Mi24V_armed_S5_HTMDomi.et"
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{687EBEC91D97EFB2}" {
+             m_eValidEditorModes 33
+            }
+            SCR_EntityCatalogSpawnerData "{687EBEC91D97EFB9}" {
+             m_eSlotTypes VEHICLE_LARGE
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{687EBEC850F2A499}" {
+           m_sEntityPrefab "{FEC251CC37150DEE}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Vehicles/Mi24V_armed_S5DomiTest2.et"
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{687EBEC850F2A36D}" {
+             m_eValidEditorModes 33
+            }
+            SCR_EntityCatalogSpawnerData "{687EBEC850F2A360}" {
+             m_eSlotTypes VEHICLE_LARGE
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{65F80394BBF34308}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{65F80394BBF343AA}" {
+             m_eValidEditorModes EDIT
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{65F80394308F3C2C}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{65F80394308F3C48}" {
+             m_eValidEditorModes EDIT
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{65F80394AE064159}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{65F80394AE064185}" {
+             m_eValidEditorModes EDIT
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{65F80394ABEB9ACC}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{65F80394ABEB9B00}" {
+             m_eValidEditorModes EDIT
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{65F80394A4A29CF2}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{65F80394A4A29D1B}" {
+             m_eValidEditorModes EDIT
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{65F80394A1F4981A}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{65F80394A1F4984E}" {
+             m_eValidEditorModes EDIT
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{65F80394A36EA63B}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{65F80394A36EA64E}" {
+             m_eValidEditorModes EDIT
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{65F803949CD64874}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{65F803949CD648A8}" {
+             m_eValidEditorModes EDIT
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{65F8039498C87046}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{65F8039498C870FC}" {
+             m_eValidEditorModes EDIT
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{65F8039495ECEAFD}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{65F8039495ECEB03}" {
+             m_eValidEditorModes EDIT
+            }
+           }
+          }
+          SCR_EntityCatalogEntry "{65F8039496EDB166}" {
+           m_aEntityDataList {
+            SCR_EntityCatalogEditorData "{65F8039496EDB19E}" {
+             m_eValidEditorModes EDIT
+            }
+           }
+          }
+         }
+        }
        }
       }
       SCR_EntityCatalog "{5C68A0E9A51460AB}" {
@@ -590,7 +693,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{687AB838D4533278}" {
      m_executionDelay 1
-     m_prefab "{40008B98A9DD6225}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Rewards/DeleteAllObjectiveSupplies.et"
+     m_prefab "{40008B98A9DD6225}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/DeleteAllObjectiveSupplies.et"
      m_locationName "Kamoryn"
      m_setEntityName "DeleteAllObjectiveSupplies"
     }
@@ -632,7 +735,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{687EA1B84E0602B5}" {
      m_executionDelay 1
-     m_prefab "{3D54A6583D027631}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/DeleteAllAIBodies.et"
+     m_prefab "{3D54A6583D027631}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/DeleteAllAIBodies.et"
      m_locationName "Kamoryn"
      m_setEntityName "DeleteAllAIBodies"
     }
@@ -826,7 +929,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{687B64087B36D757}" {
      m_executionDelay 1
-     m_prefab "{40008B98A9DD6225}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Rewards/DeleteAllObjectiveSupplies.et"
+     m_prefab "{40008B98A9DD6225}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/DeleteAllObjectiveSupplies.et"
      m_locationName "NovaOlesov"
      m_setEntityName "DeleteAllObjectiveSupplies"
     }
@@ -861,7 +964,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{687EA1B867AAE27E}" {
      m_executionDelay 1
-     m_prefab "{3D54A6583D027631}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/DeleteAllAIBodies.et"
+     m_prefab "{3D54A6583D027631}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/DeleteAllAIBodies.et"
      m_locationName "NovaOlesov"
      m_setEntityName "DeleteAllAIBodies"
     }
@@ -1058,7 +1161,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{687C931C8B18EA4B}" {
      m_executionDelay 1
-     m_prefab "{40008B98A9DD6225}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Rewards/DeleteAllObjectiveSupplies.et"
+     m_prefab "{40008B98A9DD6225}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/DeleteAllObjectiveSupplies.et"
      m_locationName "Brambledeep"
      m_setEntityName "DeleteAllObjectiveSupplies"
     }
@@ -1093,7 +1196,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SpawnPrefabInstruction "{687EA1B809E8C111}" {
      m_executionDelay 1
-     m_prefab "{3D54A6583D027631}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Objectives/DeleteAllAIBodies.et"
+     m_prefab "{3D54A6583D027631}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/DeleteAllAIBodies.et"
      m_locationName "Brambledeep"
      m_setEntityName "DeleteAllAIBodies"
     }

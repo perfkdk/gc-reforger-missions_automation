@@ -973,12 +973,19 @@ GenericEntity : "{4510C273B794F3A9}Prefabs/Compositions/Slotted/SlotFlatMedium/V
        m_eBudget RANK_PRIVATE
       }
      }
+     m_aAvailableTraits {
+      VEHICLE_APC
+      TRAIT_ARMED
+     }
     }
     SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
      m_aAllowedLabels {
       VEHICLE_CAR
       VEHICLE_TRUCK
       VEHICLE_APC
+      TRAIT_ARMED
+     }
+     m_aIgnoredLabels {
       VEHICLE_TANK
      }
     }
@@ -1034,6 +1041,20 @@ $grp GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLar
        SCR_CampaignBuildingRankBudgetToEvaluateData "{60EC916CD6CA8F4B}" {
         m_eBudget RANK_PRIVATE
        }
+      }
+      m_aAvailableTraits {
+       TRAIT_PASSENGERS_LARGE
+       TRAIT_SUPPLYSTORAGE_LARGE
+       VEHICLE_AIRPLANE
+      }
+     }
+     SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
+      m_aAllowedLabels {
+       TRAIT_SUPPLYSTORAGE_LARGE
+       TRAIT_PASSENGERS_LARGE
+      }
+      m_aIgnoredLabels {
+       TRAIT_ARMED
       }
      }
     }
@@ -1130,6 +1151,30 @@ $grp GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLar
   {
    GenericEntity {
     ID "630888952640AD64"
+    components {
+     SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+      m_aAvailableTraits +{
+       VEHICLE_AIRPLANE
+       VEHICLE_CAR
+       VEHICLE_APC
+       VEHICLE_TRUCK
+       VEHICLE_TURRET
+      }
+     }
+     SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
+      m_aCatalogTypes {
+      }
+      m_aAllowedLabels {
+       TRAIT_SUPPLYSTORAGE_LARGE
+       TRAIT_PASSENGERS_LARGE
+       VEHICLE_AIRPLANE
+       VEHICLE_APC
+      }
+      m_aIgnoredLabels {
+       TRAIT_ARMED
+      }
+     }
+    }
    }
    GenericEntity {
     ID "63088895F4E00DE9"

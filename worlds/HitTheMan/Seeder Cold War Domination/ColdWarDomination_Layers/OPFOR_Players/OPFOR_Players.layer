@@ -151,7 +151,7 @@ Tank BMP1_base4 : "{45C91EEE1A257666}worlds/HitTheMan/Seeder Cold War Domination
  m_sAttachmentGroupName "Rifle4"
 }
 Vehicle Ural4320_command1 : "{492A9AFC52544091}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Ural4320_command1.et" {
- coords 3215.558 286.094 9682.692
+ coords 3224.644 286.094 9683.927
  angles 0 -90.345 0
 }
 Vehicle UAZ452_transport1 : "{4C5713E4CB88CB72}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/UAZ452_transport1.et" {
