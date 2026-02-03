@@ -48,7 +48,7 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
    "/seed - Returns the current seed"\
    ""\
    "Admin Commands"\
-   "/reoll - Rerolls random missin"\
+   "/rreoll - Rerolls random mission"\
    "/reroll (int seed) - Rerolls the mission with the seed"\
    "/reroll 15415"\
    ""\
