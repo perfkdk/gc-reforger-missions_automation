@@ -50,8 +50,8 @@ GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLarge/He
        m_eBudget RANK_PRIVATE
       }
      }
-     m_aAvailableTraits + {
-      VEHICLE_TANK
+     m_aAvailableTraits {
+      VEHICLE_TANK VEHICLE_HELICOPTER
      }
     }
     SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {

@@ -1043,7 +1043,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+TILW_MissionFrameworkEntity Framework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3720.089 354.787 1640.119
  angles 0 0 -3.576
  m_missionEvents {
@@ -1165,7 +1165,26 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "-----------------------------"
   }
   TILW_MissionEvent "{688238C7EDB4BE38}" {
-   m_name "-----------------------------"
+   m_name "Clear MainMission Flag"
+   m_instructions {
+    TILW_ClearFlagInstruction "{6888299D90CF9981}" {
+     m_flagName "MainMission"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6888299D9A8BB583}" {
+    m_flagName "MainMission"
+   }
+  }
+  TILW_MissionEvent "{6888299E1554FD74}" {
+   m_name "Clear SideMission Flag"
+   m_instructions {
+    TILW_ClearFlagInstruction "{6888299E1554FDCA}" {
+     m_flagName "SideMission"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6888299E1554FDC6}" {
+    m_flagName "SideMission"
+   }
   }
   TILW_MissionEvent "{687AB8230AAFADBD}" {
    m_name "Random Chain - One"
@@ -1174,31 +1193,39 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_flagName "Kamoryn"
     }
    }
-   m_condition TILW_LiteralTerm "{687AB8233916416B}" {
-    m_flagName "RandomOne"
+   m_condition TILW_ConjunctionTerm "{6888299DB8D8EB78}" {
+    m_operands {
+     TILW_LiteralTerm "{6888299DBF9D38BE}" {
+      m_flagName "RandomOne"
+     }
+     TILW_LiteralTerm "{6888299DBE9FB150}" {
+      m_flagName "MainMission"
+     }
+    }
    }
   }
   TILW_MissionEvent "{687AB82FBBCCF4B6}" {
-   m_name "Cycle 1"
+   m_name "Cycle 1 - Reward"
    m_instructions {
-    TILW_SetFlagInstruction "{687C9302CFF06093}" {
-     m_executionDelay 60
-     m_flagName "Brambledeep"
-    }
     TILW_SetFlagInstruction "{688238C31EF24220}" {
-     m_executionDelay 18
+     m_executionDelay 10
      m_flagName "Tier2"
     }
     TILW_SpawnPrefabInstruction "{688238CC27D5F54E}" {
-     m_executionDelay 20
+     m_executionDelay 10
      m_prefab "{BB3344D03AF5696B}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Depots/SupplyReward.et"
      m_locationName "SupplyRewardPoint"
     }
     TILW_SendMessageInstruction "{687C9302AEAD9265}" {
-     m_executionDelay 20
+     m_executionDelay 12
      m_messageTitle "Rewards"
-     m_messageBody "You now have access to, BMP-1 and Armed Mi-24s"\
-     "As well as 5 000 Supplies"
+     m_messageBody "You've received 5 000 Supplies"
+    }
+    TILW_ReactivateEventsInstruction "{6888299A1B92A92B}" {
+     m_executionDelay 60
+     m_eventNames {
+      "Cycle 1 - Reward"
+     }
     }
    }
    m_condition TILW_ConjunctionTerm "{687C9302DA9BD739}" {
@@ -1218,25 +1245,85 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
-  TILW_MissionEvent "{687C930289371407}" {
-   m_name "Cycle 2"
+  TILW_MissionEvent "{68882999D85BEE58}" {
+   m_name "Cycle 1"
    m_instructions {
-    TILW_SetFlagInstruction "{687C9302893714B8}" {
-     m_executionDelay 60
-     m_flagName "NovaOlesov"
+    TILW_SendMessageInstruction "{68882999F27FB0DB}" {
+     m_messageTitle "Seperatists are making their move.. .."
     }
+    TILW_ClearFlagInstruction "{68882999C55CB033}" {
+     m_flagName "AOClear"
+    }
+    TILW_ClearFlagInstruction "{68882999C4B823BB}" {
+     m_flagName "AntennaDead"
+    }
+    TILW_ClearFlagInstruction "{68882999FB9B7A61}" {
+     m_flagName "Kamoryn"
+    }
+    TILW_SetFlagInstruction "{68882999D85BEE2B}" {
+     m_executionDelay 10
+     m_flagName "Brambledeep"
+    }
+    TILW_ReactivateEventsInstruction "{6888299A1342509C}" {
+     m_executionDelay 35
+     m_eventNames {
+      "Kamoryn Start"
+      "Antenna - Reinforcements"
+      "Antenna - No Reinforcements"
+      "Kamoryn End"
+      "Cycle 1"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{68882999D85BEE2C}" {
+    m_operands {
+     TILW_LiteralTerm "{68882999D85BEE22}" {
+      m_flagName "MainMission"
+     }
+     TILW_LiteralTerm "{68882999D85BEE21}" {
+      m_flagName "AOClear"
+     }
+     TILW_LiteralTerm "{68882999D85B90B2}" {
+      m_flagName "AntennaDead"
+     }
+     TILW_LiteralTerm "{68882999D85B90B3}" {
+      m_flagName "Kamoryn"
+     }
+     TILW_LiteralTerm "{68882999D85B90B4}" {
+      m_flagName "RandomOne"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{687C930289371407}" {
+   m_name "Cycle 2 - Reward"
+   m_instructions {
     TILW_SetFlagInstruction "{688238C48947142D}" {
-     m_executionDelay 18
+     m_executionDelay 10
      m_flagName "Tier3"
     }
+    TILW_SpawnPrefabInstruction "{688829B42090EE9D}" {
+     m_executionDelay 10
+     m_prefab "{BB3344D03AF5696B}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Depots/SupplyReward.et"
+     m_locationName "SupplyRewardPoint"
+    }
     TILW_SendMessageInstruction "{688238C4A8C63506}" {
-     m_executionDelay 20
+     m_executionDelay 12
      m_messageTitle "Rewards"
-     m_messageBody "You now have access to, T-72A & T-72B"
+     m_messageBody "You've received 5 000 Supplies"
+    }
+    TILW_ReactivateEventsInstruction "{6888299A140BAC63}" {
+     m_executionDelay 60
+     m_eventNames {
+      "Cycle 2 - Reward"
+     }
     }
    }
    m_condition TILW_ConjunctionTerm "{687C9302893714BC}" {
     m_operands {
+     TILW_LiteralTerm "{6888299E4F87C73A}" {
+      m_flagName "MainMission"
+     }
      TILW_LiteralTerm "{687C9302893714A3}" {
       m_flagName "AOClear"
      }
@@ -1252,12 +1339,76 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
-  TILW_MissionEvent "{687C93029106D656}" {
-   m_name "Cycle 3"
+  TILW_MissionEvent "{688829999D75CFCF}" {
+   m_name "Cycle 2"
    m_instructions {
-    TILW_SetFlagInstruction "{687C93029106D7B0}" {
+    TILW_SendMessageInstruction "{688829999D75CF42}" {
+     m_executionDelay 5
+     m_messageTitle "Seperatists are making their move.. .."
+     m_messageBody ""
+    }
+    TILW_ClearFlagInstruction "{6888299981A17AC7}" {
+     m_flagName "AOClear"
+    }
+    TILW_ClearFlagInstruction "{688829998018FD4E}" {
+     m_flagName "AntennaDead"
+    }
+    TILW_ClearFlagInstruction "{68882999875AB0C2}" {
+     m_flagName "Brambledeep"
+    }
+    TILW_SetFlagInstruction "{688829999D75CF4B}" {
+     m_executionDelay 10
+     m_flagName "NovaOlesov"
+    }
+    TILW_ReactivateEventsInstruction "{6888299A0CA20F2C}" {
+     m_executionDelay 35
+     m_eventNames {
+      "Brambledeep Start"
+      "Antenna - Reinforcements"
+      "Antenna - No Reinforcements"
+      "Brambledeep End"
+      "Cycle 2"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{688829999D75CF44}" {
+    m_operands {
+     TILW_LiteralTerm "{688829999D75CF46}" {
+      m_flagName "MainMission"
+     }
+     TILW_LiteralTerm "{688829999D75CF47}" {
+      m_flagName "AOClear"
+     }
+     TILW_LiteralTerm "{688829999D753B53}" {
+      m_flagName "AntennaDead"
+     }
+     TILW_LiteralTerm "{688829999D753B4C}" {
+      m_flagName "Brambledeep"
+     }
+     TILW_LiteralTerm "{688829999D753B4D}" {
+      m_flagName "RandomOne"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{687C93029106D656}" {
+   m_name "Cycle 3 - Reward"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{688829B4D17D401B}" {
+     m_executionDelay 10
+     m_prefab "{BB3344D03AF5696B}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Depots/SupplyReward.et"
+     m_locationName "SupplyRewardPoint"
+    }
+    TILW_SendMessageInstruction "{688829B4CBFE3F08}" {
+     m_executionDelay 12
+     m_messageTitle "Rewards"
+     m_messageBody "You've received 5 000 Supplies"
+    }
+    TILW_ReactivateEventsInstruction "{6888299A07002478}" {
      m_executionDelay 60
-     m_flagName "Kamoryn"
+     m_eventNames {
+      "Cycle 3 - Reward"
+     }
     }
    }
    m_condition TILW_ConjunctionTerm "{687C93029106D7CC}" {
@@ -1277,6 +1428,58 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
+  TILW_MissionEvent "{68882999BE61FA76}" {
+   m_name "Cycle 3"
+   m_instructions {
+    TILW_SendMessageInstruction "{68882999BE61F9C2}" {
+     m_executionDelay 2
+     m_messageTitle "Seperatists are making their move.. .."
+     m_messageBody ""
+    }
+    TILW_ClearFlagInstruction "{68882999AF24E836}" {
+     m_flagName "AOClear"
+    }
+    TILW_ClearFlagInstruction "{68882999A75DE088}" {
+     m_flagName "AntennaDead"
+    }
+    TILW_ClearFlagInstruction "{68882999A68E2A6F}" {
+     m_flagName "NovaOlesov"
+    }
+    TILW_SetFlagInstruction "{68882999BE61F9C5}" {
+     m_executionDelay 10
+     m_flagName "Kamoryn"
+    }
+    TILW_ReactivateEventsInstruction "{6888299A39756351}" {
+     m_executionDelay 35
+     m_eventNames {
+      "Nova Olesov Start"
+      "Antenna - Reinforcements"
+      "Antenna - No Reinforcements"
+      "Nova Olesov End"
+      "Cycle 3"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{68882999BE61F9FC}" {
+    m_operands {
+     TILW_LiteralTerm "{68882999BE61F9FE}" {
+      m_flagName "MainMission"
+     }
+     TILW_LiteralTerm "{68882999BE61BA5F}" {
+      m_flagName "AOClear"
+     }
+     TILW_LiteralTerm "{68882999BE61BA5E}" {
+      m_flagName "AntennaDead"
+     }
+     TILW_LiteralTerm "{68882999BE61BA59}" {
+      m_flagName "NovaOlesov"
+     }
+     TILW_LiteralTerm "{68882999BE61BA58}" {
+      m_flagName "RandomOne"
+     }
+    }
+   }
+  }
   TILW_MissionEvent "{688238C02B4CC4E0}" {
    m_name "Random Chain - Two"
    m_instructions {
@@ -1284,31 +1487,39 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_flagName "Brambledeep"
     }
    }
-   m_condition TILW_LiteralTerm "{688238C02B4CC54F}" {
-    m_flagName "RandomTwo"
+   m_condition TILW_ConjunctionTerm "{6888299DB4AF81C3}" {
+    m_operands {
+     TILW_LiteralTerm "{6888299DAB4C7E1C}" {
+      m_flagName "RandomTwo"
+     }
+     TILW_LiteralTerm "{6888299DAA5A2C5A}" {
+      m_flagName "MainMission"
+     }
+    }
    }
   }
   TILW_MissionEvent "{688238C02C76E9FA}" {
-   m_name "Cycle 1"
+   m_name "Cycle 1 - Reward"
    m_instructions {
-    TILW_SetFlagInstruction "{688238C02C76EE5E}" {
-     m_executionDelay 60
-     m_flagName "NovaOlesov"
-    }
     TILW_SetFlagInstruction "{688238C02C76EE5B}" {
-     m_executionDelay 18
+     m_executionDelay 10
      m_flagName "Tier2"
     }
     TILW_SpawnPrefabInstruction "{688238CCD29096B0}" {
-     m_executionDelay 20
+     m_executionDelay 10
      m_prefab "{BB3344D03AF5696B}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Depots/SupplyReward.et"
      m_locationName "SupplyRewardPoint"
     }
     TILW_SendMessageInstruction "{688238C02C76EE5A}" {
-     m_executionDelay 20
+     m_executionDelay 12
      m_messageTitle "Rewards"
-     m_messageBody "You now have access to, BMP-1 and Armed Mi-24s"\
-     "As well as 5 000 Supplies"
+     m_messageBody "You've received 5 000 Supplies"
+    }
+    TILW_ReactivateEventsInstruction "{6888299A247E9021}" {
+     m_executionDelay 60
+     m_eventNames {
+      "Cycle 1 - Reward"
+     }
     }
    }
    m_condition TILW_ConjunctionTerm "{688238C02C76EE57}" {
@@ -1322,27 +1533,87 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      TILW_LiteralTerm "{688238C02C763018}" {
       m_flagName "Brambledeep"
      }
+     TILW_LiteralTerm "{688829990BF515F7}" {
+      m_flagName "RandomTwo"
+     }
      TILW_LiteralTerm "{688238CD9A3D2327}" {
       m_flagName "RandomTwo"
      }
     }
    }
   }
-  TILW_MissionEvent "{688238C0217056FC}" {
-   m_name "Cycle 2"
+  TILW_MissionEvent "{6888299F94E7461D}" {
+   m_name "Cycle 1"
    m_instructions {
-    TILW_SetFlagInstruction "{688238C021705759}" {
-     m_executionDelay 60
-     m_flagName "Kamoryn"
+    TILW_SendMessageInstruction "{6888299F94E74685}" {
+     m_executionDelay 2
+     m_messageTitle "Seperatists are making their move.. .."
     }
+    TILW_ClearFlagInstruction "{6888299825BCFF19}" {
+    }
+    TILW_ClearFlagInstruction "{68882998D0BC087B}" {
+     m_flagName "AntennaDead"
+    }
+    TILW_ClearFlagInstruction "{68882998CBED838A}" {
+     m_flagName "Brambledeep"
+    }
+    TILW_SetFlagInstruction "{6888299F94E7468F}" {
+     m_executionDelay 10
+     m_flagName "NovaOlesov"
+    }
+    TILW_ReactivateEventsInstruction "{6888299ADDB59844}" {
+     m_executionDelay 35
+     m_eventNames {
+      "Brambledeep Start"
+      "Antenna - Reinforcements"
+      "Antenna - No Reinforcements"
+      "Brambledeep End"
+      "Cycle 1"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6888299F94E74687}" {
+    m_operands {
+     TILW_LiteralTerm "{6888299F94E74683}" {
+      m_flagName "MainMission"
+     }
+     TILW_LiteralTerm "{6888299F94E74682}" {
+      m_flagName "AOClear"
+     }
+     TILW_LiteralTerm "{6888299F94E7469D}" {
+      m_flagName "AntennaDead"
+     }
+     TILW_LiteralTerm "{6888299F94E7469C}" {
+      m_flagName "Brambledeep"
+     }
+     TILW_LiteralTerm "{6888299F94E76D1F}" {
+      m_flagName "RandomTwo"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{688238C0217056FC}" {
+   m_name "Cycle 2 - Reward"
+   m_instructions {
     TILW_SetFlagInstruction "{688238C02170575B}" {
-     m_executionDelay 18
+     m_executionDelay 10
      m_flagName "Tier3"
     }
+    TILW_SpawnPrefabInstruction "{688829B4FE0088E6}" {
+     m_executionDelay 10
+     m_prefab "{BB3344D03AF5696B}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Depots/SupplyReward.et"
+     m_locationName "SupplyRewardPoint"
+    }
     TILW_SendMessageInstruction "{688238C021705765}" {
-     m_executionDelay 20
+     m_executionDelay 12
      m_messageTitle "Rewards"
-     m_messageBody "You now have access to, T-72A & T-72B"
+     m_messageBody "You've received 5 000 Supplies"
+    }
+    TILW_ReactivateEventsInstruction "{6888299AD006CB56}" {
+     m_executionDelay 60
+     m_eventNames {
+      "Cycle 2 - Reward"
+     }
     }
    }
    m_condition TILW_ConjunctionTerm "{688238C021705760}" {
@@ -1362,16 +1633,82 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
-  TILW_MissionEvent "{688238C020BE5C87}" {
-   m_name "Cycle 3"
+  TILW_MissionEvent "{6888299843DC912A}" {
+   m_name "Cycle 2"
    m_instructions {
-    TILW_SetFlagInstruction "{688238C020BE6334}" {
+    TILW_SendMessageInstruction "{6888299890E6CD25}" {
+     m_executionDelay 2
+     m_messageTitle "Seperatists are making their move.. .."
+    }
+    TILW_ClearFlagInstruction "{68882998ECC4E383}" {
+     m_flagName "AOClear"
+    }
+    TILW_ClearFlagInstruction "{68882998E13A6016}" {
+     m_flagName "AntennaDead"
+    }
+    TILW_ClearFlagInstruction "{68882998E495CF3E}" {
+     m_flagName "NovaOlesov"
+    }
+    TILW_SetFlagInstruction "{6888299843DC9093}" {
      m_executionDelay 60
-     m_flagName "Brambledeep"
+     m_flagName "Kamoryn"
+    }
+    TILW_ReactivateEventsInstruction "{6888299ACA27A6F9}" {
+     m_executionDelay 35
+     m_eventNames {
+      "Nova Olesov Start"
+      "Antenna - Reinforcements"
+      "Antenna - No Reinforcements"
+      "Nova Olesov End"
+      "Cycle 2"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{6888299843DC90AB}" {
+    m_operands {
+     TILW_LiteralTerm "{6888299843DC90A9}" {
+      m_flagName "MainMission"
+     }
+     TILW_LiteralTerm "{6888299843DC90A6}" {
+      m_flagName "AOClear"
+     }
+     TILW_LiteralTerm "{6888299843DC90A7}" {
+      m_flagName "AntennaDead"
+     }
+     TILW_LiteralTerm "{6888299843DC5C93}" {
+      m_flagName "NovaOlesov"
+     }
+     TILW_LiteralTerm "{6888299843DC5C90}" {
+      m_flagName "RandomTwo"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{688238C020BE5C87}" {
+   m_name "Cycle 3 - Reward"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{688829B4E9036464}" {
+     m_executionDelay 10
+     m_prefab "{BB3344D03AF5696B}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Depots/SupplyReward.et"
+     m_locationName "SupplyRewardPoint"
+    }
+    TILW_SendMessageInstruction "{688829B499C2173E}" {
+     m_executionDelay 12
+     m_messageTitle "Rewards"
+     m_messageBody "You've received 5 000 Supplies"
+    }
+    TILW_ReactivateEventsInstruction "{6888299ACD3B72D5}" {
+     m_executionDelay 60
+     m_eventNames {
+      "Cycle 3 - Reward"
+     }
     }
    }
    m_condition TILW_ConjunctionTerm "{688238C020BE6329}" {
     m_operands {
+     TILW_LiteralTerm "{6888299E711C7471}" {
+      m_flagName "MainMission"
+     }
      TILW_LiteralTerm "{688238C020BE632F}" {
       m_flagName "AOClear"
      }
@@ -1387,9 +1724,89 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
   }
+  TILW_MissionEvent "{68882998BF28FF36}" {
+   m_name "Cycle 3"
+   m_instructions {
+    TILW_SendMessageInstruction "{68882999706CA210}" {
+     m_executionDelay 2
+     m_messageTitle "Seperatists are making their move.. .."
+    }
+    TILW_ClearFlagInstruction "{688829997AB36770}" {
+     m_flagName "AOClear"
+    }
+    TILW_ClearFlagInstruction "{688829997994EBA8}" {
+     m_flagName "AntennaDead"
+    }
+    TILW_ClearFlagInstruction "{6888299979289CE4}" {
+     m_flagName "Kamoryn"
+    }
+    TILW_SetFlagInstruction "{68882998BF28FEB7}" {
+     m_executionDelay 10
+     m_flagName "Brambledeep"
+    }
+    TILW_ReactivateEventsInstruction "{6888299AC4DA847A}" {
+     m_executionDelay 35
+     m_eventNames {
+      "Kamoryn Start"
+      "Antenna - Reinforcements"
+      "Antenna - No Reinforcements"
+      "Kamoryn End"
+      "Cycle 3"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{68882998BF28FEAE}" {
+    m_operands {
+     TILW_LiteralTerm "{68882998BF28FEAC}" {
+      m_flagName "MainMission"
+     }
+     TILW_LiteralTerm "{68882998BF28FEAD}" {
+      m_flagName "AOClear"
+     }
+     TILW_LiteralTerm "{68882998BF29720C}" {
+      m_flagName "AntennaDead"
+     }
+     TILW_LiteralTerm "{68882998BF297203}" {
+      m_flagName "Kamoryn"
+     }
+     TILW_LiteralTerm "{68882998BF297202}" {
+      m_flagName "RandomTwo"
+     }
+    }
+   }
+  }
   TILW_MissionEvent "{688238C7EE52714B}" {
    m_name "-----------------------------"
    m_condition TILW_MatchjunctionTerm "{688238C7964CDBBF}" {
+   }
+  }
+  TILW_MissionEvent "{6888299AA623FF2F}" {
+   m_name "Main Objective Rewards"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{6888299AA623FFC3}" {
+     m_executionDelay 10
+     m_prefab "{BB3344D03AF5696B}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Depots/SupplyReward.et"
+     m_locationName "SupplyRewardPoint"
+     m_setEntityName ""
+    }
+    TILW_SendMessageInstruction "{6888299AA623FFBD}" {
+     m_executionDelay 12
+     m_messageTitle "Rewards"
+     m_messageBody "You've received 5 000 Supplies"
+    }
+    TILW_ClearFlagInstruction "{6888299B02469D10}" {
+     m_executionDelay 30
+     m_flagName "MainObjectiveReward"
+    }
+    TILW_ReactivateEventsInstruction "{6888299B043CDF70}" {
+     m_executionDelay 40
+     m_eventNames {
+      "Main Objective Rewards"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6888299AA623FFBF}" {
+    m_flagName "MainObjectiveReward"
    }
   }
   TILW_MissionEvent "{688238DA89A36EBE}" {
@@ -1414,6 +1831,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_locationName "VehicleDepotDomi"
      m_setEntityName "VehicleDepot_Domi_Tier2"
     }
+    TILW_SendMessageInstruction "{6888299AE0B767B4}" {
+     m_executionDelay 20
+     m_messageTitle "Tier 2 Unlocked"
+     m_messageBody "You now have access to, BMP-1 and Armed Mi-24s"
+    }
    }
    m_condition TILW_LiteralTerm "{688238DA8E7BA038}" {
     m_flagName "Tier2"
@@ -1433,6 +1855,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{60EBED612E631522}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Depots/VehicleDepot_Domi_Tier3.et"
      m_locationName "VehicleDepotDomi"
      m_setEntityName "VehicleDepot_Domi_Tier3"
+    }
+    TILW_SendMessageInstruction "{6888299A8C4E86F0}" {
+     m_executionDelay 20
+     m_messageTitle "Tier 3 Unlocked"
+     m_messageBody "You now have access to, T-72A & T-72B"
     }
    }
    m_condition TILW_LiteralTerm "{688238D8030C55FC}" {
@@ -1547,10 +1974,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_ClearFlagInstruction "{687AB8290F34D2D9}" {
      m_executionDelay 10
      m_flagName "VehicleSpawner"
-    }
-    TILW_ClearFlagInstruction "{687AB805741E8DA7}" {
-     m_executionDelay 10
-     m_flagName "AntennaDead"
     }
    }
    m_condition TILW_LiteralTerm "{687AB823FA824210}" {
@@ -1727,14 +2150,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageTitle "Kamoyrn Secured"
      m_messageBody "Kamoryn has been secured and cleared of Hostile Forces. Incredible work."
     }
-    TILW_ReactivateEventsInstruction "{687AB83DCBBDDCA8}" {
-     m_executionDelay 35
-     m_eventNames {
-      "Kamoryn Start"
-      "Antenna - Reinforcements"
-      "Antenna - No Reinforcements"
-      "Kamoryn End"
-     }
+    TILW_SetFlagInstruction "{6888299B6FF20596}" {
+     m_executionDelay 10
+     m_flagName "MainObjectiveReward"
     }
    }
    m_condition TILW_ConjunctionTerm "{687AB823B2816C8F}" {
@@ -1776,10 +2194,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_ClearFlagInstruction "{687B64087B36D75E}" {
      m_executionDelay 10
      m_flagName "VehicleSpawner"
-    }
-    TILW_ClearFlagInstruction "{687B64087B36D75F}" {
-     m_executionDelay 10
-     m_flagName "AntennaDead"
     }
    }
    m_condition TILW_LiteralTerm "{687B64087B376C91}" {
@@ -1959,15 +2373,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageTitle "Nova Olesov Secured"
      m_messageBody "Nova Olesov has been secured and cleared of Hostile Forces. Incredible work."
     }
-    TILW_ReactivateEventsInstruction "{687B64087DCCFD48}" {
-     m_executionDelay 35
-     m_eventNames {
-      "Nova Olesov Start"
-      "Antenna - Reinforcements"
-      "Antenna - No Reinforcements"
-      "Nova Olesov End"
-     }
-    }
    }
    m_condition TILW_ConjunctionTerm "{687B64087DCCFD4E}" {
     m_operands {
@@ -2009,10 +2414,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 10
      m_flagName "VehicleSpawner"
     }
-    TILW_ClearFlagInstruction "{687C931C8B18924B}" {
-     m_executionDelay 10
-     m_flagName "AntennaDead"
-    }
    }
    m_condition TILW_LiteralTerm "{687C931C8B189247}" {
     m_flagName "Brambledeep"
@@ -2030,14 +2431,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_ClearFlagInstruction "{687C931C862DE53C}" {
      m_executionDelay 8
      m_flagName "VehicleSpawner"
-    }
-    TILW_ClearFlagInstruction "{687C931C862DE53F}" {
-     m_executionDelay 8
-     m_flagName "Brambledeep"
-    }
-    TILW_ClearFlagInstruction "{687C931C862D62F3}" {
-     m_executionDelay 8
-     m_flagName "AntennaDead"
     }
     TILW_ClearFlagInstruction "{687D1CE4F3F06799}" {
      m_executionDelay 8
@@ -2190,15 +2583,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 10
      m_messageTitle "Brambledeep Secured"
      m_messageBody "Brambledeep has been secured and cleared of Hostile Forces. Incredible work."
-    }
-    TILW_ReactivateEventsInstruction "{687C931C862D6404}" {
-     m_executionDelay 35
-     m_eventNames {
-      "Brambledeep Start"
-      "Antenna - Reinforcements"
-      "Antenna - No Reinforcements"
-      "Brambledeep End"
-     }
     }
    }
    m_condition TILW_ConjunctionTerm "{687C931C862D6406}" {

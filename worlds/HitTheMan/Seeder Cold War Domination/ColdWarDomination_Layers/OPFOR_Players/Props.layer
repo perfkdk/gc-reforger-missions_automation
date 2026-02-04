@@ -1327,8 +1327,7 @@ $grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubComposition
 }
 $grp GenericEntity : "{D5DCF3520C2A8C41}Prefabs/Props/Furniture/Flipchart_01/Flipchart_01.et" {
  {
-  coords 3247.418 286.094 9742.81
-  angles 0 -65.259 0
+  coords 3247.322 286.094 9741.175
   {
    GenericEntity SetTimeInteract : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_SetFlagInteraction.et" {
     components {
@@ -1398,8 +1397,7 @@ $grp GenericEntity : "{D5DCF3520C2A8C41}Prefabs/Props/Furniture/Flipchart_01/Fli
   }
  }
  {
-  coords 3246.876 286.094 9741.925
-  angles 0 -51.741 0
+  coords 3248.873 286.094 9741.167
   {
    GenericEntity SetWeatherInteract : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_SetFlagInteraction.et" {
     components {
@@ -1442,15 +1440,45 @@ $grp GenericEntity : "{D5DCF3520C2A8C41}Prefabs/Props/Furniture/Flipchart_01/Fli
         m_singleUse 0
         m_flagName "Rainy"
        }
-       TILW_BaseInteraction "{687D50C4E5603A73}" {
+      }
+     }
+    }
+    coords -0.012 1.27 0.109
+    angles 0 91.055 0
+   }
+  }
+ }
+ {
+  coords 3250.507 286.094 9741.157
+  {
+   GenericEntity MissionInteract : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_SetFlagInteraction.et" {
+    components {
+     ActionsManagerComponent "{61F4C18E835074FF}" {
+      ActionContexts {
+       UserActionContext "{61F4C18ECB0A8B85}" {
+        ContextName "Interact_M"
+       }
+      }
+      additionalActions {
+       TILW_BaseInteraction "{61F4C18E863E752C}" {
+        ParentContextList {
+         "Interact_M"
+        }
+        ActionTitle "Activate Main Mission"
+        Duration 3
+        m_actionName "Activate Main Mission"
+        m_singleUse 0
+        m_flagName "MainMission"
+       }
+       TILW_BaseInteraction "{687AB81E4C9A81FE}" {
         ParentContextList {
          "Interact_A"
         }
-        ActionTitle "Supply"
+        ActionTitle "Activate Side Mission"
         Duration 3
-        m_actionName "Supply"
+        m_actionName "Activate Side Mission"
         m_singleUse 0
-        m_flagName "Supply"
+        m_flagName "SideMission"
        }
       }
      }
@@ -1560,9 +1588,6 @@ GenericEntity MainHQ_Domi_SupplyDepot : "{D774D8C83D10DB68}Prefabs/Compositions/
 }
 $grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_01/LampStreet_E_01_4m.et" {
  {
-  coords 3247.826 -0.01 9743.658
- }
- {
   coords 3246.402 0 9741.168
  }
  {
@@ -1620,6 +1645,9 @@ $grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/
  {
   coords 3189.494 0 9750.766
   angles 0 -2.449 0
+ }
+ {
+  coords 3251.63 0.09 9741.168
  }
 }
 GenericEntity VehicleDepot_Domi_Tier1 : "{EE5333F011082390}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Reward Depots/VehicleDepot_Domi_Tier1.et" {
