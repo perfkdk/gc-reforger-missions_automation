@@ -111,6 +111,7 @@ GenericEntity : "{525C793E1943EA06}Prefabs/Compositions/Slotted/SlotFlatLarge/He
          m_fResourceDecay 0
          m_fResourceDecayTickrate 0
          m_fResourceDecayTimeout 0
+         m_eOnEmptyBehavior NONE
         }
        }
        m_aConsumers {
