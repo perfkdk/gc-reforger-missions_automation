@@ -1,62 +1,31 @@
-$grp Vehicle : "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et" {
- M1025_MERDC2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60CECB549327C1}" {
-      SlotTemplate InventoryStorageSlot Bandages {
-       Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
-      }
-      NumSlots 4
+Vehicle M1025_MERDC2 : "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
      }
-     MultiSlotConfiguration "{686B17DED20ABEEC}" {
-      SlotTemplate EquipmentStorageSlot RifleMags {
-       Prefab "{FB5EB0F6D447E858}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_Ball.et"
-      }
-      NumSlots 3
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{686B17DED20ABEEC}" {
+     SlotTemplate EquipmentStorageSlot RifleMags {
+      Prefab "{FB5EB0F6D447E858}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_Ball.et"
      }
-     MultiSlotConfiguration "{686B17DEC1033044}" {
-      SlotTemplate EquipmentStorageSlot RifleMags {
-       Prefab "{4575737B3D3A4505}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M196_Tracer.et"
-      }
-      NumSlots 3
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{686B17DEC1033044}" {
+     SlotTemplate EquipmentStorageSlot RifleMags {
+      Prefab "{4575737B3D3A4505}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M196_Tracer.et"
      }
+     NumSlots 3
     }
    }
   }
-  coords 7071.97 57.342 8163.082
-  angles 0 -155.756 0
-  m_sAttachmentGroupName "BLUWEP"
  }
- M1025_MERDC1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60CECB549327C1}" {
-      SlotTemplate InventoryStorageSlot Bandages {
-       Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
-      }
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{686B17DED20ABEEC}" {
-      SlotTemplate EquipmentStorageSlot RifleMags {
-       Prefab "{FB5EB0F6D447E858}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_Ball.et"
-      }
-      NumSlots 3
-     }
-     MultiSlotConfiguration "{686B17DEC1033044}" {
-      SlotTemplate EquipmentStorageSlot RifleMags {
-       Prefab "{4575737B3D3A4505}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M196_Tracer.et"
-      }
-      NumSlots 3
-     }
-    }
-   }
-  }
-  coords 7065.418 57.268 8165.938
-  angles 0 -157.745 0
-  m_sAttachmentGroupName "BLUWEP"
- }
+ coords 7071.97 57.342 8163.082
+ angles 0 -155.756 0
+ m_sAttachmentGroupName "BLUWEP"
 }
 $grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
  M998_covered_long_MERDC1 {
@@ -372,6 +341,71 @@ $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
   coords 7017.082 57.178 8184.021
   angles 0 165.7 0
   m_sAttachmentGroupName "BLUHQ"
+ }
+ CRX_M1025_armed_M2HB_gunshield_DESERT5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62EACA454C3FDE7A}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62EACA44BB8DB7F8}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{62EACA449015CF31}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{62EACA4482A6FEC6}" {
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{62EACA44F7FFD246}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{62EACA44F707D1D5}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{62EACA542F863407}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{62EACA540865E9A9}" {
+      SlotTemplate InventoryStorageSlot ugl_flare {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{62EACA54619871BA}" {
+      SlotTemplate InventoryStorageSlot ATmine {
+       Prefab "{0BE2E422211B0B6D}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_GC_M34_500.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{6869451BF0866C9E}" {
+      SlotTemplate EquipmentStorageSlot democharge {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{6869451BE6647602}" {
+      SlotTemplate EquipmentStorageSlot Clacker {
+       Prefab "{0BE2E422211B0B6D}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_GC_M34_500.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 7064.943 57.176 8166.351
+  angles 0 -146.469 0
+  m_sAttachmentGroupName "BLU2nd"
  }
 }
 $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {

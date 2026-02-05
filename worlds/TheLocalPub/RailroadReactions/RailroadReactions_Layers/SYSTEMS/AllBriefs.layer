@@ -13,11 +13,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3487.581 60.156 5603.973
   m_sTitle "Mission Notes"
   m_sTextData "|END CONDITIONS|"\
-  "BLUFOR: Kill at least 50% of OPFOR + destroy supply cache on the train."\
+  "BLUFOR VICTORY: Kill at least 50% of OPFOR + destroy supply cache on the train."\
   "OR"\
   "Kill 95% of OPFOR"\
   ""\
-  "OPFOR:"\
+  "OPFOR VICTORY:"\
   "Kill 75% of BLUFOR causing them to become combat ineffective and withdraw."\
   ""\
   "|MISC|"\
