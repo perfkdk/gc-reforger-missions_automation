@@ -28,7 +28,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "|COMPOSITION & DISPOSITION|"\
   "Enemy forces are the US Army."\
   "Partisans in this area have caused us to derail by sabotaging the railway. We had a brief fight with them after the derailment but they withdraw. It appear they are attempting to delay and fix us in place so the pursuing US force can catch up to us."\
-  "We should expect contact to come from the North, which was direction we travelled."\
+  "We should expect contact to come from due north."\
   ""\
   "|STRENGTHS, CAPABILITIES, LIMITATIONS|"\
   "• Much about the SCLs of the enemy are unknown."\
@@ -53,7 +53,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "|STRENGTHS, CAPABILITIES, LIMITATIONS|"\
   "• Our train is armed and uparmoured."\
-  "At either end of the train is a mounted ZU-23, throughout the train within the carriages or on top, we can find fighting positions that also have mounted machine guns."\
+  "At either end of the train is a mounted ZU-23. Throughout the train within the carriages or on top, we can find fighting positions that also have mounted machine guns."\
   "• While our movement in the area is uncontested, we should be mindful of our ability to do so quicker then a pursuing enemy."\
   "We have no vehicles and are soley on foot."\
   "Pushing to far with an inability to retreat fast could be costly."\
@@ -63,7 +63,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "|SERVICE & SUPPORT|"\
   "• We were carrying supplies on the train. They've been strewn over the place thanks to the crash. Check the boxes near us and recover what we can. "\
-  "There's various boxes containing different equipment such as an NSV 12.7mm HMG, launchers and ammo, AT & AP mines inlcuding demo charges, small arms ammo, throwables, and also fortifcation tool such as placeable barbed wire, sandbags, and also deployable foliage to conceal positions."
+  "There's various boxes containing different equipment such as a tripod NSV 12.7mm HMG, tripod PKM, launchers and ammo, AT & AP mines inlcuding demo charges, small arms ammo, throwables, and also fortifcation tool such as placeable barbed wire, sandbags, and also deployable foliage to conceal positions."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }

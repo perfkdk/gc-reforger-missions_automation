@@ -157,6 +157,27 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "USDead"
    }
   }
+  TILW_MissionEvent "{688952C8DEDF7026}" {
+   m_name "QRFFlag"
+   m_instructions {
+    TILW_SetFlagInstruction "{688952C8CBDA6B98}" {
+     m_executionDelay 1800
+     m_flagName "SpawnQRF"
+    }
+    TILW_SendMessageInstruction "{688952CE998F4ECF}" {
+     m_executionDelay 1800
+     m_messageTitle "Reinforcement are close!"
+     m_messageBody "We're approximately 5-10mins away."\
+     "See you soon."
+     m_factionKeys {
+      "RHS_AFRF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{688952C8C9B70378}" {
+    m_invertTerm 1
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{6872D9485FE4D057}" {
