@@ -16,7 +16,7 @@ SCR_AIGroup COYHQ : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/Russia/1980s/Motoris
    m_iPlatoonCallsign 3
   }
  }
- coords 3250.185 286.156 9741.491
+ coords 3253.153 286.098 9741.484
  m_aUnitPrefabSlots {
   "{8558FB262DBF1D64}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_CoyL_P.et"
   "{2E93FDC7C413B281}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_FASL_P.et"
