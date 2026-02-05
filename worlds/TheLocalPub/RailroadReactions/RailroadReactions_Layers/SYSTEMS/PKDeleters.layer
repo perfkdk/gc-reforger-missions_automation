@@ -63,4 +63,18 @@ $grp PK_EntityDeleter {
    "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l_collision.et"
   }
  }
+ {
+  coords 6948.126 62.071 7509.076
+  m_fRadius 100
+  m_prefabFilterList {
+   "{7784C6A3B960D4DE}Prefabs/Models/tem_wagon_tanker.et"
+   "{BA7EFB0A9D07B687}Prefabs/Models/tem_wagon_flat.et"
+   "{2B2F8AC702037A16}Prefabs/Models/tem_wagon_box.et"
+   "{9632694D3BA796B4}Prefabs/Models/tem_train_tank2.et"
+   "{14CF88C0F5CE0C2B}Prefabs/Models/tem_train_blue.et"
+   "{0F5C67750F69E53B}Prefabs/Models/tem_train2.et"
+   "{B35DED766930521B}Prefabs/Models/tem_train2_car.et"
+   "{F5D1B83B433387C0}Prefabs/Models/tem_train_box2.et"
+  }
+ }
 }
