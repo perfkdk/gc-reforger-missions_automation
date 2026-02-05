@@ -49,8 +49,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Be mindful you can TP while its moving, and that it takes 5min to respawn should it be destroyed. Which means you'll either have to drive or utilize the Mi-8s"\
   ""\
+  "<b>Set Weather/Time in-game:</b>"\
+  "Players can set Weather/Time in-game at the HQ by looking at the Flipcharts, to change the gameplay & experience."\
+  ""\
   "<b>\"Random Objectives\":</b>"\
   "A bit false as its not truly random (Cannot figure it out) but more objectives will be added and made to function at a random sequence"\
+  ""\
+  "<b>Command Trucks:</b>"\
+  "There is a Command Truck next to HQ that can act as a Forward Spawn Point, where you can Teleport to it from the HQ Flag."\
+  ""\
+  "Be mindful you can TP while its moving, and that it takes 5min to respawn should it be destroyed. Which means you'll either have to drive or utilize the Mi-8s"\
   ""\
   "<b>Respawns:</b>"\
   "There is about 1,000,000 respawn tickets, this may change where you gain tickets from completing objectives BUT for now you'll instantly respawn, along with vehicles at their cooldown."\
@@ -64,10 +72,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "AI will be spawned inside buildings occupying them. NOT all buildings as we'd have far too many AI for the server to handle, but there will be AI in some if not most buildings depending on the location the objective spawns."\
   ""\
   "<b>Supply System:</b>"\
-  "There is now a Supply System inplace where you can purchase new vehicles, equipment, ammo and more. Use it sparingly as the only way to get more supply is by completing Main Objectives, and also scavenge/steal any supplies might be located there back to our HQ"\
+  "There is now a Supply System in place where you can purchase new vehicles, equipment, ammo and more. Use it sparingly as the only way to get more supply is by completing Main Objectives, and also scavenge/steal any supplies might be located there back to our HQ"\
   ""\
   "<b>Side Objectives:</b>"\
-  "A Side objective thats smaller but can potentially reward in newer vehicles like Tanks, Mi-24s, etc."\
+  "A Side objective that's smaller but can potentially reward in newer vehicles like Tanks, Mi-24s, etc."\
   ""\
   "<b>Rewards:</b>"\
   "Main Objectives now gives rewards for completing them, sometimes access to new vehicles and equipment, but will always provide an amount of supplies to the HQ's stockpile for us to utilize for future missions."\
@@ -76,7 +84,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Side Objectives now also give free vehicles as well as supplies"\
   ""\
   "<b>Activate Missions:</b>"\
-  "You canm activate the next sequence of Main OR Side Objectives at will at HQ, to minimize amount of AI to make Side Objectives more challanging or to prepare before the Seperatists move in."\
+  "You can activate the next sequence of Main OR Side Objectives at will at HQ, to minimize amount of AI to make Side Objectives more challenging or to prepare before the Separatists move in."\
   ""\
   "<h2>II: B. Planned Features</h2>"\
   ""\
@@ -90,8 +98,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Give AI indirect fire support, be it via triggers or a mortar team (if I can figure out AI mortar firing system)"\
   ""\
   "<b>COTVT Variant or even TVT Variant:</b>"\
-  "Have either a very small 4-5 man strong defender team that can teleport to objectives to stay inside them to give more challange to the players"\
-  "OR have two competing teams to clear objectives first, maybe giving the suceeding team with new better vehicles."\
+  "Have either a very small 4-5 man strong defender team that can teleport to objectives to stay inside them to give more challenge to the players"\
+  "OR have two competing teams to clear objectives first, maybe giving the succeeding team with new better vehicles."\
   ""\
   "<h2>Open for Suggestions or Improvements</h2>"
   m_bEmptyFactionVisibility 1
