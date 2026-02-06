@@ -3,10 +3,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3657.406 99.023 7784.064
   m_sTitle "Comsig"
   m_sTextData "|Callsigns|"\
-  "PLT HQ - 313H"\
+  "PLT HQ - 131H"\
   "1st SQD - 131"\
-  "2nd SQD 132"\
-  "3rd SQD 133"\
+  "2nd SQD - 132"\
+  "3rd SQD - 133"\
   "Train crew - 134"\
   ""\
   "|FREQ/CHAN|"\
@@ -63,7 +63,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "|SERVICE & SUPPORT|"\
   "• We were carrying supplies on the train. They've been strewn over the place thanks to the crash. Check the boxes near us and recover what we can. "\
-  "There's various boxes containing different equipment such as a tripod NSV 12.7mm HMG, tripod PKM, launchers and ammo, AT & AP mines inlcuding demo charges, small arms ammo, throwables, and also fortifcation tool such as placeable barbed wire, sandbags, and also deployable foliage to conceal positions."
+  "There's various boxes containing different equipment such as a tripod NSV 12.7mm HMG and tripod AGS17, launchers and ammo, AT & AP mines inlcuding demo charges, small arms ammo, throwables, and also fortifcation tool such as placeable barbed wire, sandbags, and also deployable foliage to conceal positions."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }

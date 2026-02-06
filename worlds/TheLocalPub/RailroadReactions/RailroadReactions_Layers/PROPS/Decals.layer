@@ -36,6 +36,11 @@ $grp DecalEntity : "{80B1153302345834}Prefabs/Decals/Miscellaneous/Decal_Damage_
   scale 5
  }
 }
+DecalEntity : "{97A820CF29C72121}Prefabs/Decals/Blood/Decal_Blood_7.et" {
+ coords 6373.559 0 5917.639
+ angles -90 0 97.546
+ scale 4.8
+}
 $grp DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_02.et" {
  {
   coords 6362.143 58.187 5894.064

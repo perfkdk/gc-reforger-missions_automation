@@ -145,7 +145,7 @@ $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
   }
   coords 7011.048 57.358 8130.229
   angles 0 86.624 0
-  m_sAttachmentGroupName "BLU2nd"
+  m_sAttachmentGroupName "BLU1st"
  }
  CRX_M1025_armed_M2HB_gunshield_DESERT2 {
   components {
@@ -405,11 +405,9 @@ $grp Vehicle : "{C00B26E6C8808EF8}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_
   }
   coords 7064.943 57.176 8166.351
   angles 0 -146.469 0
-  m_sAttachmentGroupName "BLU2nd"
+  m_sAttachmentGroupName "BLUWEP"
  }
-}
-$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
- M1025_armed_M2HB_MERDC1 {
+ CRX_M1025_armed_M2HB_gunshield_DESERT6 {
   components {
    SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
     MultiSlots {
@@ -470,11 +468,11 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
     }
    }
   }
-  coords 7010.3 57.22 8136.574
-  angles 0 86.928 0
-  m_sAttachmentGroupName "BLU2nd"
+  coords 7010.54 57.254 8136.27
+  angles 0 86.624 0
+  m_sAttachmentGroupName "BLU1st"
  }
- M1025_armed_M2HB_MERDC2 {
+ CRX_M1025_armed_M2HB_gunshield_DESERT7 {
   components {
    SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
     MultiSlots {
@@ -535,11 +533,11 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
     }
    }
   }
-  coords 7009.882 57.319 8146.482
-  angles 0 86.928 0
+  coords 7009.917 57.313 8146.894
+  angles 0 86.624 0
   m_sAttachmentGroupName "BLU3rd"
  }
- M1025_armed_M2HB_MERDC3 {
+ CRX_M1025_armed_M2HB_gunshield_DESERT8 {
   components {
    SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
     MultiSlots {
@@ -600,8 +598,8 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
     }
    }
   }
-  coords 7046.681 57.399 8172.374
-  angles 0 -167.19 0
+  coords 7046.981 57.422 8172.101
+  angles 0 -157.688 0
   m_sAttachmentGroupName "BLU2nd"
  }
 }

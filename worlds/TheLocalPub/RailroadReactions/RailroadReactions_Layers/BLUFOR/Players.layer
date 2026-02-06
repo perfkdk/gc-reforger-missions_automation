@@ -1,5 +1,5 @@
 $grp SCR_AIGroup : "{3CB49E81F6BAED00}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf (Woodland)/P/Group_US_1989_BDU_RifleSquad_P.et" {
- BLU1stf {
+ BLU1st {
   components {
    PS_GroupCallsignAssigner "{6587209DC264F2AF}" {
     m_iCompanyCallsign 3

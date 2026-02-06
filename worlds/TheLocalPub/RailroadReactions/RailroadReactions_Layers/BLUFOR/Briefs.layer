@@ -32,7 +32,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• They are only on foot. Their ability to move unseen is completely exposed on one side to train due to the lake."\
   ""\
   "|SERVICE & SUPPORT|"\
-  "• This retreating train was carrying equipment and supplies back for another day. Their defence is now the focus. Expect them to use the surplus of supplies to slow us down."
+  "• This retreating train was carrying heavy and light weaponry, equipment, and supplies back for another day. Their defence is now the focus. Expect them to use the surplus of supplies to slow us down."
   m_aVisibleForFactions {
    "US"
   }

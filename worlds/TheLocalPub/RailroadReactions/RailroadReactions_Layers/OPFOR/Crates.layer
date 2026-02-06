@@ -145,21 +145,21 @@ GenericEntity StaticCrate : "{762430A240108C70}PrefabsEditable/Auto/Props/Milita
     }
     MultiSlotConfiguration "{688B252E661227B2}" {
      SlotTemplate EquipmentStorageSlot PKMN {
-      Prefab "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et"
+      Prefab "{9FB927E1FD98598D}Prefabs/Items/Equipment/Tripods/6G10/Part_6G10_Gun.et"
      }
      NumSlots 1
     }
     MultiSlotConfiguration "{688B252E56B7A65D}" {
      SlotTemplate EquipmentStorageSlot PKMTripod {
-      Prefab "{F6490587042BFEE5}Prefabs/Items/Equipment/Tripods/PKM/Part_Tripod_6T5.et"
+      Prefab "{A3C6331E6B142F34}Prefabs/Items/Equipment/Tripods/6G10/Part_6G10_Tripod.et"
      }
      NumSlots 1
     }
     MultiSlotConfiguration "{688B252EB3A0E96B}" {
      SlotTemplate EquipmentStorageSlot PKMAmmo {
-      Prefab "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
      }
-     NumSlots 4
+     NumSlots 2
     }
     MultiSlotConfiguration "{686AD06A896736C7}" {
      SlotTemplate EquipmentStorageSlot TurretAmmo {
