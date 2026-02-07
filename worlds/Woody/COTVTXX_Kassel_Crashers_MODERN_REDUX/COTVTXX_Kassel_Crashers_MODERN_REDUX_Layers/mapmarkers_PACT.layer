@@ -7,7 +7,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "btr_coy"
   m_fWorldSize 150
-  m_sDescription "330/331/334"
+  m_sDescription "440/441/444"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }

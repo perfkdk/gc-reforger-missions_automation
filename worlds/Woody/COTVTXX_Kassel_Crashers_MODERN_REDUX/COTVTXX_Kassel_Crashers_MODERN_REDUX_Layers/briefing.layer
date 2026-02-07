@@ -75,6 +75,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Friendly Forces (PLAYERS):"\
   "	1x FO pair (Foxbat 4'1)"\
   "	1x Mortar Team (Foxbat 4'3 - 1x Tube)"\
+  "	location: 000 009"\
   ""\
   "Friendly Forces (AI): "\
   "	Mechanized Infantry Main Body utilizing M1296 Dragoons (30mm), M1126 Strykers, and JLTVs."\
@@ -108,6 +109,50 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
    "RHS_USAF"
   }
   m_iOrder 1
+ }
+ Briefing_K17 {
+  coords 372.141 159.569 881.92
+  m_sTitle "Briefing: K17 Weapons & Keys"
+  m_sTextData "2026-02-07, 9М113М is broken."\
+  ""\
+  "Weapons"\
+  "30mm 3УБР6 (3UBR6)"\
+  "- Solid-shot Armor Piercing Tracer (AP-T) for neutralizing enemy APCs and light vehicles."\
+  ""\
+  "30mm 3УОФ8 (3UOF8)"\
+  "- High-Explosive Incendiary (HE-I) for engaging infantry, soft targets, and buildings."\
+  ""\
+  "7.62mm ПКТМ (PKTM)"\
+  "- Coaxial machine gun for anti-infantry suppression and preserving 30mm ammunition."\
+  ""\
+  "135mm 9М113М (Konkurs-M)"\
+  "- Wire-guided anti-tank missile (ATGM) with tandem charge for destroying Main Battle Tanks."\
+  ""\
+  "81mm Система 902 «Туча» (Tucha)"\
+  "- Smoke grenade launchers for immediate visual concealment and breaking enemy line of sight."\
+  ""\
+  "Keybindings"\
+  "- Zoom in - \"+\""\
+  "- Zoom Out - \"-\""\
+  "- Zoom in/out \"Alt + Scroll up/down\""\
+  "- Next Weapon - Hold \"V\""\
+  ""\
+  "- 3УБР6 - \"1\""\
+  "- 3УОФ8 - \"2\""\
+  "- ПКТМ - \"3\""\
+  "- 9М113М - \"4\" (Broken)"\
+  "- «Туча» - \"5\""\
+  ""\
+  "- Toggle Turret Stabilization - \"Space\""\
+  "- Messure Distance (Use Laser Rangerfinder(ADS)) - \"C\""\
+  "-- Click once to lase, click again to range it"\
+  ""\
+  "Rearming"\
+  "- You have what you start with, you cannot rearm any of the weapons even if it says 0/160."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 20
  }
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
