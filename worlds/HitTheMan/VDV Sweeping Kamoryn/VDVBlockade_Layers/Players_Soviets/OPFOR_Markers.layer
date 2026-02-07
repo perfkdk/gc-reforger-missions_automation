@@ -1,0 +1,248 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ USSR_PLT_Marker_3 {
+  coords 4736.749 317.309 5927.841
+  angles 0 90 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "coy_hq"
+  m_fWorldSize 60
+  m_sDescription "210"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_2 {
+  coords 3718.701 240.84 5996.337
+  angles 0 90 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 60
+  m_sDescription "Canadian Rifle Platoon"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_4 {
+  coords 4754.34 310.854 5907.428
+  angles 0 90 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 60
+  m_sDescription "211"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_5 {
+  coords 4733.18 315.602 5956.45
+  angles 0 90 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 60
+  m_sDescription "214"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   GAME
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_6 {
+  coords 5581.372 268.068 5867.12
+  angles 0 7.487 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mortar"
+  m_fWorldSize 60
+  m_sDescription "Mortar Group"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_9 {
+  coords 3763.374 247.208 5909.622
+  angles 0 90 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 60
+  m_sDescription "Canadian Rifle Platoon"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_10 {
+  coords 3722.615 261.39 5817.006
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 60
+  m_sDescription "Canadian Rifle Platoon"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_11 {
+  coords 3699.556 252.084 5910.703
+  angles 0 90 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "coy_hq"
+  m_fWorldSize 60
+  m_sDescription "Canadian Rifle Company"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_12 {
+  coords 3658.952 260.06 5816.764
+  angles 0 -164.531 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "bmp"
+  m_fWorldSize 60
+  m_sDescription "Bradley"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_7 {
+  coords 4412.167 298.112 5820.499
+  angles 0 -21.778 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "atgm"
+  m_fWorldSize 60
+  m_sDescription "Fortified ATGM"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_8 {
+  coords 4212.492 282.052 5821.305
+  angles 0 -5.068 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "hmg"
+  m_fWorldSize 60
+  m_sDescription "Fortified HMG (Kord)"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_13 {
+  coords 4278.705 309.223 5611.531
+  angles 0 -5.068 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "hmg"
+  m_fWorldSize 60
+  m_sDescription "Fortified HMG (Kord)"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_14 {
+  coords 4517.292 336.595 5610.707
+  angles 0 12.652 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "hmg"
+  m_fWorldSize 60
+  m_sDescription "Fortified HMG (Kord)"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_15 {
+  coords 4405.634 297.078 5964.49
+  angles 0 -22.768 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "hmg"
+  m_fWorldSize 60
+  m_sDescription "Fortified HMG (Kord)"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_16 {
+  coords 4970.912 320.827 5643.266
+  angles 0 -15.856 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "hmg"
+  m_fWorldSize 60
+  m_sDescription "Fortified HMG (Kord)"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_bringToFront 0
+ }
+ USSR_PLT_Marker_17 {
+  coords 4634.014 330.43 6115.781
+  angles 0 -30.987 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "hmg"
+  m_fWorldSize 60
+  m_sDescription "Fortified HMG (Kord)"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_bringToFront 0
+ }
+}

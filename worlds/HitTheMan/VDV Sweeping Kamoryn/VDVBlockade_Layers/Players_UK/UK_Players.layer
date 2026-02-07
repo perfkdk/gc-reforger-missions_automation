@@ -1,0 +1,307 @@
+SCR_AIGroup : "{047DC6ADED8DE5E2}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Mortar_Crew_P.et" {
+ coords 3631.473 246.477 5960.129
+ angles 0 -74.374 0
+ m_faction "US"
+ m_aUnitPrefabSlots {
+  "{5E4D30EAE4DDA13A}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Mortar_SL_P.et"
+  "{50CFB2D3C860CD1F}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Mortar_P.et"
+  "{50CFB2D3C860CD1F}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Mortar_P.et"
+  "{50CFB2D3C860CD1F}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Mortar_P.et"
+  "{50CFB2D3C860CD1F}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Mortar_P.et"
+ }
+}
+$grp SCR_AIGroup : "{09244FD71B50E2E7}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_RifleAT_Sect_P.et" {
+ Sect1 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3663.742 242.913 5998.273
+  angles 2.527 105.354 -9.122
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{283A06EF2B6E7E24}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_SL_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{18D275E3D2D27FD7}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MG_P.et"
+   "{FA979110FE9BE8B3}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MGAmmo_P.et"
+  }
+ }
+ Sect2 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3661.24 243.9 5989.572
+  angles 1.311 105.94 -4.58
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{283A06EF2B6E7E24}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_SL_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{18D275E3D2D27FD7}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MG_P.et"
+   "{FA979110FE9BE8B3}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MGAmmo_P.et"
+  }
+ }
+ Sect3 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3658.89 245 5981.4
+  angles 1.633 105.881 -5.719
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{283A06EF2B6E7E24}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_SL_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{18D275E3D2D27FD7}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MG_P.et"
+   "{FA979110FE9BE8B3}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MGAmmo_P.et"
+  }
+ }
+ Sect5 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3647.094 248.654 5938.907
+  angles 1.311 105.94 -4.58
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{283A06EF2B6E7E24}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_SL_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{18D275E3D2D27FD7}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MG_P.et"
+   "{FA979110FE9BE8B3}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MGAmmo_P.et"
+  }
+ }
+ Sect6 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3644.744 249.491 5930.735
+  angles 2.769 105.774 -5.397
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{283A06EF2B6E7E24}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_SL_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{18D275E3D2D27FD7}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MG_P.et"
+   "{FA979110FE9BE8B3}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MGAmmo_P.et"
+  }
+ }
+ Sect7 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3642.5 250.141 5922.928
+  angles 4.728 105.686 -3.612
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{283A06EF2B6E7E24}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_SL_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{18D275E3D2D27FD7}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MG_P.et"
+   "{FA979110FE9BE8B3}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MGAmmo_P.et"
+  }
+ }
+ Sect8 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3640.135 250.846 5914.704
+  angles 2.769 105.774 -5.397
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{283A06EF2B6E7E24}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_SL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{18D275E3D2D27FD7}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MG_P.et"
+   "{FA979110FE9BE8B3}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MGAmmo_P.et"
+  }
+ }
+ Sect4 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3656.546 245.921 5973.319
+  angles 4.41 105.761 -2.465
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{283A06EF2B6E7E24}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_SL_P.et"
+   "{9F8A327B21817828}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Rifleman_P.et"
+   "{5785C5B443AA2C00}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_GL_P.et"
+   "{FABC36E9B219DA26}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_TL_P.et"
+   "{18D275E3D2D27FD7}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MG_P.et"
+   "{FA979110FE9BE8B3}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_MGAmmo_P.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{446A6B53FBC8673B}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_PLT_HQ_P.et" {
+ PltHQ1 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 3663.603 244.985 5983.405
+  angles 2.572 105.633 -9.109
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{229F56A29D7E8DA3}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_PL_P.et"
+   "{AB30106FBD55619A}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Sergeant_P.et"
+   "{56A6BAA7CFC08E5C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_RTO_P.et"
+   "{586DF8C76C63B293}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Medic_P.et"
+  }
+ }
+ PltHQ2 {
+  components {
+   PS_GroupCallsignAssigner "{651F086F466146B6}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 3647.75 249.943 5925.415
+  angles 2.572 105.633 -9.109
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{229F56A29D7E8DA3}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_PL_P.et"
+   "{AB30106FBD55619A}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Sergeant_P.et"
+   "{56A6BAA7CFC08E5C}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_RTO_P.et"
+   "{586DF8C76C63B293}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_Medic_P.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{4AA6802501A77D09}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_COY_HQ_P.et" {
+ CompanyHQ {
+  coords 3670.997 244.999 5956.815
+  angles 0 106.045 0
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{052BF0EF732DFB16}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_CoyL_P.et"
+   "{E576213D867E3C42}Prefabs/Characters/Factions/BLUFOR/US_Army/1981/Infantry (Woodland)/P/Character_US_1981_FO_P.et"
+  }
+ }
+ BradleyCrew {
+  coords 3663.742 248.986 5938.035
+  angles 2.452 105.863 -4.255
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{C01756C6A3458385}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_CO_P.et"
+   "{210E86F1B72C72CA}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Master_Gunner_P.et"
+   "{84045A64127AC7C8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Mech (Woodland)/P/Character_US_1986_BDU_Brad_Driver_P.et"
+  }
+ }
+}
+GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Equipment_01_US.et" {
+ components {
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{66E10EFC90B0BF46}" {
+     SlotTemplate InventoryStorageSlot M14Mines {
+      Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
+     }
+     NumSlots 1000
+    }
+    MultiSlotConfiguration "{67316E162FBB96A3}" {
+     SlotTemplate InventoryStorageSlot M14Mines {
+      Prefab "{25F3E9A9A45B3C58}Prefabs/Items/Equipment/Backpacks/Backpack_Para_Bergen.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{673E0583F1205C08}" {
+     SlotTemplate InventoryStorageSlot M14Mines {
+      Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{673E0583EB8239D3}" {
+     SlotTemplate InventoryStorageSlot M14Mines {
+      Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{673E0583E9036A7C}" {
+     SlotTemplate InventoryStorageSlot M14Mines {
+      Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+     NumSlots 50
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+ }
+ coords 3672.81 246.447 5968.326
+ angles 0 -47.329 0
+}

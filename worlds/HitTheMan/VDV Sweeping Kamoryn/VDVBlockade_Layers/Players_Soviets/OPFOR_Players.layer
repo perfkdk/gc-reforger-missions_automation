@@ -1,0 +1,219 @@
+$grp SCR_AIGroup : "{40B05548D6772056}Prefabs/Groups/OPFOR/Russia/1990s/Airborne Infantry 1993/P/AFRF_VDV_1993_RifleSquad_P.et" {
+ Squad1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{673E059099A7CD9C}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4764.135 311.544 5940.548
+  angles 0 96.131 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+  }
+  m_sCustomNameSet "1st Squad"
+ }
+ Squad2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{673E059099A7CD9C}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4766.299 315.702 5958.848
+  angles 0 96.131 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+  }
+  m_sCustomNameSet "2nd Squad"
+ }
+ Squad3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{673E059099A7CD9C}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 4775.819 315.099 5947.779
+  angles 0 96.131 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+  }
+  m_sCustomNameSet "3rd Squad"
+ }
+ Squad4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{673E059099A7CD9C}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 6
+   }
+  }
+  coords 4753.04 314.762 5949.951
+  angles 0 88.383 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+  }
+  m_sCustomNameSet "4th Squad"
+ }
+ Squad5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{673E059099A7CD9C}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 7
+   }
+  }
+  coords 4769.568 310.506 5902.034
+  angles 0 141.635 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+  }
+  m_sCustomNameSet "1st Squad"
+ }
+ Squad6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{673E059099A7CD9C}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 8
+   }
+  }
+  coords 4784.138 309.499 5913.315
+  angles 0 141.635 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{ACD038BB506F47AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SL_VDV_P.et"
+   "{1E8509F9011DB5F5}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AR_VDV_P.et"
+   "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
+   "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
+   "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
+  }
+  m_sCustomNameSet "2nd Squad"
+ }
+}
+$grp SCR_AIGroup : "{4B1E42F72C091C90}Prefabs/Groups/OPFOR/Russia/1990s/Airborne Infantry 1993/P/AFRF_VDV_1993_PHQ_P.et" {
+ Plt2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{673E05909774F3B2}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 5
+   }
+  }
+  coords 4764.734 313.157 5948.425
+  angles 0 96.131 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{530A65EFD09BD7F0}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_PL_VDV_P.et"
+   "{DC963F3BA0B5DE9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_RTO_VDV_P.et"
+   "{35630BBA3D667C61}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Medic_VDV_P.et"
+  }
+  m_sCustomNameSet "2nd VDV Platoon (+)"
+ }
+ Plt1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{673E05909774F3B2}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4775.607 309.62 5907.127
+  angles 0 141.635 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{530A65EFD09BD7F0}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_PL_VDV_P.et"
+   "{DC963F3BA0B5DE9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_RTO_VDV_P.et"
+   "{35630BBA3D667C61}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Medic_VDV_P.et"
+  }
+  m_sCustomNameSet "1st VDV Platoon (+)"
+ }
+}
+$grp SCR_AIGroup : "{D1C8401D78234671}Prefabs/Groups/OPFOR/Russia/1990s/Airborne Infantry 1993/P/AFRF_VDV_1993_CHQ_P.et" {
+ CoyHQ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{673E05908994530F}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 4787.103 312.03 5921.012
+  angles 0 25.124 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{0AD7706D172DF05E}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_CoyL_VDV_P.et"
+   "{DC963F3BA0B5DE9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_RTO_VDV_P.et"
+  }
+  m_sCustomNameSet "VDV Company"
+ }
+ MortarGroup {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{673E05908994530F}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4805.304 310.519 5904.18
+  angles 0 -61.143 0
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{74D7F430C3E7D1E5}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MortarSL_P.et"
+   "{917178E57AB126D9}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MortarCrew_P.et"
+   "{917178E57AB126D9}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MortarCrew_P.et"
+   "{917178E57AB126D9}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MortarCrew_P.et"
+   "{917178E57AB126D9}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MortarCrew_P.et"
+  }
+  m_sCustomNameSet "VDV Company"
+ }
+}
