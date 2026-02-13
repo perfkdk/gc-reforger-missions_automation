@@ -1,0 +1,290 @@
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
+ coords 12156.064 99.427 10549.185
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 11689.953 130.845 8875.311
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_iStartingMinutes 45
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{689B1CA005BD63B3}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingHour 5
+     m_iStartingMinutes 45
+    }
+   }
+   m_fFogAmount 0.27
+   m_fFogHeightDensity 0.058
+   m_bUseSpecifiedDate 1
+   m_iSetMonth 4
+   m_iSetYear 1953
+  }
+ }
+ coords 11332.928 89.457 10508.188
+}
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ bluforAO {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 10
+    m_factionKeys {
+     "San_Serriffe"
+    }
+    m_visibility FACTION
+    m_defaultColor 0 0.502 0.125 1
+    m_useFactionColor 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    m_factionKeys {
+     "San_Serriffe"
+    }
+    m_invert 0
+   }
+  }
+  coords 4814.926 580.24 6198.314
+  Points {
+   ShapePoint "{650693637AA66378}" {
+    Position 419.773 59.108 163.261
+   }
+   ShapePoint "{65069363921D6250}" {
+    Position 433.314 21.551 76.599
+   }
+   ShapePoint "{6506936392E7BB0E}" {
+    Position 278.295 25.358 -21.581
+   }
+   ShapePoint "{689B1CB184ED2D71}" {
+    Position 180 53.475 14.074
+   }
+   ShapePoint "{689B1CB183637936}" {
+    Position 144.906 68.889 84.122
+   }
+   ShapePoint "{689B1CB183D1EF71}" {
+    Position 110.31 63.207 168.657
+   }
+   ShapePoint "{689B1CB18240B824}" {
+    Position 151.955 75.328 223.237
+   }
+   ShapePoint "{689B1CB1804F9DA1}" {
+    Position 212.794 83.838 214.034
+   }
+   ShapePoint "{689B1CB18F3A78A5}" {
+    Position 256.152 74.379 235.409
+   }
+   ShapePoint "{689B1CB18FC85B8E}" {
+    Position 302.186 66.502 254.299
+   }
+   ShapePoint "{689B1CB18E48F346}" {
+    Position 279.909 10.804 327.286
+   }
+   ShapePoint "{689B1CB18E97B5C4}" {
+    Position 302.98 -4.314 357.821
+   }
+   ShapePoint "{689B1CB18DE65D22}" {
+    Position 385.59 52.004 286.914
+   }
+   ShapePoint "{689B1CB18CB53B42}" {
+    Position 413.543 42.576 270.232
+   }
+  }
+  LineColor 0 0.502 0.1255 1
+ }
+ opforAO {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 5
+    m_factionKeys {
+     "GC_DON"
+    }
+    m_visibility FACTION
+    m_defaultColor 0.502 0 0 1
+    m_useFactionColor 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    m_factionKeys {
+     "GC_DON"
+    }
+    m_visibleForEmptyFaction 0
+   }
+  }
+  coords 4814.885 580.24 6198.999
+  Points {
+   ShapePoint "{650693637AA66378}" {
+    Position -282.042 -100.815 288.341
+   }
+   ShapePoint "{689B1CB1E8A09E39}" {
+    Position -520.558 -173.46 370.177
+   }
+   ShapePoint "{689B1CB6171F7C11}" {
+    Position -740.699 -228.85 457.707
+   }
+   ShapePoint "{689B1CB61747FEB3}" {
+    Position -914.268 -243.997 417.893
+   }
+   ShapePoint "{689B1CB614E9A4DE}" {
+    Position -1185.243 -293.551 -92.826
+   }
+   ShapePoint "{689B1CB6130093D1}" {
+    Position -999.958 -269.663 -347.813
+   }
+   ShapePoint "{689B1CB6102C773A}" {
+    Position -856.932 -259.117 -436.957
+   }
+   ShapePoint "{689B1CB6109E972E}" {
+    Position -630.146 -259.832 -1007.042
+   }
+   ShapePoint "{689B1CB61FC1E11A}" {
+    Position -428.052 -248.123 -1026.93
+   }
+   ShapePoint "{689B1CB61D1969EB}" {
+    Position -236.396 -185.587 -783.771
+   }
+   ShapePoint "{689B1CB61CB14340}" {
+    Position -177.299 -164.536 -644.884
+   }
+   ShapePoint "{689B1CB61CDE9757}" {
+    Position -108.455 -146.791 -580.906
+   }
+   ShapePoint "{689B1CB61AC1BC9B}" {
+    Position -29.42 -141.103 -441.302
+   }
+   ShapePoint "{689B1CB618A49429}" {
+    Position 85.136 -114.84 -374.25
+   }
+   ShapePoint "{689B1CB6072217B8}" {
+    Position 221.615 -95.407 -273.824
+   }
+   ShapePoint "{689B1CB605242BC9}" {
+    Position 309.058 -75.725 -212.101
+   }
+   ShapePoint "{689B1CB603B1D2E9}" {
+    Position 273.548 19.383 -28.439
+   }
+   ShapePoint "{6506936367AD73D4}" {
+    Position 440.144 13.338 67.557
+   }
+   ShapePoint "{689B1CB1F41489A6}" {
+    Position 425.156 52.934 159.812
+   }
+   ShapePoint "{689B1CB1F4E12791}" {
+    Position 420.438 36.157 272.389
+   }
+   ShapePoint "{689B1CB1F31770D0}" {
+    Position 389.518 48.437 289.753
+   }
+   ShapePoint "{6506936364BD722A}" {
+    Position 303.792 -14.161 365.378
+   }
+   ShapePoint "{689B1CB1F07FB158}" {
+    Position 273.182 4.811 330.923
+   }
+   ShapePoint "{689B1CB1F0FA4821}" {
+    Position 297.158 61.897 258.186
+   }
+   ShapePoint "{689B1CB1FF7853EF}" {
+    Position 255.877 68.307 241.036
+   }
+   ShapePoint "{689B1CB1FE2895A0}" {
+    Position 210.035 80.442 217.466
+   }
+   ShapePoint "{689B1CB1FE56E41B}" {
+    Position 151.928 70.195 229.602
+   }
+   ShapePoint "{689B1CB1FD05117C}" {
+    Position 107.585 54.386 249.874
+   }
+   ShapePoint "{65069363616E1C0C}" {
+    Position -1.504 -28.511 344.216
+   }
+  }
+  LineColor 0.502 0 0 1
+ }
+ covermap {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+    m_killTimer 5
+    m_factionKeys {
+     "GC_DON"
+    }
+    m_visibility FACTION
+    m_defaultColor 0.502 0 0 1
+    m_useFactionColor 0
+   }
+   TILW_CoverMapComponent "{6473480FCAB7760B}" {
+    Enabled 1
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    m_factionKeys {
+     "GC_DON"
+     "San_Serriffe"
+    }
+    m_visibleForEmptyFaction 0
+   }
+  }
+  coords 4590.97 488.062 5984.799
+  Points {
+   ShapePoint "{689B1CB1F31770D0}" {
+    Position 1495.75 -70.458 106.901
+   }
+   ShapePoint "{6506936364BD722A}" {
+    Position 333.757 -316.596 1592.673
+   }
+   ShapePoint "{689B1CB1F07FB158}" {
+    Position -1644.088 -291.478 306.354
+   }
+   ShapePoint "{689B1CB1F0FA4821}" {
+    Position -558.811 -371.533 -1546.871
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 11316.509 90.796 10506.012
+ m_missionEvents {
+  TILW_MissionEvent "{689B66CCE2DAC9A1}" {
+   m_instructions {
+    TILW_SendMessageInstruction "{689B66CD24A07B92}" {
+     m_messageTitle "San Serriffe Victory"
+     m_messageBody "Donovian Forces have Taken to many casaulties"
+     m_factionKeys {
+      "GC_DON"
+      "San_Serriffe"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{689B66CD1DBA2979}" {
+    m_flagName "opforded"
+   }
+  }
+  TILW_MissionEvent "{689B66CCE0CF315C}" {
+   m_instructions {
+    TILW_SendMessageInstruction "{689B66CD03BF9B98}" {
+     m_messageTitle "Donovian Victory"
+     m_messageBody "All San Serriffe Forces have been killed"
+     m_factionKeys {
+      "GC_DON"
+      "San_Serriffe"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{689B66CD1CA57C70}" {
+    m_flagName "bluforded"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{689B66CCC54C2D50}" {
+   m_flagName "opforded"
+   m_factionKey "GC_DON"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{689B66CCC48A7CEA}" {
+   m_flagName "bluforded"
+   m_factionKey "San_Serriffe"
+  }
+ }
+}

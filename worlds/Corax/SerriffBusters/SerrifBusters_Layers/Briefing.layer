@@ -1,0 +1,203 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 4799.139 574.333 6090.504
+  m_sTitle "Execution"
+  m_sTextData "At CO descretion"
+  m_aVisibleForFactions {
+   "GC_DON"
+  }
+  m_iOrder 2
+ }
+ {
+  coords 4786.836 580.249 6169.737
+  m_sTitle "Situation"
+  m_sTextData "a. Enemy Forces:"\
+  "Enemy Donovian btn to the south west"\
+  ""\
+  "b. Friendly Forces:"\
+  "Our platoon(-) is located on top of hill 20 with attached mortar."\
+  ""\
+  "c. Terrain:"\
+  "steep rockey incline up to our hill with general covering of bushes"\
+  ""\
+  "d. Weather:"\
+  "Weather is inclamate with rain and heavy cloud lkely. Moderate wind. Ground is very wet and muddy but should not impede movement."\
+  ""\
+  ""
+  m_aVisibleForFactions {
+   "San_Serriffe"
+  }
+ }
+ {
+  coords 4836.015 579.839 6189.695
+  m_sTitle "Mission"
+  m_sTextData "The mission of 1 Platoon is to conduct a defence in place against any enemy force."
+  m_aVisibleForFactions {
+   "San_Serriffe"
+  }
+  m_iOrder 1
+ }
+ {
+  coords 4817.027 575.484 6114.905
+  m_sTitle "Execution"
+  m_sTextData "At CO's discretion."
+  m_aVisibleForFactions {
+   "San_Serriffe"
+  }
+  m_iOrder 2
+ }
+ {
+  coords 4808.96 574.104 6081.287
+  m_sTitle "Sustainment"
+  m_sTextData "G4 has told us that we have no additional resupply for the next 24 hours"
+  m_aVisibleForFactions {
+   "San_Serriffe"
+  }
+  m_iOrder 3
+ }
+ {
+  coords 4760.64 575.433 6096.987
+  m_sTitle "Command and Signal"
+  m_sTextData "a. Command:"\
+  "Listen to the CO. "\
+  "Usual succession is PLT CO > PSG > SL's"\
+  ""\
+  "b. Signal:"\
+  "Platoon Net: 48 MHz"\
+  ""\
+  "Callsigns:"\
+  "Platoon OC: 1'6"\
+  "Platoon SGT: 1'7"\
+  "1 Squad: 1'1"\
+  "2 Squad: 1'2"\
+  "3 Squad: 1'3"\
+  "Weapons Squad: 1'4"
+  m_aVisibleForFactions {
+   "San_Serriffe"
+  }
+  m_iOrder 4
+ }
+ {
+  coords 4801.37 574.343 6090.87
+  m_sTitle "Situation"
+  m_sTextData "a. Enemy Forces:"\
+  "Platoon sized San Serriff force on hill 20 in prepared positions"\
+  ""\
+  "b. Friendly Forces:"\
+  "Our Platoon with  attached SMG section and mortar are located at the 311 platoon marker."\
+  ""\
+  "c. Terrain:"\
+  "steep rockey incline up hill 20 with general covering of bushes"\
+  ""\
+  "d. Weather:"\
+  "Weather is inclamate with rain and heavy cloud lkely. Moderate wind. Ground is very wet and muddy but should not impede movement."\
+  ""
+  m_aVisibleForFactions {
+   "GC_DON"
+  }
+ }
+ {
+  coords 4789.518 573.934 6072.287
+  m_sTitle "Mission"
+  m_sTextData "To Destroy the enemy platoon on Hill 20 and Capture hill 20"
+  m_aVisibleForFactions {
+   "GC_DON"
+  }
+  m_iOrder 1
+ }
+ {
+  coords 4771.064 574.242 6065.538
+  m_sTitle "Command and Signal"
+  m_sTextData "a. Command:"\
+  "Listen to the CO. "\
+  ""\
+  "b. Signal:"\
+  "Coy Net: 42MHz"\
+  ""\
+  "Callsigns:"\
+  "HQ Section:   Stoi"\
+  "1 Section: 	   Stoi 1"\
+  "2 Section:	   Stoi 2"\
+  "3 Section:	   Stoi 3"\
+  "4 Section:	   Stoi 4"\
+  "SMG section: Stoi 5"\
+  "Mortar:		   Don 1"\
+  ""
+  m_aVisibleForFactions {
+   "GC_DON"
+  }
+  m_iOrder 4
+ }
+ {
+  coords 4767.348 577.925 6127.571
+  m_sTitle "Sustainment"
+  m_sTextData "Btn has told us that we have no additional resupply for 12 hours."
+  m_aVisibleForFactions {
+   "GC_DON"
+  }
+  m_iOrder 3
+ }
+ {
+  coords 4791.532 580.113 6166.617
+  m_sTitle "Notes"
+  m_sTextData "Basic attack and defend of a hill"\
+  ""\
+  "4:1 ratio ish"\
+  ""\
+  "No time limit"\
+  ""\
+  "Setup timer is 1 minute"\
+  ""\
+  "Casualty conditions apply at 100% for Blufor 90% for Opfor"\
+  ""\
+  "GMs be smart and call it when it starts to suck for people, pls and ty"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 5
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 4105.955 369.861 5848.472
+  angles 0 0 0
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "direction-of-attack"
+  m_sDescription "Direction of enemy COY movement"
+  m_aVisibleForFactions {
+   "San_Serriffe"
+  }
+ }
+ {
+  coords 4177.94 401.604 5988.495
+  angles 0 0 0
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "destroy"
+  m_sDescription "Mortar location"
+  m_aVisibleForFactions {
+   "GC_DON"
+  }
+ }
+ {
+  coords 5065.123 695.484 6358.874
+  angles 0 0 0
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "dot"
+  m_sDescription "Hill 20"
+  m_aVisibleForFactions {
+   "GC_DON"
+   "San_Serriffe"
+  }
+ }
+ {
+  coords 4127.144 397.815 6034.13
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 35
+  m_sDescription "311 Platoon"
+  m_aVisibleForFactions {
+   "GC_DON"
+  }
+ }
+}
