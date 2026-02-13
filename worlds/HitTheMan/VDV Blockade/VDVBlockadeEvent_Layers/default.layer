@@ -30,19 +30,21 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 17
+   m_iStartingMinutes 15
    m_fDayTimeAcceleration 0.1
    m_fNightTimeAcceleration 0.1
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{650415CBAFAE6875}" {
-     m_sWeatherPresetName "Clear"
+     m_sWeatherPresetName "Cloudy"
      m_iStartingHour 17
-     m_iStartingMinutes 45
+     m_iStartingMinutes 15
     }
    }
    m_bWindOverride 1
-   m_fWindSpeed 4.479
-   m_fWindDirection 0.903
+   m_fWindSpeed 2.5
+   m_fWindDirection 0.374
    m_fFogAmount 0.15
    m_fFogHeightDensity 0.35
    m_bUseSpecifiedDate 1
@@ -52,9 +54,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 7756.999 312.503 8163.458
- m_iFreezeTime 360000
+ m_iFreezeTime 300000
  m_bDisableArmaVision 1
+ m_bDisableBuildingModeAfterFreezeTime 1
  m_safeStartTime 20
+ m_fPrepDuration 0
+ m_fPrepMultiplier 100
+ m_fGameMultiplier 100
  {
   RadioManagerEntity {
    ID "5ED9088735FF2DEE"
@@ -66,7 +72,34 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792CD021D5C}" {
+        m_sCallsign "Chaos"
+       }
+       SCR_CallsignInfo "{55CCB792CCD598D3}" {
+        m_sCallsign "Ashes"
+       }
+       SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
+        m_sCallsign "Backlash"
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE18FB44}" {
+        m_sCallsign "1'"
+       }
+       SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+        m_sCallsign "2'"
+       }
+       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+        m_sCallsign "3'"
+       }
+       SCR_CallsignInfo "{656CC368919C7178}" {
+        m_sCallsign "0"
+       }
+      }
       m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+       }
        SCR_CallsignInfo "{55CCB792D13759D8}" {
         m_sCallsign "7"
        }
@@ -85,7 +118,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
        SCR_CallsignInfo "{669E264C31B8F43B}" {
         m_sCallsign "5"
        }
+       SCR_CallsignInfo "{689B42A8BFAC0D70}" {
+        m_sCallsign "8"
+       }
+       SCR_CallsignInfo "{689B42A94E6AC43F}" {
+       }
       }
+      m_sCallsignGroupFormat "%1 %2%3"
      }
     }
     SCR_Faction "{56DEAC40D3C2E623}" {
@@ -304,47 +343,41 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    ShapePoint "{688C5DCCC92886C4}" {
     Position 742.426 -42.644 248.576
    }
-   ShapePoint "{688C5DCCC8033211}" {
-    Position 645.617 -23.307 322.717
+   ShapePoint "{689813915054DF4B}" {
+    Position 640.433 -22.594 312.301
    }
-   ShapePoint "{688C5DCCCFBA585A}" {
-    Position 561.058 7.71 356.56
+   ShapePoint "{68981391571282D1}" {
+    Position 493.717 -5.765 321.814
    }
-   ShapePoint "{688C5DCCCEC9D9D8}" {
-    Position 488.127 8.888 356.47
+   ShapePoint "{68981391565DD231}" {
+    Position 402.387 -0.536 314.573
    }
-   ShapePoint "{688C5DCCCD7FF133}" {
-    Position 391.937 3.722 332.771
+   ShapePoint "{6898139155E3167E}" {
+    Position 263.646 -20.318 295.191
    }
-   ShapePoint "{688C5DCCCC181C7B}" {
-    Position 282.125 -13.874 329.748
+   ShapePoint "{689813914BF7B61A}" {
+    Position 147.34 -32.709 269.824
    }
-   ShapePoint "{688C5DCCC3401EED}" {
-    Position 214.43 -15.048 341.07
+   ShapePoint "{689813914B15BC43}" {
+    Position 57.115 -42.906 203.801
    }
-   ShapePoint "{688C5DCCC29E34EA}" {
-    Position 152.7 -24.225 337.927
+   ShapePoint "{689813914A8CA064}" {
+    Position -22.506 -50.601 192.421
    }
-   ShapePoint "{688C5DCCC0A589C0}" {
-    Position 70.362 -36.431 339.046
+   ShapePoint "{68981391498A2641}" {
+    Position -101.348 -57.364 184.961
    }
-   ShapePoint "{688C5DCCC7A9A206}" {
-    Position -5.787 -45.676 336.133
+   ShapePoint "{6898139148F464A8}" {
+    Position -196.105 -64.85 204.394
    }
-   ShapePoint "{688C5DCCC6FA37D7}" {
-    Position -87.349 -53.709 336.213
+   ShapePoint "{6898139148258DF8}" {
+    Position -260.772 -69.752 209.19
    }
-   ShapePoint "{688C5DCCC590BF1D}" {
-    Position -199.758 -64.637 330.684
+   ShapePoint "{68981391431D2B58}" {
+    Position -352.489 -77.693 214.797
    }
-   ShapePoint "{688C5DCCC49618FE}" {
-    Position -318.851 -78.077 317.141
-   }
-   ShapePoint "{688C5DCCE05DB36A}" {
-    Position -378.539 -84.926 308.835
-   }
-   ShapePoint "{688C5DCCE0296A72}" {
-    Position -380.428 -84.819 255.3
+   ShapePoint "{68981391425752F3}" {
+    Position -391.549 -81.41 222.147
    }
    ShapePoint "{688C5DCCE5DA0E97}" {
     Position -378.326 -80.541 176.454
@@ -447,21 +480,6 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   coords 4348.453 339.919 5794.746
   angles 0.895 0 0
   Points {
-   ShapePoint "{688C5DCDEAE528B2}" {
-    Position -743.273 -93.341 135.975
-   }
-   ShapePoint "{688C5DCDEA6D156B}" {
-    Position -753.11 -78.592 -28.053
-   }
-   ShapePoint "{688C5DCDE9E1D37E}" {
-    Position -710.363 -60.076 -175.147
-   }
-   ShapePoint "{688C5DCDE946781F}" {
-    Position -628.15 -36.377 -289.167
-   }
-   ShapePoint "{688C5DCDE922E92C}" {
-    Position -566.596 -24.038 -334.522
-   }
    ShapePoint "{688C5DCDEE404F43}" {
     Position -503.573 -19.535 -330.859
    }
@@ -537,118 +555,199 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    ShapePoint "{688C5DCD8035B9F1}" {
     Position 839.02 -53.139 60.402
    }
-   ShapePoint "{688C5DCD87BB81E7}" {
-    Position 822.367 -50.796 118.341
+   ShapePoint "{68981390E512A66F}" {
+    Position 810.365 -39.728 162.022
    }
-   ShapePoint "{688C5DCD870775E1}" {
-    Position 809.478 -40.095 159.746
+   ShapePoint "{68981390E4A78118}" {
+    Position 743.581 -42.638 249.248
    }
-   ShapePoint "{688C5DCDB8F82613}" {
-    Position 742.284 -42.648 248.169
+   ShapePoint "{689813909B9071FC}" {
+    Position 640.166 -22.508 313.269
    }
-   ShapePoint "{688C5DCDB86E7F69}" {
-    Position 644.943 -22.924 323.515
+   ShapePoint "{689813909B3EB378}" {
+    Position 492.55 -5.641 322.722
    }
-   ShapePoint "{688C5DCDBF690441}" {
-    Position 560.904 7.685 356.461
+   ShapePoint "{689813909D63E489}" {
+    Position 403.713 -0.234 316.108
    }
-   ShapePoint "{688C5DCDB3DA221D}" {
-    Position 487.992 8.75 356.199
+   ShapePoint "{689813909C815595}" {
+    Position 264.417 -20.163 295.491
    }
-   ShapePoint "{688C5DCDB2D916F1}" {
-    Position 393.064 3.555 333.124
+   ShapePoint "{6898139092E9458E}" {
+    Position 146.842 -32.852 269.119
    }
-   ShapePoint "{688C5DCDB1DA6169}" {
-    Position 281.516 -13.85 330.259
+   ShapePoint "{68981390948CDA1C}" {
+    Position 57.357 -42.83 204.771
    }
-   ShapePoint "{688C5DCDB0150CD7}" {
-    Position 214.539 -15.049 340.997
+   ShapePoint "{689813908AAB4933}" {
+    Position -22.954 -50.639 192.5
    }
-   ShapePoint "{688C5DCC5B00E246}" {
-    Position 154.052 -23.662 338.229
+   ShapePoint "{6898139089FDE36C}" {
+    Position -101.539 -57.401 185.76
    }
-   ShapePoint "{688C5DCC5A93EF06}" {
-    Position 71.003 -36.306 339.356
+   ShapePoint "{68981390AB8F2AFC}" {
+    Position -195.131 -64.786 204.337
    }
-   ShapePoint "{688C5DCC5A7DCC9A}" {
-    Position -5.735 -45.663 336.497
+   ShapePoint "{68981390AA933405}" {
+    Position -259.668 -69.657 209.119
    }
-   ShapePoint "{688C5DCC58954675}" {
-    Position -87.427 -53.729 335.846
+   ShapePoint "{68981390AA28294B}" {
+    Position -352.345 -77.682 215.009
    }
-   ShapePoint "{688C5DCC586F8092}" {
-    Position -201.158 -64.846 329.937
+   ShapePoint "{68981390AEA29395}" {
+    Position -391.975 -81.462 222.583
    }
-   ShapePoint "{688C5DCC4ABC153C}" {
-    Position -320.146 -78.232 316.985
+   ShapePoint "{68981390ADFE3906}" {
+    Position -441.224 -88.454 249.972
    }
-   ShapePoint "{688C5DCC4A21AC08}" {
-    Position -498.679 -100.848 291.162
+   ShapePoint "{689813916DABC6B6}" {
+    Position -630.154 -112.959 265.614
    }
-   ShapePoint "{688C5DCC49A4E411}" {
-    Position -629.585 -111.822 259.724
+   ShapePoint "{689813916CCAA3EF}" {
+    Position -779.509 -110.607 261.516
    }
-   ShapePoint "{688C5DCC4F58535A}" {
-    Position -704.958 -101.799 210.836
+   ShapePoint "{689813916C1CD379}" {
+    Position -1040.137 -119.135 197.608
+   }
+   ShapePoint "{6898139163E677A6}" {
+    Position -1127.954 -126.719 123.253
+   }
+   ShapePoint "{6898139162806238}" {
+    Position -1188.365 -123.479 -7.9
+   }
+   ShapePoint "{68981391627100FB}" {
+    Position -1194.722 -113.01 -150.717
+   }
+   ShapePoint "{68981391622D289D}" {
+    Position -1176.357 -101.288 -270.827
+   }
+   ShapePoint "{68981391678B44AF}" {
+    Position -1137.129 -92.396 -316.362
+   }
+   ShapePoint "{689813911BC08F3C}" {
+    Position -881.183 -63.587 -319.12
+   }
+   ShapePoint "{689813911A53BC39}" {
+    Position -702.648 -38.232 -320.362
    }
   }
  }
 }
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- {
-  coords 4130.835 273.436 5800.625
-  angles -11.525 -1.704 8.469
+ ObjOneA {
+  coords 4162.23 273.436 5806.315
   m_queryRadius 50
-  m_flagName "ObjOne"
+  m_flagName "ObjOneA"
   m_stopAfterFirstChange 1
   m_drawShapeOutline 0
   m_playersOnly 1
-  m_ownerFactionKey "GC_CAF"
+  m_ownerFactionKey "US"
   m_ratioThreshold 0.9
+  {
+   PS_ManualMarker Obj_Marker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSetGlow ""
+    m_MarkerColor 0.561 0.071 0.071 1
+    m_sQuadName "objective-marker"
+    m_fWorldSize 70
+    m_sDescription "Objecitve One A"
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+    m_bringToFront 0
+   }
+  }
  }
- {
-  coords 4504.339 301.943 5922.285
-  angles 1.194 0 0
+ ObjTwoA {
+  coords 4487.493 301.943 5935.355
   m_queryRadius 50
-  m_flagName "ObjOne"
+  m_flagName "ObjTwoA"
   m_stopAfterFirstChange 1
   m_drawShapeOutline 0
   m_playersOnly 1
-  m_ownerFactionKey "GC_CAF"
+  m_ownerFactionKey "US"
   m_ratioThreshold 0.9
+  {
+   PS_ManualMarker Obj_Marker2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0.01 0 -0.002
+    m_sImageSetGlow ""
+    m_MarkerColor 0.561 0.071 0.071 1
+    m_sQuadName "objective-marker"
+    m_fWorldSize 70
+    m_sDescription "Objecitve Two A"
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+    m_bringToFront 0
+   }
+  }
  }
- {
-  coords 4548.561 311.4 5768.917
-  angles -3.502 0.511 -8.313
+ ObjTwoB {
+  coords 4536.871 311.77 5735.724
   m_queryRadius 50
-  m_flagName "ObjOne"
+  m_flagName "ObjTwoB"
   m_stopAfterFirstChange 1
   m_drawShapeOutline 0
   m_playersOnly 1
-  m_ownerFactionKey "GC_CAF"
+  m_ownerFactionKey "US"
   m_ratioThreshold 0.9
+  {
+   PS_ManualMarker Obj_Marker3 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords -1.94 -0.371 -3.626
+    m_sImageSetGlow ""
+    m_MarkerColor 0.561 0.071 0.071 1
+    m_sQuadName "objective-marker"
+    m_fWorldSize 70
+    m_sDescription "Objecitve Two B"
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+    m_bringToFront 0
+   }
+  }
  }
- {
-  coords 4188.603 295.079 5648.71
-  angles -10.601 0.447 -2.427
+ ObjOneB {
+  coords 4196.35 295.079 5629.073
   m_queryRadius 50
-  m_flagName "ObjOne"
+  m_flagName "ObjOneB"
   m_stopAfterFirstChange 1
   m_drawShapeOutline 0
   m_playersOnly 1
-  m_ownerFactionKey "GC_CAF"
+  m_ownerFactionKey "US"
   m_ratioThreshold 0.9
+  {
+   PS_ManualMarker Obj_Marker4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSetGlow ""
+    m_MarkerColor 0.561 0.071 0.071 1
+    m_sQuadName "objective-marker"
+    m_fWorldSize 70
+    m_sDescription "Objecitve One B"
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+    m_bringToFront 0
+   }
+  }
  }
- {
+ ObjThree {
   coords 5040.995 301.63 5738.929
-  angles 0.184 -1.67 0.165
   m_queryRadius 110
-  m_flagName "ObjOne"
+  m_flagName "ObjThree"
   m_stopAfterFirstChange 1
   m_drawShapeOutline 0
   m_playersOnly 1
-  m_ownerFactionKey "GC_CAF"
+  m_ownerFactionKey "US"
   m_ratioThreshold 0.95
+  {
+   PS_ManualMarker Obj_Marker5 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords -0.015 0.001 0.001
+    m_sImageSetGlow ""
+    m_MarkerColor 0.561 0.071 0.071 1
+    m_sQuadName "objective-marker"
+    m_fWorldSize 70
+    m_sDescription "Objecitve Three"
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+    m_bringToFront 0
+   }
+  }
  }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
@@ -659,8 +758,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "WARSAW Victory Casualties"
    m_instructions {
     TILW_SendMessageInstruction "{673E05867BE49A5E}" {
-     m_messageTitle "Russian Victory"
-     m_messageBody "Canadians Sustained too many casualties.. GM Discretion when to end the mission"
+     m_messageTitle "Soviet VDV Victory"
+     m_messageBody "Americans Sustained too many casualties.. GM Discretion when to end the mission"
     }
    }
    m_condition TILW_LiteralTerm "{673E05867BE49A5A}" {
@@ -671,7 +770,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "NATO Victory Casualties"
    m_instructions {
     TILW_SendMessageInstruction "{66DB00D44D047DF3}" {
-     m_messageTitle "Canadian Victory"
+     m_messageTitle "US Victory"
      m_messageBody "Russian VDV Sustained too many casualties.. GM Discretion when to end the mission"
     }
    }
@@ -686,6 +785,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_executionDelay 300
      m_messageTitle "Time Limit"
      m_messageBody "The Mission will end in 60 minutes - At GM's Discretion"
+    }
+    TILW_DeleteEntitiesInstruction "{689A7478AA437992}" {
+     m_executionDelay 300
+     m_entityNames {
+      "SpawnFlag"
+      "SpawnTeleport"
+     }
     }
     TILW_SendMessageInstruction "{66D4DA0EA5FAB09D}" {
      m_executionDelay 1200
@@ -704,34 +810,109 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SendMessageInstruction "{6506E4089FDE5CA5}" {
      m_executionDelay 3900
-     m_messageTitle "British Victory"
-     m_messageBody "The British Held onto the mines long enough for reinforcements... GM Discretion when to end the mission"
+     m_messageTitle "Soviet VDV Victory"
+     m_messageBody "Russians have managed to hold the forest and their farmstead, blocking the MSR..."\
+     ""\
+     "GM Discretion when to end the mission"
     }
    }
    m_condition TILW_LiteralTerm "{6506E40BFBED4D76}" {
     m_invertTerm 1
    }
   }
-  TILW_MissionEvent "{672B08EA0609384E}" {
-   m_name "WARSAWOBJ Victory"
+  TILW_MissionEvent "{689A746274F09B23}" {
+   m_name "First Line of Objective Secured"
    m_instructions {
-    TILW_SendMessageInstruction "{672B08EA0609382C}" {
-     m_messageTitle "Russian VDV Victory"
-     m_messageBody "Russians have managed to secure all 3 Buildings.. "\
-     ""\
-     "GM Discretion when to end the mission"
+    TILW_SendMessageInstruction "{689A746274F09BF3}" {
+     m_executionDelay 30
+     m_messageTitle "First Line of Objectives Secured"
+     m_factionKeys {
+      "US"
+     }
+    }
+    TILW_SendMessageInstruction "{689A746274F09B8C}" {
+     m_executionDelay 15
+     m_messageTitle "First Line of Objectives Lost"
+     m_factionKeys {
+      "USSR"
+     }
+    }
+    TILW_SetFlagInstruction "{689A747D4D081D61}" {
+     m_executionDelay 30
+     m_flagName "ObjOneLine"
     }
    }
-   m_condition TILW_ConjunctionTerm "{672B08EA0609382B}" {
+   m_condition TILW_ConjunctionTerm "{689A746269B5CC67}" {
     m_operands {
-     TILW_LiteralTerm "{672B08EA0609382A}" {
-      m_flagName "Building1"
+     TILW_LiteralTerm "{689A74626F59DE7C}" {
+      m_flagName "ObjOneA"
      }
-     TILW_LiteralTerm "{672B08EA06093825}" {
-      m_flagName "Building2"
+     TILW_LiteralTerm "{689A74626EB0D065}" {
+      m_flagName "ObjOneB"
      }
-     TILW_LiteralTerm "{67316E1554822471}" {
-      m_flagName "Building3"
+    }
+   }
+  }
+  TILW_MissionEvent "{689A747D011CAC0A}" {
+   m_name "Second Line of Objective Secured"
+   m_instructions {
+    TILW_SendMessageInstruction "{689A747D011CAC6A}" {
+     m_executionDelay 30
+     m_messageTitle "Second Line of Objectives Secured"
+     m_factionKeys {
+      "US"
+     }
+    }
+    TILW_SendMessageInstruction "{689A747D011CAC65}" {
+     m_executionDelay 15
+     m_messageTitle "Second Line of Objectives Lost"
+     m_factionKeys {
+      "USSR"
+     }
+    }
+    TILW_SetFlagInstruction "{689A747D011CAC67}" {
+     m_executionDelay 30
+     m_flagName "ObjTwoLine"
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{689A747D011CAC61}" {
+    m_operands {
+     TILW_LiteralTerm "{689A747D011CAC62}" {
+      m_flagName "ObjTwoA"
+     }
+     TILW_LiteralTerm "{689A747D011CAC9C}" {
+      m_flagName "ObjTwoB"
+     }
+     TILW_LiteralTerm "{689A747D38A22241}" {
+      m_flagName "ObjOneLine"
+     }
+    }
+   }
+  }
+  TILW_MissionEvent "{689A747D302A5C6E}" {
+   m_name "Final Objective"
+   m_instructions {
+    TILW_SendMessageInstruction "{689A747D302A5CC1}" {
+     m_executionDelay 30
+     m_messageTitle "US Victory"
+     m_messageBody "Americans Has managed to clear the forest block and the farmstead, Securing the MSR from the VDV..."\
+     ""\
+     "GM Discretion when to end the mission"
+     m_factionKeys {
+      "US"
+     }
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{689A747D302A5CF8}" {
+    m_operands {
+     TILW_LiteralTerm "{689A747D302A5CFA}" {
+      m_flagName "ObjOneLine"
+     }
+     TILW_LiteralTerm "{689A747D302A5CFB}" {
+      m_flagName "ObjTwoLine"
+     }
+     TILW_LiteralTerm "{689B5E72981CED2A}" {
+      m_flagName "ObjThree"
      }
     }
    }
@@ -740,90 +921,101 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "----------------------------"
   }
   TILW_MissionEvent "{673E05863D626A54}" {
-   m_name "1st Building Message RUS"
+   m_name "One A Message"
    m_instructions {
     TILW_SendMessageInstruction "{673E05862F9E7CC5}" {
-     m_messageTitle "Church Secured."
+     m_executionDelay 15
+     m_messageTitle "Objective One A secured"
      m_factionKeys {
-      "RHS_AFRF"
+      "US"
+     }
+    }
+    TILW_SendMessageInstruction "{689A746381810C3D}" {
+     m_messageTitle "Objective One A Lost"
+     m_factionKeys {
+      "USSR"
      }
     }
    }
    m_condition TILW_LiteralTerm "{673E058635199B84}" {
-    m_flagName "Building1"
+    m_flagName "ObjOneA"
    }
   }
-  TILW_MissionEvent "{673E05BB300F0B00}" {
-   m_name "1st Building Message CAF"
+  TILW_MissionEvent "{689A7463AB994E87}" {
+   m_name "One B Message"
    m_instructions {
-    TILW_SendMessageInstruction "{673E05BB300F0BFD}" {
-     m_executionDelay 60
-     m_messageTitle "Church Secured by Russians"
+    TILW_SendMessageInstruction "{689A7463AB994F6D}" {
+     m_executionDelay 15
+     m_messageTitle "Objective One B secured"
      m_factionKeys {
-      "GC_CAF"
+      "US"
+     }
+    }
+    TILW_SendMessageInstruction "{689A7463AB994F6E}" {
+     m_messageTitle "Objective One B Lost"
+     m_factionKeys {
+      "USSR"
      }
     }
    }
-   m_condition TILW_LiteralTerm "{673E05BB300F0BFB}" {
-    m_flagName "Building1"
+   m_condition TILW_LiteralTerm "{689A7463AB994F68}" {
+    m_flagName "ObjOneB"
    }
   }
-  TILW_MissionEvent "{673E0586C4F9D0AE}" {
-   m_name "2nd Building Message RUS"
+  TILW_MissionEvent "{689A747D61102D42}" {
+   m_name "Two A Message"
    m_instructions {
-    TILW_SendMessageInstruction "{673E0586C4F9D17A}" {
-     m_messageTitle "Firestation Secured."
+    TILW_SendMessageInstruction "{689A747D61102D1E}" {
+     m_executionDelay 15
+     m_messageTitle "Objective Two A secured"
      m_factionKeys {
-      "RHS_AFRF"
+      "US"
+     }
+    }
+    TILW_SendMessageInstruction "{689A747D61102D19}" {
+     m_messageTitle "Objective Two A Lost"
+     m_factionKeys {
+      "USSR"
      }
     }
    }
-   m_condition TILW_LiteralTerm "{673E0586C4F9D171}" {
-    m_flagName "Building2"
-   }
-  }
-  TILW_MissionEvent "{673E05BB250388E8}" {
-   m_name "2nd Building Message CAF"
-   m_instructions {
-    TILW_SendMessageInstruction "{673E05BB250388B8}" {
-     m_executionDelay 60
-     m_messageTitle "Firestation Secured by Russians"
-     m_factionKeys {
-      "GC_CAF"
+   m_condition TILW_ConjunctionTerm "{689A747D1D14A186}" {
+    m_operands {
+     TILW_LiteralTerm "{689A747D13EC6C1F}" {
+      m_flagName "ObjOneLine"
+     }
+     TILW_LiteralTerm "{689A747D12C1DF09}" {
+      m_flagName "ObjTwoA"
      }
     }
    }
-   m_condition TILW_LiteralTerm "{673E05BB250388B7}" {
-    m_flagName "Building2"
-   }
   }
-  TILW_MissionEvent "{673E0586F1CA2350}" {
-   m_name "3rd Building Message RUS"
+  TILW_MissionEvent "{689A747D0B0AE129}" {
+   m_name "Two B Message"
    m_instructions {
-    TILW_SendMessageInstruction "{673E0586F1CA2323}" {
-     m_messageTitle "Farm Hayloft Secured."
+    TILW_SendMessageInstruction "{689A747D0B0AE0CF}" {
+     m_executionDelay 15
+     m_messageTitle "Objective Two B secured"
      m_factionKeys {
-      "RHS_AFRF"
+      "US"
+     }
+    }
+    TILW_SendMessageInstruction "{689A747D0B0AE0C9}" {
+     m_messageTitle "Objective Two B Lost"
+     m_factionKeys {
+      "USSR"
      }
     }
    }
-   m_condition TILW_LiteralTerm "{673E0586F1CA233E}" {
-    m_flagName "Building3"
-   }
-  }
-  TILW_MissionEvent "{673E05BBD4A2FEFE}" {
-   m_name "3rd Building Message RUS"
-   m_instructions {
-    TILW_SendMessageInstruction "{673E05BBD4A2FF4B}" {
-     m_executionDelay 60
-     m_messageTitle "Farm Hayloft Secured by Russians"
-     m_factionKeys {
-      "GC_CAF"
+   m_condition TILW_ConjunctionTerm "{689A747D0B0AE0CB}" {
+    m_operands {
+     TILW_LiteralTerm "{689A747D0B0AE0D7}" {
+      m_flagName "ObjOneLine"
+     }
+     TILW_LiteralTerm "{689A747D0B0A852F}" {
+      m_flagName "ObjTwoB"
      }
     }
-   }
-   m_condition TILW_LiteralTerm "{673E05BBD4A2FF40}" {
-    m_flagName "Building3"
    }
   }
   TILW_MissionEvent "{673E0586331C1D54}" {
@@ -833,13 +1025,13 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{66DB00D5AECA8021}" {
    m_flagName "RUS_CAS"
-   m_factionKey "RHS_AFRF"
-   m_casualtyRatio 0.83
+   m_factionKey "USSR"
+   m_casualtyRatio 0.95
   }
   TILW_FactionPlayersKilledFlag "{672B08EB2E343684}" {
    m_flagName "CAF_CAS"
-   m_factionKey "GC_CAF"
-   m_casualtyRatio 0.9
+   m_factionKey "US"
+   m_casualtyRatio 0.85
   }
  }
 }

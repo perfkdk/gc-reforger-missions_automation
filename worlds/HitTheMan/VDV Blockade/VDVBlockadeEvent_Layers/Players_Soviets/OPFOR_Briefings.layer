@@ -13,22 +13,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1st Squad ------------------------------ 211"\
   "2nd Squad ----------------------------- 212"\
   "3rd Squad ------------------------------ 213"\
-  "4th Squad ------------------------------ 214"\
   ""\
-  "Platoon HQ ---------------------------- 215 (HQ)"\
-  "1st Squad ------------------------------ 215"\
-  "2nd Squad ----------------------------- 216"\
-  "3rd Squad ------------------------------ 217"\
-  "4th Squad ------------------------------ 218"\
-  ""\
-  "1st BRDM  --------------------------- 471"\
-  "2nd BRDM  --------------------------- 472"\
-  "3rd BRDM  --------------------------- 473"\
-  ""\
+  "Platoon HQ ---------------------------- 214 (HQ)"\
+  "1st Squad ------------------------------ 214"\
+  "2nd Squad ----------------------------- 215"\
+  "3rd Squad ------------------------------ 216"\
   ""\
   "<b>III. Frequencies:</b>"\
   "Company Net ------------------------- 42.00MHz"\
-  "-- BRDMs on Company"\
   "1st Platoon Net ------------------------- 43.00MHz"\
   "2nd Platoon Net ------------------------- 44.00MHz"
   m_aVisibleForFactions {
@@ -41,26 +33,28 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "A. Enemy Forces:"
   m_sTextData "<h2>A. Enemy Forces:</h2>"\
   "<b>Equipment:</b>"\
-  "Canadians are equipped with their standard NATO weaponry. etc"\
+  "Americans are equipped with their standard NATO weaponry. etc"\
   "Wearing woodland coloured camo uniforms & helmets."\
   ""\
   "<b>Known Strength:</b>"\
-  "1x Canadian Rifle Platoon"\
+  "1x US Rifle Company (-)"\
+  "1x M2 Bradley"\
   ""\
   "<b>Location:</b>"\
-  "Royal Marines located in Kamoryn"\
+  "West of Pasastjen Highway as marked on map."\
   ""\
   "<b>Capabilities:</b>"\
-  "Access to M16A1s series, LAWs/M67s, M60, M249, Carl Gustavs, etc."\
+  "Access to M16A1s series, M203, LAWs/M67s, M60, etc."\
+  "1x Bradley"\
   ""\
   "<b>MLCOA:</b>"\
-  "Engage us before we establish a solid foothold in their town before pulling back"\
+  "Establish a Company line to push through the treeline on both sides of the road with the Bradley down the road."\
   ""\
   "<b>MDCOA:</b>"\
-  "Prepare killzones to decimate a platoon before pulling back into harder defences."\
+  "Setup a Company line on both sides of the road, with the Bradley in the woods to support the infantry's push, negating our captured TOW."\
   ""\
   "<b>Defensive Fires:</b>"\
-  "No known in-direct threat at this time."\
+  "3x Mortar Tubes for support."\
   ""\
   "<b>Airthreat:</b>"\
   "No known Air support."\
@@ -81,29 +75,30 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
   "Russian VDV Company is located West of Kamoryn"\
+  "Mortar located at 056 063"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
   "Company has been tasked with securing the town of Kamoryn after successfully securing the airfield."\
   ""\
   "<b>c. Composition:</b>"\
   "1x Company HQ"\
-  "2x Platoon (+)"\
-  "1x BRDM Platoon"\
+  "2x Platoon"\
+  "1x Mortar Tube."\
   ""\
   "<b>d. Strength:</b>"\
   "Company HQ - At 3x Soldiers Strong"\
-  "1st VDV Platoon - At 27x Soldiers Strong"\
-  "2nd VDV Platoon - At 27x Soldiers Strong"\
-  "BRDM Platoon - At 9x Soldiers Strong"\
+  "1st VDV Platoon - At 18x Soldiers Strong"\
+  "2nd VDV Platoon - At 18x Soldiers Strong"\
+  "Mortar Team - At 3x Soldiers Strong"\
   ""\
   "<b>e. Supporting Fires:</b>"\
-  "None as of this time."\
+  "1x Mortar Tube."\
   ""\
   "<b>f. Attachments/Detachments:</b>"\
   "No air support available"\
   ""\
   "<b>g. Additional Ammunition</b>"\
-  "Additional Ammunition in the BRDMs"
+  "Box near the Flag Teleporter has spare Ammo."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -113,7 +108,24 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 5156.968 341.544 5343.003
   m_sTitle "II. Mission (Must Read):"
   m_sTextData "<h2>II: Mission</h2>"\
-  "Secure the 3x buildings within the town and kill 90% of the Canadian forces located there."
+  "<b>Delay the enemy and crush their advance.</b>"\
+  ""\
+  "Friendly Mortar Team is located at 056 063"\
+  ""\
+  "We do not need to die fighting for the 4x Forward Objectives (OBJ One & Two), as long as Objective Three the Farmstead is safe is what matters in the end. Us this to our advantage."\
+  ""\
+  "Recommend conducting a Delaying Defense, engage hard and pull back to further defenses."\
+  ""\
+  "Heavy Trenches have been dug forward near Objective One A & B, with Foxholes as Secondary Lines, MG positions setup along them as marked on map."\
+  ""\
+  "We have a captured TOW setup at the road."\
+  "- TO USE THE TOW, hold down LEFT MOUSE BUTTON (LMB) for 4 Seconds and it will fire."\
+  "- It is a little buggy but it will fire and destroy whats at the end of it. You have 2x extra reload tubes nearby"\
+  ""\
+  ""\
+  "- You can teleport to markers on map from Spawn to safe time running. (THE FLAG WILL DESPAWN AT END OF SAFESTART)"\
+  "- Mortar Team can Teleport to Farmstead, however it is a ONE WAY teleport."\
+  "- Biggest threat you have is the Enemy Bradley, utilize the captured TOW and plenty of RPGs to destroy the Bradley. (KEEP IN MIND OF WIND FOR RPGs)"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -124,15 +136,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "Secure the town of Kamoryn"\
+  "Delay their attack and crush their advance."\
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Company Commander's Discretion."\
-  "It is advised to utilize the BRDMs to either locate the enemy or suppress them in windows & buildings, to allow the Platoons to move up and start clearing them."\
+  "It it advised to utilize the trenches as much as possible, the setup MGs and the captured TOW. After engaging heavily it is recommended to fall back to make sure to prevent any unecessary losses."\
   ""\
   "<b>2. Maneuver</b>"\
   "Company Commander's Discretion."\
-  "It is advised to not spread the Platoons far from each other so they can mutually support one another."\
+  "It is highl advised to spread the platoon to each side of the road, with the platoons spreading the squads to prevent any flankers and to spot the enemy."\
   ""
   m_aVisibleForFactions {
    "USSR"
@@ -152,19 +164,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Ammunition: Each man carries his own ammunition."\
   "IPE: Helmets and body armour are to be worn at all times."\
   ""\
-  "BTRs & Urals contains:"\
-  "- 4x Bandages"\
-  "- 4x Tourniquets"\
-  "- 4x Morphines"\
-  "- 80x AK Mags"\
-  "- 4x Grenades"\
-  "- 10x Smoke Grenades"\
-  "- 40x TSh-400g Explosives"\
-  "- 10x KPM 3U1 Blasting Machine"\
-  "- 50x Handheld White Flares"\
-  "- 50x Handheld Orange Flares"\
-  "- 50x Handheld Green Flares"\
-  ""\
   "<b>c. Medical:</b>"\
   "Location: Platoon Aid Post is to be setup by Platoon medics."\
   "CASEVAC: By foot or with company asset like the BTRs if there are any."\
@@ -174,7 +173,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Morphine: Every soldier carries 1+ stick of morphine."\
   ""\
   "<b>d. Vehicles:</b>"\
-  "3x BRDMs"
+  "None."
   m_aVisibleForFactions {
    "USSR"
   }
