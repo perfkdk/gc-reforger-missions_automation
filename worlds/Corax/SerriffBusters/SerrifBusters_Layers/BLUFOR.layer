@@ -1,4 +1,10 @@
 SCR_AIGroup : "{0D0F5331CCF04C37}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/Group_SanSerriffe_Mortar_Section.et" {
+ components {
+  PS_GroupCallsignAssigner "{689B7287AEED5CE1}" {
+   m_iCompanyCallsign 1
+   m_iSquadCallsign 7
+  }
+ }
  coords 5081.329 689.164 6342.214
  angles 0 -104.661 0
 }
@@ -7,9 +13,15 @@ SCR_AIGroup : "{353C630F00EBCDA5}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/P/Group
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
+  PS_GroupCallsignAssigner "{689B7287C6F151E5}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 2
+  }
  }
  coords 5092.071 688.738 6339.608
  angles 0 -127.318 0
+ m_bSetPlayable 1
 }
 Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
  components {
@@ -21,11 +33,6 @@ Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
  angles 0 -127.606 0
 }
 SCR_AIGroup : "{8F714EE9F7C76E56}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/P/Group_SanSerriffe_PLT_HQ_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
-  }
- }
  coords 5089.285 688.824 6334.371
  angles 0 -138.84 0
 }
@@ -160,10 +167,6 @@ $grp GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 -128.424 0
   scale 0.8
  }
-}
-SCR_AIGroup : "{CDEC650DC1A8CB7C}Prefabs/Groups/OPFOR/GC_Donovia/Group_Donnovia_MortarSection.et" {
- coords 4173.234 401.256 5994.431
- m_bSetPlayable 1
 }
 GenericEntity : "{E1FD1ACDA98123AE}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Mortar_US.et" {
  components {
