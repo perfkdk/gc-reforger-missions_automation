@@ -6,8 +6,6 @@ PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
-  CSI_PlayerDataManager "{66BCC39A74975F3C}" {
-  }
   PS_ObjectiveManager "{60846DEA6E152749}" {
    m_aObjectiveLavels {
     PS_ObjectiveLevel "{60BA84346F79B79E}" {
@@ -444,8 +442,6 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
     }
    }
   }
-  ServerAdminTools_GamemodeComponent "{5C4531FB79DE4E32}" {
-  }
   RplComponent "{56B2B4793BF2E1B4}" {
    "Rpl State Override" None
    Streamable Disabled
@@ -679,7 +675,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{689B66CD24A07B92}" {
      m_messageTitle "San Serriffe Victory"
-     m_messageBody "All San Serriffe Forces have been killed"
+     m_messageBody "Donovian forces have revieved to many casualties"
      m_factionKeys {
       "GC_DON"
       "San_Serriffe"
