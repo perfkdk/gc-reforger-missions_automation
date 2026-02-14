@@ -40,8 +40,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "A. Enemy Forces:"
   m_sTextData "<h2>A. Enemy Forces:</h2>"\
   "<b>Equipment:</b>"\
-  "Russians are equipped with their standard WARSAW Pact weaponry, AK series, RPG7s, PRKs."\
-  "Wearing the standard NVA uniform of Dark green with greenish helmet."\
+  "Russians are equipped with their standard WARSAW Pact weaponry, AK series, RPG7s, RPKs."\
+  "Wearing the standard USSR uniform of VDV Camo with greenish helmet."\
   ""\
   "<b>Known Strength:</b>"\
   "1x Company (-)"\
@@ -89,7 +89,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>2. Maneuver</b>"\
   "Company Commander's Discretion."\
-  "It is advised to not split the company too much, likely a platoon on each side of the road with either the bradley on the road supporting and making sure the enemy cannot cross, or with the infantry in the woods although it being dangerous."
+  "It is advised to not split the company too much, likely a platoon on each side of the road with either the bradley on the road supporting and making sure the enemy cannot cross, or with the infantry in the woods although that would be dangerous."
   m_aVisibleForFactions {
    "US"
   }
@@ -100,8 +100,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "IV. Sustainment:"
   m_sTextData "<h2>IV: Sustainment</h2>"\
   "<b>a. SOP Variations</b>"\
-  "Dress: Standard Canadian Uniform"\
-  "Equipment: Standard Canadian Loadout"\
+  "Dress: Standard US Uniform"\
+  "Equipment: Standard US Loadout"\
   ""\
   "<b>b. Logistical Support:</b>"\
   "Replen Plan: None for 24h."\
@@ -133,11 +133,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Friendly Mortar is located at 028 061"\
   ""\
-  "The enemy has had 16hrs to prepare defenses AFTER landing at the MSR securing it. Expect Trenches and setup MG killzones. We sent recon team earlier and they got into contact, marked on map of suspected enemy dug-in position"\
+  "The enemy has had 16hrs to prepare defenses AFTER landing at the MSR securing it. Expect Trenches and emplaced MG killzones. We a sent recon team earlier and they got into contact, marked on map of suspected enemy dug-in position"\
   ""\
-  "Reports they ambushed a convoy 5hrs earlier, they may have captured us equipment like a TOW"\
+  "Reports they ambushed a convoy 5hrs earlier, they may have captured US equipment like a TOW"\
   ""\
-  "Utilize the Mortars to flush out any hard dug-in forces or to setup smoke screen to allow easier manuever."\
+  "Utilize the Mortars to flush out any hard dug-in forces or to setup smoke screen to allow easier maneuver."\
   ""\
   ""\
   "(YOU MUST secure both objectives at the front before proceeding to the next, read Mission Notes)"
@@ -165,7 +165,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<b>d. Strength:</b>"\
   "Coy HQ - 2x Man Strength"\
   "1st Plt - At 37x Man Strength"\
-  "2nd Plt - At 38x Man Strength"\
+  "2nd Plt - At 37x Man Strength"\
   "Bradley - At 3x Man Strength"\
   "Mortar Team - At 6x Man Strength"\
   ""\
