@@ -3,12 +3,51 @@ GenericEntity : "{2351FA1249150AE6}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR
   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
    m_aContainers {
     SCR_ResourceContainer "{689B1CAC2BDE7C7E}" {
+     m_eResourceRights ALL
      m_fResourceValueCurrent 2500
+     m_fResourceValueMax 2500
     }
    }
   }
  }
  coords 4179.575 401.615 5987.102
+}
+GenericEntity : "{5E6CBF60621C39CD}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR.et" {
+ components {
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   Enabled 0
+  }
+  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+   Enabled 0
+  }
+  UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+   MultiSlots {
+    MultiSlotConfiguration "{689CFDCC7C6AB1E7}" {
+     SlotTemplate InventoryStorageSlot mosin {
+      Prefab "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et"
+     }
+     NumSlots 200
+    }
+    MultiSlotConfiguration "{689CFDCC7C764D5C}" {
+     SlotTemplate InventoryStorageSlot ppsh {
+      Prefab "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{689CFDCCBEFF5DD8}" {
+     SlotTemplate InventoryStorageSlot ppsh {
+      Prefab "{5587A9FD1C78FE17}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_Ppsh41_35rnd_Stick.et"
+     }
+     NumSlots 30
+    }
+   }
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+   Enabled 0
+  }
+ }
+ coords 4135.954 398.707 6027.543
+ angles 0 -140.354 0
 }
 $grp SCR_AIGroup : "{6B11915EA2BBCFE0}Prefabs/Groups/OPFOR/GC_Donovia/P/Group_Donnovia_RifleSecton_P.et" {
  {

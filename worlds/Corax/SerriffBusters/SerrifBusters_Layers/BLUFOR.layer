@@ -175,6 +175,7 @@ GenericEntity : "{E1FD1ACDA98123AE}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/A
     SCR_ResourceContainer "{689B1CAF5E0CF381}" {
      m_eResourceRights ALL
      m_fResourceValueCurrent 4000
+     m_fResourceValueMax 4000
     }
    }
   }
