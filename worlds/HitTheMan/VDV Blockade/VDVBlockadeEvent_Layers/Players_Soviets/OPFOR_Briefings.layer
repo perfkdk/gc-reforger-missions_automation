@@ -87,8 +87,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>d. Strength:</b>"\
   "Company HQ - At 3x Soldiers Strong"\
-  "1st VDV Platoon - At 18x Soldiers Strong"\
-  "2nd VDV Platoon - At 18x Soldiers Strong"\
+  "1st VDV Platoon - At 19x Soldiers Strong"\
+  "2nd VDV Platoon - At 19x Soldiers Strong"\
   "Mortar Team - At 3x Soldiers Strong"\
   ""\
   "<b>e. Supporting Fires:</b>"\
@@ -120,10 +120,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "We have a captured TOW setup at the road."\
   "- TO USE THE TOW, hold down LEFT MOUSE BUTTON (LMB) for 4 Seconds and it will fire."\
-  "- It is a little buggy but it will fire and destroy whats at the end of it. You have 2x extra reload tubes nearby"\
+  "- It is a little buggy but it will fire and destroy what's at the end of it. You have 2x extra reload tubes nearby"\
   ""\
   ""\
-  "- You can teleport to markers on map from Spawn to safe time running. (THE FLAG WILL DESPAWN AT END OF SAFESTART)"\
+  "- You can teleport to markers on map from Spawn until safe time ends. (THE FLAG WILL DESPAWN AT END OF SAFESTART)"\
   "- Mortar Team can Teleport to Farmstead, however it is a ONE WAY teleport."\
   "- Biggest threat you have is the Enemy Bradley, utilize the captured TOW and plenty of RPGs to destroy the Bradley. (KEEP IN MIND OF WIND FOR RPGs)"\
   "- Shovel building has been mostly disabled, utilize the trenches already placed."
@@ -141,11 +141,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Company Commander's Discretion."\
-  "It it advised to utilize the trenches as much as possible, the setup MGs and the captured TOW. After engaging heavily it is recommended to fall back to make sure to prevent any unecessary losses."\
+  "It is advised to utilize the trenches as much as possible, the emplaced MGs and the captured TOW. After engaging heavily it is recommended to fall back to make sure to prevent any unnecessary losses."\
   ""\
   "<b>2. Maneuver</b>"\
   "Company Commander's Discretion."\
-  "It is highl advised to spread the platoon to each side of the road, with the platoons spreading the squads to prevent any flankers and to spot the enemy."\
+  "It is highly advised to spread the platoon to each side of the road, with the platoons spreading the squads to prevent any flankers and to spot the enemy."\
   ""
   m_aVisibleForFactions {
    "USSR"
