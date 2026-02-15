@@ -41,7 +41,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "1x M2 Bradley"\
   ""\
   "<b>Location:</b>"\
-  "West of Pasastjen Highway as marked on map."\
+  "West of Pasastjen Highway as marked on map at 033 057"\
   ""\
   "<b>Capabilities:</b>"\
   "Access to M16A1s series, M203, LAWs/M67s, M60, etc."\
@@ -74,11 +74,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "B. Friendly Forces:"
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
-  "Russian VDV Company is located West of Kamoryn"\
+  "Russian VDV Company is located south of Pasastjen at 047 059"\
   "Mortar located at 056 063"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
-  "Company has been tasked with securing the town of Kamoryn after successfully securing the airfield."\
+  "Company has been tasked with maintaining control over the MSR to cut off supplies and reinforcements to the US Battalion currently being attacked by the 17th Guards Regiment."\
   ""\
   "<b>c. Composition:</b>"\
   "1x Company HQ"\
@@ -112,7 +112,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Friendly Mortar Team is located at 056 063"\
   ""\
-  "We do not need to die fighting for the 4x Forward Objectives (OBJ One & Two), as long as Objective Three the Farmstead is safe is what matters in the end. Us this to our advantage."\
+  "We do not need to die fighting for the 4x Forward Objectives (OBJ One & Two), as long as Objective Three the Farmstead is safe is what matters in the end. Use this to our advantage."\
   ""\
   "Recommend conducting a Delaying Defense, engage hard and pull back to further defenses."\
   ""\
@@ -125,7 +125,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "- You can teleport to markers on map from Spawn to safe time running. (THE FLAG WILL DESPAWN AT END OF SAFESTART)"\
   "- Mortar Team can Teleport to Farmstead, however it is a ONE WAY teleport."\
-  "- Biggest threat you have is the Enemy Bradley, utilize the captured TOW and plenty of RPGs to destroy the Bradley. (KEEP IN MIND OF WIND FOR RPGs)"
+  "- Biggest threat you have is the Enemy Bradley, utilize the captured TOW and plenty of RPGs to destroy the Bradley. (KEEP IN MIND OF WIND FOR RPGs)"\
+  "- Shovel building has been mostly disabled, utilize the trenches already placed."
   m_aVisibleForFactions {
    "USSR"
   }

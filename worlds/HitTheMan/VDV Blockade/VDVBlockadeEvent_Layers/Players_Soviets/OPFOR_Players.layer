@@ -101,7 +101,7 @@ $grp SCR_AIGroup : "{40B05548D6772056}Prefabs/Groups/OPFOR/Russia/1990s/Airborne
    "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
    "{11DB79E241B3A90B}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Rifleman_VDV_P.et"
   }
-  m_sCustomNameSet "4th Squad"
+  m_sCustomNameSet "1stSquad"
  }
  Squad5 {
   components {
@@ -123,7 +123,7 @@ $grp SCR_AIGroup : "{40B05548D6772056}Prefabs/Groups/OPFOR/Russia/1990s/Airborne
    "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
    "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
   }
-  m_sCustomNameSet "1st Squad"
+  m_sCustomNameSet "2nd Squad"
  }
  Squad6 {
   components {
@@ -145,7 +145,7 @@ $grp SCR_AIGroup : "{40B05548D6772056}Prefabs/Groups/OPFOR/Russia/1990s/Airborne
    "{4ACD46BEECC179AB}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AT_VDV_P.et"
    "{474B20F1FAE24A7A}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_AAT_VDV_P.et"
   }
-  m_sCustomNameSet "2nd Squad"
+  m_sCustomNameSet "3rd Squad"
  }
 }
 $grp SCR_AIGroup : "{4B1E42F72C091C90}Prefabs/Groups/OPFOR/Russia/1990s/Airborne Infantry 1993/P/AFRF_VDV_1993_PHQ_P.et" {
@@ -167,7 +167,7 @@ $grp SCR_AIGroup : "{4B1E42F72C091C90}Prefabs/Groups/OPFOR/Russia/1990s/Airborne
    "{DC963F3BA0B5DE9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_RTO_VDV_P.et"
    "{35630BBA3D667C61}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Medic_VDV_P.et"
   }
-  m_sCustomNameSet "2nd VDV Platoon (+)"
+  m_sCustomNameSet "2nd VDV Platoon"
  }
  Plt1 {
   components {
@@ -187,7 +187,7 @@ $grp SCR_AIGroup : "{4B1E42F72C091C90}Prefabs/Groups/OPFOR/Russia/1990s/Airborne
    "{DC963F3BA0B5DE9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_RTO_VDV_P.et"
    "{35630BBA3D667C61}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_Medic_VDV_P.et"
   }
-  m_sCustomNameSet "1st VDV Platoon (+)"
+  m_sCustomNameSet "1st VDV Platoon"
  }
 }
 $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_USSR.et" {
@@ -391,7 +391,7 @@ $grp SCR_AIGroup : "{D1C8401D78234671}Prefabs/Groups/OPFOR/Russia/1990s/Airborne
    "{0AD7706D172DF05E}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_CoyL_VDV_P.et"
    "{C94EBBE570A6F286}worlds/HitTheMan/VDV Blockade/Character_USSR_FO_VDV_P_HTM.et"
   }
-  m_sCustomNameSet "VDV Company"
+  m_sCustomNameSet "VDV Company HQ"
  }
  MortarGroup {
   components {
@@ -412,6 +412,6 @@ $grp SCR_AIGroup : "{D1C8401D78234671}Prefabs/Groups/OPFOR/Russia/1990s/Airborne
    "{917178E57AB126D9}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MortarCrew_P.et"
    "{917178E57AB126D9}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_MortarCrew_P.et"
   }
-  m_sCustomNameSet "VDV Company"
+  m_sCustomNameSet "Mortar Crew"
  }
 }

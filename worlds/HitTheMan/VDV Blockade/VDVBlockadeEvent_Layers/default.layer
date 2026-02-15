@@ -59,8 +59,8 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF2 : "{4CFD54745CD45673}Prefabs/MP/Modes/
  m_bDisableBuildingModeAfterFreezeTime 1
  m_safeStartTime 20
  m_fPrepDuration 0
- m_fPrepMultiplier 100
- m_fGameMultiplier 100
+ m_fPrepMultiplier 1000
+ m_fGameMultiplier 1000
  {
   RadioManagerEntity {
    ID "5ED9088735FF2DEE"
@@ -898,9 +898,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageBody "Americans Has managed to clear the forest block and the farmstead, Securing the MSR from the VDV..."\
      ""\
      "GM Discretion when to end the mission"
-     m_factionKeys {
-      "US"
-     }
     }
    }
    m_condition TILW_ConjunctionTerm "{689A747D302A5CF8}" {
@@ -1034,4 +1031,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_casualtyRatio 0.85
   }
  }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 3339.188 242.869 5732.459
 }

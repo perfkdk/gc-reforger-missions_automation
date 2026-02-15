@@ -10,14 +10,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Company CO -------------------------- Chaos 6"\
   "Forward Observer ------------------- Chaos 8"\
   ""\
-  "Platoon HQ ---------------------------- C 1'6"\
-  "- Platoon Leader -------------------- C 1'7"\
+  "Platoon HQ ---------------------------- C 1"\
+  "- Platoon Leader -------------------- C 1'6"\
+  "- Platoon Sergeant ------------------ C 1'7"\
   "1st Section ---------------------------- C 1'1"\
   "2nd Section --------------------------- C 1'2"\
   "3rd Section ---------------------------- C 1'3"\
   ""\
-  "Platoon HQ ---------------------------- C 2'6"\
-  "- Platoon Leader -------------------- C 2'7"\
+  "Platoon HQ ---------------------------- C 2"\
+  "- Platoon Leader -------------------- C 1'6"\
+  "- Platoon Sergeant ------------------ C 2'7"\
   "1st Section ---------------------------- C 2'1"\
   "2nd Section --------------------------- C 2'2"\
   "3rd Section ---------------------------- C 2'3"\
@@ -81,7 +83,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "III. Execution:"
   m_sTextData "<h2>III: Execution</h2>"\
   "<b>Intent:</b>"\
-  "Maintain control over Kamoryn"\
+  "Clear the forest and re-establish control over the MSR."\
   ""\
   "<b>1. Concept of the Operation:</b>"\
   "Company Commander's Discretion."\
@@ -133,9 +135,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Friendly Mortar is located at 028 061"\
   ""\
-  "The enemy has had 16hrs to prepare defenses AFTER landing at the MSR securing it. Expect Trenches and setup MG killzones. We sent recon team earlier and they got into contact, marked on map of suspected enemy dug-in position"\
+  "The enemy has had 16hrs to prepare defenses AFTER landing at the MSR securing it. Expect Trenches and setup MG killzones. We sent a recon team earlier and they got into contact, marked on map of suspected enemy dug-in position"\
   ""\
-  "Reports they ambushed a convoy 5hrs earlier, they may have captured us equipment like a TOW"\
+  "Reports say they ambushed a convoy 5hrs earlier, they may have captured US equipment like a TOW"\
   ""\
   "Utilize the Mortars to flush out any hard dug-in forces or to setup smoke screen to allow easier manuever."\
   ""\
@@ -151,7 +153,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "B. Friendly Forces:"
   m_sTextData "<h2>B. Friendly Forces</h2>"\
   "<b>a. Disposition:</b>"\
-  "US Rifle Company (-) is located west of Pasastjen along the highway"\
+  "US Rifle Company (-) is located west of Pasastjen along the highway at 033 057"\
   "Mortar located at 028 061"\
   ""\
   "<b>b. Higher Units Mission:</b>"\
