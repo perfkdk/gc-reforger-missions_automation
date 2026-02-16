@@ -2,6 +2,14 @@ SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
  coords 12123.938 2.156 10482.129
 }
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bRandomStartingDaytimeRange 1
+   m_iRangeHoursStart 5
+   m_iRangeHoursEnd 20
+   m_bRandomStartingWeather 1
+  }
+ }
  coords 12147.209 2.155 10513.394
  {
   SCR_FactionManager "68A0E740DE1A7DCE" {

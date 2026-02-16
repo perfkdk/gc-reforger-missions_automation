@@ -98,6 +98,12 @@ GenericEntity : "{5C9A089F424D8001}Prefabs/Props/Military/AmmoBoxes/US/Equipment
      }
      NumSlots 1
     }
+    MultiSlotConfiguration "{68A1336978C0B336}" {
+     SlotTemplate InventoryStorageSlot flare {
+      Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+     }
+     NumSlots 50
+    }
    }
   }
   ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -112,13 +118,61 @@ GenericEntity : "{5C9A089F424D8001}Prefabs/Props/Military/AmmoBoxes/US/Equipment
 }
 $grp Vehicle : "{7A16FB788DAD3992}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_Green.et" {
  GAZ_TIGR_v2_KORD_Green1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62B43BCF2B1B8028}" {
+      SlotTemplate InventoryStorageSlot Medikit {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{68A1336A01323714}" {
+      SlotTemplate InventoryStorageSlot ff {
+       Prefab "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{68A1336A1C23F110}" {
+      SlotTemplate InventoryStorageSlot ff {
+       Prefab "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
   coords 12122.289 2.156 10478.291
   angles 0 -5.975 0
   m_sAttachmentGroupName "opfor_hq"
  }
- GAZ_TIGR_v2_KORD_Green2 {
-  coords 12115.266 2.156 10482.775
-  angles 0 -10.329 0
+ GAZ_TIGR_v2_KORD_Green3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62B43BCF2B1B8028}" {
+      SlotTemplate InventoryStorageSlot Medikit {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{68A1336A01323714}" {
+      SlotTemplate InventoryStorageSlot ff {
+       Prefab "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{68A1336A1C23F110}" {
+      SlotTemplate InventoryStorageSlot ff {
+       Prefab "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 12115.562 2.156 10482.912
+  angles 0 -5.975 0
   m_sAttachmentGroupName "opfor_hq"
  }
 }
