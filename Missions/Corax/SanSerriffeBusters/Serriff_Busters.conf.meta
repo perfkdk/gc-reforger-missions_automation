@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{EA9BEF9F1E0D057A}Missions/Corax/SummerDays/Serriff Busters.conf"
+ Name "{EA9BEF9F1E0D057A}Missions/Corax/SanSerriffeBusters/Serriff_Busters.conf"
  Configurations {
   CONFResourceClass PC {
   }
