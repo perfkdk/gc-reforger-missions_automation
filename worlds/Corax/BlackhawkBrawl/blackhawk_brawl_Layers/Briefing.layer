@@ -123,7 +123,7 @@ $grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_G
   m_sImageSet "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
   m_MarkerColor 0 0.125 0.502 1
   m_sQuadName "recon"
-  m_sDescription "1 Platoon"
+  m_sDescription "Scout Platoon"
   m_aVisibleForFactions {
    "US"
   }
