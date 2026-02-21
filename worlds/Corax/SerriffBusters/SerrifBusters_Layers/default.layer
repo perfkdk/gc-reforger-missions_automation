@@ -1,0 +1,735 @@
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
+ coords 12156.064 99.427 10549.185
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 11689.953 130.845 8875.311
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  PS_ObjectiveManager "{60846DEA6E152749}" {
+   m_aObjectiveLavels {
+    PS_ObjectiveLevel "{60BA84346F79B79E}" {
+     m_iScore 0
+     m_sName "#PS-ObjectiveLevel_MajorLoss"
+    }
+    PS_ObjectiveLevel "{60BA84343AC819B2}" {
+     m_iScore 25
+     m_sName "#PS-ObjectiveLevel_MinorLoss"
+    }
+    PS_ObjectiveLevel "{60BA8437C52AEEC4}" {
+     m_iScore 50
+     m_sName "#PS-ObjectiveLevel_Draw"
+    }
+    PS_ObjectiveLevel "{60BA8437C9F5791C}" {
+     m_iScore 75
+     m_sName "#PS-ObjectiveLevel_MinorVictory"
+    }
+    PS_ObjectiveLevel "{60BA8437D394C60C}" {
+     m_iScore 100
+     m_sName "#PS-ObjectiveLevel_MajorVictory"
+    }
+   }
+  }
+  RHS_AdditionalGameModeSettingsComponent "{61AE627E9607513B}" {
+   m_CallInSupportsConfig SCR_CallInSupportContainerConfig "{621B2B44550E77F5}" : "{7C018E6DBD6FD9E8}Configs/Systems/RHS_CallIn/CallInSupportContainers.conf" {
+   }
+  }
+  RHS_RadialMenuItemsComponent "{5DCEFDBDF94DEFA0}" {
+   m_MenuController RHS_RadialMenuController "{5DCEFDBDF7FAC37A}" {
+    m_RMControls SCR_RadialMenuControllerInputs "{5DCEFDBDF2E715A3}" {
+     m_sControllerContext "RadialMenuContext"
+     m_sOpenAction "RHS_CharacterOpenRadial"
+     m_bCloseOnReleaseOpen 0
+     m_bPerformOnClose 0
+     m_bCloseOnPerform 1
+     m_bPreventEmptyMenuOpen 1
+    }
+   }
+  }
+  SCR_CampaignBuildingManagerComponent "{60EC2158F48C679A}" {
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_BudgetType CAMPAIGN
+   m_iCompositionRefundPercentage 100
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{60EC2158E10CB829}" {
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+   m_sPrefabToHoldSupplyOnRefund "{4BBE0A784C01900E}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_FreeRoamBuilding.et"
+  }
+  SCR_CampaignBuildingManagerComponent "{61B4DDBF56BF1B48}" {
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_BudgetType CAMPAIGN
+   m_iCompositionRefundPercentage 100
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5DF6FBB5913F3245}" {
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+  }
+  SCR_DataCollectorComponent "{5ADE83EE64329989}" {
+   m_aModules {
+    SCR_DataCollectorBasicActionsModule "{5AE097A82ED69A98}" {
+    }
+    SCR_DataCollectorDriverModule "{5AE097BB69284302}" {
+    }
+    SCR_DataCollectorShootingModule "{5AE097BB6217A2F8}" {
+    }
+    SCR_DataCollectorHealingItemsModule "{5CECE314484120F4}" {
+     m_aConsumableTypes {
+      ConsumableTypeStats "{5CECE316446057A9}" {
+       m_eConsumableType BANDAGE
+       m_eDataStatsSelf BANDAGE_SELF
+       m_eDataStatsFriend BANDAGE_FRIENDLIES
+      }
+      ConsumableTypeStats "{5CECE31644CBD9C5}" {
+       m_eConsumableType TOURNIQUET
+       m_eDataStatsSelf TOURNIQUET_SELF
+       m_eDataStatsFriend TOURNIQUET_FRIENDLIES
+      }
+      ConsumableTypeStats "{5CECE316453FD0FC}" {
+       m_eConsumableType SALINE
+       m_eDataStatsSelf SALINE_SELF
+       m_eDataStatsFriend SALINE_FRIENDLIES
+      }
+      ConsumableTypeStats "{5CECE316451EC89B}" {
+       m_eConsumableType MORPHINE
+       m_eDataStatsSelf MORPHINE_SELF
+       m_eDataStatsFriend MORPHINE_FRIENDLIES
+      }
+     }
+    }
+    SCR_DataCollectorCrimesModule "{5D9C706AD14AF695}" {
+     m_bWarCrimesEnabled 0
+    }
+    SCR_DataCollectorAchievementsModule "{5DE86E4CB99B3FFB}" {
+    }
+   }
+  }
+  SCR_EntityCatalogManagerComponent "{5C9AD18D91F9E87E}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C9AD18D9D38E99E}" : "{EAD206A79A774696}Configs/EntityCatalog/FactionLess/Characters_EntityCatalog_Factionless.conf" {
+    }
+    SCR_EntityCatalogMultiList "{5C9AD18D9B68853E}" : "{77243A71AF0E5A75}Configs/EntityCatalog/FactionLess/Vehicles_EntityCatalog_Factionless.conf" {
+    }
+    SCR_EntityCatalogMultiList "{61C8EED3993E46B7}" : "{2E8FFD9558E26113}Configs/EntityCatalog/FactionLess/Groups_EntityCatalog_Factionless.conf" {
+    }
+    SCR_EntityCatalogMultiList "{61C8EED39E8B0DC3}" : "{0CC054C7DEDC766E}Configs/EntityCatalog/FactionLess/WeaponTripod_EntityCatalog_Factionless.conf" {
+    }
+    SCR_EntityCatalogMultiList "{5C9AD18D98F9181C}" : "{BB12292052E2F5B8}Configs/EntityCatalog/FactionLess/InventoryItems_EntityCatalog_Factionless.conf" {
+    }
+    SCR_EntityCatalog "{5C9EDDD29E61EF44}" : "{B80293331FB7BFCF}Configs/EntityCatalog/FactionLess/SupplyContainerItems_EntityCatalog_Factionless.conf" {
+    }
+   }
+  }
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_fDOTScale 0.75
+  }
+  SCR_GameOverScreenManagerComponent "{56DEC646298AD219}" {
+   m_GameOverScreenConfig SCR_GameOverScreenConfig "{56DEC6462FFDD82D}" {
+    m_aGameOverScreens {
+     SCR_BaseGameOverScreenInfo "{568E810D7C96FEF0}" {
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{56D6DA8F67562868}" {
+       m_sTitle "MISSION END"
+      }
+     }
+     SCR_FactionGameOverScreenInfo "{568EB6DFDCD175BD}" {
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{568EB6DFE533EE66}" {
+       m_sTitle "MISSION END"
+      }
+     }
+    }
+   }
+  }
+  SCR_GroupsManagerComponent "{5706EC99934496F5}" {
+   m_sDefaultGroupPrefab "{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+   m_iPlayableGroupFrequencyOffset 200
+   m_iPlayableGroupFrequencyMax 44400
+  }
+  SCR_HintManagerComponent "{5702B54C6CBC9D7F}" {
+   m_bIgnoreHintSettings 1
+  }
+  SCR_IdentityManagerComponent "{5AEEA80681EA61AF}" {
+   m_aIdentityBioTypeHoldersConfigs +{
+   }
+   m_ExtendedIdentityHints SCR_GeneralHintStorage "{6226DDCD824CB407}" : "{4C689530864AD7DF}Configs/Hints/ExtendedIdentityHints.conf" {
+   }
+  }
+  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+  }
+  SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
+   m_iKillFeedType DISABLED
+   m_iReceiveKillFeedType ALL
+  }
+  SCR_PerceivedFactionManagerComponent "{61AA7E6E0C6A76F9}" {
+   m_PerceivedFactionHints SCR_GeneralHintStorage "{6290C14649BD50BC}" : "{8727E06B47EF8609}Configs/Hints/PerceivedFaction/PerceivedFactionHints.conf" {
+   }
+  }
+  SCR_PreGameGameModeStateComponent "{5ED9056CE8168166}" {
+   m_fDuration 0
+   m_bDisableControls 0
+  }
+  SCR_RadialMenuGameModeComponent "{5C7E75494DC4CB62}" {
+   Enabled 0
+   m_Menu SCR_RadialMenu "{5C7E7549355B981C}" {
+    m_Inputs SCR_RadialMenuInputs "{5B26E2FE7B2FF1D4}" {
+     m_iGamepadDeselectionDelay 400
+    }
+   }
+  }
+  SCR_RadialMenuItemsComponent "{5C92B03271ABD8AA}" {
+   m_MenuController SCR_RadialMenuController "{5C92B0326E1334FB}" {
+   }
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   Enabled 1
+  }
+  SCR_TextsTaskManagerComponent "{65D26A2BD9437584}" {
+   m_aEntries {
+    SCR_TextsTaskManagerEntry "{66087CBCDF4877FF}" {
+     m_TextType MOVE
+     m_aTexts {
+      SCR_UIDescription "{58F09D239F4FB4D6}" {
+       Name "#AR-Editor_MoveTask_1_Name"
+       Description "#AR-Editor_MoveTask_1_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4D5}" {
+       Name "#AR-Editor_MoveTask_2_Name"
+       Description "#AR-Editor_MoveTask_2_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4D4}" {
+       Name "#AR-Editor_MoveTask_3_Name"
+       Description "#AR-Editor_MoveTask_3_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4EB}" {
+       Name "#AR-Editor_MoveTask_4_Name"
+       Description "#AR-Editor_MoveTask_4_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4EA}" {
+       Name "#AR-Editor_MoveTask_5_Name"
+       Description "#AR-Editor_MoveTask_5_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4E9}" {
+       Name "#AR-Editor_MoveTask_6_Name"
+       Description "#AR-Editor_MoveTask_6_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4E8}" {
+       Name "#AR-Editor_MoveTask_7_Name"
+       Description "#AR-Editor_MoveTask_7_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4EF}" {
+       Name "#AR-Editor_MoveTask_8_Name"
+       Description "#AR-Editor_MoveTask_8_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4EE}" {
+       Name "#AR-Editor_MoveTask_9_Name"
+       Description "#AR-Editor_MoveTask_9_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4ED}" {
+       Name "#AR-Editor_MoveTask_10_Name"
+       Description "#AR-Editor_MoveTask_10_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4EC}" {
+       Name "#AR-Editor_MoveTask_11_Name"
+       Description "#AR-Editor_MoveTask_11_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4E2}" {
+       Name "#AR-Editor_MoveTask_12_Name"
+       Description "#AR-Editor_MoveTask_12_Description"
+      }
+     }
+    }
+    SCR_TextsTaskManagerEntry "{66087CBCDF48700F}" {
+     m_TextType ATTACK
+     m_aTexts {
+      SCR_UIDescription "{58F09D239F4FB4FF}" {
+       Name "#AR-Editor_AttackTask_0_Name"
+       Description "#AR-Editor_AttackTask_0_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4FE}" {
+       Name "#AR-Editor_AttackTask_2_Name"
+       Description "#AR-Editor_AttackTask_2_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4FD}" {
+       Name "#AR-Editor_AttackTask_1_Name"
+       Description "#AR-Editor_AttackTask_1_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4FC}" {
+       Name "#AR-Editor_AttackTask_3_Name"
+       Description "#AR-Editor_AttackTask_3_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4F3}" {
+       Name "#AR-Editor_AttackTask_4_Name"
+       Description "#AR-Editor_AttackTask_4_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4F2}" {
+       Name "#AR-Editor_AttackTask_5_Name"
+       Description "#AR-Editor_AttackTask_5_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4F1}" {
+       Name "#AR-Editor_AttackTask_6_Name"
+       Description "#AR-Editor_AttackTask_6_Description"
+      }
+     }
+    }
+    SCR_TextsTaskManagerEntry "{66087CBCDF4870CF}" {
+     m_TextType DEFEND
+     m_aTexts {
+      SCR_UIDescription "{58F09D239F4FB4E0}" {
+       Name "#AR-Editor_DefendTask_0_Name"
+       Description "#AR-Editor_DefendTask_0_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4E7}" {
+       Name "#AR-Editor_DefendTask_1_Name"
+       Description "#AR-Editor_DefendTask_1_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4E6}" {
+       Name "#AR-Editor_DefendTask_2_Name"
+       Description "#AR-Editor_DefendTask_2_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4E5}" {
+       Name "#AR-Editor_DefendTask_3_Name"
+       Description "#AR-Editor_DefendTask_3_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4E4}" {
+       Name "#AR-Editor_DefendTask_4_Name"
+       Description "#AR-Editor_DefendTask_4_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4FB}" {
+       Name "#AR-Editor_DefendTask_5_Name"
+       Description "#AR-Editor_DefendTask_5_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4FA}" {
+       Name "#AR-Editor_DefendTask_6_Name"
+       Description "#AR-Editor_DefendTask_6_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4F9}" {
+       Name "#AR-Editor_DefendTask_7_Name"
+       Description "#AR-Editor_DefendTask_7_Description"
+      }
+     }
+    }
+    SCR_TextsTaskManagerEntry "{66087CBCDF487092}" {
+     m_TextType CUSTOM
+     m_aTexts {
+      SCR_UIDescription "{58F09D239F4FB4CF}" {
+       Name "#AR-Editor_CustomTask_1_Name"
+       Description "#AR-Editor_CustomTask_1_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4CD}" {
+       Name "#AR-Editor_CustomTask_2_Name"
+       Description "#AR-Editor_CustomTask_2_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4C3}" {
+       Name "#AR-Editor_CustomTask_3_Name"
+       Description "#AR-Editor_CustomTask_3_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4C2}" {
+       Name "#AR-Editor_CustomTask_4_Name"
+       Description "#AR-Editor_CustomTask_4_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4C0}" {
+       Name "#AR-Editor_CustomTask_5_Name"
+       Description "#AR-Editor_CustomTask_5_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4C7}" {
+       Name "#AR-Editor_CustomTask_6_Name"
+       Description "#AR-Editor_CustomTask_6_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4C6}" {
+       Name "#AR-Editor_CustomTask_7_Name"
+       Description "#AR-Editor_CustomTask_7_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4C5}" {
+       Name "#AR-Editor_CustomTask_8_Name"
+       Description "#AR-Editor_CustomTask_8_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4C4}" {
+       Name "#AR-Editor_CustomTask_9_Name"
+       Description "#AR-Editor_CustomTask_9_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4DB}" {
+       Name "#AR-Editor_CustomTask_10_Name"
+       Description "#AR-Editor_CustomTask_10_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4DA}" {
+       Name "#AR-Editor_CustomTask_11_Name"
+       Description "#AR-Editor_CustomTask_11_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4D9}" {
+       Name "#AR-Editor_CustomTask_12_Name"
+       Description "#AR-Editor_CustomTask_12_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4D8}" {
+       Name "#AR-Editor_CustomTask_13_Name"
+       Description "#AR-Editor_CustomTask_13_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4DF}" {
+       Name "#AR-Editor_CustomTask_14_Name"
+       Description "#AR-Editor_CustomTask_14_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4DE}" {
+       Name "#AR-Editor_CustomTask_15_Name"
+       Description "#AR-Editor_CustomTask_15_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4DD}" {
+       Name "#AR-Editor_CustomTask_16_Name"
+       Description "#AR-Editor_CustomTask_16_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4DC}" {
+       Name "#AR-Editor_CustomTask_17_Name"
+       Description "#AR-Editor_CustomTask_17_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4D3}" {
+       Name "#AR-Editor_CustomTask_18_Name"
+       Description "#AR-Editor_CustomTask_18_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4D2}" {
+       Name "#AR-Editor_CustomTask_19_Name"
+       Description "#AR-Editor_CustomTask_19_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4D1}" {
+       Name "#AR-Editor_CustomTask_20_Name"
+       Description "#AR-Editor_CustomTask_20_Description"
+      }
+      SCR_UIDescription "{58F09D239F4FB4D0}" {
+       Name "#AR-Editor_CustomTask_21_Name"
+       Description "#AR-Editor_CustomTask_21_Description"
+      }
+     }
+    }
+   }
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 5
+   m_iStartingMinutes 45
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{689B1CA005BD63B3}" {
+     m_sWeatherPresetName "Rainy"
+     m_iStartingHour 5
+     m_iStartingMinutes 45
+    }
+   }
+   m_fFogAmount 0.27
+   m_fFogHeightDensity 0.058
+   m_bUseSpecifiedDate 1
+   m_iSetMonth 4
+   m_iSetYear 1953
+  }
+  SCR_VotingManagerComponent "{5650BB6B6089393A}" {
+   Enabled 0
+  }
+  SCR_VotingManagerComponent "{65DD1D6E2C3AEED4}" {
+   m_aVotingTemplates {
+    SCR_VotingAdmin "{65DD1D6E2E836EBB}" {
+     m_Type ADMIN
+     m_bIsValuePlayerID 1
+     m_fDuration 60
+     m_fThreshold 0.333
+     m_iMinParticipation 0.333
+     m_iMinVotes 1
+     m_Info SCR_VotingUIInfo "{62F76392E80E5E4B}" {
+      Name "Vote Admin"
+      m_sStartVotingName "Start Admin Vote"
+      m_sCancelVotingName "Cancel Admin Vote"
+      m_sAbstainVoteName "Abstaining"
+      m_sStickyNotificationText "Vote Admin: %1"
+      m_iStartNotificationId VOTING_EDITOR_IN_START
+      m_iSucceededNotificationId VOTING_EDITOR_IN_SUCCEED
+      m_iFailedNotificationId VOTING_EDITOR_IN_FAIL
+      m_eVoteCastedLocalNotification VOTING_EDITOR_IN_VOTE_CASTED
+      m_eVoteAbstainedLocalNotification VOTING_EDITOR_IN_VOTE_ABSTAINED
+     }
+     m_iVoteCooldownTime 10
+    }
+   }
+  }
+  RplComponent "{56B2B4793BF2E1B4}" {
+   "Rpl State Override" None
+   Streamable Disabled
+  }
+  SCR_ReconnectComponent "{5A02809D5E8ABE42}" {
+   Enabled 0
+  }
+ }
+ coords 11332.928 89.457 10508.188
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{6893355199B1327F}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{6892ED4DAD875777}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{64E2F896FFC45153}" {
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{64E2F896F0699D6A}" {
+        m_sCallsign "7"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ bluforAO {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 10
+    m_factionKeys {
+     "San_Serriffe"
+    }
+    m_visibility FACTION
+    m_defaultColor 0 0.502 0.125 1
+    m_useFactionColor 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    m_factionKeys {
+     "San_Serriffe"
+    }
+    m_invert 0
+   }
+  }
+  coords 4814.926 580.24 6198.314
+  Points {
+   ShapePoint "{650693637AA66378}" {
+    Position 419.773 59.108 163.261
+   }
+   ShapePoint "{65069363921D6250}" {
+    Position 433.314 21.551 76.599
+   }
+   ShapePoint "{6506936392E7BB0E}" {
+    Position 278.295 25.358 -21.581
+   }
+   ShapePoint "{689B1CB184ED2D71}" {
+    Position 180 53.475 14.074
+   }
+   ShapePoint "{689B1CB183637936}" {
+    Position 144.906 68.889 84.122
+   }
+   ShapePoint "{689B1CB183D1EF71}" {
+    Position 110.31 63.207 168.657
+   }
+   ShapePoint "{689B1CB18240B824}" {
+    Position 151.955 75.328 223.237
+   }
+   ShapePoint "{689B1CB1804F9DA1}" {
+    Position 212.794 83.838 214.034
+   }
+   ShapePoint "{689B1CB18F3A78A5}" {
+    Position 256.152 74.379 235.409
+   }
+   ShapePoint "{689B1CB18FC85B8E}" {
+    Position 302.186 66.502 254.299
+   }
+   ShapePoint "{689B1CB18E48F346}" {
+    Position 279.909 10.804 327.286
+   }
+   ShapePoint "{689B1CB18E97B5C4}" {
+    Position 302.98 -4.314 357.821
+   }
+   ShapePoint "{689B1CB18DE65D22}" {
+    Position 385.59 52.004 286.914
+   }
+   ShapePoint "{689B1CB18CB53B42}" {
+    Position 413.543 42.576 270.232
+   }
+  }
+  LineColor 0 0.502 0.1255 1
+ }
+ opforAO {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 5
+    m_factionKeys {
+     "GC_DON"
+    }
+    m_visibility FACTION
+    m_defaultColor 0.502 0 0 1
+    m_useFactionColor 0
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    m_factionKeys {
+     "GC_DON"
+    }
+    m_visibleForEmptyFaction 0
+   }
+  }
+  coords 4814.885 580.24 6198.999
+  Points {
+   ShapePoint "{650693637AA66378}" {
+    Position -282.042 -100.815 288.341
+   }
+   ShapePoint "{689B1CB1E8A09E39}" {
+    Position -520.558 -173.46 370.177
+   }
+   ShapePoint "{689B1CB6171F7C11}" {
+    Position -740.699 -228.85 457.707
+   }
+   ShapePoint "{689B1CB61747FEB3}" {
+    Position -914.268 -243.997 417.893
+   }
+   ShapePoint "{689B1CB614E9A4DE}" {
+    Position -1185.243 -293.551 -92.826
+   }
+   ShapePoint "{689B1CB6130093D1}" {
+    Position -999.958 -269.663 -347.813
+   }
+   ShapePoint "{689B1CB6102C773A}" {
+    Position -856.932 -259.117 -436.957
+   }
+   ShapePoint "{689B1CB6109E972E}" {
+    Position -630.146 -259.832 -1007.042
+   }
+   ShapePoint "{689B1CB61FC1E11A}" {
+    Position -428.052 -248.123 -1026.93
+   }
+   ShapePoint "{689B1CB61D1969EB}" {
+    Position -236.396 -185.587 -783.771
+   }
+   ShapePoint "{689B1CB61CB14340}" {
+    Position -177.299 -164.536 -644.884
+   }
+   ShapePoint "{689B1CB61CDE9757}" {
+    Position -108.455 -146.791 -580.906
+   }
+   ShapePoint "{689B1CB61AC1BC9B}" {
+    Position -29.42 -141.103 -441.302
+   }
+   ShapePoint "{689B1CB618A49429}" {
+    Position 85.136 -114.84 -374.25
+   }
+   ShapePoint "{689B1CB6072217B8}" {
+    Position 221.615 -95.407 -273.824
+   }
+   ShapePoint "{689B1CB605242BC9}" {
+    Position 309.058 -75.725 -212.101
+   }
+   ShapePoint "{689B1CB603B1D2E9}" {
+    Position 273.548 19.383 -28.439
+   }
+   ShapePoint "{6506936367AD73D4}" {
+    Position 440.144 13.338 67.557
+   }
+   ShapePoint "{689B1CB1F41489A6}" {
+    Position 425.156 52.934 159.812
+   }
+   ShapePoint "{689B1CB1F4E12791}" {
+    Position 420.438 36.157 272.389
+   }
+   ShapePoint "{689B1CB1F31770D0}" {
+    Position 389.518 48.437 289.753
+   }
+   ShapePoint "{6506936364BD722A}" {
+    Position 303.792 -14.161 365.378
+   }
+   ShapePoint "{689B1CB1F07FB158}" {
+    Position 273.182 4.811 330.923
+   }
+   ShapePoint "{689B1CB1F0FA4821}" {
+    Position 297.158 61.897 258.186
+   }
+   ShapePoint "{689B1CB1FF7853EF}" {
+    Position 255.877 68.307 241.036
+   }
+   ShapePoint "{689B1CB1FE2895A0}" {
+    Position 210.035 80.442 217.466
+   }
+   ShapePoint "{689B1CB1FE56E41B}" {
+    Position 151.928 70.195 229.602
+   }
+   ShapePoint "{689B1CB1FD05117C}" {
+    Position 107.585 54.386 249.874
+   }
+   ShapePoint "{65069363616E1C0C}" {
+    Position -1.504 -28.511 344.216
+   }
+  }
+  LineColor 0.502 0 0 1
+ }
+ covermap {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    Enabled 0
+    m_killTimer 5
+    m_factionKeys {
+     "GC_DON"
+    }
+    m_visibility FACTION
+    m_defaultColor 0.502 0 0 1
+    m_useFactionColor 0
+   }
+   TILW_CoverMapComponent "{6473480FCAB7760B}" {
+    Enabled 1
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    m_factionKeys {
+     "GC_DON"
+     "San_Serriffe"
+    }
+    m_visibleForEmptyFaction 0
+   }
+  }
+  coords 4590.97 488.062 5984.799
+  Points {
+   ShapePoint "{689B1CB1F31770D0}" {
+    Position 1495.75 -70.458 106.901
+   }
+   ShapePoint "{6506936364BD722A}" {
+    Position 333.757 -316.596 1592.673
+   }
+   ShapePoint "{689B1CB1F07FB158}" {
+    Position -1644.088 -291.478 306.354
+   }
+   ShapePoint "{689B1CB1F0FA4821}" {
+    Position -558.811 -371.533 -1546.871
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 11316.509 90.796 10506.012
+ m_missionEvents {
+  TILW_MissionEvent "{689B66CCE2DAC9A1}" {
+   m_instructions {
+    TILW_SendMessageInstruction "{689B66CD24A07B92}" {
+     m_messageTitle "San Serriffe Victory"
+     m_messageBody "Donovian forces have revieved to many casualties"
+     m_factionKeys {
+      "GC_DON"
+      "San_Serriffe"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{689B66CD1DBA2979}" {
+    m_flagName "opforded"
+   }
+  }
+  TILW_MissionEvent "{689B66CCE0CF315C}" {
+   m_instructions {
+    TILW_SendMessageInstruction "{689B66CD03BF9B98}" {
+     m_messageTitle "Donovian Victory"
+     m_messageBody "All San Serriffe Forces have been killed"
+     m_factionKeys {
+      "GC_DON"
+      "San_Serriffe"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{689B66CD1CA57C70}" {
+    m_flagName "bluforded"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{689B66CCC54C2D50}" {
+   m_flagName "opforded"
+   m_factionKey "GC_DON"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{689B66CCC48A7CEA}" {
+   m_flagName "bluforded"
+   m_factionKey "San_Serriffe"
+  }
+ }
+}
