@@ -12,6 +12,9 @@ SCR_AIGroup : "{297333D99B816CC9}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_MG_P.e
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
+  PS_GroupCallsignAssigner "{6727355B5AA1F91A}" {
+   m_iSquadCallsign 2
+  }
  }
  coords 1297.178 262.818 200.405
  angles 0 -41.915 0
@@ -24,6 +27,9 @@ SCR_AIGroup : "{5904B752E06F3423}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_Assaul
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{6727355B5C0B9E49}" {
+   m_iSquadCallsign 1
   }
  }
  coords 1294.973 271.229 201.646

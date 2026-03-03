@@ -1,12 +1,77 @@
-SCR_AIGroup : "{2B6A737E854586F0}Prefabs/Groups/BLUFOR/US/Army/2009/Rangers/P/Group_Ranger_2009_HQ_P.et" {
- components {
-  PS_GroupCallsignAssigner "{6508C3582F634926}" {
-   m_iPlatoonCallsign 0
+$grp SCR_AIGroup : "{2B6A737E854586F0}Prefabs/Groups/BLUFOR/US/Army/2009/Rangers/P/Group_Ranger_2009_HQ_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{6508C3582F634926}" {
+    m_iPlatoonCallsign 0
+   }
   }
+  coords 2946.51 10.189 2966.792
+  angles 0 35.976 0
+  m_aUnitPrefabSlots +{
+   "{AF83EB5AA91B8ACC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Delta/P/Character_CRX_Delta_FAC_P.et"
+  }
+  m_sCustomNameSet "Charger 1'6"
  }
- coords 2946.51 10.189 2966.792
- angles 0 35.976 0
- m_sCustomNameSet "Charger 1'6"
+ L47 {
+  components {
+   PS_GroupCallsignAssigner "{6508C3582F634926}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 4
+    m_iSquadCallsign 7
+   }
+  }
+  coords 2995.105 10 2994.559
+  angles 0 35.976 0
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+  }
+  m_sCustomNameSet "Lima 4'7"
+ }
+ L46 {
+  components {
+   PS_GroupCallsignAssigner "{6508C3582F634926}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 4
+    m_iSquadCallsign 6
+   }
+  }
+  coords 2962.501 10 3001.444
+  angles 0 35.976 0
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+  }
+  m_sCustomNameSet "Lima 4'6"
+ }
+ S51 {
+  components {
+   PS_GroupCallsignAssigner "{6508C3582F634926}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 5
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2932.04 10 3018.886
+  angles 0 35.976 0
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+  }
+  m_sCustomNameSet "Star 5'1"
+ }
+ S52 {
+  components {
+   PS_GroupCallsignAssigner "{6508C3582F634926}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 5
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2941.839 10 3035.404
+  angles 0 35.976 0
+  m_aUnitPrefabSlots {
+   "{64EE36172920978F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Marine Rifles/P/Character_RHS_USAF_USMC_HeliPilot_P.et"
+  }
+  m_sCustomNameSet "Star 5'2"
+ }
 }
 $grp SCR_AIGroup : "{36964CCA089D327F}Prefabs/Groups/BLUFOR/US/Army/2009/Delta Force/P/Group_Delta_2010_Support_P.et" {
  {
@@ -93,70 +158,5 @@ $grp SCR_AIGroup : "{9FA44AED55972EA9}Prefabs/Groups/BLUFOR/US/Army/2009/Rangers
    "{3F5A5B3AC26D441B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/P/Character_RHS_RANGER_09_AR_P.et"
   }
   m_sCustomNameSet "Charger 1'2"
- }
-}
-$grp SCR_AIGroup : "{C1E798172DA45F29}worlds/FloridaMan/Prefabs/Groups/BLUFOR/US/US_Pilot_Group.et" {
- S51 {
-  components {
-   PS_GroupCallsignAssigner "{6554E01465EA8E42}" {
-    m_iCompanyCallsign 3
-    m_iPlatoonCallsign 3
-    m_iSquadCallsign 1
-   }
-  }
-  coords 2933.666 10 3015.396
-  angles 0 29.47 0
-  m_faction "RHS_USAF"
-  m_aUnitPrefabSlots {
-   "{B3D54DBBACCB3FBB}worlds/FloridaMan/Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_m_P.et"
-  }
-  m_sCustomNameSet "Star 5'1"
- }
- S52 {
-  components {
-   PS_GroupCallsignAssigner "{6554E01465EA8E42}" {
-    m_iCompanyCallsign 3
-    m_iPlatoonCallsign 3
-   }
-  }
-  coords 2939.851 10 3034.686
-  angles 0 27.838 0
-  m_faction "RHS_USAF"
-  m_aUnitPrefabSlots {
-   "{B3D54DBBACCB3FBB}worlds/FloridaMan/Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_m_P.et"
-  }
-  m_sCustomNameSet "Star 5'2"
- }
- L46 {
-  components {
-   PS_GroupCallsignAssigner "{6554E01465EA8E42}" {
-    m_iCompanyCallsign 2
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 0
-   }
-  }
-  coords 2962.814 10 3001.735
-  angles 0 29.47 0
-  m_faction "RHS_USAF"
-  m_aUnitPrefabSlots {
-   "{B3D54DBBACCB3FBB}worlds/FloridaMan/Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_m_P.et"
-  }
-  m_sCustomNameSet "Lima 4'6"
- }
- L47 {
-  components {
-   PS_GroupCallsignAssigner "{6554E01465EA8E42}" {
-    m_iCompanyCallsign 2
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 7
-   }
-  }
-  coords 2995.579 10 2994.975
-  angles 0 29.47 0
-  m_faction "RHS_USAF"
-  m_aUnitPrefabSlots {
-   "{B3D54DBBACCB3FBB}worlds/FloridaMan/Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_m_P.et"
-  }
-  m_sCustomNameSet "Lima 4'7"
  }
 }

@@ -61,7 +61,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Mission_Notes {
   coords 2911.543 10 3009.956
   m_sTitle "VII. Mission Notes"
-  m_sTextData "Mission Maker: Fruz"
+  m_sTextData "Mission Maker: Fruz"\
+  ""\
+  "End Conditions: "\
+  ""\
+  "Blufor Victory:"\
+  "A) 90 percent of insurgents are eliminated."\
+  ""\
+  "Opfor Victory:"\
+  "A) 90 percent of Blufor is eliminated."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 7
