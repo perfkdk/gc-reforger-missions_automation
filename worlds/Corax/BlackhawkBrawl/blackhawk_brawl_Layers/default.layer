@@ -46,14 +46,12 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
     }
    }
    m_bRandomWeatherChanges 1
-   m_fFogAmount 0.27
-   m_fFogHeightDensity 0.058
    m_bUseSpecifiedDate 1
    m_iSetMonth 4
    m_iSetYear 1987
   }
  }
- m_iFreezeTime 60000
+ m_iFreezeTime 12000
 }
 GenericEntity : "{2CBCB67BBA49972B}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/AmmoBoxArsenal_Equipment_US_Gadgets.et" {
  components {
@@ -104,31 +102,28 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position -272.394 0 -178.773
    }
    ShapePoint "{68A043193DD0B9F8}" {
-    Position -568.369 40.297 284.514
+    Position -346.463 0.175 472.083
    }
    ShapePoint "{68A0E85B3035048B}" {
-    Position -584.554 46.413 736.446
+    Position -406.155 -12.158 697.734
    }
    ShapePoint "{68A043192339083A}" {
-    Position -373.233 31.181 774.755
+    Position -317.533 4.684 737.604
    }
    ShapePoint "{68A04319225779C9}" {
-    Position 16.2 54.873 750.796
+    Position -6.786 28.371 707.273
    }
    ShapePoint "{68A043195E0558F9}" {
-    Position 311.266 54.646 736.436
+    Position 316.989 27.656 704.787
    }
    ShapePoint "{68A043195EE11FA8}" {
-    Position 569.03 47.548 802.29
+    Position 571.091 13.913 731.354
    }
    ShapePoint "{68A043195C8F11D6}" {
-    Position 699.887 24.959 648.857
-   }
-   ShapePoint "{68A043195B3538A2}" {
-    Position 711.468 21.629 440.896
+    Position 603.386 -5.434 516.041
    }
    ShapePoint "{68A043195979421E}" {
-    Position 677.076 -33.71 -88.113
+    Position 555.509 -29.248 299.469
    }
    ShapePoint "{68A043195876AA6E}" {
     Position 312.03 -14.209 -416.639
@@ -159,16 +154,16 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position -381.354 -42.56 63.772
    }
    ShapePoint "{68A04319B3F88125}" {
-    Position -353.409 33.913 282.672
+    Position -487.306 3.819 258.355
    }
    ShapePoint "{68A04319225779C9}" {
-    Position -172.13 38.667 274.383
+    Position -175.399 27.605 233.918
    }
    ShapePoint "{68A043195E0558F9}" {
-    Position 145.937 38.272 260.296
+    Position 149.914 27.058 231.542
    }
    ShapePoint "{68A043195B3538A2}" {
-    Position 403.946 31.713 331.084
+    Position 401.05 12.549 246.879
    }
    ShapePoint "{68A043195979421E}" {
     Position 422.829 3.845 44.122
@@ -180,10 +175,10 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position 360.599 -15.049 -55.946
    }
    ShapePoint "{68A0431E118D0287}" {
-    Position 261.333 -15.017 -138.721
+    Position 324.042 -36.484 -75.737
    }
    ShapePoint "{68A0431E109F14CF}" {
-    Position 277.739 -60.224 -242.297
+    Position 278.16 -56.082 -209.048
    }
    ShapePoint "{68A04319C0B0A144}" {
     Position 239.933 -69.611 -269.271

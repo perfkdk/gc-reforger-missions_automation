@@ -1314,7 +1314,7 @@ $grp GenericEntity : "{55D4CC8065B8B790}Prefabs/Props/Civilian/Heater_02/Heater_
 }
 SCR_DestructibleEntity : "{56CF791F12BB17B0}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_terminator_low.et" {
  coords 4873.059 31.011 1690.875
- angles 87.499 -0 90
+ angles 87.499 0 90
  scale 2.5
 }
 $grp SCR_DestructibleEntity : "{56F6F5C13ED7431A}Prefabs/Structures/Walls/Net/NetFence_03/NetFence_03_Pole.et" {
@@ -2192,10 +2192,17 @@ GenericEntity : "{962A737E048E4B9E}Prefabs/Props/Civilian/Loudspeaker_01/Loudspe
  coords 4860.263 28.167 1717.722
  angles 10.573 165.162 90.777
 }
-SCR_DestructibleBuildingEntity : "{9805CA3E3739361A}Prefabs/Models/ind/tem_ind_steam_machine.et" {
- coords 4879.257 27.018 1763.576
- angles 0 -0.795 0
- scale 0.16
+$grp SCR_DestructibleBuildingEntity : "{9805CA3E3739361A}Prefabs/Models/ind/tem_ind_steam_machine.et" {
+ {
+  coords 4879.257 27.018 1763.576
+  angles 0 -0.795 0
+  scale 0.16
+ }
+ {
+  coords 4886.193 71.774 1753.998
+  angles 0 0 0
+  scale 0.15
+ }
 }
 GenericEntity : "{9821842669373B5E}Prefabs/Models/props/tem_stairs1.et" {
  coords 4813.788 38.405 1758.988
@@ -2986,12 +2993,12 @@ GenericEntity : "{EB66EE2298D16D18}Prefabs/Props/Civilian/SackTruck_01.et" {
 }
 $grp GenericEntity : "{EC41008292F8F268}Prefabs/Models/ind/tem_ind_tank1.et" {
  {
-  coords 4889.49 27.018 1760.33
+  coords 4883.939 27.018 1758.64
   angles 0 179.661 0
   scale 0.7
  }
  {
-  coords 4882.503 27.018 1760.288
+  coords 4888.489 27.018 1758.64
   angles 0 179.661 0
   scale 0.7
  }

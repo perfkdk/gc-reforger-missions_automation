@@ -299,6 +299,10 @@ GenericEntity : "{51B08BDA20AF8FF7}Prefabs/Props/Industrial/Pallets/WoodenPallet
  coords 6374.205 58.624 5886.435
  angles 68.118 0 0
 }
+Vehicle S105_rally1 : "{5555DCAFADB8CE2A}Prefabs/Vehicles/Wheeled/S105/S105_rally.et" {
+ coords 6300.923 58.114 5863.452
+ angles 0.173 125.361 -0.466
+}
 GenericEntity : "{56C3CCA6D6374353}Prefabs/Structures/Market/hut2.et" {
  coords 6526.265 51.373 5906.423
  angles 0 -154.543 0

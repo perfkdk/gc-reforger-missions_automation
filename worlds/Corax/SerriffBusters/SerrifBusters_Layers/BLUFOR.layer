@@ -8,21 +8,39 @@ SCR_AIGroup : "{0D0F5331CCF04C37}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/Group_S
  }
  coords 5081.329 689.164 6342.214
  angles 0 -104.661 0
+ m_bPlayable 1
 }
-SCR_AIGroup : "{353C630F00EBCDA5}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/P/Group_SanSerriffe_rifle_Section_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
+$grp SCR_AIGroup : "{353C630F00EBCDA5}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/P/Group_SanSerriffe_rifle_Section_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{689B7287C6F151E5}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
   }
-  PS_GroupCallsignAssigner "{689B7287C6F151E5}" {
-   m_iCompanyCallsign 1
-   m_iPlatoonCallsign 1
-   m_iSquadCallsign 2
-  }
+  coords 5092.071 688.738 6339.608
+  angles 0 -127.318 0
+  m_bSetPlayable 1
  }
- coords 5092.071 688.738 6339.608
- angles 0 -127.318 0
- m_bSetPlayable 1
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{689B7287C6F151E5}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5099 688.41 6351.266
+  angles 0 -127.318 0
+  m_bSetPlayable 1
+ }
 }
 Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
  components {
@@ -36,6 +54,13 @@ Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
 SCR_AIGroup : "{8F714EE9F7C76E56}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/P/Group_SanSerriffe_PLT_HQ_P.et" {
  coords 5089.285 688.824 6334.371
  angles 0 -138.84 0
+ m_aUnitPrefabSlots {
+  "{4969BF3BDF29E5E6}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_PIC_P.et"
+  "{B3D13737B06C0731}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_P2IC_P.et"
+  "{E1E348BBB3398AD0}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_Medic_P.et"
+  "{C2F754D9E888EBA0}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/P/Character_SanSerriffe_53_Runner_P.et"
+  "{CF47A0B7A0C374A3}Prefabs/Characters/Factions/BLUFOR/GC_SanSerriffe/53/Character_SanSerriffe_53_Sniper.et"
+ }
 }
 $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
  {

@@ -1,0 +1,83 @@
+$grp Vehicle : "{5AF5B5080C157AC1}Prefabs/Vehicles/Wheeled/M998/M1025_GulfWar_RAS.et" {
+ Squad1victor2 {
+  coords 4714.113 17.844 4726.262
+  angles 0 52.206 0
+  m_sAttachmentGroupName "Squad1"
+ }
+ Squad2victor2 {
+  coords 4701.805 17.844 4716.254
+  angles 0 52.206 0
+  m_sAttachmentGroupName "Squad2"
+ }
+ Squad3victor2 {
+  coords 4689.687 17.844 4705.811
+  angles 0 49.92 0
+  m_sAttachmentGroupName "Squad3"
+ }
+ Weaponsvictor2 {
+  coords 4676.224 17.844 4693.96
+  angles 0 50.15 0
+  m_sAttachmentGroupName "Weapons"
+ }
+}
+$grp Tank : "{5C24713F38CDA98C}Prefabs/Vehicles/Tracked/BFV/M2A3_Desert.et" {
+ M2A3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+    MultiSlots {
+     MultiSlotConfiguration "{63252C15AB3A6F1A}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{76092EF06FE739D7}Prefabs/Items/Equipment/Radios/US/Radio_MARPATD_GC_PRC119.et"
+      }
+     }
+    }
+   }
+  }
+  coords 4657.857 17.844 4685.229
+  angles 0 47.012 0
+  m_sAttachmentGroupName "BradleyCrew"
+ }
+ M2A3_2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+    MultiSlots {
+     MultiSlotConfiguration "{63252C15AB3A6F1A}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{76092EF06FE739D7}Prefabs/Items/Equipment/Radios/US/Radio_MARPATD_GC_PRC119.et"
+      }
+     }
+    }
+   }
+  }
+  coords 4643.287 17.844 4680.188
+  angles 0 47.012 0
+  m_sAttachmentGroupName "BradleyCrew2"
+ }
+}
+$grp Vehicle : "{6B0E98CE6921FCC2}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_M2HB_gunshield.et" {
+ Squad1victor1 {
+  coords 4718.437 17.844 4729.724
+  angles 0 50.982 0
+  m_sAttachmentGroupName "Squad1"
+ }
+ Squad2victor1 {
+  coords 4706.356 17.844 4719.996
+  angles 0 50.982 0
+  m_sAttachmentGroupName "Squad2"
+ }
+ Squad3victor1 {
+  coords 4693.857 17.844 4709.486
+  angles 0 48.696 0
+  m_sAttachmentGroupName "Squad3"
+ }
+ Weaponsvictor1 {
+  coords 4680.407 17.844 4697.618
+  angles 0 48.926 0
+  m_sAttachmentGroupName "Weapons"
+ }
+}
+Vehicle HQvictor : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
+ coords 4727.104 17.844 4736.95
+ angles 0 49.833 0
+ m_sAttachmentGroupName "PltHQ"
+}

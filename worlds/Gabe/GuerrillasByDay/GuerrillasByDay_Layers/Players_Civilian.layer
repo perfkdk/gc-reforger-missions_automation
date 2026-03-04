@@ -23,8 +23,8 @@ $grp SCR_AIGroup : "{0C8BEF088C9D62CA}Prefabs/Groups/CIV/Generic/P/Group_CIV_Gen
     m_iSquadCallsign 1
    }
   }
-  coords 1170.515 73.307 2932.936
-  angles -4.195 127.573 -7.684
+  coords 1081.297 39.961 3238.814
+  angles 0.3 -121.293 -1.23
   m_aUnitPrefabSlots {
    "{9A3544B00CB35FA2}Prefabs/Characters/Factions/CIV/Afghan/P/Civ_3_P.et"
    "{6E3D0328016E37D6}Prefabs/Characters/Factions/CIV/Afghan/P/Civ_2_P.et"
