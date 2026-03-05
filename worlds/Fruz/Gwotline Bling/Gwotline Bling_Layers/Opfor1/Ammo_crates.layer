@@ -1,0 +1,40 @@
+Vehicle AUS_UH60_unarmed2 : "{420562B2B5D106C3}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_unarmed.et" {
+ coords 2999.547 10 2997.792
+ angles 0 -58.251 0
+ m_sAttachmentGroupName "L47"
+}
+GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Equipment_01_US.et" {
+ components {
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{66E10EFC90B0BF46}" {
+     SlotTemplate InventoryStorageSlot M14Mines {
+      Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
+     }
+     NumSlots 1000
+    }
+    MultiSlotConfiguration "{67316E162FBB96A3}" {
+     SlotTemplate InventoryStorageSlot M14Mines {
+      Prefab "{25F3E9A9A45B3C58}Prefabs/Items/Equipment/Backpacks/Backpack_Para_Bergen.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{673EBD8D98528795}" {
+     SlotTemplate EquipmentStorageSlot etool {
+      Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+     }
+     NumSlots 30
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+ }
+ coords 1286.185 263.284 191.71
+ angles 0.105 -47.384 2.528
+}
