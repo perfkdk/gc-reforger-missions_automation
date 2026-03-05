@@ -1,0 +1,92 @@
+$grp GenericEntity : "{BA5F9852DD7255E4}PrefabsEditable/EffectsModules/Mine/BaseEffectModule_MineField_Large.et" {
+ WestMinefieldAP {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_sModuleEntityPrefab "{CA61FDD71E40C749}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4_EffectModuleEntity.et"
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 100
+      m_fLength 500
+     }
+    }
+   }
+  }
+  coords 3171.644 16.3 1573.212
+  angles 0 -8.116 0
+ }
+ WestMinefieldAT {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_sModuleEntityPrefab "{2993E2D661DED576}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_EffectModuleEntity.et"
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 100
+      m_fLength 500
+     }
+    }
+   }
+  }
+  coords 3171.644 16.3 1573.212
+  angles 0 -8.116 0
+ }
+ WestMinefieldAP2 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_sModuleEntityPrefab "{CA61FDD71E40C749}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4_EffectModuleEntity.et"
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 100
+      m_fLength 600
+     }
+    }
+   }
+  }
+  coords 4182.174 20.974 1154.777
+  angles 0 87.844 0
+ }
+ WestMinefieldAT2 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_sModuleEntityPrefab "{2993E2D661DED576}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_EffectModuleEntity.et"
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 100
+      m_fLength 600
+     }
+    }
+   }
+  }
+  coords 4182.174 20.974 1154.777
+  angles 0 87.844 0
+ }
+ WestMinefieldAP3 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_sModuleEntityPrefab "{CA61FDD71E40C749}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4_EffectModuleEntity.et"
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 100
+      m_fLength 400
+     }
+    }
+   }
+  }
+  coords 3744.067 25.616 1044.899
+  angles 0 75.927 0
+ }
+ WestMinefieldAT3 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_sModuleEntityPrefab "{2993E2D661DED576}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_EffectModuleEntity.et"
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 100
+      m_fLength 400
+     }
+    }
+   }
+  }
+  coords 3744.067 25.616 1044.899
+  angles 0 75.927 0
+ }
+}

@@ -1,0 +1,42 @@
+$grp Tank : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
+ M113_APC6 {
+  coords 4411.79 17.278 1391.261
+  angles 0 -142.481 0
+ }
+ M113_APC2 {
+  coords 4401.149 17.109 1396.868
+  angles 0 -142.481 0
+ }
+ M113_APC3 {
+  coords 4390.141 17.182 1400.838
+  angles 0 -142.481 0
+ }
+ M113_APC4 {
+  coords 4377.715 17.386 1408.986
+  angles 0 -142.481 0
+ }
+ M113_APC5 {
+  coords 4359.413 17.147 1415.287
+  angles 0 -142.481 0
+ }
+ M113_APC7 {
+  coords 4342.985 16.624 1421.005
+  angles 0 -142.481 0
+ }
+ M113_APC8 {
+  coords 4331.99 16.25 1430.589
+  angles 0 -142.481 0
+ }
+ M113_APC9 {
+  coords 4422.236 17.45 1385.259
+  angles 0 -142.481 0
+ }
+ M113_APC10 {
+  coords 4321.645 15.828 1440.814
+  angles 0 -142.481 0
+ }
+}
+SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army/1986/M113 Mech (Woodland)/P/Group_US_Army_1985_MechSquad_P.et" {
+ coords 4337.944 16.674 1447.293
+ angles 0 0 0
+}

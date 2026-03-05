@@ -1,0 +1,225 @@
+$grp StaticModelEntity : "{076A66397BAD0909}worlds/Blue/LeadTheWay/Data/Trenches/TrenchOld_01_6m_corner_30_modular.et" {
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    ClutterOccluder 1
+   }
+  }
+  coords 3536.087 0 1102.57
+  angles -6.636 16.341 3.614
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    ClutterOccluder 1
+   }
+  }
+  coords 3538.151 0 1101.659
+  angles -8.186 37.512 0.44
+ }
+}
+StaticModelEntity : "{605A7848CB4D361A}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_USSR_01.et" {
+ coords 3502.877 31.344 1074.111
+ angles 0 31.55 0
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 3493.868 31.696 1075.739
+ angles -0.895 0 1.79
+}
+$grp StaticModelEntity : "{93C8938127F1B16E}worlds/Blue/LeadTheWay/Data/Trenches/TrenchOld_01_6m_bare_modular.et" {
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{68C8ED879D04A9E9}" {
+      SourceMaterial "Old_Trenches_ground_47D78D9D8EAC2980"
+      AssignedMaterial "{CA66C374BB73B7E2}worlds/Blue/LeadTheWay/Data/PlainGrass.emat"
+     }
+    }
+    ClutterOccluder 1
+   }
+  }
+  coords 3550.764 0.001 1090.354
+  angles -8.13 42.019 1.049
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{68C8ED879D04A9E9}" {
+      SourceMaterial "Old_Trenches_ground_47D78D9D8EAC2980"
+      AssignedMaterial "{CA66C374BB73B7E2}worlds/Blue/LeadTheWay/Data/PlainGrass.emat"
+     }
+    }
+    ClutterOccluder 1
+   }
+  }
+  coords 3516.512 0 1101.421
+  angles -6.699 -5.168 5.055
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{68C8ED879D04A9E9}" {
+      SourceMaterial "Old_Trenches_ground_47D78D9D8EAC2980"
+      AssignedMaterial "{CA66C374BB73B7E2}worlds/Blue/LeadTheWay/Data/PlainGrass.emat"
+     }
+    }
+    ClutterOccluder 1
+   }
+  }
+  coords 3540.353 0 1099.769
+  angles -7.542 42.023 0.391
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{68C8ED879D04A9E9}" {
+      SourceMaterial "Old_Trenches_ground_47D78D9D8EAC2980"
+      AssignedMaterial "{CA66C374BB73B7E2}worlds/Blue/LeadTheWay/Data/PlainGrass.emat"
+     }
+    }
+    ClutterOccluder 1
+   }
+  }
+  coords 3530.028 0 1102.484
+  angles -5.747 -5.084 5.856
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{68C8ED879D04A9E9}" {
+      SourceMaterial "Old_Trenches_ground_47D78D9D8EAC2980"
+      AssignedMaterial "{CA66C374BB73B7E2}worlds/Blue/LeadTheWay/Data/PlainGrass.emat"
+     }
+    }
+    ClutterOccluder 1
+   }
+  }
+  coords 3523.33 0 1101.957
+  angles -5.825 -5.09 4.976
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{68C8ED879D04A9E9}" {
+      SourceMaterial "Old_Trenches_ground_47D78D9D8EAC2980"
+      AssignedMaterial "{CA66C374BB73B7E2}worlds/Blue/LeadTheWay/Data/PlainGrass.emat"
+     }
+    }
+    ClutterOccluder 1
+   }
+  }
+  coords 3545.552 0 1095.074
+  angles -8.781 42.014 0.456
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{68C8ED879D04A9E9}" {
+      SourceMaterial "Old_Trenches_ground_47D78D9D8EAC2980"
+      AssignedMaterial "{CA66C374BB73B7E2}worlds/Blue/LeadTheWay/Data/PlainGrass.emat"
+     }
+    }
+    ClutterOccluder 1
+   }
+  }
+  coords 3555.711 0.005 1085.874
+  angles -8.13 42.019 1.049
+ }
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{68C8ED879D04A9E9}" {
+      SourceMaterial "Old_Trenches_ground_47D78D9D8EAC2980"
+      AssignedMaterial "{CA66C374BB73B7E2}worlds/Blue/LeadTheWay/Data/PlainGrass.emat"
+     }
+    }
+    ClutterOccluder 1
+   }
+  }
+  coords 3509.866 0 1100.889
+  angles -6.699 -5.168 5.055
+ }
+}
+$grp StaticModelEntity : "{97DDE37F5F164777}worlds/Blue/LeadTheWay/Data/Trenches/TrenchOld_01_6m_bare_end_modular.et" {
+ {
+  components {
+   MeshObject "{5272E314F6439B95}" {
+    Materials {
+     MaterialAssignClass "{68C8ED87F45F4358}" {
+      SourceMaterial "TrenchOld_01_6m_end_ground_0A0735BDB8AB970B"
+      AssignedMaterial "{CA66C374BB73B7E2}worlds/Blue/LeadTheWay/Data/PlainGrass.emat"
+     }
+    }
+    ClutterOccluder 1
+   }
+  }
+  coords 3551.968 0 1134.273
+ }
+ {
+  coords 3560.609 0 1081.65
+  angles 6.821 -141.245 -1.377
+ }
+}
+$grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et" {
+ {
+  coords 3540.704 24.802 1101.336
+  angles -19.192 34.774 2.165
+ }
+ {
+  coords 3547.362 24.51 1096.589
+  angles -19.192 34.774 2.165
+ }
+ {
+  coords 3553.978 24.388 1091.234
+  angles -19.192 34.774 2.165
+ }
+ {
+  coords 3557.521 24.365 1088.205
+  angles -19.192 34.774 2.165
+ }
+ {
+  coords 3560.841 23.901 1084.893
+  angles -17.253 34.85 2.141
+ }
+ {
+  coords 3535.03 24.833 1105.026
+  angles -14.655 -0.393 6.91
+ }
+ {
+  coords 3527.094 25.413 1104.729
+  angles -14.264 -3.537 7.695
+ }
+ {
+  coords 3518.897 26.096 1103.6
+  angles -14.264 -3.537 7.695
+ }
+}
+StaticModelEntity : "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et" {
+ components {
+  MeshObject "{59F8B580E1C2C938}" {
+   Materials {
+    MaterialAssignClass "{68CA5104B2DB46B3}" {
+     SourceMaterial "ErodedEmbankment_01_dirt_grass_FA4E5282095CB542"
+     AssignedMaterial "{926EFBDAEDBD8485}worlds/Blue/LeadTheWay/Data/ErodedEmbankment_01_EMPTY_grass.emat"
+    }
+    MaterialAssignClass "{68CA5104B2DB46A0}" {
+     SourceMaterial "ErodedEmbankment_01_dirt_roots_DFA24A47A03975F5"
+     AssignedMaterial "{926EFBDAEDBD8485}worlds/Blue/LeadTheWay/Data/ErodedEmbankment_01_EMPTY_grass.emat"
+    }
+    MaterialAssignClass "{68CA5104B2DB469E}" {
+     SourceMaterial "ErodedEmbankment_01_dirt_terrain_003244BB00581E05"
+     AssignedMaterial "{CA66C374BB73B7E2}worlds/Blue/LeadTheWay/Data/PlainGrass.emat"
+    }
+   }
+  }
+ }
+ coords 3565.174 22.814 1107.065
+}
