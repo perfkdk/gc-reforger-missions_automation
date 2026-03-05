@@ -1,0 +1,112 @@
+SCR_AIGroup : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RiflePHQ_D.et" {
+ coords 5974.191 125.753 6171.662
+ angles 0 -70.693 0
+ m_aUnitPrefabSlots {
+  "{4150D73759B80C84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_PL_D.et"
+  "{5E78F2D6D222B617}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_PSG_D.et"
+  "{9C5FD58B2624BBF4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Corpsman_D.et"
+  "{7E04C6DBBB013BCF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_RTO_D.et"
+ }
+}
+SCR_AIGroup : "{30749B2F12C0D2A7}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Desert/Group_USMC_2025_LAR_SQ_D_2.et" {
+ components {
+  PS_GroupCallsignAssigner "{68C8235E4D988830}" {
+   m_iCompanyCallsign 5
+   m_iSquadCallsign 2
+  }
+ }
+ coords 5942.55 124.881 6169.617
+ angles 2.524 -1.023 -8.917
+ m_bPlayable 1
+ m_bSetPlayable 1
+}
+SCR_AIGroup : "{307ABCB88B990546}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Desert/Group_USMC_2025_LAR_PSG_D.et" {
+ components {
+  PS_GroupCallsignAssigner "{68C8235E30DB0D08}" {
+   m_iCompanyCallsign 5
+   m_iSquadCallsign 3
+  }
+ }
+ coords 5941.985 124.66 6165.601
+ angles 3.379 -1.055 -10.663
+ m_aUnitPrefabSlots {
+  "{5E78F2D6D222B617}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_PSG_D.et"
+  "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Crew_D.et"
+  "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Crew_D.et"
+  "{DB89B87AAF10AC8C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_TL.et"
+  "{5449D2F88894225B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_MAAW_D.et"
+  "{D978A1BE753ED0C8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_MAAW_ASST_D.et"
+  "{7C568815FB47158B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_JAV_D.et"
+  "{7C568815FB47158B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_JAV_D.et"
+ }
+ m_bPlayable 1
+ m_bSetPlayable 1
+}
+SCR_AIGroup : "{3542DA9833C9BA69}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RifleSquad_D.et" {
+ coords 5980.297 125.849 6169.042
+ angles 0 -68.63 0
+}
+GenericEntity : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/Props/Military/Camps/AmmoboxBLUE.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{632EA9BEBE5C68F0}" {
+   MultiSlots {
+    MultiSlotConfiguration "{632EA9BEBE5C68E0}" {
+     SlotTemplate InventoryStorageSlot stuff {
+      Prefab "{4977C9711C8F1943}Prefabs/Items/Equipment/Backpacks/JammerBag.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{632EA9BEBE5C68ED}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{2A283EA7BADDBD28}Prefabs/Drones/FPVBase/FPVBase.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{632EA9BEBE5C68E9}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{77CA4803A4A2B8E3}Prefabs/Drones/FPVBase/FPVRPG.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{632EA9BEBE5C68EB}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{6356BFD802DEB290}Prefabs/Characters/Items/DroneCommandStation.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 5949.146 125.214 6168.752
+}
+SCR_AIGroup : "{9D78FEAE9DC4C01C}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Desert/Group_USMC_2025_LAR_HQ_D.et" {
+ components {
+  PS_GroupCallsignAssigner "{68C8235E35FF55BC}" {
+   m_iCompanyCallsign 5
+  }
+ }
+ coords 5941.228 124.162 6160.975
+ angles 6.955 -1.556 -6.385
+ m_bPlayable 1
+ m_bSetPlayable 1
+}
+SCR_AIGroup : "{C2F72C8E9B53AFA3}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Desert/Group_USMC_2025_LAR_SQ_D.et" {
+ components {
+  PS_GroupCallsignAssigner "{68C8235E4EBE473F}" {
+   m_iCompanyCallsign 5
+   m_iSquadCallsign 1
+  }
+ }
+ coords 5942.44 124.813 6167.628
+ angles 3.454 -0.978 -7.171
+ m_bPlayable 1
+ m_bSetPlayable 1
+}
+SCR_AIGroup : "{C62B0A55626A9D90}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RifleSquad_MAAW_D.et" {
+ coords 5985.225 125.925 6166.905
+ angles 0 -70.059 0
+}
+GenericEntity : "{F09518802063A355}Prefabs/Items/Equipment/DroneAntenna/DroneAntenna.et" {
+ coords 5943.022 125.302 6174.021
+ angles 0.849 -0.199 -13.192
+}

@@ -1,0 +1,70 @@
+Vehicle GAZ_TIGR_v2_AGS17_Tan_PAG1 : "{04227AB09A9C86D2}Prefabs/Vehicles/Wheeled/TIGR/AGS/GAZ_TIGR_v2_AGS17_Tan_PAG17.et" {
+ coords 2397.718 17.843 1894.58
+ angles 0 136.67 0
+}
+$grp Vehicle : "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et" {
+ LAV25_RHS_D1 {
+  coords 5957.355 125.811 6171.91
+  angles -1.625 73.319 -11.501
+ }
+ LAV25_RHS_D2 {
+  coords 5960.215 125.324 6180.61
+  angles 7.907 118.784 -8.754
+ }
+ LAV25_RHS_D3 {
+  coords 5949.255 123.955 6186.396
+  angles 1.248 -86.86 9.831
+ }
+ LAV25_RHS_D4 {
+  coords 5939.256 124.574 6177.719
+  angles -4.01 -63.382 13.707
+ }
+}
+Vehicle BTR70_Base1 : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
+ coords 2387.048 17.844 1920.528
+ angles 0 163.591 0
+}
+Vehicle GAZ_TIGR_v2_Arbalet_PKM_Tan1 : "{2BE4FD37FE3DE6E0}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TIGR_v2_Arbalet_PKM_Tan.et" {
+ coords 2402.367 17.843 1897.732
+ angles 0 142.43 0
+}
+Vehicle BTR70_SmokeLauncherExample1 : "{4B9050627EBE3CFC}Prefabs/Vehicles/Wheeled/BTR70/BTR70_SmokeLauncherExample.et" {
+ coords 2381.438 17.844 1916.376
+ angles 0 137.216 0
+}
+Vehicle GAZ_TIGR_v2_Arbalet_KORD_Tan1 : "{52687903BAAEC248}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TIGR_v2_Arbalet_KORD_Tan.et" {
+ coords 2398.133 17.843 1903.509
+ angles 0 135.788 0
+}
+$grp Vehicle : "{A87793B810A65873}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_D_2004.et" {
+ M923A1_transport_D_2 {
+  coords 6006.466 124.846 6163.529
+  angles 3.576 -89.653 0.022
+ }
+ M923A1_transport_D_1 {
+  coords 5996.539 125.218 6158.238
+  angles 4.376 -52.248 -5.628
+ }
+ M923A1_transport_D_3 {
+  coords 6015.745 124.051 6155.121
+  angles 4.386 -79.067 0.846
+ }
+}
+$grp Tank : "{C334AD811A3BFFFC}Prefabs/Vehicles/Tracked/BMP1/BMP1P_Desert.et" {
+ BMP1P_Desert1 {
+  coords 2417.37 17.844 1876.717
+  angles 0 147.292 0
+ }
+ BMP1P_Desert2 {
+  coords 2410.756 17.843 1884.642
+  angles 0 138.385 0
+ }
+}
+Vehicle K4386_Armed_Tan1 : "{E836092AB606CE4A}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Tan.et" {
+ coords 2391.467 17.843 1908.636
+ angles 0 145.709 0
+}
+Vehicle GAZ_TIGR_v2_KORD_SPP_Tan1 : "{EB1805C9B001DE8D}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_SPP_Tan.et" {
+ coords 2392.655 17.843 1900.932
+ angles 0 141.233 0
+}
