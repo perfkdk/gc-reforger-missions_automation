@@ -178,6 +178,9 @@ $grp StaticModelEntity : "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain
   angles -9.72 179.386 0.036
  }
 }
+StaticModelEntity : "{9C7477A3F066F74F}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_straight.et" {
+ coords 3520.923 27.012 1099.709
+}
 $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
  {
   coords 3545.634 0.167 1051.783
@@ -253,6 +256,11 @@ $grp StaticModelEntity : "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches
   scale 1.12
  }
  {
+  components {
+   MeshObject "{59F8B580E1C2C938}" {
+    Object "{5102DBF98C093773}Assets/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_straight.xob"
+   }
+  }
   coords 3520.566 30.024 1076.465
   angles -14.448 -23.773 4.841
   scale 1.155
