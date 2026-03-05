@@ -9,11 +9,8 @@ SCR_AIGroup : "{50405007E4967EEE}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/G
  coords 2361.708 164.049 1863.651
  m_aUnitPrefabSlots {
   "{D18131EDC15F76FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_PL_P.et"
-  "{FE6B45B02AA350D7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_PSG_P.et"
   "{0968B9123279513A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_RTO_P.et"
   "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_Medic_P.et"
-  "{4AE3849C53524844}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_Rifleman_DMR_P.et"
-  "{A49BA2FB1F8BD75F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_GL_P.et"
  }
 }
 $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/Group_USA_2020_RifleSquad_P.et" {
@@ -39,6 +36,7 @@ $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army/2020/Infantr
    "{A49BA2FB1F8BD75F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_GL_P.et"
    "{0968B9123279513A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_RTO_P.et"
   }
+  m_iGroupRadioFrequency 1
  }
  {
   components {
@@ -62,6 +60,7 @@ $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army/2020/Infantr
    "{A49BA2FB1F8BD75F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_GL_P.et"
    "{0968B9123279513A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_RTO_P.et"
   }
+  m_iGroupRadioFrequency 2
  }
 }
 SCR_AIGroup : "{F6AD06DE653481AC}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/Group_USA_2020_WeaponsSquad_P.et" {
@@ -86,4 +85,5 @@ SCR_AIGroup : "{F6AD06DE653481AC}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/G
   ""
   ""
  }
+ m_iGroupRadioFrequency 3
 }
