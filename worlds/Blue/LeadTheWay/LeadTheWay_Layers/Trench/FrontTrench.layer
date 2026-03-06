@@ -27,167 +27,109 @@ $grp PK_EntityDeleter {
   coords 3428.285 30.767 1139.617
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{7D5C8883A0DF9D96}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1f.et"
+   "{CED0732AEAD82213}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1s.et"
+   "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3421.101 30.767 1138.932
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3418.352 30.767 1143.01
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3430.005 30.767 1131.9
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{7D5C8883A0DF9D96}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1f.et"
+   "{CED0732AEAD82213}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1s.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3434.166 30.767 1125.937
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{CED0732AEAD82213}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1s.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3379.835 31.225 1144.5
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+   "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3374.646 31.225 1147.836
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+   "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3370.141 31.225 1146.921
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+   "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3365.274 31.225 1147.905
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+   "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3355.701 31.225 1149.552
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+   "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3352.014 31.225 1149.69
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et"
+   "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+   "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3346.189 31.225 1149.9
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et"
+   "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3342.48 31.225 1151.223
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2sw.et"
   }
-  m_excludePrefabsInList 1
  }
  {
   coords 3337.477 31.225 1150.557
   m_fRadius 3
   m_prefabFilterList {
-   "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
-   "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
-   "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
-   "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
+   "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et"
   }
   m_excludePrefabsInList 1
  }
@@ -564,6 +506,1433 @@ $grp PK_EntityDeleter {
   m_excludePrefabsInList 1
  }
 }
+$grp PolylineShapeEntity {
+ {
+  coords 3285.558 19.957 1209.844
+  Points {
+   ShapePoint "{68CC8A1A05BC32C7}" {
+    Position 0 0 0
+   }
+   ShapePoint "{68CC8A1A05BC2D2C}" {
+    Position 5 0.509 0
+   }
+   ShapePoint "{68CC8A1A075ED2F7}" {
+    Position 35.129 0 -8.985
+   }
+   ShapePoint "{68CC8A1A3A970905}" {
+    Position 79.063 0 -19.779
+   }
+   ShapePoint "{68CC8A1A3CB16F29}" {
+    Position 121.138 0 -29.769
+   }
+   ShapePoint "{68CC8A1A30DFD691}" {
+    Position 160.318 0 -40.814
+   }
+   ShapePoint "{68CC8A1A33DF9A33}" {
+    Position 190.613 0 -53.054
+   }
+   ShapePoint "{68CC8A1A2B50FD15}" {
+    Position 270.975 0 -91.299
+   }
+   ShapePoint "{68CC8A1A2103B765}" {
+    Position 297.484 0 -127.673
+   }
+   ShapePoint "{68CC8A1A22A6C49F}" {
+    Position 311.956 0 -155.323
+   }
+  }
+  {
+   WallGeneratorEntity {
+    Flags 0x100003 0
+    m_iSeed 2664
+    m_aWallGroups {
+     WallLengthGroup "{68CC8A525D91E1F3}" {
+      m_aWallPrefabs {
+       WallWeightPair "{68CC8A525F3BC94A}" {
+        m_sWallAsset "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et"
+       }
+      }
+     }
+    }
+    UseXAsForward 0
+    {
+     $grp StaticModelEntity : "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et" {
+      {
+       coords 0 0 0
+       angles 0 90 0
+      }
+      {
+       coords 3.429 0.353 0
+       angles 0 105.825 0
+      }
+      {
+       coords 6.718 0.871 -0.932
+       angles 0 105.825 0
+      }
+      {
+       coords 10.007 1.405 -1.865
+       angles 0 105.825 0
+      }
+      {
+       coords 13.297 1.926 -2.797
+       angles 0 105.825 0
+      }
+      {
+       coords 16.586 2.45 -3.729
+       angles 0 105.825 0
+      }
+      {
+       coords 19.875 2.971 -4.661
+       angles 0 105.825 0
+      }
+      {
+       coords 23.164 3.466 -5.594
+       angles 0 105.825 0
+      }
+      {
+       coords 26.454 3.848 -6.526
+       angles 0 105.825 0
+      }
+      {
+       coords 29.743 4.145 -7.458
+       angles 0 105.825 0
+      }
+      {
+       coords 33.032 4.404 -8.391
+       angles 0 103.897 0
+      }
+      {
+       coords 36.378 4.639 -9.218
+       angles 0 103.897 0
+      }
+      {
+       coords 39.724 4.829 -10.046
+       angles 0 103.897 0
+      }
+      {
+       coords 43.069 4.936 -10.874
+       angles 0 103.897 0
+      }
+      {
+       coords 46.415 5.005 -11.702
+       angles 0 103.897 0
+      }
+      {
+       coords 49.761 5.076 -12.53
+       angles 0 103.897 0
+      }
+      {
+       coords 53.106 5.083 -13.357
+       angles 0 103.897 0
+      }
+      {
+       coords 56.452 5.085 -14.185
+       angles 0 103.897 0
+      }
+      {
+       coords 59.798 5.08 -15.013
+       angles 0 103.897 0
+      }
+      {
+       coords 63.143 5.064 -15.841
+       angles 0 103.897 0
+      }
+      {
+       coords 66.489 5.068 -16.668
+       angles 0 103.897 0
+      }
+      {
+       coords 69.835 5.069 -17.496
+       angles 0 103.897 0
+      }
+      {
+       coords 73.181 5.058 -18.324
+       angles 0 103.897 0
+      }
+      {
+       coords 76.526 5.052 -19.152
+       angles 0 103.387 0
+      }
+      {
+       coords 79.879 5.024 -19.95
+       angles 0 103.387 0
+      }
+      {
+       coords 83.232 4.966 -20.748
+       angles 0 103.387 0
+      }
+      {
+       coords 86.585 4.905 -21.546
+       angles 0 103.387 0
+      }
+      {
+       coords 89.938 4.801 -22.344
+       angles 0 103.387 0
+      }
+      {
+       coords 93.291 4.7 -23.142
+       angles 0 103.387 0
+      }
+      {
+       coords 96.644 4.603 -23.939
+       angles 0 103.387 0
+      }
+      {
+       coords 99.996 4.537 -24.737
+       angles 0 103.387 0
+      }
+      {
+       coords 103.349 4.488 -25.535
+       angles 0 103.387 0
+      }
+      {
+       coords 106.702 4.468 -26.333
+       angles 0 103.387 0
+      }
+      {
+       coords 110.055 4.454 -27.131
+       angles 0 103.387 0
+      }
+      {
+       coords 113.408 4.485 -27.929
+       angles 0 103.387 0
+      }
+      {
+       coords 116.761 4.508 -28.727
+       angles 0 103.387 0
+      }
+      {
+       coords 120.114 4.533 -29.525
+       angles 0 105.684 0
+      }
+      {
+       coords 123.432 4.594 -30.457
+       angles 0 105.684 0
+      }
+      {
+       coords 126.75 4.654 -31.388
+       angles 0 105.684 0
+      }
+      {
+       coords 130.069 4.709 -32.32
+       angles 0 105.684 0
+      }
+      {
+       coords 133.387 4.79 -33.252
+       angles 0 105.684 0
+      }
+      {
+       coords 136.705 4.869 -34.184
+       angles 0 105.684 0
+      }
+      {
+       coords 140.024 4.94 -35.115
+       angles 0 105.684 0
+      }
+      {
+       coords 143.342 4.99 -36.047
+       angles 0 105.684 0
+      }
+      {
+       coords 146.66 4.996 -36.979
+       angles 0 105.684 0
+      }
+      {
+       coords 149.979 4.913 -37.911
+       angles 0 105.684 0
+      }
+      {
+       coords 153.297 4.845 -38.842
+       angles 0 105.684 0
+      }
+      {
+       coords 156.615 4.816 -39.774
+       angles 0 105.684 0
+      }
+      {
+       coords 159.934 4.779 -40.706
+       angles 0 111.924 0
+      }
+      {
+       coords 163.13 4.798 -41.992
+       angles 0 111.924 0
+      }
+      {
+       coords 166.326 4.861 -43.279
+       angles 0 111.924 0
+      }
+      {
+       coords 169.523 4.938 -44.565
+       angles 0 111.924 0
+      }
+      {
+       coords 172.719 5.052 -45.852
+       angles 0 111.924 0
+      }
+      {
+       coords 175.916 5.169 -47.139
+       angles 0 111.924 0
+      }
+      {
+       coords 179.112 5.301 -48.425
+       angles 0 111.924 0
+      }
+      {
+       coords 182.309 5.441 -49.712
+       angles 0 111.924 0
+      }
+      {
+       coords 185.505 5.534 -50.998
+       angles 0 111.924 0
+      }
+      {
+       coords 188.702 5.617 -52.285
+       angles 0 115.371 0
+      }
+      {
+       coords 191.815 5.69 -53.761
+       angles 0 115.371 0
+      }
+      {
+       coords 194.928 5.7 -55.237
+       angles 0 115.371 0
+      }
+      {
+       coords 198.041 5.686 -56.713
+       angles 0 115.371 0
+      }
+      {
+       coords 201.154 5.621 -58.19
+       angles 0 115.371 0
+      }
+      {
+       coords 204.267 5.549 -59.666
+       angles 0 115.371 0
+      }
+      {
+       coords 207.38 5.431 -61.142
+       angles 0 115.371 0
+      }
+      {
+       coords 210.493 5.31 -62.618
+       angles 0 115.371 0
+      }
+      {
+       coords 213.607 5.145 -64.095
+       angles 0 115.371 0
+      }
+      {
+       coords 216.72 4.995 -65.571
+       angles 0 115.371 0
+      }
+      {
+       coords 219.833 4.822 -67.047
+       angles 0 115.371 0
+      }
+      {
+       coords 222.946 4.647 -68.524
+       angles 0 115.371 0
+      }
+      {
+       coords 226.059 4.451 -70
+       angles 0 115.371 0
+      }
+      {
+       coords 229.172 4.256 -71.476
+       angles 0 115.371 0
+      }
+      {
+       coords 232.285 4.059 -72.952
+       angles 0 115.371 0
+      }
+      {
+       coords 235.398 3.84 -74.429
+       angles 0 115.371 0
+      }
+      {
+       coords 238.511 3.666 -75.905
+       angles 0 115.371 0
+      }
+      {
+       coords 241.624 3.51 -77.381
+       angles 0 115.371 0
+      }
+      {
+       coords 244.738 3.369 -78.857
+       angles 0 115.371 0
+      }
+      {
+       coords 247.851 3.297 -80.334
+       angles 0 115.371 0
+      }
+      {
+       coords 250.964 3.283 -81.81
+       angles 0 115.371 0
+      }
+      {
+       coords 254.077 3.349 -83.286
+       angles 0 115.371 0
+      }
+      {
+       coords 257.19 3.404 -84.762
+       angles 0 115.371 0
+      }
+      {
+       coords 260.303 3.439 -86.239
+       angles 0 115.371 0
+      }
+      {
+       coords 263.416 3.398 -87.715
+       angles 0 115.371 0
+      }
+      {
+       coords 266.529 3.279 -89.191
+       angles 0 115.371 0
+      }
+      {
+       coords 269.642 3.137 -90.667
+       angles 0 143.044 0
+      }
+      {
+       coords 271.715 3.051 -93.422
+       angles 0 143.044 0
+      }
+      {
+       coords 273.787 2.996 -96.176
+       angles 0 143.044 0
+      }
+      {
+       coords 275.859 2.943 -98.93
+       angles 0 143.044 0
+      }
+      {
+       coords 277.931 2.914 -101.685
+       angles 0 143.044 0
+      }
+      {
+       coords 280.003 2.911 -104.439
+       angles 0 143.044 0
+      }
+      {
+       coords 282.076 2.911 -107.193
+       angles 0 143.044 0
+      }
+      {
+       coords 284.148 2.943 -109.947
+       angles 0 143.044 0
+      }
+      {
+       coords 286.22 2.986 -112.702
+       angles 0 143.044 0
+      }
+      {
+       coords 288.292 3.025 -115.456
+       angles 0 143.044 0
+      }
+      {
+       coords 290.364 3.047 -118.21
+       angles 0 143.044 0
+      }
+      {
+       coords 292.437 3.1 -120.965
+       angles 0 143.044 0
+      }
+      {
+       coords 294.509 3.153 -123.719
+       angles 0 143.044 0
+      }
+      {
+       coords 296.581 3.197 -126.473
+       angles 0 151.945 0
+      }
+      {
+       coords 298.202 3.286 -129.515
+       angles 0 151.945 0
+      }
+      {
+       coords 299.823 3.334 -132.556
+       angles 0 151.945 0
+      }
+      {
+       coords 301.444 3.387 -135.598
+       angles 0 151.945 0
+      }
+      {
+       coords 303.065 3.417 -138.64
+       angles 0 151.945 0
+      }
+      {
+       coords 304.686 3.454 -141.681
+       angles 0 151.945 0
+      }
+      {
+       coords 306.307 3.454 -144.723
+       angles 0 151.945 0
+      }
+      {
+       coords 307.928 3.478 -147.764
+       angles 0 151.945 0
+      }
+      {
+       coords 309.549 3.473 -150.806
+       angles 0 151.945 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3285.558 19.957 1214.266
+  Points {
+   ShapePoint "{68CC8A1A05BC32C7}" {
+    Position 0 0 0
+   }
+   ShapePoint "{68CC8A1A05BC2D2C}" {
+    Position 5 0.509 0
+   }
+   ShapePoint "{68CC8A1A075ED2F7}" {
+    Position 35.129 0 -8.985
+   }
+   ShapePoint "{68CC8A1A3A970905}" {
+    Position 79.063 0 -19.779
+   }
+   ShapePoint "{68CC8A1A3CB16F29}" {
+    Position 121.138 0 -29.769
+   }
+   ShapePoint "{68CC8A1A30DFD691}" {
+    Position 160.318 0 -40.814
+   }
+   ShapePoint "{68CC8A1A33DF9A33}" {
+    Position 190.613 0 -53.054
+   }
+   ShapePoint "{68CC8A1A2B50FD15}" {
+    Position 270.975 0 -91.299
+   }
+   ShapePoint "{68CC8A1A2103B765}" {
+    Position 297.484 0 -127.673
+   }
+   ShapePoint "{68CC8A1A22A6C49F}" {
+    Position 311.956 0 -155.323
+   }
+  }
+  {
+   WallGeneratorEntity {
+    Flags 0x100003 0
+    m_iSeed 2664
+    m_aWallGroups {
+     WallLengthGroup "{68CC8A525D91E1F3}" {
+      m_aWallPrefabs {
+       WallWeightPair "{68CC8A525F3BC94A}" {
+        m_sWallAsset "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et"
+       }
+      }
+     }
+    }
+    UseXAsForward 0
+    {
+     $grp StaticModelEntity : "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et" {
+      {
+       coords 0 0 0
+       angles 0 90 0
+      }
+      {
+       coords 3.429 0.353 0
+       angles 0 105.825 0
+      }
+      {
+       coords 6.718 0.871 -0.932
+       angles 0 105.825 0
+      }
+      {
+       coords 10.007 1.405 -1.865
+       angles 0 105.825 0
+      }
+      {
+       coords 13.297 1.926 -2.797
+       angles 0 105.825 0
+      }
+      {
+       coords 16.586 2.45 -3.729
+       angles 0 105.825 0
+      }
+      {
+       coords 19.875 2.971 -4.661
+       angles 0 105.825 0
+      }
+      {
+       coords 23.164 3.466 -5.594
+       angles 0 105.825 0
+      }
+      {
+       coords 26.454 3.848 -6.526
+       angles 0 105.825 0
+      }
+      {
+       coords 29.743 4.145 -7.458
+       angles 0 105.825 0
+      }
+      {
+       coords 33.032 4.404 -8.391
+       angles 0 103.897 0
+      }
+      {
+       coords 36.378 4.639 -9.218
+       angles 0 103.897 0
+      }
+      {
+       coords 39.724 4.829 -10.046
+       angles 0 103.897 0
+      }
+      {
+       coords 43.069 4.936 -10.874
+       angles 0 103.897 0
+      }
+      {
+       coords 46.415 5.005 -11.702
+       angles 0 103.897 0
+      }
+      {
+       coords 49.761 5.076 -12.53
+       angles 0 103.897 0
+      }
+      {
+       coords 53.106 5.083 -13.357
+       angles 0 103.897 0
+      }
+      {
+       coords 56.452 5.085 -14.185
+       angles 0 103.897 0
+      }
+      {
+       coords 59.798 5.08 -15.013
+       angles 0 103.897 0
+      }
+      {
+       coords 63.143 5.064 -15.841
+       angles 0 103.897 0
+      }
+      {
+       coords 66.489 5.068 -16.668
+       angles 0 103.897 0
+      }
+      {
+       coords 69.835 5.069 -17.496
+       angles 0 103.897 0
+      }
+      {
+       coords 73.181 5.058 -18.324
+       angles 0 103.897 0
+      }
+      {
+       coords 76.526 5.052 -19.152
+       angles 0 103.387 0
+      }
+      {
+       coords 79.879 5.024 -19.95
+       angles 0 103.387 0
+      }
+      {
+       coords 83.232 4.966 -20.748
+       angles 0 103.387 0
+      }
+      {
+       coords 86.585 4.905 -21.546
+       angles 0 103.387 0
+      }
+      {
+       coords 89.938 4.801 -22.344
+       angles 0 103.387 0
+      }
+      {
+       coords 93.291 4.7 -23.142
+       angles 0 103.387 0
+      }
+      {
+       coords 96.644 4.603 -23.939
+       angles 0 103.387 0
+      }
+      {
+       coords 99.996 4.537 -24.737
+       angles 0 103.387 0
+      }
+      {
+       coords 103.349 4.488 -25.535
+       angles 0 103.387 0
+      }
+      {
+       coords 106.702 4.468 -26.333
+       angles 0 103.387 0
+      }
+      {
+       coords 110.055 4.454 -27.131
+       angles 0 103.387 0
+      }
+      {
+       coords 113.408 4.485 -27.929
+       angles 0 103.387 0
+      }
+      {
+       coords 116.761 4.508 -28.727
+       angles 0 103.387 0
+      }
+      {
+       coords 120.114 4.533 -29.525
+       angles 0 105.684 0
+      }
+      {
+       coords 123.432 4.594 -30.457
+       angles 0 105.684 0
+      }
+      {
+       coords 126.75 4.654 -31.388
+       angles 0 105.684 0
+      }
+      {
+       coords 130.069 4.709 -32.32
+       angles 0 105.684 0
+      }
+      {
+       coords 133.387 4.79 -33.252
+       angles 0 105.684 0
+      }
+      {
+       coords 136.705 4.869 -34.184
+       angles 0 105.684 0
+      }
+      {
+       coords 140.024 4.94 -35.115
+       angles 0 105.684 0
+      }
+      {
+       coords 143.342 4.99 -36.047
+       angles 0 105.684 0
+      }
+      {
+       coords 146.66 4.996 -36.979
+       angles 0 105.684 0
+      }
+      {
+       coords 149.979 4.913 -37.911
+       angles 0 105.684 0
+      }
+      {
+       coords 153.297 4.845 -38.842
+       angles 0 105.684 0
+      }
+      {
+       coords 156.615 4.816 -39.774
+       angles 0 105.684 0
+      }
+      {
+       coords 159.934 4.779 -40.706
+       angles 0 111.924 0
+      }
+      {
+       coords 163.13 4.798 -41.992
+       angles 0 111.924 0
+      }
+      {
+       coords 166.326 4.861 -43.279
+       angles 0 111.924 0
+      }
+      {
+       coords 169.523 4.938 -44.565
+       angles 0 111.924 0
+      }
+      {
+       coords 172.719 5.052 -45.852
+       angles 0 111.924 0
+      }
+      {
+       coords 175.916 5.169 -47.139
+       angles 0 111.924 0
+      }
+      {
+       coords 179.112 5.301 -48.425
+       angles 0 111.924 0
+      }
+      {
+       coords 182.309 5.441 -49.712
+       angles 0 111.924 0
+      }
+      {
+       coords 185.505 5.534 -50.998
+       angles 0 111.924 0
+      }
+      {
+       coords 188.702 5.617 -52.285
+       angles 0 115.371 0
+      }
+      {
+       coords 191.815 5.69 -53.761
+       angles 0 115.371 0
+      }
+      {
+       coords 194.928 5.7 -55.237
+       angles 0 115.371 0
+      }
+      {
+       coords 198.041 5.686 -56.713
+       angles 0 115.371 0
+      }
+      {
+       coords 201.154 5.621 -58.19
+       angles 0 115.371 0
+      }
+      {
+       coords 204.267 5.549 -59.666
+       angles 0 115.371 0
+      }
+      {
+       coords 207.38 5.431 -61.142
+       angles 0 115.371 0
+      }
+      {
+       coords 210.493 5.31 -62.618
+       angles 0 115.371 0
+      }
+      {
+       coords 213.607 5.145 -64.095
+       angles 0 115.371 0
+      }
+      {
+       coords 216.72 4.995 -65.571
+       angles 0 115.371 0
+      }
+      {
+       coords 219.833 4.822 -67.047
+       angles 0 115.371 0
+      }
+      {
+       coords 222.946 4.647 -68.524
+       angles 0 115.371 0
+      }
+      {
+       coords 226.059 4.451 -70
+       angles 0 115.371 0
+      }
+      {
+       coords 229.172 4.256 -71.476
+       angles 0 115.371 0
+      }
+      {
+       coords 232.285 4.059 -72.952
+       angles 0 115.371 0
+      }
+      {
+       coords 235.398 3.84 -74.429
+       angles 0 115.371 0
+      }
+      {
+       coords 238.511 3.666 -75.905
+       angles 0 115.371 0
+      }
+      {
+       coords 241.624 3.51 -77.381
+       angles 0 115.371 0
+      }
+      {
+       coords 244.738 3.369 -78.857
+       angles 0 115.371 0
+      }
+      {
+       coords 247.851 3.297 -80.334
+       angles 0 115.371 0
+      }
+      {
+       coords 250.964 3.283 -81.81
+       angles 0 115.371 0
+      }
+      {
+       coords 254.077 3.349 -83.286
+       angles 0 115.371 0
+      }
+      {
+       coords 257.19 3.404 -84.762
+       angles 0 115.371 0
+      }
+      {
+       coords 260.303 3.439 -86.239
+       angles 0 115.371 0
+      }
+      {
+       coords 263.416 3.398 -87.715
+       angles 0 115.371 0
+      }
+      {
+       coords 266.529 3.279 -89.191
+       angles 0 115.371 0
+      }
+      {
+       coords 269.642 3.137 -90.667
+       angles 0 143.044 0
+      }
+      {
+       coords 271.715 3.051 -93.422
+       angles 0 143.044 0
+      }
+      {
+       coords 273.787 2.996 -96.176
+       angles 0 143.044 0
+      }
+      {
+       coords 275.859 2.943 -98.93
+       angles 0 143.044 0
+      }
+      {
+       coords 277.931 2.914 -101.685
+       angles 0 143.044 0
+      }
+      {
+       coords 280.003 2.911 -104.439
+       angles 0 143.044 0
+      }
+      {
+       coords 282.076 2.911 -107.193
+       angles 0 143.044 0
+      }
+      {
+       coords 284.148 2.943 -109.947
+       angles 0 143.044 0
+      }
+      {
+       coords 286.22 2.986 -112.702
+       angles 0 143.044 0
+      }
+      {
+       coords 288.292 3.025 -115.456
+       angles 0 143.044 0
+      }
+      {
+       coords 290.364 3.047 -118.21
+       angles 0 143.044 0
+      }
+      {
+       coords 292.437 3.1 -120.965
+       angles 0 143.044 0
+      }
+      {
+       coords 294.509 3.153 -123.719
+       angles 0 143.044 0
+      }
+      {
+       coords 296.581 3.197 -126.473
+       angles 0 151.945 0
+      }
+      {
+       coords 298.202 3.286 -129.515
+       angles 0 151.945 0
+      }
+      {
+       coords 299.823 3.334 -132.556
+       angles 0 151.945 0
+      }
+      {
+       coords 301.444 3.387 -135.598
+       angles 0 151.945 0
+      }
+      {
+       coords 303.065 3.417 -138.64
+       angles 0 151.945 0
+      }
+      {
+       coords 304.686 3.454 -141.681
+       angles 0 151.945 0
+      }
+      {
+       coords 306.307 3.454 -144.723
+       angles 0 151.945 0
+      }
+      {
+       coords 307.928 3.478 -147.764
+       angles 0 151.945 0
+      }
+      {
+       coords 309.549 3.473 -150.806
+       angles 0 151.945 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3285.558 19.957 1219.315
+  Points {
+   ShapePoint "{68CC8A1A05BC32C7}" {
+    Position 0 0 0
+   }
+   ShapePoint "{68CC8A1A05BC2D2C}" {
+    Position 5 0.509 0
+   }
+   ShapePoint "{68CC8A1A075ED2F7}" {
+    Position 35.129 0 -8.985
+   }
+   ShapePoint "{68CC8A1A3A970905}" {
+    Position 79.063 0 -19.779
+   }
+   ShapePoint "{68CC8A1A3CB16F29}" {
+    Position 121.138 0 -29.769
+   }
+   ShapePoint "{68CC8A1A30DFD691}" {
+    Position 160.318 0 -40.814
+   }
+   ShapePoint "{68CC8A1A33DF9A33}" {
+    Position 190.613 0 -53.054
+   }
+   ShapePoint "{68CC8A1A2B50FD15}" {
+    Position 270.975 0 -91.299
+   }
+   ShapePoint "{68CC8A1A2103B765}" {
+    Position 297.484 0 -127.673
+   }
+   ShapePoint "{68CC8A1A22A6C49F}" {
+    Position 311.956 0 -155.323
+   }
+  }
+  {
+   WallGeneratorEntity {
+    Flags 0x100003 0
+    m_iSeed 2664
+    m_aWallGroups {
+     WallLengthGroup "{68CC8A525D91E1F3}" {
+      m_aWallPrefabs {
+       WallWeightPair "{68CC8A525F3BC94A}" {
+        m_sWallAsset "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et"
+       }
+      }
+     }
+    }
+    UseXAsForward 0
+    {
+     $grp StaticModelEntity : "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et" {
+      {
+       coords 0 0 0
+       angles 0 90 0
+      }
+      {
+       coords 3.429 0.353 0
+       angles 0 105.825 0
+      }
+      {
+       coords 6.718 0.871 -0.932
+       angles 0 105.825 0
+      }
+      {
+       coords 10.007 1.405 -1.865
+       angles 0 105.825 0
+      }
+      {
+       coords 13.297 1.926 -2.797
+       angles 0 105.825 0
+      }
+      {
+       coords 16.586 2.45 -3.729
+       angles 0 105.825 0
+      }
+      {
+       coords 19.875 2.971 -4.661
+       angles 0 105.825 0
+      }
+      {
+       coords 23.164 3.466 -5.594
+       angles 0 105.825 0
+      }
+      {
+       coords 26.454 3.848 -6.526
+       angles 0 105.825 0
+      }
+      {
+       coords 29.743 4.145 -7.458
+       angles 0 105.825 0
+      }
+      {
+       coords 33.032 4.404 -8.391
+       angles 0 103.897 0
+      }
+      {
+       coords 36.378 4.639 -9.218
+       angles 0 103.897 0
+      }
+      {
+       coords 39.724 4.829 -10.046
+       angles 0 103.897 0
+      }
+      {
+       coords 43.069 4.936 -10.874
+       angles 0 103.897 0
+      }
+      {
+       coords 46.415 5.005 -11.702
+       angles 0 103.897 0
+      }
+      {
+       coords 49.761 5.076 -12.53
+       angles 0 103.897 0
+      }
+      {
+       coords 53.106 5.083 -13.357
+       angles 0 103.897 0
+      }
+      {
+       coords 56.452 5.085 -14.185
+       angles 0 103.897 0
+      }
+      {
+       coords 59.798 5.08 -15.013
+       angles 0 103.897 0
+      }
+      {
+       coords 63.143 5.064 -15.841
+       angles 0 103.897 0
+      }
+      {
+       coords 66.489 5.068 -16.668
+       angles 0 103.897 0
+      }
+      {
+       coords 69.835 5.069 -17.496
+       angles 0 103.897 0
+      }
+      {
+       coords 73.181 5.058 -18.324
+       angles 0 103.897 0
+      }
+      {
+       coords 76.526 5.052 -19.152
+       angles 0 103.387 0
+      }
+      {
+       coords 79.879 5.024 -19.95
+       angles 0 103.387 0
+      }
+      {
+       coords 83.232 4.966 -20.748
+       angles 0 103.387 0
+      }
+      {
+       coords 86.585 4.905 -21.546
+       angles 0 103.387 0
+      }
+      {
+       coords 89.938 4.801 -22.344
+       angles 0 103.387 0
+      }
+      {
+       coords 93.291 4.7 -23.142
+       angles 0 103.387 0
+      }
+      {
+       coords 96.644 4.603 -23.939
+       angles 0 103.387 0
+      }
+      {
+       coords 99.996 4.537 -24.737
+       angles 0 103.387 0
+      }
+      {
+       coords 103.349 4.488 -25.535
+       angles 0 103.387 0
+      }
+      {
+       coords 106.702 4.468 -26.333
+       angles 0 103.387 0
+      }
+      {
+       coords 110.055 4.454 -27.131
+       angles 0 103.387 0
+      }
+      {
+       coords 113.408 4.485 -27.929
+       angles 0 103.387 0
+      }
+      {
+       coords 116.761 4.508 -28.727
+       angles 0 103.387 0
+      }
+      {
+       coords 120.114 4.533 -29.525
+       angles 0 105.684 0
+      }
+      {
+       coords 123.432 4.594 -30.457
+       angles 0 105.684 0
+      }
+      {
+       coords 126.75 4.654 -31.388
+       angles 0 105.684 0
+      }
+      {
+       coords 130.069 4.709 -32.32
+       angles 0 105.684 0
+      }
+      {
+       coords 133.387 4.79 -33.252
+       angles 0 105.684 0
+      }
+      {
+       coords 136.705 4.869 -34.184
+       angles 0 105.684 0
+      }
+      {
+       coords 140.024 4.94 -35.115
+       angles 0 105.684 0
+      }
+      {
+       coords 143.342 4.99 -36.047
+       angles 0 105.684 0
+      }
+      {
+       coords 146.66 4.996 -36.979
+       angles 0 105.684 0
+      }
+      {
+       coords 149.979 4.913 -37.911
+       angles 0 105.684 0
+      }
+      {
+       coords 153.297 4.845 -38.842
+       angles 0 105.684 0
+      }
+      {
+       coords 156.615 4.816 -39.774
+       angles 0 105.684 0
+      }
+      {
+       coords 159.934 4.779 -40.706
+       angles 0 111.924 0
+      }
+      {
+       coords 163.13 4.798 -41.992
+       angles 0 111.924 0
+      }
+      {
+       coords 166.326 4.861 -43.279
+       angles 0 111.924 0
+      }
+      {
+       coords 169.523 4.938 -44.565
+       angles 0 111.924 0
+      }
+      {
+       coords 172.719 5.052 -45.852
+       angles 0 111.924 0
+      }
+      {
+       coords 175.916 5.169 -47.139
+       angles 0 111.924 0
+      }
+      {
+       coords 179.112 5.301 -48.425
+       angles 0 111.924 0
+      }
+      {
+       coords 182.309 5.441 -49.712
+       angles 0 111.924 0
+      }
+      {
+       coords 185.505 5.534 -50.998
+       angles 0 111.924 0
+      }
+      {
+       coords 188.702 5.617 -52.285
+       angles 0 115.371 0
+      }
+      {
+       coords 191.815 5.69 -53.761
+       angles 0 115.371 0
+      }
+      {
+       coords 194.928 5.7 -55.237
+       angles 0 115.371 0
+      }
+      {
+       coords 198.041 5.686 -56.713
+       angles 0 115.371 0
+      }
+      {
+       coords 201.154 5.621 -58.19
+       angles 0 115.371 0
+      }
+      {
+       coords 204.267 5.549 -59.666
+       angles 0 115.371 0
+      }
+      {
+       coords 207.38 5.431 -61.142
+       angles 0 115.371 0
+      }
+      {
+       coords 210.493 5.31 -62.618
+       angles 0 115.371 0
+      }
+      {
+       coords 213.607 5.145 -64.095
+       angles 0 115.371 0
+      }
+      {
+       coords 216.72 4.995 -65.571
+       angles 0 115.371 0
+      }
+      {
+       coords 219.833 4.822 -67.047
+       angles 0 115.371 0
+      }
+      {
+       coords 222.946 4.647 -68.524
+       angles 0 115.371 0
+      }
+      {
+       coords 226.059 4.451 -70
+       angles 0 115.371 0
+      }
+      {
+       coords 229.172 4.256 -71.476
+       angles 0 115.371 0
+      }
+      {
+       coords 232.285 4.059 -72.952
+       angles 0 115.371 0
+      }
+      {
+       coords 235.398 3.84 -74.429
+       angles 0 115.371 0
+      }
+      {
+       coords 238.511 3.666 -75.905
+       angles 0 115.371 0
+      }
+      {
+       coords 241.624 3.51 -77.381
+       angles 0 115.371 0
+      }
+      {
+       coords 244.738 3.369 -78.857
+       angles 0 115.371 0
+      }
+      {
+       coords 247.851 3.297 -80.334
+       angles 0 115.371 0
+      }
+      {
+       coords 250.964 3.283 -81.81
+       angles 0 115.371 0
+      }
+      {
+       coords 254.077 3.349 -83.286
+       angles 0 115.371 0
+      }
+      {
+       coords 257.19 3.404 -84.762
+       angles 0 115.371 0
+      }
+      {
+       coords 260.303 3.439 -86.239
+       angles 0 115.371 0
+      }
+      {
+       coords 263.416 3.398 -87.715
+       angles 0 115.371 0
+      }
+      {
+       coords 266.529 3.279 -89.191
+       angles 0 115.371 0
+      }
+      {
+       coords 269.642 3.137 -90.667
+       angles 0 143.044 0
+      }
+      {
+       coords 271.715 3.051 -93.422
+       angles 0 143.044 0
+      }
+      {
+       coords 273.787 2.996 -96.176
+       angles 0 143.044 0
+      }
+      {
+       coords 275.859 2.943 -98.93
+       angles 0 143.044 0
+      }
+      {
+       coords 277.931 2.914 -101.685
+       angles 0 143.044 0
+      }
+      {
+       coords 280.003 2.911 -104.439
+       angles 0 143.044 0
+      }
+      {
+       coords 282.076 2.911 -107.193
+       angles 0 143.044 0
+      }
+      {
+       coords 284.148 2.943 -109.947
+       angles 0 143.044 0
+      }
+      {
+       coords 286.22 2.986 -112.702
+       angles 0 143.044 0
+      }
+      {
+       coords 288.292 3.025 -115.456
+       angles 0 143.044 0
+      }
+      {
+       coords 290.364 3.047 -118.21
+       angles 0 143.044 0
+      }
+      {
+       coords 292.437 3.1 -120.965
+       angles 0 143.044 0
+      }
+      {
+       coords 294.509 3.153 -123.719
+       angles 0 143.044 0
+      }
+      {
+       coords 296.581 3.197 -126.473
+       angles 0 151.945 0
+      }
+      {
+       coords 298.202 3.286 -129.515
+       angles 0 151.945 0
+      }
+      {
+       coords 299.823 3.334 -132.556
+       angles 0 151.945 0
+      }
+      {
+       coords 301.444 3.387 -135.598
+       angles 0 151.945 0
+      }
+      {
+       coords 303.065 3.417 -138.64
+       angles 0 151.945 0
+      }
+      {
+       coords 304.686 3.454 -141.681
+       angles 0 151.945 0
+      }
+      {
+       coords 306.307 3.454 -144.723
+       angles 0 151.945 0
+      }
+      {
+       coords 307.928 3.478 -147.764
+       angles 0 151.945 0
+      }
+      {
+       coords 309.549 3.473 -150.806
+       angles 0 151.945 0
+      }
+     }
+    }
+   }
+  }
+ }
+}
 $grp GenericEntity : "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et" {
  {
   coords 3421.397 34.138 1114.353
@@ -759,7 +2128,7 @@ $grp StaticModelEntity : "{20AD24002E26B70E}Prefabs/Terrain/FlatTerrain/FlatTerr
   angles -13.638 18.909 -1.148
  }
  {
-  coords 3406.386 30.359 1146.504
+  coords 3406.453 30.35 1146.703
   angles -13.638 18.909 -1.148
  }
  {
