@@ -36,7 +36,7 @@ $grp SCR_AIGroup : "{2F2E162C9B835EFB}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
   }
   coords 3308.371 310 391.646
   angles 0 109.022 0
-  m_sCustomNameSet "Manza Cell"
+  m_sCustomNameSet "Tariq Cell"
  }
  {
   components {
@@ -57,6 +57,7 @@ $grp SCR_AIGroup : "{2F2E162C9B835EFB}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{68A976A7438079B8}" {
+    m_iPlatoonCallsign 2
     m_iSquadCallsign 6
    }
   }
@@ -95,6 +96,7 @@ $grp SCR_AIGroup : "{3D708B262E8A46A3}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{68A976A757BDBC26}" {
+    m_iPlatoonCallsign 2
     m_iSquadCallsign 7
    }
   }

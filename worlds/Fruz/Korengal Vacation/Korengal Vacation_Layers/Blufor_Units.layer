@@ -69,10 +69,10 @@ SCR_AIGroup : "{F6AD06DE653481AC}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/G
    DefaultFormation "line"
   }
   PS_GroupCallsignAssigner "{68AE1D89FAE13486}" {
-   m_iSquadCallsign 3
+   m_iSquadCallsign 4
   }
  }
- coords 2367.787 163.53 1869.878
+ coords 2367.747 163.53 1871.263
  angles 0 178.358 0
  m_aUnitPrefabSlots {
   "{DB2461A0774F857B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_SL_P.et"
@@ -80,10 +80,10 @@ SCR_AIGroup : "{F6AD06DE653481AC}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/G
   "{2F38D1B1B9152025}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_AMG_P.et"
   "{EBCC12AC8EF38488}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_MG_P.et"
   "{2F38D1B1B9152025}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_AMG_P.et"
+  "{DCB0A61B8FA448DF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_HAT_P.et"
+  "{078548B7EBF489A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_AAT_P.et"
+  "{A49BA2FB1F8BD75F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_GL_P.et"
   "{0968B9123279513A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_RTO_P.et"
-  ""
-  ""
-  ""
  }
- m_iGroupRadioFrequency 3
+ m_iGroupRadioFrequency 4
 }
