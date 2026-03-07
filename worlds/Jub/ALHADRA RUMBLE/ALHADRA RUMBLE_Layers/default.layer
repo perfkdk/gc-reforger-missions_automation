@@ -231,7 +231,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  RU_CAP_1 {
   coords 5038.842 40.046 4856.063
-  m_queryRadius 200
+  m_queryRadius 500
   m_captureTime 60
   m_sendStatusMessages 1
   m_statusMessages {
@@ -259,7 +259,7 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
  }
  RU_CAP_2 {
   coords 4907.997 10.728 3876.56
-  m_queryRadius 200
+  m_queryRadius 500
   m_captureTime 60
   m_sendStatusMessages 1
   m_statusMessages {

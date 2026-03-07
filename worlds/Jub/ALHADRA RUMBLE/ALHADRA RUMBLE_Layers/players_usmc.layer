@@ -1,6 +1,6 @@
 SCR_AIGroup : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RiflePHQ_D.et" {
- coords 5974.191 125.753 6171.662
- angles 0 -70.693 0
+ coords 5875.668 61.349 5789.517
+ angles 0.867 -104.504 -0.224
  m_aUnitPrefabSlots {
   "{4150D73759B80C84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_PL_D.et"
   "{5E78F2D6D222B617}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_PSG_D.et"
@@ -15,8 +15,8 @@ SCR_AIGroup : "{30749B2F12C0D2A7}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Deser
    m_iSquadCallsign 2
   }
  }
- coords 5942.55 124.881 6169.617
- angles 2.524 -1.023 -8.917
+ coords 5862.292 60.531 5775.733
+ angles -7.751 -35.624 4.437
  m_bPlayable 1
  m_bSetPlayable 1
 }
@@ -27,8 +27,8 @@ SCR_AIGroup : "{307ABCB88B990546}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Deser
    m_iSquadCallsign 3
   }
  }
- coords 5941.985 124.66 6165.601
- angles 3.379 -1.055 -10.663
+ coords 5864.99 61.321 5771.687
+ angles 0 -34.862 0
  m_aUnitPrefabSlots {
   "{5E78F2D6D222B617}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_PSG_D.et"
   "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Crew_D.et"
@@ -43,8 +43,8 @@ SCR_AIGroup : "{307ABCB88B990546}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Deser
  m_bSetPlayable 1
 }
 SCR_AIGroup : "{3542DA9833C9BA69}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RifleSquad_D.et" {
- coords 5980.297 125.849 6169.042
- angles 0 -68.63 0
+ coords 5882.199 61.216 5790.737
+ angles 0.874 -102.44 -0.193
 }
 GenericEntity : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/Props/Military/Camps/AmmoboxBLUE.et" {
  components {
@@ -77,7 +77,8 @@ GenericEntity : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/
    }
   }
  }
- coords 5949.146 125.214 6168.752
+ coords 5856.477 61.056 5773.164
+ angles -9.818 -35.358 9.021
 }
 SCR_AIGroup : "{9D78FEAE9DC4C01C}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Desert/Group_USMC_2025_LAR_HQ_D.et" {
  components {
@@ -85,8 +86,8 @@ SCR_AIGroup : "{9D78FEAE9DC4C01C}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Deser
    m_iCompanyCallsign 5
   }
  }
- coords 5941.228 124.162 6160.975
- angles 6.955 -1.556 -6.385
+ coords 5866.936 62.953 5767.421
+ angles -5.293 -32.917 -11.297
  m_bPlayable 1
  m_bSetPlayable 1
 }
@@ -97,16 +98,16 @@ SCR_AIGroup : "{C2F72C8E9B53AFA3}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Deser
    m_iSquadCallsign 1
   }
  }
- coords 5942.44 124.813 6167.628
- angles 3.454 -0.978 -7.171
+ coords 5864.241 60.665 5773.624
+ angles -4.172 -35.029 1.831
  m_bPlayable 1
  m_bSetPlayable 1
 }
 SCR_AIGroup : "{C62B0A55626A9D90}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RifleSquad_MAAW_D.et" {
- coords 5985.225 125.925 6166.905
- angles 0 -70.059 0
+ coords 5887.483 61.114 5791.704
+ angles 1.952 -103.851 0.44
 }
 GenericEntity : "{F09518802063A355}Prefabs/Items/Equipment/DroneAntenna/DroneAntenna.et" {
- coords 5943.022 125.302 6174.021
- angles 0.849 -0.199 -13.192
+ coords 5848.457 61.136 5774.135
+ angles -11.243 -34.498 2.348
 }
