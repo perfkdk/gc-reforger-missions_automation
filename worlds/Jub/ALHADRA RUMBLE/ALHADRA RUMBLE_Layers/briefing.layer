@@ -53,6 +53,23 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bShowForAnyFaction 1
   m_iOrder 6
  }
+ JavNotes {
+  coords 1512.883 67.596 6922.836
+  m_sTitle "Jav Notes"
+  m_sTextData "The Jav was added by WCS_Armaments."\
+  ""\
+  "It's use is exactly like the stinger."\
+  ""\
+  "Get line of sight of a target, hold left ctrl until you hear a tone, then fire."\
+  ""\
+  "It is F&F and doesn't have a reload."\
+  ""\
+  "It will fire without a target lock so don't ND."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 7
+ }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  US_Marker {
