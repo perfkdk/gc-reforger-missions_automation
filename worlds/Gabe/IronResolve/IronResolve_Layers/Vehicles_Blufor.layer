@@ -20,38 +20,40 @@ $grp Vehicle : "{5AF5B5080C157AC1}Prefabs/Vehicles/Wheeled/M998/M1025_GulfWar_RA
   m_sAttachmentGroupName "Weapons"
  }
 }
-$grp Tank : "{5C24713F38CDA98C}Prefabs/Vehicles/Tracked/BFV/M2A3_Desert.et" {
- M2A3 {
+$grp Vehicle : "{65A1EB5BC8449FD3}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/Stryker_CROWS_Tan.et" {
+ Stryker2 {
   components {
-   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+   SCR_UniversalInventoryStorageComponent "{5EAD79DA34C92091}" {
     MultiSlots {
-     MultiSlotConfiguration "{63252C15AB3A6F1A}" {
-      SlotTemplate InventoryStorageSlot M16ammo {
-       Prefab "{76092EF06FE739D7}Prefabs/Items/Equipment/Radios/US/Radio_MARPATD_GC_PRC119.et"
+     MultiSlotConfiguration "{5EAD79DA34C929EB}" {
+      SlotTemplate LoadoutSlotInfo MA {
+       Prefab "{78AD6277BCA654C4}Prefabs/Items/Equipment/Radios/US/Radio_M81_GC_PRC119.et"
       }
+      NumSlots 1
      }
     }
    }
   }
-  coords 4657.857 17.844 4685.229
-  angles 0 47.012 0
-  m_sAttachmentGroupName "BradleyCrew"
+  coords 4648.104 17.844 4683.33
+  angles 0 48.435 0
+  m_sAttachmentGroupName "StrykerCrew2"
  }
- M2A3_2 {
+ Stryker1 {
   components {
-   SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+   SCR_UniversalInventoryStorageComponent "{5EAD79DA34C92091}" {
     MultiSlots {
-     MultiSlotConfiguration "{63252C15AB3A6F1A}" {
-      SlotTemplate InventoryStorageSlot M16ammo {
-       Prefab "{76092EF06FE739D7}Prefabs/Items/Equipment/Radios/US/Radio_MARPATD_GC_PRC119.et"
+     MultiSlotConfiguration "{5EAD79DA34C929EB}" {
+      SlotTemplate LoadoutSlotInfo MA {
+       Prefab "{78AD6277BCA654C4}Prefabs/Items/Equipment/Radios/US/Radio_M81_GC_PRC119.et"
       }
+      NumSlots 1
      }
     }
    }
   }
-  coords 4643.287 17.844 4680.188
-  angles 0 47.012 0
-  m_sAttachmentGroupName "BradleyCrew2"
+  coords 4661.023 17.844 4688.036
+  angles 0 48.435 0
+  m_sAttachmentGroupName "StrykerCrew1"
  }
 }
 $grp Vehicle : "{6B0E98CE6921FCC2}Prefabs/Vehicles/Wheeled/M998/CRX_M1025_armed_M2HB_gunshield.et" {
