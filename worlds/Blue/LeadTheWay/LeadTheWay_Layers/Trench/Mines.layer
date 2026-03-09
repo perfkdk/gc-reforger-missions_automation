@@ -13,8 +13,7 @@ $grp GenericEntity : "{BA5F9852DD7255E4}PrefabsEditable/EffectsModules/Mine/Base
     }
    }
   }
-  coords 3187.385 16.3 1462.83
-  angles 0 -8.116 0
+  coords 3231.357 33.449 1464.882
  }
  WestMinefieldAT {
   components {
@@ -30,8 +29,7 @@ $grp GenericEntity : "{BA5F9852DD7255E4}PrefabsEditable/EffectsModules/Mine/Base
     }
    }
   }
-  coords 3187.417 16.3 1462.603
-  angles 0 -8.116 0
+  coords 3231.368 16.3 1464.653
  }
  WestMinefieldAP2 {
   components {
@@ -47,8 +45,8 @@ $grp GenericEntity : "{BA5F9852DD7255E4}PrefabsEditable/EffectsModules/Mine/Base
     }
    }
   }
-  coords 4182.174 20.974 1154.777
-  angles 0 87.844 0
+  coords 4182.174 20.974 1164.198
+  angles 0 90 0
  }
  WestMinefieldAT2 {
   components {
@@ -64,8 +62,8 @@ $grp GenericEntity : "{BA5F9852DD7255E4}PrefabsEditable/EffectsModules/Mine/Base
     }
    }
   }
-  coords 4182.174 20.974 1154.777
-  angles 0 87.844 0
+  coords 4182.174 20.974 1164.198
+  angles 0 90 0
  }
  WestMinefieldAP3 {
   components {
@@ -74,15 +72,15 @@ $grp GenericEntity : "{BA5F9852DD7255E4}PrefabsEditable/EffectsModules/Mine/Base
      m_sModuleEntityPrefab "{CA61FDD71E40C749}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4_EffectModuleEntity.et"
      m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
       m_fWidth 100
-      m_fLength 400
+      m_fLength 350
      }
      m_iMinProjectilesEachBarrage 250
      m_iMaxProjectilesEachBarrage 250
     }
    }
   }
-  coords 3744.067 25.616 1044.899
-  angles 0 75.927 0
+  coords 3732.396 25.616 1038.294
+  angles 0 90 0
  }
  WestMinefieldAT3 {
   components {
@@ -91,15 +89,15 @@ $grp GenericEntity : "{BA5F9852DD7255E4}PrefabsEditable/EffectsModules/Mine/Base
      m_sModuleEntityPrefab "{2993E2D661DED576}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_EffectModuleEntity.et"
      m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
       m_fWidth 100
-      m_fLength 400
+      m_fLength 350
      }
      m_iMinProjectilesEachBarrage 250
      m_iMaxProjectilesEachBarrage 250
     }
    }
   }
-  coords 3744.067 25.616 1044.899
-  angles 0 75.927 0
+  coords 3732.396 25.616 1038.294
+  angles 0 90 0
  }
  WestMinefieldAP6 {
   components {
@@ -112,8 +110,8 @@ $grp GenericEntity : "{BA5F9852DD7255E4}PrefabsEditable/EffectsModules/Mine/Base
       m_bSpawnInRow 1
       m_bShouldAlternateDirection 1
      }
-     m_iMinProjectilesEachBarrage 60
-     m_iMaxProjectilesEachBarrage 60
+     m_iMinProjectilesEachBarrage 200
+     m_iMaxProjectilesEachBarrage 200
     }
    }
   }
@@ -131,8 +129,8 @@ $grp GenericEntity : "{BA5F9852DD7255E4}PrefabsEditable/EffectsModules/Mine/Base
       m_bSpawnInRow 1
       m_bShouldAlternateDirection 1
      }
-     m_iMinProjectilesEachBarrage 60
-     m_iMaxProjectilesEachBarrage 60
+     m_iMinProjectilesEachBarrage 200
+     m_iMaxProjectilesEachBarrage 200
     }
    }
   }
@@ -150,8 +148,8 @@ $grp GenericEntity : "{BA5F9852DD7255E4}PrefabsEditable/EffectsModules/Mine/Base
       m_bSpawnInRow 1
       m_bShouldAlternateDirection 1
      }
-     m_iMinProjectilesEachBarrage 120
-     m_iMaxProjectilesEachBarrage 120
+     m_iMinProjectilesEachBarrage 400
+     m_iMaxProjectilesEachBarrage 400
     }
    }
   }

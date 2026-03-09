@@ -5,7 +5,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     DefaultFormation "line"
    }
   }
-  coords 3528.104 24.298 1121.083
+  coords 3520.994 30.034 1074.483
+  angles -3.987 6.426 6.188
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_NoRadio_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
@@ -22,7 +23,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     DefaultFormation "line"
    }
   }
-  coords 3528.186 24.475 1119.024
+  coords 3509.114 31.196 1068.627
+  angles 0.899 -6.292 1.715
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_NoRadio_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
@@ -39,7 +41,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
     DefaultFormation "line"
    }
   }
-  coords 3528.514 24.618 1117.606
+  coords 3483.779 31.901 1078.35
+  angles -2.486 34.282 0.47
   m_aUnitPrefabSlots {
    "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_NoRadio_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
@@ -57,7 +60,8 @@ SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rif
    DefaultFormation "line"
   }
  }
- coords 3527.556 24.349 1123.201
+ coords 3471.199 31.96 1094.152
+ angles -5.977 29.368 -0.292
  m_aUnitPrefabSlots +{
   "{2E1E73B19BFF4FD0}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_AGS_TL_P.et"
   "{8F3B0A10E3303E7F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_AGS_TRIPOD_P.et"
