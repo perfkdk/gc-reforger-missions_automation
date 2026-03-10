@@ -60,7 +60,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "4. SERVICE SUPPORT"
   m_sTextData "a. Logistics"\
   ""\
-  "Ammo: COY Excess Ammunition in M113s, Engineer's M113 contains Bangalores"\
+  "Ammo: Excess Ammunition available in All Squad M113s (Get some ammo you'll be shooting)"\
+  ""\
+  "Explosives: 15x Bangalore in Engineer's M113 , PLT Cmdrs' M113s"\
   ""\
   "Medical: On-site CLS."\
   ""\

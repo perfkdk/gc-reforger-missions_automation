@@ -22,6 +22,9 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iSquadCallsign 3
+   }
   }
   coords 3509.114 31.196 1068.627
   angles 0.899 -6.292 1.715
@@ -39,6 +42,9 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+    m_iSquadCallsign 4
    }
   }
   coords 3483.779 31.901 1078.35
@@ -58,6 +64,9 @@ SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorised Rif
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{65136701CA021D8F}" {
+   m_iSquadCallsign 1
   }
  }
  coords 3471.199 31.96 1094.152

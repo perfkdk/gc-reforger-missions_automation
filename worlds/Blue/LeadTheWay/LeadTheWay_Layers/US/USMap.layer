@@ -399,6 +399,7 @@ $grp PS_ManualMarker : "{BE928AD6BC4B14CB}PrefabsEditable/Markers/Group/Marker_A
   m_aVisibleForFactions {
    "US"
   }
+  m_bShowForAnyFaction 0
  }
  {
   coords 4346.832 17.166 1912.957

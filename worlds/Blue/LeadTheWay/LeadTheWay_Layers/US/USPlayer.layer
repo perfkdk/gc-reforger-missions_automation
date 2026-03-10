@@ -150,7 +150,7 @@ $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army/1986/M113 Me
   angles 0 -144.578 0
   m_aUnitPrefabSlots {
    "{AC72C614587CE8F1}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_SL_P.et"
-   "{09F77E998C3A5C9B}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_AR_P.et"
+   "{7EF4F612C10B4CF3}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_TL_P.et"
    "{8FB3C5D76F965618}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_LAT_P.et"
    "{8FB3C5D76F965618}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_LAT_P.et"
    "{7EF4F612C10B4CF3}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_US_1986_BDU_TL_P.et"
