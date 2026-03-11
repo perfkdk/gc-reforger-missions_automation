@@ -22,6 +22,9 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
  coords 2683.617 10.536 2431.538
+ m_iFreezeTime 240000
+ m_fPrepMultiplier 0.5
+ m_fGameMultiplier 200
  {
   SCR_FactionManager "68D2BB15B5538B05" {
    ID "5ED9088735FF2D8B"
@@ -76,6 +79,71 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   }
   ShapePoint "{68B8637FBE296139}" {
    Position -278.873 0 398.623
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 4293.651 14.454 1409.645
+ m_missionEvents {
+  TILW_MissionEvent "{68D6E21812D4BA8B}" {
+   m_name "USSR Victory"
+   m_instructions {
+    TILW_EndGameInstruction "{68D6E218CB635EB6}" {
+     m_executionDelay 120
+     m_factionKey "USSR"
+    }
+    TILW_SendMessageInstruction "{68D6E218C21AB318}" {
+     m_messageTitle "USSR Victory"
+     m_messageBody "Torske hill reamains in our hands! USSR has inflicted more than 90% cassualities on US."
+     m_factionKeys {
+      "USSR"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{68D6E2188280767B}" {
+    m_flagName "US90"
+   }
+  }
+  TILW_MissionEvent "{68D6E218B9DD7F60}" {
+   m_name "US Victory"
+   m_instructions {
+    TILW_EndGameInstruction "{68D6E218B9DD7FDE}" {
+     m_executionDelay 120
+     m_factionKey "USSR"
+    }
+    TILW_SendMessageInstruction "{68D6E218B9DD7FD8}" {
+     m_messageTitle "US Victory"
+     m_messageBody "Torske has been siezed! US has inflicted more than 95% cassualities on USSR."
+     m_factionKeys {
+      "US"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{68D6E218B9DD7FD6}" {
+    m_flagName "USSR95"
+   }
+  }
+  TILW_MissionEvent "{68D6E21C0809FA51}" {
+   m_name "Time Limit"
+   m_instructions {
+    TILW_SendMessageInstruction "{68D6E21C06635D3E}" {
+     m_executionDelay 4800
+     m_messageTitle "Time Limit Reached - USSR Victory"
+     m_messageBody "US was unable to conduct their breach in time."
+    }
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{68D6E2181708E1EA}" {
+   m_flagName "US90"
+   m_factionKey "US"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{68D6E218081F5799}" {
+   m_flagName "USSR95"
+   m_factionKey "USSR"
+   m_casualtyRatio 0.95
   }
  }
 }

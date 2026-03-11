@@ -4,7 +4,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -16,7 +16,7 @@ $grp PK_EntityDeleter {
   m_fRadius 3
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -138,7 +138,7 @@ $grp PK_EntityDeleter {
   m_fRadius 1
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -150,7 +150,7 @@ $grp PK_EntityDeleter {
   m_fRadius 1
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -162,7 +162,7 @@ $grp PK_EntityDeleter {
   m_fRadius 1
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -174,7 +174,7 @@ $grp PK_EntityDeleter {
   m_fRadius 1
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -186,7 +186,7 @@ $grp PK_EntityDeleter {
   m_fRadius 1
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -198,7 +198,7 @@ $grp PK_EntityDeleter {
   m_fRadius 1
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -210,7 +210,7 @@ $grp PK_EntityDeleter {
   m_fRadius 1
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -222,7 +222,7 @@ $grp PK_EntityDeleter {
   m_fRadius 1
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -234,7 +234,7 @@ $grp PK_EntityDeleter {
   m_fRadius 1
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -246,7 +246,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -258,7 +258,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -270,7 +270,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -282,7 +282,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -294,7 +294,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -306,7 +306,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -318,7 +318,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -330,7 +330,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -342,7 +342,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -354,7 +354,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -366,7 +366,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -378,7 +378,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -390,7 +390,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -402,7 +402,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -414,7 +414,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -426,7 +426,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -438,7 +438,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -450,7 +450,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -462,7 +462,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -474,7 +474,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -486,7 +486,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -498,7 +498,7 @@ $grp PK_EntityDeleter {
   m_fRadius 2
   m_prefabFilterList {
    "{9AF0242036F3D3D3}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_dirt_straight.et"
-   "{AC40EB94554992A1}worlds/Blue/LeadTheWay/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
+   "{AC40EB94554992A1}worlds/Blue/Bangalorious/Data/Trenches/ErodedEmbankment_01_dirt_straight_GREEN.et"
    "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
    "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
    "{AFC5471AE0EB8294}PrefabLibrary/DefaultLibrary/Terrain/Erosion/ErodedEmbankment_01_forest_straight.et"
@@ -580,6 +580,10 @@ $grp PK_EntityDeleter {
   coords 3294.075 14.992 1343.468
   angles 0.251 -16.263 0.859
   m_fRadius 42
+  m_prefabFilterList {
+   "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et"
+  }
+  m_excludePrefabsInList 1
  }
  {
   coords 3249.809 14.547 1260.326

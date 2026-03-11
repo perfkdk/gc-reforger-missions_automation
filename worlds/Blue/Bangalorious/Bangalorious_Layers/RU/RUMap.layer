@@ -35,7 +35,7 @@ $grp PolylineShapeEntity {
      WallLengthGroup "{68D11ABDD92619BE}" {
       m_aWallPrefabs {
        WallWeightPair "{68D11ABDDB5C928D}" {
-        m_sWallAsset "{D17381C1ADF30D2D}worlds/Blue/LeadTheWay/Data/RUSSIANSTRONPOINT.et"
+        m_sWallAsset "{D17381C1ADF30D2D}worlds/Blue/Bangalorious/Data/RUSSIANSTRONPOINT.et"
         m_fPrePadding 10
         m_fPostPadding 10
        }
@@ -44,7 +44,7 @@ $grp PolylineShapeEntity {
     }
     UseXAsForward 0
     {
-     $grp PS_ManualMarker : "{D17381C1ADF30D2D}worlds/Blue/LeadTheWay/Data/RUSSIANSTRONPOINT.et" {
+     $grp PS_ManualMarker : "{D17381C1ADF30D2D}worlds/Blue/Bangalorious/Data/RUSSIANSTRONPOINT.et" {
       {
        coords 11.999 -0.139 0
       }
@@ -101,7 +101,7 @@ $grp PolylineShapeEntity {
   coords 3287.142 34.036 1278.981
   Points {
    ShapePoint "{68D4EDD03153B1D8}" {
-    Position 67.47 -0 -184.07
+    Position 67.47 0 -184.07
    }
    ShapePoint "{68D4EDD0588F0E7C}" {
     Position 63.621 0 -154.531
@@ -113,25 +113,25 @@ $grp PolylineShapeEntity {
     Position -2.63 0 -136.839
    }
    ShapePoint "{68D4EDD052D7B062}" {
-    Position -2.399 -0 -207.099
+    Position -2.399 0 -207.099
    }
    ShapePoint "{68D4EDD0534339AF}" {
-    Position 3.513 -0 -247.453
+    Position 3.513 0 -247.453
    }
    ShapePoint "{68D4EDD05328D530}" {
-    Position 11.218 -0 -263.602
+    Position 11.218 0 -263.602
    }
    ShapePoint "{68D4EDD053BD1159}" {
-    Position 32.267 -0 -275.083
+    Position 32.267 0 -275.083
    }
    ShapePoint "{68D4EDD054C0EEF7}" {
-    Position 54.197 -0 -275.541
+    Position 54.197 0 -275.541
    }
    ShapePoint "{68D4EDD05579B2B4}" {
-    Position 65.648 -0 -272.586
+    Position 65.648 0 -272.586
    }
    ShapePoint "{68D4EDD05580E5A1}" {
-    Position 73.94 -0 -243.707
+    Position 73.94 0 -243.707
    }
    ShapePoint "{68D4EDD049971B27}" {
     Position 68.462 0 -193.122
@@ -147,7 +147,7 @@ $grp PolylineShapeEntity {
      WallLengthGroup "{68D0CC1DF021AEE7}" {
       m_aWallPrefabs {
        WallWeightPair "{68D0CC1DF192525F}" {
-        m_sWallAsset "{8ECE5096304F7542}worlds/Blue/LeadTheWay/Data/XBARBWIREUSSRONLY.et"
+        m_sWallAsset "{8ECE5096304F7542}worlds/Blue/Bangalorious/Data/XBARBWIREUSSRONLY.et"
         m_fPrePadding 4.65
         m_fPostPadding 10
        }
@@ -155,7 +155,7 @@ $grp PolylineShapeEntity {
      }
     }
     {
-     $grp PS_ManualMarker : "{8ECE5096304F7542}worlds/Blue/LeadTheWay/Data/XBARBWIREUSSRONLY.et" {
+     $grp PS_ManualMarker : "{8ECE5096304F7542}worlds/Blue/Bangalorious/Data/XBARBWIREUSSRONLY.et" {
       {
        coords 66.612 3.269 -177.481
        angles 0 -97.424 0
@@ -250,7 +250,7 @@ $grp PolylineShapeEntity {
   }
  }
 }
-PS_ManualMarker : "{8ECE5096304F7542}worlds/Blue/LeadTheWay/Data/XBARBWIREUSSRONLY.et" {
+PS_ManualMarker : "{8ECE5096304F7542}worlds/Blue/Bangalorious/Data/XBARBWIREUSSRONLY.et" {
  coords 3376.776 21.278 1254.902
 }
 $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
@@ -578,7 +578,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  {
-  coords 3310.734 14.996 1348.151
+  coords 3310.734 16.475 1346.774
   m_sImageSetGlow ""
   m_MarkerColor 0.561 0.071 0.071 1
   m_sQuadName "point-of-interest-2"
