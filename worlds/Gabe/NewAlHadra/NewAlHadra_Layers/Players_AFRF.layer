@@ -1,0 +1,291 @@
+$grp SCR_AIGroup : "{412B8AA14C1E04B5}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/Syrian Digital/AFRF_MotRifles_2020_Syr_PHQ.et" {
+ platoon1_hq {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C681B2F62A}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 3615.064 17.844 3927.432
+  angles 0 172.91 0
+  m_aUnitPrefabSlots {
+   "{15CDD8ADC00E4B45}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_PL.et"
+   "{31FD386951471E11}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_PSG.et"
+   "{7D211ED351040480}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Medic.et"
+  }
+  m_bSetPlayable 1
+ }
+ platoon2_hq {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C6863499FF}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 3637.897 20.06 3852.223
+  angles 0 -92.848 0
+  m_aUnitPrefabSlots {
+   "{15CDD8ADC00E4B45}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_PL.et"
+   "{31FD386951471E11}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_PSG.et"
+   "{7D211ED351040480}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Medic.et"
+  }
+  m_bSetPlayable 1
+ }
+ platoon3_hq {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C69C5EB04C}" {
+    m_iPlatoonCallsign 3
+   }
+  }
+  coords 3659.144 17.844 3884.022
+  angles 0 -94.289 0
+  m_aUnitPrefabSlots {
+   "{15CDD8ADC00E4B45}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_PL.et"
+   "{31FD386951471E11}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_PSG.et"
+   "{7D211ED351040480}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Medic.et"
+  }
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{6A324A61377E17A6}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/Syrian Digital/AFRF_MotRifles_2020_Syr_RifleSquad.et" {
+ platoon1first {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C6821922E9}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3606.824 17.844 3922.967
+  angles 0 79.909 0
+  m_aUnitPrefabSlots {
+   "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
+   "{E15B902BEF6DD8C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AR.et"
+   "{39F3F9EA96E4C69A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AT.et"
+   "{E281010D0D2CA0A2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AAT.et"
+   "{F1CB8DCCB87A464C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SR.et"
+   "{17F1A2011A61F955}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+ platoon1second {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C6837074F5}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3623.39 17.844 3920.541
+  angles 0 -99.102 0
+  m_aUnitPrefabSlots {
+   "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
+   "{E15B902BEF6DD8C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AR.et"
+   "{39F3F9EA96E4C69A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AT.et"
+   "{E281010D0D2CA0A2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AAT.et"
+   "{F1CB8DCCB87A464C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SR.et"
+   "{17F1A2011A61F955}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+ platoon1third {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C685C72A8D}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3612.389 17.844 3915.302
+  angles 0 -3.849 0
+  m_aUnitPrefabSlots {
+   "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
+   "{E15B902BEF6DD8C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AR.et"
+   "{39F3F9EA96E4C69A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AT.et"
+   "{E281010D0D2CA0A2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AAT.et"
+   "{F1CB8DCCB87A464C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SR.et"
+   "{17F1A2011A61F955}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+ platoon2third {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C69BF4BFBA}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3624.845 18.827 3853.698
+  angles 0 87.997 0
+  m_aUnitPrefabSlots {
+   "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
+   "{E15B902BEF6DD8C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AR.et"
+   "{39F3F9EA96E4C69A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AT.et"
+   "{E281010D0D2CA0A2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AAT.et"
+   "{F1CB8DCCB87A464C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SR.et"
+   "{17F1A2011A61F955}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+ platoon2first {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C68770A99A}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3633.504 19.392 3858.424
+  angles 0 177.312 0
+  m_aUnitPrefabSlots {
+   "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
+   "{E15B902BEF6DD8C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AR.et"
+   "{39F3F9EA96E4C69A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AT.et"
+   "{E281010D0D2CA0A2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AAT.et"
+   "{F1CB8DCCB87A464C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SR.et"
+   "{17F1A2011A61F955}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+ platoon2second {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C69A8A018F}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3629.653 17.844 3846.251
+  angles 0 -3.49 0
+  m_aUnitPrefabSlots {
+   "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
+   "{E15B902BEF6DD8C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AR.et"
+   "{39F3F9EA96E4C69A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AT.et"
+   "{E281010D0D2CA0A2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AAT.et"
+   "{F1CB8DCCB87A464C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SR.et"
+   "{17F1A2011A61F955}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+ platoon3third {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C6AB9CFC27}" {
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3644.419 17.844 3887.001
+  angles 0 88.003 0
+  m_aUnitPrefabSlots {
+   "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
+   "{E15B902BEF6DD8C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AR.et"
+   "{39F3F9EA96E4C69A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AT.et"
+   "{E281010D0D2CA0A2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AAT.et"
+   "{F1CB8DCCB87A464C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SR.et"
+   "{17F1A2011A61F955}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+ platoon3first {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C69E9423D5}" {
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3653.135 17.844 3889.094
+  angles 0 178.979 0
+  m_aUnitPrefabSlots {
+   "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
+   "{E15B902BEF6DD8C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AR.et"
+   "{39F3F9EA96E4C69A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AT.et"
+   "{E281010D0D2CA0A2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AAT.et"
+   "{F1CB8DCCB87A464C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SR.et"
+   "{17F1A2011A61F955}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+ platoon3second {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C694D3909E}" {
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3649.03 17.844 3879.816
+  angles 0 -2.501 0
+  m_aUnitPrefabSlots {
+   "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
+   "{E15B902BEF6DD8C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AR.et"
+   "{39F3F9EA96E4C69A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AT.et"
+   "{E281010D0D2CA0A2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_AAT.et"
+   "{F1CB8DCCB87A464C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SR.et"
+   "{17F1A2011A61F955}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{6A61A44715336E1E}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/Syrian Digital/AFRF_MotRifles_2020_Syr_CHQ.et" {
+ CompanyHQ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C68F11C0B9}" {
+   }
+  }
+  coords 3599.995 18.527 3880.769
+  angles 0 81.186 0
+  m_bSetPlayable 1
+ }
+ t14crew {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "file"
+   }
+   PS_GroupCallsignAssigner "{68D671C691E08977}" {
+   }
+  }
+  coords 3594.561 18.252 3891.397
+  angles 0 31.496 0
+  m_aUnitPrefabSlots {
+   "{31FC723CD8195339}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_CrewCommander.et"
+   "{A3B552E46F09E685}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_CrewGunner.et"
+   "{449EF50447FEEF28}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_CrewDriver.et"
+  }
+  m_bSetPlayable 1
+ }
+}
+RHS_Tank Tank_T14_base1 : "{B744E85A9CE90F7D}Prefabs/Vehicles/Tracked/T14/Tank_T14_base.et" {
+ coords 3598.09 18.229 3896.735
+ angles 0 -59.519 0
+}
