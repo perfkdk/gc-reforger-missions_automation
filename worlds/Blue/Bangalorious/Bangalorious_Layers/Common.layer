@@ -5,7 +5,7 @@ PS_MissionDescription MISSIONNOTES : "{3136BE42592F3B1B}PrefabsEditable/MissionD
  "US conducts a COY breach of a soviet mine and wire obstacle to sieze a trenchline on Torske Hill. "\
  ""\
  "<b>Trench building:</b>"\
- "Trench building time halfed for first 5 minutes, then there is a penalty of 200x on building. DO NOT BLOCK or UTILIZE the trenches to do GAMEY barriers."\
+ "Trench building time is reduced for the first 5 minutes. Only the AGS Team are permitted to add trenches for the purpose of concealing the AGS and utilizing it. "\
  ""\
  "<b>Map Customizing: </b>"\
  "This mission modifies some of the vegetation and treelines from the original basemap."\
@@ -26,7 +26,7 @@ PS_MissionDescription MISSIONNOTES : "{3136BE42592F3B1B}PrefabsEditable/MissionD
  "<b>Timelimit:</b>"\
  "80 min"\
  ""\
- "GMs are permitted to create a breach in the obstacle for gameplay purposes if BLUFOR are unable but this will result in automatic defeat for the US."\
+ "GMs are permitted to create a breach in the obstacle for gameplay purposes, if BLUFOR are unable but this will result in automatic defeat for the US."\
  ""\
  "Mission by Blue , Trench by Lancer"\
  "Last updated: 2026-03-11"
@@ -111,7 +111,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
     Position 228.061 0 -61.616
    }
    ShapePoint "{68D6E21CCCE21760}" {
-    Position 205.855 -0 -96.12
+    Position 205.855 0 -96.12
    }
    ShapePoint "{68D6E21CCFFB84E3}" {
     Position 129.128 0 -110.157
