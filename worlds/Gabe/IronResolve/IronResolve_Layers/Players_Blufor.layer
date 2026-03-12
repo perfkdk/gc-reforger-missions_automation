@@ -12,7 +12,7 @@ $grp SCR_AIGroup : "{9FF025AC10641CFE}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
   angles 0 -39.537 0
   m_sCustomNameSet "Weapons"
  }
- BradleyCrew {
+ StrykerCrew1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
@@ -23,16 +23,15 @@ $grp SCR_AIGroup : "{9FF025AC10641CFE}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
     m_iSquadCallsign 5
    }
   }
-  coords 4668.418 17.844 4674.646
-  angles 0 -41.309 0
+  coords 4670.317 17.844 4675.853
+  angles 0 -40.617 0
   m_aUnitPrefabSlots {
    "{24A4AD4C57301A31}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewCommander_DCU_1998_P.et"
-   "{B9A2BB17A2EDA031}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewGunner_DCU_1998_P.et"
    "{152488484C3EF010}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewDriver_DCU_1998_P.et"
   }
-  m_sCustomNameSet "M2A3 Bradley"
+  m_sCustomNameSet "Stryker Crew"
  }
- BradleyCrew2 {
+ StrykerCrew2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
@@ -43,14 +42,13 @@ $grp SCR_AIGroup : "{9FF025AC10641CFE}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
     m_iSquadCallsign 6
    }
   }
-  coords 4657.177 17.844 4664.655
-  angles 0 -41.309 0
+  coords 4661.821 17.844 4667.447
+  angles 0 -41.748 0
   m_aUnitPrefabSlots {
    "{24A4AD4C57301A31}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewCommander_DCU_1998_P.et"
-   "{B9A2BB17A2EDA031}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewGunner_DCU_1998_P.et"
    "{152488484C3EF010}Prefabs/Characters/Factions/BLUFOR/US_Army/1998/Infantry (Desert)/P/Character_US_CrewDriver_DCU_1998_P.et"
   }
-  m_sCustomNameSet "M2A3 Bradley"
+  m_sCustomNameSet "Stryker Crew"
  }
 }
 $grp SCR_AIGroup : "{C0D5DEC11F09B60D}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (Desert)/P/Group_US_Army_2003_D_RifleSqua_P.et" {
