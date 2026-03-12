@@ -1,0 +1,53 @@
+PolylineShapeEntity covermap : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+ components {
+  TILW_MapShapeComponent "{6508F5526836BC09}" {
+   m_color 0 0 0 1
+   m_invert 1
+  }
+ }
+ coords 2500 0 3500
+ Points {
+  ShapePoint "{68AA05D108C9B9F8}" {
+   Position -100 0 0
+  }
+  ShapePoint "{68AA05D113702FC6}" {
+   Position -100 0 -2700
+  }
+  ShapePoint "{68AA05D11D0304E5}" {
+   Position 2000 0 -2700
+  }
+  ShapePoint "{68AA05D16A266F5C}" {
+   Position 2000 0 0
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ marker_ru_vic {
+  coords 4419.91 20.842 2369.383
+  angles 0 -93.341 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "bmp"
+  m_sDescription "bey em peh"
+ }
+ marker_ru_fp1 {
+  coords 3044.228 21.064 2363.879
+  angles 0 -90 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.251 0.502 0 0.75
+  m_sQuadName "fp"
+  m_fWorldSize 150
+  m_sDescription "bey em peh"
+ }
+ marker_ru_fp2 {
+  coords 3395.022 22.164 2514.562
+  angles 0 -112.661 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.251 0.502 0 0.75
+  m_sQuadName "fp"
+  m_fWorldSize 150
+  m_sDescription "bey em peh"
+ }
+}

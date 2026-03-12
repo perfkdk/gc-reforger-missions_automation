@@ -1,0 +1,67 @@
+GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+ coords 2525.548 17.133 2836.024
+ angles 0 175.786 0
+}
+StaticModelEntity : "{1D0170B58B108CC9}Prefabs/Structures/Military/Camps/TentUS_01/Parts/TentUS_01_Floor01.et" {
+ coords 4267.419 19.689 924.124
+ angles -3.317 29.473 2.232
+}
+StaticModelEntity : "{75A7C06222E6218B}Prefabs/Structures/Military/Camps/TentSmallUSSR_01/TentSmallUSSR_01.et" {
+ coords 4265.432 19.992 919.953
+ angles 0 104.774 0
+}
+$grp GenericEntity : "{77CA4803A4A2B8E3}Prefabs/Drones/FPVBase/FPVRPG.et" {
+ {
+  coords 2523.964 18.24 2833.488
+  angles 11.368 91.978 0
+ }
+ {
+  coords 2524.179 18.238 2834.164
+  angles 11.368 91.978 0
+ }
+ {
+  coords 2524.154 17.233 2833.858
+  angles 11.368 91.978 0
+ }
+}
+$grp GenericEntity : "{EF1E4AA6DCD2D982}Prefabs/Drones/DJIBase/DJIBattery.et" {
+ {
+  coords 2527.225 17.946 2836.393
+ }
+ {
+  coords 2527.233 17.946 2836.202
+ }
+ {
+  coords 2527.253 17.947 2836.025
+ }
+ {
+  coords 2527.249 17.947 2835.824
+ }
+ {
+  coords 4269.271 19.657 922.32
+  angles 4.607 -79 3.537
+ }
+ {
+  coords 4269.136 19.671 922.183
+ }
+ {
+  coords 4269.3 19.671 922.033
+  angles 0 -79 4.947
+ }
+}
+$grp GenericEntity : "{FDA92D590B9C633B}Prefabs/Drones/DJIBase/DJIBase.et" {
+ {
+  coords 2525.16 18.032 2835.978
+ }
+ {
+  coords 2525.964 18.032 2836.046
+ }
+ {
+  coords 4268.343 19.693 923.33
+  angles -1.783 -0.112 3.578
+ }
+ {
+  coords 4266.379 19.775 924.652
+  angles -1.787 -0.043 3.576
+ }
+}

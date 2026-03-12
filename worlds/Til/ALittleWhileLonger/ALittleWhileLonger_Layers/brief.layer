@@ -1,0 +1,80 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ C1_Situation {
+  m_aVisibleForFactions {
+   "GC_CDF"
+  }
+ }
+ C2_Mission {
+  coords 0 0 0
+  m_aVisibleForFactions {
+   "GC_CDF"
+  }
+ }
+ C3_Support {
+  coords 0 0 0
+  m_sTextData "<h1>Service/Support</h1>"\
+  "No resupply"\
+  "Drones: 3x FPV, 2x ISR, spare batteries"\
+  ""\
+  "<h1>Command/Signal</h1>"\
+  "0"\
+  "1"\
+  "2"\
+  "drone team"
+  m_aVisibleForFactions {
+   "GC_CDF"
+  }
+ }
+ A0_Overview {
+  coords 0 0 0
+  m_sTitle "Overview"
+  m_sTextData "CDF attempt to delay Russians"
+  m_bEmptyFactionVisibility 1
+ }
+ A7_Drones {
+  coords 0 0 0
+  m_sTitle "Drone Usage"
+  m_sTextData "<b>Takeoff procedure:</b>"\
+  "1. Place the drone in a spot suitable for takeoff"\
+  "2. Take the drone controller from your backpack into your hands"\
+  "3. Look at the drone and connect it to your controller"\
+  "4. Once ready, equip the FPV goggles found in your backpack"\
+  "5. When in first person view, press R to enable the rotors"\
+  "6. If you want to leave first person view, press TAB to open your inventory and remove the FPV goggles"\
+  ""\
+  "<b>Controls:</b>"\
+  "- Flight controls are mostly similar to helicopters"\
+  "- Camera can be raised/lowered using up/down arrow keys"\
+  "- Camera zoom can be adjusted using numpad +/-"\
+  "- FPV drone warheads must be armed by pressing Y"\
+  "- If you have multiple drones connected to your controller, you can switch between them using right/left arrow keys"\
+  "- More info can be found in your controls menu"\
+  ""\
+  "<b>Other:</b>"\
+  "- As you fly further away, your connection quality deteriorates"\
+  "- Watch your battery, it can be replaced upon returning"
+  m_bShowForAnyFaction 1
+ }
+ A6_Notes {
+  coords 0 0 0
+  m_sTitle "Notes"
+  m_sTextData "Russians have 5 respawns"
+  m_bShowForAnyFaction 1
+ }
+ R3_Support {
+  coords 0 0 0
+  m_sTitle "Support"
+  m_sTextData "<h1>Service/Support</h1>"\
+  "5-15 minutes after start, some motorcycles will spawn at SQ1 and SQ2 position, intended for respawning players"\
+  "No resupply"\
+  "No fire support"\
+  "Drone"\
+  ""\
+  "<h1>Command/Signal</h2>"\
+  "42.0MHz"\
+  "callsigns"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+}

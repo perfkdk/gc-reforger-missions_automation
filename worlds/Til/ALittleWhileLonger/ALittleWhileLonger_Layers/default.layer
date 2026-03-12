@@ -1,0 +1,115 @@
+SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
+ coords 3144.743 20.788 2622.64
+}
+PS_GameModeCoop gamemode_rl : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 3219.309 23.93 1805.496
+  m_fZoneRadius 70
+  m_fZoneTeleportedRadius 80
+ }
+ {
+  coords 4214.088 15.314 1909.042
+  m_fZoneRadius 70
+  m_fZoneTeleportedRadius 80
+ }
+ {
+  coords 4412.175 20.784 2370.542
+  angles 0 0 -0.895
+  m_fWarnRadius 20
+  m_fZoneRadius 70
+  m_fZoneTeleportedRadius 80
+ }
+}
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ ao_ru {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "RHS_AFRF"
+    }
+   }
+  }
+  coords 3000 21.188 1500
+  Points {
+   ShapePoint "{68A774B9C7795A81}" {
+    Position -50 -3.732 700
+   }
+   ShapePoint "{68A774B8B2AA0B33}" {
+    Position -200 -9.149 1200
+   }
+   ShapePoint "{68A774B9C54567EE}" {
+    Position -125 -0.418 1275
+   }
+   ShapePoint "{68A774B9CC0CF777}" {
+    Position 726.085 3.373 1401.213
+   }
+   ShapePoint "{68A774B9D063FD15}" {
+    Position 759.759 0.004 1126.284
+   }
+   ShapePoint "{68A774B828448E71}" {
+    Position 1196.435 -0.333 979.848
+   }
+   ShapePoint "{68A774B82F1D20F2}" {
+    Position 1500 0 1000
+   }
+   ShapePoint "{68A774B82D0035FF}" {
+    Position 1500 0 350
+   }
+   ShapePoint "{68A774B8308575A1}" {
+    Position 1200 -4.05 200
+   }
+   ShapePoint "{68A774B866C61A8F}" {
+    Position 700 -2.639 150
+   }
+   ShapePoint "{68A774BDE51D7521}" {
+    Position 250 -3.938 125
+   }
+   ShapePoint "{68AA05D7BAC2EC7C}" {
+    Position 200 -3.907 250
+   }
+   ShapePoint "{68A774B8361D6FA2}" {
+    Position -100 -3.277 300
+   }
+  }
+ }
+ ao_cdf {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "GC_CDF"
+    }
+   }
+  }
+  coords 2964.208 20.831 2318.254
+  Points {
+   ShapePoint "{68A774BE0C542A48}" {
+    Position -11.145 -2.842 -82.03
+   }
+   ShapePoint "{68A807812B0BC0BF}" {
+    Position 292.64 0.182 39.456
+   }
+   ShapePoint "{68A774BE0C809126}" {
+    Position 822.546 -1.752 79.537
+   }
+   ShapePoint "{68A774BE17BAC681}" {
+    Position 710.564 3.919 1012.219
+   }
+   ShapePoint "{68A774BE726B3302}" {
+    Position -219.333 2.2 799.788
+   }
+   ShapePoint "{68A774BE6AF01196}" {
+    Position -455.624 -1.041 654.251
+   }
+   ShapePoint "{68A774BE7ECE40B9}" {
+    Position -156.219 -6.302 344.262
+   }
+  }
+  LineColor 0 0.1255 0.502 1
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 3728.403 18.407 2090.626
+ m_fZoneRadius 30
+}
