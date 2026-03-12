@@ -3,7 +3,8 @@ SCR_AIGroup ru_mr_hq : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{66033D8C591570A5}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iCompanyCallsign 2
    m_iSquadCallsign 1
   }
@@ -18,7 +19,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{66033D8CA581BED8}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iSquadCallsign 2
    }
@@ -32,7 +34,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{66033D8CB25DD38E}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iSquadCallsign 3
    }
@@ -46,7 +49,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{66033D8CB25DD38E}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iSquadCallsign 4
    }
@@ -61,7 +65,8 @@ SCR_AIGroup ru_sso_hq : "{8CDE310457476BBE}Prefabs/Groups/OPFOR/Russia/2020/SSO/
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
-  PS_GroupCallsignAssigner "{66033D8C77D01B38}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iSquadCallsign 1
   }
  }
@@ -75,7 +80,8 @@ $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFR
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{66033D8C79D64A99}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 2
    }
   }
@@ -88,7 +94,8 @@ $grp SCR_AIGroup : "{D185FCF2889E2299}Prefabs/Groups/OPFOR/Russia/2020/SSO/P/AFR
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{66033D8C42857831}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 3
    }
   }

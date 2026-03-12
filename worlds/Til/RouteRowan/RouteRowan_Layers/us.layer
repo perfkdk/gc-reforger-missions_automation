@@ -131,7 +131,8 @@ SCR_AIGroup GR_US_Pilots : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Bas
   AIFormationComponent "{507E9DC12F541FE6}" {
    Enabled 0
   }
-  PS_GroupCallsignAssigner "{66DB544C2FA425F9}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iSquadCallsign 5
   }
  }

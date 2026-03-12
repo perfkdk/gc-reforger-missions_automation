@@ -29,7 +29,8 @@ $grp Vehicle : "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et" 
 }
 SCR_AIGroup us_inf_mtr : "{2E20F404E398F622}Prefabs/Groups/BLUFOR/US/Marines_1990_Rifles/Group_US_Marines_1990_MortarCrew_P.et" {
  components {
-  PS_GroupCallsignAssigner "{651367042C5F047E}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iSquadCallsign 2
   }
  }
@@ -39,7 +40,8 @@ SCR_AIGroup us_inf_mtr : "{2E20F404E398F622}Prefabs/Groups/BLUFOR/US/Marines_199
 }
 SCR_AIGroup us_lar_a1 : "{37744AC8AFE74FAC}Prefabs/Groups/BLUFOR/US/Marines_1995_LAR/Group_US_MC_LAR_1990_A1_P.et" {
  components {
-  PS_GroupCallsignAssigner "{650ACCA00E4EC327}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iSquadCallsign 3
   }
  }
@@ -51,7 +53,8 @@ SCR_AIGroup us_inf_sq : "{547A69AC528EE2CB}Prefabs/Groups/BLUFOR/US/Marines_1990
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
   }
-  PS_GroupCallsignAssigner "{650ACCA066DD9B15}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iSquadCallsign 1
   }
  }
@@ -61,7 +64,8 @@ SCR_AIGroup us_inf_sq : "{547A69AC528EE2CB}Prefabs/Groups/BLUFOR/US/Marines_1990
 }
 SCR_AIGroup us_lar_a2 : "{69C23009E7B7075B}Prefabs/Groups/BLUFOR/US/Marines_1995_LAR/Group_US_MC_LAR_1990_A2_P.et" {
  components {
-  PS_GroupCallsignAssigner "{650ACCA00E4EC327}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iSquadCallsign 4
   }
  }
