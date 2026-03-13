@@ -184,6 +184,9 @@ SCR_AIGroup CDF_PHQ : "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
   }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+  }
  }
  coords 1781.143 9.618 3659.531
  angles 0 102 0
@@ -192,6 +195,9 @@ SCR_AIGroup CDF_Squad_1 : "{8C7AC28E449564C9}Prefabs/Groups/BLUFOR/CDF/Mech_Mode
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
   }
  }
  coords 1781.767 9.664 3662.463
@@ -254,6 +260,9 @@ SCR_AIGroup CDF_Squad_2 : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Mode
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
   }
  }
  coords 1782.391 9.681 3665.4

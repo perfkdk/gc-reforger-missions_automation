@@ -1,5 +1,8 @@
 SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad_P.et" {
  components {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+  }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     m_sFaction "CIV"

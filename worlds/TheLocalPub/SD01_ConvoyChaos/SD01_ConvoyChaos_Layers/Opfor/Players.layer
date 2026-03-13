@@ -133,6 +133,9 @@ $grp SCR_AIGroup : "{90A51527AEC36680}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "File"
    }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+   }
   }
   coords 445.324 329.269 5625.582
   angles 0 172.627 0
