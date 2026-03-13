@@ -1,16 +1,47 @@
+$grp Vehicle : "{1C41EF46A9A977D0}Prefabs/Vehicles/Wheeled/TIGR/AGS/GAZ_TIGR_v2_AGS17.et" {
+ GAZ_TIGR_v2_AGS1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62B43BCFC2E913DB}" {
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 4194.532 17.844 3001.865
+  angles 0 -31.49 0
+  m_sAttachmentGroupName "CompanyHQ"
+ }
+ GAZ_TIGR_v2_AGS2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62B43BCFC2E913DB}" {
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 4202.94 17.844 2988.45
+  angles 0 -31.49 0
+  m_sAttachmentGroupName "CompanyHQ"
+ }
+}
 $grp SCR_AIGroup : "{412B8AA14C1E04B5}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/Syrian Digital/AFRF_MotRifles_2020_Syr_PHQ.et" {
  platoon1_hq {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
-   PS_GroupCallsignAssigner "{68D671C681B2F62A}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 1
    }
   }
-  coords 4247.972 17.844 2984.502
+  coords 4244.873 17.844 2986.267
   angles 0 -156.85 0
   m_aUnitPrefabSlots {
    "{15CDD8ADC00E4B45}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_PL.et"
@@ -25,13 +56,14 @@ $grp SCR_AIGroup : "{412B8AA14C1E04B5}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
-   PS_GroupCallsignAssigner "{68D671C6863499FF}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 5
    }
   }
-  coords 4220.049 20.06 2951.589
+  coords 4225.772 20.06 2952.707
   angles 0 -62.608 0
   m_aUnitPrefabSlots {
    "{15CDD8ADC00E4B45}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_PL.et"
@@ -46,7 +78,8 @@ $grp SCR_AIGroup : "{412B8AA14C1E04B5}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
-   PS_GroupCallsignAssigner "{68D671C69C5EB04C}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 9
@@ -63,31 +96,20 @@ $grp SCR_AIGroup : "{412B8AA14C1E04B5}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   m_bSetPlayable 1
  }
 }
-$grp Tank : "{68A65EFA9B616798}Prefabs/Vehicles/Tracked/BMP1/BMP1_Desert.et" {
- BMP1 {
-  coords 4206.418 17.844 3006.837
-  angles 0 -28.278 0
-  m_sAttachmentGroupName "BMPCrew1"
- }
- BMP2 {
-  coords 4212.771 17.844 2995.161
-  angles 0 -28.855 0
-  m_sAttachmentGroupName "BMPCrew2"
- }
-}
 $grp SCR_AIGroup : "{6A324A61377E17A6}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/Syrian Digital/AFRF_MotRifles_2020_Syr_RifleSquad.et" {
  platoon1first {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
-   PS_GroupCallsignAssigner "{68D671C6821922E9}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 2
    }
   }
-  coords 4238.86 17.844 2984.879
+  coords 4235.76 17.844 2986.644
   angles 0 110.149 0
   m_aUnitPrefabSlots {
    "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
@@ -105,13 +127,14 @@ $grp SCR_AIGroup : "{6A324A61377E17A6}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
-   PS_GroupCallsignAssigner "{68D671C6837074F5}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 3
    }
   }
-  coords 4250.07 17.844 2974.369
+  coords 4246.97 17.844 2976.134
   angles 0 -68.862 0
   m_aUnitPrefabSlots {
    "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
@@ -129,13 +152,14 @@ $grp SCR_AIGroup : "{6A324A61377E17A6}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
-   PS_GroupCallsignAssigner "{68D671C685C72A8D}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 4
    }
   }
-  coords 4239.808 17.844 2975.451
+  coords 4236.708 17.844 2977.216
   angles 0 26.391 0
   m_aUnitPrefabSlots {
    "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
@@ -153,13 +177,14 @@ $grp SCR_AIGroup : "{6A324A61377E17A6}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
-   PS_GroupCallsignAssigner "{68D671C69BF4BFBA}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 8
    }
   }
-  coords 4209.515 18.827 2959.434
+  coords 4215.24 18.827 2960.552
   angles 0 118.237 0
   m_aUnitPrefabSlots {
    "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
@@ -177,13 +202,14 @@ $grp SCR_AIGroup : "{6A324A61377E17A6}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
-   PS_GroupCallsignAssigner "{68D671C68770A99A}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 6
    }
   }
-  coords 4219.375 19.392 2959.158
+  coords 4225.1 19.392 2960.276
   angles 0 -152.448 0
   m_aUnitPrefabSlots {
    "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
@@ -201,13 +227,14 @@ $grp SCR_AIGroup : "{6A324A61377E17A6}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
-   PS_GroupCallsignAssigner "{68D671C69A8A018F}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 7
    }
   }
-  coords 4209.92 17.844 2950.579
+  coords 4215.644 17.844 2951.697
   angles 0 26.75 0
   m_aUnitPrefabSlots {
    "{8CD36134DDE97AD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_SL.et"
@@ -225,7 +252,8 @@ $grp SCR_AIGroup : "{6A324A61377E17A6}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
-   PS_GroupCallsignAssigner "{68D671C69E9423D5}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 10
@@ -249,7 +277,8 @@ $grp SCR_AIGroup : "{6A324A61377E17A6}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "file"
    }
-   PS_GroupCallsignAssigner "{68D671C694D3909E}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 11
@@ -269,60 +298,49 @@ $grp SCR_AIGroup : "{6A324A61377E17A6}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   m_bSetPlayable 1
  }
 }
-$grp SCR_AIGroup : "{6A61A44715336E1E}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/Syrian Digital/AFRF_MotRifles_2020_Syr_CHQ.et" {
- CompanyHQ {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
-   }
-   PS_GroupCallsignAssigner "{68D671C68F11C0B9}" {
-    m_iCompanyCallsign 2
-    m_iPlatoonCallsign 3
-   }
+SCR_AIGroup CompanyHQ : "{6A61A44715336E1E}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/Syrian Digital/AFRF_MotRifles_2020_Syr_CHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "file"
   }
-  coords 4186.613 17.844 2995.716
-  angles 0 157.22 0
-  m_sCustomNameSet "Company HQ"
-  m_bSetPlayable 1
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 2
+   m_iPlatoonCallsign 3
+  }
  }
- BMPCrew1 {
+ coords 4186.613 17.844 2995.716
+ angles 0 157.22 0
+ m_sCustomNameSet "Company HQ"
+ m_bSetPlayable 1
+}
+$grp Vehicle : "{AC12E5669B411D57}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD.et" {
+ GAZ_TIGR_v2_KORD1 {
   components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
-   }
-   PS_GroupCallsignAssigner "{68D671C691E08977}" {
-    m_iCompanyCallsign 3
-    m_iSquadCallsign 13
+   SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62B233ED7C2615D3}" {
+      NumSlots 5
+     }
+    }
    }
   }
-  coords 4200.113 17.844 3004.686
-  angles 0 61.736 0
-  m_aUnitPrefabSlots {
-   "{31FC723CD8195339}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_CrewCommander.et"
-   "{A3B552E46F09E685}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_CrewGunner.et"
-   "{449EF50447FEEF28}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_CrewDriver.et"
-  }
-  m_sCustomNameSet "BMP Crew"
-  m_bSetPlayable 1
+  coords 4198.632 17.844 2995.22
+  angles 0 -32.192 0
+  m_sAttachmentGroupName "CompanyHQ"
  }
- BMPCrew2 {
+ GAZ_TIGR_v2_KORD2 {
   components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
-   }
-   PS_GroupCallsignAssigner "{68D671C691E08977}" {
-    m_iCompanyCallsign 3
-    m_iSquadCallsign 14
+   SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62B233ED7C2615D3}" {
+      NumSlots 5
+     }
+    }
    }
   }
-  coords 4206.719 17.844 2992.586
-  angles 0 58.529 0
-  m_aUnitPrefabSlots {
-   "{31FC723CD8195339}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_CrewCommander.et"
-   "{A3B552E46F09E685}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_CrewGunner.et"
-   "{449EF50447FEEF28}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Syrian Digital/Character_RHS_AFRF_SyrianDigital_CrewDriver.et"
-  }
-  m_sCustomNameSet "BMP Crew"
-  m_bSetPlayable 1
+  coords 4207.041 17.844 2981.805
+  angles 0 -32.192 0
+  m_sAttachmentGroupName "CompanyHQ"
  }
 }

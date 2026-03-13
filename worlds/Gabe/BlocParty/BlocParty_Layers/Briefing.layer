@@ -10,8 +10,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  ALL_Last_Tab_endconditions {
   coords 7103.451 25.366 3075.097
-  m_sTitle "End Conditions"
-  m_sTextData "AFRF 85% casualty rate: Rebel major victory"\
+  m_sTitle "End Conditions/Notes"
+  m_sTextData "7 minute setup timer"\
+  ""\
+  "AFRF 85% casualty rate: Rebel major victory"\
   ""\
   "70 mins pass with no conclusion: Rebel minor victory"\
   ""\
@@ -27,10 +29,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 7162.79 17.844 2852.156
   m_sTitle "Brief"
   m_sTextData "<h1><b><u>Friendly</h1></b></u>"\
-  "Friendly forces are, at most, a company (-) of Russian infantry with 2x BMPs. Your mission is to take South Side and North Side; kill all Rebels you encounter. If you make up 90% of the population in an objective, you take it."\
+  "Friendly forces are, at most, a company (-) of Russian infantry (located to the south) with 4x TIGR vehicles (AGS/KORD, ironsight, exposed gunner) as support to be used at the commander's discretion. Your mission is to take South Side and North Side; kill all Rebels you encounter. If you make up 90% of the population in an objective, you take it."\
+  ""\
+  "Note: Slotting screen inventory for TIGRs is not accurate, AGS has 4 boxes/reloads, KORD has 5 boxes/reloads, not 10/11 as shown, this initializes once you load in, not at slotting screen)."\
   ""\
   "<h1><b><u>Enemy</h1></b></u>"\
-  "The enemy is, at most, 41 anti-Assad rebel fighters. There're probably some ISIS terrorists in the mix, too, so don't feel too bad. They will likely conduct a delaying action at the first objective, using RPGs and small arms to ambush and then fallback (if they're smart). Expect to encounter AT mines."
+  "The enemy is, at most, 38 anti-Assad rebel fighters located up north in the city. There're probably some ISIS terrorists in the mix, too, so don't feel too bad. They will likely conduct a delaying action at the first objective, using RPGs and small arms to ambush and then fallback (if they're smart)."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -51,8 +55,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "3rd Platoon HQ ----- 347 HQ"\
   "3rd Plt 1st Squad --- 347"\
   "3rd Plt 2nd Squad -- 348"\
-  "1st BMP --------------- Burya 1"\
-  "2nd BMP -------------- Burya 2"\
   ""\
   "Company Net ---- 42.0 MHz"\
   "1st Platoon Net -- 42.2 MHz"\
@@ -68,10 +70,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   angles 0 -38.5 0
   m_sTitle "Brief"
   m_sTextData "<h1><b><u>Friendly</h1></b></u>"\
-  "Friendly forces are, at most, 41 anti-Assad rebel fighters. The overarching plan is to conduct a delaying action using RPGs and small arms to ambush and then fallback. It would be wise not to over-commit to defending the southern objective area. By spawn, there are 4x sedans and 2x Ural trucks to be used for transportation. Each Ural truck has 8x AT mines."\
+  "Friendly forces are, at most, 38 anti-Assad rebel fighters up north. The overarching plan is to conduct a delaying action using RPGs and small arms to ambush and then fallback. It would be wise not to over-commit to defending the southern objective area. By spawn, there are 4x sedans and 2x Ural trucks to be used for transportation. There are 8x AT mines in each Ural truck."\
   ""\
   "<h1><b><u>Enemy</h1></b></u>"\
-  "The enemy is, at most, a company (-) of Russian infantry with 2x BMPs. They are attempting to push us back further into the city. Their approach options are limited due to excessive mines and the urban environment. We expect them to take control of the 2x marked objective areas. If they make up 90% of the population in an objective area, it will be captured."\
+  "The enemy is, at most, a company (-) of Russian infantry with as many as 4x TIGR vehicles (AGS/KORD, ironsight, exposed gunner), all located to the south. They are attempting to push us back further into the city. Their approach options are limited due to excessive mines and the urban environment. We expect them to take control of the 2x marked objective areas. If they make up 90% of the population in an objective area, it will be captured."\
   ""\
   ""
   m_aVisibleForFactions {

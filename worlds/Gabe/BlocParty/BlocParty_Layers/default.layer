@@ -34,7 +34,7 @@ PS_GameModeCoop GameModeLobby : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_
  }
  coords 4559.402 17.844 4026.316
  m_iReconnectTime 180000
- m_iFreezeTime 300000
+ m_iFreezeTime 420000
  {
   SCR_FactionManager "66B9754EFB899195" {
    ID "5ED9088735FF2D8B"
@@ -186,6 +186,9 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  AO_AFRF {
   components {
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "RHS_AFRF"
+    }
     m_lineWidth 4
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
@@ -382,7 +385,7 @@ TILW_MissionFrameworkEntity TilFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mi
    m_name "Time Limit"
    m_instructions {
     TILW_SendMessageInstruction "{68B61803229E36D2}" {
-     m_executionDelay 4500
+     m_executionDelay 4620
      m_messageTitle "Rebel Minor Victory"
      m_messageBody "Time limit reached. Now, die with honor."
     }
@@ -458,14 +461,14 @@ SCR_EditorRestrictionZoneEntity RestrictionZone : "{B2A519402E9AC209}PrefabsEdit
 }
 $grp PS_ManualMarker : "{BC5F78D7A380E856}PrefabsEditable/Markers/Group/Marker_GroupFlagsIndfor_Base.et" {
  SpawnMarkINSURGENT {
-  coords 4080.384 17.844 4634.425
+  coords 4091.48 17.846 4644.583
   angles 0 90 0
   m_sImageSet "{BAB1676E2BF56624}Images/GC_IS_icon.edds"
   m_MarkerColor 1 1 1 1
   m_sQuadName ""
-  m_fWorldSize 75
+  m_fWorldSize 45
+  m_sDescription "Rebels"
   m_aHideOnGameModeStates {
-   GAME
   }
  }
  SpawnMarkAFRF {
@@ -475,8 +478,8 @@ $grp PS_ManualMarker : "{BC5F78D7A380E856}PrefabsEditable/Markers/Group/Marker_G
   m_MarkerColor 0.623 0.022 0.022 1
   m_sQuadName "combined"
   m_fWorldSize 155
+  m_sDescription "AFRF"
   m_aHideOnGameModeStates {
-   GAME
   }
  }
 }

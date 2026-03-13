@@ -277,14 +277,9 @@ $grp PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_O
   m_sQuadName "circle-2"
   m_fWorldSize 355
   m_sDescription "South Side"
-  m_aVisibleForFactions {
-   "RHS_AFRF"
-  }
-  m_bVisibleForEmptyFaction 0
   m_aHideOnGameModeStates {
    GAME
   }
-  m_bShowForAnyFaction 0
  }
  NorthSideText {
   coords 3870.323 17.846 4536.572
@@ -293,13 +288,8 @@ $grp PS_ManualMarker : "{BA3177FCACC39F3A}PrefabsEditable/Markers/Icons/Marker_O
   m_sQuadName "circle-2"
   m_fWorldSize 380
   m_sDescription "North Side"
-  m_aVisibleForFactions {
-   "RHS_AFRF"
-  }
-  m_bVisibleForEmptyFaction 0
   m_aHideOnGameModeStates {
    GAME
   }
-  m_bShowForAnyFaction 0
  }
 }
