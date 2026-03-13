@@ -41,7 +41,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "h) Obstacles"\
   ""\
-  "Friendly Mines placed to deny enemy flanking, Three Rows of Tripple Strand Concertina with AP Mines 70 m infront of the trench and Concertina Wire around Fallback Trench"
+  m_sTextData "Friendly Mines placed to deny enemy flanking, Three Rows of Triple Strand Concertina with AP Mines 70 m in front of the trench and Concertina Wire around Fallback Trench"
   m_aVisibleForFactions {
    "USSR"
   }
@@ -52,8 +52,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "REFERENCE POINT"
   m_sTextData "Assuming North is Front"\
   ""\
-  "RP100 - Key Small Hill - Front Right 500 m "\
-  "RP101 - Eastren Edge of Open Field - Front Right 270 m"\
+  m_sTextData "RP100 - Key Small Hill - Front Right 500 m "\
+  "RP101 - Eastern Edge of Open Field - Front Right 270 m"\
   "RP102 - Western Edge of Open Field - Front Left 300 m "
   m_aVisibleForFactions {
    "USSR"
@@ -62,7 +62,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  BRIEF8 {
   coords 3432.043 24.572 1004.644
   m_sTitle "ENEMY"
-  m_sTextData "Enemy forces in the region consist of US motorized and mechanized troops with M113. Yesterday, US forces were probing our lines and identifying our minefield edge. We are expecting an assault today, we are confident that American will not be able to utilize their vehicles. "
+  m_sTextData "Enemy forces in the region consist of US motorized and mechanized troops with M113. Yesterday, US forces were probing our lines and identifying our minefield edge. We are expecting an assault today, we are confident that Americans will not be able to utilize their vehicles. "
   m_aVisibleForFactions {
    "USSR"
   }
@@ -70,7 +70,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  BRIEF9 {
   coords 3435.98 24.614 1008.975
-  m_sTitle "HIGHER AND ADJACNET"
+  m_sTitle "HIGHER AND ADJACENT"
   m_sTextData "221 our platoon has been tasked with holding the trench. Adjacent platoons from our company are holding our flanks. Higher expects this line to maintain control of Torske and ultimately the river."
   m_aVisibleForFactions {
    "USSR"

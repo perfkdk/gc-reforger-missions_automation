@@ -2,7 +2,7 @@ PS_MissionDescription MISSIONNOTES : "{3136BE42592F3B1B}PrefabsEditable/MissionD
  coords 3631.063 14.574 1216.845
  m_sTitle "Mission Notes"
  m_sTextData "<b>Mission Summary:</b>"\
- "US conducts a COY breach of a soviet mine and wire obstacle to sieze a trenchline on Torske Hill. "\
+ "US conducts a COY breach of a Soviet mine and wire obstacle to seize a trenchline on Torske Hill. "\
  ""\
  "<b>Trench building:</b>"\
  "Trench building time is reduced for the first 5 minutes. Only the AGS Team are permitted to add trenches for the purpose of concealing the AGS and utilizing it. "\
@@ -15,15 +15,15 @@ PS_MissionDescription MISSIONNOTES : "{3136BE42592F3B1B}PrefabsEditable/MissionD
  "<b>Setup timer:</b>"\
  "US: 5 Minutes"\
  ""\
- "<b>Endconditions</b>"\
+ "<b>End Conditions</b>"\
  "BLUFOR (US) Victory Criteria:"\
  "- Major Victory: USSR attrited to 95% casualties. "\
  ""\
  "OPFOR (USSR) Victory Criteria:"\
  "- Major Victory: US attrited to 90% casualties."\
- "- Minor Victory: US unable to breach obstacle (Timelimit)"\
+ "- Minor Victory: US unable to breach obstacle (Time Limit)"\
  ""\
- "<b>Timelimit:</b>"\
+ "<b>Time Limit:</b>"\
  "80 min"\
  ""\
  "GMs are permitted to create a breach in the obstacle for gameplay purposes, if BLUFOR are unable but this will result in automatic defeat for the US."\

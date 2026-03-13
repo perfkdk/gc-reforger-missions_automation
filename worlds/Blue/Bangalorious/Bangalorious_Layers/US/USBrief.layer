@@ -4,7 +4,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "6. BANGLORE USAGE"
   m_sTextData "To deploy the Bangalore:"\
   ""\
-  "1. Place a Bangalore the same way you place Demo Charges by Equipping it through your hotbar or on any primary weapons slot and left clicking at the correct posittion."\
+  "1. Place a Bangalore the same way you place Demo Charges by Equipping it through your hotbar or on any primary weapons slot and left clicking at the correct position."\
   ""\
   "2. When you’re near a placed Bangalore, a “Push” action will appear, hold F (Note: You must have bangalores in your inventory to do so)."\
   ""\
@@ -21,7 +21,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 4514.822 42.914 1339.047
   m_sTitle "1. SITUATION"
   m_sTextData "a. Enemy Forces"\
-  "A Platoon of russian dismounted motor rifle regulars, entrenched in  a well prepared trench position with bunkers, indirect shelters and possibly a fall back trench. ENY has mined and placed fields to CANALIZE approaching elements."\
+  "A Platoon of Russian dismounted motor rifle regulars, entrenched in  a well prepared trench position with bunkers, indirect shelters and possibly a fall back trench. ENY has mined and placed fields to CANALIZE approaching elements."\
   ""\
   "b. Friendly Forces"\
   "- Our Company is assembly at area STEEL 0437 0147 "\
@@ -29,7 +29,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- Neighboring friendly elements maintain sector security but cannot provide immediate direct fire support inside the objective area."\
   ""\
   "c. Attachments / Detachments"\
-  "- An Engineering Sqaud (1'4) has been attached to First Platoon to aid in breach of obstacles. "
+  "- An Engineering Squad (1'4) has been attached to First Platoon to aid in breach of obstacles. "
   m_aVisibleForFactions {
    "US"
   }
@@ -38,7 +38,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  BRIEF2 {
   coords 4517.678 43.034 1346.497
   m_sTitle "2. MISSION"
-  m_sTextData "Bravo Company will SIEZE OBJ HILL NLT than 0800."
+  m_sTextData "Bravo Company will SEIZE OBJ HILL NLT than 0800."
   m_aVisibleForFactions {
    "US"
   }
@@ -49,7 +49,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "3. EXECUTION"
   m_sTextData "As per Commander's Intent"\
   ""\
-  "Mortar to Supress and provide concealment for Engineering Team to bridge a breach through ENY OBSTACLE IOT allow Bravo Company to Sieze OBJ HILL "
+  "Mortar to Supress and provide concealment for Engineering Team to bridge a breach through ENY OBSTACLE IOT allow Bravo Company to Seize OBJ HILL "
   m_aVisibleForFactions {
    "US"
   }
@@ -61,6 +61,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "a. Logistics"\
   ""\
   "Ammo: Excess Ammunition available in All Squad M113s (Get some ammo you'll be shooting)"\
+  ""\
+  "Mortar: 2x Tubes. Per Tube: 130x HE, 400x SMK, 2x Range Cards, 2x Packs."\
   ""\
   "Explosives: 15x Bangalore in Engineer's M113 , PLT Cmdrs' M113s"\
   ""\
@@ -108,13 +110,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "b. Terrain"\
   "Obstacles: ENY has deployed canalizing minefields west and east of the objective. North of OBJ Hill by ~100m, an obstacle has been deployed formed by 3 rows of triple concertina wire. The obstacle is 10 meters in depth with accompanied AP/AT mines."\
   ""\
-  "Avenues of Approach:  Primary avenue of approach is from the north in order to avoid ENY western and eastern mienfields. The approach has undulating terrain providing pockets of dead ground. "\
+  "Avenues of Approach:  Primary avenue of approach is from the north in order to avoid ENY western and eastern minefields. The approach has undulating terrain providing pockets of dead ground. "\
   ""\
-  "Key Terrain: Hill 35 occupied by ENY is decisive terrain as its control is vital to missions success. A small hill (0391 0131) to the southwest of our assembly area, provides good overwatch for any COY manuvers east of that position."\
+  "Key Terrain: Hill 35 occupied by ENY is decisive terrain as its control is vital to missions success. A small hill (0391 0131) to the southwest of our assembly area, provides good overwatch for any COY maneuvers east of that position."\
   ""\
-  "Field of Observation: The ENY has almost unobstructed sightlines up to DT Romeo West of TRP1. The ENY's observation is blocked to the North East by uncontinous and sporadic sparse treelines, estimated visiibility to the North East is 600m from the ENY position. COY can travel unobserved up to the PLD (purple PL)."\
+  "Field of Observation: The ENY has almost unobstructed sightlines up to DT Romeo West of TRP1. The ENY's observation is blocked to the North East by uncontinuous and sporadic sparse treelines, estimated visibility to the North East is 600m from the ENY position. COY can travel unobserved up to the PLD (purple PL)."\
   ""\
-  "Cover and Concealment: Smalls shrubs will provide concealment and undulating terrain throughout the AO will provide sporadic cover."\
+  "Cover and Concealment: Small shrubs will provide concealment and undulating terrain throughout the AO will provide sporadic cover."\
   ""\
   " "
   m_aVisibleForFactions {
