@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  ALL_First_Tab_overview {
   coords 7162.79 17.844 2852.156
   m_sTitle "Overview"
-  m_sTextData "Somewhere in Syria, rebels conduct a delaying action while Russians attempt to push them back, deeper into the city."\
+  m_sTextData "Somewhere in Syria, rebels conduct a delaying action while Russians attempt to push them back, deeper into the city. 7 minute setup timer."\
   ""\
   "Mission created by Gabe"
   m_bEmptyFactionVisibility 1
