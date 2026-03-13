@@ -1,4 +1,4 @@
-PolylineShapeEntity housemapoutline1 : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+PolylineShapeEntity ConstructionSiteMapMarker : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
    Enabled 0
@@ -59,7 +59,7 @@ PolylineShapeEntity housemapoutline1 : "{85222A2744768C81}Prefabs/Logic/AOLimit/
   }
  }
 }
-SCR_DestructibleBuildingEntity : "{8F4C1151321097DE}Prefabs/MES_Prefabs/Construction_big_02_WinDoor.et" {
+SCR_DestructibleBuildingEntity ConstructionSite : "{8F4C1151321097DE}Prefabs/MES_Prefabs/Construction_big_02_WinDoor.et" {
  coords 3644.622 0 4347.833
  angles 0 46.34 0
 }

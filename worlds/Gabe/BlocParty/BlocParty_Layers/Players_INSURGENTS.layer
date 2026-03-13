@@ -8,10 +8,55 @@ SCR_AIGroup CentralCommand : "{0A0D72CDE16A9A9D}Prefabs/Groups/OPFOR/GC_INSURGEN
  }
  coords 4086.971 17.844 4638.698
  angles 0 -131.615 0
- m_aUnitPrefabSlots {
-  "{9D7D6D238A9D8B0D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_CO_P.et"
+ m_aUnitPrefabSlots +{
   "{040BCEE9A8091FEB}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Medic_P.et"
  }
+}
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ Ural4320_transport1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_base.et"
+      }
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 4050.994 17.844 4633.079
+  angles 0 136.515 0
+ }
+ Ural4320_transport2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_base.et"
+      }
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 4086.76 17.844 4595.475
+  angles 0 -43.294 0
+ }
+}
+Vehicle S105_lightgreen1 : "{321016E0F9361A22}Prefabs/Vehicles/Wheeled/S105/S105_lightgreen.et" {
+ coords 4080.661 17.844 4602.542
+ angles 0 -41.808 0
+}
+Vehicle S105_white1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+ coords 4076.419 17.844 4607.229
+ angles 0 -42.022 0
+}
+Vehicle S105_darkred1 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+ coords 4058.993 17.844 4625.555
+ angles 0 135.813 0
 }
 $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INSURGENT_RifleSquad_P.et" {
  Group1Cell1 {
@@ -175,6 +220,10 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
   }
  }
 }
+Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+ coords 4063.63 17.844 4620.821
+ angles 0 135.665 0
+}
 $grp SCR_AIGroup : "{B7430DCCC8D6FA05}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INSURGENT_PHQ_P.et" {
  Group1_HQ {
   components {
@@ -192,7 +241,6 @@ $grp SCR_AIGroup : "{B7430DCCC8D6FA05}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
   m_aUnitPrefabSlots {
    "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et"
    "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et"
-   "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
    "{040BCEE9A8091FEB}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Medic_P.et"
   }
  }
@@ -212,7 +260,6 @@ $grp SCR_AIGroup : "{B7430DCCC8D6FA05}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
   m_aUnitPrefabSlots {
    "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et"
    "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et"
-   "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
    "{040BCEE9A8091FEB}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Medic_P.et"
   }
  }

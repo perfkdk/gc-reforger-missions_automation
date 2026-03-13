@@ -211,13 +211,34 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position -123.623 -0.002 1203.418
    }
    ShapePoint "{68D745F5D8731A8D}" {
-    Position 13.801 -0.001 1372.967
+    Position 12.871 -0.001 1366.699
+   }
+   ShapePoint "{68D940188C2DB007}" {
+    Position -14.175 -0.001 1394.843
+   }
+   ShapePoint "{68D9401889040E74}" {
+    Position -53.745 -0.001 1436.96
+   }
+   ShapePoint "{68D9401877E0C8ED}" {
+    Position -48.781 -0.001 1441.877
    }
    ShapePoint "{68D745F5C8510252}" {
-    Position -230.202 -0.001 1639.792
+    Position -133.692 -0.001 1531.956
+   }
+   ShapePoint "{68D94018BA4B0B5A}" {
+    Position -159.316 -0.001 1509.322
+   }
+   ShapePoint "{68D94018B9DDF329}" {
+    Position -222.865 -0.001 1577.38
+   }
+   ShapePoint "{68D94018013F9744}" {
+    Position -368.585 -0.001 1436.168
+   }
+   ShapePoint "{68D940181494DDE9}" {
+    Position -395.572 -0.001 1462.663
    }
    ShapePoint "{68D745F5A80276B7}" {
-    Position -749.422 -0.003 1136.867
+    Position -739.655 -0.001 1126.424
    }
    ShapePoint "{68D745F56204B59C}" {
     Position -796.597 0.926 988.545
@@ -257,13 +278,34 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position -123.623 -0.002 1203.418
    }
    ShapePoint "{68D745F5D8731A8D}" {
-    Position 13.801 -0.001 1372.967
+    Position 12.936 -0.001 1366.719
+   }
+   ShapePoint "{68D9401F2F984E9E}" {
+    Position -14.268 -0.001 1394.89
+   }
+   ShapePoint "{68D9401F0945A31B}" {
+    Position -53.778 -0.001 1437.146
+   }
+   ShapePoint "{68D94018F5AE48DD}" {
+    Position -48.62 -0.001 1441.809
    }
    ShapePoint "{68D745F5C8510252}" {
-    Position -230.202 -0.001 1639.792
+    Position -133.636 -0.001 1531.958
+   }
+   ShapePoint "{68D9401F40A3E5C5}" {
+    Position -159.384 -0.001 1509.384
+   }
+   ShapePoint "{68D9401F7A1B2A3B}" {
+    Position -222.862 -0.001 1577.363
+   }
+   ShapePoint "{68D9401F8AFC7875}" {
+    Position -368.567 -0.001 1436.186
+   }
+   ShapePoint "{68D94019CFB5B9FC}" {
+    Position -395.562 -0.001 1462.645
    }
    ShapePoint "{68D745F5A80276B7}" {
-    Position -749.422 -0.003 1136.867
+    Position -739.571 -0.001 1126.521
    }
    ShapePoint "{68D745F56204B59C}" {
     Position -796.597 0.926 988.545
@@ -315,7 +357,7 @@ TILW_MissionFrameworkEntity TilFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mi
    m_instructions {
     TILW_SendMessageInstruction "{68B61803FA40F246}" {
      m_executionDelay 2.5
-     m_messageTitle "Insurgent Victory"
+     m_messageTitle "Rebel Major Victory"
      m_messageBody "AFRF is combat ineffective."
     }
    }
@@ -329,7 +371,7 @@ TILW_MissionFrameworkEntity TilFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mi
     TILW_SendMessageInstruction "{68B6180388AE36CE}" {
      m_executionDelay 2.5
      m_messageTitle "AFRF Victory"
-     m_messageBody "Insurgents are combat ineffective."
+     m_messageBody "Rebels are combat ineffective."
     }
    }
    m_condition TILW_LiteralTerm "{68B61803645CA478}" {
@@ -340,9 +382,9 @@ TILW_MissionFrameworkEntity TilFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mi
    m_name "Time Limit"
    m_instructions {
     TILW_SendMessageInstruction "{68B61803229E36D2}" {
-     m_executionDelay 3900
-     m_messageTitle "Time Limit Reached"
-     m_messageBody "Die with honor."
+     m_executionDelay 4500
+     m_messageTitle "Rebel Minor Victory"
+     m_messageBody "Time limit reached. Now, die with honor."
     }
    }
   }
@@ -351,8 +393,8 @@ TILW_MissionFrameworkEntity TilFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mi
    m_instructions {
     TILW_SendMessageInstruction "{68B6181C3302C21E}" {
      m_executionDelay 2.5
-     m_messageTitle "AFRF has taken an objective!"
-     m_messageBody "They have taken control of South Side"
+     m_messageTitle "AFRF has taken an objective"
+     m_messageBody "They have taken control of South Side."
     }
    }
    m_condition TILW_LiteralTerm "{68B6181C3163FA65}" {
@@ -363,27 +405,48 @@ TILW_MissionFrameworkEntity TilFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mi
    m_name "AFRFNorthSideObj"
    m_instructions {
     TILW_SendMessageInstruction "{68D745F7F8E696E6}" {
+     m_executionDelay 2.5
+     m_messageTitle "AFRF has taken an objective"
+     m_messageBody "They have taken control of North Side."
     }
    }
    m_condition TILW_LiteralTerm "{68D745F7E67B7AE3}" {
     m_flagName "NorthSideFlag"
    }
   }
+  TILW_MissionEvent "{68D9400B90B56555}" {
+   m_name "BothObj"
+   m_instructions {
+    TILW_SendMessageInstruction "{68D9400B814BDF19}" {
+     m_messageTitle "AFRF Victory"
+     m_messageBody "They have taken control of both objectives."
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{68D9400B7E0DF0BF}" {
+    m_operands {
+     TILW_LiteralTerm "{68D9400B7CD27932}" {
+      m_flagName "NorthSideFlag"
+     }
+     TILW_LiteralTerm "{68D9400B7BC9070B}" {
+      m_flagName "SouthSideFlag"
+     }
+    }
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{68B618042DA77504}" {
    m_flagName "AFRFCasualtyFlag"
-   m_factionKey "AFRF"
+   m_factionKey "RHS_AFRF"
    m_casualtyRatio 0.85
   }
   TILW_FactionPlayersKilledFlag "{68B6180408BEDA80}" {
    m_flagName "INSURGENTCasualtyFlag"
    m_factionKey "GC_INSURGENT"
-   m_casualtyRatio 0.85
   }
  }
 }
-SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+SCR_EditorRestrictionZoneEntity RestrictionZone : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 4228.163 17.845 2963.036
  angles 0 30.24 0
  {
@@ -394,26 +457,24 @@ SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restriction
  }
 }
 $grp PS_ManualMarker : "{BC5F78D7A380E856}PrefabsEditable/Markers/Group/Marker_GroupFlagsIndfor_Base.et" {
- SpawnMarkerINSURGENTS {
+ SpawnMarkINSURGENT {
   coords 4080.384 17.844 4634.425
   angles 0 90 0
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
-  m_MarkerColor 0.016 0.308 0.58 1
-  m_sQuadName "combined"
-  m_fWorldSize 90
+  m_sImageSet "{BAB1676E2BF56624}Images/GC_IS_icon.edds"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName ""
+  m_fWorldSize 75
   m_aHideOnGameModeStates {
    GAME
   }
  }
- SpawnMarkerOpfor {
+ SpawnMarkAFRF {
   coords 4228.883 18.229 2973.327
-  angles 0 120.24 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
   m_MarkerColor 0.623 0.022 0.022 1
   m_sQuadName "combined"
-  m_fWorldSize 130
+  m_fWorldSize 155
   m_aHideOnGameModeStates {
    GAME
   }
