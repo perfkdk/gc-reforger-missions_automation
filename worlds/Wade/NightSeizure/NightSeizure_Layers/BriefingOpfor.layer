@@ -2,12 +2,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7043.334 107.094 5124.009
   m_sTitle "Situation"
-  m_sTextData "Enemy Forces:"\
-  "1x PLT US Special Forces"\
+  m_sTextData "U.S. Special Forces have been reported in the area to the South of OBJ PizzaDox. USSR Spetnaz have been dispatched to defend vital intelligence from falling into the hand of American forces. The Americans are already on there way, so you need to hurry to set up a hasty defense."\
+  ""\
+  "Enemy Forces:"\
+  "1x PLT US Special Forces South of the OBJ."\
   ""\
   "Friendly Forces:"\
-  "USSR Special Forces Platoon minus."\
+  "USSR Special Forces Platoon minus at 066 058."\
   "1x Mortarman"\
+  ""\
+  "Civilians:"\
+  "In the area."\
   ""\
   "Time and Weather:"\
   "Night / Rainy"
@@ -19,7 +24,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7052.516 107.45 5107.551
   m_sTitle "Mission"
-  m_sTextData "Defend OBJ PizzaDox and prevent enemies from extracting an intelligence document found at the OBJ."
+  m_sTextData "Defend OBJ PizzaDox (070 051) and prevent enemies from extracting an intelligence document found at the OBJ."
   m_aVisibleForFactions {
    "USSR"
   }
@@ -29,16 +34,18 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 7045.876 107.017 5118.654
   m_sTitle "Sustainment"
   m_sTextData "At spawn there are "\
-  "2x Urals"\
-  "1x UAZ"\
-  "1x UAZ PKM"\
+  "2x Urals 100x White Flares and 100x Sandbags per"\
+  "1x UAZ 100x White Flares and 100x Sandbags"\
+  "1x UAZ PKM 100x White Flares and 100x Sandbags"\
   "1x Ambulance"\
   ""\
   "Defenses already set up at OBJ."\
   "Light emplacements, bunkers, trenches, etc."\
   ""\
-  "100x White Flares in UAZ PKM"\
+  "100x White Flares and 100x Sandbags in most vehicles."\
   ""\
+  ""\
+  "Mortar is located at OBJ PizzaDox."\
   "Mortars:"\
   "50x HE"\
   "100x Smoke"\

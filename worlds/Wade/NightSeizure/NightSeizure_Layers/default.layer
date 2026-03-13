@@ -40,6 +40,9 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 7152.137 150.655 2639.953
+ m_safeStartTime 180
+ m_eJIPState Auto
+ m_denyJIPTime 400
  {
   SCR_FactionManager "68B4947211B2E10B" {
    ID "5ED9088735FF2D8B"

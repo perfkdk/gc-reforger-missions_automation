@@ -358,6 +358,18 @@ $grp LightEntity : "{575085E94AEBAE21}Prefabs/Weapons/Ammo/TracerLight/Light_Tra
  {
   coords 6649.094 113.01 5881.387
  }
+ {
+  coords 7322.421 184.529 4073.886
+ }
+ {
+  coords 7324.11 184.65 4073.469
+ }
+ {
+  coords 7324.29 184.694 4074.968
+ }
+ {
+  coords 7322.705 184.577 4075.396
+ }
 }
 GenericEntity : "{5779B8598354EF4C}Prefabs/Compositions/Misc/SubCompositions/Sandbag_round_Cluttered_USSR_02.et" {
  coords 7018.656 105.549 5112.743
@@ -586,6 +598,23 @@ GenericEntity : "{A0925A933E790D52}Prefabs/Props/Civilian/BenchSchool/StarSign.e
  coords 6992.252 1.396 5087.411
  angles 0 132.658 0
 }
+GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Equipment_01_US.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{68D85D5484921F86}" {
+     SlotTemplate InventoryStorageSlot WhiteFlare {
+      Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+     }
+     NumSlots 200
+    }
+   }
+  }
+ }
+ coords 7323.394 184.615 4074.377
+ angles 0.89 -0.069 -4.468
+}
 GenericEntity : "{A6FA47E1AD0EB5E1}PrefabsEditable/Auto/Props/Furniture/Chair_03/E_Chair_03_tan.et" {
  coords 6983.916 102.319 5111.018
  angles 0 45.448 0
@@ -593,6 +622,17 @@ GenericEntity : "{A6FA47E1AD0EB5E1}PrefabsEditable/Auto/Props/Furniture/Chair_03
 GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
  coords 6994.433 102.698 5095.767
  angles 0 -42.648 0
+}
+$grp GenericEntity : "{AA7F04F403FD2E00}PrefabsEditable/EffectsModules/Flares/EffectModule_Mortar_Flare_Illumination.et" {
+ {
+  coords 7005.805 145.243 5111.615
+ }
+ {
+  coords 6642.685 144.224 5874.124
+ }
+ {
+  coords 7317.281 205.294 4084.171
+ }
 }
 GenericEntity : "{AC29BA31A35382AB}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/InteractionPoints/E_PersonnelService_US_Large_NoAffiliation.et" {
  coords 6983.644 105.948 5083.642
@@ -630,6 +670,23 @@ $grp GenericEntity : "{B81D44C860129FEE}PrefabsEditable/Auto/Props/Military/Sand
 }
 GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
  coords 6993.624 103.605 5090.638
+}
+GenericEntity : "{B8BA01645C9D3476}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Explosives_01_US.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{68D85D55CE49B8C7}" {
+     SlotTemplate InventoryStorageSlot WhiteFlare {
+      Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+     }
+     NumSlots 200
+    }
+   }
+  }
+ }
+ coords 7323.261 184.599 4074.087
+ angles 0.89 -0.069 -4.468
 }
 $grp GenericEntity : "{BEC5AFE34DD32C87}Prefabs/Structures/flowers/canabis_sign.et" {
  {

@@ -2,13 +2,19 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7045.514 107.686 5123.927
   m_sTitle "Situation"
-  m_sTextData "Enemy Forces:"\
+  m_sTextData "U.S. Special Forces have been operating in the area to the South of OBJ PizzaDox. USSR Spetnaz have been dispatched to defend vital intelligence from falling into the hand of American forces."\
+  ""\
+  "Enemy Forces:"\
   "USSR Platoon minus."\
   "Machine gun emplacement."\
   "Mortar support."\
+  "Technical."\
   ""\
   "Friendly Forces:"\
-  "PLT US Special Forces"\
+  "PLT US Special Forces (073 040)"\
+  ""\
+  "Civilians:"\
+  "In the area."\
   ""\
   "Time and Weather:"\
   "Night / Rainy"
@@ -20,7 +26,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7049.598 107.176 5112.261
   m_sTitle "Mission"
-  m_sTextData "Conduct a raid on OBJ PizzaDox in order to obtain and extract intelligence NLT 60 minutes."
+  m_sTextData "Conduct a raid on OBJ PizzaDox (070 051) IOT obtain and extract red intelligence folder NLT 60 minutes."
   m_aVisibleForFactions {
    "US"
   }
@@ -29,7 +35,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7047.513 106.914 5114.708
   m_sTitle "Sustainment"
-  m_sTextData "100x White Flares in helo."\
+  m_sTextData "200x White Flares in crate."\
   ""
   m_aVisibleForFactions {
    "US"

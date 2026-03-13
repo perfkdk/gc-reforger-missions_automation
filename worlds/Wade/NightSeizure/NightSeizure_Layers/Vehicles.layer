@@ -8,6 +8,12 @@ Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_
      }
      NumSlots 100
     }
+    MultiSlotConfiguration "{68DA09A8AC11551A}" {
+     SlotTemplate InventoryStorageSlot Sandbags {
+      Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
+     }
+     NumSlots 100
+    }
    }
   }
  }
@@ -15,6 +21,24 @@ Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_
  angles 0 27.651 0
 }
 Vehicle UAZ2 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{68DA09A92A2B0F1A}" {
+     SlotTemplate InventoryStorageSlot Sandbags {
+      Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
+     }
+     NumSlots 100
+    }
+    MultiSlotConfiguration "{68DA09A872B324F5}" {
+     SlotTemplate InventoryStorageSlot WhiteFlare {
+      Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+     }
+     NumSlots 100
+    }
+   }
+  }
+ }
  coords 6655.464 109.656 5870.176
  angles 0 27.185 0
 }
@@ -26,31 +50,48 @@ GenericEntity : "{87DDB867EAD6C494}PrefabsEditable/Auto/Compositions/Misc/SubCom
  coords 6941.979 97.541 5099.638
  angles 0 -104.8 0
 }
-Vehicle Mi8MT_unarmed_base1 : "{B6B8C164FD6377EA}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_base.et" {
- components {
-  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-   Enabled 0
-  }
-  SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
-   MultiSlots {
-    MultiSlotConfiguration "{68B458A720192B01}" {
-     SlotTemplate InventoryStorageSlot WhiteFlare {
-      Prefab "{EC9BDA3D9DDD8795}Prefabs/Weapons/Flares/FlareStarParachute_M127A1_white.et"
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{68DA09A83A5541F8}" {
+      SlotTemplate InventoryStorageSlot Sandbag {
+       Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
+      }
+      NumSlots 100
      }
-     NumSlots 100
+     MultiSlotConfiguration "{68DA09A83B8BEF0D}" {
+      SlotTemplate InventoryStorageSlot Flare {
+       Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+      }
+      NumSlots 100
+     }
     }
    }
   }
- }
- coords 7328.026 184.635 4075.199
- angles -1.483 -127.845 2.741
-}
-$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
- Ural4320_transport_covered1 {
   coords 6655.11 109.658 5877.919
   angles 0 27.938 0
  }
  Ural4320_transport_covered2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{68DA09A83A5541F8}" {
+      SlotTemplate InventoryStorageSlot Sandbag {
+       Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{68DA09A83B8BEF0D}" {
+      SlotTemplate InventoryStorageSlot Flare {
+       Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
+      }
+      NumSlots 100
+     }
+    }
+   }
+  }
   coords 6650.256 109.638 5868.846
   angles 0 26.794 0
  }
