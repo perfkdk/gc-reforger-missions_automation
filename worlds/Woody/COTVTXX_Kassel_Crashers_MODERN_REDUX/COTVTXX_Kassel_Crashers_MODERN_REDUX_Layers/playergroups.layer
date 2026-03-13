@@ -34,7 +34,8 @@ $grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
-   PS_GroupCallsignAssigner "{687029413DBEBC1E}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 3
     m_iSquadCallsign 1
@@ -49,7 +50,8 @@ $grp SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
-   PS_GroupCallsignAssigner "{6870294134D2B6E8}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 3
     m_iSquadCallsign 5
@@ -189,7 +191,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
-   PS_GroupCallsignAssigner "{6870294146639708}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 3
     m_iSquadCallsign 3
@@ -205,7 +208,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
-   PS_GroupCallsignAssigner "{6870294141FD1D00}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 3
     m_iSquadCallsign 4
@@ -221,7 +225,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
-   PS_GroupCallsignAssigner "{687029416E6B9CA2}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 3
     m_iSquadCallsign 7
@@ -237,7 +242,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
-   PS_GroupCallsignAssigner "{68702941692DE728}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 3
     m_iSquadCallsign 8
@@ -253,7 +259,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
-   PS_GroupCallsignAssigner "{6870294126101CD2}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 3
    }
@@ -268,7 +275,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
-   PS_GroupCallsignAssigner "{6870294154843D61}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 3
     m_iSquadCallsign 6
@@ -284,7 +292,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
-   PS_GroupCallsignAssigner "{68702940833DA582}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 3
     m_iSquadCallsign 2
@@ -309,7 +318,8 @@ Vehicle FO_JEEP : "{8A9444452D28F5B3}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M240/
 $grp SCR_AIGroup : "{C42280A6985BFE69}Prefabs/Groups/BLUFOR/US/Army/1981/Infantry (Woodland)/P/Group_US_Army_1980_RiflePHQ_P.et" {
  FO_TEAM {
   components {
-   PS_GroupCallsignAssigner "{651086C354F66BA9}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 5
     m_iPlatoonCallsign 3
     m_iSquadCallsign 1
@@ -332,7 +342,8 @@ $grp SCR_AIGroup : "{C42280A6985BFE69}Prefabs/Groups/BLUFOR/US/Army/1981/Infantr
  }
  MORTAR_TEAM {
   components {
-   PS_GroupCallsignAssigner "{651086C36054314B}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 5
     m_iPlatoonCallsign 3
     m_iSquadCallsign 3
