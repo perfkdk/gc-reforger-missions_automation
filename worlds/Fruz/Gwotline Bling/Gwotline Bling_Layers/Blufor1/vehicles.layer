@@ -1,0 +1,17 @@
+Vehicle AUS_UH60_unarmed3 : "{420562B2B5D106C3}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_unarmed.et" {
+ coords 2965.081 10 3003.554
+ angles 0 -56.239 0
+ m_sAttachmentGroupName "L46"
+}
+$grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ MH6M1 {
+  coords 2943.803 10 3037.587
+  angles 0 -54.43 0
+  m_sAttachmentGroupName "S52"
+ }
+ MH6M4 {
+  coords 2934.213 10 3021.788
+  angles 0 -54.43 0
+  m_sAttachmentGroupName "S51"
+ }
+}
