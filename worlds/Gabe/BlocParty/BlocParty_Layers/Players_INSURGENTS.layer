@@ -81,6 +81,7 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
    "{0CC224E1B6C2AD9E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Sapper_P.et"
   }
+  m_sCustomNameSet "Rebel Cell"
  }
  Group1Cell2 {
   components {
@@ -102,6 +103,7 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
    "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et"
   }
+  m_sCustomNameSet "Rebel Cell"
  }
  Group1Cell3 {
   components {
@@ -123,6 +125,7 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
    "{0CC224E1B6C2AD9E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Sapper_P.et"
   }
+  m_sCustomNameSet "Rebel Cell"
  }
  Group2Cell1 {
   components {
@@ -144,6 +147,7 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
    "{0CC224E1B6C2AD9E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Sapper_P.et"
   }
+  m_sCustomNameSet "Rebel Cell"
  }
  Group2Cell2 {
   components {
@@ -165,6 +169,7 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
    "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et"
   }
+  m_sCustomNameSet "Rebel Cell"
  }
  Group2Cell3 {
   components {
@@ -186,6 +191,7 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
    "{0CC224E1B6C2AD9E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Sapper_P.et"
   }
+  m_sCustomNameSet "Rebel Cell"
  }
  Group1Cell4 {
   components {
@@ -207,6 +213,7 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
    "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et"
   }
+  m_sCustomNameSet "Rebel Cell"
  }
  Group2Cell4 {
   components {
@@ -228,6 +235,7 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
    "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
    "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et"
   }
+  m_sCustomNameSet "Rebel Cell"
  }
 }
 Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
