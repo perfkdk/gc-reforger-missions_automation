@@ -2,6 +2,66 @@ SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
  coords 3144.743 20.788 2622.64
 }
 PS_GameModeCoop gamemode_rl : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{68DB2CA837F286A0}" {
+   m_sFactionKey "RHS_AFRF"
+   m_iCount 5
+  }
+ }
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5977478D568C093C}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB79287E901BC}" {
+        m_sCallsign "BARSUK"
+       }
+       SCR_CallsignInfo "{55CCB79287936EBD}" {
+        m_sCallsign "GRIZON"
+       }
+       SCR_CallsignInfo "{55CCB79287BAFBD6}" {
+        m_sCallsign "LASKA"
+       }
+       SCR_CallsignInfo "{55CCB79287A4D7B6}" {
+        m_sCallsign "NORKA"
+       }
+       SCR_CallsignInfo "{64E2F896E232A50B}" {
+        m_sCallsign "VYDRA"
+       }
+       SCR_CallsignInfo "{64E2F896FFC45153}" {
+        m_sCallsign "KUNITSA"
+       }
+       SCR_CallsignInfo "{64E2F896FFF772BB}" {
+        m_sCallsign "YENOT"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
+     }
+    }
+    SCR_Faction "{648D46336748B246}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{648D3C2E4F6005BD}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{648D3C2E5C06EF29}" {
+        m_sCallsign "OREL"
+       }
+       SCR_CallsignInfo "{648D3C2E5DEF1172}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{648D3C2E5DF5B7F3}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{648D3C2E5DD97C6B}" {
+        m_sCallsign "3"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
+     }
+    }
+   }
+  }
+ }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  {
@@ -15,7 +75,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/Restri
   m_fZoneTeleportedRadius 80
  }
  {
-  coords 4412.175 20.784 2370.542
+  coords 4365.39 20.594 2366.737
   angles 0 0 -0.895
   m_fWarnRadius 20
   m_fZoneRadius 70
@@ -29,48 +89,54 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_factionKeys {
      "RHS_AFRF"
     }
+    m_lineWidth 5
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "RHS_AFRF"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0 0 0.5
    }
   }
   coords 3000 21.188 1500
   Points {
    ShapePoint "{68A774B9C7795A81}" {
-    Position -50 -3.732 700
+    Position 0 10 600
    }
    ShapePoint "{68A774B8B2AA0B33}" {
-    Position -200 -9.149 1200
+    Position -200 10 1200
    }
    ShapePoint "{68A774B9C54567EE}" {
-    Position -125 -0.418 1275
+    Position 0 10 1300
    }
    ShapePoint "{68A774B9CC0CF777}" {
-    Position 726.085 3.373 1401.213
+    Position 700 10 1400
    }
    ShapePoint "{68A774B9D063FD15}" {
-    Position 759.759 0.004 1126.284
+    Position 800 10 1100
    }
    ShapePoint "{68A774B828448E71}" {
-    Position 1196.435 -0.333 979.848
+    Position 1000 -1.408 900
    }
    ShapePoint "{68A774B82F1D20F2}" {
-    Position 1500 0 1000
+    Position 1400 10 900
    }
    ShapePoint "{68A774B82D0035FF}" {
-    Position 1500 0 350
+    Position 1400 10 300
    }
    ShapePoint "{68A774B8308575A1}" {
-    Position 1200 -4.05 200
-   }
-   ShapePoint "{68A774B866C61A8F}" {
-    Position 700 -2.639 150
+    Position 1000 10 100
    }
    ShapePoint "{68A774BDE51D7521}" {
-    Position 250 -3.938 125
-   }
-   ShapePoint "{68AA05D7BAC2EC7C}" {
-    Position 200 -3.907 250
+    Position 300 10 100
    }
    ShapePoint "{68A774B8361D6FA2}" {
-    Position -100 -3.277 300
+    Position -100 10 300
+   }
+   ShapePoint "{68DCF6601E047E9F}" {
+    Position -100 10 500
    }
   }
  }
@@ -80,36 +146,60 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_factionKeys {
      "GC_CDF"
     }
+    m_lineWidth 5
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_factionKeys {
+     "GC_CDF"
+    }
+    m_visibleForEmptyFaction 0
+    m_color 0 0 0 0.5
    }
   }
-  coords 2964.208 20.831 2318.254
+  coords 3000 20.831 2300
   Points {
    ShapePoint "{68A774BE0C542A48}" {
-    Position -11.145 -2.842 -82.03
+    Position -100 10 100
+   }
+   ShapePoint "{68DCF662AEB0A638}" {
+    Position 0 10 0
    }
    ShapePoint "{68A807812B0BC0BF}" {
-    Position 292.64 0.182 39.456
+    Position 500 10 0
    }
    ShapePoint "{68A774BE0C809126}" {
-    Position 822.546 -1.752 79.537
+    Position 700 10 200
+   }
+   ShapePoint "{68DCF67970A17638}" {
+    Position 700 3.945 600
    }
    ShapePoint "{68A774BE17BAC681}" {
-    Position 710.564 3.919 1012.219
+    Position 400 4.263 900
    }
    ShapePoint "{68A774BE726B3302}" {
-    Position -219.333 2.2 799.788
+    Position 100 10 900
    }
    ShapePoint "{68A774BE6AF01196}" {
-    Position -455.624 -1.041 654.251
+    Position -600 10 700
    }
-   ShapePoint "{68A774BE7ECE40B9}" {
-    Position -156.219 -6.302 344.262
+   ShapePoint "{68DB485015B02118}" {
+    Position -500 10 400
+   }
+   ShapePoint "{68DB48501A3627D8}" {
+    Position -200 10 400
    }
   }
-  LineColor 0 0.1255 0.502 1
+  LineColor 0.3882 0.7765 0 1
  }
 }
-SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
- coords 3728.403 18.407 2090.626
- m_fZoneRadius 30
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ {
+  coords 3728.403 18.407 2090.626
+  m_fZoneRadius 30
+ }
+ {
+  coords 3596.258 18.812 1711.693
+  m_fZoneRadius 30
+ }
 }

@@ -3,6 +3,10 @@ SCR_AIGroup gr_cdf_drone : "{28C2538AD0A4338E}Prefabs/Groups/BLUFOR/CDF/Group_CD
   AIFormationComponent "{507E9DC12F541FE6}" {
    Enabled 0
   }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iSquadCallsign 1
+  }
  }
  coords 2527.07 17.14 2832.295
  angles 0 -45 0
@@ -10,11 +14,15 @@ SCR_AIGroup gr_cdf_drone : "{28C2538AD0A4338E}Prefabs/Groups/BLUFOR/CDF/Group_CD
   "{C1BBE6CDE5695940}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_DroneISR_P.et"
   "{FE0CD16F7D1139BD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_DroneFPVLM_P.et"
  }
+ m_sCustomNameSet "Drone Team"
 }
 SCR_AIGroup gr_cdf_hq : "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechPHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    Enabled 0
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
   }
  }
  coords 3344.055 22.656 2639.362
@@ -23,12 +31,17 @@ SCR_AIGroup gr_cdf_hq : "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Mech_Modern
   "{6814EBCED3BBC7B8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_PL_P.et"
   "{F220C3998CD88060}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Medic_P.et"
  }
+ m_sCustomNameSet "HQ"
 }
 $grp SCR_AIGroup : "{8C7AC28E449564C9}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechSquad_1_P.et" {
  gr_cdf_sq1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 2
    }
   }
   coords 3343.871 22.656 2629.672
@@ -47,6 +60,10 @@ $grp SCR_AIGroup : "{8C7AC28E449564C9}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
    AIFormationComponent "{507E9DC12F541FE6}" {
     Enabled 0
    }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 3
+   }
   }
   coords 3004.445 20.828 2382.459
   angles 0 -106.475 0
@@ -58,5 +75,6 @@ $grp SCR_AIGroup : "{8C7AC28E449564C9}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
    "{ADC160CEB508357F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_SR_P.et"
    "{15A1F53F24A66F96}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_RiflemanLAT_P.et"
   }
+  m_sCustomNameSet "2nd Squad"
  }
 }

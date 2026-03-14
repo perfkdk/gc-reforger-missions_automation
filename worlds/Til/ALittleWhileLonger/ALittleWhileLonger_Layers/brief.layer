@@ -1,34 +1,56 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  C1_Situation {
-  m_aVisibleForFactions {
-   "GC_CDF"
-  }
- }
- C2_Mission {
-  coords 0 0 0
-  m_aVisibleForFactions {
-   "GC_CDF"
-  }
- }
- C3_Support {
-  coords 0 0 0
-  m_sTextData "<h1>Service/Support</h1>"\
-  "No resupply"\
-  "Drones: 3x FPV, 2x ISR, spare batteries"\
+  m_sTitle "Situation"
+  m_sTextData "<h2>Situation</h2>"\
   ""\
-  "<h1>Command/Signal</h1>"\
-  "0"\
-  "1"\
-  "2"\
-  "drone team"
+  "<b>a. Enemy Forces</b>"\
+  ""\
+  "Russian infantry with an estimated strength of around 30, likely with some AFV and ISR support."\
+  "Enemy forces have recently been attempting to advance from the south, their immediate goal is likely to seize position MIRO in support of the main westwards attack axis."\
+  ""\
+  "<b>Friendly Forces</b>"\
+  ""\
+  "Due to mounting pressure, friendly positions to the north east have become increasingly untenable."\
+  "Battalion HQ has now ordered a westwards withdrawal along to ASR to fallback positions."\
+  "Your platoon has been tasked with covering this withdrawal of friendly forces along the ASR before falling back itself."
   m_aVisibleForFactions {
    "GC_CDF"
   }
+  m_iOrder 1
+ }
+ R2_Mission {
+  coords 0 0 0
+  m_sTitle "Mission"
+  m_sTextData "<h2>Mission</h2>"\
+  "SEIZE objective NORA within 30 minutes."\
+  ""\
+  "<h2>Service/Support</h2>"\
+  "10-20 minutes after the start, some motorcycles will spawn at the squads initial positions, intended for respawning players"\
+  "No resupply"\
+  "No fire support"\
+  "GRIZON has 2 ISR quadcopters and spare batteries"\
+  ""\
+  "<h2>Command/Signal</h2>"\
+  "42.0MHz"\
+  ""\
+  "BARSUK (HQ)"\
+  ""\
+  "	LASKA"\
+  "	NORKA"\
+  "	VYDRA"\
+  "	KUNITSA (MG)"\
+  ""\
+  "	GRIZON (ISR)"\
+  "	YENOT (BMP)"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 2
  }
  A0_Overview {
   coords 0 0 0
   m_sTitle "Overview"
-  m_sTextData "CDF attempt to delay Russians"
+  m_sTextData "CDF attempt to delay Russians in order to cover the withdrawal of friendly forces"
   m_bEmptyFactionVisibility 1
  }
  A7_Drones {
@@ -52,29 +74,52 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>Other:</b>"\
   "- As you fly further away, your connection quality deteriorates"\
-  "- Watch your battery, it can be replaced upon returning"
+  "- Watch your battery, it can be replaced upon returning"\
+  ""\
+  ""\
+  "In the context of this mission, (armed) FPV drones may not take off before the end of the setup timer, only ISR drones!"
   m_bShowForAnyFaction 1
+  m_iOrder 7
  }
  A6_Notes {
   coords 0 0 0
   m_sTitle "Notes"
-  m_sTextData "Russians have 5 respawns"
-  m_bShowForAnyFaction 1
- }
- R3_Support {
-  coords 0 0 0
-  m_sTitle "Support"
-  m_sTextData "<h1>Service/Support</h1>"\
-  "5-15 minutes after start, some motorcycles will spawn at SQ1 and SQ2 position, intended for respawning players"\
-  "No resupply"\
-  "No fire support"\
-  "Drone"\
+  m_sTextData "Russians have 5 respawns"\
   ""\
-  "<h1>Command/Signal</h2>"\
-  "42.0MHz"\
-  "callsigns"
+  "Victory conditions:"\
+  "- RU: Position taken within the specified time, or 70% CDF casualties"\
+  "- CDF: 80% extracted after delaying for long enough, or 90% RU casualties"
+  m_bShowForAnyFaction 1
+  m_iOrder 6
+ }
+ C2_Mission {
+  coords 0 0 0
+  m_sTitle "Mission"
+  m_sTextData "<h2>Mission</h2>"\
+  "DELAY the Russian assault on position MIRO by at least 30 minutes in order to COVER the withdrawal of friendly forces, then WITHDRAW to area BELO."\
+  ""\
+  "<h2>Service/Support</h2>"\
+  "No resupply"\
+  "Both squads have 8 AP mines available"\
+  "Drones: 3x FPV, 2x ISR, spare batteries"\
+  ""\
+  "<h2>Command/Signal</h2>"\
+  "0 (HQ)"\
+  "	1"\
+  "	2"\
+  "	OREL (drone team)"
+  m_aVisibleForFactions {
+   "GC_CDF"
+  }
+  m_iOrder 2
+ }
+ R1_Situation {
+  coords 0 0 0
+  m_sTitle "Situation"
+  m_sTextData "<h2>Situation</h2>"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
+  m_iOrder 1
  }
 }
