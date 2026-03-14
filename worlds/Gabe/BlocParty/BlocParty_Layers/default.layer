@@ -390,6 +390,9 @@ TILW_MissionFrameworkEntity TilFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Mi
      m_messageBody "Time limit reached. Now, die with honor."
     }
    }
+   m_condition TILW_LiteralTerm "{68DD298630EE8034}" {
+    m_invertTerm 1
+   }
   }
   TILW_MissionEvent "{68B6181C4CF7581A}" {
    m_name "AFRFSouthSideObj"
