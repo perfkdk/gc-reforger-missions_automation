@@ -33,6 +33,7 @@ $grp SCR_AIGroup : "{3D56369D21B1D656}Prefabs/Groups/OPFOR/Russia/2025/Group_AFR
   m_aUnitPrefabSlots +{
    "{6AFB6BB94BCE57C7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_AntiDrone.et"
   }
+  m_sCustomNameSet "HQ"
   m_bSetPlayable 1
  }
  gr_ru_drone {
@@ -49,6 +50,7 @@ $grp SCR_AIGroup : "{3D56369D21B1D656}Prefabs/Groups/OPFOR/Russia/2025/Group_AFR
   m_aUnitPrefabSlots {
    "{ECDEB69848F2E0A1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_DroneISR.et"
   }
+  m_sCustomNameSet "ISR Drone"
   m_bSetPlayable 1
  }
 }
@@ -74,6 +76,7 @@ $grp SCR_AIGroup : "{5BD9D75C1E44BEC1}Prefabs/Groups/OPFOR/Russia/2025/Group_AFR
    "{9ED29A9BECAF6BD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_Rifle.et"
    "{9ED29A9BECAF6BD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_Rifle.et"
   }
+  m_sCustomNameSet "Assault Group"
   m_bSetPlayable 1
  }
  gr_ru_sq2 {
@@ -96,6 +99,7 @@ $grp SCR_AIGroup : "{5BD9D75C1E44BEC1}Prefabs/Groups/OPFOR/Russia/2025/Group_AFR
    "{9ED29A9BECAF6BD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_Rifle.et"
    "{6AFB6BB94BCE57C7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_AntiDrone.et"
   }
+  m_sCustomNameSet "Assault Group"
   m_bSetPlayable 1
  }
  gr_ru_sq3 {
@@ -116,6 +120,7 @@ $grp SCR_AIGroup : "{5BD9D75C1E44BEC1}Prefabs/Groups/OPFOR/Russia/2025/Group_AFR
    "{9ED29A9BECAF6BD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_Rifle.et"
    "{9ED29A9BECAF6BD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_Rifle.et"
   }
+  m_sCustomNameSet "Assault Group"
   m_bSetPlayable 1
  }
 }
@@ -136,6 +141,7 @@ SCR_AIGroup gr_ru_vehicle : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV
   "{2260894A1404A766}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewGunner_P.et"
   "{F3147744B1840A05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewDriver_P.et"
  }
+ m_sCustomNameSet "BMP-1"
 }
 SCR_AIGroup gr_ru_sq4 : "{EFD36538A8307CBB}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_TeamMG.et" {
  components {
@@ -154,5 +160,6 @@ SCR_AIGroup gr_ru_sq4 : "{EFD36538A8307CBB}Prefabs/Groups/OPFOR/Russia/2025/Grou
   "{A3112A09DC966360}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_MG.et"
   "{5367F6743EA46AF2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/Character_AFRF_2025_AMG.et"
  }
+ m_sCustomNameSet "MG Team"
  m_bSetPlayable 1
 }

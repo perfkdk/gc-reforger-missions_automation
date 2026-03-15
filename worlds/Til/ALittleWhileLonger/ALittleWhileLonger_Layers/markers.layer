@@ -67,7 +67,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
     Position -60.809 0 12.096
    }
    ShapePoint "{68DD59107AD6251C}" {
-    Position -62 0 -0
+    Position -62 0 0
    }
    ShapePoint "{68DD59107AD632E0}" {
     Position -60.809 0 -12.096
@@ -134,32 +134,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "bmp"
-  m_fWorldSize 60
+  m_fWorldSize 80
   m_sDescription "YENOT"
-  m_aVisibleForFactions {
-   "RHS_AFRF"
-  }
- }
- marker_ru_fp1 {
-  coords 3348.744 21.064 2452.228
-  angles 0 -90 0
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.251 0.502 0 0.5
-  m_sQuadName "fp"
-  m_fWorldSize 300
-  m_aVisibleForFactions {
-   "RHS_AFRF"
-  }
- }
- marker_ru_fp2 {
-  coords 2994.035 22.164 2300.169
-  angles 0 -90 0
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.251 0.502 0 0.5
-  m_sQuadName "fp"
-  m_fWorldSize 300
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -274,13 +250,81 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
  }
  marker_cdf_cf {
-  coords 3150 18.734 2550
+  coords 3250 18.734 2600
   angles 0 90 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.251 0.502 0 1
   m_sQuadName "infantry"
   m_fWorldSize 70
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
   m_bVisibleForEmptyFaction 1
+ }
+ marker_ru_1 {
+  coords 3200 20.594 1800
+  angles 0 -2 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 90
+  m_sDescription "BARSUK+LASKA"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ marker_ru_2 {
+  coords 4200 20.594 1900
+  angles 0 -2 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 80
+  m_sDescription "NORKA"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ marker_ru_3 {
+  coords 3600 20.594 1700
+  angles 0 -2 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 80
+  m_sDescription "VYDRA"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ marker_ru_4 {
+  coords 3750 20.594 2100
+  angles 0 -2 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 60
+  m_sDescription "KUNITSA"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ marker_ru_drone {
+  coords 4250 20.594 950
+  angles 0 -2 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "recon"
+  m_fWorldSize 60
+  m_sDescription "KUNITSA"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
  }
 }

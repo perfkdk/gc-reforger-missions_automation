@@ -2,6 +2,18 @@ SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
  coords 3144.743 20.788 2622.64
 }
 PS_GameModeCoop gamemode_rl : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{68DD6D0BECD0066B}" {
+     m_sWeatherPresetName "Overcast"
+     m_iStartingHour 12
+    }
+   }
+  }
+ }
+ m_iFreezeTime 180000
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{68DB2CA837F286A0}" {
    m_sFactionKey "RHS_AFRF"
@@ -9,7 +21,7 @@ PS_GameModeCoop gamemode_rl : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lo
   }
  }
  {
-  SCR_FactionManager {
+  SCR_FactionManager "68DD6D1904394706" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
@@ -86,6 +98,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  ao_ru {
   components {
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 15
     m_factionKeys {
      "RHS_AFRF"
     }
@@ -143,6 +156,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  ao_cdf {
   components {
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 15
     m_factionKeys {
      "GC_CDF"
     }

@@ -33,6 +33,10 @@ $grp GenericEntity : "{77CA4803A4A2B8E3}Prefabs/Drones/FPVBase/FPVRPG.et" {
   coords 2524.154 17.233 2833.858
   angles 11.368 91.978 0
  }
+ {
+  coords 2524.122 17.233 2832.922
+  angles 11.368 91.978 0
+ }
 }
 $grp GenericEntity : "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et" {
  {

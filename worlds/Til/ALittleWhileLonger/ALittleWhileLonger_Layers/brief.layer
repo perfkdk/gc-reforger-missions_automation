@@ -8,11 +8,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Russian infantry with an estimated strength of around 30, likely with some AFV and ISR support."\
   "Enemy forces have recently been attempting to advance from the south, their immediate goal is likely to seize position MIRO in support of the main westwards attack axis."\
   ""\
-  "<b>Friendly Forces</b>"\
+  "<b>b. Friendly Forces</b>"\
   ""\
   "Due to mounting pressure, friendly positions to the north east have become increasingly untenable."\
   "Battalion HQ has now ordered a westwards withdrawal along to ASR to fallback positions."\
-  "Your platoon has been tasked with covering this withdrawal of friendly forces along the ASR before falling back itself."
+  "Your platoon has been tasked with covering this withdrawal of friendly forces along the ASR before falling back to area BELA."\
+  ""\
+  "0 and 1 are located at position MIRO, 2 is near position PRIMO. A drone team, OREL, is located at area BELA."\
+  ""\
+  "MIRO has a building in the north, and a trench in the south. OREL has several trenches and an adjacent barn."
   m_aVisibleForFactions {
    "GC_CDF"
   }
@@ -22,13 +26,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 0 0 0
   m_sTitle "Mission"
   m_sTextData "<h2>Mission</h2>"\
-  "SEIZE objective NORA within 30 minutes."\
+  "DISRUPT the enemy withdrawal by ASSAULTING the covering force and SEIZING objective NORA within 30 minutes."\
   ""\
   "<h2>Service/Support</h2>"\
-  "10-20 minutes after the start, some motorcycles will spawn at the squads initial positions, intended for respawning players"\
-  "No resupply"\
-  "No fire support"\
-  "GRIZON has 2 ISR quadcopters and spare batteries"\
+  "Motorcycles (for respawns, not initially available)"\
+  "YENOT, BMP-1, has been tasked with providing fire support"\
+  "GRIZON, responsible for ISR, has 2 quadcopters and spare batteries"\
   ""\
   "<h2>Command/Signal</h2>"\
   "42.0MHz"\
@@ -74,17 +77,18 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>Other:</b>"\
   "- As you fly further away, your connection quality deteriorates"\
-  "- Watch your battery, it can be replaced upon returning"\
-  ""\
-  ""\
-  "In the context of this mission, (armed) FPV drones may not take off before the end of the setup timer, only ISR drones!"
+  "- Watch your battery, it can be replaced upon returning"
   m_bShowForAnyFaction 1
   m_iOrder 7
  }
  A6_Notes {
   coords 0 0 0
   m_sTitle "Notes"
-  m_sTextData "Russians have 5 respawns"\
+  m_sTextData "3 minute setup timer (restricts RU)"\
+  ""\
+  "RU have 5 respawns"\
+  ""\
+  "FPV-LM drones may not take off before the end of the setup timer, only ISR drones!"\
   ""\
   "Victory conditions:"\
   "- RU: Position taken within the specified time, or 70% CDF casualties"\
@@ -96,14 +100,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 0 0 0
   m_sTitle "Mission"
   m_sTextData "<h2>Mission</h2>"\
-  "DELAY the Russian assault on position MIRO by at least 30 minutes in order to COVER the withdrawal of friendly forces, then WITHDRAW to area BELO."\
+  "DELAY the Russian assault on position MIRO for 30 minutes in order to COVER the withdrawal of friendly forces, then WITHDRAW to area BELA immediately."\
   ""\
   "<h2>Service/Support</h2>"\
-  "No resupply"\
   "Both squads have 8 AP mines available"\
-  "Drones: 3x FPV, 2x ISR, spare batteries"\
+  "OREL team will provide ISR and fire support"\
+  "4x FPV-LM, 2x ISR, spare batteries"\
   ""\
   "<h2>Command/Signal</h2>"\
+  "48.0MHz"\
+  ""\
   "0 (HQ)"\
   "	1"\
   "	2"\
@@ -116,7 +122,25 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  R1_Situation {
   coords 0 0 0
   m_sTitle "Situation"
-  m_sTextData "<h2>Situation</h2>"
+  m_sTextData "<h2>Situation</h2>"\
+  ""\
+  "<b>a. Enemy Forces</b>"\
+  ""\
+  "Chernarussian infantry, strength estimated up to 15, defending objective NORA. They are armed exclusively with small arms, but likely have ISR and FPV-LM support, and may have planted a small number of AP mines."\
+  "The force is covering the southern flank of an ongoing withdrawal along the northern ASR."\
+  ""\
+  "<b>b. Friendly Forces</b>"\
+  ""\
+  "Several small groups of infantry that previously infiltrated the area south of objective NORA."\
+  ""\
+  "The force has been tasked with seizing objective NORA (033 026) in order to disrupt the enemy withdrawal before it can be completed."\
+  ""\
+  "BARSUK (HQ) is at a farmstead in the west together with LASKA group."\
+  "NORKA group is further east, currently standing by in a forested area."\
+  "VYDRA group is inbetween, KUNITSA team (MG) is already further ahead."\
+  ""\
+  "YENOT, a BMP-1, will arrive from the west via the MSR to support the assault."\
+  "GRIZON will provide ISR support from the south east (042 009)."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }

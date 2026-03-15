@@ -161,7 +161,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
     TILW_SendMessageInstruction "{68A774B3EF541364}" {
      m_executionDelay 1800
      m_messageTitle "DELAY COMPLETE"
-     m_messageBody "You have delayed the Russians for long enough and may now retreat."
+     m_messageBody "The Russians have been delayed for long enough, withdraw to area BELA immediately."
      m_factionKeys {
       "GC_CDF"
      }
@@ -200,7 +200,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
    m_instructions {
     TILW_SendMessageInstruction "{68D92636C0F0B11C}" {
      m_messageTitle "CDF VICTORY"
-     m_messageBody "The CDF successfully extracted after delaying the Russians for long enough."
+     m_messageBody "The CDF covering force successfully withdrew after delaying the Russians for long enough."
     }
    }
    m_condition TILW_ConjunctionTerm "{68D92636855610EF}" {
@@ -223,7 +223,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
    m_instructions {
     TILW_SendMessageInstruction "{68DB2CADEF84C05D}" {
      m_messageTitle "RUSSIAN VICTORY"
-     m_messageBody "The CDF suffered severe casualties."
+     m_messageBody "The CDF covering force suffered severe casualties."
     }
    }
    m_condition TILW_LiteralTerm "{68DB2CAFC99B9D52}" {
@@ -235,7 +235,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
    m_instructions {
     TILW_SendMessageInstruction "{68DB2CAA17A9FE85}" {
      m_messageTitle "RUSSIAN VICTORY"
-     m_messageBody "The Russians managed to capture the CDF position on schedule."
+     m_messageBody "The Russians managed to capture the CDF position in time, disrupting the withdrawal."
     }
    }
    m_condition TILW_ConjunctionTerm "{68DB2CAA3543551F}" {
