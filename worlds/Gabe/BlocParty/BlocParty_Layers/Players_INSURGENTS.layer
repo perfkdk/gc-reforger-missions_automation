@@ -14,40 +14,6 @@ SCR_AIGroup CentralCommand : "{0A0D72CDE16A9A9D}Prefabs/Groups/OPFOR/GC_INSURGEN
   "{040BCEE9A8091FEB}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Medic_P.et"
  }
 }
-$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
- Ural4320_transport1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
-      SlotTemplate InventoryStorageSlot Bandages {
-       Prefab "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_base.et"
-      }
-      NumSlots 8
-     }
-    }
-   }
-  }
-  coords 4050.994 17.844 4633.079
-  angles 0 136.515 0
- }
- Ural4320_transport2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
-      SlotTemplate InventoryStorageSlot Bandages {
-       Prefab "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_base.et"
-      }
-      NumSlots 8
-     }
-    }
-   }
-  }
-  coords 4086.76 17.844 4595.475
-  angles 0 -43.294 0
- }
-}
 Vehicle S105_lightgreen1 : "{321016E0F9361A22}Prefabs/Vehicles/Wheeled/S105/S105_lightgreen.et" {
  coords 4080.661 17.844 4602.542
  angles 0 -41.808 0
@@ -193,54 +159,20 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
   }
   m_sCustomNameSet "Rebel Cell"
  }
- Group1Cell4 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
-   }
-   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-    Enabled 1
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 5
-   }
-  }
-  coords 4085.225 17.844 4621.594
-  angles 0 45.21 0
-  m_aUnitPrefabSlots {
-   "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et"
-   "{B599A1329E64DBF0}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_MG_P.et"
-   "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
-   "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et"
-  }
-  m_sCustomNameSet "Rebel Cell"
- }
- Group2Cell4 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "file"
-   }
-   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-    Enabled 1
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 5
-   }
-  }
-  coords 4072.122 17.844 4636.006
-  angles 0 48.817 0
-  m_aUnitPrefabSlots {
-   "{57F7E238FEAF7E01}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_TL_P.et"
-   "{B599A1329E64DBF0}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_MG_P.et"
-   "{9D243834CC857277}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AT_P.et"
-   "{20F46AB3B39E6E69}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_AR_P.et"
-  }
-  m_sCustomNameSet "Rebel Cell"
- }
 }
 Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
  coords 4063.63 17.844 4620.821
  angles 0 135.665 0
+}
+$grp Vehicle : "{A763F4534F0A822B}worlds/Gabe/BlocParty/Prefabs/Ural4320_transport_Gabe.et" {
+ Ural4320_transport_Gabe1 {
+  coords 4050.994 17.844 4633.079
+  angles 0 136.515 0
+ }
+ Ural4320_transport_Gabe2 {
+  coords 4086.285 17.844 4596.226
+  angles 0 -41.91 0
+ }
 }
 $grp SCR_AIGroup : "{B7430DCCC8D6FA05}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INSURGENT_PHQ_P.et" {
  Group1_HQ {
@@ -259,6 +191,7 @@ $grp SCR_AIGroup : "{B7430DCCC8D6FA05}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
   angles 0 -134.565 0
   m_aUnitPrefabSlots {
    "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et"
+   "{FCA44EF076808450}worlds/Gabe/BlocParty/Prefabs/Character_GC_INSURGENT_RadioMan.et"
    "{040BCEE9A8091FEB}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Medic_P.et"
   }
  }
@@ -278,6 +211,7 @@ $grp SCR_AIGroup : "{B7430DCCC8D6FA05}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
   angles 0 -134.685 0
   m_aUnitPrefabSlots {
    "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et"
+   "{FCA44EF076808450}worlds/Gabe/BlocParty/Prefabs/Character_GC_INSURGENT_RadioMan.et"
    "{040BCEE9A8091FEB}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Medic_P.et"
   }
  }
