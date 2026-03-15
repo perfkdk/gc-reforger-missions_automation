@@ -481,6 +481,9 @@ $grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/Generator
     }
     m_eInitialLightState LIT
    }
+   SCR_DestructionMultiPhaseComponent "{51E082CF9891AD6F}" {
+    Enabled 1
+   }
   }
   coords 7033.18 106.932 5036.613
   angles 5.069 168.894 2.639
@@ -495,6 +498,9 @@ $grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/Generator
      }
     }
     m_eInitialLightState LIT
+   }
+   SCR_DestructionMultiPhaseComponent "{51E082CF9891AD6F}" {
+    Enabled 1
    }
   }
   coords 7065.756 107.715 5057.974
@@ -511,6 +517,9 @@ $grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/Generator
     }
     m_eInitialLightState LIT
    }
+   SCR_DestructionMultiPhaseComponent "{51E082CF9891AD6F}" {
+    Enabled 1
+   }
   }
   coords 7081.057 110.221 5085.788
   angles 3.821 125.888 3.86
@@ -525,6 +534,9 @@ $grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/Generator
      }
     }
     m_eInitialLightState LIT
+   }
+   SCR_DestructionMultiPhaseComponent "{51E082CF9891AD6F}" {
+    Enabled 1
    }
   }
   coords 6983.219 102.302 5061.01
@@ -541,9 +553,66 @@ $grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/Generator
     }
     m_eInitialLightState LIT
    }
+   SCR_DestructionMultiPhaseComponent "{51E082CF9891AD6F}" {
+    Enabled 1
+   }
   }
   coords 6950.291 98.504 5090.594
   angles -3.019 -119.389 3.746
+ }
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{5882B9E6B4EFC9DF}" {
+    m_aLightData {
+     SCR_BaseLightData "{58CF1C10765BAE08}" {
+      m_fRadius 100
+      m_eLightFlags 3
+     }
+    }
+    m_eInitialLightState LIT
+   }
+   SCR_DestructionMultiPhaseComponent "{51E082CF9891AD6F}" {
+    Enabled 1
+   }
+  }
+  coords 6611.487 109.625 5875.553
+  angles 3.815 74.214 -2.931
+ }
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{5882B9E6B4EFC9DF}" {
+    m_aLightData {
+     SCR_BaseLightData "{58CF1C10765BAE08}" {
+      m_fRadius 100
+      m_eLightFlags 3
+     }
+    }
+    m_eInitialLightState LIT
+   }
+   SCR_DestructionMultiPhaseComponent "{51E082CF9891AD6F}" {
+    Enabled 1
+   }
+  }
+  coords 6578.766 109.918 5913.435
+  angles 4.612 128.332 1.367
+ }
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{5882B9E6B4EFC9DF}" {
+    m_aLightData {
+     SCR_BaseLightData "{58CF1C10765BAE08}" {
+      m_fRadius 100
+      m_eLightFlags 3
+     }
+    }
+    m_eInitialLightState LIT
+   }
+   SCR_DestructionMultiPhaseComponent "{51E082CF9891AD6F}" {
+    Enabled 1
+   }
+  }
+  coords 6638.974 109.547 5863.521
+  angles 2.224 49.277 -4.266
  }
 }
 $grp LightEntity : "{63CEA4803C21AF12}Prefabs/Weapons/Ammo/TracerLight/Light_Tracer_Red.et" {
@@ -551,13 +620,13 @@ $grp LightEntity : "{63CEA4803C21AF12}Prefabs/Weapons/Ammo/TracerLight/Light_Tra
   coords 7326.425 184.481 4063.793
  }
  {
-  coords 7337.248 185.933 4067.551
+  coords 7326.029 184.384 4061.705
  }
  {
-  coords 7344.577 185.402 4078.266
+  coords 7333.358 185.329 4072.42
  }
  {
-  coords 7333.481 182.76 4093.498
+  coords 7322.262 183.854 4087.652
  }
  {
   coords 7313.972 183.202 4093.813
@@ -589,6 +658,10 @@ SCR_DestructibleEntity : "{6F8F4B72818FA203}PrefabLibrary/DefaultLibrary/Walls/W
 GenericEntity : "{7A32336CED936A26}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_01.et" {
  coords 6974.854 101.256 5071.793
  angles 0 0 1.129
+}
+GenericEntity : "{87DDB867EAD6C494}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_USSR_01_PKM.et" {
+ coords 6941.979 97.541 5099.638
+ angles 0 -104.8 0
 }
 GenericEntity : "{893935FCF38F4B20}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Typewriter_US_01.et" {
  coords 6992.009 105.954 5094.457
@@ -622,17 +695,6 @@ GenericEntity : "{A6FA47E1AD0EB5E1}PrefabsEditable/Auto/Props/Furniture/Chair_03
 GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
  coords 6994.433 102.698 5095.767
  angles 0 -42.648 0
-}
-$grp GenericEntity : "{AA7F04F403FD2E00}PrefabsEditable/EffectsModules/Flares/EffectModule_Mortar_Flare_Illumination.et" {
- {
-  coords 7005.805 145.243 5111.615
- }
- {
-  coords 6642.685 144.224 5874.124
- }
- {
-  coords 7317.281 205.294 4084.171
- }
 }
 GenericEntity : "{AC29BA31A35382AB}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/InteractionPoints/E_PersonnelService_US_Large_NoAffiliation.et" {
  coords 6983.644 105.948 5083.642

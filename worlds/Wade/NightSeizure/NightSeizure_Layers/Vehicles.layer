@@ -8,12 +8,6 @@ Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_
      }
      NumSlots 100
     }
-    MultiSlotConfiguration "{68DA09A8AC11551A}" {
-     SlotTemplate InventoryStorageSlot Sandbags {
-      Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
-     }
-     NumSlots 100
-    }
    }
   }
  }
@@ -24,12 +18,6 @@ Vehicle UAZ2 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
    MultiSlots {
-    MultiSlotConfiguration "{68DA09A92A2B0F1A}" {
-     SlotTemplate InventoryStorageSlot Sandbags {
-      Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
-     }
-     NumSlots 100
-    }
     MultiSlotConfiguration "{68DA09A872B324F5}" {
      SlotTemplate InventoryStorageSlot WhiteFlare {
       Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
@@ -46,21 +34,11 @@ Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/U
  coords 6652.375 109.598 5864.321
  angles 0 25.399 0
 }
-GenericEntity : "{87DDB867EAD6C494}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_USSR_01_PKM.et" {
- coords 6941.979 97.541 5099.638
- angles 0 -104.8 0
-}
 $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
  Ural4320_transport_covered1 {
   components {
    SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
     MultiSlots {
-     MultiSlotConfiguration "{68DA09A83A5541F8}" {
-      SlotTemplate InventoryStorageSlot Sandbag {
-       Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
-      }
-      NumSlots 100
-     }
      MultiSlotConfiguration "{68DA09A83B8BEF0D}" {
       SlotTemplate InventoryStorageSlot Flare {
        Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"
@@ -77,12 +55,6 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   components {
    SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
     MultiSlots {
-     MultiSlotConfiguration "{68DA09A83A5541F8}" {
-      SlotTemplate InventoryStorageSlot Sandbag {
-       Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
-      }
-      NumSlots 100
-     }
      MultiSlotConfiguration "{68DA09A83B8BEF0D}" {
       SlotTemplate InventoryStorageSlot Flare {
        Prefab "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et"

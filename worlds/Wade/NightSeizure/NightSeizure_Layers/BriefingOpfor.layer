@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7043.334 107.094 5124.009
   m_sTitle "Situation"
-  m_sTextData "U.S. Special Forces have been reported in the area to the South of OBJ PizzaDox. USSR Spetnaz have been dispatched to defend vital intelligence from falling into the hand of American forces. The Americans are already on there way, so you need to hurry to set up a hasty defense."\
+  m_sTextData "U.S. Special Forces have been reported in the area to the South of OBJ PizzaDox. USSR Spetnaz have been dispatched to defend vital intelligence from falling into the hand of American forces. The Americans are already on there way. Defences are already in place."\
   ""\
   "Enemy Forces:"\
   "1x PLT US Special Forces South of the OBJ."\
@@ -33,16 +33,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 7045.876 107.017 5118.654
   m_sTitle "Sustainment"
-  m_sTextData "At spawn there are "\
-  "2x Urals 100x White Flares and 100x Sandbags per"\
-  "1x UAZ 100x White Flares and 100x Sandbags"\
-  "1x UAZ PKM 100x White Flares and 100x Sandbags"\
+  m_sTextData "At spawn there are:"\
+  "2x Urals 100x White Flares"\
+  "1x UAZ 100x White Flares"\
+  "1x UAZ PKM 100x White Flares"\
   "1x Ambulance"\
   ""\
   "Defenses already set up at OBJ."\
   "Light emplacements, bunkers, trenches, etc."\
   ""\
-  "100x White Flares and 100x Sandbags in most vehicles."\
+  "100x White Flares in most vehicles."\
   ""\
   ""\
   "Mortar is located at OBJ PizzaDox."\
