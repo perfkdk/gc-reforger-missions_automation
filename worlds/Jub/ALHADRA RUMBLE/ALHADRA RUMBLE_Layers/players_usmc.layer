@@ -10,7 +10,8 @@ SCR_AIGroup Phq : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Marin
 }
 SCR_AIGroup LAR1 : "{30749B2F12C0D2A7}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Desert/Group_USMC_2025_LAR_SQ_D_2.et" {
  components {
-  PS_GroupCallsignAssigner "{68C8235E4D988830}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iCompanyCallsign 5
    m_iSquadCallsign 2
   }
@@ -22,7 +23,8 @@ SCR_AIGroup LAR1 : "{30749B2F12C0D2A7}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/
 }
 SCR_AIGroup LARSG : "{307ABCB88B990546}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Desert/Group_USMC_2025_LAR_PSG_D.et" {
  components {
-  PS_GroupCallsignAssigner "{68C8235E30DB0D08}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iCompanyCallsign 5
    m_iSquadCallsign 3
   }
@@ -88,7 +90,8 @@ GenericEntity : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/
 }
 SCR_AIGroup LARPL : "{9D78FEAE9DC4C01C}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Desert/Group_USMC_2025_LAR_HQ_D.et" {
  components {
-  PS_GroupCallsignAssigner "{68C8235E35FF55BC}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iCompanyCallsign 5
   }
  }
@@ -108,7 +111,8 @@ SCR_AIGroup LARPL : "{9D78FEAE9DC4C01C}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR
 }
 SCR_AIGroup LAR2 : "{C2F72C8E9B53AFA3}Prefabs/Groups/BLUFOR/US/Marines/2025/LAR/Desert/Group_USMC_2025_LAR_SQ_D.et" {
  components {
-  PS_GroupCallsignAssigner "{68C8235E4EBE473F}" {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
    m_iCompanyCallsign 5
    m_iSquadCallsign 1
   }
