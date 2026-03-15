@@ -65,7 +65,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Secure the intel"\
   "Get the intel at least 300 meters away from the OBJ"\
   ""\
-  "The intel is randomly placed on the OBJ inside a structure. It could be hidden extremely well."
+  "The intel is randomly placed on the OBJ inside a structure. It could be hidden extremely well."\
+  ""\
+  "All external light sources can be destroyed with explosives. The red light tower can be either shot out with some bullets or destryoed with explosives (LAW / Demo)."
   m_aVisibleForFactions {
    "US"
   }
