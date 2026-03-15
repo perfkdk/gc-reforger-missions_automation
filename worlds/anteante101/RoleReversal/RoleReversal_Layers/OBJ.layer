@@ -41,6 +41,12 @@ GenericEntity barbox : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/Am
      }
      NumSlots 1
     }
+    MultiSlotConfiguration "{68B84C90487BDA8A}" {
+     SlotTemplate EquipmentStorageSlot mine {
+      Prefab "{91CE54ECA33BCB05}Prefabs/Weapons/Explosives/Mine_M14/Mine_M14_base.et"
+     }
+     NumSlots 2
+    }
    }
   }
   ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -49,4 +55,8 @@ GenericEntity barbox : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/Am
  }
  coords 3727.578 143.603 8038.46
  angles 0 84.968 0
+}
+Vehicle Ural4320_transport_CIV_base1 : "{A2E23CB8DDCFE82E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_base.et" {
+ coords 3634.226 141.128 7875.249
+ angles 0 -163.284 0
 }

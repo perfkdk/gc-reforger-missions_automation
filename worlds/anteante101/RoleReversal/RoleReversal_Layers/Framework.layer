@@ -1,0 +1,443 @@
+SplineShapeEntity {
+ coords 3759.888 140.323 8079.4
+ Points {
+  ShapePoint "{625EE7742915658C}" {
+   Position 169.533 -0.176 -117.444
+  }
+  ShapePoint "{625EE77429157BC8}" {
+   Position 149.023 1.931 -78.694
+  }
+  ShapePoint "{625EE77429154192}" {
+   Position 142.648 1.909 -61.831
+  }
+  ShapePoint "{625EE77429154F81}" {
+   Position 139.273 0.953 -44.593
+  }
+  ShapePoint "{625EE774291556CE}" {
+   Position 138.148 0.866 -29.229
+  }
+  ShapePoint "{625EE77429155D58}" {
+   Position 136.648 -0.477 -8.619
+  }
+  ShapePoint "{625EE7742915291A}" {
+   Position 131.414 -1.405 7.12
+  }
+  ShapePoint "{625EE77429153031}" {
+   Position 132.523 -1.636 37.098
+  }
+  ShapePoint "{625EE77429153F18}" {
+   Position 135.148 -1.774 52.836
+  }
+  ShapePoint "{625EE77429150B3E}" {
+   Position 128.789 -1.329 66.327
+  }
+  ShapePoint "{625EE77429151272}" {
+   Position 111.164 -2.029 76.819
+  }
+  ShapePoint "{625EE77429151953}" {
+   Position 90.555 -2.774 85.813
+  }
+  ShapePoint "{625EE7742914E6BC}" {
+   Position 83.82 -2.947 91.434
+  }
+  ShapePoint "{625EE7742914F2ED}" {
+   Position 81.945 -2.81 104.55
+  }
+  ShapePoint "{625EE7742914C02E}" {
+   Position 74.07 -1.694 119.539
+  }
+  ShapePoint "{625EE7742914CF5D}" {
+   Position 56.086 0.111 119.539
+  }
+  ShapePoint "{625EE7742914D5D5}" {
+   Position 47.086 0.935 119.164
+  }
+  ShapePoint "{625EE7742914A260}" {
+   Position 39.227 1.425 117.665
+  }
+  ShapePoint "{625EE7742914AF09}" {
+   Position 36.977 1.615 109.046
+  }
+  ShapePoint "{625EE7742914B8B9}" {
+   Position 38.102 1.716 97.43
+  }
+  ShapePoint "{625EE77429148766}" {
+   Position 33.602 1.712 85.063
+  }
+  ShapePoint "{625EE77429148DF7}" {
+   Position 22.367 2.93 80.566
+  }
+  ShapePoint "{625EE7742914942D}" {
+   Position 7.742 2.947 84.314
+  }
+  ShapePoint "{625EE7742914635A}" {
+   Position -6.867 2.576 85.063
+  }
+  ShapePoint "{625EE7742914698C}" {
+   Position -18.867 2.23 86.563
+  }
+  ShapePoint "{625EE77429147523}" {
+   Position -36.102 1.65 95.556
+  }
+  ShapePoint "{625EE7742917FF4F}" {
+   Position -51.836 0.9 93.682
+  }
+  ShapePoint "{625EE7742917CE89}" {
+   Position -64.945 1.068 86.188
+  }
+  ShapePoint "{625EE7742917DAAE}" {
+   Position -76.57 1.336 76.07
+  }
+  ShapePoint "{625EE7742917BB5E}" {
+   Position -110.805 0.117 61.83
+  }
+  ShapePoint "{625EE774291766B3}" {
+   Position -113.805 -0.768 29.603
+  }
+  ShapePoint "{625EE77429177125}" {
+   Position -111.93 -0.591 7.494
+  }
+  ShapePoint "{625EE77429177DCF}" {
+   Position -110.43 -1.026 -8.245
+  }
+  ShapePoint "{625EE77429174F9D}" {
+   Position -109.68 -1.139 -18.737
+  }
+  ShapePoint "{625EE77429162638}" {
+   Position -117.555 -1.005 -21.36
+  }
+  ShapePoint "{625EE774291631C1}" {
+   Position -126.164 -0.76 -18.362
+  }
+  ShapePoint "{625EE77429160815}" {
+   Position -150.148 -1.165 -18.737
+  }
+  ShapePoint "{625EE7742911E50F}" {
+   Position -168.508 -1.71 -27.73
+  }
+ }
+ LineColor 0.93 0.13 0.33 1
+ {
+  RoadGeneratorEntity : "{8E83BBD5CEC42A11}Prefabs/WEGenerators/Roads/Dirt/RG_Road_Dirt_01.et" {
+   coords 0 0 0
+   {
+    RoadEntity {
+     ID "523EAA80CAA6C6B5"
+     SplinePoints {
+      ShapePoint "{52346539D885C296}" {
+       Position 169.533 -0.176 -117.444
+      }
+      ShapePoint "{52346539D885C1A2}" {
+       Position 149.023 1.931 -78.694
+      }
+      ShapePoint "{6270CC1E07760C9A}" {
+       Position 142.648 1.909 -61.831
+      }
+      ShapePoint "{6270CC1E07760C2D}" {
+       Position 139.273 0.953 -44.593
+      }
+      ShapePoint "{6270CC1E07760C57}" {
+       Position 138.148 0.866 -29.229
+      }
+      ShapePoint "{6270CC1E07761386}" {
+       Position 136.648 -0.477 -8.619
+      }
+      ShapePoint "{6270CC1E07761336}" {
+       Position 131.414 -1.405 7.12
+      }
+      ShapePoint "{6270CC1E07761358}" {
+       Position 132.523 -1.636 37.098
+      }
+      ShapePoint "{6270CC1E07761285}" {
+       Position 135.148 -1.774 52.836
+      }
+      ShapePoint "{6270CC1E07761236}" {
+       Position 128.789 -1.329 66.327
+      }
+      ShapePoint "{6270CC1E07761259}" {
+       Position 111.164 -2.029 76.819
+      }
+      ShapePoint "{6270CC1E0776118E}" {
+       Position 90.555 -2.774 85.813
+      }
+      ShapePoint "{6270CC1E0776113F}" {
+       Position 83.82 -2.947 91.434
+      }
+      ShapePoint "{6270CC1E0776116D}" {
+       Position 81.945 -2.81 104.55
+      }
+      ShapePoint "{6270CC1E0776109B}" {
+       Position 74.07 -1.694 119.539
+      }
+      ShapePoint "{6270CC1E077610C1}" {
+       Position 56.086 0.111 119.539
+      }
+      ShapePoint "{6270CC1E07761076}" {
+       Position 47.086 0.935 119.164
+      }
+      ShapePoint "{6270CC1E077617A4}" {
+       Position 39.227 1.425 117.665
+      }
+      ShapePoint "{6270CC1E077617DB}" {
+       Position 36.977 1.615 109.046
+      }
+      ShapePoint "{6270CC1E0776177C}" {
+       Position 38.102 1.716 97.43
+      }
+      ShapePoint "{6270CC1E077616AC}" {
+       Position 33.602 1.712 85.063
+      }
+      ShapePoint "{6270CC1E077616DF}" {
+       Position 22.367 2.93 80.566
+      }
+      ShapePoint "{6270CC1E0776160D}" {
+       Position 7.742 2.947 84.314
+      }
+      ShapePoint "{6270CC1E07761640}" {
+       Position -6.867 2.576 85.063
+      }
+      ShapePoint "{6270CC1E077615F6}" {
+       Position -18.867 2.23 86.563
+      }
+      ShapePoint "{6270CC1E07761527}" {
+       Position -36.102 1.65 95.556
+      }
+      ShapePoint "{6270CC1E07761550}" {
+       Position -51.836 0.9 93.682
+      }
+      ShapePoint "{6270CC1E07761486}" {
+       Position -64.945 1.068 86.188
+      }
+      ShapePoint "{6270CC1E07761426}" {
+       Position -76.57 1.336 76.07
+      }
+      ShapePoint "{6270CC1E07761450}" {
+       Position -110.805 0.117 61.83
+      }
+      ShapePoint "{6270CC1E07761BFD}" {
+       Position -113.805 -0.768 29.603
+      }
+      ShapePoint "{6270CC1E07761B2A}" {
+       Position -111.93 -0.591 7.494
+      }
+      ShapePoint "{6270CC1E07761B54}" {
+       Position -110.43 -1.026 -8.245
+      }
+      ShapePoint "{6270CC1E07761A86}" {
+       Position -109.68 -1.139 -18.737
+      }
+      ShapePoint "{6270CC1E07761A31}" {
+       Position -117.555 -1.005 -21.36
+      }
+      ShapePoint "{6270CC1E07761A5E}" {
+       Position -126.164 -0.76 -18.362
+      }
+      ShapePoint "{6270CC1E0776198B}" {
+       Position -150.148 -1.165 -18.737
+      }
+      ShapePoint "{6270CC1E07761928}" {
+       Position -168.508 -1.71 -27.73
+      }
+     }
+     IsClosedSpline 0
+     Width 4
+     Material "{7498C9A3FD5C052E}Assets/Structures/Infrastructure/Roads/Data/Road_Dirt_01_anizay.emat"
+     RandomSeed 8768
+    }
+   }
+  }
+ }
+}
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ {
+  components {
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+   }
+  }
+  coords 3573.664 143.058 8223.063
+  Points {
+   ShapePoint "{688D62DD1026D20C}" {
+    Position 72.861 0 -10.758
+   }
+   ShapePoint "{688D62DD11B9CFAA}" {
+    Position 188.58 0 -11.43
+   }
+   ShapePoint "{688D62DD17C6B5D8}" {
+    Position 194.161 -59.82 -357.032
+   }
+   ShapePoint "{688D62DD1BDF5D6B}" {
+    Position -14.714 0 -348.422
+   }
+   ShapePoint "{688D62DD1DB59B9F}" {
+    Position -11.814 0 -19.137
+   }
+  }
+ }
+ civao {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 5
+    m_factionKeys {
+     "CIV"
+    }
+   }
+  }
+  coords 3700.395 141.18 8047.626
+  Points {
+   ShapePoint "{68B84C92B2BBF80E}" {
+    Position 34.167 0 -2.303
+   }
+   ShapePoint "{68B84C92B3FA9D51}" {
+    Position 35.268 0 -17.707
+   }
+   ShapePoint "{68B84C92B4D0EC39}" {
+    Position 20.256 0 -18.836
+   }
+   ShapePoint "{68B84C92B4309207}" {
+    Position 19.45 0 -3.723
+   }
+  }
+ }
+}
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ EXTRACT_TRIGGER {
+  coords 3635.6 144.602 7876.879
+  angles 0 90.768 0
+  m_queryRadius 6.2
+  m_flagName "EXTRACT"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ignoredFactions {
+   "US"
+   "GC_INSURGENT"
+  }
+  m_ownerFactionKey "CIV"
+  m_ratioThreshold 0.1
+ }
+ delet_ao {
+  coords 3720.777 141.719 8027.141
+  m_queryRadius 29.9
+  m_queryPeriod 1
+  m_flagName "delet_ao"
+  m_playersOnly 1
+  m_ignoredFactions {
+   "US"
+   "CIV"
+  }
+  m_ownerFactionKey "GC_INSURGENT"
+ }
+}
+TILW_MissionFrameworkEntity framwork : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3665.075 143.076 8201.724
+ m_missionEvents {
+  TILW_MissionEvent "{688D62C2DE04F31F}" {
+   m_name "HVT Killed OP4"
+   m_instructions {
+    TILW_SendMessageInstruction "{688D62C2F5D75D94}" {
+     m_executionDelay 1
+     m_messageTitle "HVT DEAD"
+     m_messageBody "HVT is kiled. Make the infidels pay!!!"
+     m_factionKeys {
+      "GC_INSURGENT"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{688D62C40D81E79D}" {
+    m_flagName "HVT_DEAD"
+   }
+  }
+  TILW_MissionEvent "{688D62D8E43E4029}" {
+   m_name "HVT KILLED US"
+   m_instructions {
+    TILW_SendMessageInstruction "{688D62D8EAF5CC32}" {
+     m_executionDelay 1
+     m_messageTitle "HVT DEAD"
+     m_messageBody "HVT IS DEAD. Good job. Fall back and extract."
+     m_factionKeys {
+      "US"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{688D62D8EC433583}" {
+    m_flagName "HVT_DEAD"
+   }
+  }
+  TILW_MissionEvent "{688D62DA105155F9}" {
+   m_name "us killed"
+   m_instructions {
+    TILW_SendMessageInstruction "{688D62DA1B0183AF}" {
+     m_executionDelay 1
+     m_messageTitle "US KILLED"
+     m_messageBody "The US are combat ineffective"
+     m_factionKeys {
+      "GC_INSURGENT"
+      "US"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{688D62DA9FD76D5B}" {
+    m_flagName "B4_KILLED"
+   }
+  }
+  TILW_MissionEvent "{688D62DAABA93AA6}" {
+   m_name "OP4"
+   m_instructions {
+    TILW_SendMessageInstruction "{688D62DAAFAE2D34}" {
+     m_executionDelay 1
+     m_messageTitle "THE INSURGENTS KILLED"
+     m_messageBody "The insurgents are combat ineffective."
+     m_factionKeys {
+      "US"
+      "GC_INSURGENT"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{688D62DAB1DCDB67}" {
+    m_flagName "OP4_KILLED"
+   }
+  }
+  TILW_MissionEvent "{68B84C9240AB4451}" {
+   m_name "hvt extracted"
+   m_instructions {
+    TILW_SendMessageInstruction "{68B84C9248804CBE}" {
+     m_messageTitle "HVT EXTRACTED"
+     m_messageBody "THE INSURGENTS WON"
+    }
+   }
+   m_condition TILW_LiteralTerm "{68B84C92492F7A3D}" {
+    m_flagName "EXTRACT"
+   }
+  }
+  TILW_MissionEvent "{68CD501F8C8A4829}" {
+   m_instructions {
+    TILW_DeleteEntitiesInstruction "{68CD501F91A01FAB}" {
+     m_executionDelay 1
+     m_entityNames {
+      "civao"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{68CD501C40879598}" {
+    m_flagName "delet_ao"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{688D62DBB8D3BE73}" {
+   m_flagName "B4_KILLED"
+   m_factionKey "US"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{688D62DBD4F99F18}" {
+   m_flagName "OP4_KILLED"
+   m_factionKey "GC_INSURGENT"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{689733C9FFE6FADD}" {
+   m_flagName "HVT_DEAD"
+   m_factionKey "CIV"
+   m_casualtyRatio 1
+  }
+ }
+}
