@@ -22,7 +22,7 @@ GenericEntity : "{BAE3E8ECD206B88F}PrefabsEditable/Auto/Props/Military/AmmoBoxes
      SlotTemplate EquipmentStorageSlot Item3 {
       Prefab "{C8A906FB198D1A33}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Illum_S832S.et"
      }
-     NumSlots 100
+     NumSlots 500
     }
    }
   }
