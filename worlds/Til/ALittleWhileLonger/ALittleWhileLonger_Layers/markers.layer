@@ -322,7 +322,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "recon"
   m_fWorldSize 60
-  m_sDescription "KUNITSA"
+  m_sDescription "GRIZON"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
