@@ -132,6 +132,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageBody "US was unable to conduct their breach in time."
     }
    }
+   m_condition TILW_LiteralTerm "{68E1511E6DF7834E}" {
+    m_invertTerm 1
+   }
   }
  }
  m_casualtyFlags {
