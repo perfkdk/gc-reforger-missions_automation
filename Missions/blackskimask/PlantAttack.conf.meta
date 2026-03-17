@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{65D9C9B8D101F54F}Missions/blackskimask/Plant_Attack .conf"
+ Name "{65D9C9B8D101F54F}Missions/blackskimask/PlantAttack.conf"
  Configurations {
   CONFResourceClass PC {
   }
