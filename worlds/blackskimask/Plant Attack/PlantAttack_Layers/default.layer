@@ -41,6 +41,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  coords 6109.12 236.625 6229.905
  m_iFreezeTime 300
  m_safeStartTime 300
+ m_fPrepDuration 0
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
@@ -73,7 +74,7 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  coords 6545.184 201.903 6516.98
  m_queryRadius 100
- m_captureTime 600
+ m_captureTime 300
  m_locationName "POWER PLANT"
  m_flagName "OBJ_A_TAKEN"
  m_stopAfterFirstChange 1
