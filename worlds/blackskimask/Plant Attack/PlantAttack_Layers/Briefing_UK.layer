@@ -40,8 +40,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 6671.346 228.23 6243.292
   m_sTitle "COMM & SIG"
   m_sTextData "Callsigns:"\
-  "10A - COY CO"\
-  "10B - COY XO"\
+  "10A - COY IC"\
+  "10B - COY 2iC"\
+  "10F - CSM"\
   ""\
   "11A - Plt CO"\
   "11B - PSG"\
