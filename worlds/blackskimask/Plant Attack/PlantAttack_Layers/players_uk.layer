@@ -2,7 +2,6 @@ SCR_AIGroup : "{67716813F0986466}Prefabs/Groups/BLUFOR/British Forces/2024/Light
  components {
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1
-   m_iSquadCallsign 1
   }
  }
  coords 6770.534 228.751 6011.742
