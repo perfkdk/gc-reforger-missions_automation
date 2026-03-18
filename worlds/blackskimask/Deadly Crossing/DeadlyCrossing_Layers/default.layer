@@ -10,7 +10,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_iStartingHours 16
    m_bDateOverride 1
    m_iDay 2
-   m_iMonth 2
+   m_iMonth 3
    m_iYear 2027
    m_bOverrideEnvironment 1
    m_fFogDensity 0.2

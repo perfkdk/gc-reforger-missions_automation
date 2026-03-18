@@ -4,7 +4,6 @@ GenericEntity : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/
    MultiSlots {
     MultiSlotConfiguration "{632EA9BEBE5C68E0}" {
      SlotTemplate InventoryStorageSlot stuff {
-      Enabled 0
       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
      }
      NumSlots 4
