@@ -79,9 +79,9 @@ GenericEntity ammoboxRED : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulg
    MultiSlots {
     MultiSlotConfiguration "{632EA9BEBE5C68E0}" {
      SlotTemplate InventoryStorageSlot stuff {
-      Enabled 0
+      Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
      }
-     NumSlots 0
+     NumSlots 1
     }
     MultiSlotConfiguration "{632EA9BEBE5C68ED}" {
      NumSlots 0

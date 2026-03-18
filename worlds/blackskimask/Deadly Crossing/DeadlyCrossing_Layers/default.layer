@@ -121,9 +121,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "TIME_OVER"
    m_instructions {
     TILW_SendMessageInstruction "{68E0D24ED5C6C656}" {
-     m_executionDelay 36000
-     m_messageTitle "TIME - DRAW"
-     m_messageBody "Time ran out, draw."
+     m_executionDelay 3600
+     m_messageTitle "TIME - UK VICTORY"
+     m_messageBody "Time ran out, British forces have delayed the separatists and have won."
     }
    }
    m_condition TILW_LiteralTerm "{68E0D24EF7E05466}" {
@@ -135,8 +135,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_instructions {
     TILW_SendMessageInstruction "{68E0D24E52889F3F}" {
      m_executionDelay 30
-     m_messageTitle "BLUFOR VICTORY - POWER PLANT SECURE"
-     m_messageBody "Power plant was secured by british forces"
+     m_messageTitle "OPFOR VICTORY - RIVER CROSSING SECURE"
+     m_messageBody "River crossing was seized and secure by separatists"
     }
    }
    m_condition TILW_LiteralTerm "{68E0D24E350327E5}" {

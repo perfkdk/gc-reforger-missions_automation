@@ -113,7 +113,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "TIME_OVER"
    m_instructions {
     TILW_SendMessageInstruction "{68E0D24ED5C6C656}" {
-     m_executionDelay 36000
+     m_executionDelay 3600
      m_messageTitle "TIME - DRAW"
      m_messageBody "Time ran out, draw."
     }
