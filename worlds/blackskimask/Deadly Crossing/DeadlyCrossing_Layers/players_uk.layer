@@ -15,7 +15,7 @@ GenericEntity : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulges/Prefabs/
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{4977C9711C8F1943}Prefabs/Items/Equipment/Backpacks/JammerBag.et"
      }
-     NumSlots 2
+     NumSlots 1
     }
     MultiSlotConfiguration "{632EA9BEBE5C68EB}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
