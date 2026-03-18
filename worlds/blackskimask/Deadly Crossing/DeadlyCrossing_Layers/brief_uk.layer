@@ -64,7 +64,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Understrength infantry company, separatists wearing mixed military and civilian clothing. Armed with AK74s, PKMs, RPGs. 1x BMP1 has been spotted in support."\
   ""\
-  "Enemy have access to FPV drones."\
+  "Enemy have access to FPV drones. "\
+  ""\
+  "No access to night vision devices."\
   ""\
   "Situated in town grid REF: 015 023 at staging position for river crossing."\
   ""\
