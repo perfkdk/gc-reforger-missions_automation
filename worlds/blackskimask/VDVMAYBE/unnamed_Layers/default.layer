@@ -1,0 +1,15 @@
+SCR_AIGroup : "{4090BCC2DFA7066B}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifles_2010s/AFRF_MotRifles_2020_RifleSquad.et" {
+ coords 3632.279 26.652 3511.996
+}
+SCR_AIGroup : "{4D7C76F20BC61932}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_TeamAT.et" {
+ coords 3623.056 26.881 3520.395
+}
+SCR_AIGroup : "{8CA48CA1713330DC}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_SquadFull.et" {
+ coords 3631.849 26.89 3522.405
+}
+SCR_AIGroup : "{C0F3AAA061B4CCA5}Prefabs/Groups/OPFOR/Russia/2020/VDV/P/AFRF_VDV_2021_CHQ_P.et" {
+ coords 3616.377 26.952 3526.928
+}
+SCR_AIGroup : "{D5E2D56B32364511}Prefabs/Groups/OPFOR/Russia/2020/VDV/P/AFRF_VDV_2021_RifleSquad_P.et" {
+ coords 3613.031 29.858 3527.652
+}
