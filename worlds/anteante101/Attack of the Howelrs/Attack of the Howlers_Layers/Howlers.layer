@@ -1,0 +1,57 @@
+SCR_AIGroup : "{223FCCA60E04EA65}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSURGENT_PHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LINE\""
+  }
+ }
+ coords 1287.723 27.302 5659.602
+ angles 0 -167.363 0
+ m_sCustomNameSet "Dhib HQ"
+ m_bSetPlayable 1
+}
+$grp SCR_AIGroup : "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSURGENT_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LINE"
+   }
+  }
+  coords 1293.705 17.937 5677.184
+  angles 0 -168.58 0
+  m_sCustomNameSet "Dhib 1"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LINE"
+   }
+  }
+  coords 1291.13 17.907 5664.032
+  angles 0 -168.58 0
+  m_sCustomNameSet "Dhib 2"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LINE"
+   }
+  }
+  coords 1291.92 11.722 5668.71
+  angles 0 -168.58 0
+  m_sCustomNameSet "Dhib 3"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LINE"
+   }
+  }
+  coords 1292.615 11.692 5673.099
+  angles 0 -168.58 0
+  m_sCustomNameSet "Dhib 4"
+  m_bSetPlayable 1
+ }
+}
