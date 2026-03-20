@@ -1133,23 +1133,6 @@ $grp GenericEntity : "{754DF529D4FCB3C2}worlds/chllboy/Hephaestus's forge/Prefab
 GenericEntity : "{76C400582D3C4AF9}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_base.et" {
  coords 3373.417 311.459 380.118
 }
-Turret : "{7C4D1A64D60F2C92}Prefabs/Weapons/Tripods/Tripod_6T5.et" {
- components {
-  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
-   Enabled 0
-  }
-  TurretComponent "{1D3DA71B9107070D}" {
-   Enabled 0
-  }
-  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
-   Enabled 0
-  }
-  ActionsManagerComponent "{51ACD09C7181BA0B}" {
-   Enabled 0
-  }
- }
- coords 3373.417 311.195 380.395
-}
 GenericEntity : "{7CE07D80592CA499}PrefabsEditable/Auto/Props/Military/AmmoBoxes/USSR/E_EquipmentBoxWooden_Equipment_01_USSR.et" {
  components {
   SCR_SoundDataComponent "{5C53391603B5CF41}" {
@@ -1228,6 +1211,9 @@ $grp GenericEntity : "{8C82BBBDEE9CBA3A}Prefabs/Props/Military/Camps/WeaponRackS
   coords 3371.061 310.338 376.992
   angles 0 90 0
  }
+}
+GenericEntity : "{966A7B5022039540}worlds/chllboy/Hephaestus's forge/Prefabs/Props/Tripod_6T5.et" {
+ coords 3373.414 311.195 380.392
 }
 GenericEntity : "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et" {
  coords 3371.181 310.332 383.343
