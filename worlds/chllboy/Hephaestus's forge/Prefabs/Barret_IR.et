@@ -1,0 +1,15 @@
+GenericEntity : "{93CBC8A0EE842DFC}worlds/chllboy/Hephaestus's forge/Prefabs/Barret_m107a1_IR2.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{655F10EAC8619D8D}" {
+     AttachmentSlot InventoryStorageSlot Dovetail {
+      Prefab "{A70369D9AB61DBD1}Prefabs/Weapons/Attachments/Optics/pas13g/Optic_Thermal_pas13g_ts30a2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 2937.216 10 3012.26
+}
