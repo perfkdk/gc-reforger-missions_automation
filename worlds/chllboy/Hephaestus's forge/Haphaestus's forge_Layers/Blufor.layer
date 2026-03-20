@@ -288,8 +288,6 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
    PS_GroupCallsignAssigner "{68D74C0732A7B51A}" {
     m_iCompanyCallsign 2
    }
-   SCR_CallsignManagerComponent "{68D74C07C5788636}" {
-   }
    SCR_EditableGroupComponent "{50D291F6C83FA532}" {
     m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
      Name "AH-6M"

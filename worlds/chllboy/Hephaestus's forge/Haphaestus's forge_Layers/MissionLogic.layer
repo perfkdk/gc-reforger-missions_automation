@@ -73,6 +73,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageBody "The Insurgent cell has taken devastating losses."
     }
    }
+   m_condition TILW_LiteralTerm "{68E8C33635883242}" {
+    m_flagName "OPFOR_KILLED"
+   }
   }
  }
  m_casualtyFlags {

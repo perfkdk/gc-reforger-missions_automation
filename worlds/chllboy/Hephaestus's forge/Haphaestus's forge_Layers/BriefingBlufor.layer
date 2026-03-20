@@ -113,7 +113,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "MM NOTES (PLEASE READ)"
   m_sTextData "<b>Due to an issue I was not able to solve, specialty roles equiped with secondary weapons must drop them on the ground for them to become accesible.</b>"\
   ""\
-  "Sources of light such as: lamposts, lamps etc. are mostly destructable."
+  "Sources of light such as: lamposts, lamps etc. are mostly destructable."\
+  ""\
+  "Caches in all locations look like stacks of green crates."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
