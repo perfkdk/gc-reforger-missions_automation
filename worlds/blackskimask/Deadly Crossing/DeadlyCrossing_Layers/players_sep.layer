@@ -1,5 +1,5 @@
 Tank BMP1_base1 : "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et" {
- coords 1441.946 23.776 2342.807
+ coords 1441.946 20.829 2342.807
  angles 0 59.523 0
 }
 $grp SCR_AIGroup : "{4ED44E08226F3FB3}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/Group_SEP_PHQ_P.et" {
