@@ -207,6 +207,28 @@ $grp GenericEntity : "{2C5610BF4D726174}Prefabs/Weapons/Magazines/ARY_Magazine_9
   angles 0 13.144 90
  }
 }
+$grp GenericEntity : "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et" {
+ {
+  coords 3373.801 311.209 380.153
+  angles 0 30.895 -90
+ }
+ {
+  coords 3373.134 311.21 378.678
+  angles 0 28.668 -90
+ }
+ {
+  coords 3373.673 311.21 376.723
+  angles 0 52.626 -90
+ }
+ {
+  coords 3375.735 311.216 379.827
+  angles 0 156.684 -90
+ }
+ {
+  coords 3373.731 311.211 380.112
+  angles 0 28.668 -90
+ }
+}
 $grp GenericEntity : "{35B0898DFF6EF319}worlds/chllboy/Hephaestus's forge/Prefabs/Props/Cartridge_9x19.et" {
  {
   coords 3375.937 311.207 378.944
@@ -1159,6 +1181,24 @@ GenericEntity : "{7CE07D80592CA499}PrefabsEditable/Auto/Props/Military/AmmoBoxes
 $grp GenericEntity : "{7D39683D0F8EDB59}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_dark.et" {
  {
   components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_SecondaryExplosions SCR_SecondaryExplosions "{68EAE769D1E127D8}" {
+     m_aSecondaryExplosionTypes {
+      SCR_SecondaryExplosionType "{68EAE768BCC9B70E}" {
+       m_eSecondaryExplosionType AMMO
+       m_eResourceType SUPPLIES
+       m_aSecondaryExplosions {
+        SCR_SecondaryExplosion "{68EAE769479496C7}" {
+         m_eSecondaryExplosionScale MEDIUM
+         m_sSecondaryExplosionPrefab "{8EB351AD5256A16F}Prefabs/Systems/Explosions/BombWarhead_HEAT_PG7VM.et"
+         m_sSecondaryFireParticles "{38F42D1BDF72D831}Prefabs/Systems/Fire/Fire_Small.ptc"
+        }
+       }
+      }
+     }
+    }
+    m_bDeleteAfterFinalPhase 0
+   }
    TILW_Flag_EntityDamage "{68D9711A466BA43C}" {
     m_flagName "AMMO_CACHE_DESTROYED2"
    }
@@ -1167,6 +1207,22 @@ $grp GenericEntity : "{7D39683D0F8EDB59}Prefabs/Props/Military/MilitaryCrates/Cr
  }
  {
   components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_SecondaryExplosions SCR_SecondaryExplosions "{68EAE768B38D3B3E}" {
+     m_aSecondaryExplosionTypes {
+      SCR_SecondaryExplosionType "{68EAE768BCC9B70E}" {
+       m_aSecondaryExplosions {
+        SCR_SecondaryExplosion "{68EAE769479496C7}" {
+         m_eSecondaryExplosionScale MEDIUM
+         m_sSecondaryExplosionPrefab "{8EB351AD5256A16F}Prefabs/Systems/Explosions/BombWarhead_HEAT_PG7VM.et"
+         m_sSecondaryFireParticles "{38F42D1BDF72D831}Prefabs/Systems/Fire/Fire_Small.ptc"
+        }
+       }
+      }
+     }
+    }
+    m_bDeleteAfterFinalPhase 0
+   }
    TILW_Flag_EntityDamage "{68D9711BB76B45AE}" {
     m_flagName "AMMO_CACHE_DESTROYED1"
    }

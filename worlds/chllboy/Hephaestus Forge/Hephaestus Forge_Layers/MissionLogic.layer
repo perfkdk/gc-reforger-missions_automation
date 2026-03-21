@@ -77,6 +77,29 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "OPFOR_KILLED"
    }
   }
+  TILW_MissionEvent "{68E966CD7F9ECD98}" {
+   m_name "Blufor victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{68E966CD01F7B7CD}" {
+     m_executionDelay 15
+     m_messageTitle "BLUFOR VICTORY"
+     m_messageBody "The Rangers have completed all of their objectives."
+    }
+   }
+   m_condition TILW_ConjunctionTerm "{68E966CD2FCF8760}" {
+    m_operands {
+     TILW_LiteralTerm "{68E966CD283335D7}" {
+      m_flagName "DRONE_CACHES_DESTROYED"
+     }
+     TILW_LiteralTerm "{68E966CD39D164A0}" {
+      m_flagName "AMMO_CACHES_DESTROYED"
+     }
+     TILW_LiteralTerm "{68E966CDC19D5822}" {
+      m_flagName "INTEL_LOCATED"
+     }
+    }
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{68D9711FD4E8E228}" {

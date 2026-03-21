@@ -19,11 +19,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "MISSION"
   m_sTextData "At <b>0130</b> local, Ranger forces (029 030) will conduct an air assault raid on the objective compound (033 003) in order to:"\
   ""\
-  "- <b>Recover intelligence releted to the shipping routes of the drone parts</b> (DO NOT ENGAGE THE FACILITY BEFORE INTELLIGENCE IS RECOVERED)"\
+  "- <b>Destroy the insurgents' drone caches located inside the drone factory</b> "\
   ""\
-  "- <b>Destroy the insurgents' drone caches located inside the manufacturing facility</b> "\
+  "- <b>ISR shows that insurgents' communications and planning center is located on the second floor of the drone factory. Recover any intelligence releted to the shipping routes of the drone parts from the location.</b>"\
   ""\
-  "- <b>Locate and destroy an ammunition and weapons cache located somewhere inside the village of Gulahy Shal</b>"
+  "- <b>Locate and destroy an ammunition and weapons cache located somewhere inside the village of Gulahy Shal</b>"\
+  ""\
+  "Mission critical information: "\
+  ""\
+  "<i>- Air strikes and gun runs on drone factory are prohibited until intelligence has been recovered from the location.</i>"\
+  ""\
+  "<i>- ISR has spotted no enemy movement in the hills surrounding the objective area and any such threats will be dealt with. Approximate area with recorded enemy presence has been provided.</i>"
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -111,7 +117,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 2982.823 10 3015.453
   m_sTitle "MM NOTES (PLEASE READ)"
-  m_sTextData "<b>Due to an issue I was not able to solve, specialty roles equiped with secondary weapons must drop them on the ground for them to become accesible.</b>"\
+  m_sTextData "MM intent is for Blufor to conduct a fast raid on to the objectives. Approximate AO where you can expect to meet resistance has been provided so there is no need to land far away."\
+  ""\
+  "<b>Due to an issue I was not able to solve, specialty roles equiped with secondary weapons must drop them on the ground for them to become accesible.</b>"\
   ""\
   "Sources of light such as: lamposts, lamps etc. are mostly destructable."\
   ""\
@@ -119,13 +127,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_USAF"
   }
-  m_iOrder 8
+  m_iOrder 9
  }
  {
   coords 2984.78 10 3014.106
   m_sTitle "COMSIG"
   m_sTextData "<b>Platoon net:</b> 48.0 MHz"\
-  "<b>Platoon net:</b> 49.0 MHz"\
+  "<b>Air net:</b> 49.0 MHz"\
   ""\
   "<b>Callsigns:</b>"\
   ""\
@@ -151,6 +159,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
    "RHS_USAF"
   }
   m_iOrder 5
+ }
+ {
+  coords 3362.596 310.289 456.497
+  m_sTitle "END CONDITIONS"
+  m_sTextData "- 85% Blufor killed"\
+  "- 95% Opfor killed"\
+  "- Completion of Blufor objectives"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_iOrder 8
  }
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {

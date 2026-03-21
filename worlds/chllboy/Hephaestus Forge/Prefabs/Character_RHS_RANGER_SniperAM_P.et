@@ -9,7 +9,7 @@ SCR_ChimeraCharacter : "{0F5D5571EA5FF983}Prefabs/Characters/Factions/BLUFOR/RHS
    AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
     UpdateReplicationParent 1
    }
-   WeaponTemplate "{51185351460CA2FE}worlds/chllboy/Hephaestus's forge/Prefabs/Barret_IR.et"
+   WeaponTemplate "{1EA55EB847BC84FD}worlds/chllboy/Hephaestus's forge/Prefabs/M107IR.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {

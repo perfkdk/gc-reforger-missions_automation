@@ -85,12 +85,25 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   coords 3361.877 310.686 463.256
-  m_sTitle "MM NOTES (PLEASE READ)"
-  m_sTextData "MM intent is for the insurgents to conduct defence of the village inside  well protected buildings."
+  m_sTitle "END CONDITIONS"
+  m_sTextData "- 85% Blufor killed"\
+  "- 95% Opfor killed"\
+  "- Completion of Blufor objectives"
   m_aVisibleForFactions {
    "GC_INSURGENT"
   }
   m_iOrder 6
+ }
+ {
+  coords 3359.193 310.723 458.877
+  m_sTitle "MM NOTES (PLEASE READ)"
+  m_sTextData "MM intent is for the insurgents to conduct defence of the village inside well protected buildings."\
+  ""\
+  "You have been given sandbags, but they <b>should not</b> be placed in a way that prevents Blufor entry to buildings (no door jamming etc.)"
+  m_aVisibleForFactions {
+   "GC_INSURGENT"
+  }
+  m_iOrder 7
  }
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
@@ -99,7 +112,6 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    m_factionKeys {
     "GC_INSURGENT"
    }
-   m_visibility FACTION
   }
  }
  coords 3389.745 309.447 383.926
