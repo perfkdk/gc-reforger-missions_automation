@@ -3,7 +3,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3355.232 310.475 446.198
   m_sTitle "SITUATION"
   m_sTextData "<b>Date:</b> 2020-07-06"\
-  "<b>Location:</b> Kunar, Afganistan"\
+  "<b>Location:</b> Kunar, Afghanistan"\
   ""\
   "Brothers, two months ago, by the will of Allah, we struck the American forces in this region using the drones built by our own hands. These attacks showed the enemy that even their strength and technology cannot protect them from those who are patient and determined."\
   ""\
@@ -38,7 +38,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3358.792 310.561 454.63
   m_sTitle "ENEMY FORCES"
-  m_sTextData "Our lookouts have reported numerous helicopters taking off from Bargam Airfield and heading south-east. "\
+  m_sTextData "Our lookouts have reported numerous helicopters taking off from Bagram Airfield and heading south-east. "\
   ""\
   "We believe the Great Satan and his demons are targeting us."
   m_aVisibleForFactions {
@@ -49,7 +49,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3360.563 310.58 458.838
   m_sTitle "ADMIN & SUPPLY"
-  m_sTextData "Our soldiers are equipped with simple, but effective weapons. We also have a number of sappers that are proficient in setting up IEDs."\
+  m_sTextData "Our soldiers are equipped with simple but effective weapons. We also have a number of sappers that are proficient in setting up IEDs."\
   ""\
   "Located inside our cache, we also have:"\
   ""\
