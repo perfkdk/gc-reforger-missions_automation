@@ -1,0 +1,171 @@
+PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 5535.334 241.01 9659.29
+ m_sTitle "Mission Notes"
+ m_sTextData "End conditions:"\
+ ""\
+ "80% AFRF Casualties or objective capped: US Major Victory"\
+ "AFRF withdraw before sustaining 80% casualties: US Minor Victory"\
+ "US withdraw before sustaining 80% casualties: AFRF Minor Victory"\
+ "80% US Casualties or 60 minutes pass: AFRF Major Victory"
+ m_bEmptyFactionVisibility 1
+ m_bShowForAnyFaction 1
+ m_iOrder 6
+}
+$grp SCR_AIGroup : "{3DBED82CF47E6ABC}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine Rifles/Group_USMC_2009_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5440.77 230.083 10147.71
+  angles 0 -86.639 0
+  m_aUnitPrefabSlots {
+   "{3FC6FC11A7E07126}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_SL.et"
+   "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et"
+   "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et"
+   "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et"
+   "{2FCE25D4690FFA28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_RiflemanLAT.et"
+   "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et"
+   "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et"
+   "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et"
+   "{2FCE25D4690FFA28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_RiflemanLAT.et"
+   "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et"
+   "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et"
+   "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et"
+   "{EC24B5D4822DF774}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5439.678 231.06 10157.208
+  angles 0 -86.639 0
+  m_aUnitPrefabSlots {
+   "{3FC6FC11A7E07126}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_SL.et"
+   "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et"
+   "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et"
+   "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et"
+   "{2FCE25D4690FFA28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_RiflemanLAT.et"
+   "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et"
+   "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et"
+   "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et"
+   "{2FCE25D4690FFA28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_RiflemanLAT.et"
+   "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et"
+   "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et"
+   "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et"
+   "{EC24B5D4822DF774}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5438.39 231.786 10166.719
+  angles 0 -86.639 0
+  m_aUnitPrefabSlots {
+   "{3FC6FC11A7E07126}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_SL.et"
+   "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et"
+   "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et"
+   "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et"
+   "{2FCE25D4690FFA28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_RiflemanLAT.et"
+   "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et"
+   "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et"
+   "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et"
+   "{2FCE25D4690FFA28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_RiflemanLAT.et"
+   "{38010640C166CBE5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_TL.et"
+   "{524E0D0E9564D335}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AR.et"
+   "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAR.et"
+   "{EC24B5D4822DF774}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_Rifleman.et"
+  }
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{787E5C0C98A80A3F}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine Rifles/Group_USMC_2009_RiflePHQ.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+   }
+  }
+  coords 5441.571 229.649 10140.834
+  angles 0 -81.751 0
+  m_aUnitPrefabSlots {
+   "{A6D84588BA0740B6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_PL.et"
+   "{BFCC53EF6E624C58}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_PSG.et"
+   "{D54A9CB1F855F7BD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_FO.et"
+   "{187A49947ADD908F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_Medic.et"
+   "{187A49947ADD908F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_Medic.et"
+  }
+  m_bSetPlayable 1
+ }
+ USMORT {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5467.681 244.277 9791.989
+  angles 0 -22.999 0
+  m_aUnitPrefabSlots {
+   "{8D6DF0CFACFE6EB8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_MortarL.et"
+   "{029BFC931A348BF3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_MortarCrew.et"
+   "{029BFC931A348BF3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_MortarCrew.et"
+   "{029BFC931A348BF3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_MortarCrew.et"
+   "{029BFC931A348BF3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_MortarCrew.et"
+  }
+  m_sCustomNameSet ""
+  m_bSetPlayable 1
+ }
+}
+SCR_AIGroup : "{8F9136412F77D36C}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine Rifles/Group_USMC_2009_MGSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iPlatoonCallsign 3
+   m_iSquadCallsign 1
+  }
+ }
+ coords 5437.483 232.796 10175.267
+ angles 0 -86.639 0
+ m_aUnitPrefabSlots {
+  "{3FC6FC11A7E07126}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_SL.et"
+  "{0059D314FB2BC7D6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_MG.et"
+  "{E60FDD5025CFF854}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AMG.et"
+  "{0059D314FB2BC7D6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_MG.et"
+  "{E60FDD5025CFF854}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AMG.et"
+  "{8AE664CFECEDCD69}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AT.et"
+  "{6CB06A8B3209F2EB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Character_RHS_USMC_2009_AAT.et"
+ }
+ m_bSetPlayable 1
+}

@@ -35,7 +35,7 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
     DefaultFormation "file"
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-    Enabled 1
+    Enabled 1,
     m_iSquadCallsign 1
    }
   }
