@@ -136,6 +136,12 @@ GenericEntity ammoboxRED : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulg
      }
      NumSlots 1
     }
+    MultiSlotConfiguration "{632EA9BEBE5C68D7}" {
+     SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+      Prefab "{1602B2595AC224FB}Prefabs/Drones/FPVBase/FPVBattery.et"
+     }
+     NumSlots 2
+    }
    }
   }
  }
