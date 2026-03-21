@@ -36,7 +36,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     Mission_notes_READ {
      coords 35.26 4.218 24.273
      m_sTitle "Mission notes(READ)"
-     m_sTextData "Setup timer is 6.5 min"\
+     m_sTextData "Setup timer is 5 min"\
      ""\
      "Insurgents win if they eliminate 90% of US and Russian forces."\
      ""\
@@ -48,8 +48,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      ""\
      "RUS win if they survive for 45 min. "\
      ""\
-     "US and Russian troops arn't allied together, although they can join  forces."\
-     ""\
+     "US and Russian troops are allied together, although they don't need eachother to win."\
      ""
      m_aVisibleForFactions {
       "GC_INSURGENT"
@@ -129,7 +128,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     Mission_notes_READ2 {
      coords 35.26 4.218 24.273
      m_sTitle "Mission notes(READ)"
-     m_sTextData "Setup timer is 6.5 min"\
+     m_sTextData "Setup timer is 5 min"\
      ""\
      "nsurgents win if they eliminate 90% of US and Russian forces."\
      ""\
@@ -141,8 +140,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      ""\
      "RUS win if they survive for 45 min. "\
      ""\
-     "US and Russian troops arn't allied together, although they can join  forces."\
-     ""\
+     "US and Russian troops are allied together, although they don't need eachother to win."\
      ""\
      ""
      m_aVisibleForFactions {
@@ -153,22 +151,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     FriendlyForces2 {
      coords 0.057 -0.034 -0.562
      m_sTitle "Friendly forces"
-     m_sTextData "A VDV squad having 2021 equpiment with scopes and NVGs."
+     m_sTextData "A VDV squad having 2021 equpiment with scopes and NVGs and A US Army squad having 2020 equpiment with scopes and NVGs."
      m_aVisibleForFactions {
       "RHS_AFRF"
      }
      m_iOrder 2
-    }
-    independet_forces {
-     coords 122.262 4.707 -23.148
-     m_sTitle "Independent  forces"
-     m_sTextData "A US Army squad having 2020 equpiment with scopes and NVGs."\
-     ""\
-     "It is unknown if they are willing to form a temperory alliance or defend without us."
-     m_aVisibleForFactions {
-      "RHS_AFRF"
-     }
-     m_iOrder 3
     }
    }
   }
@@ -209,7 +196,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     Mission_notes_READ3 {
      coords 35.26 4.218 24.273
      m_sTitle "Mission notes(READ)"
-     m_sTextData "Setup timer is 6.5 min"\
+     m_sTextData "Setup timer is 5 min"\
      ""\
      "Insurgents win if they eliminate 90% of US and Russian forces."\
      ""\
@@ -221,8 +208,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      ""\
      "RUS win if they survive for 45 min. "\
      ""\
-     "US and Russian troops arn't allied together, although they can join  forces."\
-     ""\
+     "US and Russian troops are allied together, although they don't need eachother to win."\
      ""
      m_aVisibleForFactions {
       "RHS_USAF"
@@ -232,22 +218,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     FriendlyForces3 {
      coords 0.057 -0.034 -0.562
      m_sTitle "Friendly forces"
-     m_sTextData "A US Army squad having 2020 equpiment with scopes and NVGs."
+     m_sTextData "A US Army squad having 2020 equpiment with scopes and NVGs and a Russian VDV squad having 2021 equpiment with scopes and NVGs."\
+     ""
      m_aVisibleForFactions {
       "RHS_USAF"
      }
      m_iOrder 2
-    }
-    independet_forces2 {
-     coords 122.262 4.707 -23.148
-     m_sTitle "Independent  forces"
-     m_sTextData "A Russian VDV squad having 2020 equpiment with scopes and NVGs."\
-     ""\
-     "It is unknown if they are willing to form a temperory alliance or defend without us."
-     m_aVisibleForFactions {
-      "RHS_USAF"
-     }
-     m_iOrder 3
     }
    }
   }

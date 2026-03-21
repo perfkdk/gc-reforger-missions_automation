@@ -103,5 +103,6 @@ TILW_MissionFrameworkEntity framework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missi
  }
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- coords 1283.846 17.961 5672.678
+ coords 2019.093 36.221 4983.753
+ angles 0 -145.472 0
 }
