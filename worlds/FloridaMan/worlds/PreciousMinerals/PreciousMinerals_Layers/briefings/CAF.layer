@@ -22,7 +22,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 3936.165 384.621 5248.624
   m_sTitle "Mission"
-  m_sTextData "CAF is to re-secure the mine from separatist forces."
+  m_sTextData "CAF is to re-secure the mine from separatist forces."\
+  ""\
+  "The facility is surrounded by fences. It is HIGHLY RECOMMENDED you take all the wire cutters."
   m_aVisibleForFactions {
    "GC_CAF"
   }

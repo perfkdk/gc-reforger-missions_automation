@@ -11,8 +11,8 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/
     m_iSquadCallsign 4
    }
   }
-  coords 4073.365 337.857 5429.983
-  angles -0.005 19.846 0.001
+  coords 4076.203 381.171 5285.573
+  angles -0.005 46.453 -0.001
   m_aUnitPrefabSlots {
    "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_SL_P.et"
    "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_GL_P.et"
@@ -33,8 +33,8 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/
     m_iSquadCallsign 3
    }
   }
-  coords 4074.633 337.84 5431.532
-  angles -0.005 19.846 0.001
+  coords 4082.228 381.484 5280.709
+  angles -0.004 0.287 0.003
   m_aUnitPrefabSlots {
    "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_SL_P.et"
    "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_GL_P.et"
@@ -55,8 +55,8 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/
     m_iSquadCallsign 2
    }
   }
-  coords 4076.839 337.822 5432.902
-  angles -0.005 19.846 0.001
+  coords 4084.873 380.952 5295.875
+  angles 0.002 140.567 -0.005
   m_aUnitPrefabSlots {
    "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_SL_P.et"
    "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_GL_P.et"
@@ -77,8 +77,8 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/
     m_iSquadCallsign 1
    }
   }
-  coords 4077.866 337.743 5434.916
-  angles -0.005 19.846 0.001
+  coords 4091.501 381.36 5285.602
+  angles 0.004 -104.216 0.004
   m_aUnitPrefabSlots {
    "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_SL_P.et"
    "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_GL_P.et"
@@ -99,7 +99,7 @@ SCR_AIGroup : "{DEE4F567595DE7AE}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/Group_S
    m_iPlatoonCallsign 1
   }
  }
- coords 4082.233 337.875 5428.285
- angles 0 23.21 0
+ coords 4089.01 381.355 5279.492
+ angles 0 -28.326 0
  m_bSetPlayable 1
 }

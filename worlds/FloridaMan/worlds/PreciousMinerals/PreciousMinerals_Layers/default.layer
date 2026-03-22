@@ -42,22 +42,12 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  m_fPrepDuration 0
+ m_fPrepMultiplier 999
+ m_fGameMultiplier 999
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 4409.869 329.838 5582.448
  m_missionEvents {
-  TILW_MissionEvent "{68ECF022EFCE1EC0}" {
-   m_name "CAF Victory - Mine Secured"
-   m_instructions {
-    TILW_SendMessageInstruction "{68ECF022F3EFFB4E}" {
-     m_messageTitle "CAF Victory"
-     m_messageBody "CAF Forces have re-secured the mine. GM discresion to continue mission."
-    }
-   }
-   m_condition TILW_LiteralTerm "{68ECF022C9D351AC}" {
-    m_flagName "CAF_MineSecured"
-   }
-  }
   TILW_MissionEvent "{68ECF022D10E36CC}" {
    m_name "CAF Victory - SEP Casualty"
    m_instructions {
