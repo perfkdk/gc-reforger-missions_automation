@@ -1,0 +1,105 @@
+$grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/Group_SEP_RifleSquad_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 4073.365 337.857 5429.983
+  angles -0.005 19.846 0.001
+  m_aUnitPrefabSlots {
+   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_SL_P.et"
+   "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_GL_P.et"
+   "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_TL_P.et"
+   "{DAA6DEC1DB557143}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_MG_P.et"
+   "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_Rifleman_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4074.633 337.84 5431.532
+  angles -0.005 19.846 0.001
+  m_aUnitPrefabSlots {
+   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_SL_P.et"
+   "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_GL_P.et"
+   "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_TL_P.et"
+   "{DAA6DEC1DB557143}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_MG_P.et"
+   "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_Rifleman_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4076.839 337.822 5432.902
+  angles -0.005 19.846 0.001
+  m_aUnitPrefabSlots {
+   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_SL_P.et"
+   "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_GL_P.et"
+   "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_TL_P.et"
+   "{DAA6DEC1DB557143}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_MG_P.et"
+   "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_Rifleman_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    Enabled 0
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4077.866 337.743 5434.916
+  angles -0.005 19.846 0.001
+  m_aUnitPrefabSlots {
+   "{EA4EADCD22E970B0}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_SL_P.et"
+   "{95F16E964A2D2294}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_GL_P.et"
+   "{38C89DCBBB9ED4B2}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_TL_P.et"
+   "{DAA6DEC1DB557143}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_MG_P.et"
+   "{A7BA9DA98C655A24}Prefabs/Characters/Factions/OPFOR/GC_SEP/2020/P/Character_SEP_Rifleman_P.et"
+  }
+ }
+}
+SCR_AIGroup : "{DEE4F567595DE7AE}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/Group_SEP_PHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineLeft"
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 2
+   m_iPlatoonCallsign 1
+  }
+ }
+ coords 4082.233 337.875 5428.285
+ angles 0 23.21 0
+ m_bSetPlayable 1
+}
