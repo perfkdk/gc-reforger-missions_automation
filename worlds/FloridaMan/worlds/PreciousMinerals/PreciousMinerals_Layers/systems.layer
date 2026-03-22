@@ -85,11 +85,18 @@ GenericEntity : "{10D6CBDBDD901C49}PrefabsEditable/Auto/Props/Military/AmmoBoxes
  }
  coords 4406.024 330.815 5567.279
 }
-SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 4409.292 331.069 5569.238
- m_fWarnRadius 50
- m_fZoneRadius 75
- m_fZoneTeleportedRadius 80
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 4409.292 331.069 5569.238
+  m_fWarnRadius 50
+  m_fZoneRadius 75
+  m_fZoneTeleportedRadius 80
+ }
+ {
+  coords 4077.752 382.989 5294.599
+  m_fZoneRadius 45
+  m_fZoneTeleportedRadius 50
+ }
 }
 PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
  components {
@@ -156,17 +163,6 @@ PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
    Position 74.92 70.033 -227.939
   }
  }
-}
-SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- components {
-  SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
-   GetWarningRadius 1
-  }
- }
- coords 4072.433 369.95 5371.034
- m_fWarnRadius 90
- m_fZoneRadius 120
- m_fZoneTeleportedRadius 125
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
