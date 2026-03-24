@@ -92,10 +92,12 @@ SCR_AIGroup PLTHQ : "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/G
  m_aUnitPrefabSlots {
   "{6814EBCED3BBC7B8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_PL_P.et"
   "{4ABCAC9444662FDC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Sergeant_P.et"
-  "{64C5EA150F2E60CD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_FO_P.et"
+  "{CE517D52F0D242FF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_FO.et"
   "{F220C3998CD88060}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Medic_P.et"
   "{F220C3998CD88060}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_Medic_P.et"
  }
+ m_bPlayable 1
+ m_bSetPlayable 1
 }
 $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechSquad_2_P.et" {
  Recon {
@@ -104,13 +106,13 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
     Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 5
-    m_iSquadCallsign 1
+    m_iSquadCallsign 4
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 5
-    m_iSquadCallsign 4
+    m_iSquadCallsign 1
    }
   }
   coords 3465.841 19.252 1785.855
@@ -197,12 +199,12 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
     Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 4
-    m_iSquadCallsign 2
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 4
+    m_iSquadCallsign 2
    }
   }
   coords 3567.822 18.187 1603.925
@@ -228,13 +230,13 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
     Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 2
-    m_iSquadCallsign 1
+    m_iSquadCallsign 4
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 2
-    m_iSquadCallsign 4
+    m_iSquadCallsign 1
    }
   }
   coords 3615.477 18.109 1588.848
@@ -251,12 +253,12 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
     Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 5
+    m_iSquadCallsign 5
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 5
-    m_iSquadCallsign 5
    }
   }
   coords 3639.526 15.706 1806.296
@@ -279,12 +281,12 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
     Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 2
+    m_iSquadCallsign 5
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iCompanyCallsign 3
     m_iPlatoonCallsign 2
-    m_iSquadCallsign 5
    }
   }
   coords 3630.479 18.061 1590.214
@@ -346,12 +348,14 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
   coords 3593.213 17.073 1526.026
   angles -0.895 -0.28 0.004
   m_aUnitPrefabSlots {
-   "{19EF760111386C2A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_MortarFDC_P.et"
-   "{2A9141F79C5A98AA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_MortarCrew_P.et"
-   "{2A9141F79C5A98AA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_MortarCrew_P.et"
-   "{2A9141F79C5A98AA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/P/Character_CDF_Modern_MortarCrew_P.et"
+   "{05FEFD330312A177}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_MortarFDC.et"
+   "{6BA6E9FAD7DAE925}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_MortarCrew.et"
+   "{6BA6E9FAD7DAE925}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_MortarCrew.et"
+   "{6BA6E9FAD7DAE925}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Mech/Character_CDF_Modern_MortarCrew.et"
   }
+  m_bPlayable 1
   m_sCustomNameSet "Mortar Crew"
+  m_bSetPlayable 1
  }
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
