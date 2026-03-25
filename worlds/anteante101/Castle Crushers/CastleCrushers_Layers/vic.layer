@@ -1,0 +1,24 @@
+$grp Vehicle : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+ M151A2_transport1 {
+  coords 5868.179 258.652 5833.521
+  angles -6.823 17.608 0
+ }
+ M151A2_transport2 {
+  coords 5870.068 258.388 5837.78
+  angles -5.183 17.854 -2.716
+ }
+}
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  coords 5865.765 259.15 5826.879
+  angles -4.73 21.532 0
+ }
+ M923A1_transport_covered2 {
+  coords 5862.271 259.626 5818.342
+  angles -4.73 21.532 0
+ }
+ M923A1_transport_covered3 {
+  coords 5858.75 260.339 5810.003
+  angles -4.73 21.532 0
+ }
+}
