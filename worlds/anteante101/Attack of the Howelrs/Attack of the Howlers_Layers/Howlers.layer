@@ -1,7 +1,7 @@
 SCR_AIGroup : "{223FCCA60E04EA65}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSURGENT_PHQ.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "LINE"
+   Enabled 0
   }
  }
  coords 2023.31 45.562 4996.723
@@ -13,7 +13,7 @@ $grp SCR_AIGroup : "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSUR
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "LINE"
+    Enabled 0
    }
   }
   coords 2008.416 36.197 4985.627
@@ -24,7 +24,7 @@ $grp SCR_AIGroup : "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSUR
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "LINE"
+    Enabled 0
    }
   }
   coords 2017.993 36.167 4995.005
@@ -35,7 +35,7 @@ $grp SCR_AIGroup : "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSUR
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "LINE"
+    Enabled 0
    }
   }
   coords 2014.69 29.982 4991.599
@@ -46,7 +46,7 @@ $grp SCR_AIGroup : "{8534EA309F37063C}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSUR
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "LINE"
+    Enabled 0
    }
   }
   coords 2011.63 29.952 4988.376
