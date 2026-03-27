@@ -19,6 +19,10 @@ GenericEntity barbox : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/Am
      NumSlots 8
     }
     MultiSlotConfiguration "{68B84C90487BDA8A}" {
+     SlotTemplate SCR_EquipmentStorageSlot sandbag {
+      Prefab "{36F53E43721F69DA}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap_UK.et"
+     }
+     NumSlots 20
     }
    }
   }

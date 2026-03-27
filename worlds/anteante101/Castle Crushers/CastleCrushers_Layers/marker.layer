@@ -13,7 +13,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  UK {
   coords 5886.496 255.917 5874.975
-  angles 0 0 0
+  angles 0 90.659 0
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
   m_sQuadName "infantry"
@@ -29,7 +29,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSet "{789928D701557BDA}worlds/anteante101/Castle Crushers/image/CastleofKevin.edds"
   m_sImageSetGlow ""
   m_sQuadName ""
-  m_fWorldSize 400
+  m_fWorldSize 200
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
   m_bringToFront 0

@@ -49,7 +49,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     FriendlyForces {
      coords 0.057 -0.034 -0.562
      m_sTitle "Friendly forces"
-     m_sTextData "A IRA cell with a HQ element with access to 4 M60 machine guns and 8 boxes of 100 round ammo with 4 ball :1 tracer ammo ratio."
+     m_sTextData "A IRA cell with a HQ element with access to 4 M60 machine guns, 8 boxes of 100 round ammo with 4 ball :1 tracer ammo ratio and 20 sandbags."
      m_aVisibleForFactions {
       "GC_IRA"
      }
@@ -122,6 +122,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
       "UK"
      }
      m_iOrder 2
+    }
+    Callsigns {
+     coords 144.098 -30.728 -514.471
+     m_sTitle "Callsigns"
+     m_sTextData "11 - Platoon HQ"\
+     ""\
+     "11A - 1. section"\
+     ""\
+     "11B -  2. section"\
+     ""\
+     "11C -  3. section"
+     m_aVisibleForFactions {
+      "UK"
+     }
+     m_iOrder 4
     }
    }
   }
