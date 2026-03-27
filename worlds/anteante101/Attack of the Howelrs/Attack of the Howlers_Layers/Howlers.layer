@@ -1,7 +1,7 @@
 SCR_AIGroup : "{223FCCA60E04EA65}Prefabs/Groups/OPFOR/GC_INSURGENT/GC_INSURGENT_PHQ.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "LINE\""
+   DefaultFormation "LINE"
   }
  }
  coords 2023.31 45.562 4996.723

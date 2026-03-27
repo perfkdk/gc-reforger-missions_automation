@@ -79,7 +79,7 @@ $grp Tank : "{2868995B90CC1837}worlds/HitTheMan/Prefabs/Vehicles/M113A2_APC_CDF_
 SCR_AIGroup PLTHQ : "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechPHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
+   Enabled 0
   }
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1
@@ -129,7 +129,7 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
  Squad_3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -161,7 +161,7 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
  Squad_1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -193,7 +193,7 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
  Squad_2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -224,7 +224,7 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
  ZSUCrew {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -275,7 +275,7 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
  ZSUCrew2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -300,7 +300,7 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
  Squad_4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -332,7 +332,7 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
  Mortar {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "line"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1

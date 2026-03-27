@@ -1,7 +1,7 @@
 SCR_AIGroup : "{0B9076B9A21B3DC4}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Group_Rangers_2020_Weapons_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "ech left"
+   Enabled 0
   }
   PS_GroupCallsignAssigner "{68D74C07102B6C8A}" {
    m_iCompanyCallsign 1
@@ -130,7 +130,7 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "ech left"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{68D74C076E825395}" {
     m_iCompanyCallsign 1
@@ -159,7 +159,7 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "ech left"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{68D74C0770419430}" {
     m_iCompanyCallsign 1
@@ -188,7 +188,7 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "ech left"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{68D74C070C8AA8F5}" {
     m_iCompanyCallsign 1
@@ -206,7 +206,7 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "ech left"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{68D74C07206D7388}" {
     m_iCompanyCallsign 1
@@ -266,7 +266,7 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "ech left"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{68D5742656B2AEF6}" {
     m_iCompanyCallsign 1

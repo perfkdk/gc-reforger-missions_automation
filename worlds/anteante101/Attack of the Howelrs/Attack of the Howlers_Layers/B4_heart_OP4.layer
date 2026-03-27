@@ -1,7 +1,7 @@
 SCR_AIGroup us : "{AB04A789F8A96B11}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/Group_USA_2020_RifleSquad.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "LINE"
+   Enabled 0
   }
  }
  coords 4015.495 17.285 4127.653
@@ -11,7 +11,7 @@ SCR_AIGroup us : "{AB04A789F8A96B11}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/
 SCR_AIGroup rus : "{DBB5CAB5F940933B}Prefabs/Groups/OPFOR/Russia/2020/VDV/AFRF_VDV_2021_RifleSquad.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
+   Enabled 0
   }
  }
  coords 4057.653 19.058 4309.819

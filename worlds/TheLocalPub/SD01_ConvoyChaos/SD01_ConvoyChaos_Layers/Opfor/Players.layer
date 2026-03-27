@@ -2,7 +2,7 @@ $grp SCR_AIGroup : "{28E0A3056104911C}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  PLT1SQD1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -22,7 +22,7 @@ $grp SCR_AIGroup : "{28E0A3056104911C}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  PLT1SQD2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -43,7 +43,7 @@ $grp SCR_AIGroup : "{28E0A3056104911C}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  PLT1SQD3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -64,7 +64,7 @@ $grp SCR_AIGroup : "{28E0A3056104911C}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  PLT1SQD4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -85,7 +85,7 @@ $grp SCR_AIGroup : "{28E0A3056104911C}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  PLT1SQD5 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -107,7 +107,7 @@ $grp SCR_AIGroup : "{28E0A3056104911C}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  PLT1SQD6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -131,7 +131,7 @@ $grp SCR_AIGroup : "{90A51527AEC36680}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  COYHQ {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -154,7 +154,7 @@ $grp SCR_AIGroup : "{90A51527AEC36680}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  PLT1HQ {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -174,7 +174,7 @@ $grp SCR_AIGroup : "{90A51527AEC36680}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  T72Crew {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -197,7 +197,7 @@ $grp SCR_AIGroup : "{90A51527AEC36680}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  PLT1HQ2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -218,7 +218,7 @@ $grp SCR_AIGroup : "{90A51527AEC36680}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  PLT1HQ3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -243,7 +243,7 @@ $grp SCR_AIGroup : "{90A51527AEC36680}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  ZUCrew {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
@@ -266,7 +266,7 @@ $grp SCR_AIGroup : "{90A51527AEC36680}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
  LogiCrew {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
