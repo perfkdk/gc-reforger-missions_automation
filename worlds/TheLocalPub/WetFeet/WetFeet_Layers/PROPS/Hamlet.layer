@@ -1,0 +1,68 @@
+Tree : "{0CA0547EB03759E1}Prefabs/Vegetation/Bush/b_rubus_idaeus_1s_collision.et" {
+ coords 6306.218 -0.129 8159.177
+ angles 0 -70.476 0
+}
+Tree : "{124518D13290A687}Prefabs/Vegetation/Bush/b_salix_cinerea_0_collision.et" {
+ coords 6306.045 0.037 8160.242
+ angles 0 0 53.207
+}
+$grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchSegment_01_short.et" {
+ {
+  coords 6303.873 0 8164.305
+  angles 0 56.122 0
+ }
+ {
+  coords 6302.364 -0.001 8166.407
+  angles 0 52.225 0
+ }
+ {
+  coords 6299.973 0 8169.053
+  angles 0 42.98 0
+ }
+ {
+  coords 6297.742 0 8170.893
+  angles 0 34.013 0
+ }
+}
+$grp GenericEntity : "{19DA1F395962511D}Prefabs/Vegetation/Cuttings/Pinus_sylvestris_medium_01.et" {
+ {
+  coords 6306.323 51.968 8161.636
+  angles -14.196 178.213 -0.161
+ }
+ {
+  coords 6305.481 51.968 8161.784
+  angles 3.04 107.607 -36.662
+ }
+}
+$grp StaticModelEntity : "{96876CEE4BD63503}Prefabs/Structures/Military/Fortifications/Trenches/ACE_VehicleTrench_01.et" {
+ {
+  coords 6230.535 -0.019 8065.026
+  angles 0 91.202 0
+ }
+ {
+  coords 6200.64 -0.002 8038.808
+  angles 0 142.99 0
+ }
+ {
+  coords 6028.988 -0.171 8124.63
+  angles 0 -152.572 0
+ }
+}
+GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et" {
+ coords 6302.569 52.469 8156.146
+ angles 0 100.078 0
+}
+GenericEntity : "{C11CE4B95EA336C3}Prefabs/Vegetation/Cuttings/Sambucus_Nigra_medium_01.et" {
+ coords 6305.44 51.304 8158.144
+ angles 0 81.437 0
+}
+$grp GenericEntity : "{C258AD45887AA8CA}Prefabs/Vegetation/Cuttings/Picea_abies_medium_01.et" {
+ {
+  coords 6303.832 52.301 8150.726
+  angles 15.83 -96.832 -41.998
+ }
+ {
+  coords 6304.917 51.943 8152.602
+  angles -63.348 0 21.448
+ }
+}

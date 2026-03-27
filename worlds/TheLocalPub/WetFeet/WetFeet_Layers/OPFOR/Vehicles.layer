@@ -1,0 +1,5 @@
+Vehicle BRDM2_FIA1 : "{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et" {
+ coords 6197.059 54.094 8096.275
+ angles 0 -66.398 0
+ m_sAttachmentGroupName "BRDMCrew"
+}

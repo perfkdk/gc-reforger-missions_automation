@@ -1,0 +1,194 @@
+GenericEntity : "{00B3E3FD05C85DBD}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Small_Top_FIA_01_V1.et" {
+ coords 6133.448 53.375 7961.229
+ angles 0 -5.501 0
+}
+GenericEntity : "{1592EC23A583FB04}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V2.et" {
+ coords 6135.191 53.63 7962.312
+ angles 57.537 180 -180
+}
+GenericEntity : "{25861AD07CEE719A}Prefabs/Compositions/Misc/SubCompositions/Sandbag_MG_USSR_01_PKM.et" {
+ coords 6131.604 53.392 7958.966
+ angles 0 -144.598 0
+}
+GenericEntity : "{36DE0ED6901438B2}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_cup.et" {
+ coords 6135.412 53.991 7962.421
+}
+GenericEntity : "{3872E0C19D19A045}Prefabs/Structures/Wreck/pickup.et" {
+ coords 6191.207 53.715 8178.707
+ angles 0 65.181 0
+}
+$grp GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
+ {
+  coords 6135.301 51.862 7951.352
+  angles 0 0 30.163
+ }
+ {
+  coords 6140.911 50.264 7949.627
+  angles 0 -7.662 -3.901
+ }
+ {
+  coords 6116.865 52.455 7969.552
+  angles 0 25.539 -12.75
+ }
+ {
+  coords 6184.836 53.668 8181.159
+  angles 0 -118.655 0
+ }
+ {
+  coords 6196.961 53.658 8182.307
+  angles 0 -78.845 0
+ }
+}
+GenericEntity : "{42821C4C92A8F6F7}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Left_USSR_01.et" {
+ coords 6135.015 53.375 7961.435
+ angles 0 128.693 0
+}
+GenericEntity : "{48D88E385C227340}Prefabs/Compositions/Misc/SubCompositions/Barrel_Filled_01.et" {
+ coords 6141.836 51.738 7959.373
+ angles 69.833 -180 180
+}
+GenericEntity : "{4A09EF1D855AF2C4}Prefabs/Vegetation/Cuttings/Rosa_canina_small_01.et" {
+ coords 6304.857 52.369 8152.84
+ angles 0 0 19.101
+}
+GenericEntity : "{4F602EFD9A6384AD}Prefabs/Compositions/Misc/SubCompositions/Utility/Tire_Stack_Sign_01.et" {
+ coords 6115.326 53.406 7949.777
+ angles 0 0 0
+}
+$grp GenericEntity : "{57FB5E487EC91D63}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_02.et" {
+ {
+  coords 6149.095 50.532 7947.97
+  angles 14.392 0 0
+ }
+ {
+  coords 6110.617 53.31 7971.709
+  angles -0.934 0.818 11.58
+ }
+ {
+  coords 6201.634 53.548 8188.502
+  angles 0 157.495 0
+ }
+}
+Tree : "{61E97F0E89CC920A}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abies_3fw.et" {
+ coords 6134.46 0 7958.753
+ angles -1.842 -81.484 -1.36
+}
+Vehicle Ural4320_FIA_transport_covered_closed1 : "{6C9E196676394DE2}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport_covered_closed.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 6130.343 53.406 7971.177
+ angles 0 116.99 0
+}
+SCR_IndestructibleEnvironmentalEntity : "{76AF1688C649DC10}Prefabs/Rocks/Granite/Granite_ForestStone_03.et" {
+ coords 6133.35 0 7955.193
+ angles -1.373 -145.551 9.814
+}
+GenericEntity : "{795D20A26B62F82F}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_FIA_01.et" {
+ coords 6112.324 54.858 7985.927
+ angles 0 122.469 0
+}
+GenericEntity : "{8980E8440A4A3335}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Large_Top_FIA_01_V2.et" {
+ coords 6110.94 54.625 7985.586
+ angles 0 108.767 2.402
+}
+GenericEntity : "{89EF4CBC37EABDBE}Prefabs/Vegetation/Cuttings/Carpinus_betulus_large_01.et" {
+ coords 6304.484 50.67 8154.256
+ angles 0 103.424 0
+}
+$grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
+ {
+  coords 6124.599 0 7970.405
+  angles 0 -90.65 0
+ }
+ {
+  coords 6132.675 0.829 7967.208
+  angles -34.492 -98.337 -114.897
+ }
+}
+GenericEntity : "{B26712B1722C8A08}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_03.et" {
+ coords 6098.401 53.724 7977.799
+ angles 0 -144.142 0
+}
+GenericEntity : "{B26712B1722C8A09}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_03.et" {
+ coords 6179.266 53.693 8187.624
+ angles -3.726 27.879 5.193
+}
+GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
+ coords 6195.041 53.677 8181.078
+ angles 0 -24.343 0
+}
+GenericEntity : "{C258AD45887AA8CA}Prefabs/Vegetation/Cuttings/Picea_abies_medium_01.et" {
+ coords 6304.78 52.108 8151.574
+ angles 0 0 21.448
+}
+StaticModelEntity : "{C2ACB740ED1CEB46}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation_camonet.et" {
+ coords 6120.75 53.358 7964.72
+ angles 0 -152.428 0
+}
+GenericEntity : "{C529E6E1AE272891}Prefabs/Compositions/Misc/SubCompositions/Barrel_Cluttered_01.et" {
+ coords 6121.361 53.335 7967.696
+ angles 0 -86.698 0
+}
+GenericEntity : "{CE17FD1A54E65002}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_matches_V1.et" {
+ coords 6135.028 54.005 7962.67
+}
+GenericEntity : "{D948DCEA222BF12E}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_02.et" {
+ components {
+  ActionsManagerComponent "{5D66ED1096104FD8}" {
+   Enabled 0
+  }
+ }
+ coords 6131.887 53.28 7962.777
+ angles 0 126.678 0
+ {
+  GenericEntity {
+   ID "59A2EDE55B810E95"
+   {
+    GenericEntity {
+     ID "59A2EA8548F2D78C"
+     components {
+      SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+       Enabled 0
+      }
+      SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+       Enabled 0
+      }
+      SCR_ServicePointComponent "{5C9CE3E3B5796CE1}" {
+       Enabled 0
+      }
+      SCR_SoundDataComponent "{5C53391603B5CF41}" {
+       Enabled 0
+      }
+      UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+       Enabled 0
+      }
+      SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+       Enabled 0
+      }
+      ActionsManagerComponent "{5476B36C403D4CC0}" {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E59B30B1C7960CE5}Prefabs/Props/Garbage/Generic/LitterInterior_01/Piles/LitterInterior_USSR_01_pile_V2.et" {
+ coords 6133.655 53.377 7960.471
+}
+GenericEntity : "{E9CDDAFD49ACDE2A}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_tincan_V1.et" {
+ coords 6135.41 53.985 7962.559
+ angles 3.752 123.462 0
+}
+GenericEntity : "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuilding/CzechHedgehogPainted_S_01.et" {
+ coords 6122.014 53.245 7969.299
+ angles 0 -66.959 0
+}
