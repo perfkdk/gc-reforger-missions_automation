@@ -15,9 +15,9 @@ $grp SCR_AIGroup : "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
   angles 0.163 140.297 -1.296
   m_faction "USSR"
   m_aUnitPrefabSlots {
-   "{00DD625BB16574BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_PlatoonLeader_P.et"
-   "{318E775193ED4578}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_DeputyPL_P.et"
-   "{C814CF3ADAC69C9B}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_Medic_P.et"
+   "{ECB5E6520057FF89}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_PlatoonLeader_P.et"
+   "{4318B010D29F4E99}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_DeputyPL_P.et"
+   "{60F78BEFD940423D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Medic_P.et"
   }
   m_bPlayable 1
   m_sCustomNameSet "1st Platoon HQ"
@@ -39,9 +39,9 @@ $grp SCR_AIGroup : "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
   angles 5.445 -42.159 -19.733
   m_faction "USSR"
   m_aUnitPrefabSlots {
-   "{00DD625BB16574BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_PlatoonLeader_P.et"
-   "{318E775193ED4578}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_DeputyPL_P.et"
-   "{C814CF3ADAC69C9B}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_Medic_P.et"
+   "{ECB5E6520057FF89}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_PlatoonLeader_P.et"
+   "{4318B010D29F4E99}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_DeputyPL_P.et"
+   "{60F78BEFD940423D}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Medic_P.et"
   }
   m_bPlayable 1
   m_sCustomNameSet "2nd Platoon HQ"
@@ -62,7 +62,7 @@ $grp SCR_AIGroup : "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
   angles -11.468 -82.613 -7.625
   m_faction "USSR"
   m_aUnitPrefabSlots {
-   "{756A54A830E2B54A}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_CoyCO_P.et"
+   "{756A54A830E2B54A}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_CoyCO_P.et"
   }
   m_bPlayable 1
   m_sCustomNameSet "Company HQ"
@@ -92,15 +92,16 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
   angles -0.726 -35.792 0.523
   m_faction "USSR"
   m_aUnitPrefabSlots {
-   "{8062853E9D285018}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SquadLeader_P.et"
-   "{488F0C576CFFDD7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AR_P.et"
-   "{F55F5ED013E4C162}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AT_P.et"
-   "{4FC51EEAF1ACEB6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AAT_P.et"
-   "{E23F7AC58DE95E9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SeniorRifleman_P.et"
-   "{C0C7D650BD4C3CCA}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_Rifleman_P.et"
-   "{C0C7D650BD4C3CCA}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_Rifleman_P.et"
+   "{84BFC57ACE3F2322}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SquadLeader_P.et"
+   "{D19FFA691FCF0810}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AR_P.et"
+   "{093793A86646164C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AT_P.et"
+   "{8CACCAFD1EDEF893}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AAT_P.et"
+   "{7A79814F28466BA6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SeniorRifleman_P.et"
+   "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Rifleman_P.et"
+   "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Rifleman_P.et"
   }
   m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
  }
  Squad_1 {
   components {
@@ -123,15 +124,16 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
   angles -0.722 -42.284 1.866
   m_faction "USSR"
   m_aUnitPrefabSlots {
-   "{8062853E9D285018}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SquadLeader_P.et"
-   "{488F0C576CFFDD7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AR_P.et"
-   "{F55F5ED013E4C162}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AT_P.et"
-   "{4FC51EEAF1ACEB6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AAT_P.et"
-   "{E23F7AC58DE95E9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SeniorRifleman_P.et"
-   "{C0C7D650BD4C3CCA}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_Rifleman_P.et"
-   "{C0C7D650BD4C3CCA}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_Rifleman_P.et"
+   "{84BFC57ACE3F2322}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SquadLeader_P.et"
+   "{D19FFA691FCF0810}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AR_P.et"
+   "{093793A86646164C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AT_P.et"
+   "{8CACCAFD1EDEF893}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AAT_P.et"
+   "{7A79814F28466BA6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SeniorRifleman_P.et"
+   "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Rifleman_P.et"
+   "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Rifleman_P.et"
   }
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  Squad_2 {
   components {
@@ -155,13 +157,13 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
   angles -0.681 -40.464 0.581
   m_faction "USSR"
   m_aUnitPrefabSlots {
-   "{8062853E9D285018}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SquadLeader_P.et"
-   "{488F0C576CFFDD7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AR_P.et"
-   "{F55F5ED013E4C162}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AT_P.et"
-   "{4FC51EEAF1ACEB6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AAT_P.et"
-   "{E23F7AC58DE95E9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SeniorRifleman_P.et"
-   "{C0C7D650BD4C3CCA}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_Rifleman_P.et"
-   "{C0C7D650BD4C3CCA}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_Rifleman_P.et"
+   "{84BFC57ACE3F2322}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SquadLeader_P.et"
+   "{D19FFA691FCF0810}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AR_P.et"
+   "{093793A86646164C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AT_P.et"
+   "{8CACCAFD1EDEF893}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AAT_P.et"
+   "{7A79814F28466BA6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SeniorRifleman_P.et"
+   "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Rifleman_P.et"
+   "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Rifleman_P.et"
   }
  }
  ZSUCrew {
@@ -190,6 +192,7 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
    "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
   }
   m_sCustomNameSet "1st BMP-1ZD"
+  m_bSetPlayable 1
  }
  ZSUCrew2 {
   components {
@@ -216,6 +219,7 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
    "{296CC757A1430309}Prefabs/Characters/Factions/OPFOR/USSR_Army/Extra/Character_USSR_CrewDriver_P.et"
   }
   m_sCustomNameSet "2nd BMP-1ZD"
+  m_bSetPlayable 1
  }
  Squad_4 {
   components {
@@ -239,14 +243,15 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
   angles -0.931 136.803 9.385
   m_faction "USSR"
   m_aUnitPrefabSlots {
-   "{8062853E9D285018}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SquadLeader_P.et"
-   "{488F0C576CFFDD7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AR_P.et"
-   "{F55F5ED013E4C162}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AT_P.et"
-   "{4FC51EEAF1ACEB6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AAT_P.et"
-   "{E23F7AC58DE95E9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SeniorRifleman_P.et"
-   "{C0C7D650BD4C3CCA}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_Rifleman_P.et"
+   "{84BFC57ACE3F2322}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SquadLeader_P.et"
+   "{D19FFA691FCF0810}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AR_P.et"
+   "{093793A86646164C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AT_P.et"
+   "{8CACCAFD1EDEF893}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AAT_P.et"
+   "{7A79814F28466BA6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SeniorRifleman_P.et"
+   "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Rifleman_P.et"
   }
   m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
  }
  Squad_5 {
   components {
@@ -270,14 +275,15 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
   angles -7.515 137.173 15.06
   m_faction "USSR"
   m_aUnitPrefabSlots {
-   "{8062853E9D285018}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SquadLeader_P.et"
-   "{488F0C576CFFDD7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AR_P.et"
-   "{F55F5ED013E4C162}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AT_P.et"
-   "{4FC51EEAF1ACEB6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AAT_P.et"
-   "{E23F7AC58DE95E9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SeniorRifleman_P.et"
-   "{C0C7D650BD4C3CCA}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_Rifleman_P.et"
+   "{84BFC57ACE3F2322}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SquadLeader_P.et"
+   "{D19FFA691FCF0810}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AR_P.et"
+   "{093793A86646164C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AT_P.et"
+   "{8CACCAFD1EDEF893}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AAT_P.et"
+   "{7A79814F28466BA6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SeniorRifleman_P.et"
+   "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Rifleman_P.et"
   }
   m_sCustomNameSet "4th Squad"
+  m_bSetPlayable 1
  }
  Squad_6 {
   components {
@@ -301,14 +307,15 @@ $grp SCR_AIGroup : "{AD524B24B0BF4080}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Gr
   angles -1.493 143.48 9.914
   m_faction "USSR"
   m_aUnitPrefabSlots {
-   "{8062853E9D285018}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SquadLeader_P.et"
-   "{488F0C576CFFDD7C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AR_P.et"
-   "{F55F5ED013E4C162}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AT_P.et"
-   "{4FC51EEAF1ACEB6A}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_AAT_P.et"
-   "{E23F7AC58DE95E9C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_SeniorRifleman_P.et"
-   "{C0C7D650BD4C3CCA}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_Afghanka_1985/P/Character_USSR_Afghanka_Rifleman_P.et"
+   "{84BFC57ACE3F2322}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SquadLeader_P.et"
+   "{D19FFA691FCF0810}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AR_P.et"
+   "{093793A86646164C}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AT_P.et"
+   "{8CACCAFD1EDEF893}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_AAT_P.et"
+   "{7A79814F28466BA6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_SeniorRifleman_P.et"
+   "{D0B3CA0BB493B929}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV85A/Character_USSR_MSV85A_Rifleman_P.et"
   }
   m_sCustomNameSet "5th Squad"
+  m_bSetPlayable 1
  }
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
