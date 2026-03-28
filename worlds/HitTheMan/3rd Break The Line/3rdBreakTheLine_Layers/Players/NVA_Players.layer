@@ -527,6 +527,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{6DECFF331066F950}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_GunnerRadio_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
   }
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue" "Red" "Red"
   }
@@ -553,6 +554,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{6DECFF331066F950}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_GunnerRadio_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
   }
+  m_bSetPlayable 1
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue" "Red" "Red"
   }
@@ -579,6 +581,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{6DECFF331066F950}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_GunnerRadio_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
   }
+  m_bSetPlayable 1
   m_sCustomNameSet "3rd Squad"
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue" "Red" "Red"
@@ -606,6 +609,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{6DECFF331066F950}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_GunnerRadio_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
   }
+  m_bSetPlayable 1
   m_sCustomNameSet "1st Squad"
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue" "Red" "Red"
@@ -633,6 +637,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{6DECFF331066F950}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_GunnerRadio_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
   }
+  m_bSetPlayable 1
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue" "Red" "Red"
   }
@@ -659,6 +664,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   m_aUnitPrefabSlots {
    "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SL_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et" "{6DECFF331066F950}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_GunnerRadio_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
   }
+  m_bSetPlayable 1
   m_sCustomNameSet "3rd Squad"
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow" "Yellow" "Blue" "Blue" "Blue" "Red" "Red"
@@ -685,6 +691,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   m_aUnitPrefabSlots {
    "{FD0ADED0B51AF9AB}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_VehCommander_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
   }
+  m_bSetPlayable 1
   m_sCustomNameSet "Attached Platoon - 1st Tank HQ (T-72)"
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow"
@@ -706,6 +713,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   angleY 178.031
   angleZ 0.927
   m_faction "GC_NVA"
+  m_bSetPlayable 1
   m_aUnitPrefabSlots {
    "{FD0ADED0B51AF9AB}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_VehCommander_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
   }
@@ -733,6 +741,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   m_aUnitPrefabSlots {
    "{FD0ADED0B51AF9AB}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_VehCommander_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
   }
+  m_bSetPlayable 1
   m_sCustomNameSet "3rd Tank (T-72)"
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow"
@@ -757,6 +766,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   m_aUnitPrefabSlots {
    "{FD0ADED0B51AF9AB}worlds/HitTheMan/3rd Break The Line/Character_GC_NVA_VehCommander_P.et" "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Gunner_P.et" "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Driver_P.et"
   }
+  m_bSetPlayable 1
   m_sCustomNameSet "4th Tank (T-72)"
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow"
@@ -878,6 +888,7 @@ $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et"
   }
   m_sCustomNameSet "1st Platoon HQ"
+  m_bSetPlayable 1
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow"
   }
@@ -899,9 +910,11 @@ $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   angleZ -2.243
   m_faction "GC_NVA"
   m_aUnitPrefabSlots {
-   "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et" "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et"
+   "{69EF6951898BD00B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PlatoonLeader_P.et"
+   "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et"
   }
   m_sCustomNameSet "1st Platoon HQ"
+  m_bSetPlayable 1
   m_aUnitPrefabColorTeams {
    "Yellow" "Yellow" "Yellow"
   }

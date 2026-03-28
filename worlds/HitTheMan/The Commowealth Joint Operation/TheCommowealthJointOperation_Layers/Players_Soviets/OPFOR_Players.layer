@@ -24,6 +24,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  PLHQ {
   components {
@@ -46,6 +47,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Platoon HQ"
+  m_bSetPlayable 1
  }
  RifleSquad_3 {
   components {
@@ -73,6 +75,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_2 {
   components {
@@ -99,6 +102,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
   }
   m_bSnapToTerrain 0
+  m_bSetPlayable 1
  }
 }
 GenericEntity : "{A0E432F0BBED71B4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Equipment_01_US.et" {

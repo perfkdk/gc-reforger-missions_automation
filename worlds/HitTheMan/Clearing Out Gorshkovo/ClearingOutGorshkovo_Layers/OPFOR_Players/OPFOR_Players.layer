@@ -28,6 +28,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  P1_PLHQ1 {
   components {

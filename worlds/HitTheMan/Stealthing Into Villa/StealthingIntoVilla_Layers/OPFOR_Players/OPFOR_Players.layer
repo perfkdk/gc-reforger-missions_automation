@@ -92,6 +92,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  PLHQ {
   components {
@@ -114,6 +115,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Platoon HQ"
+  m_bSetPlayable 1
  }
  RifleSquad_3 {
   components {
@@ -138,6 +140,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_2 {
   components {
@@ -160,6 +163,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
   }
+  m_bSetPlayable 1
   m_bSnapToTerrain 0
  }
  HVT {
@@ -182,6 +186,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "Supreme Commander"
+  m_bSetPlayable 1
  }
  Pilot_Hind_1 {
   components {
@@ -203,6 +208,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Mi-24 Hind"
+  m_bSetPlayable 1
  }
  CoyHQ {
   components {
@@ -222,6 +228,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "Company HQ"
+  m_bSetPlayable 1
  }
  RifleSquad_4 {
   components {
@@ -245,6 +252,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  PLHQ2 {
   components {
@@ -267,6 +275,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "2nd Platoon HQ"
+  m_bSetPlayable 1
  }
  RifleSquad_5 {
   components {
@@ -290,6 +299,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
   }
   m_bSnapToTerrain 0
+  m_bSetPlayable 1
  }
  RifleSquad_6 {
   components {
@@ -314,6 +324,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
  }
 }
 $grp GenericEntity : "{762430A240108C70}PrefabsEditable/Auto/Props/Military/AmmoBoxes/USSR/E_EquipmentBoxWooden_Ammunition_01_USSR.et" {

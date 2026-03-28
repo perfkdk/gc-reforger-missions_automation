@@ -21,6 +21,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  PLHQ {
   components {
@@ -42,6 +43,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st VDV Platoon"
+  m_bSetPlayable 1
  }
  RifleSquad_3 {
   components {
@@ -66,6 +68,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_2 {
   components {
@@ -89,6 +92,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
   }
   m_bSnapToTerrain 0
+  m_bSetPlayable 1
  }
  CoyHQ {
   components {
@@ -114,6 +118,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "VDV Company"
+  m_bSetPlayable 1
  }
  RifleSquad_6 {
   components {
@@ -138,6 +143,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_4 {
   components {
@@ -162,6 +168,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  PLHQ2 {
   components {
@@ -183,6 +190,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "2nd VDV Platoon"
+  m_bSetPlayable 1
  }
  RifleSquad_5 {
   components {
@@ -206,6 +214,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
   }
   m_bSnapToTerrain 0
+  m_bSetPlayable 1
  }
  Pilot_Hind_1 {
   components {
@@ -227,6 +236,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Mi-24"
+  m_bSetPlayable 1
  }
  Pilot_Hind_2 {
   components {
@@ -248,6 +258,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "2nd Mi-24"
+  m_bSetPlayable 1
  }
  Pilot_Mi8_1 {
   components {
@@ -268,6 +279,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Mi-8"
+  m_bSetPlayable 1
  }
  Pilot_Mi8_2 {
   components {
@@ -288,6 +300,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "2nd Mi-8"
+  m_bSetPlayable 1
  }
  Pilot_Mi8_3 {
   components {
@@ -308,6 +321,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd Mi-8"
+  m_bSetPlayable 1
  }
  RifleSquad_9 {
   components {
@@ -332,6 +346,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_7 {
   components {
@@ -356,6 +371,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_8 {
   components {
@@ -379,6 +395,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{EB49AB08A32A8C1D}Prefabs/Characters/Factions/OPFOR/USSR_Army/SovietArmy_Airborne_1983/Character_USSR_SR_VDV_P.et"
   }
   m_bSnapToTerrain 0
+  m_bSetPlayable 1
  }
  PLHQ3 {
   components {
@@ -400,6 +417,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd VDV Platoon"
+  m_bSetPlayable 1
  }
 }
 $grp Vehicle : "{9AA441DE6DAB6D94}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S8.et" {

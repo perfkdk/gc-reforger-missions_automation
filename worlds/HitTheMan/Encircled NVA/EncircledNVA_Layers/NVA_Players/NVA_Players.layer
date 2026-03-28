@@ -22,6 +22,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
   }
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_2 {
   components {
@@ -67,6 +68,7 @@ SCR_AIGroup MotorPLT_1 : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Mo
   "{4AF10D5EE01C8BE7}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_PoliticalOfficer_P.et"
  }
  m_sCustomNameSet "1st Platoon HQ"
+ m_bSetPlayable 1
 }
 GenericEntity : "{CD62E36CFDCB8FD8}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Equipment_01_USSR.et" {
  components {

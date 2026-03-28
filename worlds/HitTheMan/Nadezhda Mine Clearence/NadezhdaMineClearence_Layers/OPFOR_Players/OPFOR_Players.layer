@@ -22,6 +22,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  PLHQ {
   components {
@@ -45,6 +46,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "Platoon HQ"
+  m_bSetPlayable 1
  }
  RifleSquad_3 {
   components {
@@ -70,6 +72,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_2 {
   components {
@@ -94,6 +97,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
   }
   m_bSnapToTerrain 0
+  m_bSetPlayable 1
  }
 }
 GenericEntity : "{7CE07D80592CA499}PrefabsEditable/Auto/Props/Military/AmmoBoxes/USSR/E_EquipmentBoxWooden_Equipment_01_USSR.et" {

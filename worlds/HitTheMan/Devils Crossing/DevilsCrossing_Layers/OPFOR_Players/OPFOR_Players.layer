@@ -75,6 +75,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et"
    "{383A8FEC32A5B229}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_RiflemanAT_P.et"
   }
+  m_bSetPlayable 1
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st Squad"
  }

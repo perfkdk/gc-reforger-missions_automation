@@ -840,6 +840,7 @@ $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et"
   }
   m_sCustomNameSet "1st Platoon HQ"
+  m_bSetPlayable 1
  }
  MotorPLT_2 {
   components {

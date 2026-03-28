@@ -24,4 +24,5 @@ SCR_AIGroup RifleSquad_1 : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/
  }
  m_bSnapToTerrain 0
  m_sCustomNameSet "1st Squad"
+ m_bSetPlayable 1
 }

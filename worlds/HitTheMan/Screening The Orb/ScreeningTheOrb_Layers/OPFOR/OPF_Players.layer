@@ -17,6 +17,7 @@ $grp SCR_AIGroup : "{04FC2603763DCF52}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{CF063A058ADD156E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliGunner_P.et"
   }
   m_sCustomNameSet "Mi-24 Hind | Berkut 1"
+  m_bSetPlayable 1
  }
  Berkut2 {
   components {
@@ -36,6 +37,7 @@ $grp SCR_AIGroup : "{04FC2603763DCF52}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{CF063A058ADD156E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliGunner_P.et"
   }
   m_sCustomNameSet "Mi-24 Hind | Berkut 2"
+  m_bSetPlayable 1
  }
 }
 $grp Tank : "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et" {
@@ -622,6 +624,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewDriver_P.et"
   }
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_2 {
   components {
@@ -648,6 +651,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{46122282EBE905E0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewGunner_P.et"
    "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewDriver_P.et"
   }
+  m_bSetPlayable 1
  }
  RifleSquad_3 {
   components {
@@ -675,6 +679,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewDriver_P.et"
   }
   m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_5 {
   components {
@@ -702,6 +707,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewDriver_P.et"
   }
   m_sCustomNameSet "4th Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_6 {
   components {
@@ -729,6 +735,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewDriver_P.et"
   }
   m_sCustomNameSet "5th Squad"
+  m_bSetPlayable 1
  }
  RifleSquad_7 {
   components {
@@ -756,6 +763,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewDriver_P.et"
   }
   m_sCustomNameSet "6th Squad"
+  m_bSetPlayable 1
  }
 }
 $grp Vehicle : "{7FF511EDC4034D9F}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S5.et" {
@@ -790,6 +798,7 @@ $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et"
   }
   m_sCustomNameSet "1st Platoon HQ"
+  m_bSetPlayable 1
  }
  MotorPLT_2 {
   components {
@@ -810,5 +819,6 @@ $grp SCR_AIGroup : "{8D35DA8B89880FAF}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    "{E768556E051B2813}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputyPlatoonLeader_P.et"
   }
   m_sCustomNameSet "2nd Platoon HQ"
+  m_bSetPlayable 1
  }
 }
