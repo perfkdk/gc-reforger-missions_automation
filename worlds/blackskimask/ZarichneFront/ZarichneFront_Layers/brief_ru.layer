@@ -15,7 +15,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 2044.063 3.122 828.46
   m_sTitle "SITUATION"
-  m_sTextData "Our PLTHQ +1 section is at the PLT barnhouse (GRID)."\
+  m_sTextData "Our PLTHQ +1 section is at the PLT barnhouse GRID: 02940238."\
   " 2 section is covering the northern most flank whilst 3 section has pushed out into a foward trench to observe enemy movement. "\
   ""\
   "3 section is currently under contact with a CDF OP to its front."\
