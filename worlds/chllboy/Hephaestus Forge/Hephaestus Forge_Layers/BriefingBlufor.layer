@@ -108,7 +108,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "EW CAPABILITIES"
   m_sTextData "MH-60 Black Hawk transport helicopters have been furnished with non-removable drone jammers. "\
   ""\
-  "You can expect the drone signal to start to degrade when they enter ~150m wide interference bubble centered around the helicopter. The drone becomes uncontrolable as it approaches the center of the interference area."
+  "You can expect the drone signal to start to degrade when they enter ~200m wide interference bubble centered around the helicopter. The drone becomes uncontrolable as it approaches the center of the interference area."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
