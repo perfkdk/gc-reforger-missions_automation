@@ -16,7 +16,7 @@ SCR_AIGroup : "{0B9076B9A21B3DC4}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Gr
   "{359FEAB375074A33}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_MG_P.et"
   "{68B638780B77136F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_AMG_P.et"
   "{7AC85AE4E47F19E4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_GL_P.et"
-  "{35C0247AE3B14B41}worlds/chllboy/Hephaestus's forge/Prefabs/Character_RHS_RANGER_SniperAM_P.et"
+  "{35C0247AE3B14B41}worlds/chllboy/Hephaestus Forge/Prefabs/Character_RHS_RANGER_SniperAM_P.et"
   "{3BAAEC73133A6BA6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_Spotter_P.et"
  }
  m_bPlayable 1
@@ -24,107 +24,22 @@ SCR_AIGroup : "{0B9076B9A21B3DC4}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Gr
  m_sCustomNameSet "Weapons Element"
  m_bSetPlayable 1
 }
-$grp Vehicle : "{420562B2B5D106C3}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_unarmed.et" {
- AUS_UH60_unarmed2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
-    MultiSlots {
-     MultiSlotConfiguration "{68CD620405B74488}" {
-      SlotTemplate InventoryStorageSlot JAMMER {
-       Prefab "{163A6815DEEE28E3}Prefabs/Items/Equipment/Backpacks/JammerBagStatic.et"
-      }
-      NumSlots 1
-     }
-    }
-   }
-   SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
-    InitialInventoryItems {
-     ItemsInitConfigurationItem "{68D74C3BF35339B2}" {
-      PrefabsToSpawn {
-       "{95B7C27EEA2A6AA8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_XP_MC_AMP_MODDED_PVS.et"
-      }
-     }
-    }
-   }
-  }
-  coords 2891.265 10 3067.343
-  angles 0 121.777 0
+$grp Vehicle : "{2D589A45925119D9}worlds/chllboy/Hephaestus Forge/Prefabs/AUS_UH60_unarmed_EW.et" {
+ AUS_UH60_unarmed_EW1 {
+  coords 2888.93 10 3068.822
+  angles 0 120 0
   m_sAttachmentGroupName "pilot4"
  }
- AUS_UH60_unarmed3 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
-    MultiSlots {
-     MultiSlotConfiguration "{68CD620421FFEC1F}" {
-      SlotTemplate InventoryStorageSlot JAMMER {
-       Prefab "{163A6815DEEE28E3}Prefabs/Items/Equipment/Backpacks/JammerBagStatic.et"
-      }
-      NumSlots 1
-     }
-    }
-   }
-   SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
-    InitialInventoryItems {
-     ItemsInitConfigurationItem "{68D74C3BFE2E56FA}" {
-      PrefabsToSpawn {
-       "{95B7C27EEA2A6AA8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_XP_MC_AMP_MODDED_PVS.et"
-      }
-     }
-    }
-   }
-  }
-  coords 2859.1 10 3075.996
-  angles 0 121.777 0
+ AUS_UH60_unarmed_EW2 {
+  coords 2856.59 10 3076.36
+  angles 0 120 0
   m_sAttachmentGroupName "pilot5"
  }
- AUS_UH60_unarmed4 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
-    MultiSlots {
-     MultiSlotConfiguration "{68CD6204309A9965}" {
-      SlotTemplate InventoryStorageSlot JAMMMER {
-       Prefab "{163A6815DEEE28E3}Prefabs/Items/Equipment/Backpacks/JammerBagStatic.et"
-      }
-      NumSlots 1
-     }
-    }
-   }
-   SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
-    InitialInventoryItems {
-     ItemsInitConfigurationItem "{68D74C3B8527CCD0}" {
-      PrefabsToSpawn {
-       "{95B7C27EEA2A6AA8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_XP_MC_AMP_MODDED_PVS.et"
-      }
-     }
-    }
-   }
-  }
-  coords 2840.861 10 3100.382
-  angles 0 121.777 0
+ AUS_UH60_unarmed_EW3 {
+  coords 2838.501 10 3100.024
+  angles 0 120 0
   m_sAttachmentGroupName "pilot6"
  }
-}
-Vehicle AUS_UH60_armed1 : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
- components {
-  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#AR-Vehicle_UH60_Transport_Name1"
-   }
-  }
-  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
-   MultiSlots {
-    MultiSlotConfiguration "{68DA1AF35ED6E173}" {
-     SlotTemplate InventoryStorageSlot JAMMER {
-      Prefab "{163A6815DEEE28E3}Prefabs/Items/Equipment/Backpacks/JammerBagStatic.et"
-     }
-     NumSlots 1
-    }
-   }
-  }
- }
- coords 2909.37 10 3043.076
- angles 0 123.271 0
- m_sAttachmentGroupName "pilot3"
 }
 $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Group_Rangers_2020_Squad_P.et" {
  {
@@ -145,11 +60,11 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
    "{D7F1A9B915CCEFC2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_TL_P.et"
    "{7AC85AE4E47F19E4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_GL_P.et"
    "{60FA575D41ABF726}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_LAT_P.et"
-   "{86648775862A9B14}worlds/chllboy/Hephaestus's forge/Prefabs/Character_RHS_RANGER_Breacher_P.et"
+   "{86648775862A9B14}worlds/chllboy/Hephaestus Forge/Prefabs/Character_RHS_RANGER_Breacher_P.et"
    "{D7F1A9B915CCEFC2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_TL_P.et"
    "{7AC85AE4E47F19E4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_GL_P.et"
    "{60FA575D41ABF726}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_LAT_P.et"
-   "{86648775862A9B14}worlds/chllboy/Hephaestus's forge/Prefabs/Character_RHS_RANGER_Breacher_P.et"
+   "{86648775862A9B14}worlds/chllboy/Hephaestus Forge/Prefabs/Character_RHS_RANGER_Breacher_P.et"
   }
   m_bPlayable 1
   m_bDeleteIfNoPlayer 0
@@ -174,11 +89,11 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
    "{D7F1A9B915CCEFC2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_TL_P.et"
    "{7AC85AE4E47F19E4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_GL_P.et"
    "{60FA575D41ABF726}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_LAT_P.et"
-   "{86648775862A9B14}worlds/chllboy/Hephaestus's forge/Prefabs/Character_RHS_RANGER_Breacher_P.et"
+   "{86648775862A9B14}worlds/chllboy/Hephaestus Forge/Prefabs/Character_RHS_RANGER_Breacher_P.et"
    "{D7F1A9B915CCEFC2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_TL_P.et"
    "{7AC85AE4E47F19E4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_GL_P.et"
    "{A0F2213258FDFFAA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_AR_P.et"
-   "{86648775862A9B14}worlds/chllboy/Hephaestus's forge/Prefabs/Character_RHS_RANGER_Breacher_P.et"
+   "{86648775862A9B14}worlds/chllboy/Hephaestus Forge/Prefabs/Character_RHS_RANGER_Breacher_P.et"
   }
   m_bPlayable 1
   m_bDeleteIfNoPlayer 0
@@ -218,9 +133,9 @@ $grp SCR_AIGroup : "{51C9284F0B4E895C}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
   angles 0 30 0
   m_aUnitPrefabSlots {
    "{057799BF8CBB4BC0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Rangers/P/Character_RHS_RANGER_SL_P.et"
-   "{CF2CB71713D94ABA}worlds/chllboy/Hephaestus's forge/Prefabs/Character_RHS_RANGER_Demo_P.et"
-   "{CF2CB71713D94ABA}worlds/chllboy/Hephaestus's forge/Prefabs/Character_RHS_RANGER_Demo_P.et"
-   "{CF2CB71713D94ABA}worlds/chllboy/Hephaestus's forge/Prefabs/Character_RHS_RANGER_Demo_P.et"
+   "{CF2CB71713D94ABA}worlds/chllboy/Hephaestus Forge/Prefabs/Character_RHS_RANGER_Demo_P.et"
+   "{CF2CB71713D94ABA}worlds/chllboy/Hephaestus Forge/Prefabs/Character_RHS_RANGER_Demo_P.et"
+   "{CF2CB71713D94ABA}worlds/chllboy/Hephaestus Forge/Prefabs/Character_RHS_RANGER_Demo_P.et"
   }
   m_bPlayable 1
   m_bDeleteIfNoPlayer 0
@@ -262,6 +177,11 @@ $grp Vehicle : "{823CA4130CE90077}Prefabs/Vehicles/Helicopters/AH6M/AH6M_RKT.et"
   m_sAttachmentGroupName "pilot2"
  }
 }
+Vehicle AUS_UH60_armed1_EW1 : "{BDDA94B7B3B74A77}worlds/chllboy/Hephaestus Forge/Prefabs/AUS_UH60_armed1_EW.et" {
+ coords 2908.22 10 3042.9
+ angles 0 120 0
+ m_sAttachmentGroupName "pilot3"
+}
 $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers/P/Group_Rangers_2020_PHQ_P.et" {
  {
   components {
@@ -297,7 +217,7 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
   coords 2944.505 10 3016.222
   angles 0 30 0
   m_aUnitPrefabSlots {
-   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus's forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
+   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus Forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
   }
   m_aStaticVehicles {
    "#AH6M-Vehicle_AH6M_Name - #WCS-Weapon_M134_Name/#WCS-Weapon_M260_Name"
@@ -321,7 +241,7 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
   coords 2937.348 10 3032.966
   angles 0 30 0
   m_aUnitPrefabSlots {
-   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus's forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
+   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus Forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
   }
   m_aStaticVehicles {
    "#AH6M-Vehicle_AH6M_Name - #WCS-Weapon_M134_Name/#WCS-Weapon_M260_Name"
@@ -344,7 +264,7 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
   coords 2903.466 10 3037.506
   angles 0 30 0
   m_aUnitPrefabSlots {
-   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus's forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
+   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus Forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
   }
   m_aStaticVehicles {
    "#AR-Vehicle_UH60_Transport_Name1"
@@ -368,7 +288,7 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
   coords 2885.159 10 3063.392
   angles 0 30 0
   m_aUnitPrefabSlots {
-   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus's forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
+   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus Forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
   }
   m_aStaticVehicles {
    "#AR-Vehicle_UH60_Transport_Name"
@@ -392,7 +312,7 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
   coords 2851.643 10 3071.002
   angles 0 30 0
   m_aUnitPrefabSlots {
-   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus's forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
+   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus Forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
   }
   m_aStaticVehicles {
    "#AR-Vehicle_UH60_Transport_Name"
@@ -416,7 +336,7 @@ $grp SCR_AIGroup : "{FBC6FDD05CED317D}Prefabs/Groups/BLUFOR/US/Army/2020/Rangers
   coords 2834.705 10 3096.593
   angles 0 30 0
   m_aUnitPrefabSlots {
-   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus's forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
+   "{0BC9FB2D45681163}worlds/chllboy/Hephaestus Forge/Prefabs/Character_2025_Ranger_Pilot_D.et"
   }
   m_aStaticVehicles {
    "#AR-Vehicle_UH60_Transport_Name"
