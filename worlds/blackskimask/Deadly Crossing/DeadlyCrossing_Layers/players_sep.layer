@@ -142,19 +142,19 @@ GenericEntity ammoboxRED : "{97B831EBDF519F89}worlds/TheLocalPub/BattleOfTheBulg
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{E2434ED1318D8476}Prefabs/Characters/Items/DroneController.et"
      }
-     NumSlots 1
+     NumSlots 0
     }
     MultiSlotConfiguration "{632EA9BEBE5C68D5}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{8951045BFE8BC8E4}Prefabs/Characters/HeadGear/FPV_Goggles.et"
      }
-     NumSlots 1
+     NumSlots 0
     }
     MultiSlotConfiguration "{632EA9BEBE5C68D7}" {
      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
       Prefab "{1602B2595AC224FB}Prefabs/Drones/FPVBase/FPVBattery.et"
      }
-     NumSlots 2
+     NumSlots 1
     }
    }
   }
