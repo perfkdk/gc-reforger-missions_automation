@@ -193,3 +193,17 @@ TILW_MissionFrameworkEntity framwork : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missio
   }
  }
 }
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ {
+  coords 3637.399 142.59 8183.074
+  m_fWarnRadius 8
+  m_fZoneRadius 10
+  m_fZoneTeleportedRadius 15
+ }
+ {
+  coords 3641.872 140.877 7901.815
+  m_fWarnRadius 8
+  m_fZoneRadius 10
+  m_fZoneTeleportedRadius 15
+ }
+}
