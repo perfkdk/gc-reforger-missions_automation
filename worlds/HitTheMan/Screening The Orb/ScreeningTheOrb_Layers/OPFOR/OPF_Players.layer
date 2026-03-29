@@ -555,6 +555,7 @@ SCR_AIGroup CoyHQ : "{45A6BA13BD48E0D3}Prefabs/Groups/OPFOR/Russia/1980s/Motoris
   "{9766DC8C4E69A883}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_CrewDriver_P.et"
  }
  m_sCustomNameSet "Company Headquarters"
+ m_bSetPlayable 1
 }
 $grp GenericEntity : "{525C793E1943EA05}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_USSR_01.et" {
  {
