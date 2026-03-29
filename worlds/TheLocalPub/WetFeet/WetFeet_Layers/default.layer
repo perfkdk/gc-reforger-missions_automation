@@ -5,6 +5,21 @@ PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 331.275 83.25 4984.218
 }
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{68F7561F8BFE4833}" {
+     m_sWeatherPresetName "Rainy"
+    }
+   }
+   m_bRandomWeatherChanges 1
+   m_bUseSpecifiedDate 1
+   m_iSetDay 23
+   m_iSetMonth 7
+   m_iSetYear 2021
+  }
+ }
  coords 395.79 66.44 5017.333
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {

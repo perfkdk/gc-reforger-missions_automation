@@ -1,3 +1,21 @@
+GenericEntity : "{0084C44754C584E3}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_newspaper_V2.et" {
+ coords 6137.291 51.686 7954.013
+ angles 7.66 5.837 33.988
+}
+$grp DecalEntity : "{091747817467C504}Prefabs/Decals/Fluids/Decal_OilStain_01_medium.et" {
+ {
+  coords 6141.488 0 7957.87
+  angles -90 -180 -180
+ }
+ {
+  coords 6142.75 0 7958.306
+  angles -90 -180 -180
+ }
+ {
+  coords 6142.067 0.115 7957.634
+  angles -90 -180 -180
+ }
+}
 Tree : "{0CA0547EB03759E1}Prefabs/Vegetation/Bush/b_rubus_idaeus_1s_collision.et" {
  coords 6306.218 -0.129 8159.177
  angles 0 -70.476 0
@@ -23,6 +41,14 @@ $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortific
   coords 6297.742 0 8170.893
   angles 0 34.013 0
  }
+ {
+  coords 6301.269 0 8149.429
+  angles 0 130.296 0
+ }
+ {
+  coords 6298.821 0.143 8147.294
+  angles 0 150.437 0
+ }
 }
 $grp GenericEntity : "{19DA1F395962511D}Prefabs/Vegetation/Cuttings/Pinus_sylvestris_medium_01.et" {
  {
@@ -33,6 +59,19 @@ $grp GenericEntity : "{19DA1F395962511D}Prefabs/Vegetation/Cuttings/Pinus_sylves
   coords 6305.481 51.968 8161.784
   angles 3.04 107.607 -36.662
  }
+}
+GenericEntity : "{2887E99075B9C928}Prefabs/Props/Garbage/Generic/Litter_01_long.et" {
+ coords 6140.242 50.331 7954.934
+}
+GenericEntity : "{79C6D8C31947742A}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V1.et" {
+ coords 6140.769 50.408 7953.563
+ angles 0 0 73.726
+}
+GenericEntity : "{7B033D9E21CFD095}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_OilStain_01_small.et" {
+ coords 6141.813 50.794 7957.65
+}
+GenericEntity : "{8599EE1DF5685104}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_tincan_V2.et" {
+ coords 6143.287 50.621 7952.421
 }
 $grp StaticModelEntity : "{96876CEE4BD63503}Prefabs/Structures/Military/Fortifications/Trenches/ACE_VehicleTrench_01.et" {
  {
@@ -48,9 +87,29 @@ $grp StaticModelEntity : "{96876CEE4BD63503}Prefabs/Structures/Military/Fortific
   angles 0 -152.572 0
  }
 }
+GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_small.et" {
+ coords 6137.508 50.97 7951.763
+}
+GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_mattress.et" {
+ coords 6141.473 50.069 7953.286
+}
 GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et" {
  coords 6302.569 52.469 8156.146
  angles 0 100.078 0
+}
+$grp DecalEntity : "{B38FBA56FA69E392}Prefabs/Decals/Fluids/Decal_OilStain_01_large.et" {
+ {
+  coords 6141.83 0.048 7958.003
+  angles -90 -180 -180
+ }
+ {
+  coords 6142.704 -0 7956.819
+  angles -90 0 -105.978
+ }
+}
+GenericEntity : "{C0CCCB68B7147DEC}Prefabs/Props/Furniture/Chair_02/Chair_02_Base.et" {
+ coords 6138.178 51.35 7954.928
+ angles 0 0 106.563
 }
 GenericEntity : "{C11CE4B95EA336C3}Prefabs/Vegetation/Cuttings/Sambucus_Nigra_medium_01.et" {
  coords 6305.44 51.304 8158.144
@@ -65,4 +124,62 @@ $grp GenericEntity : "{C258AD45887AA8CA}Prefabs/Vegetation/Cuttings/Picea_abies_
   coords 6304.917 51.943 8152.602
   angles -63.348 0 21.448
  }
+}
+$grp GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
+ {
+  coords 6142.775 50.326 7953.619
+ }
+ {
+  coords 6140.363 50.844 7956.676
+  angles 5.712 2.511 23.777
+ }
+ {
+  coords 6140.363 50.844 7956.676
+  angles 5.712 2.511 23.777
+ }
+}
+$grp DecalEntity : "{D53741D03AB3A652}Prefabs/Decals/Fluids/Decal_OilStain_01_extralarge.et" {
+ {
+  coords 6141.805 -0 7958.506
+  angles -90 -180 -180
+ }
+ {
+  coords 6141.834 0 7959.187
+  angles -90 0 109.542
+ }
+ {
+  coords 6142.353 -0 7957.344
+  angles -90 0 -114.737
+ }
+}
+Vehicle motorbike_green1 : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_green.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{627403692385519F}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6274036923855183}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 6228.473 53.521 8176.457
+ angles 0 -176.858 0
+}
+$grp DecalEntity : "{EE58596A0C85394E}Prefabs/Decals/Fluids/Decal_OilStain_01_small.et" {
+ {
+  coords 6142.49 0 7956.645
+  angles -90 -180 -180
+ }
+ {
+  coords 6142.516 -0 7956.999
+  angles -90 0 -178.762
+ }
+}
+GenericEntity : "{F39A28AB89986935}Prefabs/Structures/Misc/Table.et" {
+ coords 6136.26 53.363 7965.348
+ angles 0 -13.075 0
+}
+GenericEntity : "{FA8AAF819FBC2DFD}Prefabs/Structures/Wreck/sedan.et" {
+ coords 6213.637 53.938 8049.39
+ angles 0 137.012 0
 }

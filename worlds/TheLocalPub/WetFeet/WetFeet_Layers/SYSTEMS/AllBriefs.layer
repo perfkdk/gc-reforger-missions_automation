@@ -1,0 +1,23 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ SUM {
+  coords 1529.149 65.016 4753.078
+  m_sTextData "Summary"
+  m_bEmptyFactionVisibility 1
+ }
+ MM {
+  coords 1529.149 65.016 4753.078
+  m_sTitle "Mission notes"
+  m_sTextData "<h2>End conditions</h2>"\
+  "<b>BLUFOR:</b>"\
+  ""\
+  "<b>OFPOR:</b>"\
+  ""\
+  "<h2>MISC</h2>"\
+  ""\
+  ""\
+  "<b>Mission made by TheLocalPub - Use the #feedback channel on Discord to log complaints, feedback, and the likes.</b>"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 10
+ }
+}

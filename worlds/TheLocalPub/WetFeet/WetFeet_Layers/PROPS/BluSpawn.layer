@@ -1,6 +1,6 @@
 $grp Tree : "{61E97F0E89CC920A}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abies_3fw.et" {
  {
-  coords 7062.922 -0 7720.746
+  coords 7062.922 0 7720.746
   angles -1.492 82.866 -4.937
  }
  {
@@ -20,13 +20,13 @@ $grp Tree : "{61E97F0E89CC920A}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abi
   angles -0.737 27.732 -1.524
  }
  {
-  coords 7107.179 -0 7737.601
+  coords 7107.179 0 7737.601
   angles -0.737 27.732 -1.524
  }
 }
 $grp Tree : "{6DF33B3CBC51D6D9}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abies_3f.et" {
  {
-  coords 7073.069 -0 7701.247
+  coords 7073.069 0 7701.247
   angles 3.391 22.587 2.125
  }
  {
@@ -42,7 +42,7 @@ $grp Tree : "{6DF33B3CBC51D6D9}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abi
   angles 3.391 22.587 2.125
  }
  {
-  coords 7052.292 -0 7724.292
+  coords 7052.292 0 7724.292
   angles 3.391 22.587 2.125
  }
  {
@@ -54,7 +54,7 @@ $grp Tree : "{6DF33B3CBC51D6D9}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abi
   angles 3.391 22.587 2.125
  }
  {
-  coords 7067.377 -0 7752.895
+  coords 7067.377 0 7752.895
   angles 3.391 22.587 2.125
  }
  {

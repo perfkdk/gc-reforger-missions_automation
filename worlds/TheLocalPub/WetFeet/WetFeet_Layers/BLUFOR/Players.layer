@@ -35,7 +35,7 @@ GenericEntity BluforEquipmentBox : "{0B24DD72DAF499F4}PrefabsEditable/Auto/Props
      SlotTemplate EquipmentStorageSlot Drones {
       Prefab "{FDA92D590B9C633B}Prefabs/Drones/DJIBase/DJIBase.et"
      }
-     NumSlots 2
+     NumSlots 1
     }
     MultiSlotConfiguration "{68F330F38E46C78B}" {
      SlotTemplate EquipmentStorageSlot Battery {
@@ -45,7 +45,7 @@ GenericEntity BluforEquipmentBox : "{0B24DD72DAF499F4}PrefabsEditable/Auto/Props
     }
     MultiSlotConfiguration "{68F330F25E71CA3A}" {
      SlotTemplate EquipmentStorageSlot Launcher {
-      Prefab "{39A4D8534260B092}Prefabs/Drones/DJIBase/RGD5DropperGrenadePlaceHolder.et"
+      Prefab "{E0CFA3FE78FC5190}Prefabs/Weapons/Launchers/M72/Launcher_LAW66_L1A1.et"
      }
      NumSlots 6
     }
