@@ -32,20 +32,23 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
      "CIV"
     }
    }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    m_drawArea 0
+   }
   }
-  coords 3700.395 141.18 8047.626
+  coords 3698.716 140.591 8045.625
   Points {
    ShapePoint "{68B84C92B2BBF80E}" {
-    Position 34.167 0 -2.303
+    Position 37.763 0.842 2.055
    }
    ShapePoint "{68B84C92B3FA9D51}" {
-    Position 35.268 0 -17.707
+    Position 43.135 -3.037 -38.419
    }
    ShapePoint "{68B84C92B4D0EC39}" {
-    Position 20.256 0 -18.836
+    Position 5.951 32.397 -36.624
    }
-   ShapePoint "{68B84C92B4309207}" {
-    Position 19.45 0 -3.723
+   ShapePoint "{68FA28FE02BD1161}" {
+    Position 3.513 0 -0.945
    }
   }
  }
