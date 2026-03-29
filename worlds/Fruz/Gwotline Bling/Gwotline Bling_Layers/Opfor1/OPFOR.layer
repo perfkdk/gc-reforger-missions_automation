@@ -1,7 +1,7 @@
 SCR_AIGroup : "{097966114F7D2E0C}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_PHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
+   Enabled 0
   }
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1
@@ -13,7 +13,7 @@ SCR_AIGroup : "{097966114F7D2E0C}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_PHQ_P.
 SCR_AIGroup : "{297333D99B816CC9}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_MG_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
+   Enabled 0
   }
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1
@@ -30,7 +30,7 @@ SCR_AIGroup : "{297333D99B816CC9}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_MG_P.e
 SCR_AIGroup : "{5904B752E06F3423}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_Assault_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
+   Enabled 0
   }
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1

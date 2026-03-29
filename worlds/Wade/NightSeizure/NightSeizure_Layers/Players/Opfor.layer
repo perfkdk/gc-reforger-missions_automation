@@ -2,7 +2,7 @@ $grp SCR_AIGroup : "{666A2B0A6B1967AE}Prefabs/Groups/OPFOR/Spetsnaz/Suppressed/G
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{68B494751EAA3C6F}" {
     m_iSquadCallsign 2
@@ -15,7 +15,7 @@ $grp SCR_AIGroup : "{666A2B0A6B1967AE}Prefabs/Groups/OPFOR/Spetsnaz/Suppressed/G
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "File"
+    Enabled 0
    }
    PS_GroupCallsignAssigner "{68B494751D89F7E5}" {
     m_iSquadCallsign 3
@@ -29,7 +29,7 @@ $grp SCR_AIGroup : "{666A2B0A6B1967AE}Prefabs/Groups/OPFOR/Spetsnaz/Suppressed/G
 SCR_AIGroup : "{B721D5A8C1B556CE}Prefabs/Groups/OPFOR/Spetsnaz/Suppressed/Group_USSR_Spetsnaz_ReconTeam.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "File"
+   Enabled 0
   }
   PS_GroupCallsignAssigner "{68B49475189DF08B}" {
    m_iSquadCallsign 1
