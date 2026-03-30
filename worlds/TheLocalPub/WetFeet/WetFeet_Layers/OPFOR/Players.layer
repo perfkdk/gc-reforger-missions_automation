@@ -46,6 +46,12 @@ SCR_AIGroup OPFORHQ : "{4ED44E08226F3FB3}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "File"
   }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 4
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     m_sFaction "GC_SEPARATIST"
@@ -69,6 +75,12 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "File"
    }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 4
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
    SCR_EditableGroupComponent "{50D291F6C83FA532}" {
     m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
      m_sFaction "GC_SEPARATIST"
@@ -83,6 +95,12 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "File"
    }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 4
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
    SCR_EditableGroupComponent "{50D291F6C83FA532}" {
     m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
      m_sFaction "GC_SEPARATIST"
@@ -92,24 +110,30 @@ $grp SCR_AIGroup : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/
   coords 6180.685 55.929 8110.395
   angles 0 -176.82 0
  }
-}
-SCR_AIGroup BRDMCrew : "{95EAEE22FCB498F2}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/P/Group_SEP_RifleSquad_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "File"
-  }
-  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
-   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
-    m_sFaction "GC_SEPARATIST"
+ BRDMCrew {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 4
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     m_sFaction "GC_SEPARATIST"
+    }
    }
   }
+  coords 6195.152 54.125 8101.455
+  angles 0 -77.132 0
+  m_aUnitPrefabSlots {
+   "{DE0AE222AA2435A9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_CrewCommander_P.et"
+   "{393715C9B024A706}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_CrewGunner_P.et"
+   "{1346878B0E02169F}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_CrewDriver_P.et"
+  }
+  m_sCustomNameSet "BRDM Squad"
  }
- coords 6195.152 54.125 8101.455
- angles 0 -77.132 0
- m_aUnitPrefabSlots {
-  "{DE0AE222AA2435A9}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_CrewCommander_P.et"
-  "{393715C9B024A706}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_CrewGunner_P.et"
-  "{1346878B0E02169F}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/P/Character_SEP_CrewDriver_P.et"
- }
- m_sCustomNameSet "BRDM Squad"
 }
