@@ -1,0 +1,27 @@
+Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6064D13A1F7F88F4}" {
+     NumSlots 5
+    }
+   }
+  }
+ }
+ coords 4653.643 343.832 697.79
+ angles -0.776 33.102 1.19
+}
+$grp Vehicle : "{988A61BA68420AFE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_base.et" {
+ UAZ452_base1 {
+  coords 4651.508 344.006 708.801
+  angles -2.153 107.679 0.208
+ }
+ UAZ452_base2 {
+  coords 4644.245 344.112 712.657
+  angles -2.781 134.567 4.029
+ }
+ UAZ452_base3 {
+  coords 4640.91 344.406 709.839
+  angles -3.702 135.902 -7.043
+ }
+}
