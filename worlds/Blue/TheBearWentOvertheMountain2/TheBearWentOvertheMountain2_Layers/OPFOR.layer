@@ -45,6 +45,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   angleX 3.674
   angleY -101.241
   angleZ -0.44
+  m_bSetPlayable 1
  }
  MRC703 {
   components {
@@ -59,6 +60,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   angleX 0.993
   angleY -115.588
   angleZ 1.415
+  m_bSetPlayable 1
  }
  MRC702 {
   components {
@@ -73,6 +75,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/USSR/SovietArmy_Motor
   angleX -0.219
   angleY 70.014
   angleZ -1.432
+  m_bSetPlayable 1
  }
 }
 $grp SCR_AIGroup : "{82927FFD013CC95B}Prefabs/Groups/OPFOR/USSR/SovietArmy_MotorRiflesBTR_1980ish/P/Group_USSR_MSV80_MotRifleSquadSVD_P.et" {
