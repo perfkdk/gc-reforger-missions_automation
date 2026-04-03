@@ -9,8 +9,8 @@ $grp SCR_AIGroup : "{B784B16AB3F17CF9}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
     m_iSquadCallsign 1
    }
   }
-  coords 4529.86 134.875 5844.957
-  angles 0 -178.001 0
+  coords 3636.943 135.237 5974.627
+  angles 0 -9.248 0
   m_bSetPlayable 1
  }
  {
@@ -23,8 +23,8 @@ $grp SCR_AIGroup : "{B784B16AB3F17CF9}Prefabs/Groups/BLUFOR/US/Army/2003/Infantr
     m_iSquadCallsign 2
    }
   }
-  coords 4525.597 134.875 5845.505
-  angles 0 -178.001 0
+  coords 3642.984 134.959 5975.678
+  angles 0 -9.248 0
   m_bSetPlayable 1
  }
 }
@@ -37,11 +37,14 @@ SCR_AIGroup : "{B7995B801AFAA900}Prefabs/Groups/BLUFOR/US/Army/2003/Infantry (De
    Enabled 1
   }
  }
- coords 4533.399 134.875 5845.18
- angles 0 -179.569 0
+ coords 3629.783 135.528 5972.782
+ angles 0 -6.874 0
  m_aUnitPrefabSlots {
   "{C84638A40B8838A6}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_PL.et"
   "{A3BB30CA634BE861}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_PSG.et"
+  "{019D4960635AFCA8}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_RTO.et"
+  "{AA86CB4755FD1B1B}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_MG.et"
+  "{19EF5C0DB7AFC643}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_MGAsst.et"
   "{DD1D09684EFD53BB}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_Medic.et"
   "{DD1D09684EFD53BB}Prefabs/Characters/Factions/BLUFOR/US_Army/2003/Infantry (Desert)/Character_US_2003_D_Medic.et"
  }
