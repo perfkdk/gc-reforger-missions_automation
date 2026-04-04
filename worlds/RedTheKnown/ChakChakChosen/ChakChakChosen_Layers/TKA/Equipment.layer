@@ -1,0 +1,43 @@
+GenericEntity : "{AE81CF200754DB64}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V1.et" {
+ components {
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{68F3644152C65D08}" {
+     SlotTemplate InventoryStorageSlot item1 {
+      Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{68F3644CE2851E65}" {
+     SlotTemplate InventoryStorageSlot item2 {
+      Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{68F3644CA6928954}" {
+     SlotTemplate InventoryStorageSlot item3 {
+      Prefab "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{68FE2AE460D8FF85}" {
+     SlotTemplate InventoryStorageSlot item4 {
+      Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+     NumSlots 20
+    }
+   }
+   m_aSlotsToShow {
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+ }
+ coords 4643.688 343.908 694.952
+ angles 0 42.608 0
+}

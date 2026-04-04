@@ -1,0 +1,131 @@
+PolylineShapeEntity MapCover : "{25C6E66E6C14258D}Prefabs/Logic/Map/Cover_Map.et" {
+ components {
+  TILW_CoverMapComponent "{64734633ABA43B46}" {
+   Enabled 0
+  }
+  TILW_MapShapeComponent "{6508F5522A2E1971}" {
+   Enabled 1
+  }
+ }
+ coords 4102.645 380.904 802.591
+ Points {
+  ShapePoint "{68F418EA7B44169A}" {
+   Position -800 29 -700
+  }
+  ShapePoint "{68F418EA7CC9A928}" {
+   Position -800 32 2350
+  }
+  ShapePoint "{68F418EA72926760}" {
+   Position 2050 202 2350
+  }
+  ShapePoint "{68F418EA73186501}" {
+   Position 2050 67 -700
+  }
+ }
+}
+$grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ TKA_AO {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_factionKeys {
+     "GC_TKA"
+    }
+   }
+   TILW_MapShapeComponent "{6508F54F9B461198}" {
+    Enabled 1
+    m_drawArea 0
+    m_drawLine 1
+    m_lineColor 0 0.5 0.125 1
+   }
+  }
+  coords 4581.349 350.692 503.706
+  Points {
+   ShapePoint "{68F364547138A2F4}" {
+    Position -355.999 14.045 -127.388
+   }
+   ShapePoint "{68FD72BA617B43C0}" {
+    Position -219.186 13.237 -277.01
+   }
+   ShapePoint "{68FD72BA7B17FAB7}" {
+    Position 290.449 30.897 -159.517
+   }
+   ShapePoint "{68F36454753FF2E8}" {
+    Position 375.464 18.43 77.201
+   }
+   ShapePoint "{68F3645409FE8B07}" {
+    Position 266.301 18.59 434.231
+   }
+   ShapePoint "{68F364540F2F00B9}" {
+    Position 44.609 33.58 459.632
+   }
+   ShapePoint "{68F3645402FC0DD5}" {
+    Position -307.906 18.536 398.707
+   }
+   ShapePoint "{68F418E8526F11ED}" {
+    Position -409.775 19.04 200.397
+   }
+  }
+ }
+ All_AO {
+  components {
+   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 30
+    m_visibility NONE
+   }
+  }
+  coords 5965 415 260
+ }
+}
+$grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+ FortCompoundShape {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_drawArea 0
+    m_drawLine 1
+    m_lineWidth 2
+   }
+  }
+  coords 4617.683 343.973 665.608
+  Points {
+   ShapePoint "{68F418E2303E87D9}" {
+    Position -7.914 1.148 -4.027
+   }
+   ShapePoint "{68F418E2316CD269}" {
+    Position 5.777 -0.042 -16.907
+   }
+   ShapePoint "{68F418E3CBB2F307}" {
+    Position 56.233 -0.192 35.613
+   }
+   ShapePoint "{68F418E3C6F77915}" {
+    Position 28.482 1.048 63.042
+   }
+   ShapePoint "{68F418E3DA950744}" {
+    Position -0.446 2.837 36.754
+   }
+  }
+ }
+ BunkerAreaShape {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_drawArea 0
+    m_drawLine 1
+    m_lineWidth 2
+   }
+  }
+  coords 4484.979 370.648 691.264
+  Points {
+   ShapePoint "{68F418E5D791D8E4}" {
+    Position -17 1 -25
+   }
+   ShapePoint "{68F418E5D7554579}" {
+    Position -25 1 5
+   }
+   ShapePoint "{68F418E5FA33C70F}" {
+    Position 56 1 28
+   }
+   ShapePoint "{68F418E5F8C2CF87}" {
+    Position 65 1 5.05
+   }
+  }
+ }
+}
