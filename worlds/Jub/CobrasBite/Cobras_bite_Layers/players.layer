@@ -55,14 +55,14 @@ SCR_AIGroup CAAT : "{194DCB318D34E86C}Prefabs/Groups/BLUFOR/US/Marines/2025/CAAT
  angles 20.718 -177.359 3.11
  m_aUnitPrefabSlots {
   "{77952369BA4381E3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_TOW_TL_D.et"
-  "{5006016EDFAE0ADA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_TOW_Gunner_D.et"
-  "{E9E28B5BB455A8BF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_TOW_AMMO_D.et"
+  "{7C568815FB47158B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_JAV_D.et"
+  "{7C568815FB47158B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_JAV_D.et"
+  "{7C568815FB47158B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_JAV_D.et"
+  "{9973B77C76DF5B01}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_TL_D.et"
+  "{C37D40695771FA0D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Rifle_D.et"
   "{C72C2C1263FBD8DD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Rifle_M4_D.et"
   "{9973B77C76DF5B01}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_TL_D.et"
-  "{C72C2C1263FBD8DD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Rifle_M4_D.et"
-  "{C72C2C1263FBD8DD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Rifle_M4_D.et"
-  "{9973B77C76DF5B01}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_TL_D.et"
-  "{C72C2C1263FBD8DD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Rifle_M4_D.et"
+  "{C37D40695771FA0D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Rifle_D.et"
   "{C72C2C1263FBD8DD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Rifle_M4_D.et"
  }
  m_bPlayable 1
@@ -122,6 +122,11 @@ $grp SCR_AIGroup : "{3542DA9833C9BA69}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
   }
   m_bPlayable 1
  }
+}
+Vehicle JLTV_Base_CobrasBite1 : "{86157A4F8B90F06F}worlds/Jub/CobrasBite/Prefabs/JLTV_Base_CobrasBite.et" {
+ coords 3938.26 17.844 1674.986
+ angles 0 168.25 0
+ m_sAttachmentGroupName "CAAT"
 }
 Vehicle UH1H_armed_gunship_x14APKWS_sharkNose_m2_m1 : "{B67D806064FA55C6}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_x14APKWS_sharkNose_m2_m134.et" {
  coords 3686.04 17.844 7876.875

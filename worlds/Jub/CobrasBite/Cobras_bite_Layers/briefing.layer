@@ -40,7 +40,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Friendly Forces"
   m_sTextData "1x USMC Rifle Platoon (you)."\
   ""\
-  "1x USMC CAAT with MK19, M2HB, and TOW(I need the GMs to spawn in a TOW vehicle)  JLTVs co-located with the Rifles"\
+  "1x USMC CAAT with MK19, M2HB, and an Unarmed with x6 Javs for the JAV team JLTVs co-located with the Rifles"\
   ""\
   "2 Platoon providing local security at the bus station."\
   ""\
@@ -83,20 +83,27 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Air can create their own"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 4
+  m_iOrder 5
  }
- TOW_Notes {
-  coords 3265.302 53.525 2209.412
-  m_sTitle "TOW Notes"
-  m_sTextData "The TOW JLTV uses the WCS version:"\
-  "To use it; "\
-  "Fire: hold fire key to fire"\
-  "Reload: 	You must have a tube in your launcher/second main weapon slot."\
-  "				Look at the back of the TOW pintle mount from the ground and a 				REARM action will appear."\
-  ""
+ JavNote {
+  coords 3935.565 17.844 1671.608
+  m_sTitle "JAV Note"
+  m_sTextData "There is a bug where you must drop the JAV and pick it back up prior to firing."\
+  ""\
+  "The javs are located inside the unarmed JLTV."\
+  ""\
+  "The Jav was added by WCS_Armaments."\
+  ""\
+  "It's use is exactly like the stinger."\
+  ""\
+  "Get line of sight of a target, hold left ctrl until you hear a tone, then fire."\
+  ""\
+  "It is F&F and doesn't have a reload."\
+  ""\
+  "It will fire without a target lock so don't ND."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
-  m_iOrder 4
+  m_iOrder 6
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
