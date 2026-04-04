@@ -40,7 +40,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Friendly Forces"
   m_sTextData "1x USMC Rifle Platoon (you)."\
   ""\
-  "1x USMC CAAT with MK19, M2HB, and TOW JLTVs co-located with the Rifles"\
+  "1x USMC CAAT with MK19, M2HB, and TOW(I need the GMs to spawn in a TOW vehicle)  JLTVs co-located with the Rifles"\
   ""\
   "2 Platoon providing local security at the bus station."\
   ""\
