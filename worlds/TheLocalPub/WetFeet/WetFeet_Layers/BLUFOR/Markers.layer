@@ -1,0 +1,11 @@
+PS_ManualMarker BluforSpawn : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 7056.239 60.964 7735.737
+ angles 0 -90 0
+ m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+ m_sQuadName "infantry"
+ m_fWorldSize 100
+ m_aVisibleForFactions {
+  "UK"
+ }
+}
