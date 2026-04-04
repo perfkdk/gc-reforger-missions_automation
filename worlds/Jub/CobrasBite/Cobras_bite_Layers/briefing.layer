@@ -99,11 +99,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 4
  }
 }
-Vehicle JLTV_OGPK_TOW1 : "{70D98AF3555BB341}Prefabs/Vehicles/Wheeled/JLTV/OGPK/TOW/JLTV_OGPK_TOW.et" {
- coords 3938.102 17.844 1676.218
- angles 0 130.072 0
- m_sAttachmentGroupName "CAAT"
-}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
   coords 4001.44 17.998 2741.662
