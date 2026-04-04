@@ -4,24 +4,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{68F4386F78B5A2F6}" {
    m_name "TKA_Timer_Win"
    m_instructions {
-    TILW_EndGameInstruction "{68F4386F756A84E4}" {
-     m_executionDelay 3135
-     m_factionKey "GC_TKA"
-    }
     TILW_SendMessageInstruction "{68F4386F0BF4DA19}" {
      m_executionDelay 3120
      m_messageTitle "Takistan Army Victory!"
      m_messageBody "TKA forces have survived long enough to be rescued."
     }
    }
+   m_condition TILW_LiteralTerm "{6908050F7425E320}" {
+    m_invertTerm 1
+   }
   }
   TILW_MissionEvent "{68F4386EE8766249}" {
    m_name "TKA_Casualty_Loss"
    m_instructions {
-    TILW_EndGameInstruction "{68F4386EF961CE60}" {
-     m_executionDelay 15
-     m_factionKey "GC_INSURGENT"
-    }
     TILW_SendMessageInstruction "{68F4386E43BDDD0E}" {
      m_messageTitle "Rebel Victory!"
      m_messageBody "Rebel forces have eliminated enough of the TKA."
@@ -34,17 +29,25 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_MissionEvent "{68F4386E07D0E8BD}" {
    m_name "Rebel_Casualty_Loss"
    m_instructions {
-    TILW_EndGameInstruction "{68F4386E30419D02}" {
-     m_executionDelay 15
-     m_factionKey "GC_INSURGENT"
-    }
     TILW_SendMessageInstruction "{68F43869D3E64938}" {
      m_messageTitle "Takistan Army Victory!"
      m_messageBody "TKA forces have eliminated enough rebels to repel their attack."
     }
    }
    m_condition TILW_LiteralTerm "{68F4386E1274BD6D}" {
-    m_flagName "GC_INSURGENT"
+    m_flagName "Rebel_KIA"
+   }
+  }
+  TILW_MissionEvent "{6908050F0B4BAB01}" {
+   m_name "activateTP"
+   m_instructions {
+    TILW_SetFlagInstruction "{68FD72B512BD98D3}" {
+     m_executionDelay 120
+     m_flagName "setupend"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6908050FE8076535}" {
+    m_invertTerm 1
    }
   }
  }

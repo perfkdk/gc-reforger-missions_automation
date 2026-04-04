@@ -76,20 +76,6 @@ GenericEntity : "{8CAFE83BA58B4B6A}Prefabs/Structures/BuildingParts/Doors/Door_M
  coords 4344.183 609.525 2839.014
  angles 0 -19.018 0
 }
-TILW_MissionFrameworkEntity UnlockTP : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
- coords 4447.9 630.262 2827.104
- m_missionEvents {
-  TILW_MissionEvent "{68FD72B5B93EC1B7}" {
-   m_name "activateTP"
-   m_instructions {
-    TILW_SetFlagInstruction "{68FD72B512BD98D3}" {
-     m_executionDelay 120
-     m_flagName "setupend"
-    }
-   }
-  }
- }
-}
 GenericEntity : "{9230C48139A89886}Prefabs/Structures/BuildingParts/Doors/Door_Industrial_A_RIGHT_EXT_COV_B_red.et" {
  components {
   DoorComponent "{221C667A9F7D4B69}" {

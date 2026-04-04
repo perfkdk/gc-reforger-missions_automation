@@ -1,7 +1,7 @@
 PolylineShapeEntity MapCover : "{25C6E66E6C14258D}Prefabs/Logic/Map/Cover_Map.et" {
  components {
   TILW_CoverMapComponent "{64734633ABA43B46}" {
-   m_ratioWidth 2
+   Enabled 0
   }
   TILW_MapShapeComponent "{6508F5522A2E1971}" {
    Enabled 1
