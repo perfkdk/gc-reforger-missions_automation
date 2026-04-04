@@ -40,7 +40,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Friendly Forces"
   m_sTextData "1x USMC Rifle Platoon (you)."\
   ""\
-  "1x USMC CAAT with MK19, M2HB, and TOW JLTVs co-located with the Rifles"\
+  "1x USMC CAAT with MK19, M2HB, and TOW(I need the GMs to spawn in a TOW vehicle)  JLTVs co-located with the Rifles"\
   ""\
   "2 Platoon providing local security at the bus station."\
   ""\
@@ -98,11 +98,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bShowForAnyFaction 1
   m_iOrder 4
  }
-}
-Vehicle JLTV_OGPK_TOW1 : "{70D98AF3555BB341}Prefabs/Vehicles/Wheeled/JLTV/OGPK/TOW/JLTV_OGPK_TOW.et" {
- coords 3938.102 17.844 1676.218
- angles 0 130.072 0
- m_sAttachmentGroupName "CAAT"
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
