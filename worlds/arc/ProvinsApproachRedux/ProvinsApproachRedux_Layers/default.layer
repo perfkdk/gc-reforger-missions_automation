@@ -19,6 +19,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  coords 7642.042 0 6430.14
+ m_iFreezeTime 180000
  {
   SCR_FactionManager "6903486361EBD554" {
    ID "5ED9088735FF2D8B"
@@ -209,4 +210,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_casualtyRatio 0.8
   }
  }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 7547.566 151.108 4588.144
 }

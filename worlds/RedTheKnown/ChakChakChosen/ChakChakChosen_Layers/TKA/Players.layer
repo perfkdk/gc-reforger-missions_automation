@@ -1,0 +1,108 @@
+SCR_AIGroup : "{50BEC31075F5C8F3}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Group_GC_TKA_CHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 4672.558 343.729 724.478
+ angles -0.071 124.906 -0.396
+ m_aUnitPrefabSlots {
+  "{563E798C359BD3B3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_CoyL_P.et"
+  "{3FED9C90937CCCBA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_CoySGTMaj_P.et"
+  "{5762D45504A9E461}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Signaller_P.et"
+  "{B282183C856A537C}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Medic_P.et"
+ }
+}
+$grp SCR_AIGroup : "{7CBC157AA0058745}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Group_GC_TKA_RifleSquad_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4681.757 344.762 719.344
+  angles 0 -141.48 0
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4683.728 343.741 721.793
+  angles 0 -141.48 0
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4692.202 343.719 733.394
+  angles 0 -141.48 0
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4694.038 343.719 736.408
+  angles 0 -141.48 0
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 4685.288 343.772 724.175
+  angles -0.177 -141.481 0.222
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 4
+   }
+  }
+  coords 4695.341 343.719 738.185
+  angles 0 -141.48 0
+ }
+}
+$grp SCR_AIGroup : "{CA68C1FA21DF9212}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Group_GC_TKA_PHQ_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4679.249 343.785 715.522
+  angles 0.069 -144.892 0.396
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4690.312 343.718 730.376
+  angles 0.047 -141.738 0.399
+ }
+}
