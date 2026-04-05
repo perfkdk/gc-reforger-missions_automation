@@ -14,7 +14,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bringToFront 0
  }
  {
-  coords 6629.535 109.401 5882.014
+  coords 7510.217 6.068 6744.218
   angles 0 0 0
   m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
   m_sImageSetGlow "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
@@ -86,6 +86,18 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Bunker"
   m_aVisibleForFactions {
    "USSR"
+  }
+  m_iZOrder 1
+  m_bringToFront 0
+ }
+ {
+  coords 7562.313 166.176 4257.274
+  angles 0 0 0
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "dot"
+  m_sDescription "Mortar"
+  m_aVisibleForFactions {
+   "US"
   }
   m_iZOrder 1
   m_bringToFront 0
