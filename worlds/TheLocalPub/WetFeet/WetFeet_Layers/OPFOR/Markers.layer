@@ -69,4 +69,20 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "UK"
   }
  }
+ OpforSpawn2 {
+  coords 6194.677 54.062 8118.583
+  angles 0 180 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
+  m_sQuadName "infantry"
+  m_fWorldSize 50
+  m_sDescription "Separatist hamlet"
+  m_aVisibleForFactions {
+   "GC_SEPARATIST"
+  }
+  m_aHideOnGameModeStates {
+   PREGAME
+   SLOTSELECTION
+  }
+ }
 }
