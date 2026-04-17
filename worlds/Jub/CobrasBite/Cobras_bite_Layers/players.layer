@@ -18,7 +18,6 @@ $grp SCR_AIGroup : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
    "{7E04C6DBBB013BCF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_RTO_D.et"
    "{9E635392488AF6E7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Drone_Killer_D.et"
   }
-  m_bPlayable 1
  }
  ACE {
   components {
@@ -39,7 +38,6 @@ $grp SCR_AIGroup : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
    "{85D66926687594C0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_AirCrew_D.et"
    "{85D66926687594C0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_AirCrew_D.et"
   }
-  m_bPlayable 1
   m_sCustomNameSet "HMLA Detachment"
  }
 }
@@ -93,7 +91,6 @@ $grp SCR_AIGroup : "{3542DA9833C9BA69}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
    "{344A4421876CAD27}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_GL_D.et"
    "{5018C15D7AB1AE99}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_LAT_D.et"
   }
-  m_bPlayable 1
  }
  Sq3 {
   components {
@@ -120,7 +117,6 @@ $grp SCR_AIGroup : "{3542DA9833C9BA69}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
    "{344A4421876CAD27}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_GL_D.et"
    "{5018C15D7AB1AE99}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_LAT_D.et"
   }
-  m_bPlayable 1
  }
 }
 Vehicle JLTV_Base_CobrasBite1 : "{86157A4F8B90F06F}worlds/Jub/CobrasBite/Prefabs/JLTV_Base_CobrasBite.et" {
@@ -168,7 +164,6 @@ SCR_AIGroup Sq2 : "{C62B0A55626A9D90}Prefabs/Groups/BLUFOR/US/Marines/2025/Marin
   "{5449D2F88894225B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_MAAW_D.et"
   "{D978A1BE753ED0C8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_MAAW_ASST_D.et"
  }
- m_bPlayable 1
 }
 Vehicle JLTV_OGPK1 : "{DEB5350D1B0FAE4D}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK_Pas13G.et" {
  coords 3930.535 17.844 1674.496

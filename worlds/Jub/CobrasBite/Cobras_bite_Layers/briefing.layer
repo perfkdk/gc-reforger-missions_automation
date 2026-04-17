@@ -19,7 +19,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "End conditions:"\
   ""\
-  "30 Minutes pass, and 80% of surviving US players regrouped at bus station: Victory"\
+  "30 Minutes pass, and  75% of surviving US players regrouped at bus station: Victory"\
   ""\
   "80% US player causalties or Bus station overrun by AFRF: Defeat"
   m_bEmptyFactionVisibility 1

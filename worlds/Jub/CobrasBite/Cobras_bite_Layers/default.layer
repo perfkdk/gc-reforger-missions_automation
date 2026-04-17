@@ -48,13 +48,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
 }
-TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
- coords 2968.062 24.083 2389.774
- m_queryRadius 47.6
- m_flagName "US_EXTRACT"
- m_factionKey "RHS_USAF"
- m_ratioThreshold 0.8
-}
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
@@ -101,7 +94,14 @@ TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_Facti
  m_flagName "EXTRACT_LOST"
  m_stopAfterFirstChange 1
  m_ownerFactionKey "RHS_AFRF"
+ m_ratioThreshold 0.9
  {
+  TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
+   m_queryRadius 180
+   m_flagName "US_EXTRACT"
+   m_factionKey "RHS_USAF"
+   m_ratioThreshold 0.75
+  }
   PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
    components {
     TILW_MapShapeComponent "{6508F5526836BC09}" {
@@ -775,7 +775,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{646D3D6DA14EECE4}" {
      m_executionDelay 1800
      m_messageTitle "FALL BACK"
-     m_messageBody "Your delay has been successful for long enough. You can now fall back and regroup at the intersection."
+     m_messageBody "You have delayed the enemy for long enough."\
+     "You can now fall back and regroup at the intersection."
     }
    }
    m_condition TILW_LiteralTerm "{646D3D6DD27DBDA8}" {
