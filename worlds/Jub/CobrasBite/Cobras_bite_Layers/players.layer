@@ -119,6 +119,18 @@ $grp SCR_AIGroup : "{3542DA9833C9BA69}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
   }
  }
 }
+$grp Vehicle : "{7981D5EB0583B2B3}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Marines_XM65.et" {
+ AH1S_Marines_XM1 {
+  coords 3698.937 17.844 7860.269
+  angles 0 -160.963 0
+  m_sAttachmentGroupName "ACE"
+ }
+ AH1S_Marines_XM2 {
+  coords 3674.01 17.844 7859.625
+  angles 0 149.927 0
+  m_sAttachmentGroupName "ACE"
+ }
+}
 Vehicle JLTV_Base_CobrasBite1 : "{86157A4F8B90F06F}worlds/Jub/CobrasBite/Prefabs/JLTV_Base_CobrasBite.et" {
  coords 3938.26 17.844 1674.986
  angles 0 168.25 0
@@ -128,18 +140,6 @@ Vehicle UH1H_armed_gunship_x14APKWS_sharkNose_m2_m1 : "{B67D806064FA55C6}Prefabs
  coords 3686.04 17.844 7876.875
  angles 0 -178.163 0
  m_sAttachmentGroupName "ACE"
-}
-$grp Vehicle : "{B8D8076535277E61}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Marines_M299.et" {
- AH1S_Marines_M1 {
-  coords 3699.371 17.844 7861.534
-  angles 0 -170.299 0
-  m_sAttachmentGroupName "ACE"
- }
- AH1S_Marines_M2 {
-  coords 3673.999 17.843 7861.182
-  angles 0 164.144 0
-  m_sAttachmentGroupName "ACE"
- }
 }
 SCR_AIGroup Sq2 : "{C62B0A55626A9D90}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RifleSquad_MAAW_D.et" {
  components {
