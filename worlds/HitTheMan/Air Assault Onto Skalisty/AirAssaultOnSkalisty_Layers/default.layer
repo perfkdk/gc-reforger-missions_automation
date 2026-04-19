@@ -711,10 +711,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{6884D1D7AEDD8B70}" {
-   m_name "Helo 1 Respawned"
+   m_name "Heli 1 Respawned"
    m_instructions {
     TILW_SetFlagInstruction "{6884D1D455A5C34F}" {
-     m_flagName "HeloOne"
+     m_flagName "HeliOne"
     }
     TILW_SendMessageInstruction "{6884D1D448BBCD23}" {
      m_messageTitle "1st Mi-8 Respawned"
@@ -735,10 +735,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{6884D1D47C2B4B39}" {
-   m_name "Helo 2 Respawned"
+   m_name "Heli 2 Respawned"
    m_instructions {
     TILW_SetFlagInstruction "{6884D1D47C2B4B90}" {
-     m_flagName "HeloOne"
+     m_flagName "HeliOne"
     }
     TILW_SendMessageInstruction "{6884D1D47C2B4BAC}" {
      m_messageTitle "2nd (Last) Mi-8 Respawned"
@@ -764,8 +764,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_flagName "USSR_CAS"
    m_factionKey "USSR"
    m_casualtyRatio 0.85
-  }
-  TILW_FactionPlayersKilledFlag "{68846DD0FE783255}" {
   }
  }
  m_randomFlags {
