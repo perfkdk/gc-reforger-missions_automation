@@ -1740,6 +1740,7 @@ GC_R_Manager {
        m_platoons {
         GC_R_Platoon "{66AE36D6BD434E99}" {
          m_prefab "{81AAE529C4388FDA}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechPHQ_P.et"
+         m_vehiclePrefab "{06CEA02208872944}worlds/Burn0ut7/Roulette/Prefabs/Roulette_DroneCrate.et"
          m_squads {
           GC_R_Squad "{66AE36D01426DD59}" {
            m_prefab "{8C7AC28E449564C9}Prefabs/Groups/BLUFOR/CDF/Mech_Modern/P/Group_CDF_Modern_MechSquad_1_P.et"

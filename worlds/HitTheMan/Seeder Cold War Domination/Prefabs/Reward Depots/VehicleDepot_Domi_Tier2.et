@@ -177,6 +177,7 @@ GenericEntity : "{4510C273B794F3A9}Prefabs/Compositions/Slotted/SlotFlatMedium/V
          m_fResourceDecay 0
          m_fResourceDecayTickrate 0
          m_fResourceDecayTimeout 0
+         m_eOnEmptyBehavior NONE
         }
        }
        m_aConsumers {

@@ -13,13 +13,14 @@ class GC_R_BaseScenario : Managed
 	protected GC_R_Manager m_manager;
 	
 	ref array<ref GC_R_Team> m_teams = {};
-	
+
 	void Intialize()
 	{
 		m_manager = GC_R_Manager.GetInstance();
 	}
 	
 	void Reroll();
+
 }
 
 [BaseContainerProps(), BaseContainerCustomTitleField("Attack and Defend")]
@@ -122,7 +123,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		attackerFlag.SetKey(attackerKey);
 		attackerFlag.SetCasualtyRatio(0.95);
 		
-		array<ref TILW_FactionPlayersKilledFlag> flags = {defenderFlag, attackerFlag};
+		array<ref TILW_BaseCasualtyFlag> flags = {defenderFlag, attackerFlag};
 		
 		//Instructions
 		TILW_EndGameInstruction defenderInstruction = TILW_EndGameInstruction();
@@ -199,7 +200,7 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 		events.Insert(objectiveEvent);
 		
 		framework.SetMissionEvents(events);
-		framework.SetPlayersKilledFlags(flags);
+		framework.SetCasualtyFlags(flags);
 	}
 	
 	void SetupAO()
@@ -338,6 +339,23 @@ class GC_R_AttackDefend: GC_R_BaseScenario
 			m_teams = m_manager.SelectTeams(2, m_teamsList, true);
 		else
 			m_teams = m_manager.SelectTeams(2, m_teamsList);
+		
+		if(!m_manager.m_aForcedTeams.IsEmpty())
+		{
+			m_teams.Clear();
+			
+			foreach(int index : m_manager.m_aForcedTeams)
+			{
+				ref GC_R_Team team = m_teamsList[index];
+				if(!team)
+				{
+					PrintFormat("GC Roulette | Unable to find forced team a %1!", index);
+					continue;
+				}
+				
+				m_teams.Insert(team);
+			}
+		}
 		
 		if(m_teams.Count() == 2)
 			return true;
