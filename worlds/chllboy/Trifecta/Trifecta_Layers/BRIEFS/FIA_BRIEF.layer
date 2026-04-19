@@ -64,7 +64,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>EXTRACTION</h2>"\
   "We have one extraction point:"\
   ""\
-  "- Military base extract (043 095)"\
+  "- Military base extract (039 084)"\
   ""\
   "To extract, you <b>must bring the STM to the extraction area and hold it there for 6 minutes</b>. Enemy forces present in the area may slow down or even reverse your extraction progress. STM leaving the extraction area will completely cancel the process."
   m_aVisibleForFactions {

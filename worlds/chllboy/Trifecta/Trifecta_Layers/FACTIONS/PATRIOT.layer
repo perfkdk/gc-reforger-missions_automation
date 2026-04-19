@@ -135,6 +135,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
      TILW_TeleportInteraction "{62EF76E608B6CB36}" {
       m_actionName "Teleport: Insert A"
       m_locationName "INSERTP_A"
+      m_conditionFlag "SETUP_OVER"
      }
     }
    }
@@ -148,6 +149,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
      TILW_TeleportInteraction "{62EF76E608B6CB36}" {
       m_actionName "Teleport: Insert B"
       m_locationName "INSERTP_B"
+      m_conditionFlag "SETUP_OVER"
      }
     }
    }
@@ -161,6 +163,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
      TILW_TeleportInteraction "{62EF76E608B6CB36}" {
       m_actionName "Teleport: Insert C"
       m_locationName "INSERTP_C"
+      m_conditionFlag "SETUP_OVER"
      }
     }
    }
@@ -174,6 +177,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
      TILW_TeleportInteraction "{62EF76E608B6CB36}" {
       m_actionName "Teleport: Insert D"
       m_locationName "INSERTP_D"
+      m_conditionFlag "SETUP_OVER"
      }
     }
    }

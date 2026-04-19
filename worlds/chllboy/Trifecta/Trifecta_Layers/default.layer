@@ -856,6 +856,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_pregameEvent 1
   }
+  TILW_MissionEvent "{69271368F6B80E25}" {
+   m_name "SETUP_OVER"
+   m_instructions {
+    TILW_SetFlagInstruction "{69271368F36308CD}" {
+     m_executionDelay 120
+     m_flagName "SETUP_OVER"
+    }
+   }
+   m_condition TILW_LiteralTerm "{69271368F11D0671}" {
+    m_invertTerm 1
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{6918A144695E66AF}" {
