@@ -12,7 +12,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  FriendlyForces_UK {
   coords 2904.489 63.313 1904.979
   m_sTitle "III. Friendly Forces"
-  m_sTextData "1x Brtish motorized light infantry platoon. Augmented with a battery of 2x 81mm mortars. Currently located at the staging area in the town of Arleville."
+  m_sTextData "1x British motorized light infantry platoon. Augmented with a battery of 2x 81mm mortars. Currently located at the staging area in the town of Arleville."
   m_aVisibleForFactions {
    "UK"
   }
@@ -30,7 +30,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  VicsAndEquipment_UK {
   coords 2932.577 62.319 1908.936
   m_sTitle "III. Vics and Equipment"
-  m_sTextData "We have a number of vehicle at our staging area: 6x unarmed camo-net land rovers, 2x recce camo-net land rovers each armed with a M2HB and  GPMG. These vehicle have already been loaded with additional ammunition and supplies."\
+  m_sTextData "We have a number of vehicle at our staging area: 6x unarmed camo-net land rovers, 2x recce camo-net land rovers each armed with a M2HB and GPMG. These vehicle have already been loaded with additional ammunition and supplies."\
   ""\
   "We have a cache of extra supplies at our inital staging area. It is a stack of green crates located next to the flag. This cache contains: hand flares, wrenches."
   m_aVisibleForFactions {
@@ -50,8 +50,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  MineThreat_UK {
   coords 2915.84 63.143 1897.595
   m_sTitle "VI. Mine Threat (READ)"
-  m_sTextData "Recently intercepted Russian radio communications have alerted us to the a potential anti-tank mine threat. While it is not guaranteed"\
-  "the Russian force we are facing will utilize their supply of anti-tank mines it is highly probable they will."
+  m_sTextData "Recently intercepted Russian radio communications have alerted us to a potential anti-tank mine threat. While it is not guaranteed this supply of anti-tank mines will be utilized it is highly probable."
   m_aVisibleForFactions {
    "UK"
   }

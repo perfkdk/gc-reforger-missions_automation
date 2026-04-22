@@ -34,7 +34,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  EnemyForces_Opfor {
   coords 2927.02 62.966 1889.044
   m_sTitle "IV. Enemy Forces"
-  m_sTextData "1x Brtish motorized light infantry platoon.  Augmented with a battery of 2x 81mm mortars, 2x armed land rovers, and multiple unarmed land rovers. Currently located near the town of Arleville south of our position in Beauregard."
+  m_sTextData "1x British motorized light infantry platoon.  Augmented with a battery of 2x 81mm mortars, 2x armed land rovers, and multiple unarmed land rovers. Currently located near the town of Arleville south of our position in Beauregard."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -43,7 +43,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Deployment_Opfor {
   coords 2924.154 62.785 1906.724
   m_sTitle "V. Deployment (READ)"
-  m_sTextData "In addition to walking and driving the Russian team also has teleports for deployment at their staging area. They are marked on the map with red pin markers. The teleport actions are located at the metal barrels next to the flag and supply cache."\
+  m_sTextData "In addition to walking and driving the Russian team also has teleports for deployment at their staging area. The destinations are marked on the map with red pin markers. The teleport actions are located at the metal barrels next to the flag and supply cache."\
   ""\
   "Teleports: Farm, Lighthouse, Shore, Timber North, Timber South."
   m_aVisibleForFactions {
@@ -54,7 +54,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  NSVTeamBreif_Opfor {
   coords 2929.056 62.638 1902.795
   m_sTitle "VI. NSV Weapon Team (READ)"
-  m_sTextData "The NSV HMG supplied to the Russian team is the scoped varitant. Both parts of the weapon (gun & tripod) are locared on their dedicated units. Unless both of these roles are slotted the NSV will not be available, this is by design. If choice is made to slot them do not ask the GM for a replacment NSV."\
+  m_sTextData "The NSV HMG supplied to the Russian team is the scoped varitant. Both parts of the weapon (gun & tripod) are located on their dedicated units. Unless both of these roles are slotted the NSV will not be available, this is by design. If the choice is made to not slot them do not ask the GM for a replacment NSV."\
   ""\
   "The UAZ452 van is the dedicated vehicle of the NSV team, it has been loaded with their entire supply of NSV ammuniton."\
   ""
