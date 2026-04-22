@@ -1,0 +1,484 @@
+$grp Vehicle : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport_Camo.et" {
+ _Series_LWB_Transport_Camo4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{692C00BF1BAA2F50}" {
+      SlotTemplate InventoryStorageSlot HandFlareWhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{692C00BF1905EC12}" {
+      SlotTemplate InventoryStorageSlot HandFlareGreen {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BF196F157B}" {
+      SlotTemplate InventoryStorageSlot HandFlareRed {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BCD8BB632C}" {
+      SlotTemplate LoadoutSlotInfo L85Ammo {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{692C00BCAC160CB2}" {
+      SlotTemplate InventoryStorageSlot GPMGBoxs {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{692C00BC527D8ACB}" {
+      SlotTemplate InventoryStorageSlot HandGrenade {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{692C00BC53B3850F}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenade {
+       Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
+      }
+      NumSlots 4
+     }
+    }
+    m_aSlotsToShow {
+    }
+   }
+  }
+  coords 2708.765 77.461 1633.511
+  angles 0.639 44.417 0.627
+ }
+ _Series_LWB_Transport_Camo2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{692C00BF1BAA2F50}" {
+      SlotTemplate InventoryStorageSlot HandFlareWhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{692C00BF1905EC12}" {
+      SlotTemplate InventoryStorageSlot HandFlareGreen {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BF196F157B}" {
+      SlotTemplate InventoryStorageSlot HandFlareRed {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BCD8BB632C}" {
+      SlotTemplate LoadoutSlotInfo L85Ammo {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{692C00BCAC160CB2}" {
+      SlotTemplate InventoryStorageSlot GPMGBoxs {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{692C00BC527D8ACB}" {
+      SlotTemplate InventoryStorageSlot HandGrenade {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{692C00BC53B3850F}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenade {
+       Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
+      }
+      NumSlots 4
+     }
+    }
+    m_aSlotsToShow {
+    }
+   }
+  }
+  coords 2711.963 77.354 1630.236
+  angles 3.152 45.858 0.679
+ }
+ _Series_LWB_Transport_Camo3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{692C00BF1BAA2F50}" {
+      SlotTemplate InventoryStorageSlot HandFlareWhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{692C00BF1905EC12}" {
+      SlotTemplate InventoryStorageSlot HandFlareGreen {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BF196F157B}" {
+      SlotTemplate InventoryStorageSlot HandFlareRed {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BCD8BB632C}" {
+      SlotTemplate LoadoutSlotInfo L85Ammo {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{692C00BCAC160CB2}" {
+      SlotTemplate InventoryStorageSlot GPMGBoxs {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{692C00BC527D8ACB}" {
+      SlotTemplate InventoryStorageSlot HandGrenade {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{692C00BC53B3850F}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenade {
+       Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
+      }
+      NumSlots 4
+     }
+    }
+    m_aSlotsToShow {
+    }
+   }
+  }
+  coords 2720.631 77.461 1622.179
+  angles 1.901 45.225 -0.625
+ }
+ _Series_LWB_Transport_Camo5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{692C00BF1BAA2F50}" {
+      SlotTemplate InventoryStorageSlot HandFlareWhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{692C00BF1905EC12}" {
+      SlotTemplate InventoryStorageSlot HandFlareGreen {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BF196F157B}" {
+      SlotTemplate InventoryStorageSlot HandFlareRed {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BCD8BB632C}" {
+      SlotTemplate LoadoutSlotInfo L85Ammo {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{692C00BCAC160CB2}" {
+      SlotTemplate InventoryStorageSlot GPMGBoxs {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{692C00BC527D8ACB}" {
+      SlotTemplate InventoryStorageSlot HandGrenade {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{692C00BC53B3850F}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenade {
+       Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
+      }
+      NumSlots 4
+     }
+    }
+    m_aSlotsToShow {
+    }
+   }
+  }
+  coords 2729.255 77.469 1634.292
+  angles 0 -134.322 0
+ }
+ _Series_LWB_Transport_Camo7 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{692C00BF1BAA2F50}" {
+      SlotTemplate InventoryStorageSlot HandFlareWhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{692C00BF1905EC12}" {
+      SlotTemplate InventoryStorageSlot HandFlareGreen {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BF196F157B}" {
+      SlotTemplate InventoryStorageSlot HandFlareRed {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BCD8BB632C}" {
+      SlotTemplate LoadoutSlotInfo L85Ammo {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{692C00BCAC160CB2}" {
+      SlotTemplate InventoryStorageSlot GPMGBoxs {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{692C00BC527D8ACB}" {
+      SlotTemplate InventoryStorageSlot HandGrenade {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{692C00BC53B3850F}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenade {
+       Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
+      }
+      NumSlots 4
+     }
+    }
+    m_aSlotsToShow {
+    }
+   }
+  }
+  coords 2732.367 77.293 1631.468
+  angles 0 -134.322 0
+ }
+ _Series_LWB_Transport_Camo6 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{692C00BF1BAA2F50}" {
+      SlotTemplate InventoryStorageSlot HandFlareWhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{692C00BF1905EC12}" {
+      SlotTemplate InventoryStorageSlot HandFlareGreen {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BF196F157B}" {
+      SlotTemplate InventoryStorageSlot HandFlareRed {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BCD8BB632C}" {
+      SlotTemplate LoadoutSlotInfo L85Ammo {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{692C00BCAC160CB2}" {
+      SlotTemplate InventoryStorageSlot GPMGBoxs {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{692C00BC527D8ACB}" {
+      SlotTemplate InventoryStorageSlot HandGrenade {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{692C00BC53B3850F}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenade {
+       Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
+      }
+      NumSlots 4
+     }
+    }
+    m_aSlotsToShow {
+    }
+   }
+  }
+  coords 2724.568 77.469 1638.854
+  angles 0 -134.322 0
+ }
+}
+$grp Vehicle : "{57FE9BCA625CA0E3}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Recce_M2HB.et" {
+ _Series_LWB_Recce_M2HB3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{692C00BF1BAA2F50}" {
+      SlotTemplate InventoryStorageSlot HandFlareWhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{692C00BF1905EC12}" {
+      SlotTemplate InventoryStorageSlot HandFlareGreen {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BF196F157B}" {
+      SlotTemplate InventoryStorageSlot HandFlareRed {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BCD8BB632C}" {
+      SlotTemplate LoadoutSlotInfo L85Ammo {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{692C00BCAC160CB2}" {
+      SlotTemplate InventoryStorageSlot GPMGBoxs {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{692C00BC527D8ACB}" {
+      SlotTemplate InventoryStorageSlot HandGrenade {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{692C00BC53B3850F}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenade {
+       Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
+      }
+      NumSlots 4
+     }
+    }
+    m_aSlotsToShow {
+    }
+   }
+  }
+  coords 2717.286 77.513 1647.556
+  angles -1.266 -135.028 0.001
+ }
+ _Series_LWB_Recce_M2HB2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{692C00BF1BAA2F50}" {
+      SlotTemplate InventoryStorageSlot HandFlareWhite {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{692C00BF1905EC12}" {
+      SlotTemplate InventoryStorageSlot HandFlareGreen {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BF196F157B}" {
+      SlotTemplate InventoryStorageSlot HandFlareRed {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{692C00BCD8BB632C}" {
+      SlotTemplate LoadoutSlotInfo L85Ammo {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{692C00BCAC160CB2}" {
+      SlotTemplate InventoryStorageSlot GPMGBoxs {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{692C00BC527D8ACB}" {
+      SlotTemplate InventoryStorageSlot HandGrenade {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{692C00BC53B3850F}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenade {
+       Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
+      }
+      NumSlots 4
+     }
+    }
+    m_aSlotsToShow {
+    }
+   }
+  }
+  coords 2720.512 77.478 1644.5
+  angles -0.637 -135.398 -0.629
+ }
+}

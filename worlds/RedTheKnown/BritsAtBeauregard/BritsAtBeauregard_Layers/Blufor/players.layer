@@ -1,0 +1,88 @@
+$grp SCR_AIGroup : "{305C4B4F028B7994}Prefabs/Groups/BLUFOR/British Forces/1989/P/Light Infantry/Group_UK_1989_REG_RiflePHQ_P.et" {
+ BAF_PltHQ_1 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2694.744 77.834 1649.659
+  angles 0 141.826 0
+  m_aUnitPrefabSlots {
+   "{53973AC86DE14614}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_PlatoonLeader_P.et"
+   "{EF8064CC488769E5}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_Sergeant_P.et"
+   "{0F81F9CFE36BC371}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/BritUnits/Custom_Addmed_UK_1989_Regulars_Medic_P.et"
+   "{0F81F9CFE36BC371}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/BritUnits/Custom_Addmed_UK_1989_Regulars_Medic_P.et"
+   "{1EA191A52F0A6C09}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_RTO_P.et"
+  }
+ }
+ BAF_MortarTeam {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 9
+   }
+  }
+  coords 2638.447 75.187 1657.543
+  angles 0 -142.228 0
+  m_aUnitPrefabSlots {
+   "{FD55D0E162A306AA}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/BritUnits/Custom_UK_1989_Regulars_MortarLeader_P.et"
+   "{C3240E4E945A5CFC}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/BritUnits/Custom_UK_1989_Regulars_MortarCrew_P.et"
+   "{C3240E4E945A5CFC}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/BritUnits/Custom_UK_1989_Regulars_MortarCrew_P.et"
+   "{C3240E4E945A5CFC}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/BritUnits/Custom_UK_1989_Regulars_MortarCrew_P.et"
+   "{C3240E4E945A5CFC}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/BritUnits/Custom_UK_1989_Regulars_MortarCrew_P.et"
+  }
+  m_sCustomNameSet "M252 Mortar Battery"
+ }
+}
+$grp SCR_AIGroup : "{5F6B6EF4C6B9ACE7}Prefabs/Groups/BLUFOR/British Forces/1989/P/Light Infantry/Group_UK_1989_REG_RifleSection_P.et" {
+ BAF_Squad_1_P1 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2692.251 77.876 1647.453
+  angles 0 141.857 0
+ }
+ BAF_Squad_2_P1 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2689.605 77.656 1645.694
+  angles 0 142.373 0
+ }
+ BAF_Squad_3_P1 {
+  components {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2687.712 77.576 1644.547
+  angles 0 142.373 0
+ }
+}
+SCR_AIGroup BAF_WepSquad_3_P1 : "{6EF8B3CEC83E4999}Prefabs/Groups/BLUFOR/British Forces/1989/P/Light Infantry/Group_UK_1989_REG_RifleMGDet_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 4
+  }
+ }
+ coords 2685.647 77.369 1642.96
+ angles 0 140.431 0
+}
