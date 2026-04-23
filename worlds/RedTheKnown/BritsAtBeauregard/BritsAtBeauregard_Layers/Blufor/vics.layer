@@ -58,6 +58,7 @@ $grp Vehicle : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 2708.765 77.461 1633.511
   angles 0.639 44.417 0.627
+  m_sAttachmentGroupName "BAF_PltHQ_1"
  }
  _Series_LWB_Transport_Camo2 {
   components {
@@ -118,6 +119,7 @@ $grp Vehicle : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 2711.963 77.354 1630.236
   angles 3.152 45.858 0.679
+  m_sAttachmentGroupName "BAF_Squad_1_P1"
  }
  _Series_LWB_Transport_Camo3 {
   components {
@@ -178,6 +180,7 @@ $grp Vehicle : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 2720.631 77.461 1622.179
   angles 1.901 45.225 -0.625
+  m_sAttachmentGroupName "BAF_Squad_2_P1"
  }
  _Series_LWB_Transport_Camo5 {
   components {
@@ -238,6 +241,7 @@ $grp Vehicle : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 2729.255 77.469 1634.292
   angles 0 -134.322 0
+  m_sAttachmentGroupName "BAF_WepSquad_3_P1"
  }
  _Series_LWB_Transport_Camo7 {
   components {
@@ -298,6 +302,7 @@ $grp Vehicle : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   }
   coords 2732.367 77.293 1631.468
   angles 0 -134.322 0
+  m_sAttachmentGroupName "BAF_Squad_3_P1"
  }
  _Series_LWB_Transport_Camo6 {
   components {

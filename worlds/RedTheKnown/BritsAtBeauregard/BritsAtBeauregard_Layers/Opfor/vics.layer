@@ -53,6 +53,7 @@ $grp Vehicle : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_un
   }
   coords 3285.147 2 2888.101
   angles 0 -124.629 0
+  m_sAttachmentGroupName "RUS_Squad_1"
  }
  UAZ469_Camo_uncovered2 {
   components {
@@ -108,6 +109,7 @@ $grp Vehicle : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_un
   }
   coords 3282.497 2 2892.317
   angles 0 -123.488 0
+  m_sAttachmentGroupName "RUS_Squad_2"
  }
  UAZ469_Camo_uncovered3 {
   components {
@@ -163,6 +165,7 @@ $grp Vehicle : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_un
   }
   coords 3279.933 2 2896.281
   angles 0 -123.375 0
+  m_sAttachmentGroupName "RUS_Squad_3"
  }
  UAZ469_Camo_uncovered4 {
   components {
@@ -218,6 +221,7 @@ $grp Vehicle : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_un
   }
   coords 3277.866 2 2899.645
   angles 0 -123.488 0
+  m_sAttachmentGroupName "RUS_Squad_4"
  }
  UAZ469_Camo_uncovered5 {
   components {
@@ -273,6 +277,7 @@ $grp Vehicle : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_un
   }
   coords 3275.673 2 2902.845
   angles 0 -123.488 0
+  m_sAttachmentGroupName "RUS_PltHQ"
  }
 }
 $grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
@@ -439,4 +444,5 @@ Vehicle UAZ452_transport1 : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/U
  }
  coords 3255.355 1.964 2891.448
  angles 0 146.868 0
+ m_sAttachmentGroupName "RUS_NSVTeam"
 }
