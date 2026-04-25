@@ -17,7 +17,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 1522.922 68.724 6932.446
   m_sTitle "II. Friendly Forces"
   m_sTextData "x1 Rifle platoon with MMGs and SMAWs."\
-  "Attached: x1 M1A1 section"\
+  "Attached: x1 M1A1 section, x1 Resupply section in M1151s"\
   ""\
   "Equipped with M16A4, M4A1, SMAWs, M249s, M240s and wearing desert MARPAT."
   m_aVisibleForFactions {
