@@ -19,7 +19,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Capzones around the two bridges marked with polylines on the map, requires 90% USMC control for 1 minute."\
   ""\
-  "No spawn restriction"
+  "No spawn restriction"\
+  ""\
+  "Fun fact: I made a mission with the same name back in A2 days on PR FATA, 'memba PR FATA? I 'memba"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 5
@@ -59,7 +61,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  RU_Marker2 {
-  coords 2709.698 144.219 8665.383
+  coords 2709.716 144.219 8665.849
   angles 0 90 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""

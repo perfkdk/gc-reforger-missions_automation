@@ -7,25 +7,25 @@ SCR_AIGroup : "{95865B5D03AFBA74}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurg
  }
  m_bPlayable 1
  m_bSetPlayable 1
- m_vRespawnPosition 2709.698 144.219 8665.383
+ m_vRespawnPosition 2709.716 144.219 8665.849
 }
 $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
  {
   coords 4754.523 150.992 8363.23
   m_bPlayable 1
   m_bSetPlayable 1
-  m_vRespawnPosition 2709.698 144.219 8665.383
+  m_vRespawnPosition 2709.716 144.219 8665.849
  }
  {
   coords 4754.339 143.066 8364.562
   m_bPlayable 1
   m_bSetPlayable 1
-  m_vRespawnPosition 2709.698 144.219 8665.383
+  m_vRespawnPosition 2709.716 144.219 8665.849
  }
  {
   coords 4754.322 143.084 8366.307
   m_bPlayable 1
   m_bSetPlayable 1
-  m_vRespawnPosition 2709.698 144.219 8665.383
+  m_vRespawnPosition 2709.716 144.219 8665.849
  }
 }

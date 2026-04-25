@@ -56,6 +56,35 @@ $grp PolylineShapeEntity {
      }
     }
     coords 3058.203 144.996 9117.797
+    Points {
+     ShapePoint "{69316752D15D2EE1}" {
+      Position -1089.555 -142.133 -9518.179
+     }
+     ShapePoint "{69316752D1E2D6E5}" {
+      Position -964.835 -149.677 -9601.695
+     }
+     ShapePoint "{69316752D0E5F899}" {
+      Position -946.814 -152.46 -9922.883
+     }
+     ShapePoint "{69316752D3D587E5}" {
+      Position -900.309 -156.977 -10116.629
+     }
+     ShapePoint "{69316752D243FB89}" {
+      Position -1040.452 -152.623 -10150.825
+     }
+     ShapePoint "{69316752D57539CE}" {
+      Position -1450.604 -147.197 -10111.965
+     }
+     ShapePoint "{69316752D58684F5}" {
+      Position -1402.472 -149.032 -10016.808
+     }
+     ShapePoint "{69316752D49868D7}" {
+      Position -1356.894 -147.015 -9757.369
+     }
+     ShapePoint "{69316752D6FC2224}" {
+      Position -1302.632 -146.338 -9580.073
+     }
+    }
     LineColor 0.0034 0.0034 0.0034 1
    }
   }
@@ -120,8 +149,53 @@ $grp PolylineShapeEntity {
      }
     }
     coords 4872.28 144.718 8373.296
+    Points {
+     ShapePoint "{69316752CC1E5203}" {
+      Position -6691.158 -143.062 -7929.556
+     }
+     ShapePoint "{69316752CF2A7E17}" {
+      Position -7043.922 -139.832 -7738.743
+     }
+     ShapePoint "{69316752CE09F32C}" {
+      Position -7025.989 -141.237 -7513.811
+     }
+     ShapePoint "{69316752CEC94841}" {
+      Position -6865.762 -137.708 -7323.765
+     }
+     ShapePoint "{69316752B1A47A83}" {
+      Position -6678.177 -139.29 -7317.269
+     }
+     ShapePoint "{69316752B02BCD0F}" {
+      Position -6530.782 -142.263 -7371.737
+     }
+     ShapePoint "{69316752B0C0142B}" {
+      Position -6524.935 -140.662 -7789.064
+     }
+    }
     LineColor 0 0 0 1
    }
   }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 4901.475 145.793 8486.948
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 150
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3051.541 146.739 9288.77
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 150
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
  }
 }

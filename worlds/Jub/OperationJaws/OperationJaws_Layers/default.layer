@@ -52,7 +52,6 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
  coords 1970.315 66.375 6740.193
- m_iFreezeTime 300000
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{6931676F4332C17C}" {
    m_sFactionKey "GC_INSURGENT"
