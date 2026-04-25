@@ -4,7 +4,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "IV. Mission"
   m_sTextData "Deny American forces from taking control of the area."
   m_aVisibleForFactions {
-   "RHS_AFRF"
+   "GC_INSURGENT"
   }
   m_iOrder 4
  }
@@ -17,7 +17,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   ""
   m_aVisibleForFactions {
-   "RHS_AFRF"
+   "GC_INSURGENT"
   }
   m_iOrder 1
  }
@@ -28,7 +28,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Equipped with M16A4s, M4A1, SMAWs, Javelins, M240s, M249s and LAWs. wearing desert MARPAT."
   m_aVisibleForFactions {
-   "RHS_AFRF"
+   "GC_INSURGENT"
   }
   m_iOrder 3
  }
@@ -39,13 +39,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "We have x30 more respawns, and respawn at the SP."\
   ""\
-  "There is a teleporter flagpole that will allow us to move closer to the FLET if needed. Feel free to TP behind US players after they cap a zone. IDGAF"\
+  "There is a teleporter flagpole that will allow us to move closer to the FLET if needed. Feel free to TP behind US players after they cap a zone. "\
   ""\
   "We also have vehicles:"\
   ""\
   "We have x13 motorbikes, x5 VBIEDs, x3 transport landrovers, x1 M2HB m151 jeep, x3 GPMG landrovers, x1 PKM UAZ"
   m_aVisibleForFactions {
-   "RHS_AFRF"
+   "GC_INSURGENT"
   }
   m_iOrder 2
  }
@@ -54,7 +54,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "V. Signals"
   m_sTextData "The company and all sub units are to stay on the net they started on."
   m_aVisibleForFactions {
-   "RHS_AFRF"
+   "GC_INSURGENT"
   }
   m_iOrder 4
  }
