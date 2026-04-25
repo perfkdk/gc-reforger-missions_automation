@@ -1,0 +1,119 @@
+Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ coords 2732.487 144.824 8658.175
+ angles 0 90.638 0
+}
+Vehicle UAZ452_VIED1 : "{2BBBE0FBCE801CF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_VIED.et" {
+ coords 4737.519 143.406 8367.371
+}
+Vehicle _Series_SWB_Transport_Variant_1 : "{37E409E5C8E39405}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_SWB_Transport_Variant_2.et" {
+ coords 2742.231 144.718 8664.859
+ angles 0 -92.445 0
+}
+$grp Tank : "{3C3ADBCCDA1D877B}Prefabs/Vehicles/Tracked/M1A1/M1A1_Tan.et" {
+ M1A1_Tan1 {
+  coords 6897.071 165.449 9120.361
+  angles 0 -105.853 0
+  m_sAttachmentGroupName "Tanks"
+ }
+ M1A1_Tan2 {
+  coords 6885.111 167.706 9138.619
+  angles 0 -94.238 0
+  m_sAttachmentGroupName "Tanks"
+ }
+}
+Vehicle _Series_LWB_GPMG_Variant_2 : "{74AFD46A97E09CB1}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_GPMG_Variant_3.et" {
+ coords 2732.449 144.88 8662.047
+ angles 0 77.461 0
+}
+Vehicle _Series_LWB_GPMG_Variant_1 : "{913398939B050BDA}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_GPMG_Variant_2.et" {
+ coords 2732.49 144.85 8666.022
+ angles 0 76.491 0
+}
+Vehicle M151A2_M2HB_UK1 : "{AF32EB365B17CB34}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB_UK.et" {
+ coords 2741.858 144.797 8668.147
+ angles 0 -95.336 0
+}
+Vehicle _Series_SWB_GPMG1 : "{CC4DFA3A23A5BA41}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_SWB_GPMG.et" {
+ coords 2739.992 145.21 8682.709
+ angles 0 -74.07 0
+}
+Vehicle _Series_SWB_Transport_Variant_2 : "{D278451CC406036E}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_SWB_Transport_Variant_3.et" {
+ coords 2742.656 144.742 8661.993
+ angles 0 -97.355 0
+}
+$grp Vehicle : "{DD988F50099DD689}Prefabs/Vehicles/Wheeled/S1203/S1203_VIED.et" {
+ S1203_VIED1 {
+  coords 4734.548 143.424 8373.122
+ }
+ S1203_VIED2 {
+  coords 2733.071 145.059 8680.042
+ }
+}
+$grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_green.et" {
+ motorbike_green1 {
+  coords 2743.332 144.728 8673.924
+  angles 0 -60.107 0
+ }
+ motorbike_green2 {
+  coords 2743.077 144.735 8672.599
+  angles 0 -79.653 0
+ }
+}
+Vehicle S105_VIED1 : "{E7400CE43119FF91}Prefabs/Vehicles/Wheeled/S105/S105_VIED.et" {
+ coords 4738.829 143.412 8372.371
+ angles 0 -9.917 0
+}
+Vehicle _Series_SWB_Transport1 : "{EDEAE951AFF2A836}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_SWB_Transport.et" {
+ coords 2742.874 145.066 8658.911
+ angles 0 -77.249 0
+}
+Vehicle Ural4320_VIED1 : "{F1C4671BE197E28B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_VIED.et" {
+ coords 2739.573 145.162 8687.728
+ angles 0 -62.145 0
+}
+$grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et" {
+ motorbike1 {
+  coords 2743.357 144.736 8675.393
+  angles 0 -66.342 0
+ }
+ motorbike2 {
+  coords 2743.43 144.736 8676.704
+  angles 0 -61.209 0
+ }
+ motorbike3 {
+  coords 2741.18 144.935 8673.745
+  angles 0 -61.693 0
+ }
+ motorbike4 {
+  coords 2742.819 144.822 8678.901
+  angles 0 -59.225 0
+ }
+ motorbike5 {
+  coords 2741.04 144.97 8675.288
+  angles 0 -62.449 0
+ }
+ motorbike6 {
+  coords 2740.95 144.996 8676.432
+  angles 0 -79.044 0
+ }
+ motorbike7 {
+  coords 2742.501 144.875 8680.364
+  angles 0 -73.152 0
+ }
+ motorbike8 {
+  coords 4735.035 143.352 8359.504
+  angles 0 146.292 0
+ }
+ motorbike9 {
+  coords 4734.703 143.406 8363.612
+  angles 0 35.684 0
+ }
+ motorbike10 {
+  coords 4740.257 143.359 8359.791
+  angles 0 -151.656 0
+ }
+ motorbike11 {
+  coords 4740.039 143.402 8363.347
+  angles 0 -147.335 0
+ }
+}

@@ -1,0 +1,31 @@
+SCR_AIGroup : "{95865B5D03AFBA74}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_PHQ.et" {
+ coords 4751.234 143.203 8364.479
+ m_aUnitPrefabSlots +{
+  "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et"
+  "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et"
+  "{656C3D2563E79F50}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Sapper.et"
+ }
+ m_bPlayable 1
+ m_bSetPlayable 1
+ m_vRespawnPosition 2709.698 144.219 8665.383
+}
+$grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+ {
+  coords 4754.523 150.992 8363.23
+  m_bPlayable 1
+  m_bSetPlayable 1
+  m_vRespawnPosition 2709.698 144.219 8665.383
+ }
+ {
+  coords 4754.339 143.066 8364.562
+  m_bPlayable 1
+  m_bSetPlayable 1
+  m_vRespawnPosition 2709.698 144.219 8665.383
+ }
+ {
+  coords 4754.322 143.084 8366.307
+  m_bPlayable 1
+  m_bSetPlayable 1
+  m_vRespawnPosition 2709.698 144.219 8665.383
+ }
+}
