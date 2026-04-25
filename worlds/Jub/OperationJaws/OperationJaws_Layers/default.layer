@@ -136,13 +136,13 @@ PolylineShapeEntity ao : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.e
    Position -1354.921 -14.434 26.105
   }
   ShapePoint "{69316760D6C66B5B}" {
-   Position -869.08 -14.918 107.312
+   Position -884.122 -12.048 36.295
   }
   ShapePoint "{69316760D6BE743D}" {
-   Position -669.764 -12.485 -117.979
+   Position -807.113 -18.698 -106.674
   }
   ShapePoint "{69316760D77C3D66}" {
-   Position -511.601 -17.395 -376.314
+   Position -698.464 -17.422 -425.437
   }
   ShapePoint "{69316760D0371A6E}" {
    Position -36.437 -19.652 -359.706

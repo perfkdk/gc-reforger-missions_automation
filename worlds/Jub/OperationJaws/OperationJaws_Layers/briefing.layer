@@ -39,7 +39,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  RU_Marker {
-  coords 4754.843 143.002 8360.17
+  coords 2725.84 144.219 8691.187
   angles 0 90 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
@@ -59,17 +59,5 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Tanks"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
- }
- RU_Marker2 {
-  coords 2709.716 144.219 8665.849
-  angles 0 90 0
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "infantry"
-  m_fWorldSize 200
-  m_sDescription "Taliban Respawn"
-  m_aVisibleForFactions {
-   "GC_INSURGENT"
-  }
  }
 }

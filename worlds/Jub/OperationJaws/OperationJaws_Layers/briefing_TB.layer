@@ -37,11 +37,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Friendly Forces"
   m_sTextData "Platoon strength Taliban fighters located at our marked SP"\
   ""\
-  "We have x30 more respawns, and respawn at the marked location."\
+  "We have x30 more respawns, and respawn at the SP."\
   ""\
-  "At the SP we have x4 motorbikes, x3 VBIEDs"\
+  "There is a teleporter flagpole that will allow us to move closer to the FLET if needed. Feel free to TP behind US players after they cap a zone. IDGAF"\
   ""\
-  "At the Respawn point we have x9 motorbikes, x2 VBIEDs, x3 transport landrovers, x1 M2HB m151 jeep, x3 GPMG landrovers, x1 PKM UAZ"
+  "We also have vehicles:"\
+  ""\
+  "We have x13 motorbikes, x5 VBIEDs, x3 transport landrovers, x1 M2HB m151 jeep, x3 GPMG landrovers, x1 PKM UAZ"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
