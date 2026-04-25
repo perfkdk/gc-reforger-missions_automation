@@ -221,7 +221,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "HMMWV Rules"
   m_sTextData "For US: RTO has radio backpack with more range to help communicate with Stryker crews (who also have radio backpacks). Otherwise, your radio is ~500m range."\
   ""\
-  "US may only take 1 armed M2 HMMWV per squad (HQ section gets unarmed HMMWV). If mission is played at or close to minimum, this would mean that US would take only 3 of the 4 armed HMMWV's. GMs use best judgement."\
+  "US may only take 1 armed M2 HMMWV per squad (HQ section gets unarmed HMMWV). If mission is played at or close to minimum, this would mean that US would take only 3 of the 4 armed HMMWV's. Mission maker suggestion: If ratio results in US Army getting 38 players or more, they can take 4x M2 HMMWV's, if less than 38 players, they only take 3. GMs use best judgement."\
   ""
   m_aVisibleForFactions {
    "US"
