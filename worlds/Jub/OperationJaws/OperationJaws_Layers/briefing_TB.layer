@@ -37,7 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "II. Friendly Forces"
   m_sTextData "Platoon strength Taliban fighters located at our marked SP"\
   ""\
-  "We have x30 more respawns, and respawn at the SP."\
+  "We have x30 more respawns and respawn at the SP."\
   ""\
   "There is a teleporter flagpole that will allow us to move closer to the FLET if needed. Feel free to TP behind US players after they cap a zone. "\
   ""\

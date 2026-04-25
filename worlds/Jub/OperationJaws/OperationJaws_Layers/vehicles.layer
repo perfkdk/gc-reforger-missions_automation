@@ -21,9 +21,15 @@ Vehicle UAZ452_VIED1 : "{2BBBE0FBCE801CF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452
   }
  }
 }
-Vehicle _Series_SWB_Transport_Variant_1 : "{37E409E5C8E39405}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_SWB_Transport_Variant_2.et" {
- coords 2742.231 144.718 8664.859
- angles 0 -92.445 0
+$grp Vehicle : "{37E409E5C8E39405}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_SWB_Transport_Variant_2.et" {
+ _Series_SWB_Transport_Variant_1 {
+  coords 2742.231 144.718 8664.859
+  angles 0 -92.445 0
+ }
+ _Series_SWB_Transport_Variant_3 {
+  coords 2742.231 144.718 8664.859
+  angles 0 -92.445 0
+ }
 }
 $grp Tank : "{3C3ADBCCDA1D877B}Prefabs/Vehicles/Tracked/M1A1/M1A1_Tan.et" {
  M1A1_Tan1 {
@@ -40,6 +46,14 @@ $grp Tank : "{3C3ADBCCDA1D877B}Prefabs/Vehicles/Tracked/M1A1/M1A1_Tan.et" {
 Vehicle _Series_LWB_GPMG_Variant_2 : "{74AFD46A97E09CB1}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_GPMG_Variant_3.et" {
  coords 2732.449 144.879 8662.047
  angles 0 77.461 0
+}
+Vehicle JAWs_M1151_armed_MK19_cover_Tan1 : "{7F06D22BE97FCD91}worlds/Jub/OperationJaws/prefabs/JAWs_M1151_armed_MK19_cover_Tan.et" {
+ coords 6914.797 164.594 9126.448
+ angles 3.866 -72.404 -6.246
+}
+Vehicle JAWs_GC_M1151_armed_M2HB_MDO_OGPK_Cover_tan1 : "{8876FB5CF0839AD0}worlds/Jub/OperationJaws/prefabs/JAWs_GC_M1151_armed_M2HB_MDO_OGPK+Cover_tan.et" {
+ coords 6916.853 165.474 9132.753
+ angles -0.528 -87.654 -8.909
 }
 Vehicle _Series_LWB_GPMG_Variant_1 : "{913398939B050BDA}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_GPMG_Variant_2.et" {
  coords 2732.49 144.85 8666.022

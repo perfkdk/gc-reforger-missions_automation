@@ -185,6 +185,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0 0 0 1
   m_sQuadName "objective-marker"
   m_fWorldSize 150
+  m_sDescription "Obj 1"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
@@ -195,6 +196,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0 0 0 1
   m_sQuadName "objective-marker"
   m_fWorldSize 150
+  m_sDescription "Obj 2"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }

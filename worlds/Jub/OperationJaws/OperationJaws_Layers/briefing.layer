@@ -17,7 +17,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "90% Taliban casualties or both objs captured: USMC Victory"\
   "90% USMC casualties or 60 minutes pass: Taliban victory"\
   ""\
-  "Capzones around the two bridges marked with polylines on the map, requires 90% USMC control for 1 minute."\
+  "Capzones marked with polylines on the map, requires 90% USMC control for 1 minute."\
   ""\
   "No spawn restriction"\
   ""\
