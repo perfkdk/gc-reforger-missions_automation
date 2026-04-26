@@ -136,6 +136,11 @@ Vehicle JLTV_Base_CobrasBite1 : "{86157A4F8B90F06F}worlds/Jub/CobrasBite/Prefabs
  angles 0 168.25 0
  m_sAttachmentGroupName "CAAT"
 }
+Vehicle UH1H_armed_gunship_x14APKWS_sharkNose_m2_m1 : "{B67D806064FA55C6}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_x14APKWS_sharkNose_m2_m134.et" {
+ coords 3686.04 17.844 7876.875
+ angles 0 -178.163 0
+ m_sAttachmentGroupName "ACE"
+}
 SCR_AIGroup Sq2 : "{C62B0A55626A9D90}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RifleSquad_MAAW_D.et" {
  components {
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
@@ -164,11 +169,6 @@ Vehicle JLTV_OGPK1 : "{DEB5350D1B0FAE4D}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/
  coords 3930.535 17.844 1674.496
  angles 0 150.024 0
  m_sAttachmentGroupName "CAAT"
-}
-Vehicle GC_UH1H_armed_gunship_HE_sharkNose_APKWS_M2_M1 : "{F45FB9574672416F}Prefabs/Vehicles/Helicopters/UH1H/GC_UH1H_armed_gunship_HE_sharkNose_APKWS_M2_M134.et" {
- coords 3686.446 17.844 7877.225
- angles 0 179.858 0
- m_sAttachmentGroupName "ACE"
 }
 Vehicle JLTV_MK19_OGPK1 : "{FBA3F21384B6E649}Prefabs/Vehicles/Wheeled/JLTV/OGPK/MK19/JLTV_MK19_OGPK.et" {
  coords 3927.325 17.844 1667.897
