@@ -30,6 +30,14 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
 }
+GenericEntity : "{7B656DF11E8B4D50}Prefabs/Structures/Wreck/ikarus_g.et" {
+ components {
+  TILW_NavmeshRegenComponent "{66F71793AE43CC40}" {
+  }
+ }
+ coords 3005.199 7.5 2799.754
+ angles 0 120.723 0
+}
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  AO_Limit_US {
   components {

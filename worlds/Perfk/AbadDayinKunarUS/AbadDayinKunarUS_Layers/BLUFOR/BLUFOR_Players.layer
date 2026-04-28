@@ -57,9 +57,30 @@ $grp SCR_AIGroup : "{BC4A2EF94B792692}Prefabs/Groups/BLUFOR/US/Marines/2009/Mari
     m_iPlatoonCallsign 2
     m_iSquadCallsign 2
    }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "2009 USMC Rifle Squad (Desert)"
+     m_Image "{3B1CD52AC7CE6E10}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_RifleSquad.edds"
+    }
+   }
   }
   coords 2687.683 8.274 3018.133
   angles 0 33.273 0
+  m_aUnitPrefabSlots {
+   "{E62854E64A5771F6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_SL_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+  }
   m_sCustomNameSet "Rifle Squad"
   m_bSetPlayable 1
  }
@@ -73,9 +94,30 @@ $grp SCR_AIGroup : "{BC4A2EF94B792692}Prefabs/Groups/BLUFOR/US/Marines/2009/Mari
     m_iPlatoonCallsign 2
     m_iSquadCallsign 3
    }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "2009 USMC Rifle Squad (Desert)"
+     m_Image "{3B1CD52AC7CE6E10}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_RifleSquad.edds"
+    }
+   }
   }
   coords 2685.822 8.391 3029.91
   angles 0 -146.727 0
+  m_aUnitPrefabSlots {
+   "{E62854E64A5771F6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_SL_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+  }
   m_sCustomNameSet "Rifle Squad"
   m_bSetPlayable 1
  }
@@ -89,9 +131,30 @@ $grp SCR_AIGroup : "{BC4A2EF94B792692}Prefabs/Groups/BLUFOR/US/Marines/2009/Mari
     m_iPlatoonCallsign 1
     m_iSquadCallsign 1
    }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "2009 USMC Rifle Squad (Desert)"
+     m_Image "{3B1CD52AC7CE6E10}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_RifleSquad.edds"
+    }
+   }
   }
   coords 2759.499 8.494 2977.357
   angles 0 -146.727 0
+  m_aUnitPrefabSlots {
+   "{E62854E64A5771F6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_SL_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+  }
   m_sCustomNameSet "Rifle Squad"
   m_bSetPlayable 1
  }
@@ -105,9 +168,30 @@ $grp SCR_AIGroup : "{BC4A2EF94B792692}Prefabs/Groups/BLUFOR/US/Marines/2009/Mari
     m_iPlatoonCallsign 1
     m_iSquadCallsign 2
    }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "2009 USMC Rifle Squad (Desert)"
+     m_Image "{3B1CD52AC7CE6E10}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_RifleSquad.edds"
+    }
+   }
   }
   coords 2735.745 8.432 2984.364
   angles 0 33.273 0
+  m_aUnitPrefabSlots {
+   "{E62854E64A5771F6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_SL_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+  }
   m_sCustomNameSet "Rifle Squad"
   m_bSetPlayable 1
  }
@@ -121,9 +205,30 @@ $grp SCR_AIGroup : "{BC4A2EF94B792692}Prefabs/Groups/BLUFOR/US/Marines/2009/Mari
     m_iPlatoonCallsign 2
     m_iSquadCallsign 1
    }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "2009 USMC Rifle Squad (Desert)"
+     m_Image "{3B1CD52AC7CE6E10}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_RifleSquad.edds"
+    }
+   }
   }
   coords 2711.347 8.485 3012.618
   angles 0 -146.727 0
+  m_aUnitPrefabSlots {
+   "{E62854E64A5771F6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_SL_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+  }
   m_sCustomNameSet "Rifle Squad"
   m_bSetPlayable 1
  }
@@ -137,9 +242,30 @@ $grp SCR_AIGroup : "{BC4A2EF94B792692}Prefabs/Groups/BLUFOR/US/Marines/2009/Mari
     m_iPlatoonCallsign 1
     m_iSquadCallsign 3
    }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "2009 USMC Rifle Squad (Desert)"
+     m_Image "{3B1CD52AC7CE6E10}UI/Textures/EditorPreviews/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_RifleSquad.edds"
+    }
+   }
   }
   coords 2733.934 8.406 2994.625
   angles 0 -146.727 0
+  m_aUnitPrefabSlots {
+   "{E62854E64A5771F6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_SL_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{5C2A7F4A52C461DA}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AR_D_NoRadio.et"
+   "{573DF3DA110269E9}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_AAR_D_NoRadio.et"
+   "{115E7D87A3F770B7}worlds/Perfk/Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_RiflemanLAT_D_NoRadio.et"
+  }
   m_sCustomNameSet "Rifle Squad"
   m_bSetPlayable 1
  }

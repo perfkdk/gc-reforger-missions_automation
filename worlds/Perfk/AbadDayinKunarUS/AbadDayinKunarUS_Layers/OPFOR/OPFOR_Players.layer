@@ -16,35 +16,6 @@ SCR_AIGroup : "{097966114F7D2E0C}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_PHQ_P.
   "{121299FDBBA7AF87}Prefabs/Characters/Factions/INDFOR/GC_MUJ/P/Character_MUJ_Rad_P.et"
  }
 }
-GenericEntity : "{8D4992E2BAF6A82D}PrefabsEditable/Auto/Props/Military/AmmoBoxes/USSR/E_EquipmentBoxWooden_Medical_01_USSR.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 1
-   MultiSlots {
-    MultiSlotConfiguration "{6932A3784D6604EE}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{632CAEF08C102091}Prefabs/Items/Medicine/Splint_01/GC_Splint_01_Base.et"
-     }
-     NumSlots 15
-    }
-    MultiSlotConfiguration "{6932A37842555C83}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
-     }
-     NumSlots 4
-    }
-    MultiSlotConfiguration "{6932A37842768ABE}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
-     NumSlots 13
-    }
-   }
-  }
- }
- coords 3274.911 9.344 2553.654
- angles 0 -64.199 0
-}
 $grp SCR_AIGroup : "{F0C5E14EBC0C9566}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_Rifle_P.et" {
  {
   components {
@@ -90,4 +61,8 @@ $grp SCR_AIGroup : "{F0C5E14EBC0C9566}Prefabs/Groups/INDFOR/GC_MUJ/P/Group_MUJ_R
   }
   m_bSnapToTerrain 0
  }
+}
+GenericEntity : "{F89E36643D4F3821}worlds/Perfk/Prefabs/Crates/pk_MedicalCrate.et" {
+ coords 3275.177 9.344 2553.549
+ angles 0 -60 0
 }
