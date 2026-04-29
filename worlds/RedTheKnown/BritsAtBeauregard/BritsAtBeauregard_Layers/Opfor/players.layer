@@ -37,7 +37,7 @@ $grp SCR_AIGroup : "{026C981E5226FE0F}Prefabs/Groups/OPFOR/Russia/1990s/Naval In
    "{5A7B0827568A131A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_VSR_AAT_P.et"
    "{C784971021AC7B2A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_SR_P.et"
    "{F9955E97249A5B95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AR_P.et"
-   "{ADF5843D9668B423}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Medic_P.et"
+   "{730C15295DBF4542}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Rifleman_P.et"
   }
   m_sCustomNameSet "Rifle Squad"
  }
@@ -127,7 +127,7 @@ $grp SCR_AIGroup : "{026C981E5226FE0F}Prefabs/Groups/OPFOR/Russia/1990s/Naval In
    "{5A7B0827568A131A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_VSR_AAT_P.et"
    "{C784971021AC7B2A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_SR_P.et"
    "{F9955E97249A5B95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AR_P.et"
-   "{ADF5843D9668B423}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Medic_P.et"
+   "{730C15295DBF4542}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Rifleman_P.et"
   }
   m_sCustomNameSet "Rifle Squad"
  }
@@ -141,12 +141,14 @@ $grp SCR_AIGroup : "{AFA5F7679028B3B9}Prefabs/Groups/OPFOR/Russia/1990s/Naval In
     m_iSquadCallsign 1
    }
   }
-  coords 3262.162 2 2904.38
+  coords 3263.166 2 2902.451
   angles 0 146.428 0
   m_aUnitPrefabSlots {
    "{02511C10471F89ED}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_PL_P.et"
    "{74EACD8FE624465A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_VSR_PSG_P.et"
    "{5496F9828F07CB82}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_RTO_P.et"
+   "{ADF5843D9668B423}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Medic_P.et"
+   "{ADF5843D9668B423}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Medic_P.et"
    "{ADF5843D9668B423}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Medic_P.et"
   }
  }
