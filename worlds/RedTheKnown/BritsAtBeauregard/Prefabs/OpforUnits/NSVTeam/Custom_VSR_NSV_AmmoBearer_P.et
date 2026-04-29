@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{4455ADDC97E5DDFB}Prefabs/Characters/Factions/OPFOR/RHS_
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
       }
      }
     }
@@ -27,7 +26,7 @@ SCR_ChimeraCharacter : "{4455ADDC97E5DDFB}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{AEC39124CEF3859A}Prefabs/Characters/Vests/Vest_6B5_15/Variants/USSR/Vest_6B5_HMG.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et"
+     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
@@ -55,9 +54,9 @@ SCR_ChimeraCharacter : "{4455ADDC97E5DDFB}Prefabs/Characters/Factions/OPFOR/RHS_
      }
     }
     ItemsInitConfigurationItem "{692A41E041372A22}" {
-     TargetStorage "Back/Backpack_IIFS_FieldPack.et"
+     TargetStorage "Back/Backpack_Veshmeshok.et"
      PrefabsToSpawn {
-      "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et" "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
      }
     }
    }

@@ -13,8 +13,9 @@ $grp SCR_AIGroup : "{026C981E5226FE0F}Prefabs/Groups/OPFOR/Russia/1990s/Naval In
    "{08F44C5DF10F7A6B}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_SL_P.et"
    "{F9955E97249A5B95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AR_P.et"
    "{10A1A6575A52D21E}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_AT_P.et"
-   "{4BDA5389F1D0CE05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AAT_P.et"
+   "{5A7B0827568A131A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_VSR_AAT_P.et"
    "{C784971021AC7B2A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_SR_P.et"
+   "{63C23A78A5B54138}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_VSR_Sharpshooter_P.et"
    "{730C15295DBF4542}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Rifleman_P.et"
   }
   m_sCustomNameSet "Rifle Squad"
@@ -33,9 +34,10 @@ $grp SCR_AIGroup : "{026C981E5226FE0F}Prefabs/Groups/OPFOR/Russia/1990s/Naval In
    "{08F44C5DF10F7A6B}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_SL_P.et"
    "{F9955E97249A5B95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AR_P.et"
    "{10A1A6575A52D21E}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_AT_P.et"
-   "{4BDA5389F1D0CE05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AAT_P.et"
+   "{5A7B0827568A131A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_VSR_AAT_P.et"
    "{C784971021AC7B2A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_SR_P.et"
-   "{730C15295DBF4542}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Rifleman_P.et"
+   "{F9955E97249A5B95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AR_P.et"
+   "{ADF5843D9668B423}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Medic_P.et"
   }
   m_sCustomNameSet "Rifle Squad"
  }
@@ -53,8 +55,9 @@ $grp SCR_AIGroup : "{026C981E5226FE0F}Prefabs/Groups/OPFOR/Russia/1990s/Naval In
    "{08F44C5DF10F7A6B}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_SL_P.et"
    "{F9955E97249A5B95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AR_P.et"
    "{10A1A6575A52D21E}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_AT_P.et"
-   "{4BDA5389F1D0CE05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AAT_P.et"
+   "{5A7B0827568A131A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_VSR_AAT_P.et"
    "{C784971021AC7B2A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_SR_P.et"
+   "{63C23A78A5B54138}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_VSR_Sharpshooter_P.et"
    "{730C15295DBF4542}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Rifleman_P.et"
   }
   m_sCustomNameSet "Rifle Squad"
@@ -98,7 +101,7 @@ $grp SCR_AIGroup : "{026C981E5226FE0F}Prefabs/Groups/OPFOR/Russia/1990s/Naval In
     }
    }
   }
-  coords 3265.645 2 2910.884
+  coords 3265.615 2 2910.89
   angles 0 -125.197 0
   m_aUnitPrefabSlots {
    "{A3786BA552555B48}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/ScoutTeam/Custom_VMF_Scout_TeamLeader_P.et"
@@ -121,9 +124,10 @@ $grp SCR_AIGroup : "{026C981E5226FE0F}Prefabs/Groups/OPFOR/Russia/1990s/Naval In
    "{08F44C5DF10F7A6B}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_SL_P.et"
    "{F9955E97249A5B95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AR_P.et"
    "{10A1A6575A52D21E}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_AT_P.et"
-   "{4BDA5389F1D0CE05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AAT_P.et"
+   "{5A7B0827568A131A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_VSR_AAT_P.et"
    "{C784971021AC7B2A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_SR_P.et"
-   "{730C15295DBF4542}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Rifleman_P.et"
+   "{F9955E97249A5B95}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_AR_P.et"
+   "{ADF5843D9668B423}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Medic_P.et"
   }
   m_sCustomNameSet "Rifle Squad"
  }
@@ -137,14 +141,13 @@ $grp SCR_AIGroup : "{AFA5F7679028B3B9}Prefabs/Groups/OPFOR/Russia/1990s/Naval In
     m_iSquadCallsign 1
    }
   }
-  coords 3256.005 2 2913.917
-  angles 0 -30.544 0
+  coords 3262.162 2 2904.38
+  angles 0 146.428 0
   m_aUnitPrefabSlots {
    "{02511C10471F89ED}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_PL_P.et"
-   "{654B9621417E9B45}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_PSG_P.et"
+   "{74EACD8FE624465A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_VSR_PSG_P.et"
+   "{5496F9828F07CB82}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_RTO_P.et"
    "{ADF5843D9668B423}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Medic_P.et"
-   "{ADF5843D9668B423}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/Custom_HelmetSwap_VSR_Medic_P.et"
-   "{15117AE891DE1468}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/1993/VMF/P/Character_RHS_RF_VMF_VSR_Sharpshooter_P.et"
   }
  }
  RUS_NSVTeam {
@@ -161,7 +164,7 @@ $grp SCR_AIGroup : "{AFA5F7679028B3B9}Prefabs/Groups/OPFOR/Russia/1990s/Naval In
     }
    }
   }
-  coords 3264.306 2 2907.409
+  coords 3265.235 2 2906.18
   angles 0 146.629 0
   m_aUnitPrefabSlots {
    "{08F44C5DF10F7A6A}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/OpforUnits/NSVTeam/Custom_VSR_NSV_TeamLeader_P.et"

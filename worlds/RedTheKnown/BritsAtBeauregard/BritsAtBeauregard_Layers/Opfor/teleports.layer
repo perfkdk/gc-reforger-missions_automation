@@ -9,7 +9,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       m_factionKeys {
        "RHS_AFRF"
       }
-      m_conditionFlag "setupend"
+      m_conditionFlag "setupstart"
      }
     }
    }
@@ -26,7 +26,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       m_factionKeys {
        "RHS_AFRF"
       }
-      m_conditionFlag "setupend"
+      m_conditionFlag "setupstart"
      }
     }
    }
@@ -43,7 +43,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       m_factionKeys {
        "RHS_AFRF"
       }
-      m_conditionFlag "setupend"
+      m_conditionFlag "setupstart"
      }
     }
    }
@@ -60,7 +60,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       m_factionKeys {
        "RHS_AFRF"
       }
-      m_conditionFlag "setupend"
+      m_conditionFlag "setupstart"
      }
     }
    }
@@ -77,11 +77,28 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       m_factionKeys {
        "RHS_AFRF"
       }
-      m_conditionFlag "setupend"
+      m_conditionFlag "setupstart"
      }
     }
    }
   }
   coords 3253.481 3.278 2910.004
+ }
+ Tele_FrontCent {
+  components {
+   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+    additionalActions {
+     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+      m_actionName "Teleport: Front Center"
+      m_locationName "SP_FrontCent_Mark"
+      m_factionKeys {
+       "RHS_AFRF"
+      }
+      m_conditionFlag "setupstart"
+     }
+    }
+   }
+  }
+  coords 3252.622 3.277 2911.143
  }
 }

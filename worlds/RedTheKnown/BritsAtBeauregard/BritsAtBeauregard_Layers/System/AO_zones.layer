@@ -5,7 +5,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Enabled 1
    }
   }
-  coords 2758.56 87.306 2214.286
+  coords 2758.56 87.307 2214.286
   Points {
    ShapePoint "{69281B28847F5A42}" {
     Position -201.97 43.634 136.304
@@ -40,8 +40,11 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    ShapePoint "{69281B2F830EA09C}" {
     Position 831.179 -91.43 -300.893
    }
+   ShapePoint "{693A287E1B4EA5E9}" {
+    Position 541.18 -59.258 -500.825
+   }
    ShapePoint "{69281B28E11641B8}" {
-    Position 144.333 -29.284 -746.21
+    Position 14.872 -31.448 -754.932
    }
    ShapePoint "{69281B28FC962B79}" {
     Position -177.446 -26.988 -621.66
@@ -54,7 +57,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     m_defaultColor 0.502 0 0 1
    }
   }
-  coords 3170.235 27.591 2562.734
+  coords 3170.235 27.592 2562.734
   Points {
    ShapePoint "{69281B3204E482E2}" {
     Position -97.976 6.571 -332.027
@@ -96,7 +99,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position 506.375 -65.307 -454.308
    }
    ShapePoint "{69281B32247682EB}" {
-    Position 179.262 -26.591 -357.925
+    Position 178.293 -26.591 -362.384
    }
   }
   LineColor 1 0 0 0.7843

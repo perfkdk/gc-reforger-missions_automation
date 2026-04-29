@@ -44,8 +44,8 @@ $grp GameEntity : "{0E94F28FD722B1D8}Prefabs/Props/Military/Generators/Generator
     Enabled 0
    }
   }
-  coords 2738.416 77.469 1629.209
-  angles 0 -44.308 0
+  coords 2738.865 77.469 1628.482
+  angles 0 -47.748 0
  }
 }
 GenericEntity : "{6018EBB342F59401}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V4_covered.et" {

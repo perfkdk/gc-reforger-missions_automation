@@ -33,7 +33,7 @@ GenericEntity : "{F5B5DCF9D61A5A8C}PrefabsEditable/Auto/Props/Military/AmmoBoxes
      SlotTemplate InventoryStorageSlot item1 {
       Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
      }
-     NumSlots 100
+     NumSlots 120
     }
     MultiSlotConfiguration "{6929051B1CCA4AC5}" {
      SlotTemplate InventoryStorageSlot item2 {

@@ -20,7 +20,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "RUS_Timer_Win"
    m_instructions {
     TILW_SendMessageInstruction "{692970C0A61BF50B}" {
-     m_executionDelay 2700
+     m_executionDelay 3000
      m_messageTitle "Russian Victory!"
      m_messageBody "Russian forces have held central Beauregard for at least 40 minuets."
     }
@@ -69,10 +69,30 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "activateTP"
    m_instructions {
     TILW_SetFlagInstruction "{692970CA99EA23D2}" {
-     m_flagName "setupend"
+     m_executionDelay 1
+     m_flagName "setupstart"
     }
    }
    m_condition TILW_LiteralTerm "{692970CA95BD07AE}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{693969BB5A463251}" {
+   m_name "endTP"
+   m_instructions {
+    TILW_DeleteEntitiesInstruction "{693969BADE23D7DF}" {
+     m_executionDelay 330
+     m_entityNames {
+      "Tele_Farm"
+      "Tele_Lighthouse"
+      "Tele_Shore"
+      "Tele_Timber_North"
+      "Tele_Timber_South"
+      "Tele_FrontCent"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{693969BB35AACE48}" {
     m_invertTerm 1
    }
   }
