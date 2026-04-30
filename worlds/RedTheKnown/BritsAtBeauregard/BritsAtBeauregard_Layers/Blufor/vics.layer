@@ -239,7 +239,7 @@ $grp Vehicle : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
     }
    }
   }
-  coords 2733.765 77.469 1631.009
+  coords 2732.004 77.469 1632.914
   angles 0 -133.538 0
   m_sAttachmentGroupName "BAF_Plt_2_Sqd_2"
  }
@@ -361,8 +361,8 @@ $grp Vehicle : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
     }
    }
   }
-  coords 2730.825 77.467 1634.041
-  angles -0.613 -133.338 -0.652
+  coords 2729.137 77.491 1635.598
+  angles -0.622 -134.148 -0.643
   m_sAttachmentGroupName "BAF_Coy_HQ"
  }
  _Series_LWB_Transport_Camo9 {

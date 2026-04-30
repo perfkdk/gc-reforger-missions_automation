@@ -37,7 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "IV. Enemy Forces"
   m_sTextData "1x British motorized light infantry company of reduced strength. Currently located somewhere near the town of Arleville south of our position in Beauregard."\
   ""\
-  "Vehicles: 2x armed land rover (M2HB, GPMG), 2x armed land rover (2xGPMG), 7x unarmed land rovers."\
+  "Vehicles: 2x armed land rover (M2HB, GPMG), 2x armed land rover (2xGPMG), 8x unarmed land rovers."\
   ""\
   "Fire support: Local battery of 2x 81mm mortars."\
   ""
@@ -81,21 +81,28 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  F_ComSig_Opfor {
   coords 2924.611 62.92 1892.958
   m_sTitle "VI. Command & Signal"
-  m_sTextData "Company net: 42.0 Mhz"\
+  m_sTextData "Sec I. Radio Frequencies"\
+  ""\
+  "Company net: 42.0 Mhz"\
   "Company net alt: 42.2 Mhz"\
   "Backup net 1: 43.8 Mhz"\
   "Backup net 2: 40.1 Mhz"\
   ""\
+  "Sec II. Callsigns"\
+  ""\
   "Platoon Leader: HQ Actual"\
   "Platoon Sergeant: Deputy"\
+  ""\
   "Platoon HQ: 211 HQ"\
-  "Squad 1: 211"\
-  "Squad 2: 212"\
-  "Squad 3: 213"\
-  "Squad 4: 214"\
-  "NSV HMG Team: Archer"\
-  "Scout Team 1: Fox 1"\
-  "Scout Team 2: Fox 2"\
+  "	Squad 1: 211"\
+  "	Squad 2: 212"\
+  "	Squad 3: 213"\
+  "	Squad 4: 214"\
+  "	NSV HMG Team: Archer"\
+  "	Scout Team 1: Fox 1"\
+  "	Scout Team 2: Fox 2"\
+  ""\
+  "III. Challenge Phrases"\
   ""\
   "Challenge A:"\
   "	Call - Owl"\
