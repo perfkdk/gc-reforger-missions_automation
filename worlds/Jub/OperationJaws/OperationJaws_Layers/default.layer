@@ -224,7 +224,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
    m_condition TILW_LiteralTerm "{68C8235A821E87E9}" {
-    m_flagName "RU_CAP"
+    m_flagName "RU_CAP_2"
    }
   }
   TILW_MissionEvent "{65DAD44B18B1FFCF}" {

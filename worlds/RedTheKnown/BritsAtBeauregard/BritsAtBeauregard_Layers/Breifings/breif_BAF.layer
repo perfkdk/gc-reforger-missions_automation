@@ -23,7 +23,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Vehicles:"\
   "	4x PKM armed UAZ469,"\
-  "	6x unarmed open-top UAZ469,\"\"
+  "	6x unarmed open-top UAZ469,\"\""
   m_aVisibleForFactions {
    "UK"
   }
@@ -33,7 +33,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2932.577 62.319 1908.936
   m_sTitle "V. Vics and Equipment"
   m_sTextData "We have a number of vehicle at our staging area, these vehicle have already been loaded with additional ammunition and supplies."\
-  "	7x unarmed camo-net land rovers,"\
+  "	8x unarmed camo-net land rovers,"\
   "	2x recce camo-net land rovers armed with 1x M2HB and 1x GPMG,"\
   "	2x recce camo-net land rovers armed 2x GPMG."\
   ""\
@@ -66,17 +66,32 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  G_ComSig_UK {
   coords 2921.833 63.068 1891.761
   m_sTitle "VII. Command & Signal"
-  m_sTextData "Company net: 48.0 Mhz"\
+  m_sTextData "Sec I. Radio Frequencies"\
+  ""\
+  "Company net: 48.0 Mhz"\
   "11: Platoon net: 47.5 Mhz"\
   "12: Platoon net: 47.0 Mhz"\
   "Mortar Fires net: 48.2 Mhz"\
   "Backup net 1: 51.1 Mhz"\
   "Backup net 2: 46.6 Mhz"\
   ""\
+  "Sec II. Callsigns"\
+  ""\
   "CO: 1A"\
   "2IC: 1B"\
-  "Mortar Battery: Basher"\
   "Company Fire Controller: Jester"\
+  ""\
+  "Coy HQ: 1"\
+  "	Plt 1 HQ: 11"\
+  "		S1 P1: 11A"\
+  "		S2 P1: 11B"\
+  "	Plt 2 HQ: 12"\
+  "		S1 P2: 12A"\
+  "		S2 P2: 12B"\
+  "	GPMG Detachment: 13C"\
+  "	Mortar Battery: Basher"\
+  ""\
+  "III. Challenge Phrases"\
   ""\
   "Challenge A:"\
   "	Call - Oak"\

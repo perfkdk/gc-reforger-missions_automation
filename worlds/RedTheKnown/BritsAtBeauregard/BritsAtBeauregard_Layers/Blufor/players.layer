@@ -1,3 +1,64 @@
+Vehicle _Series_LWB_Transport_Camo5 : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport_Camo.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+   MultiSlots {
+    MultiSlotConfiguration "{648B4DF41C28F112}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{669132EE1B4D07C0}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{692C00BF1BAA2F50}" {
+     SlotTemplate InventoryStorageSlot HandFlareWhite {
+      Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{692C00BF1905EC12}" {
+     SlotTemplate InventoryStorageSlot HandFlareGreen {
+      Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{692C00BF196F157B}" {
+     SlotTemplate InventoryStorageSlot HandFlareRed {
+      Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{692C00BCD8BB632C}" {
+     SlotTemplate LoadoutSlotInfo L85Ammo {
+      Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+     }
+     NumSlots 7
+    }
+    MultiSlotConfiguration "{692C00BCAC160CB2}" {
+     SlotTemplate InventoryStorageSlot GPMGBoxs {
+      Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{692C00BC527D8ACB}" {
+     SlotTemplate InventoryStorageSlot HandGrenade {
+      Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{692C00BC53B3850F}" {
+     SlotTemplate InventoryStorageSlot SmokeGrenade {
+      Prefab "{664048FA6BCACF5B}Prefabs/Weapons/Grenades/Grenade_WP_Base.et"
+     }
+     NumSlots 4
+    }
+   }
+   m_aSlotsToShow {
+   }
+  }
+ }
+ coords 2734.691 77.469 1629.957
+ angles 0 -133.538 0
+ m_sAttachmentGroupName "BAF_Coy_Weps"
+}
 $grp SCR_AIGroup : "{305C4B4F028B7994}Prefabs/Groups/BLUFOR/British Forces/1989/P/Light Infantry/Group_UK_1989_REG_RiflePHQ_P.et" {
  BAF_Plt_1_HQ {
   components {
@@ -42,12 +103,6 @@ $grp SCR_AIGroup : "{305C4B4F028B7994}Prefabs/Groups/BLUFOR/British Forces/1989/
   }
   coords 2686.49 77.191 1644.262
   angles 0 110.612 0
-  m_aUnitPrefabSlots {
-   "{53973AC86DE14614}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_PlatoonLeader_P.et"
-   "{EF8064CC488769E5}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_Sergeant_P.et"
-   "{0F81F9CFE36BC371}worlds/RedTheKnown/BritsAtBeauregard/Prefabs/BritUnits/Custom_Addmed_UK_1989_Regulars_Medic_P.et"
-   "{1EA191A52F0A6C09}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_RTO_P.et"
-  }
  }
 }
 SCR_AIGroup BAF_Coy_HQ : "{4C7CAA5A6192809F}Prefabs/Groups/BLUFOR/British Forces/1989/P/Light Infantry/Group_UK_1989_REG_RifleCoyHQ_P.et" {
@@ -114,8 +169,8 @@ SCR_AIGroup BAF_Coy_Weps : "{6EF8B3CEC83E4999}Prefabs/Groups/BLUFOR/British Forc
    m_iSquadCallsign 3
   }
  }
- coords 2676.56 77.583 1636.904
- angles 0 111.512 0
+ coords 2679.743 77.583 1635.851
+ angles 0 107.473 0
  m_aUnitPrefabSlots {
   "{14297AE2CB7BC202}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_SectionCommander_P.et"
   "{4755583337EF5985}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_GPMG_No1_P.et"
@@ -123,5 +178,4 @@ SCR_AIGroup BAF_Coy_Weps : "{6EF8B3CEC83E4999}Prefabs/Groups/BLUFOR/British Forc
   "{4755583337EF5985}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_GPMG_No1_P.et"
   "{38F1F906A4661D16}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/Light Infantry/P/Character_UK_1989_Regulars_AMG_P.et"
  }
- m_sCustomNameSet "Reduced GPMG Detatchment"
 }
