@@ -43,20 +43,6 @@ $grp Tank : "{3C3ADBCCDA1D877B}Prefabs/Vehicles/Tracked/M1A1/M1A1_Tan.et" {
   m_sAttachmentGroupName "Tanks"
  }
 }
-Vehicle SR5_Armed_DShK_Blue1 : "{3E261B61E07D737D}Prefabs/Vehicles/Wheeled/SR5/Armed/DShK/SR5_Armed_DShK_Blue.et" {
- coords 2733.005 144.843 8672.852
- angles 0 88.023 0
-}
-$grp Vehicle : "{5DEE8EB6A3BEB636}Prefabs/Vehicles/Wheeled/SR5/Armed/SPG9/SR5_Armed_SPG9_Randomized.et" {
- SR5_Armed_SPG9_Randomized1 {
-  coords 2732.318 144.763 8675.357
-  angles 0 89.575 0
- }
- SR5_Armed_SPG9_Randomized2 {
-  coords 2740.925 144.928 8671.455
-  angles 0 -81.055 0
- }
-}
 Vehicle _Series_LWB_GPMG_Variant_2 : "{74AFD46A97E09CB1}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_GPMG_Variant_3.et" {
  coords 2732.449 144.879 8662.047
  angles 0 77.461 0
@@ -142,10 +128,6 @@ Vehicle _Series_SWB_Transport1 : "{EDEAE951AFF2A836}Prefabs/Vehicles/Wheeled/LR_
 Vehicle Ural4320_VIED1 : "{F1C4671BE197E28B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_VIED.et" {
  coords 2739.573 145.161 8687.728
  angles 0 -62.145 0
-}
-Vehicle SR5_Armed_DShK_Beige1 : "{F20416A25B1F8E53}Prefabs/Vehicles/Wheeled/SR5/Armed/DShK/SR5_Armed_DShK_Beige.et" {
- coords 2733.047 144.852 8669.811
- angles 0 88.13 0
 }
 $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et" {
  motorbike1 {
