@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{914E97296185B9D3}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/INSURGENT_HWT_Crew_P.et"
+ Name "{FCD67A171745D135}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Custom_INSURGENT_MG_Assistant.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
