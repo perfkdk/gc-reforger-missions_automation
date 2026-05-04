@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C5B46AE081180AA0}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_Marksmans_P.et"
+ Name "{BC8626DD5CDAF3C4}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/NSV_GunCarrier.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

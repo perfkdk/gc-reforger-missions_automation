@@ -104,10 +104,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{8DBD797578EEC48D}Prefabs/Rocks/De
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{905AA887D4CB67CC}Prefabs/Rocks/Desert/DesertRock_01.et" {
  {
-  coords 4403.204 366.999 778.299
-  angles 0 75.146 0
- }
- {
   coords 4322.263 383.082 950.571
   angles 0 35.65 0
  }

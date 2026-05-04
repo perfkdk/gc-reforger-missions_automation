@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{42EB067D53E2C37D}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_PKM_Assist_P.et"
+ Name "{D7043C153E5113B9}worlds/RedTheKnown/ChakChakChosen/Prefabs/RebUnits/Custom_INSURGENT_AT_Assistant.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
