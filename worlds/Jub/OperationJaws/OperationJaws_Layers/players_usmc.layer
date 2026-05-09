@@ -25,11 +25,11 @@ $grp SCR_AIGroup : "{6574C561CBC719CF}Prefabs/Groups/BLUFOR/US/Marines/2009/Mari
   angles 0 -105.401 0
   m_aUnitPrefabSlots {
    "{A79C33B3A933A2E9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_CrewCO_D.et"
-   "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Crew_D.et"
-   "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Crew_D.et"
+   "{E9050156C3B0C34C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_CrewGunner_D.et"
+   "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_CrewDriver_D.et"
    "{A79C33B3A933A2E9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_CrewCO_D.et"
-   "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Crew_D.et"
-   "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Crew_D.et"
+   "{E9050156C3B0C34C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_CrewGunner_D.et"
+   "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_CrewDriver_D.et"
   }
   m_bPlayable 1
   m_sCustomNameSet "Tank Section"

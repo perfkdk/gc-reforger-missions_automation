@@ -22,6 +22,7 @@ GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flag
 GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
  components {
   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+   Enabled 0
    additionalActions {
     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
      ActionTitle "Teleport -> Insert 1 (ONE)"
@@ -69,6 +70,12 @@ GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInter
      }
     }
    }
+  }
+  RplComponent "{62EF76E0D47ED97D}" {
+   Enabled 0
+  }
+  Hierarchy "{62EF76E0D47ED97F}" {
+   Enabled 0
   }
  }
  coords 2724.678 146.715 8686.552
