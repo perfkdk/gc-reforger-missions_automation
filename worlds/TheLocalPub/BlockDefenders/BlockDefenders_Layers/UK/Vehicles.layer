@@ -1,0 +1,38 @@
+$grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport_Variant_3.et" {
+ _Series_LWB_Transport_Variant_1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3989.383 17.844 4532.993
+  angles 0 43.542 0
+ }
+ _Series_LWB_Transport_Variant_2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3987.412 17.844 4527.703
+  angles 0 44.764 0
+ }
+}
+Vehicle M997_maxi_ambulance_GulfWar_RAS1 : "{B8FABCF57C97ECF8}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_GulfWar_RAS.et" {
+ coords 3990.992 17.844 4538.957
+ angles 0 43.965 0
+}

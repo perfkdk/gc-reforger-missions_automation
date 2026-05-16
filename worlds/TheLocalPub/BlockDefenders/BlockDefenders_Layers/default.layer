@@ -1,0 +1,26 @@
+SCR_AIWorld : "{0946C019EBADE117}Prefabs/AI/SCR_AIworld_AL_Hadra.et" {
+ coords 1332.746 72.671 7623.351
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1543.096 18.88 7451.372
+}
+PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ coords 1722.693 39.522 7664.693
+ m_iFreezeTime 300000
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{695D25518127A184}" {
+   m_sFactionKey "UK"
+   m_iCount 20
+   m_bWaveMode 1
+  }
+  PS_FactionRespawnCount "{695D2551FF4127D6}" {
+   m_sFactionKey "3"
+  }
+ }
+ m_eJIPState Deny
+ m_fPrepDuration 240
+ m_fPrepMultiplier 2.1
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 1244.203 114.255 7677.897
+}
