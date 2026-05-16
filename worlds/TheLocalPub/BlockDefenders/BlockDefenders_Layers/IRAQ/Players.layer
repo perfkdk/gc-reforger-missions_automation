@@ -20,18 +20,18 @@ SCR_AIGroup IRAQ_MGT : "{874A9874220A640C}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Stan
    m_iSquadCallsign 3
   }
  }
- coords 4433.08 19.684 5029.583
- angles 0 -135 0
+ coords 4433.706 19.684 5028.91
+ angles 0 -133.659 0
  m_sCustomNameSet "MG Team"
  m_bSetPlayable 1
 }
-SCR_AIGroup IRAQ_ATGroup : "{936293AB24844C2C}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_ATGroup.et" {
+SCR_AIGroup IRAQ_ATGroup1 : "{936293AB24844C2C}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_ATGroup.et" {
  components {
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1
    m_iCompanyCallsign 2
    m_iPlatoonCallsign 4
-   m_iSquadCallsign 6
+   m_iSquadCallsign 4
   }
  }
  coords 4427.528 19.684 5035.128
@@ -66,17 +66,4 @@ $grp SCR_AIGroup : "{AF540CE6219CCC3B}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard
   angles 0 -42.418 0
   m_bSetPlayable 1
  }
-}
-SCR_AIGroup IRAQ_VC : "{DBA7B8EAC547EE82}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_Crewmen.et" {
- components {
-  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
-   Enabled 1
-   m_iCompanyCallsign 2
-   m_iPlatoonCallsign 4
-   m_iSquadCallsign 5
-  }
- }
- coords 4433.096 17.844 5036.099
- angles 0 -133.572 0
- m_bSetPlayable 1
 }

@@ -10,7 +10,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{695D25518127A184}" {
    m_sFactionKey "UK"
-   m_iCount 20
+   m_iCount 25
    m_bWaveMode 1
   }
   PS_FactionRespawnCount "{695D2551FF4127D6}" {
@@ -23,4 +23,16 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 1244.203 114.255 7677.897
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6960BA6BF264D9A7}" {
+   m_flagName "UKDead"
+   m_factionKey "UK"
+   m_casualtyRatio 0.75
+  }
+  TILW_FactionPlayersKilledFlag "{6960BA686AFB8488}" {
+   m_flagName "IRAQDead"
+   m_factionKey "GC_IRAQ"
+   m_casualtyRatio 0.5
+  }
+ }
 }

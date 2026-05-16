@@ -4,10 +4,33 @@ $grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
    SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
     MultiSlots {
      MultiSlotConfiguration "{648B4DF41C28F112}" {
-      NumSlots 0
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 10
      }
      MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      SlotTemplate InventoryStorageSlot "{669132EE1373BC8D}" {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
       NumSlots 0
+     }
+     MultiSlotConfiguration "{5E86A8C9C339E7A1}" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 201
+     }
+     MultiSlotConfiguration "{5EB0D397D958C6E8}" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{69611B1016E75D95}" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{65DEE4A3BAAD1B1E}Prefabs/Weapons/Launchers/LAW80/Launcher_LAW80_base.et"
+      }
      }
     }
    }
@@ -20,10 +43,34 @@ $grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
    SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
     MultiSlots {
      MultiSlotConfiguration "{648B4DF41C28F112}" {
-      NumSlots 0
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 10
      }
      MultiSlotConfiguration "{669132EE1B4D07C0}" {
+      SlotTemplate InventoryStorageSlot "{669132EE1373BC8D}" {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
       NumSlots 0
+     }
+     MultiSlotConfiguration "{5E86A8C9C339E7A1}" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      }
+      NumSlots 201
+     }
+     MultiSlotConfiguration "{5EB0D397D958C6E8}" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{69611B10790020FE}" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{D22DF40D07DA4615}Prefabs/Weapons/Magazines/Box_762x51_GPMG_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
      }
     }
    }
@@ -33,6 +80,66 @@ $grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
  }
 }
 Vehicle M997_maxi_ambulance_GulfWar_RAS1 : "{B8FABCF57C97ECF8}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_GulfWar_RAS.et" {
+ components {
+  SCR_ResourceComponent "{5D8356123028E721}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{69611B106C93D091}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{69611B105CD5DB01}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{69611B1057C2929B}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{D0434D5215B54181}Prefabs/Items/Medicine/MetoprololInjection/ACE_Medical_MetoprololInjection.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{69611B1054C46D6E}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{02DD34077F51F65E}Prefabs/Items/Medicine/NaloxoneInjection/ACE_Medical_NaloxoneInjection.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{69611B1055B18E77}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{69611B10BF2D28B0}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{69611B10B6AF828F}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{69611B109E4D5E2F}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 15
+    }
+   }
+  }
+ }
  coords 3990.992 17.844 4538.957
  angles 0 43.965 0
 }
