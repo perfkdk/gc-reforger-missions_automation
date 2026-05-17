@@ -120,6 +120,8 @@ SCR_AIGroup PltHQ : "{DE58221F44A01B5A}Prefabs/Groups/BLUFOR/US/Army/2003/Infant
  components {
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
   }
  }
  coords 10189.275 174.381 10639.848
