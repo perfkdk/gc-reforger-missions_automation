@@ -6,7 +6,7 @@ $grp SCR_AIGroup : "{23A62B4E23904C7F}Prefabs/Groups/BLUFOR/British Forces/1991 
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
-    m_iCompanyCallsign 4
+    m_iCompanyCallsign 3
     m_iPlatoonCallsign 1
     m_iSquadCallsign 4
    }
@@ -23,7 +23,7 @@ $grp SCR_AIGroup : "{23A62B4E23904C7F}Prefabs/Groups/BLUFOR/British Forces/1991 
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
-    m_iCompanyCallsign 4
+    m_iCompanyCallsign 3
     m_iPlatoonCallsign 1
     m_iSquadCallsign 5
    }
@@ -40,7 +40,7 @@ $grp SCR_AIGroup : "{23A62B4E23904C7F}Prefabs/Groups/BLUFOR/British Forces/1991 
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
-    m_iCompanyCallsign 4
+    m_iCompanyCallsign 3
     m_iPlatoonCallsign 1
     m_iSquadCallsign 7
    }
@@ -67,7 +67,7 @@ $grp SCR_AIGroup : "{23A62B4E23904C7F}Prefabs/Groups/BLUFOR/British Forces/1991 
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
-    m_iCompanyCallsign 4
+    m_iCompanyCallsign 3
     m_iPlatoonCallsign 1
     m_iSquadCallsign 3
    }
@@ -84,7 +84,7 @@ $grp SCR_AIGroup : "{23A62B4E23904C7F}Prefabs/Groups/BLUFOR/British Forces/1991 
    }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
-    m_iCompanyCallsign 4
+    m_iCompanyCallsign 3
     m_iPlatoonCallsign 1
     m_iSquadCallsign 6
    }
@@ -102,11 +102,11 @@ SCR_AIGroup UK_PHQ1 : "{69957A3545E20D7C}Prefabs/Groups/BLUFOR/British Forces/19
   }
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1
-   m_iCompanyCallsign 4
+   m_iCompanyCallsign 3
    m_iPlatoonCallsign 1
   }
  }
- coords 3994.405 17.844 4540.911
+ coords 3996.968 17.844 4543.246
  angles 0 47.663 0
  m_aUnitPrefabSlots {
   "{B91DD30212CF242F}Prefabs/Characters/Factions/BLUFOR/UK_Army/1991 (Desert)/Fusiliers/Character_UK_1991_Regulars_Desert_PlatoonLeader_P.et"

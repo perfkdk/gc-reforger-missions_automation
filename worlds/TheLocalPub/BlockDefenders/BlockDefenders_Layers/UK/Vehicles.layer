@@ -7,7 +7,7 @@ $grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
       SlotTemplate InventoryStorageSlot Bandages {
        Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
       }
-      NumSlots 10
+      NumSlots 15
      }
      MultiSlotConfiguration "{669132EE1B4D07C0}" {
       SlotTemplate InventoryStorageSlot "{669132EE1373BC8D}" {
@@ -19,7 +19,7 @@ $grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
       SlotTemplate InventoryStorageSlot Jerrycan {
        Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
       }
-      NumSlots 201
+      NumSlots 15
      }
      MultiSlotConfiguration "{5EB0D397D958C6E8}" {
       SlotTemplate InventoryStorageSlot Jerrycan {
@@ -32,11 +32,17 @@ $grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
        Prefab "{65DEE4A3BAAD1B1E}Prefabs/Weapons/Launchers/LAW80/Launcher_LAW80_base.et"
       }
      }
+     MultiSlotConfiguration "{69627B70EC15616D}" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 2
+     }
     }
    }
   }
-  coords 3989.383 17.844 4532.993
-  angles 0 43.542 0
+  coords 3991.819 17.844 4535.582
+  angles 0 43.977 0
  }
  _Series_LWB_Transport_Variant_2 {
   components {
@@ -46,7 +52,7 @@ $grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
       SlotTemplate InventoryStorageSlot Bandages {
        Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
       }
-      NumSlots 10
+      NumSlots 15
      }
      MultiSlotConfiguration "{669132EE1B4D07C0}" {
       SlotTemplate InventoryStorageSlot "{669132EE1373BC8D}" {
@@ -58,7 +64,7 @@ $grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
       SlotTemplate InventoryStorageSlot Jerrycan {
        Prefab "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
       }
-      NumSlots 201
+      NumSlots 15
      }
      MultiSlotConfiguration "{5EB0D397D958C6E8}" {
       SlotTemplate InventoryStorageSlot Jerrycan {
@@ -72,14 +78,20 @@ $grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
       }
       NumSlots 5
      }
+     MultiSlotConfiguration "{69627B70EC15616D}" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 2
+     }
     }
    }
   }
-  coords 3987.412 17.844 4527.703
-  angles 0 44.764 0
+  coords 3989.808 17.844 4530.307
+  angles 0 45.199 0
  }
 }
-Vehicle M997_maxi_ambulance_GulfWar_RAS1 : "{B8FABCF57C97ECF8}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_GulfWar_RAS.et" {
+Vehicle M997_maxi_ambulance_UK1 : "{671AA29846EC7406}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_UK.et" {
  components {
   SCR_ResourceComponent "{5D8356123028E721}" {
    Enabled 0
@@ -89,57 +101,55 @@ Vehicle M997_maxi_ambulance_GulfWar_RAS1 : "{B8FABCF57C97ECF8}Prefabs/Vehicles/W
     MultiSlotConfiguration "{5A60CECB549327C1}" {
      NumSlots 20
     }
-    MultiSlotConfiguration "{69611B106C93D091}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
-     }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{69611B105CD5DB01}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+    MultiSlotConfiguration "{69627B5A8F85F783}" {
+     SlotTemplate EquipmentStorageSlot saline {
+      Prefab "{57A7222BCD92A59E}Prefabs/Items/Medicine/SalineBag_01/SalineBag_UK_01.et"
      }
      NumSlots 15
     }
-    MultiSlotConfiguration "{69611B1057C2929B}" {
-     SlotTemplate InventoryStorageSlot Bandages {
+    MultiSlotConfiguration "{69627B5A8FDC35D4}" {
+     SlotTemplate EquipmentStorageSlot TQ {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{69627B5A8F20DC30}" {
+     SlotTemplate EquipmentStorageSlot epi {
+      Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+     }
+    }
+    MultiSlotConfiguration "{69627B5A8F05B7E9}" {
+     SlotTemplate EquipmentStorageSlot morphine {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    MultiSlotConfiguration "{69627B5A8CBDE426}" {
+     SlotTemplate EquipmentStorageSlot med1 {
+      Prefab "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{69627B593E856F0B}" {
+     SlotTemplate EquipmentStorageSlot med1 {
       Prefab "{D0434D5215B54181}Prefabs/Items/Medicine/MetoprololInjection/ACE_Medical_MetoprololInjection.et"
      }
      NumSlots 15
     }
-    MultiSlotConfiguration "{69611B1054C46D6E}" {
-     SlotTemplate InventoryStorageSlot Bandages {
+    MultiSlotConfiguration "{69627B59313DC82D}" {
+     SlotTemplate EquipmentStorageSlot med1 {
       Prefab "{02DD34077F51F65E}Prefabs/Items/Medicine/NaloxoneInjection/ACE_Medical_NaloxoneInjection.et"
      }
      NumSlots 15
     }
-    MultiSlotConfiguration "{69611B1055B18E77}" {
-     SlotTemplate InventoryStorageSlot Bandages {
+    MultiSlotConfiguration "{69627B592EF514B4}" {
+     SlotTemplate EquipmentStorageSlot med1 {
       Prefab "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
-     }
-     NumSlots 15
-    }
-    MultiSlotConfiguration "{69611B10BF2D28B0}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
-     NumSlots 15
-    }
-    MultiSlotConfiguration "{69611B10B6AF828F}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
-     }
-     NumSlots 15
-    }
-    MultiSlotConfiguration "{69611B109E4D5E2F}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
      }
      NumSlots 15
     }
    }
   }
  }
- coords 3990.992 17.844 4538.957
- angles 0 43.965 0
+ coords 3993.915 17.844 4541.761
+ angles 0 44.419 0
 }

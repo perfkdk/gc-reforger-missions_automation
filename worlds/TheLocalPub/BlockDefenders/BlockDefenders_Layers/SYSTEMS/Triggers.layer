@@ -65,30 +65,13 @@ PolylineShapeEntity ExtractArea2 {
  IsClosed 1
  LineColor 1 0 0 1
  {
-  TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
-   coords 4032.751 -156.534 1639.407
-   m_sendStatusMessages 1
-   m_statusMessages {
-    "The %1 have reached the highway!"
-    ""
-    ""
-    ""
-    ""
-    ""
-   }
-   m_locationName ""
-   m_flagName "Extracted"
-   m_stopAfterFirstChange 1
-   m_factionKey "UK"
-   m_ratioThreshold 0.2
-  }
   TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
    coords 0 0 0
    m_captureTime 60
    m_sendStatusMessages 1
    m_statusMessages {
     "The %1 has taken control of the highway."
-    "The %1 are at the highway and attempting to secure it now!"
+    "The %1 are at the highway and attempting to occupy it now!"
     ""
     ""
     ""

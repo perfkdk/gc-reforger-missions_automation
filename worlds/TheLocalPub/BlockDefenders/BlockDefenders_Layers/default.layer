@@ -5,13 +5,28 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 1543.096 18.88 7451.372
 }
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{69627B588B217D23}" {
+     m_sWeatherPresetName "Clear"
+    }
+   }
+   m_bDateOverride 1
+   m_iDay 5
+   m_iYear 1991
+  }
+ }
  coords 1722.693 39.522 7664.693
  m_iFreezeTime 300000
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{695D25518127A184}" {
    m_sFactionKey "UK"
    m_iCount 25
+   m_iTime 60
    m_bWaveMode 1
+   m_sPosition "FlagpoleSpawn"
   }
   PS_FactionRespawnCount "{695D2551FF4127D6}" {
    m_sFactionKey "3"
@@ -23,6 +38,135 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 1244.203 114.255 7677.897
+ m_missionEvents {
+  TILW_MissionEvent "{69627B7DB397AA8B}" {
+   m_name "TimelimitReached1"
+   m_instructions {
+    TILW_SendMessageInstruction "{69627B7D9D8CF468}" {
+     m_executionDelay 2400
+     m_messageTitle "Iraqi forces arriving soon!"
+     m_messageBody "The formation has been spotted 2km away. They'll be here in roughly 5mins."
+     m_factionKeys {
+      "UK"
+     }
+    }
+    TILW_SendMessageInstruction "{69627B7C05B4333C}" {
+     m_executionDelay 2700
+     m_messageTitle "The formation has arrived! - IRAQI VICTORY"
+     m_messageBody "The Iraqi formation is passing along the highway."\
+     "We're to late, we can't stop them now."\
+     ""\
+     "Good effort everyone."\
+     "Mission will conclude shortly..."
+     m_factionKeys {
+      "UK"
+     }
+    }
+    TILW_SendMessageInstruction "{69627B7DD9B6E485}" {
+     m_executionDelay 2400
+     m_messageTitle "Iraqi forces arriving soon!"
+     m_messageBody "The formation has said they'll be arriving in roughly 5mins."
+     m_factionKeys {
+      "GC_IRAQ"
+     }
+    }
+    TILW_SendMessageInstruction "{69627B7C39A838A3}" {
+     m_executionDelay 2700
+     m_messageTitle "The formation has arrived! - IRAQI VICTORY"
+     m_messageBody "They are passing along the highway now."\
+     ""\
+     "Good effort everyone."\
+     "Mission will conclude shortly..."
+     m_factionKeys {
+      "GC_IRAQ"
+     }
+    }
+    TILW_SetFlagInstruction "{6962D413C12CD68B}" {
+     m_executionDelay 2670
+     m_flagName "SpawnQRF"
+    }
+   }
+   m_condition TILW_LiteralTerm "{69627B7DAB213ECA}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{69627B7A79BE64CE}" {
+   m_name "IRAQKillWin"
+   m_instructions {
+    TILW_DeactivateEventsInstruction "{69627B7A79BE6565}" {
+     m_executionDelay 1
+     m_eventNames {
+      "UKKillWin"
+      "TimeLimitReached1"
+      "UKCaptureWin"
+     }
+    }
+    TILW_SendMessageInstruction "{69627B7A79BE6562}" {
+     m_messageTitle "IRAQI VICTORY!"
+     m_messageBody "Iraqi forces have successfully repelled the British assault. "\
+     "British elements have withdrawn, allowing the Iraqi formation to proceed along the highway unimpeded. "\
+     ""\
+     "Good effort."\
+     "Mission will conclude shortly…"
+    }
+    TILW_DeleteEntitiesInstruction "{6962D412107BDD10}" {
+     m_executionDelay 1
+     m_entityNames {
+      "ExtractArea2"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{69627B7A79BE6560}" {
+    m_flagName "UKDead"
+   }
+  }
+  TILW_MissionEvent "{69627B7B262673A9}" {
+   m_name "UKCaptureWin"
+   m_instructions {
+    TILW_DeactivateEventsInstruction "{69627B7B54DCF223}" {
+     m_executionDelay 1
+     m_eventNames {
+      "UKKillWin"
+      "TimeLimitReached1"
+     }
+    }
+    TILW_SendMessageInstruction "{69627B7A2C751506}" {
+     m_messageTitle "BRITISH VICTORY!"
+     m_messageBody "British forces have successfully occupied the highway. "\
+     "This will significantly disrupt the movement of the approaching Iraqi formation. "\
+     ""\
+     "Good effort."\
+     "Mission will conclude shortly…"
+    }
+   }
+   m_condition TILW_LiteralTerm "{69627B7B5D13E185}" {
+    m_flagName "Captured"
+   }
+  }
+  TILW_MissionEvent "{69627B7BA947246B}" {
+   m_name "UKKillWin"
+   m_instructions {
+    TILW_DeactivateEventsInstruction "{69627B7BA947243A}" {
+     m_executionDelay 1
+     m_eventNames {
+      "UKCaptureWin"
+      "TimeLimitReached1"
+     }
+    }
+    TILW_SendMessageInstruction "{69627B7B8E776A85}" {
+     m_messageTitle "BRITISH VICTORY!"
+     m_messageBody "British forces have successfully destroyed the Iraqi delaying forces."\
+     "This now allows the occupation of the highway to proceed as planned.  "\
+     ""\
+     "Good effort."\
+     "Mission will conclude shortly…"
+    }
+   }
+   m_condition TILW_LiteralTerm "{69627B7BA9472407}" {
+    m_flagName "IRAQDead"
+   }
+  }
+ }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{6960BA6BF264D9A7}" {
    m_flagName "UKDead"
@@ -32,7 +176,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionPlayersKilledFlag "{6960BA686AFB8488}" {
    m_flagName "IRAQDead"
    m_factionKey "GC_IRAQ"
-   m_casualtyRatio 0.5
+   m_casualtyRatio 0.95
   }
  }
 }
