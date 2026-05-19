@@ -452,18 +452,6 @@ GenericEntity : "{746CDD62C52CD87D}Prefabs/Props/Civilian/BenchStreet/StreetBenc
  coords 4222.951 17.89 4890.332
  angles 0 -40.323 24.57
 }
-Vehicle UAZ469_covered_CIV_base1 : "{7524FB186D534ACA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_base.et" {
- components {
-  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-   m_bIsLocked 1
-   m_lockPilot 1
-   m_lockTurret 1
-   m_lockCargo 1
-  }
- }
- coords 4186.529 17.844 4569.926
- angles 0 38.816 0
-}
 GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.et" {
  coords 4223.494 18.31 4897.283
  angles 90 0 -64.028

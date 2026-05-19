@@ -1,3 +1,7 @@
+Vehicle M997_maxi_ambulance_UK_BlockDefenders1 : "{01A5CEFC74D743AD}worlds/TheLocalPub/BlockDefenders/Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_UK_BlockDefenders.et" {
+ coords 3993.948 18.047 4542.061
+ angles 0 46.451 0
+}
 $grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport_Variant_3.et" {
  _Series_LWB_Transport_Variant_1 {
   components {
@@ -90,66 +94,4 @@ $grp Vehicle : "{184706A56EC2BC7D}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   coords 3989.808 17.844 4530.307
   angles 0 45.199 0
  }
-}
-Vehicle M997_maxi_ambulance_UK1 : "{671AA29846EC7406}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_UK.et" {
- components {
-  SCR_ResourceComponent "{5D8356123028E721}" {
-   Enabled 0
-  }
-  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-   MultiSlots {
-    MultiSlotConfiguration "{5A60CECB549327C1}" {
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{69627B5A8F85F783}" {
-     SlotTemplate EquipmentStorageSlot saline {
-      Prefab "{57A7222BCD92A59E}Prefabs/Items/Medicine/SalineBag_01/SalineBag_UK_01.et"
-     }
-     NumSlots 15
-    }
-    MultiSlotConfiguration "{69627B5A8FDC35D4}" {
-     SlotTemplate EquipmentStorageSlot TQ {
-      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{69627B5A8F20DC30}" {
-     SlotTemplate EquipmentStorageSlot epi {
-      Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
-     }
-    }
-    MultiSlotConfiguration "{69627B5A8F05B7E9}" {
-     SlotTemplate EquipmentStorageSlot morphine {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
-     }
-    }
-    MultiSlotConfiguration "{69627B5A8CBDE426}" {
-     SlotTemplate EquipmentStorageSlot med1 {
-      Prefab "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
-     }
-     NumSlots 15
-    }
-    MultiSlotConfiguration "{69627B593E856F0B}" {
-     SlotTemplate EquipmentStorageSlot med1 {
-      Prefab "{D0434D5215B54181}Prefabs/Items/Medicine/MetoprololInjection/ACE_Medical_MetoprololInjection.et"
-     }
-     NumSlots 15
-    }
-    MultiSlotConfiguration "{69627B59313DC82D}" {
-     SlotTemplate EquipmentStorageSlot med1 {
-      Prefab "{02DD34077F51F65E}Prefabs/Items/Medicine/NaloxoneInjection/ACE_Medical_NaloxoneInjection.et"
-     }
-     NumSlots 15
-    }
-    MultiSlotConfiguration "{69627B592EF514B4}" {
-     SlotTemplate EquipmentStorageSlot med1 {
-      Prefab "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
-     }
-     NumSlots 15
-    }
-   }
-  }
- }
- coords 3993.915 17.844 4541.761
- angles 0 44.419 0
 }

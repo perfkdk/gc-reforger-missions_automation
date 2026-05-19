@@ -36,7 +36,6 @@ SCR_AIGroup IRAQ_ATGroup1 : "{936293AB24844C2C}Prefabs/Groups/OPFOR/GC_IRAQ/2000
  }
  coords 4427.528 19.684 5035.128
  angles 0 -135 0
- m_bPlayable 1
  m_bSetPlayable 1
 }
 $grp SCR_AIGroup : "{AF540CE6219CCC3B}Prefabs/Groups/OPFOR/GC_IRAQ/2000/Standard dress/Group_IRAQ_2000_RifleSquad.et" {
