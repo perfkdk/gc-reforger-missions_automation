@@ -18,7 +18,7 @@ Vehicle : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.e
      SlotTemplate InventoryStorageSlot Bandages {
       Prefab "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et"
      }
-     NumSlots 15
+     NumSlots 20
     }
     MultiSlotConfiguration "{6966A7C684E521A6}" {
      SlotTemplate EquipmentStorageSlot saline {
@@ -65,12 +65,6 @@ Vehicle : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.e
     MultiSlotConfiguration "{6966A7C6FA7AF320}" {
      SlotTemplate EquipmentStorageSlot med1 {
       Prefab "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
-     }
-     NumSlots 15
-    }
-    MultiSlotConfiguration "{6966A7C6FBBD986B}" {
-     SlotTemplate EquipmentStorageSlot med1 {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
      NumSlots 15
     }
