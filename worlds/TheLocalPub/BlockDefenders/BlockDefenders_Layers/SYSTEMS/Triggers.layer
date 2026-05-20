@@ -14,7 +14,7 @@ PolylineShapeEntity ExtractArea2 {
    Streamable Disabled
   }
  }
- coords 4345.184 25.912 5109.274
+ coords 415.391 174.378 3470.221
  Points {
   ShapePoint "{6960BA61741E5B3E}" {
    Position 4124.357 -156.534 1431.061

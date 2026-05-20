@@ -309,7 +309,7 @@ GenericEntity : "{44E825CA91FB719B}Prefabs/Props/Ruins/BedDouble_02_ruined/BedDo
  coords 4224.695 17.995 4888.91
  angles 8.068 12.311 -9.325
 }
-Vehicle Ural1 : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
  components {
   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
    m_bIsLocked 1
@@ -894,7 +894,8 @@ GenericEntity : "{F6981BC58E2B46C5}Prefabs/Compositions/Misc/SubCompositions/Dec
  coords 4242.05 18.709 4893.363
 }
 GenericEntity : "{FA8AAF819FBC2DFD}Prefabs/Structures/Wreck/sedan.et" {
- coords 4539.715 17.841 4970.408
+ coords 4518.877 17.841 4951.135
+ angles 0 -8.51 0
 }
 SCR_DestructibleEntity : "{FE43934149F46BFC}Prefabs/Props/Industrial/CompressorTrailerWreck_01/CompressorTrailerWreck_01_Yellow.et" {
  coords 4410.09 17.844 4914.486

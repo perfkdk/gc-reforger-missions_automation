@@ -110,10 +110,10 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position 2913.518 -15.233 -3052.207
    }
    ShapePoint "{695F0EFEF908FD06}" {
-    Position 2936.537 -15.233 -3031.282
+    Position 2938.347 -15.233 -3033.035
    }
    ShapePoint "{695F0EFEF98C96DC}" {
-    Position 2935.698 -15.233 -3030.329
+    Position 2935.848 -15.233 -3030.195
    }
    ShapePoint "{695F0EFEFA5658EA}" {
     Position 2943.011 -15.233 -3023.805
@@ -369,10 +369,10 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
     Position 2913.518 -15.233 -3052.207
    }
    ShapePoint "{695F0EFEF908FD06}" {
-    Position 2936.537 -15.233 -3031.282
+    Position 2938.332 -15.233 -3033.03
    }
    ShapePoint "{695F0EFEF98C96DC}" {
-    Position 2935.698 -15.233 -3030.329
+    Position 2935.84 -15.233 -3030.203
    }
    ShapePoint "{695F0EFEFA5658EA}" {
     Position 2943.011 -15.233 -3023.805

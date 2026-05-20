@@ -10,25 +10,31 @@ GenericEntity EquipmentCrate : "{A9989C248817C11E}Prefabs/Props/Military/AmmoBox
      SlotTemplate EquipmentStorageSlot AKMAG {
       Prefab "{E039E897BD5A339E}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Ball.et"
      }
-     NumSlots 15
+     NumSlots 35
     }
     MultiSlotConfiguration "{69627B701D743054}" {
      SlotTemplate EquipmentStorageSlot AKMAG {
       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
      }
-     NumSlots 15
+     NumSlots 21
     }
     MultiSlotConfiguration "{69627B7007218B01}" {
      SlotTemplate EquipmentStorageSlot Grenades {
       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
-     NumSlots 15
+     NumSlots 16
+    }
+    MultiSlotConfiguration "{69691D7E977CFDC5}" {
+     SlotTemplate EquipmentStorageSlot PKMAmmo {
+      Prefab "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
+     }
+     NumSlots 5
     }
     MultiSlotConfiguration "{69627B7063BDA739}" {
      SlotTemplate EquipmentStorageSlot Grenades {
       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
-     NumSlots 5
+     NumSlots 8
     }
     MultiSlotConfiguration "{69627B70478686F2}" {
      SlotTemplate EquipmentStorageSlot Grenades {
@@ -52,7 +58,7 @@ GenericEntity EquipmentCrate : "{A9989C248817C11E}Prefabs/Props/Military/AmmoBox
    Enabled 1
   }
  }
- coords 4423.191 17.844 5028
+ coords 4423.305 17.844 5028.573
 }
 Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  components {
