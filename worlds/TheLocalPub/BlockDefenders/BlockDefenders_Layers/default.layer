@@ -191,6 +191,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "IRAQDead"
    }
   }
+  TILW_MissionEvent "{69691D7C65E03782}" {
+   m_name "OPFORTicketCutoff"
+   m_instructions {
+    TILW_EditRespawnTicketsInstruction "{69691D7C5CE4456F}" {
+     m_executionDelay 1
+     m_factionKey "GC_IRAQ"
+    }
+   }
+   m_condition TILW_LiteralTerm "{69691D7C5B8AA501}" {
+    m_flagName "Cutoff"
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{6960BA6BF264D9A7}" {
