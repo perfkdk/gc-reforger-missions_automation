@@ -6,9 +6,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
- Mission_Maker_Notes {
+ Creator_Notes {
   coords 6413.952 74.893 2950.518
-  m_sTitle "Mission Maker Notes"
+  m_sTitle "Creator Notes"
   m_sTextData "Thank you to the community's mission makers and modders who make the missions and resources for missions as well as giving me tips for mission making. Very special thanks to RedTheKnown for his help in teaching me how to make mission from the ground up with no prior knowledge myself, and with his help when I got stuck at times making this mission."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
@@ -17,7 +17,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Mission_Notes {
   coords 6418.233 17.843 3279.874
   m_sTitle "Mission Notes (IMPORTANT)"
-  m_sTextData ""
+  m_sTextData "At least 1 BFV Crew must be slotted, and mission intent is for SEALS to fill 6 first, then 5, and so on after. Be advised, during the setup timer you will be surrounded and taking fire, get to cover and get security right away during the duration of the setup timer."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 10
