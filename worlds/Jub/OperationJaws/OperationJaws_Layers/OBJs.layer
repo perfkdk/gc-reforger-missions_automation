@@ -42,7 +42,7 @@ PolylineShapeEntity {
     "The USis no longer losing control of %2."
    }
    m_locationName "Rangrezan"
-   m_flagName "RU_CAP"
+   m_flagName "RU_CAP_1"
    m_ownerFactionKey "RHS_USAF"
    m_ratioThreshold 0.9
   }
