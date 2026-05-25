@@ -55,38 +55,49 @@ PolylineShapeEntity {
     }
    }
    coords 3058.203 144.996 9117.797
-   Points {
-    ShapePoint "{69316752D15D2EE1}" {
-     Position -1089.555 -142.133 -9518.179
-    }
-    ShapePoint "{69316752D1E2D6E5}" {
-     Position -964.835 -149.677 -9601.695
-    }
-    ShapePoint "{69316752D0E5F899}" {
-     Position -946.814 -152.46 -9922.883
-    }
-    ShapePoint "{69316752D3D587E5}" {
-     Position -900.309 -156.977 -10116.629
-    }
-    ShapePoint "{69316752D243FB89}" {
-     Position -1040.452 -152.623 -10150.825
-    }
-    ShapePoint "{69316752D57539CE}" {
-     Position -1450.604 -147.197 -10111.965
-    }
-    ShapePoint "{69316752D58684F5}" {
-     Position -1402.472 -149.032 -10016.808
-    }
-    ShapePoint "{69316752D49868D7}" {
-     Position -1356.894 -147.015 -9757.369
-    }
-    ShapePoint "{69316752D6FC2224}" {
-     Position -1302.632 -146.338 -9580.073
-    }
-   }
    LineColor 0.0034 0.0034 0.0034 1
   }
  }
+}
+PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+ components {
+  TILW_MapShapeComponent "{6508F5526836BC09}" {
+   m_factionKeys {
+    "RHS_USAF"
+   }
+   m_drawArea 0
+   m_invert 1
+   m_drawLine 1
+  }
+ }
+ coords 6059 291.568 18220.902
+ Points {
+  ShapePoint "{697316A961DD2B95}" {
+   Position -2752.528 -147.538 -8923.288
+  }
+  ShapePoint "{697316A96109BC21}" {
+   Position -2899.921 -144.386 -8868.522
+  }
+  ShapePoint "{697316A97E6BD4B9}" {
+   Position -3091.996 -142.907 -8874.273
+  }
+  ShapePoint "{697316A97FBFF8D7}" {
+   Position -3263.184 -147.503 -9061.225
+  }
+  ShapePoint "{697316A97CEF7455}" {
+   Position -3267.266 -145.341 -9294.24
+  }
+  ShapePoint "{697316A97C00A1F1}" {
+   Position -2916.078 -147.3 -9474.971
+  }
+  ShapePoint "{697316A97D8FBA19}" {
+   Position -2750.036 -145.98 -9346.647
+  }
+  ShapePoint "{697316A97A63D7E7}" {
+   Position -2760.514 -144.78 -9034.02
+  }
+ }
+ LineColor 0.0034 0.0034 0.0034 1
 }
 PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  coords 3051.541 146.739 9288.77
@@ -95,7 +106,7 @@ PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" 
  m_MarkerColor 0 0 0 1
  m_sQuadName "objective-marker"
  m_fWorldSize 150
- m_sDescription "Obj 2"
+ m_sDescription "OBJ Area"
  m_bVisibleForEmptyFaction 1
  m_bShowForAnyFaction 1
 }

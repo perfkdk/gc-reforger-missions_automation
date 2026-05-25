@@ -419,7 +419,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_sQuadName "infantry"
   m_fWorldSize 100
-  m_sDescription "Taliban Sq 2 SP"
+  m_sDescription "Taliban Cell 2 SP"
   m_aVisibleForFactions {
    "GC_INSURGENT"
   }

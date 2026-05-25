@@ -11,6 +11,9 @@ SCR_AIGroup : "{95865B5D03AFBA74}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurg
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+  }
  }
  coords 3206.218 149.392 9256.25
  m_aUnitPrefabSlots {
@@ -28,6 +31,10 @@ $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 1
    }
   }
   coords 4402.625 148.875 9795.122
@@ -48,6 +55,10 @@ $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 2
+   }
   }
   coords 4158.011 148.688 9274.64
   m_aUnitPrefabSlots {
@@ -67,6 +78,10 @@ $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
     "Projection distance" 20
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 3
    }
   }
   coords 4057.966 146.625 9628.023
