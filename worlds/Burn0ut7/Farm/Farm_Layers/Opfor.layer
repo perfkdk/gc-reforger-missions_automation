@@ -1,0 +1,278 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 6685.358 106.97 5824.349
+  m_sTitle "III. Enemy Forces"
+  m_sTextData "CDF wearing Multicam."\
+  "Mix of Eastern and Nato weaponry."\
+  ""\
+  "Vehicles:"\
+  "HMG Mraps"\
+  "Trucks"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 3
+ }
+ {
+  coords 6685.358 106.97 5824.349
+  m_sTitle "IV. Mission"
+  m_sTextData "Defend Farm and until reinforcements arrive or kill all the attackers."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 4
+ }
+ {
+  coords 6685.358 106.97 5824.349
+  m_sTitle "II. Friendly Forces"
+  m_sTextData "Platoon minus of modern Russian forces."\
+  ""\
+  "Wearing Russian digital flora and Atac-FG camo."\
+  "Standard Eastern weaponry."\
+  ""\
+  "No service support or vehicles."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 2
+ }
+ {
+  coords 6685.358 106.97 5824.349
+  m_sTitle "I. Situation"
+  m_sTextData "You have strongholded Farm. Defend the Farm until reinforcements arrive. There are various marked fortified defense positions."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 1
+ }
+}
+SCR_AIGroup : "{5A25A84A359E9644}Prefabs/Groups/OPFOR/Russia/2020/VDV/P/AFRF_VDV_2021_PHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 6632.662 109.757 5878.304
+ angles 0 115.644 0
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_factionKeys {
+    "RHS_AFRF"
+   }
+   m_visibility FACTION
+  }
+ }
+ coords 6623.627 122.875 6051.11
+ Points {
+  ShapePoint "{697854A72D5DF5F1}" {
+   Position 79.5 23.226 288.793
+  }
+  ShapePoint "{697854A72DD1E89B}" {
+   Position -349.556 16.546 129.873
+  }
+  ShapePoint "{697854A72EA79873}" {
+   Position -444.765 -38.782 -240.579
+  }
+  ShapePoint "{697854A72F01149C}" {
+   Position -478.489 -39.084 -354.151
+  }
+  ShapePoint "{697854A72FE3DD32}" {
+   Position -470.064 -27.129 -559.028
+  }
+  ShapePoint "{697854A721850C1F}" {
+   Position -442.009 3.624 -780.543
+  }
+  ShapePoint "{697854A64FC57C7E}" {
+   Position -436.017 1.516 -821.3
+  }
+  ShapePoint "{697854A641102159}" {
+   Position -366.298 -14.593 -868.788
+  }
+  ShapePoint "{697854A719FEA482}" {
+   Position 45.486 -59.407 -1156.147
+  }
+  ShapePoint "{697854A71C8BAF56}" {
+   Position 681.894 -4.223 -498.765
+  }
+  ShapePoint "{697854A71E425C8A}" {
+   Position 601.668 -11.348 -394.319
+  }
+  ShapePoint "{697854A71F5F021E}" {
+   Position 464.373 -22.547 -258.137
+  }
+  ShapePoint "{697854A710C49CF6}" {
+   Position 324.946 -9.106 -117.23
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 6784.453 110.186 5828.862
+  angles 0 -132.238 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6638.101 111.586 5846.493
+  angles 0 -95.752 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6532.732 110.654 5908.418
+  angles 0 -107.623 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6806.268 99.391 5675.102
+  angles 0 -139.887 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6512.719 78.459 5607.748
+  angles 0 -108.527 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6482.547 79.575 5595.377
+  angles 0 -128.752 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "hmg"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6777.913 90.126 5667.886
+  angles 0 -135.548 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "lmg"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6615.357 110.076 5930.341
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "plt_hq"
+  m_fWorldSize 90
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6585.93 110.361 5888.807
+  angles 0 -51.499 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "fp"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 7072.699 118.346 6019.377
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "coy_hq"
+  m_fWorldSize 75
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}
+$grp SCR_AIGroup : "{D5746B42F849D22A}Prefabs/Groups/OPFOR/Russia/2020/VDV/AFRF_VDV_2021_RifleSquadNoScopes.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 6644.38 113.823 5941.55
+  angles 0 162.675 0
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 6618.727 109.51 5900.516
+  angles 0 129.815 0
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6576.541 110.02 5929.639
+  angles 0 48.882 0
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iSquadCallsign 6
+   }
+  }
+  coords 6638.439 109.563 5861.796
+  angles 0 129.815 0
+  m_bSetPlayable 1
+ }
+}
