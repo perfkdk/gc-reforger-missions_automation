@@ -26,7 +26,17 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  Formations {
   AIFormationDefinition "{56ACE3951AA8D3EB}" {
    Offsets {
-    0 0 0 0 0 -2 0 0 -4 0 0 -6 0 0 -8 0 0 -10 0 0 -12 0 0 -14 0 0 -16 0 0 -18 0 0 -20
+    0 0 0
+    0 0 -2
+    0 0 -4
+    0 0 -6
+    0 0 -8
+    0 0 -10
+    0 0 -12
+    0 0 -14
+    0 0 -16
+    0 0 -18
+    0 0 -20
    }
   }
  }
@@ -82,11 +92,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_objectiveCompletedMsg "The %1 has been sabotaged!"
      m_briefingDescription "Sabotage atleast ONE of the SU-57s (Interaction)"
     }
-    GC_CommandosObj "{65E45757C1679969}" {
-     m_name "Ship"
-     m_objectiveCompletedMsg "The %1 has been sabotaged!"
-     m_briefingDescription "Sabotage the hull near the rear of the Ship (Interaction)"
-    }
     GC_CommandosObj "{65E45BDC308A67EA}" {
      m_name "Intel"
      m_objectiveCompletedMsg "The %1 has been stolen!"
@@ -136,7 +141,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_briefingDescription "Destroy the MI-8 using an Igla (Cache Marked on map)"
      m_chance 0.5
      m_blacklist {
-      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew"
+      "Political Officer"
+      "Base Commander"
+      "Dog Handler"
+      "Dog"
+      "Pilot"
+      "Co-Pilot"
+      "Crew"
      }
     }
     GC_CommandosDefectorDestroy "{65F27573FB51061D}" {
@@ -145,7 +156,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_briefingDescription "Assassinate the Base Commander"
      m_chance 0.5
      m_blacklist {
-      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew"
+      "Political Officer"
+      "Base Commander"
+      "Dog Handler"
+      "Dog"
+      "Pilot"
+      "Co-Pilot"
+      "Crew"
      }
     }
     GC_CommandosDefectorDestroy "{65FE1DE08226E680}" {
@@ -154,7 +171,13 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_briefingDescription "Assassinate the Political Officer"
      m_chance 0.5
      m_blacklist {
-      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew"
+      "Political Officer"
+      "Base Commander"
+      "Dog Handler"
+      "Dog"
+      "Pilot"
+      "Co-Pilot"
+      "Crew"
      }
     }
     GC_CommandosDefectorDestroy "{65FE1DE082DB9717}" {
@@ -163,7 +186,14 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      m_briefingDescription "Assassinate the Scientist"
      m_chance 0.5
      m_blacklist {
-      "Political Officer" "Base Commander" "Dog Handler" "Dog" "Pilot" "Co-Pilot" "Crew" "Scientist"
+      "Political Officer"
+      "Base Commander"
+      "Dog Handler"
+      "Dog"
+      "Pilot"
+      "Co-Pilot"
+      "Crew"
+      "Scientist"
      }
     }
    }
@@ -175,13 +205,6 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    Enabled 0
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_bUsePredefineStartingTimeAndWeather 1
-   m_aStartingWeatherAndTime {
-    SCR_TimeAndWeatherState "{647776E54F5F3190}" {
-     m_sWeatherPresetName "Rainy"
-     m_iStartingHour 0
-    }
-   }
    m_bUseSpecifiedDate 1
    m_iSetDay 2
    m_iSetYear 2005
@@ -190,7 +213,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    m_fWind 5
   }
  }
- PlayerControllerPrefab "{85F3B42282EF19BD}worlds/arc/CommandosReforged/Prefabs/Commandos_PlayerController.et"
+ PlayerControllerPrefab "{30319F56A7F20B33}worlds/arc/CommandosReforged/Prefabs/DefaultPlayerControllerMP_Coop_Commandos.et"
  m_iFreezeTime 300000
  {
   SCR_FactionManager "64775BA06B584BC9" {
@@ -274,6 +297,10 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    }
   }
  }
+}
+Vehicle Mi8MT_armed1_Comandos1 : "{405EE651B23BF8AE}worlds/arc/CommandosReforged/Prefabs/Mi8MT_armed1_Comandos.et" {
+ coords 1391.602 36.85 2676.979
+ angles 0 -104.036 0
 }
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 3268.057 2.186 2870.736
