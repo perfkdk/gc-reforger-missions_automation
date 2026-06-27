@@ -1,11 +1,8 @@
-Vehicle : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et" {
+Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
  ID "5A7CEB06421662F8"
  components {
-  GC_CommandosObjRegister "{65E31C50BE133D07}" {
-   m_objectiveName "Mi-8"
-  }
   SCR_FuelConsumptionComponent "{5CCCEEA12FE59D93}" {
-   m_fFuelConsumption 0.5
+   m_fFuelConsumption 1
   }
   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
    FuelNodes {
@@ -20,15 +17,6 @@ Vehicle : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_tr
     }
    }
   }
-  SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
-   "Additional hit zones" {
-    SCR_FlammableHitZone Hull {
-     "Explosive multiplier" 5
-    }
-    SCR_FuelHitZone FuelTank_01 {
-    }
-   }
-  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     WCS_Armament_DispenserSlotInfo Flares_Left {
@@ -40,6 +28,6 @@ Vehicle : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_tr
    }
   }
  }
- coords 1390.003 36.768 2678.336
- angleY -104.927
+ coords 1390.657 36.721 2676.771
+ angles 0 -103.022 0
 }
