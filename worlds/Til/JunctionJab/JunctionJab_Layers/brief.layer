@@ -1,12 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  Brief_Overview {
   m_sTitle "Overview"
-  m_sTextData "An East German motor rifle platoon attempts to seize the settlement of Hnevice in order to cut off the approach towards Luzohrad, supporting an imminent assault on the town."\
-  ""\
-  "nva veh num"\
-  "header"\
-  "name"\
-  "mortar ammo"
+  m_sTextData "An East German motor rifle platoon attempts to seize the settlement of Hnevice in order to cut off the approach towards Luzohrad, supporting an imminent assault on the town."
   m_bEmptyFactionVisibility 1
  }
  Brief_Notes {
@@ -16,7 +11,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "End conditions:"\
   "- NVA Victory: 95% control over Hnevice for 1 minute"\
-  "- CAF Victory: 80% NVA casualties, or 45 minutes pass"
+  "- CAF Victory: 80% NVA casualties, or 45 minutes pass"\
+  ""\
+  ""\
+  "GMs must disable supply usage for the mortars ATM"
   m_bShowForAnyFaction 1
   m_iOrder 3
  }
@@ -64,7 +62,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Forward observation group, mounted in SPW-40P2"\
   ""\
   "<h1>COMSIG</h1>"\
-  "HQ, 1, 2, 3, 4 (FO), 5 (Mortars)"
+  "HQ, 1, 2, 3, 4 (FO), 5 (Mortars)"\
+  "1 does not have a radio"\
+  "4 and 5 have a radio backpack"
   m_aVisibleForFactions {
    "GC_NVA"
   }

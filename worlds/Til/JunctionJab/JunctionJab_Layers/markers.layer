@@ -177,7 +177,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "GC_CAF"
   }
  }
- marker_caf_rgt {
+ marker_caf_nvabtn {
   coords 7850 161.886 6550
   angles 0 90 0
   m_sImageSet "{8D15AE151C8F3A5C}UI/Textures/GPSMarkers/opfor_ImageSet.imageset"
@@ -214,8 +214,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  marker_caf_btn {
-  coords 6000 235.819 6400
-  angles 0 90 0
+  coords 6050 235.819 6350
   m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 0.75
@@ -226,15 +225,38 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  marker_nva_cafbtn {
-  coords 6050 233.833 6350
+  coords 6000 233.833 6400
   angles 0 90 0
   m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0 0.125 0.502 1
+  m_MarkerColor 0 0.125 0.502 0.75
   m_sQuadName "btn_hq"
   m_fWorldSize 300
   m_aVisibleForFactions {
    "GC_NVA"
+  }
+ }
+ marker_nva_cafcoy2 {
+  coords 6350 208.924 6500
+  angles 0 90 0
+  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 0.75
+  m_sQuadName "coy_hq"
+  m_fWorldSize 300
+  m_aVisibleForFactions {
+   "GC_NVA"
+  }
+ }
+ marker_caf_resupply {
+  coords 5150 235.819 5850
+  m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 0.75
+  m_sQuadName "undefined"
+  m_fWorldSize 150
+  m_aVisibleForFactions {
+   "GC_CAF"
   }
  }
 }
