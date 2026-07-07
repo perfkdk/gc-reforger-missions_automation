@@ -1,0 +1,24 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ A0_Overview {
+  coords 3469.865 283.156 9234.433
+  m_sTitle "Overview"
+  m_sTextData "Delta Force assaults a castle to defuse a bomb and secure some hostages."\
+  ""\
+  "Partially inspired by goosko's A3 \"Countdown\" mission."
+  m_bEmptyFactionVisibility 1
+ }
+ A6_Notes {
+  coords 3469.865 283.156 9234.433
+  m_sTitle "Notes"
+  m_sTextData "5 minute setup timer, affecting the US main force."\
+  "US recon team can move immediately."\
+  ""\
+  "Default start time is nightfall, but the US commander is allowed to request a change from GMs. Weather is random."\
+  ""\
+  "End conditions:"\
+  "- US victory if the bomb is disarmed"\
+  "- US defeat if the bomb explodes after 40 minutes, or at 90% casualties"
+  m_bShowForAnyFaction 1
+  m_iOrder 6
+ }
+}
