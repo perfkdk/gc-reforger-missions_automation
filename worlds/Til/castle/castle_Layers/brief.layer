@@ -4,7 +4,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Overview"
   m_sTextData "Delta Force assaults a castle to defuse a bomb and secure some hostages."\
   ""\
-  "Partially inspired by goosko's A3 \"Countdown\" mission."
+  "Partially inspired by goosko's A3 \"Countdown\" mission."\
+  ""\
+  "NOTE FOR GAME MASTERS:"\
+  "There are a couple civilian \"resident\" slots marked as \"slot last\" - these should NOT be filled according to ratio, only when there are no other slots left - lock these unless there are enough players."\
+  "The civilian \"hostage\" slots can be filled normally according to ratio."
   m_bEmptyFactionVisibility 1
  }
  A6_Notes {
@@ -17,8 +21,79 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "End conditions:"\
   "- US victory if the bomb is disarmed"\
-  "- US defeat if the bomb explodes after 40 minutes, or at 90% casualties"
+  "- US defeat if the bomb explodes after 40 minutes, or at 90% casualties"\
+  ""\
+  "At the moment, GMs must disable global supply usage so the mortar has ammunition."
   m_bShowForAnyFaction 1
   m_iOrder 6
+ }
+ C1_Hostages {
+  coords 3469.865 283.156 9234.433
+  m_sTitle "Hostage Briefing"
+  m_sTextData "You are a civilian (e. g. tourist, worker, local) who was at Pasastejn castle when a group of armed men showed up."\
+  ""\
+  "You don't know much else about what is going on, but they appear to a violent extremist group, possibly terrorists, from a neighboring country that has historically been involved in ethnic conflicts with Bystrany."\
+  ""\
+  "They have taken you hostage and threatened to kill you, if you should attempt to flee."\
+  ""\
+  "You are afraid for your life, and the armed men do not seem tolerant towards acts of bravery or resistance - so your plan is to just to..."\
+  "- comply with basic orders,"\
+  "- not attempt to flee on your own accord,"\
+  "- do your best to not provoke them,"\
+  "- and hope everything will turn out fine."
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ C2_Residents {
+  coords 3469.865 283.156 9234.433
+  m_sTitle "Resident Briefing"
+  m_sTextData "You are a resident living in the village of Pasastejn."\
+  "You were having a normal day, until a couple of hours ago, you heard gunfire coming from the local castle."\
+  ""\
+  "You don't know any hard facts, but there are rumors going through the village that a group of foreign armed men arrived at the castle, and started threatening people."\
+  ""\
+  "You are curious what is going on, but also a little anxious and do not feel like risking anything."\
+  ""\
+  "You definitely want to keep some distance to the castle, but perhaps you can explore the local area and see if you can find out more, e. g. by observing it from a distance."
+  m_aVisibleForFactions {
+   "CIV"
+  }
+  m_iOrder 2
+ }
+ U1_Delta {
+  coords 3469.865 283.156 9234.433
+  m_sTitle "Briefing"
+  m_sTextData "<h1>SITUATION</h1>"\
+  "A couple of hours ago, an armed extremist group (from a neighboring country of Bystrany took control of Pasastejn castle."\
+  "The group is known for its deep ethnic hatred of Bystranian nationals, and according to preliminary intel, is in posession of a low yield nuclear device that they plan to detonate, destroying the historic castle and killing thousands of Bystranian civilians."\
+  "Current intelligence suggests the nuclear device is still being armed, but might be ready for detonation around T+40m."\
+  "Since Bystrany is a close ally of the United States, 1st SFOD-D has scrambled to assemble a task force which will attempt to neutralize the threat."\
+  ""\
+  "<b>a. Enemy Forces</b>"\
+  "Paramilitary, largely using Soviet style small arms. They do not possess NVGs."\
+  "Most terrorists are likely within the castle, but some may also be in the surrounding area, marked in orange."\
+  ""\
+  "<b>b. Friendly Forces</b>"\
+  "2 assault teams and 1 support team, standing by for aerial insertion from Bysovice Airfield."\
+  "A recon team has already been quietly inserted at the chosen location (marked TP points), and is e. g. able to secure an LZ within the enemies AO or establish early observation on the castle."\
+  ""\
+  "<b>c. Other</b>"\
+  "There is civilian presence in the village of Pasastejn."\
+  "The terrorists have also reportedly taken a couple of hostages, which they might try to use as civilian shields."\
+  "Caution is advised when considering engagement of unidentified targets - while the mission might take priority under extreme circumstances, the chance of harm to civilians should be avoided whenever feasable."\
+  ""\
+  "<h1>MISSION</h1>"\
+  "Secure and deactivate the nuclear device (located in the castle church) within 40 minutes."\
+  ""\
+  "<h1>SERVICE/SUPPORT</h1>"\
+  "3 MH-6M helicopters for transportation"\
+  "2 AH-6M, both equipped with two M134, one also with a GAU-19 and 70mm rockets"\
+  "The recon team has a small ISR drone"\
+  ""\
+  "<h1>COMSIG</h1>"
+  m_aVisibleForFactions {
+   "CIV"
+  }
  }
 }

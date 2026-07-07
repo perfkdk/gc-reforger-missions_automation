@@ -83,43 +83,44 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
-    m_color 0 0 0 1
+    m_factionKeys {
+     "GC_SEPERATIST"
+     "CIV"
+    }
+    m_color 0 0 0 0.5
    }
   }
-  coords 4740.653 311.312 5887.993
+  coords 4700 311.312 5900
   Points {
    ShapePoint "{69CCD57A22E4EB2D}" {
-    Position 75.169 -2.221 -19.252
+    Position 100 -2.221 0
    }
    ShapePoint "{69CD2424C3DB7A9B}" {
-    Position 269.563 -14.643 -38.787
-   }
-   ShapePoint "{69CD2424C5F44F64}" {
-    Position 747.41 -42.945 26.961
+    Position 700 -35.163 0
    }
    ShapePoint "{69CD2427352E944E}" {
-    Position 857.917 -50.22 82.941
-   }
-   ShapePoint "{69CD24273A86A3FC}" {
-    Position 890.707 -60.825 212.146
+    Position 800 -50.22 100
    }
    ShapePoint "{69CD2427061F68A2}" {
-    Position 800.402 -52.833 581.178
+    Position 800 -52.833 600
    }
    ShapePoint "{69CD24271D41DAA6}" {
-    Position 463.65 -40.463 936.454
+    Position 500 -39.168 900
    }
    ShapePoint "{69CD24276A39E863}" {
-    Position -478.41 -19.078 1036.375
+    Position -400 -18.126 1000
    }
    ShapePoint "{69CD2427A8FE337A}" {
-    Position -928.709 -47.658 738.989
+    Position -900 -44.024 700
    }
    ShapePoint "{69CD242788944410}" {
-    Position -665.77 -39.027 154.634
+    Position -900 -39.027 300
+   }
+   ShapePoint "{69CECC0FA750FFF9}" {
+    Position -700 -53.314 100
    }
    ShapePoint "{69CD2424D589620C}" {
-    Position -87.354 5.487 111.639
+    Position 0 5.487 100
    }
   }
  }

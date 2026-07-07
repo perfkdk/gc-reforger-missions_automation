@@ -1,0 +1,158 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ marker_entrance1 {
+  coords 4758.068 369.452 6325.963
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Main Gate"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_entrance2 {
+  coords 4921.629 344.813 6287.475
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Hidden Entrance"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_loc1 {
+  coords 4873.495 373.678 6403.223
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Walled Orchard"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_loc2 {
+  coords 4818.869 425.354 6408.236
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Northern Tower"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_loc3 {
+  coords 4908.805 387.581 6277.666
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Southern Tower"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_loc4 {
+  coords 4888.646 365.064 6282.988
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Lower Tower"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_loc5 {
+  coords 4875.21 380.343 6347.457
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Outer Court"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_loc6 {
+  coords 4808.083 373.156 6350.381
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Cobbled Road"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_loc7 {
+  coords 4849.382 384.457 6385.849
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Church Courtyard"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_loc8 {
+  coords 4779.195 395.637 6361.249
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Chapel Garden"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_loc9 {
+  coords 4768.433 410.75 6387.942
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Upper Courtyard"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_loc10 {
+  coords 4791.64 407.01 6380.597
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Upper Keep"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+ marker_loc11 {
+  coords 4826.15 393.493 6385.606
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest-2"
+  m_sDescription "Lower Keep"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+   "GC_SEPARATIST"
+  }
+ }
+}

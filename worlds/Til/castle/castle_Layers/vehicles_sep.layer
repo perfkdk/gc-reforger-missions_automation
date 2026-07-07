@@ -2,6 +2,10 @@ Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_
  coords 4748.877 369.442 6329.963
  angles 1.731 -46.495 1.642
 }
+GenericEntity : "{2351FA1249150AE6}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Mortar_USSR.et" {
+ coords 4770.294 410.75 6389.426
+ angles 0 -102.572 0
+}
 Vehicle S105_lightgreen1 : "{321016E0F9361A22}Prefabs/Vehicles/Wheeled/S105/S105_lightgreen.et" {
  coords 4743.015 369.531 6326.41
  angles -0.871 21.395 2.221
