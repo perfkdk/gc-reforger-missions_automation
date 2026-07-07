@@ -34,6 +34,69 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  m_iFreezeTime 300000
+ {
+  SCR_FactionManager "6602E4EB76ACD053" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     UIInfo SCR_FactionUIInfo "{5CC8B5EDA0CDBD62}" {
+      Name "1st SFOD-D"
+     }
+     m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign "6"
+       }
+       SCR_CallsignInfo "{55CCB792D13759D8}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{6602E4E33C7D1666}" {
+        m_sCallsign "4"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
+      m_sCallsignCharacterFormat "%3: %4"
+     }
+    }
+    SCR_Faction "{62EB308733CA83DD}" {
+     UIInfo SCR_FactionUIInfo "{62EB259E4C94C2BD}" {
+      Name "Extremists"
+     }
+     m_CallsignInfo SCR_FactionCallsignInfo "{60A6B21E18F28741}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{58B2B630FDD64B6D}" {
+        m_sCallsign "0"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B53}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B51}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{58B2B630FDD64B50}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{61C8F1ACA9FDB12D}" {
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{6602E4E08990DB8E}" {
+        m_sCallsign "5"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
+      m_sCallsignCharacterFormat "%3%4"
+      m_sCallsignCharacterWithRoleFormat "%3 %4"
+     }
+    }
+   }
+  }
+ }
 }
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  ao_us {
@@ -84,7 +147,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    TILW_MapShapeComponent "{6508F54F9B461198}" {
     Enabled 1
     m_factionKeys {
-     "GC_SEPERATIST"
+     "GC_SEPARATIST"
      "CIV"
     }
     m_color 0 0 0 0.5
@@ -127,4 +190,16 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
 }
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 3454.381 283.156 9251.012
+}
+PS_ManualMarker marker_us_start : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 3450 283.156 9250
+ angles 0 90 0
+ m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
+ m_sImageSetGlow ""
+ m_MarkerColor 0 0 0 1
+ m_sQuadName "air"
+ m_fWorldSize 100
+ m_aVisibleForFactions {
+  "RHS_USAF"
+ }
 }

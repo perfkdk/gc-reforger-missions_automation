@@ -15,6 +15,39 @@ GenericEntity : "{2B26287DC5B7F9D0}Prefabs/Props/Industrial/ToolBox_01/ToolBox_0
  coords 4853.682 384.365 6409.679
  angles 0 -98.312 0
 }
+$grp GameEntity : "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et" {
+ {
+  coords 4990.288 321.451 6402.063
+ }
+ {
+  coords 4991.375 321.451 6401.669
+ }
+ {
+  coords 4989.495 321.451 6402.606
+ }
+}
+$grp GameEntity : "{5F71AB03597B3D25}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47.et" {
+ {
+  coords 4816.303 405.116 6406.188
+ }
+ {
+  coords 4857.78 383.995 6403.418
+ }
+ {
+  coords 4764.394 369.534 6329.273
+ }
+}
+$grp GameEntity : "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et" {
+ {
+  coords 4763.791 369.483 6328.845
+ }
+ {
+  coords 4816.119 405.13 6405.954
+ }
+ {
+  coords 4857.906 383.995 6403.668
+ }
+}
 SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
  coords 3236.149 4.174 10073.613
  angles 0 -121.458 0

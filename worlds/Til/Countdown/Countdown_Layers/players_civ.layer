@@ -11,7 +11,7 @@ $grp SCR_AIGroup : "{A6E7FBD99B47CC72}Prefabs/Groups/CIV/Generic/Group_CIV_Gener
   coords 4859.626 383.995 6404.84
   angles 0 -111.191 0
   m_bSnapToTerrain 0
-  m_sCustomNameSet "Hostages (optional)"
+  m_sCustomNameSet "Hostages"
   m_bSetPlayable 1
  }
  GR_CIV_Residents {
@@ -27,7 +27,7 @@ $grp SCR_AIGroup : "{A6E7FBD99B47CC72}Prefabs/Groups/CIV/Generic/Group_CIV_Gener
   coords 4991.102 321.451 6401.265
   angles 0 -155.18 0
   m_bSnapToTerrain 0
-  m_sCustomNameSet "Residents (slot last)"
+  m_sCustomNameSet "Residents - SLOT LAST"
   m_bSetPlayable 1
  }
 }

@@ -1,6 +1,6 @@
 TILW_PrefabSpawnerEntity spawner_nuke : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
- coords 4853.016 384.727 6408.688
- m_prefab "{A2552B7FAE951DB7}Prefabs/Systems/Explosions/BombWarhead_SmallNuke.et"
+ coords 4853.016 386.065 6408.688
+ m_prefab "{FC359D25E07FB239}Prefabs/Systems/Explosions/BombWarhead_TacNuke_Init.et"
  m_conditionFlag "nuke"
 }
 TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
@@ -13,8 +13,16 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
      m_messageBody "US forces took severe casualties."
     }
    }
-   m_condition TILW_LiteralTerm "{69CD24216E8601EE}" {
-    m_flagName "cas_us"
+   m_condition TILW_ConjunctionTerm "{69CF465B8658A599}" {
+    m_operands {
+     TILW_LiteralTerm "{69CF465B87DD80AB}" {
+      m_flagName "cas_us"
+     }
+     TILW_LiteralTerm "{69CF465B84DDE942}" {
+      m_invertTerm 1
+      m_flagName "nuke"
+     }
+    }
    }
   }
   TILW_MissionEvent "{69CECC105CB5D3CE}" {
@@ -33,7 +41,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
      }
     }
     TILW_SetFlagInstruction "{69CECC10AD0CA929}" {
-     m_executionDelay 2430
+     m_executionDelay 60
      m_flagName "zero"
     }
    }

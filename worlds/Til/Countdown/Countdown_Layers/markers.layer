@@ -59,18 +59,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "GC_SEPARATIST"
   }
  }
- marker_loc4 {
-  coords 4888.646 365.064 6282.988
-  angles 0 90 0
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "point-of-interest-2"
-  m_sDescription "Lower Tower"
-  m_aVisibleForFactions {
-   "RHS_USAF"
-   "GC_SEPARATIST"
-  }
- }
  marker_loc5 {
   coords 4875.21 380.343 6347.457
   angles 0 90 0

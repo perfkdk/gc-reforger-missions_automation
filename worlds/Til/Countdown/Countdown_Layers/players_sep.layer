@@ -36,6 +36,7 @@ $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/Gr
    "{917322E3B14A77B7}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/Character_SEP_Rifleman.et"
   }
   m_bSnapToTerrain 0
+  m_sCustomNameSet "Team 1"
   m_bSetPlayable 1
  }
  GR_SEP_Team2 {
@@ -56,6 +57,7 @@ $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/Gr
    "{917322E3B14A77B7}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/Character_SEP_Rifleman.et"
   }
   m_bSnapToTerrain 0
+  m_sCustomNameSet "Team 2"
   m_bSetPlayable 1
  }
  GR_SEP_Team3 {
@@ -73,9 +75,10 @@ $grp SCR_AIGroup : "{B8D2071F17FF20FA}Prefabs/Groups/OPFOR/GC_SEPARATIST/2020/Gr
   m_aUnitPrefabSlots {
    "{7F16C773F44030E6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/Character_SEP_TL.et"
    "{73A904030BDDB209}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/Character_SEP_MG.et"
-   "{F916B3D81C1BB8B6}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/Character_SEP_AT.et"
+   "{78EF9F722E522CCF}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/Character_SEP_Sharpshooter.et"
   }
   m_bSnapToTerrain 0
+  m_sCustomNameSet "Team 3"
   m_bSetPlayable 1
  }
 }
@@ -95,5 +98,6 @@ SCR_AIGroup GR_SEP_HQ : "{DEE4F567595DE7AE}Prefabs/Groups/OPFOR/GC_SEPARATIST/20
   "{78EF9F722E522CCF}Prefabs/Characters/Factions/OPFOR/GC_SEPARATIST/2020/Character_SEP_Sharpshooter.et"
  }
  m_bSnapToTerrain 0
+ m_sCustomNameSet "Leadership"
  m_bSetPlayable 1
 }
