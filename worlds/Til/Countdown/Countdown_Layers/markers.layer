@@ -1,3 +1,54 @@
+PolylineShapeEntity covershape : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   Enabled 0
+  }
+  TILW_MapShapeComponent "{6508F54F9B461198}" {
+   Enabled 1
+   m_color 0 0 0 1
+  }
+ }
+ coords 3000 365.869 5000
+ Points {
+  ShapePoint "{69CCD57B8F1666BD}" {
+   Position 0 0 0
+  }
+  ShapePoint "{69CCD57B9236F91E}" {
+   Position 4000 0 0
+  }
+  ShapePoint "{69CCD57A22E4EB2D}" {
+   Position 4000 0 3000
+  }
+  ShapePoint "{69CCD57A74DA56E0}" {
+   Position 1000 0 6000
+  }
+  ShapePoint "{69CCD57A8A024FFE}" {
+   Position -1000 0 6000
+  }
+  ShapePoint "{69CCD57AA1D066DA}" {
+   Position -1000 0 4000
+  }
+  ShapePoint "{69CCD57A12423985}" {
+   Position 0 0 3000
+  }
+  ShapePoint "{69D0DD8DD3054020}" {
+   Position -1600 0 3000
+  }
+  ShapePoint "{69D0DD8DD121AB68}" {
+   Position -1600 0 2120
+  }
+  ShapePoint "{69D0DD8DD1A323B3}" {
+   Position -1400 0 2120
+  }
+  ShapePoint "{69D0DD8DD71A7439}" {
+   Position -1400 0 960
+  }
+  ShapePoint "{69D0DD8DD435B3E8}" {
+   Position 0 0 960
+  }
+ }
+ LineColor 0 0 0 1
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  marker_entrance1 {
   coords 4758.068 369.452 6325.963
@@ -142,5 +193,38 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "RHS_USAF"
    "GC_SEPARATIST"
   }
+ }
+ marker_us_start {
+  coords 3450 283.156 9250
+  angles 0 90 0
+  m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "air"
+  m_fWorldSize 75
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ marker_img2 {
+  coords 2300 410.75 6520
+  angles 0 90 0
+  m_sImageSet "{ED6EFCD8887C9357}worlds/Til/Countdown/Images/top.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 1400
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
+ }
+ marker_img1 {
+  coords 2200 410.75 7560
+  angles 0 90 0
+  m_sImageSet "{A33FE6434CEBF7FE}worlds/Til/Countdown/Images/side.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 1600
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  m_bringToFront 0
  }
 }

@@ -103,7 +103,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<h1>COMSIG</h1>"\
   "0 (HQ), 1 (Assault), 2 (Assault), 3 (Support), 4 (Recon), 5 (Star)"\
   "Star callsigns: 51 52 53 for MH-6M, 54 55 for AH-6M"\
-  "Recon team has a radio backpack for long range comms"
+  "Recon team has a radio backpack for long range comms"\
+  "48.0MHz, Air net 49.0MHz"
   m_aVisibleForFactions {
    "RHS_USAF"
   }

@@ -22,6 +22,10 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
       m_invertTerm 1
       m_flagName "nuke"
      }
+     TILW_LiteralTerm "{69CF5386D0653047}" {
+      m_invertTerm 1
+      m_flagName "disarmed"
+     }
     }
    }
   }
@@ -33,15 +37,15 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
      m_flagName "pre_explosion"
     }
     TILW_SendMessageInstruction "{69CECC1EC1A1DCA6}" {
-     m_executionDelay 30
+     m_executionDelay 2430
      m_messageTitle "COUNTDOWN LIVE"
-     m_messageBody "Check your watches - the bomb will explode in 35 minutes."
+     m_messageBody "Check your watches - the bomb will explode in 40 minutes."
      m_factionKeys {
       "GC_SEPARATIST"
      }
     }
     TILW_SetFlagInstruction "{69CECC10AD0CA929}" {
-     m_executionDelay 60
+     m_executionDelay 2430
      m_flagName "zero"
     }
    }

@@ -1,3 +1,11 @@
+$grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ wp_move_1 {
+  coords 5068.495 315.444 6211.156
+ }
+ wp_move_2 {
+  coords 4918.991 335.75 6548.2
+ }
+}
 AIWaypointCycle wp_cycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
  coords 4999.292 315.582 6346.166
  CycleWaypoints {
@@ -41,15 +49,5 @@ $grp SCR_AIGroup : "{A6E7FBD99B47CC72}Prefabs/Groups/CIV/Generic/Group_CIV_Gener
   m_aStaticWaypoints {
    "wp_cycle"
   }
- }
-}
-$grp SCR_AIAnimationWaypoint : "{FF8730CC23015B41}Prefabs/AI/Waypoints/AIWaypoint_Animation_SlowMove.et" {
- wp_move_1 {
-  coords 5068.495 315.444 6211.156
-  m_fPriorityLevel 30
- }
- wp_move_2 {
-  coords 4918.991 335.75 6548.2
-  m_fPriorityLevel 30
  }
 }
