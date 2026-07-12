@@ -17,13 +17,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "5 minute setup timer, affecting the US main force."\
   "US recon team can move immediately."\
   ""\
-  "Default start time is nightfall, but the US commander is allowed to request a change from GMs. Weather is random."\
+  "Default start time is dusk, about 10 minutes before darkness starts setting in or 20 minutes before full darkness. Weather is random."\
   ""\
   "The hidden castle entrance marked on the map leads through a tunnel, up some stairs, into the southern courtyard."\
   ""\
   "End conditions:"\
   "- US victory if the bomb is disarmed"\
-  "- US defeat if the bomb explodes after 40 minutes, or at 90% casualties"\
+  "- US defeat if the bomb explodes after 35 minutes, or at 90% casualties"\
   ""\
   "At the moment, GMs must disable global supply usage so the mortar has ammunition."
   m_bShowForAnyFaction 1
@@ -73,7 +73,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h1>SITUATION</h1>"\
   "A couple of hours ago, an armed extremist group (from a neighboring country of Bystrany) took control of Pasastejn castle."\
   "The group is known for its deep ethnic hatred of Bystranian nationals, and according to preliminary intel, is in posession of a low yield nuclear device that they plan to detonate, destroying the historic castle and killing thousands of Bystranian civilians."\
-  "Current intelligence suggests the nuclear device is still being armed, but might be ready for detonation around T+40m."\
+  "Current intelligence suggests the nuclear device is still being armed, but might be ready for detonation around T+35m."\
   "Since Bystrany is a close ally of the United States, 1st SFOD-D has scrambled to assemble a task force which will attempt to neutralize the threat."\
   ""\
   "<b>a. Enemy Forces</b>"\
@@ -91,7 +91,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "There are 2 ground level entry points to the castle, the main gate and the hidden entrance, both are marked on the map."\
   ""\
   "<h1>MISSION</h1>"\
-  "Secure and deactivate the nuclear device (located in the castle church) within 40 minutes."\
+  "Secure and deactivate the nuclear device (located in the castle church) within 35 minutes."\
   ""\
   "<h1>SERVICE/SUPPORT</h1>"\
   "3 MH-6M helicopters for transportation"\
@@ -117,7 +117,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "A couple of hours ago, your extremist group (from a neighboring country of Bystrany) took control of Pasastejn castle."\
   "You are about to sacrifice your life, but it's all for a good cause: Your deep ethnic hatred of the Bystranian nation and its people."\
   "The plan is to detonate a low yield nuclear device, destroying the \"historic\" castle and killing thousands of Bystranian \"nationals\"."\
-  "To enable the escape and survival of some important group members, the bomb has been put on a 40 minute countdown."\
+  "To enable the escape and survival of some important group members, the bomb has been put on a 35 minute countdown."\
   "You will protect the bomb until its detonation - your passionate hatred of Bystrany is already burning as hot as that second sun."\
   ""\
   "<b>a. Enemy Forces</b>"\
@@ -129,7 +129,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "One of the teams could be sent outside of the castle to conduct reconnaissance or unexpected ambushes."\
   ""\
   "<h1>MISSION</h1>"\
-  "Protect the nuclear device at all cost, until it detonates in 40 minutes."\
+  "Protect the nuclear device at all cost, until it detonates in 35 minutes."\
   ""\
   "<h1>SERVICE/SUPPORT</h1>"\
   "3 night vision tubes (on the ground next to HQ and teams 1+2)"\
