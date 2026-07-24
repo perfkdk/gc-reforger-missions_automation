@@ -698,7 +698,7 @@ SCR_AIGroup MortarTeam : "{C64F2F2FA7149BF2}Prefabs/Groups/OPFOR/GC_NVA/P/Group_
    m_iSquadCallsign 6
   }
  }
- coords 2966.11 196.653 6546.653
+ coords 2966.828 196.653 6538.532
  angles 0 18.146 0
  m_aUnitPrefabSlots {
   "{CF25AB0F905F6934}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MortarCommander_P.et"
@@ -713,7 +713,7 @@ SCR_AIGroup MortarTeam : "{C64F2F2FA7149BF2}Prefabs/Groups/OPFOR/GC_NVA/P/Group_
 }
 $grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubCompositions/Foundation_Mortar_USSR.et" {
  {
-  coords 2975.185 197.227 6546.138
+  coords 2975.903 197.227 6538.018
   angles 0 17.029 0
   {
    GenericEntity {
@@ -729,7 +729,7 @@ $grp GenericEntity : "{CB56A2564414B7D6}Prefabs/Compositions/Misc/SubComposition
   }
  }
  {
-  coords 2962.574 197.355 6550.457
+  coords 2963.292 197.355 6542.336
   angles 0 17.029 0
   {
    GenericEntity {
