@@ -106,9 +106,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 4509.975 19.345 1476.094
   m_sTitle "TIME, WEATHER & TERRAIN"
   m_sTextData "a. Time & Weather"\
-  "Time:  02:40"\
-  "Sunrise: 02:29 "\
-  "Sunset: 16:44"\
+  "Time:  06:45 (Sunrise)"\
   "Weather: Good Visibility, Clear Day, No Recent Precipitation or Expected"\
   ""\
   "b. Terrain"\
@@ -126,6 +124,34 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "US"
   }
+ }
+ BRIEF_ARTY {
+  coords 4536.125 42.978 1334.951
+  m_sTitle "7. M777 USAGE"
+  m_sTextData "To use the M777:"\
+  ""\
+  "1. Find out charges and elevation from the ballistic manual."\
+  ""\
+  "2. Before loading, make sure the gun elevation is below 800, the loading tray is raised, and the breech is open."\
+  ""\
+  "3. Take a shell from the crate, place it onto the tray, then lower the tray and ram the shell. Raise the tray."\
+  ""\
+  "4. Take propellant from the crate, look at the breech and load it. Then close the breech."\
+  ""\
+  "5. On the left side of the howitzer, start aiming (interact, then right click to enter the view). Adjust azimuth and elevation to the target."\
+  ""\
+  "6. On the right side, fire when ready."\
+  ""\
+  ""\
+  "Other notes:"\
+  "- All of the described steps are interactions on the gun. Some might be a bit hard to spot initially."\
+  "- If you fire at low angle, be aware there is a chance you'll hit trees depending on the target."\
+  "- Make sure to take an artillery ballistic manual from the crate, the one in your inventory is for mortars."\
+  "- If you are doing step 3 for the first time, you may have to slightly move the elevation to be able to place the shell onto the tray."
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 7
  }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {

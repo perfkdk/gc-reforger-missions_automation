@@ -1,25 +1,3 @@
-SCR_AIGroup : "{2E20F404E398F622}Prefabs/Groups/BLUFOR/US/Marines/1990/Marine Rifles/P/Group_US_Marines_1990_MortarCrew_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   Enabled 0
-  }
-  PS_GroupCallsignAssigner "{651367042C5F047E}" {
-   m_iCompanyCallsign 1
-   m_iSquadCallsign 6
-  }
- }
- coords 3348.926 24.2 3539.474
- angles 0 -145.326 0
- m_aUnitPrefabSlots {
-  "{AEF3B33BA857CF28}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_FDC_CO_P.et"
-  "{62461DA4BC5B019E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Mortar_Crew_P.et"
-  "{62461DA4BC5B019E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Mortar_Crew_P.et"
-  "{62461DA4BC5B019E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Mortar_Crew_P.et"
-  "{62461DA4BC5B019E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Mortar_Crew_P.et"
-  "{62461DA4BC5B019E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Mortar_Crew_P.et"
-  "{62461DA4BC5B019E}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_Mortar_Crew_P.et"
- }
-}
 $grp SCR_AIGroup : "{4462DE540BE8B450}Prefabs/Groups/BLUFOR/US/Army/1986/M113 Mech (Woodland)/P/Group_US_Army_1985_MechSquad_P.et" {
  {
   components {
