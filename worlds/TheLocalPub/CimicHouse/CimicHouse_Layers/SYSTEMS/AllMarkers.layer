@@ -129,6 +129,28 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
    }
   }
  }
+ mapshape_cover {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_invert 1
+   }
+  }
+  coords 3000 100.108 3000
+  Points {
+   ShapePoint "{69F324F3A5F418B6}" {
+    Position 0 0 0
+   }
+   ShapePoint "{69F324F3A9AD4120}" {
+    Position 0 0 2000
+   }
+   ShapePoint "{69F324F3AE23CEFD}" {
+    Position 3000 0 2000
+   }
+   ShapePoint "{69F324F3AF6F3F94}" {
+    Position 3000 0 0
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{BFAF4131777CD7ED}Prefarbs/USE_THIS_New_buildings/Garage_apartment_02_WinDoor.et" {
  components {
