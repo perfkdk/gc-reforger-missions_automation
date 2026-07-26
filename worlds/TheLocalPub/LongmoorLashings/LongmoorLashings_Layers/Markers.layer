@@ -126,4 +126,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 30
   m_sDescription "Strongpoint"
  }
+ AccessHatch {
+  coords 816.659 104.913 676.685
+  angles 0 91.045 0
+  m_sImageSet "{3262679C50EF4F01}UI/Textures/Icons/icons_wrapperUI.imageset"
+  m_sImageSetGlow "{00FE3DBDFD15227B}UI/Textures/Icons/icons_wrapperUI-glow.imageset"
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "ladder"
+  m_fWorldSize 25
+  m_sDescription "Tunnel access hatch"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
 }
