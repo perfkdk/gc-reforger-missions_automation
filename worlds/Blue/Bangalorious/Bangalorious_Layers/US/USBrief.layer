@@ -145,7 +145,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Other notes:"\
   "- All of the described steps are interactions on the gun. Some might be a bit hard to spot initially."\
-  "- If you fire at low angle, be aware there is a chance you'll hit trees depending on the target."\
+  "- If you fire at low angle, be aware there is a chance you'll hit trees if the target isn't elevated (guns do have clearance)."\
   "- Make sure to take an artillery ballistic manual from the crate, the one in your inventory is for mortars."\
   "- If you are doing step 3 for the first time, you may have to slightly move the elevation to be able to place the shell onto the tray."
   m_aVisibleForFactions {

@@ -92,10 +92,6 @@ $grp GenericEntity : "{B0FBD60D08BDE57D}PrefabsEditable/Auto/Props/Military/Arse
        m_eItemType MORTARS
        m_ItemResourceName "{EA8B40221D8E68B1}Prefabs/Weapons/Ammo/M107 HE/M107_Shell_155MM_HE.et"
       }
-      SCR_ArsenalItemStandalone "{694A990E575854F2}" {
-       m_eItemType MORTARS
-       m_ItemResourceName "{4FB74A6C81DBF8A4}Prefabs/Weapons/Ammo/M107 HE/M107_Shell_155MM_HE_Airburst.et"
-      }
      }
     }
    }
@@ -120,10 +116,6 @@ $grp GenericEntity : "{B0FBD60D08BDE57D}PrefabsEditable/Auto/Props/Military/Arse
       SCR_ArsenalItemStandalone "{694A990D15C643BB}" {
        m_eItemType MORTARS
        m_ItemResourceName "{EA8B40221D8E68B1}Prefabs/Weapons/Ammo/M107 HE/M107_Shell_155MM_HE.et"
-      }
-      SCR_ArsenalItemStandalone "{694A990E575854F2}" {
-       m_eItemType MORTARS
-       m_ItemResourceName "{4FB74A6C81DBF8A4}Prefabs/Weapons/Ammo/M107 HE/M107_Shell_155MM_HE_Airburst.et"
       }
      }
     }
