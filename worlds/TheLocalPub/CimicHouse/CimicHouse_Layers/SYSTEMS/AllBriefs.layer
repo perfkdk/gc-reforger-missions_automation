@@ -44,7 +44,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  CL {
   coords 7070.548 152.503 742.933
-  m_sTitle "Mission notes"
+  m_sTitle "Changelog"
   m_sTextData "<h2>Added:</h2>"\
   "• More buildings around the outside of the compound and their respective markers."\
   "• Further low/small cover to the area outside the compound to make the AI not a total turket shoot at times."\
