@@ -47,8 +47,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Changelog"
   m_sTextData "<h2>Added:</h2>"\
   "• More buildings around the outside of the compound and their respective markers."\
-  "• Further low/small cover to the area outside the compound to make the AI not a total turket shoot at times."\
-  "• Further fortifications to the compound, including a ladder to the garage roof with fighting positons."\
+  "• Further low/small cover to the area outside the compound to make the AI not a total turkey shoot at times."\
+  "• Further fortifications to the compound, including a ladder to the garage roof with fighting positions."\
   "• UK AO limit to brief."\
   "• MMG Markers"\
   ""\
