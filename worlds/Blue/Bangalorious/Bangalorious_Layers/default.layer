@@ -11,11 +11,10 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{68CEBE1895EB9850}" {
      m_sWeatherPresetName "Clear"
-     m_iStartingHour 2
-     m_iStartingMinutes 40
+     m_iStartingHour 6
+     m_iStartingMinutes 45
     }
    }
-   m_bAllowHeaderSettings 1
    m_bWindOverride 1
    m_fWindSpeed 2
    m_fWindDirection 1
@@ -43,12 +42,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
  }
 }
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
- components {
-  TILW_CoverMapComponent "{6473480FCAB7760B}" {
-   Enabled 1
-  }
- }
- coords 3301.509 15.336 918.495
+ coords 3300 15.336 918.495
  Points {
   ShapePoint "{68B8637EA6E23F43}" {
    Position -120.922 0 28.724
@@ -56,11 +50,8 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   ShapePoint "{68B8637F5F307190}" {
    Position 190.6 0 70.734
   }
-  ShapePoint "{68B8637C4BB36C27}" {
-   Position 1122.682 0 245.28
-  }
   ShapePoint "{68B8637F555322C4}" {
-   Position 1296.439 0 530.002
+   Position 1280.888 14.224 256.683
   }
   ShapePoint "{68B8637F4800094F}" {
    Position 1295.231 0 1142.795
@@ -147,6 +138,29 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_flagName "USSR95"
    m_factionKey "USSR"
    m_casualtyRatio 0.95
+  }
+ }
+}
+PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+ components {
+  TILW_MapShapeComponent "{6508F5526836BC09}" {
+   m_color 0 0 0 1
+   m_invert 1
+  }
+ }
+ coords 4000 15.375 1000
+ Points {
+  ShapePoint "{69F0D8EE850BB75D}" {
+   Position 500 -0.285 -100
+  }
+  ShapePoint "{69F0D8EFE2DCA5C0}" {
+   Position 500 11.35 3500
+  }
+  ShapePoint "{69F0D8EEF1231165}" {
+   Position -1000 -15.375 3500
+  }
+  ShapePoint "{69F0D8EEC82549D0}" {
+   Position -1000 -1.918 -100
   }
  }
 }

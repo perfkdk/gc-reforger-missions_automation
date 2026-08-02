@@ -1,12 +1,14 @@
 SCR_AIGroup TKA_COY_HQ_1 : "{50BEC31075F5C8F3}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Group_GC_TKA_CHQ_P.et" {
  components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1
-   m_iSquadCallsign 1
   }
  }
- coords 4688.962 345.621 728.867
- angles 0.403 -136.839 -0.013
+ coords 4687.724 343.751 735.521
+ angles 0.403 -135.648 -0.004
  m_aUnitPrefabSlots {
   "{563E798C359BD3B3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_CoyL_P.et"
   "{3FED9C90937CCCBA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_CoySGTMaj_P.et"
@@ -17,123 +19,133 @@ SCR_AIGroup TKA_COY_HQ_1 : "{50BEC31075F5C8F3}Prefabs/Groups/INDFOR/GC_TKA/Takis
 $grp SCR_AIGroup : "{7CBC157AA0058745}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Group_GC_TKA_RifleSquad_P.et" {
  TKA_RifleSquad_P1_S1 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 2
    }
   }
-  coords 4691.342 344.017 732.034
-  angles 0 -135.661 0
+  coords 4689.797 343.734 731.158
+  angles 0 -137.214 0
   m_aUnitPrefabSlots {
-   "{1DD3B596D07E0248}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SL_AK_P.et"
+   "{8786885F583CF73A}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_SL_P.et"
    "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et"
-   "{9DADFBD7E5382064}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_AT_Assist_AK_P.et"
+   "{4FD0A03D054F17DE}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_AT2_P.et"
    "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et"
-   "{35211DBDBA351BAC}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SrRifleman_AK_P.et"
-   "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
+   "{E4D96E512B276299}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_SrRifleman_P.et"
    "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
   }
  }
  TKA_RifleSquad_P1_S2 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 3
    }
   }
-  coords 4692.563 344.032 732.925
-  angles 0 -138.352 0
+  coords 4691.324 343.744 729.67
+  angles 0 -136.273 0
   m_aUnitPrefabSlots {
-   "{1DD3B596D07E0248}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SL_AK_P.et"
+   "{8786885F583CF73A}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_SL_P.et"
    "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et"
-   "{9DADFBD7E5382064}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_AT_Assist_AK_P.et"
+   "{4FD0A03D054F17DE}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_AT2_P.et"
    "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et"
-   "{35211DBDBA351BAC}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SrRifleman_AK_P.et"
-   "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
+   "{E4D96E512B276299}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_SrRifleman_P.et"
    "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
   }
  }
  TKA_RifleSquad_P2_S1 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iPlatoonCallsign 2
     m_iSquadCallsign 2
    }
   }
-  coords 4695.511 344.084 735.895
-  angles 0 -139.228 0
+  coords 4682.674 344.084 737.875
+  angles 0 -136.754 0
   m_aUnitPrefabSlots {
-   "{1DD3B596D07E0248}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SL_AK_P.et"
+   "{8786885F583CF73A}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_SL_P.et"
    "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et"
-   "{9DADFBD7E5382064}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_AT_Assist_AK_P.et"
+   "{4FD0A03D054F17DE}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_AT2_P.et"
    "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et"
-   "{35211DBDBA351BAC}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SrRifleman_AK_P.et"
-   "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
+   "{E4D96E512B276299}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_SrRifleman_P.et"
    "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
   }
  }
  TKA_RifleSquad_P2_S2 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iPlatoonCallsign 2
     m_iSquadCallsign 3
    }
   }
-  coords 4697.857 343.988 738.326
-  angles 0 -138.029 0
+  coords 4684.443 343.988 736.201
+  angles 0 -137.32 0
   m_aUnitPrefabSlots {
-   "{1DD3B596D07E0248}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SL_AK_P.et"
+   "{8786885F583CF73A}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_SL_P.et"
    "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et"
-   "{9DADFBD7E5382064}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_AT_Assist_AK_P.et"
+   "{4FD0A03D054F17DE}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_AT2_P.et"
    "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et"
-   "{35211DBDBA351BAC}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SrRifleman_AK_P.et"
-   "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
+   "{E4D96E512B276299}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_SrRifleman_P.et"
    "{8C4F6AB78D0E2D3E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Rifleman_P.et"
   }
  }
- TKA_WepSquad_P1_S3 {
+ TKA_WepsSquad_P1_S3 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 4
    }
   }
-  coords 4693.235 344 733.601
-  angles -0.198 -135.764 0.203
+  coords 4687.88 343.724 733.047
+  angles 0 -137.214 0
   m_aUnitPrefabSlots {
-   "{1DD3B596D07E0248}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SL_AK_P.et"
-   "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et"
-   "{6FC13A33E64920BF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT2_P.et"
-   "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et"
-   "{35211DBDBA351BAC}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SrRifleman_AK_P.et"
-   "{F06C149C8648C9FF}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_PKM_Gunner_P.et"
-   "{42EB067D53E2C37D}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_PKM_Assist_P.et"
+   "{8786885F583CF73A}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_SL_P.et"
+   "{AD5336F31E97740A}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_MG_PKM_Gunner_P.et"
+   "{98ECAFBB6B6E901F}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_MG_PKM_Assist_P.et"
+   "{4D0C75F55265E92B}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_Marksman_SVD_P.et"
+   "{84BB1BA0BA1C15A1}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_M79Grenadier_P.et"
   }
   m_sCustomNameSet "Weapons Squad"
  }
- TKA_WepSquad_P2_S3 {
+ TKA_WepsSquad_P2_S3 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iPlatoonCallsign 2
     m_iSquadCallsign 4
    }
   }
-  coords 4696.796 343.981 737.071
-  angles 0 -141.48 0
+  coords 4681.263 343.765 739.425
+  angles 0 -137.214 0
   m_aUnitPrefabSlots {
-   "{1DD3B596D07E0248}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SL_AK_P.et"
-   "{3129137059C4AEB0}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT1_P.et"
-   "{6FC13A33E64920BF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AT2_P.et"
-   "{71F81623260FFDF8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_AutoRifleman_P.et"
-   "{35211DBDBA351BAC}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_SrRifleman_AK_P.et"
-   "{F06C149C8648C9FF}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_PKM_Gunner_P.et"
-   "{42EB067D53E2C37D}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_PKM_Assist_P.et"
+   "{8786885F583CF73A}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_SL_P.et"
+   "{AD5336F31E97740A}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_MG_PKM_Gunner_P.et"
+   "{98ECAFBB6B6E901F}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_MG_PKM_Assist_P.et"
+   "{4D0C75F55265E92B}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_Marksman_SVD_P.et"
+   "{84BB1BA0BA1C15A1}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_M79Grenadier_P.et"
   }
   m_sCustomNameSet "Weapons Squad"
  }
@@ -141,35 +153,39 @@ $grp SCR_AIGroup : "{7CBC157AA0058745}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army
 $grp SCR_AIGroup : "{CA68C1FA21DF9212}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Group_GC_TKA_PHQ_P.et" {
  TKA_PLT_HQ_1 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 1
    }
   }
-  coords 4690.282 343.982 730.571
-  angles 0.016 -137.344 0.402
+  coords 4692.796 343.746 728.324
+  angles 0.011 -136.607 0.402
   m_aUnitPrefabSlots {
    "{81D89C222FDDC5BF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_PL_P.et"
-   "{3EEDF9FFA0153BF9}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_PSG_AK_P.et"
-   "{C5B46AE081180AA0}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_Marksmans_P.et"
+   "{EC90A21540620C43}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_PSG_P.et"
    "{B282183C856A537C}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Medic_P.et"
   }
  }
  TKA_PLT_HQ_2 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iPlatoonCallsign 2
     m_iSquadCallsign 1
    }
   }
-  coords 4694.692 344.037 734.985
-  angles 0.02 -137.912 0.401
+  coords 4685.394 343.723 735.216
+  angles 0.006 -135.953 0.401
   m_aUnitPrefabSlots {
    "{81D89C222FDDC5BF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_PL_P.et"
-   "{3EEDF9FFA0153BF9}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_PSG_AK_P.et"
-   "{C5B46AE081180AA0}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/TKA_Marksmans_P.et"
+   "{EC90A21540620C43}worlds/RedTheKnown/ChakChakChosen/Prefabs/TakiUnits/Custom_GC_TKA_PSG_P.et"
    "{B282183C856A537C}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/P/Character_GC_TKA_Medic_P.et"
   }
  }
