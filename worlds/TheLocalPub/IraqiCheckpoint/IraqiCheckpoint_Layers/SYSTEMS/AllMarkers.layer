@@ -354,6 +354,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
   components {
    TILW_MapShapeComponent "{6508F5526836BC09}" {
     m_color 0.423 0.423 0.423 0.75
+    m_lineColor 0.205 0.205 0.205 1
     m_lineWidth 1
    }
   }
@@ -377,6 +378,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
   components {
    TILW_MapShapeComponent "{6508F5526836BC09}" {
     m_color 0.423 0.423 0.423 0.75
+    m_lineColor 0.205 0.205 0.205 1
     m_lineWidth 1
    }
   }
@@ -393,6 +395,140 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
    }
    ShapePoint "{69593B049937BF5D}" {
     Position 3109.359 -8.642 1151.689
+   }
+  }
+ }
+ {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.423 0.423 0.423 1
+    m_drawLine 1
+    m_lineColor 0.205 0.205 0.205 1
+    m_lineWidth 1
+   }
+  }
+  coords 3826.854 487.974 7410.509
+  Points {
+   ShapePoint "{6A04E735E73B0649}" {
+    Position -81.154 -470.13 42.398
+   }
+   ShapePoint "{6A04E735E591447A}" {
+    Position -24.887 -470.13 42.727
+   }
+   ShapePoint "{6A04E735DB4510BF}" {
+    Position -24.518 -470.13 78.75
+   }
+   ShapePoint "{6A04E735D93D73A6}" {
+    Position -81.211 -470.131 79.819
+   }
+  }
+ }
+ {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.423 0.423 0.423 1
+    m_drawLine 1
+    m_lineColor 0.205 0.205 0.205 1
+    m_lineWidth 1
+   }
+  }
+  coords 3592.551 155.199 6446.676
+  Points {
+   ShapePoint "{6A04E734141531F8}" {
+    Position 6.133 -137.386 -9.625
+   }
+   ShapePoint "{6A04E73415B54089}" {
+    Position 2.555 -137.386 -8.09
+   }
+   ShapePoint "{6A04E7340DC82F59}" {
+    Position -4.789 -137.386 -18.093
+   }
+   ShapePoint "{6A04E734029419D3}" {
+    Position 0.516 -137.386 -20.902
+   }
+  }
+ }
+ {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.423 0.423 0.423 1
+    m_drawLine 1
+    m_lineColor 0.205 0.205 0.205 1
+    m_lineWidth 1
+   }
+  }
+  coords 4500.265 48.693 6717.797
+  Points {
+   ShapePoint "{6A04E737C1A8F939}" {
+    Position 6.974 -30.85 16.184
+   }
+   ShapePoint "{6A04E737C65D9BE1}" {
+    Position 23.271 -30.849 11.572
+   }
+   ShapePoint "{6A04E737C746255F}" {
+    Position 28.452 -30.849 28.46
+   }
+   ShapePoint "{6A04E737C529247C}" {
+    Position 20.118 -30.849 30.83
+   }
+   ShapePoint "{6A04E737C556A1EF}" {
+    Position 17.75 -30.849 24.347
+   }
+   ShapePoint "{6A04E7363A2A7284}" {
+    Position 9.388 -30.849 26.134
+   }
+  }
+ }
+ {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.423 0.423 0.423 1
+    m_drawLine 1
+    m_lineColor 0.205 0.205 0.205 1
+    m_lineWidth 1
+   }
+  }
+  coords 4521.986 73.653 6756.26
+  Points {
+   ShapePoint "{6A04E73636B08D8A}" {
+    Position -4.455 -55.809 18.417
+   }
+   ShapePoint "{6A04E7363614CB52}" {
+    Position -21.269 -55.809 5.679
+   }
+   ShapePoint "{6A04E73637D476E4}" {
+    Position -31.112 -55.809 7.208
+   }
+   ShapePoint "{6A04E73634EFA844}" {
+    Position -43.786 -55.84 23.563
+   }
+   ShapePoint "{6A04E73635D3B93F}" {
+    Position -20.632 -55.809 40.981
+   }
+  }
+ }
+ {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.423 0.423 0.423 1
+    m_drawLine 1
+    m_lineColor 0.205 0.205 0.205 1
+    m_lineWidth 1
+   }
+  }
+  coords 4449.164 62.061 6633.091
+  Points {
+   ShapePoint "{6A04E73620C43DB3}" {
+    Position 96.843 -44.217 118.883
+   }
+   ShapePoint "{6A04E73621B28C5B}" {
+    Position 108.09 -44.218 129.396
+   }
+   ShapePoint "{6A04E7362620B467}" {
+    Position 102.421 -44.217 135.491
+   }
+   ShapePoint "{6A04E73624811225}" {
+    Position 91.146 -44.218 124.976
    }
   }
  }

@@ -648,7 +648,7 @@ $grp Vehicle : "{C7CE8044B5E301F5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transpo
   angles 0 -48.451 0
  }
 }
-Vehicle M1151_armed_BMP_TAN1 : "{E69BD3AC16F5AA77}Prefabs/Vehicles/Wheeled/M998/M1151/BTR_Turret/M1151_armed_BMP_TAN.et" {
+Vehicle M1151_armed_BMP_TAN1 : "{E69BD3AC16F5AA77}Prefabs/Vehicles/Wheeled/M998/M1151/BTR_Turret/M1151_armed_BTR_TAN.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
    MultiSlots {
@@ -702,7 +702,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3959.855 17.844 4330.007
+  coords 3964.394 17.844 4325.527
   angles 0 131.918 0
  }
  motorbike_green2 {
@@ -715,7 +715,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3962.164 17.844 4332.578
+  coords 3966.703 17.844 4328.098
   angles 0 131.918 0
  }
  motorbike_green3 {
@@ -728,7 +728,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3964.447 17.844 4335.147
+  coords 3968.986 17.844 4330.667
   angles 0 127.545 0
  }
  motorbike_green4 {
@@ -741,7 +741,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3966.592 17.844 4337.938
+  coords 3971.131 17.844 4333.458
   angles 0 124.679 0
  }
  motorbike_green5 {
@@ -754,7 +754,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3968.757 17.844 4341.219
+  coords 3973.296 17.844 4336.739
   angles 0 120.911 0
  }
  motorbike_green9 {
@@ -767,7 +767,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3975.197 17.844 4353.582
+  coords 3979.736 17.844 4349.102
   angles 0 115.8 0
  }
  motorbike_green8 {
@@ -780,7 +780,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3973.828 17.894 4350.381
+  coords 3978.368 17.844 4345.901
   angles 0 114.485 0
  }
  motorbike_green7 {
@@ -793,7 +793,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3972.211 17.887 4347.254
+  coords 3976.75 17.844 4342.774
   angles 0 117.351 0
  }
  motorbike_green14 {
@@ -806,7 +806,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3957.323 17.873 4327.59
+  coords 3961.862 17.844 4323.11
   angles 0 135.489 0
  }
  motorbike_green13 {
@@ -819,7 +819,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3954.692 17.865 4325.25
+  coords 3959.232 17.844 4320.77
   angles 0 138.355 0
  }
  motorbike_green11 {
@@ -832,7 +832,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3978.31 17.844 4360.473
+  coords 3982.849 17.844 4355.993
   angles 0 115.509 0
  }
  motorbike_green6 {
@@ -845,7 +845,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3970.565 17.851 4344.24
+  coords 3975.104 17.844 4339.76
   angles 0 118.045 0
  }
  motorbike_green10 {
@@ -858,7 +858,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3976.728 17.851 4356.752
+  coords 3981.267 17.844 4352.272
   angles 0 112.934 0
  }
  motorbike_green12 {
@@ -871,7 +871,7 @@ $grp Vehicle : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_g
     }
    }
   }
-  coords 3979.825 17.851 4363.65
+  coords 3984.365 17.844 4359.17
   angles 0 112.643 0
  }
 }
@@ -924,7 +924,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3961.109 17.844 4331.375
+  coords 3965.649 17.844 4326.895
   angles 0 136.068 0
  }
  motorbike2 {
@@ -937,7 +937,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3963.417 17.844 4333.946
+  coords 3967.956 17.844 4329.466
   angles 0 136.068 0
  }
  motorbike3 {
@@ -950,7 +950,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3965.591 17.844 4336.607
+  coords 3970.13 17.844 4332.127
   angles 0 131.694 0
  }
  motorbike4 {
@@ -963,7 +963,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3967.663 17.844 4339.453
+  coords 3972.202 17.844 4334.973
   angles 0 128.829 0
  }
  motorbike6 {
@@ -976,7 +976,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3971.455 17.861 4345.869
+  coords 3975.994 17.844 4341.389
   angles 0 122.195 0
  }
  motorbike5 {
@@ -989,7 +989,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3969.725 17.856 4342.802
+  coords 3974.264 17.844 4338.322
   angles 0 125.06 0
  }
  motorbike11 {
@@ -1002,7 +1002,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3979.125 17.856 4362.139
+  coords 3983.664 17.844 4357.659
   angles 0 119.658 0
  }
  motorbike12 {
@@ -1015,7 +1015,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3980.558 17.861 4365.355
+  coords 3985.097 17.844 4360.875
   angles 0 116.793 0
  }
  motorbike14 {
@@ -1028,7 +1028,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3958.66 17.882 4328.878
+  coords 3963.2 17.844 4324.398
   angles 0 139.639 0
  }
  motorbike8 {
@@ -1041,7 +1041,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3974.615 17.904 4352.063
+  coords 3979.154 17.844 4347.583
   angles 0 118.635 0
  }
  motorbike7 {
@@ -1054,7 +1054,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3973.079 17.899 4348.894
+  coords 3977.618 17.844 4344.414
   angles 0 121.5 0
  }
  motorbike9 {
@@ -1067,7 +1067,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3976.02 17.856 4355.244
+  coords 3980.559 17.844 4350.764
   angles 0 119.949 0
  }
  motorbike10 {
@@ -1080,7 +1080,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3977.47 17.861 4358.453
+  coords 3982.01 17.844 4353.973
   angles 0 117.084 0
  }
  motorbike13 {
@@ -1093,7 +1093,7 @@ $grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.e
     }
    }
   }
-  coords 3956.09 17.878 4326.471
+  coords 3960.629 17.844 4321.991
   angles 0 142.504 0
  }
 }

@@ -1,3 +1,13 @@
+$grp GenericEntity {
+ {
+  coords 6795.4 410.984 8072.648
+  angles 0 -89.2 0
+ }
+ {
+  coords 2141.854 410.984 8137.628
+  angles 0 -89.2 0
+ }
+}
 GenericEntity : "{01EB4A20B6BB6390}Prefabs/Structures/Misc/Nargile.et" {
  coords 3774.859 21.514 6940.74
  angles 0 -114.256 0
@@ -189,16 +199,6 @@ GenericEntity : "{ACB6EFBD551A30FE}Prefabs/Compositions/Misc/SubCompositions/Fur
 SCR_DestructibleEntity : "{AD770EDAA1E40239}Prefabs/Models/cars/tem_landrover1.et" {
  coords 3784.485 0 6954.463
  angles 0 -50.243 0
-}
-$grp GenericEntity : "{AEF87F221916AB47}Prefabs/Structures/Mountain/a2_takistan_mountains_v3.et" {
- {
-  coords 6795.4 410.984 8072.648
-  angles 0 -89.2 0
- }
- {
-  coords 2141.854 410.984 8137.628
-  angles 0 -89.2 0
- }
 }
 GenericEntity : "{AF7836F10A468673}Prefabs/Props/Civilian/RadioSmall_01_Kunar.et" {
  coords 3772.739 21.892 6940.562

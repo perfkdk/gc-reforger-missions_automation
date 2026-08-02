@@ -149,7 +149,7 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
     m_iSquadCallsign 7
    }
   }
-  coords 3967.383 17.844 4330.625
+  coords 3958.708 17.864 4333.64
   angles 0 134.732 0
   m_aUnitPrefabSlots {
    "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et"
@@ -172,7 +172,7 @@ $grp SCR_AIGroup : "{80BDE40EE0ADF9E3}Prefabs/Groups/OPFOR/GC_INSURGENT/P/GC_INS
     m_iSquadCallsign 8
    }
   }
-  coords 3975.06 17.844 4341.33
+  coords 3968.834 17.844 4349.825
   angles 0 125.412 0
   m_aUnitPrefabSlots {
    "{8571D23E67D8DA03}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_SL_P.et"
@@ -195,8 +195,8 @@ SCR_AIGroup INDOR_HQ1 : "{B7430DCCC8D6FA05}Prefabs/Groups/OPFOR/GC_INSURGENT/P/G
    m_iPlatoonCallsign 1
   }
  }
- coords 3958.697 17.844 4320.588
- angles 0 109.558 0
+ coords 3952.108 18.884 4318.764
+ angles 0 88.64 0
  m_aUnitPrefabSlots {
   "{9D7D6D238A9D8B0D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_CO_P.et"
   "{535CFD9552641200}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/P/Character_GC_INSURGENT_Sharpshooter_P.et"
