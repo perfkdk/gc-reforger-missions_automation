@@ -1,0 +1,47 @@
+SCR_EntityWaypoint WP_ATK1 : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et" {
+ coords 672.562 85.908 228.406
+}
+$grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+ WP_M1 {
+  coords 871.723 95.705 215.642
+  m_aSettings {
+   SCR_AICharacterMovementSpeedSetting "{6A072A1E050E9A60}" {
+    m_eCause DANGER_MEDIUM
+    m_eSpeed RUN
+   }
+   SCR_AIGroupFormationSetting "{6A072A1E709E2F09}" {
+    m_eFormation Line
+   }
+   SCR_AIGroupCombatModeSetting "{6A072A1E68A6E829}" {
+   }
+  }
+ }
+ WP_M2 {
+  coords 775.668 101.496 447.473
+  m_aSettings {
+   SCR_AICharacterMovementSpeedSetting "{6A072A1E050E9A60}" {
+    m_eCause DANGER_MEDIUM
+    m_eSpeed RUN
+   }
+   SCR_AIGroupFormationSetting "{6A072A1E709E2F09}" {
+    m_eFormation Line
+   }
+   SCR_AIGroupCombatModeSetting "{6A072A1E68A6E829}" {
+   }
+  }
+ }
+ WP_M3 {
+  coords 398.173 83.127 151.78
+  m_aSettings {
+   SCR_AICharacterMovementSpeedSetting "{6A072A1E050E9A60}" {
+    m_eCause DANGER_MEDIUM
+    m_eSpeed RUN
+   }
+   SCR_AIGroupFormationSetting "{6A072A1E709E2F09}" {
+    m_eFormation Line
+   }
+   SCR_AIGroupCombatModeSetting "{6A072A1E68A6E829}" {
+   }
+  }
+ }
+}

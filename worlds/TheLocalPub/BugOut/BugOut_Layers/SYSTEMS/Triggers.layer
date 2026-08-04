@@ -1,0 +1,21 @@
+TILW_ExtractionTriggerEntity Trigger_Extraction : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
+ coords 2016.586 135.753 830.086
+ m_queryRadius 30
+ m_captureTime 5
+ m_flagName "UK_Extracted"
+ m_stopAfterFirstChange 1
+ m_factionKey "UK"
+ m_ratioThreshold 0.51
+}
+TILW_FactionTriggerEntity Trigger_UKLeft : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 1365.541 115.496 536.703
+ m_queryRadius 700
+ m_flagName "UK_left"
+ m_stopAfterFirstChange 1
+ m_playersOnly 1
+ m_ignoredFactions {
+  "USSR"
+ }
+ m_ownerFactionKey "UK"
+ m_ratioThreshold 0.001
+}

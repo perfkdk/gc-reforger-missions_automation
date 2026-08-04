@@ -1,0 +1,13 @@
+TILW_PrefabSpawnerEntity Effect_Redflare : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ coords 673.073 141.776 226.858
+ angles 0 -70.391 0
+ m_prefab "{49D3A377C712648B}Prefabs/Systems/Flare/Wrapper_Flare_Parachute_Red.et"
+ m_spawnTimings {
+  10
+  68
+  128
+  188
+  248
+  308
+ }
+}
