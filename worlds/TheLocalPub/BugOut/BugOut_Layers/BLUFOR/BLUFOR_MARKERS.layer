@@ -13,6 +13,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  Blufor_extractionmarker {
   coords 2018.205 129.857 831.895
   angles 0 90 0
+  m_MarkerColor 0.016 0.552 0.905 1
   m_sQuadName "pick-up-2"
   m_fWorldSize 40
   m_sDescription "Extraction point"

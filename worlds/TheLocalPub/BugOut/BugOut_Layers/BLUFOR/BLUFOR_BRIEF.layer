@@ -1,6 +1,6 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  BLUCOMSIG {
-  coords 1855.937 -4.674 9493.537
+  coords 69.676 99.781 76.216
   m_sTitle "Command & signals"
   m_sTextData "<h2>CALLSIGNS</h2>"\
   "HQ - 11"\
@@ -28,7 +28,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 6
  }
  BLUEN {
-  coords 1883.729 -6.147 9485.146
+  coords 97.468 98.308 67.825
   m_sTitle "Enemy forces"
   m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>  "\
   "Enemy forces consist of Argentine Army elements operating within the area of operations."\
@@ -46,11 +46,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 4
  }
  BLUFRIEND {
-  coords 1901.836 -2.924 9459.733
+  coords 114.74 101.531 35.051
   m_sTitle "Friendly forces"
   m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>  "\
   "We are 1 Platoon, A Company, 1st Battalion, Welsh Guards."\
   "Our force consists of 27 personnel currently assembled at the harbour area, GRID:"\
+  ""\
+  "Our harbour area is arranged in a triangular formation, with shell scrape positions established at each point and along the perimeter. Platoon HQ occupies its own shell scrape in the centre of the formation."\
+  "These are shallow dug positions offering only limited protection and should not be considered suitable for prolonged defence."\
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2>  "\
   "• None."\
@@ -63,7 +66,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 3
  }
  BLUMIS {
-  coords 1894.074 17.116 9581.171
+  coords 107.813 121.571 163.85
   m_sTitle "Mission"
   m_sTextData "<h2>MISSION STATEMENT</h2>  "\
   "We are to conduct a <b>FIGHTING WITHDRAWAL</b> to our extraction area in the north-east in order to rally with our vehicles and leave the AO."\
@@ -80,7 +83,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_iOrder 2
  }
  BLUSIT {
-  coords 1882.398 -5.484 9487.985
+  coords 96.137 98.971 70.664
   m_sTitle "Situation"
   m_sTextData "<h2>PRELIMS</h2>"\
   "DTL: 18/04/1982, 0530hrs, Longmoor Training Area, South of England."\

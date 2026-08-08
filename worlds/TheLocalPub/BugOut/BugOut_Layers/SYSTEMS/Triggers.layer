@@ -5,17 +5,30 @@ TILW_ExtractionTriggerEntity Trigger_Extraction : "{192ABD6B9232E064}Prefabs/Log
  m_flagName "UK_Extracted"
  m_stopAfterFirstChange 1
  m_factionKey "UK"
- m_ratioThreshold 0.51
+ m_ratioThreshold 0.75
 }
-TILW_FactionTriggerEntity Trigger_UKLeft : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 1365.541 115.496 536.703
- m_queryRadius 700
- m_flagName "UK_left"
- m_stopAfterFirstChange 1
- m_playersOnly 1
- m_ignoredFactions {
-  "USSR"
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ Trigger_UKLeft1 {
+  coords 1365.541 115.496 536.703
+  m_queryRadius 700
+  m_flagName "UK_left"
+  m_stopAfterFirstChange 1
+  m_ignoredFactions {
+   "GC_ARG"
+  }
+  m_ownerFactionKey "UK"
+  m_ratioThreshold 0.01
  }
- m_ownerFactionKey "UK"
- m_ratioThreshold 0.001
+ Trigger_UKLeft2 {
+  coords 2075.564 115.496 536.703
+  m_queryRadius 700
+  m_flagName "UK_left2"
+  m_stopAfterFirstChange 1
+  m_playersOnly 1
+  m_ignoredFactions {
+   "GC_ARG"
+  }
+  m_ownerFactionKey "UK"
+  m_ratioThreshold 0.01
+ }
 }
