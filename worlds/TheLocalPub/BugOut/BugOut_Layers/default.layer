@@ -4,14 +4,14 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 5
-   m_iStartingMinutes 37
+   m_iStartingHours 6
+   m_iStartingMinutes 2
    m_bUsePredefineStartingTimeAndWeather 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{62F56305E6873A67}" {
      m_sWeatherPresetName "Rainy"
-     m_iStartingHour 5
-     m_iStartingMinutes 37
+     m_iStartingHour 6
+     m_iStartingMinutes 2
     }
    }
    m_bUseSpecifiedDate 1
@@ -93,6 +93,62 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_invertTerm 1
     m_flagName "HarbourFlares"
    }
+  }
+  TILW_MissionEvent "{6A1084BF4B614456}" {
+   m_name "Effects_DisableFlareEvent"
+   m_instructions {
+    TILW_DeleteEntitiesInstruction "{6A1084BFB28FECF7}" {
+     m_entityNames {
+      "RedFlare"
+     }
+    }
+    TILW_DeactivateEventsInstruction "{6A1084BFA539E08C}" {
+     m_executionDelay 0.001
+     m_eventNames {
+      "Effects_Flares"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A1084BF40D8939B}" {
+    m_flagName "UK_left"
+   }
+  }
+  TILW_MissionEvent "{6A10849F81B1E7E1}" {
+   m_name "EC_UKLose"
+   m_instructions {
+    TILW_SendMessageInstruction "{6A10849FE4357537}" {
+     m_messageTitle "BRITISH DEFEAT"
+     m_messageBody "Our platoon has been almost completely destroyed. The RV is no longer viable; abandon the extraction route and break into the woods while we still can."\
+     ""\
+     "Better luck next time."\
+     "Mission will conclude shortly..."
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A10849FE83B3D85}" {
+    m_flagName "UKDead"
+   }
+  }
+  TILW_MissionEvent "{6A10849C99CDE157}" {
+   m_name "EC_UKWin"
+   m_instructions {
+    TILW_SendMessageInstruction "{6A10849C99CDE6FD}" {
+     m_messageTitle "BRITISH VICTORY"
+     m_messageBody "Our platoon has successfully reached the RV with enough personnel to withdraw. Mount up and get out of the area before the enemy can close in."\
+     ""\
+     "Good job lads."\
+     "Mission will conclude shortly..."
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A10849C99CDE6FE}" {
+    m_flagName "UK_Extracted"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6A1084A6DA566EAB}" {
+   m_flagName "UKDead"
+   m_factionKey "UK"
+   m_casualtyRatio 0.8
   }
  }
 }
