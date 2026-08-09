@@ -11,10 +11,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "End conditions:"\
   "- NVA Victory: 95% control over Hnevice for 1 minute"\
-  "- CAF Victory: 80% NVA casualties, or 45 minutes pass"\
-  ""\
-  ""\
-  "GMs must disable supply usage for the mortars ATM"
+  "- CAF Victory: 80% NVA casualties, or 45 minutes pass"
   m_bShowForAnyFaction 1
   m_iOrder 3
  }
