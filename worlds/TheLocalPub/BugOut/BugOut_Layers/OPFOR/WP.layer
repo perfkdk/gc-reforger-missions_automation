@@ -19,6 +19,9 @@ $grp SCR_EntityWaypoint : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Att
     m_eCause COMBAT
    }
   }
+  m_EntityWaypointParameters SCR_AIEntityWaypointParameters "{6A12ADADCB198EE4}" {
+   m_sEntityName "PLT1HQ"
+  }
  }
  WP_ATK2 {
   coords 2022.714 129.657 836.521
@@ -44,7 +47,8 @@ $grp SCR_EntityWaypoint : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Att
 }
 $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  WP_M2 {
-  coords 764.982 92.331 386.175
+  coords 534.316 92.24 326.954
+  angles 0 -54.979 0
   m_aSettings {
    SCR_AICharacterMovementSpeedSetting "{6A072A1E050E9A60}" {
     m_eCause DANGER_MEDIUM
@@ -61,7 +65,7 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
   }
  }
  WP_M3 {
-  coords 490.76 83.127 153.376
+  coords 480.443 84.987 41.908
   m_aSettings {
    SCR_AICharacterMovementSpeedSetting "{6A072A1E050E9A60}" {
     m_eCause DANGER_MEDIUM

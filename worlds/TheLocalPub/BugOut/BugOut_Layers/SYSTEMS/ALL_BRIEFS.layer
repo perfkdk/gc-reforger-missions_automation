@@ -21,12 +21,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  SUMMARY {
   coords 2226.888 0 9533.049
   m_sTitle "Summary"
-  m_sTextData "British forces on pre-deployment training must break out from their compromised platoon harbour after coming under attack. Repel the initial assault before fighting your way to the extraction area while pursued by Argentinian troops."\
+  m_sTextData "British forces conducting pre-deployment training must break out from their compromised platoon harbour after an Argentine patrol unexpectedly discovers their position."\
   ""\
-  "Will the platoon break contact and escape, or be overrun before reaching extraction?"\
+  "Having repelled the initial contact, can the platoon move fast enough to outrun the pursuing enemy and fight through the forces closing in on their callsign?"\
   ""\
   "<h2>Summary Notes</h2>"\
-  "• Fighting begins almost immediately after spawning. <b>STAND TO!</b>"
+  "• Delaying manoeuvres at the start of the mission will be detrimental to the British force. <b>Stand to and bug out!</b>"
   m_bEmptyFactionVisibility 1
   m_iOrder 0
  }
