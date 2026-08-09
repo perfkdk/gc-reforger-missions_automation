@@ -7,8 +7,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    180
   }
   m_waypointNames {
-   "WP_M2"
-   "WP_ATK1"
+   "WP_FLW2"
   }
  }
  OPFOR_RIFLE3 {
@@ -19,8 +18,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    180
   }
   m_waypointNames {
-   "WP_M3"
-   "WP_ATK1"
+   "WP_FLW1"
   }
  }
  OPFOR_RIFLE4 {
