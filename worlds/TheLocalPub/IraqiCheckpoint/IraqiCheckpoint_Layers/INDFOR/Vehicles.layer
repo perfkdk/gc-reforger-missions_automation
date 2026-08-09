@@ -6,6 +6,9 @@ $grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
       NumSlots 0
      }
+     MultiSlotConfiguration "{6064D13A1F7F88F4}" {
+      NumSlots 4
+     }
     }
    }
   }
@@ -19,6 +22,9 @@ $grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
       NumSlots 0
      }
+     MultiSlotConfiguration "{6064D13A1F7F88F4}" {
+      NumSlots 4
+     }
     }
    }
   }
@@ -31,6 +37,9 @@ $grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
     MultiSlots {
      MultiSlotConfiguration "{5AD4F813E67ECB53}" {
       NumSlots 0
+     }
+     MultiSlotConfiguration "{6064D13A1F7F88F4}" {
+      NumSlots 4
      }
     }
    }
@@ -239,6 +248,46 @@ $grp Vehicle : "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport
   coords 3999.922 17.844 4294.116
   angles 0 -55.862 0
  }
+}
+Vehicle BMPHMV : "{4F064E9878DCF301}Prefabs/Vehicles/Wheeled/M998/M1151/BMP_Turret/M1151_armed_BMP_TAN.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC91FA}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9108}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9114}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9113}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9111}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9110}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911F}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911D}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911C}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 4027.942 17.844 4324.387
+ angles 0 -16.188 0
 }
 $grp Vehicle : "{518366ADB5E5E0A2}Prefabs/Vehicles/Wheeled/LR_3Series/Civvie/3Series_SWB_Civvie_BronzeGreen.et" {
  _Series_SWB_Civvie_BronzeGreen1 {
@@ -570,46 +619,6 @@ $grp Vehicle : "{A8031273F082DA77}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
   angles 0 -16.739 0
  }
 }
-Tank BMP1 : "{C3CD1D637852C785}Prefabs/Vehicles/Tracked/BMP1/BMP1_FIA_Desert.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
-   MultiSlots {
-    MultiSlotConfiguration "{5E546E7AD86404C0}" {
-     NumSlots 0
-    }
-    MultiSlotConfiguration "{5E546E7AD86404C2}" {
-     NumSlots 40
-    }
-    MultiSlotConfiguration "{5E546E7AD86404C3}" {
-     NumSlots 0
-    }
-    MultiSlotConfiguration "{5E546E7AD86404C4}" {
-     NumSlots 0
-    }
-    MultiSlotConfiguration "{5E546E7AD86404C5}" {
-     NumSlots 0
-    }
-    MultiSlotConfiguration "{5E546E7AD86404C6}" {
-     NumSlots 0
-    }
-    MultiSlotConfiguration "{5E546E7AD86404C7}" {
-     NumSlots 0
-    }
-    MultiSlotConfiguration "{5E546E7AD864594D}" {
-     NumSlots 0
-    }
-    MultiSlotConfiguration "{5E546E7AD86459B2}" {
-     NumSlots 0
-    }
-    MultiSlotConfiguration "{64F343DF231043AD}" {
-     NumSlots 0
-    }
-   }
-  }
- }
- coords 4027.669 17.844 4323.585
- angles 0 -17.458 0
-}
 $grp Vehicle : "{C7CE8044B5E301F5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_randomized.et" {
  UAZ452_transport_CIV_randomized2 {
   components {
@@ -648,7 +657,7 @@ $grp Vehicle : "{C7CE8044B5E301F5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transpo
   angles 0 -48.451 0
  }
 }
-Vehicle M1151_armed_BMP_TAN1 : "{E69BD3AC16F5AA77}Prefabs/Vehicles/Wheeled/M998/M1151/BTR_Turret/M1151_armed_BTR_TAN.et" {
+Vehicle BTRHMV : "{E69BD3AC16F5AA77}Prefabs/Vehicles/Wheeled/M998/M1151/BTR_Turret/M1151_armed_BTR_TAN.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
    MultiSlots {
@@ -662,13 +671,12 @@ Vehicle M1151_armed_BMP_TAN1 : "{E69BD3AC16F5AA77}Prefabs/Vehicles/Wheeled/M998/
      NumSlots 0
     }
     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
-     NumSlots 0
     }
     MultiSlotConfiguration "{66F2D69AD3FC9114}" {
      NumSlots 0
     }
     MultiSlotConfiguration "{66F2D69AD3FC9113}" {
-     NumSlots 20
+     NumSlots 0
     }
     MultiSlotConfiguration "{66F2D69AD3FC9111}" {
      NumSlots 0
@@ -683,7 +691,10 @@ Vehicle M1151_armed_BMP_TAN1 : "{E69BD3AC16F5AA77}Prefabs/Vehicles/Wheeled/M998/
      NumSlots 0
     }
     MultiSlotConfiguration "{66F2D69AD3FC911C}" {
-     NumSlots 0
+     SlotTemplate InventoryStorageSlot ATmine {
+      Enabled 1
+     }
+     NumSlots 4
     }
    }
   }
