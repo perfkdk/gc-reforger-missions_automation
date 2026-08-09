@@ -72,9 +72,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "We are to conduct a <b>FIGHTING WITHDRAWAL</b> to our extraction area in the north-east in order to rally with our vehicles and leave the AO."\
   ""\
   "<h2>MISSION DESCRIPTION</h2>  "\
-  "Our platoon harbour has been compromised following a deliberate Argentine assault. The enemy's objective is to overrun the harbour, destroy the platoon, and prevent our withdrawal."\
+  "Our platoon harbour has been compromised following contact with an Argentine patrol. We have repelled the initial attack, but it is likely only a short matter of time before a larger enemy force reacts and begins pursuing us."\
+  "Immediately break contact and bug out!"\
   ""\
-  "Remaining within the harbour will only allow the enemy to build momentum and surround our position. Instead, we are to break out of the harbour, fight through enemy blocking positions, and withdraw to our waiting Land Rovers at the designated extraction point."\
+  "Remaining within the harbour will only allow the enemy to build momentum and surround our position. Instead, we are to break out of the harbour, fight through any enemies, and withdraw to our waiting Land Rovers at the designated extraction point."\
   ""\
   "Maintain unit cohesion, avoid becoming decisively engaged, and ensure as much of the platoon as possible reaches the extraction area. Once enough surviving personnel have reached the rally we'll withdraw."
   m_aVisibleForFactions {
@@ -95,7 +96,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "1 Platoon, A Company, 1st Battalion, Welsh Guards, is currently taking part in a field exercise at Longmoor Training Area. The platoon has established a temporary harbour area while rehearsing tactical movement, harbour drills, and withdrawal procedures ahead of deployment."\
   ""\
-  "During the early hours of the morning, Argentine reconnaissance elements unexpectedly located the harbour and launched a deliberate assault in an attempt to overrun the position before the platoon could react. With the harbour compromised, the platoon has been ordered to break contact, fight its way back to the extraction point, and withdraw from the area before being cut off."
+  "During the early hours of the morning, Argentine reconnaissance elements unexpectedly located the harbou. British troops killed the small force, but with the harbour compromised, the platoon has been ordered to break contact, fight its way back to the extraction point, and withdraw from the area before being cut off."
   m_aVisibleForFactions {
    "UK"
   }
