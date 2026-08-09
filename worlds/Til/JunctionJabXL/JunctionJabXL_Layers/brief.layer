@@ -13,9 +13,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "- NVA Victory: 95% control over Hnevice for 1 minute"\
   "- CAF Victory: 80% NVA casualties, or 45 minutes pass"\
   ""\
-  "Using the LOS tool and looking at terrain elevation is recommended"\
-  ""\
-  "GMs must disable supply usage for the mortars ATM"
+  "Using LOS tool and looking at terrain profile is recommended"
   m_bShowForAnyFaction 1
   m_iOrder 3
  }
@@ -62,7 +60,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "The assault should maintain momentum so that the enemy has less time to react and reinforce the identified axis."\
   ""\
   "<h1>SUPPORT</h1>"\
-  "2 mortar tubes, unlimited rounds"\
+  "2 mortar tubes, 60 HE + 20 smoke each"\
   "Forward observation group, mounted in SPW-40P2"\
   ""\
   "<h1>COMSIG</h1>"\
@@ -70,6 +68,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   " 1 Plt, 1, 2, 3"\
   " 4 Plt, 4, 5, 6"\
   "7 (FO), 8 (Mortar)"\
+  ""\
   "1+4 do not have handheld radios"\
   "0, 7 and 8 have radio backpacks"\
   ""\
