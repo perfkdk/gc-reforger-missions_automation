@@ -1,0 +1,79 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ NOTES {
+  coords 5262.586 208.817 1681.804
+  angles 10.916 3.336 -0.396
+  m_sTitle "NOTES"
+  m_sTextData "<b>Extra Notes</b>"\
+  ""\
+  "Total victory: Take FOB Thirty Palms and/or make the insurgent force Combat innefective"\
+  "Total Defeat: Die or spend more than 40 mins on your ass"\
+  ""\
+  "(And as you can guess, your two lead humvees have green camo and the Recon team also has green camo)"
+  m_bShowForAnyFaction 1
+  m_iOrder 6
+ }
+ A1_SITUATION {
+  coords 4199.953 170 2701.206
+  m_sTitle "SITUATION"
+  m_sTextData "<b>Situation</b>"\
+  ""\
+  "The Insurgents have just siezed Thirty Palms yesterday and have significant control over the region, we need to assasult it and take it back in 40 mins"\
+  ""\
+  "Expect heavy insurgent resistance from every side and keep your humvees safe from their RPGs. "
+  m_bShowForAnyFaction 1
+  m_iOrder 1
+ }
+ A2_MISSION {
+  coords 4193.115 172.43 2722.398
+  m_sTitle "MISSION"
+  m_sTextData "<b>Mission</b> "\
+  ""\
+  "Assault and take FOB Thirty Palms from the insurgents"
+  m_bShowForAnyFaction 1
+  m_iOrder 2
+ }
+ A3_EXECUTION {
+  coords 4192.409 172.705 2724.899
+  m_sTitle "EXECUTION"
+  m_sTextData "<b>Execution</b>"\
+  ""\
+  "As per comanders intent"\
+  ""
+  m_bShowForAnyFaction 1
+  m_iOrder 3
+ }
+ A4_LOGISTICS {
+  coords 4192.409 172.705 2724.899
+  m_sTitle "LOGISTICS"
+  m_sTextData "<b>Logistics</b>"\
+  ""\
+  "No ressuply."\
+  "One Mortar with 30 HE rounds and 30 Smoke rounds"\
+  ""\
+  "(Blame the Brigadier General for the two Green humvees and the Forest camo for the Recon team)"
+  m_bShowForAnyFaction 1
+  m_iOrder 4
+ }
+ A5_COMMAND {
+  coords 4238.663 174.582 2746.497
+  m_sTitle "COMMAND"
+  m_sTextData "<b>Command</b>"\
+  ""\
+  "As per commanders intent"\
+  ""\
+  "<b>Radio</b> "\
+  ""\
+  "Platoon net: 48"\
+  "The rest as per commanders intent, im the type of guy that gives freedom and spreads democracy."
+  m_bShowForAnyFaction 1
+  m_iOrder 5
+ }
+ A0_OVERVIEW {
+  coords 4189.453 173.295 2734.152
+  m_sTitle "SITUATION"
+  m_sTextData "<b>Overview</b>"\
+  ""\
+  "US Marines Assault the FOB of Thirty Palms, which us heavelly defended my enemy insurgents"
+  m_bEmptyFactionVisibility 1
+ }
+}

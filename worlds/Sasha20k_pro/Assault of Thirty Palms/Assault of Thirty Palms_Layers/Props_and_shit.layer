@@ -1,0 +1,33 @@
+GenericEntity : "{1004D6553BC4D646}PrefabsEditable/Auto/ConflictRHS/E_MortarPlacement_S_USMC_01.et" {
+ coords 4132.585 172.936 2698.843
+ angles 3.286 0 0
+ {
+  GenericEntity {
+   ID "6186DB2F33FB321E"
+   {
+    GenericEntity {
+     ID "6186D3A8CE3D2672"
+     components {
+      SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+       Enabled 1
+       MultiSlots {
+        MultiSlotConfiguration "{6A10A3C297FE0627}" {
+         SlotTemplate InventoryStorageSlot Mortar_HE {
+          Prefab "{9122369B60BEB64B}Prefabs/Weapons/Ammo/DispersionTestShells/Ammo_Shell_81mm_HE_M821_TestShell_4Rings.et"
+         }
+         NumSlots 30
+        }
+        MultiSlotConfiguration "{6A10A3C3D13FD23A}" {
+         SlotTemplate InventoryStorageSlot Smoky {
+          Prefab "{A0BBA3DD3A5A9B11}Prefabs/Weapons/Ammo/DispersionTestShells/Ammo_Shell_81mm_Smoke_M819_TestShell_4Rings.et"
+         }
+         NumSlots 30
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

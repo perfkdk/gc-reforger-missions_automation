@@ -1,0 +1,81 @@
+$grp SCR_AIGroup : "{95865B5D03AFBA74}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_PHQ.et" {
+ {
+  coords 5119.877 207.219 1822.443
+  m_aStaticWaypoints {
+   "Defend_your_base_MFs"
+  }
+  m_bDeleteWhenEmpty 0
+  m_iMaxMembers 0
+  m_bDeleteIfNoPlayer 0
+ }
+ {
+  coords 5115.594 207.22 1816.369
+  m_aStaticWaypoints {
+   "Defend_your_base_MFs"
+  }
+  m_bDeleteWhenEmpty 0
+  m_iMaxMembers 0
+  m_bDeleteIfNoPlayer 0
+ }
+}
+$grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+ {
+  components {
+   SCR_AIConfigComponent "{512CC1759AE69D6D}" {
+    m_Skill 1
+   }
+  }
+  coords 5141.317 207.218 1800.489
+  m_aStaticWaypoints {
+   "Defend_your_base_MFs"
+  }
+  m_bDeleteWhenEmpty 0
+  m_iMaxMembers 0
+  m_bDeleteIfNoPlayer 0
+ }
+ {
+  coords 5142.042 207.219 1779.703
+  m_aStaticWaypoints {
+   "Defend_your_base_MFs"
+  }
+  m_bDeleteWhenEmpty 0
+  m_iMaxMembers 0
+  m_bDeleteIfNoPlayer 0
+ }
+ {
+  coords 5141.443 207.216 1757.006
+  m_aStaticWaypoints {
+   "Defend_your_base_MFs"
+  }
+  m_bDeleteWhenEmpty 0
+  m_iMaxMembers 0
+  m_bDeleteIfNoPlayer 0
+ }
+ {
+  coords 5142.708 207.218 1816.122
+  m_aStaticWaypoints {
+   "Defend_your_base_MFs"
+  }
+  m_bDeleteWhenEmpty 0
+  m_iMaxMembers 0
+  m_bDeleteIfNoPlayer 0
+ }
+ {
+  coords 5143.125 207.218 1740.827
+  m_aStaticWaypoints {
+   "Defend_your_base_MFs"
+  }
+  m_bDeleteWhenEmpty 0
+  m_iMaxMembers 0
+  m_bDeleteIfNoPlayer 0
+ }
+ {
+  coords 5142.309 207.22 1766.815
+  m_aStaticWaypoints {
+   "Defend_your_base_MFs"
+  }
+  m_bDeleteWhenEmpty 0
+  m_iMaxMembers 0
+  m_bDeleteIfNoPlayer 0
+ }
+}

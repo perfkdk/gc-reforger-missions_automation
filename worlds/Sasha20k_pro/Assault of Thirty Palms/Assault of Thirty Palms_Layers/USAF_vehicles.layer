@@ -1,0 +1,40 @@
+$grp Vehicle : "{238A2BD96C5EC238}Prefabs/Vehicles/Wheeled/M998/M1151/M2HB/GC_M1151_armed_M2HB_OGPK+Cover.et" {
+ GC_M1151_armed_M2HB_OGPK_Cover1 {
+  coords 4122.278 167.465 2637.667
+  angles 0 -178.331 0
+ }
+ GC_M1151_armed_M2HB_OGPK_Cover2 {
+  coords 4129.283 166.913 2629.482
+  angles 0 -179.094 0
+ }
+}
+$grp Vehicle : "{36ED190F9C9A8E0C}Prefabs/Vehicles/Wheeled/M998/M1151_armed_CROWS_M2_Tan.et" {
+ M1151_armed_CROWS_M2_Tan2 {
+  coords 4115.286 167.863 2645.926
+  angles 0 -179.985 0
+ }
+ M1151_armed_CROWS_M2_Tan3 {
+  coords 4108.433 168.523 2653.653
+  angles 0 175.548 0
+ }
+ M1151_armed_CROWS_M2_Tan4 {
+  coords 4100.473 169.385 2660.937
+  angles 0 176.431 0
+ }
+ M1151_armed_CROWS_M2_Tan6 {
+  coords 4081.352 170.746 2673.677
+  angles 0 167.761 0
+ }
+ M1151_armed_CROWS_M2_Tan7 {
+  coords 4070.623 171.581 2678.986
+  angles 0 167.221 0
+ }
+ M1151_armed_CROWS_M2_Tan1 {
+  coords 4091.202 169.697 2667.874
+  angles 0 178.478 0
+ }
+ M1151_armed_CROWS_M2_Tan5 {
+  coords 4059.021 171.81 2684.216
+  angles 0 169.401 0
+ }
+}

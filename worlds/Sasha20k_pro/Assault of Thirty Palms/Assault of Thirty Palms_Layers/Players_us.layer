@@ -1,0 +1,37 @@
+SCR_AIGroup : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RiflePHQ_D.et" {
+ coords 4122.008 170.401 2664.159
+ angles 0 136.851 0
+ m_iMaxMembers 7
+ m_bPlayable 1
+}
+SCR_AIGroup : "{330BCA7D956E218D}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_MMG_Squad_D.et" {
+ coords 4117.116 171.366 2669.472
+ angles 0 137.545 0
+ m_iMaxMembers 7
+ m_bPlayable 1
+ m_bSetPlayable 1
+}
+SCR_AIGroup : "{A500D8F0D1A10821}Prefabs/Groups/BLUFOR/US/Marines/2025/Recon/Woodland/Group_USMC_2025_FORECON_SQ_M.et" {
+ coords 4127.296 170.571 2659.138
+ angles 0 132.336 0
+ m_iMaxMembers 6
+ m_bSetPlayable 1
+}
+$grp SCR_AIGroup : "{E45968FEDB605FB2}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RifleSquad_SMAW_D.et" {
+ {
+  coords 4105.636 172.741 2682.754
+  angles 0 139.593 0
+  m_iMaxMembers 13
+  m_bPlayable 1
+  m_sCustomNameSet "SMAW Rifle Squad"
+  m_bSetPlayable 1
+ }
+ {
+  coords 4111.655 171.978 2675.859
+  angles 0 138.667 0
+  m_iMaxMembers 13
+  m_bPlayable 1
+  m_sCustomNameSet "SMAW Rifle Squad"
+  m_bSetPlayable 1
+ }
+}
