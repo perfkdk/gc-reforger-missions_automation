@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A1A394624462F25F}worlds/TheLocalPub/HastyAmbush/HastyAmbush.ent"
+ Name "{2DFFB74F07D51C97}worlds/TheLocalPub/BugOut/BugOut.ent"
  Configurations {
   ENTResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   ENTResourceClass PS5 : PC {
   }
   ENTResourceClass HEADLESS : PC {
-  }
-  ENTResourceClass Xbox : PC {
   }
  }
 }

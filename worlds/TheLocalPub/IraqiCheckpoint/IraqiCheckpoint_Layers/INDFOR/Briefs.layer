@@ -38,14 +38,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  EF {
   coords 299.133 21.07 5642.152
   m_sTitle "Enemy forces"
-  m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>  "\
-  "Enemy forces consist of regular Iraqi light infantry, approximately 25 personnel strong, currently garrisoning the fortified northern checkpoint at GRID: 038069.  "\
+  m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>"\
+  "Enemy forces consist of regular Iraqi light infantry, approximately 25 personnel strong, currently garrisoning the fortified northern checkpoint at GRID: 038069."\
   ""\
-  "<h2>STRENGTHS & CAPABILITIES</h2>  "\
-  "• The checkpoint is heavily fortified, featuring high HESCO walls, manned tower bunkers along the perimeter, and razor wire covering both road entrances. Additional fortified fighting positions are established throughout the compound, on surrounding buildings, and along the access road.  "\
-  "Weapon systems include NSV, KORD, PKM, a single mortar, and Kornet ATGM positions, all sighted to cover the surrounding terrain. Iraqi forces regularly rotate weapon placements, making patterns difficult to predict.  "\
-  "The checkpoint maintains clear all-round observation, with minimal cover or concealment within 300 metres.  "\
-  "• 2x .50 cal Humvees have been identified and are used for defence, transport, and general duties around the checkpoint.  "\
+  "<h2>STRENGTHS & CAPABILITIES</h2>"\
+  "• The checkpoint is heavily fortified, featuring high HESCO walls, manned tower bunkers along the perimeter, and razor wire covering both road entrances. Additional fortified fighting positions are established throughout the compound, on surrounding buildings, and along the access road."\
+  "Weapon systems include NSV, KORD, PKM, a single mortar, and Kornet ATGM positions, all sighted to cover the surrounding terrain. Iraqi forces regularly rotate weapon placements, making patterns difficult to predict."\
+  "The checkpoint maintains clear all-round observation, with minimal cover or concealment within 300 metres."\
+  "• 2x .50 cal Humvees have been identified and are used for defence, transport, and general duties around the checkpoint."\
   "• Enemy forces are expected to be well armed and well supplied with ammunition. The checkpoint was last attacked the previous month and has since had time to rearm and reinforce."
   m_aVisibleForFactions {
    "GC_INSURGENT"
@@ -59,22 +59,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "We are the fighters of Briza Troop, Sundown Company.  "\
   "Our force consists of approximately 50 personnel currently located within the city of Al-Hadra at GRID: 039043, with an additional 14 fighters en route.  "\
   ""\
-  "<h2>STRENGTHS & CAPABILITIES</h2>  "\
-  "• 1x BRDM (seperate from the rest of vehicles) with explosives for use as a VBIED. One volunteer will be selected for the attack.  "\
-  "The driver may detonate the explosives manually from the dashboard or enable a deadman’s switch.  "\
-  "• We possess a range of armed vehicles, including:  "\
-  "1x BMP-1  "\
-  "1x captured armoured Humvee fitted with a BTR turret  "\
-  "3x soft-skin PKM UAZs  "\
-  "1x captured soft-skin .50 cal Humvee  "\
-  "2x 7.62 front-mounted technical  "\
+  "<h2>STRENGTHS & CAPABILITIES</h2>"\
+  "• 1x unarmed BRDM (seperate from the rest of vehicles) with explosives for use as a VBIED. One volunteer will be selected for the attack."\
+  "The driver may detonate the explosives manually from the dashboard or enable a deadman’s switch."\
+  "• We possess a range of armed vehicles, including:"\
+  "2x captured armoured Humvees, one with a BMP turret and another with a BTR turret."\
+  "3x soft-skin PKM UAZs"\
+  "1x captured soft-skin .50 cal Humvee"\
+  "2x 7.62 front-mounted technical"\
   ""\
   "We also have:  "\
   "1x unarmed M113  "\
   "1x unarmed armoured Humvee  "\
   "2x unarmed BRDMs"\
   ""\
-  "<h2>SERVICE & SUPPORT</h2>  "\
+  "<h2>SERVICE & SUPPORT</h2>"\
   "• 14 additional fighters are currently moving toward the staging area. They will reinforce our numbers if casualties are sustained.  "\
   "• We have access to approximately 30 motorcycles and 20 civilian vehicles for transport, from cars, wagons, and trucks."
   m_aVisibleForFactions {

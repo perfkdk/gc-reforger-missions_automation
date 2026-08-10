@@ -28,7 +28,6 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    m_sFactionKey "GC_INSURGENT"
    m_iCount 14
    m_iTime 30000
-   m_bWaveMode 1
   }
  }
  m_denyJIPTime 300
