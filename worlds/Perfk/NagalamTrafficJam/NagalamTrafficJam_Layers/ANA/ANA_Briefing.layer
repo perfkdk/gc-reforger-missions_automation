@@ -3,17 +3,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2633.464 9.999 3198.011
   m_sTitle "METREP:"
   m_sDescriptionLayout "{E7AB311330BF986C}worlds/Perfk/UI/MissionDescription/DescriptionEditableScrollable_size18.layout"
-  m_sTextData "METREP:"\
-  ""\
-  "<h2>Ground:</h2>"\
+  m_sTextData "<h2>Ground:</h2>"\
   "Mountainous Terrain "\
   ""\
   "Multiple Civilian buildings, all civilians have fleed the area"\
   ""\
   "<h2>Light:</h2>"\
-  "- First Light: 0540h"\
-  "- Last Light: 1950h"\
-  "- Time Now: 0600h"\
+  "- First Light: 0645h"\
+  "- Last Light: 1715h"\
+  "- Time Now: 0700h"\
   ""\
   "<h2>Weather:</h2>"\
   "Clear and sunny with a light haze"\
@@ -25,8 +23,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Full"\
   ""\
   "<h2>Visibility:</h2>"\
-  "Good with light haze around 2000 meters"\
-  ""
+  "Good with light haze around 2000 meters"
   m_aVisibleForFactions {
    "GC_TKA"
   }
