@@ -7,7 +7,8 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 6
+   m_iStartingHours 7
+   m_iStartingMinutes 30
   }
  }
  coords 5513.636 58.224 4518.457
@@ -31,13 +32,13 @@ $grp GenericEntity : "{0831D4051CEB3EC1}Prefabs/Props/Airport/JetBlastDeflector_
 PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  coords 7721.635 80.729 6527.704
  m_sTitle "Mission Overview"
- m_sTextData "This is a LOL race mission, your objective is to get to the FOB Michigan Airfield from COP VIper (North East)"\
+ m_sTextData "This is a LOL race mission, your objective is to get to the the racetrack in the north."\
  "There will be green arrows showing the way at intersections."\
- "You spawn inside a fenced area. The fences are removed when the setup timer is done. The race is LIVE once the fences are down!"\
+ "You spawn inside a fenced area. The fences are removed when the setup timer is over. The race is LIVE once the fences are down!"\
  ""\
- "Route is marked by dots"\
+ "Route is marked on the map"\
  ""\
- "Setup timer: 2 min"\
+ "Setup timer: 60 seconds"\
  ""\
  "DONT BE AN ASS, if you get a helicopter don’t shoot the other helicopters. (Feel free to agree to fight someone, but don’t just start shooting) Helicopters are for shooting the slow bikes"\
  ""\
@@ -46,8 +47,7 @@ PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/Ed
  "Mission makers, you are welcome to expand on the race functinality like adding checkpoints or race timers etc."\
  ""\
  "Mission by Perfk"\
- "Updated: 2025-11-23"\
- ""
+ "Updated: 2026-08-13"
  m_bEmptyFactionVisibility 1
  m_bShowForAnyFaction 1
 }
@@ -107,7 +107,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      }
     }
     TILW_SendMessageInstruction "{6664B56722D6CC5F}" {
-     m_executionDelay 122
+     m_executionDelay 60
      m_messageTitle "RACE RACE RACE"
      m_messageBody "RACE RACE RACE"
     }
