@@ -11,10 +11,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "End conditions:"\
   "- NVA Victory: 95% control over Hnevice for 1 minute"\
-  "- CAF Victory: 80% NVA casualties, or 45 minutes pass"\
-  ""\
-  ""\
-  "GMs must disable supply usage for the mortars ATM"
+  "- CAF Victory: 80% NVA casualties, or 45 minutes pass"
   m_bShowForAnyFaction 1
   m_iOrder 3
  }
@@ -58,7 +55,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Conduct an assault on Hnevice and take control of the settlement NLT than T+45m, bypassing enemy forces that are not in the vicinity of the chosen assault axis"\
   ""\
   "<h1>SUPPORT</h1>"\
-  "2 mortar tubes, unlimited rounds"\
+  "2 mortar tubes, 60 HE + 20 smoke each"\
   "Forward observation group, mounted in SPW-40P2"\
   ""\
   "<h1>COMSIG</h1>"\
