@@ -1,0 +1,11 @@
+SCR_AIGroup FIA_ATTeam : "{579641F93C575955}Prefabs/Groups/INDFOR/FIA/FIA_Modern/Group_FIAModern_WeaponSquad.et" {
+ coords 7902.35 88.156 7955.244
+ angles 0 -138.586 0
+ m_aUnitPrefabSlots {
+  "{BDDF016F45B7851F}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_SL.et"
+  "{08FF99B10EBA3950}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_MAT.et"
+  "{C819D0C6FC3FD4E8}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_AMAT.et"
+  "{2697B58B16973BA2}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Rifleman.et"
+ }
+ m_sCustomNameSet "AT Team"
+}
