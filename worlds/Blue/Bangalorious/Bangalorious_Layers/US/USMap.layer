@@ -151,14 +151,6 @@ PolylineShapeEntity {
   }
  }
 }
-Vehicle M923A1_engineer1 : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
- coords 3376.731 23.972 3560.222
- angles 0 -100.103 0
-}
-Vehicle M923A1_command1 : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
- coords 3348.032 23.563 3555.637
- angles 0 -95.936 0
-}
 PS_ManualMarker : "{63BCE30CF8B65BCE}PrefabsEditable/Markers/Group/Marker_GroupFlagsOpfor_Base.et" {
  coords 3273.944 33.6 1015.791
  angles 0 0 0
@@ -185,7 +177,8 @@ $grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_G
   m_bShowForAnyFaction 0
  }
  {
-  coords 3356.498 24.27 3533.28
+  coords 3766.815 28.531 4185.151
+  angles 0 90 0
   m_MarkerColor 0.016 0.552 0.905 0.525
   m_sQuadName "artillery"
   m_fWorldSize 100
@@ -195,16 +188,6 @@ $grp PS_ManualMarker : "{676B84E0291E12D6}PrefabsEditable/Markers/Group/Marker_G
   }
   m_bVisibleForEmptyFaction 0
   m_bShowForAnyFaction 0
- }
-}
-$grp Vehicle : "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et" {
- M923A1_ammo1 {
-  coords 3334.921 23.358 3553.747
-  angles 0 -93.993 0
- }
- M923A1_ammo2 {
-  coords 3362.375 23.809 3557.405
-  angles 0 -84.252 0
  }
 }
 $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {

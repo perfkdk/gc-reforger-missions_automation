@@ -14,7 +14,7 @@ SCR_ChimeraCharacter : "{EC724922472CA4FE}Prefabs/Characters/Factions/OPFOR/GC_I
    }
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Warlord"
+   m_sName "Warlord Waseem Ayman Daoud Emad"
   }
   SCR_CharacterFactionAffiliationComponent "{6554AEF5AE95A3BC}" {
    "faction affiliation" "RHS_ION"
