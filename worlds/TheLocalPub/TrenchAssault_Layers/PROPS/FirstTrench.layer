@@ -1,0 +1,38 @@
+$grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
+ RHIB_Gunboat1 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+    m_lockPilot 1
+    m_lockTurret 1
+    m_lockCargo 1
+   }
+  }
+  coords 2422.824 0.392 1521.493
+  angles 4.084 -134.887 0
+ }
+ RHIB_Gunboat2 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+    m_lockPilot 1
+    m_lockTurret 1
+    m_lockCargo 1
+   }
+  }
+  coords 2412.251 0.051 1567.781
+  angles 2.411 -81.025 3.297
+ }
+ RHIB_Gunboat3 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+    m_lockPilot 1
+    m_lockTurret 1
+    m_lockCargo 1
+   }
+  }
+  coords 2408.496 0.392 1460.333
+  angles 4.084 -134.887 0
+ }
+}
