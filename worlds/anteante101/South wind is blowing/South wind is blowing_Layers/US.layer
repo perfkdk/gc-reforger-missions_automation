@@ -2,6 +2,12 @@ SCR_EntityWaypoint ATK : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Atta
  coords 7555.601 166.363 4250.555
 }
 SCR_AIGroup : "{3CB49E81F6BAED00}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf (Woodland)/P/Group_US_1989_BDU_RifleSquad_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iSquadCallsign 1
+  }
+ }
  coords 7557.829 166.156 4250.567
  m_aUnitPrefabSlots {
   "{083F001FD27A33A2}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_SL_P.et"
@@ -14,6 +20,11 @@ SCR_AIGroup : "{3CB49E81F6BAED00}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf (Wood
  }
 }
 SCR_AIGroup : "{89D481D41D11BF1C}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf (Woodland)/P/Group_US_1989_BDU_PLT_HQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+  }
+ }
  coords 7559.28 166.156 4253.984
  m_aUnitPrefabSlots {
   "{86519F90C3408D26}Prefabs/Characters/Factions/BLUFOR/US_Army/1989/Infantry (Woodland)/P/Character_US_1989_BDU_PL_CO_P.et"

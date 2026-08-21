@@ -44,7 +44,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      m_sTitle "Mission notes(READ)"
      m_sTextData "Setup timer is 6 min"\
      ""\
-     "FIA win if they eliminate 90% of US forces or capture the base."\
+     "FIA win if they eliminate 90% of US forces or capture the military site."\
+     ""\
+     "For FIA to capture the military site the FIA needs to have a 70% presence in the military site."\
      ""\
      "US forces win if they eliminate 80% of FIA forces or survive for 40 min."\
      ""\
@@ -110,9 +112,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     Mission_notes_READ2 {
      coords 35.26 4.218 24.273
      m_sTitle "Mission notes(READ)"
-     m_sTextData "Setup timer is 6 min"\
+     m_sTextData "Setup timer is 6 min."\
      ""\
-     "FIA win if they eliminate 90% of US forces or capture the base."\
+     "FIA win if they eliminate 90% of US forces or capture the military site."\
+     ""\
+     "For FIA to capture the military site the FIA needs to have a 70% presence in the military site."\
      ""\
      "FIA is encouraged to grab and use our equipment."\
      ""\
@@ -140,6 +144,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
       "US"
      }
      m_iOrder 2
+    }
+    how2usem2 {
+     coords 99.742 16.482 -21.685
+     m_sTitle "How to use M2"
+     m_sTextData "To setup the m2 you need to drop the tripod and the gun part on the floor and have the shovel equipped. To reload the m2 you need to drop the ammo box first then drag it into the gun."
+     m_aVisibleForFactions {
+      "US"
+     }
+     m_iOrder 5
     }
    }
   }

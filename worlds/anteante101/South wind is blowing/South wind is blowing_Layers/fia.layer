@@ -4,7 +4,7 @@ TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.e
  m_prefab "{DBFBF80D96CCA0F8}worlds/anteante101/Prefabs/Weapons/box_m67_AA101.et"
  m_conditionFlag "Enfield0"
 }
-$grp SCR_AIGroup : "{C2BE7BE6B80386FF}worlds/anteante101/Prefabs/group/Group_FIA_REBEL_AA101.et" {
+$grp SCR_AIGroup : "{C2BE7BE6B80386FF}worlds/anteante101/Prefabs/group/FIA Rebel/Group_FIA_REBEL_AA101.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -255,11 +255,6 @@ $grp SCR_AIGroup : "{C2BE7BE6B80386FF}worlds/anteante101/Prefabs/group/Group_FIA
    "{A644F81E7EFDA2E6}worlds/anteante101/Prefabs/characther/FIA_REBEL/Character_FIA_REBEL_Doktor_AA101.et"
    "{C8612037EBF58EF0}worlds/anteante101/Prefabs/characther/FIA_REBEL/Character_FIA_REBEL_Hunter_AA101.et"
    "{A644F81E7EFDA2E6}worlds/anteante101/Prefabs/characther/FIA_REBEL/Character_FIA_REBEL_Doktor_AA101.et"
-   ""
-   ""
-   ""
-   ""
-   ""
   }
   m_bSetPlayable 1
  }
