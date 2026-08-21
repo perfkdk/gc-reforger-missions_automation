@@ -19,7 +19,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "The Insurgents have just siezed Thirty Palms yesterday and have significant control over the region, we need to assasult it and take it back in 40 mins"\
   ""\
-  "Expect heavy insurgent resistance from every side and keep your humvees safe from their RPGs. "
+  "Expect heavy insurgent resistance from every side and keep your humvees safe from their RPGs. "\
+  ""\
+  "Intel suggests the power of about two platoons or a bit more, so be careful out there."
   m_bShowForAnyFaction 1
   m_iOrder 1
  }
@@ -28,7 +30,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "MISSION"
   m_sTextData "<b>Mission</b> "\
   ""\
-  "Assault and take FOB Thirty Palms from the insurgents"
+  "Assault and take FOB Thirty Palms under your control"
   m_bShowForAnyFaction 1
   m_iOrder 2
  }

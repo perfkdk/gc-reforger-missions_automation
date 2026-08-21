@@ -1,4 +1,0 @@
-SCR_DefendWaypoint Defend_your_base_MFs : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
- coords 5164.669 208.416 1825.657
- CompletionRadius 100
-}
