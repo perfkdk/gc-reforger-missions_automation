@@ -21,7 +21,7 @@ $grp SCR_AIGroup : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     DefaultFormation "File"
    }
   }
-  coords 2251.744 5.466 1524.58
+  coords 2103.378 5.466 1562.11
   angles 0 89.534 0
   m_aUnitPrefabSlots {
    "{1701B425406974A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_SL_Random.et"
@@ -34,6 +34,7 @@ $grp SCR_AIGroup : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   m_aStaticWaypoints {
    "WP_D2"
   }
+  m_bSetPlayable 0
  }
  RUS_Sentry1 {
   coords 2240.926 5.333 1493.059
@@ -42,7 +43,7 @@ $grp SCR_AIGroup : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et"
   }
   m_aStaticWaypoints {
-   "WP_D1"
+   "WP_LO1"
   }
   m_bSetPlayable 0
  }
@@ -53,12 +54,75 @@ $grp SCR_AIGroup : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
    "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et"
   }
   m_aStaticWaypoints {
-   "WP_D1"
+   "WP_LO2"
   }
   m_bSetPlayable 0
  }
-}
-GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
- coords 2240.737 5.017 1493.045
- angles 0 0 0
+ RUS_Sentry3 {
+  coords 2179.024 6.432 1221.924
+  angles 0 86.234 0
+  m_aUnitPrefabSlots {
+   "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et"
+  }
+  m_aStaticWaypoints {
+   "WP_LO3"
+  }
+  m_bSetPlayable 0
+ }
+ RUS_Sentry4 {
+  coords 2102.879 9.765 1417.16
+  angles 0 45.75 0
+  m_aUnitPrefabSlots {
+   "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et"
+  }
+  m_aStaticWaypoints {
+   "WP_LO4"
+  }
+  m_bSetPlayable 0
+ }
+ RUS_Sentry5 {
+  coords 2119.628 10.674 1399.719
+  angles 0 45.75 0
+  m_aUnitPrefabSlots {
+   "{FE21D24A18D4CC93}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_MG_Random.et"
+  }
+  m_aStaticWaypoints {
+   "WP_LO5"
+  }
+  m_bSetPlayable 0
+ }
+ RUS_Sentry6 {
+  coords 2120.018 10.329 1333.132
+  angles 0 45.75 0
+  m_aUnitPrefabSlots {
+   "{FE21D24A18D4CC93}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_MG_Random.et"
+  }
+  m_aStaticWaypoints {
+   "WP_LO6"
+  }
+  m_bSetPlayable 0
+ }
+ RUS_Sentry7 {
+  coords 2183.263 7.224 1277.974
+  angles 0 91.138 0
+  m_aUnitPrefabSlots {
+   "{FE21D24A18D4CC93}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_MG_Random.et"
+  }
+  m_aStaticWaypoints {
+   "WP_LO7"
+  }
+  m_bSetPlayable 0
+ }
+ RUS_Sentry8 {
+  coords 2182.974 7.304 1228.25
+  angles 0 86.234 0
+  m_aUnitPrefabSlots {
+   "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "WP_LO8"
+  }
+  m_bSetPlayable 0
+ }
 }

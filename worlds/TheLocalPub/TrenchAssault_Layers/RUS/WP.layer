@@ -1,3 +1,47 @@
+$grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
+ WP_LO1 {
+  coords 2240.606 5.029 1493.079
+  CompletionRadius 1
+ }
+ WP_LO2 {
+  coords 2239.686 5.006 1499.614
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{6A2F00E639136637}" {
+    m_eCause ALWAYS
+    m_eStance CROUCH
+   }
+  }
+ }
+ WP_LO3 {
+  coords 2178.956 7.374 1221.736
+  CompletionRadius 1
+ }
+ WP_LO4 {
+  coords 2100.712 10.707 1415.014
+  angles 0 -40.485 0
+  CompletionRadius 4
+ }
+ WP_LO5 {
+  coords 2119.335 10.743 1399.318
+  angles 0 -40.485 0
+  CompletionRadius 2
+ }
+ WP_LO6 {
+  coords 2120.088 11.031 1332.945
+  angles 0 -40.485 0
+  CompletionRadius 1
+ }
+ WP_LO7 {
+  coords 2183.18 7.926 1277.793
+  angles 0 4.904 0
+  CompletionRadius 1
+ }
+ WP_LO8 {
+  coords 2182.906 7.431 1228.062
+  CompletionRadius 1
+ }
+}
 $grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
  WP_D2 {
   coords 2089.361 9.389 1545.26
