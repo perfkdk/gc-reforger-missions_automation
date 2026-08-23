@@ -32,7 +32,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• Overrun the British garrison by eliminating at least 85% (26/30) of British forces and occupy the compound."\
   ""\
   "<h2>Mission Notes</h2>"\
-  "• E-tool usage is strictly forbidden."\
+  "• E-tool usage is strictly forbidden and so is the use of any vehicle. These will break AI pathfinding in the compound. Leave everything as it is."\
   "• Iraqi forces only to be slotted if missions is <b>FULL</b> or if blufor accept the challenge."\
   "• JIP TP."\
   "• UK AO limit."\
