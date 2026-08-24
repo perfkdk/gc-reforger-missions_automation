@@ -125,4 +125,39 @@ $grp SCR_AIGroup : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
   }
   m_bSetPlayable 0
  }
+ RUS_Sentry9 {
+  coords 2171.7 4.476 1584.941
+  angles 0 48.967 0
+  m_aUnitPrefabSlots {
+   "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "WP_LO9"
+  }
+  m_bSetPlayable 0
+ }
+ RUS_Sentry10 {
+  coords 2171.153 7.307 1494.557
+  angles 0 48.967 0
+  m_aUnitPrefabSlots {
+   "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et"
+  }
+  m_bSnapToTerrain 0
+  m_aStaticWaypoints {
+   "WP_LO10"
+  }
+  m_bSetPlayable 0
+ }
+ RUS_Sentry11 {
+  coords 2145.385 5.631 1606.422
+  angles 0 48.967 0
+  m_aUnitPrefabSlots {
+   "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et"
+  }
+  m_aStaticWaypoints {
+   "WP_LO11"
+  }
+  m_bSetPlayable 0
+ }
 }

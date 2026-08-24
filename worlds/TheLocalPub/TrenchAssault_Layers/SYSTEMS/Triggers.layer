@@ -1,0 +1,4 @@
+TILW_FactionTriggerEntity Trigger_Cap : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 2073.432 1.568 1289.145
+ m_queryRadius 16
+}
