@@ -2,10 +2,12 @@ $grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loi
  WP_LO1 {
   coords 2240.606 5.029 1493.079
   CompletionRadius 1
+  m_fPriorityLevel 100
  }
  WP_LO2 {
   coords 2239.686 5.006 1499.614
   CompletionRadius 1
+  m_fPriorityLevel 100
   m_aSettings {
    SCR_AICharacterStanceSetting "{6A2F00E639136637}" {
     m_eCause ALWAYS
@@ -16,45 +18,107 @@ $grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loi
  WP_LO3 {
   coords 2178.956 7.374 1221.736
   CompletionRadius 1
+  m_fPriorityLevel 100
  }
  WP_LO4 {
   coords 2100.712 10.707 1415.014
   angles 0 -40.485 0
   CompletionRadius 4
+  m_fPriorityLevel 100
  }
  WP_LO5 {
-  coords 2119.335 10.743 1399.318
+  coords 2120.032 10.743 1399.66
   angles 0 -40.485 0
-  CompletionRadius 2
+  CompletionRadius 1
+  m_fPriorityLevel 100
  }
  WP_LO6 {
   coords 2120.088 11.031 1332.945
   angles 0 -40.485 0
   CompletionRadius 1
+  m_fPriorityLevel 100
  }
  WP_LO7 {
   coords 2183.18 7.926 1277.793
   angles 0 4.904 0
   CompletionRadius 1
+  m_fPriorityLevel 100
  }
  WP_LO8 {
-  coords 2182.906 7.431 1228.062
+  coords 2181.698 7.245 1232.657
+  angles 0 4.074 0
   CompletionRadius 1
+  m_fPriorityLevel 100
  }
  WP_LO10 {
   coords 2171.213 7.434 1494.366
   angles 0 -37.267 0
   CompletionRadius 1
+  m_fPriorityLevel 100
  }
  WP_LO11 {
   coords 2145.445 5.758 1606.231
   angles 0 -37.267 0
   CompletionRadius 1
+  m_fPriorityLevel 100
  }
  WP_LO9 {
   coords 2171.76 4.603 1584.75
   angles 0 -37.267 0
   CompletionRadius 1
+  m_fPriorityLevel 100
+ }
+ WP_LO12 {
+  coords 2026.672 11.195 1439.76
+  angles 0 -11.956 0
+  CompletionRadius 1
+  m_fPriorityLevel 100
+ }
+}
+$grp GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+ PP1 {
+  coords 2165.458 7.298 1317.719
+  angles 0 0 0
+ }
+ PP4 {
+  coords 2116.103 10.106 1291.154
+  angles 0 0 0
+ }
+ PP11 {
+  coords 2171.975 6.534 1529.527
+  angles 0 0 0
+ }
+ PP8 {
+  coords 2157.309 4.808 1596.333
+  angles 0 0 0
+ }
+ PP7 {
+  coords 2104.443 10.473 1349.033
+  angles 0 0 0
+ }
+ PP9 {
+  coords 2161.37 5.535 1572.02
+  angles 0 0 0
+ }
+ PP3 {
+  coords 2135.923 9.065 1281.193
+  angles 0 0 0
+ }
+ PP10 {
+  coords 2162.344 6.625 1505.059
+  angles 0 0 0
+ }
+ PP6 {
+  coords 2110.315 9.781 1323.095
+  angles 0 0 0
+ }
+ PP2 {
+  coords 2172.363 6.588 1283.577
+  angles 0 0 0
+ }
+ PP5 {
+  coords 2093.742 9.939 1285.16
+  angles 0 0 0
  }
 }
 $grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {

@@ -3,6 +3,12 @@ SCR_AIGroup RUS_Players : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AF
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "File"
   }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
  }
  coords 2071.268 11.512 1312.625
  angles 0 89.534 0

@@ -1,0 +1,8 @@
+TILW_FactionTriggerEntity Trigger_Cap : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 2070.825 -15.025 1289.145
+ m_queryRadius 30
+ m_captureTime 60
+ m_flagName "HQCaptured"
+ m_ownerFactionKey "GC_CDF"
+ m_ratioThreshold 0.666
+}

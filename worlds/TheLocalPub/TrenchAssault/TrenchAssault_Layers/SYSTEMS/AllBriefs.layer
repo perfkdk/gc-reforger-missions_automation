@@ -14,12 +14,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission notes"
   m_sTextData "<h2>END CONDITIONS</h2>"\
   "<b>CDF:</b>"\
+  "Capture the Russian HQ."\
   ""\
   "<b>RUS:</b>"\
+  "Destroy 85% of the CDF forces."\
   ""\
   "<h2>NOTES</h2>"\
-  ""\
-  ""\
+  "JIP TP: Deny"\
+  "AO limt: Global"\
   ""\
   "Mission made by TheLocalPub. Use the #Feedback channel on Discord to report bugs, suggestions, and complaints."
   m_bEmptyFactionVisibility 1
