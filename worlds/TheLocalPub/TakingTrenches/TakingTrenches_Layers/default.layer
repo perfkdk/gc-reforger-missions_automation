@@ -69,6 +69,18 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_flagName "CDFDead"
    }
   }
+  TILW_MissionEvent "{6A35186EFFB1A4E6}" {
+   m_name "QRF"
+   m_instructions {
+    TILW_SendMessageInstruction "{6A35186ABB2125AE}" {
+     m_messageTitle "QRF inbound"
+     m_messageBody "A Russian motor rifle platoon are approaching from the west. Expect them to arrive shortly."
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A35186EF67BEEA0}" {
+    m_flagName "SpawnQRF"
+   }
+  }
  }
  m_casualtyFlags {
   TILW_FactionPlayersKilledFlag "{6A351851015FA9E6}" {

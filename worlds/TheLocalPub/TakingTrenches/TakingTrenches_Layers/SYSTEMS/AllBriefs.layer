@@ -2,10 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  SUM {
   coords 1818.101 15.466 143.695
   m_sTitle "Summary"
-  m_sTextData "Special forces from the Chernarus Defence Force conduct a deliberate assault to secure a Russian HQ operating in the area."\
-  ""\
-  "<h2>NOTES</h2>"\
-  ""\
+  m_sTextData "Special forces from the Chernarus Defence Force conduct a deliberate assault to secure a Russian headquarters operating along the Zherebets river. "\
   ""
   m_bEmptyFactionVisibility 1
  }

@@ -57,7 +57,7 @@ $grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loi
   m_fPriorityLevel 100
  }
  WP_LO11 {
-  coords 2145.445 5.758 1606.231
+  coords 2148.294 5.758 1604.441
   angles 0 -37.267 0
   CompletionRadius 1
   m_fPriorityLevel 100
@@ -73,6 +73,49 @@ $grp SCR_DefendWaypoint : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loi
   angles 0 -11.956 0
   CompletionRadius 1
   m_fPriorityLevel 100
+ }
+ WP_LO13 {
+  coords 2012.388 10.294 1504.69
+  angles 0 2.249 0
+  CompletionRadius 1
+  m_fPriorityLevel 100
+ }
+ WP_LO14 {
+  coords 2007.293 9.085 1571.843
+  angles 0 2.249 0
+  CompletionRadius 1
+  m_fPriorityLevel 100
+ }
+ WP_LO15 {
+  coords 2110.835 8.605 1529.144
+  angles 0 7.945 0
+  CompletionRadius 1
+  m_fPriorityLevel 100
+ }
+ WP_LO16 {
+  coords 2096.262 9.037 1511.824
+  angles 0 7.945 0
+  CompletionRadius 1
+  m_fPriorityLevel 100
+ }
+}
+$grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+ WP_M1 {
+  coords 2107.871 10.875 1464.279
+ }
+ WP_M2 {
+  coords 2128.714 7.377 1567.181
+ }
+ WP_M3 {
+  coords 2228.625 6.565 1303.199
+ }
+}
+$grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ WP_M4 {
+  coords 2074.441 14.064 1278.634
+ }
+ WP_M5 {
+  coords 2031 11.523 1443.814
  }
 }
 $grp GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {

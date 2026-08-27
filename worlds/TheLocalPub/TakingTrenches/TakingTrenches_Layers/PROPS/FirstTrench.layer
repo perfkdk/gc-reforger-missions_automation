@@ -14,7 +14,7 @@ $grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.e
   TerrainOnly 1
  }
  {
-  coords 2364.634 -0 1517.075
+  coords 2364.634 0 1517.075
   angles -90 -180 -180
   scale 1.5
   FarPlane 3.51
@@ -56,7 +56,7 @@ $grp DecalEntity : "{23547DEEEC8AB053}Prefabs/Decals/Blood/Decal_Blood_2.et" {
   TerrainOnly 0
  }
  {
-  coords 2331.876 -0 1530.778
+  coords 2331.876 0 1530.778
   angles -90 -180 -180
   FarPlane 2.14
   TerrainOnly 0
@@ -386,6 +386,47 @@ $grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
   }
   coords 2400.629 1.2 1432.799
   angles 4.084 -134.887 0
+ }
+ RHIB_Gunboat4 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+    m_lockCargo 1
+    m_factionLock {
+     "GC_CDF"
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61089C63B4E0BFEF}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{646A5602EA25A5E8}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{646A5602C2724B32}" {
+      SlotTemplate InventoryStorageSlot bandage {
+       Prefab "{D1F489A772F01320}Prefabs/Drones/DJIBase/VOG25GrenadeDropper.et"
+      }
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{61089C63852D3EC7}" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{FDA92D590B9C633B}Prefabs/Drones/DJIBase/DJIBase.et"
+      }
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{61089C63859C44F7}" {
+      SlotTemplate InventoryStorageSlot Jerrycan {
+       Prefab "{EF1E4AA6DCD2D982}Prefabs/Drones/DJIBase/DJIBattery.et"
+      }
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2405.26 0.415 1447.188
+  angles 10.24 -80.887 4.55
  }
 }
 $grp DecalEntity : "{EDC06ABFC31E334F}Prefabs/Decals/Blood/Decal_Blood_9.et" {

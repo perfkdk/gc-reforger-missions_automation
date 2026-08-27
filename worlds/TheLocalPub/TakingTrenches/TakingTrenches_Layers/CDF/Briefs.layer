@@ -76,10 +76,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 575.417 17.229 851.644
   m_sTitle "Enemy forces"
   m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>"\
-  "This area contains approximately a platoon or more of Russian infantry from the <b>2nd Motor Rifle Platoon, 1st Motor Rifle Company</b>. Russian forces are dug into a network of trenches containing several fighting positions and bunkers."\
+  "This area contains approximately a platoon+ Russian infantry from the <b>2nd Motor Rifle Platoon, 1st Motor Rifle Company</b>. Russian forces are dug into a network of trenches containing several fighting positions and bunkers."\
   "The main enemy position is centred around a subterranean concrete bunker, which serves as the Russian HQ for the area."\
   ""\
-  "The initial trench position near our dismount point has been abandoned by the light guard presence following preparatory artillery strikes against the position."\
+  "The initial trench position near our dismount point has been abandoned following preparatory artillery strikes and after seeing us make landfall close by."\
+  ""\
+  "We should expect an armoured QRF to eventually arrive if we take to long. Overhead observation is monitoring the surrounding approach routes and will warn us if a QRF is spotted."\
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2>"\
   "• Well-established defensive positions consisting of trenches, bunkers, and fortified fighting positions."\
