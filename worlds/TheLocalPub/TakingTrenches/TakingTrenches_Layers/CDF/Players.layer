@@ -64,6 +64,7 @@ $grp SCR_AIGroup : "{CDEFFCB07F55B3FE}Prefabs/Groups/BLUFOR/CDF/SF_Modern/P/Grou
   coords 2386.183 1.624 1421.56
   angles 0 -74.958 0
   m_sCustomNameSet "1st Squad"
+  m_bSetPlayable 1
  }
  CDF_SQD2 {
   components {
@@ -80,6 +81,7 @@ $grp SCR_AIGroup : "{CDEFFCB07F55B3FE}Prefabs/Groups/BLUFOR/CDF/SF_Modern/P/Grou
   coords 2416.621 2.73 1483.572
   angles 0 -132.606 0
   m_sCustomNameSet "2nd Squad"
+  m_bSetPlayable 1
  }
  CDF_SQD3 {
   components {
@@ -96,5 +98,6 @@ $grp SCR_AIGroup : "{CDEFFCB07F55B3FE}Prefabs/Groups/BLUFOR/CDF/SF_Modern/P/Grou
   coords 2393.985 2.95 1447.022
   angles 0 -74.958 0
   m_sCustomNameSet "3rd Squad"
+  m_bSetPlayable 1
  }
 }
