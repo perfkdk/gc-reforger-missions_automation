@@ -3,6 +3,11 @@ GenericEntity : "{358CAF5CD0C8D04D}Prefabs/Drones/DJIBase/DJIVOG25Dropper.et" {
   FactionAffiliationComponent "{65B1396D6DE515C3}" {
    "faction affiliation" "FIA"
   }
+  SCR_EditableVehicleComponent "{65AF1B36819DCFB8}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{65AF1B36AFD2EE1C}" {
+    m_sFaction "FIA"
+   }
+  }
  }
  coords 7942.448 88.43 7933.366
  angles 0 -13.465 0

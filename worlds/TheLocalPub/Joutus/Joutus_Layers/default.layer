@@ -46,9 +46,8 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "CAFWin"
    m_instructions {
     TILW_SendMessageInstruction "{6A3CCAA817BD0A9A}" {
-     m_messageTitle "FIA VICTORY"
-     m_messageBody "FIA forces have managed to repel the Canadian assault."\
-     "Maybe they can break out and live another day."\
+     m_messageTitle "CAF VICTORY"
+     m_messageBody "CAF forces have managed sweep and clear the area of Joutkallio, destroying the FIA cell."\
      ""\
      "Well done."\
      "Mission will conclude shortly..."
