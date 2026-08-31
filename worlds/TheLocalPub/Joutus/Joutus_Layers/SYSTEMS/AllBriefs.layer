@@ -10,7 +10,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Destroy 90% of CAF forces"\
   ""\
   "<h2>NOTESs</h2>"\
-  "<b>• FIA player only permitted is CAF if 28+</b>"\
+  "<b>• FIA player only permitted CAF if 20+</b>"\
   "• JIP TP: Manual"\
   ""\
   "Mission made by TheLocalPub. Please use the <b>#feedback</b> channel on Discord to report issues or submit suggestions."
@@ -26,7 +26,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Can the Canadians finish the job and destroy the FIA cell before they find a way to break out?"\
   ""\
   "<h2>NOTES</h2>"\
-  "<b>• FIA player only permitted is CAF if 28+</b>"
+  "<b>• FIA player only permitted CAF if 20+</b>"
   m_bEmptyFactionVisibility 1
  }
 }

@@ -48,7 +48,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2>"\
   "• We have 2x JLTVs equipped with .50cal HMGs available to provide mobile direct-fire support."\
-  "- Note We also have 4x unarmed JLTVs available at the staging area but these will remain behind, as the short distance to the objective makes them unnecessary for the assault. "\
+  "- Note: Theres 4x unarmed JLTVs at the staging area but these <i>will</i> remain behind, as the short distance to the objective makes them unnecessary for the assault. "\
   ""\
   "<h2>SERVICE & SUPPORT</h2>"\
   "• 2nd platoon and 3rd platoon have set up their blocking positions south-east and north-west of us."
@@ -61,7 +61,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 574.161 76.987 7291.685
   m_sTitle "Mission"
   m_sTextData "<h2>MISSION STATEMENT</h2>"\
-  "Conduct a <b>DELIBERATE ASSAULT</b> to <b>DESTROY</b> the FIA cell occupying Joutkallio."\
+  "Conduct a <b>DELIBERATE ASSAULT</b> to <b>DESTROY</b> the FIA cell by <b>SWEEPING</b> the area and <b>SECURING</b>the hamlet of Joutkallio."\
   ""\
   "<h2>MISSION DESCRIPTION</h2>"\
   "The remaining FIA cell has been isolated within Joutkallio following several days of pursuit and repeated skirmishes after our major battle last week. Their escape routes have been cut off, their supplies are running low, and no reinforcements are coming. They are now fixed in position and preparing to make a final stand."\
