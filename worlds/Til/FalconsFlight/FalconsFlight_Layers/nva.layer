@@ -220,7 +220,7 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
     MultiSlots {
      MultiSlotConfiguration "{66D562F50110E165}" {
       SlotTemplate InventoryStorageSlot parachute {
-       Prefab "{02546D7D1C1469CF}Prefabs/Items/Equipment/Backpacks/ParachuteBag_T10_01.et"
+       Prefab "{DB38354DF05C9486}Prefabs/Items/Equipment/Backpacks/SteerableParachute_OldSoviet_Kolobok.et"
       }
       NumSlots 20
      }
@@ -246,7 +246,7 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
     MultiSlots {
      MultiSlotConfiguration "{66D562F50110E165}" {
       SlotTemplate InventoryStorageSlot parachute {
-       Prefab "{02546D7D1C1469CF}Prefabs/Items/Equipment/Backpacks/ParachuteBag_T10_01.et"
+       Prefab "{DB38354DF05C9486}Prefabs/Items/Equipment/Backpacks/SteerableParachute_OldSoviet_Kolobok.et"
       }
       NumSlots 20
      }
@@ -272,7 +272,7 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
     MultiSlots {
      MultiSlotConfiguration "{66D562F50110E165}" {
       SlotTemplate InventoryStorageSlot parachute {
-       Prefab "{02546D7D1C1469CF}Prefabs/Items/Equipment/Backpacks/ParachuteBag_T10_01.et"
+       Prefab "{DB38354DF05C9486}Prefabs/Items/Equipment/Backpacks/SteerableParachute_OldSoviet_Kolobok.et"
       }
       NumSlots 20
      }
@@ -298,7 +298,7 @@ $grp Vehicle : "{7337E8733B2A9B74}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
     MultiSlots {
      MultiSlotConfiguration "{66D562F50110E165}" {
       SlotTemplate InventoryStorageSlot parachute {
-       Prefab "{02546D7D1C1469CF}Prefabs/Items/Equipment/Backpacks/ParachuteBag_T10_01.et"
+       Prefab "{DB38354DF05C9486}Prefabs/Items/Equipment/Backpacks/SteerableParachute_OldSoviet_Kolobok.et"
       }
       NumSlots 20
      }

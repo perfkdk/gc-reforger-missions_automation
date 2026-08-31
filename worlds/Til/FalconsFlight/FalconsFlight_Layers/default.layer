@@ -89,9 +89,6 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
   }
  }
 }
-GenericEntity : "{23DA0939B0158024}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute.et" {
- coords 6424.176 96.656 1357.667
-}
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  ao_us {
   components {
@@ -160,28 +157,4 @@ SCR_EditorRestrictionZoneEntity restric_nva : "{B2A519402E9AC209}PrefabsEditable
  m_fWarnRadius 150
  m_fZoneRadius 250
  m_fZoneTeleportedRadius 300
-}
-GenericEntity : "{DB38354DF05C9486}Prefabs/Items/Equipment/Backpacks/SteerableParachute_OldSoviet_Kolobok.et" {
- components {
-  MeshObject "{511E9C6ADE70F7BD}" {
-   Object "{F63FB77CF5C853D7}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok_item.xob"
-  }
-  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
-   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
-    ItemDisplayName UIInfo "{5222CB03904B414C}" {
-     Name "Steerable Parachute"
-     Description "The finest soviet chutes in the whole of mother Russia!"
-    }
-   }
-   MaxCumulativeVolume 5000
-   MaxItemSize 20 20 20
-   m_fMaxWeight 15
-  }
-  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
-   WornModel "{63131CE6ACC7038F}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok.xob"
-   ItemModel "{F63FB77CF5C853D7}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok_item.xob"
-   DeflatedModel "{612FEDC4900077AB}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok_Inflated.xob"
-  }
- }
- coords 6424.93 96.656 1358.268
 }
