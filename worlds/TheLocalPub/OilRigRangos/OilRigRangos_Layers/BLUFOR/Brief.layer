@@ -132,7 +132,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<b>SECONDARY:</b> Neutralize the hostile ECO presence on the rig by any necessary means."\
   ""\
-  "<b>OPTIONAL:</b> Locate and recover the five missing crew members believed to be held hostage somewhere on the platform."\
+  "<b>OPTIONAL:</b> Locate and recover the missing crew members believed to be held hostage somewhere on the platform."\
   ""\
   "While the hostages are important, preventing the destruction of the rig and eliminating the wider threat remain our primary concerns."
   m_aVisibleForFactions {
