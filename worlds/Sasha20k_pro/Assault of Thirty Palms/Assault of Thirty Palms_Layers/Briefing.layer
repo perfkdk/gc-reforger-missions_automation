@@ -5,10 +5,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "NOTES"
   m_sTextData "<b>Extra Notes</b>"\
   ""\
-  "Total victory: Take FOB Thirty Palms and/or make the insurgent force Combat innefective"\
-  "Total Defeat: Die or spend more than 40 mins on your ass"\
+  "Total victory: Take FOB Thirty Palms and Kill all enemy Insurgent Platoons."\
   ""\
-  "(And as you can guess, your two lead humvees have green camo and the Recon team also has green camo)"
+  "Total Defeat: Die or spend more than 40 mins on your ass."\
+  ""\
+  ""\
+  ""
   m_bShowForAnyFaction 1
   m_iOrder 6
  }
@@ -21,7 +23,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Expect heavy insurgent resistance from every side and keep your humvees safe from their RPGs. "\
   ""\
-  "Intel suggests the power of about two platoons or a bit more, so be careful out there."
+  "Intel suggests the Enemy power of about two platoons or a bit more and another platoon in hill 048 014, oh and how can i forget there is ANOTHER Platoon in the trees at 023 045 All the way up to the Hill, so be careful out there."\
+  ""\
+  "(Fun Fact: Intel Is not allways 100% Correct)"
   m_bShowForAnyFaction 1
   m_iOrder 1
  }
@@ -30,7 +34,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "MISSION"
   m_sTextData "<b>Mission</b> "\
   ""\
-  "Assault and take FOB Thirty Palms under your control"
+  "Assault and take FOB Thirty Palms under your control, and Kill All enemy platoons near Thirty Palms."
   m_bShowForAnyFaction 1
   m_iOrder 2
  }
@@ -40,7 +44,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<b>Execution</b>"\
   ""\
   "As per comanders intent"\
-  ""
+  ""\
+  "(If Insurgents are not all killed even after capturing Thirty Palms The commander may Search and destroy the nearby areas)"
   m_bShowForAnyFaction 1
   m_iOrder 3
  }
@@ -49,10 +54,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "LOGISTICS"
   m_sTextData "<b>Logistics</b>"\
   ""\
-  "No ressuply."\
-  "One Mortar with 30 HE rounds and 30 Smoke rounds"\
+  "No ressuply at any point sadly."\
   ""\
-  "(Blame the Brigadier General for the two Green humvees and the Forest camo for the Recon team)"
+  "(Blame the Brigadier General for the three Green humvees)"
   m_bShowForAnyFaction 1
   m_iOrder 4
  }
@@ -61,7 +65,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "COMMAND"
   m_sTextData "<b>Command</b>"\
   ""\
-  "As per commanders intent"\
+  "1'6 Platoon HQ"\
+  "1'1 Rifle Alpha"\
+  "1'2 Rifle Bravo"\
+  "1'3 Rifle Charlie"\
   ""\
   "<b>Radio</b> "\
   ""\
@@ -75,7 +82,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "SITUATION"
   m_sTextData "<b>Overview</b>"\
   ""\
-  "US Marines Assault the FOB of Thirty Palms, which us heavelly defended my enemy insurgents"
+  "US Marines Assault the FOB of Thirty Palms, which is heavelly defended my enemy insurgents"
   m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
  }
 }
