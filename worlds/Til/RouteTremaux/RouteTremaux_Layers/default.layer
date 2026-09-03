@@ -295,6 +295,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
           m_flagName "SB"
          }
          TILW_LiteralTerm "{6A3CBE879F157DEA}" {
+          m_flagName "S"
          }
         }
        }
