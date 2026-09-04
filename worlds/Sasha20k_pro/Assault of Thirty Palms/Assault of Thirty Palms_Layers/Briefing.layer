@@ -79,11 +79,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  A0_OVERVIEW {
   coords 4189.453 173.295 2734.152
-  m_sTitle "SITUATION"
+  m_sTitle "OVERVIEW"
   m_sTextData "<b>Overview</b>"\
   ""\
   "US Marines Assault the FOB of Thirty Palms, which is heavelly defended my enemy insurgents"
   m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
  }
 }
