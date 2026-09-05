@@ -5,7 +5,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "The revolution has begun! FIA rebels make their first move to attack a US military base to capture their equipment for future operations."\
   ""\
   "<h2>NOTES</h2>"\
-  "• Setup timer: 6min"\
+  "• Setup timer: 6 min"\
   "• Ratio 1:3"\
   ""
   m_bEmptyFactionVisibility 1
@@ -13,7 +13,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  FIA_brief {
   coords 7457.961 156.936 4232.257
   m_sTitle "Mission overview"
-  m_sTextData "We are a brand new FIA platoon with the objective to capture the US military base in less then 40 min."
+  m_sTextData "We are a brand new FIA platoon with the objective to capture the US military base in less than 40 min."
   m_aVisibleForFactions {
    "FIA"
   }
@@ -24,7 +24,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      m_sTitle "Enemy forces"
      m_sTextData "A US squad with a platoon HQ."\
      ""\
-     "Besides their assigned gear they have also access to weapons and vehicles currently stored in the base. Expect sanbags and a M2HB as well. "
+     "Besides their assigned gear they also have access to weapons and vehicles currently stored in the base. Expect sandbags and an M2HB as well. "
      m_aVisibleForFactions {
       "FIA"
      }
@@ -36,7 +36,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      coords 16.245 6.486 10.563
      m_sTitle "Situation"
      m_sTextData "The corrupt government of Everon has fallen! "\
-     "While we have the spirit to fight we don't have the modern weapons necessary to fight. With that said, we've gathered the local population with weapons and the will to fight. We will assault the US base and secure it be destroying any enemy forces protecting it. "\
+     "While we have the spirit to fight, we don't have the modern weapons necessary to fight. With that said, we've gathered the local population with weapons and the will to fight. We will assault the US base and secure it by destroying any enemy forces protecting it. "\
      "This base will be used for future operations."
      m_aVisibleForFactions {
       "FIA"
@@ -46,7 +46,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     FriendlyForces {
      coords 0.057 -0.034 -0.562
      m_sTitle "Friendly forces"
-     m_sTextData "A FIA platoon that consistes of former civilians armed with boltactions , WW2 SMGs and shotguns. With that said grabbing enemy weapons is encouraged."\
+     m_sTextData "A FIA platoon that consists of former civilians armed with bolt-actions, WW2 SMGs and shotguns. With that said, grabbing enemy weapons is encouraged."\
      ""\
      "We have access to:"\
      ""\
@@ -72,9 +72,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• Destroy 90% of US forces."\
   ""\
   "<b>US victory:</b>"\
-  "• Destroy 80% of FIA Forces"\
+  "• Destroy 80% of FIA forces."\
   "or"\
-  "• Hold out for 40mins"\
+  "• Hold out for 40 min"\
   ""\
   "<h2>NOTES</h2>"\
   "• Setup timer: 6min"\
@@ -91,7 +91,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  US_brief {
   coords 7453.287 157.063 4237.632
   m_sTitle "Mission overview"
-  m_sTextData "We are a US Army squad with a HQ  element tasked with defending the military base from the FIA Rebels."\
+  m_sTextData "We are a US Army squad with an HQ element tasked with defending the military base from the FIA rebels."\
   ""\
   "Setup time is 6 min."
   m_aVisibleForFactions {
@@ -102,9 +102,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     EnemyForces2 {
      coords 19.015 -2.268 13.71
      m_sTitle "Enemy forces"
-     m_sTextData "A FIA platoon that consistes of former civilians armed with boltactions , WW2 SMGs and shotguns. They are desperate so they will most likely grab our guns from our bodies if able."\
+     m_sTextData "A FIA platoon that consists of former civilians armed with bolt-actions, WW2 SMGs and shotguns. They are desperate, so they will most likely grab our guns from our bodies if able."\
      ""\
-     "They have access to civilian vehicles and they may have a box full of M67 frag grenades."\
+     "They have access to civilian vehicles, and they may have a box full of M67 frag grenades."\
      ""
      m_aVisibleForFactions {
       "US"
@@ -116,7 +116,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      }
      coords 16.245 6.486 10.563
      m_sTitle "Situation"
-     m_sTextData "The local government has collapsed and the rebel forces are extremly hostile to us.  We have been tasked to protect the military base until our main force arrives in 40 minutes."
+     m_sTextData "The local government has collapsed, and the rebel forces are extremely hostile to us. We have been tasked to protect the military base until our main force arrives in 40 minutes."
      m_aVisibleForFactions {
       "US"
      }
@@ -129,11 +129,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      ""\
      "We have access to:"\
      "-30 sandbags"\
-     "-A M2HB with 1 box of ammo"\
-     "- 2 medical Humvees"\
+     "-An M2HB with 1 box of ammo"\
+     "-2 medical Humvees"\
      "-1 transport Humvee"\
      "-3 Jeeps"\
-     "-and any weapon and ammo (stored separately) currently located in base."
+     "-and any weapon and ammo (stored separately) currently located in the base."
      m_aVisibleForFactions {
       "US"
      }
@@ -142,7 +142,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     how2usem2 {
      coords 99.742 16.482 -21.685
      m_sTitle "How to use M2"
-     m_sTextData "To setup the m2 you need to drop the tripod and the gun part on the floor and have the shovel equipped. To reload the m2 you need to drop the ammo box first then drag it into the gun."
+     m_sTextData "To set up the M2 you need to drop the tripod and the gun part on the floor and have the shovel equipped. To reload the M2 you need to drop the ammo box first, then drag it into the gun."
      m_aVisibleForFactions {
       "US"
      }
