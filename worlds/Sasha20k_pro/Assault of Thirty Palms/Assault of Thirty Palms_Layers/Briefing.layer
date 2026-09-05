@@ -23,9 +23,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Expect heavy insurgent resistance from every side and keep your humvees safe from their RPGs. "\
   ""\
-  "Intel suggests the Enemy power of about two platoons or a bit more and another platoon in hill 048 014, oh and how can i forget there is ANOTHER Platoon in the trees at 023 045 All the way up to the Hill, so be careful out there."\
-  ""\
-  "(Fun Fact: Intel Is not allways 100% Correct)"
+  "Intel suggests the Enemy power of about two platoons or a bit more and another platoon in hill 048 014, oh and how can i forget there is ANOTHER Platoon in the trees at 023 045 All the way up to the Hill, so be careful out there."
   m_bShowForAnyFaction 1
   m_iOrder 1
  }
@@ -37,17 +35,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Assault and take FOB Thirty Palms under your control, and Kill All enemy platoons near Thirty Palms."
   m_bShowForAnyFaction 1
   m_iOrder 2
- }
- A3_EXECUTION {
-  coords 4192.409 172.705 2724.899
-  m_sTitle "EXECUTION"
-  m_sTextData "<b>Execution</b>"\
-  ""\
-  "As per comanders intent"\
-  ""\
-  "(If Insurgents are not all killed even after capturing Thirty Palms The commander may Search and destroy the nearby areas)"
-  m_bShowForAnyFaction 1
-  m_iOrder 3
  }
  A4_LOGISTICS {
   coords 4192.409 172.705 2724.899
@@ -73,7 +60,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<b>Radio</b> "\
   ""\
   "Platoon net: 48"\
-  "The rest as per commanders intent, im the type of guy that gives freedom and spreads democracy."
+  "The rest as per commanders intent."
   m_bShowForAnyFaction 1
   m_iOrder 5
  }

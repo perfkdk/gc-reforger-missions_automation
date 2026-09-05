@@ -187,25 +187,3 @@ $grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
   m_bDeleteIfNoPlayer 0
  }
 }
-$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- {
-  coords 5012.662 263.339 1433.284
-  angles 0 0 0
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow "{403EEC9EC77AE359}UI/Textures/Icons/icons_mapMarkersUI-glow_atlas.edds"
-  m_sQuadName "infantry"
-  m_fWorldSize 100
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- {
-  coords 4606.91 195.747 1882.936
-  angles 0 0 0
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow "{403EEC9EC77AE359}UI/Textures/Icons/icons_mapMarkersUI-glow_atlas.edds"
-  m_sQuadName "infantry"
-  m_fWorldSize 100
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
-}

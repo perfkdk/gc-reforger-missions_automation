@@ -8,7 +8,6 @@ SCR_AIGroup : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Ri
  coords 4120.842 170.517 2665.383
  angles 0 136.851 0
  m_iMaxMembers 7
- m_bPlayable 1
  m_sCustomNameSet "Platoon HQ"
 }
 $grp SCR_AIGroup : "{3542DA9833C9BA69}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RifleSquad_D.et" {
@@ -22,7 +21,6 @@ $grp SCR_AIGroup : "{3542DA9833C9BA69}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
   coords 4116.16 171.462 2670.49
   angles 0 137.346 0
   m_iMaxMembers 13
-  m_bPlayable 1
   m_sCustomNameSet "Rifle squad Alpha"
  }
  {
@@ -36,7 +34,6 @@ $grp SCR_AIGroup : "{3542DA9833C9BA69}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
   coords 4110.656 171.995 2676.603
   angles 0 137.346 0
   m_iMaxMembers 13
-  m_bPlayable 1
   m_sCustomNameSet "Rifle Squad Bravo"
  }
  {
@@ -50,7 +47,6 @@ $grp SCR_AIGroup : "{3542DA9833C9BA69}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
   coords 4105.31 172.481 2682.553
   angles 0 137.346 0
   m_iMaxMembers 13
-  m_bPlayable 1
   m_sCustomNameSet "Rifle Squad Charlie"
  }
 }
