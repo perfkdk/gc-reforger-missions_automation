@@ -1,0 +1,98 @@
+SCR_AIWorld : "{66048E60E9D7AB77}Prefabs/AI/SCR_AIWorld_Zarichne.et" {
+ coords 2312.109 9.011 2376.636
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2335.625 9.094 2373.176
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 6
+   m_iDay 7
+   m_iMonth 5
+   m_iYear 2027
+   m_iSetDay 7
+   m_iSetMonth 5
+   m_iSetYear 2027
+  }
+ }
+ coords 2312.534 9.025 2377.012
+ m_iFreezeTime 300000
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 3283.409 26.954 1006.027
+ m_missionEvents {
+  TILW_MissionEvent "{6A4AA4120AB55619}" {
+   m_name "Russian Defeat"
+   m_instructions {
+    TILW_SendMessageInstruction "{6A4AA4122E6447A6}" {
+     m_messageTitle "Russian Forces Inoperable"
+     m_messageBody "The Russians Have 80% of their Comerades Killed and They Cannot Continue fighting"
+     m_factionKeys {
+      "RHS_AFRF"
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A4AA41188F3390B}" {
+    m_flagName "Ru Inoperable"
+   }
+  }
+  TILW_MissionEvent "{6A4AA411571187D3}" {
+   m_name "US Defeat"
+   m_instructions {
+    TILW_SendMessageInstruction "{6A4AA4114B02512A}" {
+     m_messageTitle "US Defeat"
+     m_messageBody "The US Forces Have been Massacared By the Russians and now Russia takes control of the city of Zarichne"
+     m_factionKeys {
+      "RHS_AFRF"
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A4AA41109C3F252}" {
+    m_flagName "US Inoperable"
+   }
+  }
+  TILW_MissionEvent "{6A4AA4113FF9CE02}" {
+   m_name "Times Up"
+   m_instructions {
+    TILW_SendMessageInstruction "{6A4AA41136991AC0}" {
+     m_executionDelay 3600
+     m_messageTitle "Time is Up"
+     m_messageBody "60 Min have Passed and its an US Victory"
+     m_factionKeys {
+      "RHS_AFRF"
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A4AA410D33B735F}" {
+    m_invertTerm 1
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6A4AA412A208AE7E}" {
+   m_flagName "Ru Inoperable"
+   m_factionKey "RHS_AFRF"
+   m_casualtyRatio 0.8
+  }
+  TILW_FactionPlayersKilledFlag "{6A4AA412749C76CD}" {
+   m_flagName "US Inoperable"
+   m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.8
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 3400.485 15.279 925.924
+ }
+ {
+  coords 1598.732 13.029 1380.506
+  m_fWarnRadius 700
+  m_fZoneRadius 750
+  m_fZoneTeleportedRadius 730
+ }
+}

@@ -1,0 +1,63 @@
+$grp SCR_AIGroup : "{7100CD23C0CF806E}Prefabs/Groups/BLUFOR/US/Army/2020/Mech/P/Group_USA_2020_MechSquad_P.et" {
+ {
+  coords 1562.889 15.655 1383.038
+  m_iMaxMembers 11
+  m_bPlayable 1
+  m_sCustomNameSet "Squad Alpha"
+  m_bSetPlayable 1
+ }
+ {
+  coords 1562.133 15.527 1375.192
+  m_iMaxMembers 11
+  m_bPlayable 1
+  m_sCustomNameSet "Squad Bravo"
+  m_bSetPlayable 1
+ }
+ {
+  coords 1561.696 15.651 1368.449
+  m_iMaxMembers 11
+  m_bPlayable 1
+  m_sCustomNameSet "Squad Charlie"
+  m_bSetPlayable 1
+ }
+}
+SCR_AIGroup : "{74D3D577746E7343}Prefabs/Groups/BLUFOR/US/Army/2020/Mech/P/Group_USA_2020_MechWeaponsSquad_P.et" {
+ coords 1561.609 16.394 1360.13
+ m_aUnitPrefabSlots {
+  "{DB2461A0774F857B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_SL_P.et"
+  "{EBCC12AC8EF38488}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_MG_P.et"
+  "{2F38D1B1B9152025}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_AMG_P.et"
+  "{EBCC12AC8EF38488}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_MG_P.et"
+  "{2F38D1B1B9152025}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_AMG_P.et"
+  "{DCB0A61B8FA448DF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_HAT_P.et"
+  "{748E3A8A3B2BF77D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/Character_RHS_USA_AAT.et"
+  "{97DB1731DB72FF81}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_CrewDriver_P.et"
+  "{953A28107E57C278}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_CrewGunner_P.et"
+ }
+ m_iMaxMembers 7
+ m_bPlayable 1
+ m_sCustomNameSet "Weapons Squad (Delta)"
+ m_bSetPlayable 1
+}
+SCR_AIGroup : "{A72DC8DF0750D744}Prefabs/Groups/BLUFOR/US/Army/2020/Mech/P/Group_USA_2020_MechPHQ_P.et" {
+ coords 1563.163 15.939 1390.991
+ m_aUnitPrefabSlots +{
+  ""
+  ""
+ }
+ m_iMaxMembers 4
+ m_bPlayable 1
+ m_bSetPlayable 1
+}
+SCR_AIGroup MGSCrew : "{C52D0AEB57D2A007}Prefabs/Groups/BLUFOR/US/Army/2020/Mech/P/Group_USA_2020_MechCHQ_P.et" {
+ coords 1605.594 12.618 1379.31
+ m_aUnitPrefabSlots {
+  "{E45B87C339BCE311}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_CrewCommander_P.et"
+  "{953A28107E57C278}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_CrewGunner_P.et"
+  "{97DB1731DB72FF81}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_CrewDriver_P.et"
+ }
+ m_iMaxMembers 3
+ m_bPlayable 1
+ m_sCustomNameSet "MGS Crew"
+ m_bSetPlayable 1
+}

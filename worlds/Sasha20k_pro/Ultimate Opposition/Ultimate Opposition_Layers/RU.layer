@@ -1,0 +1,64 @@
+SCR_AIGroup : "{3D56369D21B1D656}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_ElementHQ.et" {
+ coords 3411.641 16.678 948.496
+ m_iMaxMembers 2
+ m_bPlayable 1
+ m_sCustomNameSet "Platoon HQ"
+ m_bSetPlayable 1
+}
+SCR_AIGroup T90M2Crew : "{5BD9D75C1E44BEC1}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_TeamAssault.et" {
+ coords 3373.044 17.781 951.173
+ m_aUnitPrefabSlots {
+  "{D6A36ABEBFF38320}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewCommander_P.et"
+  "{2260894A1404A766}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewGunner_P.et"
+  "{F3147744B1840A05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewDriver_P.et"
+ }
+ m_iMaxMembers 3
+ m_bPlayable 1
+ m_sCustomNameSet "T-90M2 Crew"
+ m_bSetPlayable 1
+}
+SCR_AIGroup : "{82676E9333E0F02D}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_TeamSVD.et" {
+ coords 3412.424 15.575 936.885
+ m_iMaxMembers 2
+ m_bPlayable 1
+ m_sCustomNameSet "Sniper Recon Team"
+ m_bSetPlayable 1
+}
+$grp SCR_AIGroup : "{8CA48CA1713330DC}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_SquadFull.et" {
+ {
+  coords 3411.921 16.378 945.844
+  m_aUnitPrefabSlots +{
+   "{D6A36ABEBFF38320}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewCommander_P.et"
+   "{F3147744B1840A05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewDriver_P.et"
+   "{2260894A1404A766}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewGunner_P.et"
+  }
+  m_iMaxMembers 9
+  m_bPlayable 1
+  m_sCustomNameSet "Squad Alpha"
+  m_bSetPlayable 1
+ }
+ {
+  coords 3412.108 16.161 942.902
+  m_aUnitPrefabSlots +{
+   "{D6A36ABEBFF38320}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewCommander_P.et"
+   "{F3147744B1840A05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewDriver_P.et"
+   "{2260894A1404A766}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewGunner_P.et"
+  }
+  m_iMaxMembers 9
+  m_bPlayable 1
+  m_sCustomNameSet "Squad Bravo"
+  m_bSetPlayable 1
+ }
+ {
+  coords 3412.204 15.847 939.882
+  m_aUnitPrefabSlots +{
+   "{D6A36ABEBFF38320}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewCommander_P.et"
+   "{F3147744B1840A05}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewDriver_P.et"
+   "{2260894A1404A766}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_CrewGunner_P.et"
+  }
+  m_iMaxMembers 9
+  m_bPlayable 1
+  m_sCustomNameSet "Squad Charlie"
+  m_bSetPlayable 1
+ }
+}
