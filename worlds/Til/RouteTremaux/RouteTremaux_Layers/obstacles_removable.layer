@@ -18,6 +18,12 @@ $grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/RouteTremaux/Prefabs/obstacle
    TILW_PresenceTriggerEntity tr_05 {
     ID "6A3ED6B950A4F886"
     m_flagName "obst_05"
+    m_entityNames {
+     "oid_051"
+     "oid_052"
+     "oid_053"
+     "oid_054"
+    }
    }
   }
  }
@@ -38,6 +44,13 @@ $grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_06 {
     ID "6A3ED6B950A4F886"
+    m_flagName "obst_06"
+    m_entityNames {
+     "oid_061"
+     "oid_062"
+     "oid_063"
+     "oid_064"
+    }
    }
   }
  }
@@ -58,6 +71,13 @@ $grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_08 {
     ID "6A3ED6B950A4F886"
+    m_flagName "obst_08"
+    m_entityNames {
+     "oid_081"
+     "oid_082"
+     "oid_083"
+     "oid_084"
+    }
    }
   }
  }
@@ -78,6 +98,13 @@ $grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_09 {
     ID "6A3ED6B950A4F886"
+    m_flagName "obst_09"
+    m_entityNames {
+     "oid_091"
+     "oid_092"
+     "oid_093"
+     "oid_094"
+    }
    }
   }
  }
@@ -99,6 +126,13 @@ $grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_12 {
     ID "6A3ED6B950A4F886"
+    m_flagName "obst_12"
+    m_entityNames {
+     "oid_121"
+     "oid_122"
+     "oid_123"
+     "oid_124"
+    }
    }
   }
  }
@@ -120,6 +154,13 @@ $grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_15 {
     ID "6A3ED6B950A4F886"
+    m_flagName "obst_15"
+    m_entityNames {
+     "oid_151"
+     "oid_152"
+     "oid_153"
+     "oid_154"
+    }
    }
   }
  }
@@ -141,6 +182,13 @@ $grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_18 {
     ID "6A3ED6B950A4F886"
+    m_flagName "obst_18"
+    m_entityNames {
+     "oid_181"
+     "oid_182"
+     "oid_183"
+     "oid_184"
+    }
    }
   }
  }
@@ -162,6 +210,13 @@ $grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_20 {
     ID "6A3ED6B950A4F886"
+    m_flagName "obst_20"
+    m_entityNames {
+     "oid_201"
+     "oid_202"
+     "oid_203"
+     "oid_204"
+    }
    }
   }
  }
@@ -183,6 +238,13 @@ $grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_21 {
     ID "6A3ED6B950A4F886"
+    m_flagName "obst_21"
+    m_entityNames {
+     "oid_211"
+     "oid_212"
+     "oid_213"
+     "oid_214"
+    }
    }
   }
  }
@@ -203,6 +265,13 @@ $grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_22 {
     ID "6A3ED6B950A4F886"
+    m_flagName "obst_22"
+    m_entityNames {
+     "oid_221"
+     "oid_222"
+     "oid_223"
+     "oid_224"
+    }
    }
   }
  }
@@ -224,6 +293,13 @@ $grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_25 {
     ID "6A3ED6B950A4F886"
+    m_flagName "obst_25"
+    m_entityNames {
+     "oid_251"
+     "oid_252"
+     "oid_253"
+     "oid_254"
+    }
    }
   }
  }
@@ -251,6 +327,13 @@ $grp GenericEntity : "{B160433A57DB8689}worlds/Til/RouteTremaux/Prefabs/obstacle
    TILW_PresenceTriggerEntity tr_02 {
     ID "6A3ED6B8E78C91FF"
     m_flagName "obst_02"
+    m_entityNames {
+     "oid_021"
+     "oid_022"
+     "oid_023"
+     "oid_024"
+     "oid_025"
+    }
    }
   }
  }
@@ -275,6 +358,13 @@ $grp GenericEntity : "{B160433A57DB8689}worlds/Til/RouteTremaux/Prefabs/obstacle
    TILW_PresenceTriggerEntity tr_03 {
     ID "6A3ED6B8E78C91FF"
     m_flagName "obst_03"
+    m_entityNames {
+     "oid_031"
+     "oid_032"
+     "oid_033"
+     "oid_034"
+     "oid_035"
+    }
    }
   }
  }
@@ -299,6 +389,13 @@ $grp GenericEntity : "{B160433A57DB8689}worlds/Til/RouteTremaux/Prefabs/obstacle
    TILW_PresenceTriggerEntity tr_04 {
     ID "6A3ED6B8E78C91FF"
     m_flagName "obst_04"
+    m_entityNames {
+     "oid_041"
+     "oid_042"
+     "oid_043"
+     "oid_044"
+     "oid_045"
+    }
    }
   }
  }
@@ -323,6 +420,14 @@ $grp GenericEntity : "{B160433A57DB8689}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_11 {
     ID "6A3ED6B8E78C91FF"
+    m_flagName "obst_11"
+    m_entityNames {
+     "oid_111"
+     "oid_112"
+     "oid_113"
+     "oid_114"
+     "oid_115"
+    }
    }
   }
  }
@@ -347,6 +452,14 @@ $grp GenericEntity : "{B160433A57DB8689}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_13 {
     ID "6A3ED6B8E78C91FF"
+    m_flagName "obst_13"
+    m_entityNames {
+     "oid_131"
+     "oid_132"
+     "oid_133"
+     "oid_134"
+     "oid_135"
+    }
    }
   }
  }
@@ -371,6 +484,14 @@ $grp GenericEntity : "{B160433A57DB8689}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_19 {
     ID "6A3ED6B8E78C91FF"
+    m_flagName "obst_19"
+    m_entityNames {
+     "oid_191"
+     "oid_192"
+     "oid_193"
+     "oid_194"
+     "oid_195"
+    }
    }
   }
  }
@@ -395,6 +516,14 @@ $grp GenericEntity : "{B160433A57DB8689}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_23 {
     ID "6A3ED6B8E78C91FF"
+    m_flagName "obst_23"
+    m_entityNames {
+     "oid_231"
+     "oid_232"
+     "oid_233"
+     "oid_234"
+     "oid_235"
+    }
    }
   }
  }
@@ -419,6 +548,14 @@ $grp GenericEntity : "{B160433A57DB8689}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_24 {
     ID "6A3ED6B8E78C91FF"
+    m_flagName "obst_24"
+    m_entityNames {
+     "oid_241"
+     "oid_242"
+     "oid_243"
+     "oid_244"
+     "oid_245"
+    }
    }
   }
  }
@@ -476,6 +613,14 @@ $grp GenericEntity : "{DD3477DAEB1F09A7}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_07 {
     ID "6A3ED6B8ABBC63C7"
+    m_flagName "obst_07"
+    m_entityNames {
+     "oid_071"
+     "oid_072"
+     "oid_073"
+     "oid_074"
+     "oid_075"
+    }
    }
   }
  }
@@ -499,6 +644,14 @@ $grp GenericEntity : "{DD3477DAEB1F09A7}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_10 {
     ID "6A3ED6B8ABBC63C7"
+    m_flagName "obst_10"
+    m_entityNames {
+     "oid_101"
+     "oid_102"
+     "oid_103"
+     "oid_104"
+     "oid_105"
+    }
    }
   }
  }
@@ -523,6 +676,14 @@ $grp GenericEntity : "{DD3477DAEB1F09A7}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_14 {
     ID "6A3ED6B8ABBC63C7"
+    m_flagName "obst_14"
+    m_entityNames {
+     "oid_141"
+     "oid_142"
+     "oid_143"
+     "oid_144"
+     "oid_145"
+    }
    }
   }
  }
@@ -547,6 +708,14 @@ $grp GenericEntity : "{DD3477DAEB1F09A7}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_16 {
     ID "6A3ED6B8ABBC63C7"
+    m_flagName "obst_16"
+    m_entityNames {
+     "oid_161"
+     "oid_162"
+     "oid_163"
+     "oid_164"
+     "oid_165"
+    }
    }
   }
  }
@@ -571,6 +740,14 @@ $grp GenericEntity : "{DD3477DAEB1F09A7}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_17 {
     ID "6A3ED6B8ABBC63C7"
+    m_flagName "obst_17"
+    m_entityNames {
+     "oid_171"
+     "oid_172"
+     "oid_173"
+     "oid_174"
+     "oid_175"
+    }
    }
   }
  }
@@ -595,6 +772,14 @@ $grp GenericEntity : "{DD3477DAEB1F09A7}worlds/Til/RouteTremaux/Prefabs/obstacle
    }
    TILW_PresenceTriggerEntity tr_26 {
     ID "6A3ED6B8ABBC63C7"
+    m_flagName "obst_26"
+    m_entityNames {
+     "oid_261"
+     "oid_262"
+     "oid_263"
+     "oid_264"
+     "oid_265"
+    }
    }
   }
  }
