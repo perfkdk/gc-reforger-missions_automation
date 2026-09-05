@@ -26,7 +26,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "End conditions:"\
   "- Major Victory: 70% of alive US forces reach the western end of the AO, after fully clearing an uninterrupted road towards it of obstacles and enemies"\
   "- Minor Victory: Same as above but without 100% clearing a route"\
-  "- Defeat: Reached 70% casualties or 50m minute time limit"\
+  "- Defeat: Reached 70% casualties or 60m minutes pass"\
   ""\
   ""\
   "Route validity:"\
@@ -60,7 +60,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Traverse the road network, locating and clearing removable obstacles and destroying enemy positions along the way."\
   "If a road is blocked by a major obstacle that cannot be quickly removed (e. g. abatis, vehicle barricade), an alternate route must be found."\
-  "For this reason, it may be faster to first split the platoon into A/B sections on junctions."\
+  "For this reason, it may be faster to first split the platoon into A/B sections on junctions to identify a viable route quickly."\
   "Desired end state is that the platoon has reached the eastern side of the AO, and there is some uninterrupted road without any obstacles leading up to it."\
   ""\
   "<h2>IV. ADMIN / LOGISTICS</h2>"\
