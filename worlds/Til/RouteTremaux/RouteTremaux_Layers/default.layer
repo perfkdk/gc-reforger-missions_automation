@@ -158,7 +158,7 @@ TILW_MissionFrameworkEntity fw : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFrame
    m_name "Time Limit"
    m_instructions {
     TILW_SendMessageInstruction "{6A3D2DFBB74D65FD}" {
-     m_executionDelay 3000
+     m_executionDelay 3600
      m_messageTitle "US DEFEAT"
      m_messageBody "The LAR platoon was unable to complete its mission in time."
     }
