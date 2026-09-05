@@ -2,9 +2,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  overview {
   coords 7475.853 165.501 4219.396
   m_sTitle "Overview"
-  m_sTextData "Revolution has begun!And FIA rebels are planning to attack the US military base to capture their equipment."\
+  m_sTextData "The revolution has begun! FIA rebels make their first move to attack a US military base to capture their equipment for future operations."\
   ""\
-  "Ratio 1:3"\
+  "<h2>NOTES</h2>"\
+  "• Setup timer: 6min"\
+  "• Ratio 1:3"\
   ""
   m_bEmptyFactionVisibility 1
  }
@@ -33,28 +35,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      }
      coords 16.245 6.486 10.563
      m_sTitle "Situation"
-     m_sTextData "The corrupt government of Everon has fallen! But while we have the spirit to fight we don't have the modern weapons necessary to fight. With that said we have gathered local population with weapons and the0 will to fight. We will assault the US base and capture any and all equipment to win the coming war."
+     m_sTextData "The corrupt government of Everon has fallen! "\
+     "While we have the spirit to fight we don't have the modern weapons necessary to fight. With that said, we've gathered the local population with weapons and the will to fight. We will assault the US base and secure it be destroying any enemy forces protecting it. "\
+     "This base will be used for future operations."
      m_aVisibleForFactions {
       "FIA"
      }
      m_iOrder 1
-    }
-    Mission_notes_READ {
-     coords 35.26 4.218 24.273
-     m_sTitle "Mission notes(READ)"
-     m_sTextData "Setup timer is 6 min"\
-     ""\
-     "FIA win if they eliminate 90% of US forces or capture the military site."\
-     ""\
-     "For FIA to capture the military site the FIA needs to have a 70% presence in the military site."\
-     ""\
-     "US forces win if they eliminate 80% of FIA forces or survive for 40 min."\
-     ""\
-     "Grabbing and using enemy equipment is encouraged."
-     m_aVisibleForFactions {
-      "FIA"
-     }
-     m_iOrder 4
     }
     FriendlyForces {
      coords 0.057 -0.034 -0.562
@@ -74,6 +61,32 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
     }
    }
   }
+ }
+ Mission_notes_READ {
+  coords 7493.221 161.154 4256.53
+  m_sTitle "Mission notes"
+  m_sTextData "<h2>END CONDITIONS</h2>"\
+  "<b>FIA victory:</b>"\
+  "• Capture the US military base - FIA needs to have a 70% majority presence in the military site."\
+  "or"\
+  "• Destroy 90% of US forces."\
+  ""\
+  "<b>US victory:</b>"\
+  "• Destroy 80% of FIA Forces"\
+  "or"\
+  "• Hold out for 40mins"\
+  ""\
+  "<h2>NOTES</h2>"\
+  "• Setup timer: 6min"\
+  "• JIP: Manual"\
+  "• Usage of enemy equipment is permitted and encouraged."\
+  ""
+  m_aVisibleForFactions {
+   ""
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 10
  }
  US_brief {
   coords 7453.287 157.063 4237.632
@@ -103,30 +116,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      }
      coords 16.245 6.486 10.563
      m_sTitle "Situation"
-     m_sTextData "The friendly local government has collapsed and the rebel forces are extremly hostile to us. And we have been tasked to protect the military base until our main force arrives in 40 minutes."
+     m_sTextData "The local government has collapsed and the rebel forces are extremly hostile to us.  We have been tasked to protect the military base until our main force arrives in 40 minutes."
      m_aVisibleForFactions {
       "US"
      }
      m_iOrder 1
-    }
-    Mission_notes_READ2 {
-     coords 35.26 4.218 24.273
-     m_sTitle "Mission notes(READ)"
-     m_sTextData "Setup timer is 6 min."\
-     ""\
-     "FIA win if they eliminate 90% of US forces or capture the military site."\
-     ""\
-     "For FIA to capture the military site the FIA needs to have a 70% presence in the military site."\
-     ""\
-     "FIA is encouraged to grab and use our equipment."\
-     ""\
-     "US forces win if they eliminate 80% of FIA forces or survive for 40 min."\
-     ""\
-     ""
-     m_aVisibleForFactions {
-      "US"
-     }
-     m_iOrder 4
     }
     FriendlyForces2 {
      coords 0.057 -0.034 -0.562
@@ -152,7 +146,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
      m_aVisibleForFactions {
       "US"
      }
-     m_iOrder 5
+     m_iOrder 4
     }
    }
   }
