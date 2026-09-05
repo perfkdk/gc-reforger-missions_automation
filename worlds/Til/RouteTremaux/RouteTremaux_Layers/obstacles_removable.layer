@@ -1,0 +1,199 @@
+$grp GenericEntity : "{8B435050BF1FCE5C}worlds/Til/route/Prefabs/obstacles/obstacle_mines_1.et" {
+ obst_05 {
+  coords 4424.917 169.237 7986.362
+  angles 0 -14.019 0
+  {
+   GenericEntity oid_22 {
+    ID "6A3ED6B950A339F6"
+   }
+   GenericEntity oid_23 {
+    ID "6A3ED6B950A339F7"
+   }
+   GenericEntity oid_24 {
+    ID "6A3ED6B950A4F881"
+   }
+   GenericEntity oid_25 {
+    ID "6A3ED6B950A4F882"
+   }
+   TILW_PresenceTriggerEntity tr_5 {
+    ID "6A3ED6B950A4F886"
+   }
+  }
+ }
+ obst_06 {
+  coords 4485.199 193.179 8146.249
+ }
+ obst_08 {
+  coords 4637.112 156.737 8388.262
+ }
+ obst_09 {
+  coords 4471.324 183.781 8251.4
+ }
+ obst_12 {
+  coords 4794.88 168.242 8088.723
+  angles -1.189 -0.074 3.577
+ }
+ obst_15 {
+  coords 5077.878 148.43 8166.39
+  angles -1.185 -0.099 4.765
+ }
+ obst_18 {
+  coords 5654.439 136.23 8198.287
+  angles 0 0 1.194
+ }
+ obst_20 {
+  coords 5694.331 135.611 8259.354
+  angles -1.534 39.983 1.828
+ }
+ obst_21 {
+  coords 5837.481 137.891 8389.826
+  angles -1.181 -0.123 5.948
+ }
+ obst_22 {
+  coords 5891.907 131.969 8258.443
+ }
+ obst_25 {
+  coords 5694.069 156.655 7804.381
+  angles 0 0 1.194
+ }
+}
+$grp GenericEntity : "{B160433A57DB8689}worlds/Til/route/Prefabs/obstacles/obstacle_wire_2.et" {
+ obst_02 {
+  coords 4210.052 191.951 8238.337
+  angles -0.679 -24.608 4.242
+  {
+   GenericEntity oid_6 {
+    ID "6A3ED6B8E78C65DF"
+   }
+   GenericEntity oid_7 {
+    ID "6A3ED6B8E78C91FC"
+   }
+   GenericEntity oid_8 {
+    ID "6A3ED6B8E78C91FE"
+   }
+   StaticModelEntity oid_9 {
+    ID "6A3ED6B8E78C91E1"
+   }
+   StaticModelEntity oid_10 {
+    ID "6A3ED6B8E78CCA3F"
+   }
+   TILW_PresenceTriggerEntity tr_2 {
+    ID "6A3ED6B8E78C91FF"
+   }
+  }
+ }
+ obst_03 {
+  coords 4331.177 200.33 8180.728
+  {
+   GenericEntity oid_11 {
+    ID "6A3ED6B8E78C65DF"
+   }
+   GenericEntity oid_12 {
+    ID "6A3ED6B8E78C91FC"
+   }
+   GenericEntity oid_13 {
+    ID "6A3ED6B8E78C91FE"
+   }
+   StaticModelEntity oid_14 {
+    ID "6A3ED6B8E78C91E1"
+   }
+   StaticModelEntity oid_15 {
+    ID "6A3ED6B8E78CCA3F"
+   }
+   TILW_PresenceTriggerEntity tr_3 {
+    ID "6A3ED6B8E78C91FF"
+   }
+  }
+ }
+ obst_04 {
+  coords 4148.108 188.644 7845.777
+  {
+   GenericEntity oid_17 {
+    ID "6A3ED6B8E78C65DF"
+   }
+   GenericEntity oid_18 {
+    ID "6A3ED6B8E78C91FC"
+   }
+   GenericEntity oid_19 {
+    ID "6A3ED6B8E78C91FE"
+   }
+   StaticModelEntity oid_20 {
+    ID "6A3ED6B8E78C91E1"
+   }
+   StaticModelEntity oid_21 {
+    ID "6A3ED6B8E78CCA3F"
+   }
+   TILW_PresenceTriggerEntity tr_4 {
+    ID "6A3ED6B8E78C91FF"
+   }
+  }
+ }
+ obst_11 {
+  coords 4750.811 177.751 8207.352
+  angles 0 -17.355 0
+ }
+ obst_13 {
+  coords 4705.122 160.461 7996.546
+  angles 0 -5.204 0
+ }
+ obst_19 {
+  coords 5575.733 143.059 8307.766
+  angles -0.58 20.807 4.875
+ }
+ obst_23 {
+  coords 5467.266 159.693 7962.94
+  angles -0.027 -18.843 -3.769
+ }
+ obst_24 {
+  coords 5460.714 164.678 7726.816
+  angles 1.193 -0.025 -1.194
+ }
+}
+$grp GenericEntity : "{DD3477DAEB1F09A7}worlds/Til/route/Prefabs/obstacles/obstacle_wire_1.et" {
+ obst_01 {
+  coords 3994.971 189.581 8394.618
+  angles 0 -7.871 0
+  {
+   GenericEntity oid_3 {
+    ID "6A3ED6B8ABBC1971"
+   }
+   GenericEntity oid_4 {
+    ID "6A3ED6B8ABBC7652"
+   }
+   GenericEntity oid_5 {
+    ID "6A3ED6B8ABBC7653"
+   }
+   StaticModelEntity oid_1 {
+    ID "6A3ED6B8ABBC196C"
+   }
+   StaticModelEntity oid_2 {
+    ID "6A3ED6B8ABBC63C2"
+   }
+   TILW_PresenceTriggerEntity tr_1 {
+    ID "6A3ED6B8ABBC63C7"
+   }
+  }
+ }
+ obst_07 {
+  coords 4395.165 161.33 8436.365
+ }
+ obst_10 {
+  coords 4781.157 166.941 8141.508
+ }
+ obst_14 {
+  coords 4956.77 155.763 7966.829
+  angles -1.531 64.117 -5.868
+ }
+ obst_16 {
+  coords 5086.001 145.937 8239.229
+  angles 0 27.467 0
+ }
+ obst_17 {
+  coords 5286.763 152.544 8036.874
+  angles -0.486 -63.859 6.383
+ }
+ obst_26 {
+  coords 5727.664 168.264 8076.254
+  angles -0.363 -17.686 -1.137
+ }
+}
