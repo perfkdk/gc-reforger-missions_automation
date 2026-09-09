@@ -1,0 +1,205 @@
+SCR_AIGroup ACE : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Desert/Group_USMC_2025_RiflePHQ_D.et" {
+ components {
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iCompanyCallsign 9
+   m_iPlatoonCallsign 2
+   m_iSquadCallsign 3
+  }
+ }
+ coords 8288.145 322.187 1830.959
+ angles 4.489 -178.521 -0.777
+ m_aUnitPrefabSlots {
+  "{A59EA43640B5DE47}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Pilot_D.et"
+  "{A59EA43640B5DE47}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_Pilot_D.et"
+ }
+ m_sCustomNameSet "HMLA Detachment"
+}
+$grp Vehicle : "{533820E8979A44A9}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan.et" {
+ M1151_armed_M2HB_Tan1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 8956.49 291.562 5359.193
+  m_sAttachmentGroupName "CAAT1"
+ }
+ M1151_armed_M2HB_Tan2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 8946.55 291.559 5351.695
+  angles 0 35.38 0
+  m_sAttachmentGroupName "CAAT2"
+ }
+}
+$grp SCR_AIGroup : "{6A49DD0B2FD49FFF}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine Rifles/Desert/Group_USMC_2009_ATSquad_D.et" {
+ CAAT1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 8
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8922.544 292.227 5328.798
+  angles 0 46.291 0
+  m_aUnitPrefabSlots {
+   "{E62854E64A5771F6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_SL_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+  }
+  m_bPlayable 1
+  m_sCustomNameSet "CAAT 1"
+  m_bSetPlayable 1
+ }
+ CAAT2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 8
+    m_iSquadCallsign 2
+   }
+  }
+  coords 8921.704 292.267 5327.832
+  angles 0 46.291 0
+  m_aUnitPrefabSlots {
+   "{E62854E64A5771F6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_SL_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+   "{34AE64E0D320D5F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_TL_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+   "{39F6268EB2F6F94D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_Rifleman_D.et"
+  }
+  m_bPlayable 1
+  m_sCustomNameSet "CAAT 2"
+  m_bSetPlayable 1
+ }
+}
+Vehicle AH1S_Marines_XM1 : "{7981D5EB0583B2B3}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Marines_XM65.et" {
+ coords 8282.155 322.586 1810.223
+ angles 0 -30.402 0
+}
+Vehicle M923A1_transport_covered1 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ coords 8929.608 291.936 5335.745
+ angles 0 48.795 0
+ m_sAttachmentGroupName "PHQ"
+}
+$grp Vehicle : "{88AC991871268D12}Prefabs/Vehicles/Wheeled/M998/M1151_armed_MK19_Tan.et" {
+ M1151_armed_MK19_Tan1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 8955.59 291.495 5349.07
+  angles 0 78.368 0
+  m_sAttachmentGroupName "CAAT1"
+ }
+ M1151_armed_MK19_Tan2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 8947.5 291.621 5344.457
+  angles 0 75.85 0
+  m_sAttachmentGroupName "CAAT2"
+ }
+}
+SCR_AIGroup sq1 : "{BC4A2EF94B792692}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine Rifles/Desert/Group_USMC_2009_RifleSquad_D.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 8923.791 292.157 5330.789
+ angles 0 48.826 0
+ m_bPlayable 1
+ m_sCustomNameSet "Rufle Squad"
+ m_bSetPlayable 1
+}
+$grp Vehicle : "{D875ADE39021650C}Prefabs/Vehicles/Wheeled/M998/M1167_armed_TOW_Tan.et" {
+ M1167_armed_TOW_Tan1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 8938.422 291.745 5344.208
+  angles 0 22.045 0
+  m_sAttachmentGroupName "CAAT1"
+ }
+ M1167_armed_TOW_Tan2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 8938.977 291.811 5337.041
+  angles 0 68.891 0
+  m_sAttachmentGroupName "CAAT2"
+ }
+}
+SCR_AIGroup PHQ : "{E713B4C1FB70368A}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine Rifles/Desert/Group_USMC_2009_RiflePHQ_D.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+   Enabled 1
+  }
+ }
+ coords 8925.032 292.107 5331.774
+ angles 0 49.016 0
+ m_bPlayable 1
+ m_bSetPlayable 1
+}

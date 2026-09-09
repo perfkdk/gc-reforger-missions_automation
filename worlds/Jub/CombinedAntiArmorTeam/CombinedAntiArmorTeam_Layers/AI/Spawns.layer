@@ -1,0 +1,14 @@
+$grp GenericEntity {
+ SpawnPos1 {
+  coords 6821.581 246.715 6951.728
+  angles 0 -91.372 0
+ }
+ SpawnPos2 {
+  coords 7201.482 339.767 6907.979
+  angles 0 -110.323 0
+ }
+ SpawnPos3 {
+  coords 7530.352 374.311 6929.418
+  angles 0 -141.253 0
+ }
+}
