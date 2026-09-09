@@ -5,9 +5,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "NOTES"
   m_sTextData "<b>Extra Notes</b>"\
   ""\
-  "Total victory: Take FOB Thirty Palms and Kill all enemy Insurgent Platoons."\
+  "Total victory: Take full control of FOB Thirty Palms for 2 minutes."\
   ""\
-  "Total Defeat: Die or spend more than 40 mins on your ass."\
+  "Total Defeat: Death of 80% of players which results in combat innefectiveness or 40 minutes pass."\
   ""\
   ""\
   ""
@@ -19,8 +19,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "SITUATION"
   m_sTextData "<b>Situation</b>"\
   ""\
-  "The Insurgents have just siezed Thirty Palms yesterday and have significant control over the region, we need to assasult it and take it back in 40 mins"\
-  ""\
+  "The Insurgents have just siezed Thirty Palms yesterday and have significant control over the region, we need to assasult and retake the FOB."\
   "Expect heavy insurgent resistance from every side and keep your humvees safe from their RPGs. "\
   ""\
   "Intel suggests the Enemy power of about two platoons or a bit more and another platoon in hill 048 014, oh and how can i forget there is ANOTHER Platoon in the trees at 023 045 All the way up to the Hill, so be careful out there."
@@ -31,8 +30,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 4193.115 172.43 2722.398
   m_sTitle "MISSION"
   m_sTextData "<b>Mission</b> "\
-  ""\
-  "Assault and take FOB Thirty Palms under your control, and Kill All enemy platoons near Thirty Palms."
+  "Assault and clear FOB Thirty Palms in order to retake and secure the area."
   m_bShowForAnyFaction 1
   m_iOrder 2
  }
@@ -41,9 +39,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "LOGISTICS"
   m_sTextData "<b>Logistics</b>"\
   ""\
-  "No ressuply at any point sadly."\
-  ""\
-  "(Blame the Brigadier General for the three Green humvees)"
+  "• 5x 50cal open top OGPK and 3x CROW humvees."\
+  "- The CROWS only sits 4 people."
   m_bShowForAnyFaction 1
   m_iOrder 4
  }
@@ -60,7 +57,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<b>Radio</b> "\
   ""\
   "Platoon net: 48"\
-  "The rest as per commanders intent."
+  "Alpha: 47.0"\
+  "Bravo: 47.4"\
+  "Charlie: 47.8"
   m_bShowForAnyFaction 1
   m_iOrder 5
  }
@@ -69,7 +68,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "OVERVIEW"
   m_sTextData "<b>Overview</b>"\
   ""\
-  "US Marines Assault the FOB of Thirty Palms, which is heavelly defended my enemy insurgents"
+  "US Marines Assault the FOB of Thirty Palms, which is defended my enemy insurgents"
   m_bEmptyFactionVisibility 1
  }
 }

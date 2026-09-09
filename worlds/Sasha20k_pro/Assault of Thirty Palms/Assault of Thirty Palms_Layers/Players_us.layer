@@ -5,7 +5,7 @@ SCR_AIGroup : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Ri
    m_iPlatoonCallsign 1
   }
  }
- coords 4120.842 170.517 2665.383
+ coords 4120.842 171.012 2665.383
  angles 0 136.851 0
  m_iMaxMembers 7
  m_sCustomNameSet "Platoon HQ"

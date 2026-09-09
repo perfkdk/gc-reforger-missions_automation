@@ -100,27 +100,24 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
   }
  }
 }
+TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 5172.888 208.353 1810.986
+ m_queryRadius 150
+ m_captureTime 120
+ m_locationName "FOB Thirty Palms"
+ m_flagName "Thirty Palms Taken"
+ m_stopAfterFirstChange 1
+ m_ownerFactionKey "RHS_USAF"
+}
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 5267.187 213.452 1750.746
  m_missionEvents {
-  TILW_MissionEvent "{6A10A3CC1C8D038C}" {
-   m_name "Insurgents 80% Dead"
-   m_instructions {
-    TILW_SendMessageInstruction "{6A10A3CC3E60482D}" {
-     m_messageTitle "US Wins!"
-     m_messageBody "80% of All insurgents defending Thirty Palms Have been killed, mission succsesful boys"
-    }
-   }
-   m_condition TILW_LiteralTerm "{6A10A3CD4F74D21F}" {
-    m_flagName "Insurgents Killed"
-   }
-  }
   TILW_MissionEvent "{6A10A3CC190155D7}" {
    m_name "US Players Killed"
    m_instructions {
     TILW_SendMessageInstruction "{6A10A3CD7BBF900F}" {
      m_messageTitle "95% of Players Are Dead, Defeat!"
-     m_messageBody "95% of US players have died and or are combat ineffective, insurgents manage to hold their position, its a US defeat!"
+     m_messageBody "80% of US players have died and or are combat ineffective, insurgents manage to hold their position, its a US defeat!"
     }
    }
    m_condition TILW_LiteralTerm "{6A10A3CD030323A8}" {
@@ -140,17 +137,37 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_invertTerm 1
    }
   }
+  TILW_MissionEvent "{6A4EC8EDD7C4D4AA}" {
+   m_name "FOB Captured"
+   m_instructions {
+    TILW_SendMessageInstruction "{6A4EC8EDD9D68AA9}" {
+     m_messageTitle "FOB taken"
+     m_messageBody "The FOB Of thirty palms has been taken by the US forces, mission succsessful"
+     m_factionKeys {
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A4EC8EC243D267A}" {
+    m_flagName "Thirty Palms Taken"
+   }
+  }
  }
  m_casualtyFlags {
-  TILW_FactionAIKilledFlag "{6A10A3CDCA3C355D}" {
-   m_flagName "Insurgents Killed"
-   m_factionKey "GC_INSURGENT"
-   m_casualtyRatio 0.8
-  }
   TILW_FactionPlayersKilledFlag "{6A10A3CDACEBB175}" {
    m_flagName "US players Killed"
    m_factionKey "RHS_USAF"
-   m_casualtyRatio 0.95
+   m_casualtyRatio 0.8
   }
+ }
+}
+$grp Vehicle : "{BC799DFC61A080D0}Prefabs/Vehicles/Wheeled/M998/M1151/M2HB/GC_M1151_armed_M2HB_MDO_OGPK+Cover_tan.et" {
+ GC_M1151_armed_M2HB_MDO_OGPK_Cover_tan2 {
+  coords 4137.249 167.528 2629.947
+  angles 0 177.533 0
+ }
+ GC_M1151_armed_M2HB_MDO_OGPK_Cover_tan3 {
+  coords 4143.278 167.269 2626.116
+  angles 0 177.533 0
  }
 }
