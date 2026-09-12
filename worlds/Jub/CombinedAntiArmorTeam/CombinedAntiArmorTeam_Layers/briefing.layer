@@ -2,13 +2,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Overview {
   coords 3291.947 47.151 2221.159
   m_sTitle "Overview"
-  m_sTextData "Rifle platoon CO is the IC. RTO required for CAS."\
+  m_sTextData "A USMC Rifle platoon(-), CAAT Section and ACE conduct a hasty defense in support of a UK recon platoon to the North-West."\
   ""\
-  "A USMC Rifle platoon(-), CAAT Section and ACE conduct a hasty defense to support a UK recon platoon to the NorthWest."\
-  ""\
-  "I recommend slotting the TOWs>MK19s>AH1>M2HB> Rifles in that order. Asset heavy mission!"
+  "<h2>Notes</h2>"\
+  "• Rifle platoon CO is in overall command. RTO required for CAS."\
+  "• I recommend slotting the TOWs>MK19s>AH1>M2HB> Rifles in that order. Asset heavy mission!"\
+  ""
   m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
  }
  MissionNotes {
   coords 3291.92 46.64 2209.38
@@ -37,7 +37,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "To the NW along the ASR, a UK recon patrol has made contact with locals informing of a Takistani army armored column approaching them.  The main effort of the UK TF is locked in heavy fighting to the West and is unable to send reinforcements. We have broken off our BLTs route North to support them."\
   ""\
   ""
-  m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
  "II.FriendlyForces" {
@@ -53,7 +52,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "The ACE assets are located at a FARP to the South and are TYPE 2 to the PL RTO."\
   "ACE has x1 AH-1 with rockets and TOWs."
-  m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 1
  }
@@ -68,7 +66,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Their weapons include AKs, M16s, FN-FALs, SVDs, RPKs, PKMs, RPGs."\
   ""\
   "They wear OD soviet style uniforms."
-  m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 2
  }
@@ -76,7 +73,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3264.814 53.251 2206.532
   m_sTitle "IV. Mission"
   m_sTextData "Support the friendly recon platoon to the NW in their defence for 30min"
-  m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 3
  }
@@ -84,7 +80,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3266.036 53.313 2208.564
   m_sTitle "V. Sustainment"
   m_sTextData "None"
-  m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 4
  }
@@ -96,82 +91,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Callsigns: per the lobby for the ground."\
   "Air can create their own"
-  m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 5
- }
-}
-$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- {
-  coords 8931.915 291.957 5330.707
-  angles 0 90 0
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
-  m_sQuadName "motorized-infantry"
-  m_fWorldSize 96.4
-  m_sDescription "PLAYERS"
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- {
-  coords 6922.308 345.287 6078.944
-  angles 0 90 0
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
-  m_sQuadName "motorized-infantry"
-  m_fWorldSize 90.9
-  m_sDescription "UK AI"
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- {
-  coords 6902.394 329.888 6131.786
-  angles 0 -175.359 0
-  m_sImageSet "{83B695FF662AC163}imagesets/Soviet_Tactical_Graphics.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.071 0.192 0.561 1
-  m_sQuadName "fp"
-  m_fWorldSize 60
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- {
-  coords 6927.515 268.194 6965.563
-  angles 0 90 0
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
-  m_sQuadName "combined"
-  m_fWorldSize 113.6
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- {
-  coords 6851.34 301.367 6509.447
-  angles 0 176.924 0
-  m_MarkerColor 1 0 0 1
-  m_sQuadName "arrow-medium"
-  m_fWorldSize 87
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- {
-  coords 7129.614 348.287 6505.632
-  angles 0 -167.736 0
-  m_MarkerColor 1 0 0 1
-  m_sQuadName "arrow-medium"
-  m_fWorldSize 87
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- air {
-  coords 8289.31 322.188 1818.136
-  angles 0 90 0
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
-  m_sQuadName "helicopter-attack"
-  m_fWorldSize 205.9
-  m_sDescription "FARP"
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
  }
 }
