@@ -3,8 +3,8 @@ SCR_AIGroup ACE : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Marin
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1
    m_iCompanyCallsign 9
-   m_iPlatoonCallsign 2
-   m_iSquadCallsign 3
+   m_iPlatoonCallsign 6
+   m_iSquadCallsign 7
   }
  }
  coords 8288.145 322.187 1830.959
@@ -53,6 +53,7 @@ $grp SCR_AIGroup : "{6A49DD0B2FD49FFF}Prefabs/Groups/BLUFOR/US/Marines/2009/Mari
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iCompanyCallsign 8
+    m_iPlatoonCallsign 3
     m_iSquadCallsign 1
    }
   }
@@ -82,6 +83,7 @@ $grp SCR_AIGroup : "{6A49DD0B2FD49FFF}Prefabs/Groups/BLUFOR/US/Marines/2009/Mari
    PS_GroupCallsignAssigner "{63616C6C7369676E}" {
     Enabled 1
     m_iCompanyCallsign 8
+    m_iPlatoonCallsign 3
     m_iSquadCallsign 2
    }
   }

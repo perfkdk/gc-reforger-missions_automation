@@ -1,14 +1,38 @@
 $grp GenericEntity {
  SpawnPos1 {
   coords 6821.581 246.715 6951.728
-  angles 0 -91.372 0
+  angles 0 16.614 0
  }
  SpawnPos2 {
   coords 7201.482 339.767 6907.979
-  angles 0 -110.323 0
+  angles 0 36.413 0
  }
  SpawnPos3 {
   coords 7530.352 374.311 6929.418
-  angles 0 -141.253 0
+  angles 0 41.442 0
+ }
+ SpawnPos4 {
+  coords 8970.781 292.12 5370.353
+  angles 0 41.442 0
+ }
+ cas1 {
+  coords 6836.851 311.486 6260.822
+  angles 0 41.442 0
+ }
+ cas2 {
+  coords 7247.921 393.549 6262.835
+  angles 0 41.442 0
+ }
+ cas3 {
+  coords 7427.146 417.353 6152.581
+  angles 0 41.442 0
+ }
+ cas4 {
+  coords 6925.359 331.79 6033.074
+  angles 0 41.442 0
+ }
+ cas5 {
+  coords 7153.424 359.841 5868.946
+  angles 0 41.442 0
  }
 }

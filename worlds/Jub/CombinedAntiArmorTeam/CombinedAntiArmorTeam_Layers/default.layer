@@ -47,7 +47,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5CC8DE37E1FF0F7A}" {
-     m_aFriendlyFactionsIds +{
+     m_aFriendlyFactionsIds {
       "UK"
      }
      m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
@@ -61,7 +61,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
      }
     }
     SCR_Faction "{61500924662B6062}" {
-     m_aFriendlyFactionsIds +{
+     m_aFriendlyFactionsIds {
       "RHS_USAF"
      }
     }
@@ -92,7 +92,10 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    Position 1027.144 -204.172 -338.69
   }
   ShapePoint "{6A5319722BB0A932}" {
-   Position 1200.727 -213.739 -106.771
+   Position 1162.288 -211.448 -189.742
+  }
+  ShapePoint "{6A58E75EC6EFF795}" {
+   Position 1011.076 -183.316 -92.27
   }
   ShapePoint "{6A531970B6195150}" {
    Position 446.596 -51.058 113.455
@@ -133,6 +136,90 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
       "AttackWp"
      }
     }
+    TILW_SpawnVehicleInstruction "{6A58E75CE82C56BD}" {
+     m_executionDelay 120.3
+     m_prefab "{3F069520019E9C84}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_AGS.et"
+     m_locationName "SpawnPos1"
+     m_crewConfig TILW_CrewConfig "{6A58E75CFBE7ED8B}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6A58E75CFB155D8F}" {
+        m_crewStations {
+         TILW_CrewStation "{6A58E75CF9C6C81D}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+          }
+         }
+         TILW_CrewStation "{6A58E75CF9BEF8C7}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+          }
+         }
+         TILW_CrewStation "{6A58E75D04638DE2}" {
+          m_allowPilot 0
+          m_allowTurret 0
+          m_characters {
+           "{2C2031FC799B0EEC}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_SrRifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "AttackWp"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6A58E75D163E8CD7}" {
+     m_executionDelay 160.3
+     m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+     m_locationName "SpawnPos1"
+     m_crewConfig TILW_CrewConfig "{6A58E75D163E8C72}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6A58E75D163E8C7C}" {
+        m_crewStations {
+         TILW_CrewStation "{6A58E75D163E8C7E}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+          }
+         }
+         TILW_CrewStation "{6A58E75D163E8C7B}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+          }
+         }
+         TILW_CrewStation "{6A58E75D163E8C7A}" {
+          m_allowPilot 0
+          m_allowTurret 0
+          m_characters {
+           "{2C2031FC799B0EEC}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_SrRifleman.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "AttackWp"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnPrefabInstruction "{6A58E75763101A2C}" {
+     m_executionDelay 88.9
+     m_prefab "{D0DA67C9F501A6D5}Prefabs/Systems/Artillery/ArtilleryBarrage_Medium.et"
+     m_locationName "cas2"
+    }
+    TILW_SpawnPrefabInstruction "{6A58E757AC191A07}" {
+     m_executionDelay 103.3
+     m_prefab "{0ADA5C371391FAE4}Prefabs/Systems/Artillery/ArtilleryBarrage_Large.et"
+     m_locationName "cas5"
+    }
    }
    m_condition TILW_LiteralTerm "{646D3D6D6587FE85}" {
     m_invertTerm 1
@@ -142,7 +229,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "WAVE_2"
    m_instructions {
     TILW_SpawnGroupInstruction "{646D3D6D60452BF5}" {
-     m_executionDelay 420
+     m_executionDelay 380.3
      m_prefab "{2B24EF789452269D}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Group_GC_TKA_PHQ.et"
      m_locationName "SpawnPos1"
      m_waypointNames {
@@ -166,7 +253,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      }
     }
     TILW_SpawnVehicleInstruction "{690407A43AB6AA63}" {
-     m_executionDelay 470
+     m_executionDelay 317.1
      m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T-72B/T72B_desert.et"
      m_locationName "SpawnPos1"
      m_crewConfig TILW_CrewConfig "{690407A4596337AD}" {
@@ -197,7 +284,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      }
     }
     TILW_SpawnVehicleInstruction "{690407A8BF0DA622}" {
-     m_executionDelay 480.2
+     m_executionDelay 292.7
      m_prefab "{1EF865DC4E3F7E0B}IFV/BMP2/BMP2_Olive_test.et"
      m_locationName "SpawnPos2"
      m_crewConfig TILW_CrewConfig "{690407A8BF0DA7A2}" {
@@ -240,7 +327,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      }
     }
     TILW_SpawnVehicleInstruction "{6A5321895509070E}" {
-     m_executionDelay 473.6
+     m_executionDelay 336
      m_prefab "{1EF865DC4E3F7E0B}IFV/BMP2/BMP2_Olive_test.et"
      m_locationName "SpawnPos3"
      m_crewConfig TILW_CrewConfig "{6A5321895509009A}" {
@@ -399,6 +486,36 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
         }
         m_waypointNames {
          "SBF3"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6A58E75C1D241E46}" {
+     m_executionDelay 666.9
+     m_prefab "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et"
+     m_locationName "SpawnPos3"
+     m_crewConfig TILW_CrewConfig "{6A58E75C1D241FF8}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6A58E75C1D241FFA}" {
+        m_crewStations {
+         TILW_CrewStation "{6A58E75C1D241FE4}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+          }
+         }
+         TILW_CrewStation "{6A58E75C1D241FE7}" {
+          m_allowPilot 0
+          m_allowCargo 0
+          m_characters {
+           "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "SBF2"
         }
        }
       }
@@ -571,16 +688,66 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_name "UK_KIA"
    m_instructions {
     TILW_SendMessageInstruction "{6A53218F6114A83A}" {
-     m_messageTitle "DEFEAT"
-     m_messageBody "The UK recon platoon has taken significant casualties. GAMEOVER"
-    }
-    TILW_EndGameInstruction "{6A53218F6114A827}" {
-     m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "UK"
+     m_messageTitle "Mission failed:"
+     m_messageBody "The UK recon platoon has been wiped out. Mission failed. Fall back to friendly lines at the T intersection you started at."\
+     ""\
+     "HQ has green lit that area as a CAS freefire zone. You have 180 seconds to get out of there!"
     }
    }
    m_condition TILW_LiteralTerm "{6A53218F6114A821}" {
     m_flagName "UK_KIA"
+   }
+  }
+  TILW_MissionEvent "{6A58E7590ED81F72}" {
+   m_name "Spawn EVAC"
+   m_instructions {
+    TILW_SpawnPrefabInstruction "{6A58E7592EC65DE3}" {
+     m_prefab "{FE431ECD083AAA72}worlds/Jub/CombinedAntiArmorTeam/prefabs/TILW_ExtractionTrigger_CAAT.et"
+     m_locationName "SpawnPos4"
+     m_setEntityName "exfil"
+    }
+    TILW_SpawnPrefabInstruction "{6A58E7560590CE7A}" {
+     m_executionDelay 168
+     m_prefab "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et"
+     m_locationName "cas1"
+    }
+    TILW_SpawnPrefabInstruction "{6A58E756882C4CB7}" {
+     m_executionDelay 180
+     m_prefab "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et"
+     m_locationName "cas2"
+    }
+    TILW_SpawnPrefabInstruction "{6A58E7568ADF19D7}" {
+     m_executionDelay 186
+     m_prefab "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et"
+     m_locationName "cas3"
+    }
+    TILW_SpawnPrefabInstruction "{6A58E75682B48744}" {
+     m_executionDelay 180
+     m_prefab "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et"
+     m_locationName "cas4"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A58E75905CD9DB5}" {
+    m_flagName "UK_KIA"
+   }
+  }
+  TILW_MissionEvent "{6A58E75993136FB9}" {
+   m_name "exfil"
+   m_instructions {
+    TILW_EndGameInstruction "{6A58E759A4D5EA2D}" {
+     m_gameOverType NEUTRAL
+     m_factionKey "RHS_USAF"
+    }
+    TILW_SendMessageInstruction "{6A58E759BEF90B3D}" {
+     m_messageTitle "EXFIL COMPLETE"
+     m_messageBody "You've lost the UK Platoon but retreated back to friendly lines."
+     m_factionKeys {
+      "RHS_USAF"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A58E75660DC09FD}" {
+    m_flagName "exfil"
    }
   }
  }

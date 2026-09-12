@@ -17,12 +17,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "AO limit in effect, AH-1 has an exception"\
   ""\
+  "JIP TP"\
+  ""\
   "End conditions:"\
   ""\
   "30 Minutes pass: Victory"\
   ""\
   "80% US player causalties: Defeat"\
-  "100% UK AI causalties: Defeat"
+  "100% UK AI causalties: New conditions start."\
+  "Upon UK loss, you are to extract 80% of players back to the T intersection you started at. The zone radius is 25m."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 10
@@ -63,6 +66,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Civ intel suggests a Company sized group with a Platoon of T72s and two platoons of BMP2s."\
   "x2-4 T-72s, x5-8 BMPs"\
   ""\
+  "According to TKA TO-E, there will likely be SPAA in the form of ZSU23s on ural trucks."\
+  ""\
   "They'll have dismounts, roughly 48-60."\
   ""\
   "Their weapons include AKs, M16s, FN-FALs, SVDs, RPKs, PKMs, RPGs."\
@@ -91,11 +96,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  "VI.Comsig" {
   coords 3266.104 53.436 2209.668
   m_sTitle "VI. Comsig"
-  m_sTextData "Gound Element stay on default FREQ"\
+  m_sTextData "Gound Element stay on default FREQs"\
   "Air net: +0.1MHz"\
   ""\
-  "Callsigns: per the lobby for the ground."\
-  "Air can create their own"
+  "Callsigns: "\
+  "1'6 - Rifle Platoon HQ"\
+  "1'1 - First Rifle Squad"\
+  "3'1 - CAAT 1"\
+  "3'2 - CAAT 2"\
+  "AH-1 - Rocket 6'7"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 5

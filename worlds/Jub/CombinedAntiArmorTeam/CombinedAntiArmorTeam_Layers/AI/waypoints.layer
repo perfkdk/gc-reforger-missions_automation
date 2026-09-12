@@ -1,23 +1,29 @@
 $grp SCR_TimedWaypoint : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait.et" {
  SBF1 {
-  coords 6938.727 333.035 6380.926
+  coords 6940.535 334.952 6301.119
+  angles -0.278 0.043 -8.742
   AIBehaviorTree "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+  CompletionRadius 34.6
   m_fPriorityLevel 2
   m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
    m_holdingTime 480
   }
  }
  SBF2 {
-  coords 7248.99 390.381 6231.561
+  coords 7259.253 396.393 6264.68
+  angles 5.431 -1.135 -11.822
   AIBehaviorTree "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+  CompletionRadius 49
   m_fPriorityLevel 2
   m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
    m_holdingTime 480
   }
  }
  SBF3 {
-  coords 7407.446 408.751 6100.208
+  coords 7436.645 421.463 6169.507
+  angles 2.481 -0.431 -9.858
   AIBehaviorTree "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+  CompletionRadius 69.9
   m_fPriorityLevel 2
   m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
    m_holdingTime 480
@@ -27,11 +33,13 @@ $grp SCR_TimedWaypoint : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait
 $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  AttackWp {
   coords 6907.182 330.548 6033.253
+  angles -1.983 0.108 -3.125
   AIBehaviorTree "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
   CompletionRadius 104.6
  }
  AttackWp2 {
-  coords 6852.607 320.809 6182.803
+  coords 6852.607 320.788 6182.803
+  angles -2.8 0.334 -6.797
   AIBehaviorTree "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
   CompletionRadius 124.1
   m_fPriorityLevel 1
@@ -39,11 +47,13 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
 }
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
  FriendlyDefWp {
-  coords 6909.209 333.766 6170.958
+  coords 6909.209 333.767 6170.958
+  angles -4.062 -0.013 0.18
   CompletionRadius 38.4
  }
  FriendlyDefWp2 {
-  coords 6940.011 333.412 6021.143
+  coords 6940.011 333.414 6021.143
+  angles -3.394 0.202 -3.412
   CompletionRadius 79.8
  }
 }

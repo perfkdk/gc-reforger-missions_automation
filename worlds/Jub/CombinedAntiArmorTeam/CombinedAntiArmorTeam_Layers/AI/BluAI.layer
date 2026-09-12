@@ -51,11 +51,11 @@ $grp SCR_AIGroup : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
 }
 $grp Tank : "{1FE5969F03C50605}Prefabs/Vehicles/Tracked/M1A1/M1A1_TUSK_Desert.et" {
  M1A1_TUSK_Desert1 {
-  coords 8988.235 292.41 5379.522
+  coords 9021.937 289.969 5418.588
   angles 0 47.933 0
  }
  M1A1_TUSK_Desert2 {
-  coords 8997.223 291.648 5396.226
+  coords 9029.812 289.251 5452.429
   angles 0 33.179 0
  }
 }
@@ -80,8 +80,8 @@ Vehicle _Series_LWB_Recce_M2HB_Variant_2 : "{46C8F837F47D036E}Prefabs/Vehicles/W
    }
   }
  }
- coords 6958.281 334.031 6040.307
- angles 0 -64.908 0
+ coords 6929.498 331.857 6077.632
+ angles 0 -50.049 0
 }
 Vehicle _Series_LWB_Recce_M2HB1 : "{57FE9BCA625CA0E3}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Recce_M2HB.et" {
  components {
