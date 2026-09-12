@@ -212,7 +212,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{6A58E75763101A2C}" {
      m_executionDelay 88.9
-     m_prefab "{D0DA67C9F501A6D5}Prefabs/Systems/Artillery/ArtilleryBarrage_Medium.et"
+     m_prefab "{5E0F494A46B3B604}PrefabsEditable/EffectsModules/Mortar/EffectModule_Zoned_MortarBarrage_Combing.et"
      m_locationName "cas2"
     }
     TILW_SpawnPrefabInstruction "{6A58E757AC191A07}" {
@@ -705,26 +705,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_prefab "{FE431ECD083AAA72}worlds/Jub/CombinedAntiArmorTeam/prefabs/TILW_ExtractionTrigger_CAAT.et"
      m_locationName "SpawnPos4"
      m_setEntityName "exfil"
-    }
-    TILW_SpawnPrefabInstruction "{6A58E7560590CE7A}" {
-     m_executionDelay 168
-     m_prefab "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et"
-     m_locationName "cas1"
-    }
-    TILW_SpawnPrefabInstruction "{6A58E756882C4CB7}" {
-     m_executionDelay 180
-     m_prefab "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et"
-     m_locationName "cas2"
-    }
-    TILW_SpawnPrefabInstruction "{6A58E7568ADF19D7}" {
-     m_executionDelay 186
-     m_prefab "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et"
-     m_locationName "cas3"
-    }
-    TILW_SpawnPrefabInstruction "{6A58E75682B48744}" {
-     m_executionDelay 180
-     m_prefab "{EDD3E14E481BDA62}Prefabs/Vehicles/Airplanes/FA18A/FA18A_GBU_CAS.et"
-     m_locationName "cas4"
     }
    }
    m_condition TILW_LiteralTerm "{6A58E75905CD9DB5}" {

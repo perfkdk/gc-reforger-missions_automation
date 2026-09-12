@@ -28,11 +28,85 @@ $grp GenericEntity {
   angles 0 41.442 0
  }
  cas4 {
-  coords 6925.359 331.79 6033.074
+  coords 6980.417 349.067 6181.672
   angles 0 41.442 0
  }
  cas5 {
   coords 7153.424 359.841 5868.946
   angles 0 41.442 0
+ }
+}
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ {
+  coords 6820.229 312.998 6242.312
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 6841.995 325.043 6070.066
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 6914.192 330.663 6313.364
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 6962.237 338.082 6297.571
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 7243.985 394.121 6278.205
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 7286.255 399.529 6239.094
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 7421.732 422.551 6203.338
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 7459.805 423.078 6136.698
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
  }
 }

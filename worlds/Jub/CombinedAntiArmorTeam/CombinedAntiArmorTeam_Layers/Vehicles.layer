@@ -69,11 +69,29 @@ $grp Vehicle : "{88AC991871268D12}Prefabs/Vehicles/Wheeled/M998/M1151_armed_MK19
 }
 $grp Vehicle : "{D875ADE39021650C}Prefabs/Vehicles/Wheeled/M998/M1167_armed_TOW_Tan.et" {
  M1167_armed_TOW_Tan1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      NumSlots 5
+     }
+    }
+   }
+  }
   coords 8943.229 291.627 5350.171
   angles 0 79.971 0
   m_sAttachmentGroupName "CAAT2"
  }
  M1167_armed_TOW_Tan2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+      NumSlots 5
+     }
+    }
+   }
+  }
   coords 8949.351 291.627 5355.783
   angles 0 79.971 0
   m_sAttachmentGroupName "CAAT1"
