@@ -24,7 +24,7 @@ $grp GenericEntity {
   angles 0 41.442 0
  }
  cas3 {
-  coords 7427.146 417.353 6152.581
+  coords 7229.261 381.408 6025.163
   angles 0 41.442 0
  }
  cas4 {
@@ -92,7 +92,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  {
-  coords 7421.732 422.551 6203.338
+  coords 7223.847 378.397 6075.92
   angles 0 138.703 0
   m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
   m_conditionFlag "UK_KIA"
@@ -101,7 +101,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  {
-  coords 7459.805 423.078 6136.698
+  coords 7261.92 388.364 6009.28
   angles 0 138.703 0
   m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
   m_conditionFlag "UK_KIA"

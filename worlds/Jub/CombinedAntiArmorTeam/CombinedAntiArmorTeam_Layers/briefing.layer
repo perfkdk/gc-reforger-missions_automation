@@ -100,7 +100,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "3'1 - CAAT 1"\
   "3'2 - CAAT 2"\
   "AH-1 - Rocket 6'7"
-  m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 5
  }

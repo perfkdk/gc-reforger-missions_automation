@@ -20,7 +20,7 @@ $grp SCR_TimedWaypoint : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait
   }
  }
  SBF3 {
-  coords 7436.645 421.463 6169.507
+  coords 7238.76 381.818 6042.089
   angles 2.481 -0.431 -9.858
   AIBehaviorTree "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
   CompletionRadius 69.9

@@ -217,7 +217,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnPrefabInstruction "{6A58E757AC191A07}" {
      m_executionDelay 103.3
-     m_prefab "{0ADA5C371391FAE4}Prefabs/Systems/Artillery/ArtilleryBarrage_Large.et"
+     m_prefab "{5E0F494A46B3B604}PrefabsEditable/EffectsModules/Mortar/EffectModule_Zoned_MortarBarrage_Combing.et"
      m_locationName "cas5"
     }
    }
@@ -742,4 +742,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_factionKey "UK"
   }
  }
+}
+SCR_IndestructibleEnvironmentalEntity : "{F760B11775512C5E}Prefabs/Rocks/Desert/DesertCliff_NS_02.et" {
+ coords 6677.784 322.221 7019.57
+ angles 70.163 9.142 -176.759
+ scale 1.389
 }
