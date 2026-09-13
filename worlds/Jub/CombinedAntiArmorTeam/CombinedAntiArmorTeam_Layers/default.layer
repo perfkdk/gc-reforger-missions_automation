@@ -152,7 +152,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
           }
          }
          TILW_CrewStation "{6A58E75CF9BEF8C7}" {
-          m_allowTurret 0
+          m_allowPilot 0
           m_allowCargo 0
           m_characters {
            "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
@@ -189,7 +189,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
           }
          }
          TILW_CrewStation "{6A58E75D163E8C7B}" {
-          m_allowTurret 0
+          m_allowPilot 0
           m_allowCargo 0
           m_characters {
            "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
