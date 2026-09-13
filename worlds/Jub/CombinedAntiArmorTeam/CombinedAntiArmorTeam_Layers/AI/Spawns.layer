@@ -1,0 +1,112 @@
+$grp GenericEntity {
+ SpawnPos1 {
+  coords 6821.581 246.715 6951.728
+  angles 0 16.614 0
+ }
+ SpawnPos2 {
+  coords 7201.482 339.767 6907.979
+  angles 0 36.413 0
+ }
+ SpawnPos3 {
+  coords 7530.352 374.311 6929.418
+  angles 0 41.442 0
+ }
+ SpawnPos4 {
+  coords 8970.781 292.12 5370.353
+  angles 0 41.442 0
+ }
+ cas1 {
+  coords 6836.851 311.486 6260.822
+  angles 0 41.442 0
+ }
+ cas2 {
+  coords 7247.921 393.549 6262.835
+  angles 0 41.442 0
+ }
+ cas3 {
+  coords 7229.261 381.408 6025.163
+  angles 0 41.442 0
+ }
+ cas4 {
+  coords 6980.417 349.067 6181.672
+  angles 0 41.442 0
+ }
+ cas5 {
+  coords 7153.424 359.841 5868.946
+  angles 0 41.442 0
+ }
+}
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ {
+  coords 6820.229 312.998 6242.312
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 6841.995 325.043 6070.066
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 6914.192 330.663 6313.364
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 6962.237 338.082 6297.571
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 7243.985 394.121 6278.205
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 7286.255 399.529 6239.094
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 7223.847 378.397 6075.92
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+ {
+  coords 7261.92 388.364 6009.28
+  angles 0 138.703 0
+  m_prefab "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et"
+  m_conditionFlag "UK_KIA"
+  m_spawnTimings {
+   180.9
+  }
+ }
+}
