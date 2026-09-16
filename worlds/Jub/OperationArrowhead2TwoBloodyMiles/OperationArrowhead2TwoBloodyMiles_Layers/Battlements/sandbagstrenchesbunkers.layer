@@ -1,0 +1,112 @@
+StaticModelEntity : "{04154B3F1813D5C8}Prefabs/Structures/Military/Fortifications/Trenches/ACE_PersonalTrench_01_giant.et" {
+ coords 9239.293 0 6700.738
+ angles 0 -157.11 3.681
+}
+$grp StaticModelEntity : "{05705A754E035004}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_bare_end.et" {
+ {
+  coords 9224.191 -0.483 6627.813
+  angles 0 171.153 1.448
+ }
+ {
+  coords 9217.546 -0.507 6626.849
+  angles -0.016 -9.49 -1.448
+ }
+ {
+  coords 9186.623 -0.487 6623.265
+  angles -0.016 -9.49 -1.448
+ }
+ {
+  coords 9193.269 -0.506 6624.229
+  angles 0 171.153 1.448
+ }
+ {
+  coords 9171.585 -0.387 6596.387
+  angles 1.273 -22.516 8.934
+ }
+ {
+  coords 9177.832 -0.386 6598.849
+  angles 0.722 157.853 -2.746
+ }
+ {
+  coords 9158.742 -0.212 6643.558
+  angles -1.913 -0.38 9.314
+ }
+ {
+  coords 9169.582 -0.431 6654.644
+  angles -2.437 87.193 -7.695
+ }
+ {
+  coords 9174.043 -0.46 6642.751
+  angles 2.009 -172.761 -5.486
+ }
+}
+$grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortifications/Trenches/ACE_TrenchSegment_01_short.et" {
+ {
+  coords 9246.063 -0.001 6703.858
+  angles 0 58.621 0
+ }
+ {
+  coords 9243.365 0.027 6706.487
+  angles 0 38.992 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{23764D9776ABBFC4}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_covered.et" {
+ coords 8913.332 316.572 7512.584
+ angles 0 0 -1.36
+}
+StaticModelEntity : "{52C856CC92708A12}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_junction.et" {
+ coords 9171.019 235.022 6643.173
+ angles -3.134 20.873 1.842
+}
+GenericEntity : "{54FAC92219F4CF97}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Medium_A_Takistan_Blue.et" {
+ coords 9160.214 236.668 6642.818
+ angles -5.879 92.281 0
+}
+$grp StaticModelEntity : "{56DC80CF8932FC9A}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_bare.et" {
+ {
+  coords 9165.189 -0.212 6643.548
+  angles -1.688 -0.168 5.668
+ }
+ {
+  coords 9169.793 -0.211 6648.765
+  angles -2.296 89.184 -1.671
+ }
+}
+StaticModelEntity : "{6C7F99DA0B767221}Prefabs/Structures/Military/Fortifications/Trenches/ACE_PersonalTrench_01_big.et" {
+ coords 9228.287 0 6709.723
+ angles 0 -137.987 4.115
+}
+SCR_DestructibleBuildingEntity : "{86649C93BC876C19}Prefabs/Structures/Bulding/Military/Fortifield_Sandbag_Bunker_01.et" {
+ coords 8514.688 -0 7601.027
+ angles 0 -140.018 0
+}
+$grp StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v3.et" {
+ {
+  coords 9157.379 0.281 6729.254
+ }
+ {
+  coords 9165.986 0.548 6732.146
+ }
+}
+GenericEntity : "{BCF4F3411D3B2075}Prefabs/Props/Military/Bunkers/Bunker_Tower.et" {
+ coords 8496.727 0 7568.571
+ angles 0 123.529 0
+}
+$grp StaticModelEntity : "{DB5A27BF4057AEE1}Prefabs/Structures/Military/Fortifications/Trenches/ACE_PersonalTrench_01_small.et" {
+ {
+  coords 9047.93 -0 6685.063
+  angles -7.785 75.497 -5.249
+ }
+ {
+  coords 9056.577 -0.001 6691.564
+  angles -8.146 74.76 0.171
+ }
+ {
+  coords 9060.638 -0 6677.429
+  angles -9.622 76.911 -12.528
+ }
+}
+GenericEntity : "{FAD1D0A876BB512A}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Medium_A_Takistan_Orange.et" {
+ coords 9189.46 235.66 6623.832
+ angles 0 87.372 0
+}

@@ -1,0 +1,626 @@
+$grp Tank : "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T-72B/T72B_desert.et" {
+ T72B_desert1 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0CFD565695D}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0CFD2454F25}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0CFD3AA2DB6}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0CFE70F0B10}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 8997.118 227.303 6990.053
+  angles 0 135.609 0
+ }
+ T72B_desert2 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0CFD565695D}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0CFD2454F25}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0CFD3AA2DB6}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0CFE70F0B10}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 8534.188 212.994 7616.907
+  angles 0 131.387 0
+ }
+}
+$grp Vehicle : "{1EF865DC4E3F7E0B}IFV/BMP2/BMP2_Olive_test.et" {
+ BMP2_Olive_test1 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0CE07EC45AC}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0CE0474B32C}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0CE056D81A9}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0CE027DC36E}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 8520.002 212.934 7578.61
+  angles 0 120.059 0
+ }
+ BMP2_Olive_test2 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0CE07EC45AC}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0CE0474B32C}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0CE056D81A9}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0CE027DC36E}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 8561.604 213.477 7602.942
+  angles 0 142.837 0
+ }
+ BMP2_Olive_test3 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0CE07EC45AC}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0CE0474B32C}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0CE056D81A9}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0CE027DC36E}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 8480.785 214.669 7530.167
+  angles 0 118.172 0
+ }
+ BMP2_Olive_test4 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0CE07EC45AC}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0CE0474B32C}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0CE056D81A9}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0CE027DC36E}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 9246.169 239.593 6679.022
+  angles 0 -172.55 0
+ }
+}
+$grp SCR_AIGroup : "{2B24EF789452269D}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Group_GC_TKA_PHQ.et" {
+ reghq1 {
+  coords 9273.309 249.449 6277.078
+  m_aStaticWaypoints {
+   "DefWp1"
+  }
+ }
+ reghq2 {
+  coords 9185.494 233.624 6682.059
+  m_aStaticWaypoints {
+   "DefWp4"
+  }
+ }
+ grdhq3 {
+  coords 8321.475 201.209 7791.94
+  m_aUnitPrefabSlots {
+   "{FBA2306585922E8E}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_PL_Guards.et"
+   "{CACE65E73208A5D8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_PSG_Guards.et"
+   "{30F0ECABDE25AA20}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_Signaller_Guards.et"
+   "{0D0AD4DD7A90C03A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_Medic_Guards.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp3"
+  }
+ }
+}
+$grp SCR_AIGroup : "{5E24277419088E09}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Group_GC_TKA_RifleSquad.et" {
+ regsq1 {
+  coords 9276.581 244.675 6260.611
+  m_aStaticWaypoints {
+   "DefWp1"
+  }
+ }
+ resisq11 {
+  coords 9314.058 246.542 6155.782
+  m_aUnitPrefabSlots {
+   "{D01D39BB95955130}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SL_reserves.et"
+   "{F621B1394EE65E2A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT1_reserves.et"
+   "{B680039F74F3AD2D}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT2_reserves.et"
+   "{3FE4D0773E941CA9}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AutoRifleman_reserves.et"
+   "{721DA746B4D27ED3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SrRifleman_reserves.et"
+   "{5A37359FE33D3ABA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_Rifleman_reserves.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp1"
+  }
+ }
+ grdsq31 {
+  coords 8383.036 204.372 7675.132
+  m_aUnitPrefabSlots {
+   "{04786D310566BEC8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_SL_Guards.et"
+   "{E47AAB7F72AF1DAC}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AT1_Guards.et"
+   "{CE5E8CDC84417B83}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AT2_Guards.et"
+   "{7426528D61163BB6}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AutoRifleman_Guards.et"
+   "{B81B8E41E42AF09F}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_SrRifleman_Guards.et"
+   "{447D7006514E9321}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_RiflemanRPO_Guards.et"
+   "{7426528D61163BB6}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AutoRifleman_Guards.et"
+   "{0D0AD4DD7A90C03A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_Medic_Guards.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp3"
+  }
+ }
+ regsq2 {
+  coords 9241.038 238.228 6708.393
+  angles 0 -155.211 0
+  m_aStaticWaypoints {
+   "DefWp4"
+  }
+ }
+ resisq21 {
+  coords 9160.02 235.323 6658.966
+  m_aUnitPrefabSlots {
+   "{D01D39BB95955130}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SL_reserves.et"
+   "{F621B1394EE65E2A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT1_reserves.et"
+   "{B680039F74F3AD2D}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT2_reserves.et"
+   "{3FE4D0773E941CA9}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AutoRifleman_reserves.et"
+   "{721DA746B4D27ED3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SrRifleman_reserves.et"
+   "{5A37359FE33D3ABA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_Rifleman_reserves.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp4"
+  }
+ }
+ resisq22 {
+  coords 9204.682 235.596 6627.46
+  m_aUnitPrefabSlots {
+   "{D01D39BB95955130}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SL_reserves.et"
+   "{F621B1394EE65E2A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT1_reserves.et"
+   "{B680039F74F3AD2D}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT2_reserves.et"
+   "{3FE4D0773E941CA9}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AutoRifleman_reserves.et"
+   "{721DA746B4D27ED3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SrRifleman_reserves.et"
+   "{5A37359FE33D3ABA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_Rifleman_reserves.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp4"
+  }
+ }
+ resisq23 {
+  coords 9194.991 235.946 6858.525
+  m_aUnitPrefabSlots {
+   "{D01D39BB95955130}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SL_reserves.et"
+   "{F621B1394EE65E2A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT1_reserves.et"
+   "{B680039F74F3AD2D}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT2_reserves.et"
+   "{3FE4D0773E941CA9}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AutoRifleman_reserves.et"
+   "{721DA746B4D27ED3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SrRifleman_reserves.et"
+   "{5A37359FE33D3ABA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_Rifleman_reserves.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp4"
+  }
+ }
+ resisq12 {
+  coords 9268.378 243.517 6307.298
+  angles 0 91.883 0
+  m_aUnitPrefabSlots {
+   "{D01D39BB95955130}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SL_reserves.et"
+   "{F621B1394EE65E2A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT1_reserves.et"
+   "{B680039F74F3AD2D}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT2_reserves.et"
+   "{3FE4D0773E941CA9}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AutoRifleman_reserves.et"
+   "{721DA746B4D27ED3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SrRifleman_reserves.et"
+   "{5A37359FE33D3ABA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_Rifleman_reserves.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp1"
+  }
+ }
+ resisq13 {
+  coords 9257.589 242.814 6362.486
+  m_aUnitPrefabSlots {
+   "{D01D39BB95955130}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SL_reserves.et"
+   "{F621B1394EE65E2A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT1_reserves.et"
+   "{B680039F74F3AD2D}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT2_reserves.et"
+   "{3FE4D0773E941CA9}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AutoRifleman_reserves.et"
+   "{721DA746B4D27ED3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SrRifleman_reserves.et"
+   "{5A37359FE33D3ABA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_Rifleman_reserves.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp1"
+  }
+ }
+ grdsq32 {
+  coords 8551.961 210.021 7524.938
+  m_aUnitPrefabSlots {
+   "{04786D310566BEC8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_SL_Guards.et"
+   "{E47AAB7F72AF1DAC}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AT1_Guards.et"
+   "{CE5E8CDC84417B83}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AT2_Guards.et"
+   "{7426528D61163BB6}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AutoRifleman_Guards.et"
+   "{B81B8E41E42AF09F}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_SrRifleman_Guards.et"
+   "{447D7006514E9321}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_RiflemanRPO_Guards.et"
+   "{7426528D61163BB6}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AutoRifleman_Guards.et"
+   "{0D0AD4DD7A90C03A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_Medic_Guards.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp3"
+  }
+ }
+ grdsq33 {
+  coords 8323.01 202.268 7822.661
+  m_aUnitPrefabSlots {
+   "{04786D310566BEC8}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_SL_Guards.et"
+   "{E47AAB7F72AF1DAC}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AT1_Guards.et"
+   "{CE5E8CDC84417B83}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AT2_Guards.et"
+   "{7426528D61163BB6}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AutoRifleman_Guards.et"
+   "{B81B8E41E42AF09F}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_SrRifleman_Guards.et"
+   "{447D7006514E9321}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_RiflemanRPO_Guards.et"
+   "{7426528D61163BB6}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_AutoRifleman_Guards.et"
+   "{0D0AD4DD7A90C03A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Republican Guards(A troops)/Character_GC_TKA_Medic_Guards.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp3"
+  }
+ }
+ resisq2 {
+  coords 8838.134 216.438 7206.233
+  m_aUnitPrefabSlots {
+   "{D01D39BB95955130}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SL_reserves.et"
+   "{F621B1394EE65E2A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT1_reserves.et"
+   "{B680039F74F3AD2D}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT2_reserves.et"
+   "{3FE4D0773E941CA9}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AutoRifleman_reserves.et"
+   "{721DA746B4D27ED3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SrRifleman_reserves.et"
+   "{5A37359FE33D3ABA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_Rifleman_reserves.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp2"
+  }
+ }
+ resisq3 {
+  coords 8961.777 244.263 7056.052
+  m_aUnitPrefabSlots {
+   "{D01D39BB95955130}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SL_reserves.et"
+   "{F621B1394EE65E2A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT1_reserves.et"
+   "{B680039F74F3AD2D}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT2_reserves.et"
+   "{3FE4D0773E941CA9}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AutoRifleman_reserves.et"
+   "{721DA746B4D27ED3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SrRifleman_reserves.et"
+   "{5A37359FE33D3ABA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_Rifleman_reserves.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp2"
+  }
+ }
+ resisq4 {
+  coords 8935.969 218.726 7232.726
+  m_aUnitPrefabSlots {
+   "{D01D39BB95955130}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SL_reserves.et"
+   "{F621B1394EE65E2A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT1_reserves.et"
+   "{B680039F74F3AD2D}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AT2_reserves.et"
+   "{3FE4D0773E941CA9}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_AutoRifleman_reserves.et"
+   "{721DA746B4D27ED3}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_SrRifleman_reserves.et"
+   "{5A37359FE33D3ABA}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Reserves(C troops)/Character_GC_TKA_Rifleman_reserves.et"
+  }
+  m_aStaticWaypoints {
+   "DefWp2"
+  }
+ }
+}
+$grp Tank : "{AF1C02364D45CC5B}Prefabs/Vehicles/Tracked/T-72A/T72A_Desert.et" {
+ T72A_Desert1 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0CF8F8882B0}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0CF8CDDF1C4}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0CF8C71F46A}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0CF8A055E49}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 9303.916 246.229 6243.559
+  angles 0 -144.469 0
+ }
+ T72A_Desert2 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0CF8F8882B0}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0CF8CDDF1C4}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0CF8C71F46A}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0CF8A055E49}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 9421.177 255.041 6702.472
+  angles -9.674 -99.648 -6.247
+ }
+ T72A_Desert3 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0CF8F8882B0}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0CF8CDDF1C4}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0CF8C71F46A}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0CF8A055E49}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 9127.243 231.81 6920.704
+  angles -2.295 170.9 -0.079
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0D4B99F0952}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0D4B4B6D123}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0D4B56EF21B}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0D4B1F2537E}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+     m_noTurretDismount 1
+     m_useIdleGroups 0
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 9256.979 244.562 6244.321
+  angles 0 179.861 0
+ }
+ BTR2 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0D4C4090612}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0D4C2113096}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0D4C3A324EF}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0D4DEC91100}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 9283.386 247.26 6134.319
+  angles 0 -133.557 0
+ }
+ BTR3 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0D4D6FCE853}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0D4D634F8F0}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0D4D4D79C84}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0D4D3AA498A}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+    }
+    m_noTurretDismount 1
+   }
+  }
+  coords 9281.266 248.336 6087.043
+  angles 0 -142.525 0
+ }
+ BTR4 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0D4EB8EFC29}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0D4E8CEF49E}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0D4E820F0D7}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0D4E938426B}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 9145.788 229.41 6825.828
+  angles 0 162.241 0
+ }
+ BTR5 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0D4FFDDAD43}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0D4FF22FC3E}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0D4FCA99A30}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0D4FDAFDFC2}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 8864.803 216.557 7172.297
+  angles 0 133.881 0
+ }
+ BTR6 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0D4F5FC47EF}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0D4F520D412}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0D4F244837B}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0D4F354209E}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 8947.04 217.105 7168.649
+  angles 0 168.76 0
+ }
+ BTR7 {
+  components {
+   TILW_VehicleCrewComponent "{6A60F0D30826FEE6}" {
+    m_crewConfig TILW_CrewConfig "{6A60F0D3096E47A8}" {
+     m_crewGroups {
+      TILW_CrewGroup "{6A60F0D3068FBDF0}" {
+       m_crewStations {
+        TILW_CrewStation "{6A60F0D307842625}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 8859.349 218.301 7315.798
+  angles 0 152.576 0
+ }
+}
