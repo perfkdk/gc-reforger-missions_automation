@@ -51,7 +51,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp1"
+      "snd4"
      }
     }
    }
@@ -83,7 +83,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp1"
+      "snd4"
      }
     }
    }
@@ -115,7 +115,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp3"
+      "snd4"
      }
     }
    }
@@ -147,7 +147,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp3"
+      "snd3"
      }
     }
    }
@@ -189,7 +189,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp3"
+      "snd3"
      }
     }
    }
@@ -231,7 +231,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp3"
+      "snd3"
      }
     }
    }
@@ -275,7 +275,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp3"
+      "snd3"
      }
     }
    }
@@ -319,7 +319,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp3"
+      "snd3"
      }
     }
    }
@@ -328,7 +328,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  qrf9 {
   coords 9319.89 279.379 8666.78
   angles 0 -145.572 0
-  m_prefab "{AF1C02364D45CC5B}Prefabs/Vehicles/Tracked/T-72A/T72A_Desert.et"
+  m_prefab "{AF1C02364D45CC5B}Prefabs/Vehicles/Tracked/T72A/T72A_Desert.et"
   m_conditionFlag "trig4"
   m_crewConfig TILW_CrewConfig "{6A60F0DDFC3ECC42}" {
    m_crewGroups {
@@ -351,7 +351,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp3"
+      "snd3"
      }
     }
    }
@@ -360,7 +360,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
  qrf10 {
   coords 9333.557 267.757 8741.786
   angles 0 173.998 0
-  m_prefab "{AF1C02364D45CC5B}Prefabs/Vehicles/Tracked/T-72A/T72A_Desert.et"
+  m_prefab "{AF1C02364D45CC5B}Prefabs/Vehicles/Tracked/T72A/T72A_Desert.et"
   m_conditionFlag "trig4"
   m_crewConfig TILW_CrewConfig "{6A60F0DDFC3ECC42}" {
    m_crewGroups {
@@ -383,7 +383,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp3"
+      "snd3"
      }
     }
    }
@@ -425,7 +425,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp3"
+      "snd3"
      }
     }
    }
@@ -467,10 +467,169 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "DefWp3"
+      "snd3"
      }
     }
    }
+  }
+ }
+ qrf13 {
+  coords 10123.367 265.57 6482.721
+  angles 0 -77.401 0
+  m_prefab "{68A65EFA9B616798}Prefabs/Vehicles/Tracked/BMP1/BMP1_Desert.et"
+  m_conditionFlag "trig1"
+  m_crewConfig TILW_CrewConfig "{6A60F0DDFC3ECC42}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A60F0DDFACEC503}" {
+     m_crewStations {
+      TILW_CrewStation "{6A60F0DDFB09EC17}" {
+       m_allowTurret 0
+       m_allowCargo 0
+       m_characters {
+        "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+       }
+      }
+      TILW_CrewStation "{6A60F0DDF99FC38C}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+        "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "snd4"
+     }
+    }
+   }
+  }
+ }
+ qrf14 {
+  coords 10135.877 266.399 6469.423
+  angles 0 -77.401 0
+  m_prefab "{68A65EFA9B616798}Prefabs/Vehicles/Tracked/BMP1/BMP1_Desert.et"
+  m_conditionFlag "trig1"
+  m_crewConfig TILW_CrewConfig "{6A60F0DDFC3ECC42}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A60F0DDFACEC503}" {
+     m_crewStations {
+      TILW_CrewStation "{6A60F0DDFB09EC17}" {
+       m_allowTurret 0
+       m_allowCargo 0
+       m_characters {
+        "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+       }
+      }
+      TILW_CrewStation "{6A60F0DDF99FC38C}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+        "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "snd4"
+     }
+    }
+   }
+  }
+ }
+ qrf15 {
+  coords 10152.967 267.065 6478.742
+  angles 0 -77.401 0
+  m_prefab "{68A65EFA9B616798}Prefabs/Vehicles/Tracked/BMP1/BMP1_Desert.et"
+  m_conditionFlag "trig1"
+  m_crewConfig TILW_CrewConfig "{6A60F0DDFC3ECC42}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A60F0DDFACEC503}" {
+     m_crewStations {
+      TILW_CrewStation "{6A60F0DDFB09EC17}" {
+       m_allowTurret 0
+       m_allowCargo 0
+       m_characters {
+        "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+       }
+      }
+      TILW_CrewStation "{6A60F0DDF99FC38C}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+        "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "snd4"
+     }
+    }
+   }
+  }
+ }
+ qrf16mort {
+  coords 8416.481 205.82 7845.575
+  angles 0 173.918 0
+  m_prefab "{F5FAFFDBC271088C}PrefabsEditable/EffectsModules/Mortar/EffectModule_Zoned_MortarBarrage_Creeping.et"
+  m_conditionFlag "trig4"
+  m_spawnTimings {
+   180
+  }
+ }
+ qrf16mort2 {
+  coords 8260.317 204.054 7777.345
+  angles 0 132.409 0
+  m_prefab "{F5FAFFDBC271088C}PrefabsEditable/EffectsModules/Mortar/EffectModule_Zoned_MortarBarrage_Creeping.et"
+  m_conditionFlag "trig4"
+  m_spawnTimings {
+   195
+  }
+ }
+ qrf16mort3 {
+  coords 8447.039 204.423 7679.23
+  angles 0 153.182 0
+  m_prefab "{F5FAFFDBC271088C}PrefabsEditable/EffectsModules/Mortar/EffectModule_Zoned_MortarBarrage_Creeping.et"
+  m_conditionFlag "trig4"
+  m_spawnTimings {
+   174.7
+  }
+ }
+ qrf16smk {
+  coords 9241.214 244.194 6259.235
+  angles 0 175.583 0
+  m_prefab "{189D347F759C07DF}worlds/HitTheMan/2nd Break The Line/HTM_EffectModule_Zoned_Smoke_MortarBarrage_Creeping.et.et"
+  m_conditionFlag "trig1"
+  m_spawnTimings {
+   190.8
+  }
+ }
+ qrf16smk2 {
+  coords 9293.731 243.231 6310.883
+  angles 0 175.583 0
+  m_prefab "{189D347F759C07DF}worlds/HitTheMan/2nd Break The Line/HTM_EffectModule_Zoned_Smoke_MortarBarrage_Creeping.et.et"
+  m_conditionFlag "trig1"
+  m_spawnTimings {
+   153.7
+  }
+ }
+ qrf16mort4 {
+  coords 9130.629 230.415 6816.398
+  angles 0 140.36 0
+  m_prefab "{F5FAFFDBC271088C}PrefabsEditable/EffectsModules/Mortar/EffectModule_Zoned_MortarBarrage_Creeping.et"
+  m_conditionFlag "trig2"
+  m_spawnTimings {
+   180
+  }
+ }
+ qrf16mort5 {
+  coords 9218.994 231.202 6794.81
+  angles 0 -138.347 0
+  m_prefab "{E7B7D4467E9A82DD}PrefabsEditable/EffectsModules/Mortar/EffectModule_Zoned_MortarBarrage_Medium.et"
+  m_conditionFlag "trig2"
+  m_spawnTimings {
+   180
   }
  }
 }

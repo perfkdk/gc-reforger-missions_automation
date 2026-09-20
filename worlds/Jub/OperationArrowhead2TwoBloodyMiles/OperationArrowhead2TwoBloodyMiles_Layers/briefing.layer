@@ -17,7 +17,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission Notes"
   m_sTextData "Mission by jubxxxjub"\
   ""\
-  "AO limit in effect"\
+  "AO limit in effect but in order to not kill the M777 crew, I disabled the countdown penalty. GMs don't let the players leave the AO!"\
   ""\
   "JIP TP"\
   ""\
@@ -61,7 +61,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "x2 M777 they are located at a FB to the South East and are available for firemissions per the FDC."\
   ""\
-  "They have unlimited smoke and 122rnds HE each gun."\
+  "They have unlimited smoke/charges and 122rnds HE or AB-HE each gun."\
   ""
   m_bShowForAnyFaction 1
   m_iOrder 1

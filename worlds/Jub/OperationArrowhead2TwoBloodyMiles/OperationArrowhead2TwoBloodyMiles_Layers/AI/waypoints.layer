@@ -54,4 +54,8 @@ $grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWa
   coords 8379.111 201.174 7785.688
   CompletionRadius 180.7
  }
+ snd4 {
+  coords 9230.837 242.746 6320.759
+  CompletionRadius 180.7
+ }
 }

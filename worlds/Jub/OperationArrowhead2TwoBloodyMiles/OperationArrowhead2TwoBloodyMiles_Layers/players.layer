@@ -7,8 +7,8 @@ SCR_AIGroup M777 : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
    m_iSquadCallsign 7
   }
  }
- coords 10846.852 565.285 1202.068
- angles -3.889 -20.138 2.375
+ coords 10846.396 565.061 1182.577
+ angles 3.67 -20.761 -4.716
  m_aUnitPrefabSlots {
   "{6E2E128D68393FDF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_MortarL_D.et"
   "{3294B4A7B3E2CF9C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Marine Rifles/Desert/Character_RHS_USMC_2009_MortarCrew_D.et"

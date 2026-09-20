@@ -49,6 +49,7 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
 PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  components {
   TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   Enabled 0
    m_ignoredVehicles {
     "{54838E573DCDC027}Prefabs/Weapons/Howitzers/M777/M777_Howitzer.et"
    }
@@ -428,6 +429,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
   TILW_FactionAIKilledFlag "{6A53218F405E2EF4}" {
    m_flagName "UK_KIA"
    m_factionKey "UK"
+  }
+ }
+ m_randomFlags {
+  TILW_RandomFlag "{6A67745B48093A49}" {
+   m_flagName "qrf14"
+   m_chance 0.25
+  }
+  TILW_RandomFlag "{6A67745A06540826}" {
+   m_flagName "qrf13"
+  }
+  TILW_RandomFlag "{6A67745A198A5080}" {
+   m_flagName "qrf15"
+   m_chance 0.75
   }
  }
 }
