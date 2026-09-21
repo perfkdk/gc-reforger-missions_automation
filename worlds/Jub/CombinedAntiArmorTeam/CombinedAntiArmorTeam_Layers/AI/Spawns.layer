@@ -1,15 +1,15 @@
 $grp GenericEntity {
  SpawnPos1 {
   coords 6821.581 246.715 6951.728
-  angles 0 16.614 0
+  angles 0 -159.533 0
  }
  SpawnPos2 {
   coords 7201.482 339.767 6907.979
-  angles 0 36.413 0
+  angles 0 -169.783 0
  }
  SpawnPos3 {
   coords 7530.352 374.311 6929.418
-  angles 0 41.442 0
+  angles 0 -157.057 0
  }
  SpawnPos4 {
   coords 8970.781 292.12 5370.353
@@ -34,6 +34,26 @@ $grp GenericEntity {
  cas5 {
   coords 7153.424 359.841 5868.946
   angles 0 41.442 0
+ }
+ SpawnPos5 {
+  coords 6657.5 347.653 6407.564
+  angles 0 146.254 0
+ }
+ SpawnPos6 {
+  coords 6545.975 377.135 6121.851
+  angles 0 109.862 0
+ }
+ SpawnPos7 {
+  coords 6513.541 343.281 6369.282
+  angles 0 6.515 0
+ }
+ SpawnPos8 {
+  coords 6476.711 340.689 6283.588
+  angles 0 6.515 0
+ }
+ SpawnPos9 {
+  coords 6428.085 344.679 6233.652
+  angles 0 6.515 0
  }
 }
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
@@ -107,6 +127,54 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_conditionFlag "UK_KIA"
   m_spawnTimings {
    180.9
+  }
+ }
+ {
+  coords 6958.692 342.402 6228.251
+  angles 0 138.703 0
+  m_prefab "{D01FB74BE7440B16}PrefabsEditable/EffectsModules/Mortar/Smoke/EffectModule_Zoned_MortarBarrage_Smoke_Line.et"
+  m_spawnTimings {
+   360
+  }
+ }
+ {
+  coords 7109.147 368.295 6146.848
+  angles 0 138.703 0
+  m_prefab "{D01FB74BE7440B16}PrefabsEditable/EffectsModules/Mortar/Smoke/EffectModule_Zoned_MortarBarrage_Smoke_Line.et"
+  m_spawnTimings {
+   366.9
+  }
+ }
+ {
+  coords 7139.104 365.335 6007.505
+  angles 0 138.703 0
+  m_prefab "{D01FB74BE7440B16}PrefabsEditable/EffectsModules/Mortar/Smoke/EffectModule_Zoned_MortarBarrage_Smoke_Line.et"
+  m_spawnTimings {
+   368.9
+  }
+ }
+ {
+  coords 7303.853 394.625 5998.528
+  angles 0 138.703 0
+  m_prefab "{D01FB74BE7440B16}PrefabsEditable/EffectsModules/Mortar/Smoke/EffectModule_Zoned_MortarBarrage_Smoke_Line.et"
+  m_spawnTimings {
+   372
+  }
+ }
+ {
+  coords 7299.109 385.584 5897.713
+  angles 0 138.703 0
+  m_prefab "{D01FB74BE7440B16}PrefabsEditable/EffectsModules/Mortar/Smoke/EffectModule_Zoned_MortarBarrage_Smoke_Line.et"
+  m_spawnTimings {
+   374.8
+  }
+ }
+ {
+  coords 6806.548 308.273 6358.288
+  angles 0 114.84 0
+  m_prefab "{D01FB74BE7440B16}PrefabsEditable/EffectsModules/Mortar/Smoke/EffectModule_Zoned_MortarBarrage_Smoke_Line.et"
+  m_spawnTimings {
+   384.5
   }
  }
 }

@@ -1,8 +1,8 @@
 $grp SCR_TimedWaypoint : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait.et" {
  SBF1 {
-  coords 6940.535 334.952 6301.119
-  angles -0.278 0.043 -8.742
-  AIBehaviorTree "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+  coords 6940.535 334.95 6301.119
+  angles -2.778 0.415 -8.474
+  AIBehaviorTree "{573614D962C311BB}AI/BehaviorTrees/Waypoints/WP_SearchAndDestroy.bt"
   CompletionRadius 34.6
   m_fPriorityLevel 2
   m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
@@ -10,9 +10,9 @@ $grp SCR_TimedWaypoint : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait
   }
  }
  SBF2 {
-  coords 7259.253 396.393 6264.68
-  angles 5.431 -1.135 -11.822
-  AIBehaviorTree "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+  coords 7157.103 371.532 6249.338
+  angles 0.825 -0.126 -12.313
+  AIBehaviorTree "{573614D962C311BB}AI/BehaviorTrees/Waypoints/WP_SearchAndDestroy.bt"
   CompletionRadius 49
   m_fPriorityLevel 2
   m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
@@ -21,8 +21,8 @@ $grp SCR_TimedWaypoint : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait
  }
  SBF3 {
   coords 7238.76 381.818 6042.089
-  angles 2.481 -0.431 -9.858
-  AIBehaviorTree "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+  angles -4.992 0.72 -8.771
+  AIBehaviorTree "{573614D962C311BB}AI/BehaviorTrees/Waypoints/WP_SearchAndDestroy.bt"
   CompletionRadius 69.9
   m_fPriorityLevel 2
   m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
@@ -38,7 +38,7 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
   CompletionRadius 104.6
  }
  AttackWp2 {
-  coords 6852.607 320.788 6182.803
+  coords 6852.607 320.787 6182.803
   angles -2.8 0.334 -6.797
   AIBehaviorTree "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
   CompletionRadius 124.1
