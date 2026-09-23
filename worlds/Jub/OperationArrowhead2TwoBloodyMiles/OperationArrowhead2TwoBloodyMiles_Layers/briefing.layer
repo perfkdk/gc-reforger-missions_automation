@@ -57,7 +57,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "x1 FO team with M2HB CROWs M1151 for long range observation and engagement."\
   ""\
   "Note: TL is the Vic CO, the rifleman are drivers and gunners respectively."\
-  "*****TOW GUNNERS***** LOWER YOUR PANELS, LEST YE WISH TO PERISH"\
+  "<h3>TOW GUNNERS</h3><i>LOWER</I> YOUR PANELS, LEST YE WISH TO PERISH"\
   ""\
   "x2 M777 they are located at a FB to the South East and are available for firemissions per the FDC."\
   ""\
@@ -73,7 +73,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "ISR indicates there are entrenched vehicles comprised of BTR70s, BMP2s, T72s. Nearby there are BRDM scouts to the East at Garmsar."\
   ""\
-  "UK forces to the West have suggested that the main body of repulican guards are engaged with them but expect additional QRFs to flex from Bastam."\
+  "UK forces to the West have suggested that the main body of republican guards are engaged with them but expect additional QRFs to flex from Bastam."\
   ""\
   "To the North in the Par-e Siah oil field there is a tank company. USAF fixed wing and US Army AH-64s have decimated them but higher hasn't recieved a clear BDA. Expect some stragglers to attempt to link up with the forces in our AO as well."\
   ""\
@@ -113,7 +113,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Tank2 - 9'2"\
   "CAAT - 3'1"\
   "M777 - 6'7"\
-  "FO - 1'8"
+  "FO - 10'8"
   m_bShowForAnyFaction 1
   m_iOrder 5
  }

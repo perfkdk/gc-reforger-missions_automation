@@ -68,7 +68,7 @@ $grp SCR_AIGroup : "{BC4A2EF94B792692}Prefabs/Groups/BLUFOR/US/Marines/2009/Mari
    "{E9050156C3B0C34C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_CrewGunner_D.et"
    "{180E58FB284B70FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Desert/Character_2025_USMC_CrewDriver_D.et"
   }
-  m_sCustomNameSet "Tank Section"
+  m_sCustomNameSet "CO Tank Section"
   m_bSetPlayable 1
  }
  TankSec2 {
@@ -100,6 +100,7 @@ SCR_AIGroup FO : "{E713B4C1FB70368A}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine
   }
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1
+   m_iPlatoonCallsign 10
    m_iSquadCallsign 8
   }
  }
