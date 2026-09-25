@@ -52,11 +52,11 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    m_ignoredVehicles {
     "{54838E573DCDC027}Prefabs/Weapons/Howitzers/M777/M777_Howitzer.et"
    }
+   m_lineWidth 1
   }
   TILW_MapShapeComponent "{6508F54F9B461198}" {
    Enabled 1
-   m_visibleForEmptyFaction 0
-   m_drawArea 0
+   m_lineWidth 1
   }
  }
  coords 9072.271 279.115 6590.167
@@ -491,6 +491,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
     m_flagName "trig1"
     m_playersOnly 1
     m_ownerFactionKey "RHS_USAF"
+    m_ratioThreshold 0.01
    }
   }
  }
@@ -522,6 +523,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
     m_flagName "trig2"
     m_playersOnly 1
     m_ownerFactionKey "RHS_USAF"
+    m_ratioThreshold 0.01
    }
   }
  }
@@ -553,6 +555,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
     m_flagName "trig3"
     m_playersOnly 1
     m_ownerFactionKey "RHS_USAF"
+    m_ratioThreshold 0.01
    }
   }
  }
@@ -584,6 +587,7 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
     m_flagName "trig4"
     m_playersOnly 1
     m_ownerFactionKey "RHS_USAF"
+    m_ratioThreshold 0.01
    }
   }
  }

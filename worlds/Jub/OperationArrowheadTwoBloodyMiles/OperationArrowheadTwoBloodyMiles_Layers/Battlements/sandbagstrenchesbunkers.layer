@@ -1,4 +1,8 @@
 StaticModelEntity : "{04154B3F1813D5C8}Prefabs/Structures/Military/Fortifications/Trenches/ACE_PersonalTrench_01_giant.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A721B87C7FCC9B1}" {
+  }
+ }
  coords 9239.293 0 6700.738
  angles 0 -157.11 3.681
 }
@@ -143,6 +147,10 @@ $grp StaticModelEntity : "{19D504D46A48529A}Prefabs/Structures/Military/Fortific
  }
 }
 SCR_DestructibleBuildingEntity : "{23764D9776ABBFC4}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_covered.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A721B87CD5A45F0}" {
+  }
+ }
  coords 8913.332 316.572 7512.584
  angles 0 0 -1.36
 }
@@ -174,10 +182,18 @@ $grp StaticModelEntity : "{52C856CC92708A12}Prefabs/Structures/Military/Fortific
 }
 $grp GenericEntity : "{54FAC92219F4CF97}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Medium_A_Takistan_Blue.et" {
  {
+  components {
+   TILW_NavmeshRegenComponent "{6A721B87CE667D7E}" {
+   }
+  }
   coords 9160.214 236.668 6642.818
   angles -5.879 92.281 0
  }
  {
+  components {
+   TILW_NavmeshRegenComponent "{6A721B87B06BD69B}" {
+   }
+  }
   coords 8573.188 212.81 7579.619
   angles 2.589 45.673 1.837
  }
@@ -241,6 +257,10 @@ StaticModelEntity : "{6C7F99DA0B767221}Prefabs/Structures/Military/Fortification
  angles 0 -137.987 4.115
 }
 SCR_DestructibleBuildingEntity : "{86649C93BC876C19}Prefabs/Structures/Bulding/Military/Fortifield_Sandbag_Bunker_01.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A721B87BAD8C634}" {
+  }
+ }
  coords 8514.688 0 7601.027
  angles 0 -140.018 0
 }
@@ -261,6 +281,10 @@ $grp StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortific
  }
 }
 GenericEntity : "{BCF4F3411D3B2075}Prefabs/Props/Military/Bunkers/Bunker_Tower.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A721B87B8D5532D}" {
+  }
+ }
  coords 8496.727 0 7568.571
  angles 0 123.529 0
 }
@@ -291,6 +315,10 @@ $grp StaticModelEntity : "{DB5A27BF4057AEE1}Prefabs/Structures/Military/Fortific
  }
 }
 GenericEntity : "{FAD1D0A876BB512A}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Medium_A_Takistan_Orange.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A721B87B692DCDC}" {
+  }
+ }
  coords 9189.46 235.66 6623.832
  angles 0 87.372 0
 }
