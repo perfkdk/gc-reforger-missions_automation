@@ -61,11 +61,10 @@ $grp EditorCommentEntity {
     m_TextBackground 1
     m_Comment "HOW TO USE:"\
     ""\
-    "1. Open your mission."\
-    "2. Right click the \"TemplateMission_Layers\" folder in the workbench file directory."\
-    "3. Duplicate the layer folder to the mission folder you are working on."\
-    "4. Rename the layer folder to \"MyMissionNameHere_Layers\""\
-    "5. Reload work bench completely."
+    "1. MAKE SURE WORKBENCH IS FULLY CLOSED"\
+    "2. Copy the \"TemplateMission_Layers\" folder to your mission folder by right click copy and then pasting (DO NOT CUT)"\
+    "3. Rename the folder to \"MyMissionNameHere_Layers\""\
+    ""
    }
   }
  }
