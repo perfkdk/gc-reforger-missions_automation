@@ -1,0 +1,73 @@
+$grp EditorCommentEntity {
+ DefaultLayer_DeleteThisComment {
+  coords 3294.889 456.567 7873.15
+  angles 0 -87.744 0
+  m_Size 10
+  m_FaceCamera 1
+  m_TextBackground 1
+  m_Comment "DEFAULT LAYER"\
+  ""
+  {
+   EditorCommentEntity DeleteThisComment1 {
+    coords -5.265 -93.922 9.836
+    m_Size 10
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_Comment "The Default layer should ONLY contain:"\
+    ""\
+    "- Framework"\
+    "- PerceptionManager"\
+    "- PS_GameMode_Lobby_GC"\
+    "- SCR_AIWorld_XXXX (Replace the existing Eden AI world with the one created for your terrain)"\
+    ""\
+    "It is recommended that these prefabs are placed outside the playable area."\
+    ""\
+    "When entering Game Master, these prefabs will appear as white markers on the map. "\
+    "Placing them away from the playable area helps keep the Game Master interface clear and prevents unnecessary clutter."
+   }
+  }
+ }
+ TriggerLayer_DeleteThisComment {
+  coords 5460.207 627.164 6678.502
+  angles 0 -87.744 0
+  m_Size 10
+  m_FaceCamera 1
+  m_TextBackground 1
+  m_Comment "TRIGGERS"
+  {
+   EditorCommentEntity DeleteThisComment2 {
+    coords -5.265 -54.328 9.836
+    m_Size 10
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_Comment "- When naming a trigger, begin the name with \"Trigger_\". This allows for quick and easy filtering when searching."\
+    ""\
+    "- Place triggers in the appropriate layer depending on their purpose/type."
+   }
+  }
+ }
+ BriefLayers1_DeleteThisComment {
+  coords 2558.734 551.322 10954.199
+  angles 0 -87.744 0
+  m_Size 10
+  m_FaceCamera 1
+  m_TextBackground 1
+  m_Comment "ALLBRIEFS LAYER"
+  {
+   EditorCommentEntity DeleteThisComment3 {
+    coords -5.265 -54.328 9.836
+    m_Size 10
+    m_FaceCamera 1
+    m_TextBackground 1
+    m_Comment "The AllBriefs layer contains the Summary and Mission Notes briefing tabs. "\
+    "These tabs should contain the same information across all teams, hence their placement in AllBriefs."\
+    ""\
+    "- Once we progress past the initial lobby phase and enter the role selection screen, the Summary tab should no longer be visible. "\
+    "To achieve this, leave \"Empty faction visibility\" toggled and \"Show for any faction\" untoggled. The order should also remain at 0."\
+    ""\
+    "- Mission Notes should be visible at all times to all teams. "\
+    "Make sure both boxes are toggled. The order should be very last, so you can set this to a high number."
+   }
+  }
+ }
+}
