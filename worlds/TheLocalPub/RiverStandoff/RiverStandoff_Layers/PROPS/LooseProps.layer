@@ -1,3 +1,21 @@
+Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3s.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A76DEAED63740EE}" {
+  }
+ }
+ coords 5847.444 0 8267.675
+ angles -0.676 -27.609 -1.308
+ scale 1.136
+}
+Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A76DEAD62F26B60}" {
+  }
+ }
+ coords 5889.341 0 8265.381
+ angles 0 142.464 0
+ scale 1.044
+}
 GenericEntity : "{5E38FA40875595CF}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_04.et" {
  components {
   TILW_NavmeshRegenComponent "{6A769ADFE1B8B976}" {
@@ -14,6 +32,20 @@ GenericEntity : "{630CDF78F2391CF8}Prefabs/Vegetation/Tree/Debris/T_trunk_debris
  coords 5825.5 131.903 8269.144
  angles 0 42.997 0
 }
+Tree : "{68C5231808D63103}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2f.et" {
+ coords 5845.189 0 8252.161
+ angles 0 165.393 0
+ scale 0.733
+}
+SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteStone_01.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A76DEAD6CC86223}" {
+  }
+ }
+ coords 5890.356 0.427 8264.809
+ angles -44.027 -113.834 -59.514
+ scale 0.895
+}
 GenericEntity : "{BBA4B6B98BB002A4}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_05.et" {
  components {
   TILW_NavmeshRegenComponent "{6A769ADFF017CF89}" {
@@ -21,6 +53,15 @@ GenericEntity : "{BBA4B6B98BB002A4}Prefabs/Vegetation/Tree/Debris/T_trunk_debris
  }
  coords 5825.047 131.387 8265.558
  angles 7.384 0 0
+}
+Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A76DEAD3D4D3368}" {
+  }
+ }
+ coords 5840.641 0 8263.396
+ angles -1.962 168.557 1.537
+ scale 0.925
 }
 $grp GenericEntity : "{EAC4A761421804BD}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_01.et" {
  {

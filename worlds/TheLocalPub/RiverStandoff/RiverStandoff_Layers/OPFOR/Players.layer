@@ -5,6 +5,7 @@ SCR_AIGroup Player_USSR_HQ : "{90A51527AEC36680}Prefabs/Groups/OPFOR/Russia/1980
   }
   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
    Enabled 1
+   m_iSquadCallsign 1
   }
  }
  coords 6488.152 285.5 5796.303
@@ -24,7 +25,7 @@ $grp SCR_AIGroup : "{FFD925632C0571E9}Prefabs/Groups/OPFOR/Russia/1980s/MotorRif
     Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 2
+    m_iSquadCallsign 3
    }
   }
   coords 6497.925 285.5 5802.949
@@ -48,7 +49,7 @@ $grp SCR_AIGroup : "{FFD925632C0571E9}Prefabs/Groups/OPFOR/Russia/1980s/MotorRif
     Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 3
+    m_iSquadCallsign 4
    }
   }
   coords 6491.084 285.5 5802.442
@@ -72,7 +73,7 @@ $grp SCR_AIGroup : "{FFD925632C0571E9}Prefabs/Groups/OPFOR/Russia/1980s/MotorRif
     Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 4
+    m_iSquadCallsign 6
    }
   }
   coords 6483.991 285.5 5801.917
@@ -96,7 +97,7 @@ $grp SCR_AIGroup : "{FFD925632C0571E9}Prefabs/Groups/OPFOR/Russia/1980s/MotorRif
     Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
-    m_iSquadCallsign 5
+    m_iSquadCallsign 7
    }
   }
   coords 6490.886 285.5 5806.256

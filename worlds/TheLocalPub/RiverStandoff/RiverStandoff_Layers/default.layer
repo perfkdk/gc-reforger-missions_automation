@@ -28,6 +28,22 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 3295.969 214.657 7906.752
 }
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 18
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{6A76DEAF5EA415A7}" {
+     m_sWeatherPresetName "Overcast"
+     m_iStartingHour 18
+    }
+   }
+   m_bUseSpecifiedDate 1
+   m_iSetDay 5
+   m_iSetMonth 10
+   m_iSetYear 1986
+  }
+ }
  coords 3300.584 213.431 7872.085
  {
   RadioManagerEntity {
