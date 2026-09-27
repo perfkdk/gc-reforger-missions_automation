@@ -1,0 +1,50 @@
+GenericEntity : "{5E38FA40875595CF}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_04.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A769ADFE1B8B976}" {
+  }
+ }
+ coords 5827.647 131.702 8271.997
+ angles 10.959 -4.212 0
+}
+GenericEntity : "{630CDF78F2391CF8}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_03.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A769ADFE8D76A13}" {
+  }
+ }
+ coords 5825.5 131.903 8269.144
+ angles 0 42.997 0
+}
+GenericEntity : "{BBA4B6B98BB002A4}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_05.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A769ADFF017CF89}" {
+  }
+ }
+ coords 5825.047 131.387 8265.558
+ angles 7.384 0 0
+}
+$grp GenericEntity : "{EAC4A761421804BD}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_01.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6A769ADFC7CDADB4}" {
+   }
+  }
+  coords 5828.376 131.213 8271.535
+  angles -3.143 44.155 0
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6A769ADFD3C588E4}" {
+   }
+  }
+  coords 5824.07 131.424 8262.795
+  angles 3.751 -12.306 0
+ }
+}
+SCR_IndestructibleEnvironmentalEntity : "{F5837A3933EFF7CF}Prefabs/Rocks/Granite/GraniteStone_01_V2.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A769AD827DE925D}" {
+  }
+ }
+ coords 5820.715 -0.186 8268.809
+ angles 0 -170.38 -22.173
+}
