@@ -66,4 +66,13 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
 }
 TILW_MissionFrameworkEntity Framework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3295.865 213.934 7881.682
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6A76F5EC4EC6A68C}" {
+   m_flagName "USSRDead"
+   m_factionKey "USSR"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionAIKilledFlag "{6A76F5ECBA3DF321}" {
+  }
+ }
 }
