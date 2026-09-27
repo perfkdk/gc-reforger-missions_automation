@@ -1,0 +1,27 @@
+Tank M2A2_BUSK_OD1 : "{25BDE6AB2921AB8A}Prefabs/Vehicles/Tracked/M2A2/M2A2_BUSK_OD.et" {
+ components {
+  SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+   m_bAutomaticFuelTankSwitching 0
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{631366138943B0C8}" {
+   MultiSlots {
+    MultiSlotConfiguration "{63136613CFEF1778}" {
+     NumSlots 0
+    }
+   }
+  }
+  TILW_Flag_EntityDamage "{6A768563E9972C7C}" {
+   m_targetZone "FuelTank_01"
+   m_initialHealth 0
+  }
+ }
+ coords 5819.154 134.031 8256.13
+ angles 0 -90.334 0
+}
