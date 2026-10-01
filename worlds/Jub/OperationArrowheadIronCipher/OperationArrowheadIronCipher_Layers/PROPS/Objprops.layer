@@ -1,0 +1,45 @@
+GenericEntity {
+ components {
+  MeshObject "{6A7C12511384D7EB}" {
+   Object "{A0B66A513791BFA5}Assets/Vehicles/Tracked/T72A/T72A_Wreck.xob"
+  }
+  TILW_NavmeshRegenComponent "{6A7D3BFE994A234A}" {
+  }
+ }
+ coords 5964.253 93.534 10452.898
+ angles 0 25.498 0
+}
+GenericEntity : "{2BCCA31989E825C8}PrefabLibrary/DefaultLibrary/Props/Military/BTR70_wreck.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A7D3BFE9540BF1D}" {
+  }
+ }
+ coords 6106.162 92.678 10500.955
+ angles -0.066 166.501 -0.276
+}
+GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A7D3BFE93EC3A56}" {
+  }
+ }
+ coords 6091.651 92.74 10472.274
+ angles 0 -122.294 0
+}
+$grp GenericEntity : "{CD7AE675C0059D3B}PrefabLibrary/DefaultLibrary/Props/Military/BMP1_wreck.et" {
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6A7D3BFE900CE1F0}" {
+   }
+  }
+  coords 5965.778 93.592 10484.692
+  angles -1.347 -138.279 1.083
+ }
+ {
+  components {
+   TILW_NavmeshRegenComponent "{6A7D3BFEAEF5F8CD}" {
+   }
+  }
+  coords 5979.666 93.657 10495.953
+  angles 0 -101.306 0
+ }
+}
