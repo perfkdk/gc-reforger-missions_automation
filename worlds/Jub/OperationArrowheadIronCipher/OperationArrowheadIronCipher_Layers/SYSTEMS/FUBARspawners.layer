@@ -154,6 +154,45 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
    "DEF1"
   }
  }
+ {
+  coords 6039.059 176.962 8328.081
+  angles 0 -45.272 0
+  m_prefab "{A0C411E558DF236F}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Regulars_GunGroup.et"
+  m_conditionFlag "TransLost"
+  m_spawnTimings {
+   30
+  }
+ }
+ {
+  coords 5639.447 251.618 8204.92
+  angles 0 25.093 0
+  m_prefab "{A0C411E558DF236F}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Regulars_GunGroup.et"
+  m_conditionFlag "TransLost"
+  m_spawnTimings {
+   30
+  }
+ }
+ {
+  coords 5843.844 130.603 8397.896
+  angles 0 25.093 0
+  m_prefab "{756BBB58355968B1}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_Regulars_PlatoonHQ.et"
+  m_conditionFlag "TransLost"
+  m_spawnTimings {
+   30
+  }
+ }
+ {
+  coords 5851.539 130.6 8391.778
+  angles 0 25.093 0
+  m_prefab "{711B73BBB94DAEF8}Prefabs/Groups/BLUFOR/British Forces/1989/Group_UK_1989_SpecialForces_Patrol.et"
+  m_conditionFlag "TransLost"
+  m_spawnTimings {
+   30
+  }
+  m_waypointNames {
+   "SND2"
+  }
+ }
 }
 $grp SCR_SearchAndDestroyWaypoint : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
  SND2 {
