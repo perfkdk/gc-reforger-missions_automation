@@ -61,9 +61,9 @@ GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
   }
  }
 }
-Vehicle UAZ469_covered_CIV_Randomized1 : "{57A441224AC02CF3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_Randomized.et" {
- coords 2653.718 181.812 6683.725
- angles 0 104.64 0
+Vehicle UAZ452_cargo_CIV_blue1 : "{1D96D899FA313A08}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CIV_blue.et" {
+ coords 2653.489 181.837 6683.966
+ angles 0 102.726 0
 }
 Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
  components {
