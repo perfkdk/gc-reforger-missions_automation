@@ -59,10 +59,10 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{69FD1DD049BD69E4}" {
      m_executionDelay 1
      m_messageTitle "BRITISH VICTORY"
-     m_messageBody "The IRA have been cleared from the area of operations. British forces have successfully swept and secured the enemy positions, forcing the remaining personnel to abandon their equipment and disperse into the surrounding countryside."\
+     m_messageBody "The IRA have been cleared from the area. "\
+     "British forces have successfully swept and secured the enemy positions, forcing the remaining personnel to abandon their equipment and disperse into the surrounding countryside."\
      ""\
      "Excellent work."\
-     ""\
      "Mission will conclude shortly..."
     }
    }

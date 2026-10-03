@@ -18,9 +18,14 @@ $grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.
   }
  }
 }
+SCR_DefendWaypoint WP_L1 : "{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" {
+ coords 3003.519 189.756 6921.269
+ CompletionRadius 200
+}
 $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  WP_M1 {
-  coords 3038.379 194.314 6114.995
+  coords 3055.243 194.314 6136.292
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
   CompletionRadius 1
   m_aSettings {
    SCR_AIGroupFormationSetting "{6A10F648C7E26716}" {
@@ -29,7 +34,8 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
   }
  }
  WP_M2 {
-  coords 2854.676 182.344 6282.257
+  coords 2871.938 182.344 6299.604
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
   CompletionRadius 1
   m_aSettings {
    SCR_AIGroupFormationSetting "{6A10F648C7E26716}" {
@@ -39,6 +45,7 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
  }
  WP_M3 {
   coords 3679.485 234.503 7109.758
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
   CompletionRadius 1
   m_aSettings {
    SCR_AIGroupFormationSetting "{6A10F648C7E26716}" {
@@ -48,6 +55,7 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
  }
  WP_M4 {
   coords 3532.379 203.892 7303.597
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
   CompletionRadius 1
   m_aSettings {
    SCR_AIGroupFormationSetting "{6A10F648C7E26716}" {
@@ -58,12 +66,7 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
 }
 $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
  WP_D1 {
-  coords 2475.641 252.553 7111.648
-  CompletionRadius 100
-  m_bFastInit 1
- }
- WP_D3 {
-  coords 3031.982 187.336 6931.021
+  coords 2477.512 252.553 7078.785
   CompletionRadius 150
   m_bFastInit 1
  }

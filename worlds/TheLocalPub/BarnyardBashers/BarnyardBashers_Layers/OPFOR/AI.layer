@@ -116,9 +116,11 @@ $grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_Ri
    "{72E3018BB057A12B}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_TL.et"
    "{18AC0AC5E455B9FB}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_AR.et"
    "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+   "{57C12C4EC62AE403}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Medic.et"
+   "{49B09C56B114EE6B}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Sapper.et"
   }
   m_aStaticWaypoints {
-   "WP_D3"
+   "WP_L1"
   }
   m_bPlayable 0
  }
@@ -214,6 +216,51 @@ $grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/Group_IRA_Ri
   }
   m_aStaticWaypoints {
    "WP_D2"
+  }
+  m_bPlayable 0
+ }
+ IRA_AI_Rifle7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 2667.851 248.799 7426.455
+  angles 0 154.973 0
+  m_aUnitPrefabSlots {
+   "{7524FBDAD6D11BE8}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_SL.et"
+   "{57C12C4EC62AE403}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Medic.et"
+   "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+  }
+  m_bPlayable 0
+ }
+ IRA_AI_Rifle8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 3268.761 204.217 6909.32
+  angles 0 154.973 0
+  m_aUnitPrefabSlots {
+   "{7524FBDAD6D11BE8}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_SL.et"
+   "{BC5F207786898073}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Marksman.et"
+   "{EEE4DD240E094D64}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_Rifleman.et"
+  }
+  m_bPlayable 0
+ }
+ IRA_AI_Rifle9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "File"
+   }
+  }
+  coords 2621.148 167.497 6535.136
+  angles 0 154.973 0
+  m_aUnitPrefabSlots {
+   "{7524FBDAD6D11BE8}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_SL.et"
+   "{4ABBD4DF8A1AAD18}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_MG.et"
+   "{72E3018BB057A12B}Prefabs/Characters/Factions/OPFOR/GC_IRA/Character_GC_IRA_TL.et"
   }
   m_bPlayable 0
  }

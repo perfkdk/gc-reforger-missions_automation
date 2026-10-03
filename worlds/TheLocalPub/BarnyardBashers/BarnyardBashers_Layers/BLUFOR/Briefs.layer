@@ -26,7 +26,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• PSGT - 22B"\
   "• 1 SEC - 22C"\
   "• 2 SEC - 22D"\
-  "• 3 SEC- 22E"\
   ""\
   "• TRP OC/1st vehicle - 31A"\
   "• TRP SGT/2nd vehicle - 31B"\
@@ -68,7 +67,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Friendly forces"
   m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>  "\
   "We are the British Army."\
-  "The consisting of light infantry from 2 Platoon, B Company, 2nd Battalion, Royal Green Jackets (2 RGJ), with a strength of 28 personnel. Attached in support is 1 Troop, C Squadron, Royal Yeomanry, consisting of 12 personnel."\
+  "Consisting of light infantry from 2 Platoon(-), B Company, 2nd Battalion, Royal Green Jackets (2 RGJ), with a strength of 20 personnel. Attached in support is 1 Troop, C Squadron, Royal Yeomanry, consisting of 12 personnel."\
   "Both elements are currently staged at GRID: 022059"\
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2>  "\
