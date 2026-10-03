@@ -34,7 +34,7 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
  Trigger_OBJCat {
   coords 2812.643 187.977 6802.161
   m_queryRadius 60
-  m_captureTime 10
+  m_captureTime 5
   m_flagName "Captured_OBJCat"
   m_stopAfterFirstChange 1
   m_ignoredFactions {
@@ -46,7 +46,7 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
  Trigger_OBJDog {
   coords 2642.702 181.812 6684.821
   m_queryRadius 46
-  m_captureTime 10
+  m_captureTime 5
   m_flagName "Captured_OBJDog"
   m_stopAfterFirstChange 1
   m_ignoredFactions {
