@@ -450,4 +450,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_casualtyRatio 0.9
   }
  }
+ m_randomFlags {
+  TILW_FlagSampling "{6A875385B7584315}" {
+   m_flagNames {
+    "BMP1"
+    "BMP2"
+    "BMP3"
+    "BMP4"
+    "BMP5"
+    "BMP6"
+    "BMP7"
+    "BMP8"
+   }
+   m_k 3
+  }
+ }
 }

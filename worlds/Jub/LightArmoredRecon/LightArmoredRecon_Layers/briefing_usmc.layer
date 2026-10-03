@@ -1,5 +1,5 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- {
+ sit {
   coords 1523.177 68.4 6938.293
   m_sTitle "I. Situation"
   m_sTextData "RU forces have launched a surprise offensive, catching NATO forces off guard."\
@@ -12,12 +12,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 1
  }
- {
+ FF {
   coords 1522.922 68.724 6932.446
   m_sTitle "II. Friendly Forces"
   m_sTextData "x1 LAR platoon, x4 LAV-25s:"\
   "	Organic to the platoon is a drone hunter/killer team, MAAWs team, "\
   "	Jav gunner, Marksman, and an MMG team."\
+  "	Within the LAV that has a Jav gunner, there are x2 JAVs"\
   ""\
   ""\
   "To the East: The rifle platoon has x3 rifle squads, x1 MMG team, x1 HQ team"\
@@ -28,7 +29,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 2
  }
- {
+ EF {
   coords 1516.688 68.146 6931.829
   m_sTitle "III. Enemy Forces"
   m_sTextData "Company strength RU located near Pihlajamaa. "\
@@ -43,7 +44,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_iOrder 3
  }
- {
+ Mis {
   coords 1517.18 68.285 6925.979
   m_sTitle "IV. Mission"
   m_sTextData "We are the supporting effort to the rifle platoon, we are to clear a route to the OBJ and destroy EN forces around with the LAVs. "\
