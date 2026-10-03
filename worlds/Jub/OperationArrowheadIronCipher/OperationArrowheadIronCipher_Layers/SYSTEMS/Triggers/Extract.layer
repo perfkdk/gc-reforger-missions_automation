@@ -5,7 +5,7 @@ TILW_PresenceTriggerEntity : "{76B07D8520A22B06}worlds/Jub/OperationArrowheadIro
 }
 TILW_PresenceTriggerEntity intelex : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
  coords 8338.398 322.188 2131.728
- m_queryRadius 31.3
+ m_queryRadius 250
  m_statusMessages {
   "The intelligence was extracted."
   "Establishing presence at %2."

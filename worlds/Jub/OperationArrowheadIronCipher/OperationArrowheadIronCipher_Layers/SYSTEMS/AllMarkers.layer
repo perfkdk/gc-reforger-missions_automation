@@ -107,6 +107,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angles 0 0 0
   m_MarkerColor 0.005 0.005 0.005 1
   m_sQuadName "objective-marker"
+  m_fWorldSize 70.1
   m_sDescription "Police Station"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
@@ -116,6 +117,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angles 0 0 0
   m_MarkerColor 0.005 0.005 0.005 1
   m_sQuadName "circle"
+  m_fWorldSize 62.8
   m_sDescription "Start point"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
@@ -125,7 +127,30 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angles 0 0 0
   m_MarkerColor 0.005 0.005 0.005 1
   m_sQuadName "drop-point"
+  m_fWorldSize 44.1
   m_sDescription "Intel drop point"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ SAAAMKR1 {
+  coords 3969.006 109.212 10039.487
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "anti-air-artilery"
+  m_fWorldSize 120
+  m_sDescription "AAA zone"
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ SAAAMKR2 {
+  coords 5626.451 119.233 10958.528
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "anti-air-artilery"
+  m_fWorldSize 120
+  m_sDescription "AAA zone"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }

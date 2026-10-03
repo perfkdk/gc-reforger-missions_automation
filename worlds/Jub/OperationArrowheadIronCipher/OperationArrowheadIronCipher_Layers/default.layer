@@ -470,5 +470,20 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     "Location Flag 9"
    }
   }
+  TILW_FlagSampling "{6A8706908C8263DF}" {
+   m_flagNames {
+    "AAA1"
+    "AAA2"
+    "AAA3"
+    "AAA4"
+    "AAA5"
+    "AAA6"
+    "AAA7"
+    "AAA8"
+    "AAA9"
+    "AAA10"
+   }
+   m_k 3
+  }
  }
 }

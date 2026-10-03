@@ -150,3 +150,215 @@ $grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Tur
   angles 2.018 133.055 6.138
  }
 }
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ AAA1 {
+  coords 4065.559 137.191 9878.999
+  m_prefab "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et"
+  m_conditionFlag "AAA1"
+  m_crewConfig TILW_CrewConfig "{6A870690AD97AC7F}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A870690AA540291}" {
+     m_crewStations {
+      TILW_CrewStation "{6A870690A89CFE90}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ AAA2 {
+  coords 4655.267 140.568 10098.989
+  m_prefab "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et"
+  m_conditionFlag "AAA2"
+  m_crewConfig TILW_CrewConfig "{6A870690AD97AC7F}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A870690AA540291}" {
+     m_crewStations {
+      TILW_CrewStation "{6A870690A89CFE90}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ AAA3 {
+  coords 3724.807 176.811 9482.275
+  m_prefab "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et"
+  m_conditionFlag "AAA3"
+  m_crewConfig TILW_CrewConfig "{6A870690AD97AC7F}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A870690AA540291}" {
+     m_crewStations {
+      TILW_CrewStation "{6A870690A89CFE90}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ AAA4 {
+  coords 3930.521 190.568 8866.1
+  m_prefab "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et"
+  m_conditionFlag "AAA4"
+  m_crewConfig TILW_CrewConfig "{6A870690AD97AC7F}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A870690AA540291}" {
+     m_crewStations {
+      TILW_CrewStation "{6A870690A89CFE90}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ AAA5 {
+  coords 3636.489 179.182 8704.524
+  m_prefab "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et"
+  m_conditionFlag "AAA5"
+  m_crewConfig TILW_CrewConfig "{6A870690AD97AC7F}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A870690AA540291}" {
+     m_crewStations {
+      TILW_CrewStation "{6A870690A89CFE90}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ AAA6 {
+  coords 2997.227 277.639 8270.959
+  m_prefab "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et"
+  m_conditionFlag "AAA6"
+  m_crewConfig TILW_CrewConfig "{6A870690AD97AC7F}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A870690AA540291}" {
+     m_crewStations {
+      TILW_CrewStation "{6A870690A89CFE90}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ AAA7 {
+  coords 3094.08 246.021 8154.963
+  m_prefab "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et"
+  m_conditionFlag "AAA7"
+  m_crewConfig TILW_CrewConfig "{6A870690AD97AC7F}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A870690AA540291}" {
+     m_crewStations {
+      TILW_CrewStation "{6A870690A89CFE90}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ AAA8 {
+  coords 3045.451 310.305 8830.893
+  m_prefab "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et"
+  m_conditionFlag "AAA8"
+  m_crewConfig TILW_CrewConfig "{6A870690AD97AC7F}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A870690AA540291}" {
+     m_crewStations {
+      TILW_CrewStation "{6A870690A89CFE90}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ AAA9 {
+  coords 3243.282 269.516 8861.779
+  m_prefab "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et"
+  m_conditionFlag "AAA9"
+  m_crewConfig TILW_CrewConfig "{6A870690AD97AC7F}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A870690AA540291}" {
+     m_crewStations {
+      TILW_CrewStation "{6A870690A89CFE90}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+ AAA10 {
+  coords 4404.893 145.61 9996.888
+  m_prefab "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et"
+  m_conditionFlag "AAA10"
+  m_crewConfig TILW_CrewConfig "{6A870690AD97AC7F}" {
+   m_crewGroups {
+    TILW_CrewGroup "{6A870690AA540291}" {
+     m_crewStations {
+      TILW_CrewStation "{6A870690A89CFE90}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{21A1481C0C4345AF}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Rifleman.et"
+       }
+      }
+     }
+    }
+   }
+   m_noTurretDismount 1
+  }
+ }
+}
