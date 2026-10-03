@@ -1,39 +1,12 @@
-$grp Vehicle : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
- UH1 {
-  components {
-   SCR_FuelConsumptionComponent "{65C8D63DE15D05BC}" {
-    m_fFuelConsumption 120
-    m_fFuelConsumptionIdle 50
-   }
-   TILW_Flag_EntityDamage "{6A7D54C64A7E381D}" {
-    m_flagName "UH1"
-    m_continuous 1
-   }
-  }
-  coords 8279.552 322.636 1811.301
-  angles 0 -31.166 0
- }
- UH2 {
-  components {
-   SCR_FuelConsumptionComponent "{65C8D63DE15D05BC}" {
-    m_fFuelConsumption 120
-    m_fFuelConsumptionIdle 50
-   }
-   TILW_Flag_EntityDamage "{6A7D54C6457D9197}" {
-    m_flagName "UH2"
-   }
-  }
-  coords 8318.742 322.652 1836.138
-  angles 0 -31.166 0
- }
-}
 Vehicle AH2 : "{823CA4130CE90077}Prefabs/Vehicles/Helicopters/AH6M/AH6M_RKT.et" {
  coords 8305.71 322.187 1854.141
  angles 0 -25.788 0
+ m_sAttachmentGroupName "SOAR"
 }
 Vehicle AH1 : "{A317D959A4248173}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19.et" {
  coords 8279.821 322.188 1839.212
  angles 0 -32.643 0
+ m_sAttachmentGroupName "SOAR"
 }
 $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
  MH1 {
@@ -45,6 +18,7 @@ $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
   }
   coords 8294.909 322.188 1821.186
   angles 0 -29.515 0
+  m_sAttachmentGroupName "SOAR"
  }
  MH2 {
   components {
@@ -55,5 +29,30 @@ $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
   }
   coords 8304.526 322.188 1826.779
   angles 0 -29.515 0
+  m_sAttachmentGroupName "SOAR"
+ }
+}
+$grp Vehicle : "{C90019A0A487DDD3}Prefabs/Vehicles/Helicopters/AUS_MH60/GC_AUS_MH60_armed.et" {
+ UH1 {
+  components {
+   TILW_Flag_EntityDamage "{6A87069604E13FD4}" {
+    m_flagName "UH1"
+    m_continuous 1
+   }
+  }
+  coords 8279.552 323.008 1811.301
+  angles 0 -31.166 0
+  m_sAttachmentGroupName "SOAR"
+ }
+ UH2 {
+  components {
+   TILW_Flag_EntityDamage "{6A870696158D84B6}" {
+    m_flagName "UH2"
+    m_continuous 1
+   }
+  }
+  coords 8318.742 323.036 1836.138
+  angles 0 -31.166 0
+  m_sAttachmentGroupName "SOAR"
  }
 }
