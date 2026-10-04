@@ -1,10 +1,10 @@
 Vehicle AH2 : "{823CA4130CE90077}Prefabs/Vehicles/Helicopters/AH6M/AH6M_RKT.et" {
- coords 8305.71 322.187 1854.141
+ coords 8329.363 322.539 1868.216
  angles 0 -25.788 0
  m_sAttachmentGroupName "SOAR"
 }
 Vehicle AH1 : "{A317D959A4248173}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19.et" {
- coords 8279.821 322.188 1839.212
+ coords 8289.315 322.188 1843.335
  angles 0 -32.643 0
  m_sAttachmentGroupName "SOAR"
 }
@@ -16,7 +16,7 @@ $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
     m_continuous 1
    }
   }
-  coords 8294.909 322.188 1821.186
+  coords 8248.005 322.538 1814.812
   angles 0 -29.515 0
   m_sAttachmentGroupName "SOAR"
  }
@@ -27,7 +27,7 @@ $grp Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
     m_continuous 1
    }
   }
-  coords 8304.526 322.188 1826.779
+  coords 8240.328 322.539 1781.526
   angles 0 -29.515 0
   m_sAttachmentGroupName "SOAR"
  }

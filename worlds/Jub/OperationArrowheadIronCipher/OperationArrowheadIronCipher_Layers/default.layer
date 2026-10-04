@@ -354,7 +354,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{6A7D755B29AD7AD5}" {
      m_executionDelay 6
      m_messageTitle "FUBAR"
-     m_messageBody "All transport helos are lost; Extract to the new marked location and link up with UK troops."
+     m_messageBody "All transport helos are lost; Extract to the new marked location due south of the AO and link up with UK troops."
      m_factionKeys {
       "RHS_USAF"
      }

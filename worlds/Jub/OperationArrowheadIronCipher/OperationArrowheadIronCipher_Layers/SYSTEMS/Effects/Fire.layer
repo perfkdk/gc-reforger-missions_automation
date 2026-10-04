@@ -220,7 +220,7 @@ $grp ParticleEffectEntity {
   EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
  }
  {
-  coords 6104.811 93.211 10500.514
+  coords 6108.253 93.211 10503.67
   EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
  }
 }

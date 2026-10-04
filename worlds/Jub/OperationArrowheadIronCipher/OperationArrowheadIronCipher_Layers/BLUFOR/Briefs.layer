@@ -51,15 +51,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3205.355 399.547 11725.5
   m_sTitle "Mission"
   m_sTextData "<h2>MISSION STATEMENT: Delta</h2>"\
-  "Delta conduct a <b>RAID</b> to <b>SECURE</b> the intel at the police HQ."\
+  " Conduct a <b>RAID</b> to <b>SECURE</b> intel at the police HQ."\
   ""\
   "<h2>MISSION STATEMENT: Rangers</h2>"\
-  "Rangers conduct a <b>BLOCK</b> to <b>SUPPORT</b> the Delta at the police HQ."\
+  "Conduct a <b>BLOCK</b> to <b>SUPPORT</b> the Delta at the police HQ."\
   ""\
   "<h2>MISSION DESCRIPTION</h2>"\
-  "We have recieved a go order to secure intel at a TKA HQ that was a former police station. We don't have a description of the document."\
+  "We have received orders to secure documents from a TKA HQ that was a former police station. Our informant states that these documents have plans of upcoming operations in the region. He briefly saw the commander holding these earlier before going into the main building within the compound. He says the file has a red cover."\
   ""\
-  "We are to move quickly and assault the station before the TKA can react. <b>CLEAR</b> all hostile forces from the position and <b>SECURE</b> the intel, then extract all operators from the AO. Upon return to the souther airfield; bring the intel to the two story office building and debrief."
+  "We are to move quickly and assault the station before the TKA can react. <b>STRIKE</b> hostile forces at the position and <b>SECURE</b> the intel, then <b>EXTRACT</b> all operators back to our airfield or if we loose our helicopters instead to the friendly marked lines were a British contigent is staging to extract us if need be."
   m_aVisibleForFactions {
    "RHS_USAF"
   }

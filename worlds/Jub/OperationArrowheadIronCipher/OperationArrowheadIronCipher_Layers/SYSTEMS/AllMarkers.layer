@@ -105,7 +105,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  obj {
   coords 6078.27 99.729 10517.688
   angles 0 0 0
-  m_MarkerColor 0.005 0.005 0.005 1
+  m_MarkerColor 0.855 0.031 0.028 1
   m_sQuadName "objective-marker"
   m_fWorldSize 70.1
   m_sDescription "Police Station"
@@ -113,22 +113,13 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  SP {
-  coords 8345.019 322.187 1865.619
-  angles 0 0 0
-  m_MarkerColor 0.005 0.005 0.005 1
-  m_sQuadName "circle"
-  m_fWorldSize 62.8
+  coords 8263.176 322.187 1897.153
+  angles 0 90 0
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+  m_sQuadName "infantry-air"
+  m_fWorldSize 120
   m_sDescription "Start point"
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- EP1 {
-  coords 8340.806 330.013 2125.142
-  angles 0 0 0
-  m_MarkerColor 0.005 0.005 0.005 1
-  m_sQuadName "drop-point"
-  m_fWorldSize 44.1
-  m_sDescription "Intel drop point"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
