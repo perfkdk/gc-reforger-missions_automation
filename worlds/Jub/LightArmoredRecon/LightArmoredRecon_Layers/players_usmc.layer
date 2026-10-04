@@ -35,6 +35,18 @@ $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
   angles 0 130.74 0
  }
  LAV25_RHS4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6A875384BD506CAC}" {
+      SlotTemplate InventoryStorageSlot m249 {
+       Prefab "{246737687711A367}Prefabs/Weapons/Launchers/FGM148_Javelin/Launcher_FGM148_Javelin.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
   coords 392.235 76.21 7779.676
   angles 0 130.74 0
  }
@@ -80,8 +92,8 @@ $grp SCR_AIGroup : "{D4781AC5CA9C7B01}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
    "{142D5B9C9D92B6B2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_CrewGunner.et"
    "{6148D38EECC34565}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_CrewDriver.et"
    "{DB89B87AAF10AC8C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_TL.et"
-   "{0EC2678E52CCF8B9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_LAT.et"
-   "{BC13CD150CA5DD76}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_GL.et"
+   "{5CE20CCD29DE76DB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_MAAW.et"
+   "{42D0F5438096A912}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_MAAW_ASST.et"
    "{3552758BEBD374F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_IAR.et"
   }
   m_bPlayable 1
