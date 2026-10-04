@@ -1,0 +1,8 @@
+TILW_ExtractionTriggerEntity Trigger_Extract : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
+ coords 5839.121 134.047 8256.238
+ m_queryRadius 500
+ m_comparisonMode EQUAL_OR_LESS
+ m_flagName "Extracted"
+ m_factionKey "USSR"
+ m_ratioThreshold 0.666
+}
