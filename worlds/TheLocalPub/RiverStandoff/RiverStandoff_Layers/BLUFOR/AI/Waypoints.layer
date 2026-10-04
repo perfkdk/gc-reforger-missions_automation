@@ -33,6 +33,10 @@ AIWaypointCycle WP_C1 : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle
   "WP_P7"
  }
 }
+SCR_SearchAndDestroyWaypoint WP_QRF : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ coords 5847.866 161.842 8259.876
+ CompletionRadius 200
+}
 $grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
  WP_D1 {
   coords 5834.598 134.047 8257.09

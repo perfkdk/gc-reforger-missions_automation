@@ -37,6 +37,15 @@ Tree : "{68C5231808D63103}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula
  angles 0 165.393 0
  scale 0.733
 }
+SCR_IndestructibleEnvironmentalEntity : "{88318B05FC1D962C}Prefabs/Rocks/Granite/Granite_Boulder_01.et" {
+ components {
+  TILW_NavmeshRegenComponent "{6A88F1E65F680FD3}" {
+  }
+ }
+ coords 5932.869 0.583 8312.933
+ angles 33.721 -91.123 170.623
+ scale 0.816
+}
 SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteStone_01.et" {
  components {
   TILW_NavmeshRegenComponent "{6A76DEAD6CC86223}" {

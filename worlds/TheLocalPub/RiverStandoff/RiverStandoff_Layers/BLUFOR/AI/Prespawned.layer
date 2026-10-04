@@ -17,6 +17,30 @@ $grp SCR_AIGroup : "{7E53E193D3894D0A}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD 
    "WP_D2"
   }
  }
+ AI_US_CloseDefence3 {
+  coords 5822.741 167.086 8109.177
+  angles 0 59.022 0
+  m_aUnitPrefabSlots {
+   "{C7044CAD05A9862D}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_GL_AI.et"
+   "{A03A0A66CFA1ACB8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_AR_AI.et"
+  }
+ }
+ AI_US_CloseDefence2 {
+  coords 5681.702 139.149 8283.447
+  angles 0 59.022 0
+  m_aUnitPrefabSlots {
+   "{C7044CAD05A9862D}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_GL_AI.et"
+   "{A03A0A66CFA1ACB8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_AR_AI.et"
+  }
+ }
+ AI_US_CloseDefence4 {
+  coords 6001.233 133.392 8381.359
+  angles 0 46.148 0
+  m_aUnitPrefabSlots {
+   "{C7044CAD05A9862D}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_GL_AI.et"
+   "{A03A0A66CFA1ACB8}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/Character_US_1986_BDU_AR_AI.et"
+  }
+ }
 }
 $grp SCR_AIGroup : "{88F48844D5C43BF2}Prefabs/Groups/BLUFOR/US/Army/1986/2nd AD Bradley Mech (Woodland)/Group_US_1986_BDU_Brad_RifleSquad_M60_AI.et" {
  AI_US_Rifle2 {

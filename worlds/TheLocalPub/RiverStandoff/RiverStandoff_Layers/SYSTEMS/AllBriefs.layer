@@ -16,14 +16,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission Notes"
   m_sTextData "<h2>End Conditions:</h2>"\
   "<b>US VICTORY</b>"\
-  "• Repel the Soviet assault and cause them to withdraw (90% casualties)"\
+  "• Repel the Soviet assault and cause them to withdraw (85% casualties)"\
   "OR"\
   "• Defend the convoy long enough to repair the Bradley's engine (30mins)"\
   ""\
   "<b>OPFOR VICTORY</b>"\
-  "• Disrupt the convoy by destroying the Bradley, command truck, and <i>either</i> the ammo or fuel truck."\
-  "OR"\
-  "• Destroy 90% of US forces"\
+  "• Major win: Destroy the Bradley, command, ammo, repair, and fuel trucks (5 vehicles), and extract."\
+  "• Regular win: Destroy any 4 of the above vehicles and extract."\
+  "• Regular win: Destroy any 2 of the above vehicles and extract."\
+  "<b>Extract by moving 66%|2/3 of alive players beyond 500 meters from the centre of the convoy.</b>"\
   ""\
   "<h2>Notes:</h2>"\
   "• BLUFOR vehicle gunner is meant to be alone. It's not a bug."\
