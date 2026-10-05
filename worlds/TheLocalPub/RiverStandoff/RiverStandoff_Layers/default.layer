@@ -296,27 +296,5 @@ TILW_MissionFrameworkEntity Framework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missi
     m_matchTrue 5
    }
   }
-  TILW_MetaFlag "{6A88F1FDDAAB6EB3}" {
-   m_flagName "QRF"
-   m_definition TILW_DisjunctionTerm "{6A88F1FDD4B19450}" {
-    m_operands {
-     TILW_LiteralTerm "{6A88F1FDCBE7CD8A}" {
-      m_flagName "BradDead"
-     }
-     TILW_LiteralTerm "{6A88F1FDC98774C6}" {
-      m_flagName "CommandDead"
-     }
-     TILW_LiteralTerm "{6A88F1FDCE97BD79}" {
-      m_flagName "AmmoDead"
-     }
-     TILW_LiteralTerm "{6A88F1FDCCBF4921}" {
-      m_flagName "RepairDead"
-     }
-     TILW_LiteralTerm "{6A88F1FDCD8D65F9}" {
-      m_flagName "FuelDead"
-     }
-    }
-   }
-  }
  }
 }

@@ -160,10 +160,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  QRFDirection {
   coords 4702.522 205.736 8247.92
-  angles 0 -180 0
+  angles 0 90 0
   m_MarkerColor 0.023 0.552 0.905 1
   m_sQuadName "attack-main"
-  m_fWorldSize 200
+  m_fWorldSize 300
   m_sDescription "Likely QRF direction"
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
