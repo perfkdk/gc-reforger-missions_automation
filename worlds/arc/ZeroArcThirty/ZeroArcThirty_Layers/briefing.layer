@@ -100,13 +100,21 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 2589.351 143.124 8898.658
+  coords 2548.996 143.124 8914.204
   angles 0 0 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
   m_sQuadName "infantry"
   m_fWorldSize 40
   m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   GAME
+   POSTGAME
+   SLOTSELECTION
+   CUTSCENE
+   BRIEFING
+   DEBRIEFING
+  }
   m_bShowForAnyFaction 1
  }
  {
@@ -128,8 +136,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 2547.865 149.95 8872.393
+  coords 2548.495 149.95 8870.097
   m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+  m_MarkerColor 0.855 0.031 0.028 1
   m_sQuadName "objective-marker-2"
   m_fWorldSize 25
   m_aVisibleForFactions {
