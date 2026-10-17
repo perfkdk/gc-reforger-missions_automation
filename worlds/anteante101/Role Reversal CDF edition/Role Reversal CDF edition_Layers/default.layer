@@ -16,7 +16,7 @@ TILW_MissionFrameworkEntity framwork : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missio
     TILW_SendMessageInstruction "{688D62C2F5D75D94}" {
      m_executionDelay 1
      m_messageTitle "HVT DEAD"
-     m_messageBody "HVT is kiled. Make the infidels pay!!!"
+     m_messageBody "HVT is kiled. Make the CDF pay!!!"
      m_factionKeys {
       "RHS_AFRF"
      }
@@ -48,7 +48,7 @@ TILW_MissionFrameworkEntity framwork : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missio
     TILW_SendMessageInstruction "{688D62DA1B0183AF}" {
      m_executionDelay 1
      m_messageTitle "US KILLED"
-     m_messageBody "The US are combat ineffective"
+     m_messageBody "The CDF are combat ineffective"
      m_factionKeys {
       "RHS_AFRF"
       "GC_CDF"
@@ -64,8 +64,8 @@ TILW_MissionFrameworkEntity framwork : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missio
    m_instructions {
     TILW_SendMessageInstruction "{688D62DAAFAE2D34}" {
      m_executionDelay 1
-     m_messageTitle "THE INSURGENTS KILLED"
-     m_messageBody "The insurgents are combat ineffective."
+     m_messageTitle "THE ARFR KILLED"
+     m_messageBody "The ARFR are combat ineffective."
      m_factionKeys {
       "GC_CDF"
       "RHS_AFRF"
@@ -81,7 +81,7 @@ TILW_MissionFrameworkEntity framwork : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missio
    m_instructions {
     TILW_SendMessageInstruction "{68B84C9248804CBE}" {
      m_messageTitle "HVT EXTRACTED"
-     m_messageBody "THE INSURGENTS WON"
+     m_messageBody "THE ARFR WON"
     }
    }
    m_condition TILW_LiteralTerm "{68B84C92492F7A3D}" {
