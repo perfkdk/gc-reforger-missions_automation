@@ -31,11 +31,12 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  Extract {
-  coords 3016.508 73.146 3581.967
+  coords 2821.54 67.99 3497.724
   angles 0 90.252 0
-  m_MarkerColor 0.292 1 0 1
+  m_MarkerColor 0.899 0.007 0.676 1
   m_sQuadName "pick-up"
-  m_sDescription "Extract"
+  m_fWorldSize 35
+  m_sDescription "Extraction area"
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
  }
@@ -50,13 +51,15 @@ GenericEntity : "{DBFBF80D96CCA0F8}worlds/anteante101/Prefabs/Weapons/box_m67_AA
      }
      NumSlots 1
     }
+    MultiSlotConfiguration "{6AA4D1BC1239DAAE}" {
+     SlotTemplate InventoryStorageSlot m67 {
+      Prefab "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et"
+     }
+     NumSlots 4
+    }
    }
   }
  }
  coords 3208.656 68.053 3407.814
  angles 0 109.665 0
-}
-Vehicle Ural_Truck_1 : "{EA5D00B07E63C9D2}worlds/HitTheMan/Seeder Cold War Domination/Prefabs/Respawn Vehicles/Transports/Ural_Truck_1.et" {
- coords 3017.576 73.18 3583.074
- angles 0 -116.839 0
 }

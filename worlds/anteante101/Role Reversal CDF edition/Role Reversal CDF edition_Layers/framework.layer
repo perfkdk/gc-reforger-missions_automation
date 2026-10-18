@@ -53,9 +53,9 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
 }
 $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
  EXTRACT_TRIGGER {
-  coords 3017.016 71.928 3584.167
+  coords 2806.029 66.912 3499.924
   angles 28.526 114.463 -42.171
-  m_queryRadius 6.2
+  m_queryRadius 40
   m_flagName "EXTRACT"
   m_stopAfterFirstChange 1
   m_playersOnly 1
@@ -70,11 +70,13 @@ $grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_
   coords 3187.156 52.858 3401.291
   m_queryRadius 44.1
   m_flagName "delet_ao"
+  m_stopAfterFirstChange 1
+  m_drawShapeSurface 0
   m_playersOnly 1
   m_ignoredFactions {
-   "US"
+   "GC_CDF"
    "CIV"
   }
-  m_ownerFactionKey "GC_CDF"
+  m_ownerFactionKey "RHS_AFRF"
  }
 }
