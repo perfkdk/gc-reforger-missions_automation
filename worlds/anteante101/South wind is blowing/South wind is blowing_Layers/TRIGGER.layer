@@ -35,7 +35,7 @@ PolylineShapeEntity {
    m_flagName "CAPTURED"
    m_playersOnly 1
    m_ownerFactionKey "FIA"
-   m_ratioThreshold 0.7
+   m_ratioThreshold 0.9
   }
  }
 }

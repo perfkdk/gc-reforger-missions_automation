@@ -4,9 +4,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Overview"
   m_sTextData "1.5:1 US:INSURGENT"\
   ""\
-  "US Navy SEALs raid a familiar compound occupied by insurgent forces loyal to the infamous warlord Abu Bergers."
+  "US Navy SEALs raid a familiar compound occupied by insurgent forces loyal to the infamous warlord Abu Bergers."\
+  ""\
+  "<h2>Notes</h2>"\
+  "• Entrenching/building in doorways is forbidden."
   m_bEmptyFactionVisibility 1
-  m_bShowForAnyFaction 1
  }
  {
   coords 2757.608 138.819 9058.796
@@ -31,7 +33,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Service & Support"
   m_sTextData "Two unarmed Black Hawks are available for transport and overwatch, crewed by the 160th SOAR."\
   ""\
-  "4x wirecutters are available on top of a crate near the blackhawks."
+  "A crate next to our heilcopters has:"\
+  "• 4x wirecutters"\
+  "• 6x ladders"
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -65,20 +69,22 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
    "GC_INSURGENT"
   }
  }
- {
+ MN {
   coords 2748.46 145.886 9159.165
   m_sTitle "Mission notes"
-  m_sTextData "Mission by arc"\
+  m_sTextData "<h2>End conditions:</h2>"\
+  "<b>US VICTORY</b>"\
+  "• 100% Insurgent casualties or hold the target building within the compound for 3mins."\
   ""\
-  "2 minute setup timer, 45 minute TL"\
+  "<b>INSURGENT VICTORY</b>"\
+  "• Repel the assault by causing 80% US casualties."\
   ""\
-  "Insurgents AO limited to compound and the 2 storey across the road from it."\
+  "<h2>Notes:</h2>"\
+  "• Entrenching/building in doorways is forbidden."\
+  "• Insurgents AO limited to compound and the 2 storey across the road from it."\
+  "• If using wirecutters to cut barbed wire on the walls you may need to look straight ahead instead of up at the wire for the prompt to appear, it's a bit jank."\
   ""\
-  "If using wirecutters on the wall barbed wire you may need to look straight ahead instead of up at the wire for the prompt to appear, it's a bit jank."\
-  ""\
-  "End conditions:"\
-  "100% Insurgent casualties or HQ captured for 3 minutes - US Victory"\
-  "80% US casualties or 45 minutes pass after setup - Insurgent Victory"
+  "Mission by arc"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -94,13 +100,21 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 2589.351 143.124 8898.658
+  coords 2548.996 143.124 8914.204
   angles 0 0 0
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
   m_sQuadName "infantry"
   m_fWorldSize 40
   m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   GAME
+   POSTGAME
+   SLOTSELECTION
+   CUTSCENE
+   BRIEFING
+   DEBRIEFING
+  }
   m_bShowForAnyFaction 1
  }
  {
@@ -120,5 +134,15 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 320
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
+ }
+ {
+  coords 2548.495 149.95 8870.097
+  m_sImageSetGlow "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "objective-marker-2"
+  m_fWorldSize 25
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
  }
 }

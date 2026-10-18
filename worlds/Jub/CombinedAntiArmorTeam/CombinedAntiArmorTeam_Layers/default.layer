@@ -254,7 +254,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnVehicleInstruction "{690407A43AB6AA63}" {
      m_executionDelay 317.1
-     m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T-72B/T72B_desert.et"
+     m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T72B/T72B_Desert.et"
      m_locationName "SpawnPos1"
      m_crewConfig TILW_CrewConfig "{690407A4596337AD}" {
       m_crewGroups {
@@ -555,7 +555,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnVehicleInstruction "{6A53218A44C5ADAB}" {
      m_executionDelay 860
-     m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T-72B/T72B_desert.et"
+     m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T72B/T72B_Desert.et"
      m_locationName "SpawnPos1"
      m_crewConfig TILW_CrewConfig "{6A53218A7D2DE3CB}" {
       m_crewGroups {
@@ -586,7 +586,7 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
     TILW_SpawnVehicleInstruction "{6A53218AF0D3742B}" {
      m_executionDelay 860
-     m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T-72B/T72B_desert.et"
+     m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T72B/T72B_Desert.et"
      m_locationName "SpawnPos2"
      m_crewConfig TILW_CrewConfig "{6A53218AF0D375B9}" {
       m_crewGroups {
@@ -648,6 +648,286 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     }
    }
    m_condition TILW_LiteralTerm "{646D3D6D6587FE85}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{6A6906CAD1E249A3}" {
+   m_name "WAVE_5"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{6A6906CAD1E2490F}" {
+     m_executionDelay 859.3
+     m_prefab "{5E24277419088E09}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Group_GC_TKA_RifleSquad.et"
+     m_locationName "SpawnPos7"
+     m_waypointNames {
+      "AttackWp"
+     }
+    }
+    TILW_SpawnGroupInstruction "{6A6906CAD1E2490B}" {
+     m_executionDelay 862
+     m_prefab "{5E24277419088E09}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Group_GC_TKA_RifleSquad.et"
+     m_locationName "SpawnPos8"
+     m_waypointNames {
+      "AttackWp"
+     }
+    }
+    TILW_SpawnGroupInstruction "{6A6906CAD1E2490A}" {
+     m_executionDelay 853.4
+     m_prefab "{5E24277419088E09}Prefabs/Groups/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Group_GC_TKA_RifleSquad.et"
+     m_locationName "SpawnPos9"
+     m_waypointNames {
+      "AttackWp"
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6A6906CAD1E24975}" {
+     m_executionDelay 908
+     m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T72B/T72B_Desert.et"
+     m_locationName "SpawnPos1"
+     m_crewConfig TILW_CrewConfig "{6A6906CAD1E24974}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6A6906CAD1E24977}" {
+        m_crewStations {
+         TILW_CrewStation "{6A6906CAD1E24971}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+          }
+         }
+         TILW_CrewStation "{6A6906CAD1E24970}" {
+          m_allowPilot 0
+          m_allowCargo 0
+          m_characters {
+           "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+           "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "SBF1"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6A6906CB67C4294A}" {
+     m_executionDelay 908
+     m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T72B/T72B_Desert.et"
+     m_locationName "SpawnPos7"
+     m_crewConfig TILW_CrewConfig "{6A6906CB67C42AE3}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6A6906CB67C42AEC}" {
+        m_crewStations {
+         TILW_CrewStation "{6A6906CB67C4E7B8}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+          }
+         }
+         TILW_CrewStation "{6A6906CB67C4E7BD}" {
+          m_allowPilot 0
+          m_allowCargo 0
+          m_characters {
+           "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+           "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "SBF1"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6A6906CB6315E7E2}" {
+     m_executionDelay 908
+     m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T72B/T72B_Desert.et"
+     m_locationName "SpawnPos8"
+     m_crewConfig TILW_CrewConfig "{6A6906CB6315E7B5}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6A6906CB6315E7B7}" {
+        m_crewStations {
+         TILW_CrewStation "{6A6906CB6315E7B6}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+          }
+         }
+         TILW_CrewStation "{6A6906CB6315E7B9}" {
+          m_allowPilot 0
+          m_allowCargo 0
+          m_characters {
+           "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+           "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "SBF1"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6A6906CB7AFC762C}" {
+     m_executionDelay 908
+     m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T72B/T72B_Desert.et"
+     m_locationName "SpawnPos9"
+     m_crewConfig TILW_CrewConfig "{6A6906CB7AFC79FD}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6A6906CB7AFC79FC}" {
+        m_crewStations {
+         TILW_CrewStation "{6A6906CB7AFC79FF}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+          }
+         }
+         TILW_CrewStation "{6A6906CB7AFC79C1}" {
+          m_allowPilot 0
+          m_allowCargo 0
+          m_characters {
+           "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+           "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "SBF1"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6A6906CAD1E24972}" {
+     m_executionDelay 925.3
+     m_prefab "{0154275FD6AE2370}Prefabs/Vehicles/Tracked/T72B/T72B_Desert.et"
+     m_locationName "SpawnPos2"
+     m_crewConfig TILW_CrewConfig "{6A6906CAD1E2497D}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6A6906CAD1E2497C}" {
+        m_crewStations {
+         TILW_CrewStation "{6A6906CAD1E2497F}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+          }
+         }
+         TILW_CrewStation "{6A6906CAD1E24962}" {
+          m_allowPilot 0
+          m_allowCargo 0
+          m_characters {
+           "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+           "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "SBF2"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6A6906CAD1E2496C}" {
+     m_executionDelay 908.4
+     m_prefab "{1EF865DC4E3F7E0B}IFV/BMP2/BMP2_Olive_test.et"
+     m_locationName "SpawnPos3"
+     m_crewConfig TILW_CrewConfig "{6A6906CAD1E2496F}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6A6906CAD1E2496E}" {
+        m_crewStations {
+         TILW_CrewStation "{6A6906CAD1E24968}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+          }
+         }
+         TILW_CrewStation "{6A6906CAD1E2496B}" {
+          m_allowPilot 0
+          m_allowCargo 0
+          m_characters {
+           "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+           "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "SBF3"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6A6906CB006EC002}" {
+     m_executionDelay 908.4
+     m_prefab "{E45D9E38558183BF}Prefabs/Weapons/Tripods/6G10/Deployable_Tripod_6G10_AGS17.et"
+     m_locationName "SpawnPos5"
+     m_crewConfig TILW_CrewConfig "{6A6906CB006EC1A1}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6A6906CB006EC1A2}" {
+        m_crewStations {
+         TILW_CrewStation "{6A6906CB006EC1AD}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+          }
+         }
+         TILW_CrewStation "{6A6906CB006EC1AB}" {
+          m_allowPilot 0
+          m_allowCargo 0
+          m_characters {
+           "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+           "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "SBF3"
+        }
+       }
+      }
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6A6906CB4A671E6D}" {
+     m_executionDelay 908.4
+     m_prefab "{E45D9E38558183BF}Prefabs/Weapons/Tripods/6G10/Deployable_Tripod_6G10_AGS17.et"
+     m_locationName "SpawnPos6"
+     m_crewConfig TILW_CrewConfig "{6A6906CB4A671F9A}" {
+      m_crewGroups {
+       TILW_CrewGroup "{6A6906CB4A671F84}" {
+        m_crewStations {
+         TILW_CrewStation "{6A6906CB4A671F87}" {
+          m_allowTurret 0
+          m_allowCargo 0
+          m_characters {
+           "{FE5202FC150F9E88}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_DRVR.et"
+          }
+         }
+         TILW_CrewStation "{6A6906CB4A671F81}" {
+          m_allowPilot 0
+          m_allowCargo 0
+          m_characters {
+           "{3CE9ED2330A2793A}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_GUNR.et"
+           "{073CB3C80611CD34}Prefabs/Characters/Factions/INDFOR/GC_TKA/Takistan Army 1992-2012 (TKA)/Character_GC_TKA_Vic_CMDR.et"
+          }
+         }
+        }
+        m_waypointNames {
+         "SBF3"
+        }
+       }
+      }
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6A6906CAD1E24955}" {
     m_invertTerm 1
    }
   }
