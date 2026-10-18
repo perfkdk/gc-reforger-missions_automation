@@ -2,11 +2,15 @@ $grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TI
  SEPExtractTrig {
   coords 2400.29 178.84 7077.015
   m_queryRadius 75
-  m_captureTime 20
+  m_captureTime 5
   m_sendStatusMessages 1
   m_statusMessages {
    "The %1 has retreated."
    "The %1 is retreating."
+   ""
+   ""
+   ""
+   ""
   }
   m_locationName "Extract"
   m_displayTo {
@@ -19,11 +23,15 @@ $grp TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TI
  USExtractTrig {
   coords 4515.541 410.094 5526.742
   m_queryRadius 75
-  m_captureTime 20
+  m_captureTime 5
   m_sendStatusMessages 1
   m_statusMessages {
    "The %1 has retreated."
    "The %1 is retreating."
+   ""
+   ""
+   ""
+   ""
   }
   m_locationName "Extract"
   m_displayTo {
