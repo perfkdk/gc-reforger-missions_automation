@@ -6,6 +6,11 @@ SCR_AIGroup Gunfighter : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/202
    m_iPlatoonCallsign 6
    m_iSquadCallsign 7
   }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_sFaction "US"
+   }
+  }
  }
  coords 8288.145 322.187 1830.959
  angles 4.489 -178.521 -0.777

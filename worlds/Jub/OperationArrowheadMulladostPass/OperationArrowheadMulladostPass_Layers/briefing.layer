@@ -2,35 +2,34 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Overview {
   coords 3291.947 47.151 2221.159
   m_sTitle "Overview"
-  m_sTextData "A US Army SBCT Rifle platoon, and MGS conduct an advance to contact to Mulladost, to clear a route and sweep the village. They are supported by an AH-64."\
+  m_sTextData "A US Army SBCT rifle platoon, supported by an MGS and an AH-64, will conduct an <b>ADVANCE TO CONTACT</b> towards Mulladost to clear the route and sweep the village."\
   ""\
   "<h2>Notes</h2>"\
-  "• Rifle platoon CO is in overall command. FO required for CAS."\
+  "• The Rifle Platoon CO is in overall command."\
+  "• An FO is required to coordinate CAS."\
+  "• Due to a faction issue, select the USAF faction, then click the US faction to display all available slots."\
   ""\
-  "• Due to some faction stuff, you have to select the USAF faction then click the US faction to show all the slots"\
-  ""\
-  ""\
-  "<i><h2>This one will be hard! Sorry not sorry</h2><i/>"
+  "<i><h2>This one will be hard! Sorry, not sorry.</h2></i>"
   m_bEmptyFactionVisibility 1
  }
  MissionNotes {
   coords 3291.92 46.64 2209.38
   m_sTitle "Mission Notes"
-  m_sTextData "Mission by jubxxxjub"\
+  m_sTextData "<h2>END CONDITIONS</h2>"\
+  "<b>US VICTORY</b>"\
+  "• Mulladost is cleared of TKA forces."\
   ""\
-  "AO limit in effect, AH-64 has an exception"\
+  "<b>US DEFEAT</b>"\
+  "• 80 minutes elapse before the objective is completed."\
+  "• US player casualties reach 80%."\
   ""\
-  "You have x20 respawns; don't leave without a full stryker! You will have a black screen for 60s to let you go pee or something. You will respawn at the SP."\
+  "<h2>NOTES</h2>"\
+  "• AO limits are in effect. The AH-64 is exempt from these restrictions."\
+  "• 20x respawns | 60 second waves. Do not leave the staging point without a full Stryker."\
+  "• JIP: TP."\
   ""\
-  "JIP TP"\
-  ""\
-  "End conditions:"\
-  ""\
-  "80 Minutes pass: Mission failed"\
-  ""\
-  "80% US player causalties: Defeat"\
-  ""\
-  "Mulladost clear of TKA: Victory"
+  "<h2>MISSION BY</h2>"\
+  "jubxxxjub"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 10

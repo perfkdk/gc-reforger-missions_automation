@@ -61,7 +61,7 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
     "RHS_USAF"
    }
    m_ignoredVehicles {
-    "{397971C2026D588F}Prefabs/Vehicles/Helicopters/AH64D/AH64D_AGM114L_X2.et"
+    "{397971C2026D588F}Prefabs/Vehicles/Helicopters/AH64D/USArmy/AH64D_USArmy_AGM114L_X2.et"
    }
   }
   TILW_MapShapeComponent "{6508F54F9B461198}" {
