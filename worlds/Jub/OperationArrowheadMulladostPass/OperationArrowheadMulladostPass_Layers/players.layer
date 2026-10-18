@@ -16,8 +16,8 @@ SCR_AIGroup Gunfighter : "{17DA43E650D13074}Prefabs/Groups/BLUFOR/US/Marines/202
  angles 4.489 -178.521 -0.777
  m_faction "US"
  m_aUnitPrefabSlots {
-  "{7BB0A58F40CB2528}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_2009_US_Pilot.et"
-  "{7BB0A58F40CB2528}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2009/Rangers/Character_2009_US_Pilot.et"
+  "{6249D34810999F63}worlds/Jub/OperationArrowheadMulladostPass/Prefabs/Character_2009_US_Pilot.et"
+  "{6249D34810999F63}worlds/Jub/OperationArrowheadMulladostPass/Prefabs/Character_2009_US_Pilot.et"
  }
  m_sCustomNameSet "Rotory Detachment \"Gunfighter\""
 }
