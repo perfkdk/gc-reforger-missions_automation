@@ -194,10 +194,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageTitle "DEFEAT"
      m_messageBody "Your element has taken significant casualties. GAMEOVER"
     }
-    TILW_EndGameInstruction "{646D3D670A328E96}" {
-     m_gameOverType EDITOR_FACTION_DEFEAT
-     m_factionKey "RHS_USAF"
-    }
    }
    m_condition TILW_LiteralTerm "{646D3D6734465AA9}" {
     m_flagName "US_KIA"
@@ -218,12 +214,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
   }
   TILW_MissionEvent "{6A7A1C425F40E4BA}" {
+   m_name "Victory"
    m_instructions {
     TILW_SendMessageInstruction "{6A7A1C425BED29FE}" {
      m_messageTitle "Mission victory"
      m_messageBody "Mulladost is clear of TKA; Mission complete!"\
      ""\
      "GMs may end now or fight out any final contacts"
+    }
+    TILW_DeleteEntitiesInstruction "{6AA506122A4DE572}" {
+     m_executionDelay 0.1
+     m_entityNames {
+      "trig3"
+     }
     }
    }
    m_condition TILW_LiteralTerm "{6A7A1C4259A02FBD}" {
