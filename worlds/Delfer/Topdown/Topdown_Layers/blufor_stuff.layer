@@ -30,7 +30,7 @@ $grp GenericEntity : "{6356BFD802DEB290}Prefabs/Characters/Items/DroneCommandSta
   angles 0 84.013 0
  }
 }
-GenericEntity : "{77CA4803A4A2B8E3}Prefabs/Drones/FPVBase/FPVRPG.et" {
+GenericEntity : "{77CA4803A4A2B8E3}Prefabs/Drones/FPVBase/FPVRpg.et" {
  coords 4202.922 17.447 1782.889
 }
 Tank M113_MEV1 : "{85BCD705E465A5DC}Prefabs/Vehicles/Tracked/M113/M113_MEV.et" {

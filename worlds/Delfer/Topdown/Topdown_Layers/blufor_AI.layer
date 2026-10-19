@@ -467,7 +467,7 @@ $grp SCR_AIGroup : "{546136191CC15D5C}Prefabs/Groups/INDFOR/GC_TKA/New Takistan 
     DefaultFormation "COLUMN"
    }
   }
-  coords 3004.235 21.978 2220.19
+  coords 3004.235 21.975 2220.19
   angles 0 -92.238 0
   m_aUnitPrefabSlots {
    "{F2FED645A6220C1C}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/Character_GC_NTA_Sergeant.et"

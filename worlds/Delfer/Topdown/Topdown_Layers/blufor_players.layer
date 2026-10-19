@@ -14,7 +14,9 @@ SCR_AIGroup : "{EE714861ED0AF3AE}Prefabs/Groups/INDFOR/GC_TKA/New Takistan Army 
   "{315663792B409821}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_RTO_P.et"
   "{581DB0187EA9DADC}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_Medic_P.et"
   "{581DB0187EA9DADC}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_Medic_P.et"
+  "{2E3D34EADD2B8B10}Prefabs/Characters/Factions/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Character_GC_NTA_DroneOperator_P.et"
  }
+ m_bSetPlayable 1
  {
   $grp SCR_AIGroup : "{17CCF1A4B7F1C3E2}Prefabs/Groups/INDFOR/GC_TKA/New Takistan Army 2012-Present (NTA)/P/Group_GC_NTA_RifleSquad_P.et" {
    {
