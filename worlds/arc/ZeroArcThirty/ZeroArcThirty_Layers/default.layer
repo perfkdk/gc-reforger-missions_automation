@@ -167,10 +167,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageTitle "US VICTORY"
      m_messageBody "The insurgent HQ has been captured by US forces."
     }
-    TILW_EndGameInstruction "{632EFA6D2EB8819B}" {
-     m_executionDelay 15
-     m_factionKey "RHS_USAF"
-    }
    }
    m_condition TILW_LiteralTerm "{632F5E6230D899D5}" {
     m_flagName "US_CAP"
@@ -182,10 +178,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     TILW_SendMessageInstruction "{632EFA6D59E1A737}" {
      m_messageTitle "INSURGENT VICTORY"
      m_messageBody "US forces are retreating due to casualties."
-    }
-    TILW_EndGameInstruction "{632EFA6D2EB8819B}" {
-     m_executionDelay 15
-     m_factionKey "GC_INSURGENT"
     }
    }
    m_condition TILW_LiteralTerm "{632F5E62333C95D3}" {
@@ -199,30 +191,9 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
      m_messageTitle "US VICTORY"
      m_messageBody "The insurgent forces have been wiped out."
     }
-    TILW_EndGameInstruction "{632EFA6D2EB8819B}" {
-     m_executionDelay 15
-     m_factionKey "RHS_USAF"
-    }
    }
    m_condition TILW_LiteralTerm "{632F5E620F9D7EEF}" {
     m_flagName "INS_KIA"
-   }
-  }
-  TILW_MissionEvent "{632F5E620A2FE3B2}" {
-   m_name "TIME_LIMIT"
-   m_instructions {
-    TILW_SendMessageInstruction "{632EFA6D59E1A737}" {
-     m_executionDelay 2825
-     m_messageTitle "INSURGENT VICTORY"
-     m_messageBody "Time limit reached."
-    }
-    TILW_EndGameInstruction "{632EFA6D2EB8819B}" {
-     m_executionDelay 2835
-     m_factionKey "GC_INSURGENT"
-    }
-   }
-   m_condition TILW_LiteralTerm "{632F5E62333C95D3}" {
-    m_invertTerm 1
    }
   }
  }
@@ -246,7 +217,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
   m_fZoneTeleportedRadius 125
  }
  {
-  coords 8404.552 111.531 7119.552
+  coords 8490.652 111.531 6697.793
   m_fWarnRadius 100
  }
 }
