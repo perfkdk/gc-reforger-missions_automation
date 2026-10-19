@@ -73,9 +73,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Sec II. Radio Nets"\
   "Platoon Net- 42Mhz"\
-  "1'1 - 43Mhz"\
-  "1'2 - 44Mhz"\
-  "1'3 - 45Mhz"
+  "HQ - 38.0Mhz"\
+  "1'1 - 38.2Mhz"\
+  "1'2 - 38.4Mhz"\
+  "1'3 - 38.6Mhz"
   m_aVisibleForFactions {
    "US"
   }
