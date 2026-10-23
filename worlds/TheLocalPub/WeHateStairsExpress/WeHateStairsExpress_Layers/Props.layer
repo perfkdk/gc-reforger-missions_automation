@@ -6,9 +6,26 @@ GenericEntity : "{04E378640D28B236}Prefabs/Compositions/Misc/SubCompositions/Pal
  coords 8289.556 68.609 6700.306
  angles 0 102.504 0
 }
+StaticModelEntity : "{086E85DB687EA38F}Prefabs/Props/Construction/GravelPile_01/GravelPile_01_medium.et" {
+ coords 8283.91 48.232 6738.92
+ angles 0.994 -105.704 -5.054
+ scale 1.2
+}
 GenericEntity : "{0879933F4FDD2C2B}Prefabs/Props/Civilian/SackUniversal_01_Pile.et" {
  coords 8294.284 68.633 6730.502
  angles 0 9.951 0
+}
+$grp DecalEntity : "{091747817467C504}Prefabs/Decals/Fluids/Decal_OilStain_01_medium.et" {
+ {
+  coords 8285.15 22.047 6702.045
+  angles -90 -180 -180
+  TerrainOnly 0
+ }
+ {
+  coords 8285.799 22.042 6702.872
+  angles -90 0 -109.14
+  TerrainOnly 0
+ }
 }
 $grp GenericEntity : "{0A87B5B82979BC0A}Prefabs/Structures/BuildingParts/Misc/SmallRoof_01.et" {
  {
@@ -118,6 +135,11 @@ StaticModelEntity : "{19A3C48FC2665A3F}Prefabs/Props/Construction/GravelPile_01/
  angles 0 -47.452 0
  scale 1.3
 }
+GenericEntity : "{1CF8D6FC729D75B6}Prefabs/Props/Civilian/AC/Single Rooftop AC Unit.et" {
+ coords 8293.522 52.474 6740.828
+ angles 0 10.67 90
+ scale 1.2
+}
 SCR_DestructibleEntity : "{20DBA05813D0B9DE}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_raise.et" {
  coords 8303.124 56.665 6736.362
  angles 0 102.073 0
@@ -146,10 +168,6 @@ GenericEntity : "{33788AFA51F4A4EC}Prefabs/Models/tem_bike2_red.et" {
  coords 8292.845 47.576 6735.708
  angles 0 0.771 0
 }
-GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/BarrelMetalGroup_01.et" {
- coords 8285.538 68.627 6700.942
- angles 0 112.756 0
-}
 GenericEntity : "{36E65E74067C13F1}Prefabs/Props/Industrial/Pallets/MarsBoxContainer_01_dst.et" {
  coords 8291.585 68.636 6731.829
  angles 0 101.343 0
@@ -165,6 +183,15 @@ GenericEntity : "{40B570640010B8DB}Prefabs/Props/Civilian/AC/Rooftop AC unit Pip
 GenericEntity : "{46A95C6081A28586}Prefabs/Props/Industrial/Pallets/MarsBox_01_white.et" {
  coords 8297.332 68.64 6730.032
  angles 0 -80.596 0
+}
+$grp GenericEntity : "{47E258BBC8968F11}Prefabs/Props/Industrial/GasTank_01_rusty.et" {
+ {
+  coords 8285.527 68.748 6699.848
+ }
+ {
+  coords 8285.655 68.75 6700.277
+  angles 0 100.636 0
+ }
 }
 GenericEntity : "{48D88E385C227340}Prefabs/Compositions/Misc/SubCompositions/Barrel_Filled_01.et" {
  coords 8298.808 68.654 6733.15
@@ -208,9 +235,17 @@ GenericEntity : "{4BF528DF7A469909}Prefabs/Props/Construction/PalletJack_01.et" 
  coords 8293.309 68.631 6725.403
  angles 0 -170.596 0
 }
+GenericEntity : "{4D759A30BDE386D2}Prefabs/Structures/Military/Bunkers/AircraftShelter_E_01/AircraftShelter_E_01_powerbox.et" {
+ coords 8292.354 57.038 6741.514
+ angles 0 12.353 0
+}
 GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
  coords 8297.998 68.641 6732.53
  angles 0 -166.766 0
+}
+GenericEntity : "{51B08BDA20AF8FF7}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01.et" {
+ coords 8285.338 68.604 6700.303
+ angles 0 11.085 0
 }
 $grp GenericEntity : "{53B76331BB3E6024}Prefabs/Props/Industrial/Mine/MiningLantern_01/MiningLantern_01.et" {
  {
@@ -225,6 +260,10 @@ $grp GenericEntity : "{53B76331BB3E6024}Prefabs/Props/Industrial/Mine/MiningLant
   coords 8290.242 70.321 6716.653
   angles 0 100.073 0
  }
+}
+GenericEntity : "{5600D1ADE8A93A32}Prefabs/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Small.et" {
+ coords 8292.031 69.521 6734.627
+ angles 0 -30.517 0
 }
 SCR_DestructibleEntity : "{56CF791F12BB17B0}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_terminator_low.et" {
  coords 8298.839 58.372 6734.468
@@ -263,6 +302,10 @@ $grp SCR_DestructibleEntity : "{60D0FF15D5DD2CCE}Prefabs/Structures/Industrial/P
   placement none
  }
 }
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 8284.242 45.798 6697.339
+ angles 0 10.159 0
+}
 GenericEntity : "{68AC0C801DB072C1}Prefabs/Models/ind/tem_computer_1.et" {
  coords 8296.371 68.62 6700.527
  angles 0 10.439 0
@@ -277,6 +320,22 @@ SCR_DestructibleEntity : "{6E622A634A5677DB}Prefabs/Structures/Industrial/Pipeli
  scale 0.8
  placement none
 }
+$grp GenericEntity : "{6FCC15F459BAE576}Prefabs/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_base.et" {
+ {
+  coords 8293.336 69.524 6734.566
+  scale 0.9
+ }
+ {
+  coords 8293.156 69.61 6734.671
+  angles 0 0 -90
+  scale 0.9
+ }
+ {
+  coords 8293.008 69.524 6734.441
+  angles 0 92.198 0
+  scale 0.9
+ }
+}
 $grp GenericEntity : "{74423F859DEE6656}Prefabs/Props/Naval/Shipyard/MetalSheetStack/MetalSheetStack_mid.et" {
  {
   coords 8301.688 46.906 6709.854
@@ -290,6 +349,10 @@ $grp GenericEntity : "{74423F859DEE6656}Prefabs/Props/Naval/Shipyard/MetalSheetS
   coords 8307.515 46.764 6711.979
   angles 0.234 -164.143 -7.338
  }
+}
+GenericEntity : "{75D125481E2E0664}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_ToolRack_01.et" {
+ coords 8292.857 57.042 6743.282
+ angles 0 102.567 0
 }
 GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
  coords 8301.79 46.906 6730.818
@@ -339,10 +402,17 @@ GenericEntity : "{90A74133C1DC6226}Prefabs/Props/Industrial/Repair/EngineCrane_0
  coords 8293.634 68.616 6701.398
  angles 0 20.036 0
 }
+SCR_DestructibleBuildingEntity : "{9B5C17AFC2F524F6}Prefabs/Structures/BuildingParts/Industrial/Sawmill_E_01_Silo.et" {
+ coords 8285.704 48.878 6747.305
+ angles 0 -77.319 0
+}
 GenericEntity : "{9BDB4FCE246DD60C}Prefabs/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_V2.et" {
  coords 8285.203 47.119 6715.11
  angles 0 -110.944 0
  scale 1.56
+}
+GenericEntity : "{9F44202F88F19A46}Prefabs/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Medium.et" {
+ coords 8292.434 69.52 6734.607
 }
 GenericEntity : "{A208248B503EF831}Prefabs/Props/Civilian/Cart_01.et" {
  coords 8297.46 68.635 6721.607
@@ -354,6 +424,23 @@ GenericEntity : "{A99A323CB706AF22}Prefabs/Structures/BuildingParts/Eletrical/El
 }
 GenericEntity : "{AA3D2C0BB0D2B56B}Prefabs/Props/Crates/Crate_01_green.et" {
  coords 8285.174 72.142 6700.851
+}
+$grp DecalEntity : "{B38FBA56FA69E392}Prefabs/Decals/Fluids/Decal_OilStain_01_large.et" {
+ {
+  coords 8285.239 22.027 6702.785
+  angles -90 -180 -180
+  TerrainOnly 0
+ }
+ {
+  coords 8285.114 22.082 6701.546
+  angles -90 0 -87.389
+  TerrainOnly 0
+ }
+ {
+  coords 8285.605 22.054 6702.279
+  angles -90 -180 -180
+  TerrainOnly 0
+ }
 }
 GenericEntity : "{B8EA3DCD71F736B5}Prefabs/Structures/BuildingParts/Eletrical/DieselGenerator_01/DieselGenerator_01.et" {
  coords 8300.43 54.056 6736.092
@@ -372,6 +459,10 @@ GenericEntity : "{BD0DE17C5A356F41}Prefabs/Models/props/tem_melon3.et" {
 GenericEntity : "{C0B432254088B2D4}Prefabs/Structures/BuildingParts/Eletrical/ControlPanel_01/ControlPanel_01_base.et" {
  coords 8294.677 65.743 6739.766
  angles 0 11.573 0
+}
+GenericEntity : "{C1686BEC82BCE823}Prefabs/Props/Industrial/Mine/MiningPick_01/MiningPick_01_Pile.et" {
+ coords 8292.208 69.053 6734.576
+ angles 0 32.256 0
 }
 GenericEntity : "{C260F0E07274ACA1}Prefabs/Props/Furniture/Boiler_01.et" {
  coords 8297.62 67.634 6738.87
@@ -397,13 +488,35 @@ GenericEntity : "{D434ACF74B443D4E}Prefabs/Props/Remains/SkeletonRemains/Skeleto
  coords 8285.58 72.121 6699.96
  angles 0 46.336 0
 }
-GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
- coords 8294.353 69.22 6729.808
- angles -80.308 -173.076 2.813
+DecalEntity : "{D53741D03AB3A652}Prefabs/Decals/Fluids/Decal_OilStain_01_extralarge.et" {
+ coords 8285.297 22.036 6702.532
+ angles -90 -180 -180
+ TerrainOnly 0
+}
+GenericEntity : "{D74AF3B338ED494C}Prefabs/Props/Industrial/Lathe_01.et" {
+ coords 8292.589 68.625 6717.763
+ angles 0 100.994 0
+}
+$grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+ {
+  coords 8294.353 69.22 6729.808
+  angles -80.308 -173.076 2.813
+ }
+ {
+  coords 8291.672 69.188 6734.832
+  angles -75.02 -81.535 0
+ }
 }
 GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
  coords 8298.049 68.635 6724.364
  angles 0 -168.723 0
+}
+GenericEntity : "{DEB57429CD49782D}Prefabs/Props/Construction/GravelPile_01/SandPile_01.et" {
+ coords 8285.379 48.198 6747.095
+}
+GenericEntity : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/BarrelMetal_01_rust.et" {
+ coords 8285.174 68.954 6701.184
+ angles -90 -180 -180
 }
 SCR_DestructibleEntity : "{E38C2EEE61381A66}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_pump.et" {
  coords 8296.379 54.056 6735.5
@@ -455,6 +568,10 @@ GenericEntity : "{F4CA533A99B20DAE}Prefabs/Props/Civilian/SackUniversal_01.et" {
 GenericEntity : "{F6981BC58E2B46C5}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Paint_01.et" {
  coords 8298.078 70.248 6724.438
  angles 0 -13.738 0
+}
+GameEntity : "{FAE17A12E0729D56}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_01_on_mine.et" {
+ coords 8292.957 50.927 6743.708
+ angles 0 -165 0
 }
 GenericEntity : "{FD02F79C445455EB}Prefabs/Models/tem_small_trailer.et" {
  coords 8295.087 46.745 6704.923

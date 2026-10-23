@@ -10,7 +10,8 @@ SCR_AIGroup : "{312B31A3D81EF88A}Prefabs/Groups/OPFOR/Russia/2020/AFRF_MotorRifl
    m_iSquadCallsign 1
   }
  }
- coords 8290.967 47.156 6710.56
+ coords 8296.701 47.156 6725.233
+ angles 0 -12.639 0
  m_aUnitPrefabSlots {
   "{7284A0C1AC626E20}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/VV/RG/Blk/Character_RHS_RF_SOBR_SL_P.et"
   "{01CFA6B762B5D20E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/VV/RG/Blk/Character_RHS_RF_SOBR_MG_P.et"
@@ -31,7 +32,7 @@ $grp SCR_AIGroup : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     m_iSquadCallsign 2
    }
   }
-  coords 8293.705 47.156 6725.63
+  coords 8291.887 47.156 6725.975
   angles 0 10.95 0
   m_aUnitPrefabSlots {
    "{7284A0C1AC626E20}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/VV/RG/Blk/Character_RHS_RF_SOBR_SL_P.et"
@@ -52,7 +53,7 @@ $grp SCR_AIGroup : "{C4A6E2B567A5EEA3}Prefabs/Groups/OPFOR/Russia/2020/AFRF_Moto
     m_iSquadCallsign 3
    }
   }
-  coords 8293.411 47.156 6724.12
+  coords 8293.114 47.156 6722.585
   angles 0 10.95 0
   m_aUnitPrefabSlots {
    "{7284A0C1AC626E20}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/RHS Inherits/VV/RG/Blk/Character_RHS_RF_SOBR_SL_P.et"

@@ -8,7 +8,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Can Russian SOBR restore order? "\
   ""\
   "<h2>NOTES</h2>"\
-  "• No setup timer. <b>The mission goes live as soon as you pass the briefing.</b>"\
+  "• 10sec setup timer. <b>The mission goes live as soon as you pass the setup.</b>"\
   "FIA spawn at the top of the coal refinery, with Russian forces on the ground below. You're only 25 metres apart in a straight line, but staircases, walls and multiple levels stand between you. There is no direct line of sight between spawns, but don't mistake that for safety. Both teams can start pushing immediately, and you may find the enemy at your doorstep sooner than expected."\
   ""\
   "Waste time, blame yourself."
@@ -25,7 +25,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• Destroy 100% of FIA forces."\
   ""\
   "<h2>Notes:</h2>"\
-  "• No setup timer. <b>The mission goes live as soon as you pass the briefing.</b>"\
+  "• 10sec setup timer. <b>The mission goes live as soon as you pass the setup.</b>"\
   "FIA spawn at the top of the coal refinery, with Russian forces on the ground below. You're only 25 metres apart in a straight line, but staircases, walls and multiple levels stand between you. There is no direct line of sight between spawns, but don't mistake that for safety. Both teams can start pushing immediately, and you may find the enemy at your doorstep sooner than expected."\
   "• JIP: Deny"\
   ""\
