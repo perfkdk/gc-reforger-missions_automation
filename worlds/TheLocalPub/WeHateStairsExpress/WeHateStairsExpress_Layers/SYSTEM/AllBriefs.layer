@@ -19,7 +19,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Mission Notes"
   m_sTextData "<h2>End Conditions:</h2>"\
   "<b>FIA VICTORY</b>"\
-  "• Destroy 90% of Russian forces."\
+  "• Destroy 85% of Russian forces."\
   ""\
   "<b>RUSSIAN VICTORY</b>"\
   "• Destroy 100% of FIA forces."\
