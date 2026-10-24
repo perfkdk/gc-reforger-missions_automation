@@ -17,18 +17,36 @@ $grp GenericEntity : "{584EB34600E9698D}Prefabs/Utils/Interactions/TILW_SetFlagI
   }
   coords 4859.477 28.177 1721.992
  }
+ BombDefuserOpforDead {
+  components {
+   ActionsManagerComponent "{61F4C18E835074FF}" {
+    additionalActions {
+     TILW_BaseInteraction "{61F4C18E863E752C}" {
+      ActionTitle "DEFUSE BOMB "
+      m_actionName "ENTER CODE (DEFUSE BOMB)"
+      m_factionKeys {
+       "UK"
+      }
+      m_flagName "BombDefused"
+      m_conditionFlag "BombDefuseable"
+     }
+    }
+   }
+  }
+  coords 4859.477 28.177 1721.992
+ }
  BombDefuser {
   components {
    ActionsManagerComponent "{61F4C18E835074FF}" {
     additionalActions {
      TILW_BaseInteraction "{61F4C18E863E752C}" {
       ActionTitle "DEFUSE BOMB "
-      m_actionName "DEFUSE BOMB "
+      Duration 20
+      m_actionName "DEFUSE BOMB (20 second)"
       m_factionKeys {
        "UK"
       }
-      m_flagName "BombDefused"
-      m_conditionFlag "BombDefuseable"
+      m_flagName "BombCaptured"
      }
     }
    }
@@ -62,41 +80,19 @@ PolylineShapeEntity AO : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.e
   }
  }
 }
-$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- BombCapture {
-  coords 4857.448 25.771 1721.827
-  m_queryRadius 9
-  m_captureTime 180
-  m_sendStatusMessages 1
-  m_statusMessages {
-   ""
-   "The %1 have been spotted in the %2."
-   "The %1 are no longer defusing the bomb."
-   ""
-   ""
-   ""
-  }
-  m_locationName "bomb site"
-  m_flagName "BombCaptured"
-  m_eventsOnlyDuringGame 0
-  m_drawShapeSurface 0
-  m_drawShapeOutline 0
-  m_ownerFactionKey "UK"
+TILW_FactionTriggerEntity CivChecker : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 4856.047 36.843 1727.852
+ m_queryRadius 100
+ m_comparisonMode EQUAL_OR_LESS
+ m_flagName "Hostage<"
+ m_stopAfterFirstChange 1
+ m_drawShapeSurface 0
+ m_drawShapeOutline 0
+ m_playersOnly 1
+ m_ignoredFactions {
+  "UK"
+  "ECO"
  }
- CivChecker {
-  coords 4856.047 36.843 1727.852
-  m_queryRadius 100
-  m_comparisonMode EQUAL_OR_LESS
-  m_flagName "Hostage<"
-  m_stopAfterFirstChange 1
-  m_drawShapeSurface 0
-  m_drawShapeOutline 0
-  m_playersOnly 1
-  m_ignoredFactions {
-   "UK"
-   "ECO"
-  }
-  m_ownerFactionKey "CIV"
-  m_ratioThreshold 0.49
- }
+ m_ownerFactionKey "CIV"
+ m_ratioThreshold 0.49
 }

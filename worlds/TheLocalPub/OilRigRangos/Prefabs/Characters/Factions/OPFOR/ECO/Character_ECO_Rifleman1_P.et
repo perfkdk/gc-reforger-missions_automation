@@ -69,12 +69,6 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
       "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
-    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
-     TargetStorage "Jacket/Jacket_M70.et"
-     PrefabsToSpawn {
-      "{D511F5C330B1697E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01_Base.et" "{D511F5C330B1697E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01_Base.et" "{1852DD0D0BED6182}Prefabs/Items/Facepaint_01_Base.et" "{E71C2EEE35DAFA0E}Prefabs/Weapons/Launchers/L24A1_Flare/L24A1_Yellow.et" "{E71C2EEE35DAFA0E}Prefabs/Weapons/Launchers/L24A1_Flare/L24A1_Yellow.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et" "{CBF9B9942E07B6B8}Prefabs/Items/Equipment/Accessories/ZipCuffs/ACE_Captives_ZipCuffs.et"
-     }
-    }
     ItemsInitConfigurationItem "{62A74B5BE373CB7E}" {
      TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_multicam.et"
      TargetPurpose 1
@@ -108,6 +102,12 @@ SCR_ChimeraCharacter : "{4AF2023E868540E7}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{65D51D8B91CE547A}" {
      PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{64A8AB40750482B2}" {
+     TargetStorage "Jacket/Jacket_M70.et"
+     PrefabsToSpawn {
+      "{D511F5C330B1697E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01_Base.et" "{D511F5C330B1697E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01_Base.et" "{1852DD0D0BED6182}Prefabs/Items/ACE_Facepaint_01_Base.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
     ItemsInitConfigurationItem "{6668BB7997D3FADB}" {

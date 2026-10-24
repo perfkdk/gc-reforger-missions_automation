@@ -12,10 +12,10 @@ $grp SCR_AIGroup : "{3B60E273E42F1C3B}Prefabs/Groups/BLUFOR/British Forces/2024/
   coords 4916.933 28.775 11762.076
   angles 0 90 0
   m_aUnitPrefabSlots {
-   "{0B6959EB8C466951}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Troop1IC_VBSS_P.et"
-   "{4BC8EB4DB6539A56}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Troop2IC_VBSS_P.et"
-   "{CD021BD85461A851}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_RTO_VBSS_P.et"
-   "{2158FCD2E8BDD7EA}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Medic_VBSS_P.et"
+   "{8A7EC7914383F18F}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Troop1IC_VBSS_P.et"
+   "{CADF753779960288}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Troop2IC_VBSS_P.et"
+   "{BCC8A942646F002B}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_RTO_VBSS_P.et"
+   "{35769071DEA75887}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Medic_VBSS_P.et"
    "{3E37273DF22FED91}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_DroneOperator_VBSS_P.et"
   }
   m_bSnapToTerrain 0
@@ -58,12 +58,12 @@ $grp SCR_AIGroup : "{6CD5B930239CDD3B}Prefabs/Groups/BLUFOR/British Forces/2024/
   coords 4928.136 28.775 11758.396
   angles 0 -90 0
   m_aUnitPrefabSlots {
-   "{91ECF15E74F34731}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Section1IC_VBSS_P.et"
-   "{5404B7467B1D2AF8}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Sapper_VBSS_P.et"
-   "{3668B48E6529393A}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
-   "{D14D43F84EE6B436}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Section2IC_VBSS_P.et"
-   "{03149C88C31B4FCE}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_MachineGunner_VBSS_P.et"
-   "{3668B48E6529393A}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
+   "{F803234C92A03D97}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Section1IC_VBSS_P.et"
+   "{55660ACAFF312EC8}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Sapper_VBSS_P.et"
+   "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
+   "{B8A291EAA8B5CE90}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Section2IC_VBSS_P.et"
+   "{61FD9A20D99C007A}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_MachineGunner_VBSS_P.et"
+   "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "2 Section"
@@ -83,12 +83,12 @@ $grp SCR_AIGroup : "{6CD5B930239CDD3B}Prefabs/Groups/BLUFOR/British Forces/2024/
   coords 4923.106 28.775 11758.397
   angles 0 -90 0
   m_aUnitPrefabSlots {
-   "{91ECF15E74F34731}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Section1IC_VBSS_P.et"
-   "{5404B7467B1D2AF8}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Sapper_VBSS_P.et"
-   "{3668B48E6529393A}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
-   "{D14D43F84EE6B436}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Section2IC_VBSS_P.et"
-   "{03149C88C31B4FCE}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_MachineGunner_VBSS_P.et"
-   "{3668B48E6529393A}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
+   "{F803234C92A03D97}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Section1IC_VBSS_P.et"
+   "{55660ACAFF312EC8}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Sapper_VBSS_P.et"
+   "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
+   "{B8A291EAA8B5CE90}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Section2IC_VBSS_P.et"
+   "{61FD9A20D99C007A}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_MachineGunner_VBSS_P.et"
+   "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "1 Section"
@@ -108,12 +108,12 @@ $grp SCR_AIGroup : "{6CD5B930239CDD3B}Prefabs/Groups/BLUFOR/British Forces/2024/
   coords 4935.279 28.775 11758.396
   angles 0 -90 0
   m_aUnitPrefabSlots {
-   "{91ECF15E74F34731}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Section1IC_VBSS_P.et"
-   "{5404B7467B1D2AF8}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Sapper_VBSS_P.et"
-   "{3668B48E6529393A}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
-   "{D14D43F84EE6B436}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Section2IC_VBSS_P.et"
-   "{03149C88C31B4FCE}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_MachineGunner_VBSS_P.et"
-   "{3668B48E6529393A}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
+   "{F803234C92A03D97}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Section1IC_VBSS_P.et"
+   "{55660ACAFF312EC8}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Sapper_VBSS_P.et"
+   "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
+   "{B8A291EAA8B5CE90}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Section2IC_VBSS_P.et"
+   "{61FD9A20D99C007A}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_MachineGunner_VBSS_P.et"
+   "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "3 Section"
@@ -133,12 +133,12 @@ $grp SCR_AIGroup : "{6CD5B930239CDD3B}Prefabs/Groups/BLUFOR/British Forces/2024/
   coords 4941.508 28.775 11758.396
   angles 0 -90 0
   m_aUnitPrefabSlots {
-   "{91ECF15E74F34731}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Section1IC_VBSS_P.et"
-   "{5404B7467B1D2AF8}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Sapper_VBSS_P.et"
-   "{3668B48E6529393A}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
-   "{D14D43F84EE6B436}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Section2IC_VBSS_P.et"
-   "{03149C88C31B4FCE}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_MachineGunner_VBSS_P.et"
-   "{3668B48E6529393A}worlds/TheLocalPub/OilRigRangos/Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
+   "{F803234C92A03D97}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Section1IC_VBSS_P.et"
+   "{55660ACAFF312EC8}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Sapper_VBSS_P.et"
+   "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
+   "{B8A291EAA8B5CE90}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Section2IC_VBSS_P.et"
+   "{61FD9A20D99C007A}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_MachineGunner_VBSS_P.et"
+   "{B77F2AF4AAECA1E4}Prefabs/Characters/Factions/BLUFOR/UK_Army/2024/Royal Marines Commandos/VBSS/Character_UK_2024_RM_Rifleman_VBSS_P.et"
   }
   m_bSnapToTerrain 0
   m_sCustomNameSet "4 Section"

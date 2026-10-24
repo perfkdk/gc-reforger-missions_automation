@@ -316,6 +316,12 @@ TILW_MissionFrameworkEntity FRAMEWORK : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_Missi
      ""\
      "Go Go Go!"
     }
+    TILW_DeleteEntitiesInstruction "{6AB16EEB666CF43E}" {
+     m_executionDelay 0.5
+     m_entityNames {
+      "BombDefuser"
+     }
+    }
    }
    m_condition TILW_LiteralTerm "{668D06983DC86D68}" {
     m_flagName "ECODead"
