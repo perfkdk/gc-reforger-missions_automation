@@ -61,13 +61,13 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
     MultiSlots {
      MultiSlotConfiguration "{673CF999704BE244}" {
       SlotTemplate EquipmentStorageSlot parachutes {
-       Prefab "{C47F5D977AC94514}Prefabs/Items/Equipment/Backpacks/Stirling_Parachute.et"
+       Prefab "{C47F5D977AC94514}Prefabs/Items/Equipment/Backpacks/6TP_Parachute.et"
       }
       NumSlots 30
      }
      MultiSlotConfiguration "{6A3F248F22FAB9ED}" {
       SlotTemplate EquipmentStorageSlot parachutes {
-       Prefab "{739F928A3FC79817}Prefabs/Items/Equipment/Backpacks/Stirling_Jump_Bag.et"
+       Prefab "{739F928A3FC79817}Prefabs/Items/Equipment/Backpacks/6TP_Jump_Bag.et"
       }
       NumSlots 30
      }
