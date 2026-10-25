@@ -48,7 +48,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "We begin outside the building, on the ground floor directly in front of its only entrance. Beyond the entrance, a large series of staircases leads upwards through roughly six floors. The structure consists of multiple levels with small rooms, leading to a large, open working gantry on the top floor, offering a 360-degree view of the surrounding outside area and a ladder access onto the exposed roof."\
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2>"\
-  "• A sharpshooter and medic within the HQ element."\
+  "• Our sharpshooter has been postioned in the hills to the north. He has total freedom of movement and can go where he wishes."\
+  "(If he enters the AO limit around the building, he wont be able to leave)"\
   ""\
   "<h2>SERVICE & SUPPORT</h2>"\
   "• No vehicle support."\
